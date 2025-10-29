@@ -1,0 +1,42 @@
+---
+import '../../styles/tailwind.css';
+import LessonPage from '../../components/LessonPage';
+import { subjects } from '../../data/catalog';
+
+// SSG: объявляем все комбинации subject/course
+export const getStaticPaths = () => {
+  const paths = [];
+  for (const s of subjects) {
+    for (const c of s.courses) {
+      paths.push({ params: { subject: s.slug, course: c.slug } });
+    }
+  }
+  return paths;
+};
+
+const { subject, course } = Astro.params as { subject: string; course: string };
+const subj = subjects.find((s) => s.slug === subject);
+if (!subj) throw new Error(`Предмет не найден: ${subject}`);
+const crs = subj.courses.find((c) => c.slug === course);
+if (!crs) throw new Error(`Курс не найден: ${course}`);
+---
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{subj.title} — {crs.title}</title>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <main class="mx-auto max-w-7xl px-4 py-6">
+      <a href={`/${subj.slug}/`} class="text-sm text-emerald-700">
+        ← к курсам {subj.title}
+      </a>
+      <LessonPage
+        client:load
+        title={`${subj.title}: ${crs.title}`}
+        videoSrc={crs.videoSrc}
+        audioSrc={crs.audioSrc}
+      />
+    </main>
+  </body>
+</html>

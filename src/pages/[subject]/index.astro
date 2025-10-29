@@ -1,0 +1,29 @@
+---
+import '../../styles/tailwind.css';
+import { subjects } from '../../data/catalog';
+import CourseGrid from '../../components/CourseGrid';
+
+// SSG: объявляем пути для всех предметов
+export const getStaticPaths = () => {
+  return subjects.map((s) => ({ params: { subject: s.slug } }));
+};
+
+const { subject } = Astro.params as { subject: string };
+const data = subjects.find((s) => s.slug === subject);
+if (!data) {
+  throw new Error(`Предмет не найден: ${subject}`);
+}
+---
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{data.title} — Курсы</title>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <main class="mx-auto max-w-7xl px-4 py-6">
+      <a href="/" class="text-sm text-emerald-700">← ко всем предметам</a>
+      <CourseGrid client:load subject={data} />
+    </main>
+  </body>
+</html>
