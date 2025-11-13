@@ -1,7 +1,98 @@
 ---
-import Base from '../layouts/Base.astro';
-import LessonPage from '../components/LessonPage';
+// src/pages/lesson.astro
+import Base from "../layouts/Base.astro";
+import LessonPage from "../components/LessonPage";
+import Breadcrumbs from "../components/Breadcrumbs.astro";
+import { getCollection } from "astro:content";
+
+export const prerender = false;
+
+// Читаем query-параметры
+const url = Astro.url;
+const subject = url.searchParams.get("subject") ?? "";
+const course = url.searchParams.get("course") ?? "";
+const slug = url.searchParams.get("slug") ?? "";
+
+if (!subject || !course) {
+  throw new Error("Не переданы обязательные параметры: subject и course");
+}
+
+// 1) Предмет
+const subjects = await getCollection("subjects");
+const subjectEntry = subjects.find((s) => s.data.slug === subject);
+
+if (!subjectEntry) {
+  throw new Error(`Предмет не найден: ${subject}`);
+}
+
+// 2) Курс
+const courseEntry = (await getCollection("courses")).find(
+  (c) => c.data.subject === subject && c.data.slug === course
+);
+
+if (!courseEntry) {
+  throw new Error(`Курс не найден: ${subject}/${course}`);
+}
+
+const courseTitle = courseEntry.data.title;
+
+// 3) Уроки курса
+const allLessons = (await getCollection("lessons"))
+  .filter((l) => l.slug.startsWith(`${subject}/${course}/`))
+  .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+
+if (!allLessons.length) {
+  throw new Error(`Для курса ${subject}/${course} не найдено уроков.`);
+}
+
+// 4) Текущий урок: ищем по slug, если не нашли — берём первый
+const current =
+  allLessons.find((l) => l.slug === slug) ?? allLessons[0];
+
+const audioUrl = current.data.audioRel
+  ? `/media/${subject}/${course}/${current.data.audioRel}`
+  : current.data.audio ?? null;
+
+const videoUrl = current.data.videoRel
+  ? `/media/${subject}/${course}/${current.data.videoRel}`
+  : current.data.video ?? null;
+
+const currentLesson = {
+  slug: current.slug,
+  title: current.data.title,
+  order: current.data.order,
+  hasAudio: current.data.hasAudio,
+  hasVideo: current.data.hasVideo,
+  audio: audioUrl,
+  video: videoUrl,
+  html: current.body,
+};
+
+const lessons = allLessons.map((l) => ({
+  slug: l.slug,
+  title: l.data.title,
+  order: l.data.order,
+  hasAudio: l.data.hasAudio,
+  hasVideo: l.data.hasVideo,
+}));
 ---
-<Base title="Lesson">
-  <LessonPage client:load />
+
+<Base title={`${subjectEntry.data.title} — ${courseTitle}`}>
+  <Breadcrumbs
+    items={[
+      { label: "Главная", href: "/" },
+      { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
+      { label: courseTitle, href: `/${subject}/${course}` },
+      { label: currentLesson.title },
+    ]}
+  />
+
+  <LessonPage
+    client:load
+    subject={subject}
+    course={course}
+    courseTitle={courseTitle}
+    currentLesson={currentLesson}
+    lessons={lessons}
+  />
 </Base>

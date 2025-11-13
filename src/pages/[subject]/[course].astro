@@ -1,42 +1,97 @@
 ---
-import '../../styles/tailwind.css';
-import LessonPage from '../../components/LessonPage';
-import { subjects } from '../../data/catalog';
+// src/pages/[subject]/[course].astro
+import Base from "../../layouts/Base.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { getCollection } from "astro:content";
+import LessonPage from "../../components/LessonPage";
 
-// SSG: объявляем все комбинации subject/course
-export const getStaticPaths = () => {
-  const paths = [];
-  for (const s of subjects) {
-    for (const c of s.courses) {
-      paths.push({ params: { subject: s.slug, course: c.slug } });
-    }
-  }
-  return paths;
+export async function getStaticPaths() {
+  const courses = await getCollection("courses");
+
+  return courses.map((c) => ({
+    params: {
+      subject: c.data.subject, // например "fiqh"
+      course: c.data.slug,     // например "mishkat-namaz"
+    },
+  }));
+}
+
+const { subject, course } = Astro.params;
+
+// 1) Предмет
+const subjects = await getCollection("subjects");
+const subjectEntry = subjects.find((s) => s.data.slug === subject);
+
+if (!subjectEntry) {
+  throw new Error(`Предмет не найден: ${subject}`);
+}
+
+// 2) Курс
+const courseEntry = (await getCollection("courses")).find(
+  (c) => c.data.subject === subject && c.data.slug === course
+);
+
+if (!courseEntry) {
+  throw new Error(`Курс не найден: ${subject}/${course}`);
+}
+
+const courseTitle = courseEntry.data.title;
+
+// 3) Уроки курса
+const allLessons = (await getCollection("lessons"))
+  .filter((l) => l.slug.startsWith(`${subject}/${course}/`))
+  .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+
+if (!allLessons.length) {
+  throw new Error(`Для курса ${subject}/${course} не найдено уроков.`);
+}
+
+// берём первый урок как текущий
+const current = allLessons[0];
+
+const audioUrl = current.data.audioRel
+  ? `/media/${subject}/${course}/${current.data.audioRel}`
+  : current.data.audio ?? null;
+
+const videoUrl = current.data.videoRel
+  ? `/media/${subject}/${course}/${current.data.videoRel}`
+  : current.data.video ?? null;
+
+const currentLesson = {
+  slug: current.slug,
+  title: current.data.title,
+  order: current.data.order,
+  hasAudio: current.data.hasAudio,
+  hasVideo: current.data.hasVideo,
+  audio: audioUrl,
+  video: videoUrl,
+  html: current.body,
 };
 
-const { subject, course } = Astro.params as { subject: string; course: string };
-const subj = subjects.find((s) => s.slug === subject);
-if (!subj) throw new Error(`Предмет не найден: ${subject}`);
-const crs = subj.courses.find((c) => c.slug === course);
-if (!crs) throw new Error(`Курс не найден: ${course}`);
+const lessons = allLessons.map((l) => ({
+  slug: l.slug,
+  title: l.data.title,
+  order: l.data.order,
+  hasAudio: l.data.hasAudio,
+  hasVideo: l.data.hasVideo,
+}));
 ---
-<html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{subj.title} — {crs.title}</title>
-  </head>
-  <body class="bg-gray-50 text-gray-900">
-    <main class="mx-auto max-w-7xl px-4 py-6">
-      <a href={`/${subj.slug}/`} class="text-sm text-emerald-700">
-        ← к курсам {subj.title}
-      </a>
-      <LessonPage
-        client:load
-        title={`${subj.title}: ${crs.title}`}
-        videoSrc={crs.videoSrc}
-        audioSrc={crs.audioSrc}
-      />
-    </main>
-  </body>
-</html>
+
+<Base title={`${subjectEntry.data.title} — ${courseTitle}`}>
+  <Breadcrumbs
+    items={[
+      { label: "Главная", href: "/" },
+      { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
+      { label: courseTitle },
+    ]}
+  />
+
+  <LessonPage
+    client:load
+    subject={subject}
+    course={course}
+    courseTitle={courseTitle}
+    currentLesson={currentLesson}
+    lessons={lessons}
+  />
+</Base>

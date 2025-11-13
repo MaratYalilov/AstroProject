@@ -1,0 +1,32 @@
+---
+interface Crumb {
+  label: string;
+  href?: string; // у последнего href не задаём
+}
+const { items } = Astro.props as { items: Crumb[] };
+---
+<nav aria-label="Хлебные крошки" class="mb-4">
+  <ol class="flex flex-wrap items-center gap-1 text-sm text-muted-foreground">
+    {
+      items.map((item, i) => {
+        const isLast = i === items.length - 1;
+        return (
+          <>
+            <li>
+              {isLast || !item.href ? (
+                <span aria-current="page" class="font-medium text-foreground">{item.label}</span>
+              ) : (
+                <a href={item.href} class="rounded-md px-1 py-0.5 hover:bg-muted">
+                  {item.label}
+                </a>
+              )}
+            </li>
+            {!isLast && (
+              <li class="px-1 text-muted-foreground/70" aria-hidden="true">/</li>
+            )}
+          </>
+        );
+      })
+    }
+  </ol>
+</nav>

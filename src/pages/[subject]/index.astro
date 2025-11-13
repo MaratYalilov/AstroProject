@@ -1,29 +1,44 @@
 ---
-import '../../styles/tailwind.css';
-import { subjects } from '../../data/catalog';
-import CourseGrid from '../../components/CourseGrid';
+// src/pages/[subject]/index.astro
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import CourseGrid from "../../components/CourseGrid";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 
-// SSG: объявляем пути для всех предметов
-export const getStaticPaths = () => {
-  return subjects.map((s) => ({ params: { subject: s.slug } }));
-};
+export async function getStaticPaths() {
+  const subjects = await getCollection("subjects");
+  return subjects.map((s) => ({
+    params: { subject: s.data.slug },
+  }));
+}
 
-const { subject } = Astro.params as { subject: string };
-const data = subjects.find((s) => s.slug === subject);
-if (!data) {
+const { subject } = Astro.params;
+
+// находим сам предмет
+const subjectEntry = (await getCollection("subjects")).find(
+  (s) => s.data.slug === subject
+);
+
+if (!subjectEntry) {
   throw new Error(`Предмет не найден: ${subject}`);
 }
+
+const courses = (await getCollection("courses"))
+  .filter((c) => c.data.subject === subject)
+  .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 ---
-<html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{data.title} — Курсы</title>
-  </head>
-  <body class="bg-gray-50 text-gray-900">
-    <main class="mx-auto max-w-7xl px-4 py-6">
-      <a href="/" class="text-sm text-emerald-700">← ко всем предметам</a>
-      <CourseGrid client:load subject={data} />
-    </main>
-  </body>
-</html>
+
+<Base title={subjectEntry.data.title}>
+  <Breadcrumbs
+    items={[
+      { label: "Главная", href: "/" },
+      { label: subjectEntry.data.title },
+    ]}
+  />
+
+  <h1 class="mb-6 text-2xl font-semibold">
+    {subjectEntry.data.emoji} {subjectEntry.data.title}
+  </h1>
+
+  <CourseGrid client:load subjectSlug={subject} courses={courses} />
+</Base>

@@ -1,72 +1,30 @@
 ---
-import '../styles/tailwind.css';
-import { subjects } from '../data/catalog';
-import SubjectGrid from '../components/SubjectGrid';
+// src/pages/index.astro
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import SubjectGrid from "../components/SubjectGrid";
 
-const all = subjects;
+const subjects = (await getCollection("subjects")).sort(
+  (a, b) => (a.data.order ?? 999) - (b.data.order ?? 999)
+);
+
+// При желании можно посчитать количество курсов на предмет:
+const courses = await getCollection("courses");
+const counts = new Map<string, number>();
+for (const c of courses) {
+  const s = c.data.subject;
+  counts.set(s, (counts.get(s) ?? 0) + 1);
+}
+
+const items = subjects.map((s) => ({
+  slug: s.data.slug,
+  title: s.data.title,
+  emoji: s.data.emoji,
+  coursesCount: counts.get(s.data.slug) ?? 0,
+}));
 ---
-<html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Библиотека — Предметы</title>
-  </head>
-  <body class="bg-gray-50 text-gray-900 dark:bg-zinc-900 dark:text-zinc-50">
-    <header class="sticky top-0 z-30 border-b bg-white/80 backdrop-blur dark:bg-zinc-900/70">
-      <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
-        <div class="flex items-center gap-2">
-          <div class="h-8 w-8 rounded-2xl bg-emerald-500/15" />
-          <span class="text-lg font-semibold">Хутба</span>
-        </div>
-        <nav class="hidden sm:flex items-center gap-2 text-sm">
-          <a href="/" class="rounded-lg px-3 py-1.5 hover:bg-gray-100 dark:hover:bg-white/10">Главная</a>
-        </nav>
-      </div>
-    </header>
 
-    <main class="mx-auto max-w-7xl px-4 py-6">
-      <div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <h1 class="text-3xl font-bold">Предметы</h1>
-          <p class="text-gray-600 dark:text-gray-300">Выберите предмет, затем курс (по 3 курса в каждом).</p>
-        </div>
-
-        <!-- Поиск по предметам (клиентская фильтрация) -->
-        <div class="relative">
-          <input
-            id="subjectSearch"
-            placeholder="Поиск по предметам"
-            class="w-72 rounded-xl border bg-white/80 px-3 py-2 outline-none ring-emerald-600/30
-                   focus:ring-2 dark:bg-white/10 dark:border-white/15"
-          />
-          <span class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">🔎</span>
-        </div>
-      </div>
-
-      <div id="gridRoot">
-        <SubjectGrid client:load items={subjects} />
-      </div>
-    </main>
-
-    <script is:inline>
-      const input = document.getElementById('subjectSearch');
-      const root = document.getElementById('gridRoot');
-      const items = {all: JSON.parse({all: JSON.stringify({all: undefined})})}; // placeholder to keep Vite happy
-      // простая фильтрация через fetch к той же странице и замена HTML — без сборки островов
-      input?.addEventListener('input', async (e) => {
-        const q = (e.target?.value || '').toLowerCase();
-        const res = await fetch(location.href);
-        const html = await res.text();
-        // грубо — вытаскиваем список из текущей разметки и фильтруем на лету
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
-        const links = Array.from(doc.querySelectorAll('a[href$="/"] .truncate, a[href$="/"] h3')).map(el => el.textContent?.trim() || '');
-        const cards = Array.from(document.querySelectorAll('#gridRoot > div > a'));
-        cards.forEach((card, idx) => {
-          const name = card.querySelector('h3')?.textContent?.trim().toLowerCase() || '';
-          card.classList.toggle('hidden', !name.includes(q));
-        });
-      });
-    </script>
-  </body>
-</html>
+<Base title="Предметы">
+  <h1 class="mb-6 text-2xl font-semibold">Предметы</h1>
+  <SubjectGrid client:load items={items} />
+</Base>
