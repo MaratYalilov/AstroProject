@@ -2,7 +2,8 @@
 export default {
     darkMode: ["class"],
     content: [
-    "./src/**/*.{astro,html,js,jsx,ts,tsx}"
+    "./src/**/*.{astro,html,js,jsx,ts,tsx,md,mdx}",
+    "./src/content/**/*.{md,mdx}"
   ],
   theme: {
   	extend: {

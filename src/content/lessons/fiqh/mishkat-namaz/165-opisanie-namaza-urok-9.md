@@ -1,13 +1,13 @@
 ---
-title: Opisanie namaza urok 9
+title: '165, Описание намаза урок 9'
 order: 165
-audio: /media/fiqh/mishkat-namaz/audio/165-opisanie-namaza-urok-9.mp3
-video: /media/fiqh/mishkat-namaz/video/165-opisanie-namaza-urok-9.mp4
 hasAudio: true
 hasVideo: true
+audio: /media/fiqh/mishkat-namaz/audio/165-opisanie-namaza-urok-9.mp3
 audioRel: audio/165-opisanie-namaza-urok-9.mp3
+video: /media/fiqh/mishkat-namaz/video/165-opisanie-namaza-urok-9.mp4
 videoRel: video/165-opisanie-namaza-urok-9.mp4
 ---
-# Opisanie namaza urok 9
+# 165, Описание намаза урок 9
 
 Конспекта урока не существует.

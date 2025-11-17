@@ -1,13 +1,13 @@
 ---
-title: Zemnoi poklon urok 1
+title: 181. Земной поклон урок 1
 order: 181
-audio: /media/fiqh/mishkat-namaz/audio/181-zemnoi-poklon-urok-1.mp3
-video: /media/fiqh/mishkat-namaz/video/181-zemnoi-poklon-urok-1.mp4
 hasAudio: true
 hasVideo: true
+audio: /media/fiqh/mishkat-namaz/audio/181-zemnoi-poklon-urok-1.mp3
 audioRel: audio/181-zemnoi-poklon-urok-1.mp3
+video: /media/fiqh/mishkat-namaz/video/181-zemnoi-poklon-urok-1.mp4
 videoRel: video/181-zemnoi-poklon-urok-1.mp4
 ---
-# Zemnoi poklon urok 1
+# 181. Земной поклон урок 1
 
 Конспекта урока не существует.

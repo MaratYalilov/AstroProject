@@ -1,5 +1,6 @@
 ---
 // src/pages/[subject]/[course].astro
+import { replaceQuranTags } from "../../utils/replaceQuranTags";
 import Base from "../../layouts/Base.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { getCollection } from "astro:content";
@@ -42,39 +43,44 @@ const allLessons = (await getCollection("lessons"))
   .filter((l) => l.slug.startsWith(`${subject}/${course}/`))
   .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 
-if (!allLessons.length) {
-  throw new Error(`Для курса ${subject}/${course} не найдено уроков.`);
-}
+const hasLessons = allLessons.length > 0;
+const emptyStateMessage = "Для выбраного курса уроки ещё не загружены";
+
+let currentLesson = null;
+let lessons = [];
 
 // берём первый урок как текущий
-const current = allLessons[0];
+if (hasLessons) {
+  const current = allLessons[0];
 
-const audioUrl = current.data.audioRel
-  ? `/media/${subject}/${course}/${current.data.audioRel}`
-  : current.data.audio ?? null;
+  const audioUrl = current.data.audioRel
+    ? `/media/${subject}/${course}/${current.data.audioRel}`
+    : current.data.audio ?? null;
 
-const videoUrl = current.data.videoRel
-  ? `/media/${subject}/${course}/${current.data.videoRel}`
-  : current.data.video ?? null;
+  const videoUrl = current.data.videoRel
+    ? `/media/${subject}/${course}/${current.data.videoRel}`
+    : current.data.video ?? null;
 
-const currentLesson = {
-  slug: current.slug,
-  title: current.data.title,
-  order: current.data.order,
-  hasAudio: current.data.hasAudio,
-  hasVideo: current.data.hasVideo,
-  audio: audioUrl,
-  video: videoUrl,
-  html: current.body,
-};
+  currentLesson = {
+    slug: current.slug,
+    title: current.data.title,
+    order: current.data.order,
+    hasAudio: current.data.hasAudio,
+    hasVideo: current.data.hasVideo,
+    audio: audioUrl,
+    video: videoUrl,
+    // html: current.body,
+    html: replaceQuranTags(current.body ?? ""), 
+  };
 
-const lessons = allLessons.map((l) => ({
-  slug: l.slug,
-  title: l.data.title,
-  order: l.data.order,
-  hasAudio: l.data.hasAudio,
-  hasVideo: l.data.hasVideo,
-}));
+  lessons = allLessons.map((l) => ({
+    slug: l.slug,
+    title: l.data.title,
+    order: l.data.order,
+    hasAudio: l.data.hasAudio,
+    hasVideo: l.data.hasVideo,
+  }));
+}
 ---
 
 <Base title={`${subjectEntry.data.title} — ${courseTitle}`}>
@@ -86,12 +92,20 @@ const lessons = allLessons.map((l) => ({
     ]}
   />
 
-  <LessonPage
-    client:load
-    subject={subject}
-    course={course}
-    courseTitle={courseTitle}
-    currentLesson={currentLesson}
-    lessons={lessons}
-  />
+  {
+    hasLessons ? (
+      <LessonPage
+        client:load
+        subject={subject}
+        course={course}
+        courseTitle={courseTitle}
+        currentLesson={currentLesson}
+        lessons={lessons}
+      />
+    ) : (
+      <section class="no-lessons-message">
+        <p>{emptyStateMessage}</p>
+      </section>
+    )
+  }
 </Base>

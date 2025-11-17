@@ -2,6 +2,8 @@ import fs from "fs/promises";
 import path from "path";
 import fg from "fast-glob";
 import matter from "gray-matter";
+import xlsx from "xlsx";
+const { readFile: readXlsxFile, utils: xlsxUtils } = xlsx;
 
 const PUBLIC_MEDIA_ROOT = "public/media";
 const CONTENT_LESSONS_ROOT = "src/content/lessons";
@@ -41,6 +43,83 @@ function humanizeTitle(norm: string) {
 function parseOrder(norm: string) {
   const m = norm.match(/^(\d+)/);
   return m ? Number(m[1]) : undefined;
+}
+
+type LessonTitleResolver = (slugBase: string) => string | undefined;
+
+function parseTitleCell(raw: unknown) {
+  const text = `${raw ?? ""}`.trim();
+  if (!text) return null;
+
+  const commaIdx = text.indexOf(",");
+  const orderSource = commaIdx >= 0 ? text.slice(0, commaIdx) : text;
+  const title = commaIdx >= 0 ? text.slice(commaIdx + 1).trim() || text : text;
+  const orderMatch = orderSource.match(/(\d+)/);
+  const order = orderMatch ? Number(orderMatch[1]) : undefined;
+
+  return { title, order, display: text };
+}
+
+async function createLessonTitleResolver(lessonsRoot: string, verbose = false): Promise<LessonTitleResolver> {
+  const pattern = toPosix(path.join(lessonsRoot, "map_*.xlsx"));
+  const files = await fg(pattern, { caseSensitiveMatch: false });
+  if (!files.length) return () => undefined;
+
+  const slugToTitle = new Map<string, string>();
+  const orderToTitle = new Map<number, string>();
+
+  for (const file of files) {
+    const absPath = path.resolve(file);
+    try {
+      const workbook = readXlsxFile(absPath);
+      const sheetName = workbook.SheetNames[0];
+      if (!sheetName) continue;
+      const sheet = workbook.Sheets[sheetName];
+      if (!sheet) continue;
+
+      const rows = xlsxUtils.sheet_to_json(sheet, { header: 1, blankrows: false }) as unknown[][];
+      for (const row of rows) {
+        if (!Array.isArray(row) || row.length < 2) continue;
+        const [rawTitle, rawSlug] = row;
+        if (rawTitle == null || rawSlug == null) continue;
+
+        const parsedTitle = parseTitleCell(rawTitle);
+        if (!parsedTitle || !parsedTitle.title) continue;
+
+        const slugStr = `${rawSlug}`.trim();
+        if (!slugStr) continue;
+
+        const slugKey = normalizeBase(slugStr);
+        if (slugKey) slugToTitle.set(slugKey, parsedTitle.display);
+
+        const slugOrder = parseOrder(slugKey);
+        if (slugOrder != null && !orderToTitle.has(slugOrder)) orderToTitle.set(slugOrder, parsedTitle.display);
+
+        if (parsedTitle.order != null && !orderToTitle.has(parsedTitle.order)) {
+          orderToTitle.set(parsedTitle.order, parsedTitle.display);
+        }
+      }
+    } catch (error) {
+      if (verbose) {
+        const rel = toPosix(path.relative(process.cwd(), absPath));
+        console.warn(`  ! failed to read ${rel}:`, error);
+      }
+    }
+  }
+
+  if (verbose) {
+    console.log(`  titles mapped: slug=${slugToTitle.size} order=${orderToTitle.size}`);
+  }
+
+  return (slugBase: string) => {
+    const normalized = normalizeBase(slugBase);
+    const slugMatch = slugToTitle.get(normalized);
+    if (slugMatch) return slugMatch;
+
+    const order = parseOrder(normalized);
+    if (order != null) return orderToTitle.get(order);
+    return undefined;
+  };
 }
 
 async function ensureDir(dir: string) {
@@ -97,6 +176,7 @@ async function syncCourse(subject: string, course: string, dry = false, verbose 
   const videoIdx = videoExists ? await indexMedia(videoDir, VIDEO_EXTS, verbose) : new Map<string, MediaIdxEntry>();
 
   await ensureDir(lessonsRoot);
+  const resolveLessonTitle = await createLessonTitleResolver(lessonsRoot, verbose);
 
   const mdFiles = await fg(toPosix(`${lessonsRoot}/*.md`), { caseSensitiveMatch: false });
   const mdByBase = new Map<string, string>(); // base -> md path
@@ -117,7 +197,7 @@ async function syncCourse(subject: string, course: string, dry = false, verbose 
 
     if (!mdPath) {
       const order = parseOrder(key) ?? 1;
-      const title = humanizeTitle(key);
+      const title = resolveLessonTitle(key) ?? humanizeTitle(key);
       const data: Record<string, any> = {
         title,
         order,

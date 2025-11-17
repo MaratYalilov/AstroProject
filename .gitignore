@@ -24,4 +24,4 @@ pnpm-debug.log*
 .idea/
 
 # media assets (stored outside version control)
-public/media/
+public/

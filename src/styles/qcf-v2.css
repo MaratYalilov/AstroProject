@@ -1,0 +1,7256 @@
+
+@font-face {
+  font-family: "QCF2001";
+  src: url("/fonts/mushaf-v2/QCF2001.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-1 {
+  font-family: "QCF2001" !important;
+}
+
+@font-face {
+  font-family: "QCF2002";
+  src: url("/fonts/mushaf-v2/QCF2002.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-2 {
+  font-family: "QCF2002" !important;
+}
+
+@font-face {
+  font-family: "QCF2003";
+  src: url("/fonts/mushaf-v2/QCF2003.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-3 {
+  font-family: "QCF2003" !important;
+}
+
+@font-face {
+  font-family: "QCF2004";
+  src: url("/fonts/mushaf-v2/QCF2004.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-4 {
+  font-family: "QCF2004" !important;
+}
+
+@font-face {
+  font-family: "QCF2005";
+  src: url("/fonts/mushaf-v2/QCF2005.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-5 {
+  font-family: "QCF2005" !important;
+}
+
+@font-face {
+  font-family: "QCF2006";
+  src: url("/fonts/mushaf-v2/QCF2006.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-6 {
+  font-family: "QCF2006" !important;
+}
+
+@font-face {
+  font-family: "QCF2007";
+  src: url("/fonts/mushaf-v2/QCF2007.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-7 {
+  font-family: "QCF2007" !important;
+}
+
+@font-face {
+  font-family: "QCF2008";
+  src: url("/fonts/mushaf-v2/QCF2008.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-8 {
+  font-family: "QCF2008" !important;
+}
+
+@font-face {
+  font-family: "QCF2009";
+  src: url("/fonts/mushaf-v2/QCF2009.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-9 {
+  font-family: "QCF2009" !important;
+}
+
+@font-face {
+  font-family: "QCF2010";
+  src: url("/fonts/mushaf-v2/QCF2010.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-10 {
+  font-family: "QCF2010" !important;
+}
+
+@font-face {
+  font-family: "QCF2011";
+  src: url("/fonts/mushaf-v2/QCF2011.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-11 {
+  font-family: "QCF2011" !important;
+}
+
+@font-face {
+  font-family: "QCF2012";
+  src: url("/fonts/mushaf-v2/QCF2012.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-12 {
+  font-family: "QCF2012" !important;
+}
+
+@font-face {
+  font-family: "QCF2013";
+  src: url("/fonts/mushaf-v2/QCF2013.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-13 {
+  font-family: "QCF2013" !important;
+}
+
+@font-face {
+  font-family: "QCF2014";
+  src: url("/fonts/mushaf-v2/QCF2014.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-14 {
+  font-family: "QCF2014" !important;
+}
+
+@font-face {
+  font-family: "QCF2015";
+  src: url("/fonts/mushaf-v2/QCF2015.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-15 {
+  font-family: "QCF2015" !important;
+}
+
+@font-face {
+  font-family: "QCF2016";
+  src: url("/fonts/mushaf-v2/QCF2016.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-16 {
+  font-family: "QCF2016" !important;
+}
+
+@font-face {
+  font-family: "QCF2017";
+  src: url("/fonts/mushaf-v2/QCF2017.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-17 {
+  font-family: "QCF2017" !important;
+}
+
+@font-face {
+  font-family: "QCF2018";
+  src: url("/fonts/mushaf-v2/QCF2018.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-18 {
+  font-family: "QCF2018" !important;
+}
+
+@font-face {
+  font-family: "QCF2019";
+  src: url("/fonts/mushaf-v2/QCF2019.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-19 {
+  font-family: "QCF2019" !important;
+}
+
+@font-face {
+  font-family: "QCF2020";
+  src: url("/fonts/mushaf-v2/QCF2020.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-20 {
+  font-family: "QCF2020" !important;
+}
+
+@font-face {
+  font-family: "QCF2021";
+  src: url("/fonts/mushaf-v2/QCF2021.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-21 {
+  font-family: "QCF2021" !important;
+}
+
+@font-face {
+  font-family: "QCF2022";
+  src: url("/fonts/mushaf-v2/QCF2022.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-22 {
+  font-family: "QCF2022" !important;
+}
+
+@font-face {
+  font-family: "QCF2023";
+  src: url("/fonts/mushaf-v2/QCF2023.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-23 {
+  font-family: "QCF2023" !important;
+}
+
+@font-face {
+  font-family: "QCF2024";
+  src: url("/fonts/mushaf-v2/QCF2024.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-24 {
+  font-family: "QCF2024" !important;
+}
+
+@font-face {
+  font-family: "QCF2025";
+  src: url("/fonts/mushaf-v2/QCF2025.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-25 {
+  font-family: "QCF2025" !important;
+}
+
+@font-face {
+  font-family: "QCF2026";
+  src: url("/fonts/mushaf-v2/QCF2026.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-26 {
+  font-family: "QCF2026" !important;
+}
+
+@font-face {
+  font-family: "QCF2027";
+  src: url("/fonts/mushaf-v2/QCF2027.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-27 {
+  font-family: "QCF2027" !important;
+}
+
+@font-face {
+  font-family: "QCF2028";
+  src: url("/fonts/mushaf-v2/QCF2028.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-28 {
+  font-family: "QCF2028" !important;
+}
+
+@font-face {
+  font-family: "QCF2029";
+  src: url("/fonts/mushaf-v2/QCF2029.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-29 {
+  font-family: "QCF2029" !important;
+}
+
+@font-face {
+  font-family: "QCF2030";
+  src: url("/fonts/mushaf-v2/QCF2030.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-30 {
+  font-family: "QCF2030" !important;
+}
+
+@font-face {
+  font-family: "QCF2031";
+  src: url("/fonts/mushaf-v2/QCF2031.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-31 {
+  font-family: "QCF2031" !important;
+}
+
+@font-face {
+  font-family: "QCF2032";
+  src: url("/fonts/mushaf-v2/QCF2032.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-32 {
+  font-family: "QCF2032" !important;
+}
+
+@font-face {
+  font-family: "QCF2033";
+  src: url("/fonts/mushaf-v2/QCF2033.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-33 {
+  font-family: "QCF2033" !important;
+}
+
+@font-face {
+  font-family: "QCF2034";
+  src: url("/fonts/mushaf-v2/QCF2034.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-34 {
+  font-family: "QCF2034" !important;
+}
+
+@font-face {
+  font-family: "QCF2035";
+  src: url("/fonts/mushaf-v2/QCF2035.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-35 {
+  font-family: "QCF2035" !important;
+}
+
+@font-face {
+  font-family: "QCF2036";
+  src: url("/fonts/mushaf-v2/QCF2036.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-36 {
+  font-family: "QCF2036" !important;
+}
+
+@font-face {
+  font-family: "QCF2037";
+  src: url("/fonts/mushaf-v2/QCF2037.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-37 {
+  font-family: "QCF2037" !important;
+}
+
+@font-face {
+  font-family: "QCF2038";
+  src: url("/fonts/mushaf-v2/QCF2038.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-38 {
+  font-family: "QCF2038" !important;
+}
+
+@font-face {
+  font-family: "QCF2039";
+  src: url("/fonts/mushaf-v2/QCF2039.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-39 {
+  font-family: "QCF2039" !important;
+}
+
+@font-face {
+  font-family: "QCF2040";
+  src: url("/fonts/mushaf-v2/QCF2040.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-40 {
+  font-family: "QCF2040" !important;
+}
+
+@font-face {
+  font-family: "QCF2041";
+  src: url("/fonts/mushaf-v2/QCF2041.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-41 {
+  font-family: "QCF2041" !important;
+}
+
+@font-face {
+  font-family: "QCF2042";
+  src: url("/fonts/mushaf-v2/QCF2042.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-42 {
+  font-family: "QCF2042" !important;
+}
+
+@font-face {
+  font-family: "QCF2043";
+  src: url("/fonts/mushaf-v2/QCF2043.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-43 {
+  font-family: "QCF2043" !important;
+}
+
+@font-face {
+  font-family: "QCF2044";
+  src: url("/fonts/mushaf-v2/QCF2044.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-44 {
+  font-family: "QCF2044" !important;
+}
+
+@font-face {
+  font-family: "QCF2045";
+  src: url("/fonts/mushaf-v2/QCF2045.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-45 {
+  font-family: "QCF2045" !important;
+}
+
+@font-face {
+  font-family: "QCF2046";
+  src: url("/fonts/mushaf-v2/QCF2046.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-46 {
+  font-family: "QCF2046" !important;
+}
+
+@font-face {
+  font-family: "QCF2047";
+  src: url("/fonts/mushaf-v2/QCF2047.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-47 {
+  font-family: "QCF2047" !important;
+}
+
+@font-face {
+  font-family: "QCF2048";
+  src: url("/fonts/mushaf-v2/QCF2048.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-48 {
+  font-family: "QCF2048" !important;
+}
+
+@font-face {
+  font-family: "QCF2049";
+  src: url("/fonts/mushaf-v2/QCF2049.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-49 {
+  font-family: "QCF2049" !important;
+}
+
+@font-face {
+  font-family: "QCF2050";
+  src: url("/fonts/mushaf-v2/QCF2050.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-50 {
+  font-family: "QCF2050" !important;
+}
+
+@font-face {
+  font-family: "QCF2051";
+  src: url("/fonts/mushaf-v2/QCF2051.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-51 {
+  font-family: "QCF2051" !important;
+}
+
+@font-face {
+  font-family: "QCF2052";
+  src: url("/fonts/mushaf-v2/QCF2052.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-52 {
+  font-family: "QCF2052" !important;
+}
+
+@font-face {
+  font-family: "QCF2053";
+  src: url("/fonts/mushaf-v2/QCF2053.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-53 {
+  font-family: "QCF2053" !important;
+}
+
+@font-face {
+  font-family: "QCF2054";
+  src: url("/fonts/mushaf-v2/QCF2054.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-54 {
+  font-family: "QCF2054" !important;
+}
+
+@font-face {
+  font-family: "QCF2055";
+  src: url("/fonts/mushaf-v2/QCF2055.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-55 {
+  font-family: "QCF2055" !important;
+}
+
+@font-face {
+  font-family: "QCF2056";
+  src: url("/fonts/mushaf-v2/QCF2056.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-56 {
+  font-family: "QCF2056" !important;
+}
+
+@font-face {
+  font-family: "QCF2057";
+  src: url("/fonts/mushaf-v2/QCF2057.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-57 {
+  font-family: "QCF2057" !important;
+}
+
+@font-face {
+  font-family: "QCF2058";
+  src: url("/fonts/mushaf-v2/QCF2058.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-58 {
+  font-family: "QCF2058" !important;
+}
+
+@font-face {
+  font-family: "QCF2059";
+  src: url("/fonts/mushaf-v2/QCF2059.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-59 {
+  font-family: "QCF2059" !important;
+}
+
+@font-face {
+  font-family: "QCF2060";
+  src: url("/fonts/mushaf-v2/QCF2060.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-60 {
+  font-family: "QCF2060" !important;
+}
+
+@font-face {
+  font-family: "QCF2061";
+  src: url("/fonts/mushaf-v2/QCF2061.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-61 {
+  font-family: "QCF2061" !important;
+}
+
+@font-face {
+  font-family: "QCF2062";
+  src: url("/fonts/mushaf-v2/QCF2062.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-62 {
+  font-family: "QCF2062" !important;
+}
+
+@font-face {
+  font-family: "QCF2063";
+  src: url("/fonts/mushaf-v2/QCF2063.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-63 {
+  font-family: "QCF2063" !important;
+}
+
+@font-face {
+  font-family: "QCF2064";
+  src: url("/fonts/mushaf-v2/QCF2064.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-64 {
+  font-family: "QCF2064" !important;
+}
+
+@font-face {
+  font-family: "QCF2065";
+  src: url("/fonts/mushaf-v2/QCF2065.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-65 {
+  font-family: "QCF2065" !important;
+}
+
+@font-face {
+  font-family: "QCF2066";
+  src: url("/fonts/mushaf-v2/QCF2066.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-66 {
+  font-family: "QCF2066" !important;
+}
+
+@font-face {
+  font-family: "QCF2067";
+  src: url("/fonts/mushaf-v2/QCF2067.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-67 {
+  font-family: "QCF2067" !important;
+}
+
+@font-face {
+  font-family: "QCF2068";
+  src: url("/fonts/mushaf-v2/QCF2068.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-68 {
+  font-family: "QCF2068" !important;
+}
+
+@font-face {
+  font-family: "QCF2069";
+  src: url("/fonts/mushaf-v2/QCF2069.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-69 {
+  font-family: "QCF2069" !important;
+}
+
+@font-face {
+  font-family: "QCF2070";
+  src: url("/fonts/mushaf-v2/QCF2070.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-70 {
+  font-family: "QCF2070" !important;
+}
+
+@font-face {
+  font-family: "QCF2071";
+  src: url("/fonts/mushaf-v2/QCF2071.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-71 {
+  font-family: "QCF2071" !important;
+}
+
+@font-face {
+  font-family: "QCF2072";
+  src: url("/fonts/mushaf-v2/QCF2072.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-72 {
+  font-family: "QCF2072" !important;
+}
+
+@font-face {
+  font-family: "QCF2073";
+  src: url("/fonts/mushaf-v2/QCF2073.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-73 {
+  font-family: "QCF2073" !important;
+}
+
+@font-face {
+  font-family: "QCF2074";
+  src: url("/fonts/mushaf-v2/QCF2074.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-74 {
+  font-family: "QCF2074" !important;
+}
+
+@font-face {
+  font-family: "QCF2075";
+  src: url("/fonts/mushaf-v2/QCF2075.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-75 {
+  font-family: "QCF2075" !important;
+}
+
+@font-face {
+  font-family: "QCF2076";
+  src: url("/fonts/mushaf-v2/QCF2076.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-76 {
+  font-family: "QCF2076" !important;
+}
+
+@font-face {
+  font-family: "QCF2077";
+  src: url("/fonts/mushaf-v2/QCF2077.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-77 {
+  font-family: "QCF2077" !important;
+}
+
+@font-face {
+  font-family: "QCF2078";
+  src: url("/fonts/mushaf-v2/QCF2078.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-78 {
+  font-family: "QCF2078" !important;
+}
+
+@font-face {
+  font-family: "QCF2079";
+  src: url("/fonts/mushaf-v2/QCF2079.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-79 {
+  font-family: "QCF2079" !important;
+}
+
+@font-face {
+  font-family: "QCF2080";
+  src: url("/fonts/mushaf-v2/QCF2080.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-80 {
+  font-family: "QCF2080" !important;
+}
+
+@font-face {
+  font-family: "QCF2081";
+  src: url("/fonts/mushaf-v2/QCF2081.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-81 {
+  font-family: "QCF2081" !important;
+}
+
+@font-face {
+  font-family: "QCF2082";
+  src: url("/fonts/mushaf-v2/QCF2082.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-82 {
+  font-family: "QCF2082" !important;
+}
+
+@font-face {
+  font-family: "QCF2083";
+  src: url("/fonts/mushaf-v2/QCF2083.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-83 {
+  font-family: "QCF2083" !important;
+}
+
+@font-face {
+  font-family: "QCF2084";
+  src: url("/fonts/mushaf-v2/QCF2084.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-84 {
+  font-family: "QCF2084" !important;
+}
+
+@font-face {
+  font-family: "QCF2085";
+  src: url("/fonts/mushaf-v2/QCF2085.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-85 {
+  font-family: "QCF2085" !important;
+}
+
+@font-face {
+  font-family: "QCF2086";
+  src: url("/fonts/mushaf-v2/QCF2086.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-86 {
+  font-family: "QCF2086" !important;
+}
+
+@font-face {
+  font-family: "QCF2087";
+  src: url("/fonts/mushaf-v2/QCF2087.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-87 {
+  font-family: "QCF2087" !important;
+}
+
+@font-face {
+  font-family: "QCF2088";
+  src: url("/fonts/mushaf-v2/QCF2088.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-88 {
+  font-family: "QCF2088" !important;
+}
+
+@font-face {
+  font-family: "QCF2089";
+  src: url("/fonts/mushaf-v2/QCF2089.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-89 {
+  font-family: "QCF2089" !important;
+}
+
+@font-face {
+  font-family: "QCF2090";
+  src: url("/fonts/mushaf-v2/QCF2090.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-90 {
+  font-family: "QCF2090" !important;
+}
+
+@font-face {
+  font-family: "QCF2091";
+  src: url("/fonts/mushaf-v2/QCF2091.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-91 {
+  font-family: "QCF2091" !important;
+}
+
+@font-face {
+  font-family: "QCF2092";
+  src: url("/fonts/mushaf-v2/QCF2092.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-92 {
+  font-family: "QCF2092" !important;
+}
+
+@font-face {
+  font-family: "QCF2093";
+  src: url("/fonts/mushaf-v2/QCF2093.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-93 {
+  font-family: "QCF2093" !important;
+}
+
+@font-face {
+  font-family: "QCF2094";
+  src: url("/fonts/mushaf-v2/QCF2094.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-94 {
+  font-family: "QCF2094" !important;
+}
+
+@font-face {
+  font-family: "QCF2095";
+  src: url("/fonts/mushaf-v2/QCF2095.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-95 {
+  font-family: "QCF2095" !important;
+}
+
+@font-face {
+  font-family: "QCF2096";
+  src: url("/fonts/mushaf-v2/QCF2096.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-96 {
+  font-family: "QCF2096" !important;
+}
+
+@font-face {
+  font-family: "QCF2097";
+  src: url("/fonts/mushaf-v2/QCF2097.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-97 {
+  font-family: "QCF2097" !important;
+}
+
+@font-face {
+  font-family: "QCF2098";
+  src: url("/fonts/mushaf-v2/QCF2098.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-98 {
+  font-family: "QCF2098" !important;
+}
+
+@font-face {
+  font-family: "QCF2099";
+  src: url("/fonts/mushaf-v2/QCF2099.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-99 {
+  font-family: "QCF2099" !important;
+}
+
+@font-face {
+  font-family: "QCF2100";
+  src: url("/fonts/mushaf-v2/QCF2100.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-100 {
+  font-family: "QCF2100" !important;
+}
+
+@font-face {
+  font-family: "QCF2101";
+  src: url("/fonts/mushaf-v2/QCF2101.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-101 {
+  font-family: "QCF2101" !important;
+}
+
+@font-face {
+  font-family: "QCF2102";
+  src: url("/fonts/mushaf-v2/QCF2102.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-102 {
+  font-family: "QCF2102" !important;
+}
+
+@font-face {
+  font-family: "QCF2103";
+  src: url("/fonts/mushaf-v2/QCF2103.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-103 {
+  font-family: "QCF2103" !important;
+}
+
+@font-face {
+  font-family: "QCF2104";
+  src: url("/fonts/mushaf-v2/QCF2104.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-104 {
+  font-family: "QCF2104" !important;
+}
+
+@font-face {
+  font-family: "QCF2105";
+  src: url("/fonts/mushaf-v2/QCF2105.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-105 {
+  font-family: "QCF2105" !important;
+}
+
+@font-face {
+  font-family: "QCF2106";
+  src: url("/fonts/mushaf-v2/QCF2106.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-106 {
+  font-family: "QCF2106" !important;
+}
+
+@font-face {
+  font-family: "QCF2107";
+  src: url("/fonts/mushaf-v2/QCF2107.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-107 {
+  font-family: "QCF2107" !important;
+}
+
+@font-face {
+  font-family: "QCF2108";
+  src: url("/fonts/mushaf-v2/QCF2108.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-108 {
+  font-family: "QCF2108" !important;
+}
+
+@font-face {
+  font-family: "QCF2109";
+  src: url("/fonts/mushaf-v2/QCF2109.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-109 {
+  font-family: "QCF2109" !important;
+}
+
+@font-face {
+  font-family: "QCF2110";
+  src: url("/fonts/mushaf-v2/QCF2110.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-110 {
+  font-family: "QCF2110" !important;
+}
+
+@font-face {
+  font-family: "QCF2111";
+  src: url("/fonts/mushaf-v2/QCF2111.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-111 {
+  font-family: "QCF2111" !important;
+}
+
+@font-face {
+  font-family: "QCF2112";
+  src: url("/fonts/mushaf-v2/QCF2112.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-112 {
+  font-family: "QCF2112" !important;
+}
+
+@font-face {
+  font-family: "QCF2113";
+  src: url("/fonts/mushaf-v2/QCF2113.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-113 {
+  font-family: "QCF2113" !important;
+}
+
+@font-face {
+  font-family: "QCF2114";
+  src: url("/fonts/mushaf-v2/QCF2114.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-114 {
+  font-family: "QCF2114" !important;
+}
+
+@font-face {
+  font-family: "QCF2115";
+  src: url("/fonts/mushaf-v2/QCF2115.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-115 {
+  font-family: "QCF2115" !important;
+}
+
+@font-face {
+  font-family: "QCF2116";
+  src: url("/fonts/mushaf-v2/QCF2116.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-116 {
+  font-family: "QCF2116" !important;
+}
+
+@font-face {
+  font-family: "QCF2117";
+  src: url("/fonts/mushaf-v2/QCF2117.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-117 {
+  font-family: "QCF2117" !important;
+}
+
+@font-face {
+  font-family: "QCF2118";
+  src: url("/fonts/mushaf-v2/QCF2118.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-118 {
+  font-family: "QCF2118" !important;
+}
+
+@font-face {
+  font-family: "QCF2119";
+  src: url("/fonts/mushaf-v2/QCF2119.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-119 {
+  font-family: "QCF2119" !important;
+}
+
+@font-face {
+  font-family: "QCF2120";
+  src: url("/fonts/mushaf-v2/QCF2120.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-120 {
+  font-family: "QCF2120" !important;
+}
+
+@font-face {
+  font-family: "QCF2121";
+  src: url("/fonts/mushaf-v2/QCF2121.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-121 {
+  font-family: "QCF2121" !important;
+}
+
+@font-face {
+  font-family: "QCF2122";
+  src: url("/fonts/mushaf-v2/QCF2122.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-122 {
+  font-family: "QCF2122" !important;
+}
+
+@font-face {
+  font-family: "QCF2123";
+  src: url("/fonts/mushaf-v2/QCF2123.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-123 {
+  font-family: "QCF2123" !important;
+}
+
+@font-face {
+  font-family: "QCF2124";
+  src: url("/fonts/mushaf-v2/QCF2124.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-124 {
+  font-family: "QCF2124" !important;
+}
+
+@font-face {
+  font-family: "QCF2125";
+  src: url("/fonts/mushaf-v2/QCF2125.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-125 {
+  font-family: "QCF2125" !important;
+}
+
+@font-face {
+  font-family: "QCF2126";
+  src: url("/fonts/mushaf-v2/QCF2126.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-126 {
+  font-family: "QCF2126" !important;
+}
+
+@font-face {
+  font-family: "QCF2127";
+  src: url("/fonts/mushaf-v2/QCF2127.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-127 {
+  font-family: "QCF2127" !important;
+}
+
+@font-face {
+  font-family: "QCF2128";
+  src: url("/fonts/mushaf-v2/QCF2128.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-128 {
+  font-family: "QCF2128" !important;
+}
+
+@font-face {
+  font-family: "QCF2129";
+  src: url("/fonts/mushaf-v2/QCF2129.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-129 {
+  font-family: "QCF2129" !important;
+}
+
+@font-face {
+  font-family: "QCF2130";
+  src: url("/fonts/mushaf-v2/QCF2130.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-130 {
+  font-family: "QCF2130" !important;
+}
+
+@font-face {
+  font-family: "QCF2131";
+  src: url("/fonts/mushaf-v2/QCF2131.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-131 {
+  font-family: "QCF2131" !important;
+}
+
+@font-face {
+  font-family: "QCF2132";
+  src: url("/fonts/mushaf-v2/QCF2132.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-132 {
+  font-family: "QCF2132" !important;
+}
+
+@font-face {
+  font-family: "QCF2133";
+  src: url("/fonts/mushaf-v2/QCF2133.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-133 {
+  font-family: "QCF2133" !important;
+}
+
+@font-face {
+  font-family: "QCF2134";
+  src: url("/fonts/mushaf-v2/QCF2134.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-134 {
+  font-family: "QCF2134" !important;
+}
+
+@font-face {
+  font-family: "QCF2135";
+  src: url("/fonts/mushaf-v2/QCF2135.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-135 {
+  font-family: "QCF2135" !important;
+}
+
+@font-face {
+  font-family: "QCF2136";
+  src: url("/fonts/mushaf-v2/QCF2136.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-136 {
+  font-family: "QCF2136" !important;
+}
+
+@font-face {
+  font-family: "QCF2137";
+  src: url("/fonts/mushaf-v2/QCF2137.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-137 {
+  font-family: "QCF2137" !important;
+}
+
+@font-face {
+  font-family: "QCF2138";
+  src: url("/fonts/mushaf-v2/QCF2138.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-138 {
+  font-family: "QCF2138" !important;
+}
+
+@font-face {
+  font-family: "QCF2139";
+  src: url("/fonts/mushaf-v2/QCF2139.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-139 {
+  font-family: "QCF2139" !important;
+}
+
+@font-face {
+  font-family: "QCF2140";
+  src: url("/fonts/mushaf-v2/QCF2140.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-140 {
+  font-family: "QCF2140" !important;
+}
+
+@font-face {
+  font-family: "QCF2141";
+  src: url("/fonts/mushaf-v2/QCF2141.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-141 {
+  font-family: "QCF2141" !important;
+}
+
+@font-face {
+  font-family: "QCF2142";
+  src: url("/fonts/mushaf-v2/QCF2142.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-142 {
+  font-family: "QCF2142" !important;
+}
+
+@font-face {
+  font-family: "QCF2143";
+  src: url("/fonts/mushaf-v2/QCF2143.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-143 {
+  font-family: "QCF2143" !important;
+}
+
+@font-face {
+  font-family: "QCF2144";
+  src: url("/fonts/mushaf-v2/QCF2144.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-144 {
+  font-family: "QCF2144" !important;
+}
+
+@font-face {
+  font-family: "QCF2145";
+  src: url("/fonts/mushaf-v2/QCF2145.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-145 {
+  font-family: "QCF2145" !important;
+}
+
+@font-face {
+  font-family: "QCF2146";
+  src: url("/fonts/mushaf-v2/QCF2146.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-146 {
+  font-family: "QCF2146" !important;
+}
+
+@font-face {
+  font-family: "QCF2147";
+  src: url("/fonts/mushaf-v2/QCF2147.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-147 {
+  font-family: "QCF2147" !important;
+}
+
+@font-face {
+  font-family: "QCF2148";
+  src: url("/fonts/mushaf-v2/QCF2148.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-148 {
+  font-family: "QCF2148" !important;
+}
+
+@font-face {
+  font-family: "QCF2149";
+  src: url("/fonts/mushaf-v2/QCF2149.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-149 {
+  font-family: "QCF2149" !important;
+}
+
+@font-face {
+  font-family: "QCF2150";
+  src: url("/fonts/mushaf-v2/QCF2150.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-150 {
+  font-family: "QCF2150" !important;
+}
+
+@font-face {
+  font-family: "QCF2151";
+  src: url("/fonts/mushaf-v2/QCF2151.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-151 {
+  font-family: "QCF2151" !important;
+}
+
+@font-face {
+  font-family: "QCF2152";
+  src: url("/fonts/mushaf-v2/QCF2152.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-152 {
+  font-family: "QCF2152" !important;
+}
+
+@font-face {
+  font-family: "QCF2153";
+  src: url("/fonts/mushaf-v2/QCF2153.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-153 {
+  font-family: "QCF2153" !important;
+}
+
+@font-face {
+  font-family: "QCF2154";
+  src: url("/fonts/mushaf-v2/QCF2154.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-154 {
+  font-family: "QCF2154" !important;
+}
+
+@font-face {
+  font-family: "QCF2155";
+  src: url("/fonts/mushaf-v2/QCF2155.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-155 {
+  font-family: "QCF2155" !important;
+}
+
+@font-face {
+  font-family: "QCF2156";
+  src: url("/fonts/mushaf-v2/QCF2156.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-156 {
+  font-family: "QCF2156" !important;
+}
+
+@font-face {
+  font-family: "QCF2157";
+  src: url("/fonts/mushaf-v2/QCF2157.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-157 {
+  font-family: "QCF2157" !important;
+}
+
+@font-face {
+  font-family: "QCF2158";
+  src: url("/fonts/mushaf-v2/QCF2158.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-158 {
+  font-family: "QCF2158" !important;
+}
+
+@font-face {
+  font-family: "QCF2159";
+  src: url("/fonts/mushaf-v2/QCF2159.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-159 {
+  font-family: "QCF2159" !important;
+}
+
+@font-face {
+  font-family: "QCF2160";
+  src: url("/fonts/mushaf-v2/QCF2160.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-160 {
+  font-family: "QCF2160" !important;
+}
+
+@font-face {
+  font-family: "QCF2161";
+  src: url("/fonts/mushaf-v2/QCF2161.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-161 {
+  font-family: "QCF2161" !important;
+}
+
+@font-face {
+  font-family: "QCF2162";
+  src: url("/fonts/mushaf-v2/QCF2162.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-162 {
+  font-family: "QCF2162" !important;
+}
+
+@font-face {
+  font-family: "QCF2163";
+  src: url("/fonts/mushaf-v2/QCF2163.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-163 {
+  font-family: "QCF2163" !important;
+}
+
+@font-face {
+  font-family: "QCF2164";
+  src: url("/fonts/mushaf-v2/QCF2164.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-164 {
+  font-family: "QCF2164" !important;
+}
+
+@font-face {
+  font-family: "QCF2165";
+  src: url("/fonts/mushaf-v2/QCF2165.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-165 {
+  font-family: "QCF2165" !important;
+}
+
+@font-face {
+  font-family: "QCF2166";
+  src: url("/fonts/mushaf-v2/QCF2166.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-166 {
+  font-family: "QCF2166" !important;
+}
+
+@font-face {
+  font-family: "QCF2167";
+  src: url("/fonts/mushaf-v2/QCF2167.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-167 {
+  font-family: "QCF2167" !important;
+}
+
+@font-face {
+  font-family: "QCF2168";
+  src: url("/fonts/mushaf-v2/QCF2168.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-168 {
+  font-family: "QCF2168" !important;
+}
+
+@font-face {
+  font-family: "QCF2169";
+  src: url("/fonts/mushaf-v2/QCF2169.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-169 {
+  font-family: "QCF2169" !important;
+}
+
+@font-face {
+  font-family: "QCF2170";
+  src: url("/fonts/mushaf-v2/QCF2170.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-170 {
+  font-family: "QCF2170" !important;
+}
+
+@font-face {
+  font-family: "QCF2171";
+  src: url("/fonts/mushaf-v2/QCF2171.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-171 {
+  font-family: "QCF2171" !important;
+}
+
+@font-face {
+  font-family: "QCF2172";
+  src: url("/fonts/mushaf-v2/QCF2172.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-172 {
+  font-family: "QCF2172" !important;
+}
+
+@font-face {
+  font-family: "QCF2173";
+  src: url("/fonts/mushaf-v2/QCF2173.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-173 {
+  font-family: "QCF2173" !important;
+}
+
+@font-face {
+  font-family: "QCF2174";
+  src: url("/fonts/mushaf-v2/QCF2174.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-174 {
+  font-family: "QCF2174" !important;
+}
+
+@font-face {
+  font-family: "QCF2175";
+  src: url("/fonts/mushaf-v2/QCF2175.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-175 {
+  font-family: "QCF2175" !important;
+}
+
+@font-face {
+  font-family: "QCF2176";
+  src: url("/fonts/mushaf-v2/QCF2176.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-176 {
+  font-family: "QCF2176" !important;
+}
+
+@font-face {
+  font-family: "QCF2177";
+  src: url("/fonts/mushaf-v2/QCF2177.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-177 {
+  font-family: "QCF2177" !important;
+}
+
+@font-face {
+  font-family: "QCF2178";
+  src: url("/fonts/mushaf-v2/QCF2178.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-178 {
+  font-family: "QCF2178" !important;
+}
+
+@font-face {
+  font-family: "QCF2179";
+  src: url("/fonts/mushaf-v2/QCF2179.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-179 {
+  font-family: "QCF2179" !important;
+}
+
+@font-face {
+  font-family: "QCF2180";
+  src: url("/fonts/mushaf-v2/QCF2180.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-180 {
+  font-family: "QCF2180" !important;
+}
+
+@font-face {
+  font-family: "QCF2181";
+  src: url("/fonts/mushaf-v2/QCF2181.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-181 {
+  font-family: "QCF2181" !important;
+}
+
+@font-face {
+  font-family: "QCF2182";
+  src: url("/fonts/mushaf-v2/QCF2182.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-182 {
+  font-family: "QCF2182" !important;
+}
+
+@font-face {
+  font-family: "QCF2183";
+  src: url("/fonts/mushaf-v2/QCF2183.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-183 {
+  font-family: "QCF2183" !important;
+}
+
+@font-face {
+  font-family: "QCF2184";
+  src: url("/fonts/mushaf-v2/QCF2184.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-184 {
+  font-family: "QCF2184" !important;
+}
+
+@font-face {
+  font-family: "QCF2185";
+  src: url("/fonts/mushaf-v2/QCF2185.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-185 {
+  font-family: "QCF2185" !important;
+}
+
+@font-face {
+  font-family: "QCF2186";
+  src: url("/fonts/mushaf-v2/QCF2186.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-186 {
+  font-family: "QCF2186" !important;
+}
+
+@font-face {
+  font-family: "QCF2187";
+  src: url("/fonts/mushaf-v2/QCF2187.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-187 {
+  font-family: "QCF2187" !important;
+}
+
+@font-face {
+  font-family: "QCF2188";
+  src: url("/fonts/mushaf-v2/QCF2188.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-188 {
+  font-family: "QCF2188" !important;
+}
+
+@font-face {
+  font-family: "QCF2189";
+  src: url("/fonts/mushaf-v2/QCF2189.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-189 {
+  font-family: "QCF2189" !important;
+}
+
+@font-face {
+  font-family: "QCF2190";
+  src: url("/fonts/mushaf-v2/QCF2190.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-190 {
+  font-family: "QCF2190" !important;
+}
+
+@font-face {
+  font-family: "QCF2191";
+  src: url("/fonts/mushaf-v2/QCF2191.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-191 {
+  font-family: "QCF2191" !important;
+}
+
+@font-face {
+  font-family: "QCF2192";
+  src: url("/fonts/mushaf-v2/QCF2192.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-192 {
+  font-family: "QCF2192" !important;
+}
+
+@font-face {
+  font-family: "QCF2193";
+  src: url("/fonts/mushaf-v2/QCF2193.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-193 {
+  font-family: "QCF2193" !important;
+}
+
+@font-face {
+  font-family: "QCF2194";
+  src: url("/fonts/mushaf-v2/QCF2194.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-194 {
+  font-family: "QCF2194" !important;
+}
+
+@font-face {
+  font-family: "QCF2195";
+  src: url("/fonts/mushaf-v2/QCF2195.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-195 {
+  font-family: "QCF2195" !important;
+}
+
+@font-face {
+  font-family: "QCF2196";
+  src: url("/fonts/mushaf-v2/QCF2196.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-196 {
+  font-family: "QCF2196" !important;
+}
+
+@font-face {
+  font-family: "QCF2197";
+  src: url("/fonts/mushaf-v2/QCF2197.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-197 {
+  font-family: "QCF2197" !important;
+}
+
+@font-face {
+  font-family: "QCF2198";
+  src: url("/fonts/mushaf-v2/QCF2198.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-198 {
+  font-family: "QCF2198" !important;
+}
+
+@font-face {
+  font-family: "QCF2199";
+  src: url("/fonts/mushaf-v2/QCF2199.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-199 {
+  font-family: "QCF2199" !important;
+}
+
+@font-face {
+  font-family: "QCF2200";
+  src: url("/fonts/mushaf-v2/QCF2200.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-200 {
+  font-family: "QCF2200" !important;
+}
+
+@font-face {
+  font-family: "QCF2201";
+  src: url("/fonts/mushaf-v2/QCF2201.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-201 {
+  font-family: "QCF2201" !important;
+}
+
+@font-face {
+  font-family: "QCF2202";
+  src: url("/fonts/mushaf-v2/QCF2202.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-202 {
+  font-family: "QCF2202" !important;
+}
+
+@font-face {
+  font-family: "QCF2203";
+  src: url("/fonts/mushaf-v2/QCF2203.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-203 {
+  font-family: "QCF2203" !important;
+}
+
+@font-face {
+  font-family: "QCF2204";
+  src: url("/fonts/mushaf-v2/QCF2204.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-204 {
+  font-family: "QCF2204" !important;
+}
+
+@font-face {
+  font-family: "QCF2205";
+  src: url("/fonts/mushaf-v2/QCF2205.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-205 {
+  font-family: "QCF2205" !important;
+}
+
+@font-face {
+  font-family: "QCF2206";
+  src: url("/fonts/mushaf-v2/QCF2206.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-206 {
+  font-family: "QCF2206" !important;
+}
+
+@font-face {
+  font-family: "QCF2207";
+  src: url("/fonts/mushaf-v2/QCF2207.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-207 {
+  font-family: "QCF2207" !important;
+}
+
+@font-face {
+  font-family: "QCF2208";
+  src: url("/fonts/mushaf-v2/QCF2208.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-208 {
+  font-family: "QCF2208" !important;
+}
+
+@font-face {
+  font-family: "QCF2209";
+  src: url("/fonts/mushaf-v2/QCF2209.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-209 {
+  font-family: "QCF2209" !important;
+}
+
+@font-face {
+  font-family: "QCF2210";
+  src: url("/fonts/mushaf-v2/QCF2210.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-210 {
+  font-family: "QCF2210" !important;
+}
+
+@font-face {
+  font-family: "QCF2211";
+  src: url("/fonts/mushaf-v2/QCF2211.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-211 {
+  font-family: "QCF2211" !important;
+}
+
+@font-face {
+  font-family: "QCF2212";
+  src: url("/fonts/mushaf-v2/QCF2212.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-212 {
+  font-family: "QCF2212" !important;
+}
+
+@font-face {
+  font-family: "QCF2213";
+  src: url("/fonts/mushaf-v2/QCF2213.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-213 {
+  font-family: "QCF2213" !important;
+}
+
+@font-face {
+  font-family: "QCF2214";
+  src: url("/fonts/mushaf-v2/QCF2214.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-214 {
+  font-family: "QCF2214" !important;
+}
+
+@font-face {
+  font-family: "QCF2215";
+  src: url("/fonts/mushaf-v2/QCF2215.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-215 {
+  font-family: "QCF2215" !important;
+}
+
+@font-face {
+  font-family: "QCF2216";
+  src: url("/fonts/mushaf-v2/QCF2216.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-216 {
+  font-family: "QCF2216" !important;
+}
+
+@font-face {
+  font-family: "QCF2217";
+  src: url("/fonts/mushaf-v2/QCF2217.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-217 {
+  font-family: "QCF2217" !important;
+}
+
+@font-face {
+  font-family: "QCF2218";
+  src: url("/fonts/mushaf-v2/QCF2218.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-218 {
+  font-family: "QCF2218" !important;
+}
+
+@font-face {
+  font-family: "QCF2219";
+  src: url("/fonts/mushaf-v2/QCF2219.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-219 {
+  font-family: "QCF2219" !important;
+}
+
+@font-face {
+  font-family: "QCF2220";
+  src: url("/fonts/mushaf-v2/QCF2220.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-220 {
+  font-family: "QCF2220" !important;
+}
+
+@font-face {
+  font-family: "QCF2221";
+  src: url("/fonts/mushaf-v2/QCF2221.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-221 {
+  font-family: "QCF2221" !important;
+}
+
+@font-face {
+  font-family: "QCF2222";
+  src: url("/fonts/mushaf-v2/QCF2222.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-222 {
+  font-family: "QCF2222" !important;
+}
+
+@font-face {
+  font-family: "QCF2223";
+  src: url("/fonts/mushaf-v2/QCF2223.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-223 {
+  font-family: "QCF2223" !important;
+}
+
+@font-face {
+  font-family: "QCF2224";
+  src: url("/fonts/mushaf-v2/QCF2224.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-224 {
+  font-family: "QCF2224" !important;
+}
+
+@font-face {
+  font-family: "QCF2225";
+  src: url("/fonts/mushaf-v2/QCF2225.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-225 {
+  font-family: "QCF2225" !important;
+}
+
+@font-face {
+  font-family: "QCF2226";
+  src: url("/fonts/mushaf-v2/QCF2226.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-226 {
+  font-family: "QCF2226" !important;
+}
+
+@font-face {
+  font-family: "QCF2227";
+  src: url("/fonts/mushaf-v2/QCF2227.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-227 {
+  font-family: "QCF2227" !important;
+}
+
+@font-face {
+  font-family: "QCF2228";
+  src: url("/fonts/mushaf-v2/QCF2228.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-228 {
+  font-family: "QCF2228" !important;
+}
+
+@font-face {
+  font-family: "QCF2229";
+  src: url("/fonts/mushaf-v2/QCF2229.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-229 {
+  font-family: "QCF2229" !important;
+}
+
+@font-face {
+  font-family: "QCF2230";
+  src: url("/fonts/mushaf-v2/QCF2230.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-230 {
+  font-family: "QCF2230" !important;
+}
+
+@font-face {
+  font-family: "QCF2231";
+  src: url("/fonts/mushaf-v2/QCF2231.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-231 {
+  font-family: "QCF2231" !important;
+}
+
+@font-face {
+  font-family: "QCF2232";
+  src: url("/fonts/mushaf-v2/QCF2232.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-232 {
+  font-family: "QCF2232" !important;
+}
+
+@font-face {
+  font-family: "QCF2233";
+  src: url("/fonts/mushaf-v2/QCF2233.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-233 {
+  font-family: "QCF2233" !important;
+}
+
+@font-face {
+  font-family: "QCF2234";
+  src: url("/fonts/mushaf-v2/QCF2234.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-234 {
+  font-family: "QCF2234" !important;
+}
+
+@font-face {
+  font-family: "QCF2235";
+  src: url("/fonts/mushaf-v2/QCF2235.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-235 {
+  font-family: "QCF2235" !important;
+}
+
+@font-face {
+  font-family: "QCF2236";
+  src: url("/fonts/mushaf-v2/QCF2236.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-236 {
+  font-family: "QCF2236" !important;
+}
+
+@font-face {
+  font-family: "QCF2237";
+  src: url("/fonts/mushaf-v2/QCF2237.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-237 {
+  font-family: "QCF2237" !important;
+}
+
+@font-face {
+  font-family: "QCF2238";
+  src: url("/fonts/mushaf-v2/QCF2238.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-238 {
+  font-family: "QCF2238" !important;
+}
+
+@font-face {
+  font-family: "QCF2239";
+  src: url("/fonts/mushaf-v2/QCF2239.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-239 {
+  font-family: "QCF2239" !important;
+}
+
+@font-face {
+  font-family: "QCF2240";
+  src: url("/fonts/mushaf-v2/QCF2240.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-240 {
+  font-family: "QCF2240" !important;
+}
+
+@font-face {
+  font-family: "QCF2241";
+  src: url("/fonts/mushaf-v2/QCF2241.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-241 {
+  font-family: "QCF2241" !important;
+}
+
+@font-face {
+  font-family: "QCF2242";
+  src: url("/fonts/mushaf-v2/QCF2242.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-242 {
+  font-family: "QCF2242" !important;
+}
+
+@font-face {
+  font-family: "QCF2243";
+  src: url("/fonts/mushaf-v2/QCF2243.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-243 {
+  font-family: "QCF2243" !important;
+}
+
+@font-face {
+  font-family: "QCF2244";
+  src: url("/fonts/mushaf-v2/QCF2244.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-244 {
+  font-family: "QCF2244" !important;
+}
+
+@font-face {
+  font-family: "QCF2245";
+  src: url("/fonts/mushaf-v2/QCF2245.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-245 {
+  font-family: "QCF2245" !important;
+}
+
+@font-face {
+  font-family: "QCF2246";
+  src: url("/fonts/mushaf-v2/QCF2246.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-246 {
+  font-family: "QCF2246" !important;
+}
+
+@font-face {
+  font-family: "QCF2247";
+  src: url("/fonts/mushaf-v2/QCF2247.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-247 {
+  font-family: "QCF2247" !important;
+}
+
+@font-face {
+  font-family: "QCF2248";
+  src: url("/fonts/mushaf-v2/QCF2248.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-248 {
+  font-family: "QCF2248" !important;
+}
+
+@font-face {
+  font-family: "QCF2249";
+  src: url("/fonts/mushaf-v2/QCF2249.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-249 {
+  font-family: "QCF2249" !important;
+}
+
+@font-face {
+  font-family: "QCF2250";
+  src: url("/fonts/mushaf-v2/QCF2250.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-250 {
+  font-family: "QCF2250" !important;
+}
+
+@font-face {
+  font-family: "QCF2251";
+  src: url("/fonts/mushaf-v2/QCF2251.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-251 {
+  font-family: "QCF2251" !important;
+}
+
+@font-face {
+  font-family: "QCF2252";
+  src: url("/fonts/mushaf-v2/QCF2252.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-252 {
+  font-family: "QCF2252" !important;
+}
+
+@font-face {
+  font-family: "QCF2253";
+  src: url("/fonts/mushaf-v2/QCF2253.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-253 {
+  font-family: "QCF2253" !important;
+}
+
+@font-face {
+  font-family: "QCF2254";
+  src: url("/fonts/mushaf-v2/QCF2254.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-254 {
+  font-family: "QCF2254" !important;
+}
+
+@font-face {
+  font-family: "QCF2255";
+  src: url("/fonts/mushaf-v2/QCF2255.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-255 {
+  font-family: "QCF2255" !important;
+}
+
+@font-face {
+  font-family: "QCF2256";
+  src: url("/fonts/mushaf-v2/QCF2256.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-256 {
+  font-family: "QCF2256" !important;
+}
+
+@font-face {
+  font-family: "QCF2257";
+  src: url("/fonts/mushaf-v2/QCF2257.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-257 {
+  font-family: "QCF2257" !important;
+}
+
+@font-face {
+  font-family: "QCF2258";
+  src: url("/fonts/mushaf-v2/QCF2258.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-258 {
+  font-family: "QCF2258" !important;
+}
+
+@font-face {
+  font-family: "QCF2259";
+  src: url("/fonts/mushaf-v2/QCF2259.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-259 {
+  font-family: "QCF2259" !important;
+}
+
+@font-face {
+  font-family: "QCF2260";
+  src: url("/fonts/mushaf-v2/QCF2260.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-260 {
+  font-family: "QCF2260" !important;
+}
+
+@font-face {
+  font-family: "QCF2261";
+  src: url("/fonts/mushaf-v2/QCF2261.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-261 {
+  font-family: "QCF2261" !important;
+}
+
+@font-face {
+  font-family: "QCF2262";
+  src: url("/fonts/mushaf-v2/QCF2262.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-262 {
+  font-family: "QCF2262" !important;
+}
+
+@font-face {
+  font-family: "QCF2263";
+  src: url("/fonts/mushaf-v2/QCF2263.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-263 {
+  font-family: "QCF2263" !important;
+}
+
+@font-face {
+  font-family: "QCF2264";
+  src: url("/fonts/mushaf-v2/QCF2264.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-264 {
+  font-family: "QCF2264" !important;
+}
+
+@font-face {
+  font-family: "QCF2265";
+  src: url("/fonts/mushaf-v2/QCF2265.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-265 {
+  font-family: "QCF2265" !important;
+}
+
+@font-face {
+  font-family: "QCF2266";
+  src: url("/fonts/mushaf-v2/QCF2266.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-266 {
+  font-family: "QCF2266" !important;
+}
+
+@font-face {
+  font-family: "QCF2267";
+  src: url("/fonts/mushaf-v2/QCF2267.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-267 {
+  font-family: "QCF2267" !important;
+}
+
+@font-face {
+  font-family: "QCF2268";
+  src: url("/fonts/mushaf-v2/QCF2268.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-268 {
+  font-family: "QCF2268" !important;
+}
+
+@font-face {
+  font-family: "QCF2269";
+  src: url("/fonts/mushaf-v2/QCF2269.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-269 {
+  font-family: "QCF2269" !important;
+}
+
+@font-face {
+  font-family: "QCF2270";
+  src: url("/fonts/mushaf-v2/QCF2270.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-270 {
+  font-family: "QCF2270" !important;
+}
+
+@font-face {
+  font-family: "QCF2271";
+  src: url("/fonts/mushaf-v2/QCF2271.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-271 {
+  font-family: "QCF2271" !important;
+}
+
+@font-face {
+  font-family: "QCF2272";
+  src: url("/fonts/mushaf-v2/QCF2272.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-272 {
+  font-family: "QCF2272" !important;
+}
+
+@font-face {
+  font-family: "QCF2273";
+  src: url("/fonts/mushaf-v2/QCF2273.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-273 {
+  font-family: "QCF2273" !important;
+}
+
+@font-face {
+  font-family: "QCF2274";
+  src: url("/fonts/mushaf-v2/QCF2274.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-274 {
+  font-family: "QCF2274" !important;
+}
+
+@font-face {
+  font-family: "QCF2275";
+  src: url("/fonts/mushaf-v2/QCF2275.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-275 {
+  font-family: "QCF2275" !important;
+}
+
+@font-face {
+  font-family: "QCF2276";
+  src: url("/fonts/mushaf-v2/QCF2276.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-276 {
+  font-family: "QCF2276" !important;
+}
+
+@font-face {
+  font-family: "QCF2277";
+  src: url("/fonts/mushaf-v2/QCF2277.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-277 {
+  font-family: "QCF2277" !important;
+}
+
+@font-face {
+  font-family: "QCF2278";
+  src: url("/fonts/mushaf-v2/QCF2278.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-278 {
+  font-family: "QCF2278" !important;
+}
+
+@font-face {
+  font-family: "QCF2279";
+  src: url("/fonts/mushaf-v2/QCF2279.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-279 {
+  font-family: "QCF2279" !important;
+}
+
+@font-face {
+  font-family: "QCF2280";
+  src: url("/fonts/mushaf-v2/QCF2280.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-280 {
+  font-family: "QCF2280" !important;
+}
+
+@font-face {
+  font-family: "QCF2281";
+  src: url("/fonts/mushaf-v2/QCF2281.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-281 {
+  font-family: "QCF2281" !important;
+}
+
+@font-face {
+  font-family: "QCF2282";
+  src: url("/fonts/mushaf-v2/QCF2282.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-282 {
+  font-family: "QCF2282" !important;
+}
+
+@font-face {
+  font-family: "QCF2283";
+  src: url("/fonts/mushaf-v2/QCF2283.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-283 {
+  font-family: "QCF2283" !important;
+}
+
+@font-face {
+  font-family: "QCF2284";
+  src: url("/fonts/mushaf-v2/QCF2284.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-284 {
+  font-family: "QCF2284" !important;
+}
+
+@font-face {
+  font-family: "QCF2285";
+  src: url("/fonts/mushaf-v2/QCF2285.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-285 {
+  font-family: "QCF2285" !important;
+}
+
+@font-face {
+  font-family: "QCF2286";
+  src: url("/fonts/mushaf-v2/QCF2286.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-286 {
+  font-family: "QCF2286" !important;
+}
+
+@font-face {
+  font-family: "QCF2287";
+  src: url("/fonts/mushaf-v2/QCF2287.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-287 {
+  font-family: "QCF2287" !important;
+}
+
+@font-face {
+  font-family: "QCF2288";
+  src: url("/fonts/mushaf-v2/QCF2288.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-288 {
+  font-family: "QCF2288" !important;
+}
+
+@font-face {
+  font-family: "QCF2289";
+  src: url("/fonts/mushaf-v2/QCF2289.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-289 {
+  font-family: "QCF2289" !important;
+}
+
+@font-face {
+  font-family: "QCF2290";
+  src: url("/fonts/mushaf-v2/QCF2290.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-290 {
+  font-family: "QCF2290" !important;
+}
+
+@font-face {
+  font-family: "QCF2291";
+  src: url("/fonts/mushaf-v2/QCF2291.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-291 {
+  font-family: "QCF2291" !important;
+}
+
+@font-face {
+  font-family: "QCF2292";
+  src: url("/fonts/mushaf-v2/QCF2292.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-292 {
+  font-family: "QCF2292" !important;
+}
+
+@font-face {
+  font-family: "QCF2293";
+  src: url("/fonts/mushaf-v2/QCF2293.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-293 {
+  font-family: "QCF2293" !important;
+}
+
+@font-face {
+  font-family: "QCF2294";
+  src: url("/fonts/mushaf-v2/QCF2294.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-294 {
+  font-family: "QCF2294" !important;
+}
+
+@font-face {
+  font-family: "QCF2295";
+  src: url("/fonts/mushaf-v2/QCF2295.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-295 {
+  font-family: "QCF2295" !important;
+}
+
+@font-face {
+  font-family: "QCF2296";
+  src: url("/fonts/mushaf-v2/QCF2296.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-296 {
+  font-family: "QCF2296" !important;
+}
+
+@font-face {
+  font-family: "QCF2297";
+  src: url("/fonts/mushaf-v2/QCF2297.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-297 {
+  font-family: "QCF2297" !important;
+}
+
+@font-face {
+  font-family: "QCF2298";
+  src: url("/fonts/mushaf-v2/QCF2298.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-298 {
+  font-family: "QCF2298" !important;
+}
+
+@font-face {
+  font-family: "QCF2299";
+  src: url("/fonts/mushaf-v2/QCF2299.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-299 {
+  font-family: "QCF2299" !important;
+}
+
+@font-face {
+  font-family: "QCF2300";
+  src: url("/fonts/mushaf-v2/QCF2300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-300 {
+  font-family: "QCF2300" !important;
+}
+
+@font-face {
+  font-family: "QCF2301";
+  src: url("/fonts/mushaf-v2/QCF2301.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-301 {
+  font-family: "QCF2301" !important;
+}
+
+@font-face {
+  font-family: "QCF2302";
+  src: url("/fonts/mushaf-v2/QCF2302.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-302 {
+  font-family: "QCF2302" !important;
+}
+
+@font-face {
+  font-family: "QCF2303";
+  src: url("/fonts/mushaf-v2/QCF2303.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-303 {
+  font-family: "QCF2303" !important;
+}
+
+@font-face {
+  font-family: "QCF2304";
+  src: url("/fonts/mushaf-v2/QCF2304.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-304 {
+  font-family: "QCF2304" !important;
+}
+
+@font-face {
+  font-family: "QCF2305";
+  src: url("/fonts/mushaf-v2/QCF2305.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-305 {
+  font-family: "QCF2305" !important;
+}
+
+@font-face {
+  font-family: "QCF2306";
+  src: url("/fonts/mushaf-v2/QCF2306.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-306 {
+  font-family: "QCF2306" !important;
+}
+
+@font-face {
+  font-family: "QCF2307";
+  src: url("/fonts/mushaf-v2/QCF2307.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-307 {
+  font-family: "QCF2307" !important;
+}
+
+@font-face {
+  font-family: "QCF2308";
+  src: url("/fonts/mushaf-v2/QCF2308.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-308 {
+  font-family: "QCF2308" !important;
+}
+
+@font-face {
+  font-family: "QCF2309";
+  src: url("/fonts/mushaf-v2/QCF2309.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-309 {
+  font-family: "QCF2309" !important;
+}
+
+@font-face {
+  font-family: "QCF2310";
+  src: url("/fonts/mushaf-v2/QCF2310.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-310 {
+  font-family: "QCF2310" !important;
+}
+
+@font-face {
+  font-family: "QCF2311";
+  src: url("/fonts/mushaf-v2/QCF2311.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-311 {
+  font-family: "QCF2311" !important;
+}
+
+@font-face {
+  font-family: "QCF2312";
+  src: url("/fonts/mushaf-v2/QCF2312.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-312 {
+  font-family: "QCF2312" !important;
+}
+
+@font-face {
+  font-family: "QCF2313";
+  src: url("/fonts/mushaf-v2/QCF2313.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-313 {
+  font-family: "QCF2313" !important;
+}
+
+@font-face {
+  font-family: "QCF2314";
+  src: url("/fonts/mushaf-v2/QCF2314.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-314 {
+  font-family: "QCF2314" !important;
+}
+
+@font-face {
+  font-family: "QCF2315";
+  src: url("/fonts/mushaf-v2/QCF2315.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-315 {
+  font-family: "QCF2315" !important;
+}
+
+@font-face {
+  font-family: "QCF2316";
+  src: url("/fonts/mushaf-v2/QCF2316.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-316 {
+  font-family: "QCF2316" !important;
+}
+
+@font-face {
+  font-family: "QCF2317";
+  src: url("/fonts/mushaf-v2/QCF2317.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-317 {
+  font-family: "QCF2317" !important;
+}
+
+@font-face {
+  font-family: "QCF2318";
+  src: url("/fonts/mushaf-v2/QCF2318.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-318 {
+  font-family: "QCF2318" !important;
+}
+
+@font-face {
+  font-family: "QCF2319";
+  src: url("/fonts/mushaf-v2/QCF2319.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-319 {
+  font-family: "QCF2319" !important;
+}
+
+@font-face {
+  font-family: "QCF2320";
+  src: url("/fonts/mushaf-v2/QCF2320.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-320 {
+  font-family: "QCF2320" !important;
+}
+
+@font-face {
+  font-family: "QCF2321";
+  src: url("/fonts/mushaf-v2/QCF2321.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-321 {
+  font-family: "QCF2321" !important;
+}
+
+@font-face {
+  font-family: "QCF2322";
+  src: url("/fonts/mushaf-v2/QCF2322.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-322 {
+  font-family: "QCF2322" !important;
+}
+
+@font-face {
+  font-family: "QCF2323";
+  src: url("/fonts/mushaf-v2/QCF2323.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-323 {
+  font-family: "QCF2323" !important;
+}
+
+@font-face {
+  font-family: "QCF2324";
+  src: url("/fonts/mushaf-v2/QCF2324.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-324 {
+  font-family: "QCF2324" !important;
+}
+
+@font-face {
+  font-family: "QCF2325";
+  src: url("/fonts/mushaf-v2/QCF2325.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-325 {
+  font-family: "QCF2325" !important;
+}
+
+@font-face {
+  font-family: "QCF2326";
+  src: url("/fonts/mushaf-v2/QCF2326.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-326 {
+  font-family: "QCF2326" !important;
+}
+
+@font-face {
+  font-family: "QCF2327";
+  src: url("/fonts/mushaf-v2/QCF2327.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-327 {
+  font-family: "QCF2327" !important;
+}
+
+@font-face {
+  font-family: "QCF2328";
+  src: url("/fonts/mushaf-v2/QCF2328.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-328 {
+  font-family: "QCF2328" !important;
+}
+
+@font-face {
+  font-family: "QCF2329";
+  src: url("/fonts/mushaf-v2/QCF2329.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-329 {
+  font-family: "QCF2329" !important;
+}
+
+@font-face {
+  font-family: "QCF2330";
+  src: url("/fonts/mushaf-v2/QCF2330.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-330 {
+  font-family: "QCF2330" !important;
+}
+
+@font-face {
+  font-family: "QCF2331";
+  src: url("/fonts/mushaf-v2/QCF2331.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-331 {
+  font-family: "QCF2331" !important;
+}
+
+@font-face {
+  font-family: "QCF2332";
+  src: url("/fonts/mushaf-v2/QCF2332.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-332 {
+  font-family: "QCF2332" !important;
+}
+
+@font-face {
+  font-family: "QCF2333";
+  src: url("/fonts/mushaf-v2/QCF2333.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-333 {
+  font-family: "QCF2333" !important;
+}
+
+@font-face {
+  font-family: "QCF2334";
+  src: url("/fonts/mushaf-v2/QCF2334.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-334 {
+  font-family: "QCF2334" !important;
+}
+
+@font-face {
+  font-family: "QCF2335";
+  src: url("/fonts/mushaf-v2/QCF2335.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-335 {
+  font-family: "QCF2335" !important;
+}
+
+@font-face {
+  font-family: "QCF2336";
+  src: url("/fonts/mushaf-v2/QCF2336.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-336 {
+  font-family: "QCF2336" !important;
+}
+
+@font-face {
+  font-family: "QCF2337";
+  src: url("/fonts/mushaf-v2/QCF2337.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-337 {
+  font-family: "QCF2337" !important;
+}
+
+@font-face {
+  font-family: "QCF2338";
+  src: url("/fonts/mushaf-v2/QCF2338.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-338 {
+  font-family: "QCF2338" !important;
+}
+
+@font-face {
+  font-family: "QCF2339";
+  src: url("/fonts/mushaf-v2/QCF2339.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-339 {
+  font-family: "QCF2339" !important;
+}
+
+@font-face {
+  font-family: "QCF2340";
+  src: url("/fonts/mushaf-v2/QCF2340.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-340 {
+  font-family: "QCF2340" !important;
+}
+
+@font-face {
+  font-family: "QCF2341";
+  src: url("/fonts/mushaf-v2/QCF2341.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-341 {
+  font-family: "QCF2341" !important;
+}
+
+@font-face {
+  font-family: "QCF2342";
+  src: url("/fonts/mushaf-v2/QCF2342.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-342 {
+  font-family: "QCF2342" !important;
+}
+
+@font-face {
+  font-family: "QCF2343";
+  src: url("/fonts/mushaf-v2/QCF2343.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-343 {
+  font-family: "QCF2343" !important;
+}
+
+@font-face {
+  font-family: "QCF2344";
+  src: url("/fonts/mushaf-v2/QCF2344.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-344 {
+  font-family: "QCF2344" !important;
+}
+
+@font-face {
+  font-family: "QCF2345";
+  src: url("/fonts/mushaf-v2/QCF2345.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-345 {
+  font-family: "QCF2345" !important;
+}
+
+@font-face {
+  font-family: "QCF2346";
+  src: url("/fonts/mushaf-v2/QCF2346.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-346 {
+  font-family: "QCF2346" !important;
+}
+
+@font-face {
+  font-family: "QCF2347";
+  src: url("/fonts/mushaf-v2/QCF2347.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-347 {
+  font-family: "QCF2347" !important;
+}
+
+@font-face {
+  font-family: "QCF2348";
+  src: url("/fonts/mushaf-v2/QCF2348.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-348 {
+  font-family: "QCF2348" !important;
+}
+
+@font-face {
+  font-family: "QCF2349";
+  src: url("/fonts/mushaf-v2/QCF2349.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-349 {
+  font-family: "QCF2349" !important;
+}
+
+@font-face {
+  font-family: "QCF2350";
+  src: url("/fonts/mushaf-v2/QCF2350.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-350 {
+  font-family: "QCF2350" !important;
+}
+
+@font-face {
+  font-family: "QCF2351";
+  src: url("/fonts/mushaf-v2/QCF2351.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-351 {
+  font-family: "QCF2351" !important;
+}
+
+@font-face {
+  font-family: "QCF2352";
+  src: url("/fonts/mushaf-v2/QCF2352.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-352 {
+  font-family: "QCF2352" !important;
+}
+
+@font-face {
+  font-family: "QCF2353";
+  src: url("/fonts/mushaf-v2/QCF2353.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-353 {
+  font-family: "QCF2353" !important;
+}
+
+@font-face {
+  font-family: "QCF2354";
+  src: url("/fonts/mushaf-v2/QCF2354.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-354 {
+  font-family: "QCF2354" !important;
+}
+
+@font-face {
+  font-family: "QCF2355";
+  src: url("/fonts/mushaf-v2/QCF2355.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-355 {
+  font-family: "QCF2355" !important;
+}
+
+@font-face {
+  font-family: "QCF2356";
+  src: url("/fonts/mushaf-v2/QCF2356.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-356 {
+  font-family: "QCF2356" !important;
+}
+
+@font-face {
+  font-family: "QCF2357";
+  src: url("/fonts/mushaf-v2/QCF2357.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-357 {
+  font-family: "QCF2357" !important;
+}
+
+@font-face {
+  font-family: "QCF2358";
+  src: url("/fonts/mushaf-v2/QCF2358.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-358 {
+  font-family: "QCF2358" !important;
+}
+
+@font-face {
+  font-family: "QCF2359";
+  src: url("/fonts/mushaf-v2/QCF2359.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-359 {
+  font-family: "QCF2359" !important;
+}
+
+@font-face {
+  font-family: "QCF2360";
+  src: url("/fonts/mushaf-v2/QCF2360.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-360 {
+  font-family: "QCF2360" !important;
+}
+
+@font-face {
+  font-family: "QCF2361";
+  src: url("/fonts/mushaf-v2/QCF2361.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-361 {
+  font-family: "QCF2361" !important;
+}
+
+@font-face {
+  font-family: "QCF2362";
+  src: url("/fonts/mushaf-v2/QCF2362.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-362 {
+  font-family: "QCF2362" !important;
+}
+
+@font-face {
+  font-family: "QCF2363";
+  src: url("/fonts/mushaf-v2/QCF2363.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-363 {
+  font-family: "QCF2363" !important;
+}
+
+@font-face {
+  font-family: "QCF2364";
+  src: url("/fonts/mushaf-v2/QCF2364.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-364 {
+  font-family: "QCF2364" !important;
+}
+
+@font-face {
+  font-family: "QCF2365";
+  src: url("/fonts/mushaf-v2/QCF2365.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-365 {
+  font-family: "QCF2365" !important;
+}
+
+@font-face {
+  font-family: "QCF2366";
+  src: url("/fonts/mushaf-v2/QCF2366.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-366 {
+  font-family: "QCF2366" !important;
+}
+
+@font-face {
+  font-family: "QCF2367";
+  src: url("/fonts/mushaf-v2/QCF2367.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-367 {
+  font-family: "QCF2367" !important;
+}
+
+@font-face {
+  font-family: "QCF2368";
+  src: url("/fonts/mushaf-v2/QCF2368.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-368 {
+  font-family: "QCF2368" !important;
+}
+
+@font-face {
+  font-family: "QCF2369";
+  src: url("/fonts/mushaf-v2/QCF2369.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-369 {
+  font-family: "QCF2369" !important;
+}
+
+@font-face {
+  font-family: "QCF2370";
+  src: url("/fonts/mushaf-v2/QCF2370.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-370 {
+  font-family: "QCF2370" !important;
+}
+
+@font-face {
+  font-family: "QCF2371";
+  src: url("/fonts/mushaf-v2/QCF2371.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-371 {
+  font-family: "QCF2371" !important;
+}
+
+@font-face {
+  font-family: "QCF2372";
+  src: url("/fonts/mushaf-v2/QCF2372.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-372 {
+  font-family: "QCF2372" !important;
+}
+
+@font-face {
+  font-family: "QCF2373";
+  src: url("/fonts/mushaf-v2/QCF2373.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-373 {
+  font-family: "QCF2373" !important;
+}
+
+@font-face {
+  font-family: "QCF2374";
+  src: url("/fonts/mushaf-v2/QCF2374.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-374 {
+  font-family: "QCF2374" !important;
+}
+
+@font-face {
+  font-family: "QCF2375";
+  src: url("/fonts/mushaf-v2/QCF2375.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-375 {
+  font-family: "QCF2375" !important;
+}
+
+@font-face {
+  font-family: "QCF2376";
+  src: url("/fonts/mushaf-v2/QCF2376.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-376 {
+  font-family: "QCF2376" !important;
+}
+
+@font-face {
+  font-family: "QCF2377";
+  src: url("/fonts/mushaf-v2/QCF2377.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-377 {
+  font-family: "QCF2377" !important;
+}
+
+@font-face {
+  font-family: "QCF2378";
+  src: url("/fonts/mushaf-v2/QCF2378.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-378 {
+  font-family: "QCF2378" !important;
+}
+
+@font-face {
+  font-family: "QCF2379";
+  src: url("/fonts/mushaf-v2/QCF2379.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-379 {
+  font-family: "QCF2379" !important;
+}
+
+@font-face {
+  font-family: "QCF2380";
+  src: url("/fonts/mushaf-v2/QCF2380.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-380 {
+  font-family: "QCF2380" !important;
+}
+
+@font-face {
+  font-family: "QCF2381";
+  src: url("/fonts/mushaf-v2/QCF2381.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-381 {
+  font-family: "QCF2381" !important;
+}
+
+@font-face {
+  font-family: "QCF2382";
+  src: url("/fonts/mushaf-v2/QCF2382.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-382 {
+  font-family: "QCF2382" !important;
+}
+
+@font-face {
+  font-family: "QCF2383";
+  src: url("/fonts/mushaf-v2/QCF2383.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-383 {
+  font-family: "QCF2383" !important;
+}
+
+@font-face {
+  font-family: "QCF2384";
+  src: url("/fonts/mushaf-v2/QCF2384.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-384 {
+  font-family: "QCF2384" !important;
+}
+
+@font-face {
+  font-family: "QCF2385";
+  src: url("/fonts/mushaf-v2/QCF2385.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-385 {
+  font-family: "QCF2385" !important;
+}
+
+@font-face {
+  font-family: "QCF2386";
+  src: url("/fonts/mushaf-v2/QCF2386.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-386 {
+  font-family: "QCF2386" !important;
+}
+
+@font-face {
+  font-family: "QCF2387";
+  src: url("/fonts/mushaf-v2/QCF2387.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-387 {
+  font-family: "QCF2387" !important;
+}
+
+@font-face {
+  font-family: "QCF2388";
+  src: url("/fonts/mushaf-v2/QCF2388.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-388 {
+  font-family: "QCF2388" !important;
+}
+
+@font-face {
+  font-family: "QCF2389";
+  src: url("/fonts/mushaf-v2/QCF2389.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-389 {
+  font-family: "QCF2389" !important;
+}
+
+@font-face {
+  font-family: "QCF2390";
+  src: url("/fonts/mushaf-v2/QCF2390.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-390 {
+  font-family: "QCF2390" !important;
+}
+
+@font-face {
+  font-family: "QCF2391";
+  src: url("/fonts/mushaf-v2/QCF2391.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-391 {
+  font-family: "QCF2391" !important;
+}
+
+@font-face {
+  font-family: "QCF2392";
+  src: url("/fonts/mushaf-v2/QCF2392.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-392 {
+  font-family: "QCF2392" !important;
+}
+
+@font-face {
+  font-family: "QCF2393";
+  src: url("/fonts/mushaf-v2/QCF2393.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-393 {
+  font-family: "QCF2393" !important;
+}
+
+@font-face {
+  font-family: "QCF2394";
+  src: url("/fonts/mushaf-v2/QCF2394.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-394 {
+  font-family: "QCF2394" !important;
+}
+
+@font-face {
+  font-family: "QCF2395";
+  src: url("/fonts/mushaf-v2/QCF2395.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-395 {
+  font-family: "QCF2395" !important;
+}
+
+@font-face {
+  font-family: "QCF2396";
+  src: url("/fonts/mushaf-v2/QCF2396.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-396 {
+  font-family: "QCF2396" !important;
+}
+
+@font-face {
+  font-family: "QCF2397";
+  src: url("/fonts/mushaf-v2/QCF2397.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-397 {
+  font-family: "QCF2397" !important;
+}
+
+@font-face {
+  font-family: "QCF2398";
+  src: url("/fonts/mushaf-v2/QCF2398.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-398 {
+  font-family: "QCF2398" !important;
+}
+
+@font-face {
+  font-family: "QCF2399";
+  src: url("/fonts/mushaf-v2/QCF2399.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-399 {
+  font-family: "QCF2399" !important;
+}
+
+@font-face {
+  font-family: "QCF2400";
+  src: url("/fonts/mushaf-v2/QCF2400.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-400 {
+  font-family: "QCF2400" !important;
+}
+
+@font-face {
+  font-family: "QCF2401";
+  src: url("/fonts/mushaf-v2/QCF2401.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-401 {
+  font-family: "QCF2401" !important;
+}
+
+@font-face {
+  font-family: "QCF2402";
+  src: url("/fonts/mushaf-v2/QCF2402.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-402 {
+  font-family: "QCF2402" !important;
+}
+
+@font-face {
+  font-family: "QCF2403";
+  src: url("/fonts/mushaf-v2/QCF2403.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-403 {
+  font-family: "QCF2403" !important;
+}
+
+@font-face {
+  font-family: "QCF2404";
+  src: url("/fonts/mushaf-v2/QCF2404.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-404 {
+  font-family: "QCF2404" !important;
+}
+
+@font-face {
+  font-family: "QCF2405";
+  src: url("/fonts/mushaf-v2/QCF2405.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-405 {
+  font-family: "QCF2405" !important;
+}
+
+@font-face {
+  font-family: "QCF2406";
+  src: url("/fonts/mushaf-v2/QCF2406.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-406 {
+  font-family: "QCF2406" !important;
+}
+
+@font-face {
+  font-family: "QCF2407";
+  src: url("/fonts/mushaf-v2/QCF2407.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-407 {
+  font-family: "QCF2407" !important;
+}
+
+@font-face {
+  font-family: "QCF2408";
+  src: url("/fonts/mushaf-v2/QCF2408.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-408 {
+  font-family: "QCF2408" !important;
+}
+
+@font-face {
+  font-family: "QCF2409";
+  src: url("/fonts/mushaf-v2/QCF2409.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-409 {
+  font-family: "QCF2409" !important;
+}
+
+@font-face {
+  font-family: "QCF2410";
+  src: url("/fonts/mushaf-v2/QCF2410.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-410 {
+  font-family: "QCF2410" !important;
+}
+
+@font-face {
+  font-family: "QCF2411";
+  src: url("/fonts/mushaf-v2/QCF2411.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-411 {
+  font-family: "QCF2411" !important;
+}
+
+@font-face {
+  font-family: "QCF2412";
+  src: url("/fonts/mushaf-v2/QCF2412.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-412 {
+  font-family: "QCF2412" !important;
+}
+
+@font-face {
+  font-family: "QCF2413";
+  src: url("/fonts/mushaf-v2/QCF2413.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-413 {
+  font-family: "QCF2413" !important;
+}
+
+@font-face {
+  font-family: "QCF2414";
+  src: url("/fonts/mushaf-v2/QCF2414.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-414 {
+  font-family: "QCF2414" !important;
+}
+
+@font-face {
+  font-family: "QCF2415";
+  src: url("/fonts/mushaf-v2/QCF2415.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-415 {
+  font-family: "QCF2415" !important;
+}
+
+@font-face {
+  font-family: "QCF2416";
+  src: url("/fonts/mushaf-v2/QCF2416.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-416 {
+  font-family: "QCF2416" !important;
+}
+
+@font-face {
+  font-family: "QCF2417";
+  src: url("/fonts/mushaf-v2/QCF2417.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-417 {
+  font-family: "QCF2417" !important;
+}
+
+@font-face {
+  font-family: "QCF2418";
+  src: url("/fonts/mushaf-v2/QCF2418.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-418 {
+  font-family: "QCF2418" !important;
+}
+
+@font-face {
+  font-family: "QCF2419";
+  src: url("/fonts/mushaf-v2/QCF2419.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-419 {
+  font-family: "QCF2419" !important;
+}
+
+@font-face {
+  font-family: "QCF2420";
+  src: url("/fonts/mushaf-v2/QCF2420.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-420 {
+  font-family: "QCF2420" !important;
+}
+
+@font-face {
+  font-family: "QCF2421";
+  src: url("/fonts/mushaf-v2/QCF2421.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-421 {
+  font-family: "QCF2421" !important;
+}
+
+@font-face {
+  font-family: "QCF2422";
+  src: url("/fonts/mushaf-v2/QCF2422.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-422 {
+  font-family: "QCF2422" !important;
+}
+
+@font-face {
+  font-family: "QCF2423";
+  src: url("/fonts/mushaf-v2/QCF2423.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-423 {
+  font-family: "QCF2423" !important;
+}
+
+@font-face {
+  font-family: "QCF2424";
+  src: url("/fonts/mushaf-v2/QCF2424.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-424 {
+  font-family: "QCF2424" !important;
+}
+
+@font-face {
+  font-family: "QCF2425";
+  src: url("/fonts/mushaf-v2/QCF2425.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-425 {
+  font-family: "QCF2425" !important;
+}
+
+@font-face {
+  font-family: "QCF2426";
+  src: url("/fonts/mushaf-v2/QCF2426.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-426 {
+  font-family: "QCF2426" !important;
+}
+
+@font-face {
+  font-family: "QCF2427";
+  src: url("/fonts/mushaf-v2/QCF2427.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-427 {
+  font-family: "QCF2427" !important;
+}
+
+@font-face {
+  font-family: "QCF2428";
+  src: url("/fonts/mushaf-v2/QCF2428.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-428 {
+  font-family: "QCF2428" !important;
+}
+
+@font-face {
+  font-family: "QCF2429";
+  src: url("/fonts/mushaf-v2/QCF2429.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-429 {
+  font-family: "QCF2429" !important;
+}
+
+@font-face {
+  font-family: "QCF2430";
+  src: url("/fonts/mushaf-v2/QCF2430.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-430 {
+  font-family: "QCF2430" !important;
+}
+
+@font-face {
+  font-family: "QCF2431";
+  src: url("/fonts/mushaf-v2/QCF2431.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-431 {
+  font-family: "QCF2431" !important;
+}
+
+@font-face {
+  font-family: "QCF2432";
+  src: url("/fonts/mushaf-v2/QCF2432.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-432 {
+  font-family: "QCF2432" !important;
+}
+
+@font-face {
+  font-family: "QCF2433";
+  src: url("/fonts/mushaf-v2/QCF2433.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-433 {
+  font-family: "QCF2433" !important;
+}
+
+@font-face {
+  font-family: "QCF2434";
+  src: url("/fonts/mushaf-v2/QCF2434.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-434 {
+  font-family: "QCF2434" !important;
+}
+
+@font-face {
+  font-family: "QCF2435";
+  src: url("/fonts/mushaf-v2/QCF2435.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-435 {
+  font-family: "QCF2435" !important;
+}
+
+@font-face {
+  font-family: "QCF2436";
+  src: url("/fonts/mushaf-v2/QCF2436.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-436 {
+  font-family: "QCF2436" !important;
+}
+
+@font-face {
+  font-family: "QCF2437";
+  src: url("/fonts/mushaf-v2/QCF2437.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-437 {
+  font-family: "QCF2437" !important;
+}
+
+@font-face {
+  font-family: "QCF2438";
+  src: url("/fonts/mushaf-v2/QCF2438.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-438 {
+  font-family: "QCF2438" !important;
+}
+
+@font-face {
+  font-family: "QCF2439";
+  src: url("/fonts/mushaf-v2/QCF2439.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-439 {
+  font-family: "QCF2439" !important;
+}
+
+@font-face {
+  font-family: "QCF2440";
+  src: url("/fonts/mushaf-v2/QCF2440.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-440 {
+  font-family: "QCF2440" !important;
+}
+
+@font-face {
+  font-family: "QCF2441";
+  src: url("/fonts/mushaf-v2/QCF2441.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-441 {
+  font-family: "QCF2441" !important;
+}
+
+@font-face {
+  font-family: "QCF2442";
+  src: url("/fonts/mushaf-v2/QCF2442.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-442 {
+  font-family: "QCF2442" !important;
+}
+
+@font-face {
+  font-family: "QCF2443";
+  src: url("/fonts/mushaf-v2/QCF2443.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-443 {
+  font-family: "QCF2443" !important;
+}
+
+@font-face {
+  font-family: "QCF2444";
+  src: url("/fonts/mushaf-v2/QCF2444.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-444 {
+  font-family: "QCF2444" !important;
+}
+
+@font-face {
+  font-family: "QCF2445";
+  src: url("/fonts/mushaf-v2/QCF2445.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-445 {
+  font-family: "QCF2445" !important;
+}
+
+@font-face {
+  font-family: "QCF2446";
+  src: url("/fonts/mushaf-v2/QCF2446.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-446 {
+  font-family: "QCF2446" !important;
+}
+
+@font-face {
+  font-family: "QCF2447";
+  src: url("/fonts/mushaf-v2/QCF2447.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-447 {
+  font-family: "QCF2447" !important;
+}
+
+@font-face {
+  font-family: "QCF2448";
+  src: url("/fonts/mushaf-v2/QCF2448.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-448 {
+  font-family: "QCF2448" !important;
+}
+
+@font-face {
+  font-family: "QCF2449";
+  src: url("/fonts/mushaf-v2/QCF2449.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-449 {
+  font-family: "QCF2449" !important;
+}
+
+@font-face {
+  font-family: "QCF2450";
+  src: url("/fonts/mushaf-v2/QCF2450.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-450 {
+  font-family: "QCF2450" !important;
+}
+
+@font-face {
+  font-family: "QCF2451";
+  src: url("/fonts/mushaf-v2/QCF2451.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-451 {
+  font-family: "QCF2451" !important;
+}
+
+@font-face {
+  font-family: "QCF2452";
+  src: url("/fonts/mushaf-v2/QCF2452.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-452 {
+  font-family: "QCF2452" !important;
+}
+
+@font-face {
+  font-family: "QCF2453";
+  src: url("/fonts/mushaf-v2/QCF2453.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-453 {
+  font-family: "QCF2453" !important;
+}
+
+@font-face {
+  font-family: "QCF2454";
+  src: url("/fonts/mushaf-v2/QCF2454.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-454 {
+  font-family: "QCF2454" !important;
+}
+
+@font-face {
+  font-family: "QCF2455";
+  src: url("/fonts/mushaf-v2/QCF2455.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-455 {
+  font-family: "QCF2455" !important;
+}
+
+@font-face {
+  font-family: "QCF2456";
+  src: url("/fonts/mushaf-v2/QCF2456.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-456 {
+  font-family: "QCF2456" !important;
+}
+
+@font-face {
+  font-family: "QCF2457";
+  src: url("/fonts/mushaf-v2/QCF2457.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-457 {
+  font-family: "QCF2457" !important;
+}
+
+@font-face {
+  font-family: "QCF2458";
+  src: url("/fonts/mushaf-v2/QCF2458.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-458 {
+  font-family: "QCF2458" !important;
+}
+
+@font-face {
+  font-family: "QCF2459";
+  src: url("/fonts/mushaf-v2/QCF2459.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-459 {
+  font-family: "QCF2459" !important;
+}
+
+@font-face {
+  font-family: "QCF2460";
+  src: url("/fonts/mushaf-v2/QCF2460.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-460 {
+  font-family: "QCF2460" !important;
+}
+
+@font-face {
+  font-family: "QCF2461";
+  src: url("/fonts/mushaf-v2/QCF2461.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-461 {
+  font-family: "QCF2461" !important;
+}
+
+@font-face {
+  font-family: "QCF2462";
+  src: url("/fonts/mushaf-v2/QCF2462.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-462 {
+  font-family: "QCF2462" !important;
+}
+
+@font-face {
+  font-family: "QCF2463";
+  src: url("/fonts/mushaf-v2/QCF2463.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-463 {
+  font-family: "QCF2463" !important;
+}
+
+@font-face {
+  font-family: "QCF2464";
+  src: url("/fonts/mushaf-v2/QCF2464.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-464 {
+  font-family: "QCF2464" !important;
+}
+
+@font-face {
+  font-family: "QCF2465";
+  src: url("/fonts/mushaf-v2/QCF2465.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-465 {
+  font-family: "QCF2465" !important;
+}
+
+@font-face {
+  font-family: "QCF2466";
+  src: url("/fonts/mushaf-v2/QCF2466.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-466 {
+  font-family: "QCF2466" !important;
+}
+
+@font-face {
+  font-family: "QCF2467";
+  src: url("/fonts/mushaf-v2/QCF2467.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-467 {
+  font-family: "QCF2467" !important;
+}
+
+@font-face {
+  font-family: "QCF2468";
+  src: url("/fonts/mushaf-v2/QCF2468.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-468 {
+  font-family: "QCF2468" !important;
+}
+
+@font-face {
+  font-family: "QCF2469";
+  src: url("/fonts/mushaf-v2/QCF2469.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-469 {
+  font-family: "QCF2469" !important;
+}
+
+@font-face {
+  font-family: "QCF2470";
+  src: url("/fonts/mushaf-v2/QCF2470.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-470 {
+  font-family: "QCF2470" !important;
+}
+
+@font-face {
+  font-family: "QCF2471";
+  src: url("/fonts/mushaf-v2/QCF2471.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-471 {
+  font-family: "QCF2471" !important;
+}
+
+@font-face {
+  font-family: "QCF2472";
+  src: url("/fonts/mushaf-v2/QCF2472.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-472 {
+  font-family: "QCF2472" !important;
+}
+
+@font-face {
+  font-family: "QCF2473";
+  src: url("/fonts/mushaf-v2/QCF2473.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-473 {
+  font-family: "QCF2473" !important;
+}
+
+@font-face {
+  font-family: "QCF2474";
+  src: url("/fonts/mushaf-v2/QCF2474.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-474 {
+  font-family: "QCF2474" !important;
+}
+
+@font-face {
+  font-family: "QCF2475";
+  src: url("/fonts/mushaf-v2/QCF2475.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-475 {
+  font-family: "QCF2475" !important;
+}
+
+@font-face {
+  font-family: "QCF2476";
+  src: url("/fonts/mushaf-v2/QCF2476.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-476 {
+  font-family: "QCF2476" !important;
+}
+
+@font-face {
+  font-family: "QCF2477";
+  src: url("/fonts/mushaf-v2/QCF2477.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-477 {
+  font-family: "QCF2477" !important;
+}
+
+@font-face {
+  font-family: "QCF2478";
+  src: url("/fonts/mushaf-v2/QCF2478.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-478 {
+  font-family: "QCF2478" !important;
+}
+
+@font-face {
+  font-family: "QCF2479";
+  src: url("/fonts/mushaf-v2/QCF2479.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-479 {
+  font-family: "QCF2479" !important;
+}
+
+@font-face {
+  font-family: "QCF2480";
+  src: url("/fonts/mushaf-v2/QCF2480.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-480 {
+  font-family: "QCF2480" !important;
+}
+
+@font-face {
+  font-family: "QCF2481";
+  src: url("/fonts/mushaf-v2/QCF2481.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-481 {
+  font-family: "QCF2481" !important;
+}
+
+@font-face {
+  font-family: "QCF2482";
+  src: url("/fonts/mushaf-v2/QCF2482.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-482 {
+  font-family: "QCF2482" !important;
+}
+
+@font-face {
+  font-family: "QCF2483";
+  src: url("/fonts/mushaf-v2/QCF2483.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-483 {
+  font-family: "QCF2483" !important;
+}
+
+@font-face {
+  font-family: "QCF2484";
+  src: url("/fonts/mushaf-v2/QCF2484.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-484 {
+  font-family: "QCF2484" !important;
+}
+
+@font-face {
+  font-family: "QCF2485";
+  src: url("/fonts/mushaf-v2/QCF2485.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-485 {
+  font-family: "QCF2485" !important;
+}
+
+@font-face {
+  font-family: "QCF2486";
+  src: url("/fonts/mushaf-v2/QCF2486.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-486 {
+  font-family: "QCF2486" !important;
+}
+
+@font-face {
+  font-family: "QCF2487";
+  src: url("/fonts/mushaf-v2/QCF2487.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-487 {
+  font-family: "QCF2487" !important;
+}
+
+@font-face {
+  font-family: "QCF2488";
+  src: url("/fonts/mushaf-v2/QCF2488.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-488 {
+  font-family: "QCF2488" !important;
+}
+
+@font-face {
+  font-family: "QCF2489";
+  src: url("/fonts/mushaf-v2/QCF2489.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-489 {
+  font-family: "QCF2489" !important;
+}
+
+@font-face {
+  font-family: "QCF2490";
+  src: url("/fonts/mushaf-v2/QCF2490.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-490 {
+  font-family: "QCF2490" !important;
+}
+
+@font-face {
+  font-family: "QCF2491";
+  src: url("/fonts/mushaf-v2/QCF2491.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-491 {
+  font-family: "QCF2491" !important;
+}
+
+@font-face {
+  font-family: "QCF2492";
+  src: url("/fonts/mushaf-v2/QCF2492.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-492 {
+  font-family: "QCF2492" !important;
+}
+
+@font-face {
+  font-family: "QCF2493";
+  src: url("/fonts/mushaf-v2/QCF2493.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-493 {
+  font-family: "QCF2493" !important;
+}
+
+@font-face {
+  font-family: "QCF2494";
+  src: url("/fonts/mushaf-v2/QCF2494.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-494 {
+  font-family: "QCF2494" !important;
+}
+
+@font-face {
+  font-family: "QCF2495";
+  src: url("/fonts/mushaf-v2/QCF2495.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-495 {
+  font-family: "QCF2495" !important;
+}
+
+@font-face {
+  font-family: "QCF2496";
+  src: url("/fonts/mushaf-v2/QCF2496.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-496 {
+  font-family: "QCF2496" !important;
+}
+
+@font-face {
+  font-family: "QCF2497";
+  src: url("/fonts/mushaf-v2/QCF2497.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-497 {
+  font-family: "QCF2497" !important;
+}
+
+@font-face {
+  font-family: "QCF2498";
+  src: url("/fonts/mushaf-v2/QCF2498.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-498 {
+  font-family: "QCF2498" !important;
+}
+
+@font-face {
+  font-family: "QCF2499";
+  src: url("/fonts/mushaf-v2/QCF2499.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-499 {
+  font-family: "QCF2499" !important;
+}
+
+@font-face {
+  font-family: "QCF2500";
+  src: url("/fonts/mushaf-v2/QCF2500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-500 {
+  font-family: "QCF2500" !important;
+}
+
+@font-face {
+  font-family: "QCF2501";
+  src: url("/fonts/mushaf-v2/QCF2501.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-501 {
+  font-family: "QCF2501" !important;
+}
+
+@font-face {
+  font-family: "QCF2502";
+  src: url("/fonts/mushaf-v2/QCF2502.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-502 {
+  font-family: "QCF2502" !important;
+}
+
+@font-face {
+  font-family: "QCF2503";
+  src: url("/fonts/mushaf-v2/QCF2503.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-503 {
+  font-family: "QCF2503" !important;
+}
+
+@font-face {
+  font-family: "QCF2504";
+  src: url("/fonts/mushaf-v2/QCF2504.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-504 {
+  font-family: "QCF2504" !important;
+}
+
+@font-face {
+  font-family: "QCF2505";
+  src: url("/fonts/mushaf-v2/QCF2505.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-505 {
+  font-family: "QCF2505" !important;
+}
+
+@font-face {
+  font-family: "QCF2506";
+  src: url("/fonts/mushaf-v2/QCF2506.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-506 {
+  font-family: "QCF2506" !important;
+}
+
+@font-face {
+  font-family: "QCF2507";
+  src: url("/fonts/mushaf-v2/QCF2507.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-507 {
+  font-family: "QCF2507" !important;
+}
+
+@font-face {
+  font-family: "QCF2508";
+  src: url("/fonts/mushaf-v2/QCF2508.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-508 {
+  font-family: "QCF2508" !important;
+}
+
+@font-face {
+  font-family: "QCF2509";
+  src: url("/fonts/mushaf-v2/QCF2509.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-509 {
+  font-family: "QCF2509" !important;
+}
+
+@font-face {
+  font-family: "QCF2510";
+  src: url("/fonts/mushaf-v2/QCF2510.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-510 {
+  font-family: "QCF2510" !important;
+}
+
+@font-face {
+  font-family: "QCF2511";
+  src: url("/fonts/mushaf-v2/QCF2511.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-511 {
+  font-family: "QCF2511" !important;
+}
+
+@font-face {
+  font-family: "QCF2512";
+  src: url("/fonts/mushaf-v2/QCF2512.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-512 {
+  font-family: "QCF2512" !important;
+}
+
+@font-face {
+  font-family: "QCF2513";
+  src: url("/fonts/mushaf-v2/QCF2513.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-513 {
+  font-family: "QCF2513" !important;
+}
+
+@font-face {
+  font-family: "QCF2514";
+  src: url("/fonts/mushaf-v2/QCF2514.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-514 {
+  font-family: "QCF2514" !important;
+}
+
+@font-face {
+  font-family: "QCF2515";
+  src: url("/fonts/mushaf-v2/QCF2515.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-515 {
+  font-family: "QCF2515" !important;
+}
+
+@font-face {
+  font-family: "QCF2516";
+  src: url("/fonts/mushaf-v2/QCF2516.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-516 {
+  font-family: "QCF2516" !important;
+}
+
+@font-face {
+  font-family: "QCF2517";
+  src: url("/fonts/mushaf-v2/QCF2517.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-517 {
+  font-family: "QCF2517" !important;
+}
+
+@font-face {
+  font-family: "QCF2518";
+  src: url("/fonts/mushaf-v2/QCF2518.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-518 {
+  font-family: "QCF2518" !important;
+}
+
+@font-face {
+  font-family: "QCF2519";
+  src: url("/fonts/mushaf-v2/QCF2519.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-519 {
+  font-family: "QCF2519" !important;
+}
+
+@font-face {
+  font-family: "QCF2520";
+  src: url("/fonts/mushaf-v2/QCF2520.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-520 {
+  font-family: "QCF2520" !important;
+}
+
+@font-face {
+  font-family: "QCF2521";
+  src: url("/fonts/mushaf-v2/QCF2521.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-521 {
+  font-family: "QCF2521" !important;
+}
+
+@font-face {
+  font-family: "QCF2522";
+  src: url("/fonts/mushaf-v2/QCF2522.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-522 {
+  font-family: "QCF2522" !important;
+}
+
+@font-face {
+  font-family: "QCF2523";
+  src: url("/fonts/mushaf-v2/QCF2523.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-523 {
+  font-family: "QCF2523" !important;
+}
+
+@font-face {
+  font-family: "QCF2524";
+  src: url("/fonts/mushaf-v2/QCF2524.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-524 {
+  font-family: "QCF2524" !important;
+}
+
+@font-face {
+  font-family: "QCF2525";
+  src: url("/fonts/mushaf-v2/QCF2525.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-525 {
+  font-family: "QCF2525" !important;
+}
+
+@font-face {
+  font-family: "QCF2526";
+  src: url("/fonts/mushaf-v2/QCF2526.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-526 {
+  font-family: "QCF2526" !important;
+}
+
+@font-face {
+  font-family: "QCF2527";
+  src: url("/fonts/mushaf-v2/QCF2527.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-527 {
+  font-family: "QCF2527" !important;
+}
+
+@font-face {
+  font-family: "QCF2528";
+  src: url("/fonts/mushaf-v2/QCF2528.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-528 {
+  font-family: "QCF2528" !important;
+}
+
+@font-face {
+  font-family: "QCF2529";
+  src: url("/fonts/mushaf-v2/QCF2529.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-529 {
+  font-family: "QCF2529" !important;
+}
+
+@font-face {
+  font-family: "QCF2530";
+  src: url("/fonts/mushaf-v2/QCF2530.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-530 {
+  font-family: "QCF2530" !important;
+}
+
+@font-face {
+  font-family: "QCF2531";
+  src: url("/fonts/mushaf-v2/QCF2531.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-531 {
+  font-family: "QCF2531" !important;
+}
+
+@font-face {
+  font-family: "QCF2532";
+  src: url("/fonts/mushaf-v2/QCF2532.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-532 {
+  font-family: "QCF2532" !important;
+}
+
+@font-face {
+  font-family: "QCF2533";
+  src: url("/fonts/mushaf-v2/QCF2533.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-533 {
+  font-family: "QCF2533" !important;
+}
+
+@font-face {
+  font-family: "QCF2534";
+  src: url("/fonts/mushaf-v2/QCF2534.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-534 {
+  font-family: "QCF2534" !important;
+}
+
+@font-face {
+  font-family: "QCF2535";
+  src: url("/fonts/mushaf-v2/QCF2535.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-535 {
+  font-family: "QCF2535" !important;
+}
+
+@font-face {
+  font-family: "QCF2536";
+  src: url("/fonts/mushaf-v2/QCF2536.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-536 {
+  font-family: "QCF2536" !important;
+}
+
+@font-face {
+  font-family: "QCF2537";
+  src: url("/fonts/mushaf-v2/QCF2537.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-537 {
+  font-family: "QCF2537" !important;
+}
+
+@font-face {
+  font-family: "QCF2538";
+  src: url("/fonts/mushaf-v2/QCF2538.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-538 {
+  font-family: "QCF2538" !important;
+}
+
+@font-face {
+  font-family: "QCF2539";
+  src: url("/fonts/mushaf-v2/QCF2539.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-539 {
+  font-family: "QCF2539" !important;
+}
+
+@font-face {
+  font-family: "QCF2540";
+  src: url("/fonts/mushaf-v2/QCF2540.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-540 {
+  font-family: "QCF2540" !important;
+}
+
+@font-face {
+  font-family: "QCF2541";
+  src: url("/fonts/mushaf-v2/QCF2541.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-541 {
+  font-family: "QCF2541" !important;
+}
+
+@font-face {
+  font-family: "QCF2542";
+  src: url("/fonts/mushaf-v2/QCF2542.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-542 {
+  font-family: "QCF2542" !important;
+}
+
+@font-face {
+  font-family: "QCF2543";
+  src: url("/fonts/mushaf-v2/QCF2543.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-543 {
+  font-family: "QCF2543" !important;
+}
+
+@font-face {
+  font-family: "QCF2544";
+  src: url("/fonts/mushaf-v2/QCF2544.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-544 {
+  font-family: "QCF2544" !important;
+}
+
+@font-face {
+  font-family: "QCF2545";
+  src: url("/fonts/mushaf-v2/QCF2545.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-545 {
+  font-family: "QCF2545" !important;
+}
+
+@font-face {
+  font-family: "QCF2546";
+  src: url("/fonts/mushaf-v2/QCF2546.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-546 {
+  font-family: "QCF2546" !important;
+}
+
+@font-face {
+  font-family: "QCF2547";
+  src: url("/fonts/mushaf-v2/QCF2547.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-547 {
+  font-family: "QCF2547" !important;
+}
+
+@font-face {
+  font-family: "QCF2548";
+  src: url("/fonts/mushaf-v2/QCF2548.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-548 {
+  font-family: "QCF2548" !important;
+}
+
+@font-face {
+  font-family: "QCF2549";
+  src: url("/fonts/mushaf-v2/QCF2549.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-549 {
+  font-family: "QCF2549" !important;
+}
+
+@font-face {
+  font-family: "QCF2550";
+  src: url("/fonts/mushaf-v2/QCF2550.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-550 {
+  font-family: "QCF2550" !important;
+}
+
+@font-face {
+  font-family: "QCF2551";
+  src: url("/fonts/mushaf-v2/QCF2551.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-551 {
+  font-family: "QCF2551" !important;
+}
+
+@font-face {
+  font-family: "QCF2552";
+  src: url("/fonts/mushaf-v2/QCF2552.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-552 {
+  font-family: "QCF2552" !important;
+}
+
+@font-face {
+  font-family: "QCF2553";
+  src: url("/fonts/mushaf-v2/QCF2553.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-553 {
+  font-family: "QCF2553" !important;
+}
+
+@font-face {
+  font-family: "QCF2554";
+  src: url("/fonts/mushaf-v2/QCF2554.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-554 {
+  font-family: "QCF2554" !important;
+}
+
+@font-face {
+  font-family: "QCF2555";
+  src: url("/fonts/mushaf-v2/QCF2555.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-555 {
+  font-family: "QCF2555" !important;
+}
+
+@font-face {
+  font-family: "QCF2556";
+  src: url("/fonts/mushaf-v2/QCF2556.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-556 {
+  font-family: "QCF2556" !important;
+}
+
+@font-face {
+  font-family: "QCF2557";
+  src: url("/fonts/mushaf-v2/QCF2557.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-557 {
+  font-family: "QCF2557" !important;
+}
+
+@font-face {
+  font-family: "QCF2558";
+  src: url("/fonts/mushaf-v2/QCF2558.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-558 {
+  font-family: "QCF2558" !important;
+}
+
+@font-face {
+  font-family: "QCF2559";
+  src: url("/fonts/mushaf-v2/QCF2559.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-559 {
+  font-family: "QCF2559" !important;
+}
+
+@font-face {
+  font-family: "QCF2560";
+  src: url("/fonts/mushaf-v2/QCF2560.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-560 {
+  font-family: "QCF2560" !important;
+}
+
+@font-face {
+  font-family: "QCF2561";
+  src: url("/fonts/mushaf-v2/QCF2561.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-561 {
+  font-family: "QCF2561" !important;
+}
+
+@font-face {
+  font-family: "QCF2562";
+  src: url("/fonts/mushaf-v2/QCF2562.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-562 {
+  font-family: "QCF2562" !important;
+}
+
+@font-face {
+  font-family: "QCF2563";
+  src: url("/fonts/mushaf-v2/QCF2563.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-563 {
+  font-family: "QCF2563" !important;
+}
+
+@font-face {
+  font-family: "QCF2564";
+  src: url("/fonts/mushaf-v2/QCF2564.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-564 {
+  font-family: "QCF2564" !important;
+}
+
+@font-face {
+  font-family: "QCF2565";
+  src: url("/fonts/mushaf-v2/QCF2565.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-565 {
+  font-family: "QCF2565" !important;
+}
+
+@font-face {
+  font-family: "QCF2566";
+  src: url("/fonts/mushaf-v2/QCF2566.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-566 {
+  font-family: "QCF2566" !important;
+}
+
+@font-face {
+  font-family: "QCF2567";
+  src: url("/fonts/mushaf-v2/QCF2567.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-567 {
+  font-family: "QCF2567" !important;
+}
+
+@font-face {
+  font-family: "QCF2568";
+  src: url("/fonts/mushaf-v2/QCF2568.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-568 {
+  font-family: "QCF2568" !important;
+}
+
+@font-face {
+  font-family: "QCF2569";
+  src: url("/fonts/mushaf-v2/QCF2569.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-569 {
+  font-family: "QCF2569" !important;
+}
+
+@font-face {
+  font-family: "QCF2570";
+  src: url("/fonts/mushaf-v2/QCF2570.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-570 {
+  font-family: "QCF2570" !important;
+}
+
+@font-face {
+  font-family: "QCF2571";
+  src: url("/fonts/mushaf-v2/QCF2571.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-571 {
+  font-family: "QCF2571" !important;
+}
+
+@font-face {
+  font-family: "QCF2572";
+  src: url("/fonts/mushaf-v2/QCF2572.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-572 {
+  font-family: "QCF2572" !important;
+}
+
+@font-face {
+  font-family: "QCF2573";
+  src: url("/fonts/mushaf-v2/QCF2573.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-573 {
+  font-family: "QCF2573" !important;
+}
+
+@font-face {
+  font-family: "QCF2574";
+  src: url("/fonts/mushaf-v2/QCF2574.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-574 {
+  font-family: "QCF2574" !important;
+}
+
+@font-face {
+  font-family: "QCF2575";
+  src: url("/fonts/mushaf-v2/QCF2575.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-575 {
+  font-family: "QCF2575" !important;
+}
+
+@font-face {
+  font-family: "QCF2576";
+  src: url("/fonts/mushaf-v2/QCF2576.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-576 {
+  font-family: "QCF2576" !important;
+}
+
+@font-face {
+  font-family: "QCF2577";
+  src: url("/fonts/mushaf-v2/QCF2577.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-577 {
+  font-family: "QCF2577" !important;
+}
+
+@font-face {
+  font-family: "QCF2578";
+  src: url("/fonts/mushaf-v2/QCF2578.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-578 {
+  font-family: "QCF2578" !important;
+}
+
+@font-face {
+  font-family: "QCF2579";
+  src: url("/fonts/mushaf-v2/QCF2579.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-579 {
+  font-family: "QCF2579" !important;
+}
+
+@font-face {
+  font-family: "QCF2580";
+  src: url("/fonts/mushaf-v2/QCF2580.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-580 {
+  font-family: "QCF2580" !important;
+}
+
+@font-face {
+  font-family: "QCF2581";
+  src: url("/fonts/mushaf-v2/QCF2581.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-581 {
+  font-family: "QCF2581" !important;
+}
+
+@font-face {
+  font-family: "QCF2582";
+  src: url("/fonts/mushaf-v2/QCF2582.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-582 {
+  font-family: "QCF2582" !important;
+}
+
+@font-face {
+  font-family: "QCF2583";
+  src: url("/fonts/mushaf-v2/QCF2583.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-583 {
+  font-family: "QCF2583" !important;
+}
+
+@font-face {
+  font-family: "QCF2584";
+  src: url("/fonts/mushaf-v2/QCF2584.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-584 {
+  font-family: "QCF2584" !important;
+}
+
+@font-face {
+  font-family: "QCF2585";
+  src: url("/fonts/mushaf-v2/QCF2585.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-585 {
+  font-family: "QCF2585" !important;
+}
+
+@font-face {
+  font-family: "QCF2586";
+  src: url("/fonts/mushaf-v2/QCF2586.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-586 {
+  font-family: "QCF2586" !important;
+}
+
+@font-face {
+  font-family: "QCF2587";
+  src: url("/fonts/mushaf-v2/QCF2587.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-587 {
+  font-family: "QCF2587" !important;
+}
+
+@font-face {
+  font-family: "QCF2588";
+  src: url("/fonts/mushaf-v2/QCF2588.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-588 {
+  font-family: "QCF2588" !important;
+}
+
+@font-face {
+  font-family: "QCF2589";
+  src: url("/fonts/mushaf-v2/QCF2589.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-589 {
+  font-family: "QCF2589" !important;
+}
+
+@font-face {
+  font-family: "QCF2590";
+  src: url("/fonts/mushaf-v2/QCF2590.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-590 {
+  font-family: "QCF2590" !important;
+}
+
+@font-face {
+  font-family: "QCF2591";
+  src: url("/fonts/mushaf-v2/QCF2591.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-591 {
+  font-family: "QCF2591" !important;
+}
+
+@font-face {
+  font-family: "QCF2592";
+  src: url("/fonts/mushaf-v2/QCF2592.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-592 {
+  font-family: "QCF2592" !important;
+}
+
+@font-face {
+  font-family: "QCF2593";
+  src: url("/fonts/mushaf-v2/QCF2593.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-593 {
+  font-family: "QCF2593" !important;
+}
+
+@font-face {
+  font-family: "QCF2594";
+  src: url("/fonts/mushaf-v2/QCF2594.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-594 {
+  font-family: "QCF2594" !important;
+}
+
+@font-face {
+  font-family: "QCF2595";
+  src: url("/fonts/mushaf-v2/QCF2595.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-595 {
+  font-family: "QCF2595" !important;
+}
+
+@font-face {
+  font-family: "QCF2596";
+  src: url("/fonts/mushaf-v2/QCF2596.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-596 {
+  font-family: "QCF2596" !important;
+}
+
+@font-face {
+  font-family: "QCF2597";
+  src: url("/fonts/mushaf-v2/QCF2597.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-597 {
+  font-family: "QCF2597" !important;
+}
+
+@font-face {
+  font-family: "QCF2598";
+  src: url("/fonts/mushaf-v2/QCF2598.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-598 {
+  font-family: "QCF2598" !important;
+}
+
+@font-face {
+  font-family: "QCF2599";
+  src: url("/fonts/mushaf-v2/QCF2599.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-599 {
+  font-family: "QCF2599" !important;
+}
+
+@font-face {
+  font-family: "QCF2600";
+  src: url("/fonts/mushaf-v2/QCF2600.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-600 {
+  font-family: "QCF2600" !important;
+}
+
+@font-face {
+  font-family: "QCF2601";
+  src: url("/fonts/mushaf-v2/QCF2601.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-601 {
+  font-family: "QCF2601" !important;
+}
+
+@font-face {
+  font-family: "QCF2602";
+  src: url("/fonts/mushaf-v2/QCF2602.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-602 {
+  font-family: "QCF2602" !important;
+}
+
+@font-face {
+  font-family: "QCF2603";
+  src: url("/fonts/mushaf-v2/QCF2603.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-603 {
+  font-family: "QCF2603" !important;
+}
+
+@font-face {
+  font-family: "QCF2604";
+  src: url("/fonts/mushaf-v2/QCF2604.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.qcf-page-604 {
+  font-family: "QCF2604" !important;
+}
+
+.qcf-ayah {
+  direction: rtl;
+  text-align: right;
+  font-size: 1.5rem;
+  line-height: 2.5;
+  unicode-bidi: isolate;
+}

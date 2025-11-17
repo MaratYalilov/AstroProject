@@ -1,0 +1,1142 @@
+[
+    {
+        "num": 1,
+        "arabic_name": "الفاتحة",
+        "name_ru": "Фатиха",
+        "meaning_ru": "Открывающая",
+        "ayahs": 7,
+        "start": 0,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 2,
+        "arabic_name": "البقرة",
+        "name_ru": "аль-Бакара",
+        "meaning_ru": "Корова",
+        "ayahs": 286,
+        "start": 7,
+        "type": "Medinan",
+        "rukus": 40
+    },
+    {
+        "num": 3,
+        "arabic_name": "آل عمران",
+        "name_ru": "Алю Имран",
+        "meaning_ru": "Семейство Имрана",
+        "ayahs": 200,
+        "start": 293,
+        "type": "Medinan",
+        "rukus": 20
+    },
+    {
+        "num": 4,
+        "arabic_name": "النساء",
+        "name_ru": "ан-Ниса",
+        "meaning_ru": "Женщины",
+        "ayahs": 176,
+        "start": 493,
+        "type": "Medinan",
+        "rukus": 24
+    },
+    {
+        "num": 5,
+        "arabic_name": "المائدة",
+        "name_ru": "аль-Маида",
+        "meaning_ru": "Трапеза",
+        "ayahs": 120,
+        "start": 669,
+        "type": "Medinan",
+        "rukus": 16
+    },
+    {
+        "num": 6,
+        "arabic_name": "الأنعام",
+        "name_ru": "аль-Анам",
+        "meaning_ru": "Скот",
+        "ayahs": 165,
+        "start": 789,
+        "type": "Meccan",
+        "rukus": 20
+    },
+    {
+        "num": 7,
+        "arabic_name": "الأعراف",
+        "name_ru": "аль-Араф",
+        "meaning_ru": "Ограды",
+        "ayahs": 206,
+        "start": 954,
+        "type": "Meccan",
+        "rukus": 24
+    },
+    {
+        "num": 8,
+        "arabic_name": "الأنفال",
+        "name_ru": "аль-Анфаль",
+        "meaning_ru": "Трофеи",
+        "ayahs": 75,
+        "start": 1160,
+        "type": "Medinan",
+        "rukus": 10
+    },
+    {
+        "num": 9,
+        "arabic_name": "التوبة",
+        "name_ru": "ат-Тауба",
+        "meaning_ru": "Покаяние",
+        "ayahs": 129,
+        "start": 1235,
+        "type": "Medinan",
+        "rukus": 16
+    },
+    {
+        "num": 10,
+        "arabic_name": "يونس",
+        "name_ru": "Йунус",
+        "meaning_ru": "Иона",
+        "ayahs": 109,
+        "start": 1364,
+        "type": "Meccan",
+        "rukus": 11
+    },
+    {
+        "num": 11,
+        "arabic_name": "هود",
+        "name_ru": "Худ",
+        "meaning_ru": "Худ",
+        "ayahs": 123,
+        "start": 1473,
+        "type": "Meccan",
+        "rukus": 10
+    },
+    {
+        "num": 12,
+        "arabic_name": "يوسف",
+        "name_ru": "Йусуф",
+        "meaning_ru": "Иосиф",
+        "ayahs": 111,
+        "start": 1596,
+        "type": "Meccan",
+        "rukus": 12
+    },
+    {
+        "num": 13,
+        "arabic_name": "الرعد",
+        "name_ru": "ар-Раад",
+        "meaning_ru": "Гром",
+        "ayahs": 43,
+        "start": 1707,
+        "type": "Medinan",
+        "rukus": 6
+    },
+    {
+        "num": 14,
+        "arabic_name": "ابراهيم",
+        "name_ru": "Ибрахим",
+        "meaning_ru": "Авраам",
+        "ayahs": 52,
+        "start": 1750,
+        "type": "Meccan",
+        "rukus": 7
+    },
+    {
+        "num": 15,
+        "arabic_name": "الحجر",
+        "name_ru": "аль-Хиджр",
+        "meaning_ru": "Хиджр",
+        "ayahs": 99,
+        "start": 1802,
+        "type": "Meccan",
+        "rukus": 6
+    },
+    {
+        "num": 16,
+        "arabic_name": "النحل",
+        "name_ru": "ан-Нахль",
+        "meaning_ru": "Пчёлы",
+        "ayahs": 128,
+        "start": 1901,
+        "type": "Meccan",
+        "rukus": 16
+    },
+    {
+        "num": 17,
+        "arabic_name": "الإسراء",
+        "name_ru": "аль-Исра",
+        "meaning_ru": "Ночной перенос",
+        "ayahs": 111,
+        "start": 2029,
+        "type": "Meccan",
+        "rukus": 12
+    },
+    {
+        "num": 18,
+        "arabic_name": "الكهف",
+        "name_ru": "аль-Кахф",
+        "meaning_ru": "Пещера",
+        "ayahs": 110,
+        "start": 2140,
+        "type": "Meccan",
+        "rukus": 12
+    },
+    {
+        "num": 19,
+        "arabic_name": "مريم",
+        "name_ru": "Марьям",
+        "meaning_ru": "Мария",
+        "ayahs": 98,
+        "start": 2250,
+        "type": "Meccan",
+        "rukus": 6
+    },
+    {
+        "num": 20,
+        "arabic_name": "طه",
+        "name_ru": "Та Ха",
+        "meaning_ru": "Та Ха",
+        "ayahs": 135,
+        "start": 2348,
+        "type": "Meccan",
+        "rukus": 8
+    },
+    {
+        "num": 21,
+        "arabic_name": "الأنبياء",
+        "name_ru": "аль-Анбийа",
+        "meaning_ru": "Пророки",
+        "ayahs": 112,
+        "start": 2483,
+        "type": "Meccan",
+        "rukus": 7
+    },
+    {
+        "num": 22,
+        "arabic_name": "الحج",
+        "name_ru": "аль-Хаджж",
+        "meaning_ru": "Паломничество",
+        "ayahs": 78,
+        "start": 2595,
+        "type": "Medinan",
+        "rukus": 10
+    },
+    {
+        "num": 23,
+        "arabic_name": "المؤمنون",
+        "name_ru": "аль-Муминун",
+        "meaning_ru": "Верующие",
+        "ayahs": 118,
+        "start": 2673,
+        "type": "Meccan",
+        "rukus": 6
+    },
+    {
+        "num": 24,
+        "arabic_name": "النور",
+        "name_ru": "ан-Нур",
+        "meaning_ru": "Свет",
+        "ayahs": 64,
+        "start": 2791,
+        "type": "Medinan",
+        "rukus": 9
+    },
+    {
+        "num": 25,
+        "arabic_name": "الفرقان",
+        "name_ru": "аль-Фуркан",
+        "meaning_ru": "Различение",
+        "ayahs": 77,
+        "start": 2855,
+        "type": "Meccan",
+        "rukus": 6
+    },
+    {
+        "num": 26,
+        "arabic_name": "الشعراء",
+        "name_ru": "аш-Шуара",
+        "meaning_ru": "Поэты",
+        "ayahs": 227,
+        "start": 2932,
+        "type": "Meccan",
+        "rukus": 11
+    },
+    {
+        "num": 27,
+        "arabic_name": "النمل",
+        "name_ru": "ан-Намль",
+        "meaning_ru": "Муравьи",
+        "ayahs": 93,
+        "start": 3159,
+        "type": "Meccan",
+        "rukus": 7
+    },
+    {
+        "num": 28,
+        "arabic_name": "القصص",
+        "name_ru": "аль-Касас",
+        "meaning_ru": "Рассказ",
+        "ayahs": 88,
+        "start": 3252,
+        "type": "Meccan",
+        "rukus": 8
+    },
+    {
+        "num": 29,
+        "arabic_name": "العنكبوت",
+        "name_ru": "аль-Анкабут",
+        "meaning_ru": "Паук",
+        "ayahs": 69,
+        "start": 3340,
+        "type": "Meccan",
+        "rukus": 7
+    },
+    {
+        "num": 30,
+        "arabic_name": "الروم",
+        "name_ru": "ар-Рум",
+        "meaning_ru": "Римляне",
+        "ayahs": 60,
+        "start": 3409,
+        "type": "Meccan",
+        "rukus": 6
+    },
+    {
+        "num": 31,
+        "arabic_name": "لقمان",
+        "name_ru": "Лукман",
+        "meaning_ru": "Лукман",
+        "ayahs": 34,
+        "start": 3469,
+        "type": "Meccan",
+        "rukus": 3
+    },
+    {
+        "num": 32,
+        "arabic_name": "السجدة",
+        "name_ru": "ас-Саджда",
+        "meaning_ru": "Земной поклон",
+        "ayahs": 30,
+        "start": 3503,
+        "type": "Meccan",
+        "rukus": 3
+    },
+    {
+        "num": 33,
+        "arabic_name": "الأحزاب",
+        "name_ru": "аль-Ахзаб",
+        "meaning_ru": "Союзники",
+        "ayahs": 73,
+        "start": 3533,
+        "type": "Medinan",
+        "rukus": 9
+    },
+    {
+        "num": 34,
+        "arabic_name": "سبإ",
+        "name_ru": "Саба",
+        "meaning_ru": "Сава",
+        "ayahs": 54,
+        "start": 3606,
+        "type": "Meccan",
+        "rukus": 6
+    },
+    {
+        "num": 35,
+        "arabic_name": "فاطر",
+        "name_ru": "Фатыр",
+        "meaning_ru": "Творец",
+        "ayahs": 45,
+        "start": 3660,
+        "type": "Meccan",
+        "rukus": 5
+    },
+    {
+        "num": 36,
+        "arabic_name": "يس",
+        "name_ru": "Йа Син",
+        "meaning_ru": "Йа Син",
+        "ayahs": 83,
+        "start": 3705,
+        "type": "Meccan",
+        "rukus": 5
+    },
+    {
+        "num": 37,
+        "arabic_name": "الصافات",
+        "name_ru": "ас-Саффат",
+        "meaning_ru": "Выстроившиеся в ряды",
+        "ayahs": 182,
+        "start": 3788,
+        "type": "Meccan",
+        "rukus": 5
+    },
+    {
+        "num": 38,
+        "arabic_name": "ص",
+        "name_ru": "Сад",
+        "meaning_ru": "Сад",
+        "ayahs": 88,
+        "start": 3970,
+        "type": "Meccan",
+        "rukus": 5
+    },
+    {
+        "num": 39,
+        "arabic_name": "الزمر",
+        "name_ru": "аз-Зумар",
+        "meaning_ru": "Толпы",
+        "ayahs": 75,
+        "start": 4058,
+        "type": "Meccan",
+        "rukus": 8
+    },
+    {
+        "num": 40,
+        "arabic_name": "غافر",
+        "name_ru": "Гафир",
+        "meaning_ru": "Прощающий",
+        "ayahs": 85,
+        "start": 4133,
+        "type": "Meccan",
+        "rukus": 9
+    },
+    {
+        "num": 41,
+        "arabic_name": "فصلت",
+        "name_ru": "Фуссылат",
+        "meaning_ru": "Разъяснены",
+        "ayahs": 54,
+        "start": 4218,
+        "type": "Meccan",
+        "rukus": 6
+    },
+    {
+        "num": 42,
+        "arabic_name": "الشورى",
+        "name_ru": "аш-Шура",
+        "meaning_ru": "Совет",
+        "ayahs": 53,
+        "start": 4272,
+        "type": "Meccan",
+        "rukus": 5
+    },
+    {
+        "num": 43,
+        "arabic_name": "الزخرف",
+        "name_ru": "аз-Зухруф",
+        "meaning_ru": "Украшения",
+        "ayahs": 89,
+        "start": 4325,
+        "type": "Meccan",
+        "rukus": 7
+    },
+    {
+        "num": 44,
+        "arabic_name": "الدخان",
+        "name_ru": "ад-Духан",
+        "meaning_ru": "Дым",
+        "ayahs": 59,
+        "start": 4414,
+        "type": "Meccan",
+        "rukus": 3
+    },
+    {
+        "num": 45,
+        "arabic_name": "الجاثية",
+        "name_ru": "аль-Джасийа",
+        "meaning_ru": "Коленопреклонённые",
+        "ayahs": 37,
+        "start": 4473,
+        "type": "Meccan",
+        "rukus": 4
+    },
+    {
+        "num": 46,
+        "arabic_name": "الأحقاف",
+        "name_ru": "аль-Ахкаф",
+        "meaning_ru": "Барханы",
+        "ayahs": 35,
+        "start": 4510,
+        "type": "Meccan",
+        "rukus": 4
+    },
+    {
+        "num": 47,
+        "arabic_name": "محمد",
+        "name_ru": "Мухаммад",
+        "meaning_ru": "Мухаммад",
+        "ayahs": 38,
+        "start": 4545,
+        "type": "Medinan",
+        "rukus": 4
+    },
+    {
+        "num": 48,
+        "arabic_name": "الفتح",
+        "name_ru": "аль-Фатх",
+        "meaning_ru": "Победа",
+        "ayahs": 29,
+        "start": 4583,
+        "type": "Medinan",
+        "rukus": 4
+    },
+    {
+        "num": 49,
+        "arabic_name": "الحجرات",
+        "name_ru": "аль-Худжурат",
+        "meaning_ru": "Комнаты",
+        "ayahs": 18,
+        "start": 4612,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 50,
+        "arabic_name": "ق",
+        "name_ru": "Каф",
+        "meaning_ru": "Каф",
+        "ayahs": 45,
+        "start": 4630,
+        "type": "Meccan",
+        "rukus": 3
+    },
+    {
+        "num": 51,
+        "arabic_name": "الذاريات",
+        "name_ru": "аз-Зарийат",
+        "meaning_ru": "Рассеивающие прах",
+        "ayahs": 60,
+        "start": 4675,
+        "type": "Meccan",
+        "rukus": 3
+    },
+    {
+        "num": 52,
+        "arabic_name": "الطور",
+        "name_ru": "ат-Тур",
+        "meaning_ru": "Гора",
+        "ayahs": 49,
+        "start": 4735,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 53,
+        "arabic_name": "النجم",
+        "name_ru": "ан-Наджм",
+        "meaning_ru": "Звезда",
+        "ayahs": 62,
+        "start": 4784,
+        "type": "Meccan",
+        "rukus": 3
+    },
+    {
+        "num": 54,
+        "arabic_name": "القمر",
+        "name_ru": "аль-Камар",
+        "meaning_ru": "Месяц",
+        "ayahs": 55,
+        "start": 4846,
+        "type": "Meccan",
+        "rukus": 3
+    },
+    {
+        "num": 55,
+        "arabic_name": "الرحمن",
+        "name_ru": "ар-Рахман",
+        "meaning_ru": "Милостивый",
+        "ayahs": 78,
+        "start": 4901,
+        "type": "Medinan",
+        "rukus": 3
+    },
+    {
+        "num": 56,
+        "arabic_name": "الواقعة",
+        "name_ru": "аль-Вакиа",
+        "meaning_ru": "Событие",
+        "ayahs": 96,
+        "start": 4979,
+        "type": "Meccan",
+        "rukus": 3
+    },
+    {
+        "num": 57,
+        "arabic_name": "الحديد",
+        "name_ru": "аль-Хадид",
+        "meaning_ru": "Железо",
+        "ayahs": 29,
+        "start": 5075,
+        "type": "Medinan",
+        "rukus": 4
+    },
+    {
+        "num": 58,
+        "arabic_name": "المجادلة",
+        "name_ru": "аль-Муджадила",
+        "meaning_ru": "Препирающаяся",
+        "ayahs": 22,
+        "start": 5104,
+        "type": "Medinan",
+        "rukus": 3
+    },
+    {
+        "num": 59,
+        "arabic_name": "الحشر",
+        "name_ru": "аль-Хашр",
+        "meaning_ru": "Сбор",
+        "ayahs": 24,
+        "start": 5126,
+        "type": "Medinan",
+        "rukus": 3
+    },
+    {
+        "num": 60,
+        "arabic_name": "الممتحنة",
+        "name_ru": "аль-Мумтахана",
+        "meaning_ru": "Испытуемая",
+        "ayahs": 13,
+        "start": 5150,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 61,
+        "arabic_name": "الصف",
+        "name_ru": "ас-Сафф",
+        "meaning_ru": "Ряды",
+        "ayahs": 14,
+        "start": 5163,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 62,
+        "arabic_name": "الجمعة",
+        "name_ru": "аль-Джумуа",
+        "meaning_ru": "Собрание",
+        "ayahs": 11,
+        "start": 5177,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 63,
+        "arabic_name": "المنافقون",
+        "name_ru": "аль-Мунафикун",
+        "meaning_ru": "Лицемеры",
+        "ayahs": 11,
+        "start": 5188,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 64,
+        "arabic_name": "التغابن",
+        "name_ru": "ат-Тагабун",
+        "meaning_ru": "Взаимное обделение",
+        "ayahs": 18,
+        "start": 5199,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 65,
+        "arabic_name": "الطلاق",
+        "name_ru": "ат-Талак",
+        "meaning_ru": "Развод",
+        "ayahs": 12,
+        "start": 5217,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 66,
+        "arabic_name": "التحريم",
+        "name_ru": "ат-Тахрим",
+        "meaning_ru": "Запрещение",
+        "ayahs": 12,
+        "start": 5229,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 67,
+        "arabic_name": "الملك",
+        "name_ru": "аль-Мульк",
+        "meaning_ru": "Власть",
+        "ayahs": 30,
+        "start": 5241,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 68,
+        "arabic_name": "القلم",
+        "name_ru": "аль-Калам",
+        "meaning_ru": "Письменная трость",
+        "ayahs": 52,
+        "start": 5271,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 69,
+        "arabic_name": "الحاقة",
+        "name_ru": "аль-Хакка",
+        "meaning_ru": "Неминуемое",
+        "ayahs": 52,
+        "start": 5323,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 70,
+        "arabic_name": "المعارج",
+        "name_ru": "аль-Мааридж",
+        "meaning_ru": "Ступени",
+        "ayahs": 44,
+        "start": 5375,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 71,
+        "arabic_name": "نوح",
+        "name_ru": "Нух",
+        "meaning_ru": "Ной",
+        "ayahs": 28,
+        "start": 5419,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 72,
+        "arabic_name": "الجن",
+        "name_ru": "аль-Джинн",
+        "meaning_ru": "Джинны",
+        "ayahs": 28,
+        "start": 5447,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 73,
+        "arabic_name": "المزمل",
+        "name_ru": "аль-Муззаммиль",
+        "meaning_ru": "Закутавшийся",
+        "ayahs": 20,
+        "start": 5475,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 74,
+        "arabic_name": "المدثر",
+        "name_ru": "аль-Муддассир",
+        "meaning_ru": "Завернувшийся",
+        "ayahs": 56,
+        "start": 5495,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 75,
+        "arabic_name": "القيامة",
+        "name_ru": "аль-Кийама",
+        "meaning_ru": "Воскресение",
+        "ayahs": 40,
+        "start": 5551,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 76,
+        "arabic_name": "الانسان",
+        "name_ru": "аль-Инсан",
+        "meaning_ru": "Человек",
+        "ayahs": 31,
+        "start": 5591,
+        "type": "Medinan",
+        "rukus": 2
+    },
+    {
+        "num": 77,
+        "arabic_name": "المرسلات",
+        "name_ru": "аль-Мурсалат",
+        "meaning_ru": "Посылаемые",
+        "ayahs": 50,
+        "start": 5622,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 78,
+        "arabic_name": "النبإ",
+        "name_ru": "ан-Наба",
+        "meaning_ru": "Весть",
+        "ayahs": 40,
+        "start": 5672,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 79,
+        "arabic_name": "النازعات",
+        "name_ru": "ан-Назиат",
+        "meaning_ru": "Исторгающие",
+        "ayahs": 46,
+        "start": 5712,
+        "type": "Meccan",
+        "rukus": 2
+    },
+    {
+        "num": 80,
+        "arabic_name": "عبس",
+        "name_ru": "Абаса",
+        "meaning_ru": "Нахмурился",
+        "ayahs": 42,
+        "start": 5758,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 81,
+        "arabic_name": "التكوير",
+        "name_ru": "ат-Таквир",
+        "meaning_ru": "Скручивание",
+        "ayahs": 29,
+        "start": 5800,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 82,
+        "arabic_name": "الإنفطار",
+        "name_ru": "аль-Инфитар",
+        "meaning_ru": "Раскалывание",
+        "ayahs": 19,
+        "start": 5829,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 83,
+        "arabic_name": "المطففين",
+        "name_ru": "аль-Мутаффифин",
+        "meaning_ru": "Обвешивающие",
+        "ayahs": 36,
+        "start": 5848,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 84,
+        "arabic_name": "الإنشقاق",
+        "name_ru": "аль-Иншикак",
+        "meaning_ru": "Разверзнется",
+        "ayahs": 25,
+        "start": 5884,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 85,
+        "arabic_name": "البروج",
+        "name_ru": "аль-Бурудж",
+        "meaning_ru": "Созвездия зодиака",
+        "ayahs": 22,
+        "start": 5909,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 86,
+        "arabic_name": "الطارق",
+        "name_ru": "ат-Тарик",
+        "meaning_ru": "Ночной путник",
+        "ayahs": 17,
+        "start": 5931,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 87,
+        "arabic_name": "الأعلى",
+        "name_ru": "аль-Аля",
+        "meaning_ru": "Всевышний",
+        "ayahs": 19,
+        "start": 5948,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 88,
+        "arabic_name": "الغاشية",
+        "name_ru": "аль-Гашийа",
+        "meaning_ru": "Покрывающее",
+        "ayahs": 26,
+        "start": 5967,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 89,
+        "arabic_name": "الفجر",
+        "name_ru": "аль-Фаджр",
+        "meaning_ru": "Заря",
+        "ayahs": 30,
+        "start": 5993,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 90,
+        "arabic_name": "البلد",
+        "name_ru": "аль-Балад",
+        "meaning_ru": "Город",
+        "ayahs": 20,
+        "start": 6023,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 91,
+        "arabic_name": "الشمس",
+        "name_ru": "аш-Шамс",
+        "meaning_ru": "Солнце",
+        "ayahs": 15,
+        "start": 6043,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 92,
+        "arabic_name": "الليل",
+        "name_ru": "аль-Лейл",
+        "meaning_ru": "Ночь",
+        "ayahs": 21,
+        "start": 6058,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 93,
+        "arabic_name": "الضحى",
+        "name_ru": "ад-Духа",
+        "meaning_ru": "Утро",
+        "ayahs": 11,
+        "start": 6079,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 94,
+        "arabic_name": "الشرح",
+        "name_ru": "аль-Инширах",
+        "meaning_ru": "Раскрытие",
+        "ayahs": 8,
+        "start": 6090,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 95,
+        "arabic_name": "التين",
+        "name_ru": "ат-Тин",
+        "meaning_ru": "Смоковница",
+        "ayahs": 8,
+        "start": 6098,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 96,
+        "arabic_name": "العلق",
+        "name_ru": "аль-Аляк",
+        "meaning_ru": "Сгусток крови",
+        "ayahs": 19,
+        "start": 6106,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 97,
+        "arabic_name": "القدر",
+        "name_ru": "аль-Кадр",
+        "meaning_ru": "Предопределение",
+        "ayahs": 5,
+        "start": 6125,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 98,
+        "arabic_name": "البينة",
+        "name_ru": "аль-Беййина",
+        "meaning_ru": "Ясное знамение",
+        "ayahs": 8,
+        "start": 6130,
+        "type": "Medinan",
+        "rukus": 1
+    },
+    {
+        "num": 99,
+        "arabic_name": "الزلزلة",
+        "name_ru": "аз-Залзала",
+        "meaning_ru": "Сотрясение",
+        "ayahs": 8,
+        "start": 6138,
+        "type": "Medinan",
+        "rukus": 1
+    },
+    {
+        "num": 100,
+        "arabic_name": "العاديات",
+        "name_ru": "аль-Адийат",
+        "meaning_ru": "Скачущие",
+        "ayahs": 11,
+        "start": 6146,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 101,
+        "arabic_name": "القارعة",
+        "name_ru": "аль-Кариа",
+        "meaning_ru": "Великое бедствие",
+        "ayahs": 11,
+        "start": 6157,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 102,
+        "arabic_name": "التكاثر",
+        "name_ru": "ат-Такасур",
+        "meaning_ru": "Страсть к приумножению",
+        "ayahs": 8,
+        "start": 6168,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 103,
+        "arabic_name": "العصر",
+        "name_ru": "аль-Аср",
+        "meaning_ru": "Предвечернее время",
+        "ayahs": 3,
+        "start": 6176,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 104,
+        "arabic_name": "الهمزة",
+        "name_ru": "аль-Хумаза",
+        "meaning_ru": "Хулитель",
+        "ayahs": 9,
+        "start": 6179,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 105,
+        "arabic_name": "الفيل",
+        "name_ru": "аль-Филь",
+        "meaning_ru": "Слон",
+        "ayahs": 5,
+        "start": 6188,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 106,
+        "arabic_name": "قريش",
+        "name_ru": "Курейш",
+        "meaning_ru": "Курейшиты",
+        "ayahs": 4,
+        "start": 6193,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 107,
+        "arabic_name": "الماعون",
+        "name_ru": "аль-Маун",
+        "meaning_ru": "Мелочь",
+        "ayahs": 7,
+        "start": 6197,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 108,
+        "arabic_name": "الكوثر",
+        "name_ru": "аль-Каусар",
+        "meaning_ru": "Изобилие",
+        "ayahs": 3,
+        "start": 6204,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 109,
+        "arabic_name": "الكافرون",
+        "name_ru": "аль-Кафирун",
+        "meaning_ru": "Неверующие",
+        "ayahs": 6,
+        "start": 6207,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 110,
+        "arabic_name": "النصر",
+        "name_ru": "ан-Наср",
+        "meaning_ru": "Помощь",
+        "ayahs": 3,
+        "start": 6213,
+        "type": "Medinan",
+        "rukus": 1
+    },
+    {
+        "num": 111,
+        "arabic_name": "المسد",
+        "name_ru": "аль-Масад",
+        "meaning_ru": "Пальмовые волокна",
+        "ayahs": 5,
+        "start": 6216,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 112,
+        "arabic_name": "الإخلاص",
+        "name_ru": "аль-Ихлас",
+        "meaning_ru": "Очищение веры",
+        "ayahs": 4,
+        "start": 6221,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 113,
+        "arabic_name": "الفلق",
+        "name_ru": "аль-Фаляк",
+        "meaning_ru": "Рассвет",
+        "ayahs": 5,
+        "start": 6225,
+        "type": "Meccan",
+        "rukus": 1
+    },
+    {
+        "num": 114,
+        "arabic_name": "الناس",
+        "name_ru": "ан-Нас",
+        "meaning_ru": "Люди",
+        "ayahs": 6,
+        "start": 6230,
+        "type": "Meccan",
+        "rukus": 1
+    }
+]

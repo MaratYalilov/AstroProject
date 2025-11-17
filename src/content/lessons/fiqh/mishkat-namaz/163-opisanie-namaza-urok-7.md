@@ -1,13 +1,13 @@
 ---
-title: Opisanie namaza urok 7
+title: '163, Описание намаза урок 7'
 order: 163
-audio: /media/fiqh/mishkat-namaz/audio/163-opisanie-namaza-urok-7.mp3
-video: /media/fiqh/mishkat-namaz/video/163-opisanie-namaza-urok-7.mp4
 hasAudio: true
 hasVideo: true
+audio: /media/fiqh/mishkat-namaz/audio/163-opisanie-namaza-urok-7.mp3
 audioRel: audio/163-opisanie-namaza-urok-7.mp3
+video: /media/fiqh/mishkat-namaz/video/163-opisanie-namaza-urok-7.mp4
 videoRel: video/163-opisanie-namaza-urok-7.mp4
 ---
-# Opisanie namaza urok 7
+# 163, Описание намаза урок 7
 
 Конспекта урока не существует.

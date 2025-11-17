@@ -512,8 +512,10 @@ const LessonPage: React.FC<LessonPageProps> = ({
                                 href={buildLessonUrl(l.slug)}
                                 ref={isCurrent ? activeLessonRef : undefined}
                                 className={[
-                                  "group block w-full max-w-full rounded-xl border p-3 text-sm transition",
-                                  isCurrent && "border-primary/60 bg-primary/5",
+                                  "group block w-full max-w-full rounded-xl border border-border/70 p-3 text-sm transition",
+                                  isCurrent
+                                    ? "border-primary/60 bg-primary/5"
+                                    : "hover:border-lime-200 hover:bg-lime-50 dark:hover:border-border/60 dark:hover:bg-muted/50",
                                 ]
                                   .filter(Boolean)
                                   .join(" ")}
@@ -538,11 +540,11 @@ const LessonPage: React.FC<LessonPageProps> = ({
                                     <Play className="h-4 w-4" />
                                   </div>
                                   <div className="min-w-0">
-                                    <div className="truncate font-medium">
+                                    <div className="truncate font-medium transition-colors group-hover:text-lime-700 dark:group-hover:text-lime-50">
                                       {renderHighlightedTitle(l.title)}
                                     </div>
                                     {l.order != null && (
-                                      <div className="text-[10px] uppercase text-muted-foreground">
+                                      <div className="text-[10px] uppercase text-muted-foreground transition-colors group-hover:text-lime-700 dark:group-hover:text-lime-50">
                                         Урок {l.order}
                                       </div>
                                     )}

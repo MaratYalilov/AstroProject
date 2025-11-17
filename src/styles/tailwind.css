@@ -1,3 +1,54 @@
+@import "./qcf-v2.css";
+
+/* 2. Дальше все @font-face */
+
+@font-face {
+  font-family: "me_quran";
+  src: url("/fonts/me_quran-webfont.ttf") format("truetype");
+  /* font-weight: 400; */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "kfc_naskh-webfont";
+  src: url("/fonts/kfc_naskh-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AmiriLocal";
+  src: url("/fonts/Amiri-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AmiriLocal";
+  src: url("/fonts/Amiri-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AmiriLocal";
+  src: url("/fonts/Amiri-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AmiriLocal";
+  src: url("/fonts/Amiri-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -36,7 +87,7 @@
   }
 
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 200 3% 17%;
     --foreground: 0 0% 98%;
     --primary: 0 0% 98%;
     --primary-foreground: 240 5.9% 10%;
@@ -47,9 +98,9 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
-    --card: 240 10% 3.9%;
+    --card: 200 3% 17%;
     --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
+    --popover: 200 3% 17%;
     --popover-foreground: 0 0% 98%;
     --accent: 240 3.7% 15.9%;
     --accent-foreground: 0 0% 98%;
@@ -63,13 +114,108 @@
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
+  /* арабский inline-текст */
+  .arab {
+    font-size: 1.5em;
+    line-height: 2.5;
+    direction: rtl !important;
+    unicode-bidi: isolate;
+    font-family:
+      "AmiriLocal",
+      "Scheherazade New",
+      "Amiri",
+      serif !important;
+  }
+
+  /* арабский блок отдельной строкой, по центру */
+  .arab-block {
+    display: block;
+    font-size: 1.3em;
+    line-height: 1.9;
+    margin: 0.75rem 0;
+    text-align: center;
+    direction: rtl !important;
+    unicode-bidi: isolate;
+    font-family:
+      "AmiriLocal",
+      "Scheherazade New",
+      "Amiri",
+      serif !important;
+  }
+
+  .arab-strong {
+    @apply font-semibold;
+  }
+/* Цитата Корана */
+  .quran-ayah-block {
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 24px 0;
+  background: #fafafa;
+}
+
+.quran-ayah-block__arabic {
+  text-align: right;
+  margin-bottom: 12px;
+  font-size: 1.5em;
+  line-height: 2.5;
+  direction: rtl !important;
+  unicode-bidi: isolate;
+}
+
+.quran-ayah-block__image {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.quran-ayah-block__image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.quran-ayah-block__translation {
+  margin: 12px 0;
+  font-size: 1rem;
+}
+
+.quran-ayah-block__source {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.quran-ayah-block__audio audio {
+  /* width: 100%; */
+}
+
+/* Стиль из джумла хутбы */
+
+.Quran
+{
+  border: solid 1px #ccddab; border-radius: 5px; margin: 7px auto 0 auto ;
+  max-width: 630px; padding-top: 7px; background-color: #fffedd;
+}
+
+p.Quran_p
+{
+padding: 7px 35px
+}
+
+img.Quran_img 
+{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 }

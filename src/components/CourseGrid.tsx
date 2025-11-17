@@ -32,7 +32,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({ subjectSlug, courses }) => {
           whileTap={{ scale: 0.99 }}
           className="block"
         >
-          <Card className="h-full cursor-pointer border border-border/70 transition-colors hover:border-primary/70">
+          <Card className="h-full cursor-pointer border border-border/70 transition-colors hover:border-lime-200 hover:bg-lime-50 dark:hover:border-border/60 dark:hover:bg-muted">
             <CardHeader>
               <CardTitle className="text-base sm:text-lg">
                 {c.data.title}

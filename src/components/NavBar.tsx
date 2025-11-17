@@ -20,8 +20,7 @@ export default function NavBar({ currentPath = "/" }: { currentPath?: string }) 
     <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
       {/* Logo */}
       <a href="/" className="flex items-center gap-2">
-        <div className="h-8 w-8 rounded-2xl bg-primary/15" />
-        <span className="text-lg font-semibold">EduNova</span>
+        <img src="/s5_logo.png" alt="Hutba.org" className="h-11 w-auto" />
       </a>
 
       {/* Desktop nav */}
@@ -33,8 +32,10 @@ export default function NavBar({ currentPath = "/" }: { currentPath?: string }) 
               key={item.href}
               href={item.href}
               className={[
-                "rounded-lg px-3 py-1.5 text-sm transition",
-                active ? "bg-muted font-medium" : "hover:bg-muted"
+                "rounded-lg border border-transparent px-3 py-1.5 text-sm transition",
+                active
+                  ? "bg-muted font-medium"
+                  : "hover:border-lime-200 hover:bg-lime-50 dark:hover:border-transparent dark:hover:bg-muted"
               ].join(" ")}
             >
               {item.label}
@@ -70,8 +71,10 @@ export default function NavBar({ currentPath = "/" }: { currentPath?: string }) 
                     key={item.href}
                     href={item.href}
                     className={[
-                      "rounded-lg px-3 py-2 text-sm transition",
-                      active ? "bg-muted font-medium" : "hover:bg-muted"
+                      "rounded-lg border border-transparent px-3 py-2 text-sm transition",
+                      active
+                        ? "bg-muted font-medium"
+                        : "hover:border-lime-200 hover:bg-lime-50 dark:hover:border-transparent dark:hover:bg-muted"
                     ].join(" ")}
                     onClick={() => setOpen(false)}
                   >
