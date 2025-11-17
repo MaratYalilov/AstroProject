@@ -12,5 +12,5 @@ export default defineConfig({
       },
     },
   },
-  // output: 'static', // по умолчанию SSG. Если нужно SSR — раскомментируйте и поставьте 'server'
+  output: 'static', // по умолчанию SSG. Если нужно SSR — раскомментируйте и поставьте 'server'
 });

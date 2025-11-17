@@ -145,6 +145,11 @@ const LessonPage: React.FC<LessonPageProps> = ({
       subject
     )}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(slug)}`;
 
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+    document.dispatchEvent(new CustomEvent("quran:reinit"));
+  }, [currentLesson.slug, currentLesson.html]);
+
   // =============================
   // поиск по урокам (сайдбар)
   // =============================

@@ -1,32 +1,110 @@
 ---
-
-
 import "../styles/tailwind.css";
 import NavBar from "@/components/NavBar";
+
 const { title = "Lesson" } = Astro.props as { title?: string };
 ---
+
 <html lang="ru" class="bg-background text-foreground">
   <head>
-      <script is:inline>
-      // Применяем тему из localStorage или из системной настройки ДО отрисовки
+    <!-- Тема из localStorage -->
+    <script is:inline>
       (function () {
-      try {
-        var ls = localStorage.getItem('theme');
-        var m = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        var dark = ls ? ls === 'dark' : m;
-        if (dark) document.documentElement.classList.add('dark');
-        // Подсказываем браузеру палитру: влияет на системные компоненты
-        document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
-      } catch (e) {}
-       })();
-  </script>
+        try {
+          var ls = localStorage.getItem('theme');
+          var m = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var dark = ls ? ls === 'dark' : m;
+          if (dark) document.documentElement.classList.add('dark');
+          document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+        } catch (e) {}
+      })();
+    </script>
+    <script is:inline>
+      (function () {
+        if (typeof window === 'undefined') return;
+
+        function parsePlaylist(raw) {
+          if (!raw) return [];
+          try {
+            var parsed = JSON.parse(raw);
+            if (Array.isArray(parsed)) {
+              return parsed.filter(function (item) {
+                return typeof item === 'string' && item.trim().length > 0;
+              });
+            }
+          } catch (err) {
+            // ignore, fallback below
+          }
+          return raw
+            .split('|')
+            .map(function (s) { return s.trim(); })
+            .filter(function (s) { return s.length > 0; });
+        }
+
+        function enhanceAudio(audio) {
+          var tracks = parsePlaylist(audio.getAttribute('data-playlist') || '');
+          if (!tracks.length) return;
+
+          var index = 0;
+          function setTrack(nextIndex, autoplay) {
+            index = nextIndex;
+            audio.src = tracks[index];
+            audio.currentTime = 0;
+            audio.load();
+            if (autoplay) {
+              var playPromise = audio.play();
+              if (playPromise && typeof playPromise.catch === 'function') {
+                playPromise.catch(function () {});
+              }
+            }
+          }
+
+          setTrack(0, false);
+
+          audio.addEventListener('ended', function () {
+            if (index < tracks.length - 1) {
+              setTrack(index + 1, true);
+            } else {
+              setTrack(0, false);
+            }
+          });
+        }
+
+        function initAll() {
+          document.querySelectorAll('audio[data-playlist]').forEach(function (audio) {
+            if (audio.getAttribute('data-playlist-initialized') === 'true') {
+              return;
+            }
+            audio.setAttribute('data-playlist-initialized', 'true');
+            enhanceAudio(audio);
+          });
+        }
+
+        document.addEventListener('astro:page-load', initAll);
+        document.addEventListener('quran:reinit', initAll);
+        var scheduleId = null;
+        var observer = new MutationObserver(function () {
+          if (scheduleId !== null) return;
+          scheduleId = requestAnimationFrame(function () {
+            scheduleId = null;
+            initAll();
+          });
+        });
+        observer.observe(document.documentElement, { childList: true, subtree: true });
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initAll);
+        } else {
+          initAll();
+        }
+      })();
+    </script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
   </head>
   <body class="min-h-screen bg-background text-foreground">
     <header class="sticky top-0 z-40 border-b bg-background/80 dark:bg-[#181818] backdrop-blur supports-[backdrop-filter]:bg-background/60 supports-[backdrop-filter]:dark:bg-[#181818]/95">
-      <!-- Передаём текущий путь для подсветки активного пункта -->
       <NavBar client:load currentPath={Astro.url.pathname} />
     </header>
     <main class="mx-auto max-w-7xl px-4 py-6">

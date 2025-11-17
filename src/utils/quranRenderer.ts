@@ -1,10 +1,11 @@
 ﻿// src/utils/quranRenderer.ts
 
 // JSON-файлы через ?json, чтобы Astro/Vite не ругался
-import surahsData from "../data/surahs.json?json";
-import quranUthmaniData from "../data/quran-uthmani-hafs.json?json";
-import quranKulievData from "../data/quran-kuliev-ru.json?json";
-import qcfV2Data from "../data/quran-qcf-v2.json?json";
+import surahsData from "../data/surahs.json" assert { type: "json" };
+import quranUthmaniData from "../data/quran-uthmani-hafs.json" assert { type: "json" };
+import quranKulievData from "../data/quran-kuliev-ru.json" assert { type: "json" };
+import qcfV2Data from "../data/quran-qcf-v2.json" assert { type: "json" };
+
 
 // Структура surahs.json (как в старом рендерере)
 type SurahMeta = {
@@ -186,4 +187,103 @@ export function renderAyahBlock(
   </div>
 </div>
 `.trim();
+}
+
+export function renderAyahRangeBlock(
+  surahInput: number | string,
+  fromAyahInput: number | string,
+  toAyahInput: number | string,
+): string {
+  const surah = Number(surahInput);
+  const fromAyah = Number(fromAyahInput);
+  const toAyah = Number(toAyahInput);
+
+  if (
+    !Number.isFinite(surah) ||
+    !Number.isFinite(fromAyah) ||
+    !Number.isFinite(toAyah)
+  ) {
+    throw new Error(
+      `Invalid surah/ayah range: ${surahInput}:${fromAyahInput}-${toAyahInput}`,
+    );
+  }
+
+  const start = Math.min(fromAyah, toAyah);
+  const end = Math.max(fromAyah, toAyah);
+
+  const meta = surahsList.find((s) => s.num === surah);
+  if (!meta) {
+    throw new Error(`Не найдено описание суры №${surah} в surahs.json`);
+  }
+
+  const surahNameRu = meta.name_ru;
+  const surahMeaningRu = meta.meaning_ru;
+
+  const arabicParts: string[] = [];
+  const translationParts: string[] = [];
+  const audioTracks: string[] = [];
+
+  for (let ayah = start; ayah <= end; ayah++) {
+    const key = makeKey(surah, ayah);
+
+    const translation = translationMap[key];
+    if (!translation) {
+      throw new Error(`Missing translation for ${key}`);
+    }
+
+    const qcf = getQcfV2ForAyah(surah, ayah);
+    const page = qcf.page;
+    const codeV2 = qcf.code_v2;
+
+    const sss = pad3(surah);
+    const aaa = pad3(ayah);
+    const audioSrc = `/mp3/${sss}/${sss}${aaa}.mp3`;
+    audioTracks.push(audioSrc);
+
+    arabicParts.push(`
+      <p class="Quran_p quran-ayah-block__arabic qcf-ayah qcf-page-${page}"
+         data-surah="${surah}" data-ayah="${ayah}" data-page="${page}">
+        ${codeV2}
+      </p>
+    `.trim());
+
+    translationParts.push(`
+      <p class="quran-ayah-block__translation-line">
+        <span class="quran-ayah-block__translation-ayah">${surah}:${ayah}</span>
+        ${escapeHtml(translation)}
+      </p>
+    `.trim());
+  }
+
+  const arabicHtml = arabicParts.join("\n");
+  const translationsHtml = translationParts.join("\n");
+
+  const rangeText =
+    start === end ? `${surah}:${start}` : `${surah}:${start}-${end}`;
+  const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${rangeText}`;
+
+  const playlistAttr = JSON.stringify(audioTracks);
+
+  return `
+<div class="Quran quran-ayah-block quran-ayah-range-block"
+     data-surah="${surah}" data-from="${start}" data-to="${end}">
+  <div class="quran-ayah-block__arabic-range">
+    ${arabicHtml}
+  </div>
+
+  <div class="quran-ayah-block__translation">
+    ${translationsHtml}
+  </div>
+
+  <div class="quran-ayah-block__source">
+    ${escapeHtml(sourceLine)}
+  </div>
+
+  <div class="quran-ayah-block__audio">
+    <audio controls preload="none" data-playlist='${playlistAttr}'>
+      Ваш браузер не поддерживает аудио-плеер.
+    </audio>
+  </div>
+</div>
+  `.trim();
 }

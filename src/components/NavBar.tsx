@@ -25,11 +25,11 @@ export default function NavBar({ currentPath = "/" }: { currentPath?: string }) 
 
       {/* Desktop nav */}
       <nav className="hidden items-center gap-2 sm:flex">
-        {NAV.map((item) => {
+        {NAV.map((item, index) => {
           const active = item.match(currentPath);
           return (
             <a
-              key={item.href}
+              key={`${item.href}-${index}`}
               href={item.href}
               className={[
                 "rounded-lg border border-transparent px-3 py-1.5 text-sm transition",
@@ -64,11 +64,11 @@ export default function NavBar({ currentPath = "/" }: { currentPath?: string }) 
               <Input placeholder="Поиск…" />
             </div>
             <div className="flex flex-col">
-              {NAV.map((item) => {
+              {NAV.map((item, index) => {
                 const active = item.match(currentPath);
                 return (
                   <a
-                    key={item.href}
+                    key={`${item.href}-${index}`}
                     href={item.href}
                     className={[
                       "rounded-lg border border-transparent px-3 py-2 text-sm transition",
