@@ -219,9 +219,11 @@ export function renderAyahRangeBlock(
   const surahNameRu = meta.name_ru;
   const surahMeaningRu = meta.meaning_ru;
 
-  const arabicParts: string[] = [];
+  // тут вместо html-фрагментов храним только строки code_v2
+  const arabicCodeParts: string[] = [];
   const translationParts: string[] = [];
   const audioTracks: string[] = [];
+  const pages: number[] = [];
 
   for (let ayah = start; ayah <= end; ayah++) {
     const key = makeKey(surah, ayah);
@@ -235,17 +237,13 @@ export function renderAyahRangeBlock(
     const page = qcf.page;
     const codeV2 = qcf.code_v2;
 
+    pages.push(page);
+    arabicCodeParts.push(codeV2);
+
     const sss = pad3(surah);
     const aaa = pad3(ayah);
     const audioSrc = `/mp3/${sss}/${sss}${aaa}.mp3`;
     audioTracks.push(audioSrc);
-
-    arabicParts.push(`
-      <p class="Quran_p quran-ayah-block__arabic qcf-ayah qcf-page-${page}"
-         data-surah="${surah}" data-ayah="${ayah}" data-page="${page}">
-        ${codeV2}
-      </p>
-    `.trim());
 
     translationParts.push(`
       <p class="quran-ayah-block__translation-line">
@@ -255,7 +253,16 @@ export function renderAyahRangeBlock(
     `.trim());
   }
 
-  const arabicHtml = arabicParts.join("\n");
+  // один поток QCF-глифов без дополнительных пробелов
+  const combinedCodeV2 = arabicCodeParts.join("");
+  const firstPage = pages[0] ?? 1;
+
+  const arabicHtml = `
+    <p class="Quran_p quran-ayah-block__arabic qcf-ayah qcf-page-${firstPage}">
+      ${combinedCodeV2}
+    </p>
+  `.trim();
+
   const translationsHtml = translationParts.join("\n");
 
   const rangeText =

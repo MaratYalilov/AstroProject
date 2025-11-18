@@ -60,6 +60,18 @@ const LessonPage: React.FC<LessonPageProps> = ({
     () => new Set()
   );
 
+
+function getVideoPoster(videoUrl?: string | null): string | undefined {
+  if (!videoUrl) return undefined;
+
+  // /video/111-urok.mp4 -> /thumbs/111-urok.jpg
+  return videoUrl
+    .replace("/video/", "/thumbs/")
+    .replace(/\.(mp4|webm|mov)$/i, ".jpg");
+}
+
+
+
   React.useEffect(() => {
     if (typeof window === "undefined") {
       return;
@@ -319,6 +331,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
                           controls
                           preload="none"
                           playsInline
+                          poster={getVideoPoster(currentLesson.video)}
                         >
                           <source src={currentLesson.video} />
                         </video>
