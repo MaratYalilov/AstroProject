@@ -194,9 +194,7 @@
   margin-bottom: 8px;
 }
 
-.quran-ayah-block__audio audio {
-  /* width: 100%; */
-}
+
 
 /* Стиль из джумла хутбы */
 
@@ -249,4 +247,71 @@ html.dark .quran-ayah-block__arabic-range {
   color: #fafafa;
 } */
 
+/* минималистичный аудиоплеер */
+  .quran-ayah-block__audio {
+    margin-top: 0.5rem;
+  }
 
+  /* сам <audio> прячем — управляем им кнопкой */
+  .quran-audio-element {
+    display: none;
+  }
+
+  /* Кнопка + текст */
+  .quran-audio-button {
+    cursor: pointer;
+  }
+
+  .quran-audio-button__label {
+    font-size: 0.75rem; /* ~text-xs */
+    line-height: 1.4;
+  }
+
+  /* Квадратная плашка как в правом сайдбаре:
+     grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors
+     (основной стиль мы уже задали через utility-классы в HTML) */
+
+  /* Треугольник «play» */
+  .quran-audio-button__play {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 9px solid hsl(var(--foreground));
+    transform: translateX(1px); /* чуть смещаем, чтобы визуально по центру */
+  }
+
+  /* Пауза: две полоски */
+  .quran-audio-button__pause {
+    display: none;
+    position: relative;
+    width: 10px;
+    height: 12px;
+  }
+
+  .quran-audio-button__pause::before,
+  .quran-audio-button__pause::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: hsl(var(--foreground));
+  }
+
+  .quran-audio-button__pause::before {
+    left: 2px;
+  }
+
+  .quran-audio-button__pause::after {
+    right: 2px;
+  }
+
+  /* Состояние «playing» — меняем иконку с треугольника на две полоски */
+  .quran-audio-button[data-state="playing"] .quran-audio-button__play {
+    display: none;
+  }
+
+  .quran-audio-button[data-state="playing"] .quran-audio-button__pause {
+    display: block;
+  }

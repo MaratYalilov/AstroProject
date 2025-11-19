@@ -1,13 +1,12 @@
 ﻿// src/utils/quranRenderer.ts
 
-// JSON-файлы через ?json, чтобы Astro/Vite не ругался
+// JSON-файлы
 import surahsData from "../data/surahs.json" assert { type: "json" };
 import quranUthmaniData from "../data/quran-uthmani-hafs.json" assert { type: "json" };
 import quranKulievData from "../data/quran-kuliev-ru.json" assert { type: "json" };
 import qcfV2Data from "../data/quran-qcf-v2.json" assert { type: "json" };
 
-
-// Структура surahs.json (как в старом рендерере)
+// Типы
 type SurahMeta = {
   num: number;
   arabic_name: string;
@@ -21,7 +20,7 @@ type SurahMeta = {
 
 const surahsList = surahsData as SurahMeta[];
 
-type AyahKey = string; // "2:3" и т.п.
+type AyahKey = string; // "2:3"
 
 interface RawAyah {
   id: number;
@@ -35,14 +34,12 @@ interface QcfV2Entry {
   code_v2: string;
 }
 
-// ---- Карты данных ----
-
+// Карты
 const arabicMap: Record<AyahKey, string> = {};
 const translationMap: Record<AyahKey, string> = {};
 const qcfMap: Record<AyahKey, QcfV2Entry> = qcfV2Data as any;
 
-// ---- Вспомогательные функции ----
-
+// Утилиты
 function makeKey(surah: number, ayah: number): AyahKey {
   return `${surah}:${ayah}`;
 }
@@ -60,10 +57,8 @@ function escapeHtml(str: string): string {
     .replace(/'/g, "&#39;");
 }
 
-// ---- Инициализация карт из JSON ----
-
+// Инициализация карт
 (function buildMaps() {
-  // Арабский текст (утманский) — на будущее / отладку
   const uthmaniRoot: any =
     (quranUthmaniData as any)?.quran?.["quran-uthmani-hafs"] ?? {};
   const uthmaniList: RawAyah[] = Object.values(uthmaniRoot) as RawAyah[];
@@ -73,7 +68,6 @@ function escapeHtml(str: string): string {
     arabicMap[key] = item.verse;
   }
 
-  // Перевод Кулиева
   const kulievRoot: any =
     (quranKulievData as any)?.quran?.["ru.kuliev"] ?? {};
   const kulievList: RawAyah[] = Object.values(kulievRoot) as RawAyah[];
@@ -84,8 +78,7 @@ function escapeHtml(str: string): string {
   }
 })();
 
-// ---- Публичные утилиты (если пригодятся ещё где-то) ----
-
+// Публичные утилиты (если где-то пригодятся)
 export function getQcfV2ForAyah(
   surah: number,
   ayah: number,
@@ -111,7 +104,7 @@ export function getAyahText(
   return { arabic, translation };
 }
 
-// ---- Основная функция: рендер блока по тегу {Quran} ----
+// ---- ОДИНОЧНЫЙ АЯТ {Quran}2:255{/Quran} ----
 
 export function renderAyahBlock(
   surahInput: number | string,
@@ -132,44 +125,29 @@ export function renderAyahBlock(
   }
 
   const qcf = getQcfV2ForAyah(surah, ayah);
-  const page = qcf.page;          // номер страницы mushaf
-  const codeV2 = qcf.code_v2;     // строка QCF v2 для этого аята
+  const page = qcf.page;
+  const codeV2 = qcf.code_v2;
 
-  // --- 1. Мета-данные суры ---
   const meta = surahsList.find((s) => s.num === surah);
   if (!meta) {
     throw new Error(`Не найдено описание суры №${surah} в surahs.json`);
   }
 
-  const surahNameRu = meta.name_ru;        // "аль-Бакара"
-  const surahMeaningRu = meta.meaning_ru;  // "Корова"
+  const surahNameRu = meta.name_ru;
+  const surahMeaningRu = meta.meaning_ru;
 
   const sss = pad3(surah);
   const aaa = pad3(ayah);
 
-  const imageSrc = `/ayat/${surah}_${ayah}.png`;
   const audioSrc = `/mp3/${sss}/${sss}${aaa}.mp3`;
-
-  // Пример: "аль-Бакара-Корова, 2:222"
   const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${surah}:${ayah}`;
+  const audioId = `quran-audio-${surah}-${ayah}`;
 
-  // ВАЖНО:
-  //  - codeV2 выводим «как есть», без escape, чтобы QCF-глифы попали в DOM;
-  //  - текстовые части (перевод / подписи) через escapeHtml.
   return `
 <div class="Quran quran-ayah-block" data-surah="${surah}" data-ayah="${ayah}" data-page="${page}">
   <p class="Quran_p quran-ayah-block__arabic qcf-ayah qcf-page-${page}">
     ${codeV2}
   </p>
-
-  <div class="quran-ayah-block__image">
-    <img
-      src="${imageSrc}"
-      alt="Аят ${surah}:${ayah}"
-      loading="lazy"
-      onerror="this.style.display='none'"
-    />
-  </div>
 
   <div class="quran-ayah-block__translation">
     ${escapeHtml(translation)}
@@ -180,7 +158,53 @@ export function renderAyahBlock(
   </div>
 
   <div class="quran-ayah-block__audio">
-    <audio controls preload="none">
+    <button
+      type="button"
+      class="quran-audio-button inline-flex items-center gap-3 text-xs text-muted-foreground"
+      data-audio-id="${audioId}"
+      aria-label="Прослушать аят ${escapeHtml(sourceLine)}"
+    >
+      <span
+        class="quran-audio-button__icon grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors"
+      >
+        <svg
+          class="quran-audio-button__play"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          style="width:16px;height:16px;border:none;"
+        >
+          <polygon points="6 4 20 12 6 20 6 4"></polygon>
+        </svg>
+        <svg
+          class="quran-audio-button__pause"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          style="width:16px;height:16px;border:none;"
+        >
+          <rect x="6" y="4" width="4" height="16"></rect>
+          <rect x="14" y="4" width="4" height="16"></rect>
+        </svg>
+      </span>
+      <span class="quran-audio-button__label">
+        Прослушать аят ${escapeHtml(sourceLine)}
+      </span>
+    </button>
+
+    <audio
+      id="${audioId}"
+      class="quran-audio-element"
+      preload="none"
+    >
       <source src="${audioSrc}" type="audio/mpeg" />
       Ваш браузер не поддерживает аудио-плеер.
     </audio>
@@ -188,6 +212,8 @@ export function renderAyahBlock(
 </div>
 `.trim();
 }
+
+// ---- ДИАПАЗОН {Quran}2:1-5{/Quran} ----
 
 export function renderAyahRangeBlock(
   surahInput: number | string,
@@ -219,7 +245,6 @@ export function renderAyahRangeBlock(
   const surahNameRu = meta.name_ru;
   const surahMeaningRu = meta.meaning_ru;
 
-  // тут вместо html-фрагментов храним только строки code_v2
   const arabicCodeParts: string[] = [];
   const translationParts: string[] = [];
   const audioTracks: string[] = [];
@@ -253,8 +278,7 @@ export function renderAyahRangeBlock(
     `.trim());
   }
 
-  // один поток QCF-глифов без дополнительных пробелов
-  const combinedCodeV2 = arabicCodeParts.join("");
+  const combinedCodeV2 = arabicCodeParts.join(" ");
   const firstPage = pages[0] ?? 1;
 
   const arabicHtml = `
@@ -270,13 +294,18 @@ export function renderAyahRangeBlock(
   const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${rangeText}`;
 
   const playlistAttr = JSON.stringify(audioTracks);
+  const labelPrefix = start === end ? "Прослушать аят" : "Прослушать аяты";
+
+  const audioId = `quran-audio-range-${surah}-${start}-${end}`;
 
   return `
-<div class="Quran quran-ayah-block quran-ayah-range-block"
-     data-surah="${surah}" data-from="${start}" data-to="${end}">
-  <div class="quran-ayah-block__arabic-range">
-    ${arabicHtml}
-  </div>
+<div
+  class="Quran quran-ayah-block quran-ayah-range-block"
+  data-surah="${surah}"
+  data-from="${start}"
+  data-to="${end}"
+>
+  ${arabicHtml}
 
   <div class="quran-ayah-block__translation">
     ${translationsHtml}
@@ -287,7 +316,55 @@ export function renderAyahRangeBlock(
   </div>
 
   <div class="quran-ayah-block__audio">
-    <audio controls preload="none" data-playlist='${playlistAttr}'>
+    <button
+      type="button"
+      class="quran-audio-button inline-flex items-center gap-3 text-xs text-muted-foreground"
+      data-audio-id="${audioId}"
+      aria-label="Прослушать аяты ${escapeHtml(sourceLine)}"
+    >
+      <span
+        class="quran-audio-button__icon grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors"
+      >
+        <svg
+          class="quran-audio-button__play"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          style="width:16px;height:16px;border:none;"
+        >
+          <polygon points="6 4 20 12 6 20 6 4"></polygon>
+        </svg>
+        <svg
+          class="quran-audio-button__pause"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          style="width:16px;height:16px;border:none;"
+        >
+          <rect x="6" y="4" width="4" height="16"></rect>
+          <rect x="14" y="4" width="4" height="16"></rect>
+        </svg>
+      </span>
+      <span class="quran-audio-button__label">
+        ${labelPrefix} ${escapeHtml(sourceLine)}
+      </span>
+    </button>
+
+    <audio
+      id="${audioId}"
+      class="quran-audio-element"
+      preload="none"
+      data-playlist='${playlistAttr}'
+    >
+      <source src="${audioTracks[0] ?? ""}" type="audio/mpeg" />
       Ваш браузер не поддерживает аудио-плеер.
     </audio>
   </div>
