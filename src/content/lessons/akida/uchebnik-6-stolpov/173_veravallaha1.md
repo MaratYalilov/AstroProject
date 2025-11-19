@@ -3,6 +3,11 @@ id: 173
 title: "Первый столп веры: вера в Аллаха. Вера в существование Аллаха.  "
 alias: "veravallaha1"
 hits: 22163
+
+subject: "akida"
+course: "uchebnik-6-stolpov"
+order: 2
+hasAudio: false
 ---
 
 <h1>Первый столп веры: вера в Аллаха</h1>

@@ -3,6 +3,10 @@ id: 175
 title: "Первый столп веры: вера в Аллаха. Единобожие в господстве. "
 alias: "veravallaha"
 hits: 13096
+subject: "akida"
+course: "uchebnik-6-stolpov"
+order: 3
+hasAudio: false
 ---
 
 <h1>Единобожие в господстве.</h1>

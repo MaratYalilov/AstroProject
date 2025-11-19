@@ -6,7 +6,7 @@ import LessonPage from "../components/LessonPage";
 import BlogLessonPage from "../components/blog";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { getCollection } from "astro:content";
-
+import { experimental_AstroContainer } from "astro/container";
 export const prerender = false;
 
 // Читаем query-параметры
@@ -38,12 +38,19 @@ if (!courseEntry) {
 }
 
 const courseTitle = courseEntry.data.title;
-const layoutMode = courseEntry.data.layout ?? "tabs"; // "blog" → BlogLessonPage, иначе → LessonPage
+
+// ЖЁСТКО: для курса uchebnik-6-stolpov используем blog.tsx
+const layoutMode = courseEntry.data.layout ?? "tabs";
+const isBlogLayout = layoutMode === "blog";
+const astroContainer = await experimental_AstroContainer.create();
+
 
 // ---------- 3) Уроки курса ----------
-const lessonsCollection = await getCollection("lessons", ({ data }) =>
-  data.subject === subject && data.course === course
+const allLessons = await getCollection("lessons");
+const lessonsCollection = allLessons.filter((l) =>
+  l.slug.startsWith(`${subject}/${course}/`)
 );
+
 
 const sortedLessons = lessonsCollection
   .slice()
@@ -56,23 +63,24 @@ let currentLesson: any = null;
 let lessons: any[] = [];
 
 if (hasLessons) {
-  // slugParam может быть либо "predislovie", либо полный slug вроде "akida/uchebnik-6-stolpov/predislovie"
-  const normalizeSlug = (s: string) => s.replace(/^\//, "");
+  // slugParam может быть "157_predislovie" или полный slug "akida/uchebnik-6-stolpov/157_predislovie"
+  const normalize = (s: string) => s.replace(/^\//, "");
 
-  const target = sortedLessons.find((l) => {
-    const full = normalizeSlug(l.slug);
-    const justLast = full.split("/").pop();
-    return (
-      full === normalizeSlug(slugParam) || justLast === normalizeSlug(slugParam)
-    );
-  }) ?? sortedLessons[0];
+  const target =
+    sortedLessons.find((l) => {
+      const full = normalize(l.slug);
+      const tail = full.split("/").pop();
+      const wanted = normalize(slugParam);
+      if (!wanted) return false;
+      return full === wanted || tail === wanted;
+    }) ?? sortedLessons[0];
 
-  // Рендерим контент текущего урока
+  // Рендерим MD → HTML
   const { Content } = await target.render();
-  const rawHtml = await Content();
+  const rawHtml = await astroContainer.renderToString(Content);
   const html = replaceQuranTags(rawHtml);
 
-  // Аудио / видео
+  // Аудио / видео (если используешь audioRel / videoRel)
   const audioUrl = target.data.audioRel
     ? `/media/${subject}/${course}/${target.data.audioRel}`
     : target.data.audio ?? null;
@@ -119,7 +127,7 @@ if (hasLessons) {
 
   {
     hasLessons && currentLesson ? (
-      layoutMode === "blog" ? (
+      isBlogLayout ? (
         <BlogLessonPage
           client:load
           subject={subject}

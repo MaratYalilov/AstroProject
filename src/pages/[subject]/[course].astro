@@ -5,6 +5,7 @@ import Base from "../../layouts/Base.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { getCollection } from "astro:content";
 import LessonPage from "../../components/LessonPage";
+import BlogLessonPage from "../../components/blog";
 
 export async function getStaticPaths() {
   const courses = await getCollection("courses");
@@ -37,6 +38,8 @@ if (!courseEntry) {
 }
 
 const courseTitle = courseEntry.data.title;
+const layoutMode = courseEntry.data.layout ?? "tabs";
+const isBlogLayout = layoutMode === "blog";
 
 // 3) Уроки курса
 const allLessons = (await getCollection("lessons"))
@@ -65,20 +68,20 @@ if (hasLessons) {
     slug: current.slug,
     title: current.data.title,
     order: current.data.order,
-    hasAudio: current.data.hasAudio,
-    hasVideo: current.data.hasVideo,
+    hasAudio: Boolean(current.data.hasAudio ?? audioUrl),
+    hasVideo: Boolean(current.data.hasVideo ?? videoUrl),
     audio: audioUrl,
     video: videoUrl,
     // html: current.body,
-    html: replaceQuranTags(current.body ?? ""), 
+    html: replaceQuranTags(current.body ?? ""),
   };
 
   lessons = allLessons.map((l) => ({
     slug: l.slug,
     title: l.data.title,
     order: l.data.order,
-    hasAudio: l.data.hasAudio,
-    hasVideo: l.data.hasVideo,
+    hasAudio: Boolean(l.data.hasAudio ?? l.data.audio ?? l.data.audioRel),
+    hasVideo: Boolean(l.data.hasVideo ?? l.data.video ?? l.data.videoRel),
   }));
 }
 ---
@@ -94,14 +97,25 @@ if (hasLessons) {
 
   {
     hasLessons ? (
-      <LessonPage
-        client:load
-        subject={subject}
-        course={course}
-        courseTitle={courseTitle}
-        currentLesson={currentLesson}
-        lessons={lessons}
-      />
+      isBlogLayout ? (
+        <BlogLessonPage
+          client:load
+          subject={subject}
+          course={course}
+          courseTitle={courseTitle}
+          currentLesson={currentLesson}
+          lessons={lessons}
+        />
+      ) : (
+        <LessonPage
+          client:load
+          subject={subject}
+          course={course}
+          courseTitle={courseTitle}
+          currentLesson={currentLesson}
+          lessons={lessons}
+        />
+      )
     ) : (
       <section class="no-lessons-message">
         <p>{emptyStateMessage}</p>

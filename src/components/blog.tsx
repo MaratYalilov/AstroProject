@@ -14,7 +14,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Input } from "@/components/ui/input";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
 export interface LessonSidebarItem {
   slug: string;
@@ -236,34 +235,6 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
       <main className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-12">
         {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8">
-          {/* Заголовок урока + кнопка завершения */}
-          <Card>
-            <CardHeader className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <p className="text-xs uppercase text-muted-foreground">
-                  Курс: {courseTitle}
-                </p>
-                <CardTitle className="mt-1 text-xl sm:text-2xl">
-                  {currentLesson.title}
-                </CardTitle>
-              </div>
-              <div className="flex flex-wrap items-center gap-2">
-                <Button
-                  type="button"
-                  className="gap-2"
-                  variant={isCurrentLessonCompleted ? "default" : "outline"}
-                  onClick={handleToggleCompletion}
-                  aria-pressed={isCurrentLessonCompleted}
-                >
-                  <CheckCircle2 className="h-4 w-4" />
-                  {isCurrentLessonCompleted
-                    ? "Снять отметку"
-                    : "Отметить как завершённый"}
-                </Button>
-              </div>
-            </CardHeader>
-          </Card>
-
           {/* Видео (если есть) */}
           {currentLesson.video && (
             <motion.div
@@ -341,49 +312,59 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
             </motion.div>
           )}
 
-          {/* Основной текст (блог-стиль + scroll) */}
+          {/* Основной текст */}
           <motion.div
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.2 }}
           >
             <Card className="overflow-hidden">
-              <CardHeader>
-                <CardTitle className="text-lg sm:text-xl">
-                  Конспект урока
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="p-0">
-                <ScrollArea className="h-[65vh] p-6">
-                  <article
-                    className="prose prose-sm sm:prose-base prose-neutral dark:prose-invert max-w-none"
-                    dangerouslySetInnerHTML={{ __html: currentLesson.html }}
-                  />
-                </ScrollArea>
+              <CardContent className="p-6">
+                <article
+                  className="prose prose-sm sm:prose-base prose-neutral dark:prose-invert max-w-none"
+                  dangerouslySetInnerHTML={{ __html: currentLesson.html }}
+                />
               </CardContent>
             </Card>
           </motion.div>
 
-          {/* Навигация по урокам снизу */}
-          <div className="flex items-center justify-between gap-3 pt-2">
-            <Button
-              variant="secondary"
-              className="gap-2"
-              asChild
-              disabled={!prevLesson}
-            >
-              <a href={prevLesson ? buildLessonUrl(prevLesson.slug) : "#"}>
-                <ChevronLeft className="h-4 w-4" />
-                Предыдущий урок
-              </a>
-            </Button>
-            <Button className="gap-2" asChild disabled={!nextLesson}>
-              <a href={nextLesson ? buildLessonUrl(nextLesson.slug) : "#"}>
-                Следующий урок
-                <ChevronRight className="h-4 w-4" />
-              </a>
-            </Button>
+          <div className="mt-4 grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
+            <div className="flex justify-start">
+              <Button
+                variant="secondary"
+                className="gap-2"
+                asChild
+                disabled={!prevLesson}
+              >
+                <a href={prevLesson ? buildLessonUrl(prevLesson.slug) : "#"}>
+                  <ChevronLeft className="h-4 w-4" />
+                  Предыдущий урок
+                </a>
+              </Button>
+            </div>
+            <div className="flex justify-center">
+              <button
+                type="button"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 gap-2 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+                onClick={handleToggleCompletion}
+                aria-pressed={isCurrentLessonCompleted}
+              >
+                <CheckCircle2 className="h-4 w-4" aria-hidden="true" />
+                {isCurrentLessonCompleted
+                  ? "Снять отметку"
+                  : "Отметить как завершённый"}
+              </button>
+            </div>
+            <div className="flex justify-end">
+              <Button className="gap-2" asChild disabled={!nextLesson}>
+                <a href={nextLesson ? buildLessonUrl(nextLesson.slug) : "#"}>
+                  Следующий урок
+                  <ChevronRight className="h-4 w-4" />
+                </a>
+              </Button>
+            </div>
           </div>
+
         </section>
 
         {/* ПРАВО: аккордеон по урокам */}
@@ -564,6 +545,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
           </div>
         </aside>
       </main>
+
     </div>
   );
 };
