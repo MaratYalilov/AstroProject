@@ -3,6 +3,7 @@
 import { replaceQuranTags } from "../utils/replaceQuranTags";
 import Base from "../layouts/Base.astro";
 import LessonPage from "../components/LessonPage";
+import BlogLessonPage from "../components/blog";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { getCollection } from "astro:content";
 
@@ -12,13 +13,13 @@ export const prerender = false;
 const url = Astro.url;
 const subject = url.searchParams.get("subject") ?? "";
 const course = url.searchParams.get("course") ?? "";
-const slug = url.searchParams.get("slug") ?? "";
+const slugParam = url.searchParams.get("slug") ?? "";
 
 if (!subject || !course) {
   throw new Error("Не переданы обязательные параметры: subject и course");
 }
 
-// 1) Предмет
+// ---------- 1) Предмет ----------
 const subjects = await getCollection("subjects");
 const subjectEntry = subjects.find((s) => s.data.slug === subject);
 
@@ -26,8 +27,9 @@ if (!subjectEntry) {
   throw new Error(`Предмет не найден: ${subject}`);
 }
 
-// 2) Курс
-const courseEntry = (await getCollection("courses")).find(
+// ---------- 2) Курс ----------
+const courses = await getCollection("courses");
+const courseEntry = courses.find(
   (c) => c.data.subject === subject && c.data.slug === course
 );
 
@@ -36,49 +38,66 @@ if (!courseEntry) {
 }
 
 const courseTitle = courseEntry.data.title;
+const layoutMode = courseEntry.data.layout ?? "tabs"; // "blog" → BlogLessonPage, иначе → LessonPage
 
-// 3) Уроки курса
-const allLessons = (await getCollection("lessons"))
-  .filter((l) => l.slug.startsWith(`${subject}/${course}/`))
+// ---------- 3) Уроки курса ----------
+const lessonsCollection = await getCollection("lessons", ({ data }) =>
+  data.subject === subject && data.course === course
+);
+
+const sortedLessons = lessonsCollection
+  .slice()
   .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 
-const hasLessons = allLessons.length > 0;
-const emptyStateMessage = "Для выбраного курса уроки ещё не загружены";
+const hasLessons = sortedLessons.length > 0;
+const emptyStateMessage = "Для выбранного курса уроки ещё не загружены";
 
-let currentLesson = null;
-let lessons = [];
+let currentLesson: any = null;
+let lessons: any[] = [];
 
-// 4) Текущий урок: ищем по slug, если не нашли — берём первый
 if (hasLessons) {
-  const current =
-    allLessons.find((l) => l.slug === slug) ?? allLessons[0];
+  // slugParam может быть либо "predislovie", либо полный slug вроде "akida/uchebnik-6-stolpov/predislovie"
+  const normalizeSlug = (s: string) => s.replace(/^\//, "");
 
-  const audioUrl = current.data.audioRel
-    ? `/media/${subject}/${course}/${current.data.audioRel}`
-    : current.data.audio ?? null;
+  const target = sortedLessons.find((l) => {
+    const full = normalizeSlug(l.slug);
+    const justLast = full.split("/").pop();
+    return (
+      full === normalizeSlug(slugParam) || justLast === normalizeSlug(slugParam)
+    );
+  }) ?? sortedLessons[0];
 
-  const videoUrl = current.data.videoRel
-    ? `/media/${subject}/${course}/${current.data.videoRel}`
-    : current.data.video ?? null;
+  // Рендерим контент текущего урока
+  const { Content } = await target.render();
+  const rawHtml = await Content();
+  const html = replaceQuranTags(rawHtml);
+
+  // Аудио / видео
+  const audioUrl = target.data.audioRel
+    ? `/media/${subject}/${course}/${target.data.audioRel}`
+    : target.data.audio ?? null;
+
+  const videoUrl = target.data.videoRel
+    ? `/media/${subject}/${course}/${target.data.videoRel}`
+    : target.data.video ?? null;
 
   currentLesson = {
-    slug: current.slug,
-    title: current.data.title,
-    order: current.data.order,
-    hasAudio: current.data.hasAudio,
-    hasVideo: current.data.hasVideo,
+    slug: target.slug,
+    title: target.data.title,
+    order: target.data.order,
+    html,
     audio: audioUrl,
     video: videoUrl,
-    // html: current.body,
-    html: replaceQuranTags(current.body ?? ""), 
+    hasAudio: Boolean(target.data.hasAudio ?? audioUrl),
+    hasVideo: Boolean(target.data.hasVideo ?? videoUrl),
   };
 
-  lessons = allLessons.map((l) => ({
+  lessons = sortedLessons.map((l) => ({
     slug: l.slug,
     title: l.data.title,
     order: l.data.order,
-    hasAudio: l.data.hasAudio,
-    hasVideo: l.data.hasVideo,
+    hasAudio: Boolean(l.data.hasAudio ?? l.data.audio ?? l.data.audioRel),
+    hasVideo: Boolean(l.data.hasVideo ?? l.data.video ?? l.data.videoRel),
   }));
 }
 ---
@@ -90,23 +109,35 @@ if (hasLessons) {
       { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
       { label: courseTitle, href: `/${subject}/${course}` },
       {
-        label: hasLessons && currentLesson
-          ? currentLesson.title
-          : emptyStateMessage,
+        label:
+          hasLessons && currentLesson
+            ? currentLesson.title
+            : "Урок не найден",
       },
     ]}
   />
 
   {
-    hasLessons ? (
-      <LessonPage
-        client:load
-        subject={subject}
-        course={course}
-        courseTitle={courseTitle}
-        currentLesson={currentLesson}
-        lessons={lessons}
-      />
+    hasLessons && currentLesson ? (
+      layoutMode === "blog" ? (
+        <BlogLessonPage
+          client:load
+          subject={subject}
+          course={course}
+          courseTitle={courseTitle}
+          currentLesson={currentLesson}
+          lessons={lessons}
+        />
+      ) : (
+        <LessonPage
+          client:load
+          subject={subject}
+          course={course}
+          courseTitle={courseTitle}
+          currentLesson={currentLesson}
+          lessons={lessons}
+        />
+      )
     ) : (
       <section class="no-lessons-message">
         <p>{emptyStateMessage}</p>

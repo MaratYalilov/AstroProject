@@ -20,6 +20,7 @@ const courses = defineCollection({
     author: z.string().optional(),
     description: z.string().optional(),
     lessonsCount: z.number().optional(),
+    layout: z.enum(["tabs", "blog"]).optional().default("tabs"),
   }),
 });
 
