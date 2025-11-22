@@ -40,6 +40,9 @@ const lessons = defineCollection({
     // относительные пути (как у старых мигрированных уроков)
     audioRel: z.string().optional(),
     videoRel: z.string().optional(),
+
+    group: z.union([z.string(), z.number()]).optional(),
+    groupOrder: z.number().optional(),
   }),
 });
 

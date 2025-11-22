@@ -21,6 +21,8 @@ export interface LessonSidebarItem {
   order?: number;
   hasAudio?: boolean;
   hasVideo?: boolean;
+  group?: string | number;
+  groupOrder?: number;
 }
 
 export interface BlogLessonPageProps {
@@ -412,26 +414,48 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                       Ничего не найдено. Попробуйте изменить запрос.
                     </div>
                   ) : (
-                    <ul className="space-y-1">
+                    <ul className="space-y-2">
                       {filteredLessons
                         .slice()
-                        .sort(
-                          (a, b) => (a.order ?? 999) - (b.order ?? 999)
-                        )
-                        .map((l) => {
+                        .sort((a, b) => {
+                          // Сначала по groupOrder, потом по названию группы, потом по order
+                          const gA = a.groupOrder ?? 999;
+                          const gB = b.groupOrder ?? 999;
+                          if (gA !== gB) return gA - gB;
+
+                          const nA = String(a.group ?? "").toLowerCase();
+                          const nB = String(b.group ?? "").toLowerCase();
+                          if (nA !== nB) return nA.localeCompare(nB);
+
+                          return (a.order ?? 999) - (b.order ?? 999);
+                        })
+                        .map((l, idx, arr) => {
                           const isCurrent = l.slug === currentLesson.slug;
                           const isCompleted = completedLessons.has(l.slug);
                           const isOpen = openSlug === l.slug;
 
+                          const prev = idx > 0 ? arr[idx - 1] : null;
+                          const isFirstInGroup =
+                            !prev ||
+                            String(prev.group ?? "") !== String(l.group ?? "") ||
+                            (prev.groupOrder ?? 999) !== (l.groupOrder ?? 999);
+
                           return (
                             <li key={l.slug}>
+                              {/* Заголовок группы */}
+                              {isFirstInGroup && (
+                                <div className="mb-1 px-1 text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
+                                  {String(l.group ?? "Без группы")}
+                                </div>
+                              )}
+
                               {/* Кнопка-голова аккордеона */}
                               <button
                                 type="button"
                                 ref={isCurrent ? activeLessonRef : undefined}
                                 onClick={() =>
-                                  setOpenSlug((prev) =>
-                                    prev === l.slug ? null : l.slug
+                                  setOpenSlug((prevOpen) =>
+                                    prevOpen === l.slug ? null : l.slug
                                   )
                                 }
                                 className={[
@@ -447,8 +471,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                                   <div
                                     className={[
                                       "grid h-8 w-8 shrink-0 place-items-center rounded-full border border-transparent bg-muted text-[11px] transition-colors",
-                                      isCurrent &&
-                                        "bg-primary/10 border-primary/20",
+                                      isCurrent && "bg-primary/10 border-primary/20",
                                       !isCurrent &&
                                         isCompleted &&
                                         "bg-lime-50 text-lime-700 border-lime-200 dark:bg-lime-900/30 dark:text-lime-50 dark:border-lime-800",
@@ -456,9 +479,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                                       .filter(Boolean)
                                       .join(" ")}
                                   >
-                                    {l.order != null ? l.order : (
-                                      <Play className="h-3 w-3" />
-                                    )}
+                                    {l.order != null ? l.order : <Play className="h-3 w-3" />}
                                   </div>
                                   <div className="min-w-0">
                                     <div className="truncate font-medium">
@@ -497,20 +518,13 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                                 <div className="mt-1 mb-2 rounded-xl border border-border/60 bg-muted/40 px-3 py-2 text-xs text-muted-foreground">
                                   <div className="mb-2">
                                     <span className="font-semibold">
-                                      Урок{" "}
-                                      {l.order != null ? l.order : "—"}
+                                      Урок {l.order != null ? l.order : "—"}
                                     </span>
                                     : {l.title}
                                   </div>
                                   <div className="flex flex-wrap gap-2">
-                                    <Button
-                                      size="sm"
-                                      className="gap-1"
-                                      asChild
-                                    >
-                                      <a href={buildLessonUrl(l.slug)}>
-                                        Перейти к уроку
-                                      </a>
+                                    <Button size="sm" className="gap-1" asChild>
+                                      <a href={buildLessonUrl(l.slug)}>Перейти к уроку</a>
                                     </Button>
                                     {l.hasVideo && (
                                       <span className="rounded-full bg-background px-2 py-0.5">
@@ -530,6 +544,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                         })}
                     </ul>
                   )}
+
                 </div>
 
                 {/* Прогресс для мобилок */}

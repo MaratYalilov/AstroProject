@@ -104,6 +104,8 @@ if (hasLessons) {
     slug: l.slug,
     title: l.data.title,
     order: l.data.order,
+    group: l.data.group,
+    groupOrder: l.data.groupOrder,
     hasAudio: Boolean(l.data.hasAudio ?? l.data.audio ?? l.data.audioRel),
     hasVideo: Boolean(l.data.hasVideo ?? l.data.video ?? l.data.videoRel),
   }));
