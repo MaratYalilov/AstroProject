@@ -1,10 +1,11 @@
 ---
 id: 510
-title: "Пятый столп веры. Встреча."
-alias: "5stolpvstrecha"
+title: Встреча.
+alias: 5stolpvstrecha
 hits: 4564
 group: 5
 groupOrder: 22
+groupTitle: Вера в Последний день
 ---
 
 <h1>ВСТРЕЧА</h1>

@@ -1,10 +1,11 @@
 ---
 id: 468
-title: "Пятый столп веры. Знание о времени наступления Судного дня"
-alias: "5stolpznanieonastupleniisudnogodny"
+title: Знание о времени наступления Судного дня
+alias: 5stolpznanieonastupleniisudnogodny
 hits: 6538
 group: 5
 groupOrder: 2
+groupTitle: Вера в Последний день
 ---
 
 <h1>ЗНАНИЕ О ВРЕМЕНИ НАСТУПЛЕНИЯ СУДНОГО ДНЯ</h1>

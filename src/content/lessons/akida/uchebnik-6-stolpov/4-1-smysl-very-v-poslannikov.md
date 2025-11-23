@@ -1,10 +1,11 @@
 ---
 id: 461
-title: "Четвертый столп веры. Смысл веры в посланников."
-alias: "4chetvertyistolpsmyslveryvposlannikov"
+title: Смысл веры в посланников.
+alias: 4chetvertyistolpsmyslveryvposlannikov
 hits: 6134
 group: 4
 groupOrder: 1
+groupTitle: Вера в посланников
 ---
 
 <h1>ЧЕТВЕРТЫЙ СТОЛП ВЕРЫ: ВЕРА В ПОСЛАННИКОВ</h1>

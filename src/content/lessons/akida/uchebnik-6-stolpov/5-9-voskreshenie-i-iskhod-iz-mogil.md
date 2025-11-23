@@ -1,10 +1,11 @@
 ---
 id: 507
-title: "Пятый столп веры. Воскрешение и исход из могил."
-alias: "5stolpvoskreshenieiishodizmogil"
+title: Воскрешение и исход из могил.
+alias: 5stolpvoskreshenieiishodizmogil
 hits: 4972
 group: 5
 groupOrder: 19
+groupTitle: Вера в Последний день
 ---
 
 <h1>ВОСКРЕШЕНИЕ И ИСХОД ИЗ МОГИЛ</h1>

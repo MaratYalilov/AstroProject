@@ -1,10 +1,11 @@
 ---
 id: 486
-title: "Пятый столп веры. Малые признаки Судного дня"
-alias: "5stolpmalyepriznakisudnogodnya"
+title: Малые признаки Судного дня
+alias: 5stolpmalyepriznakisudnogodnya
 hits: 80977
 group: 5
 groupOrder: 6
+groupTitle: Вера в Последний день
 ---
 
 <h1><span style="font-family: times new roman,times; font-size: 12pt;">&nbsp;МАЛЫЕ ПРИЗНАКИ СУДНОГО ДНЯ</span></h1>

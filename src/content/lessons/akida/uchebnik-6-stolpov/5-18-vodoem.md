@@ -1,10 +1,11 @@
 ---
 id: 516
-title: "Пятый столп веры. Водоем."
-alias: "5stolpvodoem"
+title: Водоем.
+alias: 5stolpvodoem
 hits: 4011
 group: 5
 groupOrder: 28
+groupTitle: Вера в Последний день
 ---
 
 <h1 style="text-align: justify;">ВОДОЕМ</h1>

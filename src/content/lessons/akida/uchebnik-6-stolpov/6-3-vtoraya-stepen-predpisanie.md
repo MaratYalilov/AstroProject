@@ -1,10 +1,11 @@
 ---
 id: 531
-title: "Шестой столп веры. Вторая степень — предписание."
-alias: "6stolppredpisanie"
+title: Вторая степень — предписание.
+alias: 6stolppredpisanie
 hits: 4469
 group: 6
 groupOrder: 3
+groupTitle: Вера в предопределение
 ---
 
 <h1>Вторая степень — предписание.</h1>

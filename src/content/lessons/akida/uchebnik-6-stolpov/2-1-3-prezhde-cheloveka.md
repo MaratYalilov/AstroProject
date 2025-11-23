@@ -1,10 +1,11 @@
 ---
 id: 295
-title: "Второй столп веры: вера в ангелов. Прежде человека."
-alias: "2veraangelovprejdecheloveka"
+title: Прежде человека.
+alias: 2veraangelovprejdecheloveka
 hits: 7766
 group: 2
 groupOrder: 3
+groupTitle: Вера в ангелов
 ---
 
 <h1>Прежде человека</h1>

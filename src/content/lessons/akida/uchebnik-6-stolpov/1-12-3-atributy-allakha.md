@@ -1,10 +1,11 @@
 ---
 id: 208
-title: "Первый столп веры: вера в Аллаха. Атрибуты Аллаха."
-alias: "atributallaha"
+title: Атрибуты Аллаха.
+alias: atributallaha
 hits: 13662
 group: 1
 groupOrder: 16
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Некоторые атрибуты Аллаха</h1>

@@ -1,10 +1,11 @@
 ---
 id: 458
-title: "Третий столп веры. Места сходства между шариатами"
-alias: "3tretiistolpmestachodstvamezhdushariatami"
+title: Места сходства между шариатами
+alias: 3tretiistolpmestachodstvamezhdushariatami
 hits: 3428
 group: 3
 groupOrder: 10
+groupTitle: Вера в Писания
 ---
 
 <h1>Места сходства между шариатами</h1>

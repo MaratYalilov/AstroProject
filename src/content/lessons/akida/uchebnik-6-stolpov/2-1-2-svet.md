@@ -1,10 +1,11 @@
 ---
 id: 219
-title: "Второй столп веры: вера в ангелов. Свет."
-alias: "2veraangelovsvet"
+title: Свет.
+alias: 2veraangelovsvet
 hits: 9419
 group: 2
 groupOrder: 2
+groupTitle: Вера в ангелов
 ---
 
 <h1>&nbsp;Свет</h1>

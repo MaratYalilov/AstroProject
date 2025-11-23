@@ -1,10 +1,11 @@
 ---
 id: 514
-title: "Пятый столп веры. Весы"
-alias: "5stolpvesy"
+title: Весы
+alias: 5stolpvesy
 hits: 4328
 group: 5
 groupOrder: 26
+groupTitle: Вера в Последний день
 ---
 
 <h1>ВЕСЫ</h1>

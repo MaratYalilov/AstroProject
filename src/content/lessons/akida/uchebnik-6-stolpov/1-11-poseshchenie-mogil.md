@@ -1,10 +1,11 @@
 ---
 id: 205
-title: "Первый столп веры: вера в Аллаха. Посещение могил."
-alias: "posesheniemogil"
+title: Посещение могил.
+alias: posesheniemogil
 hits: 13650
 group: 1
 groupOrder: 13
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Посещение могил</h1>

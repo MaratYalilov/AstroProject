@@ -1,10 +1,11 @@
 ---
 id: 297
-title: "Второй столп веры: вера в ангелов. Неподобие человеку."
-alias: "2stolpveryveravangelovnepodobiecheloveku"
+title: Неподобие человеку.
+alias: 2stolpveryveravangelovnepodobiecheloveku
 hits: 8076
 group: 2
 groupOrder: 5
+groupTitle: Вера в ангелов
 ---
 
 <h1>Неподобие человеку</h1>

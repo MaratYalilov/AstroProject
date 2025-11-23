@@ -1,10 +1,11 @@
 ---
 id: 366
-title: "Третий столп веры. Вера в Писания"
-alias: "3tretiistolpveravpisaniya"
+title: Вера в Писания
+alias: 3tretiistolpveravpisaniya
 hits: 5313
 group: 3
 groupOrder: 1
+groupTitle: Вера в Писания
 ---
 
 <h1>ТРЕТИЙ СТОЛП ВЕРЫ: ВЕРА В КНИГИ</h1>

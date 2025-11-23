@@ -8,6 +8,7 @@ import {
   CheckCircle2,
   Download,
   ChevronDown,
+  ChevronUp,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -23,6 +24,7 @@ export interface LessonSidebarItem {
   hasVideo?: boolean;
   group?: string | number;
   groupOrder?: number;
+  groupTitle?: string;
 }
 
 export interface BlogLessonPageProps {
@@ -41,6 +43,15 @@ export interface BlogLessonPageProps {
   };
   lessons: LessonSidebarItem[];
 }
+
+const DEFAULT_GROUP_TITLES: Record<number, string> = {
+  1: "Вера в Аллаха",
+  2: "Вера в ангелов",
+  3: "Вера в Писания",
+  4: "Вера в посланников",
+  5: "Вера в Последний день",
+  6: "Вера в предопределение",
+};
 
 const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   subject,
@@ -145,17 +156,16 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   // ---------- правый аккордеон ----------
   const [query, setQuery] = React.useState("");
   const normalizedQuery = query.trim().toLowerCase();
-  const [openSlug, setOpenSlug] = React.useState<string | null>(
-    currentLesson.slug
-  );
-  const activeLessonRef = React.useRef<HTMLButtonElement | null>(null);
+  // openGroup: number or string (group key). Null = all closed
+  const [openGroup, setOpenGroup] = React.useState<string | number | null>(null);
+  const activeLessonRef = React.useRef<HTMLAnchorElement | null>(null);
   const sidebarScrollRef = React.useRef<HTMLDivElement | null>(null);
 
   const filteredLessons = React.useMemo(() => {
     if (!normalizedQuery) return lessons;
 
     let result = lessons.filter((l) => {
-      const title = l.title.toLowerCase();
+      const title = (l.title ?? "").toString().toLowerCase();
       const orderStr = l.order != null ? String(l.order) : "";
       return title.includes(normalizedQuery) || orderStr.includes(normalizedQuery);
     });
@@ -212,10 +222,12 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   };
 
   React.useEffect(() => {
-    if (!sidebarScrollRef.current || !activeLessonRef.current) return;
-
+    if (!sidebarScrollRef.current) return;
+    // scroll active anchor into view if we have it
     const container = sidebarScrollRef.current;
     const target = activeLessonRef.current;
+    if (!target) return;
+
     const containerRect = container.getBoundingClientRect();
     const targetRect = target.getBoundingClientRect();
 
@@ -231,32 +243,107 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     });
   }, [currentLesson.slug]);
 
-  // ---------- layout ----------
+  // --- Build groups from lessons ---
+  const groups = React.useMemo(() => {
+    // Map<groupKey, { groupKey, groupTitle, items: LessonSidebarItem[] }>
+    const map = new Map<string | number, { groupKey: string | number; groupTitle?: string; items: LessonSidebarItem[] }>();
+
+    for (const l of lessons) {
+      // detect predislovie (filename starting with 0- in slug tail) OR group === 0
+      const tail = (l.slug || "").toString().split("/").pop() ?? "";
+      const isPred =
+        (tail && tail.startsWith("0-")) || String(l.group) === "0" || l.group === 0;
+
+      if (isPred) {
+        // Put predislovie under special key "_pred" to render first as single link
+        const key = "_pred";
+        if (!map.has(key)) {
+          map.set(key, { groupKey: key, groupTitle: "Предисловие", items: [] });
+        }
+        map.get(key)!.items.push(l);
+        continue;
+      }
+
+      const gKey = l.group ?? "ungrouped";
+      const key = typeof gKey === "number" ? gKey : String(gKey);
+      if (!map.has(key)) {
+        map.set(key, { groupKey: key, groupTitle: l.groupTitle, items: [] });
+      }
+      map.get(key)!.items.push(l);
+    }
+
+    // Convert to array and sort groups by numeric key (except _pred first)
+    const arr: Array<{ groupKey: string | number; groupTitle?: string; items: LessonSidebarItem[] }> = [];
+
+    if (map.has("_pred")) {
+      arr.push(map.get("_pred")!);
+      map.delete("_pred");
+    }
+
+    // For the rest, want numeric ascending order if the key is numeric
+    const rest = Array.from(map.values());
+
+    rest.sort((a, b) => {
+      const aKey = a.groupKey;
+      const bKey = b.groupKey;
+      const aNum = typeof aKey === "number" ? aKey : Number(aKey);
+      const bNum = typeof bKey === "number" ? bKey : Number(bKey);
+      if (!Number.isNaN(aNum) && !Number.isNaN(bNum)) {
+        return aNum - bNum;
+      }
+      // fallback to string compare
+      return String(aKey).localeCompare(String(bKey));
+    });
+
+    // ensure groupTitle is set: if not present, try to take from first item's groupTitle or DEFAULT_GROUP_TITLES
+    for (const g of rest) {
+      const first = g.items[0];
+      if (!g.groupTitle) {
+        // try first lesson's groupTitle, else DEFAULT mapping by numeric key
+        const numericKey = typeof g.groupKey === "number" ? g.groupKey : Number(String(g.groupKey));
+        if (first?.groupTitle) g.groupTitle = first.groupTitle;
+        else if (!Number.isNaN(numericKey) && DEFAULT_GROUP_TITLES[numericKey]) {
+          g.groupTitle = DEFAULT_GROUP_TITLES[numericKey];
+        } else {
+          g.groupTitle = String(g.groupKey);
+        }
+      }
+      // sort items inside group by groupOrder (ascending), fallback to order
+      g.items.sort((x, y) => (x.groupOrder ?? x.order ?? 999) - (y.groupOrder ?? y.order ?? 999));
+    }
+
+    arr.push(...rest);
+    return arr;
+  }, [lessons]);
+
+  // initial open group: open first real group (not pred), if any
+  React.useEffect(() => {
+    if (!groups || groups.length === 0) return;
+    // if first element is pred then open second group by default, else open first
+    if (groups[0] && groups[0].groupKey === "_pred") {
+      setOpenGroup(groups[1] ? groups[1].groupKey : null);
+    } else {
+      setOpenGroup(groups[0] ? groups[0].groupKey : null);
+    }
+  }, [lessons]); // when lessons change, recompute initial open
+
+  // Find single predislovie link (first item in _pred group)
+  const predGroup = groups.find((g) => g.groupKey === "_pred");
+  const predLesson = predGroup?.items?.[0] ?? null;
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <main className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-12">
-        {/* ЛЕВО: основная статья */}
+        {/* ЛЕВО: основная статья (оставил без изменений в сравнении с исходником) */}
         <section className="space-y-4 lg:col-span-8">
-          {/* Видео (если есть) */}
           {currentLesson.video && (
-            <motion.div
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2 }}
-            >
+            <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
               <Card className="overflow-hidden">
                 <CardHeader className="flex items-center justify-between gap-4">
                   <div>
-                    <CardTitle className="text-lg sm:text-xl">
-                      Видео-урок
-                    </CardTitle>
+                    <CardTitle className="text-lg sm:text-xl">Видео-урок</CardTitle>
                   </div>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="gap-2"
-                    asChild
-                  >
+                  <Button variant="outline" size="sm" className="gap-2" asChild>
                     <a href={currentLesson.video} download>
                       <Download className="h-4 w-4" />
                       Скачать видео
@@ -265,12 +352,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                 </CardHeader>
                 <CardContent>
                   <div className="aspect-video w-full overflow-hidden rounded-xl bg-muted">
-                    <video
-                      className="h-full w-full"
-                      controls
-                      preload="none"
-                      playsInline
-                    >
+                    <video className="h-full w-full" controls preload="none" playsInline>
                       <source src={currentLesson.video} />
                     </video>
                   </div>
@@ -279,26 +361,14 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
             </motion.div>
           )}
 
-          {/* Аудио (если есть) */}
           {currentLesson.audio && (
-            <motion.div
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2 }}
-            >
+            <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
               <Card>
                 <CardHeader className="flex items-center justify-between gap-4">
                   <div>
-                    <CardTitle className="text-lg sm:text-xl">
-                      Аудио-урок
-                    </CardTitle>
+                    <CardTitle className="text-lg sm:text-xl">Аудио-урок</CardTitle>
                   </div>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="gap-2"
-                    asChild
-                  >
+                  <Button variant="outline" size="sm" className="gap-2" asChild>
                     <a href={currentLesson.audio ?? ""} download>
                       <Download className="h-4 w-4" />
                       Скачать аудио
@@ -314,30 +384,17 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
             </motion.div>
           )}
 
-          {/* Основной текст */}
-          <motion.div
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.2 }}
-          >
+          <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
             <Card className="overflow-hidden">
               <CardContent className="p-6">
-                <article
-                  className="prose prose-sm sm:prose-base prose-neutral dark:prose-invert max-w-none"
-                  dangerouslySetInnerHTML={{ __html: currentLesson.html }}
-                />
+                <article className="prose prose-sm sm:prose-base prose-neutral dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: currentLesson.html }} />
               </CardContent>
             </Card>
           </motion.div>
 
           <div className="mt-4 grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
             <div className="flex justify-start">
-              <Button
-                variant="secondary"
-                className="gap-2"
-                asChild
-                disabled={!prevLesson}
-              >
+              <Button variant="secondary" className="gap-2" asChild disabled={!prevLesson}>
                 <a href={prevLesson ? buildLessonUrl(prevLesson.slug) : "#"}>
                   <ChevronLeft className="h-4 w-4" />
                   Предыдущий урок
@@ -352,9 +409,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                 aria-pressed={isCurrentLessonCompleted}
               >
                 <CheckCircle2 className="h-4 w-4" aria-hidden="true" />
-                {isCurrentLessonCompleted
-                  ? "Снять отметку"
-                  : "Отметить как завершённый"}
+                {isCurrentLessonCompleted ? "Снять отметку" : "Отметить как завершённый"}
               </button>
             </div>
             <div className="flex justify-end">
@@ -366,201 +421,151 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
               </Button>
             </div>
           </div>
-
         </section>
 
-        {/* ПРАВО: аккордеон по урокам */}
+        {/* ПРАВО: групповое оглавление */}
         <aside className="lg:col-span-4">
           <div className="sticky top-[80px]">
             <Card>
               <CardHeader>
                 <div className="flex items-center justify-between gap-2">
                   <div>
-                    <CardTitle className="text-base sm:text-lg">
-                      Оглавление курса
-                    </CardTitle>
-                    <p className="text-xs text-muted-foreground">
-                      {lessons.length} уроков
-                    </p>
+                    <CardTitle className="text-base sm:text-lg">Оглавление курса</CardTitle>
+                    <p className="text-xs text-muted-foreground">{lessons.length} уроков</p>
                   </div>
                   <div className="hidden text-xs text-muted-foreground sm:block">
                     Прогресс
                     <Progress className="mt-1" value={progress} />
-                    <span className="block text-[10px] text-muted-foreground">
-                      {progress}% просмотрено
-                    </span>
+                    <span className="block text-[10px] text-muted-foreground">{progress}% просмотрено</span>
                   </div>
                 </div>
 
                 <div className="mt-4">
                   <div className="relative w-full">
-                    <Input
-                      placeholder="Поиск по урокам…"
-                      className="pl-3 pr-8 text-sm"
-                      value={query}
-                      onChange={(e) => setQuery(e.target.value)}
-                    />
+                    <Input placeholder="Поиск по урокам…" className="pl-3 pr-8 text-sm" value={query} onChange={(e) => setQuery(e.target.value)} />
                   </div>
                 </div>
               </CardHeader>
 
               <CardContent className="p-0">
-                <div
-                  ref={sidebarScrollRef}
-                  className="h-[65vh] overflow-y-auto px-2 pb-3"
-                >
-                  {filteredLessons.length === 0 ? (
-                    <div className="px-3 py-2 text-xs text-muted-foreground">
-                      Ничего не найдено. Попробуйте изменить запрос.
+                <div ref={sidebarScrollRef} className="h-[65vh] overflow-y-auto px-2 pb-3">
+                  {/* 1) Предисловие — просто ссылка (не раскрывается) */}
+                  {predLesson && (
+                    <div className="mb-3">
+                      <a
+                        href={buildLessonUrl(predLesson.slug)}
+                        className="flex w-full items-center gap-3 rounded-xl border border-border/70 px-3 py-2 text-left text-sm hover:bg-muted/50"
+                        ref={predLesson.slug === currentLesson.slug ? activeLessonRef : undefined}
+                      >
+                        <div className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-muted text-[11px]">
+                          {/* Предисловие — не число, показываем иконку */}
+                          <Play className="h-3 w-3" />
+                        </div>
+                        <div className="min-w-0">
+                          <div className="truncate font-medium">{predLesson.title}</div>
+                          <div className="mt-0.5 text-[10px] text-muted-foreground">Предисловие</div>
+                        </div>
+                      </a>
                     </div>
-                  ) : (
-                    <ul className="space-y-2">
-                      {filteredLessons
-                        .slice()
-                        .sort((a, b) => {
-                          // Сначала по groupOrder, потом по названию группы, потом по order
-                          const gA = a.groupOrder ?? 999;
-                          const gB = b.groupOrder ?? 999;
-                          if (gA !== gB) return gA - gB;
-
-                          const nA = String(a.group ?? "").toLowerCase();
-                          const nB = String(b.group ?? "").toLowerCase();
-                          if (nA !== nB) return nA.localeCompare(nB);
-
-                          return (a.order ?? 999) - (b.order ?? 999);
-                        })
-                        .map((l, idx, arr) => {
-                          const isCurrent = l.slug === currentLesson.slug;
-                          const isCompleted = completedLessons.has(l.slug);
-                          const isOpen = openSlug === l.slug;
-
-                          const prev = idx > 0 ? arr[idx - 1] : null;
-                          const isFirstInGroup =
-                            !prev ||
-                            String(prev.group ?? "") !== String(l.group ?? "") ||
-                            (prev.groupOrder ?? 999) !== (l.groupOrder ?? 999);
-
-                          return (
-                            <li key={l.slug}>
-                              {/* Заголовок группы */}
-                              {isFirstInGroup && (
-                                <div className="mb-1 px-1 text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                                  {String(l.group ?? "Без группы")}
-                                </div>
-                              )}
-
-                              {/* Кнопка-голова аккордеона */}
-                              <button
-                                type="button"
-                                ref={isCurrent ? activeLessonRef : undefined}
-                                onClick={() =>
-                                  setOpenSlug((prevOpen) =>
-                                    prevOpen === l.slug ? null : l.slug
-                                  )
-                                }
-                                className={[
-                                  "flex w-full items-center justify-between gap-2 rounded-xl border border-border/70 px-3 py-2 text-left text-sm transition",
-                                  isCurrent
-                                    ? "border-primary/60 bg-primary/5"
-                                    : "hover:border-lime-200 hover:bg-lime-50 dark:hover:border-border/60 dark:hover:bg-muted/50",
-                                ]
-                                  .filter(Boolean)
-                                  .join(" ")}
-                              >
-                                <div className="flex items-center gap-3 min-w-0">
-                                  <div
-                                    className={[
-                                      "grid h-8 w-8 shrink-0 place-items-center rounded-full border border-transparent bg-muted text-[11px] transition-colors",
-                                      isCurrent && "bg-primary/10 border-primary/20",
-                                      !isCurrent &&
-                                        isCompleted &&
-                                        "bg-lime-50 text-lime-700 border-lime-200 dark:bg-lime-900/30 dark:text-lime-50 dark:border-lime-800",
-                                    ]
-                                      .filter(Boolean)
-                                      .join(" ")}
-                                  >
-                                    {l.order != null ? l.order : <Play className="h-3 w-3" />}
-                                  </div>
-                                  <div className="min-w-0">
-                                    <div className="truncate font-medium">
-                                      {renderHighlightedTitle(l.title)}
-                                    </div>
-                                    <div className="mt-0.5 flex flex-wrap gap-2 text-[10px] text-muted-foreground">
-                                      {l.hasVideo && (
-                                        <span className="rounded-full bg-muted px-2 py-0.5">
-                                          🎬 Видео
-                                        </span>
-                                      )}
-                                      {l.hasAudio && (
-                                        <span className="rounded-full bg-muted px-2 py-0.5">
-                                          🎧 Аудио
-                                        </span>
-                                      )}
-                                      {isCompleted && (
-                                        <span className="flex items-center gap-1 rounded-full bg-lime-50 px-2 py-0.5 text-lime-700 dark:bg-lime-900/40 dark:text-lime-50">
-                                          <CheckCircle2 className="h-3 w-3" />
-                                          Завершён
-                                        </span>
-                                      )}
-                                    </div>
-                                  </div>
-                                </div>
-                                <ChevronDown
-                                  className={[
-                                    "h-4 w-4 shrink-0 transition-transform",
-                                    isOpen ? "rotate-180" : "rotate-0",
-                                  ].join(" ")}
-                                />
-                              </button>
-
-                              {/* Тело аккордеона */}
-                              {isOpen && (
-                                <div className="mt-1 mb-2 rounded-xl border border-border/60 bg-muted/40 px-3 py-2 text-xs text-muted-foreground">
-                                  <div className="mb-2">
-                                    <span className="font-semibold">
-                                      Урок {l.order != null ? l.order : "—"}
-                                    </span>
-                                    : {l.title}
-                                  </div>
-                                  <div className="flex flex-wrap gap-2">
-                                    <Button size="sm" className="gap-1" asChild>
-                                      <a href={buildLessonUrl(l.slug)}>Перейти к уроку</a>
-                                    </Button>
-                                    {l.hasVideo && (
-                                      <span className="rounded-full bg-background px-2 py-0.5">
-                                        🎬 Видео
-                                      </span>
-                                    )}
-                                    {l.hasAudio && (
-                                      <span className="rounded-full bg-background px-2 py-0.5">
-                                        🎧 Аудио
-                                      </span>
-                                    )}
-                                  </div>
-                                </div>
-                              )}
-                            </li>
-                          );
-                        })}
-                    </ul>
                   )}
 
+                  {/* 2) Основные группы (1..6) */}
+                  <div className="space-y-4">
+                    {groups
+                      .filter((g) => g.groupKey !== "_pred")
+                      .map((g) => {
+                        const key = g.groupKey;
+                        const title = g.groupTitle ?? String(key);
+                        const isOpen = openGroup === key;
+
+                        return (
+                          <div key={String(key)} className="rounded-lg">
+                            {/* Group header — кликабельный, открывает/закрывает */}
+                            <button
+                              type="button"
+                              onClick={() => setOpenGroup((prev) => (prev === key ? null : key))}
+                              className={[
+                                "flex w-full items-center justify-between gap-3 rounded-xl border border-border/70 px-3 py-2 text-left text-sm transition",
+                                isOpen ? "bg-primary/5 border-primary/60" : "hover:bg-muted/50",
+                              ]
+                                .filter(Boolean)
+                                .join(" ")}
+                            >
+                              <div className="flex items-center gap-3">
+                                <div className="rounded-full bg-muted px-3 py-1 text-sm font-semibold">
+                                  {String(key)}
+                                </div>
+                                <div className="min-w-0">
+                                  <div className="truncate font-medium">{title}</div>
+                                  <div className="mt-0.5 text-[10px] text-muted-foreground">
+                                    {g.items.length} уроков
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                {isOpen ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+                              </div>
+                            </button>
+
+                            {/* Group body: список ссылок на уроки, сортированные по groupOrder */}
+                            {isOpen && (
+                              <div className="mt-2 rounded-xl border border-border/60 bg-muted/40 px-2 py-2 text-xs text-muted-foreground">
+                                <ul className="space-y-1">
+                                  {g.items.map((l) => {
+                                    const isCurrent = l.slug === currentLesson.slug;
+                                    // display number in circle: prefer groupOrder, fallback order
+                                    const numDisplay = l.groupOrder ?? l.order ?? "—";
+                                    return (
+                                      <li key={l.slug}>
+                                        <a
+                                          href={buildLessonUrl(l.slug)}
+                                          ref={isCurrent ? activeLessonRef as any : undefined}
+                                          className={[
+                                            "flex w-full items-center gap-3 rounded-md px-2 py-2 text-sm transition",
+                                            isCurrent ? "bg-primary/5 border border-primary/40" : "hover:bg-muted/60",
+                                          ]
+                                            .filter(Boolean)
+                                            .join(" ")}
+                                        >
+                                          <div
+                                            className={[
+                                              "grid h-8 w-8 shrink-0 place-items-center rounded-full bg-muted text-[11px]",
+                                              isCurrent && "bg-primary/10 border-primary/20",
+                                            ]
+                                              .filter(Boolean)
+                                              .join(" ")}
+                                          >
+                                            {numDisplay}
+                                          </div>
+                                          <div className="min-w-0">
+                                            <div className="truncate font-medium">
+                                              {renderHighlightedTitle(l.title)}
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                    );
+                                  })}
+                                </ul>
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                  </div>
                 </div>
 
                 {/* Прогресс для мобилок */}
                 <div className="border-t border-border/60 px-4 py-3 text-xs sm:hidden">
                   <div className="mb-1">Прогресс по курсу</div>
                   <Progress value={progress} />
-                  <div className="mt-1 text-[11px] text-muted-foreground">
-                    {progress}% просмотрено
-                  </div>
+                  <div className="mt-1 text-[11px] text-muted-foreground">{progress}% просмотрено</div>
                 </div>
               </CardContent>
             </Card>
           </div>
         </aside>
       </main>
-
     </div>
   );
 };

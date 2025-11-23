@@ -1,10 +1,11 @@
 ---
 id: 488
-title: "Пятый столп веры. Большие признаки Судного дня"
-alias: "5stolpbolshiepriznakisudnogodnya"
+title: Большие признаки Судного дня
+alias: 5stolpbolshiepriznakisudnogodnya
 hits: 8269
 group: 5
 groupOrder: 7
+groupTitle: Вера в Последний день
 ---
 
 <h1>БОЛЬШИЕ ПРИЗНАКИ СУДНОГО ДНЯ</h1>

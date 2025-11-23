@@ -1,10 +1,11 @@
 ---
 id: 441
-title: "Третий столп веры. Чудо Корана"
-alias: "3tretiistolpchudokorana"
+title: Чудо Корана
+alias: 3tretiistolpchudokorana
 hits: 6570
 group: 3
 groupOrder: 3
+groupTitle: Вера в Писания
 ---
 
 <h1>Чудо Корана</h1>

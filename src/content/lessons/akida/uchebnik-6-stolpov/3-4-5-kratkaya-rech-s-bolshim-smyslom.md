@@ -1,10 +1,11 @@
 ---
 id: 450
-title: "Третий столп веры. Краткая речь с большим смыслом."
-alias: "3tretiistolpkratkayarechsosobymsmyslom"
+title: Краткая речь с большим смыслом.
+alias: 3tretiistolpkratkayarechsosobymsmyslom
 hits: 4173
 group: 3
 groupOrder: 8
+groupTitle: Вера в Писания
 ---
 
 <h1>Краткая речь с большим смыслом</h1>

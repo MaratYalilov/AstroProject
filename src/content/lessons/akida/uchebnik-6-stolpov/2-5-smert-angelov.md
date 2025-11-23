@@ -1,10 +1,11 @@
 ---
 id: 332
-title: "Второй столп веры: вера в ангелов. Смерть ангелов."
-alias: "2stolpveryveravangelovsmertangelov"
+title: Смерть ангелов.
+alias: 2stolpveryveravangelovsmertangelov
 hits: 7392
 group: 2
 groupOrder: 13
+groupTitle: Вера в ангелов
 ---
 
 <h1>Смерть ангелов</h1>

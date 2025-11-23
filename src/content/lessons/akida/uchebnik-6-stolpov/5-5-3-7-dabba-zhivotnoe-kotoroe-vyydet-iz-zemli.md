@@ -1,10 +1,11 @@
 ---
 id: 495
-title: "Пятый столп веры.Дабба. Животное, которое выйдет из земли."
-alias: "5stolpzhivotnoedabba"
+title: Дабба. Животное, которое выйдет из земли.
+alias: 5stolpzhivotnoedabba
 hits: 26791
 group: 5
 groupOrder: 14
+groupTitle: Вера в Последний день
 ---
 
 <h1>Дабба</h1>

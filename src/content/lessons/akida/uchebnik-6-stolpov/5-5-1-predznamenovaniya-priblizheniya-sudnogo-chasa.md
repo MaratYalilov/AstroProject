@@ -1,10 +1,11 @@
 ---
 id: 485
-title: "Пятый столп веры. Предзнаменования приближения Судного часа"
-alias: "5stolppredznamenovaniyapriblizheniyacudnogodnya"
+title: Предзнаменования приближения Судного часа
+alias: 5stolppredznamenovaniyapriblizheniyacudnogodnya
 hits: 7331
 group: 5
 groupOrder: 5
+groupTitle: Вера в Последний день
 ---
 
 <h1>ПРЕДЗНАМЕНОВАНИЯ ПРИБЛИЖЕНИЯ СУДНОГО ЧАСА</h1>

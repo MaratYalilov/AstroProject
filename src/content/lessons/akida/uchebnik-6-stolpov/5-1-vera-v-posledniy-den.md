@@ -1,10 +1,11 @@
 ---
 id: 463
-title: "Пятый столп веры. Вера в Последний день"
-alias: "5stolpveravposledniiden"
+title: Вера в Последний день
+alias: 5stolpveravposledniiden
 hits: 5200
 group: 5
 groupOrder: 1
+groupTitle: Вера в Последний день
 ---
 
 <h1>ПЯТЫЙ СТОЛП ВЕРЫ: ВЕРА В ПОСЛЕДНИЙ ДЕНЬ</h1>

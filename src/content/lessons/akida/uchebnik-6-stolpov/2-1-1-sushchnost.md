@@ -1,10 +1,11 @@
 ---
 id: 218
-title: "Второй столп веры: вера в ангелов. Сущность."
-alias: "2veraangelovsushnost"
+title: Сущность.
+alias: 2veraangelovsushnost
 hits: 9744
 group: 2
 groupOrder: 1
+groupTitle: Вера в ангелов
 ---
 
 <h1>ВТОРОЙ СТОЛП ВЕРЫ: ВЕРА В АНГЕЛОВ</h1>

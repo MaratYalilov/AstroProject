@@ -1,10 +1,11 @@
 ---
 id: 303
-title: "Второй столп веры: вера в ангелов. Число ангелов."
-alias: "2stolpveryveravangelovchisloangelov"
+title: Число ангелов.
+alias: 2stolpveryveravangelovchisloangelov
 hits: 7853
 group: 2
 groupOrder: 10
+groupTitle: Вера в ангелов
 ---
 
 <h1>Число ангелов</h1>

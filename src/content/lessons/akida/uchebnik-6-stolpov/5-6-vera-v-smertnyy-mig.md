@@ -1,10 +1,11 @@
 ---
 id: 497
-title: "Пятый столп веры.Вера в смертный миг."
-alias: "5stolpveravpredsmertnyimig"
+title: Вера в смертный миг.
+alias: 5stolpveravpredsmertnyimig
 hits: 5617
 group: 5
 groupOrder: 16
+groupTitle: Вера в Последний день
 ---
 
 <h1 style="text-align: justify;"><span style="font-family: \'times new roman\', times;">ВЕРА В СМЕРТНЫЙ МИГ</span></h1>

@@ -1,10 +1,11 @@
 ---
 id: 524
-title: "Шестой столп веры. Вера в предопределение."
-alias: "6stolpveravvredopredelenie"
+title: Вера в предопределение.
+alias: 6stolpveravvredopredelenie
 hits: 4745
 group: 6
 groupOrder: 1
+groupTitle: Вера в предопределение
 ---
 
 <h1>ШЕСТОЙ СТОЛП ВЕРЫ: ВЕРА В ПРЕДОПРЕДЕЛЕНИЕ ДОБРА И ЗЛА</h1>

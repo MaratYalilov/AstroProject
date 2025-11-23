@@ -1,10 +1,11 @@
 ---
 id: 484
-title: "Пятый столп веры. Умозрительные доводы о воскрешении."
-alias: "5stolpomozritelnyedovody"
+title: Умозрительные доводы о воскрешении.
+alias: 5stolpomozritelnyedovody
 hits: 5559
 group: 5
 groupOrder: 4
+groupTitle: Вера в Последний день
 ---
 
 <h1>УМОЗРИТЕЛЬНЫЕ ДОВОДЫ О ВОСКРЕШЕНИИ</h1>

@@ -1,10 +1,11 @@
 ---
 id: 526
-title: "Шестой столп веры. Знание"
-alias: "6stolpznanie"
+title: Знание
+alias: 6stolpznanie
 hits: 4895
 group: 6
 groupOrder: 2
+groupTitle: Вера в предопределение
 ---
 
 <h1>Первая степень — знание</h1>

@@ -1,10 +1,11 @@
 ---
 id: 181
-title: "Первый столп веры: вера в Аллаха. Два условия принятия поклонения."
-alias: "veravallaha2usloviya"
+title: Два условия принятия поклонения.
+alias: veravallaha2usloviya
 hits: 16338
 group: 1
 groupOrder: 5
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Два условия принятия поклонения</h1>

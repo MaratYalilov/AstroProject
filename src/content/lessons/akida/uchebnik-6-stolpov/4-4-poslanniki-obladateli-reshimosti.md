@@ -1,10 +1,11 @@
 ---
 id: 476
-title: "Четвертый столп веры. Посланники обладатели решимости."
-alias: "4chetvertyistolpposlannikiobladatelireshimosti"
+title: Посланники обладатели решимости.
+alias: 4chetvertyistolpposlannikiobladatelireshimosti
 hits: 5575
 group: 4
 groupOrder: 4
+groupTitle: Вера в посланников
 ---
 
 <h1>ПОСЛАННИКИ, ТВЕРДЫЕ ДУХОМ</h1>

@@ -1,10 +1,11 @@
 ---
 id: 489
-title: "Пятый столп веры. Аль-Масихуд-Даджал."
-alias: "5stolpalmasihuldadjal"
+title: Аль-Масихуд-Даджал.
+alias: 5stolpalmasihuldadjal
 hits: 22076
 group: 5
 groupOrder: 8
+groupTitle: Вера в Последний день
 ---
 
 <h1>&nbsp;Аль Масихуд-Даджал.</h1>

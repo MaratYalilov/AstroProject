@@ -1,10 +1,11 @@
 ---
 id: 532
-title: "Шестой столп веры. Третья степень — желание"
-alias: "6stolpzhelanie"
+title: Третья степень — желание
+alias: 6stolpzhelanie
 hits: 4438
 group: 6
 groupOrder: 4
+groupTitle: Вера в предопределение
 ---
 
 <p><span style="font-family: \'times new roman\', times; font-size: 12pt;">&nbsp;</span></p>

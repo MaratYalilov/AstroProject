@@ -1,10 +1,11 @@
 ---
 id: 338
-title: "Второй столп веры: вера в ангелов. Деяния, за которые ангелы проклинают человека"
-alias: "2stolpveryveravangelovdejanijazakotoryeangelyproklinajutcheloveka"
+title: Деяния, за которые ангелы проклинают человека
+alias: 2stolpveryveravangelovdejanijazakotoryeangelyproklinajutcheloveka
 hits: 13455
 group: 2
 groupOrder: 16
+groupTitle: Вера в ангелов
 ---
 
 <h1>Деяния, за которые ангелы проклинают человека</h1>

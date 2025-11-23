@@ -1,10 +1,11 @@
 ---
 id: 491
-title: "Пятый столп веры. Яджудж и Маджудж."
-alias: "5stolpyadudjimadudj"
+title: Яджудж и Маджудж.
+alias: 5stolpyadudjimadudj
 hits: 10886
 group: 5
 groupOrder: 10
+groupTitle: Вера в Последний день
 ---
 
 <h1>&nbsp;Яджудж и Маджудж.</h1>

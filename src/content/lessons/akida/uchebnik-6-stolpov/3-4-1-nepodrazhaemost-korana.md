@@ -1,10 +1,11 @@
 ---
 id: 446
-title: "Третий столп веры. Неподражаемость Корана"
-alias: "3tretiistolpnepodrazhaemostkorana"
+title: Неподражаемость Корана
+alias: 3tretiistolpnepodrazhaemostkorana
 hits: 5225
 group: 3
 groupOrder: 4
+groupTitle: Вера в Писания
 ---
 
 <h1>Неподражаемость Корана</h1>

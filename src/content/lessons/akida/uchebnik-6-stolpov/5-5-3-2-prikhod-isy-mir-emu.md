@@ -1,10 +1,11 @@
 ---
 id: 490
-title: "Пятый столп веры. Приход Исы, мир ему."
-alias: "5stolpprihodisymiremu"
+title: Приход Исы, мир ему.
+alias: 5stolpprihodisymiremu
 hits: 13712
 group: 5
 groupOrder: 9
+groupTitle: Вера в Последний день
 ---
 
 <h1>&nbsp;Приход Исы, мир ему.</h1>

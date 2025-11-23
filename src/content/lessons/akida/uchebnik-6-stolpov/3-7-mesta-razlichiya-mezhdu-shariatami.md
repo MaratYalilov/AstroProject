@@ -1,10 +1,11 @@
 ---
 id: 459
-title: "Третий столп веры. Места различия между шариатами"
-alias: "3tretiistolpmestarazlichiyzmezhdushariatami"
+title: Места различия между шариатами
+alias: 3tretiistolpmestarazlichiyzmezhdushariatami
 hits: 3715
 group: 3
 groupOrder: 11
+groupTitle: Вера в Писания
 ---
 
 <h1>Различия между шариатами</h1>

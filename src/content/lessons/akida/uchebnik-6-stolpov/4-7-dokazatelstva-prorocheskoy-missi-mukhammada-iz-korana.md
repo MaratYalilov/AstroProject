@@ -1,10 +1,11 @@
 ---
 id: 479
-title: "Четвертый столп веры. Доказательства пророческой мисси Мухаммада из Корана."
-alias: "4chetvertyistolpdokazatelstvamissiimuhammada"
+title: Доказательства пророческой мисси Мухаммада из Корана.
+alias: 4chetvertyistolpdokazatelstvamissiimuhammada
 hits: 3496
 group: 4
 groupOrder: 7
+groupTitle: Вера в посланников
 ---
 
 <h1>&nbsp;ВЕРА В ПРОРОЧЕСКУЮ МИССИЮ МУХАММАДА, ДА БЛАГОСЛОВИТ ЕГО АЛЛАХ И ПРИВЕТСТВУЕТ.</h1>

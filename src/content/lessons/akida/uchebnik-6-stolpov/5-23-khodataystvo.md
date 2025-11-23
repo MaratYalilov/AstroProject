@@ -1,10 +1,11 @@
 ---
 id: 521
-title: "Пятый столп веры. Ходатайство."
-alias: "5stolphodataistvo"
+title: Ходатайство.
+alias: 5stolphodataistvo
 hits: 4867
 group: 5
 groupOrder: 33
+groupTitle: Вера в Последний день
 ---
 
 <h1>ХОДАТАЙСТВО</h1>

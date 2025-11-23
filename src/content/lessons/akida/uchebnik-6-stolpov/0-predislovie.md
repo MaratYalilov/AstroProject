@@ -1,7 +1,7 @@
 ---
 id: 157
-title: "Шесть столпов веры. Предисловие."
-alias: "predislovie"
+title: Предисловие.
+alias: predislovie
 hits: 23240
 group: 0
 groupOrder: 1

@@ -1,10 +1,11 @@
 ---
 id: 511
-title: "Пятый столп веры. Представление и расчет"
-alias: "5stolppredstavlenieiraschet"
+title: Представление и расчет
+alias: 5stolppredstavlenieiraschet
 hits: 5213
 group: 5
 groupOrder: 23
+groupTitle: Вера в Последний день
 ---
 
 <h1>ПРЕДСТАВЛЕНИЕ И РАСЧЕТ</h1>

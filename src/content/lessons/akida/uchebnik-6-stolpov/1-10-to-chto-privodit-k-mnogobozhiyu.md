@@ -1,10 +1,11 @@
 ---
 id: 204
-title: "Первый столп веры: вера в Аллаха.То, что приводит к многобожию."
-alias: "privoditkmnogobogiyu"
+title: То, что приводит к многобожию.
+alias: privoditkmnogobogiyu
 hits: 10503
 group: 1
 groupOrder: 12
+groupTitle: Вера в Аллаха
 ---
 
 <h1>То, что приводит к многобожию</h1>

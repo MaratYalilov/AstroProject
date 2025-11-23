@@ -1,10 +1,11 @@
 ---
 id: 207
-title: "Первый столп веры: вера в Аллаха. Имена Аллаха."
-alias: "imenaallaha"
+title: Имена Аллаха.
+alias: imenaallaha
 hits: 10737
 group: 1
 groupOrder: 15
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Имена и атрибуты Аллаха</h1>

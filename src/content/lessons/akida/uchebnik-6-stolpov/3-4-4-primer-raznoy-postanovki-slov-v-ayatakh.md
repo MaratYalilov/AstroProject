@@ -1,10 +1,11 @@
 ---
 id: 449
-title: "Третий столп веры. Пример разной постановки слов в аятах."
-alias: "3tretiistolpprimerraznoypostanovkislovvayatah"
+title: Пример разной постановки слов в аятах.
+alias: 3tretiistolpprimerraznoypostanovkislovvayatah
 hits: 3364
 group: 3
 groupOrder: 7
+groupTitle: Вера в Писания
 ---
 
 <h1>Пример разной постановки слов в аятах</h1>

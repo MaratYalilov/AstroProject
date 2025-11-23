@@ -1,10 +1,11 @@
 ---
 id: 173
-title: "Первый столп веры: вера в Аллаха. Вера в существование Аллаха.  "
-alias: "veravallaha1"
+title: Вера в существование Аллаха.
+alias: veravallaha1
 hits: 22163
 group: 1
 groupOrder: 1
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Первый столп веры: вера в Аллаха</h1>

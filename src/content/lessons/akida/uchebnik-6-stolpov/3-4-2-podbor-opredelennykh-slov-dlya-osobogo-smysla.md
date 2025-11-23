@@ -1,10 +1,11 @@
 ---
 id: 447
-title: "Третий столп веры. Подбор определенных слов для особого смысла."
-alias: "3tretiistolppodboropredelennyhslovdlyaosobogosmysla"
+title: Подбор определенных слов для особого смысла.
+alias: 3tretiistolppodboropredelennyhslovdlyaosobogosmysla
 hits: 3675
 group: 3
 groupOrder: 5
+groupTitle: Вера в Писания
 ---
 
 <h1>Подбор определенных слов для особого смысла</h1>

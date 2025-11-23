@@ -1,10 +1,11 @@
 ---
 id: 300
-title: "Второй столп веры: вера в ангелов. Видимость."
-alias: "2stolpveryveravangelovvidimost"
+title: Видимость.
+alias: 2stolpveryveravangelovvidimost
 hits: 6793
 group: 2
 groupOrder: 7
+groupTitle: Вера в ангелов
 ---
 
 <h1>Видимость</h1>

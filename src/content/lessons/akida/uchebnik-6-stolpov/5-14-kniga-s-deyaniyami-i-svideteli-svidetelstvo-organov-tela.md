@@ -1,10 +1,11 @@
 ---
 id: 512
-title: "Пятый столп веры. Книга с деяниями и свидетели"
-alias: "5stolpveravpredsmertnyimig53"
+title: Книга с деяниями и свидетели
+alias: 5stolpveravpredsmertnyimig53
 hits: 4754
 group: 5
 groupOrder: 24
+groupTitle: Вера в Последний день
 ---
 
 <h1>КНИГА С ДЕЯНИЯМИ И СВИДЕТЕЛИ</h1>

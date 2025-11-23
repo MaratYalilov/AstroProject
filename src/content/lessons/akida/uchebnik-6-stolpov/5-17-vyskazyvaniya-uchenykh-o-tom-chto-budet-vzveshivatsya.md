@@ -1,10 +1,11 @@
 ---
 id: 515
-title: "Пятый столп веры. Высказывания ученых о том, что будет взвешиваться"
-alias: "5stolpchtobudetvzveshivatsja"
+title: Высказывания ученых о том, что будет взвешиваться
+alias: 5stolpchtobudetvzveshivatsja
 hits: 4483
 group: 5
 groupOrder: 27
+groupTitle: Вера в Последний день
 ---
 
 <h1>ВЫСКАЗЫВАНИЯ УЧЕНЫХ О ТОМ, ЧТО БУДЕТ ВЗВЕШИВАТЬСЯ</h1>

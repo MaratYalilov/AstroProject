@@ -1,10 +1,11 @@
 ---
 id: 299
-title: "Второй столп веры: вера в ангелов. Красота."
-alias: "2stolpveryveravangelovkrasota"
+title: Красота.
+alias: 2stolpveryveravangelovkrasota
 hits: 6905
 group: 2
 groupOrder: 6
+groupTitle: Вера в ангелов
 ---
 
 <h1>Красота</h1>

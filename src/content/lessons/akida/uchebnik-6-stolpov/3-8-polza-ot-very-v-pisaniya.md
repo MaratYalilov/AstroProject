@@ -1,10 +1,11 @@
 ---
 id: 460
-title: "Третий столп веры. Польза от веры в писания"
-alias: "3tretiistolppolzaotveryvpisaniya"
+title: Польза от веры в писания
+alias: 3tretiistolppolzaotveryvpisaniya
 hits: 3434
 group: 3
 groupOrder: 12
+groupTitle: Вера в Писания
 ---
 
 <h1>Плоды от веры в Писания</h1>

@@ -1,10 +1,11 @@
 ---
 id: 496
-title: "Пятый столп веры. Огонь, который погонит людей на место сбора."
-alias: "5stolp10ogon"
+title: Огонь, который погонит людей на место сбора.
+alias: 5stolp10ogon
 hits: 13364
 group: 5
 groupOrder: 15
+groupTitle: Вера в Последний день
 ---
 
 <h1><span style="font-family: \'times new roman\', times;">Огонь, который погонит людей на место сбора</span></h1>

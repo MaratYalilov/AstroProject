@@ -1,10 +1,11 @@
 ---
 id: 448
-title: "Третий столп веры. Отсутствие противоречий в Коране."
-alias: "3tretiistolpotsutstvieprotivirechiivkorane"
+title: Отсутствие противоречий в Коране.
+alias: 3tretiistolpotsutstvieprotivirechiivkorane
 hits: 6989
 group: 3
 groupOrder: 6
+groupTitle: Вера в Писания
 ---
 
 <h1>Отсутствие противоречий в Коране</h1>

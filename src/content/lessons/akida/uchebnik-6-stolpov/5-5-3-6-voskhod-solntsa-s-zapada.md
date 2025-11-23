@@ -1,10 +1,11 @@
 ---
 id: 494
-title: "Пятый столп веры.Восход солнца с запада."
-alias: "5stolpvoshodsolncaszapada"
+title: Восход солнца с запада.
+alias: 5stolpvoshodsolncaszapada
 hits: 12887
 group: 5
 groupOrder: 13
+groupTitle: Вера в Последний день
 ---
 
 <h1><span style="font-family: \'times new roman\', times;">Восход солнца с запада</span></h1>

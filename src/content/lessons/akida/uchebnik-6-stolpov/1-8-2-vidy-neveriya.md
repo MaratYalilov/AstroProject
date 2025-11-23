@@ -1,10 +1,11 @@
 ---
 id: 192
-title: "Первый столп веры: вера в Аллаха. Виды неверия."
-alias: "veravallahvidneveriya"
+title: Виды неверия.
+alias: veravallahvidneveriya
 hits: 11057
 group: 1
 groupOrder: 9
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Виды неверия</h1>

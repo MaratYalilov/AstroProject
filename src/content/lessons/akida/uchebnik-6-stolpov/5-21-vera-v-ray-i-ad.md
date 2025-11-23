@@ -1,10 +1,11 @@
 ---
 id: 519
-title: "Пятый столп веры. Вера в Рай и Ад."
-alias: "5stolpveravraiiad"
+title: Вера в Рай и Ад.
+alias: 5stolpveravraiiad
 hits: 5841
 group: 5
 groupOrder: 31
+groupTitle: Вера в Последний день
 ---
 
 <h1>ВЕРА В РАЙ И АД</h1>

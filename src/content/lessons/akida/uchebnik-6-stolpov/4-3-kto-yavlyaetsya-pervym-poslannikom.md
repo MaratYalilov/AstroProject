@@ -1,10 +1,11 @@
 ---
 id: 473
-title: "Четвертый столп веры. Кто является первым посланником"
-alias: "4chetvertyistolpktoyavlyaetsyapervymposlannikom"
+title: Кто является первым посланником
+alias: 4chetvertyistolpktoyavlyaetsyapervymposlannikom
 hits: 19269
 group: 4
 groupOrder: 3
+groupTitle: Вера в посланников
 ---
 
 <h1>КТО ЯВЛЯЕТСЯ ПЕРВЫМ ПОСЛАННИКОМ?</h1>

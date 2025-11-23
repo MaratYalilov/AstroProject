@@ -1,10 +1,11 @@
 ---
 id: 492
-title: "Пятый столп веры. Три провала земли."
-alias: "5stolptriprovalazemli"
+title: Три провала земли.
+alias: 5stolptriprovalazemli
 hits: 13652
 group: 5
 groupOrder: 11
+groupTitle: Вера в Последний день
 ---
 
 <h1>Три провала земли.</h1>

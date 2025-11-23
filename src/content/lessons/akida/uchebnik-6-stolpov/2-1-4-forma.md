@@ -1,10 +1,11 @@
 ---
 id: 296
-title: "Второй столп веры: вера в ангелов. Форма."
-alias: "2stolpveryveravangelovforma"
+title: Форма.
+alias: 2stolpveryveravangelovforma
 hits: 7696
 group: 2
 groupOrder: 4
+groupTitle: Вера в ангелов
 ---
 
 <h1>Форма</h1>

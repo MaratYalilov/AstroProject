@@ -1,10 +1,11 @@
 ---
 id: 333
-title: "Второй столп веры: вера в ангелов. Отношения с людьми."
-alias: "2stolpveryveravangelovotnosheniyasludmi"
+title: Отношения с людьми.
+alias: 2stolpveryveravangelovotnosheniyasludmi
 hits: 8294
 group: 2
 groupOrder: 14
+groupTitle: Вера в ангелов
 ---
 
 <h1>Отношения с людьми</h1>

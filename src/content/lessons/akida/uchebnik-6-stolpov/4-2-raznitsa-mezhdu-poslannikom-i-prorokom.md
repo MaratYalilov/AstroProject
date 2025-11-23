@@ -1,10 +1,11 @@
 ---
 id: 467
-title: "Четвертый столп веры.Разница между посланником и пророком."
-alias: "4chetvertyistolpraznicamezhduposlannikomiprorokom"
+title: Разница между посланником и пророком.
+alias: 4chetvertyistolpraznicamezhduposlannikomiprorokom
 hits: 16365
 group: 4
 groupOrder: 2
+groupTitle: Вера в посланников
 ---
 
 <h1>РАЗНИЦА МЕЖДУ ПОСЛАННИКОМ И ПРОРОКОМ</h1>

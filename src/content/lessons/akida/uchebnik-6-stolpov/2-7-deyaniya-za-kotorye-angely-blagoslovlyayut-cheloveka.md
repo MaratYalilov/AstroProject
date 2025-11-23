@@ -1,10 +1,11 @@
 ---
 id: 337
-title: "Второй столп веры: вера в ангелов. Деяния, за которые ангелы благословляют человека."
-alias: "2stolpveryveravangelovdejanijazakotoryeangelyblagoslovljajutcheloveka"
+title: Деяния, за которые ангелы благословляют человека.
+alias: 2stolpveryveravangelovdejanijazakotoryeangelyblagoslovljajutcheloveka
 hits: 8557
 group: 2
 groupOrder: 15
+groupTitle: Вера в ангелов
 ---
 
 <h1>Деяния, за которые ангелы благословляют человека</h1>

@@ -1,10 +1,11 @@
 ---
 id: 505
-title: "Пятый столп веры.Довод отрицающих мучения в могиле."
-alias: "5stolpdovodotricajucshihmuchenijavmogile"
+title: Довод отрицающих мучения в могиле.
+alias: 5stolpdovodotricajucshihmuchenijavmogile
 hits: 7848
 group: 5
 groupOrder: 17
+groupTitle: Вера в Последний день
 ---
 
 <h1>ДОВОД ОТРИЦАЮЩИХ МУЧЕНИЯ В МОГИЛЕ</h1>

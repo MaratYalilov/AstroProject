@@ -1,10 +1,11 @@
 ---
 id: 321
-title: "Второй столп веры: вера в ангелов. Имена."
-alias: "vtorojstolpveryimena"
+title: Имена.
+alias: vtorojstolpveryimena
 hits: 10905
 group: 2
 groupOrder: 11
+groupTitle: Вера в ангелов
 ---
 
 <h1>Имена</h1>

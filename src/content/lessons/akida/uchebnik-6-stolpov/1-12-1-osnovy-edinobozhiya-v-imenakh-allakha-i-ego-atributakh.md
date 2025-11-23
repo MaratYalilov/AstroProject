@@ -1,10 +1,11 @@
 ---
 id: 206
-title: "Первый столп веры: вера в Аллаха. Основы единобожия в именах Аллаха и Его атрибутах."
-alias: "osnoviedinobogiyavimenahallaha"
+title: Основы единобожия в именах Аллаха и Его атрибутах.
+alias: osnoviedinobogiyavimenahallaha
 hits: 12923
 group: 1
 groupOrder: 14
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Единобожие в именах Аллаха и Его атрибутах</h1>

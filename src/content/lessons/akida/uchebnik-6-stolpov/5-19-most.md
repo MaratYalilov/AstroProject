@@ -1,10 +1,11 @@
 ---
 id: 517
-title: "Пятый столп веры. Мост"
-alias: "5stolpmost"
+title: Мост
+alias: 5stolpmost
 hits: 5616
 group: 5
 groupOrder: 29
+groupTitle: Вера в Последний день
 ---
 
 <h1>МОСТ</h1>

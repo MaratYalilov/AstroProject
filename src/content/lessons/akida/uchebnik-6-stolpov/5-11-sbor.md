@@ -1,10 +1,11 @@
 ---
 id: 509
-title: "Пятый столп веры. Сбор."
-alias: "5stolpsbor"
+title: Сбор.
+alias: 5stolpsbor
 hits: 4670
 group: 5
 groupOrder: 21
+groupTitle: Вера в Последний день
 ---
 
 <h1>Сбор</h1>

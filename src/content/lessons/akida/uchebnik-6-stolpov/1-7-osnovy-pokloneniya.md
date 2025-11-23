@@ -1,10 +1,11 @@
 ---
 id: 189
-title: "Первый столп веры: вера в Аллаха. Основы поклонения."
-alias: "veravallahaosnovipokloneniya"
+title: Основы поклонения.
+alias: veravallahaosnovipokloneniya
 hits: 14988
 group: 1
 groupOrder: 7
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Основы поклонения</h1>

@@ -1,10 +1,11 @@
 ---
 id: 506
-title: "Пятый столп веры. Вера в трубный глас."
-alias: "5stolpveravtrubnyiglas"
+title: Вера в трубный глас.
+alias: 5stolpveravtrubnyiglas
 hits: 5499
 group: 5
 groupOrder: 18
+groupTitle: Вера в Последний день
 ---
 
 <h1>ВЕРА В ТРУБНЫЙ ГЛАС</h1>

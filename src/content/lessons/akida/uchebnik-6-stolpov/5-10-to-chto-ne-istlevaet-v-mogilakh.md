@@ -1,10 +1,11 @@
 ---
 id: 508
-title: "Пятый столп веры. То, что не истлевает в могилах."
-alias: "5stolpchoneistlevaetvmogile"
+title: То, что не истлевает в могилах.
+alias: 5stolpchoneistlevaetvmogile
 hits: 5315
 group: 5
 groupOrder: 20
+groupTitle: Вера в Последний день
 ---
 
 <h1>ТО, ЧТО НЕ ИСТЛЕВАЕТ В МОГИЛАХ</h1>

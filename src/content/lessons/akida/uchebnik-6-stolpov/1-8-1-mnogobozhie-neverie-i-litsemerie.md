@@ -1,10 +1,11 @@
 ---
 id: 191
-title: "Первый столп веры: вера в Аллаха. Многобожие, неверие и лицемерие."
-alias: "veravallahashirk"
+title: Многобожие, неверие и лицемерие.
+alias: veravallahashirk
 hits: 22733
 group: 1
 groupOrder: 8
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Многобожие, неверие и лицемерие.</h1>

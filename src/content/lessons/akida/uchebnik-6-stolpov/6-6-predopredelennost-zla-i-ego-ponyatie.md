@@ -1,10 +1,11 @@
 ---
 id: 534
-title: "Шестой столп веры. Предопределенность зла и его понятие."
-alias: "6stolppredopredelenostzla"
+title: Предопределенность зла и его понятие.
+alias: 6stolppredopredelenostzla
 hits: 4645
 group: 6
 groupOrder: 6
+groupTitle: Вера в предопределение
 ---
 
 <h1>ПРЕДОПРЕДЕЛЕННОСТЬ ЗЛА И ЕГО ПОНЯТИЕ.</h1>

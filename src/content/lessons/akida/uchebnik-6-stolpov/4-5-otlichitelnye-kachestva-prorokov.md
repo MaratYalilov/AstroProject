@@ -1,10 +1,11 @@
 ---
 id: 477
-title: "Четвертый столп веры. Отличительные качества пророков."
-alias: "4chetvertyistolotlichitelnyekachestvaprorokov"
+title: Отличительные качества пророков.
+alias: 4chetvertyistolotlichitelnyekachestvaprorokov
 hits: 6095
 group: 4
 groupOrder: 5
+groupTitle: Вера в посланников
 ---
 
 <h1>ОТЛИЧИТЕЛЬНЫЕ КАЧЕСТВА ПРОРОКОВ</h1>

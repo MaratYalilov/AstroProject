@@ -1,10 +1,11 @@
 ---
 id: 478
-title: "Четвертый столп веры. Почему пророками могли быть только мужчины?"
-alias: "4chetvertyistolppochemuprorokamimoglibyttolkomuzhchiny"
+title: Почему пророками могли быть только мужчины?
+alias: 4chetvertyistolppochemuprorokamimoglibyttolkomuzhchiny
 hits: 9091
 group: 4
 groupOrder: 6
+groupTitle: Вера в посланников
 ---
 
 <h1>ПОЧЕМУ ПРОРОКАМИ МОГЛИ БЫТЬ ТОЛЬКО МУЖЧИНЫ?</h1>

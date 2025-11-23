@@ -1,10 +1,11 @@
 ---
 id: 469
-title: "Пятый столп веры. Примеры воскрешения в этой жизни"
-alias: "5stolpveriprimerivoskresheniyvetoijizni"
+title: Примеры воскрешения в этой жизни
+alias: 5stolpveriprimerivoskresheniyvetoijizni
 hits: 5037
 group: 5
 groupOrder: 3
+groupTitle: Вера в Последний день
 ---
 
 <h1>ПРИМЕРЫ ВОСКРЕШЕНИЯ В ЭТОЙ ЖИЗНИ</h1>

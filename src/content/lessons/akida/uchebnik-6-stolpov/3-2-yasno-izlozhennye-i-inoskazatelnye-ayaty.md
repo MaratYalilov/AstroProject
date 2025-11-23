@@ -1,10 +1,11 @@
 ---
 id: 440
-title: "Третий столп веры. Ясно изложенные и иносказательные аяты."
-alias: "3tretiistolpysnoizlozhennyeiinoskazatelnyeayaty"
+title: Ясно изложенные и иносказательные аяты.
+alias: 3tretiistolpysnoizlozhennyeiinoskazatelnyeayaty
 hits: 9834
 group: 3
 groupOrder: 2
+groupTitle: Вера в Писания
 ---
 
 <h1>Ясно изложенные и иносказательные аяты</h1>

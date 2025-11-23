@@ -1,10 +1,11 @@
 ---
 id: 520
-title: "Пятый столп веры. Высказывания философов относительно Рая и Ада"
-alias: "5stolpvyskazyvanijafilosovovotnositelnorajaiada"
+title: Высказывания философов относительно Рая и Ада
+alias: 5stolpvyskazyvanijafilosovovotnositelnorajaiada
 hits: 4560
 group: 5
 groupOrder: 32
+groupTitle: Вера в Последний день
 ---
 
 <h1>ВЫСКАЗЫВАНИЯ ФИЛОСОФОВ ОТНОСИТЕЛЬНО РАЯ И АДА</h1>

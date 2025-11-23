@@ -1,10 +1,11 @@
 ---
 id: 175
-title: "Первый столп веры: вера в Аллаха. Единобожие в господстве. "
-alias: "veravallaha"
+title: Единобожие в господстве.
+alias: veravallaha
 hits: 13096
 group: 1
 groupOrder: 2
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Единобожие в господстве.</h1>

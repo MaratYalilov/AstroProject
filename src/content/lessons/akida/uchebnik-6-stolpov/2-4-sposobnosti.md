@@ -1,10 +1,11 @@
 ---
 id: 328
-title: "Второй столп веры: вера в ангелов. Способности."
-alias: "2stolpveryveravangelovsposobnosti"
+title: Способности.
+alias: 2stolpveryveravangelovsposobnosti
 hits: 7940
 group: 2
 groupOrder: 12
+groupTitle: Вера в ангелов
 ---
 
 <h1>Способности</h1>

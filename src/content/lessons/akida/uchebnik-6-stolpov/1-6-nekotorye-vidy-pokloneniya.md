@@ -1,10 +1,11 @@
 ---
 id: 182
-title: "Первый столп веры: вера в Аллаха. Некоторые виды поклонения."
-alias: "veravallahavidipokloneniya"
+title: Некоторые виды поклонения.
+alias: veravallahavidipokloneniya
 hits: 13764
 group: 1
 groupOrder: 6
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Некоторые виды поклонения.</h1>

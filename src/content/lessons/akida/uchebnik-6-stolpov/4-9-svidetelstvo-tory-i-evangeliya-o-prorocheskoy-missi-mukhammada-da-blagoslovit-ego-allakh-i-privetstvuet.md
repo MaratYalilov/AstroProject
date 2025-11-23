@@ -1,10 +1,12 @@
 ---
 id: 481
-title: "Четвертый столп веры.  Свидетельство Торы и Евангелия о пророческой мисси Мухаммада, да благословит его Аллах и приветствует."
-alias: "4chetvertyistolpsoobcsheniyaomissiiiztoryievangeliya"
+title: Свидетельство Торы и Евангелия о пророческой мисси Мухаммада, да благословит
+  его Аллах и приветствует.
+alias: 4chetvertyistolpsoobcsheniyaomissiiiztoryievangeliya
 hits: 5600
 group: 4
 groupOrder: 9
+groupTitle: Вера в посланников
 ---
 
 <h1>СВИДЕТЕЛЬСТВО ТОРЫ И ЕВАНГЕЛИЯ О ПРОРОЧЕСКОЙ МИССИИ МУХАММАДА, ДА БЛАГОСЛОВИТ ЕГО АЛЛАХ И ПРИВЕТСТВУЕТ</h1>

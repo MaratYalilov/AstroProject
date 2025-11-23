@@ -1,10 +1,11 @@
 ---
 id: 483
-title: "Четвертый столп веры. Польза от веры в посланников"
-alias: "4chetvertyistolppolzaotveryvposlannikov"
+title: Польза от веры в посланников
+alias: 4chetvertyistolppolzaotveryvposlannikov
 hits: 4274
 group: 4
 groupOrder: 11
+groupTitle: Вера в посланников
 ---
 
 <h1>ПЛОДЫ ОТ ВЕРЫ В ПОСЛАННИКОВ</h1>

@@ -1,10 +1,11 @@
 ---
 id: 451
-title: "Третий столп веры. Научные открытия в Коране"
-alias: "3tretiistolhauchnyeotkrytiyakorana"
+title: Научные открытия в Коране
+alias: 3tretiistolhauchnyeotkrytiyakorana
 hits: 18227
 group: 3
 groupOrder: 9
+groupTitle: Вера в Писания
 ---
 
 <h1>Научные открытия в Коране</h1>

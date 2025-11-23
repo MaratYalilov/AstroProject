@@ -1,10 +1,11 @@
 ---
 id: 203
-title: "Первый столп веры: вера в Аллаха. Средства приближения."
-alias: "tavassul"
+title: Средства приближения.
+alias: tavassul
 hits: 10706
 group: 1
 groupOrder: 11
+groupTitle: Вера в Аллаха
 ---
 
 <p>&nbsp;</p>

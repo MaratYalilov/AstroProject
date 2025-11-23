@@ -1,10 +1,11 @@
 ---
 id: 352
-title: "Второй столп веры: вера в ангелов. Польза от веры в ангелов."
-alias: "2stolpveryveravangelovpolzaotveryvangelov"
+title: Польза от веры в ангелов.
+alias: 2stolpveryveravangelovpolzaotveryvangelov
 hits: 7834
 group: 2
 groupOrder: 18
+groupTitle: Вера в ангелов
 ---
 
 <h1>Плоды от веры в ангелов</h1>

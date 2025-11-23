@@ -1,10 +1,11 @@
 ---
 id: 351
-title: "Второй столп веры: вера в ангелов. Обязательства мусульманина перед ангелами."
-alias: "2stolpveryveravangelovobjazatelstvamusulmaninaperedangelami"
+title: Обязательства мусульманина перед ангелами.
+alias: 2stolpveryveravangelovobjazatelstvamusulmaninaperedangelami
 hits: 8950
 group: 2
 groupOrder: 17
+groupTitle: Вера в ангелов
 ---
 
 <h1>Обязательства мусульманина перед ангелами</h1>

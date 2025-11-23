@@ -1,10 +1,11 @@
 ---
 id: 302
-title: "Второй столп веры: вера в ангелов. Не едят и не пьют."
-alias: "2stolpveryveravangelovneedyt"
+title: Не едят и не пьют.
+alias: 2stolpveryveravangelovneedyt
 hits: 7071
 group: 2
 groupOrder: 9
+groupTitle: Вера в ангелов
 ---
 
 <h1>Не едят и не пьют</h1>

@@ -1,10 +1,11 @@
 ---
 id: 533
-title: "Шестой столп веры. Четвёртая степень — сотворение."
-alias: "6stolpsotvorenie"
+title: Четвёртая степень — сотворение.
+alias: 6stolpsotvorenie
 hits: 4184
 group: 6
 groupOrder: 5
+groupTitle: Вера в предопределение
 ---
 
 <h1>Четвёртая степень — сотворение.</h1>

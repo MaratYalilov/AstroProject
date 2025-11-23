@@ -1,10 +1,11 @@
 ---
 id: 202
-title: "Первый столп веры: вера в Аллаха. Виды лицемерия."
-alias: "veravallahvidlicemeriya"
+title: Виды лицемерия.
+alias: veravallahvidlicemeriya
 hits: 16373
 group: 1
 groupOrder: 10
+groupTitle: Вера в Аллаха
 ---
 
 <h1>Виды лицемерия</h1>

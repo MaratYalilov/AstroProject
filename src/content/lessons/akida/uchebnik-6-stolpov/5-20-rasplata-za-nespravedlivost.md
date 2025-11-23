@@ -1,10 +1,11 @@
 ---
 id: 518
-title: "Пятый столп веры. Расплата за несправедливость."
-alias: "5stolprasplatazanespravedlivost"
+title: Расплата за несправедливость.
+alias: 5stolprasplatazanespravedlivost
 hits: 4945
 group: 5
 groupOrder: 30
+groupTitle: Вера в Последний день
 ---
 
 <h1>РАСПЛАТА ЗА НЕСПРАВЕДЛИВОСТЬ</h1>

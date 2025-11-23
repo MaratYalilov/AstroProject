@@ -1,10 +1,11 @@
 ---
 id: 513
-title: "Пятый столп веры. Вручение свитков с деяниями."
-alias: "5stolpvrucheniesvitkovcdejanijami"
+title: Вручение свитков с деяниями.
+alias: 5stolpvrucheniesvitkovcdejanijami
 hits: 5164
 group: 5
 groupOrder: 25
+groupTitle: Вера в Последний день
 ---
 
 <h1>ВРУЧЕНИЕ СВИТКОВ С ДЕЯНИЯМИ</h1>

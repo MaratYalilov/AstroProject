@@ -1,10 +1,11 @@
 ---
 id: 480
-title: "Четвертый столп веры. Сообщения пророка Мухаммада о своей миссии."
-alias: "4chetvertyistolpsoobcsheniyamuhammadaomissii"
+title: Сообщения пророка Мухаммада о своей миссии.
+alias: 4chetvertyistolpsoobcsheniyamuhammadaomissii
 hits: 3723
 group: 4
 groupOrder: 8
+groupTitle: Вера в посланников
 ---
 
 <h1>СООБЩЕНИЯ ПРОРОКА МУХАММАДА, ДА БЛАГОСЛОВИТ ЕГО АЛЛАХ И ПРИВЕТСТВУЕТ, О СВОЕЙ МИССИИ</h1>

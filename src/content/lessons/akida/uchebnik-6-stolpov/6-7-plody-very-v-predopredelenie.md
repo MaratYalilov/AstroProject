@@ -1,10 +1,11 @@
 ---
 id: 535
-title: "Шестой столп веры. Плоды веры в предопределение"
-alias: "6stolpplodyveryvpredopredelenie"
+title: Плоды веры в предопределение
+alias: 6stolpplodyveryvpredopredelenie
 hits: 4563
 group: 6
 groupOrder: 7
+groupTitle: Вера в предопределение
 ---
 
 <h1>ПЛОДЫ ВЕРЫ В ПРЕДОПРЕДЕЛЕНИЕ</h1>
