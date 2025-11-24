@@ -133,12 +133,91 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     ? Math.round((completedCount / lessons.length) * 100)
     : 0;
 
-  const currentIndex = lessons.findIndex((l) => l.slug === currentLesson.slug);
-  const prevLesson = currentIndex > 0 ? lessons[currentIndex - 1] : null;
-  const nextLesson =
-    currentIndex >= 0 && currentIndex < lessons.length - 1
-      ? lessons[currentIndex + 1]
-      : null;
+
+
+ // build grouped structure (same rules as in rendering)
+const grouped = React.useMemo(() => {
+  const map = new Map<number | string, LessonSidebarItem[]>();
+  for (const l of lessons) {
+    const tail = (l.slug || "").toString().split("/").pop() ?? "";
+    const isPred = (tail && tail.startsWith("0-")) || String(l.group) === "0" || l.group === 0;
+    const key = isPred ? "_pred" : (l.group ?? "ungrouped");
+    if (!map.has(key)) map.set(key, []);
+    map.get(key)!.push(l);
+  }
+
+  // convert map -> array and sort groups numerically (except _pred)
+  const arr: { key: string | number; items: LessonSidebarItem[] }[] = [];
+  if (map.has("_pred")) {
+    arr.push({ key: "_pred", items: map.get("_pred")! });
+    map.delete("_pred");
+  }
+  const rest = Array.from(map.entries()).map(([k, items]) => ({ key: k, items }));
+  rest.sort((a, b) => {
+    const aNum = typeof a.key === "number" ? a.key : Number(a.key);
+    const bNum = typeof b.key === "number" ? b.key : Number(b.key);
+    if (!Number.isNaN(aNum) && !Number.isNaN(bNum)) return aNum - bNum;
+    return String(a.key).localeCompare(String(b.key));
+  });
+
+  // sort items inside each group by groupOrder -> order
+  for (const g of rest) {
+    g.items.sort((x, y) => (x.groupOrder ?? x.order ?? 999) - (y.groupOrder ?? y.order ?? 999));
+  }
+
+  arr.push(...rest);
+  return arr;
+}, [lessons]);
+
+// Flatten groups into array with group index info
+const flat = React.useMemo(() => {
+  const res: { item: LessonSidebarItem; groupKey: string | number; idxInGroup: number; groupIndex: number }[] = [];
+  for (let gi = 0; gi < grouped.length; gi++) {
+    const g = grouped[gi];
+    for (let i = 0; i < g.items.length; i++) {
+      res.push({ item: g.items[i], groupKey: g.key, idxInGroup: i, groupIndex: gi });
+    }
+  }
+  return res;
+}, [grouped]);
+
+// find current position in flat
+const currentFlatIndex = flat.findIndex((f) => f.item.slug === currentLesson.slug);
+
+let prevLesson: LessonSidebarItem | null = null;
+let nextLesson: LessonSidebarItem | null = null;
+
+if (currentFlatIndex !== -1) {
+  const cur = flat[currentFlatIndex];
+  // attempt next in same group
+  const nextInGroup = flat.find((f) => f.groupIndex === cur.groupIndex && f.idxInGroup === cur.idxInGroup + 1);
+  if (nextInGroup) {
+    nextLesson = nextInGroup.item;
+  } else {
+    // find first item in next group (groupIndex + 1)
+    const firstInNextGroup = flat.find((f) => f.groupIndex === cur.groupIndex + 1 && f.idxInGroup === 0);
+    if (firstInNextGroup) nextLesson = firstInNextGroup.item;
+  }
+
+  // attempt prev in same group
+  const prevInGroup = flat.find((f) => f.groupIndex === cur.groupIndex && f.idxInGroup === cur.idxInGroup - 1);
+  if (prevInGroup) {
+    prevLesson = prevInGroup.item;
+  } else {
+    // find last item in previous group
+    const itemsInPrevGroup = flat.filter((f) => f.groupIndex === cur.groupIndex - 1);
+    if (itemsInPrevGroup.length > 0) prevLesson = itemsInPrevGroup[itemsInPrevGroup.length - 1].item;
+  }
+} else {
+  // fallback to original linear behaviour if current not found
+  const linearIndex = lessons.findIndex((l) => l.slug === currentLesson.slug);
+  prevLesson = linearIndex > 0 ? lessons[linearIndex - 1] : null;
+  nextLesson = linearIndex >= 0 && linearIndex < lessons.length - 1 ? lessons[linearIndex + 1] : null;
+}
+
+
+
+
 
   const isCurrentLessonCompleted = completedLessons.has(currentLesson.slug);
 
@@ -244,88 +323,104 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   }, [currentLesson.slug]);
 
   // --- Build groups from lessons ---
-  const groups = React.useMemo(() => {
-    // Map<groupKey, { groupKey, groupTitle, items: LessonSidebarItem[] }>
-    const map = new Map<string | number, { groupKey: string | number; groupTitle?: string; items: LessonSidebarItem[] }>();
+// --- Build groups from filteredLessons (so search works across all groups) ---
+const groups = React.useMemo(() => {
+  // Map
+  const map = new Map<string | number, { groupKey: string | number; groupTitle?: string; items: LessonSidebarItem[] }>();
 
-    for (const l of lessons) {
-      // detect predislovie (filename starting with 0- in slug tail) OR group === 0
-      const tail = (l.slug || "").toString().split("/").pop() ?? "";
-      const isPred =
-        (tail && tail.startsWith("0-")) || String(l.group) === "0" || l.group === 0;
-
-      if (isPred) {
-        // Put predislovie under special key "_pred" to render first as single link
-        const key = "_pred";
-        if (!map.has(key)) {
-          map.set(key, { groupKey: key, groupTitle: "Предисловие", items: [] });
-        }
-        map.get(key)!.items.push(l);
-        continue;
-      }
-
-      const gKey = l.group ?? "ungrouped";
-      const key = typeof gKey === "number" ? gKey : String(gKey);
+  // NOTE: iterate over filteredLessons (not lessons) so the accordion shows search results from all groups
+  for (const l of filteredLessons) {
+    // detect predislovie (filename starting with 0- in slug tail) OR group === 0
+    const tail = (l.slug || "").toString().split("/").pop() ?? "";
+    const isPred = (tail && tail.startsWith("0-")) || String(l.group) === "0" || l.group === 0;
+    if (isPred) {
+      // Put predislovie under special key "_pred" to render first as single link
+      const key = "_pred";
       if (!map.has(key)) {
-        map.set(key, { groupKey: key, groupTitle: l.groupTitle, items: [] });
+        map.set(key, { groupKey: key, groupTitle: "Предисловие", items: [] });
       }
       map.get(key)!.items.push(l);
+      continue;
     }
-
-    // Convert to array and sort groups by numeric key (except _pred first)
-    const arr: Array<{ groupKey: string | number; groupTitle?: string; items: LessonSidebarItem[] }> = [];
-
-    if (map.has("_pred")) {
-      arr.push(map.get("_pred")!);
-      map.delete("_pred");
+    const gKey = l.group ?? "ungrouped";
+    const key = typeof gKey === "number" ? gKey : String(gKey);
+    if (!map.has(key)) {
+      map.set(key, { groupKey: key, groupTitle: l.groupTitle, items: [] });
     }
+    map.get(key)!.items.push(l);
+  }
 
-    // For the rest, want numeric ascending order if the key is numeric
-    const rest = Array.from(map.values());
+  // Convert to array and sort groups by numeric key (except _pred first)
+  const arr: Array<{ groupKey: string | number; groupTitle?: string; items: LessonSidebarItem[] }> = [];
+  if (map.has("_pred")) {
+    arr.push(map.get("_pred")!);
+    map.delete("_pred");
+  }
 
-    rest.sort((a, b) => {
-      const aKey = a.groupKey;
-      const bKey = b.groupKey;
-      const aNum = typeof aKey === "number" ? aKey : Number(aKey);
-      const bNum = typeof bKey === "number" ? bKey : Number(bKey);
-      if (!Number.isNaN(aNum) && !Number.isNaN(bNum)) {
-        return aNum - bNum;
+  // For the rest, want numeric ascending order if the key is numeric
+  const rest = Array.from(map.values());
+  rest.sort((a, b) => {
+    const aKey = a.groupKey;
+    const bKey = b.groupKey;
+    const aNum = typeof aKey === "number" ? aKey : Number(aKey);
+    const bNum = typeof bKey === "number" ? bKey : Number(bKey);
+    if (!Number.isNaN(aNum) && !Number.isNaN(bNum)) {
+      return aNum - bNum;
+    }
+    // fallback to string compare
+    return String(aKey).localeCompare(String(bKey));
+  });
+
+  // ensure groupTitle is set: if not present, try to take from first item's groupTitle or DEFAULT_GROUP_TITLES for
+  for (const g of rest) {
+    const first = g.items[0];
+    if (!g.groupTitle) {
+      const numericKey = typeof g.groupKey === "number" ? g.groupKey : Number(String(g.groupKey));
+      if (first?.groupTitle) g.groupTitle = first.groupTitle;
+      else if (!Number.isNaN(numericKey) && DEFAULT_GROUP_TITLES[numericKey]) {
+        g.groupTitle = DEFAULT_GROUP_TITLES[numericKey];
+      } else {
+        g.groupTitle = String(g.groupKey);
       }
-      // fallback to string compare
-      return String(aKey).localeCompare(String(bKey));
-    });
-
-    // ensure groupTitle is set: if not present, try to take from first item's groupTitle or DEFAULT_GROUP_TITLES
-    for (const g of rest) {
-      const first = g.items[0];
-      if (!g.groupTitle) {
-        // try first lesson's groupTitle, else DEFAULT mapping by numeric key
-        const numericKey = typeof g.groupKey === "number" ? g.groupKey : Number(String(g.groupKey));
-        if (first?.groupTitle) g.groupTitle = first.groupTitle;
-        else if (!Number.isNaN(numericKey) && DEFAULT_GROUP_TITLES[numericKey]) {
-          g.groupTitle = DEFAULT_GROUP_TITLES[numericKey];
-        } else {
-          g.groupTitle = String(g.groupKey);
-        }
-      }
-      // sort items inside group by groupOrder (ascending), fallback to order
-      g.items.sort((x, y) => (x.groupOrder ?? x.order ?? 999) - (y.groupOrder ?? y.order ?? 999));
     }
+    // sort items inside group by groupOrder (ascending), fallback to order
+    g.items.sort((x, y) => (x.groupOrder ?? x.order ?? 999) - (y.groupOrder ?? y.order ?? 999));
+  }
 
-    arr.push(...rest);
-    return arr;
-  }, [lessons]);
+  arr.push(...rest);
+  return arr;
+}, [filteredLessons]);
+
 
   // initial open group: open first real group (not pred), if any
-  React.useEffect(() => {
-    if (!groups || groups.length === 0) return;
-    // if first element is pred then open second group by default, else open first
-    if (groups[0] && groups[0].groupKey === "_pred") {
-      setOpenGroup(groups[1] ? groups[1].groupKey : null);
-    } else {
-      setOpenGroup(groups[0] ? groups[0].groupKey : null);
-    }
-  }, [lessons]); // when lessons change, recompute initial open
+React.useEffect(() => {
+  if (!sidebarScrollRef.current) return;
+  const container = sidebarScrollRef.current;
+  const cur = lessons.find((l) => l.slug === currentLesson.slug);
+  if (!cur) return;
+
+  // Определяем группу
+  const tail = (cur.slug || "").split("/").pop() ?? "";
+  const isPred = tail.startsWith("0-") || String(cur.group) === "0" || cur.group === 0;
+  const desiredKey = isPred ? "_pred" : (cur.group ?? "ungrouped");
+
+  // **Главное:** открываем нужную группу
+  setOpenGroup(desiredKey);
+
+  // Ждём рендера и скроллим к активному уроку
+  requestAnimationFrame(() => {
+    const target = activeLessonRef.current;
+    if (!target) return;
+    const containerRect = container.getBoundingClientRect();
+    const targetRect = target.getBoundingClientRect();
+    const offset = targetRect.top - containerRect.top - containerRect.height / 2 + targetRect.height / 2;
+    container.scrollTo({ top: container.scrollTop + offset, behavior: "smooth" });
+
+    target.setAttribute("tabindex", "-1");
+    target.focus({ preventScroll: true });
+  });
+}, [currentLesson.slug, lessons]);
+
 
   // Find single predislovie link (first item in _pred group)
   const predGroup = groups.find((g) => g.groupKey === "_pred");
@@ -442,7 +537,25 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
 
                 <div className="mt-4">
                   <div className="relative w-full">
-                    <Input placeholder="Поиск по урокам…" className="pl-3 pr-8 text-sm" value={query} onChange={(e) => setQuery(e.target.value)} />
+                    <Input
+                      placeholder="Поиск по урокам…"
+                      className="pl-3 pr-8 text-sm"
+                      value={query}
+                      onChange={(e) => setQuery((e.target as HTMLInputElement).value)}
+                      onKeyDown={(e) => {
+                        if (e.key === "Escape") setQuery("");
+                      }}
+                    />
+                    {query && (
+                      <button
+                        type="button"
+                        aria-label="Очистить поиск"
+                        onClick={() => setQuery("")}
+                        className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-sm hover:bg-muted/50"
+                      >
+                        ×
+                      </button>
+                    )}
                   </div>
                 </div>
               </CardHeader>
@@ -476,7 +589,9 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                       .map((g) => {
                         const key = g.groupKey;
                         const title = g.groupTitle ?? String(key);
-                        const isOpen = openGroup === key;
+                        // если есть активный поиск — открываем все группы, где есть результаты (g.items.length > 0)
+                        const isOpen = normalizedQuery ? g.items.length > 0 : openGroup === key;
+
 
                         return (
                           <div key={String(key)} className="rounded-lg">
@@ -527,6 +642,9 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                                             .filter(Boolean)
                                             .join(" ")}
                                         >
+                                          
+
+
                                           <div
                                             className={[
                                               "grid h-8 w-8 shrink-0 place-items-center rounded-full bg-muted text-[11px]",
@@ -537,6 +655,9 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                                           >
                                             {numDisplay}
                                           </div>
+
+
+
                                           <div className="min-w-0">
                                             <div className="truncate font-medium">
                                               {renderHighlightedTitle(l.title)}
