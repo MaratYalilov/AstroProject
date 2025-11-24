@@ -121,6 +121,17 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     });
   }, [persistCompletion, currentLesson.slug]);
 
+  // toggle completion for arbitrary lesson (used in sidebar list)
+  const toggleLessonCompletion = React.useCallback((slug: string) => {
+  persistCompletion((prev) => {
+    const next = new Set(prev);
+    if (next.has(slug)) next.delete(slug);
+    else next.add(slug);
+    return next;
+  });
+  }, [persistCompletion]);
+
+
   const completedCount = React.useMemo(() => {
     if (!lessons.length) return 0;
     return lessons.reduce(
@@ -628,45 +639,48 @@ React.useEffect(() => {
                                 <ul className="space-y-1">
                                   {g.items.map((l) => {
                                     const isCurrent = l.slug === currentLesson.slug;
-                                    // display number in circle: prefer groupOrder, fallback order
+                                    const isCompleted = completedLessons.has(l.slug);
                                     const numDisplay = l.groupOrder ?? l.order ?? "—";
+
                                     return (
-                                      <li key={l.slug}>
-                                        <a
-                                          href={buildLessonUrl(l.slug)}
-                                          ref={isCurrent ? activeLessonRef as any : undefined}
-                                          className={[
-                                            "flex w-full items-center gap-3 rounded-md px-2 py-2 text-sm transition",
-                                            isCurrent ? "bg-primary/5 border border-primary/40" : "hover:bg-muted/60",
-                                          ]
-                                            .filter(Boolean)
-                                            .join(" ")}
-                                        >
-                                          
-
-
-                                          <div
+                                      <li key={l.slug} className="w-full">
+                                        <div className="flex items-center justify-between">
+                                          <a
+                                            href={buildLessonUrl(l.slug)}
+                                            ref={isCurrent ? activeLessonRef as any : undefined}
                                             className={[
-                                              "grid h-8 w-8 shrink-0 place-items-center rounded-full bg-muted text-[11px]",
-                                              isCurrent && "bg-primary/10 border-primary/20",
+                                              "group flex w-full max-w-full items-center gap-3 rounded-md px-2 py-2 text-sm transition",
+                                              isCurrent ? "bg-primary/5 border border-primary/40" : "hover:bg-muted/60",
                                             ]
                                               .filter(Boolean)
                                               .join(" ")}
                                           >
-                                            {numDisplay}
-                                          </div>
-
-
-
-                                          <div className="min-w-0">
-                                            <div className="truncate font-medium">
-                                              {renderHighlightedTitle(l.title)}
+                                            <div
+                                              className={[
+                                                "grid h-8 w-8 shrink-0 place-items-center rounded-full bg-muted text-[11px] transition-colors",
+                                                isCurrent && "bg-primary/10 border-primary/20",
+                                                isCompleted && "bg-lime-200 text-black border-lime-1000 dark:bg-lime-900/30 dark:text-lime-50 dark:border-lime-800"
+                                              ]
+                                                .filter(Boolean)
+                                                .join(" ")}
+                                              aria-hidden="true"
+                                            >
+                                              {numDisplay}
                                             </div>
-                                          </div>
-                                        </a>
+
+                                            <div className="min-w-0">
+                                              <div className="truncate font-medium">
+                                                {renderHighlightedTitle(l.title)}
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
                                       </li>
                                     );
                                   })}
+
+
+                                  
                                 </ul>
                               </div>
                             )}
