@@ -659,7 +659,7 @@ React.useEffect(() => {
                                               className={[
                                                 "grid h-8 w-8 shrink-0 place-items-center rounded-full bg-muted text-[11px] transition-colors",
                                                 isCurrent && "bg-primary/10 border-primary/20",
-                                                isCompleted && "bg-lime-200 text-black border-lime-1000 dark:bg-lime-900/30 dark:text-lime-50 dark:border-lime-800"
+                                                isCompleted && "bg-lime-300 text-black border-lime-1000 dark:bg-lime-900/30 dark:text-lime-50 dark:border-lime-800"
                                               ]
                                                 .filter(Boolean)
                                                 .join(" ")}
