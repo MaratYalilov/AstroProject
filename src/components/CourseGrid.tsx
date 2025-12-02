@@ -11,6 +11,7 @@ interface CourseGridProps {
   subjectSlug: string;
   subjectTitle?: string;
   courses: CourseEntry[];
+  order: number;
 }
 
 const CourseGrid: React.FC<CourseGridProps> = ({ subjectSlug, courses }) => {
