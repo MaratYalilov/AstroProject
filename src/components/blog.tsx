@@ -25,6 +25,8 @@ export interface LessonSidebarItem {
   group?: string | number;
   groupOrder?: number;
   groupTitle?: string;
+  numericParts?: number[];
+  depth?: number;
 }
 
 export interface BlogLessonPageProps {
@@ -60,6 +62,12 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   currentLesson,
   lessons,
 }) => {
+  // Ключ для хранения последнего просмотренного урока
+  const lastLessonKey = React.useMemo(
+    () => `last-lesson:${subject}/${course}`,
+    [subject, course]
+  );
+
   const storageKey = React.useMemo(
     () => `completed-lessons:${subject}/${course}`,
     [subject, course]
@@ -68,6 +76,55 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   const [completedLessons, setCompletedLessons] = React.useState<Set<string>>(
     () => new Set()
   );
+
+  // Сохраняем текущий урок как последний просмотренный
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+    
+    try {
+      // Сохраняем текущий урок в localStorage
+      window.localStorage.setItem(lastLessonKey, currentLesson.slug);
+      
+      // Также можно сохранить метку времени для сортировки
+      const lastLessons = JSON.parse(window.localStorage.getItem('recent-lessons') || '{}');
+      lastLessons[lastLessonKey] = {
+        slug: currentLesson.slug,
+        subject,
+        course,
+        courseTitle,
+        title: currentLesson.title,
+        timestamp: Date.now()
+      };
+      window.localStorage.setItem('recent-lessons', JSON.stringify(lastLessons));
+      
+    } catch (error) {
+      console.error("Failed to save last lesson", error);
+    }
+  }, [currentLesson.slug, lastLessonKey, subject, course, courseTitle, currentLesson.title]);
+
+  // Функция для получения последнего просмотренного урока
+  const getLastLessonSlug = React.useCallback(() => {
+    if (typeof window === "undefined") return null;
+    
+    try {
+      return window.localStorage.getItem(lastLessonKey);
+    } catch (error) {
+      console.error("Failed to get last lesson", error);
+      return null;
+    }
+  }, [lastLessonKey]);
+
+  // Проверяем, является ли текущий урок последним просмотренным
+  const isLastViewedLesson = React.useMemo(() => {
+    if (typeof window === "undefined") return false;
+    
+    try {
+      const lastSlug = window.localStorage.getItem(lastLessonKey);
+      return lastSlug === currentLesson.slug;
+    } catch (error) {
+      return false;
+    }
+  }, [currentLesson.slug, lastLessonKey]);
 
   React.useEffect(() => {
     if (typeof window === "undefined") return;
@@ -121,16 +178,14 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     });
   }, [persistCompletion, currentLesson.slug]);
 
-  // toggle completion for arbitrary lesson (used in sidebar list)
   const toggleLessonCompletion = React.useCallback((slug: string) => {
-  persistCompletion((prev) => {
-    const next = new Set(prev);
-    if (next.has(slug)) next.delete(slug);
-    else next.add(slug);
-    return next;
-  });
+    persistCompletion((prev) => {
+      const next = new Set(prev);
+      if (next.has(slug)) next.delete(slug);
+      else next.add(slug);
+      return next;
+    });
   }, [persistCompletion]);
-
 
   const completedCount = React.useMemo(() => {
     if (!lessons.length) return 0;
@@ -144,112 +199,15 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     ? Math.round((completedCount / lessons.length) * 100)
     : 0;
 
-
-
- // build grouped structure (same rules as in rendering)
-const grouped = React.useMemo(() => {
-  const map = new Map<number | string, LessonSidebarItem[]>();
-  for (const l of lessons) {
-    const tail = (l.slug || "").toString().split("/").pop() ?? "";
-    const isPred = (tail && tail.startsWith("0-")) || String(l.group) === "0" || l.group === 0;
-    const key = isPred ? "_pred" : (l.group ?? "ungrouped");
-    if (!map.has(key)) map.set(key, []);
-    map.get(key)!.push(l);
-  }
-
-  // convert map -> array and sort groups numerically (except _pred)
-  const arr: { key: string | number; items: LessonSidebarItem[] }[] = [];
-  if (map.has("_pred")) {
-    arr.push({ key: "_pred", items: map.get("_pred")! });
-    map.delete("_pred");
-  }
-  const rest = Array.from(map.entries()).map(([k, items]) => ({ key: k, items }));
-  rest.sort((a, b) => {
-    const aNum = typeof a.key === "number" ? a.key : Number(a.key);
-    const bNum = typeof b.key === "number" ? b.key : Number(b.key);
-    if (!Number.isNaN(aNum) && !Number.isNaN(bNum)) return aNum - bNum;
-    return String(a.key).localeCompare(String(b.key));
-  });
-
-  // sort items inside each group by groupOrder -> order
-  for (const g of rest) {
-    g.items.sort((x, y) => (x.groupOrder ?? x.order ?? 999) - (y.groupOrder ?? y.order ?? 999));
-  }
-
-  arr.push(...rest);
-  return arr;
-}, [lessons]);
-
-// Flatten groups into array with group index info
-const flat = React.useMemo(() => {
-  const res: { item: LessonSidebarItem; groupKey: string | number; idxInGroup: number; groupIndex: number }[] = [];
-  for (let gi = 0; gi < grouped.length; gi++) {
-    const g = grouped[gi];
-    for (let i = 0; i < g.items.length; i++) {
-      res.push({ item: g.items[i], groupKey: g.key, idxInGroup: i, groupIndex: gi });
-    }
-  }
-  return res;
-}, [grouped]);
-
-// find current position in flat
-const currentFlatIndex = flat.findIndex((f) => f.item.slug === currentLesson.slug);
-
-let prevLesson: LessonSidebarItem | null = null;
-let nextLesson: LessonSidebarItem | null = null;
-
-if (currentFlatIndex !== -1) {
-  const cur = flat[currentFlatIndex];
-  // attempt next in same group
-  const nextInGroup = flat.find((f) => f.groupIndex === cur.groupIndex && f.idxInGroup === cur.idxInGroup + 1);
-  if (nextInGroup) {
-    nextLesson = nextInGroup.item;
-  } else {
-    // find first item in next group (groupIndex + 1)
-    const firstInNextGroup = flat.find((f) => f.groupIndex === cur.groupIndex + 1 && f.idxInGroup === 0);
-    if (firstInNextGroup) nextLesson = firstInNextGroup.item;
-  }
-
-  // attempt prev in same group
-  const prevInGroup = flat.find((f) => f.groupIndex === cur.groupIndex && f.idxInGroup === cur.idxInGroup - 1);
-  if (prevInGroup) {
-    prevLesson = prevInGroup.item;
-  } else {
-    // find last item in previous group
-    const itemsInPrevGroup = flat.filter((f) => f.groupIndex === cur.groupIndex - 1);
-    if (itemsInPrevGroup.length > 0) prevLesson = itemsInPrevGroup[itemsInPrevGroup.length - 1].item;
-  }
-} else {
-  // fallback to original linear behaviour if current not found
-  const linearIndex = lessons.findIndex((l) => l.slug === currentLesson.slug);
-  prevLesson = linearIndex > 0 ? lessons[linearIndex - 1] : null;
-  nextLesson = linearIndex >= 0 && linearIndex < lessons.length - 1 ? lessons[linearIndex + 1] : null;
-}
-
-
-
-
-
-  const isCurrentLessonCompleted = completedLessons.has(currentLesson.slug);
-
-  const buildLessonUrl = (slug: string) =>
-    `/lesson?subject=${encodeURIComponent(
-      subject
-    )}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(slug)}`;
-
-  // Реинициализация плагина Корана
-  React.useEffect(() => {
-    if (typeof window === "undefined") return;
-    document.dispatchEvent(new CustomEvent("quran:reinit"));
-  }, [currentLesson.slug, currentLesson.html]);
-
   // ---------- правый аккордеон ----------
   const [query, setQuery] = React.useState("");
   const normalizedQuery = query.trim().toLowerCase();
-  // openGroup: number or string (group key). Null = all closed
   const [openGroup, setOpenGroup] = React.useState<string | number | null>(null);
   const activeLessonRef = React.useRef<HTMLAnchorElement | null>(null);
   const sidebarScrollRef = React.useRef<HTMLDivElement | null>(null);
+
+  // Получаем последний просмотренный урок при загрузке
+  const lastViewedSlug = React.useMemo(() => getLastLessonSlug(), [getLastLessonSlug]);
 
   const filteredLessons = React.useMemo(() => {
     if (!normalizedQuery) return lessons;
@@ -260,7 +218,6 @@ if (currentFlatIndex !== -1) {
       return title.includes(normalizedQuery) || orderStr.includes(normalizedQuery);
     });
 
-    // если по поиску currentLesson выпал — вернём его в начало
     if (
       normalizedQuery &&
       !result.some((l) => l.slug === currentLesson.slug)
@@ -311,137 +268,281 @@ if (currentFlatIndex !== -1) {
     return parts;
   };
 
-  React.useEffect(() => {
-    if (!sidebarScrollRef.current) return;
-    // scroll active anchor into view if we have it
-    const container = sidebarScrollRef.current;
-    const target = activeLessonRef.current;
-    if (!target) return;
-
-    const containerRect = container.getBoundingClientRect();
-    const targetRect = target.getBoundingClientRect();
-
-    const offset =
-      targetRect.top -
-      containerRect.top -
-      containerRect.height / 2 +
-      targetRect.height / 2;
-
-    container.scrollTo({
-      top: container.scrollTop + offset,
-      behavior: "smooth",
+  // --- ОСНОВНАЯ ЛОГИКА ГРУППИРОВКИ И НУМЕРАЦИИ ---
+  const grouped = React.useMemo(() => {
+    const processedLessons = lessons.map(lesson => {
+      const fileName = lesson.slug.split('/').pop() || '';
+      const numericParts = fileName.split('-')
+        .map(part => {
+          const num = parseInt(part, 10);
+          return isNaN(num) ? null : num;
+        })
+        .filter((num): num is number => num !== null);
+      
+      const depth = Math.max(0, numericParts.length - 1);
+      
+      return {
+        ...lesson,
+        numericParts,
+        depth,
+        sortKey: numericParts.join('.')
+      };
     });
-  }, [currentLesson.slug]);
 
-  // --- Build groups from lessons ---
-// --- Build groups from filteredLessons (so search works across all groups) ---
-const groups = React.useMemo(() => {
-  // Map
-  const map = new Map<string | number, { groupKey: string | number; groupTitle?: string; items: LessonSidebarItem[] }>();
-
-  // NOTE: iterate over filteredLessons (not lessons) so the accordion shows search results from all groups
-  for (const l of filteredLessons) {
-    // detect predislovie (filename starting with 0- in slug tail) OR group === 0
-    const tail = (l.slug || "").toString().split("/").pop() ?? "";
-    const isPred = (tail && tail.startsWith("0-")) || String(l.group) === "0" || l.group === 0;
-    if (isPred) {
-      // Put predislovie under special key "_pred" to render first as single link
-      const key = "_pred";
-      if (!map.has(key)) {
-        map.set(key, { groupKey: key, groupTitle: "Предисловие", items: [] });
+    const groupsMap = new Map<number, typeof processedLessons>();
+    
+    for (const lesson of processedLessons) {
+      const groupKey = lesson.group || lesson.numericParts[0] || 0;
+      const groupNum = typeof groupKey === 'number' ? groupKey : parseInt(groupKey.toString(), 10);
+      
+      if (!groupsMap.has(groupNum)) {
+        groupsMap.set(groupNum, []);
       }
-      map.get(key)!.items.push(l);
-      continue;
+      groupsMap.get(groupNum)!.push(lesson);
     }
-    const gKey = l.group ?? "ungrouped";
-    const key = typeof gKey === "number" ? gKey : String(gKey);
-    if (!map.has(key)) {
-      map.set(key, { groupKey: key, groupTitle: l.groupTitle, items: [] });
-    }
-    map.get(key)!.items.push(l);
-  }
 
-  // Convert to array and sort groups by numeric key (except _pred first)
-  const arr: Array<{ groupKey: string | number; groupTitle?: string; items: LessonSidebarItem[] }> = [];
-  if (map.has("_pred")) {
-    arr.push(map.get("_pred")!);
-    map.delete("_pred");
-  }
+    const sortedGroupKeys = Array.from(groupsMap.keys())
+      .sort((a, b) => {
+        if (a === 0) return -1;
+        if (b === 0) return 1;
+        return a - b;
+      });
 
-  // For the rest, want numeric ascending order if the key is numeric
-  const rest = Array.from(map.values());
-  rest.sort((a, b) => {
-    const aKey = a.groupKey;
-    const bKey = b.groupKey;
-    const aNum = typeof aKey === "number" ? aKey : Number(aKey);
-    const bNum = typeof bKey === "number" ? bKey : Number(bKey);
-    if (!Number.isNaN(aNum) && !Number.isNaN(bNum)) {
-      return aNum - bNum;
-    }
-    // fallback to string compare
-    return String(aKey).localeCompare(String(bKey));
-  });
+    const result = sortedGroupKeys.map(groupKey => {
+      let groupLessons = groupsMap.get(groupKey)!;
+      
+      groupLessons = [...groupLessons].sort((a, b) => {
+        for (let i = 0; i < Math.max(a.numericParts.length, b.numericParts.length); i++) {
+          const aPart = a.numericParts[i] || 0;
+          const bPart = b.numericParts[i] || 0;
+          if (aPart !== bPart) {
+            return aPart - bPart;
+          }
+        }
+        return (a.title || '').localeCompare(b.title || '');
+      });
 
-  // ensure groupTitle is set: if not present, try to take from first item's groupTitle or DEFAULT_GROUP_TITLES for
-  for (const g of rest) {
-    const first = g.items[0];
-    if (!g.groupTitle) {
-      const numericKey = typeof g.groupKey === "number" ? g.groupKey : Number(String(g.groupKey));
-      if (first?.groupTitle) g.groupTitle = first.groupTitle;
-      else if (!Number.isNaN(numericKey) && DEFAULT_GROUP_TITLES[numericKey]) {
-        g.groupTitle = DEFAULT_GROUP_TITLES[numericKey];
-      } else {
-        g.groupTitle = String(g.groupKey);
+      return {
+        key: groupKey === 0 ? "_pred" : groupKey,
+        items: groupLessons,
+        lessonsWithNumbers: groupLessons.map(lesson => {
+          if (groupKey === 0) {
+            return {
+              ...lesson,
+              displayNumber: "0"
+            };
+          }
+          
+          const displayParts = [groupKey];
+          if (lesson.numericParts.length > 1) {
+            displayParts.push(...lesson.numericParts.slice(1));
+          }
+          
+          return {
+            ...lesson,
+            displayNumber: displayParts.join('.')
+          };
+        })
+      };
+    });
+
+    return result;
+  }, [lessons]);
+
+  // --- Группы для отображения в аккордеоне ---
+  const displayGroups = React.useMemo(() => {
+    const result = grouped.map(g => ({
+      groupKey: g.key,
+      groupTitle: g.key === "_pred" ? "Предисловие" : 
+                 (typeof g.key === "number" && DEFAULT_GROUP_TITLES[g.key]) || 
+                 `Группа ${g.key}`,
+      items: normalizedQuery 
+        ? g.lessonsWithNumbers.filter(l => {
+            const title = (l.title ?? "").toString().toLowerCase();
+            const orderStr = l.order != null ? String(l.order) : "";
+            return title.includes(normalizedQuery) || orderStr.includes(normalizedQuery);
+          })
+        : g.lessonsWithNumbers
+    })).filter(g => g.items.length > 0);
+    
+    return result;
+  }, [grouped, normalizedQuery]);
+
+  // --- Навигация prev/next ---
+  const flat = React.useMemo(() => {
+    const res: { item: LessonSidebarItem; groupKey: string | number; idxInGroup: number; groupIndex: number }[] = [];
+    for (let gi = 0; gi < grouped.length; gi++) {
+      const g = grouped[gi];
+      for (let i = 0; i < g.items.length; i++) {
+        res.push({ item: g.items[i], groupKey: g.key, idxInGroup: i, groupIndex: gi });
       }
     }
-    // sort items inside group by groupOrder (ascending), fallback to order
-    g.items.sort((x, y) => (x.groupOrder ?? x.order ?? 999) - (y.groupOrder ?? y.order ?? 999));
+    return res;
+  }, [grouped]);
+
+  const currentFlatIndex = flat.findIndex((f) => f.item.slug === currentLesson.slug);
+
+  let prevLesson: LessonSidebarItem | null = null;
+  let nextLesson: LessonSidebarItem | null = null;
+
+  if (currentFlatIndex !== -1) {
+    const cur = flat[currentFlatIndex];
+    const nextInGroup = flat.find((f) => f.groupIndex === cur.groupIndex && f.idxInGroup === cur.idxInGroup + 1);
+    if (nextInGroup) {
+      nextLesson = nextInGroup.item;
+    } else {
+      const firstInNextGroup = flat.find((f) => f.groupIndex === cur.groupIndex + 1 && f.idxInGroup === 0);
+      if (firstInNextGroup) nextLesson = firstInNextGroup.item;
+    }
+
+    const prevInGroup = flat.find((f) => f.groupIndex === cur.groupIndex && f.idxInGroup === cur.idxInGroup - 1);
+    if (prevInGroup) {
+      prevLesson = prevInGroup.item;
+    } else {
+      const itemsInPrevGroup = flat.filter((f) => f.groupIndex === cur.groupIndex - 1);
+      if (itemsInPrevGroup.length > 0) prevLesson = itemsInPrevGroup[itemsInPrevGroup.length - 1].item;
+    }
+  } else {
+    const linearIndex = lessons.findIndex((l) => l.slug === currentLesson.slug);
+    prevLesson = linearIndex > 0 ? lessons[linearIndex - 1] : null;
+    nextLesson = linearIndex >= 0 && linearIndex < lessons.length - 1 ? lessons[linearIndex + 1] : null;
   }
 
-  arr.push(...rest);
-  return arr;
-}, [filteredLessons]);
+  const isCurrentLessonCompleted = completedLessons.has(currentLesson.slug);
 
+  const buildLessonUrl = (slug: string) =>
+    `/lesson?subject=${encodeURIComponent(
+      subject
+    )}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(slug)}`;
 
-  // initial open group: open first real group (not pred), if any
-React.useEffect(() => {
-  if (!sidebarScrollRef.current) return;
-  const container = sidebarScrollRef.current;
-  const cur = lessons.find((l) => l.slug === currentLesson.slug);
-  if (!cur) return;
+  // Реинициализация плагина Корана
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+    document.dispatchEvent(new CustomEvent("quran:reinit"));
+  }, [currentLesson.slug, currentLesson.html]);
 
-  // Определяем группу
-  const tail = (cur.slug || "").split("/").pop() ?? "";
-  const isPred = tail.startsWith("0-") || String(cur.group) === "0" || cur.group === 0;
-  const desiredKey = isPred ? "_pred" : (cur.group ?? "ungrouped");
+  // --- Инициализация открытой группы (с учетом последнего просмотренного) ---
+  React.useEffect(() => {
+    if (displayGroups.length === 0) return;
+    
+    // Находим группу текущего урока
+    const currentGroup = displayGroups.find(group => 
+      group.items.some(item => item.slug === currentLesson.slug)
+    );
+    
+    if (currentGroup && currentGroup.groupKey !== "_pred") {
+      setOpenGroup(currentGroup.groupKey);
+      // После установки группы — скроллим и выходим
+      setTimeout(() => {
+        const target = activeLessonRef.current;
+        if (!target || !sidebarScrollRef.current) return;
+        target.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'center' 
+        });
+      }, 100);
+      return;
+    }
 
-  // **Главное:** открываем нужную группу
-  setOpenGroup(desiredKey);
+    // Если нет открытой группы, пробуем открыть группу последнего просмотренного урока
+    if (lastViewedSlug && lastViewedSlug !== currentLesson.slug) {
+      const lastViewedGroup = displayGroups.find(group => 
+        group.items.some(item => item.slug === lastViewedSlug)
+      );
+      if (lastViewedGroup && lastViewedGroup.groupKey !== "_pred") {
+        setOpenGroup(lastViewedGroup.groupKey);
+        setTimeout(() => {
+          const target = activeLessonRef.current;
+          if (!target || !sidebarScrollRef.current) return;
+          target.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'center' 
+          });
+        }, 100);
+        return;
+      }
+    }
 
-  // Ждём рендера и скроллим к активному уроку
-  requestAnimationFrame(() => {
-    const target = activeLessonRef.current;
-    if (!target) return;
-    const containerRect = container.getBoundingClientRect();
-    const targetRect = target.getBoundingClientRect();
-    const offset = targetRect.top - containerRect.top - containerRect.height / 2 + targetRect.height / 2;
-    container.scrollTo({ top: container.scrollTop + offset, behavior: "smooth" });
+    // Иначе открываем первую реальную группу
+    const firstRealGroup = displayGroups.find(g => g.groupKey !== "_pred");
+    if (firstRealGroup) {
+      setOpenGroup(firstRealGroup.groupKey);
+      setTimeout(() => {
+        const target = activeLessonRef.current;
+        if (!target || !sidebarScrollRef.current) return;
+        target.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'center' 
+        });
+      }, 100);
+    }
 
-    target.setAttribute("tabindex", "-1");
-    target.focus({ preventScroll: true });
-  });
-}, [currentLesson.slug, lessons]);
+    // ВАЖНО: не включаем openGroup в массив зависимостей —
+    // иначе эффект будет запускаться при каждом клике и перезаписывать выбор пользователя.
+  }, [currentLesson.slug, displayGroups, lastViewedSlug]);
 
-
-  // Find single predislovie link (first item in _pred group)
-  const predGroup = groups.find((g) => g.groupKey === "_pred");
+  // --- Предисловие ---
+  const predGroup = displayGroups.find((g) => g.groupKey === "_pred");
   const predLesson = predGroup?.items?.[0] ?? null;
+
+  // --- Функция для определения отступа ---
+  const getDepthStyle = (depth: number) => {
+    switch (depth) {
+      case 0: return { marginLeft: '0px' };
+      case 1: return { marginLeft: '0.5rem' };
+      case 2: return { marginLeft: '1rem' };
+      case 3: return { marginLeft: '1.5rem' };
+      default: return { marginLeft: `${depth * 0.5}rem` };
+    }
+  };
+
+  // --- Кнопка "Вернуться к последнему уроку" ---
+  const LastViewedButton = React.useMemo(() => {
+    if (!lastViewedSlug || lastViewedSlug === currentLesson.slug) return null;
+    
+    const lastLesson = lessons.find(l => l.slug === lastViewedSlug);
+    if (!lastLesson) return null;
+    
+    return (
+      <div className="mb-4 p-3 bg-primary/5 border border-primary/20 rounded-lg">
+        <div className="flex items-center justify-between">
+          <div className="text-xs text-muted-foreground">Продолжить с</div>
+          <Button
+            size="sm"
+            variant="outline"
+            className="h-7 text-xs"
+            asChild
+          >
+            <a href={buildLessonUrl(lastViewedSlug)}>
+              <Play className="h-3 w-3 mr-1" />
+              {lastLesson.title.substring(0, 40)}
+              {lastLesson.title.length > 40 ? '...' : ''}
+            </a>
+          </Button>
+        </div>
+      </div>
+    );
+  }, [lastViewedSlug, currentLesson.slug, lessons, buildLessonUrl]);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
       <main className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-12">
-        {/* ЛЕВО: основная статья (оставил без изменений в сравнении с исходником) */}
+        {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8">
+          {/* Баннер последнего просмотренного урока */}
+          {/* {isLastViewedLesson && (
+            <motion.div 
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="p-3 bg-primary/10 border border-primary/30 rounded-lg"
+            >
+              <div className="flex items-center text-sm">
+                <CheckCircle2 className="h-4 w-4 text-primary mr-2" />
+                <span>Вы продолжаете с того места, где остановились в прошлый раз</span>
+              </div>
+            </motion.div>
+          )} */}
+
           {currentLesson.video && (
             <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
               <Card className="overflow-hidden">
@@ -546,6 +647,9 @@ React.useEffect(() => {
                   </div>
                 </div>
 
+                {/* Кнопка возврата к последнему уроку */}
+                {LastViewedButton}
+
                 <div className="mt-4">
                   <div className="relative w-full">
                     <Input
@@ -573,7 +677,7 @@ React.useEffect(() => {
 
               <CardContent className="p-0">
                 <div ref={sidebarScrollRef} className="h-[65vh] overflow-y-auto px-2 pb-3">
-                  {/* 1) Предисловие — просто ссылка (не раскрывается) */}
+                  {/* 1) Предисловие — просто ссылка */}
                   {predLesson && (
                     <div className="mb-3">
                       <a
@@ -581,32 +685,29 @@ React.useEffect(() => {
                         className="flex w-full items-center gap-3 rounded-xl border border-border/70 px-3 py-2 text-left text-sm hover:bg-muted/50"
                         ref={predLesson.slug === currentLesson.slug ? activeLessonRef : undefined}
                       >
-                        <div className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-muted text-[11px]">
-                          {/* Предисловие — не число, показываем иконку */}
-                          <Play className="h-3 w-3" />
-                        </div>
-                        <div className="min-w-0">
-                          <div className="truncate font-medium">{predLesson.title}</div>
-                          <div className="mt-0.5 text-[10px] text-muted-foreground">Предисловие</div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs font-mono text-muted-foreground">0</span>
+                          <div className="min-w-0">
+                            <div className="truncate font-medium">{predLesson.title}</div>
+                            <div className="mt-0.5 text-[10px] text-muted-foreground">Предисловие</div>
+                          </div>
                         </div>
                       </a>
                     </div>
                   )}
 
-                  {/* 2) Основные группы (1..6) */}
+                  {/* 2) Основные группы (1-6) */}
                   <div className="space-y-4">
-                    {groups
+                    {displayGroups
                       .filter((g) => g.groupKey !== "_pred")
                       .map((g) => {
                         const key = g.groupKey;
-                        const title = g.groupTitle ?? String(key);
-                        // если есть активный поиск — открываем все группы, где есть результаты (g.items.length > 0)
+                        const numKey = typeof key === 'number' ? key : Number(key);
+                        const title = DEFAULT_GROUP_TITLES[numKey] || g.groupTitle || `Группа ${key}`;
                         const isOpen = normalizedQuery ? g.items.length > 0 : openGroup === key;
-
 
                         return (
                           <div key={String(key)} className="rounded-lg">
-                            {/* Group header — кликабельный, открывает/закрывает */}
                             <button
                               type="button"
                               onClick={() => setOpenGroup((prev) => (prev === key ? null : key))}
@@ -619,7 +720,7 @@ React.useEffect(() => {
                             >
                               <div className="flex items-center gap-3">
                                 <div className="rounded-full bg-muted px-3 py-1 text-sm font-semibold">
-                                  {String(key)}
+                                  {String(numKey)}
                                 </div>
                                 <div className="min-w-0">
                                   <div className="truncate font-medium">{title}</div>
@@ -633,44 +734,47 @@ React.useEffect(() => {
                               </div>
                             </button>
 
-                            {/* Group body: список ссылок на уроки, сортированные по groupOrder */}
                             {isOpen && (
                               <div className="mt-2 rounded-xl border border-border/60 bg-muted/40 px-2 py-2 text-xs text-muted-foreground">
                                 <ul className="space-y-1">
                                   {g.items.map((l) => {
                                     const isCurrent = l.slug === currentLesson.slug;
                                     const isCompleted = completedLessons.has(l.slug);
-                                    const numDisplay = l.groupOrder ?? l.order ?? "—";
+                                    const isLastViewed = l.slug === lastViewedSlug;
+                                    const depthStyle = getDepthStyle(l.depth || 0);
 
                                     return (
                                       <li key={l.slug} className="w-full">
-                                        <div className="flex items-center justify-between">
+                                        <div className="flex items-center justify-between" style={depthStyle}>
                                           <a
                                             href={buildLessonUrl(l.slug)}
                                             ref={isCurrent ? activeLessonRef as any : undefined}
                                             className={[
-                                              "group flex w-full max-w-full items-center gap-3 rounded-md px-2 py-2 text-sm transition",
-                                              isCurrent ? "bg-primary/5 border border-primary/40" : "hover:bg-muted/60",
+                                              "group flex w-full max-w-full items-center gap-2 rounded-md px-2 py-2 text-sm transition hover:bg-muted/60",
+                                              isCurrent ? "bg-primary/5 border border-primary/40" : "",
+                                              isLastViewed && !isCurrent && "bg-amber-50 dark:bg-amber-950/30 border-amber-200 dark:border-amber-800"
                                             ]
                                               .filter(Boolean)
                                               .join(" ")}
                                           >
-                                            <div
-                                              className={[
-                                                "grid h-8 w-8 shrink-0 place-items-center rounded-full bg-muted text-[11px] transition-colors",
-                                                isCurrent && "bg-primary/10 border-primary/20",
-                                                isCompleted && "bg-lime-300 text-black border-lime-1000 dark:bg-lime-900/30 dark:text-lime-50 dark:border-lime-800"
-                                              ]
-                                                .filter(Boolean)
-                                                .join(" ")}
-                                              aria-hidden="true"
-                                            >
-                                              {numDisplay}
-                                            </div>
-
-                                            <div className="min-w-0">
-                                              <div className="truncate font-medium">
-                                                {renderHighlightedTitle(l.title)}
+                                            <div className="flex items-center gap-2 min-w-0 flex-1">
+                                              {isLastViewed && !isCurrent && (
+                                                <div className="h-2 w-2 rounded-full bg-amber-500 animate-pulse" />
+                                              )}
+                                              <span className={[
+                                                "text-xs font-mono shrink-0 transition-colors",
+                                                isCurrent ? "text-primary font-semibold" : 
+                                                isLastViewed ? "text-amber-600 dark:text-amber-400 font-medium" : 
+                                                "text-muted-foreground",
+                                                isCompleted && "text-lime-600 dark:text-lime-400"
+                                              ].filter(Boolean).join(" ")}>
+                                                {l.displayNumber}
+                                              </span>
+                                              
+                                              <div className="min-w-0 flex-1">
+                                                <div className="truncate font-medium">
+                                                  {renderHighlightedTitle(l.title)}
+                                                </div>
                                               </div>
                                             </div>
                                           </a>
@@ -678,9 +782,6 @@ React.useEffect(() => {
                                       </li>
                                     );
                                   })}
-
-
-                                  
                                 </ul>
                               </div>
                             )}
@@ -690,7 +791,6 @@ React.useEffect(() => {
                   </div>
                 </div>
 
-                {/* Прогресс для мобилок */}
                 <div className="border-t border-border/60 px-4 py-3 text-xs sm:hidden">
                   <div className="mb-1">Прогресс по курсу</div>
                   <Progress value={progress} />

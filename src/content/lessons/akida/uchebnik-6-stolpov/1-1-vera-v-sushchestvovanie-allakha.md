@@ -1,8 +1,6 @@
 ---
 id: 173
 title: Вера в существование Аллаха.
-alias: veravallaha1
-hits: 22163
 group: 1
 groupOrder: 1
 groupTitle: Вера в Аллаха
