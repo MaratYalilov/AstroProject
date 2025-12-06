@@ -11,6 +11,7 @@ groupOrder: 1
 <h2>ПРЕДИСЛОВИЕ</h2>
 <p>Хвала Аллаху! Мы воздаем Ему хвалу, просим Его о прощении и молим Его о том, чтобы Он направил нас на прямой путь. Мы прибегаем к защите Аллаха от зла наших душ и от наших дурных дел, ведь никто не собьет с пути, ведомого Аллахом, а тех, кого Он сбивает с прямого пути, никто не выведет на него. Свидетельствую, что нет божества, кроме одного лишь Аллаха, у которого нет сотоварища, и свидетельствую, что Мухаммад - Его раб и Его посланник, да благословит Аллах и да приветствует его самого, его семейство и его сподвижников.
 <p>Всевышний сказал:</p>
+
 <p>{Quran}3:102{/Quran}<span style="color: black; font-family: times new roman,times; font-size: 18pt;"><span dir="RTL"><span dir="RTL"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"> <br /></span></span></span></span></span></span></span></span></p>
 <p>{Quran}4:1{/Quran}<span style="color: black; font-family: times new roman,times; font-size: 18pt;"><span dir="RTL"><span dir="RTL"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"> <br /></span></span></span></span></span></span></span></span></p>
 <p>{Quran}33:70{/Quran}</p>

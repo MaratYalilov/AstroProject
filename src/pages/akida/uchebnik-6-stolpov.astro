@@ -1,0 +1,45 @@
+---
+// src/pages/akida/uchebnik-6-stolpov.astro
+const subject = 'akida';
+const course = 'uchebnik-6-stolpov';
+const firstLessonSlug = 'akida/uchebnik-6-stolpov/0-predislovie';
+// сформируем безопасный fallback URL
+const fallbackUrl = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(firstLessonSlug)}`;
+---
+<html>
+  <head>
+    <!-- Fallback для отключенного JavaScript -->
+    <noscript>
+      <!-- В Astro атрибут можно задать как выражение -->
+      <meta http-equiv="refresh" content={`0;url=${fallbackUrl}`} />
+      <!-- И запасная ссылка на случай, если meta не сработает -->
+      <style> .nojs-link{display:block;margin-top:8px;} </style>
+      <a class="nojs-link" href={fallbackUrl}>Перейти к уроку</a>
+    </noscript>
+  </head>
+  <body>
+    <script>
+      (function() {
+        const subject = 'akida';
+        const course = 'uchebnik-6-stolpov';
+        const lastLessonKey = `last-lesson:${subject}/${course}`;
+        const firstLessonSlug = 'akida/uchebnik-6-stolpov/0-predislovie'; // Дублируем здесь для JavaScript
+        try {
+          const lastLessonSlug = localStorage.getItem(lastLessonKey);
+          if (lastLessonSlug) {
+            const safeSlug = lastLessonSlug || '';
+            if (safeSlug) {
+              window.location.href = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(safeSlug)}`;
+              return;
+            }
+          }
+          // Фоллбек — первый урок
+          window.location.href = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(firstLessonSlug)}`;
+        } catch (error) {
+          console.error('Error redirecting:', error);
+          window.location.href = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(firstLessonSlug)}`;
+        }
+      })();
+    </script>
+  </body>
+</html>

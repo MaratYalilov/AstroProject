@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  Play,
   ChevronLeft,
   ChevronRight,
   CheckCircle2,
@@ -77,15 +76,32 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     () => new Set()
   );
 
+  const [isClient, setIsClient] = React.useState(false);
+  const [hasUserInteracted, setHasUserInteracted] = React.useState(false);
+  const [lastViewedSlug, setLastViewedSlug] = React.useState<string | null>(null);
+  React.useEffect(() => {
+    setIsClient(true);
+    
+    // Загружаем последний просмотренный урок только на клиенте
+    try {
+      const lastSlug = window.localStorage.getItem(`last-lesson:${subject}/${course}`);
+      setLastViewedSlug(lastSlug);
+      
+    } catch (error) {
+      console.error("Failed to get last lesson", error);
+      setLastViewedSlug(null);
+    }
+    
+  }, [subject, course]);
+
   // Сохраняем текущий урок как последний просмотренный
   React.useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (!isClient) return;
     
     try {
-      // Сохраняем текущий урок в localStorage
       window.localStorage.setItem(lastLessonKey, currentLesson.slug);
+      setLastViewedSlug(currentLesson.slug);
       
-      // Также можно сохранить метку времени для сортировки
       const lastLessons = JSON.parse(window.localStorage.getItem('recent-lessons') || '{}');
       lastLessons[lastLessonKey] = {
         slug: currentLesson.slug,
@@ -100,34 +116,10 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     } catch (error) {
       console.error("Failed to save last lesson", error);
     }
-  }, [currentLesson.slug, lastLessonKey, subject, course, courseTitle, currentLesson.title]);
-
-  // Функция для получения последнего просмотренного урока
-  const getLastLessonSlug = React.useCallback(() => {
-    if (typeof window === "undefined") return null;
-    
-    try {
-      return window.localStorage.getItem(lastLessonKey);
-    } catch (error) {
-      console.error("Failed to get last lesson", error);
-      return null;
-    }
-  }, [lastLessonKey]);
-
-  // Проверяем, является ли текущий урок последним просмотренным
-  const isLastViewedLesson = React.useMemo(() => {
-    if (typeof window === "undefined") return false;
-    
-    try {
-      const lastSlug = window.localStorage.getItem(lastLessonKey);
-      return lastSlug === currentLesson.slug;
-    } catch (error) {
-      return false;
-    }
-  }, [currentLesson.slug, lastLessonKey]);
+  }, [currentLesson.slug, lastLessonKey, subject, course, courseTitle, currentLesson.title, isClient]);
 
   React.useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (!isClient) return;
     try {
       const stored = window.localStorage.getItem(storageKey);
       if (!stored) {
@@ -144,13 +136,13 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
       console.error("Failed to load lesson completion state", error);
       setCompletedLessons(new Set());
     }
-  }, [storageKey]);
+  }, [storageKey, isClient]);
 
   const persistCompletion = React.useCallback(
     (updater: (prev: Set<string>) => Set<string>) => {
       setCompletedLessons((prev) => {
         const next = updater(prev);
-        if (typeof window !== "undefined") {
+        if (isClient) {
           try {
             window.localStorage.setItem(
               storageKey,
@@ -163,7 +155,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
         return next;
       });
     },
-    [storageKey]
+    [storageKey, isClient]
   );
 
   const handleToggleCompletion = React.useCallback(() => {
@@ -205,9 +197,6 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   const [openGroup, setOpenGroup] = React.useState<string | number | null>(null);
   const activeLessonRef = React.useRef<HTMLAnchorElement | null>(null);
   const sidebarScrollRef = React.useRef<HTMLDivElement | null>(null);
-
-  // Получаем последний просмотренный урок при загрузке
-  const lastViewedSlug = React.useMemo(() => getLastLessonSlug(), [getLastLessonSlug]);
 
   const filteredLessons = React.useMemo(() => {
     if (!normalizedQuery) return lessons;
@@ -417,69 +406,87 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
 
   // Реинициализация плагина Корана
   React.useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (!isClient) return;
     document.dispatchEvent(new CustomEvent("quran:reinit"));
-  }, [currentLesson.slug, currentLesson.html]);
+  }, [currentLesson.slug, currentLesson.html, isClient]);
 
-  // --- Инициализация открытой группы (с учетом последнего просмотренного) ---
+
+  // --- ИНИЦИАЛИЗАЦИЯ ОТКРЫТОЙ ГРУППЫ ПРИ ЗАГРУЗКЕ ---
   React.useEffect(() => {
-    if (displayGroups.length === 0) return;
+    if (!isClient || displayGroups.length === 0 || normalizedQuery || hasUserInteracted || !lastViewedSlug) return;
+
+    console.log("Initializing open group:", {
+      lastViewedSlug,
+      currentLessonSlug: currentLesson.slug,
+      shouldOpenLastViewed: lastViewedSlug !== currentLesson.slug
+    });
+
+    // Определяем, какую группу открыть:
+    // 1. Если есть последний просмотренный урок, и он отличается от текущего, открываем его группу
+    // 2. Иначе открываем группу текущего урока
+    const targetSlug = lastViewedSlug && lastViewedSlug !== currentLesson.slug ? lastViewedSlug : currentLesson.slug;
     
-    // Находим группу текущего урока
+    // Находим группу целевого урока
+    const targetGroup = displayGroups.find(group => 
+      group.items.some(item => item.slug === targetSlug)
+    );
+    
+    if (targetGroup) {
+      console.log("Opening group:", targetGroup.groupKey, "for slug:", targetSlug);
+      setOpenGroup(targetGroup.groupKey);
+    } else if (displayGroups.length > 0) {
+      // Если не нашли группу, открываем первую не-предисловие группу
+      const firstRealGroup = displayGroups.find(g => g.groupKey !== "_pred");
+      if (firstRealGroup) {
+        console.log("Opening first real group:", firstRealGroup.groupKey);
+        setOpenGroup(firstRealGroup.groupKey);
+      } else {
+        // Если только предисловие, открываем его
+        console.log("Opening preface group:", displayGroups[0].groupKey);
+        setOpenGroup(displayGroups[0].groupKey);
+      }
+    }
+  }, [displayGroups, lastViewedSlug, currentLesson.slug, normalizedQuery, isClient, hasUserInteracted]);
+
+  // --- ОБНОВЛЕНИЕ ОТКРЫТОЙ ГРУППЫ ПРИ ИЗМЕНЕНИИ ТЕКУЩЕГО УРОКА ---
+  React.useEffect(() => {
+    if (!isClient || displayGroups.length === 0 || normalizedQuery || hasUserInteracted) return;
+
+    // Всегда открываем группу текущего урока при его изменении
     const currentGroup = displayGroups.find(group => 
       group.items.some(item => item.slug === currentLesson.slug)
     );
     
-    if (currentGroup && currentGroup.groupKey !== "_pred") {
+    if (currentGroup) {
+      console.log("Updating open group to current lesson group:", currentGroup.groupKey);
       setOpenGroup(currentGroup.groupKey);
-      // После установки группы — скроллим и выходим
-      setTimeout(() => {
-        const target = activeLessonRef.current;
-        if (!target || !sidebarScrollRef.current) return;
-        target.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'center' 
-        });
-      }, 100);
-      return;
     }
+  }, [currentLesson.slug, displayGroups, normalizedQuery, isClient, hasUserInteracted]);
 
-    // Если нет открытой группы, пробуем открыть группу последнего просмотренного урока
-    if (lastViewedSlug && lastViewedSlug !== currentLesson.slug) {
-      const lastViewedGroup = displayGroups.find(group => 
-        group.items.some(item => item.slug === lastViewedSlug)
-      );
-      if (lastViewedGroup && lastViewedGroup.groupKey !== "_pred") {
-        setOpenGroup(lastViewedGroup.groupKey);
-        setTimeout(() => {
-          const target = activeLessonRef.current;
-          if (!target || !sidebarScrollRef.current) return;
-          target.scrollIntoView({ 
-            behavior: 'smooth', 
-            block: 'center' 
-          });
-        }, 100);
-        return;
+  // --- СКРОЛЛ К АКТИВНОМУ УРОКУ ПОСЛЕ ОТКРЫТИЯ ГРУППЫ ---
+  React.useEffect(() => {
+    if (!isClient || !openGroup || normalizedQuery || !sidebarScrollRef.current) return;
+    
+    const timer = setTimeout(() => {
+      if (activeLessonRef.current && sidebarScrollRef.current) {
+        console.log("Scrolling to active lesson:", currentLesson.slug);
+        // Прокручиваем sidebar к активному уроку (верхняя треть)
+        const sidebar = sidebarScrollRef.current;
+        const elementRect = activeLessonRef.current.getBoundingClientRect();
+        const sidebarRect = sidebar.getBoundingClientRect();
+        
+        // Вычисляем позицию для прокрутки (верхняя треть экрана)
+        const scrollPosition = activeLessonRef.current.offsetTop - (sidebarRect.height / 3);
+        
+        sidebar.scrollTo({
+          top: Math.max(0, scrollPosition),
+          behavior: 'smooth'
+        });
       }
-    }
-
-    // Иначе открываем первую реальную группу
-    const firstRealGroup = displayGroups.find(g => g.groupKey !== "_pred");
-    if (firstRealGroup) {
-      setOpenGroup(firstRealGroup.groupKey);
-      setTimeout(() => {
-        const target = activeLessonRef.current;
-        if (!target || !sidebarScrollRef.current) return;
-        target.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'center' 
-        });
-      }, 100);
-    }
-
-    // ВАЖНО: не включаем openGroup в массив зависимостей —
-    // иначе эффект будет запускаться при каждом клике и перезаписывать выбор пользователя.
-  }, [currentLesson.slug, displayGroups, lastViewedSlug]);
+    }, 300);
+    
+    return () => clearTimeout(timer);
+  }, [openGroup, normalizedQuery, isClient, currentLesson.slug]);
 
   // --- Предисловие ---
   const predGroup = displayGroups.find((g) => g.groupKey === "_pred");
@@ -496,53 +503,27 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     }
   };
 
-  // --- Кнопка "Вернуться к последнему уроку" ---
-  const LastViewedButton = React.useMemo(() => {
-    if (!lastViewedSlug || lastViewedSlug === currentLesson.slug) return null;
-    
-    const lastLesson = lessons.find(l => l.slug === lastViewedSlug);
-    if (!lastLesson) return null;
-    
-    return (
-      <div className="mb-4 p-3 bg-primary/5 border border-primary/20 rounded-lg">
-        <div className="flex items-center justify-between">
-          <div className="text-xs text-muted-foreground">Продолжить с</div>
-          <Button
-            size="sm"
-            variant="outline"
-            className="h-7 text-xs"
-            asChild
-          >
-            <a href={buildLessonUrl(lastViewedSlug)}>
-              <Play className="h-3 w-3 mr-1" />
-              {lastLesson.title.substring(0, 40)}
-              {lastLesson.title.length > 40 ? '...' : ''}
-            </a>
-          </Button>
-        </div>
-      </div>
-    );
-  }, [lastViewedSlug, currentLesson.slug, lessons, buildLessonUrl]);
+  // Обработчик клика по заголовку группы
+  const handleGroupClick = (key: string | number) => {
+    console.log("User clicked group:", key);
+    setOpenGroup((prev) => (prev === key ? null : key));
+    setHasUserInteracted(true);
+  };
+
+  // Добавим console.log для отладки
+  React.useEffect(() => {
+    if (isClient && lastViewedSlug) {
+      console.log("Last viewed slug on client:", lastViewedSlug);
+      console.log("Current lesson slug:", currentLesson.slug);
+      console.log("Are they different?", lastViewedSlug !== currentLesson.slug);
+    }
+  }, [isClient, lastViewedSlug, currentLesson.slug]);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
       <main className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-12">
         {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8">
-          {/* Баннер последнего просмотренного урока */}
-          {/* {isLastViewedLesson && (
-            <motion.div 
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="p-3 bg-primary/10 border border-primary/30 rounded-lg"
-            >
-              <div className="flex items-center text-sm">
-                <CheckCircle2 className="h-4 w-4 text-primary mr-2" />
-                <span>Вы продолжаете с того места, где остановились в прошлый раз</span>
-              </div>
-            </motion.div>
-          )} */}
-
           {currentLesson.video && (
             <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
               <Card className="overflow-hidden">
@@ -615,7 +596,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                 onClick={handleToggleCompletion}
                 aria-pressed={isCurrentLessonCompleted}
               >
-                <CheckCircle2 className="h-4 w-4" aria-hidden="true" />
+                <CheckCircle2 className={`h-4 w-4 ${isCurrentLessonCompleted ? "text-emerald-600" : ""}`} aria-hidden="true" />
                 {isCurrentLessonCompleted ? "Снять отметку" : "Отметить как завершённый"}
               </button>
             </div>
@@ -646,9 +627,6 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                     <span className="block text-[10px] text-muted-foreground">{progress}% просмотрено</span>
                   </div>
                 </div>
-
-                {/* Кнопка возврата к последнему уроку */}
-                {LastViewedButton}
 
                 <div className="mt-4">
                   <div className="relative w-full">
@@ -710,7 +688,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                           <div key={String(key)} className="rounded-lg">
                             <button
                               type="button"
-                              onClick={() => setOpenGroup((prev) => (prev === key ? null : key))}
+                              onClick={() => handleGroupClick(key)}
                               className={[
                                 "flex w-full items-center justify-between gap-3 rounded-xl border border-border/70 px-3 py-2 text-left text-sm transition",
                                 isOpen ? "bg-primary/5 border-primary/60" : "hover:bg-muted/50",
@@ -740,7 +718,6 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                                   {g.items.map((l) => {
                                     const isCurrent = l.slug === currentLesson.slug;
                                     const isCompleted = completedLessons.has(l.slug);
-                                    const isLastViewed = l.slug === lastViewedSlug;
                                     const depthStyle = getDepthStyle(l.depth || 0);
 
                                     return (
@@ -751,26 +728,38 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                                             ref={isCurrent ? activeLessonRef as any : undefined}
                                             className={[
                                               "group flex w-full max-w-full items-center gap-2 rounded-md px-2 py-2 text-sm transition hover:bg-muted/60",
-                                              isCurrent ? "bg-primary/5 border border-primary/40" : "",
-                                              isLastViewed && !isCurrent && "bg-amber-50 dark:bg-amber-950/30 border-amber-200 dark:border-amber-800"
+                                              isCurrent ? "bg-primary/5 border border-primary/40" : ""
                                             ]
                                               .filter(Boolean)
                                               .join(" ")}
+                                            onClick={() => {
+                                              console.log("User clicked lesson:", l.slug);
+                                              // При клике на урок сбрасываем флаг взаимодействия пользователя
+                                              // чтобы при загрузке новой страницы группа открылась правильно
+                                              setHasUserInteracted(false);
+                                            }}
                                           >
                                             <div className="flex items-center gap-2 min-w-0 flex-1">
-                                              {isLastViewed && !isCurrent && (
-                                                <div className="h-2 w-2 rounded-full bg-amber-500 animate-pulse" />
-                                              )}
-                                              <span className={[
-                                                "text-xs font-mono shrink-0 transition-colors",
-                                                isCurrent ? "text-primary font-semibold" : 
-                                                isLastViewed ? "text-amber-600 dark:text-amber-400 font-medium" : 
-                                                "text-muted-foreground",
-                                                isCompleted && "text-lime-600 dark:text-lime-400"
-                                              ].filter(Boolean).join(" ")}>
-                                                {l.displayNumber}
-                                              </span>
-                                              
+                                                  {isCompleted ? (
+                                                      <div className="flex items-center gap-1.5 shrink-0">
+                                                        <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+                                                        <span className={[
+                                                          "text-xs font-mono transition-colors",
+                                                          isCurrent ? "text-primary font-semibold" : "text-muted-foreground",
+                                                          isCompleted && "text-emerald-600 dark:text-emerald-400"
+                                                        ].filter(Boolean).join(" ")}>
+                                                          {l.displayNumber}
+                                                        </span>
+                                                      </div>
+                                                    ) : (
+                                                      <span className={[
+                                                        "text-xs font-mono shrink-0 transition-colors",
+                                                        isCurrent ? "text-primary font-semibold" : "text-muted-foreground"
+                                                      ].filter(Boolean).join(" ")}>
+                                                        {l.displayNumber}
+                                                      </span>
+                                                    )}
+                                                                                              
                                               <div className="min-w-0 flex-1">
                                                 <div className="truncate font-medium">
                                                   {renderHighlightedTitle(l.title)}

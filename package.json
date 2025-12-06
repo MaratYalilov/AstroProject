@@ -25,6 +25,7 @@
   "devDependencies": {
     "@astrojs/react": "^4.4.1",
     "@astrojs/tailwind": "^6.0.2",
+    "@astrojs/vercel": "^8.0.4",
     "autoprefixer": "^10.4.21",
     "fast-glob": "^3.3.3",
     "gray-matter": "^4.0.3",
