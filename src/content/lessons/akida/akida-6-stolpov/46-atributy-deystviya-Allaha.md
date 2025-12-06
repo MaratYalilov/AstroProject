@@ -1,3 +1,13 @@
+---
+title: 46 Атрибуты действия Аллаха
+order: 46
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/46-atributy-deystviya-allaha.mp3
+audioRel: audio/46-atributy-deystviya-allaha.mp3
+video: /media/akida/akida-6-stolpov/video/46-atributy-deystviya-allaha.mp4
+videoRel: video/46-atributy-deystviya-allaha.mp4
+---
 <h2>Качества, относящиеся к действиям Аллаха</h2>
 <p class="arab" dir="rtl">(صفات فعلية).</p>
 <p>&nbsp;<strong> Вознесение над Троном</strong></p>

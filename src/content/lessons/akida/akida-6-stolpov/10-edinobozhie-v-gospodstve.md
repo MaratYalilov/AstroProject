@@ -1,3 +1,13 @@
+---
+title: 10 Единобожие в господстве
+order: 10
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/10-edinobozhie-v-gospodstve.mp3
+audioRel: audio/10-edinobozhie-v-gospodstve.mp3
+video: /media/akida/akida-6-stolpov/video/10-edinobozhie-v-gospodstve.mp4
+videoRel: video/10-edinobozhie-v-gospodstve.mp4
+---
 <h1>Единобожие в господстве.</h1>
 <p class="arab" dir="rtl">تَوْحِيدُ الرُّبُوبِيَّةِ</p>
 <p>Единобожие в господстве Аллаха познаётся по Его делам, таким как, творение, власть, управление, оживление, умерщвление и др.</p>

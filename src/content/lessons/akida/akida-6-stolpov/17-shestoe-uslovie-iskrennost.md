@@ -1,3 +1,13 @@
+---
+title: 17 Шестое условие — искренность
+order: 17
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/17-shestoe-uslovie-iskrennost.mp3
+audioRel: audio/17-shestoe-uslovie-iskrennost.mp3
+video: /media/akida/akida-6-stolpov/video/17-shestoe-uslovie-iskrennost.mp4
+videoRel: video/17-shestoe-uslovie-iskrennost.mp4
+---
 <li><strong>Искренность, противоречащая многобожию.</strong></li>
 </ul>
 <p class="arab" dir="rtl">اَلْإِخْلَاصُ الْمُنَافِي لِلشِّرْكِ</p>

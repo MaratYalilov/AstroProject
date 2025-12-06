@@ -1,3 +1,13 @@
+---
+title: 22 Некоторые виды поклонения мольба
+order: 22
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/22-nekotorye-vidy-pokloneniya-molba.mp3
+audioRel: audio/22-nekotorye-vidy-pokloneniya-molba.mp3
+video: /media/akida/akida-6-stolpov/video/22-nekotorye-vidy-pokloneniya-molba.mp4
+videoRel: video/22-nekotorye-vidy-pokloneniya-molba.mp4
+---
 <h1>Некоторые виды поклонения.</h1>
 <p class="arab" dir="rtl">بعض أنواع العبادة</p>
 <p><strong>Мольба.</strong></p>

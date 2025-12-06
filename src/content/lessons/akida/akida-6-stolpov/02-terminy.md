@@ -1,3 +1,13 @@
+---
+title: 02 Термины
+order: 2
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/02-terminy.mp3
+audioRel: audio/02-terminy.mp3
+video: /media/akida/akida-6-stolpov/video/02-terminy.mp4
+videoRel: video/02-terminy.mp4
+---
 <strong>Определение слов акыда и таухид</strong></p>
 <p class="arab" dir="rtl">تعريف العقيدة و التوحيد</p>
 <p>Слово акыда в арабском языке происходит от глагола<span class="arab"> عَقَدَ </span>(связывать) и означает вероубеждение, вероучение, мировоззрение, доктрина, идеология.<br />В терминологии шариата исламская акыда – это то, во что верит мусульманин всем своим сердцем, опираясь на достоверные сообщения Аллаха и Его посланника, да благословит его Аллах и приветствует.<span style="color: black; font-family: times new roman,times; font-size: 18pt;"><span dir="RTL"><span dir="RTL"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"> <br /></span></span></span></span></span></span></span></span></p>

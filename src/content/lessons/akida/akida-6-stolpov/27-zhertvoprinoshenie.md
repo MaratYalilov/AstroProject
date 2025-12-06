@@ -1,3 +1,13 @@
+---
+title: 27 Жертвоприношение
+order: 27
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/27-zhertvoprinoshenie.mp3
+audioRel: audio/27-zhertvoprinoshenie.mp3
+video: /media/akida/akida-6-stolpov/video/27-zhertvoprinoshenie.mp4
+videoRel: video/27-zhertvoprinoshenie.mp4
+---
 
 <p><strong>Жертвоприношение.</strong></p>
 <p></p>

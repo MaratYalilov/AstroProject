@@ -1,3 +1,13 @@
+---
+title: 37 Малое неверие
+order: 37
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/37-maloe-neverie.mp3
+audioRel: audio/37-maloe-neverie.mp3
+video: /media/akida/akida-6-stolpov/video/37-maloe-neverie.mp4
+videoRel: video/37-maloe-neverie.mp4
+---
 <h1>Малое неверие</h1>
 <p class="arab" dir="rtl">الكفر الأصغر</p>
 <p>К этому виду неверия относятся те деяния, которые Аллах и Его Посланник, да благословит его Аллах и приветствует, назвали неверием, но есть указания то, что эти грехи не выводят совершающего их из Ислама.<br />Пример таких деяний:<br />Пророк, да благословит его Аллах и приветствует, сказал: «<em>Бранить мусульманина - нечестие, а убийство его - неверие</em>» <span class="hadis">[ Приводят Аль-Бухари и Муслим].</span><span class="arab"> <br /></span></p>

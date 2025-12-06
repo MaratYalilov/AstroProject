@@ -1,3 +1,15 @@
+---
+title: 29 Три основы поклонения — надежда и страх
+order: 29
+hasAudio: true
+hasVideo: true
+audio: >-
+  /media/akida/akida-6-stolpov/audio/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp3
+audioRel: audio/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp3
+video: >-
+  /media/akida/akida-6-stolpov/video/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp4
+videoRel: video/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp4
+---
 <p><strong>Надежда.</strong></p>
 <p>&nbsp;</p>
 <p dir="rtl"><span class="arab">الرجاء</span></p>

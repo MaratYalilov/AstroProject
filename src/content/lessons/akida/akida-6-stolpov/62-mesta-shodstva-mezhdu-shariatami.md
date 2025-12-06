@@ -1,3 +1,13 @@
+---
+title: 62 Места сходства между шариатами
+order: 62
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/62-mesta-shodstva-mezhdu-shariatami.mp3
+audioRel: audio/62-mesta-shodstva-mezhdu-shariatami.mp3
+video: /media/akida/akida-6-stolpov/video/62-mesta-shodstva-mezhdu-shariatami.mp4
+videoRel: video/62-mesta-shodstva-mezhdu-shariatami.mp4
+---
 <h1>Места сходства между шариатами</h1>
 <ul>
 <li>Религия, с которой приходили все посланники от Аллаха, - это Ислам, то есть подчинение Аллаху.</li>

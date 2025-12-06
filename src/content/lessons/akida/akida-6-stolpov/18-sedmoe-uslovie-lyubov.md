@@ -1,3 +1,13 @@
+---
+title: 18 Седьмое условие - любовь
+order: 18
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/18-sedmoe-uslovie-lyubov.mp3
+audioRel: audio/18-sedmoe-uslovie-lyubov.mp3
+video: /media/akida/akida-6-stolpov/video/18-sedmoe-uslovie-lyubov.mp4
+videoRel: video/18-sedmoe-uslovie-lyubov.mp4
+---
 <li><strong>Любовь, противоречащая ненависти.</strong></li>
 </ul>
 <p class="arab" dir="rtl">اَلْمَحَبَّةُ الْمُنَافِيَةُ لِلْبُغْضِ</p>

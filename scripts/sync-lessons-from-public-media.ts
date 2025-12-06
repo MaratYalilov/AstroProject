@@ -132,21 +132,19 @@ async function safeStat(dir: string) {
 type MediaIdxEntry = { url: string; rel: string; ext: string };
 
 async function indexMedia(dirFs: string, exts: string[], verbose = false) {
-  const dir = toPosix(dirFs); // важно для Windows
+  const dir = toPosix(dirFs);
   const patterns = exts.map((e) => `${dir}/**/*${e}`);
   const files = await fg(patterns, { dot: false, caseSensitiveMatch: false });
-  const map = new Map<string, MediaIdxEntry>(); // base -> {url, rel, ext}
+  const map = new Map<string, MediaIdxEntry>();
   for (const f of files) {
     const base = normalizeBase(path.basename(f));
-    const url = stripPublic(f); // "/media/…"
-    // rel от папки курса: audio/filename.ext или video/filename.ext
-    const rel = toPosix(path.relative(dir, f)); // e.g. "01-xxx.mp3"
+    const url = stripPublic(f);
+    const rel = toPosix(path.relative(dir, f));
     const sub = dir.endsWith("/audio") ? "audio" : "video";
     map.set(base, { url, rel: `${sub}/${rel}`, ext: path.extname(f).toLowerCase() });
   }
   if (verbose) {
     console.log(`  · indexMedia(${nameOf(dir)}): ${files.length} files`);
-    if (files.length === 0) console.log(`    pattern sample: ${patterns[0]}`);
   }
   return map;
 }
@@ -164,11 +162,10 @@ async function syncCourse(subject: string, course: string, dry = false, verbose 
   if (verbose) {
     console.log(`\n[scan] ${subject}/${course}`);
     console.log(`  paths: ${toPosix(audioDir)} | ${toPosix(videoDir)}`);
-    console.log(`  exists: audio=${audioExists} video=${videoExists}`);
+    console.log(`  exists: audio=${audioExists} video=${audioExists}`);
   }
 
   if (!audioExists && !videoExists) {
-    if (verbose) console.log("  skip: no audio/ no video");
     return { created: 0, updated: 0, skipped: 0, audioCount: 0, videoCount: 0 };
   }
 
@@ -179,7 +176,7 @@ async function syncCourse(subject: string, course: string, dry = false, verbose 
   const resolveLessonTitle = await createLessonTitleResolver(lessonsRoot, verbose);
 
   const mdFiles = await fg(toPosix(`${lessonsRoot}/*.md`), { caseSensitiveMatch: false });
-  const mdByBase = new Map<string, string>(); // base -> md path
+  const mdByBase = new Map<string, string>();
   for (const f of mdFiles) {
     mdByBase.set(normalizeBase(path.basename(f)), f);
   }
@@ -210,7 +207,6 @@ async function syncCourse(subject: string, course: string, dry = false, verbose 
       const content = `# ${title}\n\nКонспекта урока не существует.`;
       const out = matter.stringify(content, data);
       const outPath = path.join(lessonsRoot, `${key}.md`);
-      if (verbose) console.log(`  + create ${toPosix(path.relative(process.cwd(), outPath))}`);
       if (!dry) await fs.writeFile(outPath, out, "utf8");
       created++;
       continue;
@@ -220,36 +216,47 @@ async function syncCourse(subject: string, course: string, dry = false, verbose 
     const parsed = matter(raw);
     let changed = false;
 
-    // title/order
-    if (parsed.data.order == null) { const o = parseOrder(key); if (o != null) { parsed.data.order = o; changed = true; } }
-    if (!parsed.data.title) { parsed.data.title = humanizeTitle(key); changed = true; }
+    //
+    // === FIXED BLOCK: title/order logic ===
+    //
+    const mappedTitle = resolveLessonTitle(key);
+    if (mappedTitle) {
+      if (parsed.data.title !== mappedTitle) {
+        parsed.data.title = mappedTitle;
+        changed = true;
+      }
+      if (parsed.data.order == null) {
+        const o = parseOrder(key);
+        if (o != null) { parsed.data.order = o; changed = true; }
+      }
+    } else {
+      if (!parsed.data.title) {
+        parsed.data.title = humanizeTitle(key);
+        changed = true;
+      }
+      if (parsed.data.order == null) {
+        const o = parseOrder(key);
+        if (o != null) { parsed.data.order = o; changed = true; }
+      }
+    }
+    //
+    // =======================================
+    //
 
-    // hasAudio / hasVideo (всегда приводим к актуальному состоянию)
     if (parsed.data.hasAudio !== hasAudio) { parsed.data.hasAudio = hasAudio; changed = true; }
     if (parsed.data.hasVideo !== hasVideo) { parsed.data.hasVideo = hasVideo; changed = true; }
 
-    // абсолютные URL и относительные пути (если есть файлы)
     if (a) {
-      if (parsed.data.audio !== a.url)     { parsed.data.audio = a.url; changed = true; }
-      if (parsed.data.audioRel !== a.rel)  { parsed.data.audioRel = a.rel; changed = true; }
-    } else {
-      // при отсутствии файла оставляем старые audio/audioRel как есть или чистим? обычно лучше **не трогать**,
-      // но если хочешь чистить — раскомментируй:
-      // if (parsed.data.audio)    { delete parsed.data.audio; changed = true; }
-      // if (parsed.data.audioRel) { delete parsed.data.audioRel; changed = true; }
+      if (parsed.data.audio !== a.url)    { parsed.data.audio = a.url; changed = true; }
+      if (parsed.data.audioRel !== a.rel) { parsed.data.audioRel = a.rel; changed = true; }
     }
     if (v) {
       if (parsed.data.video !== v.url)     { parsed.data.video = v.url; changed = true; }
       if (parsed.data.videoRel !== v.rel)  { parsed.data.videoRel = v.rel; changed = true; }
-    } else {
-      // см. комментарий выше
-      // if (parsed.data.video)    { delete parsed.data.video; changed = true; }
-      // if (parsed.data.videoRel) { delete parsed.data.videoRel; changed = true; }
     }
 
     if (changed) {
       const out = matter.stringify(parsed.content, parsed.data);
-      if (verbose) console.log(`  ~ update ${toPosix(path.relative(process.cwd(), mdPath))}`);
       if (!dry) await fs.writeFile(mdPath, out, "utf8");
       updated++;
     } else {
@@ -266,12 +273,13 @@ async function main() {
   const pairDirs = await fg(toPosix(`${PUBLIC_MEDIA_ROOT}/*/*`), {
     onlyDirectories: true, deep: 2, caseSensitiveMatch: false
   });
+
   const pairs = pairDirs
-    .map((p) => toPosix(p).split("/").slice(-2)) // [subject, course]
+    .map((p) => toPosix(p).split("/").slice(-2))
     .filter(([s, c]) => (!onlySubject || s === onlySubject) && (!onlyCourse || c === onlyCourse));
 
   if (!pairs.length) {
-    console.log("Не найдены public/media/<subject>/<course>. Запусти из корня проекта и проверь пути.");
+    console.log("Не найдены public/media/<subject>/<course>.");
     return;
   }
 

@@ -1,3 +1,13 @@
+---
+title: 52 Вера в писания
+order: 52
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/52-vera-v-pisaniya.mp3
+audioRel: audio/52-vera-v-pisaniya.mp3
+video: /media/akida/akida-6-stolpov/video/52-vera-v-pisaniya.mp4
+videoRel: video/52-vera-v-pisaniya.mp4
+---
 <h1>ТРЕТИЙ СТОЛП ВЕРЫ: ВЕРА В КНИГИ</h1>
 <p>&nbsp;</p>
 <p>Аллах Всевышний сказал:</p>

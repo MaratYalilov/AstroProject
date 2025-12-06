@@ -1,3 +1,13 @@
+---
+title: 47 Атрибуты действия Аллаха — 2 часть
+order: 47
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/47-atributy-deystviya-allaha-2-chast.mp3
+audioRel: audio/47-atributy-deystviya-allaha-2-chast.mp3
+video: /media/akida/akida-6-stolpov/video/47-atributy-deystviya-allaha-2-chast.mp4
+videoRel: video/47-atributy-deystviya-allaha-2-chast.mp4
+---
 <h2>Качества, относящиеся к действиям Аллаха</h2>
 <p class="arab" dir="rtl">(صفات فعلية).</p>
 <p><strong> Вознесение над Троном</strong></p>

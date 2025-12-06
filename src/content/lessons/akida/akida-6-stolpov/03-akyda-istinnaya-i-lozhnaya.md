@@ -1,3 +1,13 @@
+---
+title: 03 Акыда истинная и ложная
+order: 3
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/03-akyda-istinnaya-i-lozhnaya.mp3
+audioRel: audio/03-akyda-istinnaya-i-lozhnaya.mp3
+video: /media/akida/akida-6-stolpov/video/03-akyda-istinnaya-i-lozhnaya.mp4
+videoRel: video/03-akyda-istinnaya-i-lozhnaya.mp4
+---
 <p><strong>Акыда истинная и ложная</strong>
 <span class="arab"> <br /></span></p>
 <p dir="rtl"><span class="arab">العقيدة الصحيحة و العقيدة الفاسدة</span></p>

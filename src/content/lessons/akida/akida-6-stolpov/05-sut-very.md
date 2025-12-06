@@ -1,3 +1,13 @@
+---
+title: 05 Суть веры.
+order: 5
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/05-sut-very.mp3
+audioRel: audio/05-sut-very.mp3
+video: /media/akida/akida-6-stolpov/video/05-sut-very.mp4
+videoRel: video/05-sut-very.mp4
+---
 
 <strong>Где находится истинное вероубеждение сегодня и почему оно является таковым?</strong><br />Истинное вероубеждение находится в Коране, и доказательством этому служат слова Аллаха Всевышнего:</p>
 <p>{Quran}15:9{/Quran}<span style="color: black; font-family: times new roman,times; font-size: 18pt;"><span dir="RTL"><span dir="RTL"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"> <br /></span></span></span></span></span></span></span></span></p>

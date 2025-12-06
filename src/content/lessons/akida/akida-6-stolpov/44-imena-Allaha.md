@@ -1,3 +1,13 @@
+---
+title: 44 Имена Аллаха
+order: 44
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/44-imena-allaha.mp3
+audioRel: audio/44-imena-allaha.mp3
+video: /media/akida/akida-6-stolpov/video/44-imena-allaha.mp4
+videoRel: video/44-imena-allaha.mp4
+---
 <h1>Имена и атрибуты Аллаха</h1>
 <p>&nbsp;</p>
 <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>Поистине у Аллаха 99 имен, сто без одного, и кто перечислит их, тот войдет в рай</em>» <span class="hadis">[ Приводят Аль-Бухари и Муслим].</span><br /><span class="arab"></span></p>

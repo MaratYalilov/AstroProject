@@ -1,3 +1,15 @@
+---
+title: 09 Чувство указывает на существование Аллаха
+order: 9
+hasAudio: true
+hasVideo: true
+audio: >-
+  /media/akida/akida-6-stolpov/audio/09-chuvstvo-ukazyvaet-na-suschestvovanie-allaha.mp3
+audioRel: audio/09-chuvstvo-ukazyvaet-na-suschestvovanie-allaha.mp3
+video: >-
+  /media/akida/akida-6-stolpov/video/09-chuvstvo-ukazyvaet-na-suschestvovanie-allaha.mp4
+videoRel: video/09-chuvstvo-ukazyvaet-na-suschestvovanie-allaha.mp4
+---
 <h1>Чувство.</h1> <span class="arab">اَلْحِسُّ</span>
 <p>Все, что человек может ощущать своими пятью чувствами из окружающей среды, указывает на существование Аллаха.<br />Аллах сказал:</p>
 <p>{Quran}51:20{/Quran}</p>

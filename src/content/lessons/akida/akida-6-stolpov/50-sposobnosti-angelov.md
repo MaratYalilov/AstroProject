@@ -1,3 +1,13 @@
+---
+title: 50 Способности ангелов
+order: 50
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/50-sposobnosti-angelov.mp3
+audioRel: audio/50-sposobnosti-angelov.mp3
+video: /media/akida/akida-6-stolpov/video/50-sposobnosti-angelov.mp4
+videoRel: video/50-sposobnosti-angelov.mp4
+---
 <h1>Способности</h1>
 <p>Ангелы служат Аллаху на земле и на небесах. Таким образом, каждый момент, который имеет место в мире - результат деятельности ангелов.<br />Аллах сказал:</p>
 <p>{Quran}79:5{/Quran}</p>

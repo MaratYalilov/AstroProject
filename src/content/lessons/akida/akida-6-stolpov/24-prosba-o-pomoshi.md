@@ -1,3 +1,13 @@
+---
+title: 24 Просьба о помощи
+order: 24
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/24-prosba-o-pomoshi.mp3
+audioRel: audio/24-prosba-o-pomoshi.mp3
+video: /media/akida/akida-6-stolpov/video/24-prosba-o-pomoshi.mp4
+videoRel: video/24-prosba-o-pomoshi.mp4
+---
 <p><strong>Просьба о помощи.</strong></p>
 <p dir="rtl"><span class="arab">الاستعانة</span></p>
 <p>Аллах сказал:</p>

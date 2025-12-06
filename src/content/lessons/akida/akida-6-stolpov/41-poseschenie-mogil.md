@@ -1,3 +1,13 @@
+---
+title: 41 Посещение могил
+order: 41
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/41-poseschenie-mogil.mp3
+audioRel: audio/41-poseschenie-mogil.mp3
+video: /media/akida/akida-6-stolpov/video/41-poseschenie-mogil.mp4
+videoRel: video/41-poseschenie-mogil.mp4
+---
 <h1>Посещение могил</h1>
 <p dir="rtl"><span class="arab">زيارة القبور</span></p>
 <p>Посещение могил узаконено в шариате. Об этом пророк, да благословит его Аллах и приветствует, сказал: « <em>Раньше я запрещал вам посещение могил, но теперь посещайте их, ибо, поистине, это напомнит о будущей жизни</em>» <span class="hadis">[ Муслим, Ахмад].</span><span class="arab"> <br /></span></p>

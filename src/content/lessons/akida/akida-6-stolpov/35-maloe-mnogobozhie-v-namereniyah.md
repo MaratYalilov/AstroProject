@@ -1,3 +1,13 @@
+---
+title: 35 Малое многобожие в намерениях
+order: 35
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/35-maloe-mnogobozhie-v-namereniyah.mp3
+audioRel: audio/35-maloe-mnogobozhie-v-namereniyah.mp3
+video: /media/akida/akida-6-stolpov/video/35-maloe-mnogobozhie-v-namereniyah.mp4
+videoRel: video/35-maloe-mnogobozhie-v-namereniyah.mp4
+---
 <strong>Вторая форма малого многобожия является скрытой, так как проявляется в желаниях и намерениях.</strong></p>
 <p class="arab" dir="rtl">الشرك الخفي</p>
 <p>К этой форме малого многобожия относится показуха и стремление к славе.&nbsp; <span class="arab"><br /></span></p>

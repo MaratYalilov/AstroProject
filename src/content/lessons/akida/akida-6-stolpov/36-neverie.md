@@ -1,3 +1,13 @@
+---
+title: 36 Неверие
+order: 36
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/36-neverie.mp3
+audioRel: audio/36-neverie.mp3
+video: /media/akida/akida-6-stolpov/video/36-neverie.mp4
+videoRel: video/36-neverie.mp4
+---
 <h1>Виды неверия</h1>
 <p dir="rtl"><span class="arab">أنواع الكفر</span></p>
 <h2>Большое неверие</h2>

@@ -1,3 +1,13 @@
+---
+title: 38 Лицемерие
+order: 38
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/38-licemerie.mp3
+audioRel: audio/38-licemerie.mp3
+video: /media/akida/akida-6-stolpov/video/38-licemerie.mp4
+videoRel: video/38-licemerie.mp4
+---
 <h1>Виды лицемерия</h1>
 <p dir="rtl"><span class="arab">أنواع النفاق</span></p>
 <h2>Большое лицемерие</h2>

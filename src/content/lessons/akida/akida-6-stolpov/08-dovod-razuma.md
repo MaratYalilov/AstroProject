@@ -1,3 +1,13 @@
+---
+title: 08 Довод разума.
+order: 8
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/08-dovod-razuma.mp3
+audioRel: audio/08-dovod-razuma.mp3
+video: /media/akida/akida-6-stolpov/video/08-dovod-razuma.mp4
+videoRel: video/08-dovod-razuma.mp4
+---
 Разум.<span class="arab"> اَلْعَقْلُ</span>
 
 <p>Всеобщее правило гласит: «<em>Каждому созданию необходим создатель и не может быть случайности</em>».</p>

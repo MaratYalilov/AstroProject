@@ -1,3 +1,13 @@
+---
+title: 13 Условия слов единобожия
+order: 13
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/13-usloviya-slov-edinobozhiya.mp3
+audioRel: audio/13-usloviya-slov-edinobozhiya.mp3
+video: /media/akida/akida-6-stolpov/video/13-usloviya-slov-edinobozhiya.mp4
+videoRel: video/13-usloviya-slov-edinobozhiya.mp4
+---
 <h1>Условия слов: «Нет истинного божества, кроме Аллаха»</h1>
 <p class="arab" dir="rtl">شروط كلمة التوحيد "لا إله إلا الله"</p>
 <p>Эти условия вывели мусульманские ученые из Корана и Сунны пророка, да благословит его Аллах и приветствует. Важно понимание и выполнение этих условий, а не их механическое заучивание. Правильное понимание таухида может быть достаточным для претворения в жизнь слов единобожия даже без знания условий наизусть. Неосмысленное же заучивание их будет недостаточным.</p>

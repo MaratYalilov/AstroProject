@@ -1,3 +1,13 @@
+---
+title: 45 Атрибуты сущности Аллаха
+order: 45
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/45-atributy-suschnosti-allaha.mp3
+audioRel: audio/45-atributy-suschnosti-allaha.mp3
+video: /media/akida/akida-6-stolpov/video/45-atributy-suschnosti-allaha.mp4
+videoRel: video/45-atributy-suschnosti-allaha.mp4
+---
 <h1>Некоторые атрибуты Аллаха</h1>
 <p>&nbsp;</p>
 <p><strong>Качества, относящиеся к сущности Аллаха</strong></p>

@@ -1,3 +1,13 @@
+---
+title: 07 Фитра указывает на Творца
+order: 7
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/07-fitra-ukazyvaet-na-tvorca.mp3
+audioRel: audio/07-fitra-ukazyvaet-na-tvorca.mp3
+video: /media/akida/akida-6-stolpov/video/07-fitra-ukazyvaet-na-tvorca.mp4
+videoRel: video/07-fitra-ukazyvaet-na-tvorca.mp4
+---
 Фитра ( врожденное чувство веры). <span class="arab">اَلْفِطْرَةُ</span>
 </ul>
 <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>Каждый новорожденный рождается с врожденным чувством веры, но его родители делают его иудеем, христианином или огнепоклонником</em>» <span class="hadis">[ Этот хадис приводит Аль-Бухари].</span></p>

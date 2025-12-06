@@ -1,3 +1,13 @@
+---
+title: 49 Имена ангелов
+order: 49
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/49-imena-angelov.mp3
+audioRel: audio/49-imena-angelov.mp3
+video: /media/akida/akida-6-stolpov/video/49-imena-angelov.mp4
+videoRel: video/49-imena-angelov.mp4
+---
 <h1>Имена</h1>
 <p>&nbsp;</p>
 <p>Хотя ангелам приписывается много имен, только несколько из этих имен подтверждаются достоверными текстами.</p>

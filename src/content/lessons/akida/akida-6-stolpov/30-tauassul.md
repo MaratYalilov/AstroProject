@@ -1,3 +1,13 @@
+---
+title: 30 Тауассуль
+order: 30
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/30-tauassul.mp3
+audioRel: audio/30-tauassul.mp3
+video: /media/akida/akida-6-stolpov/video/30-tauassul.mp4
+videoRel: video/30-tauassul.mp4
+---
 <h1 style="text-align: left;">&nbsp;Средства приближения</h1>
 <p dir="rtl"><span class="arab" style="font-size: 18pt;">التوسل</span></p>
 <p style="text-align: left;"><strong>Тауассуль</strong> - это стремление приблизиться к Аллаху через кого-либо или что-либо.</p>

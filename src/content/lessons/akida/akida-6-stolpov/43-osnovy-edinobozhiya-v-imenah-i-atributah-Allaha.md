@@ -1,3 +1,15 @@
+---
+title: 43 Основы единобожия в именах и атрибутах Аллаха
+order: 43
+hasAudio: true
+hasVideo: true
+audio: >-
+  /media/akida/akida-6-stolpov/audio/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp3
+audioRel: audio/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp3
+video: >-
+  /media/akida/akida-6-stolpov/video/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp4
+videoRel: video/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp4
+---
 <h2>Основы единобожия в именах Аллаха и Его атрибутах</h2>
 <ul>
 <li><strong>Все имена Аллаха имеют наивысшую степень красоты.</strong></li>

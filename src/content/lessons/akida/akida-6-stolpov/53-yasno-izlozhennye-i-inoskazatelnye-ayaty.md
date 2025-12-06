@@ -1,3 +1,15 @@
+---
+title: 53 Ясно изложенные и иносказательные аяты
+order: 53
+hasAudio: true
+hasVideo: true
+audio: >-
+  /media/akida/akida-6-stolpov/audio/53-yasno-izlozhennye-i-inoskazatelnye-ayaty.mp3
+audioRel: audio/53-yasno-izlozhennye-i-inoskazatelnye-ayaty.mp3
+video: >-
+  /media/akida/akida-6-stolpov/video/53-yasno-izlozhennye-i-inoskazatelnye-ayaty.mp4
+videoRel: video/53-yasno-izlozhennye-i-inoskazatelnye-ayaty.mp4
+---
 <h1>Ясно изложенные и иносказательные аяты</h1>
 <p>&nbsp;</p>
 <p>Всевышний Аллах характеризует Свою Книгу в некоторых аятах тем, что она ясно изложена, как в словах Аллаха:</p>

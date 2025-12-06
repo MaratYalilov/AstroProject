@@ -1,3 +1,13 @@
+---
+title: 25 Упование
+order: 25
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/25-upovanie.mp3
+audioRel: audio/25-upovanie.mp3
+video: /media/akida/akida-6-stolpov/video/25-upovanie.mp4
+videoRel: video/25-upovanie.mp4
+---
 <p><strong>Упование.</strong></p>
 <p></p>
 <p dir="rtl"><span class="arab">التوكل</span></p>

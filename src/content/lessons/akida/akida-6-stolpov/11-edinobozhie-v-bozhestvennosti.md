@@ -1,3 +1,13 @@
+---
+title: 11 Единобожие в божественности
+order: 11
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/11-edinobozhie-v-bozhestvennosti.mp3
+audioRel: audio/11-edinobozhie-v-bozhestvennosti.mp3
+video: /media/akida/akida-6-stolpov/video/11-edinobozhie-v-bozhestvennosti.mp4
+videoRel: video/11-edinobozhie-v-bozhestvennosti.mp4
+---
 <h1>Единобожие в божественности.</h1>
 <p class="arab" dir="rtl">تَوْحِيدُ الْأُلُوهِيَّةِ</p>
 <p>Единобожие в божественности Аллаха познается по делам Его рабов, таким как, мольба, молитва, обход вокруг Каабы, жертвоприношение, обет, земной поклон и др.<br /><span class="arab">&nbsp;</span></p>

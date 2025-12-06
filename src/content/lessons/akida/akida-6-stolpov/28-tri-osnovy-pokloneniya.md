@@ -1,3 +1,13 @@
+---
+title: 28 Три основы поклонения
+order: 28
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/28-tri-osnovy-pokloneniya.mp3
+audioRel: audio/28-tri-osnovy-pokloneniya.mp3
+video: /media/akida/akida-6-stolpov/video/28-tri-osnovy-pokloneniya.mp4
+videoRel: video/28-tri-osnovy-pokloneniya.mp4
+---
 <h1>Основы поклонения</h1>
 <p class="arab" dir="rtl">أسس العبادة</p>
 <p><strong>Поклонение Аллаху строится на трех основах:</strong></p>

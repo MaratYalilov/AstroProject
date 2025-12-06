@@ -1,3 +1,13 @@
+---
+title: 14 Второе условие - убежденность
+order: 14
+hasAudio: true
+hasVideo: true
+audio: /media/akida/akida-6-stolpov/audio/14-vtoroe-uslovie-ubezhdennost.mp3
+audioRel: audio/14-vtoroe-uslovie-ubezhdennost.mp3
+video: /media/akida/akida-6-stolpov/video/14-vtoroe-uslovie-ubezhdennost.mp4
+videoRel: video/14-vtoroe-uslovie-ubezhdennost.mp4
+---
 <li><strong>Уверенность, противоречащая сомнению.</strong></li>
 </ul>
 <p class="arab" dir="rtl">اَلْيَقِينُ الْمُنَافِي لِلشَّكِّ</p>

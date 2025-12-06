@@ -1,3 +1,15 @@
+---
+title: 51 Обязательства мусульманина перед ангелами
+order: 51
+hasAudio: true
+hasVideo: true
+audio: >-
+  /media/akida/akida-6-stolpov/audio/51-obyazatelstva-musulmanina-pered-angelami.mp3
+audioRel: audio/51-obyazatelstva-musulmanina-pered-angelami.mp3
+video: >-
+  /media/akida/akida-6-stolpov/video/51-obyazatelstva-musulmanina-pered-angelami.mp4
+videoRel: video/51-obyazatelstva-musulmanina-pered-angelami.mp4
+---
 <h1>Отношения с людьми</h1>
 <p>В соответствии с различными текстами Корана и Сунны ангелы находятся в постоянном контакте с людьми. Сообщается, что они принимают участие во всех стадиях человеческого существования - от рождения до смерти и даже в могиле.</p>
 <h2>Рождение</h2>

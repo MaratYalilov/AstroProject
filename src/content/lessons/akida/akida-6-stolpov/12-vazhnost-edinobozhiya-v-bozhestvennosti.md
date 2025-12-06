@@ -1,3 +1,15 @@
+---
+title: 12 Важность единобожия в божественности
+order: 12
+hasAudio: true
+hasVideo: true
+audio: >-
+  /media/akida/akida-6-stolpov/audio/12-vazhnost-edinobozhiya-v-bozhestvennosti.mp3
+audioRel: audio/12-vazhnost-edinobozhiya-v-bozhestvennosti.mp3
+video: >-
+  /media/akida/akida-6-stolpov/video/12-vazhnost-edinobozhiya-v-bozhestvennosti.mp4
+videoRel: video/12-vazhnost-edinobozhiya-v-bozhestvennosti.mp4
+---
 
 <h2>Важность единобожия в божественности.</h2>
 <p class="arab" dir="rtl">أَهَمِّيَّةُ تَوْحِيدِ الْأُلُوهِيَّةِ</p>

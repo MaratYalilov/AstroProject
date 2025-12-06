@@ -1,3 +1,15 @@
+---
+title: 15 Третье и четвертое условия - принятие и подчинение
+order: 15
+hasAudio: true
+hasVideo: true
+audio: >-
+  /media/akida/akida-6-stolpov/audio/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp3
+audioRel: audio/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp3
+video: >-
+  /media/akida/akida-6-stolpov/video/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp4
+videoRel: video/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp4
+---
 <li><strong>&nbsp;Принятие сердцем и произнесение их.</strong></li>
 </ul>
 <p class="arab" dir="rtl">اَلْقَبُولُ الْمُنَافِي لِلرَّدِّ</p>
