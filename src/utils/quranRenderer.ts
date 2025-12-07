@@ -153,16 +153,13 @@ export function renderAyahBlock(
     ${escapeHtml(translation)}
   </div>
 
-  <div class="quran-ayah-block__source">
-    ${escapeHtml(sourceLine)}
-  </div>
-
   <div class="quran-ayah-block__audio">
     <button
       type="button"
       class="quran-audio-button inline-flex items-center gap-3 text-xs text-muted-foreground"
       data-audio-id="${audioId}"
       aria-label="Прослушать аят ${escapeHtml(sourceLine)}"
+      title="слушать"
     >
       <span
         class="quran-audio-button__icon grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors"
@@ -195,8 +192,8 @@ export function renderAyahBlock(
           <rect x="14" y="4" width="4" height="16"></rect>
         </svg>
       </span>
-      <span class="quran-audio-button__label">
-        Прослушать аят ${escapeHtml(sourceLine)}
+      <span class="quran-ayah-block__source">
+        ${escapeHtml(sourceLine)}
       </span>
     </button>
 
@@ -214,7 +211,6 @@ export function renderAyahBlock(
 }
 
 // ---- ДИАПАЗОН {Quran}2:1-5{/Quran} ----
-
 export function renderAyahRangeBlock(
   surahInput: number | string,
   fromAyahInput: number | string,
@@ -245,10 +241,14 @@ export function renderAyahRangeBlock(
   const surahNameRu = meta.name_ru;
   const surahMeaningRu = meta.meaning_ru;
 
-  const arabicCodeParts: string[] = [];
-  const translationParts: string[] = [];
-  const audioTracks: string[] = [];
-  const pages: number[] = [];
+  // Собираем данные по каждому аяту
+  const perAyah: {
+    ayah: number;
+    page: number;
+    codeV2: string;
+    translationHtml: string;
+    audioSrc: string;
+  }[] = [];
 
   for (let ayah = start; ayah <= end; ayah++) {
     const key = makeKey(surah, ayah);
@@ -262,40 +262,66 @@ export function renderAyahRangeBlock(
     const page = qcf.page;
     const codeV2 = qcf.code_v2;
 
-    pages.push(page);
-    arabicCodeParts.push(codeV2);
-
     const sss = pad3(surah);
     const aaa = pad3(ayah);
     const audioSrc = `/mp3/${sss}/${sss}${aaa}.mp3`;
-    audioTracks.push(audioSrc);
 
-    translationParts.push(`
+    perAyah.push({
+      ayah,
+      page,
+      codeV2,
+      translationHtml: `
       <p class="quran-ayah-block__translation-line">
         <span class="quran-ayah-block__translation-ayah">${surah}:${ayah}</span>
         ${escapeHtml(translation)}
       </p>
-    `.trim());
+    `.trim(),
+      audioSrc,
+    });
   }
 
-  const combinedCodeV2 = arabicCodeParts.join(" ");
-  const firstPage = pages[0] ?? 1;
+  // Группируем подряд идущие аяты по одной странице
+  type Group = { page: number; ayahs: number[]; codes: string[] };
+  const groups: Group[] = [];
+  let currentGroup: Group | null = null;
 
-  const arabicHtml = `
-    <p class="Quran_p quran-ayah-block__arabic qcf-ayah qcf-page-${firstPage}">
-      ${combinedCodeV2}
+  for (const item of perAyah) {
+    if (currentGroup === null) {
+      currentGroup = { page: item.page, ayahs: [item.ayah], codes: [item.codeV2] };
+    } else if (item.page === currentGroup.page) {
+      currentGroup.ayahs.push(item.ayah);
+      currentGroup.codes.push(item.codeV2);
+    } else {
+      groups.push(currentGroup);
+      currentGroup = { page: item.page, ayahs: [item.ayah], codes: [item.codeV2] };
+    }
+  }
+  if (currentGroup !== null) groups.push(currentGroup);
+
+  // Построим единый непрерывный арабский блок: внутри - span'ы по страницам
+  // между группами ставим пробел, чтобы они шли подряд; можно заменить на '' если нужен без пробелов.
+  const arabicInlineHtml = `
+    <p class="Quran_p quran-ayah-block__arabic" aria-label="Арабский текст">
+      ${groups
+        .map(
+          (g) => `<span class="qcf-ayah qcf-page-${g.page}" data-page="${g.page}">${g.codes.join(
+            " ",
+          )}</span>`,
+        )
+        .join(" ")}
     </p>
   `.trim();
 
-  const translationsHtml = translationParts.join("\n");
+  // Переводы — все подряд (как раньше)
+  const translationsHtml = perAyah.map((p) => p.translationHtml).join("\n");
 
-  const rangeText =
-    start === end ? `${surah}:${start}` : `${surah}:${start}-${end}`;
-  const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${rangeText}`;
-
+  // Аудио — плейлист всех треков по порядку
+  const audioTracks = perAyah.map((p) => p.audioSrc);
   const playlistAttr = JSON.stringify(audioTracks);
-  const labelPrefix = start === end ? "Прослушать аят" : "Прослушать аяты";
 
+  const rangeText = start === end ? `${surah}:${start}` : `${surah}:${start}-${end}`;
+  const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${rangeText}`;
+  const labelPrefix = start === end ? "Прослушать аят" : "Прослушать аяты";
   const audioId = `quran-audio-range-${surah}-${start}-${end}`;
 
   return `
@@ -304,23 +330,27 @@ export function renderAyahRangeBlock(
   data-surah="${surah}"
   data-from="${start}"
   data-to="${end}"
+  data-pages="${groups.map((g) => g.page).join(",")}"
 >
-  ${arabicHtml}
+  ${arabicInlineHtml}
 
   <div class="quran-ayah-block__translation">
     ${translationsHtml}
   </div>
 
+  <!--
   <div class="quran-ayah-block__source">
     ${escapeHtml(sourceLine)}
   </div>
+  -->
 
   <div class="quran-ayah-block__audio">
     <button
       type="button"
       class="quran-audio-button inline-flex items-center gap-3 text-xs text-muted-foreground"
       data-audio-id="${audioId}"
-      aria-label="Прослушать аяты ${escapeHtml(sourceLine)}"
+      aria-label="${escapeHtml(labelPrefix + ' ' + sourceLine)}"
+      title="слушать"
     >
       <span
         class="quran-audio-button__icon grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors"
@@ -353,8 +383,8 @@ export function renderAyahRangeBlock(
           <rect x="14" y="4" width="4" height="16"></rect>
         </svg>
       </span>
-      <span class="quran-audio-button__label">
-        ${labelPrefix} ${escapeHtml(sourceLine)}
+      <span class="quran-ayah-block__source">
+        ${escapeHtml(sourceLine)}
       </span>
     </button>
 
