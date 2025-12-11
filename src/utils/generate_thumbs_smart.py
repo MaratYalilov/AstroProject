@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import List
 from PIL import Image, ImageStat
 
-ROOT = Path("D:\AstroProject\public\media") 
+ROOT = Path(r"D:\AstroProject\public\media\akida") 
 
 # Таймкоды, на которых берём кадры (можешь подправить)
 CANDIDATE_TIMES = [
