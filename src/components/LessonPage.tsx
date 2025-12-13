@@ -60,17 +60,123 @@ const LessonPage: React.FC<LessonPageProps> = ({
     () => new Set()
   );
 
+  function getVideoPoster(videoUrl?: string | null): string | undefined {
+    if (!videoUrl) return undefined;
 
-function getVideoPoster(videoUrl?: string | null): string | undefined {
-  if (!videoUrl) return undefined;
+    // /video/111-urok.mp4 -> /thumbs/111-urok.jpg
+    return videoUrl
+      .replace("/video/", "/thumbs/")
+      .replace(/\.(mp4|webm|mov)$/i, ".jpg");
+  }
 
-  // /video/111-urok.mp4 -> /thumbs/111-urok.jpg
-  return videoUrl
-    .replace("/video/", "/thumbs/")
-    .replace(/\.(mp4|webm|mov)$/i, ".jpg");
-}
+  // ---------------------------
+  // SUBTITLES: state + helpers
+  // ---------------------------
+  const videoRef = React.useRef<HTMLVideoElement | null>(null);
+  const [vttUrl, setVttUrl] = React.useState<string | null>(null);
 
+  // Если true — попытаемся автоматически включить дорожку (textTrack.mode = 'showing')
+  const AUTO_ENABLE_SUBS = false;
 
+  /**
+   * deriveVttPathFromVideoUrl
+   * Преобразует путь вида:
+   *  /media/.../video/01-name.mp4
+   * в
+   *  /media/.../vtt/01-name.vtt
+   *
+   * Если videoUrl не содержит "/video/", попробуем просто заменить расширение на .vtt
+   */
+  function deriveVttPathFromVideoUrl(videoUrl?: string | null): string | null {
+    if (!videoUrl) return null;
+    try {
+      // Если URL абсолютный (с доменом), то мы всё равно работаем со строкой
+      // Ищем сегмент "/video/" и заменяем на "/vtt/"
+      if (videoUrl.includes("/video/")) {
+        return videoUrl.replace(/\/video\//, "/vtt/").replace(/\.(mp4|webm|mov)$/i, ".vtt");
+      }
+      // fallback: если нет /video/ — просто заменим расширение
+      return videoUrl.replace(/\.(mp4|webm|mov)$/i, ".vtt");
+    } catch {
+      return null;
+    }
+  }
+
+  // Проверяем доступность .vtt (HEAD, fallback GET). Устанавливаем vttUrl если найден.
+  React.useEffect(() => {
+    if (typeof window === "undefined") return;
+    const candidate = deriveVttPathFromVideoUrl(currentLesson.video);
+    if (!candidate) {
+      setVttUrl(null);
+      return;
+    }
+
+    let aborted = false;
+
+    // Попытка HEAD
+    fetch(candidate, { method: "HEAD" })
+      .then((res) => {
+        if (aborted) return;
+        if (res.ok) {
+          setVttUrl(candidate);
+        } else {
+          // fallback: GET (некоторые сервера не поддерживают HEAD)
+          return fetch(candidate, { method: "GET" }).then((r) => {
+            if (!aborted && r.ok) setVttUrl(candidate);
+            else if (!aborted) setVttUrl(null);
+          });
+        }
+      })
+      .catch(() => {
+        if (!aborted) setVttUrl(null);
+      });
+
+    return () => {
+      aborted = true;
+    };
+  }, [currentLesson.video]);
+
+  // Автовключение дорожки (опционально)
+  React.useEffect(() => {
+    if (!AUTO_ENABLE_SUBS) return;
+    if (!vttUrl) return;
+    const vid = videoRef.current;
+    if (!vid) return;
+
+    let cancelled = false;
+
+    function enableIfAvailable() {
+      if (cancelled) return;
+      try {
+        const tts = Array.from(vid.textTracks || []);
+        const tt = tts.find(
+          (t) => t.label === "Русский" || t.language === "ru" || (t as any).src?.endsWith(vttUrl)
+        );
+        if (tt) tt.mode = "showing";
+      } catch {}
+    }
+
+    // Если дорожка уже есть в DOM, ждем загрузки
+    const trackEl = vid.querySelectorAll("track");
+    if (trackEl && trackEl.length > 0) {
+      // небольшой таймаут, чтобы браузер успел инициализировать textTracks
+      const to = setTimeout(enableIfAvailable, 250);
+      return () => {
+        cancelled = true;
+        clearTimeout(to);
+      };
+    } else {
+      // если трек ещё не добавлен, поставим таймаут на попытку включения
+      const to = setTimeout(enableIfAvailable, 500);
+      return () => {
+        cancelled = true;
+        clearTimeout(to);
+      };
+    }
+  }, [vttUrl]);
+
+  // --------------------------- end SUBTITLES
+  // ---------------------------
 
   React.useEffect(() => {
     if (typeof window === "undefined") {
@@ -327,6 +433,7 @@ function getVideoPoster(videoUrl?: string | null): string | undefined {
                     {currentLesson.video ? (
                       <div className="aspect-video w-full overflow-hidden rounded-xl bg-muted">
                         <video
+                          ref={videoRef}
                           className="h-full w-full"
                           controls
                           preload="none"
@@ -334,6 +441,16 @@ function getVideoPoster(videoUrl?: string | null): string | undefined {
                           poster={getVideoPoster(currentLesson.video)}
                         >
                           <source src={currentLesson.video} />
+                          {vttUrl && (
+                            <track
+                              kind="subtitles"
+                              src={vttUrl}
+                              srclang="ru"
+                              label="Русский"
+                              default
+                            />
+                          )}
+                          Ваш браузер не поддерживает субтитры &lt;track&gt;.
                         </video>
                       </div>
                     ) : (
@@ -400,11 +517,6 @@ function getVideoPoster(videoUrl?: string | null): string | undefined {
                 transition={{ duration: 0.2 }}
               >
                 <Card className="overflow-hidden">
-                  <CardHeader>
-                    <CardTitle className="text-xl sm:text-2xl">
-                      Текстовый конспект
-                    </CardTitle>
-                  </CardHeader>
                   <CardContent className="p-0">
                     <ScrollArea className="h-[60vh] p-6">
                       <article
