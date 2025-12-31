@@ -7,8 +7,9 @@ import { Menu, X } from "lucide-react";
 type NavItem = { label: string; href: string; match: (path: string) => boolean };
 
 const NAV: NavItem[] = [
-  { label: "Главная", href: "/", match: (p) => p === "/" },
   { label: "Предметы", href: "/", match: (p) => p === "/" || /^\/[a-z]/i.test(p) },
+  { label: "Словарь", href: "/glossary", match: (p) => p === "/glossary" || p.startsWith("/glossary/") },
+  
   // можно добавить свои пункты:
   // { label: "О нас", href: "/about", match: (p) => p.startsWith("/about") },
 ];

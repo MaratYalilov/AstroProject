@@ -1,0 +1,36 @@
+---
+term: "Зикр"
+url_slug: "zikr"
+letter: "З"
+category: "З"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Зикр (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">ذِكْرٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">ذَكَرَ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (упоминать, называть, приводить, рассказывать; помнить, вспоминать) и означает – упоминание; память; воспоминание.
+
+## Подробно
+<p style="text-align: justify;">Зикр (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">ذِكْرٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">ذَكَرَ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (упоминать, называть, приводить, рассказывать; помнить, вспоминать) и означает – упоминание; память; воспоминание.</p>
+<p style="text-align: justify;">Аллах сказал: <b>«Помяни в Писании Марьям (Марию). Вот она ушла от своей семьи на восток».</b> Сура: Марьям (16).</p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا". سورة مريم 16.</span><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';"></span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Он сказал: «Помнишь, как мы укрылись под скалой? Я забыл о рыбе, и только дьявол заставил меня не вспомнить о ней».</b> Сура: Пещера (63).</p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "قَالَ أَرَأَيْتَ إِذْ أَوَيْنَا إِلَى ٱلصَّخْرَةِ فَإِنّى نَسِيتُ ٱلْحُوتَ وَمَا أَنْسَانِيهُ إِلاَّ ٱلشَّيْطَـٰنُ أَنْ أَذْكُرَهُ". سورة الكهف 63.</span></p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<p>В терминологии шариата зикр имеет общий и особый смысл:</p>
+<ul style="margin-top: 0cm;">
+<li style="text-align: justify;"><b>Зикр в общем смысле – это все виды поклонения, такие как намаз, пост, паломничество, чтение Корана, восхваление и прославление, мольба и др., потому что поклонение совершается ради поминания Аллаха и подчинения Ему. </b></li>
+</ul>
+<p dir="RTL" style="margin: 3pt 0cm; text-align: justify; text-indent: -0.25pt; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic'; color: black;">اَلذِّكْرُ فِي الْمَعْنَى الْعَامِّ: "هُوَ كُلُّ أَنْوَاعِ الْعِبَادَاتِ مِنْ صَلَاةٍ وَصِيَامٍ وَحَجٍّ وَقِرَاءَةِ قُرْآنٍ وَثَنَاءٍ وَدُعَاءٍ وَتَسْبِيحٍ وَتَحْمِيدٍ وَتَمْجِيدٍ وَغَيْرِ ذَلِكَ مِنْ أَنْوَاعِ الطَّاعَاتِ؛ لِأَنَّهَا إِنَّمَا تُقَامُ لِذِكْرِ اللهِ وَطِاعَتِهِ وَعِبَادَتِهِ".</span><span dir="LTR" style="font-size: 16pt; color: black;"></span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Воистину, Я — Аллах! Нет божества, кроме Меня. Поклоняйся же Мне и совершай намаз, чтобы помнить обо Мне».</b> Сура: Та ха (14).</p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعال: "إِنَّنِي أَنَا اللَّهُ لا إِلَهَ إِلا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلاةَ لِذِكْرِي". سورة  طه 14.</span></p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<ul style="margin-top: 0cm;">
+<li style="text-align: justify;"><b><span style="color: black;">Зикр в особом смысле – это поминание Аллаха посредством слов и выражений, которые узаконил Всевышний Аллах и Его посланник, да благословит его Аллах и приветствует, как чтение Книги Аллаха или упоминание Его имен и величайших качеств языком и сердцем раба, в которых содержится восхваление и прославление, возвеличивание и единобожие Аллаха, Хвала Ему.</span></b></li>
+</ul>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic'; color: black;">اَلذِّكْرُ فِي الْمَعْنَى الْخَاصِّ: هُوَ ذِكْرُ اللهِ بِالْأَلْفَاظِ الَّتِي وَرَدَتْ عَنِ اللهِ سُبْحَانَهُ وَتَعَالَى مِنْ تِلَاوَةِ كِتَابِهِ أَوْ إِجْرَاءِ أَسْمَائِهِ أَوْ صِفَاتِهِ الْعُلْيَا عَلَى لِسَانِ الْعَبْدِ أَوْ قَلْبِهِ أَوِ الْأَلْفَاظِ الَّتِي وَرَدَتْ عَلَى لِسَانِ رَسُولِهِ صلى الله عليه وسلم، وَفِيهَا تَمْجِيدٌ وَتَنْزِيهٌ وَتَقْدِيسٌ وَتَوْحِيدٌ لِلَّهِ سُبْحَانَهُ وَتَعَالَى".</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: 11pt; background-color: white;"><span dir="RTL" style="font-size: 7pt; font-family: Arial; color: #333333;"> </span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Когда вы завершите намаз, то поминайте Аллаха стоя, сидя или лежа на боках».</b> Сура: Женщины (103).</p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "فَإِذَا قَضَيْتُمُ الصَّلاةَ فَاذْكُرُوا اللَّهَ قِيَامًا وَقُعُودًا وَعَلَى جُنُوبِكُمْ ". سورة النساء 103.</span><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';"></span></p>

@@ -1,0 +1,33 @@
+---
+term: "Рибат"
+url_slug: "ribat"
+letter: "Р"
+category: "Р"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Рибат (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">رِبَاطٌ</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">رَبَطَ</span> (связывать, соединять, закреплять; привязывать) и от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">رَابَطَ</span> (стоять на страже) и означает – настойчивость, усердие; неразлучность; охрана границы.
+
+## Подробно
+<p style="text-align: justify;">Рибат (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">رِبَاطٌ</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">رَبَطَ</span> (связывать, соединять, закреплять; привязывать) и от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">رَابَطَ</span> (стоять на страже) и означает – настойчивость, усердие; неразлучность; охрана границы.</p>
+<p style="text-align: justify;">В терминологии шариата рибат имеет общий и особый смысл:</p>
+<ul style="margin-top: 0cm;">
+<li style="text-align: justify;"><b>Рибат в общем смысле – это проявление усердия в поклонении. </b></li>
+</ul>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">اَلرِّبَاطُ بِمَعْنَى عَامٍّ: "هُوَ حَبْسُ النَّفْسِ عَلَى الطَّاعَةِ".</span></p>
+<p style="text-align: justify;">Передают со слов Абу Хурайры, да будет доволен им Аллах, что (однажды) Посланник Аллаха, да благословит его Аллах и приветствует, спросил (своих сподвижников: <b>«Не указать ли вам на то, посредством чего Аллах стирает грехи и возвышает степени?»</b> Они сказали: «Конечно, о Посланник Аллаха!» Он сказал: <b>«Это - полноценное совершение омовения (вуду), невзирая на трудности, множество шагов (по направлению) к мечетям и ожидание (следующей) молитвы после предыдущей, и это будет для вас рибатом».</b> Приводит Муслим<span>.</span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">عَنْ أَبِى هُرَيْرَةَ - رضي الله عنه - : أَنَّ رَسُولَ اللَّهِ -صلى الله عليه وسلم- قَالَ: « أَلاَ أَدُلُّكُمْ عَلَى مَا يَمْحُو اللَّهُ بِهِ الْخَطَايَا وَيَرْفَعُ بِهِ الدَّرَجَاتِ ». قَالُوا بَلَى يَا رَسُولَ اللَّهِ. قَالَ « إِسْبَاغُ الْوُضُوءِ عَلَى الْمَكَارِهِ وَكَثْرَةُ الْخُطَا إِلَى الْمَسَاجِدِ وَانْتِظَارُ الصَّلاَةِ بَعْدَ الصَّلاَةِ فَذَلِكُمُ الرِّبَاطُ ». أخرجه مسلم.</span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><b><span dir="LTR" style="font-size: 16pt;"> </span></b></p>
+<ul style="margin-top: 0cm;">
+<li style="text-align: justify;"><b><span>Рибат в особом смысле – это охрана и защита границ исламского государства от внешнего врага. </span></b></li>
+</ul>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">اَلرِّبَاطُ بِمَعْنَى خَاصٍّ: "هُوَ حِرَاسَةُ ثُغُورِ الْإِسْلَامِ وَصِيَانَتُهَا وَحِمَايَةٌ لَهَا مِنَ الْأَعْدَاءِ ".</span></p>
+<p style="text-align: justify;"><span style="color: black;">Аллах сказал: </span><b><span style="color: black;">«О те, которые уверовали! Будьте терпеливы, запасайтесь терпением, несите службу на заставах и бойтесь Аллаха, – быть может, вы преуспеете». </span></b><span style="color: black;">Сура: Семейство Имрана (200).</span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic'; color: black;">قال تعالى: "يَا أَيُّهَا الَّذِينَ آمَنُواْ اصْبِرُواْ وَصَابِرُواْ وَرَابِطُواْ وَاتَّقُواْ اللّهَ لَعَلَّكُمْ تُفْلِحُونَ". سورة آل عمران 200.</span></p>
+<p style="text-align: justify;"><span style="color: black;"> </span></p>
+<p style="text-align: justify;">Передают со слов Сахля бин Са‘да, да будет доволен им Аллах, что Посланник Аллаха, да благословит его Аллах и приветствует, сказал<b>:</b><span dir="RTL"> </span><b>«Один день пребывания на страже на пути Аллаха лучше мирской жизни со всем тем, что в ней есть». </b>Приводят аль-Бухари и Муслим.</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">عن سهل بن سعد - رضي الله عنه - : أنَّ رسول الله - صلى الله عليه وسلم - قَالَ : "رِبَاطُ يَوْمٍ فِي سَبِيلِ اللهِ خَيْرٌ مِنَ الدُّنْيَا وَمَا عَلَيْهَا". أخرجه البخاري و مسلم.</span></p>

@@ -1,0 +1,12 @@
+---
+import Base from '@/layouts/Base.astro'
+import GlossaryPage from '@/components/glossary/GlossaryPage'
+import { getCollection } from 'astro:content'
+
+const glossary = await getCollection('glossary')
+console.log(glossary.length)
+---
+
+<Base title="Словарь терминов">
+  <GlossaryPage entries={glossary} client:load />
+</Base>

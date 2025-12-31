@@ -1,0 +1,22 @@
+---
+term: "Забх"
+url_slug: "zabkh"
+letter: "З"
+category: "З"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Забх (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">ذَبْحٌ</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">ذَبَحَ</span> (убивать, закалывать, резать; приносить в жертву (животное)) и означает – убийство; жертвоприношение (как ради Аллаха, так и ради идолов).
+
+## Подробно
+<p style="text-align: justify;">Забх (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">ذَبْحٌ</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">ذَبَحَ</span> (убивать, закалывать, резать; приносить в жертву (животное)) и означает – убийство; жертвоприношение (как ради Аллаха, так и ради идолов).</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">В терминологии шариата <b>забх – это принесение в жертву доступное животное, дозволенное для употребления в пищу, ради Аллаха, узаконенным в шариате методом. </b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 18pt; font-family: 'Traditional Arabic';">اَلذَّبْحُ فِي الْاِصْطِلَاحِ: "هُوَ </span><span style="font-size: 18pt; font-family: 'Traditional Arabic';">إِرَاقَةُ دَمِ </span><span style="font-size: 18pt; font-family: 'Traditional Arabic';">حَيْوَانٍ مَقْدُورٍ عَلَيْهِ مُبَاحٍ أَكْلُهُ</span><span style="font-size: 18pt; font-family: 'Traditional Arabic';"> ابْتِغَاءَ وَجْهِ اللهِ جَلَّ فِي عُلَاهُ</span><span style="font-size: 18pt; font-family: 'Traditional Arabic';"> بِطَرِيقَةٍ شَرْعِيَّةٍ".</span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">Передается от Шаддада бин Аус, да будет Аллах доволен им, что Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Поистине, Аллах предписал всё делать хорошо, и если (придётся) убивать, то убивайте хорошим способом, и когда будете приносить жертву, тоже делайте это хорошо, и пусть каждый из вас (как следует) наточит свой нож и пусть избавит животное от мучений».</b> Приводит Муслим<b><span dir="RTL">.</span></b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 18pt; font-family: 'Traditional Arabic';">عَنْ شَدَّادِ بْنِ أَوْسٍ قَالَ : قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : "إنَّ اللَّهَ كَتَبَ الْإِحْسَانَ عَلَى كُلِّ شَيْءٍ ، فَإِذَا قَتَلْتُمْ فَأَحْسِنُوا الْقِتْلَةَ ، وَإِذَا ذَبَحْتُمْ فَأَحْسِنُوا الذِّبْحَةَ وَلْيُحِدَّ أَحَدُكُمْ شَفْرَتَهُ ، وَلْيُرِحْ ذَبِيحَتَهُ ". رَوَاهُ مُسْلِمٌ .</span></p>

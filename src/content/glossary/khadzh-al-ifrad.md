@@ -1,0 +1,32 @@
+---
+term: "Хадж аль-ифрад"
+url_slug: "khadzh-al-ifrad"
+letter: "К"
+category: "Категория 137"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+<a href="slovar/hadzh.html" target="_blank"><span style="color: #063b5e;">Хадж</span><span class="apple-converted-space"><span style="font-size: 6pt; font-family: Arial; color: #063b5e;"> </span></span></a>аль-ифрад (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حَجُّ الْإِفْرَادِ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>) состоит из двух слов <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حَجٌّ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (паломничество) и <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">إِفْرَادٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (быть отдельным, одним, изолированным) и означает хадж, в котором паломник совершает хадж без <span class="apple-converted-space"><span style="font-size: 6pt; font-family: Arial;"> </span></span><a href="slovar/umra.html" target="_blank"><span style="color: #063b5e;">'урмы</span></a><span class="apple-converted-space"><span style="font-size: 16pt;">.</span></span>
+
+## Подробно
+<p style="text-align: justify;"><a href="slovar/hadzh.html" target="_blank"><span style="color: #063b5e;">Хадж</span><span class="apple-converted-space"><span style="font-size: 6pt; font-family: Arial; color: #063b5e;"> </span></span></a>аль-ифрад (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حَجُّ الْإِفْرَادِ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>) состоит из двух слов <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حَجٌّ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (паломничество) и <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">إِفْرَادٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (быть отдельным, одним, изолированным) и означает хадж, в котором паломник совершает хадж без <span class="apple-converted-space"><span style="font-size: 6pt; font-family: Arial;"> </span></span><a href="slovar/umra.html" target="_blank"><span style="color: #063b5e;">'урмы</span></a><span class="apple-converted-space"><span style="font-size: 16pt;">.</span></span></p>
+<p style="text-align: justify;">В терминологии шариата <b>хадж аль-ифрад – это  (поклонение Аллаху) посредством вступления мусульманина в <a href="slovar/ihram.html" target="_blank">ихрам</a> только для совершения хаджа. Таким образом, паломник, прибывший в Мекку, совершает обход вокруг <a href="slovar/kaaba.html" target="_blank">Каабы</a><a href="#_ftn1" name="_ftnref1" title=""><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[1]</span></b></span></span></a>, затем исполняет са'й хаджа<a href="#_ftn2" name="_ftnref2" title=""><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[2]</span></b></span></span></a>, но не бреет и не укорачивает свои волосы и не выходит из ихрама, оставаясь в нем до дня праздника, пока не выполнит обряд бросания камешков в столб джамрат аль-'акаба<a href="#_ftn3" name="_ftnref3" title=""><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[3]</span></b></span></span></a>.</b><span dir="RTL"></span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">حَجُّ الْإِفْرَادِ فِي الْاِصْطِلَاحِ: "هُوَ أَنْ يُحْرِمَ الْمُسْلِمُ بِالْحَجِّ وَحْدَهُ فَإِذَا وَصَلَ مَكَّةَ طَافَ لِلْقُدُومِ، ثُمَّ سَعَى لِلْحَجِّ وَلَا يَحْلِقُ وَلَا يُقَصِّرُ وَلَا يَحِلُّ مِنْ إِحْرَامِهِ، بَلْ يَبْقَى مُحْرِمًا حَتَّى يَحِلَّ بَعْدَ رَمْيِ جَمْرَةِ الْعَقَبَةِ يَوْمَ الْعِيدِ"</span><span dir="LTR" style="font-size: 16pt;"></span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span dir="LTR" style="font-size: 16pt;"> </span></p>
+<p style="text-align: justify;">Сообщается от 'Айши, да будет доволен ею Аллах, которая сказала: <b>«Среди нас были те, кто намерился совершить 'умру, те, кто намерился совершить 'умру с хаджем и те, кто желал совершить только хадж».</b> Приводят аль-Бухари и Муслим.</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic'; color: black;">عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: " فَمِنَّا مَنْ أَهَلَّ بِعُمْرَةٍ وَمِنَّا مَنْ أَهَلَّ بِحَجٍّ وَعُمْرَةٍ وَمِنَّا مَنْ أَهَلَّ بِحَجٍّ". متفق عليه </span></p>
+<div><br clear="all" /><hr align="left" size="1" width="33%" />
+<div>
+<p><a href="#_ftnref1" name="_ftn1" title=""><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[1]</span></span></a> Таваф аль-кудум (Обход по случаю прибытия в Мекку).</p>
+</div>
+<div>
+<p><a href="#_ftnref2" name="_ftn2" title=""><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[2]</span></span></a> Бег между холмами ас-Сафа и аль-Марва.</p>
+</div>
+<div>
+<p><a href="#_ftnref3" name="_ftn3" title=""><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[3]</span></span></a> Третий столб в Мина со стороны Мекки, также называется аль-Джамрат аль-кубра и аль-Джамрат аль-ахир.</p>
+</div>
+</div>

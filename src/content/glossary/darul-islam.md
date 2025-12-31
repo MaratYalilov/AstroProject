@@ -1,0 +1,25 @@
+---
+term: "Даруль-Ислам"
+url_slug: "darul-islam"
+letter: "Д"
+category: "Д"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+<span>Даруль-<a href="userslayout/ислам" target="_blank">Ислам</a> (араб. </span><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">دَارُ</span><b><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></b><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">الْإِسْلامِ</span><span>) состоит из двух слов </span><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">دَارٌ</span><span> (страна, место, регион) и </span><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">إِسْلامٌ</span><span> (подчинение, покорность Богу, Ислам) и означает – исламское государство.</span>
+
+## Подробно
+<p style="text-align: justify;"><span>Даруль-<a href="userslayout/ислам" target="_blank">Ислам</a> (араб. </span><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">دَارُ</span><b><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></b><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">الْإِسْلامِ</span><span>) состоит из двух слов </span><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">دَارٌ</span><span> (страна, место, регион) и </span><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">إِسْلامٌ</span><span> (подчинение, покорность Богу, Ислам) и означает – исламское государство.</span></p>
+<p style="text-align: justify;"><span> </span></p>
+<p style="text-align: justify;"><span>В терминологии </span><b><span>даруль-Ислам – это территория земли, на которой возвышается слово Аллаха, проявляется единобожие и подчинение Аллаху, приказывают одобряемое и запрещают порицаемое, доминируют шариатские законы под управлением и властью исламского правителя, даже если на ней живут люди договора (из немусульман).</span></b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">دَارُ الْإِسْلَامِ في الْاِصْطِلَاحِ: "هِيَ الْأَرْضِ الَّتِي تَعْلُوا فِيهَا كَلِمَةُ اللهِ وَيَظْهَرُ تَوْحِيدُهُ وَطَاعَتُهُ وَيُؤْمَرُ فِيهَا بِالْمَعْرُوفِ وَيُنْهَى عَنِ الْمُنْكَرِ، وَتَكُونُ الْأَحْكَامُ الْغَالِبَةُ هِيَ أَحْكَامُ الْإِسْلَامِ، وَخَاضِعَةً لِسُلْطَانِ الْمُسْلِمِينَ وَحُكْمِهِمْ، حَتَّى وَإِنْ كَانَ هُنَالِكَ دَارُ لِأَهْلِ الذِّمَّةِ فَإِنَّهَا تُسَمَّى دُارَ إِسْلَامٍ لِأَنَّهَا مَحْكُومَةٌ بِالْإِسْلامِ، وَغَالِبِيَّةُ أَحْكَامِهَا إِسْلَامِيَّةٌ".</span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Тем, кого ангелы упокоят чинящими несправедливость по отношению к самим себе, скажут: «В каком положении вы находились?» Они скажут: «Мы были слабы и притеснены на земле». Они скажут: «Разве земля Аллаха не была обширна для того, чтобы вы переселились на ней». Их обителью станет Геенна. Как же скверно это место пребывания».</b> Сура Женщины: 97-99<b><span dir="RTL">.</span></b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "إِنَّ الَّذِينَ تَوَفَّاهُمْ الْمَلائِكَةُ ظَالِمِي أَنفُسِهِمْ قَالُوا فِيمَ كُنتُمْ قَالُوا كُنَّا مُسْتَضْعَفِينَ فِي الأَرْضِ قَالُوا أَلَمْ تَكُنْ أَرْضُ اللَّهِ وَاسِعَةً فَتُهَاجِرُوا فِيهَا</span><b><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></b><span style="font-size: 16pt; font-family: 'Traditional Arabic';">فَأُوْلَئِكَ مَأْوَاهُمْ جَهَنَّمُ وَسَاءَتْ مَصِيرًا". سورة النساء/97</span><b><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';"> .</span></b></p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Я непричастен к каждому мусульманину, живущему среди многобожников».</b> Приводит Абу Дауд, аль-Албани сказал, что он достоверный.</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال </span><span style="font-size: 16pt; font-family: 'Traditional Arabic';">رسول الله</span><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> -صلى الله عليه وسلم- : "أَنَا بَرِيءٌ مِنْ كُلِّ مُسْلِمٍ يُقِيمُ بَيْنَ أَظْهُرِ الْمُشْرِكِينَ ". رواه أبو داود وصححه الألباني</span><b><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';">.</span></b></p>

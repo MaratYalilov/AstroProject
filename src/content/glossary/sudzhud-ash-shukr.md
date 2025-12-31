@@ -1,0 +1,23 @@
+---
+term: "Суджуд аш-шукр"
+url_slug: "sudzhud-ash-shukr"
+letter: "С"
+category: "С"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Суджуд аш-шукр (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">سُجُودُ الشُّكْرِ</span><b><span>‎‎</span></b>) состоит из двух слов <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">سُجُودٌ</span> (земной поклон) и <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">شُكْرٌ</span> (благодарность, признательность) и означает - земной поклон, совершаемый в знак благодарности Аллаху.
+
+## Подробно
+<p style="text-align: justify;">Суджуд аш-шукр (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">سُجُودُ الشُّكْرِ</span><b><span>‎‎</span></b>) состоит из двух слов <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">سُجُودٌ</span> (земной поклон) и <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">شُكْرٌ</span> (благодарность, признательность) и означает - земной поклон, совершаемый в знак благодарности Аллаху.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">В терминологии шариата <b>суджуд аш-шукр – это один земной поклон, который совершает человек (в знак благодарности Аллаху) за избавление от какой-либо беды, либо после обретения какого-нибудь блага.</b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">سُجُودُ الشُّكْرِ في الْاِصْطِلاحِ: "هُوَ سَجْدَةٌ يَفْعَلُهَا الْإِنْسَانُ عِنْدَ تَجَدُّدِ نِعْمَةٍ ، أَوِ انْدِفَاعِ نِقْمَةٍ".</span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<p style="text-align: justify;">Передают, что Абу Бакра, да будет доволен им Аллах, сказал: «Когда до Пророка, да благословит его Аллах и да приветствует, доходило радостное известие, он совершал земной поклон в благодарность Аллаху». Приводит Абу Дауд, аль-Албани сказал, что он хороший.</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">عَنْ أَبِى بَكْرَةَ عَنِ النَّبِىِّ -صلى الله عليه وسلم- أَنَّهُ كَانَ إِذَا جَاءَهُ أَمْرُ سُرُورٍ أَوْ بُشِّرَ بِهِ خَرَّ سَاجِدًا شَاكِرًا لِلَّهِ. رواه أبو داود و حسنه الألباني.</span></p>
+<p style="text-align: justify;"><b> </b></p>

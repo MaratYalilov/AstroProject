@@ -1,4 +1,4 @@
-import { defineCollection, z } from "astro:content";
+﻿import { defineCollection, z } from "astro:content";
 
 const subjects = defineCollection({
   type: "data",
@@ -47,5 +47,19 @@ const lessons = defineCollection({
   }),
 });
 
+const glossary = defineCollection({
+    type: 'content',
+    schema: z.object({
+      term: z.string(),
+      url_slug: z.string(),
+      letter: z.string(),      // "А", "Б", ...
+      category: z.string(),    // можно = letter
+      tags: z.array(z.string()).default([]),
+      aliases: z.array(z.string()).default([]),
+      related: z.array(z.string()).default([]),
+      used_in: z.array(z.any()).default([]),
+    }),
+  });
 
-export const collections = { subjects, courses, lessons };
+export const collections = { subjects, courses, lessons, glossary };
+

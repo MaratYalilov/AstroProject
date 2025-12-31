@@ -1,0 +1,37 @@
+---
+term: "Аят"
+url_slug: "ayat"
+letter: "А"
+category: "А"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Аят (араб. آيَةٌ мн.ч.آياتٌ) имеет несколько смыслов:<br /> <br />
+
+## Подробно
+<p>Аят (араб. آيَةٌ мн.ч.آياتٌ) имеет несколько смыслов:<br /> <br /> </p>
+<p style="margin-left: 36pt; text-indent: -18pt;">1-      Знамение, признак - (العلامة).<br /> <br /> </p>
+<p style="text-align: justify;">Аллах сказал: <strong>«Знамение его власти состоит в том, что к вам прибудет ковчег, несущий ублаготворение от Господа вашего…».</strong> Сура: Корова (248).<br /> <br /> </p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;">قال تعالى: "إِنَّ آيَةَ مُلْكِهِ أَنْ يَأْتِيَكُمُ التَّابُوتُ فِيهِ سَكِينَةٌ مِنْ رَبِّكُمْ". سورة البقرة 248.<br /> <br /> </p>
+<p style="margin-left: 36pt; text-indent: -18pt;">2-     Знамение, чудо - (المعجزة).<br /> <br /> </p>
+<p style="text-align: justify;">Аллах сказал: <strong>«Спроси сынов Исраила (Израиля), сколько ясных знамений Мы ниспослали им». </strong>Сура: Корова (211).<br /> <br /> </p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;">قال تعالى: "سَلْ بَنِي إِسْرائِيلَ كَمْ آتَيْناهُمْ مِنْ آيَةٍ بَيِّنَةٍ". سورة البقرة 211.<br /> <br /> </p>
+<p style="margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; text-align: justify; background-image: initial; background-attachment: initial; background-color: white;">Аллах сказал: <strong>«Мы даровали Мусе (Моисею) девять ясных знамений».</strong> Сура: Перенес ночью (101).<br /> <br /> </p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;">قال تعالى: "وَلَقَدْ آتَيْنا مُوسى تِسْعَ آياتٍ بَيِّناتٍ... ". سورة الإسراء 101.<br /> <br /> </p>
+<p style="margin-left: 36pt; text-indent: -18pt;">3-     Знамение, назидание - (العبرة).<br /> <br /> </p>
+<p style="text-align: justify;">Аллах сказал: <strong>«Воистину, в этом — знамение, но большинство их не стали верующими».</strong> Сура: Поэты (8).<br /> <br /> </p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;">قال تعالى : "إِنَّ فِي ذلِكَ لَآيَةً وَما كانَ أَكْثَرُهُمْ مُؤْمِنِينَ". سورة الشعراء 8.<br /> <br /> </p>
+<p style="margin-left: 36pt; text-indent: -18pt;">4-     Знамение, довод - (البرهان).<br /> <br /> </p>
+<p style="text-align: justify;">Аллах сказал: <strong>«Среди Его знамений — сотворение небес и земли и различие ваших языков и цветов».</strong> Сура: Римляне (22).<br /> <br /> </p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;">قال تعالى: "وَمِنْ آيَاتِهِ خَلْقُ السَّمَوَاتِ وَالأَرْضِ وَاخْتِلافُ أَلْسِنَتِكُمْ وَأَلْوَانِكُمْ ". سورة الروم 22.<br /> <br /> </p>
+<p style="margin-left: 36pt; text-indent: -18pt;">5-     Группа - (الجماعة).<br /> <br /> Арабы говорят: «Люди вышли группой».<br /> <br /> </p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;">تقول العرب: خرج القوم بآيتهم. أي بجماعتهم.<br /> <br /> </p>
+<p style="text-align: justify;">В терминологии шариата <strong>аят – часть суры, имеющая начало и конец, обладающая своими отличительными качествами (признаками), заключающая назидания и доводы для тех, кто размышляет и являющаяся чудом вместе с другими аятами, указывающим на правдивость Посланника, да благословит его Аллах и приветствует.</strong><br /> <br /> </p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;">اصطلاحا: جُزْءٌ مِنَ السُّورَةِ لَهَا مَبْدَأٌ وَنِهَايَةٌ، وَهِيَ عَلامَةٌ عَلى نَفْسِهَا بِانْفِصَالِهَا عَمَّا قَبْلَهَا وَمَا بَعْدَهَا؛ فِيهَا عِبَرٌ وَدَلائِلُ لِمَنْ أَرَادَ أَنْ يَتَذَكَّرَ، وَ بِانْضِمَامِهَا إِلَى غَيْرِهَا تَكُونُ مُعْجِزَةً دَالَّةً عَلى صِدْقِ الرَّسُولِ صَلَّى اللهُ عَلَيْهِ وَ سَلَّمَ.<br /> <br /> </p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"> <br /> <br /> </p>
+<p style="text-align: justify;">Аллах сказал: <strong>«Алиф. Лам. Мим. Ра. Это — аяты Писания. Ниспосланное тебе от твоего Господа является истиной, однако большинство людей не верует».</strong> Сура: Гром (1).<br /> <br /> </p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;">قال تعالى: "المر تِلْكَ آَيَاتُ الْكِتَابِ وَالَّذِي أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ الْحَقُّ وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يُؤْمِنُونَ". سورة الرعد 1. </p>

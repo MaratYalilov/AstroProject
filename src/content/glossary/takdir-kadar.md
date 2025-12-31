@@ -1,0 +1,28 @@
+---
+term: "Такдир, кадар."
+url_slug: "takdir-kadar"
+letter: "Т"
+category: "Т"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Такдир, кадар (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">تَقْدِيرٌ و قَدَرٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>) происходит от глагола первой породы <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">قَدَرَ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (мочь, быть в состоянии, в силах сделать (что <span dir="RTL" style="font-size: 10pt; font-family: 'Traditional Arabic';">على</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>)) и от глагола второй степени <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">قَدَّرَ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (определять, исчислять определять размер; предопределять, определять (судьбу) и означает – судьба, предопределение.
+
+## Подробно
+<p style="text-align: justify;">Такдир, кадар (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">تَقْدِيرٌ و قَدَرٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>) происходит от глагола первой породы <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">قَدَرَ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (мочь, быть в состоянии, в силах сделать (что <span dir="RTL" style="font-size: 10pt; font-family: 'Traditional Arabic';">على</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>)) и от глагола второй степени <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">قَدَّرَ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (определять, исчислять определять размер; предопределять, определять (судьбу) и означает – судьба, предопределение.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">В терминологии шариата <b>такдир, кадар – это извечное знание Аллаха, которое записано письменной тростью, о том, что будет на веки вечные. Всевышний Аллах  изначально предопределил судьбу творений и все, что произойдет. Ему было известно о том, когда, как и в какой форме это случится, и все действительно происходит так, как это было предначертано Им.</b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">اَلْقَدَرُ فِي الْاِصْطِلَاحِ: هُوَ مَا سَبَقَ بِهِ الْعِلْمُ وَجَرَى بِهِ الْقَلَمُ مِمَّا هُوَ كَائِنٌ إِلى الْأَبَدِ وَأَنَّهُ عَزَّ وَجَلَّ قَدَّرَ مَقَادِيرَ الْخَلائِقِ وَمَايَكُونُ مِنَ الْأَشْيَاءِ قَبْلَ أَنْ تَكُونَ فِي الْأَزَلِ وَعَلِمَ سُبْحَانَهُ وَتَعَالَى أَنَّهَا سَتَقَعُ فِي أَوْقَاتٍ مَعْلُومَةٍ عِنْدَهُ تَعَالَى وَعَلَى صِفَاتٍ مَخْصُوصَةٍ فَهِيَ تَقَعُ عَلَى حَسَبِ مَاقَدَّرَهَا</span><span dir="LTR"></span><span dir="LTR"></span><b><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';"><span dir="LTR"></span><span dir="LTR"></span>.</span></b><span style="font-size: 16pt; font-family: 'Traditional Arabic';"></span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Воистину, Мы сотворили каждую вещь согласно предопределению».</b> Сура: Месяц (49).</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ". سورة القمر 49.</span></p>
+<p style="text-align: justify;"><b><span style="font-size: 16pt;"> </span></b></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Он сотворил всякую вещь и придал ей соразмерную меру (или предопределил ее)».</b> Сура: Различение (2).<b><span dir="RTL"></span></b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "وَخَلَقَ كُلَّ شَيْءٍ فَقَدَّرَهُ تَقْدِيرًا ". سورة الفرقان 2.</span></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<p style="text-align: justify;">Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Аллах предопределил судьбы творений за пятьдесят тысяч лет до создания небес и земли и Трон Его находился в то время над водой».</b> Муслим<b><span dir="RTL"></span></b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic'; color: black;">قال رَسُول اللَّهِ – صلى الله عليه و سلم: « كَتَبَ اللَّهُ مَقَادِيرَ </span><span style="font-size: 16pt; font-family: 'Traditional Arabic';">الْخَلاَئِقِ قَبْلَ<span style="color: black;"> أَنْ يَخْلُقَ السَّمَوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ - قَالَ - وَعَرْشُهُ عَلَى الْمَاءِ ». أخجه مسلم.</span></span><b><span dir="LTR" style="font-size: 16pt;"></span></b></p>

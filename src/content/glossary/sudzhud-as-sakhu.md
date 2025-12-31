@@ -1,0 +1,25 @@
+---
+term: "Суджуд ас-саху"
+url_slug: "sudzhud-as-sakhu"
+letter: "С"
+category: "С"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Суджуд ас-саху (араб. <span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="RTL">سُجُودُ</span><b><span dir="RTL"> </span></b><span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="RTL">السَّهْوِ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>) состоит из двух слов <span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="RTL">سُجُودٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (земной поклон) и <span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="RTL">سَهْوٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (невнимательность, рассеянность; оплошность; ошибка) и означает – поклон за невнимательность.
+
+## Подробно
+<p style="text-align: justify;">Суджуд ас-саху (араб. <span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="RTL">سُجُودُ</span><b><span dir="RTL"> </span></b><span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="RTL">السَّهْوِ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span>) состоит из двух слов <span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="RTL">سُجُودٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (земной поклон) и <span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="RTL">سَهْوٌ</span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span><span dir="LTR"></span> (невнимательность, рассеянность; оплошность; ошибка) и означает – поклон за невнимательность.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">В терминологии шариата <b>суджуд ас-саху – это два земных поклона, которые выполняются в конце молитвы или после нее для исправления ошибки допущенной непреднамеренно, как добавление (обязательства) или оставление некоторых обязательств, либо сомнение в (выполнении обязательств).</b></p>
+<p style="text-align: justify; direction: rtl; unicode-bidi: embed;" dir="RTL"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">سُجُودُ السَّهْوِ في الْاِصْطِلاحِ: "هُوَ عِبَارَةٌ عَنْ سَجْدَتَيْنِ مَا يَكُونُ فِي آخِرِ الصَّلَاةِ أَوْ بَعْدَهَا لِجَبْرِ خَلَلٍ ، بِزِيَادَةٍ أَوْ نَقْصِ بَعْضِ مَأْمُورٍ بِهِ أَوْ شَكٍ فِيهِ دُونَ تَعَمُّدٍ"</span><span dir="LTR"></span><span dir="LTR"></span><b><span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="LTR"><span dir="LTR"></span><span dir="LTR"></span>.</span></b></p>
+<p style="text-align: justify; direction: rtl; unicode-bidi: embed;" dir="RTL"><b><span style="font-size: 16pt;" dir="LTR"> </span></b></p>
+<p style="text-align: justify;">Абу Са‘ид аль-Худри, да будет доволен им Аллах, рассказывал, что Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Если один из вас засомневался в намазе, не зная, сколько рак‘атов он совершил: три или четыре, то он должен отбросить сомнения и опираться на то число рак‘атов, в которых он уверен. Затем ему следует совершить два земных поклона до произнесения слов приветствия»</b>.Приводит Муслим.</p>
+<p style="text-align: justify; direction: rtl; unicode-bidi: embed;" dir="RTL"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ : قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : { إذَا شَكَّ أَحَدُكُمْ فِي صَلَاتِهِ ، فَلَمْ يَدْرِ كَمْ صَلَّى أَثَلَاثًا أَمْ أَرْبَعًا ؟ فَلْيَطْرَحْ الشَّكَّ وَلْيَبْنِ عَلَى مَا اسْتَيْقَنَ". رواه مسلم.</span></p>
+<p style="text-align: justify; direction: rtl; unicode-bidi: embed;" dir="RTL"><span dir="LTR"> </span></p>
+<p style="text-align: justify;">Абдуллах ибн Бухейна, да будет доволен им Аллах, рассказывал, что Пророк, да благословит его Аллах и приветствует, совершая с ними полуденный намаз зухр, после первых двух рак‘атов не сел [для ташаххуда], а встал. Люди встали вслед за ним. Когда намаз уже заканчивался и люди ожидали слов приветствия (т.е. слов “ас-саламу алейкум ва рахматуллах”), он, сидя, возвеличил Аллаха (т.е. сказал: “Аллаху акбар”), совершил два земных поклона, а затем произнес слова приветствия. Приводят аль-Бухари и Муслим.<b><span dir="RTL"></span></b></p>
+<p style="text-align: justify; direction: rtl; unicode-bidi: embed;" dir="RTL"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">عن عَبْدَاللَّهِ بن بُحَيْنَةَ رضي الله عنه : " أَنَّ النَّبِيَّ صلى الله عليه وسلم صَلَّى بِهِمُ الظَّهْرَ فَقَامَ فِي الرَّكْعَتَيْنِ الْأُولَيَيْنِ لَمْ يَجْلِسْ فَقَامَ النَّاسُ مَعَهُ حَتَّى إِذَا قَضَى الصَّلَاةَ وَانْتَظَرَ النَّاسُ تَسْلِيمَهُ كَبَّرَ وَهُوَ جَالِسٌ فَسَجَدَ سَجْدَتَيْنِ قَبْلَ أَنْ يُسَلِّمَ ثُمَّ سَلَّمَ " متفق عليه</span><span dir="LTR"></span><span dir="LTR"></span><b><span style="font-size: 16pt; font-family: 'Traditional Arabic';" dir="LTR"><span dir="LTR"></span><span dir="LTR"></span> .</span></b></p>

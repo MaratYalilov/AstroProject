@@ -1,0 +1,38 @@
+---
+term: "Ихдад"
+url_slug: "ikhdad"
+letter: "И"
+category: "И"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Ихдад (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">إِحْدَادٌ</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حَدَّ</span> (ограничивать, запрещать, ставить предел) и означает – воздержание женщины от привлекательной одежды; траур.
+
+## Подробно
+<p style="text-align: justify;">Ихдад (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">إِحْدَادٌ</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حَدَّ</span> (ограничивать, запрещать, ставить предел) и означает – воздержание женщины от привлекательной одежды; траур.</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">В терминологии шариата <b>ихдад – это определенный период выжидания, в который женщина в определенных случаях и в определенном месте<a title="" href="#ftn1"><span style="vertical-align: super;"><b><span style="font-size: 12pt;">[1]</span></b></span></a>, воздерживается от всего того, что привлекает на нее внимание.</b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span><span style="font-size: 18pt; font-family: 'Traditional Arabic';">تَعْرِيفُ الْإِحْدَادِ فِي الْاِصْطِلَاحِ: "تربُّصٌ تَمْتَنِعُ فِيهِ الْمَرْأَةُ عَنْ كُلِّ مَا يُرَغِّبُ فِي النَّظَرِ إِلَيْهَا، مُدَّةً مَخْصُوصَةً، فِي أَحْوَالٍ مَخْصُوصَةٍ، فِي مَكَانٍ مَخْصُوصٍ".</span></span></p>
+<p style="text-align: justify;">Ихдад бывает двух видов:</p>
+<p style="margin-left: 37.5pt; text-align: justify; text-indent: -19.5pt;"><span>1-<span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: 400; font-size: 7pt; line-height: normal;"></span></span><span dir="LTR">Траур по мужу.</span></p>
+<p style="text-align: justify;">Траур по мужу является обязательным для вдовы, он длится четыре месяца и десять дней, либо срок беременности, пока женщина не сложит свою ношу.</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Если кто-либо из вас скончается и оставит после себя жен, то они должны выжидать четыре месяца и десять дней. Когда же они дождутся истечения положенного им срока, то на вас не будет греха, если они распорядятся собой разумным образом. Аллах ведает о том, что вы совершаете».</b> Сура: Корова (234).</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 18pt; font-family: 'Traditional Arabic';">قال الله تعالى:"وَالَّذِينَ يُتَوَفَّوْنَ مِنكُمْ وَيَذَرُونَ أَزْوَاجًا يَتَرَبَّصْنَ بِأَنفُسِهِنَّ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَلاَ جُنَاحَ عَلَيْكُمْ فِيمَا فَعَلْنَ فِي أَنفُسِهِنَّ بِالـْمَعْرُوفِ وَالله بِمَا تَعْمَلُونَ خَبِيرٌ". سورة البقرة 234.</span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Для беременных срок установлен до тех пор, пока они не разрешатся от бремени. Тому, кто боится Аллаха, Он облегчает дела».</b> Сура: Развод (4).</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 18pt; font-family: 'Traditional Arabic';">قال تعالى: "وَأُوْلاتُ الأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ وَمَن يَتَّقِ الله يَجْعَل لَّهُ مِنْ أَمْرِهِ يُسْرًا</span><span style="font-size: 18pt; font-family: 'Traditional Arabic';">". سورة الطلاق 4.</span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">Передают, что Умм 'Атыйа, да будет доволен ею Аллах, рассказывала, что Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Женщина не должна находиться в трауре по усопшему более трех ночей. Только после смерти мужа она должна быть в трауре в течение четырех месяцев и десяти дней. В течение этого срока она не должна носить крашеных нарядов, если только они не были сотканы из покрашенной пряжи, краситься сурьмой и умащаться благовониями. И только после очищения от месячных кровотечений она может помазаться ароматической веточкой или азфаром (пахучим веществом черного цвета, похожего на ногти)».</b> Приводят аль-Бухари и Муслим.</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 18pt; font-family: 'Traditional Arabic';">عَنْ أُمِّ عَطِيَّةَ رَضِيَ اللَّهُ عَنْهَا أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: "لَا تُحِدُّ امْرَأَةٌ عَلَى مَيِّتٍ فَوْقَ ثَلَاثٍ ، إلَّا عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا ، وَلَا تَلْبَسُ ثَوْبًا مَصْبُوغًا ، إلَّا ثَوْبَ عَصْبٍ ، وَلَا تَكْتَحِلُ ، وَلَا تَمَسُّ طِيبًا ، إلَّا إذَا طَهُرَتْ نُبْذَةً مِنْ قُسْطٍ ، أَوْ أَظْفَارٍ". مُتَّفَقٌ عَلَيْهِ.</span></p>
+<p style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 3pt; margin-left: 37.5pt; text-align: justify; text-indent: -19.5pt; line-height: 90%;"><span>2-<span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: 400; font-size: 7pt; line-height: normal;"></span></span><span dir="LTR"><span>Траур по другим людям, кроме мужа.</span></span></p>
+<p style="margin-bottom: 3pt; text-align: justify; line-height: 90%;"><span>Разрешается носить траур по другим людям, кроме мужа не более трех дней.</span></p>
+<p style="margin-bottom: 3pt; text-align: justify; line-height: 90%;"><span>В этом вопросе существует единогласное мнение всех ученых Ислама.</span></p>
+<p></p>
+<hr />
+<div>
+<p><span>1- В доме мужа, в котором она жила.</span></p>
+</div>

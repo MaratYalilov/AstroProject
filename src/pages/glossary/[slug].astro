@@ -1,0 +1,21 @@
+---
+import Base from '@/layouts/Base.astro'
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  const entries = await getCollection('glossary')
+  return entries.map(e => ({
+    params: { slug: e.data.url_slug },
+    props: { entry: e },
+  }))
+}
+
+const { entry } = Astro.props
+---
+
+<Base title={entry.data.term}>
+  <article class="prose max-w-3xl mx-auto">
+    <h1>{entry.data.term}</h1>
+    <div set:html={entry.body} />
+  </article>
+</Base>

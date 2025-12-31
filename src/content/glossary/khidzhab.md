@@ -1,0 +1,50 @@
+---
+term: "Хиджаб"
+url_slug: "khidzhab"
+letter: "К"
+category: "Категория 137"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Хиджаб (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حِجَابٌ</span><span dir="LTR"></span><span dir="LTR"></span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حَجَبَ</span><span dir="LTR"></span><span dir="LTR"></span> (закрывать, скрывать покрывалом; не допускать (куда-либо)) и означает – покрывало, занавес, преграда.
+
+## Подробно
+<p style="text-align: justify;">Хиджаб (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حِجَابٌ</span><span dir="LTR"></span><span dir="LTR"></span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">حَجَبَ</span><span dir="LTR"></span><span dir="LTR"></span> (закрывать, скрывать покрывалом; не допускать (куда-либо)) и означает – покрывало, занавес, преграда.</p>
+<p style="text-align: justify;">Аллах сказал: <b>«<span style="color: black;">Между раем и адом [находится] завеса».</span></b><span style="color: black;"> Сура: Преграды (46).</span><span dir="RTL"></span></p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "وَبَيْنَهُمَا حِجَابٌ". سورة الأعراف 46.</span><span dir="LTR" style="font-size: 16pt;"></span></p>
+<p><span dir="RTL"> </span></p>
+<p>Аллах сказал: <b>«…пока оно (солнце) не скрылось за преградой». </b>Сура: Сад (32).<span dir="RTL"></span></p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "حَتَّى تَوَارَتْ بِالْحِجَابِ". سورة ص 32.</span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Помяни в Писании Марьям (Марию). Вот она ушла от своей семьи на восток и укрылась от них за завесой».</b> Сура: Марьям (16, 17).</p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: " وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انْتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا فَاتَّخَذَتْ مِنْ دُونِهِمْ حِجَابًا". سورة مريم 16,17.</span><span dir="LTR" style="font-size: 16pt;"></span></p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span dir="LTR" style="font-size: 16pt;"> </span></p>
+<p style="text-align: justify;">В терминологии шариата <b>хиджаб – это покрывало женщины, которое закрывает все ее тело<a href="#_ftn1" name="_ftnref1" title=""><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[*]</span></b></span></span></a> и украшения от взора посторонних мужчин и этим покрывалом является как одежда, так и ее жилище.</b></p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">حِجِابُ الْمَرْأَةِ شَرْعًا‏:‏ "هُوَ سَتْرُ الْمَرْأَةِ جَمِيعَ بَدَنِهَا وَزِينَتِهَا، بِمَا يَمْنَعُ الْأَجَانِبَ عَنْهَا مِنْ رُؤْيَةِ شَيْءٍ مِنْ بَدَنِهَا أَوْ زِينَتِهَا الَّتِي تَتَزَيَّنُ بِهَا، وَيَكُونُ اسْتِتَارُهَا بِاللِّبَاسِ وَبِالْبُيُوتِ‏".‏</span><span dir="LTR"></span><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';"><span dir="LTR"></span> </span><span style="font-size: 16pt; font-family: 'Traditional Arabic';"></span></p>
+<p style="text-align: justify;"><span dir="RTL"> </span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«О Пророк! Скажи твоим женам, твоим дочерям и женщинам верующих мужчин, чтобы они опускали на себя (или сближали на себе) свои покрывала. Так их будут легче узнавать (отличать от рабынь и блудниц) и не подвергнут оскорблениям. Аллах — Прощающий, Милосердный».</b> Сура: Партии (59).</p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى : "يَا أَيُّهَا النَّبِيُّ قُلْ لأزْوَاجِكَ وَبَنَاتِكَ وَنِسَاءِ الْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِنْ جَلابِيبِهِنَّ ذَلِكَ أَدْنَى أَنْ يُعْرَفْنَ فَلا يُؤْذَيْنَ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا". سورة الأحزاب 59.</span></p>
+<p style="text-align: justify;">Аллах сказал: <b>«Скажи верующим женщинам, чтобы они опускали свои взоры и оберегали свои половые органы. Пусть они не выставляют напоказ своих прикрас, за исключением тех, которые видны, и пусть прикрывают своими покрывалами вырез на груди и не показывают своей красы никому, кроме своих мужей, или своих отцов, или своих свекров, или своих сыновей, или сыновей своих мужей, или своих братьев, или сыновей своих братьев, или сыновей своих сестер, или своих женщин, или невольников, которыми овладели их десницы, или слуг из числа мужчин, лишенных вожделения, или детей, которые не постигли наготы женщин; и пусть они не стучат своими ногами, давая знать об украшениях, которые они скрывают. О верующие! Обращайтесь к Аллаху с покаянием все вместе, — быть может, вы преуспеете».</b> Сура: Свет (31).</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "وَقُلْ لِلْمُؤْمِنَاتِ يَغْضُضْنَ مِنْ أَبْصَارِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَى جُيُوبِهِنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ آَبَائِهِنَّ أَوْ آَبَاءِ بُعُولَتِهِنَّ أَوْ أَبْنَائِهِنَّ أَوْ أَبْنَاءِ بُعُولَتِهِنَّ أَوْ إِخْوَانِهِنَّ أَوْ بَنِي إِخْوَانِهِنَّ أَوْ بَنِي أَخَوَاتِهِنَّ أَوْ نِسَائِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَانُهُنَّ أَوِ التَّابِعِينَ غَيْرِ أُولِي الْإِرْبَةِ مِنَ الرِّجَالِ أَوِ الطِّفْلِ الَّذِينَ لَمْ يَظْهَرُوا عَلَى عَوْرَاتِ النِّسَاءِ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِنْ زِينَتِهِنَّ وَتُوبُوا إِلَى اللَّهِ جَمِيعًا أَيُّهَا الْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ". سورة النور 31. </span></p>
+<div><br clear="all" /><hr align="left" size="1" width="33%" />
+<div>
+<p><a href="#_ftnref1" name="_ftn1" title=""><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[*]</span></span></a> Существует разногласие ученых по поводу покрытия лица и рук женщины, такие имамы как Аш-Шафи’ий и Ахмад считали это обязательным, а имамы Абу Ханифа и Малик желательным, кроме случаев опасности обольщения мужчин красивым лицом женщины.</p>
+</div>
+</div>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>

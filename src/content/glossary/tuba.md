@@ -1,0 +1,36 @@
+---
+term: "Туба"
+url_slug: "tuba"
+letter: "Т"
+category: "Т"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Туба (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">طُوبَى</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">طَابَ</span> (быть хорошим, приятным) и означает – наивысшее благо, блаженство.
+
+## Подробно
+<p style="text-align: justify;">Туба (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">طُوبَى</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">طَابَ</span> (быть хорошим, приятным) и означает – наивысшее благо, блаженство.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">Аллах сказал: <b>«Тем, которые уверовали и совершали праведные деяния, уготованы <span style="text-decoration: underline;">блаженство</span> и прекрасное место возвращения».</b> Сура: Гром (29).</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ طُوبَى لَهُمْ وَحُسْنُ مَآبٍ". سورة الرعد 29.</span></p>
+<p style="text-align: justify;"><b> </b></p>
+<p style="text-align: justify;"><b>Туба – это великое дерево, которое растёт в Раю, никто не знает его высоты, кроме Аллаха, ее ветви раскинуты так широко, что всадник за сто лет не сможет пройти это расстояние, ее ствол из золота, а из ее завязей выходят одежды обителей Рая.</b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">مَعْنَى كَلِمَةِ طُوبَى: "هِيَ شَجَرَةٌ عَظِيمَةٌ فِي الْجَنَّةِ, لا يَعْلَمُ طُولَهَا إِلَّا اللهُ عَزَّ وَجَلَّ يَسِيرُ الرَّاكِبُ تَحْتَ غُصْنٍ مِنْ أَغْصَانِهَا مَسِيرَةَ مِائَةَ عَامٍ, سَاقُهَا مِنْ ذَهَبٍ وَتَخْرُجُ مِنْ أَكْمَامِهَا ثِيَابُ أَهْلِ الْجَنَّةِ".</span></p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<p style="text-align: justify;">От Абу Хурайры, да будет доволен им Аллах, передается, что Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«В раю есть дерево, в тени которого всадник скачет сто лет и оно не кончается. Если желаете, то прочитайте (слова Всевышнего): «В распростертой тени<a href="#_ftn1" name="_ftnref1" title=""><span><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[1]</span></b></span></span></span></a>»». </b>Приводит аль-Бухари.</p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic'; color: black;">عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ يَبْلُغُ بِهِ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: "إِنَّ فِي الْجَنَّةِ شَجَرَةً يَسِيرُ الرَّاكِبُ فِي ظِلِّهَا مِائَةَ عَامٍ لا يَقْطَعُهَا وَاقْرَءُوا إِنْ شِئْتُمْ وَظِلٍّ مَمْدُودٍ". رواه البخاري </span></p>
+<p><b><span style="font-size: 16pt;"> </span></b></p>
+<p style="text-align: justify;">От Абу Саида аль-Худри, да будет доволен им Аллах, передается, что один человек сказал Пророку, да благословит его Аллах и приветствует: «О Посланник Аллаха! Что означает Туба?». Он сказал: <b>«Это дерево в Раю, растояние которого (всадник скачет) сто лет, а из его завязей выходят одежды обитателей Рая».</b> Приводит ибн Хиббан, аль-Албани сказал, что он достоверный по причине другого хадиса.</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">وعن أبي سعيد الخدري رضي الله عنه عن رسول الله صلى الله عليه و سلم أنه قَالَ لَهُ رَجُلٌ: يا رسول الله وَمَا طُوبَى قال: "شَجَرَةٌ فِى الْجَنَّةِ مَسِيرَةُ مِائَةِ عَامٍ ثِيَابُ أَهْلِ الْجَنَّةِ تَخْرُجُ مِنْ أَكْمَامِهَا". رواه ابن حبان قال الألباني : صحيح لغيره. </span></p>
+<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<p style="text-align: justify;">От Абу Умамы, да будет доволен им Аллах, передается, что Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Туба — тому, кто видел меня и уверовал».</b> Повторил семь раз. <b>«Туба - тому, кто уверовал в меня, не увидев меня».</b> Приводит Ахмад, Аль-Албани назвал этот хадис достоверным.</p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">عَنْ أَبِى أُمَامَةَ</span><span dir="LTR" style="font-size: 16pt;"> </span><span style="font-size: 16pt; font-family: 'Traditional Arabic';">رضي الله عنه أَنَّ رَسُولَ اللَّهِ -صلى الله عليه وسلم- قَالَ « طُوبَى لِمَنْ رَآنِى وَآمَنَ بِى وَ طُوبَى سَبْعَ مَرَّاتٍ لِمَنْ لَمْ يَرَنِى وَ آمَنَ بِى ». رواه أحمد و صححه الألباني.</span></p>
+<div><br clear="all" /><hr align="left" size="1" width="33%" />
+<div>
+<p><a href="#_ftnref1" name="_ftn1" title=""><span><span><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[1]</span></span></span></span></a> Сура: аль-Вакиа (30).</p>
+</div>
+</div>

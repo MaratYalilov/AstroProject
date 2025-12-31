@@ -1,0 +1,39 @@
+---
+term: "Кияс"
+url_slug: "kiyas"
+letter: "К"
+category: "К"
+tags: []
+aliases: []
+related: []
+used_in: []
+---
+
+## Кратко
+Кияс (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">قِيَاسٌ</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">قَاسَ</span> (мерить, измерять; сравнивать) и означает - измерение; сравнение; сопоставление, аналогия.
+
+## Подробно
+<p style="text-align: justify;">Кияс (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">قِيَاسٌ</span>) происходит от глагола <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">قَاسَ</span> (мерить, измерять; сравнивать) и означает - измерение; сравнение; сопоставление, аналогия.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">В терминологии <b>кияс – это сравнение ответвления<a href="#_ftn1" name="_ftnref1" title=""><span><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[1]</span></b></span></span></span></a> с основой<a href="#_ftn2" name="_ftnref2" title=""><span><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[2]</span></b></span></span></span></a> в (шариатском) постановлении<a href="#_ftn3" name="_ftnref3" title=""><span><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[3]</span></b></span></span></span></a> по причине объединяющего их фактора<a href="#_ftn4" name="_ftnref4" title=""><span><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[4]</span></b></span></span></span></a>.</b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">اَلْقِيَاسُ في الْاِصْطِلاحِ: " هُوَ تَسْوِيَةُ فَرْعٍ بِأَصْلٍ فِي حُكْمٍ لِعِلَّةٍ جَامِعَةٍ بَيْنَهُمَا"</span><b><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';">.</span></b></p>
+<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
+<p style="text-align: justify;">Передают, что Абу Хурейра, да будет доволен им Всевышний Аллах, рассказывал, что один мужчина сказал: «О Посланник Аллаха! Моя жена родила черного ребенка». Он спросил: <b>«У тебя есть верблюды?»</b> Мужчина ответил: «Да». Он спросил<b>: «Какого они цвета?»</b> Мужчина ответил: «Красные». Он спросил: <b>«Есть ли среди них верблюды пепельного цвета?»</b> Мужчина ответил: «Да». Он спросил: <b>«Отчего же так происходит?»</b> Мужчина сказал: «Наверное, на них повлияла наследственность». Тогда он сказал: <b>«Так же и твой сын. Наверное, на него повлияла наследственность»<a href="#_ftn5" name="_ftnref5" title=""><span><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[5]</span></b></span></span></span></a>.</b> Приводят аль-Бухари и Муслим.<b><span dir="RTL"> </span></b></p>
+<p style="text-align: right;"><span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">عَنْ أَبِى هُرَيْرَةَ أَنَّ رَجُلاً أَتَى النَّبِىَّ - صلى الله عليه وسلم - فَقَالَ يَا رَسُولَ اللَّهِ وُلِدَ لِى غُلاَمٌ أَسْوَدُ . فَقَالَ « هَلْ لَكَ مِنْ إِبِلٍ » . قَالَ نَعَمْ . قَالَ « مَا أَلْوَانُهَا » . قَالَ حُمْرٌ . قَالَ « هَلْ فِيهَا مِنْ أَوْرَقَ » . قَالَ نَعَمْ .قَالَ « فَأَنَّى ذَلِكَ ». قَالَ لَعَلَّهُ نَزَعَهُ عِرْقٌ . قَالَ « فَلَعَلَّ ابْنَكَ هَذَا نَزَعَهُ » . أخرجه البخاري و مسلم.</span></p>
+<div><br clear="all" /><hr align="left" size="1" width="33%" />
+<div>
+<p><a href="#_ftnref1" name="_ftn1" title=""><span><span><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[1]</span></span></span></span></a> Новое событие, вопрос, который не рассматривался при становлении шариата.</p>
+</div>
+<div>
+<p><a href="#_ftnref2" name="_ftn2" title=""><span><span><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[2]</span></span></span></span></a> Ситуация, вопрос, описанный в шариате.</p>
+</div>
+<div>
+<p><a href="#_ftnref3" name="_ftn3" title=""><span><span><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[3]</span></span></span></span></a> Например, шариатское постановление о запретности испития спиртных напитков.</p>
+</div>
+<div>
+<p><a href="#_ftnref4" name="_ftn4" title=""><span><span><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[4]</span></span></span></span></a> Например, фактор одурманивания присутствующий в спиртных напитках и наркотических веществах.</p>
+</div>
+<div>
+<p><a href="#_ftnref5" name="_ftn5" title=""><span><span><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[5]</span></span></span></span></a> В этом хадисе есть указание на аналогию, которую применил Посланник Аллаха, да благословит его Аллах и приветсвует.</p>
+</div>
+</div>
