@@ -1,5 +1,5 @@
 ---
-term: "'Аврат"
+term: "Аврат"
 url_slug: "avrat"
 letter: "А"
 category: "А"

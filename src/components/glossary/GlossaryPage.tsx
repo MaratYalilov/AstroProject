@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { CollectionEntry } from 'astro:content'
 import GlossaryCard from './GlossaryCard'
-import { replaceQuranTags } from "../../utils/replaceQuranTags";
 
 type GlossaryEntry = CollectionEntry<'glossary'>
 
@@ -19,6 +18,7 @@ export default function GlossaryPage({ entries }: Props) {
   const [letter, setLetter] = useState<string | null>(null)
   const [query, setQuery] = useState('')
 
+  // Фильтрация по букве и поиску
   const filtered = useMemo(() => {
     return entries
       .filter(entry =>
@@ -34,6 +34,13 @@ export default function GlossaryPage({ entries }: Props) {
         )
       })
   }, [entries, letter, query])
+
+  // Сортировка по алфавиту
+  const sorted = useMemo(() => {
+    return filtered.slice().sort((a, b) =>
+      a.data.term.localeCompare(b.data.term, 'ru')
+    )
+  }, [filtered])
 
   return (
     <div className="space-y-6">
@@ -64,9 +71,9 @@ export default function GlossaryPage({ entries }: Props) {
         ))}
       </div>
 
-      {/* Термины */}
+      {/* Карточки */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {filtered.map(entry => (
+        {sorted.map(entry => (
           <GlossaryCard
             key={entry.id}
             entry={entry}
@@ -74,7 +81,7 @@ export default function GlossaryPage({ entries }: Props) {
         ))}
       </div>
 
-      {filtered.length === 0 && (
+      {sorted.length === 0 && (
         <p className="text-muted-foreground text-sm">
           Ничего не найдено
         </p>

@@ -1,5 +1,5 @@
 ---
-term: "'Адаля, 'адль"
+term: "Адаля, 'адль"
 url_slug: "adalya-adl"
 letter: "А"
 category: "А"

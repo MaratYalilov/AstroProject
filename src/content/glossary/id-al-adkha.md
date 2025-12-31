@@ -1,5 +1,5 @@
 ---
-term: "'Ид аль-Адха"
+term: "Ид аль-Адха"
 url_slug: "id-al-adkha"
 letter: "И"
 category: "И"

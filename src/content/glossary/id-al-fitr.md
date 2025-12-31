@@ -1,5 +1,5 @@
 ---
-term: "'Ид аль-Фитр"
+term: "Ид аль-Фитр"
 url_slug: "id-al-fitr"
 letter: "И"
 category: "И"

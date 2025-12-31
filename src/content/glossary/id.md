@@ -1,5 +1,5 @@
 ---
-term: "'Ид"
+term: "Ид"
 url_slug: "id"
 letter: "И"
 category: "И"

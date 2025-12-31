@@ -1,5 +1,5 @@
 ---
-term: "'Азаб аль-кабр"
+term: "Азаб аль-кабр"
 url_slug: "azab-al-kabr"
 letter: "А"
 category: "А"

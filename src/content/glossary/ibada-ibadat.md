@@ -1,5 +1,5 @@
 ---
-term: "'Ибада, 'ибадат."
+term: "Ибада, 'ибадат."
 url_slug: "ibada-ibadat"
 letter: "И"
 category: "И"

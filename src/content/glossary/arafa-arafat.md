@@ -1,5 +1,5 @@
 ---
-term: "'Арафа, Арафат"
+term: "Арафа, Арафат"
 url_slug: "arafa-arafat"
 letter: "А"
 category: "А"
