@@ -1,6 +1,7 @@
 ---
 import Base from '@/layouts/Base.astro'
 import { getCollection } from 'astro:content'
+import { replaceQuranTags } from "../../utils/replaceQuranTags";
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossary')
@@ -16,6 +17,6 @@ const { entry } = Astro.props
 <Base title={entry.data.term}>
   <article class="prose max-w-3xl mx-auto">
     <h1>{entry.data.term}</h1>
-    <div set:html={entry.body} />
+    <div set:html={replaceQuranTags(entry.body)} />
   </article>
 </Base>

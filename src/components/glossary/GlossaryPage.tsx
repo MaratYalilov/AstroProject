@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { CollectionEntry } from 'astro:content'
 import GlossaryCard from './GlossaryCard'
+import { replaceQuranTags } from "../../utils/replaceQuranTags";
 
 type GlossaryEntry = CollectionEntry<'glossary'>
 
