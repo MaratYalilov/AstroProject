@@ -9,20 +9,16 @@ related: []
 used_in: []
 ---
 
-## Кратко
-<a href="http://ru.wikipedia.org/w/index.php?title=%D0%A5%D0%B0%D0%BD%D0%B8%D1%84&action=edit&redlink=1" title="Ханиф (страница отсутствует)"><span style="color: windowtext;">Ханиф</span></a> (<a href="http://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Арабский язык"><span style="color: windowtext;">араб</span></a>. حَنِيفٌ мн.ч. حُنَفَاءُ) происходит от глагола حَنَفَ  ‎‎ (склоняться (к чему), от этого же корня происходит слово أَحْنَفُ (косолапый).
-
-## Подробно
-<p style="text-align: justify;"><a href="http://ru.wikipedia.org/w/index.php?title=%D0%A5%D0%B0%D0%BD%D0%B8%D1%84&action=edit&redlink=1" title="Ханиф (страница отсутствует)"><span style="color: windowtext;">Ханиф</span></a> (<a href="http://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Арабский язык"><span style="color: windowtext;">араб</span></a>. حَنِيفٌ мн.ч. حُنَفَاءُ) происходит от глагола حَنَفَ  ‎‎ (склоняться (к чему), от этого же корня происходит слово أَحْنَفُ (косолапый).</p>
+<p><a href="http://ru.wikipedia.org/w/index.php?title=%D0%A5%D0%B0%D0%BD%D0%B8%D1%84&action=edit&redlink=1" title="Ханиф (страница отсутствует)"><span>Ханиф</span></a> (<a href="http://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Арабский язык"><span>араб</span></a>. حَنِيفٌ мн.ч. حُنَفَاءُ) происходит от глагола حَنَفَ   (склоняться (к чему), от этого же корня происходит слово أَحْنَفُ (косолапый).</p>
 <p>Сказал поэт:</p>
 <p>Клянусь Богом, если бы не его косолапость,</p>
 <p>Ему не было бы равных среди молодежи.</p>
-<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قَالَ شَاعَرٌ: وَاللهِ لَوْلَا حَنَفٌ بِرجِلْهِ ... ما كانَ في فِتْيانِكُمْ كَمِثْلِهِ</span></p>
-<p><span dir="RTL" style="font-size: 12.5pt; font-family: 'Traditional Arabic';"> </span></p>
+<p><span class="arab">قَالَ شَاعَرٌ: وَاللهِ لَوْلَا حَنَفٌ بِرجِلْهِ ... ما كانَ في فِتْيانِكُمْ كَمِثْلِهِ</span></p>
+<p><span class="arab"> </span></p>
 <p>В терминологии шариата <b>ханиф – это тот, кто оставил ложные религии и склонился к истинной религии единобожия.</b></p>
-<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">اَلْحَنِيفُ هُوَ الْمَائِلُ مِنْ كُلِّ دِينٍ بَاطِلٍ إَلى دِينِ الْحَقِّ.</span></p>
-<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span dir="LTR" style="font-size: 16pt;"> </span></p>
-<p style="text-align: justify;">Аллах сказал: <b>«Затем Мы внушили тебе: «Исповедуй религию Ибрахима (Авраама), ведь он был ханифом и не был из числа многобожников».</b> Сура: Пчелы (123).</p>
-<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "ثُمَّ أَوْحَيْنَا إِلَيْكَ أَنِ اتَّبِعْ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا ". سورة النحل 123.</span><span dir="LTR" style="font-size: 16pt; font-family: 'Traditional Arabic';"></span></p>
-<p style="text-align: justify;">Аллах сказал: <b>«Ибрахим (Авраам) не был ни иудеем, ни христианином. Он был ханифом, мусульманином и не был из числа многобожников».</b> Сура: Семейство Имрана (67).</p>
-<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلا نَصْرَانِيًّا وَلَكِنْ كَانَ حَنِيفًا مُسْلِمًا". سورة آل عمران 67.</span></p>
+<p><span class="arab">اَلْحَنِيفُ هُوَ الْمَائِلُ مِنْ كُلِّ دِينٍ بَاطِلٍ إَلى دِينِ الْحَقِّ.</span></p>
+<p><span> </span></p>
+<p>Аллах сказал: <b>«Затем Мы внушили тебе: «Исповедуй религию Ибрахима (Авраама), ведь он был ханифом и не был из числа многобожников».</b> Сура: Пчелы (123).</p>
+<p><span class="arab">قال تعالى: "ثُمَّ أَوْحَيْنَا إِلَيْكَ أَنِ اتَّبِعْ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا ". سورة النحل 123.</span><span class="arab"></span></p>
+<p>Аллах сказал: <b>«Ибрахим (Авраам) не был ни иудеем, ни христианином. Он был ханифом, мусульманином и не был из числа многобожников».</b> Сура: Семейство Имрана (67).</p>
+<p><span class="arab">قال تعالى: "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلا نَصْرَانِيًّا وَلَكِنْ كَانَ حَنِيفًا مُسْلِمًا". سورة آل عمران 67.</span></p>

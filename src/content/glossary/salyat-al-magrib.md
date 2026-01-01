@@ -9,25 +9,21 @@ related: []
 used_in: []
 ---
 
-## Кратко
-Салят аль-магриб (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">صَلاةُ الْمَغْرِبِ</span>) состоит из двух слов <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">صَلاةٌ</span> (молитва, намаз) и <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">مَغْرِبٌ</span> (вечер, место, время заката) и означает – вечерняя молитва.
+<p>Салят аль-магриб (араб. <span class="arab">صَلاةُ الْمَغْرِبِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">مَغْرِبٌ</span> (вечер, место, время заката) и означает – вечерняя молитва.</p>
 
-## Подробно
-<p style="text-align: justify;">Салят аль-магриб (араб. <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">صَلاةُ الْمَغْرِبِ</span>) состоит из двух слов <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">صَلاةٌ</span> (молитва, намаз) и <span dir="RTL" style="font-size: 16pt; font-family: 'Traditional Arabic';">مَغْرِبٌ</span> (вечер, место, время заката) и означает – вечерняя молитва.</p>
-<p style="text-align: justify;"> </p>
-<p style="text-align: justify;">В терминологии шариата <b>салят аль-магриб – это одна из пяти обязательных молитв мусульман, которая исполняется каждый день, она состоит из трех рака'атов, в (первых двух) из которых читается Коран вслух. Ее время начинается после захода солнца и продолжается до исчезновения красного зарева заката. </b></p>
-<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">صَلَاةُ المغرب في الْاِصْطِلَاحِ: "هِيَ إِحْدَى الصَّلَوَاتِ الْخَمْسِ الْمَفْرُوضَةِ كُلَّ يَوْمٍ عِنْدَ الْمُسْلِمِينَ وَهِيَ صَلاةٌ جَهْرِيَّةٌ تَتَكَوَّنُ مِنْ ثَلَاثِ رَكَعَاتٍ، يَبْتَدِئُ وَقْتُهَا إِذَا غَابَتِ الشَّمْسُ، وَيَمْتَدُّ إِلَى مَغِيبِ الشَّفَقِ الْأَحْمَرِ ".</span></p>
-<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><b><span dir="LTR" style="font-size: 16pt;"> </span></b></p>
-<p style="text-align: justify;">Аллах сказал: <b>«Совершай намаз в начале и конце дня и в некоторые часы ночи<a href="#_ftn1" name="_ftnref1" title=""><span><span><span><b><span style="font-size: 12pt; font-family: 'Times New Roman';">[1]</span></b></span></span></span></a>».</b> Сура: Худ (114).</p>
-<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "أَقِمِ الصَّلاةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ". سورة هود 114.</span></p>
-<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><b><span dir="LTR" style="font-size: 22pt; color: black;"> </span></b></p>
-<p style="text-align: justify;">Аллах сказал: «<b><span>Совершай намаз с полудня до наступления ночного мрака». </span></b><span>Сура: Ночной перенос (78).</span></p>
-<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">قال تعالى: "أَقِمِ الصَّلاةَ لِدُلُوكِ الشَّمْسِ إِلَى غَسَقِ اللَّيْلِ". سورة الإسراء 78.</span></p>
-<p dir="RTL" style="text-align: right; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';"> </span></p>
-<p style="text-align: justify;">Передается со слов Абдуллы бин Амра, да будет доволен им Аллах, что Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Время вечерней молитвы начинается после захода солнца и продолжается до тех пор, пока не исчезнет вечерняя заря».</b> Приводит Муслим.</p>
-<p dir="RTL" style="text-align: justify; direction: rtl; unicode-bidi: embed;"><span style="font-size: 16pt; font-family: 'Traditional Arabic';">عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ أَنَّ رَسُولَ اللَّهِ -صلى الله عليه وسلم- قَالَ : «...وَوَقْتُ صَلاَةِ الْمَغْرِبِ إِذَا غَابَتِ الشَّمْسُ مَا لَمْ يَسْقُطِ الشَّفَقُ...". أخرجه مسلم.</span></p>
+<p>В терминологии шариата <b>салят аль-магриб – это одна из пяти обязательных молитв мусульман, которая исполняется каждый день, она состоит из трех рака'атов, в (первых двух) из которых читается Коран вслух. Ее время начинается после захода солнца и продолжается до исчезновения красного зарева заката. </b></p>
+<p><span class="arab">صَلَاةُ المغرب في الْاِصْطِلَاحِ: "هِيَ إِحْدَى الصَّلَوَاتِ الْخَمْسِ الْمَفْرُوضَةِ كُلَّ يَوْمٍ عِنْدَ الْمُسْلِمِينَ وَهِيَ صَلاةٌ جَهْرِيَّةٌ تَتَكَوَّنُ مِنْ ثَلَاثِ رَكَعَاتٍ، يَبْتَدِئُ وَقْتُهَا إِذَا غَابَتِ الشَّمْسُ، وَيَمْتَدُّ إِلَى مَغِيبِ الشَّفَقِ الْأَحْمَرِ ".</span></p>
+<p><b><span> </span></b></p>
+<p>Аллах сказал: <b>«Совершай намаз в начале и конце дня и в некоторые часы ночи<a href="#_ftn1" name="_ftnref1" title=""><span><span><span><b><span>[1]</span></b></span></span></span></a>».</b> Сура: Худ (114).</p>
+<p><span class="arab">قال تعالى: "أَقِمِ الصَّلاةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ". سورة هود 114.</span></p>
+<p><b><span> </span></b></p>
+<p>Аллах сказал: «<b><span>Совершай намаз с полудня до наступления ночного мрака». </span></b><span>Сура: Ночной перенос (78).</span></p>
+<p><span class="arab">قال تعالى: "أَقِمِ الصَّلاةَ لِدُلُوكِ الشَّمْسِ إِلَى غَسَقِ اللَّيْلِ". سورة الإسراء 78.</span></p>
+<p><span class="arab"> </span></p>
+<p>Передается со слов Абдуллы бин Амра, да будет доволен им Аллах, что Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Время вечерней молитвы начинается после захода солнца и продолжается до тех пор, пока не исчезнет вечерняя заря».</b> Приводит Муслим.</p>
+<p><span class="arab">عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ أَنَّ رَسُولَ اللَّهِ -صلى الله عليه وسلم- قَالَ : «...وَوَقْتُ صَلاَةِ الْمَغْرِبِ إِذَا غَابَتِ الشَّمْسُ مَا لَمْ يَسْقُطِ الشَّفَقُ...". أخرجه مسلم.</span></p>
 <div><br clear="all" /><hr align="left" size="1" width="33%" />
 <div>
-<p><a href="#_ftnref1" name="_ftn1" title=""><span><span><span><span style="font-size: 10pt; font-family: 'Times New Roman';">[1]</span></span></span></span></a> Слова: «<b>в некоторые часы ночи» </b>охватывают вечерний и ночной намазы.</p>
+<p><a href="#_ftnref1" name="_ftn1" title=""><span><span><span><span>[1]</span></span></span></span></a> Слова: «<b>в некоторые часы ночи» </b>охватывают вечерний и ночной намазы.</p>
 </div>
 </div>

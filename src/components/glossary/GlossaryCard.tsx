@@ -1,26 +1,30 @@
 import type { CollectionEntry } from 'astro:content'
-import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { replaceQuranTags } from "../../utils/replaceQuranTags";
+import { replaceQuranTags } from '../../utils/replaceQuranTags'
 
 type GlossaryEntry = CollectionEntry<'glossary'>
 
-export default function GlossaryCard({ entry }: { entry: GlossaryEntry }) {
-  const [open, setOpen] = useState(false)
+type Props = {
+  entry: GlossaryEntry
+  opened: boolean
+  onToggle: () => void
+}
 
+export default function GlossaryCard({
+  entry,
+  opened,
+  onToggle,
+}: Props) {
   return (
-    <motion.div layout className="border rounded-lg p-4">
-      <button
-        onClick={() => setOpen(!open)}
-        className="w-full text-left"
-      >
+    <motion.div layout className="border rounded-lg p-4 bg-background">
+      <button onClick={onToggle} className="w-full text-left">
         <h3 className="text-lg font-semibold">
           {entry.data.term}
         </h3>
       </button>
 
-      <AnimatePresence>
-        {open && (
+      <AnimatePresence initial={false}>
+        {opened && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
@@ -28,7 +32,9 @@ export default function GlossaryCard({ entry }: { entry: GlossaryEntry }) {
             className="prose prose-sm mt-4 max-w-none"
           >
             <div
-              dangerouslySetInnerHTML={{ __html: replaceQuranTags(entry.body) }}
+              dangerouslySetInnerHTML={{
+                __html: replaceQuranTags(entry.body),
+              }}
             />
           </motion.div>
         )}
