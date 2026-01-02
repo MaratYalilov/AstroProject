@@ -15,9 +15,9 @@ used_in: []
 <p><span class="arab">اَلْغَنِيمَةُ فِي الْاِصْطِلَاحِ: " هُوَ اسْمٌ لِمَا يُؤْخَذُ مِنْ أَمْوَالِ الْكَفَرَةِ بِقُوَّةِ الْغُزَاةِ الْمُسْلِمِينَ وَقَهْرِ الْكَفَرَةِ, عَلَى وَجْهٍ يَكُونُ فِيهِ إِعْلَاءُ كَلْمَةِ اللهِ".</span></p>
 <p><span class="arab"></span></p>
 <p><span class="arab"></span></p>
-<p><span>{Quran}8:1{/Quran}</span></p>
+<p>{Quran}8:1{/Quran}</p>
 <p><span class="arab"></span></p>
-<p><span>{Quran}8:41{/Quran}</span></p>
+<p>{Quran}8:41{/Quran}</p>
 <p><span class="arab"></span></p>
 
 <p><span class="arab"></span></p>

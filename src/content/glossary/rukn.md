@@ -9,10 +9,9 @@ related: []
 used_in: []
 ---
 
-<p>Рукн мн.ч. аркан (араб. <span class="arab">رُكْنٌ</span><span></span><span></span><span></span><span></span> мн.ч. <span class="arab">أَرْكَانٌ</span><span></span><span></span><span></span><span></span>) происходит от глагола <span class="arab">رَكَنَ</span><span></span><span></span><span></span><span></span> (опираться;  полагаться (на кого), доверять (кому <span class="arab">إلى</span><span></span><span></span><span></span><span></span>);  склоняться (к чему <span class="arab">إلى</span><span></span><span></span><span></span><span></span>)) и означает - колонна; столб, опора;  угол;  главная составная часть; основа.</p>
-<p>Аллах сказал: <b>«Мы поддержали тебя, когда ты готов был уже немного склониться на их сторону».</b> Сура: Ночной перенос (74).</p>
-<p><span class="arab">قال تعالى: " وَلَوْلَا أَنْ ثَبَّتْنَاكَ لَقَدْ كِدْتَ تَرْكَنُ إِلَيْهِمْ شَيْئًا قَلِيلًا". سورة الإسراء 74.</span><span></span></p>
-<p><span> </span></p>
+<p>Рукн мн.ч. аркан (араб. <span class="arab">رُكْنٌ</span> мн.ч. <span class="arab">أَرْكَانٌ</span>) происходит от глагола <span class="arab">رَكَنَ</span> (опираться;  полагаться (на кого), доверять (кому <span class="arab">إلى</span>);  склоняться (к чему <span class="arab">إلى</span>)) и означает - колонна; столб, опора;  угол;  главная составная часть; основа.</p>
+<p>{Quran}17:74{/Quran}</p>
+<p> </p>
 <p>В терминологии <b>рукн – это то, без чего невозможно существование вещи.</b></p>
 <p><span class="arab">اَلرُّكْنُ فِي الْاِصْطِلَاحِ: " هُوَ مَا لَا وُجُودَ لِشَيْءٍ إِلاَّ بِهِ".</span></p>
 <p><span class="arab"> </span></p>
