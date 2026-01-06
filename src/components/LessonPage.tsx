@@ -367,7 +367,17 @@ const LessonPage: React.FC<LessonPageProps> = ({
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <main className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-12">
+      <div className="w-full">
+      <main className="
+        mx-auto
+        grid
+        max-w-7xl
+        grid-cols-1
+        gap-6
+        px-0 sm:px-6 lg:px-8
+        py-6
+        lg:grid-cols-12
+      ">
         {/* ЛЕВАЯ ЧАСТЬ */}
         <section className="space-y-4 lg:col-span-8">
           <Tabs
@@ -375,24 +385,32 @@ const LessonPage: React.FC<LessonPageProps> = ({
               videoTabAvailable ? "video" : audioTabAvailable ? "audio" : "text"
             }
           >
-            <TabsList className="grid w-full grid-cols-3 rounded-2xl p-1">
+            <TabsList className="  
+                    grid
+                    w-full
+                    grid-cols-3
+                    rounded-none sm:rounded-2xl
+                    p-0 sm:p-1
+                    "
+            >
               <TabsTrigger
                 value="video"
                 disabled={!videoTabAvailable}
-                className="flex items-center gap-2"
+                className="flex w-full items-center justify-center gap-2"
               >
                 <Play className="h-4 w-4" />
                 Видео
               </TabsTrigger>
+
               <TabsTrigger
                 value="audio"
                 disabled={!audioTabAvailable}
-                className="flex items-center gap-2"
+                className="flex w-full items-center justify-center gap-2"
               >
                 <Headphones className="h-4 w-4" />
                 Аудио
               </TabsTrigger>
-              <TabsTrigger value="text" className="flex items-center gap-2">
+              <TabsTrigger value="text" className="flex w-full items-center justify-center gap-2">
                 <FileText className="h-4 w-4" />
                 Текст
               </TabsTrigger>
@@ -406,7 +424,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
                 transition={{ duration: 0.2 }}
               >
                 <Card className="overflow-hidden">
-                  <CardHeader className="flex items-center justify-between gap-4">
+                  <CardHeader className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                     <div>
                       <CardTitle className="text-xl sm:text-2xl">
                         {currentLesson.title}
@@ -516,11 +534,17 @@ const LessonPage: React.FC<LessonPageProps> = ({
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.2 }}
               >
-                <Card className="overflow-hidden">
+                <Card className="overflow-hidden rounded-none sm:rounded-xl">
                   <CardContent className="p-0">
-                    <ScrollArea className="h-[60vh] p-6">
+                    <ScrollArea className="h-[60vh] p-0 sm:p-6">
                       <article
-                        className="prose prose-sm sm:prose-base prose-neutral dark:prose-invert max-w-none"
+                        className="
+                              prose
+                              prose-sm sm:prose-base
+                              prose-neutral dark:prose-invert
+                              max-w-none
+                              px-4 sm:px-0
+                        "
                         dangerouslySetInnerHTML={{ __html: currentLesson.html }}
                       />
                     </ScrollArea>
@@ -531,10 +555,10 @@ const LessonPage: React.FC<LessonPageProps> = ({
           </Tabs>
 
           {/* Навигация по урокам */}
-          <div className="flex items-center justify-between gap-3 pt-2">
+          <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:items-center sm:justify-between">
             <Button
               variant="secondary"
-              className="gap-2"
+              className="w-full gap-2 sm:w-auto"
               asChild
               disabled={!prevLesson}
             >
@@ -543,10 +567,11 @@ const LessonPage: React.FC<LessonPageProps> = ({
                 Предыдущий урок
               </a>
             </Button>
-            <div className="flex items-center gap-2">
+
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
               <Button
                 type="button"
-                className="gap-2"
+                className="w-full gap-2 sm:w-auto"
                 variant={isCurrentLessonCompleted ? "default" : "outline"}
                 onClick={handleToggleCompletion}
                 aria-pressed={isCurrentLessonCompleted}
@@ -556,7 +581,12 @@ const LessonPage: React.FC<LessonPageProps> = ({
                   ? "Снять отметку"
                   : "Отметить как завершённый"}
               </Button>
-              <Button className="gap-2" asChild disabled={!nextLesson}>
+
+              <Button
+                className="w-full gap-2 sm:w-auto"
+                asChild
+                disabled={!nextLesson}
+              >
                 <a href={nextLesson ? buildLessonUrl(nextLesson.slug) : "#"}>
                   Следующий урок
                   <ChevronRight className="h-4 w-4" />
@@ -569,7 +599,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
         {/* ПРАВАЯ ПАНЕЛЬ: список уроков */}
         <aside className="lg:col-span-4">
           <div className="sticky top-[80px]">
-            <Card>
+            <Card className="rounded-none sm:rounded-xl">
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-base sm:text-lg">
@@ -692,6 +722,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
           </div>
         </aside>
       </main>
+      </div>
     </div>
   );
 };

@@ -58,6 +58,7 @@ const glossary = defineCollection({
       aliases: z.array(z.string()).default([]),
       related: z.array(z.string()).default([]),
       used_in: z.array(z.any()).default([]),
+      description: z.string().optional(),
     }),
   });
 

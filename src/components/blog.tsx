@@ -415,11 +415,11 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   React.useEffect(() => {
     if (!isClient || displayGroups.length === 0 || normalizedQuery || hasUserInteracted || !lastViewedSlug) return;
 
-    console.log("Initializing open group:", {
-      lastViewedSlug,
-      currentLessonSlug: currentLesson.slug,
-      shouldOpenLastViewed: lastViewedSlug !== currentLesson.slug
-    });
+    // console.log("Initializing open group:", {
+    //   lastViewedSlug,
+    //   currentLessonSlug: currentLesson.slug,
+    //   shouldOpenLastViewed: lastViewedSlug !== currentLesson.slug
+    // });
 
     // Определяем, какую группу открыть:
     // 1. Если есть последний просмотренный урок, и он отличается от текущего, открываем его группу
@@ -432,17 +432,17 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     );
     
     if (targetGroup) {
-      console.log("Opening group:", targetGroup.groupKey, "for slug:", targetSlug);
+      // console.log("Opening group:", targetGroup.groupKey, "for slug:", targetSlug);
       setOpenGroup(targetGroup.groupKey);
     } else if (displayGroups.length > 0) {
       // Если не нашли группу, открываем первую не-предисловие группу
       const firstRealGroup = displayGroups.find(g => g.groupKey !== "_pred");
       if (firstRealGroup) {
-        console.log("Opening first real group:", firstRealGroup.groupKey);
+        // console.log("Opening first real group:", firstRealGroup.groupKey);
         setOpenGroup(firstRealGroup.groupKey);
       } else {
         // Если только предисловие, открываем его
-        console.log("Opening preface group:", displayGroups[0].groupKey);
+        // console.log("Opening preface group:", displayGroups[0].groupKey);
         setOpenGroup(displayGroups[0].groupKey);
       }
     }
@@ -458,7 +458,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     );
     
     if (currentGroup) {
-      console.log("Updating open group to current lesson group:", currentGroup.groupKey);
+      // console.log("Updating open group to current lesson group:", currentGroup.groupKey);
       setOpenGroup(currentGroup.groupKey);
     }
   }, [currentLesson.slug, displayGroups, normalizedQuery, isClient, hasUserInteracted]);
@@ -469,7 +469,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
     
     const timer = setTimeout(() => {
       if (activeLessonRef.current && sidebarScrollRef.current) {
-        console.log("Scrolling to active lesson:", currentLesson.slug);
+        // console.log("Scrolling to active lesson:", currentLesson.slug);
         // Прокручиваем sidebar к активному уроку (верхняя треть)
         const sidebar = sidebarScrollRef.current;
         const elementRect = activeLessonRef.current.getBoundingClientRect();
@@ -505,79 +505,63 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
 
   // Обработчик клика по заголовку группы
   const handleGroupClick = (key: string | number) => {
-    console.log("User clicked group:", key);
+    // console.log("User clicked group:", key);
     setOpenGroup((prev) => (prev === key ? null : key));
     setHasUserInteracted(true);
   };
 
   // Добавим console.log для отладки
-  React.useEffect(() => {
-    if (isClient && lastViewedSlug) {
-      console.log("Last viewed slug on client:", lastViewedSlug);
-      console.log("Current lesson slug:", currentLesson.slug);
-      console.log("Are they different?", lastViewedSlug !== currentLesson.slug);
-    }
-  }, [isClient, lastViewedSlug, currentLesson.slug]);
+  // React.useEffect(() => {
+  //   if (isClient && lastViewedSlug) {
+  //     console.log("Last viewed slug on client:", lastViewedSlug);
+  //     console.log("Current lesson slug:", currentLesson.slug);
+  //     console.log("Are they different?", lastViewedSlug !== currentLesson.slug);
+  //   }
+  // }, [isClient, lastViewedSlug, currentLesson.slug]);
+
+//   return (
+//   <div className="min-h-screen bg-background text-foreground">
+//     <main className="mx-auto w-full max-w-full lg:max-w-7xl grid grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-12">
+//       {/* ЛЕВО: основная статья */}
+//       <section className="space-y-4 lg:col-span-8 border-2 border-red-500"> {/* ← ДОБАВЬТЕ ЭТО */}
+//         <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
+//           <Card className="overflow-hidden border-2 border-blue-500 w-full"> {/* ← И ЭТО */}
+//             <CardContent className="p-6 border-2 border-green-500 w-full"> {/* ← И ЭТО */}
+//               <article 
+//                 className="prose prose-sm sm:prose-base prose-neutral dark:prose-invert max-w-none border-2 border-yellow-500 w-full" 
+//                 style={{width: '100%'}} /* ← И ЭТО */
+//                 dangerouslySetInnerHTML={{ __html: currentLesson.html }} 
+//               />
+//             </CardContent>
+//           </Card>
+//         </motion.div>
+//       </section>
+//     </main>н
+//   </div>
+// );
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <main className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-12">
+      <main className="flex flex-col lg:grid lg:grid-cols-12 gap-4">
         {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8">
-          {currentLesson.video && (
-            <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
-              <Card className="overflow-hidden">
-                <CardHeader className="flex items-center justify-between gap-4">
-                  <div>
-                    <CardTitle className="text-lg sm:text-xl">Видео-урок</CardTitle>
-                  </div>
-                  <Button variant="outline" size="sm" className="gap-2" asChild>
-                    <a href={currentLesson.video} download>
-                      <Download className="h-4 w-4" />
-                      Скачать видео
-                    </a>
-                  </Button>
-                </CardHeader>
-                <CardContent>
-                  <div className="aspect-video w-full overflow-hidden rounded-xl bg-muted">
-                    <video className="h-full w-full" controls preload="none" playsInline>
-                      <source src={currentLesson.video} />
-                    </video>
-                  </div>
-                </CardContent>
-              </Card>
-            </motion.div>
-          )}
+          <motion.div 
+            initial={{ opacity: 0, y: 8 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 0.2 }}
+          >
+            {/* На мобиле просто article, на десктопе Card */}
+            <article 
+              className="
+                prose prose-neutral dark:prose-invert
+                max-w-none
+                text-[clamp(0.9rem,2.1vw,1rem)]
+                leading-relaxed tracking-tight sm:tracking-normal
 
-          {currentLesson.audio && (
-            <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
-              <Card>
-                <CardHeader className="flex items-center justify-between gap-4">
-                  <div>
-                    <CardTitle className="text-lg sm:text-xl">Аудио-урок</CardTitle>
-                  </div>
-                  <Button variant="outline" size="sm" className="gap-2" asChild>
-                    <a href={currentLesson.audio ?? ""} download>
-                      <Download className="h-4 w-4" />
-                      Скачать аудио
-                    </a>
-                  </Button>
-                </CardHeader>
-                <CardContent>
-                  <audio className="w-full" controls preload="none">
-                    <source src={currentLesson.audio ?? ""} />
-                  </audio>
-                </CardContent>
-              </Card>
-            </motion.div>
-          )}
-
-          <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
-            <Card className="overflow-hidden">
-              <CardContent className="p-6">
-                <article className="prose prose-sm sm:prose-base prose-neutral dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: currentLesson.html }} />
-              </CardContent>
-            </Card>
+                p-0 lg:p-6
+                lg:border lg:border-input lg:shadow-sm lg:rounded-lg
+              "
+              dangerouslySetInnerHTML={{ __html: currentLesson.html }}
+            />
           </motion.div>
 
           <div className="mt-4 grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
@@ -592,7 +576,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
             <div className="flex justify-center">
               <button
                 type="button"
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 gap-2 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+                className="inline-flex items-center whitespace-nowrap gap-2 px-4 py-2 rounded-md border"
                 onClick={handleToggleCompletion}
                 aria-pressed={isCurrentLessonCompleted}
               >
@@ -610,6 +594,8 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
             </div>
           </div>
         </section>
+
+
 
         {/* ПРАВО: групповое оглавление */}
         <aside className="lg:col-span-4">
@@ -733,7 +719,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                                               .filter(Boolean)
                                               .join(" ")}
                                             onClick={() => {
-                                              console.log("User clicked lesson:", l.slug);
+                                              // console.log("User clicked lesson:", l.slug);
                                               // При клике на урок сбрасываем флаг взаимодействия пользователя
                                               // чтобы при загрузке новой страницы группа открылась правильно
                                               setHasUserInteracted(false);
@@ -790,7 +776,6 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
           </div>
         </aside>
       </main>
-    </div>
   );
 };
 

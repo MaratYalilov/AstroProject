@@ -144,8 +144,21 @@ export function renderAyahBlock(
   const audioId = `quran-audio-${surah}-${ayah}`;
 
   return `
-<div class="Quran quran-ayah-block" data-surah="${surah}" data-ayah="${ayah}" data-page="${page}">
-  <p class="Quran_p quran-ayah-block__arabic qcf-ayah qcf-page-${page}">
+<div class="
+    w-full md:w-[90%] lg:w-[85%]
+    mx-auto mb-6
+    bg-amber-50 dark:bg-gray-800
+    border-2 border-emerald-200 dark:border-emerald-700
+    rounded-xl p-6
+    shadow-lg
+    "
+    data-quran-ayah="one_verse" // используется в Base.astro для поиска блоков
+    data-surah="${surah}" 
+    data-ayah="${ayah}" 
+    data-page="${page}"
+  >
+
+  <p class="quran-ayah-block__arabic qcf-ayah qcf-page-${page}">
     ${codeV2}
   </p>
 
@@ -301,10 +314,10 @@ export function renderAyahRangeBlock(
   // Построим единый непрерывный арабский блок: внутри - span'ы по страницам
   // между группами ставим пробел, чтобы они шли подряд; можно заменить на '' если нужен без пробелов.
   const arabicInlineHtml = `
-    <p class="Quran_p quran-ayah-block__arabic" aria-label="Арабский текст">
+    <p class="qcf-ayah" aria-label="Арабский текст">
       ${groups
         .map(
-          (g) => `<span class="qcf-ayah qcf-page-${g.page}" data-page="${g.page}">${g.codes.join(
+          (g) => `<span class="qcf-page-${g.page}" data-page="${g.page}">${g.codes.join(
             " ",
           )}</span>`,
         )
@@ -326,7 +339,15 @@ export function renderAyahRangeBlock(
 
   return `
 <div
-  class="Quran quran-ayah-block quran-ayah-range-block"
+  class="
+    w-full md:w-[90%] lg:w-[85%]
+    mx-auto mb-6
+    bg-amber-50 dark:bg-gray-800
+    border-2 border-emerald-100 dark:border-emerald-700
+    rounded-xl p-6
+    shadow-lg
+  "
+  data-quran-ayah="many_verses" // используется в Base.astro для поиска блоков
   data-surah="${surah}"
   data-from="${start}"
   data-to="${end}"

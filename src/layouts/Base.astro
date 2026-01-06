@@ -90,7 +90,7 @@ const { title = "Lesson" } = Astro.props as { title?: string };
         var currentQuranButton = null;
 
         function setupQuranAudioButtons() {
-          var blocks = document.querySelectorAll('.quran-ayah-block');
+          var blocks = document.querySelectorAll('[data-quran-ayah]');
           blocks.forEach(function (block) {
             var button = block.querySelector('.quran-audio-button');
             var audio = block.querySelector('audio.quran-audio-element');
@@ -200,7 +200,7 @@ const { title = "Lesson" } = Astro.props as { title?: string };
     <header class="sticky top-0 z-40 border-b bg-background/80 dark:bg-[#181818] backdrop-blur supports-[backdrop-filter]:bg-background/60 supports-[backdrop-filter]:dark:bg-[#181818]/95">
       <NavBar client:load currentPath={Astro.url.pathname} />
     </header>
-    <main class="mx-auto max-w-7xl px-4 py-6">
+    <main class="mx-auto w-full max-w-7xl px-4 py-6">
       <slot />
     </main>
   </body>

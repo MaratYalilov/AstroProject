@@ -1,22 +1,52 @@
 ---
 import Base from '@/layouts/Base.astro'
+import GlossaryPage from '@/components/glossary/GlossaryPage'
 import { getCollection } from 'astro:content'
-import { replaceQuranTags } from "../../utils/replaceQuranTags";
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossary')
+
   return entries.map(e => ({
-    params: { slug: e.data.url_slug },
-    props: { entry: e },
+    params: { slug: e.data.url_slug ?? e.slug },
   }))
 }
 
-const { entry } = Astro.props
----
+const site = Astro.site
+const { slug } = Astro.params
 
-<Base title={entry.data.term}>
-  <article class="prose max-w-3xl mx-auto">
-    <h1>{entry.data.term}</h1>
-    <div set:html={replaceQuranTags(entry.body)} />
-  </article>
+const entries = await getCollection('glossary')
+
+const entry = entries.find(
+  e => (e.data.url_slug ?? e.slug) === slug
+)
+
+if (!entry) {
+  return Astro.redirect('/glossary')
+}
+
+const canonical = new URL(`/glossary/${slug}`, site).toString()
+
+const title = `${entry.data.term} — Глоссарий`
+const description =
+  entry.data.description ??
+  `${entry.data.term} — термин и определение из глоссария`
+---
+<Base title={title} description={description}>
+  <!-- Canonical -->
+  <link rel="canonical" href={canonical} />
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+
+  <!-- (опционально, но полезно) -->
+  <meta name="robots" content="index, follow" />
+
+  <GlossaryPage
+    entries={entries}
+    initialSlug={slug}
+    client:load
+  />
 </Base>
