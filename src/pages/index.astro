@@ -20,6 +20,8 @@ const items = subjects.map((s) => ({
   slug: s.data.slug,
   title: s.data.title,
   emoji: s.data.emoji,
+  icon: s.data.icon,
+  iconClass: s.data.iconClass,
   coursesCount: counts.get(s.data.slug) ?? 0,
 }));
 ---

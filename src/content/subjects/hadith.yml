@@ -3,3 +3,5 @@ title: "Хадис"
 emoji: "📙"
 order: 4
 description: "Изучение сборников хадисов и их толкований."
+iconClass: "w-12 h-12"
+icon: "subject-icons/hadith.svg"

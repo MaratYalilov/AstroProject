@@ -3,11 +3,19 @@ import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = React.useState(
-    typeof window !== "undefined" && localStorage.getItem("theme") === "dark"
-      ? "dark"
-      : "light"
-  );
+  // По умолчанию темная тема, если не сохранена другая в localStorage
+  const [theme, setTheme] = React.useState(() => {
+    if (typeof window !== "undefined") {
+      const savedTheme = localStorage.getItem("theme");
+      // Если есть сохраненная тема - используем ее
+      if (savedTheme) {
+        return savedTheme;
+      }
+      // Иначе используем темную тему по умолчанию
+      return "dark";
+    }
+    return "dark"; // fallback для SSR
+  });
 
   React.useEffect(() => {
     const root = document.documentElement;

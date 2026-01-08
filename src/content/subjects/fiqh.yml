@@ -3,3 +3,5 @@ title: "Фикх"
 emoji: "⚖️"
 order: 2
 description: "Раздел исламского права: тахарат, таяммум, намаз, хайд и т.д."
+iconClass: "w-12 h-12"
+icon: "subject-icons/fiqh.svg"

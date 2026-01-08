@@ -8,6 +8,8 @@ const subjects = defineCollection({
     emoji: z.string().optional(),
     order: z.number().optional(),
     description: z.string().optional(),
+    icon: z.string().optional(), // путь к иконке
+    iconClass: z.string().optional(), // дополнительные классы CSS
   }),
 });
 

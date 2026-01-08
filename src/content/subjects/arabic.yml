@@ -3,3 +3,5 @@ title: "Арабский язык"
 emoji: "📝"
 order: 7
 description: "Курсы арабского языка для чтения, понимания и разговора."
+iconClass: "w-12 h-12"
+icon: "subject-icons/arabic.svg"

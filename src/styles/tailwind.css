@@ -54,9 +54,7 @@
   font-style: italic;
   font-display: swap;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 @layer base {
   :root {
@@ -158,10 +156,7 @@
       serif !important;
   }
 
-  .arab-strong {
-    @apply font-semibold;
-  }
-  
+
 
 
 
@@ -495,3 +490,63 @@ footer {
     border: none;
 }
 
+/* иконки для карточек предметов */
+@layer components {
+  /* Плавное появление фоновой иконки */
+  @keyframes fadeInScale {
+    from {
+      opacity: 0;
+      transform: translateY(-50%) scale(0.95);
+    }
+    to {
+      opacity: 0.04;
+      transform: translateY(-50%) scale(1);
+    }
+  }
+  
+  /* Улучшение для темной темы */
+  .dark .subject-card-bg-icon {
+    opacity: 0.03;
+  }
+  
+  .dark .subject-card-bg-icon:hover {
+    opacity: 0.05;
+  }
+  
+  /* Градиентная маска для лучшей читаемости */
+  .subject-card-content-mask {
+    position: relative;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.7) 30%,
+      rgba(255, 255, 255, 0.4) 60%,
+      transparent 100%
+    );
+  }
+  
+  .dark .subject-card-content-mask {
+    background: linear-gradient(
+      to right,
+      rgba(17, 24, 39, 0.9) 0%,
+      rgba(17, 24, 39, 0.7) 30%,
+      rgba(17, 24, 39, 0.4) 60%,
+      transparent 100%
+    );
+  }
+}
+
+
+/* стили для ссылок на глоссарий */
+.glossary-link {
+  color: var(--accent-color);
+  text-decoration: underline dotted;
+}
+
+.glossary-link:hover {
+  text-decoration-style: solid;
+}
+.glossary-link:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
