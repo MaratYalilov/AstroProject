@@ -1,13 +1,19 @@
 ---
-term: "Истигфар"
-url_slug: "istigfar"
-letter: "И"
-category: "И"
+term: Истигфар
+url_slug: istigfar
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- islam
+- ramadan
+- sakhikh
+- tasbikh
+used_in:
+- 13-an-nasr-pomoshch.md
 ---
+
 
 <p>Истигфар (араб. <span class="arab">اِسْتِغْفَارٌ</span>) происходит от глагола первой породы <span class="arab">غَفَرَ</span> (прикрывать, закрывать; прощать) и означает – просить прощение и защиты у Аллаха.</p>
 

@@ -1,13 +1,14 @@
 ---
-term: "Калам"
-url_slug: "kalam"
-letter: "К"
-category: "К"
+term: Калам
+url_slug: kalam
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Калам (араб. كَلَامٌ) происходит от глагола первой породы كَلَمَ (ранить, огорчать) и глагола второй породы كَلَّمَ (говорить) и означает – речь, слово.</p>
 <p>{Quran}2:75{/Quran}</p>

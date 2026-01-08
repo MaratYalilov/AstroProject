@@ -1,13 +1,46 @@
 ---
-term: "Хиджра"
-url_slug: "khidzhra"
-letter: "К"
-category: "Категория 137"
+term: Хиджра
+url_slug: khidzhra
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- ansary
+- din
+- dzhakhilijya
+- dzhama-a
+- fard
+- fikkh
+- id
+- imam
+- iman
+- islam
+- kaaba
+- khadzh
+- khafiz
+- kharam
+- khidzhr
+- khira
+- mandub
+- mukhadzhiry
+- musulmanin
+- ramadan
+- sakhikh
+- salyam
+- sira
+- tavaf
+- tavakkul
+- umma
+used_in:
+- 06-urok-sira-vzroslaya-zhizn-proroka.md
+- 07-urok-sira-oblik-proroka.md
+- 10-urok-sira-pervye-musulmane.md
+- 7-1-hadis-hidzhra.md
+- 8-1-hadis-hidzhra-polzy.md
 ---
+
 
 <p>Хиджра (араб. <span class="arab">هِجْرَةٌ</span>) происходит от глагола <span class="arab">هَجَرَ</span> (прекращать, бросать (занятия); оставлять, расставаться; прекращать общение) и означает – бросание, оставление, покидание.</p>
 <p>{Quran}25:30{/Quran}</p>

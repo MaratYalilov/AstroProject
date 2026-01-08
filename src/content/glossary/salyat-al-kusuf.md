@@ -1,13 +1,14 @@
 ---
-term: "Салят аль-кусуф"
-url_slug: "salyat-al-kusuf"
-letter: "Р"
-category: "Р"
+term: Салят аль-кусуф
+url_slug: salyat-al-kusuf
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="userslayout/салят" target="_blank">Салят</a> аль-кусуф (араб. <span class="arab">صَلاةُ الْكُسُوفِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">كُسُوفٌ</span> (затмение Солнца) и означает – молитва при затмении (солнца или луны).</p>
 

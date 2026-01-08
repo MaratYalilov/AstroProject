@@ -1,13 +1,14 @@
 ---
-term: "Салят аль-магриб"
-url_slug: "salyat-al-magrib"
-letter: "Р"
-category: "Р"
+term: Салят аль-магриб
+url_slug: salyat-al-magrib
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Салят аль-магриб (араб. <span class="arab">صَلاةُ الْمَغْرِبِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">مَغْرِبٌ</span> (вечер, место, время заката) и означает – вечерняя молитва.</p>
 

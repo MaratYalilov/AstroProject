@@ -1,13 +1,14 @@
 ---
-term: "Салят аз-зухр"
-url_slug: "salyat-az-zukhr"
-letter: "Р"
-category: "Р"
+term: Салят аз-зухр
+url_slug: salyat-az-zukhr
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><span class="arab"><a href="userslayout/салят" target="_blank">Салят</a> аз-зухр (араб. صَلاةُ الظُّهْرِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">ظُهْرٌ</span> (полдень) и означает – полуденная молитва.</p>
 <p> </p>

@@ -30,7 +30,7 @@ audioRel: audio/77-poisk-vody-dlya-omoveniya.mp3
 videoRel: video/77-poisk-vody-dlya-omoveniya.mp4
 ---
 
-<p><span class="urok">Урок № 77. | Курс: "Мишкат аль-Масабих", глава "Таяммум"</span><span dir="RTL"></span></p>
+<p><span class="urok">Урок № 77. | Курс: "Мишкат аль-Масабих", глава "<a href="/glossary/tayammum" class="glossary-link" target="_blank" rel="noopener noreferrer">Таяммум</a>"</span><span dir="RTL"></span></p>
 <p dir="rtl"><b class="arab"><span><span dir="RTL"><span>530</span> -</span></span></b><span class="arab">عَ</span><span class="arab">نْ أَبِي ذَرٍّ رَضِيَ الله عَنْهُ</span><span class="arab">، قَالَ</span><span class="arab"> رَسُولُ الله</span><span class="arab"> صَلَّى الله عَلَيْهِ وَ سَلَّمَ</span><span class="arab">: ”إِنَّ الصَّعِيدَ الطَّيِّبَ وُضُوءُ الْمُسْلِمِ وَ إِنْ لَمْ يَجِدِ الْمَاءَ عَشْرَ سِنِينَ، فَإِذَا وَجَدَ الْمَاءَ فَلْيُمِسَّهُ بَشَرَهُ فَإِنَّ ذَلِكَ خَيْرٌ“. </span></p>
 <p class="arab" dir="rtl"><span>رَوَاهُ أَحْمَدُ وَ التِّرْمِذِيُّ وَ أَبُو دَاوُدَ. وَ رَوَى النَّسَائِيُّ نَحْوَهُ إِلَى قَوْلِهِ: ”عَشْرَ سِنِينَ“</span><span>.</span></p>
 

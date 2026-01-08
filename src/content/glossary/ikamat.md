@@ -1,13 +1,14 @@
 ---
-term: "Икамат"
-url_slug: "ikamat"
-letter: "И"
-category: "И"
+term: Икамат
+url_slug: ikamat
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Икамат (араб. <span class="arab">إِقَامَةٌ</span>) происходит от глагола <span class="arab">أَقَامَ</span> (выпрямлять, исправлять; ставить; воздвигать; исполнять; жить, проживать) и означает - поднятие; воздвижение, возведение, постройка; исполнение; пребывание, проживание.</p>
 <p>{Quran}2:43{/Quran}</p>

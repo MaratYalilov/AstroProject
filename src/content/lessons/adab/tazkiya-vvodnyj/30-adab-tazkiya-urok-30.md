@@ -8,6 +8,6 @@ audioRel: audio/30-adab-tazkiya-urok-30.mp3
 video: /media/adab/tazkiya-vvodnyj/video/30-adab-tazkiya-urok-30.mp4
 videoRel: video/30-adab-tazkiya-urok-30.mp4
 ---
-# 30 Адаб (тазкия) урок 30
+# 30 <a href="/glossary/adab" class="glossary-link" target="_blank" rel="noopener noreferrer">Адаб</a> (тазкия) урок 30
 
 Конспекта урока не существует.

@@ -1,13 +1,14 @@
 ---
-term: "Ракаат, рак'а"
-url_slug: "rakaat-rak-a"
-letter: "Р"
-category: "Р"
+term: Ракаат, рак'а
+url_slug: rakaat-rak-a
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ракаат, рак'а (араб. <span class="arab">رَكْعَةٌ</span>) происходит от глагола <span class="arab">رَكَعَ</span> (склоняться, сгибаться; кланяться в пояс; совершать коленопреклонение) и означает – один поклон.</p>
 

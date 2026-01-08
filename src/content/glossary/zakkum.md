@@ -1,13 +1,17 @@
 ---
-term: "Заккум"
-url_slug: "zakkum"
-letter: "З"
-category: "З"
+term: Заккум
+url_slug: zakkum
+letter: З
+category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- khasan
+used_in:
+- 37-al-gashiya-pokryvaiushchee-1.md
+- 59-an-naziat-istorgaiushchie-3.md
 ---
+
 
 <p>Заккум (араб. <span class="arab">زَقُّومٌ</span>) происходит от глагола <span class="arab">زَقَمَ</span> (глотать, проглатывать) и означает – дикое растение с цветами похожими на жасмин; десерт из фиников в сливочном масле.</p>
 

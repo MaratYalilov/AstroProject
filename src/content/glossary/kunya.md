@@ -1,13 +1,25 @@
 ---
-term: "Кунья"
-url_slug: "kunya"
-letter: "К"
-category: "К"
+term: Кунья
+url_slug: kunya
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- id
+- imam
+- islam
+- khasan
+- madzhaz
+- mechet
+- namima
+- tora
+used_in:
+- 09-urok-sira-formy-peredachi-otkroveniya.md
+- 12-al-masad-palmovye-volokna.md
 ---
+
 
 <p>Кунья (араб. <span class="arab">كُنْيَةٌ</span>) происходит от глагола <span class="arab">كَنَى</span> (прозывать, давать прозвище) и означает – прозвище с приставкой слов Абу (отец) или Умм (мать).</p>
 

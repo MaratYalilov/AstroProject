@@ -76,8 +76,8 @@ videoRel: video/23-2-hadis-chudo-korana.mp4
 - Все виды поклонения
 - Основные жизненные постулаты мусульманина:
   - Благодарность Аллаху
-  - Искренность (ихлас)
-  - Единобожие (таухид)
+  - Искренность (<a href="/glossary/ikhlas" class="glossary-link" target="_blank" rel="noopener noreferrer">ихлас</a>)
+  - Единобожие (<a href="/glossary/taukhid" class="glossary-link" target="_blank" rel="noopener noreferrer">таухид</a>)
   - Обращение к Аллаху (дуа)
   - Важность ахирата
   - Единство общины (множественное число)

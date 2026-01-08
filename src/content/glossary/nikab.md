@@ -1,13 +1,17 @@
 ---
-term: "Никаб"
-url_slug: "nikab"
-letter: "Н"
-category: "Н"
+term: Никаб
+url_slug: nikab
+letter: Н
+category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- khanif
+- sunna
+used_in:
+- 20-protiranie-kozhanoi-obuvi-2.md
 ---
+
 
 <p>Никаб (араб. <span class="arab">نِقَابٌ</span>) происходит от глагола <span class="arab">نَقَبَ</span> (пробивать отверстие, проламывать; делать подкоп) и означает – отверстие, подкоп.</p>
 <p>{Quran}18:97{/Quran}</p>

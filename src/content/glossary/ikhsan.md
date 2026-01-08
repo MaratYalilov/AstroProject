@@ -1,13 +1,33 @@
 ---
-term: "Ихсан"
-url_slug: "ikhsan"
-letter: "И"
-category: "И"
+term: Ихсан
+url_slug: ikhsan
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ajn
+- bid-a
+- din
+- fard
+- fitra
+- ikhlas
+- iman
+- islam
+- khadzh
+- khukm
+- musulmanin
+- riya
+- shajtan
+- shirk
+- tafsir
+used_in:
+- 01-takhaviya-vstuplenie.md
+- 33-2-hadis-ihsan.md
+- 34-2-hadis-namaz-fatiha.md
+- 62-17-hadis-ihsan-sovershenstvo-vo-vsem.md
 ---
+
 
 <p>Ихсан (араб. <span class="arab">إِحْسانٌ</span>) существительное от глагола <span class="arab">أَحْسَنَ</span> (делать превосходно, отлично; совершать благодеяния, делать добро (кому). Однокоренное со словом <span class="arab">حَسَنَةٌ</span> – добро. И означает – благодеяние, милость и является антонимом «ухудшение, причинение зла».</p>
 

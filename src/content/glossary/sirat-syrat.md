@@ -1,13 +1,14 @@
 ---
-term: "Сират, Сырат."
-url_slug: "sirat-syrat"
-letter: "С"
-category: "С"
+term: Сират, Сырат.
+url_slug: sirat-syrat
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Сират (араб. <span class="arab">سِرَاطٌ</span> или <span class="arab">صِرَاطٌ</span>) происходит от глагола <span class="arab">صَرِطَ</span> или <span class="arab">سَرِطَ</span> (глотать, проглатывать) и означает – прямой путь, ясная дорога.<b><span class="arab"></span></b></p>
 <p>{Quran}7:86{/Quran}</p>

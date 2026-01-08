@@ -1,13 +1,14 @@
 ---
-term: "Салафия, саляфия"
-url_slug: "salafiya-salyafiya"
-letter: "Р"
-category: "Р"
+term: Салафия, саляфия
+url_slug: salafiya-salyafiya
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Салафия (араб. <span class="arab">سَلَفِيَّةٌ</span>) происходит от глагола <span class="arab">سَلَفَ</span> (быть раньше (чего-л), предшествовать; быть прошлым) и означает – следование предшественникам, поддержание традиций предков.</p>
 

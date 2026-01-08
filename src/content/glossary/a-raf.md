@@ -1,13 +1,14 @@
 ---
-term: "А'раф"
-url_slug: "a-raf"
-letter: "А"
-category: "А"
+term: А'раф
+url_slug: a-raf
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>А'раф (араб. <span class="arab">أَعْرَافٌ</span>) множественное число от первообразного слова <span class="arab">عُرْفٌ</span> (возвышенность, вершина горы; стена) и означает – вершины; стены.</p>
 

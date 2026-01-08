@@ -1,13 +1,14 @@
 ---
-term: "Газуа, газва, газават"
-url_slug: "gazua-gazva-gazavat"
-letter: "Г"
-category: "Г"
+term: Газуа, газва, газават
+url_slug: gazua-gazva-gazavat
+letter: Г
+category: Г
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Газва, газават (араб. <span class="arab">غَزْوَةٌ</span>) происходит от глагола <span class="arab">غَزَا</span> (совершать поход, нашествие; нападать; завоевывать) и означает - поход; набег; нашествие.</p>
 

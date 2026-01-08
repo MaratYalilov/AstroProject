@@ -1,13 +1,14 @@
 ---
-term: "Са'й"
-url_slug: "sa-j"
-letter: "Р"
-category: "Р"
+term: Са'й
+url_slug: sa-j
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Са'й (араб. <span class="arab">سَعْيٌ</span>) происходит от глагола <span class="arab">سَعَى</span> (быстро устремляться, бежать; стремится (к чему <span class="arab">إلى</span>);стараться) и означает – бег; стремление; старание.</p>
 

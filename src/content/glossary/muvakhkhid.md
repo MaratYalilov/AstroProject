@@ -1,13 +1,14 @@
 ---
-term: "Муваххид"
-url_slug: "muvakhkhid"
-letter: "М"
-category: "М"
+term: Муваххид
+url_slug: muvakhkhid
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Муваххид (араб. <span class="arab">مُوَحِّدٌ</span>) происходит от глагола <span class="arab">وَحَّدَ</span> (делать что-то единым, объединять) и означает – объединяющий; приверженец единобожия, единобожник, монотеист.</p>
 

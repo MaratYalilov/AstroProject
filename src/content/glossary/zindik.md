@@ -1,13 +1,14 @@
 ---
-term: "Зиндик"
-url_slug: "zindik"
-letter: "З"
-category: "З"
+term: Зиндик
+url_slug: zindik
+letter: З
+category: З
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Зиндик (араб. <span class="arab">زِنْدِيقٌ</span>) происходит от персидского <span class="arab">زنده </span><b>  </b>(время, жизнь) и <span class="arab">كرد</span> (деяние, работа) и означает – безбожник, атеист, дуалист.</p>
 <p><b> </b></p>

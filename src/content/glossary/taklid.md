@@ -1,13 +1,29 @@
 ---
-term: "Таклид"
-url_slug: "taklid"
-letter: "Т"
-category: "Т"
+term: Таклид
+url_slug: taklid
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- fikkh
+- gusl
+- idzhtikhad
+- imam
+- khidzhama
+- kunut
+- mazkhab
+- riba
+- zakyat
+used_in:
+- 4-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 5-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 6-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 7-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 8-prichiny-raznoglasij-mezhdu-uchenymi.md
 ---
+
 
 <p>Таклид (араб. <span class="arab">تَقْلِيدٌ</span>) происходит от глагола <span class="arab">قَلَّدَ</span> (надевать на кого-л. ожерелье; подражать, копировать) и означает – подражание.</p>
 <p>В терминологии <b>таклид – это принятие мнения других (людей) без (знания) доказательства.</b></p>

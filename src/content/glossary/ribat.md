@@ -1,13 +1,23 @@
 ---
-term: "Рибат"
-url_slug: "ribat"
-letter: "Р"
-category: "Р"
+term: Рибат
+url_slug: ribat
+letter: Р
+category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- islam
+- khaud
+- mechet
+- mursal
+- sadaka
+- vudu
+- zikr
+used_in:
+- 02-dostoinstva-omoveniya.md
+- 08-ciyayuschie-lica.md
 ---
+
 
 <p>Рибат (араб. <span class="arab">رِبَاطٌ</span>) происходит от глагола <span class="arab">رَبَطَ</span> (связывать, соединять, закреплять; привязывать) и от глагола <span class="arab">رَابَطَ</span> (стоять на страже) и означает – настойчивость, усердие; неразлучность; охрана границы.</p>
 <p>В терминологии шариата рибат имеет общий и особый смысл:</p>

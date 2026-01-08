@@ -1,13 +1,26 @@
 ---
-term: "Арш"
-url_slug: "arsh"
-letter: "А"
-category: "А"
+term: Арш
+url_slug: arsh
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhinn
+- ikhlas
+- imam
+- kaaba
+- khasan
+- sadaka
+- sakhikh
+- shajtan
+- vitr
+- zakyat
+used_in:
+- 39-al-aglya-vsevyshniy-1.md
+- 63-al-bakara-ayat-al-kursi.md
 ---
+
 
 <p>'Арш (араб. <span class="arab">عَرْشٌ</span>) происходит от глагола <span class="arab">عَرَشَ</span> (делать навес; подпирать (виноградные лозы); возводить (крышу)) и означает – трон, престол; навес, крыша.</p>
 

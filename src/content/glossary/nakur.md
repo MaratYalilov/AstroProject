@@ -1,13 +1,14 @@
 ---
-term: "Накур"
-url_slug: "nakur"
-letter: "Н"
-category: "Н"
+term: Накур
+url_slug: nakur
+letter: Н
+category: Н
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Накур (араб. <span class="arab">نَاقُورٌ</span>) происходит от глагола <span class="arab">نَقَرَ</span> (стучать; клевать; кричать (на скот); порицать, осуждать, и др. значения) и означает - рог, горн, труба.</p>
 

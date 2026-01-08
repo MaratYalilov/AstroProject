@@ -1,13 +1,21 @@
 ---
-term: "Бурак"
-url_slug: "burak"
-letter: "Б"
-category: "Б"
+term: Бурак
+url_slug: burak
+letter: Б
+category: Б
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- imam
+- islam
+- khafiz
+- khanif
+- khira
+- mechet
+used_in:
+- 23-urok-sira-taif-nochnoe-voznesenie.md
 ---
+
 
 <p>Бурак (араб. <span class="arab">بُرَاقٌ</span>) происходит от корня <span class="arab">بَرِيقٌ</span> (блеск, сверкание) или от <span class="arab">بَرْقٌ</span> (молния) и означает – имя верхового животного, имеющего белый, сверкающий цвет и молниеносную скорость передвижения.</p>
 

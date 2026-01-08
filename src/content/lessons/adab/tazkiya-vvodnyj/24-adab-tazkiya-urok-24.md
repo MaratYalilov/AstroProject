@@ -8,6 +8,6 @@ audioRel: audio/24-adab-tazkiya-urok-24.mp3
 video: /media/adab/tazkiya-vvodnyj/video/24-adab-tazkiya-urok-24.mp4
 videoRel: video/24-adab-tazkiya-urok-24.mp4
 ---
-# 24 Адаб (тазкия) урок 24
+# 24 <a href="/glossary/adab" class="glossary-link" target="_blank" rel="noopener noreferrer">Адаб</a> (тазкия) урок 24
 
 Конспекта урока не существует.

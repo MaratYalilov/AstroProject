@@ -1,13 +1,35 @@
 ---
-term: "Таравих"
-url_slug: "taravikh"
-letter: "Т"
-category: "Т"
+term: Таравих
+url_slug: taravikh
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- bid-a
+- ikhlas
+- iman
+- islam
+- khadzh
+- khalyal
+- kufr
+- mechet
+- musulmanin
+- ramadan
+- sadaka
+- sunna
+- takva
+- usul-al-fikkh
+- zikr
+- zukhd
+used_in:
+- 04-prichina-vhoda-v-rai.md
+- 19-2-hadis-duhovnye-uroki-posta.md
+- 42-5-hadis-klassifikaciya-novovvedenij.md
+- 48-ramadan.md
 ---
+
 
 <p>Таравих, ед.ч. тарвиха. (араб. <span class="arab">تَرَاوِيحُ</span> ед.ч. <span class="arab">تَرْوِيحَةٌ</span>) происходит от корня <span class="arab">رَاحَةٌ</span> (спокойствие, покой, отдых) и означает – сидение для отдыха, это название произошло от того, что молящиеся садились для отдыха после каждого четвертого рака'ата намаза. Затем имя таравих стало применяться для названия молитвы.</p>
 <p>В терминологии <b>таравих – это добровольный намаз совершаемый группой на протяжении всех ночей месяца Рамадана, по два рака'ата, в общем количестве которых ученые имеют различные мнения.</b></p>

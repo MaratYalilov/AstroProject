@@ -1,13 +1,14 @@
 ---
-term: "Ахлюль-китаб"
-url_slug: "ahlul-kitab"
-letter: "А"
-category: "А"
+term: Ахлюль-китаб
+url_slug: ahlul-kitab
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ахлюль-китаб (араб. <span class="arab">أَهْلُ الْكِتَابِ</span>) состоит из двух слов <span class="arab">أَهْلٌ</span> (люди, приверженцы) и <span class="arab">كِتَابٌ</span> (книга, писание) и означает – люди Писания.</p>
 

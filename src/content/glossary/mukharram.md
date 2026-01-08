@@ -1,13 +1,23 @@
 ---
-term: "Мухаррам"
-url_slug: "mukharram"
-letter: "М"
-category: "М"
+term: Мухаррам
+url_slug: mukharram
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- gusl
+- imam
+- islam
+- khasan
+- naskh
+- sakhikh
+- zakyat
+used_in:
+- 21-urok-sira-polnaya-blokada.md
+- 50-obschenie-s-oskvernennym.md
 ---
+
 
 <p>Мухаррам (араб. <span class="arab">مُحَرَّمٌ</span>) происходит от глагола <span class="arab">حَرَّمَ</span> (запрещать; объявлять священным) и означает – запрещенный; священный.</p>
 

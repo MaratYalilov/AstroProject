@@ -1,13 +1,14 @@
 ---
-term: "Адаля, 'адль"
-url_slug: "adalya-adl"
-letter: "А"
-category: "А"
+term: Адаля, 'адль
+url_slug: adalya-adl
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>'Адаля, 'адль (араб. <span class="arab">عَدَالَةٌ, عَدْلٌ</span>) происходит от глагола <span class="arab">عَدَلَ</span> (быть справедливым, правосудным; выравнивать, выпрямлять; равняться) и означает - справедливость, правосудие; честность, добросовестность.</p>
 

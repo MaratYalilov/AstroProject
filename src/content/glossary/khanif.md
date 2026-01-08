@@ -1,13 +1,24 @@
 ---
-term: "Ханиф"
-url_slug: "khanif"
-letter: "К"
-category: "Категория 137"
+term: Ханиф
+url_slug: khanif
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- burak
+- imam
+- islam
+- khafiz
+- khira
+- mechet
+- nikab
+- sunna
+used_in:
+- 20-protiranie-kozhanoi-obuvi-2.md
+- 23-urok-sira-taif-nochnoe-voznesenie.md
 ---
+
 
 <p><a href="http://ru.wikipedia.org/w/index.php?title=%D0%A5%D0%B0%D0%BD%D0%B8%D1%84&action=edit&redlink=1" title="Ханиф (страница отсутствует)">Ханиф</a> (<a href="http://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Арабский язык">араб</a>. حَنِيفٌ мн.ч. حُنَفَاءُ) происходит от глагола حَنَفَ   (склоняться (к чему), от этого же корня происходит слово أَحْنَفُ (косолапый).</p>
 <p>Сказал поэт:</p>

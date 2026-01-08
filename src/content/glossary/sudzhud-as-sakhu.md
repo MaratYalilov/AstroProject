@@ -1,13 +1,14 @@
 ---
-term: "Суджуд ас-саху"
-url_slug: "sudzhud-as-sakhu"
-letter: "С"
-category: "С"
+term: Суджуд ас-саху
+url_slug: sudzhud-as-sakhu
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Суджуд ас-саху (араб. <span class="arab">سُجُودُ</span><b><span class="arab"> </span></b><span class="arab">السَّهْوِ</span>) состоит из двух слов <span class="arab">سُجُودٌ</span> (земной поклон) и <span class="arab">سَهْوٌ</span> (невнимательность, рассеянность; оплошность; ошибка) и означает – поклон за невнимательность.</p>
 

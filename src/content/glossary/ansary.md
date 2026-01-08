@@ -1,13 +1,43 @@
 ---
-term: "Ансары"
-url_slug: "ansary"
-letter: "А"
-category: "А"
+term: Ансары
+url_slug: ansary
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- din
+- dzhama-a
+- gusl
+- id
+- imam
+- iman
+- islam
+- istindzha
+- kaaba
+- khadzh
+- khasan
+- khidzhr
+- khidzhra
+- makhdi
+- mechet
+- mukhadzhiry
+- munkar
+- musulmanin
+- sakhikh
+- salyam
+- sira
+- tauba
+- umma
+used_in:
+- 07-urok-sira-oblik-proroka.md
+- 11-2-hadis-sut-islama.md
+- 23-spravlenie-nuzhdy-stoya.md
+- 66-al-bakara-korova-01-aiat.md
+- 71-al-bakara-korova-08-09-aiat.md
 ---
+
 
 <p>Ансары (араб. <span class="arab">أَنْصَارٌ</span>) происходит от глагола <span class="arab">نَصَرَ</span> (помогать, оказывать помощь; давать победу; защищать, избавлять (от чего <span class="arab">عن</span><b><span class="arab">,</span></b><span class="arab">من</span>)) и означает – помощники.</p>
 

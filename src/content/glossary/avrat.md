@@ -1,13 +1,14 @@
 ---
-term: "Аврат"
-url_slug: "avrat"
-letter: "А"
-category: "А"
+term: Аврат
+url_slug: avrat
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>'Аврат (араб.<span class="arab">عَوْرَةٌ</span>) происходит от глагола<span class="arab">عَوِرَ</span>(быть одноглазым, не видеть, не смотреть одним глазом) и означает - слабость, недостаток; слабое незащищенное место; нагота, половые органы.</p>
 

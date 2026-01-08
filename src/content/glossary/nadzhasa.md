@@ -1,13 +1,14 @@
 ---
-term: "Наджаса"
-url_slug: "nadzhasa"
-letter: "Н"
-category: "Н"
+term: Наджаса
+url_slug: nadzhasa
+letter: Н
+category: Н
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Наджаса (араб. <span class="arab">نَجَاسَةٌ</span>) происходит от глагола <span class="arab">نَجُسَ</span> (быть нечистым, оскверненным) и означает - нечистота, скверна, осквернение.</p>
 

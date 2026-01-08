@@ -1,13 +1,31 @@
 ---
-term: "Вуду"
-url_slug: "vudu"
-letter: "В"
-category: "В"
+term: Вуду
+url_slug: vudu
+letter: В
+category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ashura
+- gusl
+- idzhma
+- ikhlas
+- islam
+- khasan
+- khukm
+- makrukh
+- mazkhab
+- musulmanin
+- ramadan
+- ribat
+- sadaka
+- takhara
+used_in:
+- 01-vidy-vody.md
+- 02-dostoinstva-omoveniya.md
+- 03-smyvanie-grehov.md
 ---
+
 
 <p>Вуду (араб. <span class="arab">وُضُوءٌ</span>) происходит от глагола первой пароды <span class="arab">وَضُؤَ</span><b><span class="arab"> </span></b> (быть чистым) и означает – чистота, омовение, тахарат; блеск, красота.</p>
 

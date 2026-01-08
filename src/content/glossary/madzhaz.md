@@ -1,13 +1,23 @@
 ---
-term: "Маджаз"
-url_slug: "madzhaz"
-letter: "М"
-category: "М"
+term: Маджаз
+url_slug: madzhaz
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- imam
+- islam
+- khadzh
+- khasan
+- kunya
+- musulmanin
+- namima
+used_in:
+- 12-al-masad-palmovye-volokna.md
+- 13-urok-sira-etapy-prizyva-chast2.md
 ---
+
 
 <p>Маджаз (араб. <span class="arab">مَجَازٌ</span>) происходит от глагола <span class="arab">جَازَ</span> (проходить, проезжать; быть разрешенным, позволенным, допущенным) и означает - проход, коридор; иносказательность; образное выражение; метафора.</p>
 

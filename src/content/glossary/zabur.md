@@ -1,13 +1,29 @@
 ---
-term: "Забур"
-url_slug: "zabur"
-letter: "З"
-category: "З"
+term: Забур
+url_slug: zabur
+letter: З
+category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- indzhil
+- isra
+- khafiz
+- khasad
+- kibr
+- ramadan
+- sakhikh
+- sukhur
+- tafsir
+- tora
+- zikr
+used_in:
+- 03-nisposlanie-korana.md
+- 22-2-hadis-vera-v-angelov-i-pisaniya.md
+- 3-1-vera-v-pisaniya.md
+- 52-vera-v-pisaniya.md
 ---
+
 
 <p>
 <p class="MsoNormal">Забур (араб. <span class="arab">زَبُورٌ</span>) происходит от глагола <span class="arab">زَبَرَ</span> (писать, переписывать) и означает – писание, книга.</p>

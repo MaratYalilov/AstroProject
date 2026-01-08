@@ -1,13 +1,14 @@
 ---
-term: "Кысас, кисас."
-url_slug: "kysas-kisas"
-letter: "К"
-category: "К"
+term: Кысас, кисас.
+url_slug: kysas-kisas
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Кысас (араб. <span class="arab">قِصَاصٌ</span>) происходит от глагола <span class="arab">قَصَّ</span> (следовать; идти по следам кого-л.) и означает - возмездие, наказание, расплата, то есть расплата за последствие преступления.</p>
 

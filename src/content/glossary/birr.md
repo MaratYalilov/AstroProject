@@ -1,13 +1,20 @@
 ---
-term: "Бирр"
-url_slug: "birr"
-letter: "Б"
-category: "Б"
+term: Бирр
+url_slug: birr
+letter: Б
+category: Б
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- fitra
+- islam
+- sunna
+- takva
+used_in:
+- 76-28-hadis-nastavlenie-na-vremena-smut.md
 ---
+
 
 <p>Бирр (араб. <span class="arab">بِرٌّ</span>) происходит от глагола <span class="arab">بَرَّ</span> (быть почтительным, добрым, любящим; быть набожным, благочестивым; повиноваться, слушаться; соблюдать, исполнять, сдерживать (клятву, обещание и т.п. <span class="arab">بــــــ</span>); быть верным (чему <span class="arab">فى</span><b><span class="arab">,</span></b> <span class="arab">بــــــ</span>)) и означает - доброта, праведность, благочестие, набожность; благотворительность.</p>
 

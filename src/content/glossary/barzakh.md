@@ -1,13 +1,23 @@
 ---
-term: "Барзах"
-url_slug: "barzakh"
-letter: "Б"
-category: "Б"
+term: Барзах
+url_slug: barzakh
+letter: Б
+category: Б
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- islam
+- khasan
+- mutavatir
+- sunna
+used_in:
+- 5-6-vera-v-smertnyy-mig.md
+- 5-7-dovod-otritsayushchikh-mucheniya-v-mogile.md
+- 89-vera-v-smertnyy-mig.md
+- 90-mucheniya-i-naslazhdeniya-v-mogile.md
+- 91-dovody-otricayuschih-mucheniya-v-mogile.md
 ---
+
 
 <p>Барзах (араб. <span class="arab">بَرْزَخٌ</span>) первообразное имя в значении – преграда, перешеек.</p>
 <p>{Quran}25:53{/Quran}</p>

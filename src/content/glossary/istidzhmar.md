@@ -1,13 +1,18 @@
 ---
-term: "Истиджмар"
-url_slug: "istidzhmar"
-letter: "И"
-category: "И"
+term: Истиджмар
+url_slug: istidzhmar
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- istindzha
+- sunna
+- vadzhib
+used_in:
+- 04-istindzha.md
 ---
+
 
 <p>Истиджмар (араб. <span class="arab">اِسْتِجْمَارٌ</span>) происходит от первообразного <span class="arab">جِمَارٌ</span> (маленькие камни) и означает – использовать (или искать) маленькие камни.</p>
 

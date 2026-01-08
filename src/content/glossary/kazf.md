@@ -1,13 +1,14 @@
 ---
-term: "Казф"
-url_slug: "kazf"
-letter: "К"
-category: "К"
+term: Казф
+url_slug: kazf
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Казф (араб. <span class="arab">قَذْفٌ</span>) происходит от глагола <span class="arab">قَذَفَ</span> (бросать, метать, швырять ( что вин.п. или <span class="arab">بـــ</span> )) и означает - бросание, метание, швыряние.</p>
 

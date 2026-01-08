@@ -1,13 +1,14 @@
 ---
-term: "Мухаддис"
-url_slug: "mukhaddis"
-letter: "М"
-category: "М"
+term: Мухаддис
+url_slug: mukhaddis
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мухаддис (араб. <span class="arab">مُحَدِّثٌ</span>) происходит от глагола <span class="arab">حَدَّثَ</span> (рассказывать, передавать) и означает – рассказчик, собеседник.</p>
 

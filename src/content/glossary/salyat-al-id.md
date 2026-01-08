@@ -1,13 +1,14 @@
 ---
-term: "Салят аль-'Ид"
-url_slug: "salyat-al-id"
-letter: "Р"
-category: "Р"
+term: Салят аль-'Ид
+url_slug: salyat-al-id
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="/userslayout/салят">Салят</a> аль-<a href="/userslayout/ид">'Ид</a> (араб. <span class="arab">صَلَاةُ الْعِيدِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">عِيدٌ</span> (праздник) и означает – праздничная молитва.</p>
 

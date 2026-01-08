@@ -1,13 +1,14 @@
 ---
-term: "Ганима, ганаим"
-url_slug: "ganima-ganaim"
-letter: "Г"
-category: "Г"
+term: Ганима, ганаим
+url_slug: ganima-ganaim
+letter: Г
+category: Г
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ганима, мн.ч. ганаим (араб. <span class="arab">غَنِيمَةٌ,</span><span class="arab">غَنَائِمُ</span>) происходит от глагола <span class="arab">غَنِمَ</span> (добывать; захватывать в качестве добычи, трофея) и означает - добыча, нажива; трофей.</p>
 

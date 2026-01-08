@@ -1,13 +1,14 @@
 ---
-term: "Хаджар асвад"
-url_slug: "khadzhar-asvad"
-letter: "К"
-category: "Категория 137"
+term: Хаджар асвад
+url_slug: khadzhar-asvad
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Хаджар асвад (араб. <span class="arab">اَلْحَجَرُ الْأَسْوَدُ</span>) состоит из двух слов <span class="arab">حَجَرٌ</span> (камень) и <span class="arab">أَسْوَدُ</span> (черный) и означат – черный камень.</p>
 

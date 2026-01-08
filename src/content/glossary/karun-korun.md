@@ -1,13 +1,14 @@
 ---
-term: "Карун, Корун."
-url_slug: "karun-korun"
-letter: "К"
-category: "К"
+term: Карун, Корун.
+url_slug: karun-korun
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Карун (араб. <span class="arab">قَارُونُ</span>) арамейское имя собственное - Корей.</p>
 

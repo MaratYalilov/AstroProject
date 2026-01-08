@@ -1,13 +1,14 @@
 ---
-term: "Ху́джа"
-url_slug: "khu-dzha"
-letter: "К"
-category: "Категория 137"
+term: Ху́джа
+url_slug: khu-dzha
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ху́джа (араб. <span class="arab">حُجَّةٌ</span>) происходит от глагола <span class="arab">حَجَّ</span> (побеждать доводами, аргументами, убеждать) и означает - довод, доказательство, аргумент; предлог.</p>
 

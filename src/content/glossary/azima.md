@@ -1,13 +1,14 @@
 ---
-term: "Азима"
-url_slug: "azima"
-letter: "А"
-category: "А"
+term: Азима
+url_slug: azima
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>'Азима (араб. <span class="arab">عَزِيمَةٌ</span>) происходит от глагола <span class="arab">عَزَمَ</span> (иметь намерение, решать (что-л. делать); решаться (на что <span class="arab">على</span>)) и означает – намерение; решимость.</p>
 

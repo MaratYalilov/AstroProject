@@ -1,13 +1,27 @@
 ---
-term: "Хадис кудси"
-url_slug: "khadis-kudsi"
-letter: "К"
-category: "Категория 137"
+term: Хадис кудси
+url_slug: khadis-kudsi
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dalil
+- fitra
+- islam
+- musulmanin
+- salyam
+- shirk
+- taukhid
+- zulm
+used_in:
+- 05-edinobozhie-v-gospodstve.md
+- 72-24-hadis-ya-zapretil-priteenenie.md
+- 73-24-hadis-put-propitanite-i-proshenie.md
+- 74-24-hadis-milost-proshenie-i-sovershenstvo-allaha.md
+- 85-37-hadis-namerenie-dela-i-vozdayanie.md
 ---
+
 
 <p><a href="/index.php/component/easydiscuss/%D1%85%D0%B0%D0%B4%D0%B8%D1%81?Itemid=271">Хадис</a> кудси (араб. <span class="arab">اَلْحَدِيثُ الْقُدْسِيُّ</span>) состоит из двух слов <span class="arab">حَدِيثٌ</span> (речь) и <span class="arab">قُدْسِيٌّ</span> (священный, чистый, непорочный) и означает – священный хадис.</p>
 <p><a href="/index.php/component/easydiscuss/%D1%85%D0%B0%D0%B4%D0%B8%D1%81?Itemid=271"></a></p>

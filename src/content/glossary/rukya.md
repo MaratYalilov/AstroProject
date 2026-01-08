@@ -1,13 +1,14 @@
 ---
-term: "Рукья"
-url_slug: "rukya"
-letter: "Р"
-category: "Р"
+term: Рукья
+url_slug: rukya
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Рукья (араб. <span class="arab">رُقْيَةٌ</span>) происходит от глагола <span class="arab">رَقَى</span> (заклинать, заговаривать (от болезни)) и означает – заклинание, заговор.</p>
 <p>{Quran}75:27{/Quran}</p>

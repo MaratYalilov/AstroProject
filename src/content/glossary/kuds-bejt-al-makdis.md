@@ -1,13 +1,14 @@
 ---
-term: "Кудс, Бейт аль-Макдис"
-url_slug: "kuds-bejt-al-makdis"
-letter: "К"
-category: "К"
+term: Кудс, Бейт аль-Макдис
+url_slug: kuds-bejt-al-makdis
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Кудс (араб. <span class="arab">قُدْسٌ</span>) происходит от глагола <span class="arab">قَدُسَ</span> (быть святым, священным) и означает - святость, непогрешимость.</p>
 

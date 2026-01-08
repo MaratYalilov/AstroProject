@@ -1,13 +1,42 @@
 ---
-term: "Дин"
-url_slug: "din"
-letter: "Д"
-category: "Д"
+term: Дин
+url_slug: din
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- dzhama-a
+- fitra
+- iblis
+- ikhlas
+- ikhsan
+- imam
+- iman
+- islam
+- kaaba
+- khadzh
+- khasan
+- khidzhr
+- khidzhra
+- mechet
+- musulmanin
+- riya
+- salyam
+- shajtan
+- sira
+- sunna
+- tafsir
+- takfir
+- taukhid
+used_in:
+- 04-edinobozhie-i-ego-vidy.md
+- 07-urok-sira-oblik-proroka.md
+- 11-voleiziavlenie-allaha.md
+- 34-2-hadis-namaz-fatiha.md
 ---
+
 
 <p>Дин (араб. دِينٌ) происходит от глагола دَانَ , который имеет разные значения в зависимости от применения различных предлогов или их отсутствия.</p>
 <p>1-<span class="arab">      </span>Если применяется предлог (لامٌ), то будет значение – подчиняться, покоряться.</p>

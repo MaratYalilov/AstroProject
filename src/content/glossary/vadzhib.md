@@ -1,13 +1,60 @@
 ---
-term: "Ваджиб"
-url_slug: "vadzhib"
-letter: "В"
-category: "В"
+term: Ваджиб
+url_slug: vadzhib
+letter: В
+category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhanaza
+- fitra
+- gusl
+- iftar
+- ikhlas
+- imam
+- islam
+- istidzhmar
+- istindzha
+- kaffara
+- khalyal
+- khamr
+- kharam
+- khasan
+- khidzhama
+- mazkhab
+- mursal
+- nazr
+- rukn
+- sadaka
+- sakhikh
+- salyam
+- shart
+- sukhur
+- sunna
+- takhadzhud
+- tavaf
+- tayammum
+- zakyat
+- zikr
+used_in:
+- 04-istindzha.md
+- 08-otritcanie-nedostatkov-u-allaha.md
+- 10-vidy-omoveniya.md
+- 12-mazi-i-mani.md
+- 18-tayammum-chast-3.md
+- 21-protiranie-medicinskih-povyazok.md
+- 25-nechistoty-i-ih-ochischenie-2-chast.md
+- 25-vidy-omoveniya.md
+- 27-fitra.md
+- 34-soobschi-mne-ob-omovenii.md
+- 47-spat-s-omoveniem.md
+- 54-voda-posle-omoveniya.md
+- 60-mneniya-uchenyh-o-chistote-sobaki.md
+- 74-protiranie-obuvi.md
+- 87-al-bakara-korova-42-44-aiat.md
 ---
+
 
 <p>Ваджиб (араб. <span class="arab">وَاجِبٌ</span>) происходит от глагола <span class="arab">وَجَبَ</span> (падать; следовать, надлежать (кому), быть обязательным) и означает – падающий; должный, обязательный, необходимый.</p>
 <p>{Quran}22:36{/Quran}</p>

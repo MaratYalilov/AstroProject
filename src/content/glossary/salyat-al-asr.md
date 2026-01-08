@@ -1,13 +1,14 @@
 ---
-term: "Салят аль-'аср"
-url_slug: "salyat-al-asr"
-letter: "Р"
-category: "Р"
+term: Салят аль-'аср
+url_slug: salyat-al-asr
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><span class="arab"><a href="userslayout/салят" target="_blank">Салят</a> аль-'аср (араб. صَلاةُ الْعَصْرِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">عَصْرٌ</span> (послеполуденное время, вечер) и означает – послеполуденная молитва.</p>
 

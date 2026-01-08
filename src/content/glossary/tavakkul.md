@@ -1,13 +1,25 @@
 ---
-term: "Таваккуль"
-url_slug: "tavakkul"
-letter: "Т"
-category: "Т"
+term: Таваккуль
+url_slug: tavakkul
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- iman
+- islam
+- kharam
+- khidzhra
+- musulmanin
+- sunna
+- zikr
+used_in:
+- 13-2-hadis-smysl-svidetelstva.md
+- 21-2-hadis-vera-v-allaha.md
+- 32-2-hadis-predopredelenie.md
+- 8-1-hadis-hidzhra-polzy.md
 ---
+
 
 <p>Таваккуль (араб. تَوَكُّلُ) происходит от глагола وَكَلَ (поручать, доверять (кому); полагаться (на кого)) и означает – полагаться на кого-то, доверяя его силе, или испытывая свою неспособность.</p>
 <p>В терминологии шариата <b>таваккуль – это сильная надежда на Аллаха, в получении желаемого и избавлении от неприятного, вместе с выполнением разрешенных шариатом причин.</b></p>

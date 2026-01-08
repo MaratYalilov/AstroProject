@@ -1,13 +1,14 @@
 ---
-term: "Муфтий"
-url_slug: "muftij"
-letter: "М"
-category: "М"
+term: Муфтий
+url_slug: muftij
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Муфтий (араб. <span class="arab">مُفْتٍ</span>) происходит от глагола <span class="arab">أَفْتَى</span> (давать совет; разъяснять) и означает – дающий совет, разъясняющий.</p>
 <p><span class="arab"> </span></p>

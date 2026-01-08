@@ -1,13 +1,14 @@
 ---
-term: "Харадж"
-url_slug: "kharadzh"
-letter: "К"
-category: "Категория 137"
+term: Харадж
+url_slug: kharadzh
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Харадж (араб. <span class="arab">خَرَاجٌ</span>) происходит от глагола <span class="arab">خَرَجَ</span> (выходить; возникать; появляться и др. смыслы) и означает – плата; вознаграждение; подать, налог, дань.</p>
 

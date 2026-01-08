@@ -1,13 +1,38 @@
 ---
-term: "Сафар"
-url_slug: "safar"
-letter: "С"
-category: "С"
+term: Сафар
+url_slug: safar
+letter: С
+category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- akika
+- fitna
+- fitra
+- gusl
+- id
+- imam
+- islam
+- istikhada
+- khadzh
+- khajd
+- kharam
+- khasan
+- makhdi
+- mazkhab
+- musulmanin
+- mutavatir
+- salyam
+- sira
+- sunna
+- vali
+used_in:
+- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
+- 10-bozhestvennoe-proishozhdenie-imen-allaha.md
+- 70-protiranie-dyryavyh-noskov.md
+- 86-sroki-haida.md
 ---
+
 
 <p>Сафар (араб. <span class="arab">سَفَرٌ</span>) происходит от глагола <span class="arab">سَفَرَ</span> (раскрывать, выявлять; писать; отправлять; отправляться в путь) и означает – путешествие. Говорят, что сафар назван так от того, что трудности путешествия показывают нрав людей.</p>
 <p>{Quran}80:38{/Quran}</p>

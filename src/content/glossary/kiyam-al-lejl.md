@@ -1,13 +1,14 @@
 ---
-term: "Киям аль-лейль"
-url_slug: "kiyam-al-lejl"
-letter: "К"
-category: "К"
+term: Киям аль-лейль
+url_slug: kiyam-al-lejl
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Киям аль-лейль (араб. <span class="arab">قِيَامُ اللَّيْلِ</span>) состоит из двух слов <span class="arab">قِيَامٌ</span> (выстаивание, стояние), <span class="arab">لَيْلٌ</span> (ночь, время после захода солнца и до рассвета) и в данном термине его смысл не изменяется, и означает – ночное стояние в молитве.</p>
 <p> </p>

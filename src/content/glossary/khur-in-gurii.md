@@ -1,13 +1,14 @@
 ---
-term: "Хур 'ин, гурии."
-url_slug: "khur-in-gurii"
-letter: "К"
-category: "Категория 137"
+term: Хур 'ин, гурии.
+url_slug: khur-in-gurii
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Хур 'ин (араб.<span class="arab">حُورٌ عِينٌ</span>) состоит из двух слов <span class="arab">حُورٌ</span>(ед.ч. <span class="arab">حَوْرَاءُ</span>- черноглазая) и <span class="arab">عِينٌ</span>(ед.ч. <span class="arab">عَيْنَاءُ</span>- большеглазая) и означает – черноокие большеглазые.</p>
 

@@ -1,13 +1,35 @@
 ---
-term: "Тауфик"
-url_slug: "taufik"
-letter: "Т"
-category: "Т"
+term: Тауфик
+url_slug: taufik
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- akhlyul-fatra
+- fard
+- ikhlas
+- imam
+- islam
+- khadzh
+- khalyal
+- kharam
+- mechet
+- ramadan
+- riya
+- sadaka
+- salyam
+- shakhada
+- shirk
+- sunna
+- takhadzhud
+- taukhid
+used_in:
+- 06-opravdanie-nevezhestvom.md
+- 6-1-hadis-pokazuhra.md
+- 77-29-hadis-put-v-raj-i-dveri-blaga.md
 ---
+
 
 <p>Тауфик (араб. <span class="arab">تَوْفِيقٌ</span>) происходит от глагола <span class="arab">وَفَّقَ</span> (сглаживать (разногласия);  согласовывать, примирять (кого с кем <span class="arab">بَيْنَ</span>); содействовать, помогать; страд. иметь успех, удачу) и означает – примирение; содействие, помощь; удача, успех.</p>
 <p>{Quran}4:35{/Quran}</p>

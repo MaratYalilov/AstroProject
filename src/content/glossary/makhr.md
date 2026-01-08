@@ -1,13 +1,30 @@
 ---
-term: "Махр"
-url_slug: "makhr"
-letter: "М"
-category: "М"
+term: Махр
+url_slug: makhr
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dalil
+- idda
+- idzhma
+- islam
+- khasan
+- khira
+- nikakh
+- radzhab
+- riba
+- sakhikh
+- salyam
+- sunna
+- zakyat
+used_in:
+- 05-urok-sira-yunost-proroka.md
+- 1-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 3-prichiny-raznoglasij-mezhdu-uchenymi.md
 ---
+
 
 <p>Махр (араб. <span class="arab">مَهْرٌ</span>) происходит от глагола <span class="arab">مَهَرَ</span> (давать брачный дар невесте) и означает – брачный дар мужа для невесты.</p>
 

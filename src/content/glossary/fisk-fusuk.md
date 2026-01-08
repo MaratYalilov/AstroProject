@@ -1,13 +1,14 @@
 ---
-term: "Фиск, фусук."
-url_slug: "fisk-fusuk"
-letter: "Ф"
-category: "Ф"
+term: Фиск, фусук.
+url_slug: fisk-fusuk
+letter: Ф
+category: Ф
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Фиск, фусук (араб. <span class="arab">فِسْقٌ, فُسُوقٌ</span>) происходит от глагола <span class="arab">فَسَقَ</span> (отступать, отклоняться (от чего <span class="arab">عن</span>); поступать греховно, аморально; развратничать, вести распутную жизнь) и означает – отклонение; разврат, беспутство, грех.</p>
 

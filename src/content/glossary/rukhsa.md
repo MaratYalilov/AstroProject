@@ -1,13 +1,19 @@
 ---
-term: "Рухса"
-url_slug: "rukhsa"
-letter: "Р"
-category: "Р"
+term: Рухса
+url_slug: rukhsa
+letter: Р
+category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- gusl
+- mazkhab
+- sakhikh
+- sunna
+used_in:
+- 72-protiranie-kozhanyh-noskov.md
 ---
+
 
 <p>Рухса (араб. <span class="arab">رُخْصَةٌ</span>) происходит от глагола <span class="arab">رَخُصَ</span> (быть дешёвым, дешеветь; быть мягким, нежным, свежим) и означает - разрешение, позволение.</p>
 

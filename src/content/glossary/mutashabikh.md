@@ -1,13 +1,28 @@
 ---
-term: "Муташабих"
-url_slug: "mutashabikh"
-letter: "М"
-category: "М"
+term: Муташабих
+url_slug: mutashabikh
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhikhad
+- ikhlas
+- kaaba
+- khalyal
+- kharam
+- mukhkam
+- muskhaf
+- mutavatir
+- tafsir
+- umma
+- zina
+used_in:
+- 07-prichiny-nisposlaniia-aiatov.md
+- 3-2-yasno-izlozhennye-i-inoskazatelnye-ayaty.md
+- 53-yasno-izlozhennye-i-inoskazatelnye-ayaty.md
 ---
+
 
 <p>Муташабих (араб. مُتَشابِهٌ) происходит от глагола تَشابَهَ (походить друг на друга; быть сходным; быть сомнительным, неясным, туманным) и означает – схожий, неясный.</p>
 <p>{Quran}2:70{/Quran}</p>

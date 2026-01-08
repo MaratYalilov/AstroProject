@@ -1,13 +1,68 @@
 ---
-term: "Фард"
-url_slug: "fard"
-letter: "Ф"
-category: "Ф"
+term: Фард
+url_slug: fard
+letter: Ф
+category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ajn
+- azan
+- bid-a
+- dzhanaza
+- dzhikhad
+- fikkh
+- fitra
+- gusl
+- ikhlas
+- ikhsan
+- imam
+- iman
+- islam
+- istikhada
+- khadzh
+- khalyal
+- kharam
+- khasan
+- khidzhra
+- khukm
+- makrukh
+- mandub
+- mazkhab
+- mechet
+- mubakh
+- musulmanin
+- naskh
+- nifas
+- ramadan
+- riya
+- sadaka
+- shakhada
+- shakhid
+- shirk
+- sunna
+- takhadzhud
+- taufik
+- tavaf
+- tayammum
+- umma
+used_in:
+- 01-takhaviya-vstuplenie.md
+- 116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2.md
+- 117-zapreschennye-vremena-dlya-soversheniya-namaza-chast-3.md
+- 123-kniga-namaza-azan-urok-1.md
+- 2-sobiranie-hadisov-i-1-hadis-ihlas.md
+- 23-mesyachnye-nifas-istihada-2chast.md
+- 57-13-hadis-polyubi-dlya-brata-chto-lyubish-dlya-sebya.md
+- 60-15-hadis-dobrososedskie-otnosheniya.md
+- 62-17-hadis-ihsan-sovershenstvo-vo-vsem.md
+- 65-19-hadis-hrani-allaha-i-on-sohranit-tebya.md
+- 7-1-hadis-hidzhra.md
+- 77-29-hadis-put-v-raj-i-dveri-blaga.md
+- 78-29-hadis-golova-vershina-i-strazh-religii.md
+- 86-38-hadis-put-priblizheniya-k-allahu.md
 ---
+
 
 <p>Фард (араб. <span class="arab">فَرْضٌ</span>) происходит от глагола <span class="arab">فَرَضَ</span> (резать, отрезать; обязывать) и означает – разрезание; обязанность.</p>
 

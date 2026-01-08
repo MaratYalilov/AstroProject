@@ -1,13 +1,14 @@
 ---
-term: "Факыр"
-url_slug: "fakyr"
-letter: "Ф"
-category: "Ф"
+term: Факыр
+url_slug: fakyr
+letter: Ф
+category: Ф
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Факыр (араб. <span class="arab">فَقِيرٌ</span>) происходит от глагола <span class="arab">فَقُرَ</span> (быть бедным, нуждающимся, беднеть) и означает – неимущий, бедняк.</p>
 <p>{Quran}2:268{/Quran}</p>

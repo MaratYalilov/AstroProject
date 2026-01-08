@@ -1,13 +1,14 @@
 ---
-term: "Даруль-Ислам"
-url_slug: "darul-islam"
-letter: "Д"
-category: "Д"
+term: Даруль-Ислам
+url_slug: darul-islam
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Даруль-<a href="userslayout/ислам" target="_blank">Ислам</a> (араб. <span class="arab">دَارُ</span><b><span class="arab"> </span></b><span class="arab">الْإِسْلامِ</span>) состоит из двух слов <span class="arab">دَارٌ</span> (страна, место, регион) и <span class="arab">إِسْلامٌ</span> (подчинение, покорность Богу, Ислам) и означает – исламское государство.</p>
 <p> </p>

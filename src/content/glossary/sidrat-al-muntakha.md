@@ -1,13 +1,14 @@
 ---
-term: "Сидрат аль-Мунтаха"
-url_slug: "sidrat-al-muntakha"
-letter: "С"
-category: "С"
+term: Сидрат аль-Мунтаха
+url_slug: sidrat-al-muntakha
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Сидрат аль-Мунтаха (араб. <span class="arab">سِدْرَةُ الْمُنْتَهَى</span>) состоит из двух слов <span class="arab">سِدْرَةٌ</span> (лотос) и <span class="arab">مُنْتَهًى</span> (предел, конец) и означает – Лотос крайнего предела.</p>
 <p><b><span class="arab"> </span></b></p>

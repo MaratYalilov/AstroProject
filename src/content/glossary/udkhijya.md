@@ -1,13 +1,14 @@
 ---
-term: "Удхийя"
-url_slug: "udkhijya"
-letter: "У"
-category: "У"
+term: Удхийя
+url_slug: udkhijya
+letter: У
+category: У
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Удхийя (араб. <span class="arab">أُضْحِيَّةٌ</span>) происходит от глагола <span class="arab">ضَحَّى</span> (приносить жертву, жертвовать (чем. <span class="arab">بـ</span>)) и означает – жертвенное животное, жертва.</p>
 

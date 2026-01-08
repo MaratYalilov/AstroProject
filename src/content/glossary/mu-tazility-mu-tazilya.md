@@ -1,13 +1,14 @@
 ---
-term: "Му'тазилиты, му'тазиля"
-url_slug: "mu-tazility-mu-tazilya"
-letter: "М"
-category: "М"
+term: Му'тазилиты, му'тазиля
+url_slug: mu-tazility-mu-tazilya
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Му'тазилиты (араб. <span class="arab">مُعْتَزِلَةٌ</span>) производное от глагола <span class="arab">اِعْتَزَلَ</span> (отделяться, покидать, сторониться людей). И означает – отделившиеся, обособившиеся.</p>
 

@@ -1,13 +1,26 @@
 ---
-term: "Джама'а"
-url_slug: "dzhama-a"
-letter: "Д"
-category: "Д"
+term: Джама'а
+url_slug: dzhama-a
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- din
+- imam
+- islam
+- kaaba
+- khadzh
+- khidzhr
+- khidzhra
+- musulmanin
+- salyam
+- sira
+used_in:
+- 07-urok-sira-oblik-proroka.md
 ---
+
 
 <p>Джама'а (араб. <span class="arab">جَمَاعَةٌ</span>) происходит от глагола <span class="arab">جَمَعَ</span> (собирать, набирать; объединять) и означает – община, группа, коллектив.</p>
 <p>В терминологии шариат слово джама'а применяется в нескольких смыслах:</p>

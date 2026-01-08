@@ -11,7 +11,7 @@ videoRel: video/24-prosba-o-pomoshi.mp4
 <p><strong>Просьба о помощи.</strong></p>
 <p dir="rtl"><span class="arab">الاستعانة</span></p>
 <p>Аллах сказал:</p>
-<p>{Quran}1:5{/Quran}<br />Пророк, да благословит его Аллах и приветствует, сказал: «<em>...и если просишь помощи, то проси её у Аллаха</em>» <span class="hadis">[ Ат-Тирмизи (сахих)].</span><br /><span class="arab"></span></p>
+<p>{Quran}1:5{/Quran}<br />Пророк, да благословит его Аллах и приветствует, сказал: «<em>...и если просишь помощи, то проси её у Аллаха</em>» <span class="hadis">[ Ат-Тирмизи (<a href="/glossary/sakhikh" class="glossary-link" target="_blank" rel="noopener noreferrer">сахих</a>)].</span><br /><span class="arab"></span></p>
 <p dir="rtl"><span class="arab">قَالَ رَسُولُ اللّهِ صلى الله عليه و سلم:" وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بالله".</span></p>
 <p><strong>Просьба о помощи имеет пять видов:</strong></p>
 <ol>

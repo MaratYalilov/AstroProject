@@ -1,13 +1,14 @@
 ---
-term: "Мусталах аль-хадис"
-url_slug: "mustalakh-al-khadis"
-letter: "М"
-category: "М"
+term: Мусталах аль-хадис
+url_slug: mustalakh-al-khadis
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мусталах <a href="slovar/hadis" target="_blank">аль-хадис</a> (араб. <span class="arab">مُصْطَلَحُ الْحَدِيثِ</span>) состоит из двух слов <span class="arab">مُصْطَلَحٌ</span> (договорный, общепринятый, обычный; термин, условное выражение) и <span class="arab">حَدِيثٌ</span> (речь, хадис) и означает – терминология хадисов.</p>
 

@@ -1,13 +1,26 @@
 ---
-term: "Мункар и Накир"
-url_slug: "munkar-i-nakir"
-letter: "М"
-category: "М"
+term: Мункар и Накир
+url_slug: munkar-i-nakir
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azab-al-kabr
+- id
+- israfil
+- kharut-i-marut
+- khaud
+- khisab
+- mizan
+- munkar
+- ramadan
+used_in:
+- 2-3-imena.md
+- 31-2-hadis-sudnyj-den.md
+- 49-imena-angelov.md
 ---
+
 
 <p>Мункар и Накир (араб. <span class="arab">مُنْكَرٌ </span><span class="arab">وَنَكِيرٌ</span>) происходят от глаголов <span class="arab">أَنْكَرَ</span> и <span class="arab">نَكِرَ</span> (не признавать, не узнавать; отрицать, отказываться) и означают – имена двух ангелов.</p>
 

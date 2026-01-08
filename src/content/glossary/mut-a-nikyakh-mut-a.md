@@ -1,13 +1,14 @@
 ---
-term: "Мут'а, никях мут'а."
-url_slug: "mut-a-nikyakh-mut-a"
-letter: "М"
-category: "М"
+term: Мут'а, никях мут'а.
+url_slug: mut-a-nikyakh-mut-a
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мут'а(араб. <span class="arab">مُتْعَةٌ</span>) происходит от глагола <span class="arab">مَتَعَ</span> (пользоваться; получать пользу; наслаждаться) и означает - предмет, объект наслаждения; наслаждение.</p>
 

@@ -1,13 +1,14 @@
 ---
-term: "Мечеть дырар, мечеть дирар."
-url_slug: "mechet-dyrar-mechet-dirar"
-letter: "М"
-category: "М"
+term: Мечеть дырар, мечеть дирар.
+url_slug: mechet-dyrar-mechet-dirar
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="/slovar/mechet" target="_blank">Мечеть </a>дирар (араб. <span class="arab">مَسْجِدُ الضِّرَارِ</span>) состоит из двух слов<span class="arab">مَسْجِدٌ</span>(место совершения земного полклона, мечеть) и <span class="arab">ضِرَارٌ</span>(вред, вредительство) и означает – мечеть вредительства.</p>
 

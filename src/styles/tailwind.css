@@ -538,15 +538,28 @@ footer {
 
 
 /* стили для ссылок на глоссарий */
-.glossary-link {
+/* .glossary-link {
   color: var(--accent-color);
   text-decoration: underline dotted;
-}
+} */
 
-.glossary-link:hover {
+/* .glossary-link:hover {
   text-decoration-style: solid;
-}
+} */
 .glossary-link:focus {
   outline: 2px solid var(--accent-color);
   outline-offset: 2px;
+}
+
+.glossary-link {
+  color: inherit;
+  text-decoration: none;
+  background-image: radial-gradient(#2ecc71 1px, transparent 1px);
+  background-size: 6px 6px;
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  padding-bottom: 2px;
+}
+.glossary-link:hover {
+  background-image: radial-gradient(#27ae60 1px, transparent 1px);
 }

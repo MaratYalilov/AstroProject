@@ -1,13 +1,27 @@
 ---
-term: "Дабба"
-url_slug: "dabba"
-letter: "Д"
-category: "Д"
+term: Дабба
+url_slug: dabba
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- dadzhal
+- imam
+- kharam
+- masikh
+- mechet
+- musulmanin
+- sakhikh
+- yadzhudzh-i-madzhudzh
+used_in:
+- 5-5-3-7-dabba-zhivotnoe-kotoroe-vyydet-iz-zemli.md
+- 5-5-3-bolshie-priznaki-sudnogo-dnya.md
+- 81-dadzhal.md
+- 88-dabba.md
 ---
+
 
 <p>Дабба (араб. <span class="arab">دَابَّةٌ</span>) происходит от глагола <span class="arab">دَبَّ</span> (ползти, ползти на четвереньках) и означает – животное, живое существо (люди, джины).</p>
 <p>{Quran}24:45{/Quran}</p>

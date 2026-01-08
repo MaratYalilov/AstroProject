@@ -1,13 +1,14 @@
 ---
-term: "Замзам, Земзем"
-url_slug: "zamzam-zemzem"
-letter: "З"
-category: "З"
+term: Замзам, Земзем
+url_slug: zamzam-zemzem
+letter: З
+category: З
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Замзам (араб. <span class="arab">زَمْزَمٌ</span>) происходит от словосочетания  <span class="arab">زَمْزَمٌ</span><span class="arab"></span> <span class="arab"></span><span class="arab"></span> مَاءٌ(многоводный), или от<span class="arab"></span><span class="arab"></span> глагола <span class="arab">زَمَّ</span> (собираться, сжиматься) так как Хаджар, увидев разливающуюся воду, стала говорить: «Соберись, соберись», (араб. <span class="arab">زُمَّ زُمَّ</span>), либо от того, что она стала собирать вокруг источника воды землю, предотвращая разлив.</p>
 

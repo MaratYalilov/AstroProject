@@ -1,13 +1,14 @@
 ---
-term: "Джахмиты, джахмийя"
-url_slug: "dzhakhmity-dzhakhmijya"
-letter: "Д"
-category: "Д"
+term: Джахмиты, джахмийя
+url_slug: dzhakhmity-dzhakhmijya
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Джахмиты, джахмийя (араб. <span class="arab">جَهْمِيَّةٌ</span>) – название секты по имени ее основателя Джахма бин Сафуана Абу Михраз Мауля бану Расиб, некоторые называют его ат-Тимизий, а другие ас-Самаркандий. Умер 128 году по хиджре.</p>
 

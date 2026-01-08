@@ -1,13 +1,14 @@
 ---
-term: "Ахлюс-сунна уаль-джама'а"
-url_slug: "akhlyus-sunna-ual-dzhama-a"
-letter: "А"
-category: "А"
+term: Ахлюс-сунна уаль-джама'а
+url_slug: akhlyus-sunna-ual-dzhama-a
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ахлюс-сунна уаль-джама'а (араб. <span class="arab">أَهْلُ السُّنَّةِ وَ الْجَمَاعَةِ</span>) состоит из трех слов:</p>
 <p>1-<span class="arab">           </span><span class="arab">أَهْلٌ</span> (люди, приверженцы).</p>

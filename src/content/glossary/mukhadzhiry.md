@@ -1,13 +1,27 @@
 ---
-term: "Мухаджиры"
-url_slug: "mukhadzhiry"
-letter: "М"
-category: "М"
+term: Мухаджиры
+url_slug: mukhadzhiry
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- id
+- imam
+- iman
+- islam
+- kaaba
+- khafiz
+- khidzhra
+- makhdi
+- tavaf
+- umma
+used_in:
+- 10-urok-sira-pervye-musulmane.md
+- 66-al-bakara-korova-01-aiat.md
 ---
+
 
 <p>
 <p class="MsoNormal">Мухаджиры (араб. <span class="arab">مُهَاجِرُونَ</span>) происходит от глагола <span class="arab">هَاجَرَ</span> (переселяться; эмигрировать) и означает – переселенцы.</p>

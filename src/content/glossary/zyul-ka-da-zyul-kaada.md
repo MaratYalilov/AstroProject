@@ -1,13 +1,14 @@
 ---
-term: "Зюль-Ка'да, Зюль-Каада."
-url_slug: "zyul-ka-da-zyul-kaada"
-letter: "З"
-category: "З"
+term: Зюль-Ка'да, Зюль-Каада.
+url_slug: zyul-ka-da-zyul-kaada
+letter: З
+category: З
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Зюль-Ка'да (араб. <span class="arab">ذُو الْقَعْدَةِ</span><b><span class="arab"></span>)</b><b> </b>состоит из двух слов <span class="arab">ذُو</span> (имеющий, обладающий) и <span class="arab">قَعْدَةٌ</span> (сидение; оседлость) и означает – месяц оседлости. Назван так от того, что арабы оставались в этот месяц в своих домах, воздерживаясь от путешествий или отказывались от сражений.</p>
 

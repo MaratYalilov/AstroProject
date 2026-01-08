@@ -1,13 +1,14 @@
 ---
-term: "Хадж ат-таматту'"
-url_slug: "hadzh-at-tamattu"
-letter: "К"
-category: "Категория 137"
+term: Хадж ат-таматту'
+url_slug: hadzh-at-tamattu
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="slovar/hadzh.html" target="_blank">Хадж </a>ат-таматту' (араб. <span class="arab">حَجُّ</span><span class="arab"> </span><span class="arab">التَّمَتُّعِ</span>    ) состоит из двух слов <span class="arab">حَجٌّ</span>     (паломничество) и <span class="arab">تَمَتُّعٌ</span>     (наслаждение) и означает хадж, в котором разрешается наслаждаться мирскими благами после совершения <a href="slovar/umra.html" target="_blank">'урмы</a> до вступления в хадж.</p>
 <p>В терминологии шариата <b>хадж ат-таматту' – это (поклонение Аллаху) посредством вступления мусульманина в <a href="slovar/ihram.html" target="_blank">ихрам </a>для совершения 'умры в месяцы<a title="" href="#_ftn1"><b>[1]</b></a> паломничества и выход из него после ее завершения, с последующим вступлением в ихрам для совершения хаджа в тот же год.</b> </p>

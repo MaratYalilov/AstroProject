@@ -1,13 +1,14 @@
 ---
-term: "Хадд, худуд."
-url_slug: "khadd-khudud"
-letter: "К"
-category: "Категория 137"
+term: Хадд, худуд.
+url_slug: khadd-khudud
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Хадд, мн.ч. худуд (араб. <span class="arab">حَدٌّ, حُدُودٌ</span>) происходит от глагола <span class="arab">حَدَّ</span> (ограничивать, ставить предел) и означает - предел, край, конец; ограничение, запрет.</p>
 

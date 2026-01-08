@@ -1,13 +1,21 @@
 ---
-term: "Забх"
-url_slug: "zabkh"
-letter: "З"
-category: "З"
+term: Забх
+url_slug: zabkh
+letter: З
+category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhikhad
+- imam
+- khadzh
+- musulmanin
+- sakhikh
+used_in:
+- 1-6-nekotorye-vidy-pokloneniya.md
+- 27-zhertvoprinoshenie.md
 ---
+
 
 <p>Забх (араб. <span class="arab">ذَبْحٌ</span>) происходит от глагола <span class="arab">ذَبَحَ</span> (убивать, закалывать, резать; приносить в жертву (животное)) и означает – убийство; жертвоприношение (как ради Аллаха, так и ради идолов).</p>
 

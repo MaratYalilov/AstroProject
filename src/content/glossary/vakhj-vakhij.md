@@ -1,13 +1,14 @@
 ---
-term: "Вахй, вахий."
-url_slug: "vakhj-vakhij"
-letter: "В"
-category: "В"
+term: Вахй, вахий.
+url_slug: vakhj-vakhij
+letter: В
+category: В
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Вахй (араб. <span class="arab">وَحْيٌ</span>) происходит от глаголов <span class="arab">وَحَى</span> и <span class="arab">أَوْحَى</span> (внушать (кому <span class="arab">إلى</span>), сообщать, открывать тайну; тайно внушать; вдохновлять; делать (что-л.) быстро) и означает – вдохновение, внушение.</p>
 <p>В Коране слово «вахй» применяется в нескольких значениях:</p>

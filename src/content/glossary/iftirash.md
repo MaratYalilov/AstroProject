@@ -1,13 +1,14 @@
 ---
-term: "Ифтираш"
-url_slug: "iftirash"
-letter: "И"
-category: "И"
+term: Ифтираш
+url_slug: iftirash
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ифтираш (араб. <span class="arab">اِفْتِرَاشٌ</span>) происходит от глагола <span class="arab">اِفْتَرَشَ</span> (расстилать) и означает – расстилание.</p>
 

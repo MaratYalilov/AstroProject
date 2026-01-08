@@ -1,13 +1,23 @@
 ---
-term: "Усуль аль-фикх"
-url_slug: "usul-al-fikkh"
-letter: "У"
-category: "У"
+term: Усуль аль-фикх
+url_slug: usul-al-fikkh
+letter: У
+category: У
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- islam
+- khalyal
+- kufr
+- sadaka
+- sunna
+- taravikh
+- zikr
+used_in:
+- 42-5-hadis-klassifikaciya-novovvedenij.md
 ---
+
 
 <p>Усуль аль-фикх (араб. <span class="arab">أُصُولُ الْفِقْهِ</span>) состоит из двух слов <span class="arab">أُصُولٌ</span> (мн.ч. слова <span class="arab">أَصْلٌ</span> – основа, корень) и слова <span class="arab">فِقْهٌ</span> (понимание) и означает – основы понимания.</p>
 

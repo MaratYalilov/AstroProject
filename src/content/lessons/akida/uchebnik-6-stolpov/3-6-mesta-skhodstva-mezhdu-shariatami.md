@@ -10,7 +10,7 @@ groupTitle: Вера в Писания
 
 <h1>Места сходства между шариатами</h1>
 <ul>
-<li>Религия, с которой приходили все посланники от Аллаха, - это Ислам, то есть подчинение Аллаху.</li>
+<li>Религия, с которой приходили все посланники от Аллаха, - это <a href="/glossary/islam" class="glossary-link" target="_blank" rel="noopener noreferrer">Ислам</a>, то есть подчинение Аллаху.</li>
 </ul>
 <p>Аллах сказал:</p>
 <p>{Quran}3:19{/Quran}</p>
@@ -69,7 +69,7 @@ groupTitle: Вера в Писания
 <p>Аллах сказал:</p>
 <p>{Quran}87:14{/Quran}<br />{Quran}87:15{/Quran}<br />{Quran}87:16{/Quran}<br />{Quran}87:17{/Quran}<br />{Quran}87:18{/Quran}<br />{Quran}87:19{/Quran}</p>
 <ul>
-<li>Все пророки и их последователи совершали благодеяния, выстаивали намаз и выплачивали закят.</li>
+<li>Все пророки и их последователи совершали благодеяния, выстаивали намаз и выплачивали <a href="/glossary/zakyat" class="glossary-link" target="_blank" rel="noopener noreferrer">закят</a>.</li>
 </ul>
 <p>Аллах сказал:</p>
 <p>{Quran}21:73{/Quran}</p>

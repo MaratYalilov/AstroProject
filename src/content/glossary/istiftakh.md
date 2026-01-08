@@ -1,13 +1,14 @@
 ---
-term: "Истифтах"
-url_slug: "istiftakh"
-letter: "И"
-category: "И"
+term: Истифтах
+url_slug: istiftakh
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Истифтах (араб. <span class="arab">اِسْتِفْتَاحٌ</span>) происходит от глагола <span class="arab">اِسْتَفْتَحَ</span> (начинать (с чего <span class="arab">بـــــــ</span>); просить открыть; просить о помощи; просить рассудить) и означает - начало, вступление; просьба открыть.</p>
 <p> </p>

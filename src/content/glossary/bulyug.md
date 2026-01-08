@@ -1,13 +1,14 @@
 ---
-term: "Булюг"
-url_slug: "bulyug"
-letter: "Б"
-category: "Б"
+term: Булюг
+url_slug: bulyug
+letter: Б
+category: Б
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Булюг (араб. <span class="arab">بُلُوغٌ</span>) происходит от глагола <span class="arab">بَلَغَ</span> (достигать (чего-л.); доходить (до чего-л.) доводить, доставлять; достигать зрелости, совершеннолетия, становиться взрослым) и означает – достижение; совершеннолетие.</p>
 <p><span class="arab"> </span></p>

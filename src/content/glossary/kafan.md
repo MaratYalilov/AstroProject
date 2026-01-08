@@ -1,13 +1,16 @@
 ---
-term: "Кафан"
-url_slug: "kafan"
-letter: "К"
-category: "К"
+term: Кафан
+url_slug: kafan
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+used_in:
+- 80-al-bakara-korova-27-28-aiat.md
 ---
+
 
 <p>Кафан (араб. <span class="arab">كَفَنٌ</span>) происходит от глагола <span class="arab">كَفَنَ</span> (заворачивать в саван; покрывать, закрывать) и означает – саван; покрывание.</p>
 

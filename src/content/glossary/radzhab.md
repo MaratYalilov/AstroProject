@@ -1,13 +1,43 @@
 ---
-term: "Раджаб"
-url_slug: "radzhab"
-letter: "Р"
-category: "Р"
+term: Раджаб
+url_slug: radzhab
+letter: Р
+category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dalil
+- gusl
+- idda
+- idzhma
+- imam
+- islam
+- istikhada
+- khadzh
+- khajd
+- kharam
+- khasan
+- makhr
+- makrukh
+- mazkhab
+- mechet
+- mursal
+- nifas
+- ramadan
+- riba
+- salyam
+- sunna
+- tafsir
+used_in:
+- 1-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 18-urok-sira-pervoe-pereselenie.md
+- 3-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 71-usloviya-protiraniya-noskov.md
+- 84-izar.md
+- 91-priznaki-zaversheniya-mesyachnyh.md
+- 94-istihada.md
 ---
+
 
 <p>Раджаб (араб. <span class="arab">رَجَبٌ</span>) происходит от глагола <span class="arab">رَجَبَ</span> (бояться (кого-чего- вин.п. или <span class="arab">من</span>); испытывать почтительный страх (перед кем-л.)) и означает - название седьмого месяца лунного календаря. Месяц Раджаб, буквально означает «возвеличиваемый, почитаемый», был назван этим именем из-за того, что арабы почитали его, как один из запретных месяцев и воздерживались от кровопролития в нем.</p>
 

@@ -1,13 +1,18 @@
 ---
-term: "Мурджииты"
-url_slug: "murdzhiity"
-letter: "М"
-category: "М"
+term: Мурджииты
+url_slug: murdzhiity
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- imam
+- khasan
+used_in:
+- 1-7-osnovy-pokloneniya.md
+- 29-tri-osnovy-pokloneniya-nadezhda-i-strah.md
 ---
+
 
 <p><strong>Мурджииты</strong> (араб. مُرْجِئَةُ) происходит от глагола أَرْجأَ (откладывать, задерживать, давать надежду) и охватывает различные группы приверженцев ирджа.</p>
 <p><strong>Мурджииты</strong> исключают деяния из понятия веры, но каждая из групп имеет свое определение веры.</p>

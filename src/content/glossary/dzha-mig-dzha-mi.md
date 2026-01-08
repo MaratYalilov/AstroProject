@@ -1,13 +1,14 @@
 ---
-term: "Джа́миг, джа́ми'"
-url_slug: "dzha-mig-dzha-mi"
-letter: "Д"
-category: "Д"
+term: Джа́миг, джа́ми'
+url_slug: dzha-mig-dzha-mi
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Джа́ми' (араб. <span class="arab">جَامِعٌ</span>) происходит от глагола <span class="arab">جَمَعَ</span> (собирать; охватывать, объединять; соединять) и означает – собирающий, объединяющий.</p>
 <p>{Quran}3:9{/Quran}</p>

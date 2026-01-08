@@ -1,13 +1,46 @@
 ---
-term: "Каусар"
-url_slug: "kausar"
-letter: "К"
-category: "К"
+term: Каусар
+url_slug: kausar
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fikkh
+- idzhtikhad
+- ikhlas
+- imam
+- islam
+- kharam
+- khasan
+- mursal
+- muskhaf
+- naskh
+- ramadan
+- riya
+- salyam
+- shajtan
+- shirk
+- sunna
+- tafsir
+- umma
+used_in:
+- 05-rasm-muskhafa-md.md
+- 12-tolkovanie-korana.md
+- 15-al-kausar-izobilie.md
+- 23-al-adijat-skachushchie.md
+- 3-4-1-nepodrazhaemost-korana.md
+- 30-ad-dukha-utro.md
+- 5-18-vodoem.md
+- 54-chudo-korana.md
+- 56-chudo-korana-znamenie.md
+- 57-chudo-korana-prinyatie-islama.md
+- 58-nepodrazhaemost-korana.md
+- 79-al-bakara-korova-25-26-aiat.md
+- 95-raschet-za-nespravedlivost.md
 ---
+
 
 <p>Каусар (араб. <span class="arab">كَوْثَرٌ</span>) происходит от глагола <span class="arab">كَثُرَ</span> (быть обильным, многочисленным, быть частым) и означает – обильный, обилие.</p>
 

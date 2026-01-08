@@ -1,13 +1,67 @@
 ---
-term: "Азан"
-url_slug: "azan"
-letter: "А"
-category: "А"
+term: Азан
+url_slug: azan
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- amanat
+- dzhanaza
+- fadzhr
+- faraid
+- fard
+- gusl
+- iblis
+- idzhtikhad
+- imam
+- indzhil
+- islam
+- istikhara
+- kaffara
+- kausar
+- khafiz
+- khasan
+- khukm
+- makrukh
+- mazkhab
+- mechet
+- mikhrab
+- mubakh
+- musulmanin
+- rasul
+- sadaka
+- shajtan
+- sunna
+- tavaf
+- vadzhib
+- vitr
+- zakyat
+- zikr
+used_in:
+- 02-biografiia-avtora-i-kommentatora.md
+- 10-vidy-omoveniya.md
+- 103-vremya-namaza-mezhdu-etimi-dvumya-promezhutkami.md
+- 105-vremya-utrennego-i-poludennogo-namaza.md
+- 106-vremya-namaza-asr-magrib-i-isha.md
+- 123-kniga-namaza-azan-urok-1.md
+- 124-azan-urok-2.md
+- 125-azan-urok-3.md
+- 126-azan-urok-4.md
+- 127-azan-urok-5.md
+- 128-azan-urok-6.md
+- 130-azan-urok-8.md
+- 131-azan-urok-9.md
+- 132-azan-urok-10.md
+- 133-azan-urok-11.md
+- 17-2-hadis-znachenie-namaza.md
+- 23-al-adijat-skachushchie.md
+- 29-al-inshirakh-raskrytie.md
+- 51-gusl-v-pyatnicu.md
+- 54-abasa-nakhmurilsia-1.md
 ---
+
 
 <p>Азан (араб. <span class="arab">أَذَانٌ</span>) происходит от глагола <span class="arab">أَذَّنَ</span> (объявлять, возвещать; давать сигнал) и означает – объявление, призыв.</p>
 <p>{Quran}22:27{/Quran}</p>

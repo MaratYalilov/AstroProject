@@ -1,13 +1,14 @@
 ---
-term: "Ик'а"
-url_slug: "ik-a"
-letter: "И"
-category: "И"
+term: Ик'а
+url_slug: ik-a
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ик'а (араб. <span class="arab">إِقْعَاءٌ</span>) происходит от глагола <span class="arab">أَقْعَى</span> (сидеть на задних лапах (о собаке, кошке)) и означает – сидение на ягодицах.</p>
 

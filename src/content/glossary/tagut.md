@@ -1,13 +1,18 @@
 ---
-term: "Тагут"
-url_slug: "tagut"
-letter: "Т"
-category: "Т"
+term: Тагут
+url_slug: tagut
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- iman
+- shakhada
+- zikr
+used_in:
+- 12-2-hadis-shahada.md
 ---
+
 
 <p>Тагут (араб. طاغُوتٌ) происходит от глагола طَغَا (преступать границы, чинить несправедливость, бушевать).</p>
 <p>{Quran}20:24{/Quran}</p>

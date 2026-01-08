@@ -1,13 +1,14 @@
 ---
-term: "Суджуд ат-тилява"
-url_slug: "sudzhud-at-tilyava"
-letter: "С"
-category: "С"
+term: Суджуд ат-тилява
+url_slug: sudzhud-at-tilyava
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Суджуд ат-тилява (араб. <span class="arab">سُجُودُ</span><b><span class="arab"> </span></b><span class="arab">التِّلاوَةِ</span><b></b>) состоит из двух слов <span class="arab">سُجُودٌ</span> (земной поклон) и<span class="arab"></span><span class="arab"></span><b><span class="arab"></span><span class="arab"></span> </b> <span class="arab">تِلاوَةٌ</span> (чтение (вслух)) и означает – земной поклон при чтении (Корана).</p>
 

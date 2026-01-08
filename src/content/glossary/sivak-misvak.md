@@ -1,13 +1,14 @@
 ---
-term: "Сивак, мисвак"
-url_slug: "sivak-misvak"
-letter: "С"
-category: "С"
+term: Сивак, мисвак
+url_slug: sivak-misvak
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Сивак, мисвак (араб. <span class="arab">سِوَاكٌ, مِسْوَاكٌ</span>) происходит от глагола <span class="arab">سَاكَ</span> (тереть, чистить зубы) и означает – зубочистка.</p>
 

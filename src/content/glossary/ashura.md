@@ -1,13 +1,37 @@
 ---
-term: "Ашура"
-url_slug: "ashura"
-letter: "А"
-category: "А"
+term: Ашура
+url_slug: ashura
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- baraka
+- idda
+- idzhma
+- idzhtikhad
+- imam
+- islam
+- kaaba
+- musulmanin
+- mutavatir
+- naskh
+- nikakh
+- ramadan
+- riba
+- sadaka
+- shajtan
+- sunna
+- tafsir
+- vudu
+- zina
+used_in:
+- 03-smyvanie-grehov.md
+- 09-naskh-annulirovanie.md
+- 65-al-bakara-vvedenie.md
 ---
+
 
 <p>'Ашура (араб. <span class="arab">عَاشُورَاءُ</span>) происходит от глагола <span class="arab">عَشَرَ</span> (быть десятым) и означает – сладкое блюдо, приготовленное из очищенной пшеницы с молоком, изюмом и орехами; десятый день месяца мухаррама.</p>
 <p><b><span class="arab"> </span></b></p>

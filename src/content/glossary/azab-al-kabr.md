@@ -1,13 +1,20 @@
 ---
-term: "Азаб аль-кабр"
-url_slug: "azab-al-kabr"
-letter: "А"
-category: "А"
+term: Азаб аль-кабр
+url_slug: azab-al-kabr
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- israfil
+- khaud
+- khisab
+- mizan
+- munkar-i-nakir
+used_in:
+- 31-2-hadis-sudnyj-den.md
 ---
+
 
 <p>'Азаб аль-кабр (араб. <span class="arab">عَذَابُ الْقَبْرِ</span>) состоит из двух слов <span class="arab">عَذَابٌ</span> (мучение, страдание) и <span class="arab">قَبْرٌ</span> (могила) и означат - мучение в могиле.</p>
 

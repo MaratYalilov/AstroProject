@@ -1,13 +1,14 @@
 ---
-term: "Салят ат-Тауба"
-url_slug: "salyat-at-tauba"
-letter: "С"
-category: "С"
+term: Салят ат-Тауба
+url_slug: salyat-at-tauba
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="userslayout/салят" target="_blank">Салят</a> ат-<a href="userslayout/тауба" target="_blank">Тауба</a> (араб. <span class="arab">صَلَاةُ التَّوْبَةِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">تَوْبَةٌ</span> (покаяние) и означает – молитва покаяния.</p>
 

@@ -1,13 +1,28 @@
 ---
-term: "Хасад"
-url_slug: "khasad"
-letter: "К"
-category: "Категория 137"
+term: Хасад
+url_slug: khasad
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ikhlas
+- indzhil
+- isra
+- khafiz
+- kibr
+- ramadan
+- riya
+- sukhur
+- tora
+- zabur
+- zikr
+used_in:
+- 22-2-hadis-vera-v-angelov-i-pisaniya.md
+- 4-1-hadis-plody-ihlasa.md
+- 82-35-hadis-zavist-bolezn-serdca.md
 ---
+
 
 <p>Хасад (араб. <span class="arab">حَسَدٌ</span>) происходит от глагола <span class="arab">حَسَدَ</span> (завидовать (в чем <span class="arab">على</span>)) и означает – зависть.</p>
 <p>В терминологии шариата <b>хасад – это чувство ненависти завидующего к милости Аллаха, которую Он даровал завидуемому и желание лишить его этого, равно будь то милость, относящаяся к религии или мирскому, и равно, желает завистник получить эту милость сам или что бы ее получил другой, либо никто не получил ее.</b></p>

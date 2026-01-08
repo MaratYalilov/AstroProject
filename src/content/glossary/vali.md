@@ -1,13 +1,25 @@
 ---
-term: "Вали"
-url_slug: "vali"
-letter: "В"
-category: "В"
+term: Вали
+url_slug: vali
+letter: В
+category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- akika
+- dzhanaza
+- imam
+- islam
+- kharam
+- musulmanin
+- safar
+- salyam
+- sunna
+used_in:
+- 10-bozhestvennoe-proishozhdenie-imen-allaha.md
+- 99-ostavlenie-namaza.md
 ---
+
 
 <p>Вали (<a href="http://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Арабский язык">араб.</a> وَلِيٌّ мн.ч. أَوْلِياءٌ) происходит от глагола وَلِيَ  (править, управлять) и означает — повелитель, покровитель.</p>
 <p>{Quran}2:257{/Quran}</p>

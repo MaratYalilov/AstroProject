@@ -1,13 +1,14 @@
 ---
-term: "Макам, маком"
-url_slug: "makam-makom"
-letter: "М"
-category: "М"
+term: Макам, маком
+url_slug: makam-makom
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Макам (араб. <span class="arab">اَلْمَقَامُ</span>) происходит от глагола <span class="arab">قَامَ</span> (вставать, подниматься; стоять и др. значения) и означает – место; место стояния.</p>
 

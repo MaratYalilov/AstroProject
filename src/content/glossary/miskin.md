@@ -1,13 +1,14 @@
 ---
-term: "Мискин"
-url_slug: "miskin"
-letter: "М"
-category: "М"
+term: Мискин
+url_slug: miskin
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мискин (араб. <span class="arab">مِسْكِينٌ</span>) происходит от глагола <span class="arab">سَكَنَ</span> (быть тихим, спокойным) и означает – покорный, бедняк.</p>
 <p>{Quran}6:13{/Quran}</p>

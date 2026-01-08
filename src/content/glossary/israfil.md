@@ -1,13 +1,26 @@
 ---
-term: "Исрафиль"
-url_slug: "israfil"
-letter: "И"
-category: "И"
+term: Исрафиль
+url_slug: israfil
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azab-al-kabr
+- id
+- kharut-i-marut
+- khaud
+- khisab
+- mizan
+- munkar
+- munkar-i-nakir
+- ramadan
+used_in:
+- 2-3-imena.md
+- 31-2-hadis-sudnyj-den.md
+- 49-imena-angelov.md
 ---
+
 
 <p>Исрафиль (араб. <span class="arab">إِسْرَافِيلُ</span>) происходит от ассирийского яз. <span class="arab">سَرَافِ</span> (раб) и <span class="arab">إِيلٌ</span> (Бог, Аллах) и означает – раб Аллаха; имя ангела.</p>
 <p><b><span class="arab"> </span></b></p>

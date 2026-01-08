@@ -1,13 +1,31 @@
 ---
-term: "Иджма'"
-url_slug: "idzhma"
-letter: "И"
-category: "И"
+term: Иджма'
+url_slug: idzhma
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ashura
+- dalil
+- idda
+- islam
+- istikama
+- khasan
+- makhr
+- musulmanin
+- radzhab
+- ramadan
+- riba
+- sunna
+- vudu
+used_in:
+- 03-smyvanie-grehov.md
+- 06-nahozhdenie-s-omoveniem.md
+- 1-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 3-prichiny-raznoglasij-mezhdu-uchenymi.md
 ---
+
 
 <p>Иджма' (араб. <span class="arab">إِجْمَاعٌ</span>) происходит от глагола <span class="arab">أَجْمَعَ</span> (решаться; соглашаться (с чем), сходиться (на чем)) и означает – твердое решение; единогласие.</p>
 <p><span class="arab"> </span></p>

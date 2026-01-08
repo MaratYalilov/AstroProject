@@ -1,13 +1,91 @@
 ---
-term: "Ид"
-url_slug: "id"
-letter: "И"
-category: "И"
+term: Ид
+url_slug: id
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- ansary
+- bid-a
+- dalil
+- dzhanaba
+- fitna
+- fitra
+- gusl
+- idzhtikhad
+- imam
+- iman
+- indzhil
+- islam
+- israfil
+- kaaba
+- khadzh
+- khafiz
+- khajd
+- khalil
+- khalyal
+- kharam
+- kharut-i-marut
+- khasan
+- khidzhra
+- kunya
+- makhdi
+- makrukh
+- mandub
+- masikh
+- mechet
+- mukhadzhiry
+- munkar
+- munkar-i-nakir
+- mursal
+- mutavatir
+- nikakh
+- ramadan
+- sadaka
+- safar
+- salyat
+- shajtan
+- sira
+- sunna
+- tafsir
+- takva
+- tashakhkhud
+- tavaf
+- tayammum
+- tora
+- umma
+- zakyat
+- zulm
+used_in:
+- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
+- 09-urok-sira-formy-peredachi-otkroveniya.md
+- 1-12-3-atributy-allakha.md
+- 10-urok-sira-pervye-musulmane.md
+- 15-kogda-sovershat-gusl-sunna.md
+- 2-3-imena.md
+- 40-5-hadis-kriterii-sootvetstviya-shariatu.md
+- 46-atributy-deystviya-allaha.md
+- 47-atributy-deystviya-allaha-2-chast.md
+- 49-imena-angelov.md
+- 5-12-vstrecha.md
+- 5-23-khodataystvo.md
+- 66-al-bakara-korova-01-aiat.md
+- 67-al-bakara-korova-02-aiat.md
+- 68-al-bakara-korova-03-aiat.md
+- 73-protiranie-noskov.md
+- 74-al-bakara-korova-14-15-aiat.md
+- 76-al-bakara-korova-19-20-aiat.md
+- 76-sposoby-soversheniya-tayammuma.md
+- 77-al-bakara-korova-21-22-aiat.md
+- 80-haid.md
+- 85-kaffara-za-blizost-vo-vremya-haida.md
+- 92-voskresenie.md
+- 97-zastupnichestvo.md
+- 98-hodataystvo.md
 ---
+
 
 <p>'Ид (араб. <span class="arab">عِيدٌ</span>) происходит от глагола <span class="arab">عَادَ</span> (возвращаться, возобновляться) и означает – праздник.</p>
 <p><span class="arab"> </span></p>

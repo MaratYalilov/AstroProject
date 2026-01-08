@@ -1,13 +1,19 @@
 ---
-term: "Ахляк"
-url_slug: "akhlyak"
-letter: "А"
-category: "А"
+term: Ахляк
+url_slug: akhlyak
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- islam
+- khadzh
+- salyam
+- zakyat
+used_in:
+- 20-al-asr-predvechernee-vremya.md
 ---
+
 
 <p>Ахляк, ед.ч. хулюк (араб.<span class="arab">أَخْلَاقٌ, خُلُقٌ</span>) происходит от глагола <span class="arab">خَلُقَ</span> (быть свойственным (чему <span class="arab">ل</span>); надлежать (кому <span class="arab">بــــــ</span>); быть достойным (кого <span class="arab">بــــــ</span>)) и означает – нравы, нравственные качества.</p>
 

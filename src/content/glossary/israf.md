@@ -1,13 +1,30 @@
 ---
-term: "Исраф"
-url_slug: "israf"
-letter: "И"
-category: "И"
+term: Исраф
+url_slug: israf
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- gusl
+- imam
+- khasan
+- makrukh
+- mazkhab
+- mursal
+- salyam
+- shajtan
+- sunna
+- tasbikh
+- vasvasa
+used_in:
+- 09-adaby-omoveniya.md
+- 36-protiranie-ushei.md
+- 37-somnenie-v-omovenii.md
+- 43-sunny-guslya.md
 ---
+
 
 <p>Исраф (араб. <span class="arab">إِسْرَافٌ</span>) происходит от глагола <span class="arab">أَسْرَفَ</span> (расточать, тратить без меры; преступать границы (чего <span class="arab">فى</span>); доходить до крайности (в чем <span class="arab">فى</span>)) и означает – чрезмерность, расточительство.</p>
 

@@ -1,13 +1,23 @@
 ---
-term: "Фараид"
-url_slug: "faraid"
-letter: "Ф"
-category: "Ф"
+term: Фараид
+url_slug: faraid
+letter: Ф
+category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- imam
+- istikhara
+- khafiz
+- khasan
+- mazkhab
+- rasul
+- zikr
+used_in:
+- 02-biografiia-avtora-i-kommentatora.md
 ---
+
 
 <p>Фараид (араб. <span class="arab">فَرَائِضُ</span>) происходит от глагола <span class="arab">فَرَضَ</span> (делить, распределять; назначать (кому <span class="arab">ل</span>); и др. значения) и означает – доли, части; обязательства.</p>
 

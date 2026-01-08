@@ -1,13 +1,14 @@
 ---
-term: "Такдир, кадар."
-url_slug: "takdir-kadar"
-letter: "Т"
-category: "Т"
+term: Такдир, кадар.
+url_slug: takdir-kadar
+letter: Т
+category: Т
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Такдир, кадар (араб. <span class="arab">تَقْدِيرٌ و قَدَرٌ</span>) происходит от глагола первой породы <span class="arab">قَدَرَ</span> (мочь, быть в состоянии, в силах сделать (что <span class="arab">على</span>)) и от глагола второй степени <span class="arab">قَدَّرَ</span> (определять, исчислять определять размер; предопределять, определять (судьбу) и означает – судьба, предопределение.</p>
 

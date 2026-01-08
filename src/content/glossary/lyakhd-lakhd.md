@@ -1,13 +1,14 @@
 ---
-term: "Ляхд, лахд."
-url_slug: "lyakhd-lakhd"
-letter: "Л"
-category: "Л"
+term: Ляхд, лахд.
+url_slug: lyakhd-lakhd
+letter: Л
+category: Л
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ляхд (араб. <span class="arab">لَحْدٌ</span>) происходит от глагола <span class="arab">لَحَدَ</span> (отступать, отходить (от веры); отклоняться от чего, склоняться к чему (к чему <span class="arab">إلى</span>); погребать, хоронить; рыть могилу) и означает - могильная ниша, могила.</p>
 

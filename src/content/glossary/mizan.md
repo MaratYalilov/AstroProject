@@ -1,13 +1,20 @@
 ---
-term: "Мизан"
-url_slug: "mizan"
-letter: "М"
-category: "М"
+term: Мизан
+url_slug: mizan
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azab-al-kabr
+- israfil
+- khaud
+- khisab
+- munkar-i-nakir
+used_in:
+- 31-2-hadis-sudnyj-den.md
 ---
+
 
 <p>Мизан (араб. <span class="arab">مِيزَانُ</span>) происходит от глагола <span class="arab">وَزَنَ</span> (мерить, взвешивать) и означает – мерило, весы.</p>
 <p>{Quran}55:9{/Quran}</p>

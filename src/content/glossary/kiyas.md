@@ -1,13 +1,14 @@
 ---
-term: "Кияс"
-url_slug: "kiyas"
-letter: "К"
-category: "К"
+term: Кияс
+url_slug: kiyas
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Кияс (араб. <span class="arab">قِيَاسٌ</span>) происходит от глагола <span class="arab">قَاسَ</span> (мерить, измерять; сравнивать) и означает - измерение; сравнение; сопоставление, аналогия.</p>
 

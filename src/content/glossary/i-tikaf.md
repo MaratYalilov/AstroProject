@@ -1,13 +1,14 @@
 ---
-term: "И'тикаф"
-url_slug: "i-tikaf"
-letter: "И"
-category: "И"
+term: И'тикаф
+url_slug: i-tikaf
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>И'тикаф (араб. <span class="arab">اِعْتِكَافٌ</span>) происходит от глагола <span class="arab">عَكَفَ</span> (удерживать (от чего عن); усердно продолжительно работать; упорно заниматься (чем على); отдаваться (чему على)) и означает – уединение.</p>
 <p>{Quran}48:25{/Quran}</p>

@@ -1,13 +1,14 @@
 ---
-term: "Газва Бадр"
-url_slug: "gazva-badr"
-letter: "Г"
-category: "Г"
+term: Газва Бадр
+url_slug: gazva-badr
+letter: Г
+category: Г
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Газва Бадр (араб. <span class="arab">غَزْوَةُ بَدْرٍ</span>) состоит из двух слов <span class="arab">غَزْوَةٌ</span> (поход) и <span class="arab">بَدْرٌ</span> (название местности) и означает – поход в котором произошло сражение при Бадре.</p>
 

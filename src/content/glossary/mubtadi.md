@@ -1,13 +1,14 @@
 ---
-term: "Мубтади'"
-url_slug: "mubtadi"
-letter: "М"
-category: "М"
+term: Мубтади'
+url_slug: mubtadi
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мубтади' (араб. <span class="arab">مُبْتَدِعٌ</span>) происходит от глагола <span class="arab">اِبْتَدَعَ</span> (выдумывать, придумывать; изобретать, вводить новшества) и означает - новатор, изобретатель.</p>
 

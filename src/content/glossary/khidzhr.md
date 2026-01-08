@@ -1,13 +1,44 @@
 ---
-term: "Хиджр"
-url_slug: "khidzhr"
-letter: "К"
-category: "Категория 137"
+term: Хиджр
+url_slug: khidzhr
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- ansary
+- din
+- dzhakhilijya
+- dzhama-a
+- dzhinn
+- iblis
+- imam
+- islam
+- kaaba
+- karamat
+- khadzh
+- khafiz
+- khasan
+- khidzhra
+- khira
+- mursal
+- musulmanin
+- ramadan
+- sakhikh
+- salyam
+- sira
+- sunna
+- umma
+used_in:
+- 02-tafsir-poleznoe-vstuplenie.md
+- 06-urok-sira-vzroslaya-zhizn-proroka.md
+- 07-urok-sira-oblik-proroka.md
+- 15-urok-sira-prodolzhenie-ispytanii.md
+- 35-al-fadzhr-zaria-chast-2.md
+- 84-al-bakara-korova-34-aiat.md
 ---
+
 
 <p>Хиджр (араб. <span class="arab">حِجْرٌ</span>) происходит от глагола <span class="arab">حَجَرَ</span> (препятствовать, запрещать; задерживать) и означает – запретное, преграда.</p>
 

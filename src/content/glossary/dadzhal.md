@@ -1,13 +1,24 @@
 ---
-term: "Даджаль"
-url_slug: "dadzhal"
-letter: "Д"
-category: "Д"
+term: Даджаль
+url_slug: dadzhal
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- dabba
+- imam
+- kharam
+- masikh
+- mechet
+- musulmanin
+- yadzhudzh-i-madzhudzh
+used_in:
+- 5-5-3-1-al-masikhud-dadzhal.md
+- 81-dadzhal.md
 ---
+
 
 <p><span class="arab">Даджаль (араб. دَجَّالٌ</span>) происходит от глагола <span class="arab">دَجَلَ</span> (лгать; обманывать; запутывать; покрывать краской, позолотой) и означает – лжец, шарлатан.</p>
 <p> </p>

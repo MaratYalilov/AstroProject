@@ -1,13 +1,25 @@
 ---
-term: "Зульм"
-url_slug: "zulm"
-letter: "З"
-category: "З"
+term: Зульм
+url_slug: zulm
+letter: З
+category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- id
+- khadis-kudsi
+- khadzh
+- musulmanin
+- riba
+- shajtan
+- shirk
+- takva
+used_in:
+- 72-24-hadis-ya-zapretil-priteenenie.md
+- 74-al-bakara-korova-14-15-aiat.md
+- 83-35-hadis-musulmanin-brat-musulmanina.md
 ---
+
 
 <p>Зульм (араб. <span class="arab">ظُلْمٌ</span>) происходит от глагола <span class="arab">ظَلَمَ</span> (чинить несправедливость, поступать несправедливо; угнетать, притеснять; обижать) и означает - гнёт; притеснение, тирания; несправедливость.</p>
 

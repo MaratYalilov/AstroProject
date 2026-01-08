@@ -1,13 +1,45 @@
 ---
-term: "Тасбих"
-url_slug: "tasbikh"
-letter: "Т"
-category: "Т"
+term: Тасбих
+url_slug: tasbikh
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- gusl
+- iblis
+- idzhtikhad
+- islam
+- israf
+- istigfar
+- khalyal
+- kharam
+- khasan
+- ma-ruf
+- mechet
+- munkar
+- ramadan
+- sadaka
+- sakhikh
+- shajtan
+- sunna
+- tavaf
+- tayammum
+- ukhud
+- umma
+- vasvasa
+- zikr
+- zina
+used_in:
+- 07-klyuchi-namaza.md
+- 13-an-nasr-pomoshch.md
+- 37-somnenie-v-omovenii.md
+- 38-obtiranie-posle-omoveniya.md
+- 75-25-hadis-shirota-milosti-allaha.md
+- 81-al-bakara-korova-29-30-aiat.md
 ---
+
 
 <p>Тасбих (араб. <span class="arab">تَسْبِيحٌ</span>) происходит от глагола первой породы <span class="arab">سَبَحَ</span> (отдалять; быстро уходить, отправляться (по воде, суши или воздуху)) и от глагола второй породы <span class="arab">سَبَّحَ</span> (удалять от всего порочного, восхвалять) и означает – прославление, восхваление.</p>
 <p>{Quran}21:33{/Quran}</p>

@@ -1,13 +1,55 @@
 ---
-term: "Идда"
-url_slug: "idda"
-letter: "И"
-category: "И"
+term: Идда
+url_slug: idda
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- ashura
+- dalil
+- dzhanaza
+- fikkh
+- gusl
+- idzhma
+- idzhtikhad
+- imam
+- istikhada
+- kaaba
+- kaffara
+- khadzh
+- khajd
+- kharam
+- khasan
+- makhr
+- makrukh
+- mazkhab
+- mechet
+- muskhaf
+- mutavatir
+- naskh
+- nifas
+- nikakh
+- radzhab
+- ramadan
+- riba
+- sadaka
+- sunna
+- tafsir
+- talak
+- tavaf
+- zina
+used_in:
+- 09-naskh-annulirovanie.md
+- 1-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 22-mesyachnye-nifas-istihada.md
+- 3-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 89-predohranenie-ot-beremennosti.md
+- 90-cveta-krovi-v-mazhabah.md
+- 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
 ---
+
 
 <p>'Идда (араб. <span class="arab">عِدَّةٌ</span>) происходит от глагола <span class="arab">عَدَّ</span> (считать) и означает – некоторое число, несколько.</p>
 <p>В терминологии шариата <b>'идда – это наименование срока<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a> определенного законодателем, который женщина обязана выжидать по причине расставания<a href="#_ftn2" name="_ftnref2" title=""><b>[2]</b></a> с мужем, подчиняясь Аллаху, скорбя по мужу или для того, что бы убедиться в отсутствии беременности.</b></p>

@@ -1,13 +1,14 @@
 ---
-term: "Джабариты, джабриты, джабрийя"
-url_slug: "dzhabarity-dzhabrity-dzhabrijya"
-letter: "Д"
-category: "Д"
+term: Джабариты, джабриты, джабрийя
+url_slug: dzhabarity-dzhabrity-dzhabrijya
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Джабариты, джабриты (араб. <span class="arab">جَبْرِيَّةٌ, جَبَرِيَّةٌ</span>) происходит от глагола <span class="arab">جَبَرَ</span> (принуждать, заставлять делать силой (делать что <span class="arab">على</span>)) и означает - секта, группа имеющая отклонение в понимании предопределения, отрицая свободу воли человека.</p>
 

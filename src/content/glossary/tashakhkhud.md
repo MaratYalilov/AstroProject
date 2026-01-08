@@ -1,13 +1,24 @@
 ---
-term: "Ташаххуд"
-url_slug: "tashakhkhud"
-letter: "Т"
-category: "Т"
+term: Ташаххуд
+url_slug: tashakhkhud
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- id
+- iman
+- islam
+- ramadan
+- salyat
+- zakyat
+used_in:
+- 185-tashahhud-urok-1.md
+- 187-tashahhud-urok-3.md
+- 188-tashahhud-urok-4.md
+- 68-al-bakara-korova-03-aiat.md
 ---
+
 
 <p><em>Ташаххуд(араб. </em><em><span class="arab">تَشَهُّدٌ</span></em><em>) происходит от глагола первой пароды </em><em><span class="arab">شَهِدَ</span></em><em> (быть, присутствовать (при чем-л.); свидетельствовать (о чём </em><em><span class="arab">بـــــــ</span></em><em>)) и от глагола </em><em><span class="arab">تَشَهَّدَ</span></em><em> (произносить слова исповедания веры: </em><em><b>«</b></em><em>Нет божества, кроме Аллаха и Мухаммад Его пророк») и означает – свидетельство исповедания веры: </em><em><b>«</b></em><em>Нет божества, кроме Аллаха и Мухаммад Его пророк».</em></p>
 

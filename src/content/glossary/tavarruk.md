@@ -1,13 +1,14 @@
 ---
-term: "Таваррук"
-url_slug: "tavarruk"
-letter: "Т"
-category: "Т"
+term: Таваррук
+url_slug: tavarruk
+letter: Т
+category: Т
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Таваррук (араб. <span class="arab">تَوَرُّكٌ</span>) происходит от глагола <span class="arab">تَوَرَّكَ</span> (садиться, опираться на бедро; проживать; останавливаться (где <span class="arab">بـــ</span>)) из корня <span class="arab">وَرِكٌ</span> (бедро) и означает – сидение на бедре.</p>
 

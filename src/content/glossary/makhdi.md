@@ -1,13 +1,36 @@
 ---
-term: "Махди"
-url_slug: "makhdi"
-letter: "М"
-category: "М"
+term: Махди
+url_slug: makhdi
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- gusl
+- id
+- imam
+- istikhada
+- kaaba
+- khajd
+- khalyal
+- kharam
+- khasan
+- mukhadzhiry
+- sadaka
+- safar
+- umma
+- zakyat
+used_in:
+- 31-al-lejl-noch.md
+- 5-5-2-malye-priznaki-sudnogo-dnya.md
+- 66-al-bakara-korova-01-aiat.md
+- 73-protiranie-noskov.md
+- 75-malye-priznaki-sudnogo-dnya.md
+- 84-mahdi.md
+- 86-sroki-haida.md
 ---
+
 
 <p>Махди (араб. <span class="arab">مَهْدِيٌّ</span>) происходит от глагола <span class="arab">هَدَى</span> (вести; вести по правильному пути, указывать путь (к чему <span class="arab">إلى</span>); направлять, выводить на правильный путь; руководить) и означает – направленный на верный путь, ведомый истинным путем.</p>
 <p><b><span class="arab"> </span></b></p>

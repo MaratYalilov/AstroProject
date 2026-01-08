@@ -1,13 +1,32 @@
 ---
-term: "Расуль"
-url_slug: "rasul"
-letter: "Р"
-category: "Р"
+term: Расуль
+url_slug: rasul
+letter: Р
+category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- faraid
+- imam
+- istikhara
+- khadzh
+- khafiz
+- khalyal
+- kharam
+- khasan
+- mazkhab
+- munkar
+- muskhaf
+- sakhikh
+- zikr
+used_in:
+- 02-biografiia-avtora-i-kommentatora.md
+- 14-2-hadis-otnoshenie-k-poslanniku.md
+- 19-persten-s-imenem-allaha.md
 ---
+
 
 <p>Расуль (араб. رَسُولٌ) производное от إِرْسالٌ (отправлять, посылать) и означает посланник.</p>
 <p>В терминологии шариата <strong>расуль – это</strong><strong> свободный мужчина, которому Бог посредством откровения даровал закон и приказал призывать к нему народ противостоящий ему.</strong><br /><br /></p>

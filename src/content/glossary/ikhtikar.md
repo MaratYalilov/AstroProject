@@ -1,13 +1,14 @@
 ---
-term: "Ихтикар"
-url_slug: "ikhtikar"
-letter: "И"
-category: "И"
+term: Ихтикар
+url_slug: ikhtikar
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ихтикар (араб. <span class="arab">اِحْتِكَارٌ</span>) происходит от глагола <span class="arab">حَكِرَ</span> (собирать, удерживать; скупать; монополизировать) и означает – монополия.</p>
 

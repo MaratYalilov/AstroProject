@@ -1,13 +1,14 @@
 ---
-term: "Кияма, кыяма"
-url_slug: "kiyama-kyyama"
-letter: "К"
-category: "К"
+term: Кияма, кыяма
+url_slug: kiyama-kyyama
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Кияма (араб. <span class="arab">قِيَامَةٌ</span>) происходит от глагола <span class="arab">قَامَ</span> (вставать, подниматься; стоять; существовать, происходить, совершаться) и означает – стояние, вставание; предстояние; совершение.</p>
 

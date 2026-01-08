@@ -1,13 +1,14 @@
 ---
-term: "Бей'а, байат"
-url_slug: "beja-bajat"
-letter: "Б"
-category: "Б"
+term: Бей'а, байат
+url_slug: beja-bajat
+letter: Б
+category: Б
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Бей'а (араб. <span class="arab">بَيْعَةٌ</span>) происходит от глагола <span class="arab">بَاعَ</span> (торговать, продавать) и означает - сделка о продаже; присяга.</p>
 

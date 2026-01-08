@@ -1,13 +1,14 @@
 ---
-term: "Салят аль-'иша"
-url_slug: "salyat-al-isha"
-letter: "Р"
-category: "Р"
+term: Салят аль-'иша
+url_slug: salyat-al-isha
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="userslayout/салят" target="_blank">Салят</a> аль-'иша (араб. <span class="arab">صَلاةُ</span><b><span class="arab"> </span></b><span class="arab">الْعِشَاءِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">عِشَاءٌ</span> (вечер, начало ночи) и означает – ночная молитва.</p>
 

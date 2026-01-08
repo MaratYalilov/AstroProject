@@ -1,13 +1,14 @@
 ---
-term: "Шари'а"
-url_slug: "shari-a"
-letter: "Ш"
-category: "Ш"
+term: Шари'а
+url_slug: shari-a
+letter: Ш
+category: Ш
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Шари'а (араб. <span class="arab">شَرِيعَةٌ</span>) происходит от глагола <span class="arab">شَرَعَ</span> (устанавливать закон; пить воду с руки; ставить дом возле дороги) и означает – закон, путь к источнику воды, порог дома.</p>
 

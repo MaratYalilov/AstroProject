@@ -1,13 +1,14 @@
 ---
-term: "Фетва, фатва."
-url_slug: "fetva-fatva"
-letter: "Ф"
-category: "Ф"
+term: Фетва, фатва.
+url_slug: fetva-fatva
+letter: Ф
+category: Ф
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Фетва (араб. <span class="arab">فَتْوَى</span>) происходит от глагола <span class="arab">أَفْتَى</span> (давать совет; разъяснять) и означает – разъяснение.</p>
 <p>{Quran}12:43{/Quran}</p>

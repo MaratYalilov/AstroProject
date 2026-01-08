@@ -1,13 +1,55 @@
 ---
-term: "Таваф"
-url_slug: "tavaf"
-letter: "Т"
-category: "Т"
+term: Таваф
+url_slug: tavaf
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhanaza
+- fard
+- fikkh
+- gusl
+- id
+- idda
+- imam
+- iman
+- islam
+- istikhada
+- khadzh
+- khafiz
+- khajd
+- kharam
+- khasan
+- khidzhra
+- makrukh
+- mazkhab
+- mechet
+- mukhadzhiry
+- muskhaf
+- nifas
+- ramadan
+- sadaka
+- shakhid
+- sunna
+- tafsir
+- talak
+- tasbikh
+- tayammum
+- umma
+- vadzhib
+used_in:
+- 10-urok-sira-pervye-musulmane.md
+- 10-vidy-omoveniya.md
+- 11-deistviya-narushayuschie-omovenie.md
+- 22-mesyachnye-nifas-istihada.md
+- 23-mesyachnye-nifas-istihada-2chast.md
+- 38-obtiranie-posle-omoveniya.md
+- 82-nahozhdenie-v-mecheti-vo-vremya-haida.md
+- 90-cveta-krovi-v-mazhabah.md
 ---
+
 
 <p>Таваф (араб. <span class="arab">طَوَافٌ</span>) происходит от глагола <span class="arab">طَافَ</span> (обходить кругом, совершать обход, патрулировать; странствовать (где <span class="arab">فى</span>); обводить, водить вокруг (чего-л. кого <span class="arab">بـ</span>)) и означает – обход, хождение.</p>
 <p>Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Поистине (кошка) не грязное животное, поистине она из тех, кто ходит вокруг вас».</b> Приводит ан-Насаи.</p>

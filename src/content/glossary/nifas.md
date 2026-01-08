@@ -1,13 +1,49 @@
 ---
-term: "Нифас"
-url_slug: "nifas"
-letter: "Н"
-category: "Н"
+term: Нифас
+url_slug: nifas
+letter: Н
+category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaba
+- dzhanaza
+- fard
+- fikkh
+- gusl
+- idda
+- idzhtikhad
+- imam
+- islam
+- istikhada
+- kaffara
+- khajd
+- khamr
+- kharam
+- khasan
+- makrukh
+- mazkhab
+- mechet
+- muskhaf
+- nikakh
+- radzhab
+- sadaka
+- shakhid
+- talak
+- tavaf
+- tayammum
+used_in:
+- 11-deistviya-narushayuschie-omovenie.md
+- 17-tayammum-chast-2.md
+- 22-mesyachnye-nifas-istihada.md
+- 23-mesyachnye-nifas-istihada-2chast.md
+- 24-nechistoty-i-ih-ochischenie-1-chast.md
+- 42-farzy-guslya.md
+- 91-priznaki-zaversheniya-mesyachnyh.md
+- 92-nifas.md
+- 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
 ---
+
 
 <p>Нифас (араб. <span class="arab">نِفَاسٌ</span>) происходит от глагола <span class="arab">نَفِسَتْ</span>  (рожать) и означает – роды; послеродовая кровь.</p>
 

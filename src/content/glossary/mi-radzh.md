@@ -1,13 +1,18 @@
 ---
-term: "Ми'радж"
-url_slug: "mi-radzh"
-letter: "М"
-category: "М"
+term: Ми'радж
+url_slug: mi-radzh
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- islam
+- musulmanin
+- ramadan
+used_in:
+- 98-obyazatelnost-soversheniya-namaza.md
 ---
+
 
 <p>Ми'радж (араб. <span class="arab">مِعْرَاجٌ</span>) происходит от глагола <span class="arab">عَرَجَ</span> (восходить, подниматься) и означает – лестница, восхождение.</p>
 <p>{Quran}70:4{/Quran}</p>

@@ -1,13 +1,14 @@
 ---
-term: "Джаннат"
-url_slug: "dzhannat"
-letter: "Д"
-category: "Д"
+term: Джаннат
+url_slug: dzhannat
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Джаннат (араб. <span class="arab">جَنَّةٌ</span>) происходит от глагола <span class="arab">جَنَّ</span> (скрывать, покрывать) и означает – большой сад, который скрывает своей зарослью входящих в него.</p>
 <p>{Quran}6:76{/Quran}</p>

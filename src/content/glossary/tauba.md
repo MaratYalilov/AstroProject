@@ -1,13 +1,22 @@
 ---
-term: "Тауба"
-url_slug: "tauba"
-letter: "Т"
-category: "Т"
+term: Тауба
+url_slug: tauba
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- gusl
+- istindzha
+- khasan
+- mechet
+- munkar
+- sakhikh
+used_in:
+- 23-spravlenie-nuzhdy-stoya.md
 ---
+
 
 <p>Тауба (араб. تَوبَةٌ) происходит от глагола تَابَ (возвратиться, оставить грех) и означает – возвращение, оставление греха.</p>
 <p>{Quran}25:71{/Quran}</p>

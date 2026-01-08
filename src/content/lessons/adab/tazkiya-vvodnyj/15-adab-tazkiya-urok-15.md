@@ -8,6 +8,6 @@ audioRel: audio/15-adab-tazkiya-urok-15.mp3
 video: /media/adab/tazkiya-vvodnyj/video/15-adab-tazkiya-urok-15.mp4
 videoRel: video/15-adab-tazkiya-urok-15.mp4
 ---
-# 15 Адаб (тазкия) урок 15
+# 15 <a href="/glossary/adab" class="glossary-link" target="_blank" rel="noopener noreferrer">Адаб</a> (тазкия) урок 15
 
 Конспекта урока не существует.

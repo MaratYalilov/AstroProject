@@ -1,13 +1,14 @@
 ---
-term: "Кияс аль-ауля"
-url_slug: "kiyas-al-aulya"
-letter: "К"
-category: "К"
+term: Кияс аль-ауля
+url_slug: kiyas-al-aulya
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="userslayout/кияс" target="_blank">Кияс</a> аль-ауля (араб. <span class="arab"></span><span class="arab"></span> <span class="arab">قِيَاسُ الْأَوْلَى</span>) состоит из двух слов <span class="arab">قِيَاسٌ</span> (сравнение, аналогия) и <span class="arab">أَوْلَى</span> (самый достойный, предпочтительный) и означает – аналогия по достоинству, по праву.</p>
 

@@ -1,13 +1,20 @@
 ---
-term: "Хисаб"
-url_slug: "khisab"
-letter: "К"
-category: "Категория 137"
+term: Хисаб
+url_slug: khisab
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azab-al-kabr
+- israfil
+- khaud
+- mizan
+- munkar-i-nakir
+used_in:
+- 31-2-hadis-sudnyj-den.md
 ---
+
 
 <p>Хисаб (араб. <span class="arab">حِسَابٌ</span>) происходит от глагола <span class="arab">حَسَبَ</span> (считать, исчислять; рассчитываться) и означает – счет, расчет; подведение итогов, отчет.</p>
 

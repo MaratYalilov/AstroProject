@@ -1,13 +1,14 @@
 ---
-term: "Санад"
-url_slug: "sanad"
-letter: "С"
-category: "С"
+term: Санад
+url_slug: sanad
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Санад (араб. <span class="arab">سَنَدٌ</span>) происходит от глагола <span class="arab">سَنَدَ</span> (опираться, полагаться (на кого-то, что-то <span class="arab">إلى</span>); поддерживать, подпирать (что <span class="arab">بـ</span>)) и означает – опора.</p>
 

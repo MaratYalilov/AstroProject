@@ -1,13 +1,14 @@
 ---
-term: "Иля'"
-url_slug: "ilya"
-letter: "И"
-category: "И"
+term: Иля'
+url_slug: ilya
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>
 <p class="MsoNormal">Иля' (араб. <span class="arab">إِيلاءٌ</span>) происходит от глагола <span class="arab">آلَى</span> (клясться; давать клятву воздержания) и означает – клятва; клятва воздержания.</p>

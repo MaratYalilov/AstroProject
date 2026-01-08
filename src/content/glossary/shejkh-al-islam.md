@@ -1,13 +1,14 @@
 ---
-term: "Шейх аль-Ислам"
-url_slug: "shejkh-al-islam"
-letter: "Ш"
-category: "Ш"
+term: Шейх аль-Ислам
+url_slug: shejkh-al-islam
+letter: Ш
+category: Ш
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Шейх аль-<a href="userslayout/ислам" target="_blank">Ислам</a> (араб. <span class="arab">شَيْخُ</span><b><span class="arab"> </span></b><span class="arab">الْإِسْلَامِ</span>) состоит из двух слов <span class="arab">شَيْخٌ</span> (старец; вождь, глава; ученый; преподаватель) и <span class="arab">اَلْإِسْلامُ</span> (покорность Богу, Ислам) и означает – великий исламский ученый.</p>
 <p>        </p>

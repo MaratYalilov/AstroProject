@@ -1,13 +1,24 @@
 ---
-term: "Джахилийя"
-url_slug: "dzhakhilijya"
-letter: "Д"
-category: "Д"
+term: Джахилийя
+url_slug: dzhakhilijya
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- imam
+- islam
+- kaaba
+- khidzhr
+- khidzhra
+- khira
+- ramadan
+- sakhikh
+used_in:
+- 06-urok-sira-vzroslaya-zhizn-proroka.md
 ---
+
 
 <p>Джахилийя (араб. <span class="arab">جَاهِلِيَّةٌ</span>) происходит от глагола <span class="arab">جَهِلَ</span> (не знать; быть невежественным, безрассудным) и означает – невежество, безрассудство, грубость. </p>
 <p></p>

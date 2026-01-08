@@ -1,13 +1,31 @@
 ---
-term: "Фаджр"
-url_slug: "fadzhr"
-letter: "Ф"
-category: "Ф"
+term: Фаджр
+url_slug: fadzhr
+letter: Ф
+category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhanaza
+- gusl
+- idzhtikhad
+- istikhada
+- khafiz
+- khalil
+- mazkhab
+- salyat
+- shajtan
+- takhadzhud
+used_in:
+- 102-vremena-namazov.md
+- 103-vremya-namaza-mezhdu-etimi-dvumya-promezhutkami.md
+- 104-dzhibril-imam.md
+- 120-dostoinstvo-utrennego-i-vechernego-bardain-namazov.md
+- 122-srednii-namaz.md
+- 96-istihada-i-gusl.md
 ---
+
 
 <p>Фаджр (араб. <span class="arab">فَجْرٌ</span>) происходит от глагола <span class="arab">فَجَرَ</span> (раскалывать, рассекать (камень, темноту)) и означает – рассвет, заря.</p>
 

@@ -1,13 +1,31 @@
 ---
-term: "Джанаба"
-url_slug: "dzhanaba"
-letter: "Д"
-category: "Д"
+term: Джанаба
+url_slug: dzhanaba
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+- gusl
+- id
+- islam
+- khadzh
+- khajd
+- khasan
+- mandub
+- mazkhab
+- mechet
+- nifas
+- rukn
+- sunna
+- tayammum
+used_in:
+- 13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.md
+- 15-kogda-sovershat-gusl-sunna.md
+- 42-farzy-guslya.md
 ---
+
 
 <p>Джанаба (араб. <span class="arab">جَنَابَةٌ</span>) происходит от глагола <span class="arab">جَنَبَ</span> (откладывать в сторону; держать в стороне от…) и означает – отдаление, отдаленность.</p>
 

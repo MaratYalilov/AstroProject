@@ -1,13 +1,14 @@
 ---
-term: "Ифрит, африт."
-url_slug: "ifrit-afrit"
-letter: "И"
-category: "И"
+term: Ифрит, африт.
+url_slug: ifrit-afrit
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ифрит, африт (араб. <span class="arab">عِفْرِيتٌ</span>) происходит от глагола первой породы <span class="arab">عَفَرَ</span> (пачкать (землёй), загрязнять; покрывать пылью, запылить) и от глагола <span class="arab">تَعَفْرَتَ</span><b><span class="arab"> </span></b> (становиться злым, злиться) и означает – хитрый, порочный, демон, черт.</p>
 

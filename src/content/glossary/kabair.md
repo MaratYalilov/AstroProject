@@ -1,13 +1,14 @@
 ---
-term: "Кабаир"
-url_slug: "kabair"
-letter: "К"
-category: "К"
+term: Кабаир
+url_slug: kabair
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Кабаир, ед.ч. кабира (араб. <span class="arab">كَبَائِرُ,</span><span class="arab">كَبِيرَةٌ</span>) происходит от глагола <span class="arab">كَبُرَ</span> (быть большим, огромным) и означает – большие грехи.</p>
 

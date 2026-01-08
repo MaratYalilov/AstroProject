@@ -1,13 +1,57 @@
 ---
-term: "Иблис"
-url_slug: "iblis"
-letter: "И"
-category: "И"
+term: Иблис
+url_slug: iblis
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- azan
+- din
+- dzhinn
+- idzhtikhad
+- ikhlas
+- imam
+- islam
+- kaaba
+- karamat
+- khadzh
+- khafiz
+- khalyal
+- kharam
+- khasan
+- khava
+- khidzhr
+- khira
+- mechet
+- musulmanin
+- nikakh
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sira
+- sunna
+- takfir
+- tasbikh
+- taukhid
+- zakyat
+used_in:
+- 02-urok-sira-religii-arabov.md
+- 04-edinobozhie-i-ego-vidy.md
+- 10-al-falyak-rassvet.md
+- 127-azan-urok-5.md
+- 17-urok-sira-popytki-poseyat-somneniya.md
+- 2-1-2-svet.md
+- 48-vera-v-angelov.md
+- 81-al-bakara-korova-29-30-aiat.md
+- 83-al-bakara-korova-31-33-aiat.md
+- 84-al-bakara-korova-34-aiat.md
+- 85-al-bakara-korova-35-37-aiat.md
+- 9-1-hadis-otnoshenie-k-dunya.md
 ---
+
 
 <p>Иблис (араб. <span class="arab">إِبْلِيسُ</span>) происходит от глагола <span class="arab">أَبْلَسَ</span> (быть в отчаянии, отчаяться; отдаляться от блага) и означает – сатана, имя шайтана. Он назван этим именем за то, что отчаялся в милости Аллаха и отдалился от блага.</p>
 <p>{Quran}6:44{/Quran}</p>

@@ -1,13 +1,24 @@
 ---
-term: "Шарт"
-url_slug: "shart"
-letter: "Ш"
-category: "Ш"
+term: Шарт
+url_slug: shart
+letter: Ш
+category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- gusl
+- islam
+- kufr
+- sadaka
+- sunna
+- tayammum
+- vadzhib
+used_in:
+- 09-chto-narushaet-omovenie.md
+- 25-vidy-omoveniya.md
+- 62-raznoglasiya-po-povodu-mani-semeni.md
 ---
+
 
 <p>Шарт (араб. <span class="arab">شَرْطٌ</span>) происходит от глагола <span class="arab">شَرَطَ</span> (ставить (что-либо) условием, обуславливать (чем-либо)) и означает - условие; требование, положение; знак, признак.</p>
 

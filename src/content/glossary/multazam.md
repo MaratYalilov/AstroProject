@@ -1,13 +1,14 @@
 ---
-term: "Мультазам"
-url_slug: "multazam"
-letter: "М"
-category: "М"
+term: Мультазам
+url_slug: multazam
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мультазам (араб. <span class="arab">مُلْتَزَمٌ</span>) происходит от глагола <span class="arab">اِلْتَزَمَ</span> (считать для себя обязательным (что-л.); держаться (чего-л.); обнимать) и означает – обязанный; место объятия.</p>
 

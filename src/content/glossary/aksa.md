@@ -1,13 +1,46 @@
 ---
-term: "Акса"
-url_slug: "aksa"
-letter: "А"
-category: "А"
+term: Акса
+url_slug: aksa
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ashura
+- dabba
+- dadzhal
+- idda
+- idzhtikhad
+- imam
+- iman
+- islam
+- kaaba
+- kharam
+- khasan
+- masikh
+- mechet
+- musulmanin
+- mutavatir
+- naskh
+- nikakh
+- sadaka
+- shajtan
+- sunna
+- tafsir
+- taravikh
+- yadzhudzh-i-madzhudzh
+- zina
+used_in:
+- 04-prichina-vhoda-v-rai.md
+- 09-naskh-annulirovanie.md
+- 1-11-poseshchenie-mogil.md
+- 28-at-tin_smokovnitca.md
+- 41-poseschenie-mogil.md
+- 5-5-3-1-al-masikhud-dadzhal.md
+- 57-an-naziat-istorgaiushchie-1.md
+- 81-dadzhal.md
 ---
+
 
 <p>Акса (араб. <span class="arab">أَقْصَى</span>) происходит от глагола <span class="arab">قَصِيَ</span> (быть далеким, отдаленным (от чего <span class="arab">عن</span>)) и означает - самый далекий, дальний; крайний, предельный; максимальный.</p>
 

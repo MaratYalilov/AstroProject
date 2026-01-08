@@ -1,13 +1,18 @@
 ---
-term: "Хикма"
-url_slug: "khikma"
-letter: "К"
-category: "Категория 137"
+term: Хикма
+url_slug: khikma
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhikhad
+- ramadan
+- zikr
+used_in:
+- 16-2-hadis-kachestva-i-primer-proroka-mukhammada.md
 ---
+
 
 <p>Хикма (араб. <span class="arab">حِكْمَةٌ</span>) происходит от глагола <span class="arab">أَحْكَمَ</span> (укреплять, делать крепко, прочно, точно, хорошо;  владеть в совершенстве) и означает – мудрость.</p>
 <p><span class="arab"> </span></p>

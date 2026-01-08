@@ -1,13 +1,14 @@
 ---
-term: "Да'ват"
-url_slug: "da-vat"
-letter: "Д"
-category: "Д"
+term: Да'ват
+url_slug: da-vat
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Да'ват (араб. <span class="arab">دَعْوَةٌ</span>) происходит от глагола <span class="arab">دَعَا</span> (звать, призывать (к чему <span class="arab">ل</span>); взывать; приглашать (на что <span class="arab">إلى</span>)) и означает – призыв, мольба.<span class="arab"></span></p>
 <p><span class="arab"> </span></p>

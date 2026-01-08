@@ -1,13 +1,14 @@
 ---
-term: "Рауда"
-url_slug: "rauda"
-letter: "Р"
-category: "Р"
+term: Рауда
+url_slug: rauda
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Рауда (араб. <span class="arab">رَوْضَةُ</span>) первообразное имя в значении – сад, лук.</p>
 <p>{Quran}30:15{/Quran}</p>

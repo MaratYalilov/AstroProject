@@ -1,13 +1,14 @@
 ---
-term: "Халифат"
-url_slug: "khalifat"
-letter: "К"
-category: "Категория 137"
+term: Халифат
+url_slug: khalifat
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Халифат (араб. <span class="arab">خِلَافَةٌ</span>) происходит от глагола <span class="arab">خَلَفَ</span> (следовать (за кем-л.); замещать, быть преемником; оставаться (после кого-л.); отставать (от кого), оставаться позади (кого <span class="arab">عن</span>)) и означает - замещение; заместительство.</p>
 

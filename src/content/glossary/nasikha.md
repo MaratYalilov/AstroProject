@@ -1,13 +1,14 @@
 ---
-term: "Насиха"
-url_slug: "nasikha"
-letter: "Н"
-category: "Н"
+term: Насиха
+url_slug: nasikha
+letter: Н
+category: Н
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Насиха (араб. <span class="arab">نَصِيحَةٌ</span>) происходит от глагола <span class="arab">نَصَحَ</span> (советовать, давать наставления; быть чистым, искренним) и означает – наставление; искренность.</p>
 

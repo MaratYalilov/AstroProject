@@ -1,13 +1,17 @@
 ---
-term: "Истикама"
-url_slug: "istikama"
-letter: "И"
-category: "И"
+term: Истикама
+url_slug: istikama
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- idzhma
+- khasan
+used_in:
+- 06-nahozhdenie-s-omoveniem.md
 ---
+
 
 <p>Истикама (араб. <span class="arab">اِسْتِقَامَةٌ</span>) происходит от глагола первой породы <span class="arab">قَامَ</span> (встал, поднялся) и от глагола десятой породы <span class="arab">اِسْتَقَامَ</span> (быть прямым, правдивым, честным; быть правильным) и означает - прямота, правдивость, честность; правильность.</p>
 <p><b> </b></p>

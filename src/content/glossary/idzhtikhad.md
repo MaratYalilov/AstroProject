@@ -1,13 +1,76 @@
 ---
-term: "Иджтихад"
-url_slug: "idzhtikhad"
-letter: "И"
-category: "И"
+term: Иджтихад
+url_slug: idzhtikhad
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- adam
+- aksa
+- ashura
+- azan
+- dzhanaza
+- fadzhr
+- fikkh
+- gusl
+- iblis
+- id
+- idda
+- ikhlas
+- imam
+- iman
+- islam
+- kaaba
+- kausar
+- khamr
+- kharam
+- khasan
+- khidzhama
+- kunut
+- makrukh
+- mazkhab
+- mikhrab
+- muskhaf
+- musulmanin
+- mutavatir
+- naskh
+- nifas
+- nikakh
+- riba
+- sadaka
+- salyam
+- salyat
+- shirk
+- sira
+- sunna
+- tafsir
+- takhadzhud
+- taklid
+- tasbikh
+- tayammum
+- umma
+- zakyat
+- zina
+used_in:
+- 03-poniatie-termina-akhliussunna.md
+- 05-rasm-muskhafa-md.md
+- 09-naskh-annulirovanie.md
+- 12-tolkovanie-korana.md
+- 122-srednii-namaz.md
+- 125-azan-urok-3.md
+- 24-nechistoty-i-ih-ochischenie-1-chast.md
+- 4-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 5-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 6-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 7-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 76-sposoby-soversheniya-tayammuma.md
+- 8-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 81-al-bakara-korova-29-30-aiat.md
+- 9-prichiny-raznoglasij-mezhdu-uchenymi.md
 ---
+
 
 <p>Иджтихад (араб. اِجْتِهَادٌ) существительное от глагола اِجْتَهَدَ (стараться<span class="arab"> </span>делать<span class="arab"> </span>усердно<span class="arab">, </span>прилежно) является однокоренным со словом جُهْدٌ (сила, способность) и означает – приложение усилий.</p>
 <p>{Quran}9:79{/Quran}</p>

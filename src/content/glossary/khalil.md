@@ -1,13 +1,28 @@
 ---
-term: "Халиль"
-url_slug: "khalil"
-letter: "К"
-category: "Категория 137"
+term: Халиль
+url_slug: khalil
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- fadzhr
+- id
+- islam
+- khasan
+- shajtan
+- takhadzhud
+used_in:
+- 102-vremena-namazov.md
+- 107-otkladyvanie-namaza-isha.md
+- 114-otkladyvanie-isha-namaza.md
+- 45-al-inshikak-razverznetsia-2.md
+- 5-23-khodataystvo.md
+- 97-zastupnichestvo.md
+- 98-hodataystvo.md
 ---
+
 
 <p>Халиль (араб. <span class="arab">خَلِيلٌ</span>) происходит от глагола <span class="arab">خَالَلَ</span> (дружить) и означает – верный искренний друг; возлюбленный.</p>
 

@@ -1,13 +1,28 @@
 ---
-term: "Ма'руф"
-url_slug: "ma-ruf"
-letter: "М"
-category: "М"
+term: Ма'руф
+url_slug: ma-ruf
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dalil
+- imam
+- islam
+- khalyal
+- kharam
+- munkar
+- musulmanin
+- sadaka
+- takva
+- tasbikh
+- zikr
+- zina
+used_in:
+- 44-6-hadis-ostav-somnitelnoe-radi-yasnogo.md
+- 75-25-hadis-shirota-milosti-allaha.md
 ---
+
 
 <p>Ма'руф (араб. <span class="arab">مَعْرُوفٌ</span>) происходит от глагола <span class="arab">عَرَفَ</span> (знать, узнавать; уметь) и означает – известный; одобряемый; благодеяние.</p>
 

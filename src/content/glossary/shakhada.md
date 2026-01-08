@@ -1,13 +1,43 @@
 ---
-term: "Шахада"
-url_slug: "shakhada"
-letter: "Ш"
-category: "Ш"
+term: Шахада
+url_slug: shakhada
+letter: Ш
+category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- akhlyul-fatra
+- dzhikhad
+- fard
+- ikhlas
+- imam
+- iman
+- islam
+- khadzh
+- khalyal
+- kharam
+- kibla
+- mechet
+- musulmanin
+- ramadan
+- sadaka
+- salyam
+- shirk
+- sunna
+- tagut
+- takhadzhud
+- taufik
+- taukhid
+- zakyat
+- zikr
+used_in:
+- 06-opravdanie-nevezhestvom.md
+- 12-2-hadis-shahada.md
+- 35-3-hadis-sut-pokloneniya.md
+- 77-29-hadis-put-v-raj-i-dveri-blaga.md
+- 78-29-hadis-golova-vershina-i-strazh-religii.md
 ---
+
 
 <p>Шахада (араб. <span class="arab">شَهَادَةٌ</span>) происходит от глагола <span class="arab">شَهِدَ</span> (быть, присутствовать (при чем-л.); быть свидетелем (чего-либо)) и имеет несколько значений:</p>
 <p>1-<span class="arab">      </span><span class="arab">Присутствие, свидетельство (الحضور</span>).</p>

@@ -1,13 +1,14 @@
 ---
-term: "Даруль-куфр"
-url_slug: "darul-kufr"
-letter: "Д"
-category: "Д"
+term: Даруль-куфр
+url_slug: darul-kufr
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Даруль-<a href="userslayout/куфр" target="_blank">куфр</a> (араб. <span class="arab">دَارُ الْكُفْرِ</span>) состоит из двух слов <span class="arab">دَارٌ</span> (страна, место, регион) и <span class="arab">كُفْرٌ</span> (неверие, неблагодарность) и означает – страна неверия.</p>
 

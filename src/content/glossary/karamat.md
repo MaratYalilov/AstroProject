@@ -1,13 +1,20 @@
 ---
-term: "Карамат"
-url_slug: "karamat"
-letter: "К"
-category: "К"
+term: Карамат
+url_slug: karamat
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- dzhinn
+- iblis
+- khasan
+- khidzhr
+used_in:
+- 84-al-bakara-korova-34-aiat.md
 ---
+
 
 <p>Карамат (араб. كَرامَةٌ) происходит от глагола كَرُمَ (быть щедрым, великодушным, быть благородным, быть дорогим, драгоценным) и означает честь, достоинство, великодушие.</p>
 

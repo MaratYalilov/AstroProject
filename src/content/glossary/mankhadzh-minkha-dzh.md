@@ -1,13 +1,14 @@
 ---
-term: "Манхадж, минха́дж."
-url_slug: "mankhadzh-minkha-dzh"
-letter: "М"
-category: "М"
+term: Манхадж, минха́дж.
+url_slug: mankhadzh-minkha-dzh
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Манхадж или минха́дж (араб. <span class="arab">مَنْهَجٌ, مِنْهَاجٌ</span>) происходит от глагола <span class="arab">نَهَجَ</span> (идти (по пути), следовать (чему <span class="arab">على</span>); быть ясным (о пути, деле и т.п.)) и означает - дорога, путь; метод, способ.</p>
 

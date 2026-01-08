@@ -1,13 +1,84 @@
 ---
-term: "Кааба"
-url_slug: "kaaba"
-letter: "К"
-category: "К"
+term: Кааба
+url_slug: kaaba
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- aksa
+- ansary
+- arsh
+- ashura
+- din
+- dzhakhilijya
+- dzhama-a
+- dzhanaza
+- dzhikhad
+- dzhinn
+- gusl
+- iblis
+- id
+- idda
+- idzhtikhad
+- ikhlas
+- imam
+- islam
+- khadzh
+- khafiz
+- khalyal
+- kharam
+- khasan
+- khidzhr
+- khidzhra
+- khira
+- makhdi
+- mechet
+- mukhadzhiry
+- mukhkam
+- mursal
+- muskhaf
+- musulmanin
+- mutashabikh
+- mutavatir
+- naskh
+- nikakh
+- ramadan
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- sira
+- sunna
+- tafsir
+- umma
+- vitr
+- zakyat
+- zina
+used_in:
+- 02-urok-sira-religii-arabov.md
+- 06-urok-sira-vzroslaya-zhizn-proroka.md
+- 07-prichiny-nisposlaniia-aiatov.md
+- 07-urok-sira-oblik-proroka.md
+- 09-naskh-annulirovanie.md
+- 11-al-ikhlas-ochishchenie-very.md
+- 17-kurejsh-kurejshity.md
+- 25-al-bejjina-yasnoe-znamenie.md
+- 26-al-kadr-predopredelenie.md
+- 28-at-tin_smokovnitca.md
+- 39-al-aglya-vsevyshniy-1.md
+- 41-prichiny-dlya-soversheniya-guslya.md
+- 46-sokrytie-aurata.md
+- 47-al-mutaffifin-obveshivaiushchie-2.md
+- 48-al-mutaffifin-obveshivaiushchie-3.md
+- 5-5-2-malye-priznaki-sudnogo-dnya.md
+- 57-an-naziat-istorgaiushchie-1.md
+- 63-al-bakara-ayat-al-kursi.md
+- 66-al-bakara-korova-01-aiat.md
+- 75-malye-priznaki-sudnogo-dnya.md
 ---
+
 
 <p>Кааба (араб. <span class="arab">اَلْكَعْبَةُ</span>) происходит от глагола <span class="arab">كَعَّبَ</span> (придавать форму куба) и означает – куб.</p>
 <p>В терминологии шариата <b>Кааба – это священная <a href="index.php/component/easydiscuss/%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%8C?Itemid=271" target="_blank">мечеть</a>, которая является направлением для мусульман в молитвах, к ней стремятся паломники со всего мира, и совершают обход вокруг нее. Мусульмане считают ее самым святым местом на земле.</b></p>

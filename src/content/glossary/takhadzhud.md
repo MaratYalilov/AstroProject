@@ -1,13 +1,37 @@
 ---
-term: "Тахаджуд"
-url_slug: "takhadzhud"
-letter: "Т"
-category: "Т"
+term: Тахаджуд
+url_slug: takhadzhud
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+- fadzhr
+- fard
+- fitra
+- idzhtikhad
+- istindzha
+- khadzh
+- khalil
+- khalyal
+- kharam
+- mazkhab
+- ramadan
+- sadaka
+- salyat
+- shakhada
+- sunna
+- taufik
+- vadzhib
+used_in:
+- 114-otkladyvanie-isha-namaza.md
+- 122-srednii-namaz.md
+- 26-sivak.md
+- 27-fitra.md
+- 77-29-hadis-put-v-raj-i-dveri-blaga.md
 ---
+
 
 <p>Тахаджуд (араб. <span class="arab">تَهَجُّدٌ</span>) происходит от глагола первой породы <span class="arab">هَجَدَ</span> (спать; бодрствовать (ночью)) и от глагола пятой породы <span class="arab">تَهَجَّدَ</span> (спать; бодрствовать, не спать (совершая молитвы)) и означает -  бодрствование ночью в молитве.</p>
 <p><span class="arab"> </span></p>

@@ -1,13 +1,32 @@
 ---
-term: "Хауд"
-url_slug: "khaud"
-letter: "К"
-category: "Категория 137"
+term: Хауд
+url_slug: khaud
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azab-al-kabr
+- bid-a
+- islam
+- israfil
+- khalyal
+- khisab
+- mechet
+- mizan
+- munkar-i-nakir
+- mursal
+- ribat
+- shirk
+- sunna
+- taukhid
+- zikr
+used_in:
+- 08-ciyayuschie-lica.md
+- 31-2-hadis-sudnyj-den.md
+- 41-5-hadis-opasnosti-novovvedenij.md
 ---
+
 
 <p>Хауд (араб. <span class="arab">حَوْضٌ</span>) происходит от глагола <span class="arab">حَاضَ</span> (течь, разливаться) и означает – бассейн, водоем.</p>
 

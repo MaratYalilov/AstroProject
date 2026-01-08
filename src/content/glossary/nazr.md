@@ -1,13 +1,30 @@
 ---
-term: "Назр"
-url_slug: "nazr"
-letter: "Н"
-category: "Н"
+term: Назр
+url_slug: nazr
+letter: Н
+category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- gusl
+- iftar
+- islam
+- kaffara
+- khasan
+- khava
+- khidzhama
+- mazkhab
+- sadaka
+- shajtan
+- sukhur
+- sunna
+- takva
+- vadzhib
+used_in:
+- 54-voda-posle-omoveniya.md
+- 86-al-bakara-korova-38-41-aiat.md
 ---
+
 
 <p>Назр (араб. نَذْرٌ) происходит от глагола نَذَرَ (давать обет) и означает – обет, жертвенное обещание.</p>
 <p>В шариате <strong>назр – это обременение совершеннолетним мусульманином самого себя тем, чем шариат не обязывал его.</strong></p>

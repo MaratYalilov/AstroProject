@@ -1,13 +1,63 @@
 ---
-term: "Истихада"
-url_slug: "istikhada"
-letter: "И"
-category: "И"
+term: Истихада
+url_slug: istikhada
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+- fadzhr
+- fard
+- fikkh
+- gusl
+- idda
+- imam
+- islam
+- istindzha
+- kaffara
+- khadzh
+- khafiz
+- khajd
+- kharam
+- khasan
+- makhdi
+- makrukh
+- mazkhab
+- mechet
+- muskhaf
+- nifas
+- nikakh
+- radzhab
+- ramadan
+- sadaka
+- safar
+- sakhikh
+- shakhid
+- sunna
+- tafsir
+- talak
+- tavaf
+- tayammum
+- umma
+used_in:
+- 11-deistviya-narushayuschie-omovenie.md
+- 22-mesyachnye-nifas-istihada.md
+- 23-mesyachnye-nifas-istihada-2chast.md
+- 52-kogda-zhelatelen-gusl.md
+- 82-nahozhdenie-v-mecheti-vo-vremya-haida.md
+- 86-sroki-haida.md
+- 87-haid-i-beremennost.md
+- 88-haid-i-istihada.md
+- 89-predohranenie-ot-beremennosti.md
+- 90-cveta-krovi-v-mazhabah.md
+- 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
+- 94-istihada.md
+- 95-istihada-i-omovenie.md
+- 96-istihada-i-gusl.md
+- 97-vozmeshchenie-namaza-posle-ochishcheniia.md
 ---
+
 
 <p>Истихада (араб. <span class="arab">اِسْتِحَاضَةٌ</span>) происходит от глагола <span class="arab">اِسْتَحَاضَ</span> (продолжительно течь (о крови у женщины)) и означает - хроническое кровотечение у женщины.</p>
 

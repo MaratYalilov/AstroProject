@@ -1,13 +1,14 @@
 ---
-term: "Саум, сиям."
-url_slug: "saum-siyam"
-letter: "С"
-category: "С"
+term: Саум, сиям.
+url_slug: saum-siyam
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Саум, сиям (араб. <span class="arab">صَوْمٌ</span>, <span class="arab">صِيامٌ</span>) происходит от глагола <span class="arab">صَامَ</span> (отказываться, воздерживаться, оставлять) и означает – воздержание.</p>
 <p>{Quran}19:26{/Quran}</p>

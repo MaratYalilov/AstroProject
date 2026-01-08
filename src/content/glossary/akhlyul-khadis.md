@@ -1,13 +1,14 @@
 ---
-term: "Ахлюль-хадис"
-url_slug: "akhlyul-khadis"
-letter: "А"
-category: "А"
+term: Ахлюль-хадис
+url_slug: akhlyul-khadis
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ахлюль-хадис (араб. <span class="arab">أَهْلُ الْحَدِيثِ</span>) состоит из двух слов <span class="arab">أَهْلٌ</span> (люди, приверженцы) и <span class="arab">حَدِيثٌ</span> (рассказ, речь Пророка, хадис) и означает – приверженцы хадисов.</p>
 

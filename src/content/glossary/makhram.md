@@ -1,13 +1,15 @@
 ---
-term: "Махрам"
-url_slug: "makhram"
-letter: "М"
-category: "М"
+term: Махрам
+url_slug: makhram
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
-used_in: []
+used_in:
+- 12-deistviya-ne-narushayuschie-omovenie.md
 ---
+
 
 <p>Махрам (араб. <span class="arab">مَحْرَمٌ</span>) происходит от глагола<span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span>  <span class="arab">حَرُمَ</span><span class="arab"> </span>(быть запретным, заповедным, священным) и означает – запретный.<span class="arab"></span></p>
 <p><span class="arab"> </span></p>

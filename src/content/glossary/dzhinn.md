@@ -1,13 +1,31 @@
 ---
-term: "Джинн"
-url_slug: "dzhinn"
-letter: "Д"
-category: "Д"
+term: Джинн
+url_slug: dzhinn
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- arsh
+- iblis
+- imam
+- islam
+- kaaba
+- karamat
+- khasan
+- khidzhr
+- khira
+- musulmanin
+- sakhikh
+- shajtan
+- zakyat
+used_in:
+- 17-urok-sira-popytki-poseyat-somneniya.md
+- 63-al-bakara-ayat-al-kursi.md
+- 84-al-bakara-korova-34-aiat.md
 ---
+
 
 <p>Джинн, ед. ч. джинний (араб. <span class="arab">جِنٌّ</span> ед.ч.  <span class="arab">جِنِّيٌّ</span>) происходит от глагола первой породы <span class="arab">جَنَّ</span> (скрывать, покрывать) и от глагола восьмой породы <span class="arab">اِجْتَنَّ</span> (скрываться, быть невидимым) и означает – духи.</p>
 <p>{Quran}6:76{/Quran}</p>

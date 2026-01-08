@@ -1,13 +1,35 @@
 ---
-term: "Каффара"
-url_slug: "kaffara"
-letter: "К"
-category: "К"
+term: Каффара
+url_slug: kaffara
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- amanat
+- azan
+- gusl
+- idda
+- iftar
+- istikhada
+- khidzhama
+- mazkhab
+- mechet
+- nazr
+- nifas
+- nikakh
+- sadaka
+- sukhur
+- sunna
+- talak
+- vadzhib
+- zakyat
+used_in:
+- 17-2-hadis-znachenie-namaza.md
+- 54-voda-posle-omoveniya.md
+- 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
 ---
+
 
 <p>Каффара (араб. <span class="arab">كَفَّارَةٌ</span>) происходит от глаголов <span class="arab">كَفَرَ</span> и<span class="arab">كَفَّرَ</span><span class="arab"> </span> (скрывать, покрывать) и означает сокрытие, покрытие; искупление.</p>
 <p>В терминологии шариата <b>каффара – это то, посредством чего грешник искупляет свой грех как милостыня, пост и др.</b></p>

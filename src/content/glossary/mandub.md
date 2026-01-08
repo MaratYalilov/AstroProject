@@ -1,13 +1,30 @@
 ---
-term: "Мандуб"
-url_slug: "mandub"
-letter: "М"
-category: "М"
+term: Мандуб
+url_slug: mandub
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaba
+- fard
+- fikkh
+- gusl
+- id
+- islam
+- khadzh
+- khasan
+- khidzhra
+- mechet
+- musulmanin
+- sunna
+- tayammum
+- umma
+used_in:
+- 15-kogda-sovershat-gusl-sunna.md
+- 7-1-hadis-hidzhra.md
 ---
+
 
 <p>Мандуб (араб. <span class="arab">مَنْدُوبٌ</span>) происходит от глагола <span class="arab">نَدَبَ</span> (поручать, уполномочивать;  побуждать, призывать (кого к чему <span class="arab">إلى, على</span>)) и означает -  представитель, делегат; рекомендуемый, желательный.</p>
 <p>В терминологии <b>мандуб – это то, что законодатель требует исполнить, но некатегорично, за что выполнивший его с повиновением вознаграждается, а оставивший не наказывается.</b></p>

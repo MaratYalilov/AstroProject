@@ -1,13 +1,20 @@
 ---
-term: "Курбан"
-url_slug: "kurban"
-letter: "К"
-category: "К"
+term: Курбан
+url_slug: kurban
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- id-al-adkha
+- id-al-fitr
+- ramadan
+- takva
+- zakyat
+used_in:
+- 26-id-al-adkha.md
 ---
+
 
 <p>Курбан (араб. <span class="arab">قُرْبَانٌ</span>) происходит от глагола<span class="arab"></span><span class="arab"></span><b><span class="arab"></span><span class="arab"></span> </b><span class="arab">قَرُبَ</span><b><span class="arab"> </span></b> (быть близким, приближённым; приближаться (к кому <span class="arab">من, إلى</span>)) и означает – приближение, жертвоприношение.</p>
 

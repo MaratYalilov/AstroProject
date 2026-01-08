@@ -1,13 +1,63 @@
 ---
-term: "Мутаватир"
-url_slug: "mutavatir"
-letter: "М"
-category: "М"
+term: Мутаватир
+url_slug: mutavatir
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- aksa
+- ashura
+- barzakh
+- dzhikhad
+- id
+- idda
+- idzhtikhad
+- ikhlas
+- islam
+- istindzha
+- kaaba
+- khajd
+- khalyal
+- kharam
+- khasan
+- kufr
+- mazkhab
+- mechet
+- mukhkam
+- muskhaf
+- mutashabikh
+- naskh
+- nikakh
+- rukn
+- sadaka
+- safar
+- sakhikh
+- shajtan
+- sunna
+- tafsir
+- umma
+- zina
+used_in:
+- 07-prichiny-nisposlaniia-aiatov.md
+- 08-fatikha-otkryvaiushchaia.md
+- 08-kyraaty-sposoby-chteniia-korana.md
+- 09-an-nas-lyudi.md
+- 09-naskh-annulirovanie.md
+- 1-12-3-atributy-allakha.md
+- 33-protiranie-golovy.md
+- 46-atributy-deystviya-allaha.md
+- 47-atributy-deystviya-allaha-2-chast.md
+- 5-7-dovod-otritsayushchikh-mucheniya-v-mogile.md
+- 53-at-takvir-skruchivanie-3.md
+- 70-protiranie-dyryavyh-noskov.md
+- 78-al-bakara-korova-23-24-aiat.md
+- 83-blizost-vo-vremya-haida.md
+- 90-mucheniya-i-naslazhdeniya-v-mogile.md
+- 91-dovody-otricayuschih-mucheniya-v-mogile.md
 ---
+
 
 <p>Мутаватир (араб. <span class="arab">مُتَوَاتِرٌ</span>) происходит от глагола <span class="arab">تَوَاتَرَ</span> (непрерывно приходить, последовательно поступать, прибывать подряд) и означает - следующий один за другим;  последовательный; непрерывный.</p>
 <p>{Quran}23:44{/Quran}</p>

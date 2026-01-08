@@ -1,13 +1,14 @@
 ---
-term: "Нисаб"
-url_slug: "nisab"
-letter: "Н"
-category: "Н"
+term: Нисаб
+url_slug: nisab
+letter: Н
+category: Н
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Нисаб (араб. <span class="arab">نِصَابٌ</span>) происходит от глагола <span class="arab">نَصَبَ</span> (ставить, устанавливать, воздвигать; и др. значения) и означает - начало, основа; ценз (имущественный).</p>
 

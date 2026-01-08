@@ -1,13 +1,21 @@
 ---
-term: "Хиджаб"
-url_slug: "khidzhab"
-letter: "К"
-category: "Категория 137"
+term: Хиджаб
+url_slug: khidzhab
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- fitra
+- iman
+- mechet
+- riya
+- sunna
+used_in:
+- 67-20-hadis-stydlivost-vetv-very.md
 ---
+
 
 <p>Хиджаб (араб. <span class="arab">حِجَابٌ</span>) происходит от глагола <span class="arab">حَجَبَ</span> (закрывать, скрывать покрывалом; не допускать (куда-либо)) и означает – покрывало, занавес, преграда.</p>
 <p>{Quran}7:46{/Quran}</p>

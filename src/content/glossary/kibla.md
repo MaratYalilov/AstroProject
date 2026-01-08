@@ -1,13 +1,21 @@
 ---
-term: "Кибла"
-url_slug: "kibla"
-letter: "К"
-category: "К"
+term: Кибла
+url_slug: kibla
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ikhlas
+- islam
+- khadzh
+- musulmanin
+- shakhada
+- zakyat
+used_in:
+- 35-3-hadis-sut-pokloneniya.md
 ---
+
 
 <p>Кибла (араб. <span class="arab">قِبْلَةٌ</span>) происходит от глаголов <span class="arab">قَبَلَ</span> и <span class="arab">قَابَلَ</span> (быть, стоять напротив чего-либо; стоять перед кем-либо; обращаться в сторону) и означает – сторона.</p>
 <p>{Quran}2:145{/Quran}</p>

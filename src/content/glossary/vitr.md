@@ -1,13 +1,31 @@
 ---
-term: "Витр"
-url_slug: "vitr"
-letter: "В"
-category: "В"
+term: Витр
+url_slug: vitr
+letter: В
+category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- arsh
+- azan
+- fitra
+- ikhlas
+- imam
+- indzhil
+- islam
+- kaaba
+- khasan
+- musulmanin
+- sadaka
+used_in:
+- 105-vremya-utrennego-i-poludennogo-namaza.md
+- 106-vremya-namaza-asr-magrib-i-isha.md
+- 109-ostavlenie-asr-namaza.md
+- 110-vremya-namaza-isha.md
+- 39-al-aglya-vsevyshniy-1.md
+- 67-vitr-40.md
 ---
+
 
 <p>Витр (араб. <span class="arab">وِتْرٌ</span>) происходит от глаголов <span class="arab">وَتَرَ</span> и <span class="arab">أَوْتَرَ</span> (натягивать (тетиву, струну); обижать ущемлять; делать нечетным) и означает – нечетный.</p>
 <p><span class="arab"> </span></p>

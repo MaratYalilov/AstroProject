@@ -1,13 +1,46 @@
 ---
-term: "Риба"
-url_slug: "riba"
-letter: "Р"
-category: "Р"
+term: Риба
+url_slug: riba
+letter: Р
+category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- ashura
+- baraka
+- dalil
+- fikkh
+- gusl
+- idda
+- idzhma
+- idzhtikhad
+- imam
+- khasan
+- khidzhama
+- kunut
+- makhr
+- mazkhab
+- musulmanin
+- radzhab
+- ramadan
+- shajtan
+- sunna
+- taklid
+- takva
+- zakyat
+- zulm
+used_in:
+- 1-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 3-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 4-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 5-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 6-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 65-al-bakara-vvedenie.md
+- 7-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 83-35-hadis-musulmanin-brat-musulmanina.md
 ---
+
 
 <p>Риба (араб. <span class="arab">رِبًا</span>) происходит от глагола <span class="arab">رَبَا</span> (расти,<span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span> возрастать,<span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span> увеличиваться; превышать (что <span class="arab">على</span>)) и означает – рост, увеличение. <span class="arab"></span></p>
 <p><span class="arab"> </span></p>

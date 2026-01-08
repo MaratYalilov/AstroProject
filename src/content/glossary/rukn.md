@@ -1,13 +1,37 @@
 ---
-term: "Рукн"
-url_slug: "rukn"
-letter: "Р"
-category: "Р"
+term: Рукн
+url_slug: rukn
+letter: Р
+category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaba
+- dzhanaza
+- gusl
+- imam
+- islam
+- isra
+- istindzha
+- khajd
+- khalyal
+- khasan
+- mazkhab
+- mechet
+- mursal
+- mutavatir
+- sakhikh
+- salyam
+- sunna
+- vadzhib
+used_in:
+- 03-dostoinstva-sury-fatikha.md
+- 12-mazi-i-mani.md
+- 13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.md
+- 33-protiranie-golovy.md
+- 34-soobschi-mne-ob-omovenii.md
 ---
+
 
 <p>Рукн мн.ч. аркан (араб. <span class="arab">رُكْنٌ</span> мн.ч. <span class="arab">أَرْكَانٌ</span>) происходит от глагола <span class="arab">رَكَنَ</span> (опираться;  полагаться (на кого), доверять (кому <span class="arab">إلى</span>);  склоняться (к чему <span class="arab">إلى</span>)) и означает - колонна; столб, опора;  угол;  главная составная часть; основа.</p>
 <p>{Quran}17:74{/Quran}</p>

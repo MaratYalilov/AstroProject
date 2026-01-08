@@ -10,7 +10,7 @@ video: >-
   /media/hadith/40-hadisov-an-nawawi/video/85-37-hadis-namerenie-dela-i-vozdayanie.mp4
 videoRel: video/85-37-hadis-namerenie-dela-i-vozdayanie.mp4
 ---
-# Урок 38: Намерение, дела и воздаяние. Хадис Кудси о записи деяний
+# Урок 38: Намерение, дела и воздаяние. <a href="/glossary/khadis-kudsi" class="glossary-link" target="_blank" rel="noopener noreferrer">Хадис Кудси</a> о записи деяний
 
 ## Краткое содержание урока
 

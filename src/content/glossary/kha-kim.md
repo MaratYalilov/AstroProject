@@ -1,13 +1,14 @@
 ---
-term: "Ха́ким"
-url_slug: "kha-kim"
-letter: "К"
-category: "Категория 137"
+term: Ха́ким
+url_slug: kha-kim
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ха́ким (араб. <span class="arab">حَاكِمٌ</span>) происходит от глагола <span class="arab">حَكَمَ</span> (править, управлять; судить; выносить решение; сдерживать, удерживать) и означает - правитель, начальник; судья.</p>
 

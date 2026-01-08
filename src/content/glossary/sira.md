@@ -1,13 +1,45 @@
 ---
-term: "Сира"
-url_slug: "sira"
-letter: "С"
-category: "С"
+term: Сира
+url_slug: sira
+letter: С
+category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- din
+- dzhama-a
+- fitna
+- fitra
+- iblis
+- id
+- idzhtikhad
+- imam
+- iman
+- islam
+- kaaba
+- khadzh
+- kharam
+- khasan
+- khidzhr
+- khidzhra
+- musulmanin
+- safar
+- sakhikh
+- salyam
+- salyat
+- sunna
+- tafsir
+- zakyat
+used_in:
+- 01-tafsir-ibn-kasira.md
+- 01-urok-sira-vstuplenie.md
+- 02-urok-sira-religii-arabov.md
+- 03-poniatie-termina-akhliussunna.md
+- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
+- 07-urok-sira-oblik-proroka.md
 ---
+
 
 <p>Сира (араб. <span class="arab">سِيرَةٌ</span>) происходит от глагола <span class="arab">سَارَ</span> (ходить; передвигаться; поступать, действовать) и означает – положение, состояние; образ жизни, биография; история, рассказ.</p>
 <p> </p>

@@ -1,13 +1,51 @@
 ---
-term: "Тора"
-url_slug: "tora"
-letter: "Т"
-category: "Т"
+term: Тора
+url_slug: tora
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- fitra
+- id
+- imam
+- iman
+- indzhil
+- islam
+- isra
+- khadzh
+- khafiz
+- kharam
+- khasad
+- khasan
+- kibr
+- kunya
+- makrukh
+- mechet
+- ramadan
+- sadaka
+- salyam
+- salyat
+- sukhur
+- sunna
+- tafsir
+- takva
+- zabur
+- zakyat
+- zikr
+used_in:
+- 06-shariat-ukazyvaet-na-suschestvovanie-allaha.md
+- 07-upodoblenie.md
+- 09-urok-sira-formy-peredachi-otkroveniya.md
+- 1-1-vera-v-sushchestvovanie-allakha.md
+- 13-vidy-tafsira.md
+- 22-2-hadis-vera-v-angelov-i-pisaniya.md
+- 3-1-vera-v-pisaniya.md
+- 52-vera-v-pisaniya.md
+- 67-al-bakara-korova-02-aiat.md
 ---
+
 
 <p>Тора (араб.<span class="arab">اَلتَّوْرَاةُ</span>) арамейское слово означающее – учение, закон, шариат.</p>
 

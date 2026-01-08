@@ -9,7 +9,7 @@ video: /media/fiqh/nurul-idah/video/14-farzy-i-sunny-guslya.mp4
 videoRel: video/14-farzy-i-sunny-guslya.mp4
 ---
 # 14, Фарзы и сунны гусля.
-<p><span class="arab">ف فَصْلٌ في فرائض الغسل</span></p> Раздел: фарзы гусля Автор привел гусль после
+<p><span class="arab">ف فَصْلٌ في فرائض الغسل</span></p> Раздел: фарзы гусля Автор привел <a href="/glossary/gusl" class="glossary-link" target="_blank" rel="noopener noreferrer">гусль</a> после
 омовения, так как Аллах упомянул их в таком порядке в 6 аяте суры
 «Трапеза». А также из-за того, что в омовении человек нуждается чаще,
 чем в гусле. А также из-за того во время омовения омывается часть тела,

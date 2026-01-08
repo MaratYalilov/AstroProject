@@ -1,13 +1,14 @@
 ---
-term: "Макбара"
-url_slug: "makbara"
-letter: "М"
-category: "М"
+term: Макбара
+url_slug: makbara
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Макбара (араб. <span class="arab">مَقْبَرَةٌ</span>) происходит от глагола <span class="arab">قَبَرَ</span> (хоронить, погребать) и означает – кладбище, место захоронения.</p>
 

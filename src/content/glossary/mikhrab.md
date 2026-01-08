@@ -1,13 +1,20 @@
 ---
-term: "Михраб"
-url_slug: "mikhrab"
-letter: "М"
-category: "М"
+term: Михраб
+url_slug: mikhrab
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- idzhtikhad
+- imam
+- makrukh
+- sunna
+used_in:
+- 125-azan-urok-3.md
 ---
+
 
 <p>Михраб (араб. <span class="arab">مِحْرَابٌ</span>) происходит от отглагольного имени <span class="arab">حَرْبٌ</span> (война; лучшее, достойное место) и означает – дворец; крепость; место, комната для уединения и поклонения.</p>
 <p><b><span class="arab"> </span></b></p>

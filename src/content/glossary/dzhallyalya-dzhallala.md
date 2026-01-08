@@ -1,13 +1,14 @@
 ---
-term: "Джалляля, джаллала"
-url_slug: "dzhallyalya-dzhallala"
-letter: "Д"
-category: "Д"
+term: Джалляля, джаллала
+url_slug: dzhallyalya-dzhallala
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Джалляля (араб. <span class="arab">جَلَّالَةٌ</span>) происходит от глагола <span class="arab">جَلَّ</span> (подбирать помет, навоз) и означает – животное, поедающее нечистоты.</p>
 

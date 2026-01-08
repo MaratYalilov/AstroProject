@@ -1,13 +1,14 @@
 ---
-term: "Са'а, сага"
-url_slug: "sa-a-saga"
-letter: "Р"
-category: "Р"
+term: Са'а, сага
+url_slug: sa-a-saga
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Са'а (араб. <span class="arab">سَاعَةٌ</span>) первообразное имя в значении – отрезок времени, час.</p>
 

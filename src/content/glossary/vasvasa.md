@@ -1,13 +1,28 @@
 ---
-term: "Васваса"
-url_slug: "vasvasa"
-letter: "В"
-category: "В"
+term: Васваса
+url_slug: vasvasa
+letter: В
+category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- gusl
+- imam
+- israf
+- istindzha
+- khasan
+- makrukh
+- mursal
+- salyam
+- shajtan
+- sunna
+- tasbikh
+used_in:
+- 22-istindzha.md
+- 36-protiranie-ushei.md
+- 37-somnenie-v-omovenii.md
 ---
+
 
 <p>Васваса (араб. <span class="arab">وَسْوَسَةٌ</span>) происходит от глагола <span class="arab">وَسْوَسَ</span> (нашептывать; издавать легкий звук) и означает – шепот, шорох, тихий шелест ветра и др.</p>
 <p>В терминологии шариата это слово используется в нескольких значениях:</p>

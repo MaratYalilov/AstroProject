@@ -1,13 +1,14 @@
 ---
-term: "Улюль-'азм минар-русуль"
-url_slug: "ulyul-azm-minar-rusul"
-letter: "У"
-category: "У"
+term: Улюль-'азм минар-русуль
+url_slug: ulyul-azm-minar-rusul
+letter: У
+category: У
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Улюль-'азм минар-русуль (араб. <span class="arab">أُولُو</span><b><span class="arab"> </span></b><span class="arab">الْعَزْمِ</span><b><span class="arab"> </span></b><span class="arab">مِنَ</span><b><span class="arab"> </span></b><span class="arab">الرُّسُلِ</span>) состоит из слов <span class="arab">أُولُو</span> (обладатели), <span class="arab">عَزْمٌ</span> (решимость; твердое решение) и <span class="arab">رُسُلٌ</span> (посланники) и означает – посланники обладатели решимости.</p>
 

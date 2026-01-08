@@ -1,13 +1,14 @@
 ---
-term: "Джизья"
-url_slug: "dzhizya"
-letter: "Д"
-category: "Д"
+term: Джизья
+url_slug: dzhizya
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Джизья (араб. <span class="arab">جِزْيَةٌ</span>) происходит от глагола <span class="arab">جَزَى</span> (возмещать (что <span class="arab">بـــ, على</span> ); вознаграждать (чем <span class="arab">بـــــ</span>); взыскивать, ( за что <span class="arab">على</span><span class="arab">,</span><b><span class="arab"> </span></b><span class="arab">بـــــــ</span> )) и означает – подать, плата, вознаграждение.</p>
 

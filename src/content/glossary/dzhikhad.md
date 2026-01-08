@@ -1,13 +1,47 @@
 ---
-term: "Джихад"
-url_slug: "dzhikhad"
-letter: "Д"
-category: "Д"
+term: Джихад
+url_slug: dzhikhad
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+- fard
+- ikhlas
+- imam
+- islam
+- kaaba
+- khadzh
+- khalyal
+- kharam
+- khikma
+- mukhkam
+- muskhaf
+- musulmanin
+- mutashabikh
+- mutavatir
+- ramadan
+- sakhikh
+- salyam
+- shakhada
+- tafsir
+- ukhud
+- umma
+- zabkh
+- zikr
+- zina
+used_in:
+- 06-mekkanskie-i-medinskie-sury.md
+- 07-prichiny-nisposlaniia-aiatov.md
+- 1-6-nekotorye-vidy-pokloneniya.md
+- 16-2-hadis-kachestva-i-primer-proroka-mukhammada.md
+- 25-upovanie.md
+- 5-5-3-2-prikhod-isy-mir-emu.md
+- 78-29-hadis-golova-vershina-i-strazh-religii.md
+- 85-isa.md
 ---
+
 
 <p>Джихад (араб. <span class="arab">جِهَادٌ</span>) происходит от глагола первой породы <span class="arab">جَهَدَ</span> и глагола третьей породы <span class="arab">جَاهَدَ</span> (стараться, трудиться; напрягаться; прилагать усилия, бороться с трудностями) и означает – старание, усилие, борьба.</p>
 <p>{Quran}29:8{/Quran}</p>

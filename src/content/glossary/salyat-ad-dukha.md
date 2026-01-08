@@ -1,13 +1,14 @@
 ---
-term: "Салят ад-Духа"
-url_slug: "salyat-ad-dukha"
-letter: "Р"
-category: "Р"
+term: Салят ад-Духа
+url_slug: salyat-ad-dukha
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="userslayout/салят" target="_blank">Салят</a> ад-Духа (араб. <span class="arab">صَلَاةُ الضُّحَى</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">ضُحًى</span> (утро (после восхода солнца)) и означает – молитва после восхода солнца, духа намаз.</p>
 

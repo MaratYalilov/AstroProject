@@ -1,13 +1,14 @@
 ---
-term: "Мауду'"
-url_slug: "maudu"
-letter: "М"
-category: "М"
+term: Мауду'
+url_slug: maudu
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>
 <p class="MsoNormal">Мауду' (араб. <span class="arab">مَوْضُوعٌ</span>) происходит от глагола <span class="arab">وَضَعَ</span> (класть, ставить; помещать, сажать (куда<span class="arab">في</span><b><span class="arab"> </span></b>); рожать (о женщине); унижать; сочинять; выдумывать) и означает - положенный, помещенный; сочиненный, сфабрикованный.</p>

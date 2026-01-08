@@ -1,13 +1,14 @@
 ---
-term: "Баки', бакы'."
-url_slug: "baki-baky"
-letter: "Б"
-category: "Б"
+term: Баки', бакы'.
+url_slug: baki-baky
+letter: Б
+category: Б
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Баки' (араб. <span class="arab">بَقِيعٌ</span>) первообразное имя в значении – обширное место, усаженное деревьями.</p>
 

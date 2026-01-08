@@ -1,13 +1,31 @@
 ---
-term: "Шахид"
-url_slug: "shakhid"
-letter: "Ш"
-category: "Ш"
+term: Шахид
+url_slug: shakhid
+letter: Ш
+category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fard
+- fikkh
+- gusl
+- ikhlas
+- imam
+- islam
+- istikhada
+- khasan
+- mazkhab
+- nifas
+- riya
+- sunna
+- tavaf
+used_in:
+- 11-deistviya-narushayuschie-omovenie.md
+- 2-sobiranie-hadisov-i-1-hadis-ihlas.md
+- 52-at-takvir-skruchivanie-2.md
+- 68-vse-vidy-nadzhisa.md
 ---
+
 
 <p>Шахид (араб. <span class="arab">شَهِيدٌ</span>) происходит от глагола <span class="arab">شَهِدَ</span> (быть, присутствовать (при чем-л.); быть свидетелем (чего-либо)) и означает – очевидец, присутствующий, свидетельствующий или свидетельствуемый, Свидетель (<span class="arab">اَلشَّهِيدُ</span>) – имя Аллаха).</p>
 <p>{Quran}50:37{/Quran}</p>

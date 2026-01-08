@@ -1,13 +1,14 @@
 ---
-term: "Шафа'а"
-url_slug: "shafa-a"
-letter: "Ш"
-category: "Ш"
+term: Шафа'а
+url_slug: shafa-a
+letter: Ш
+category: Ш
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Шафа'а (араб. <span class="arab">شَفَاعَةٌ</span>) происходит от глагола <span class="arab">شَفَعَ</span> (делать четным;<span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span> сопровождать; заступаться, ходатайствовать (за кого)) и означает – заступничество, ходатайство.</p>
 <p>{Quran}89:3{/Quran}</p>

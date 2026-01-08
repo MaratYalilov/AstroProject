@@ -1,13 +1,14 @@
 ---
-term: "Хитан"
-url_slug: "khitan"
-letter: "К"
-category: "Категория 137"
+term: Хитан
+url_slug: khitan
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Хита́н (араб. <span class="arab">خِتَانٌ</span>) происходит от глагола <span class="arab">خَتَنَ</span> (обрезать) и означат – обрезание, обрезаемое место.</p>
 <p>В терминологии шариата <b>хитан – это обрезание определенной части<a title="" href="#ftn1"><b>[1]</b></a> у определенного органа.</b></p>

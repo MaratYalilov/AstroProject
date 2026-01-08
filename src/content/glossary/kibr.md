@@ -1,13 +1,28 @@
 ---
-term: "Кибр"
-url_slug: "kibr"
-letter: "К"
-category: "К"
+term: Кибр
+url_slug: kibr
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ikhlas
+- indzhil
+- isra
+- khafiz
+- khasad
+- ramadan
+- riya
+- sukhur
+- tora
+- zabur
+- zikr
+used_in:
+- 22-2-hadis-vera-v-angelov-i-pisaniya.md
+- 4-1-hadis-plody-ihlasa.md
+- 82-35-hadis-zavist-bolezn-serdca.md
 ---
+
 
 <p>Кибр (араб. <span class="arab">كِبْرٌ</span>) происходит от глагола <span class="arab">كَبُرَ</span> (быть большим, огромным; быть великим; быть важным) и означает - гордость, высокомерие, величие; огромность, большая величина, большая часть.</p>
 <p>{Quran}24:11{/Quran}</p>

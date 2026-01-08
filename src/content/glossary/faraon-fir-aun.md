@@ -1,13 +1,14 @@
 ---
-term: "Фараон, фир'аун."
-url_slug: "faraon-fir-aun"
-letter: "Ф"
-category: "Ф"
+term: Фараон, фир'аун.
+url_slug: faraon-fir-aun
+letter: Ф
+category: Ф
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Фараон, фир'аун (араб. <span class="arab">فِرْعَوْنُ</span>) титульное наименование царей древнего Египта.</p>
 

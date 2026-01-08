@@ -1,13 +1,14 @@
 ---
-term: "Ратиба"
-url_slug: "ratiba"
-letter: "Р"
-category: "Р"
+term: Ратиба
+url_slug: ratiba
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ратиба, мн. ч. раватиб (араб.<b><span class="arab"> </span></b><span class="arab">رَاتِبَةٌ</span><b><span class="arab"> </span></b>мн. ч. <span class="arab">رَوَاتِبُ</span>) происходит от глагола первой породы <b><span class="arab">رَتَبَ</span></b> (быть твердым, непоколебимым; устоять, выдержать; устанавливаться, упрочиваться) и означает – установленный, стабильный, постоянный.</p>
 <p><b> </b></p>

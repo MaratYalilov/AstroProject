@@ -10,7 +10,7 @@ video: >-
   /media/hadith/40-hadisov-an-nawawi/video/73-24-hadis-put-propitanite-i-proshenie.mp4
 videoRel: video/73-24-hadis-put-propitanite-i-proshenie.mp4
 ---
-# Урок по Священному хадису (Хадис Кудси) — Часть 2: Путь, пропитание и прощение
+# Урок по Священному хадису (<a href="/glossary/khadis-kudsi" class="glossary-link" target="_blank" rel="noopener noreferrer">Хадис Кудси</a>) — Часть 2: Путь, пропитание и прощение
 
 ## Краткое содержание урока
 

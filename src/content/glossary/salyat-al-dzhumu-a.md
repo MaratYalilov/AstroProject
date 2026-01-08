@@ -1,13 +1,14 @@
 ---
-term: "Салят аль-Джуму'а"
-url_slug: "salyat-al-dzhumu-a"
-letter: "Р"
-category: "Р"
+term: Салят аль-Джуму'а
+url_slug: salyat-al-dzhumu-a
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="userslayout/салят" target="_blank">Салят</a> аль-Джуму'а (араб. <span class="arab">صَلَاةُ الْجُمُعَةِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">اَلْجُمُعَةُ</span> (пятница, день собрания) и означает – пятничная молитва.</p>
 

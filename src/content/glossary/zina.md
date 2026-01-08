@@ -1,13 +1,43 @@
 ---
-term: "Зина"
-url_slug: "zina"
-letter: "З"
-category: "З"
+term: Зина
+url_slug: zina
+letter: З
+category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- ashura
+- dzhikhad
+- idda
+- idzhtikhad
+- ikhlas
+- islam
+- kaaba
+- khalyal
+- kharam
+- ma-ruf
+- mukhkam
+- munkar
+- muskhaf
+- mutashabikh
+- mutavatir
+- naskh
+- nikakh
+- riya
+- sadaka
+- sunna
+- tafsir
+- tasbikh
+- umma
+- zikr
+used_in:
+- 07-prichiny-nisposlaniia-aiatov.md
+- 09-naskh-annulirovanie.md
+- 5-1-hadis-dovolstvo-lyudej.md
+- 75-25-hadis-shirota-milosti-allaha.md
 ---
+
 
 <p>Зина (араб.<span class="arab">و</span><span class="arab">زِنَا</span><span class="arab">زِنًى</span>) происходит от глагола <span class="arab">زَنَى</span>(быть узким, тесным, стесненным; прелюбодействовать; нарушать супружескую верность) и означает – прелюбодеяние, блуд; распутство.</p>
 

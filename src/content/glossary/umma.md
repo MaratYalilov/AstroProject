@@ -1,13 +1,71 @@
 ---
-term: "Умма"
-url_slug: "umma"
-letter: "У"
-category: "У"
+term: Умма
+url_slug: umma
+letter: У
+category: У
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- adam
+- ansary
+- dzhikhad
+- fard
+- fikkh
+- gusl
+- id
+- idzhtikhad
+- ikhlas
+- imam
+- islam
+- istikhada
+- kaaba
+- kausar
+- khafiz
+- khajd
+- khalyal
+- kharam
+- khasan
+- khidzhr
+- khidzhra
+- kufr
+- makhdi
+- mandub
+- mukhadzhiry
+- mukhkam
+- muskhaf
+- musulmanin
+- mutashabikh
+- mutavatir
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- tafsir
+- tasbikh
+- taukhid
+- tavaf
+- zakyat
+- zina
+used_in:
+- 04-sobranie-korana.md
+- 05-omovenie-i-namaz.md
+- 05-rasm-muskhafa-md.md
+- 07-prichiny-nisposlaniia-aiatov.md
+- 15-al-kausar-izobilie.md
+- 25-al-bejjina-yasnoe-znamenie.md
+- 31-al-lejl-noch.md
+- 35-al-fadzhr-zaria-chast-2.md
+- 38-obtiranie-posle-omoveniya.md
+- 45-omovenie-posle-guslya.md
+- 66-19-hadis-esli-prosish-prosi-u-allaha.md
+- 66-al-bakara-korova-01-aiat.md
+- 7-1-hadis-hidzhra.md
+- 70-al-bakara-korova-06-07-aiat.md
+- 97-vozmeshchenie-namaza-posle-ochishcheniia.md
 ---
+
 
 <p>Умма (араб. <span class="arab">أُمَّةٌ</span>) происходит от глагола <span class="arab">أَمَّ</span> (направляться; прибегать, укрываться) и означает - нация, народ.</p>
 <p><b><span class="arab"> </span></b></p>

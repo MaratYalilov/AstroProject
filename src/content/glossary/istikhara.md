@@ -1,13 +1,23 @@
 ---
-term: "Истихара"
-url_slug: "istikhara"
-letter: "И"
-category: "И"
+term: Истихара
+url_slug: istikhara
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- faraid
+- imam
+- khafiz
+- khasan
+- mazkhab
+- rasul
+- zikr
+used_in:
+- 02-biografiia-avtora-i-kommentatora.md
 ---
+
 
 <p>Истихара (араб. <span class="arab">اِسْتِخَارَةٌ</span>) происходит от глагола <span class="arab">اِسْتَخَارَ</span> (просить благополучия, благословения, испрашивать благо, помощь (у Аллаха)) и означает – просьба даровать благо, помощь.</p>
 <p>В терминологии шариата <b>истихара – это обращение к Аллаху посредством (добровольного) намаза и узаконенной мольбы с просьбой направить к тому, что лучше и предпочтительней (в знании) Аллаха.</b></p>

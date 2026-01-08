@@ -1,13 +1,14 @@
 ---
-term: "Вакф"
-url_slug: "vakf"
-letter: "В"
-category: "В"
+term: Вакф
+url_slug: vakf
+letter: В
+category: В
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Вакф (араб. <span class="arab">وَقْفٌ</span>) происходит от глагола <span class="arab">وَقَفَ</span> (останавливать, задерживать; удерживать) и означает – задержание, запрет.</p>
 

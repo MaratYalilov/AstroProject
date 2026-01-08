@@ -1,13 +1,30 @@
 ---
-term: "Кунут"
-url_slug: "kunut"
-letter: "К"
-category: "К"
+term: Кунут
+url_slug: kunut
+letter: К
+category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- fikkh
+- gusl
+- idzhtikhad
+- imam
+- khidzhama
+- mazkhab
+- riba
+- taklid
+- zakyat
+used_in:
+- 104-predopredelenie-zla.md
+- 4-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 5-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 6-6-predopredelennost-zla-i-ego-ponyatie.md
+- 6-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 7-prichiny-raznoglasij-mezhdu-uchenymi.md
 ---
+
 
 <p>Кунут (араб. <span class="arab">قُنُوتٌ</span>) происходит от глагола <span class="arab">قَنَتَ</span> (подчиняться, покоряться (кому-л.); проводить время в молитве; усердно читать молитву) и означает – подчинение, набожность, смирение; молитва; выстаивание молитвы.</p>
 <p>{Quran}2:116{/Quran}</p>

@@ -1,13 +1,14 @@
 ---
-term: "Арафа, Арафат"
-url_slug: "arafa-arafat"
-letter: "А"
-category: "А"
+term: Арафа, Арафат
+url_slug: arafa-arafat
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>'Арафа (араб. <span class="arab">عَرَفَةٌ</span>) происходит от глагола <span class="arab">عَرَفَ</span> (знать; узнавать) и означает - название горы - Арафа; день Арафа - 9-й день месяца <a href="/slovar/zul-hidzha" target="_blank">Зуль-Хиджа</a>, который паломники проводят на горе Арафа.</p>
 

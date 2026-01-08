@@ -1,13 +1,14 @@
 ---
-term: "Таджвид"
-url_slug: "tadzhvid"
-letter: "Т"
-category: "Т"
+term: Таджвид
+url_slug: tadzhvid
+letter: Т
+category: Т
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Таджвид (араб. <span class="arab">تَجْوِيدٌ</span>) происходит от глагола <span class="arab">جَوَّدَ</span> (повышать качество, совершенствовать, улучшать, украшать) и означает – улучшение, усовершенствование.</p>
 <p>В терминологии таджвид можно разделить на два вида:</p>

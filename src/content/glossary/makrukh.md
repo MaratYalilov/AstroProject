@@ -1,13 +1,81 @@
 ---
-term: "Макрух"
-url_slug: "makrukh"
-letter: "М"
-category: "М"
+term: Макрух
+url_slug: makrukh
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- adam
+- azan
+- bid-a
+- dalil
+- dzhanaza
+- fard
+- fikkh
+- fitra
+- gusl
+- id
+- idda
+- idzhtikhad
+- ikhlas
+- imam
+- islam
+- israf
+- istikhada
+- istindzha
+- khadzh
+- khajd
+- kharam
+- khasan
+- khukm
+- mazkhab
+- mechet
+- mikhrab
+- mubakh
+- muskhaf
+- musulmanin
+- namima
+- nifas
+- nikakh
+- radzhab
+- sadaka
+- sakhikh
+- salyam
+- salyat
+- sunna
+- takhara
+- talak
+- tavaf
+- tayammum
+- tora
+- vasvasa
+- vudu
+- zakyat
+- zikr
+used_in:
+- 01-vidy-vody.md
+- 02-polozhenie-ostatkov-vody.md
+- 03-kolodcy.md
+- 05-istindzha.md
+- 07-upodoblenie.md
+- 09-adaby-omoveniya.md
+- 123-kniga-namaza-azan-urok-1.md
+- 125-azan-urok-3.md
+- 126-azan-urok-4.md
+- 17-adaby-tualeta.md
+- 18-obereganie-ot-mochi.md
+- 21-spravlenie-nuzhdy.md
+- 22-istindzha.md
+- 22-mesyachnye-nifas-istihada.md
+- 40-5-hadis-kriterii-sootvetstviya-shariatu.md
+- 40-kolichestvo-vody-dlya-omoveniya-i-guslya.md
+- 57-ostatki-vody-posle-zhivotnyh.md
+- 71-usloviya-protiraniya-noskov.md
+- 92-nifas.md
 ---
+
 
 <p>Макрух (араб. <span class="arab">مَكْرُوهٌ</span>) происходит от глагола <span class="arab">كَرُهَ</span> (быть ненавистным, быть отвратительным) и глагола <span class="arab">كَرِهَ</span><span class="arab"> </span> (не желать; не любить; ненавидеть; чувствовать отвращение) и означает – плохой, дурной; отвергаемый, порицаемый, запрещенный.</p>
 <p>{Quran}17:38{/Quran}</p>

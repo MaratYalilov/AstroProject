@@ -1,13 +1,14 @@
 ---
-term: "Аль-Кахтани"
-url_slug: "al-kakhtani"
-letter: "А"
-category: "А"
+term: Аль-Кахтани
+url_slug: al-kakhtani
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Аль-Кахтани (араб. <span class="arab">اَلْقَحْطَانِيُّ</span>) имя родословной, относящееся к племени <span class="arab">قَحْطَانُ</span> (Кахтан), к которому относится основная часть семей из жителей Йемена, такие как; Хумейр, Кинда, Хамадан и др.</p>
 <p><b><span class="arab"> </span></b></p>

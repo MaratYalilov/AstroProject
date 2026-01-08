@@ -1,13 +1,34 @@
 ---
-term: "Ухуд"
-url_slug: "ukhud"
-letter: "У"
-category: "У"
+term: Ухуд
+url_slug: ukhud
+letter: У
+category: У
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- dzhikhad
+- ikhlas
+- islam
+- khadzh
+- khasan
+- mechet
+- ramadan
+- salyam
+- sunna
+- tafsir
+- tasbikh
+- tayammum
+- zakyat
+used_in:
+- 06-mekkanskie-i-medinskie-sury.md
+- 07-klyuchi-namaza.md
+- 10-2-hadis-hadis-dzhibrilya.md
+- 25-2-hadis-dokazatelstva-prorochestva-i-chudesa.md
+- 5-17-vyskazyvaniya-uchenykh-o-tom-chto-budet-vzveshivatsya.md
+- 94-vesy.md
 ---
+
 
 <p>Ухуд (араб. <span class="arab">أُحُدٌ</span>) происходит от глагола <span class="arab">وَحُدَ</span> (быть единым; быть единственным, быть одиноким) и означает – название горы. Ухуд приобрел свое название из-за того, что отделен от прочих гор, находящихся вокруг него.</p>
 <p><b></b></p>

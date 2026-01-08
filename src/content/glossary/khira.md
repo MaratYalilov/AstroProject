@@ -1,13 +1,45 @@
 ---
-term: "Хира"
-url_slug: "khira"
-letter: "К"
-category: "Категория 137"
+term: Хира
+url_slug: khira
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- burak
+- dzhakhilijya
+- dzhinn
+- iblis
+- imam
+- indzhil
+- islam
+- kaaba
+- khafiz
+- khanif
+- khasan
+- khidzhr
+- khidzhra
+- makhr
+- mechet
+- musulmanin
+- nikakh
+- ramadan
+- sakhikh
+- salyam
+- shajtan
+- zakyat
+used_in:
+- 05-urok-sira-yunost-proroka.md
+- 06-urok-sira-vzroslaya-zhizn-proroka.md
+- 08-urok-sira-prorocheskii-etap-v-zhizni-izbrannika.md
+- 16-urok-sira-prodolzhenie-peregovorov.md
+- 17-urok-sira-popytki-poseyat-somneniya.md
+- 23-urok-sira-taif-nochnoe-voznesenie.md
+- 27-2-hadis-predskazaniya-proshlyh-prorokov.md
+- 27-al-galyak-sgustok.md
 ---
+
 
 <p>Хира (араб. <span class="arab">حِرَاءٌ</span>) название пещеры в горах Мекки.</p>
 

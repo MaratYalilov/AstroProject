@@ -1,13 +1,18 @@
 ---
-term: "Духан"
-url_slug: "dukhan"
-letter: "Д"
-category: "Д"
+term: Духан
+url_slug: dukhan
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- sunna
+- tafsir
+used_in:
+- 5-5-3-5-dym.md
+- 87-dym-i-voshod-solnca-na-zapade.md
 ---
+
 
 <p>Духан (араб. <span class="arab">دُخَانٌ</span>) происходит от глагола <span class="arab">دَخِنَ</span> (куриться, дымить, дымиться) и означает – дым.</p>
 

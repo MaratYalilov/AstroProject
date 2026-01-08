@@ -1,13 +1,41 @@
 ---
-term: "Салят"
-url_slug: "salyat"
-letter: "Р"
-category: "Р"
+term: Салят
+url_slug: salyat
+letter: Р
+category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- dzhanaza
+- fadzhr
+- fitra
+- id
+- idzhtikhad
+- imam
+- iman
+- islam
+- khadzh
+- kharam
+- makrukh
+- mazkhab
+- ramadan
+- salyam
+- sira
+- sunna
+- takhadzhud
+- tashakhkhud
+- tora
+- zakyat
+used_in:
+- 03-poniatie-termina-akhliussunna.md
+- 07-upodoblenie.md
+- 112-namaz-vo-vremya-voshoda-solnca.md
+- 122-srednii-namaz.md
+- 18-2-hadis-znachimost-zakyata.md
+- 68-al-bakara-korova-03-aiat.md
 ---
+
 
 <p>Салят (араб. <span class="arab">صَلاةٌ</span>) происходит от глагола <span class="arab">صَلَّى</span> (молился, обращался с мольбой) и означает – мольба.</p>
 

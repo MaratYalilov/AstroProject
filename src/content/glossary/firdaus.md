@@ -1,13 +1,14 @@
 ---
-term: "Фирдаус"
-url_slug: "firdaus"
-letter: "Ф"
-category: "Ф"
+term: Фирдаус
+url_slug: firdaus
+letter: Ф
+category: Ф
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Фирдаус (араб. <span class="arab">فِرْدَوْسٌ</span>) первообразное имя арабского языка или языка римлян, в значении – сад, плодородная долина.</p>
 

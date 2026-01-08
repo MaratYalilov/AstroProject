@@ -1,13 +1,24 @@
 ---
-term: "Ахлюль-фатра"
-url_slug: "akhlyul-fatra"
-letter: "А"
-category: "А"
+term: Ахлюль-фатра
+url_slug: akhlyul-fatra
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- imam
+- islam
+- mechet
+- salyam
+- shakhada
+- shirk
+- sunna
+- taufik
+- taukhid
+used_in:
+- 06-opravdanie-nevezhestvom.md
 ---
+
 
 <p>Ахлюль-фатра (араб. <b><span class="arab">أ</span></b><span class="arab">هْلُ الْفَتْرَةِ</span>) состоит из двух слов <span class="arab">أَهْلٌ</span> ((люди, приверженцы) и <span class="arab">فَتْرَةٌ</span> (период времени, промежуток; слабость) и означает – люди, жившие в период отсутствия пророков.<b><span class="arab"></span></b></p>
 <p><b><span class="arab"> </span></b></p>

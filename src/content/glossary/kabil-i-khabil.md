@@ -1,13 +1,14 @@
 ---
-term: "Кабиль и Хабиль"
-url_slug: "kabil-i-khabil"
-letter: "К"
-category: "К"
+term: Кабиль и Хабиль
+url_slug: kabil-i-khabil
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Кабиль и Хабиль<a title="" href="#_ftn1">[1]</a> (араб. <span class="arab">قَابِيلُ</span><span class="arab">وَهَابِيلُ</span>) имена двух сыновей Адама, на арамейском яз. Каин и Авель.</p>
 <p><b><span class="arab"></span></b></p>

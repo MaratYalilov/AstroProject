@@ -1,13 +1,34 @@
 ---
-term: "Талак"
-url_slug: "talak"
-letter: "Т"
-category: "Т"
+term: Талак
+url_slug: talak
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+- fikkh
+- gusl
+- idda
+- imam
+- istikhada
+- kaffara
+- khajd
+- kharam
+- khasan
+- makrukh
+- mechet
+- muskhaf
+- nifas
+- nikakh
+- sadaka
+- tavaf
+used_in:
+- 22-mesyachnye-nifas-istihada.md
+- 87-haid-i-beremennost.md
+- 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
 ---
+
 
 <p>Талак (араб. طَلَاقٌ) происходит от глагола первой породы طَلَقَ (быть свободным) и от глагола четвертой породы أَطْلَقَ (освобождать, оставлять) и означает – развод.<br /> </p>
 <p>В терминологии шариата <strong>талак – это окончательное (или частичное</strong><a href="#_ftn1"></a><strong>*</strong><strong>) расторжение брачных уз в настоящем или будущем времени, посредством определенных слов или тем, что заменяет их.</strong><br /> </p>

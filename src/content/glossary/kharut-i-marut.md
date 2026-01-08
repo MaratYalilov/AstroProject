@@ -1,13 +1,21 @@
 ---
-term: "Харут и Марут"
-url_slug: "kharut-i-marut"
-letter: "К"
-category: "Категория 137"
+term: Харут и Марут
+url_slug: kharut-i-marut
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- id
+- israfil
+- munkar
+- munkar-i-nakir
+- ramadan
+used_in:
+- 2-3-imena.md
+- 49-imena-angelov.md
 ---
+
 
 <p>Харут и Марут (араб. <span class="arab">هَارُوتُ ومَارُوتُ</span>) имена собственные на ассирийском языке.</p>
 

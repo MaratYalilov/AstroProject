@@ -1,13 +1,14 @@
 ---
-term: "Сарийя"
-url_slug: "sarijya"
-letter: "С"
-category: "С"
+term: Сарийя
+url_slug: sarijya
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Сарийя (араб. <span class="arab">سَرِيَّةٌ</span>) происходит от глагола <span class="arab">سَرَى</span> (идти ночью) и означает - отряд, рота. Приобрело свое название от того, что военный отряд отправляется ночью, скрыто.</p>
 

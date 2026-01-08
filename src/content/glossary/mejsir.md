@@ -1,13 +1,14 @@
 ---
-term: "Мейсир"
-url_slug: "mejsir"
-letter: "М"
-category: "М"
+term: Мейсир
+url_slug: mejsir
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мейсир (араб. <span class="arab">مَيْسِرٌ</span>) происходит от глагола <span class="arab">يَسَرَ</span> (играть в азартные игры; играть на деньги) и означает – азартная игра; игра на деньги.</p>
 

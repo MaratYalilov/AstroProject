@@ -1,13 +1,14 @@
 ---
-term: "Кисва"
-url_slug: "kisva"
-letter: "К"
-category: "К"
+term: Кисва
+url_slug: kisva
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Кисва (араб. <span class="arab">كِسْوَةٌ</span>) происходит от глагола <span class="arab">كَسَا</span> (одевать, покрывать одеянием) и означает – одежда, одеяние; покрывало, надеваемое на <a href="userslayout/кааба" target="_blank">Каабу</a>.</p>
 <p><b> </b></p>

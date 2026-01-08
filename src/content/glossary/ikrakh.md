@@ -1,13 +1,14 @@
 ---
-term: "Икрах"
-url_slug: "ikrakh"
-letter: "И"
-category: "И"
+term: Икрах
+url_slug: ikrakh
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Икрах (араб. <span class="arab">إِكْرَاهٌ</span>) происходит от глагола первой пароды <span class="arab">كَرِهَ</span> (не желать; не любить; ненавидеть; чувствовать отвращение; делать (что либо) против воли) и от глагола четвертой пароды <span class="arab">أَكْرَهَ</span> (принуждать (к чему <span class="arab">على</span>)) и означает - принуждение, применение силы.</p>
 <p>{Quran}2:256{/Quran}</p>

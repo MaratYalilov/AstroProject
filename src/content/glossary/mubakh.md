@@ -1,13 +1,23 @@
 ---
-term: "Мубах"
-url_slug: "mubakh"
-letter: "М"
-category: "М"
+term: Мубах
+url_slug: mubakh
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fard
+- kharam
+- makrukh
+- mechet
+- sunna
+- zukhd
+used_in:
+- 123-kniga-namaza-azan-urok-1.md
+- 79-30-31-hadis-vseob-emlyushchij-shariat-i-klyuch-k-lyubvi.md
 ---
+
 
 <p>Мубах (араб. <span class="arab">مُبَاحٌ</span>) происходит от глагола <span class="arab">أَبَاحَ</span> (раскрывать, обнаруживать; позволять, разрешать; предоставлять) и означает - свободный, никому не принадлежащий; общий; дозволенное.</p>
 <p>В терминологии <b>мубах – это то, в чем законодатель оставил абсолютное право выбирать между исполнением и оставлением, за что исполняющий его не вознаграждается, а оставляющий не наказывается, кроме как с праведным намерением (в котором раб желает приближения к Аллаху).</b></p>

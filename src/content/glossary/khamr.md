@@ -1,13 +1,21 @@
 ---
-term: "Хамр"
-url_slug: "khamr"
-letter: "К"
-category: "Категория 137"
+term: Хамр
+url_slug: khamr
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- idzhtikhad
+- kharam
+- khasan
+- nifas
+- vadzhib
+used_in:
+- 24-nechistoty-i-ih-ochischenie-1-chast.md
+- 25-nechistoty-i-ih-ochischenie-2-chast.md
 ---
+
 
 <p>Хамр (араб. <span class="arab">خَمْرٌ</span>) происходит от глагола <span class="arab">خَمَرَ</span> (покрывать, скрывать; вызывать брожение) и означает – вино. Оно названо этим именем из-за того, что покрывает разум и лишает рассудка.</p>
 

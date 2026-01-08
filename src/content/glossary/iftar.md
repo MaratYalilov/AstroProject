@@ -1,13 +1,26 @@
 ---
-term: "Ифтар"
-url_slug: "iftar"
-letter: "И"
-category: "И"
+term: Ифтар
+url_slug: iftar
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- gusl
+- kaffara
+- khidzhama
+- mazkhab
+- nazr
+- ramadan
+- sadaka
+- sukhur
+- sunna
+- vadzhib
+used_in:
+- 53-postanovleniya-kasayushhiesya-vody.md
+- 54-voda-posle-omoveniya.md
 ---
+
 
 <p>Ифтар (араб. <span class="arab">إِفْطَارٌ</span>) происходит от глагола <span class="arab">أَفْطَرَ</span> (завтракать) и означает – прием завтрака.</p>
 

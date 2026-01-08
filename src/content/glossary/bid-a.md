@@ -1,13 +1,47 @@
 ---
-term: "Бид'а"
-url_slug: "bid-a"
-letter: "Б"
-category: "Б"
+term: Бид'а
+url_slug: bid-a
+letter: Б
+category: Б
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ajn
+- birr
+- dalil
+- fard
+- fitra
+- id
+- ikhsan
+- iman
+- islam
+- khadzh
+- khalyal
+- kharam
+- khaud
+- khukm
+- kufr
+- makrukh
+- nikakh
+- rasul
+- sadaka
+- shirk
+- sunna
+- takva
+- taravikh
+- taukhid
+- usul-al-fikkh
+- zikr
+used_in:
+- 01-takhaviya-vstuplenie.md
+- 14-2-hadis-otnoshenie-k-poslanniku.md
+- 39-5-hadis-zapet-novovvedenij.md
+- 40-5-hadis-kriterii-sootvetstviya-shariatu.md
+- 41-5-hadis-opasnosti-novovvedenij.md
+- 42-5-hadis-klassifikaciya-novovvedenij.md
+- 76-28-hadis-nastavlenie-na-vremena-smut.md
 ---
+
 
 <p>Бид'а (араб. بِدْعَةٌ) происходит от глагола بَدَعَ (создавать (что-л.) без предшествующего примера,  вводить (что-л.) новое) и означает – новшество, нововведение, ересь.</p>
 <p>{Quran}2:117{/Quran}</p>

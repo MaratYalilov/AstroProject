@@ -1,13 +1,27 @@
 ---
-term: "Яджудж и Маджудж"
-url_slug: "yadzhudzh-i-madzhudzh"
-letter: "Я"
-category: "Я"
+term: Яджудж и Маджудж
+url_slug: yadzhudzh-i-madzhudzh
+letter: Я
+category: Я
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- aksa
+- dabba
+- dadzhal
+- imam
+- kharam
+- masikh
+- mechet
+- musulmanin
+used_in:
+- 5-5-3-3-yadzhudzh-i-madzhudzh.md
+- 5-5-3-bolshie-priznaki-sudnogo-dnya.md
+- 81-dadzhal.md
+- 86-yadzhudzh-i-madzhudzh.md
 ---
+
 
 <p>Яджудж и Маджудж (араб. <span class="arab">يَأْجُوجُ و مَأْجُوجُ</span>) по мнению некоторых ученых эти имена происходят от глагола <span class="arab">أَجَّ</span> (гореть, пылать, воспламеняться), или от глагола <span class="arab">مَاجَ</span> (бушевать (о море); вздыматься (о волнах). Другие считают, что эти имена не арабские, а поэтому их смысл неизвестен.</p>
 <p>Невзирая на смысл этих слов, нет сомнения в том, что эти народы являются потомками Адама и Хавы. </p>

@@ -1,13 +1,64 @@
 ---
-term: "Хайд"
-url_slug: "khajd"
-letter: "К"
-category: "Категория 137"
+term: Хайд
+url_slug: khajd
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaba
+- dzhanaza
+- fikkh
+- gusl
+- id
+- idda
+- imam
+- islam
+- istikhada
+- khadzh
+- khafiz
+- khalyal
+- kharam
+- khasan
+- kufr
+- makhdi
+- makrukh
+- mazkhab
+- mechet
+- mursal
+- muskhaf
+- mutavatir
+- nifas
+- radzhab
+- ramadan
+- rukn
+- sadaka
+- safar
+- tafsir
+- talak
+- tavaf
+- tayammum
+- umma
+- zikr
+used_in:
+- 13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.md
+- 22-mesyachnye-nifas-istihada.md
+- 42-farzy-guslya.md
+- 80-haid.md
+- 81-chtenie-korana-vo-vremya-haida.md
+- 82-nahozhdenie-v-mecheti-vo-vremya-haida.md
+- 83-blizost-vo-vremya-haida.md
+- 84-izar.md
+- 85-kaffara-za-blizost-vo-vremya-haida.md
+- 86-sroki-haida.md
+- 87-haid-i-beremennost.md
+- 88-haid-i-istihada.md
+- 89-predohranenie-ot-beremennosti.md
+- 90-cveta-krovi-v-mazhabah.md
+- 91-priznaki-zaversheniya-mesyachnyh.md
+- 97-vozmeshchenie-namaza-posle-ochishcheniia.md
 ---
+
 
 <p>Хайд (араб. <span class="arab">حَيْضٌ</span>) происходит от глагола <span class="arab">حَاضَ</span> (течь, разливаться) и означает – течение; менструальные регулы.</p>
 

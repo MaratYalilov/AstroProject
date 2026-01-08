@@ -1,13 +1,29 @@
 ---
-term: "Намима"
-url_slug: "namima"
-letter: "Н"
-category: "Н"
+term: Намима
+url_slug: namima
+letter: Н
+category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+- islam
+- kharam
+- khasan
+- kufr
+- kunya
+- madzhaz
+- makrukh
+- sadaka
+- shajtan
+- tafsir
+used_in:
+- 12-al-masad-palmovye-volokna.md
+- 18-obereganie-ot-mochi.md
+- 19-al-khumaza-khulitel.md
+- 30-2-hadis-smert-pervaya-stanciya-v-sudnyj-den.md
 ---
+
 
 <p>Намима (араб. <span class="arab">نَمِيمَةٌ</span>) происходит от глагол <span class="arab">نَمَّ</span> (клеветать, доносить (на кого <span class="arab">على</span>); сеять раздор (среди кого <span class="arab">بين</span>)) и означает - клевета, сплетня.</p>
 <p>В терминологии шариата <b>намима – это передача слов от одних людей другим, для того чтобы привнести раздор между ними, обнародовать тайну или изобличить кого либо, равно будь то словами, письмом, жестом или намеком, равно будь то передаваемое словами или делами и равно будь то пороком и недостатком у обсуждаемого или не являющееся таковым.</b></p>

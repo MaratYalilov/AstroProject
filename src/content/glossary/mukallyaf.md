@@ -1,13 +1,14 @@
 ---
-term: "Мукалляф"
-url_slug: "mukallyaf"
-letter: "М"
-category: "М"
+term: Мукалляф
+url_slug: mukallyaf
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мукалляф (араб. <span class="arab">مُكَلَّفٌ</span>) происходит от глагола <span class="arab">كَلَّفَ</span> (вменять в обязанность, обязывать; поручать (что <span class="arab">بـ</span>)) и означает – ответственный, обязанный. <span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span> </p>
 <p>В терминологии шариата <b>мукалляф – это совершеннолетний, разумный, имеющий свободу выбора<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a>, способный<a href="#_ftn2" name="_ftnref2" title=""><b>[2]</b></a>, понимающий<a href="#_ftn3" name="_ftnref3" title=""><b>[3]</b></a>, ответственный за исполнение религиозных обязательств, к которому обращен призыв ислама.</b>  <span class="arab"></span></p>

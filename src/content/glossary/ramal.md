@@ -1,13 +1,14 @@
 ---
-term: "Рамаль"
-url_slug: "ramal"
-letter: "Р"
-category: "Р"
+term: Рамаль
+url_slug: ramal
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Рамаль (араб. <span class="arab">رَمَلٌ</span>) происходит от глагола <span class="arab">رَمَلَ</span> (спешить, бежать легким бегом) и означат – спешка, легкий бег.</p>
 

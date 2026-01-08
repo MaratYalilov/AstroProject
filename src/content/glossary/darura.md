@@ -1,13 +1,14 @@
 ---
-term: "Дарура"
-url_slug: "darura"
-letter: "Д"
-category: "Д"
+term: Дарура
+url_slug: darura
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Дарура (араб. <span class="arab">ضَرُورَةٌ</span>) происходит от глагола <span class="arab">ضَرَّ</span>(вредить; приносить ущерб, убыток) и означает - необходимость; крайность.</p>
 

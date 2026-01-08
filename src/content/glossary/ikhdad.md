@@ -1,13 +1,14 @@
 ---
-term: "Ихдад"
-url_slug: "ikhdad"
-letter: "И"
-category: "И"
+term: Ихдад
+url_slug: ikhdad
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ихдад (араб. <span class="arab">إِحْدَادٌ</span>) происходит от глагола <span class="arab">حَدَّ</span> (ограничивать, запрещать, ставить предел) и означает – воздержание женщины от привлекательной одежды; траур.</p>
 

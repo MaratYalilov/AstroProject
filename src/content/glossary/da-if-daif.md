@@ -1,13 +1,14 @@
 ---
-term: "Да'иф, даиф"
-url_slug: "da-if-daif"
-letter: "Д"
-category: "Д"
+term: Да'иф, даиф
+url_slug: da-if-daif
+letter: Д
+category: Д
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Да'иф (араб. <span class="arab">ضَعِيفٌ</span>) происходит от глагола <span class="arab">ضَعُفَ</span> (быть слабым, слабеть, быть не в состоянии (делать что <span class="arab">عن</span>)) и означает - слабый, бессильный; недостаточный; больной.</p>
 

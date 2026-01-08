@@ -1,13 +1,14 @@
 ---
-term: "Улухийя"
-url_slug: "ulukhijya"
-letter: "У"
-category: "У"
+term: Улухийя
+url_slug: ulukhijya
+letter: У
+category: У
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Улухийя, иляхийя и иляха (араб. <span class="arab">أُلُوهِيَّةٌ, إِلاهِيَّةٌ, إلاهَةٌ</span>) происходит от глагола <span class="arab">أَلَهَ</span> (поклоняться, обожествлять) и означает поклонение, обожествление, и является синонимом слова <a href="slovar/ibada" target="_blank">'ибада</a>. <span class="arab"></span></p>
 <p><span class="arab"></span></p>

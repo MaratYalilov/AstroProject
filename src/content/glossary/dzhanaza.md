@@ -1,13 +1,71 @@
 ---
-term: "Джаназа"
-url_slug: "dzhanaza"
-letter: "Д"
-category: "Д"
+term: Джаназа
+url_slug: dzhanaza
+letter: Д
+category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhanaba
+- dzhikhad
+- fadzhr
+- fard
+- fikkh
+- gusl
+- idda
+- idzhtikhad
+- ikhlas
+- imam
+- islam
+- istikhada
+- kaaba
+- kafan
+- khadzh
+- khafiz
+- khajd
+- kharam
+- khasan
+- kufr
+- makrukh
+- mazkhab
+- mechet
+- mursal
+- muskhaf
+- namima
+- naskh
+- nifas
+- nikakh
+- rukn
+- sadaka
+- salyat
+- shajtan
+- tafsir
+- takhadzhud
+- talak
+- tavaf
+- tayammum
+- vadzhib
+- vali
+- zakyat
+used_in:
+- 10-vidy-omoveniya.md
+- 100-nagrada-za-namaz.md
+- 11-al-ikhlas-ochishchenie-very.md
+- 113-namaz-v-nachale-ego-vremeni.md
+- 116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2.md
+- 122-srednii-namaz.md
+- 13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.md
+- 16-tayammum.md
+- 22-mesyachnye-nifas-istihada.md
+- 30-2-hadis-smert-pervaya-stanciya-v-sudnyj-den.md
+- 5-5-3-2-prikhod-isy-mir-emu.md
+- 58-voda-smeshalas-s-chistym.md
+- 80-al-bakara-korova-27-28-aiat.md
+- 85-isa.md
+- 99-ostavlenie-namaza.md
 ---
+
 
 <p>Джаназа (араб. <span class="arab">جَنَازَةٌ</span>) происходит от глагола <span class="arab">جَنَزَ</span> (покрывать; класть покойника на носилки; собирать) и означает – покойник; погребальные носилки.</p>
 

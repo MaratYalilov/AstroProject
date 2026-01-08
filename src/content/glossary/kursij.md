@@ -1,13 +1,14 @@
 ---
-term: "Курсий"
-url_slug: "kursij"
-letter: "К"
-category: "К"
+term: Курсий
+url_slug: kursij
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Курсий (араб. <span class="arab">كُرْسِيٌّ</span>) происходит от глагола <span class="arab">تَكَرَّسَ</span> (укрепляться; собираться, объединяться) и означает - сиденье, стул, кресло. Также имеет значение «ученый», из-за знания, объединенного в нем.</p>
 

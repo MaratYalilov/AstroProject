@@ -1,13 +1,14 @@
 ---
-term: "Мейта"
-url_slug: "mejta"
-letter: "М"
-category: "М"
+term: Мейта
+url_slug: mejta
+letter: М
+category: М
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Мейта (араб. <span class="arab">مَيْتَةٌ</span>) происходит от глагола <span class="arab">مَاتَ</span> (умирать, испускать дух; издыхать) и означает - мертвечина, падаль.</p>
 

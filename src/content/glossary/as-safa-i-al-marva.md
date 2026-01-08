@@ -1,13 +1,14 @@
 ---
-term: "Ас-Сафа и аль-Марва"
-url_slug: "as-safa-i-al-marva"
-letter: "А"
-category: "А"
+term: Ас-Сафа и аль-Марва
+url_slug: as-safa-i-al-marva
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Ас-Сафа и аль-Марва (араб. <span class="arab">اَلصَّفَا وَالْمَرْوَةُ</span>) два слова происходят от <span class="arab">صَفًا</span>-сафа (прочный гладкий камень) и <span class="arab">مَرْوٌ</span>-марву (белый шершавый камень; геол. кремень, кварц) и означают - названия двух холмов в Мекке.</p>
 

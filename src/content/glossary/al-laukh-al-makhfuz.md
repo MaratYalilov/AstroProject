@@ -1,13 +1,14 @@
 ---
-term: "Аль-Лаух аль-махфуз"
-url_slug: "al-laukh-al-makhfuz"
-letter: "А"
-category: "А"
+term: Аль-Лаух аль-махфуз
+url_slug: al-laukh-al-makhfuz
+letter: А
+category: А
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Аль-Лаух аль-махфуз (араб. <span class="arab">اَللَّوْحُ</span><span class="arab"> </span><span class="arab">الْمَحْفُوظُ</span>) состоит из двух слов <span class="arab">لَوْحٌ</span> (доска, плита, скрижаль) и <span class="arab">مَحْفُوظٌ</span> (сохраняемый, оберегаемый) и означает – хранимая скрижаль.</p>
 

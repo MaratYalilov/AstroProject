@@ -1,13 +1,14 @@
 ---
-term: "Салаф"
-url_slug: "salaf"
-letter: "Р"
-category: "Р"
+term: Салаф
+url_slug: salaf
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Салаф (араб. سَلَفٌ) происходит от глагола سَلَفَ (быть раньше (чего-л), предшествовать; быть прошлым) и означает - предшественники, предки.</p>
 <p>{Quran}43:56{/Quran}</p>

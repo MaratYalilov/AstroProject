@@ -1,13 +1,24 @@
 ---
-term: "Тахара"
-url_slug: "takhara"
-letter: "Т"
-category: "Т"
+term: Тахара
+url_slug: takhara
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- gusl
+- ikhlas
+- khasan
+- khukm
+- makrukh
+- mazkhab
+- sadaka
+- vudu
+used_in:
+- 01-vidy-vody.md
+- 70-23-hadis-sdelka-o-dushe.md
 ---
+
 
 <p>Тахара (араб. <span class="arab">طَهَارَةٌ</span>) происходит от глагола <span class="arab">طَهُرَ</span> (быть чистым, быть непорочным) и означает – чистота, непорочность.</p>
 

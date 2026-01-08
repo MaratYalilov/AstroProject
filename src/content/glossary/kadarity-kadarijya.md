@@ -1,13 +1,14 @@
 ---
-term: "Кадариты, кадарийя"
-url_slug: "kadarity-kadarijya"
-letter: "К"
-category: "К"
+term: Кадариты, кадарийя
+url_slug: kadarity-kadarijya
+letter: К
+category: К
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Кадариты (араб. <span class="arab">قَدَرِيَّةٌ</span>) происходит от глагола <span class="arab">قَدَرَ</span>(мочь, быть в состоянии, в силах сделать (что <span class="arab">على</span>)) и означает – секта, группа имеющая отклонение в понимании предопределения, отвергая его, либо излишествуя в подтверждении, отрицая свободу выбора.</p>
 

@@ -1,13 +1,88 @@
 ---
-term: "Адам"
-url_slug: "adam"
-letter: "А"
-category: "А"
+term: Адам
+url_slug: adam
+letter: А
+category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- azan
+- dzhakhilijya
+- dzhinn
+- fitra
+- gusl
+- iblis
+- id
+- idzhtikhad
+- imam
+- iman
+- islam
+- kaaba
+- karamat
+- khadzh
+- khafiz
+- khalil
+- kharam
+- khasan
+- khava
+- khidzhab
+- khidzhr
+- khidzhra
+- khira
+- khukm
+- kunya
+- makrukh
+- mechet
+- musulmanin
+- mutavatir
+- nikakh
+- ramadan
+- riya
+- sadaka
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- sunna
+- tasbikh
+- tavassul
+- tora
+- umma
+- yadzhudzh-i-madzhudzh
+- zakyat
+used_in:
+- 06-urok-sira-vzroslaya-zhizn-proroka.md
+- 07-upodoblenie.md
+- 09-urok-sira-formy-peredachi-otkroveniya.md
+- 1-12-3-atributy-allakha.md
+- 1-9-sredstva-priblizheniya.md
+- 2-1-2-svet.md
+- 30-tauassul.md
+- 33-al-balad-gorod.md
+- 4-3-kto-yavlyaetsya-pervym-poslannikom.md
+- 45-atributy-suschnosti-allaha.md
+- 45-omovenie-posle-guslya.md
+- 48-vera-v-angelov.md
+- 5-1-vera-v-posledniy-den.md
+- 5-2-znanie-o-vremeni-nastupleniya-sudnogo-dnya.md
+- 5-23-khodataystvo.md
+- 5-5-3-3-yadzhudzh-i-madzhudzh.md
+- 51-gusl-v-pyatnicu.md
+- 67-20-hadis-stydlivost-vetv-very.md
+- 67-poslanniki-obladateli-reshimosti.md
+- 71-al-bakara-korova-08-09-aiat.md
+- 73-vera-v-sudnyy-den.md
+- 74-vremya-sudnogo-dnya.md
+- 81-al-bakara-korova-29-30-aiat.md
+- 83-al-bakara-korova-31-33-aiat.md
+- 84-al-bakara-korova-34-aiat.md
+- 85-al-bakara-korova-35-37-aiat.md
+- 86-yadzhudzh-i-madzhudzh.md
+- 97-zastupnichestvo.md
+- 98-hodataystvo.md
 ---
+
 
 <p>Адам (араб. <span class="arab">آدَمُ</span>) происходит от глагола <span class="arab">أَدِمَ</span> (быть смуглым, иметь цвет земли) и означат – смуглый, с темной кожей, темнокожий; Адам – имя собственное.</p>
 

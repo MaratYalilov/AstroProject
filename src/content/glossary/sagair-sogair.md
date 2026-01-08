@@ -1,13 +1,14 @@
 ---
-term: "Сагаир, согаир"
-url_slug: "sagair-sogair"
-letter: "Р"
-category: "Р"
+term: Сагаир, согаир
+url_slug: sagair-sogair
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Сагаир, ед.ч. сагира (араб. <span class="arab">صَغَائِرُ,</span><span class="arab">صَغِيرَةٌ</span>) происходит от глагола<span class="arab">صَغُرَ </span>(быть малым<span class="arab">, </span>небольшим; быть малолетним;быть ничтожным) и означает – малые грехи.</p>
 

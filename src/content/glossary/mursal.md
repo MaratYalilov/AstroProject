@@ -1,13 +1,65 @@
 ---
-term: "Мурсаль"
-url_slug: "mursal"
-letter: "М"
-category: "М"
+term: Мурсаль
+url_slug: mursal
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+- gusl
+- id
+- ikhlas
+- imam
+- islam
+- israf
+- kaaba
+- kausar
+- khadzh
+- khafiz
+- khajd
+- khalyal
+- kharam
+- khasan
+- khaud
+- khidzhr
+- mazkhab
+- mechet
+- musulmanin
+- radzhab
+- ramadan
+- ribat
+- riya
+- rukn
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- tafsir
+- tayammum
+- vadzhib
+- vasvasa
+- zakyat
+- zikr
+used_in:
+- 02-tafsir-poleznoe-vstuplenie.md
+- 08-ciyayuschie-lica.md
+- 11-al-ikhlas-ochishchenie-very.md
+- 12-mazi-i-mani.md
+- 14-urok-sira-etapy-prizyva-chast3.md
+- 15-prigotovlennoe-na-ogne.md
+- 16-deistviya-narushayuschie-omovenie.md
+- 30-ad-dukha-utro.md
+- 36-protiranie-ushei.md
+- 42-al-burudzh-sozvezdiia-zodiaka-1.md
+- 66-shkury-mertvyh-zhivotnyh.md
+- 76-al-bakara-korova-19-20-aiat.md
+- 78-poyavilas-voda-posle-tayammum.md
+- 84-izar.md
+- 85-kaffara-za-blizost-vo-vremya-haida.md
 ---
+
 
 <p>Мурсаль (араб. <span class="arab">مُرْسَلٌ</span>) происходит от глагола <span class="arab">أَرْسَلَ</span>(посылать, отправлять; отпускать (волосы, бороду); давать волю (чему-либо)) и означает - посланный, отправленный; освобожденный, свободный.</p>
 

@@ -1,13 +1,14 @@
 ---
-term: "Тарбия"
-url_slug: "tarbiya"
-letter: "Т"
-category: "Т"
+term: Тарбия
+url_slug: tarbiya
+letter: Т
+category: Т
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Тарбия (араб. <span class="arab">تَرْبِيَةٌ</span>) происходит от глагола первой пароды <span class="arab">رَبَا</span> (расти, возрастать, увеличиваться; превышать (что <span class="arab">على</span>)) и от глагола второй пароды <span class="arab">رَبَّى</span> (воспитывать; выращивать) и означает – развитие; воспитание, образование.</p>
 

@@ -1,13 +1,14 @@
 ---
-term: "Хадж аль-ифрад"
-url_slug: "khadzh-al-ifrad"
-letter: "К"
-category: "Категория 137"
+term: Хадж аль-ифрад
+url_slug: khadzh-al-ifrad
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="slovar/hadzh.html" target="_blank">Хадж </a>аль-ифрад (араб. <span class="arab">حَجُّ الْإِفْرَادِ</span>) состоит из двух слов <span class="arab">حَجٌّ</span> (паломничество) и <span class="arab">إِفْرَادٌ</span> (быть отдельным, одним, изолированным) и означает хадж, в котором паломник совершает хадж без  <a href="slovar/umra.html" target="_blank">'урмы</a>.</p>
 <p>В терминологии шариата <b>хадж аль-ифрад – это  (поклонение Аллаху) посредством вступления мусульманина в <a href="slovar/ihram.html" target="_blank">ихрам</a> только для совершения хаджа. Таким образом, паломник, прибывший в Мекку, совершает обход вокруг <a href="slovar/kaaba.html" target="_blank">Каабы</a><a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a>, затем исполняет са'й хаджа<a href="#_ftn2" name="_ftnref2" title=""><b>[2]</b></a>, но не бреет и не укорачивает свои волосы и не выходит из ихрама, оставаясь в нем до дня праздника, пока не выполнит обряд бросания камешков в столб джамрат аль-'акаба<a href="#_ftn3" name="_ftnref3" title=""><b>[3]</b></a>.</b><span class="arab"></span></p>

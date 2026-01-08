@@ -1,13 +1,29 @@
 ---
-term: "Масих"
-url_slug: "masikh"
-letter: "М"
-category: "М"
+term: Масих
+url_slug: masikh
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- dabba
+- dadzhal
+- id
+- imam
+- islam
+- kharam
+- khasan
+- mechet
+- musulmanin
+- takva
+- yadzhudzh-i-madzhudzh
+used_in:
+- 5-5-3-1-al-masikhud-dadzhal.md
+- 77-al-bakara-korova-21-22-aiat.md
+- 81-dadzhal.md
 ---
+
 
 <p><span class="arab">Масих (араб. مَسِيحٌ</span>) происходит от глагола <span class="arab">مَسَحَ</span> (мазать, смазывать; чистить; тереть, протирать) и означает – смазанный, помазанный; стертый; мессия.</p>
 

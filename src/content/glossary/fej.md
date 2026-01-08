@@ -1,13 +1,14 @@
 ---
-term: "Фей"
-url_slug: "fej"
-letter: "Ф"
-category: "Ф"
+term: Фей
+url_slug: fej
+letter: Ф
+category: Ф
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Фей (араб. <span class="arab">فَيْئٌ</span>) происходит от глагола первой пароды <span class="arab">فَاءَ</span> (возвращаться) и от глагола четвертой пароды <span class="arab">أَفَاءَ</span> (возвращать (кому <span class="arab">على</span>); даровать (что вин.п. или <span class="arab">بـ</span> кому <span class="arab">على</span>)) и означает – тень; добыча, трофей.</p>
 

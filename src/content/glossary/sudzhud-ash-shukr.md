@@ -1,13 +1,14 @@
 ---
-term: "Суджуд аш-шукр"
-url_slug: "sudzhud-ash-shukr"
-letter: "С"
-category: "С"
+term: Суджуд аш-шукр
+url_slug: sudzhud-ash-shukr
+letter: С
+category: С
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Суджуд аш-шукр (араб. <span class="arab">سُجُودُ الشُّكْرِ</span><b></b>) состоит из двух слов <span class="arab">سُجُودٌ</span> (земной поклон) и <span class="arab">شُكْرٌ</span> (благодарность, признательность) и означает - земной поклон, совершаемый в знак благодарности Аллаху.</p>
 

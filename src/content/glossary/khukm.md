@@ -1,13 +1,41 @@
 ---
-term: "Хукм"
-url_slug: "khukm"
-letter: "К"
-category: "Категория 137"
+term: Хукм
+url_slug: khukm
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- ajn
+- azan
+- bid-a
+- fard
+- fitra
+- gusl
+- ikhlas
+- ikhsan
+- imam
+- iman
+- islam
+- kharam
+- khasan
+- makrukh
+- mazkhab
+- mechet
+- musulmanin
+- shirk
+- sunna
+- takhara
+- tayammum
+- vudu
+used_in:
+- 01-takhaviya-vstuplenie.md
+- 01-vidy-vody.md
+- 02-polozhenie-ostatkov-vody.md
+- 51-gusl-v-pyatnicu.md
 ---
+
 
 <p>Хукм мн.ч. ахкам (араб. <span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab">أَحْكَامٌ</span>мн.ч. <span class="arab">حُكْمٌ</span>) происходит от глагола <span class="arab">حَكَمَ</span> (судить; выносить решение; сдерживать, удерживать) и означает – власть; суд, суждение, решение; запрещение.</p>
 

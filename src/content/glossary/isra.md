@@ -1,13 +1,39 @@
 ---
-term: "Исра"
-url_slug: "isra"
-letter: "И"
-category: "И"
+term: Исра
+url_slug: isra
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- imam
+- iman
+- indzhil
+- islam
+- khadzh
+- khafiz
+- khasad
+- khasan
+- kibr
+- mechet
+- musulmanin
+- ramadan
+- rukn
+- shajtan
+- sukhur
+- sunna
+- tafsir
+- taukhid
+- tora
+- zabur
+- zikr
+used_in:
+- 03-dostoinstva-sury-fatikha.md
+- 09-edinobozhie-v-bozhestvennosti.md
+- 11-perevod-korana.md
+- 22-2-hadis-vera-v-angelov-i-pisaniya.md
 ---
+
 
 <p>Исра (араб. <span class="arab">إِسْرَاءٌ</span>) происходит от глагола <span class="arab">أَسْرَى</span> (идти ночью, путешествовать ночью; переносить ночью (что <span class="arab">بـ</span> куда <span class="arab">إلى</span>)) и означает – путешествие ночью, ночной перенос.</p>
 <p> </p>

@@ -1,13 +1,23 @@
 ---
-term: "Фитна"
-url_slug: "fitna"
-letter: "Ф"
-category: "Ф"
+term: Фитна
+url_slug: fitna
+letter: Ф
+category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fitra
+- id
+- imam
+- islam
+- khadzh
+- kharam
+- safar
+- sira
+used_in:
+- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
 ---
+
 
 <p>Фитна (араб. <span class="arab">فِتْنَةٌ</span>) происходит от глагола <span class="arab">فَتَنَ</span> (испытывать, проводить опыт) и означает – испытание, опыт, экзамен.</p>
 <p>Слово фитна имеет много значений в Коране и сунне:</p>

@@ -1,13 +1,14 @@
 ---
-term: "Хуль', халь'."
-url_slug: "khul-khal"
-letter: "К"
-category: "Категория 137"
+term: Хуль', халь'.
+url_slug: khul-khal
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Хуль', халь' (араб. <span class="arab">خَلْعٌ و خُلْعٌ</span>) происходит от глагола <span class="arab">خَلَعَ</span> (удалять; смещать; снимать (обувь, одежду)) и означает – удаление, свержение, снятие.</p>
 

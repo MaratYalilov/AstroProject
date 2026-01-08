@@ -1,13 +1,14 @@
 ---
-term: "Салят аль-Хауф"
-url_slug: "salyat-al-khauf"
-letter: "Р"
-category: "Р"
+term: Салят аль-Хауф
+url_slug: salyat-al-khauf
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="userslayout/салят" target="_blank">Салят</a> аль-Хауф (<span class="arab">صَلَاةُ الْخَوْفِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">خَوْفٌ</span> (страх) и означает – молитва в состоянии опасности.</p>
 

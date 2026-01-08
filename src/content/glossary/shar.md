@@ -1,13 +1,14 @@
 ---
-term: "Шар'"
-url_slug: "shar"
-letter: "Ш"
-category: "Ш"
+term: Шар'
+url_slug: shar
+letter: Ш
+category: Ш
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Шар' (араб. <span class="arab">شَرْعٌ</span>) происходит от глагола <span class="arab">شَرَعَ</span> (устанавливать закон) и означает – закон.</p>
 

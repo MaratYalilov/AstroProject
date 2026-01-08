@@ -1,13 +1,14 @@
 ---
-term: "Зуль-Карнейн"
-url_slug: "zul-karnejn"
-letter: "З"
-category: "З"
+term: Зуль-Карнейн
+url_slug: zul-karnejn
+letter: З
+category: З
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p></p>
 <p>Зуль-Карнейн (араб. <span class="arab">ذُوالْقَرْنَيْنِ</span>) состоит из двух слов <span class="arab">ذُو</span> (обладатель) и <span class="arab">قَرْنَيْنِ</span> (два рога) и означает – Обладатель двух рог<a href="#_ftn1" name="_ftnref1" title="">[1]</a>.</p>

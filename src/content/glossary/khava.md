@@ -1,13 +1,26 @@
 ---
-term: "Хава"
-url_slug: "khava"
-letter: "К"
-category: "Категория 137"
+term: Хава
+url_slug: khava
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- iblis
+- islam
+- khafiz
+- khasan
+- nazr
+- nikakh
+- shajtan
+- takva
+used_in:
+- 85-al-bakara-korova-35-37-aiat.md
+- 86-al-bakara-korova-38-41-aiat.md
+- 89-41-hadis-strasti-i-istinnaya-vera.md
 ---
+
 
 <p>Хава (араб. <span class="arab">حَوَّاءُ</span>) происходит от глагола <span class="arab">حَىَّ</span> (жить, существовать), либо от первообразного <span class="arab">حَوَّاءُ</span> (темно-зеленый; темно-красный) и означает – имя собственное Ева.</p>
 

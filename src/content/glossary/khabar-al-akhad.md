@@ -1,13 +1,14 @@
 ---
-term: "Хабар аль-ахад"
-url_slug: "khabar-al-akhad"
-letter: "К"
-category: "Категория 137"
+term: Хабар аль-ахад
+url_slug: khabar-al-akhad
+letter: К
+category: Категория 137
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Хабар аль-ахад (араб. <span class="arab">خَبَرُ الْآحَادِ</span>) состоит из двух слов <span class="arab">خَبَرٌ</span> (сообщение, весть) и <span class="arab">آحَادٌ</span> мн.ч слова <span class="arab">أَحَدٌ</span><span class="arab"> </span> (один, единственный) и означает - сообщение, передаваемое одним человеком.</p>
 <p>В терминологии <b>хабар аль-ахад - это сообщение, не удовлетворяющее требованиям сообщений, относящихся к категории «<a href="index.php/component/easydiscuss/%D0%BC%D1%83%D1%82%D0%B0%D0%B2%D0%B0%D1%82%D0%B8%D1%80?Itemid=271" target="_blank">мутаватир</a>».</b></p>

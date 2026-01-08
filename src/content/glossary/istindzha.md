@@ -1,13 +1,45 @@
 ---
-term: "Истинджа"
-url_slug: "istindzha"
-letter: "И"
-category: "И"
+term: Истинджа
+url_slug: istindzha
+letter: И
+category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- fitra
+- gusl
+- islam
+- istidzhmar
+- istikhada
+- kharam
+- khasan
+- makrukh
+- mechet
+- munkar
+- mutavatir
+- rukn
+- sakhikh
+- shajtan
+- sunna
+- takhadzhud
+- tauba
+- vadzhib
+- vasvasa
+used_in:
+- 04-istindzha.md
+- 05-istindzha.md
+- 07-farzy-i-sunny-omoveniya.md
+- 22-istindzha.md
+- 23-spravlenie-nuzhdy-stoya.md
+- 24-vyvody-po-adabam-tualeta.md
+- 27-fitra.md
+- 29-myte-ruk-posle-sna.md
+- 33-protiranie-golovy.md
+- 61-vidy-nadzhisa.md
+- 95-istihada-i-omovenie.md
 ---
+
 
 <p>Истинджа (араб. <span class="arab">اِسْتِنْجَاءٌ</span>) происходит от глагола <span class="arab">اِسْتَنْجَى</span> (добиваться (искать) спасения, освобождения) и означает – спасение, освобождение, избавление.</p>
 

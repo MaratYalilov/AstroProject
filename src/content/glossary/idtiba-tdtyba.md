@@ -1,13 +1,14 @@
 ---
-term: "Идтиба', тыба'."
-url_slug: "idtiba-tdtyba"
-letter: "И"
-category: "И"
+term: Идтиба', тыба'.
+url_slug: idtiba-tdtyba
+letter: И
+category: И
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Идтиба' (араб. <span class="arab">اِضْطِبَاعٌ</span>) происходит от глагола <span class="arab">اِضْطَبَعَ</span> (обнажать плечо, высовывать руку из одежды) из корня <span class="arab">ضَبْعٌ</span> (рука (до кисти)) и означает – обнажение правого плеча.</p>
 

@@ -1,13 +1,14 @@
 ---
-term: "Туба"
-url_slug: "tuba"
-letter: "Т"
-category: "Т"
+term: Туба
+url_slug: tuba
+letter: Т
+category: Т
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p>Туба (араб. <span class="arab">طُوبَى</span>) происходит от глагола <span class="arab">طَابَ</span> (быть хорошим, приятным) и означает – наивысшее благо, блаженство.</p>
 

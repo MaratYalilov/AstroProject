@@ -10,6 +10,6 @@ video: >-
   /media/akida/akida-at-tahawiya/video/28-imam-bogoboyaznenih-gospodin-poslannikov.mp4
 videoRel: video/28-imam-bogoboyaznenih-gospodin-poslannikov.mp4
 ---
-# 28 Имам богобоязненных и Господин посланников
+# 28 <a href="/glossary/imam" class="glossary-link" target="_blank" rel="noopener noreferrer">Имам</a> богобоязненных и Господин посланников
 
 Конспекта урока не существует.

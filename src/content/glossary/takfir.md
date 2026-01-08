@@ -1,13 +1,25 @@
 ---
-term: "Такфир"
-url_slug: "takfir"
-letter: "Т"
-category: "Т"
+term: Такфир
+url_slug: takfir
+letter: Т
+category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- din
+- iblis
+- ikhlas
+- imam
+- khadzh
+- khasan
+- mechet
+- salyam
+- sunna
+- taukhid
+used_in:
+- 04-edinobozhie-i-ego-vidy.md
 ---
+
 
 <p>Такфир (араб. <span class="arab">تَكْفِيرٌ</span>) происходит от глагола первой породы <span class="arab">كَفَرَ</span> (скрывать, покрывать) и от глагола второй породы <span class="arab">كَفَّرَ</span> (скрывать; прощать грех, поклониться для почтения, положив руки на грудь) и означает – скрытие, прощение.</p>
 <p>{Quran}5:12{/Quran}</p>

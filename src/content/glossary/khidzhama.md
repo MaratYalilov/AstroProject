@@ -1,13 +1,36 @@
 ---
-term: "Хиджама"
-url_slug: "khidzhama"
-letter: "К"
-category: "Категория 137"
+term: Хиджама
+url_slug: khidzhama
+letter: К
+category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- fikkh
+- gusl
+- idzhtikhad
+- iftar
+- imam
+- kaffara
+- kunut
+- mazkhab
+- nazr
+- riba
+- sadaka
+- sukhur
+- sunna
+- taklid
+- vadzhib
+- zakyat
+used_in:
+- 4-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 5-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 54-voda-posle-omoveniya.md
+- 6-prichiny-raznoglasij-mezhdu-uchenymi.md
+- 7-prichiny-raznoglasij-mezhdu-uchenymi.md
 ---
+
 
 <p>Хиджама (араб. <span class="arab">حِجَامَةٌ</span>) происходит от глагола <span class="arab">حَجَمَ</span> (сосать, высасывать) и означает – высасывание. А также хиджама – это действие цирюльника, совершающего кровопускание, путем высасывания крови больного через трубку.</p>
 <p>Говорится: «Ребенок сосал грудь своей матери».</p>

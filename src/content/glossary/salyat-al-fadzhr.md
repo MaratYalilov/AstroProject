@@ -1,13 +1,14 @@
 ---
-term: "Салят аль-фаджр"
-url_slug: "salyat-al-fadzhr"
-letter: "Р"
-category: "Р"
+term: Салят аль-фаджр
+url_slug: salyat-al-fadzhr
+letter: Р
+category: Р
 tags: []
 aliases: []
 related: []
 used_in: []
 ---
+
 
 <p><a href="userslayout/салят" target="_blank">Салят</a> аль-<a href="userslayout/фаджр" target="_blank">фаджр</a> (араб. <span class="arab">صَلاةُ الْفَجْرِ</span>) состоит из двух слов <span class="arab">صَلاةٌ</span> (молитва, намаз) и <span class="arab">فَجْرٌ</span> (заря, рассвет) и означает – утренняя молитва.</p>
 

@@ -1,13 +1,28 @@
 ---
-term: "Мухкам"
-url_slug: "mukhkam"
-letter: "М"
-category: "М"
+term: Мухкам
+url_slug: mukhkam
+letter: М
+category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhikhad
+- ikhlas
+- kaaba
+- khalyal
+- kharam
+- muskhaf
+- mutashabikh
+- mutavatir
+- tafsir
+- umma
+- zina
+used_in:
+- 07-prichiny-nisposlaniia-aiatov.md
+- 3-2-yasno-izlozhennye-i-inoskazatelnye-ayaty.md
+- 53-yasno-izlozhennye-i-inoskazatelnye-ayaty.md
 ---
+
 
 <p>Мухкам (араб. <span class="arab">مُحْكَمٌ</span>) происходит от глагола <span class="arab">أَحْكَمَ</span> (укреплять, делать крепко, прочно, точно, хорошо;  владеть в совершенстве) и означает – совершенный, точный, ясный.</p>
 <p> </p>

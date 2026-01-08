@@ -1,13 +1,47 @@
 ---
-term: "Насх"
-url_slug: "naskh"
-letter: "Н"
-category: "Н"
+term: Насх
+url_slug: naskh
+letter: Н
+category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- ashura
+- dzhanaza
+- fard
+- fikkh
+- gusl
+- idda
+- idzhtikhad
+- islam
+- kaaba
+- kausar
+- kharam
+- khasan
+- mazkhab
+- mechet
+- mukharram
+- muskhaf
+- mutavatir
+- nikakh
+- sadaka
+- sakhikh
+- salyam
+- shirk
+- sunna
+- tafsir
+- zikr
+- zina
+used_in:
+- 01-nauki-sviazannye-s-koranom.md
+- 09-naskh-annulirovanie.md
+- 116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2.md
+- 12-tolkovanie-korana.md
+- 35-rot-i-nos-otdelno.md
+- 50-obschenie-s-oskvernennym.md
 ---
+
 
 <p>Насх (араб. <span class="arab">نَسْخٌ</span>) происходит от глагола <span class="arab">نَسَخَ</span> (переписывать, копировать; упразднять, аннулировать, отменять; уничтожать) и означает - переписка; отмена.</p>
 <p>В терминологии шариата <b>насх – это отмена (раннего) шариатского положения (<a href="slovar/hukm" target="_blank">хукм</a>) посредством позднего шариатского указания (<a href="slovar/dalil" target="_blank">далиль</a>).</b></p>
