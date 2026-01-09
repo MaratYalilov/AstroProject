@@ -546,10 +546,11 @@ footer {
 /* .glossary-link:hover {
   text-decoration-style: solid;
 } */
-.glossary-link:focus {
+/* .glossary-link:focus {
   outline: 2px solid var(--accent-color);
   outline-offset: 2px;
 }
+*/
 
 .glossary-link {
   color: inherit;
@@ -562,4 +563,34 @@ footer {
 }
 .glossary-link:hover {
   background-image: radial-gradient(#27ae60 1px, transparent 1px);
+} 
+
+@media (max-width: 768px) {
+  .glossary-link {
+    /* отключаем desktop-подчёркивание */
+    background-image: none;
+
+    color: #2ecc71;
+    text-decoration: none;
+    border-bottom: 2px dashed #2ecc71;
+
+    line-height: 1.4;
+    display: inline;
+    padding: 0.1em 0.15em;
+    margin: -0.1em -0.15em;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .glossary-link:active {
+    background: rgba(46, 204, 113, 0.15);
+  }
+
+  .glossary-link::after {
+    content: " ↗";
+    font-size: 0.8em;
+    opacity: 0.6;
+  }
 }
+
