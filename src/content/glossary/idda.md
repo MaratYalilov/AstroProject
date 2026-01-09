@@ -48,7 +48,7 @@ used_in:
 - 89-predohranenie-ot-beremennosti.md
 - 90-cveta-krovi-v-mazhabah.md
 - 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
-description: 'идда – это наименование срока<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
+description: идда – это наименование срока<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
 <p>'Идда (араб. <span class="arab">عِدَّةٌ</span>) происходит от глагола <span class="arab">عَدَّ</span> (считать) и означает – некоторое число, несколько.</p>
 <p>В терминологии шариата <b>'идда – это наименование срока<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a> определенного законодателем, который женщина обязана выжидать по причине расставания<a href="#_ftn2" name="_ftnref2" title=""><b>[2]</b></a> с мужем, подчиняясь Аллаху, скорбя по мужу или для того, что бы убедиться в отсутствии беременности.</b></p>

@@ -594,3 +594,16 @@ footer {
   }
 }
 
+.glossary-popover {
+  background: var(--color-bg, #fff);
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,.12);
+}
+.dark .glossary-popover {
+  background: var(--color-bg, #2d2d2d);
+  border: 1px solid rgba(255,255,255,.1);
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+}
