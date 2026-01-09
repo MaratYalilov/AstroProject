@@ -16,9 +16,8 @@ related:
 - sira
 used_in:
 - 03-urok-sira-slonovyi-pohod-religiya-mekki.md
+description: 
 ---
-
-
 <p>Фитна (араб. <span class="arab">فِتْنَةٌ</span>) происходит от глагола <span class="arab">فَتَنَ</span> (испытывать, проводить опыт) и означает – испытание, опыт, экзамен.</p>
 <p>Слово фитна имеет много значений в Коране и сунне:</p>
 <p>1-<span class="arab">      </span><span class="arab">Испытание и экзамен (الابتلاء والاختبار</span>).</p>

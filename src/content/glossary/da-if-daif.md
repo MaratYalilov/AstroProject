@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: да'иф – это <a href="slovar/hadis" target="_blank">хадис</a> который не удовлетворяет хотя бы одному необходимо­му условию <a href="slovar/sakhikh" target="_blank">сахих</a> и <a href="slovar/khasan" target="_blank">хасан</a> хадисов.
 ---
-
-
 <p>Да'иф (араб. <span class="arab">ضَعِيفٌ</span>) происходит от глагола <span class="arab">ضَعُفَ</span> (быть слабым, слабеть, быть не в состоянии (делать что <span class="arab">عن</span>)) и означает - слабый, бессильный; недостаточный; больной.</p>
 
 <p>В терминологии шариата <b>да'иф – это <a href="slovar/hadis" target="_blank">хадис</a> который не удовлетворяет хотя бы одному необходимо­му условию <a href="slovar/sakhikh" target="_blank">сахих</a> и <a href="slovar/khasan" target="_blank">хасан</a> хадисов.</b></p>

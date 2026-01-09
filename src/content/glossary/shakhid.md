@@ -24,9 +24,8 @@ used_in:
 - 2-sobiranie-hadisov-i-1-hadis-ihlas.md
 - 52-at-takvir-skruchivanie-2.md
 - 68-vse-vidy-nadzhisa.md
+description: 
 ---
-
-
 <p>Шахид (араб. <span class="arab">شَهِيدٌ</span>) происходит от глагола <span class="arab">شَهِدَ</span> (быть, присутствовать (при чем-л.); быть свидетелем (чего-либо)) и означает – очевидец, присутствующий, свидетельствующий или свидетельствуемый, Свидетель (<span class="arab">اَلشَّهِيدُ</span>) – имя Аллаха).</p>
 <p>{Quran}50:37{/Quran}</p>
 <p><span class="arab"> </span></p>

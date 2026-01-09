@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: та'зир – это законное, но не предписанное наказание за грехи помимо тех, для которых предусмотрено постановление о наказании (<a href="component/easydiscuss/khadd-khudud?Itemid=933" target="_blank">хадд</a>), возмездие (<a href="component/easydiscuss/kysas-kisas?Itemid=933" target="_blank">кысас</a>) или искупление (<a href="component/easydiscuss/kaffara?Itemid=933" target="_blank">каффара</a>).
 ---
-
-
 <p>Та'зир (араб. <span class="arab">تَعْزِيرٌ</span>) происходит от глагола <span class="arab">عَزَّرَ</span> (порицать, осуждать; делать выговор; поощрять, почитать, возвеличивать) и означает два противоположных смысла – порицание, наказание и поощрение, почитание.</p>
 
 <p>{Quran}48:9{/Quran}</p>

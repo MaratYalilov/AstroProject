@@ -29,9 +29,8 @@ used_in:
 - 75-malye-priznaki-sudnogo-dnya.md
 - 84-mahdi.md
 - 86-sroki-haida.md
+description: аль-Махди – это праведный человек из потомков пророка Мухаммада<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Махди (араб. <span class="arab">مَهْدِيٌّ</span>) происходит от глагола <span class="arab">هَدَى</span> (вести; вести по правильному пути, указывать путь (к чему <span class="arab">إلى</span>); направлять, выводить на правильный путь; руководить) и означает – направленный на верный путь, ведомый истинным путем.</p>
 <p><b><span class="arab"> </span></b></p>
 <p>{Quran}6:87{/Quran}</p>

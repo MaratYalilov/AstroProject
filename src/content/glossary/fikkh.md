@@ -58,9 +58,8 @@ used_in:
 - 7-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 8-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 97-vozmeshchenie-namaza-posle-ochishcheniia.md
+description: фикх – это постижение практических постановлений (шариата) на основе подробных доказательств.
 ---
-
-
 <p>Фикх (араб. <span class="arab">فِقْهٌ</span>) происходит от глагола <span class="arab">فَقِهَ</span> (понимать) и означает – понимание.</p>
 <p>{Quran}17:44{/Quran}</p>
 <p>Некоторые ученые считают, что фикх означает – глубокое понимание.</p>

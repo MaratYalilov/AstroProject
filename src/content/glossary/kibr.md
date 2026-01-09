@@ -21,9 +21,8 @@ used_in:
 - 22-2-hadis-vera-v-angelov-i-pisaniya.md
 - 4-1-hadis-plody-ihlasa.md
 - 82-35-hadis-zavist-bolezn-serdca.md
+description: 
 ---
-
-
 <p>Кибр (араб. <span class="arab">كِبْرٌ</span>) происходит от глагола <span class="arab">كَبُرَ</span> (быть большим, огромным; быть великим; быть важным) и означает - гордость, высокомерие, величие; огромность, большая величина, большая часть.</p>
 <p>{Quran}24:11{/Quran}</p>
 <p><span class="arab"> </span></p>

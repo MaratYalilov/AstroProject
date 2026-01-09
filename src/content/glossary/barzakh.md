@@ -16,9 +16,8 @@ used_in:
 - 89-vera-v-smertnyy-mig.md
 - 90-mucheniya-i-naslazhdeniya-v-mogile.md
 - 91-dovody-otricayuschih-mucheniya-v-mogile.md
+description: барзах – это промежуток времени, между жизнью человека в мирском мире и его воскрешением в мире последнем<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Барзах (араб. <span class="arab">بَرْزَخٌ</span>) первообразное имя в значении – преграда, перешеек.</p>
 <p>{Quran}25:53{/Quran}</p>
 <p> </p>

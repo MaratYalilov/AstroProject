@@ -34,9 +34,8 @@ used_in:
 - 01-vidy-vody.md
 - 02-polozhenie-ostatkov-vody.md
 - 51-gusl-v-pyatnicu.md
+description: хукм – это обращение законодателя, имеющее отношение к действиям<a title="" href="#_ftn1"><b>[1]
 ---
-
-
 <p>Хукм мн.ч. ахкам (араб. <span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab">أَحْكَامٌ</span>мн.ч. <span class="arab">حُكْمٌ</span>) происходит от глагола <span class="arab">حَكَمَ</span> (судить; выносить решение; сдерживать, удерживать) и означает – власть; суд, суждение, решение; запрещение.</p>
 
 <p>В терминологии шариата <b>хукм – это обращение законодателя, имеющее отношение к действиям<a title="" href="#_ftn1"><b>[1]</b></a> <a href="/userslayout/%D0%BC%D1%83%D0%BA%D0%B0%D0%BB%D0%BB%D1%8F%D1%84" target="_blank">мукалляфа</a><a title="" href="#_ftn2"><b>[2]</b></a>, с требованием<a title="" href="#_ftn3"><b>[3]</b></a>, представлением выбора<a title="" href="#_ftn4"><b>[4]</b></a> или установлением<a title="" href="#_ftn5"><b>[5]</b></a>.</b></p>

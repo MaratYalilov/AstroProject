@@ -16,9 +16,8 @@ related:
 - zikr
 used_in:
 - 42-5-hadis-klassifikaciya-novovvedenij.md
+description: усуль <a href="slovar/fikh" target="_blank">аль-фикх</a> – это наука о правилах, посредством которых (ученые) выводят шариатские законы (<a href="slovar/hukm" target="_blank">ахкам</a>) на основе доказательств Корана и сунны.
 ---
-
-
 <p>Усуль аль-фикх (араб. <span class="arab">أُصُولُ الْفِقْهِ</span>) состоит из двух слов <span class="arab">أُصُولٌ</span> (мн.ч. слова <span class="arab">أَصْلٌ</span> – основа, корень) и слова <span class="arab">فِقْهٌ</span> (понимание) и означает – основы понимания.</p>
 
 <p>{Quran}14:24{/Quran}</p>

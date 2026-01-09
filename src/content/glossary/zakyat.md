@@ -104,9 +104,8 @@ used_in:
 - 7-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 87-al-bakara-korova-42-44-aiat.md
 - 9-1-hadis-otnoshenie-k-dunya.md
+description: закят – это поклонение Всевышнему Аллаху посредством выплаты обязательной доли, установленной шариатом из определенного имущества в пользу определенных лиц.
 ---
-
-
 <p>Закят (араб. <span class="arab">زَكَاةٌ</span>) происходит от глагола <span class="arab">زَكَا</span> (расти, увеличиваться; быть чистым) и означает – увеличение, чистота.</p>
 <p>{Quran}91:9{/Quran}</p>
 <p>{Quran}18:74{/Quran}</p>

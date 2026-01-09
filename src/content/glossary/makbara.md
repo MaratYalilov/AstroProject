@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: 
 ---
-
-
 <p>Макбара (араб. <span class="arab">مَقْبَرَةٌ</span>) происходит от глагола <span class="arab">قَبَرَ</span> (хоронить, погребать) и означает – кладбище, место захоронения.</p>
 
 <p>{Quran}102:1-2{/Quran}</p>

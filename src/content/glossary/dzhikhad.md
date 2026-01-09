@@ -40,9 +40,8 @@ used_in:
 - 5-5-3-2-prikhod-isy-mir-emu.md
 - 78-29-hadis-golova-vershina-i-strazh-religii.md
 - 85-isa.md
+description: джихад – это приложение усилий для возвышения слова<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Джихад (араб. <span class="arab">جِهَادٌ</span>) происходит от глагола первой породы <span class="arab">جَهَدَ</span> и глагола третьей породы <span class="arab">جَاهَدَ</span> (стараться, трудиться; напрягаться; прилагать усилия, бороться с трудностями) и означает – старание, усилие, борьба.</p>
 <p>{Quran}29:8{/Quran}</p>
 

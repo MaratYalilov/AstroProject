@@ -24,9 +24,8 @@ used_in:
 - 01-vidy-vody.md
 - 02-dostoinstva-omoveniya.md
 - 03-smyvanie-grehov.md
+description: вуду – это очищение определенных органов<a href="#_ftn1" name="_ftnref1" title=""><b>[*]
 ---
-
-
 <p>Вуду (араб. <span class="arab">وُضُوءٌ</span>) происходит от глагола первой пароды <span class="arab">وَضُؤَ</span><b><span class="arab"> </span></b> (быть чистым) и означает – чистота, омовение, тахарат; блеск, красота.</p>
 
 <p>В терминологии шариата <b>вуду – это очищение определенных органов<a href="#_ftn1" name="_ftnref1" title=""><b>[*]</b></a>, посредством чистой и очищающей воды, определенным (в шариате) образом с намерением (приблизиться к Аллаху).</b><span class="arab"></span></p>

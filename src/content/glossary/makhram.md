@@ -8,9 +8,8 @@ aliases: []
 related: []
 used_in:
 - 12-deistviya-ne-narushayuschie-omovenie.md
+description: махарам – это тот, кому навсегда запрещается жениться на женщине по причине кровного, молочного либо брачного родства.
 ---
-
-
 <p>Махрам (араб. <span class="arab">مَحْرَمٌ</span>) происходит от глагола<span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span>  <span class="arab">حَرُمَ</span><span class="arab"> </span>(быть запретным, заповедным, священным) и означает – запретный.<span class="arab"></span></p>
 <p><span class="arab"> </span></p>
 <p>В терминологии шариата <b>махарам – это тот, кому навсегда запрещается жениться на женщине по причине кровного, молочного либо брачного родства.</b></p>

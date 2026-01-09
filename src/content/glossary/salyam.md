@@ -86,9 +86,8 @@ used_in:
 - 40-kolichestvo-vody-dlya-omoveniya-i-guslya.md
 - 44-raspuskanie-volos-pri-gusle.md
 - 71-usloviya-protiraniya-noskov.md
+description: 
 ---
-
-
 <p>Салям (араб. <span class="arab">سَلامٌ</span>) происходит от глагола <span class="arab">سَلِمَ</span> (быть благополучным; оставаться целым, невредимым; сохраняться; спасаться; избавляться (от чего <span class="arab">من</span>)) и означает - мир, безопасность, благополучие; привет, приветствие.</p>
 <p> </p>
 <p>В терминологии шариата это слово имеет несколько значений:</p>

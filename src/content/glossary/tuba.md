@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: 
 ---
-
-
 <p>Туба (араб. <span class="arab">طُوبَى</span>) происходит от глагола <span class="arab">طَابَ</span> (быть хорошим, приятным) и означает – наивысшее благо, блаженство.</p>
 
 <p>{Quran}13:29{/Quran}</p>

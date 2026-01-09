@@ -37,9 +37,8 @@ used_in:
 - 15-urok-sira-prodolzhenie-ispytanii.md
 - 35-al-fadzhr-zaria-chast-2.md
 - 84-al-bakara-korova-34-aiat.md
+description: аль-хиджр<a title="" href="#ftn1"><b>[1]
 ---
-
-
 <p>Хиджр (араб. <span class="arab">حِجْرٌ</span>) происходит от глагола <span class="arab">حَجَرَ</span> (препятствовать, запрещать; задерживать) и означает – запретное, преграда.</p>
 
 <p>{Quran}25:53{/Quran}</p>

@@ -21,9 +21,8 @@ used_in:
 - 07-prichiny-nisposlaniia-aiatov.md
 - 3-2-yasno-izlozhennye-i-inoskazatelnye-ayaty.md
 - 53-yasno-izlozhennye-i-inoskazatelnye-ayaty.md
+description: мухкам – это (аяты) имеющие только один смысл и не требующие трактовки.
 ---
-
-
 <p>Мухкам (араб. <span class="arab">مُحْكَمٌ</span>) происходит от глагола <span class="arab">أَحْكَمَ</span> (укреплять, делать крепко, прочно, точно, хорошо;  владеть в совершенстве) и означает – совершенный, точный, ясный.</p>
 <p> </p>
 <p>{Quran}11:1{/Quran}</p>

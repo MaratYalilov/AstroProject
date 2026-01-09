@@ -52,9 +52,8 @@ used_in:
 - 77-al-bakara-korova-21-22-aiat.md
 - 83-35-hadis-musulmanin-brat-musulmanina.md
 - 86-al-bakara-korova-38-41-aiat.md
+description: 
 ---
-
-
 <p>Таква (араб. <span class="arab">تَقْوَى</span>) происходит от глагола <span class="arab">وَقَى</span> (предохранять, прикрывать, беречь, защищать) и означает – защита от вреда.</p>
 <p>{Quran}16:81{/Quran}</p>
 <p><span class="arab"> </span></p>

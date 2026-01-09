@@ -11,9 +11,8 @@ related:
 - ramadan
 used_in:
 - 98-obyazatelnost-soversheniya-namaza.md
+description: аль
 ---
-
-
 <p>Ми'радж (араб. <span class="arab">مِعْرَاجٌ</span>) происходит от глагола <span class="arab">عَرَجَ</span> (восходить, подниматься) и означает – лестница, восхождение.</p>
 <p>{Quran}70:4{/Quran}</p>
 <p><span class="arab"> </span></p>

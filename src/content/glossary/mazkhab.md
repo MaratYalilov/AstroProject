@@ -111,9 +111,8 @@ used_in:
 - 90-cveta-krovi-v-mazhabah.md
 - 91-priznaki-zaversheniya-mesyachnyh.md
 - 94-istihada.md
+description: мазхаб – это специализированная (методика) ученого, имеющего право на <a href="userslayout/%D0%B8%D0%B4%D0%B6%D1%82%D0%B8%D1%85%D0%B0%D0%B4" target="_blank">иджтихад</a>, выводящего шариатские постановления по правовым вопросам, допускающим мнение, на основе гипотетических доказательств.
 ---
-
-
 <p>Мазхаб, мн.ч. мазахиб (араб. <span class="arab">مَذْهَبٌ</span> мн.ч. <span class="arab">مَذَاهِبُ</span>) происходит от глагола <span class="arab">ذَهَبَ</span> (идти<span class="arab">, </span>направляться<span class="arab">; </span>уходить <span class="arab">(</span>куда<span class="arab"> </span><span class="arab">إلى</span><span class="arab"></span> )) и означает – путь, течение.<span class="arab"></span></p>
 <p>{Quran}75:33{/Quran}</p>
 

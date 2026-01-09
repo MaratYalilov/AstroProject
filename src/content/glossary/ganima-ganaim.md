@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: ганима<a href="file:///D:/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C%20%D1%85%D1%83%D1%82%D0%B1%D0%B0/%D0%93%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0.doc#_ftn1" title=""><b>[1]
 ---
-
-
 <p>Ганима, мн.ч. ганаим (араб. <span class="arab">غَنِيمَةٌ,</span><span class="arab">غَنَائِمُ</span>) происходит от глагола <span class="arab">غَنِمَ</span> (добывать; захватывать в качестве добычи, трофея) и означает - добыча, нажива; трофей.</p>
 
 <p>В терминологии шариата <b>ганима<a href="file:///D:/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C%20%D1%85%D1%83%D1%82%D0%B1%D0%B0/%D0%93%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0.doc#_ftn1" title=""><b><span class="arab">[1]</span></b></a> - это имущество<a href="file:///D:/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C%20%D1%85%D1%83%D1%82%D0%B1%D0%B0/%D0%93%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0.doc#_ftn2" title=""><b><span class="arab">[2]</span></b></a>, которое захватили исламские войска у побежденного неверного противника, сражаясь для того, что бы возвысилось единобожие.</b></p>

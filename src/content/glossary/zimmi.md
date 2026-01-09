@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: зимми́
 ---
-
-
 <p>Зимми́ (араб. <span class="arab">ذِمِّيٌّ</span><b><span class="arab"> </span></b> ) от первообразного имени <span class="arab">ذِمَّةٌ</span> (договор, договор о защите, безопасность) собирательное <span class="arab">أّهْلُ الذِّمَّةِ</span> (люди договора) и означает – неверующий, находящийся под защитой мусульман.</p>
 <p>{Quran}9:10{/Quran}</p>
 <p><span class="arab"> </span></p>

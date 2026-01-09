@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: истиска – это мольба к Аллаху о ниспослании дождя во время засухи и отсутствия дождей.
 ---
-
-
 <p>Истиска (араб. <span class="arab">اِسْتِسْقَاءٌ</span>) происходит от глагола <span class="arab">اِسْتَسْقَى</span> (просить напоить водой, молить о ниспослании дождя) - обращение к Аллаху или к людям с просьбой напоить водой.</p>
 <p>В терминологии шариата <b>истиска – это мольба к Аллаху о ниспослании дождя во время засухи и отсутствия дождей.</b></p>
 <p><span class="arab">الاستسقاء في الاصطلاح: " هُوَ طَلَبُ سُقْيَا</span><b><span class="arab"></span> <a href="http://www.ksa-flh.com/vb/t18075.html"><span class="arab">الْمَاءِ</span> </a></b><span class="arab">مِنَ اللهِ</span><b><span class="arab"></span> <a href="http://www.ksa-flh.com/vb/t18075.html"><span class="arab">عِنْدَ</span> </a></b><span class="arab">حُصُولِ الْجَدْبِ وَانْقِطَاعِ الْمَطَرِ"</span><b><span class="arab"></span>.</b><b></b></p>

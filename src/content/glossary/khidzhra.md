@@ -39,9 +39,8 @@ used_in:
 - 10-urok-sira-pervye-musulmane.md
 - 7-1-hadis-hidzhra.md
 - 8-1-hadis-hidzhra-polzy.md
+description: 
 ---
-
-
 <p>Хиджра (араб. <span class="arab">هِجْرَةٌ</span>) происходит от глагола <span class="arab">هَجَرَ</span> (прекращать, бросать (занятия); оставлять, расставаться; прекращать общение) и означает – бросание, оставление, покидание.</p>
 <p>{Quran}25:30{/Quran}</p>
 <p><span class="arab"> </span></p>

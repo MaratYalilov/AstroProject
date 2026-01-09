@@ -7,8 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: хадис - это
 ---
-
 <p>Хадис (араб. <span class="arab">حَدِيثٌ</span>) происходит от глагола первой породы <span class="arab">حَدُثَ</span> (быть новым, недавним) и от глагола второй породы <span class="arab">حَدَّثَ</span> (рассказывать, передавать) и означает – новый; рассказ.</p>
 <p>{Quran}79:15{/Quran}</p>
 <p><span class="arab"> </span></p>

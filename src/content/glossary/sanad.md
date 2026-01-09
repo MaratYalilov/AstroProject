@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: санад<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Санад (араб. <span class="arab">سَنَدٌ</span>) происходит от глагола <span class="arab">سَنَدَ</span> (опираться, полагаться (на кого-то, что-то <span class="arab">إلى</span>); поддерживать, подпирать (что <span class="arab">بـ</span>)) и означает – опора.</p>
 
 <p>В терминологии шариата <b>санад<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a> – это цепь передатчиков, посредством которой передалось сообщение.</b></p>

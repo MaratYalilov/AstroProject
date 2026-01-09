@@ -30,9 +30,8 @@ used_in:
 - 13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.md
 - 33-protiranie-golovy.md
 - 34-soobschi-mne-ob-omovenii.md
+description: рукн – это то, без чего невозможно существование вещи.
 ---
-
-
 <p>Рукн мн.ч. аркан (араб. <span class="arab">رُكْنٌ</span> мн.ч. <span class="arab">أَرْكَانٌ</span>) происходит от глагола <span class="arab">رَكَنَ</span> (опираться;  полагаться (на кого), доверять (кому <span class="arab">إلى</span>);  склоняться (к чему <span class="arab">إلى</span>)) и означает - колонна; столб, опора;  угол;  главная составная часть; основа.</p>
 <p>{Quran}17:74{/Quran}</p>
 <p> </p>

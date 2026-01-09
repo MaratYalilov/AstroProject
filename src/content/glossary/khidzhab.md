@@ -14,9 +14,8 @@ related:
 - sunna
 used_in:
 - 67-20-hadis-stydlivost-vetv-very.md
+description: хиджаб – это покрывало женщины, которое закрывает все ее тело<a href="#_ftn1" name="_ftnref1" title=""><b>[*]
 ---
-
-
 <p>Хиджаб (араб. <span class="arab">حِجَابٌ</span>) происходит от глагола <span class="arab">حَجَبَ</span> (закрывать, скрывать покрывалом; не допускать (куда-либо)) и означает – покрывало, занавес, преграда.</p>
 <p>{Quran}7:46{/Quran}</p>
 <p><span class="arab"> </span></p>

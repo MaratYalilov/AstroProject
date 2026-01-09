@@ -22,9 +22,8 @@ used_in:
 - 22-2-hadis-vera-v-angelov-i-pisaniya.md
 - 3-1-vera-v-pisaniya.md
 - 52-vera-v-pisaniya.md
+description: Забур<a href="#_ftn3" name="_ftnref3" title=""><b>[3]
 ---
-
-
 <p>
 <p class="MsoNormal">Забур (араб. <span class="arab">زَبُورٌ</span>) происходит от глагола <span class="arab">زَبَرَ</span> (писать, переписывать) и означает – писание, книга.</p>
 <p><o:p> </o:p></p>

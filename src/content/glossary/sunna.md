@@ -184,9 +184,8 @@ used_in:
 - 90-mucheniya-i-naslazhdeniya-v-mogile.md
 - 91-dovody-otricayuschih-mucheniya-v-mogile.md
 - 94-vesy.md
+description: 
 ---
-
-
 <p>Сунна (араб. <span class="arab">سُنَّةٌ</span> мн.ч. <span class="arab">سُنَنٌ</span>) происходит от глагола<span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab">سَنَّ</span>(устанавливать закон, правила, обычаи, оставлять пример) и означает путь, обычай, как похвальный так и дурной.<span class="arab"></span></p>
 <p></p>
 <p>{Quran}17:77{/Quran}</p>

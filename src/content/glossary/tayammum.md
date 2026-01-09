@@ -58,9 +58,8 @@ used_in:
 - 79-okonchanie-tayammum-haid.md
 - 82-nahozhdenie-v-mecheti-vo-vremya-haida.md
 - 9-prichiny-raznoglasij-mezhdu-uchenymi.md
+description: таяммум - это использование чистого грунта, для того чтобы обтереть лицо и руки, определенным (в шариате) образом с намерением сделать дозволенным совершение молитвы и других действий, в которых обуславливается омовение».
 ---
-
-
 <p>Таяммум (араб. <span class="arab">تَيَمُّمٌ</span>) происходит от глагола <span class="arab">تَيَمَّمَ</span> (намереваться; направляться, обращаться, идти (куда <span class="arab"></span><span class="arab"></span><b><span class="arab"></span><span class="arab"></span> </b><span class="arab">إلى</span>)) и означает – намерении, стремление, цель.</p>
 <p>{Quran}2:267{/Quran}</p>
 <p><span class="arab"> </span></p>

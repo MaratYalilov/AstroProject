@@ -13,9 +13,8 @@ related:
 - sunna
 used_in:
 - 125-azan-urok-3.md
+description: 
 ---
-
-
 <p>Михраб (араб. <span class="arab">مِحْرَابٌ</span>) происходит от отглагольного имени <span class="arab">حَرْبٌ</span> (война; лучшее, достойное место) и означает – дворец; крепость; место, комната для уединения и поклонения.</p>
 <p><b><span class="arab"> </span></b></p>
 <p>{Quran}34:13{/Quran}</p>

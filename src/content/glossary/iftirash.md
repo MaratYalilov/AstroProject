@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: 
 ---
-
-
 <p>Ифтираш (араб. <span class="arab">اِفْتِرَاشٌ</span>) происходит от глагола <span class="arab">اِفْتَرَشَ</span> (расстилать) и означает – расстилание.</p>
 
 <p><span class="arab"></span></p>

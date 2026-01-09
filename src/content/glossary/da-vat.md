@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: да'ват – это донесение до всех людей (знаний) об <a href="users/vopros/islam.html" target="_blank">Исламе</a>, посредством разрешенных шариатом методов и средств, побуждение их принять его и придерживаться его (установлений), обучая людей и воспитывая их на его ценностях.
 ---
-
-
 <p>Да'ват (араб. <span class="arab">دَعْوَةٌ</span>) происходит от глагола <span class="arab">دَعَا</span> (звать, призывать (к чему <span class="arab">ل</span>); взывать; приглашать (на что <span class="arab">إلى</span>)) и означает – призыв, мольба.<span class="arab"></span></p>
 <p><span class="arab"> </span></p>
 <p>{Quran}2:23{/Quran}</p>

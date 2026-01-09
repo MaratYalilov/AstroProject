@@ -82,9 +82,8 @@ used_in:
 - 59-15-hadis-vera-yazyk-i-prava-soseda.md
 - 75-25-hadis-shirota-milosti-allaha.md
 - 81-chtenie-korana-vo-vremya-haida.md
+description: 
 ---
-
-
 <p>Зикр (араб. <span class="arab">ذِكْرٌ</span>) происходит от глагола <span class="arab">ذَكَرَ</span> (упоминать, называть, приводить, рассказывать; помнить, вспоминать) и означает – упоминание; память; воспоминание.</p>
 <p>{Quran}19:16{/Quran}</p>
 <p>{Quran}18:63{/Quran}</p>

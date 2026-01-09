@@ -42,9 +42,8 @@ used_in:
 - 91-priznaki-zaversheniya-mesyachnyh.md
 - 92-nifas.md
 - 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
+description: нифас – это выделение крови из матки (женщины) по причине родов до определенного срока, после родов<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Нифас (араб. <span class="arab">نِفَاسٌ</span>) происходит от глагола <span class="arab">نَفِسَتْ</span>  (рожать) и означает – роды; послеродовая кровь.</p>
 
 <p>В терминологии шариата <b>нифас – это выделение крови из матки (женщины) по причине родов до определенного срока, после родов<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a>, во время родов<a href="#_ftn2" name="_ftnref2" title=""><b>[2]</b></a> и перед родами<a href="#_ftn3" name="_ftnref3" title=""><b>[3]</b></a> за два, три дня с признаком, как родовые схватки. </b></p>

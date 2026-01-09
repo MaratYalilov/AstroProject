@@ -39,9 +39,8 @@ used_in:
 - 65-al-bakara-vvedenie.md
 - 7-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 83-35-hadis-musulmanin-brat-musulmanina.md
+description: риба – это рост в определенных (шариатом) вещах, равно как по причине увеличения (долга), так и по причине отсрочки (выплаты).
 ---
-
-
 <p>Риба (араб. <span class="arab">رِبًا</span>) происходит от глагола <span class="arab">رَبَا</span> (расти,<span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span> возрастать,<span class="arab"></span><span class="arab"></span><span class="arab"></span><span class="arab"></span> увеличиваться; превышать (что <span class="arab">على</span>)) и означает – рост, увеличение. <span class="arab"></span></p>
 <p><span class="arab"> </span></p>
 <p>{Quran}22:5{/Quran}</p>

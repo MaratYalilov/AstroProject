@@ -31,9 +31,8 @@ used_in:
 - 10-bozhestvennoe-proishozhdenie-imen-allaha.md
 - 70-protiranie-dyryavyh-noskov.md
 - 86-sroki-haida.md
+description: сафар – это выход (из селения) с целью преодолеть расстояние определенное шариатом<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Сафар (араб. <span class="arab">سَفَرٌ</span>) происходит от глагола <span class="arab">سَفَرَ</span> (раскрывать, выявлять; писать; отправлять; отправляться в путь) и означает – путешествие. Говорят, что сафар назван так от того, что трудности путешествия показывают нрав людей.</p>
 <p>{Quran}80:38{/Quran}</p>
 <p>{Quran}74:34{/Quran}</p>

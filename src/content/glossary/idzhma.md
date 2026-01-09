@@ -24,9 +24,8 @@ used_in:
 - 06-nahozhdenie-s-omoveniem.md
 - 1-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 3-prichiny-raznoglasij-mezhdu-uchenymi.md
+description: иджма' – это единогласное мнение всех муджтахидов одного века из общины Мухаммада, да благословит его Аллах и приветствует, в шариатском постановлении, допускающем <a href="userslayout/%D0%B8%D0%B4%D0%B6%D1%82%D0%B8%D1%85%D0%B0%D0%B4" target="_blank">иджтихад </a>после смерти Посланника, да благословит его Аллах и приветствует.
 ---
-
-
 <p>Иджма' (араб. <span class="arab">إِجْمَاعٌ</span>) происходит от глагола <span class="arab">أَجْمَعَ</span> (решаться; соглашаться (с чем), сходиться (на чем)) и означает – твердое решение; единогласие.</p>
 <p><span class="arab"> </span></p>
 <p>{Quran}10:71{/Quran}</p>

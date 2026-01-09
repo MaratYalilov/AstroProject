@@ -56,9 +56,8 @@ used_in:
 - 95-istihada-i-omovenie.md
 - 96-istihada-i-gusl.md
 - 97-vozmeshchenie-namaza-posle-ochishcheniia.md
+description: истихада – это несвоевременное<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Истихада (араб. <span class="arab">اِسْتِحَاضَةٌ</span>) происходит от глагола <span class="arab">اِسْتَحَاضَ</span> (продолжительно течь (о крови у женщины)) и означает - хроническое кровотечение у женщины.</p>
 
 <p>В терминологии шариата <b>истихада – это несвоевременное<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a> кровотечение из вены в матке по причине болезни и нарушения (в организме). </b></p>

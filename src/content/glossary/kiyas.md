@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: кияс – это сравнение ответвления<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Кияс (араб. <span class="arab">قِيَاسٌ</span>) происходит от глагола <span class="arab">قَاسَ</span> (мерить, измерять; сравнивать) и означает - измерение; сравнение; сопоставление, аналогия.</p>
 
 <p>В терминологии <b>кияс – это сравнение ответвления<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a> с основой<a href="#_ftn2" name="_ftnref2" title=""><b>[2]</b></a> в (шариатском) постановлении<a href="#_ftn3" name="_ftnref3" title=""><b>[3]</b></a> по причине объединяющего их фактора<a href="#_ftn4" name="_ftnref4" title=""><b>[4]</b></a>.</b></p>

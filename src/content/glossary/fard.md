@@ -61,9 +61,8 @@ used_in:
 - 77-29-hadis-put-v-raj-i-dveri-blaga.md
 - 78-29-hadis-golova-vershina-i-strazh-religii.md
 - 86-38-hadis-put-priblizheniya-k-allahu.md
+description: фард<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Фард (араб. <span class="arab">فَرْضٌ</span>) происходит от глагола <span class="arab">فَرَضَ</span> (резать, отрезать; обязывать) и означает – разрезание; обязанность.</p>
 
 <p>{Quran}4:118{/Quran}</p>

@@ -21,9 +21,8 @@ used_in:
 - 19-2-hadis-duhovnye-uroki-posta.md
 - 3-1-hadis-namerenie.md
 - 79-30-31-hadis-vseob-emlyushchij-shariat-i-klyuch-k-lyubvi.md
+description: 
 ---
-
-
 <p>Зухд (араб. <span class="arab">زُهْدٌ</span>) происходит от глагола <span class="arab">زَهِدَ</span> (не иметь никакого желания; отказываться (от чего <span class="arab">عن</span>); проявлять умеренность, воздержание) и означает – воздержанность, избавление, аскетизм.</p>
 <p>{Quran}12:20{/Quran}</p>
 

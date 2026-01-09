@@ -16,9 +16,8 @@ related:
 used_in:
 - 12-al-masad-palmovye-volokna.md
 - 13-urok-sira-etapy-prizyva-chast2.md
+description: маджаз<a title="" href="file:///D:/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C%20%D1%85%D1%83%D1%82%D0%B1%D0%B0/%D0%9C%D0%B0%D0%B4%D0%B6%D0%B0%D0%B7.doc#_ftn1"><b>[1]
 ---
-
-
 <p>Маджаз (араб. <span class="arab">مَجَازٌ</span>) происходит от глагола <span class="arab">جَازَ</span> (проходить, проезжать; быть разрешенным, позволенным, допущенным) и означает - проход, коридор; иносказательность; образное выражение; метафора.</p>
 
 <p>В терминологии <b>маджаз<a title="" href="file:///D:/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C%20%D1%85%D1%83%D1%82%D0%B1%D0%B0/%D0%9C%D0%B0%D0%B4%D0%B6%D0%B0%D0%B7.doc#_ftn1"><b><span class="arab">[1]</span></b></a> – это выражение, используемое в значении, отличительном от установленного первоначально<a title="" href="file:///D:/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C%20%D1%85%D1%83%D1%82%D0%B1%D0%B0/%D0%9C%D0%B0%D0%B4%D0%B6%D0%B0%D0%B7.doc#_ftn2"><b><span class="arab">[2]</span></b></a>, доказательством чего должна быть смысловая взаимосвязь.</b></p>

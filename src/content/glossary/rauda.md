@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: 
 ---
-
-
 <p>Рауда (араб. <span class="arab">رَوْضَةُ</span>) первообразное имя в значении – сад, лук.</p>
 <p>{Quran}30:15{/Quran}</p>
 <p><span class="arab"> </span></p>

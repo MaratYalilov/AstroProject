@@ -64,9 +64,8 @@ used_in:
 - 7-1-hadis-hidzhra.md
 - 70-al-bakara-korova-06-07-aiat.md
 - 97-vozmeshchenie-namaza-posle-ochishcheniia.md
+description: умма
 ---
-
-
 <p>Умма (араб. <span class="arab">أُمَّةٌ</span>) происходит от глагола <span class="arab">أَمَّ</span> (направляться; прибегать, укрываться) и означает - нация, народ.</p>
 <p><b><span class="arab"> </span></b></p>
 <p>В терминологии шариата <b>умма</b> <b>исламийя – это приверженцы религии Ислам, во всех концах Земли, которых объединяет единая вера, благие интересы, общие цели и заботы.</b></p>

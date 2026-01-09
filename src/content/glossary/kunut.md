@@ -23,9 +23,8 @@ used_in:
 - 6-6-predopredelennost-zla-i-ego-ponyatie.md
 - 6-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 7-prichiny-raznoglasij-mezhdu-uchenymi.md
+description: кунут – это мольба, стоя в определенном месте намаза.
 ---
-
-
 <p>Кунут (араб. <span class="arab">قُنُوتٌ</span>) происходит от глагола <span class="arab">قَنَتَ</span> (подчиняться, покоряться (кому-л.); проводить время в молитве; усердно читать молитву) и означает – подчинение, набожность, смирение; молитва; выстаивание молитвы.</p>
 <p>{Quran}2:116{/Quran}</p>
 <p><span class="arab"> </span></p>

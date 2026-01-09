@@ -36,9 +36,8 @@ used_in:
 - 3-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 40-5-hadis-kriterii-sootvetstviya-shariatu.md
 - 44-6-hadis-ostav-somnitelnoe-radi-yasnogo.md
+description: далиль – это предмет на основании, которого посредством рассудительного размышления, с уверенностью или предположением, можно извлечь шариатскую норму (<a href="slovar/hukm" target="_blank">хукм</a>).
 ---
-
-
 <p>Далиль (араб. <span class="arab">دَلِيلٌ</span>) происходит от глагола <span class="arab">دَلَّ</span> (указывать путь, направлять (куда <span class="arab">إلى</span>); указывать (на что <span class="arab">على</span>); свидетельствовать (о чем <span class="arab">على</span>)) и означает - проводник; гид; провожатый; путеводитель, справочник; довод, доказательство; признак; указатель, показатель, знак.</p>
 
 <p>{Quran}25:45{/Quran}</p>

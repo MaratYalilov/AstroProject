@@ -23,9 +23,8 @@ used_in:
 - 05-urok-sira-yunost-proroka.md
 - 1-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 3-prichiny-raznoglasij-mezhdu-uchenymi.md
+description: махр<a href="#_ftn1" name="_ftnref1" title=""><b>[1]
 ---
-
-
 <p>Махр (араб. <span class="arab">مَهْرٌ</span>) происходит от глагола <span class="arab">مَهَرَ</span> (давать брачный дар невесте) и означает – брачный дар мужа для невесты.</p>
 
 <p>В терминологии шариата <b>махр<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a> – это имущество, которое муж в обязательном порядке дарит своей жене по причине брачного акта.</b></p>

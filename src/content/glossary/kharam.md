@@ -127,9 +127,8 @@ used_in:
 - 9-1-hadis-otnoshenie-k-dunya.md
 - 90-cveta-krovi-v-mazhabah.md
 - 92-nifas.md
+description: харам – это то, что законодатель категорично требует оставить, за что оставивший его с повиновением вознаграждается, а совершивший заслуживает наказание.
 ---
-
-
 <p>Харам (араб. <span class="arab">حَرَامٌ</span>) происходит от глагола<span class="arab"></span><span class="arab"></span>  <span class="arab">حَرُمَ</span><span class="arab"> </span>(быть запретным, заповедным, священным) и глагола <span class="arab">حَرَمَ</span> (лишать, отказывать; запрещать) и означает – священный, запретный, запрещенный.<span class="arab"></span></p>
 <p><span class="arab"> </span></p>
 <p>{Quran}5:2{/Quran}</p>

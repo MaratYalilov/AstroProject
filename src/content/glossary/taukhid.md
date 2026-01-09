@@ -50,9 +50,8 @@ used_in:
 - 46-7-hadis-iskrennost-po-otnosheniyu-k-allahu.md
 - 66-19-hadis-esli-prosish-prosi-u-allaha.md
 - 68-21-hadis-stoi-na-pryamom-puti.md
+description: таухид – это поклонение лишь одному Аллаху, не придавая Ему сотоварища.
 ---
-
-
 <p>Таухид (араб.<span class="arab">تَوْحِيدٌ</span>) происходит от глагола <span class="arab">وَحَّدَ</span> (делать что-то единым, объединять) и означает – объединение, единобожие.<br /> <br /> <span class="arab"></span></p>
 <p>В терминологии шариата<strong>таухид – это поклонение лишь одному Аллаху, не придавая Ему сотоварища.</strong></p>
 <p><span class="arab">تَعْريِفُ التَّوْحِيدِ شَرْعًا: "إِفْرادُ اللهِ بِالْعِبادَةِ".         </span></p>

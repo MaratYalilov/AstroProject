@@ -7,9 +7,8 @@ tags: []
 aliases: []
 related: []
 used_in: []
+description: са'й – это прохождение расстояния между (холмами) <a href="/slovar/as-safa-i-al-marva" target="_blank">ас-Сафа и аль-Марва</a>, в количестве семи раз, во время выполнения обрядов <a href="/slovar/khadzh" target="_blank">хаджа</a> или <a href="/slovar/umra" target="_blank">умры</a>.
 ---
-
-
 <p>Са'й (араб. <span class="arab">سَعْيٌ</span>) происходит от глагола <span class="arab">سَعَى</span> (быстро устремляться, бежать; стремится (к чему <span class="arab">إلى</span>);стараться) и означает – бег; стремление; старание.</p>
 
 <p>В терминологии шариата <b>са'й – это прохождение расстояния между (холмами) <a href="/slovar/as-safa-i-al-marva" target="_blank">ас-Сафа и аль-Марва</a>, в количестве семи раз, во время выполнения обрядов <a href="/slovar/khadzh" target="_blank">хаджа</a> или <a href="/slovar/umra" target="_blank">умры</a>.</b></p>

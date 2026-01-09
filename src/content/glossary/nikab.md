@@ -10,9 +10,8 @@ related:
 - sunna
 used_in:
 - 20-protiranie-kozhanoi-obuvi-2.md
+description: никаб – это покрывало для лица женщины с прорезью для одного или обоих глаз, что бы видеть.
 ---
-
-
 <p>Никаб (араб. <span class="arab">نِقَابٌ</span>) происходит от глагола <span class="arab">نَقَبَ</span> (пробивать отверстие, проламывать; делать подкоп) и означает – отверстие, подкоп.</p>
 <p>{Quran}18:97{/Quran}</p>
 <p><span class="arab"> </span></p>

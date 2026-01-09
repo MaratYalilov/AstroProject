@@ -127,9 +127,8 @@ used_in:
 - 81-dadzhal.md
 - 82-nahozhdenie-v-mecheti-vo-vremya-haida.md
 - 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
+description: мечеть – это место, отведенное для совершения пятикратной молитвы мусульманами в группе.
 ---
-
-
 <p>Мечеть (араб. <span class="arab">مَسْجِدٌ</span>) происходит от глагола <span class="arab">سَجَدَ</span> (совершать земной поклон, падать ниц, поклоняться) и означает – место совершения земного поклона, место поклонения.</p>
 <p><span class="arab"> </span></p>
 <p>{Quran}2:34{/Quran}</p>
