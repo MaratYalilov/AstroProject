@@ -1,6 +1,7 @@
 ---
 import "../styles/tailwind.css";
 import NavBar from "@/components/NavBar";
+import GlossaryOverlay from "@/components/glossary/GlossaryOverlay";
 
 const { title = "Lesson" } = Astro.props as { title?: string };
 ---
@@ -203,5 +204,6 @@ const { title = "Lesson" } = Astro.props as { title?: string };
     <main class="mx-auto w-full max-w-7xl px-4 py-6">
       <slot />
     </main>
+    <GlossaryOverlay client:load />
   </body>
 </html>

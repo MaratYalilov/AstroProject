@@ -593,7 +593,7 @@ footer {
     opacity: 0.6;
   }
 }
-
+/* стили для подсказок */
 .glossary-popover {
   background: var(--color-bg, #fff);
   border: 1px solid rgba(0,0,0,.08);
@@ -606,4 +606,27 @@ footer {
   background: var(--color-bg, #2d2d2d);
   border: 1px solid rgba(255,255,255,.1);
   box-shadow: 0 6px 20px rgba(0,0,0,.4);
+}
+
+:root {
+  --glossary-bg: hsl(var(--popover));
+  --glossary-text: hsl(var(--popover-foreground));
+  --glossary-border: hsl(var(--border));
+}
+
+.dark {
+  --glossary-bg: hsl(var(--popover));
+  --glossary-text: hsl(var(--popover-foreground));
+  --glossary-border: hsl(var(--border));
+}
+
+.glossary-sheet {
+  background: var(--glossary-bg);
+  color: var(--glossary-text);
+  border-top: 1px solid var(--glossary-border);
+}
+
+.glossary-sheet h3,
+.glossary-sheet p {
+  color: var(--glossary-text);
 }
