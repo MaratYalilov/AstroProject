@@ -140,7 +140,7 @@ used_in:
 - 83-35-hadis-musulmanin-brat-musulmanina.md
 - 9-prichiny-raznoglasij-mezhdu-uchenymi.md
 - 98-obyazatelnost-soversheniya-namaza.md
-description: 
+description: покорившийся, предавшийся Богу
 ---
 <p>Мусульманин (араб. <span class="arab">مُسْلِمٌ</span>) происходит от глагола <span class="arab">أَسْلَمَ</span> (покоряться, подчиняться, проявлять смирение) и означает – покорившийся, предавшийся Богу.</p>
 <p>{Quran}3:83{/Quran}</p>

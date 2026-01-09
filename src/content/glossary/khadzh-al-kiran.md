@@ -7,7 +7,7 @@ tags: []
 aliases: []
 related: []
 used_in: []
-description: 
+description: хаджаль-киран – это поклонение Аллаху посредством вступления мусульманина в ихрам для совершения 'умры и хаджа вместе. 
 ---
 <p><a href="slovar/hadzh.html" target="_blank">Хадж </a>аль-киран (араб. <span class="arab">حَجُّ الْقِرَانِ</span>) состоит из двух слов<span class="arab">حَجٌّ</span><span class="arab"> </span> (паломничество) и <span class="arab">قِرَانٌ</span> (соединение, слияние, объединение) и означает хадж, в котором паломник совершает хадж и <a href="slovar/umra.html" target="_blank">'умру</a> вместе.</p>
 

@@ -36,7 +36,7 @@ used_in:
 - 35-3-hadis-sut-pokloneniya.md
 - 77-29-hadis-put-v-raj-i-dveri-blaga.md
 - 78-29-hadis-golova-vershina-i-strazh-religii.md
-description: 
+description: быть, присутствовать (при чем-л.); быть свидетелем (чего-либо)) и имеет несколько значений...
 ---
 <p>Шахада (араб. <span class="arab">شَهَادَةٌ</span>) происходит от глагола <span class="arab">شَهِدَ</span> (быть, присутствовать (при чем-л.); быть свидетелем (чего-либо)) и имеет несколько значений:</p>
 <p>1-<span class="arab">      </span><span class="arab">Присутствие, свидетельство (الحضور</span>).</p>

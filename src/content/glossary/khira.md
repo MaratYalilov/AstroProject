@@ -38,7 +38,7 @@ used_in:
 - 23-urok-sira-taif-nochnoe-voznesenie.md
 - 27-2-hadis-predskazaniya-proshlyh-prorokov.md
 - 27-al-galyak-sgustok.md
-description: 
+description: это пещера, в которой каждый год уединялся Посланник Аллаха, да благословит его Аллах и приветствует, до ниспослания ему Корана
 ---
 <p>Хира (араб. <span class="arab">حِرَاءٌ</span>) название пещеры в горах Мекки.</p>
 
