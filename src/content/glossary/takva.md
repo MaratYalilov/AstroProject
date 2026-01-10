@@ -54,9 +54,4 @@ used_in:
 - 86-al-bakara-korova-38-41-aiat.md
 description: предохранять, прикрывать, беречь, защищать и означает – защита от вреда
 ---
-<p>Таква (араб. <span class="arab">تَقْوَى</span>) происходит от глагола <span class="arab">وَقَى</span> (предохранять, прикрывать, беречь, защищать) и означает – защита от вреда.</p>
-<p>{Quran}16:81{/Quran}</p>
-<p><span class="arab"> </span></p>
-<p>{Quran}40:9{/Quran}</p>
-<p>{Quran}2:197{/Quran}</p>
-<p>{Quran}5:27{/Quran}</p>
+<p>Таква (араб. <span class="arab">تَقْوَى</span>) происходит от глагола <span class="arab">وَقَى</span> (предохранять, прикрывать, беречь, защищать) и означает – защита от вреда.</p><p>{Quran}16:81{/Quran}</p><p>{Quran}40:9{/Quran}</p><p>{Quran}2:197{/Quran}</p><p>{Quran}5:27{/Quran}</p>
