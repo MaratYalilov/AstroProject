@@ -1,7 +1,7 @@
 ---
 term: Хиджр
 url_slug: khidzhr
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

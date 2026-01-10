@@ -1,7 +1,7 @@
 ---
 term: Хайд
 url_slug: khajd
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

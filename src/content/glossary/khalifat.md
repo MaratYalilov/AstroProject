@@ -1,7 +1,7 @@
 ---
 term: Халифат
 url_slug: khalifat
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

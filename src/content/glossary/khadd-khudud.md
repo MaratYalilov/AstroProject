@@ -1,7 +1,7 @@
 ---
 term: Хадд, худуд.
 url_slug: khadd-khudud
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

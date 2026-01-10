@@ -1,7 +1,7 @@
 ---
 term: Хидр, Хидир, Хизр, Хызр
 url_slug: khidr-khidir-khizr-khyzr
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

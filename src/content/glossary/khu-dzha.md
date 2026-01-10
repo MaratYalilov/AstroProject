@@ -1,7 +1,7 @@
 ---
 term: Ху́джа
 url_slug: khu-dzha
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

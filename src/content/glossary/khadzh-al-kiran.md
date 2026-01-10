@@ -1,7 +1,7 @@
 ---
 term: Хадж аль-киран
 url_slug: khadzh-al-kiran
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

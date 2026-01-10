@@ -1,7 +1,7 @@
 ---
 term: Хадис кудси
 url_slug: khadis-kudsi
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

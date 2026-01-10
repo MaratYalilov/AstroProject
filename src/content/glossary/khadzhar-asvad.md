@@ -1,7 +1,7 @@
 ---
 term: Хаджар асвад
 url_slug: khadzhar-asvad
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

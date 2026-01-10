@@ -1,7 +1,7 @@
 ---
 term: Хира
 url_slug: khira
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

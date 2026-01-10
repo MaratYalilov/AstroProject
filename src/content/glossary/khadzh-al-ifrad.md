@@ -1,7 +1,7 @@
 ---
 term: Хадж аль-ифрад
 url_slug: khadzh-al-ifrad
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

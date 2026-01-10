@@ -1,7 +1,7 @@
 ---
 term: Хариджиты, хавариджи.
 url_slug: kharidzhity-khavaridzhi
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

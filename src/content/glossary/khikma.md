@@ -1,7 +1,7 @@
 ---
 term: Хикма
 url_slug: khikma
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

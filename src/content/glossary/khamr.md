@@ -1,7 +1,7 @@
 ---
 term: Хамр
 url_slug: khamr
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

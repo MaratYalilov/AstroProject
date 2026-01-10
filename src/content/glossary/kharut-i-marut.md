@@ -1,7 +1,7 @@
 ---
 term: Харут и Марут
 url_slug: kharut-i-marut
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

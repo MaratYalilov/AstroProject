@@ -1,7 +1,7 @@
 ---
 term: Хабар аль-ахад
 url_slug: khabar-al-akhad
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

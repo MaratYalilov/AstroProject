@@ -1,7 +1,7 @@
 ---
 term: "Хадис"
 url_slug: "khadis"
-letter: "К"
+letter: "Х"
 category: "Категория 137"
 tags: []
 aliases: []

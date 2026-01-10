@@ -1,7 +1,7 @@
 ---
 term: Хасан
 url_slug: khasan
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

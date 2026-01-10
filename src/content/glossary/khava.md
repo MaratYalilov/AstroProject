@@ -1,7 +1,7 @@
 ---
 term: Хава
 url_slug: khava
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

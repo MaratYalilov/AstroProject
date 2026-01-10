@@ -1,7 +1,7 @@
 ---
 term: Халиль
 url_slug: khalil
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

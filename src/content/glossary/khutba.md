@@ -1,7 +1,7 @@
 ---
 term: Хутба
 url_slug: khutba
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

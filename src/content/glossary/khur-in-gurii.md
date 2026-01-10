@@ -1,7 +1,7 @@
 ---
 term: Хур 'ин, гурии.
 url_slug: khur-in-gurii
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

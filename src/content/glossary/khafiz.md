@@ -1,7 +1,7 @@
 ---
 term: Хафиз
 url_slug: khafiz
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

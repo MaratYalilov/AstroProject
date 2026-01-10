@@ -1,7 +1,7 @@
 ---
 term: Харам
 url_slug: kharam
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

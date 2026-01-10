@@ -1,7 +1,7 @@
 ---
 term: Ха́ким
 url_slug: kha-kim
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

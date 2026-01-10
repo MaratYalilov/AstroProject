@@ -1,7 +1,7 @@
 ---
 term: Хитба
 url_slug: khitba
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

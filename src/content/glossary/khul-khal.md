@@ -1,7 +1,7 @@
 ---
 term: Хуль', халь'.
 url_slug: khul-khal
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

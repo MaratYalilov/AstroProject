@@ -1,7 +1,7 @@
 ---
 term: Хитан
 url_slug: khitan
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []

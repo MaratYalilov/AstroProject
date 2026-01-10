@@ -1,7 +1,7 @@
 ---
 term: Хадж
 url_slug: khadzh
-letter: К
+letter: "Х"
 category: Категория 137
 tags: []
 aliases: []
