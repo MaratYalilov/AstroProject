@@ -630,3 +630,57 @@ footer {
 .glossary-sheet p {
   color: var(--glossary-text);
 }
+.glossary-popover::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px 6px 0;
+  border-style: solid;
+  border-color: var(--glossary-bg) transparent transparent;
+}
+.glossary-tooltip {
+  position: fixed;
+  z-index: 9999;
+  width: 320px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  pointer-events: auto;
+}
+
+.glossary-tooltip.center {
+  transform: translateX(-50%);
+}
+
+.glossary-tooltip.left {
+  transform: translateX(0);
+}
+
+.glossary-tooltip.right {
+  transform: translateX(-100%);
+}
+
+/* Стрелочка, если нужно */
+.glossary-tooltip::after {
+  content: '';
+  position: absolute;
+  border: 8px solid transparent;
+}
+
+.glossary-tooltip[data-position="top"]::after {
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top-color: white;
+}
+
+.glossary-tooltip[data-position="bottom"]::after {
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-color: white;
+}

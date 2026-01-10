@@ -13,7 +13,9 @@ type ActiveState = {
   x: number
   y: number
   isMobile: boolean
+  align?: 'center' | 'left' | 'right'
 }
+
 
 export default function GlossaryOverlay() {
   const [glossary, setGlossary] = useState<GlossaryMap | null>(null)
@@ -44,11 +46,60 @@ export default function GlossaryOverlay() {
 
       const rect = link.getBoundingClientRect()
 
+      const POPOVER_WIDTH = 320
+      const GAP = 40
+
+      // Создаем временный элемент для измерения высоты
+      const tempTooltip = document.createElement('div')
+      tempTooltip.style.cssText = `
+        position: fixed;
+        left: -9999px;
+        width: ${POPOVER_WIDTH}px;
+        visibility: hidden;
+      `
+      
+      // Заполняем контент тултипа
+      tempTooltip.innerHTML = `
+        <div class="tooltip-content">
+          <h3>${glossary[slug].title}</h3>
+          <p>${glossary[slug].description}</p>
+        </div>
+      `
+      
+      document.body.appendChild(tempTooltip)
+      const POPOVER_HEIGHT = tempTooltip.offsetHeight
+      document.body.removeChild(tempTooltip)
+
+      let x = rect.left + rect.width / 2
+      let y = 0 - GAP
+      let align: 'center' | 'left' | 'right' = 'center'
+
+      // ПРЯМО НАД словом
+      y = rect.top - POPOVER_HEIGHT + GAP
+      
+      // Если не влазит сверху
+      const isTopEnoughSpace = y >= 0
+      if (!isTopEnoughSpace) {
+        // ПРЯМО ПОД словом
+        y = rect.bottom + 0.5 * GAP
+      }
+
+      // Корректировка по горизонтали
+      if (x + POPOVER_WIDTH / 2 > window.innerWidth) {
+        x = window.innerWidth - POPOVER_WIDTH - GAP
+        align = 'right'
+      } else if (x - POPOVER_WIDTH / 2 < 0) {
+        x = GAP
+        align = 'left'
+      }
+
       setActive({
         slug,
-        x: rect.left + rect.width / 2,
-        y: rect.top,
+        x,
+        y,
         isMobile: false,
+        align,
+        position: isTopEnoughSpace ? 'top' : 'bottom' // для стрелочки в CSS
       })
     }
 
@@ -94,22 +145,28 @@ export default function GlossaryOverlay() {
     return (
       <AnimatePresence>
         <motion.div
-          key="popover"
-          initial={{ opacity: 0, y: 6 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 6 }}
-          transition={{ duration: 0.15 }}
-          style={{
-            position: 'fixed',
-            left: active.x,
-            top: active.y - 12,
-            transform: 'translate(-50%, -100%)',
-            zIndex: 1000,
-            maxWidth: 320,
-            pointerEvents: 'none',
-          }}
-          className="glossary-popover"
-        >
+        key="popover"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.15 }}
+        style={{
+          position: 'fixed',
+          left: active.x,
+          top: active.y,
+          transform:
+            active.align === 'left'
+              ? 'translateX(0)'
+              : active.align === 'right'
+              ? 'translateX(-100%)'
+              : 'translateX(-50%)',
+          zIndex: 1000,
+          maxWidth: 320,
+          pointerEvents: 'none',
+        }}
+        className="glossary-popover"
+      >
+
           <strong>{entry.term}</strong>
           <div>{entry.description}</div>
         </motion.div>
