@@ -14,6 +14,7 @@ type ActiveState = {
   y: number
   isMobile: boolean
   align?: 'center' | 'left' | 'right'
+  placement?: 'top' | 'bottom'; // добавьте это
 }
 
 
@@ -47,7 +48,7 @@ export default function GlossaryOverlay() {
       const rect = link.getBoundingClientRect()
 
       const POPOVER_WIDTH = 320
-      const GAP = 40
+      const GAP = 30
 
       // Создаем временный элемент для измерения высоты
       const tempTooltip = document.createElement('div')
@@ -61,7 +62,7 @@ export default function GlossaryOverlay() {
       // Заполняем контент тултипа
       tempTooltip.innerHTML = `
         <div class="tooltip-content">
-          <h3>${glossary[slug].title}</h3>
+          <h3>${glossary[slug].term}</h3>
           <p>${glossary[slug].description}</p>
         </div>
       `
@@ -81,7 +82,7 @@ export default function GlossaryOverlay() {
       const isTopEnoughSpace = y >= 0
       if (!isTopEnoughSpace) {
         // ПРЯМО ПОД словом
-        y = rect.bottom + 0.5 * GAP
+        y = rect.bottom + GAP
       }
 
       // Корректировка по горизонтали
@@ -99,7 +100,7 @@ export default function GlossaryOverlay() {
         y,
         isMobile: false,
         align,
-        position: isTopEnoughSpace ? 'top' : 'bottom' // для стрелочки в CSS
+        placement: isTopEnoughSpace ? 'top' : 'bottom',// для стрелочки в CSS
       })
     }
 
