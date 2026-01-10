@@ -76,7 +76,7 @@ description: умма
 <p>{Quran}3:110{/Quran}</p>
 <p><span class="arab"> </span></p>
 <p>В Коране слово «Умма» применяется в разных значениях:</p>
-<p> </p>
+
 <p>1-      <span class="arab">Религия (دين</span>).</p>
 <p>{Quran}16:93{/Quran}</p>
 <p>2-      <span class="arab">Предводитель, имам (إمام</span>).</p>
@@ -87,4 +87,4 @@ description: умма
 <p>{Quran}28:23{/Quran}</p>
 <p>5-      <span class="arab">Народ (قوم</span>).</p>
 <p>{Quran}16:92{/Quran}</p>
-<p> </p>
+

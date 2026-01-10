@@ -26,7 +26,7 @@ description: Ид аль-Адха – это ежегодное (праздни�
 <p><span class="arab">قال رسول الله - صلى الله عليه و سلم - : " أَيَّامُ التَّشْرِيقِ أَيَّامُ أَكْلٍ وَشُرْبٍ وَذِكْرِ اللهِ " . رواه مسلم.</span></p>
 <p><span class="arab"> </span></p>
 <p><span class="arab"> </span></p>
-<p> </p>
+
 <div><br clear="all" /><hr align="left" size="1" width="33%" />
 <div>
 <p><a href="#_ftnref1" name="_ftn1" title="">[*]</a> Дни ташрика – это 11, 12 и 13 числа месяца Зюль-Хиджа.</p>

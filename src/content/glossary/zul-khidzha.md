@@ -19,7 +19,7 @@ description: Зуль-Хиджа – это двенадцатый месяц л
 <p>{Quran}2:197{/Quran}</p>
 <p><b> </b></p>
 <p><span class="arab"> </span></p>
-<p> </p>
+
 <div><br clear="all" /><hr align="left" size="1" width="33%" />
 <div>
 <p><a href="#_ftnref1" name="_ftn1" title="">[1]</a> Запретные месяцы: Зуль-Ка'да, Зуль-Хиджа, аль-Мухаррам и Раджаб.</p>

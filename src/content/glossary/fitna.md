@@ -43,4 +43,4 @@ description: Слово фитна имеет много значений в К�
 <p>{Quran}68:6{/Quran}</p>
 <p>11-<span class="arab">  </span> Сожжение в огне (<span class="arab">الإحراق بالنار</span>).</p>
 <p>{Quran}85:10{/Quran}</p>
-<p> </p>
+

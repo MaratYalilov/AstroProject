@@ -17,7 +17,7 @@ description: аль-Лаух аль-махфуз – это хранимое п�
 <p>{Quran}85:21-22{/Quran}</p>
 <p><span class="arab"> </span></p>
 <p>{Quran}69:77-78{/Quran}</p>
-<p> </p>
+
 <p>{Quran}36:12{/Quran}</p>
 <div><br clear="all" /><hr align="left" size="1" width="33%" />
 <div>

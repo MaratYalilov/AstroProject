@@ -53,4 +53,4 @@ description: религия ислам – это совокупность за�
 <p>{Quran}3:19{/Quran}</p>
 <p>{Quran}3:85{/Quran}</p>
 <p>{Quran}5:3{/Quran}</p>
-<p> </p>
+
