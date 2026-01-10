@@ -1,5 +1,5 @@
 ---
-term: Санад
+term: Санад иснад
 url_slug: sanad
 letter: С
 category: С

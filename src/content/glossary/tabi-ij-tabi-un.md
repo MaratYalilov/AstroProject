@@ -1,5 +1,5 @@
 ---
-term: Таби'ий, таби'ун.
+term: Таби'ий, таби'ун, табиин.
 url_slug: tabi-ij-tabi-un
 letter: Т
 category: Т
