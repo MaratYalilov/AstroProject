@@ -1,8 +1,8 @@
 ---
 term: Са'й
 url_slug: sa-j
-letter: Р
-category: Р
+letter: С
+category: С
 tags: []
 aliases: []
 related: []

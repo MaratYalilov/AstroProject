@@ -1,8 +1,8 @@
 ---
 term: Са'а, сага
 url_slug: sa-a-saga
-letter: Р
-category: Р
+letter: С
+category: С
 tags: []
 aliases: []
 related: []

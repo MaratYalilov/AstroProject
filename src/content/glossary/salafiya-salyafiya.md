@@ -1,8 +1,8 @@
 ---
 term: Салафия, саляфия
 url_slug: salafiya-salyafiya
-letter: Р
-category: Р
+letter: С
+category: С
 tags: []
 aliases: []
 related: []

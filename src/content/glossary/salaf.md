@@ -1,8 +1,8 @@
 ---
 term: Салаф
 url_slug: salaf
-letter: Р
-category: Р
+letter: С
+category: С
 tags: []
 aliases: []
 related: []

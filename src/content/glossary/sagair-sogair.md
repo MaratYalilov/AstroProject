@@ -1,8 +1,8 @@
 ---
 term: Сагаир, согаир
 url_slug: sagair-sogair
-letter: Р
-category: Р
+letter: С
+category: С
 tags: []
 aliases: []
 related: []

@@ -1,8 +1,8 @@
 ---
 term: Садака
 url_slug: sadaka
-letter: Р
-category: Р
+letter: С
+category: С
 tags: []
 aliases: []
 related:

@@ -1,8 +1,8 @@
 ---
 term: Салям
 url_slug: salyam
-letter: Р
-category: Р
+letter: С
+category: С
 tags: []
 aliases: []
 related:
