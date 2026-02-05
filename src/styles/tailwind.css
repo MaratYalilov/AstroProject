@@ -385,6 +385,12 @@ p {
     border-radius: 5px;
     border-left: 4px solid var(--hadith-border);
 }
+/* ссылка на источник хадиса(из старой хутбы)*/
+.hadis{
+    background-color: var(--hadith-bg);
+    border-radius: 5px;
+;
+}
 
 .hadith-reference {
     color: var(--secondary-text);
