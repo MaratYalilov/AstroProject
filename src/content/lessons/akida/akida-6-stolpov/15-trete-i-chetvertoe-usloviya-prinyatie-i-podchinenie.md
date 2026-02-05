@@ -3,16 +3,15 @@ title: 15 Третье и четвертое условия - принятие �
 order: 15
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/akida/akida-6-stolpov/audio/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp3
+audio:  /media/akida/akida-6-stolpov/audio/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp3
 audioRel: audio/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp3
-video: >-
-  /media/akida/akida-6-stolpov/video/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp4
+video: /media/akida/akida-6-stolpov/video/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp4
 videoRel: video/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp4
 ---
-<li><strong>&nbsp;Принятие сердцем и произнесение их.</strong></li>
+
+<li><strong> Принятие сердцем и произнесение их.</strong></li>
 </ul>
-<p class="arab" dir="rtl">اَلْقَبُولُ الْمُنَافِي لِلرَّدِّ</p>
+<p class="arab">اَلْقَبُولُ الْمُنَافِي لِلرَّدِّ</p>
 <p>Многобожники хорошо знали смысл этих слов, но не принимали их и противостояли пророку, да благословит его Аллах и приветствует .</p>
 <p>Аллах сказал:</p>
 <p>{Quran}37:35{/Quran}</p>
@@ -21,11 +20,11 @@ videoRel: video/15-trete-i-chetvertoe-usloviya-prinyatie-i-podchinenie.mp4
 <ul>
 <li><strong>Подчинение тому, на что указывают эти слова.</strong></li>
 </ul>
-<p class="arab" dir="rtl">اَلْاِنْقِيَادُ لِمَا تَدُلُّ عَلَيْهَا هَذِهِ الْكَلِمَةُ</p>
+<p class="arab">اَلْاِنْقِيَادُ لِمَا تَدُلُّ عَلَيْهَا هَذِهِ الْكَلِمَةُ</p>
 <p>Если человек осознал и искренне принял эти слова, то это обязательно отразится на его деяниях и выразится в подчинении Аллаху.</p>
 <p>Аллах сказал:</p>
 <p>{Quran}39:54{/Quran}</p>
 <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>Не уверует ни один из вас до тех пор, пока его стремления не будут соответствовать тому, с чем я пришел</em>»<span class="hadis"> [ Приводит Ат-Табарани ].</span></p>
-<p class="arab" dir="rtl">قَالَ رَسُولُ اللّهِ صلى الله عليه و سلم: " لا يُؤْمِنُ أَحَدُكُمْ حَتَّى يَكُونَ هَوَاهُ تَبَعًا لِمَا جِئْتُ بِهِ ".</p>
+<p class="arab">قَالَ رَسُولُ اللّهِ صلى الله عليه و سلم: " لا يُؤْمِنُ أَحَدُكُمْ حَتَّى يَكُونَ هَوَاهُ تَبَعًا لِمَا جِئْتُ بِهِ ".</p>
 <p>Разница между принятием и подчинением: принятие - подтверждение словами, а подчинение - подтверждение делами.</p>
 <ul>

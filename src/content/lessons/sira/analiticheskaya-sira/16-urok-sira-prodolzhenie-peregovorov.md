@@ -3,11 +3,9 @@ title: '16, Продолжение переговоров'
 order: 16
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/sira/analiticheskaya-sira/audio/16-urok-sira-prodolzhenie-peregovorov.mp3
+audio:  /media/sira/analiticheskaya-sira/audio/16-urok-sira-prodolzhenie-peregovorov.mp3
 audioRel: audio/16-urok-sira-prodolzhenie-peregovorov.mp3
-video: >-
-  /media/sira/analiticheskaya-sira/video/16-urok-sira-prodolzhenie-peregovorov.mp4
+video: /media/sira/analiticheskaya-sira/video/16-urok-sira-prodolzhenie-peregovorov.mp4
 videoRel: video/16-urok-sira-prodolzhenie-peregovorov.mp4
 ---
 # 16, Продолжение переговоров

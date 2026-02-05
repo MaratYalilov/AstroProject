@@ -8,6 +8,4 @@ audioRel: audio/166-opisanie-namaza-urok-10.mp3
 video: /media/fiqh/mishkat-namaz/video/166-opisanie-namaza-urok-10.mp4
 videoRel: video/166-opisanie-namaza-urok-10.mp4
 ---
-# 166, Описание намаза урок 10
-
-Конспекта урока не существует.
+# 166, Описание намаза урок 10 Конспекта урока не существует.

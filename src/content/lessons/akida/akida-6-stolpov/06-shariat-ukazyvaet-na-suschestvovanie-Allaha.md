@@ -3,17 +3,16 @@ title: 06 Шариат указывает на существование Алл
 order: 6
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/akida/akida-6-stolpov/audio/06-shariat-ukazyvaet-na-suschestvovanie-allaha.mp3
+audio: /media/akida/akida-6-stolpov/audio/06-shariat-ukazyvaet-na-suschestvovanie-allaha.mp3
 audioRel: audio/06-shariat-ukazyvaet-na-suschestvovanie-allaha.mp3
-video: >-
-  /media/akida/akida-6-stolpov/video/06-shariat-ukazyvaet-na-suschestvovanie-allaha.mp4
+video: /media/akida/akida-6-stolpov/video/06-shariat-ukazyvaet-na-suschestvovanie-allaha.mp4
 videoRel: video/06-shariat-ukazyvaet-na-suschestvovanie-allaha.mp4
 ---
+
 <h1>Первый столп веры: вера в Аллах</h1>
 <p>Эта вера заключается в твердой, свободной от сомнений, убежденности в существовании Аллаха. А также в том, что Он является Единственным в Своем господстве, Единственным в Своей божественности и Единственным в Своих именах и атрибутах.</p>
 <h1>Вера в существование Аллаха.</h1>
-<p dir="rtl"><span class="arab">اَلْإِيمَانُ بِوُجُودِ اللهِ</span></p>
+<p><span class="arab">اَلْإِيمَانُ بِوُجُودِ اللهِ</span></p>
 <p><strong>На существование Аллаха указывает четыре вещи:</strong></p>
 <ul>
 <li>Шариат (закон, ниспосланный Аллахом). <span class="arab">اَلشَّرْعُ</span></li>

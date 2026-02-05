@@ -8,6 +8,4 @@ audioRel: audio/148-mecheti-urok-15.mp3
 video: /media/fiqh/mishkat-namaz/video/148-mecheti-urok-15.mp4
 videoRel: video/148-mecheti-urok-15.mp4
 ---
-# 148, Мечети урок 15
-
-Конспекта урока не существует.
+# 148, Мечети урок 15 Конспекта урока не существует.

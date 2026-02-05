@@ -8,6 +8,4 @@ audioRel: audio/156-sutra-urok-4.mp3
 video: /media/fiqh/mishkat-namaz/video/156-sutra-urok-4.mp4
 videoRel: video/156-sutra-urok-4.mp4
 ---
-# 156, Сутра урок 4
-
-Конспекта урока не существует.
+# 156, Сутра урок 4 Конспекта урока не существует.

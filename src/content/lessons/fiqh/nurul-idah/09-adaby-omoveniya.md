@@ -1,5 +1,5 @@
 ---
-title: '9,  Адабы омовения'
+title: '9, Адабы омовения'
 order: 9
 hasAudio: true
 hasVideo: true
@@ -8,7 +8,7 @@ audioRel: audio/09-adaby-omoveniya.mp3
 video: /media/fiqh/nurul-idah/video/09-adaby-omoveniya.mp4
 videoRel: video/09-adaby-omoveniya.mp4
 ---
-# 9,  Адабы омовения
+# 9, Адабы омовения
 <p><span class="arab">فَصْلٌ فِي آدَابِ الْوُضُوءِ</span></p> Раздел: адабы омовения <p><span class="arab">من آداب الوضوء أربعة عشر
 شيئا</span></p>: Из адабов омовения 14 действий: <a href="/glossary/adab" class="glossary-link" target="_blank" rel="noopener noreferrer">Адаб</a>: 1. Ставить вещь на свое
 место. 2. Хорошее качество. 3. За его совершение человека хвалят и нет

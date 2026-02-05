@@ -8,6 +8,4 @@ audioRel: audio/132-azan-urok-10.mp3
 video: /media/fiqh/mishkat-namaz/video/132-azan-urok-10.mp4
 videoRel: video/132-azan-urok-10.mp4
 ---
-# 132, <a href="/glossary/azan" class="glossary-link" target="_blank" rel="noopener noreferrer">Азан</a>-10
-
-Конспекта урока не существует.
+# 132, <a href="/glossary/azan" class="glossary-link" target="_blank" rel="noopener noreferrer">Азан</a>-10 Конспекта урока не существует.

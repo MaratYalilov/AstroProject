@@ -8,6 +8,4 @@ audioRel: audio/192-salavat-urok-4.mp3
 video: /media/fiqh/mishkat-namaz/video/192-salavat-urok-4.mp4
 videoRel: video/192-salavat-urok-4.mp4
 ---
-# 192. Салават урок 4
-
-Конспекта урока не существует.
+# 192. Салават урок 4 Конспекта урока не существует.

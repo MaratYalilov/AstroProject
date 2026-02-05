@@ -8,6 +8,4 @@ audioRel: audio/174-chtenie-korana-v-namaze-urok-6.mp3
 video: /media/fiqh/mishkat-namaz/video/174-chtenie-korana-v-namaze-urok-6.mp4
 videoRel: video/174-chtenie-korana-v-namaze-urok-6.mp4
 ---
-# 174 Чтение Корана в намазе урок 6
-
-Конспекта урока не существует.
+# 174 Чтение Корана в намазе урок 6 Конспекта урока не существует.

@@ -3,11 +3,9 @@ title: '13, Действия нарушающие и не нарушающие �
 order: 13
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/fiqh/nurul-idah/audio/13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.mp3
+audio:  /media/fiqh/nurul-idah/audio/13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.mp3
 audioRel: audio/13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.mp3
-video: >-
-  /media/fiqh/nurul-idah/video/13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.mp4
+video: /media/fiqh/nurul-idah/video/13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.mp4
 videoRel: video/13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.mp4
 ---
 # 13, Действия нарушающие и не нарушающие <a href="/glossary/gusl" class="glossary-link" target="_blank" rel="noopener noreferrer">гусль</a>

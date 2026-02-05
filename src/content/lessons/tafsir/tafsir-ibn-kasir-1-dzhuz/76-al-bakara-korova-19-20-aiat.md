@@ -6,11 +6,9 @@ hits: 2270
 order: 76
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/audio/76-al-bakara-korova-19-20-aiat.mp3
+audio:  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/audio/76-al-bakara-korova-19-20-aiat.mp3
 audioRel: audio/76-al-bakara-korova-19-20-aiat.mp3
-video: >-
-  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/video/76-al-bakara-korova-19-20-aiat.mp4
+video: /media/tafsir/tafsir-ibn-kasir-1-dzhuz/video/76-al-bakara-korova-19-20-aiat.mp4
 videoRel: video/76-al-bakara-korova-19-20-aiat.mp4
 ---
 

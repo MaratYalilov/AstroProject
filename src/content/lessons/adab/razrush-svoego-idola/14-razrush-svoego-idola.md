@@ -8,6 +8,4 @@ audioRel: audio/14_razrush_svoego_idola.mp3
 video: /media/adab/razrush-svoego-idola/video/14_razrush_svoego_idola.mp4
 videoRel: video/14_razrush_svoego_idola.mp4
 ---
-# 14, Разрушь своего идола
-
-Конспекта урока не существует.
+# 14, Разрушь своего идола Конспекта урока не существует.

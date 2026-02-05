@@ -6,11 +6,9 @@ hits: 0
 order: 43
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/audio/43-al-burudzh-sozvezdiia-zodiaka-2.mp3
+audio:  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/audio/43-al-burudzh-sozvezdiia-zodiaka-2.mp3
 audioRel: audio/43-al-burudzh-sozvezdiia-zodiaka-2.mp3
-video: >-
-  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/video/43-al-burudzh-sozvezdiia-zodiaka-2.mp4
+video: /media/tafsir/tafsir-ibn-kasir-30-dzhuz/video/43-al-burudzh-sozvezdiia-zodiaka-2.mp4
 videoRel: video/43-al-burudzh-sozvezdiia-zodiaka-2.mp4
 ---
 

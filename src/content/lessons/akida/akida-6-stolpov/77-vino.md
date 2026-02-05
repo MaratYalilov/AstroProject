@@ -8,6 +8,4 @@ audioRel: audio/77-vino.mp3
 video: /media/akida/akida-6-stolpov/video/77-vino.mp4
 videoRel: video/77-vino.mp4
 ---
-# 77 Вино
-
-Смотри конспект урока # 75
+# 77 Вино Смотри конспект урока # 75

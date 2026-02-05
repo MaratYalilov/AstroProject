@@ -6,11 +6,9 @@ hits: 2408
 order: 79
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/audio/79-al-bakara-korova-25-26-aiat.mp3
+audio:  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/audio/79-al-bakara-korova-25-26-aiat.mp3
 audioRel: audio/79-al-bakara-korova-25-26-aiat.mp3
-video: >-
-  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/video/79-al-bakara-korova-25-26-aiat.mp4
+video: /media/tafsir/tafsir-ibn-kasir-1-dzhuz/video/79-al-bakara-korova-25-26-aiat.mp4
 videoRel: video/79-al-bakara-korova-25-26-aiat.mp4
 ---
 

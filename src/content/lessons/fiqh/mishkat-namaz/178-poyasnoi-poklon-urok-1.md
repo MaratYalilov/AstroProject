@@ -8,6 +8,4 @@ audioRel: audio/178-poyasnoi-poklon-urok-1.mp3
 video: /media/fiqh/mishkat-namaz/video/178-poyasnoi-poklon-urok-1.mp4
 videoRel: video/178-poyasnoi-poklon-urok-1.mp4
 ---
-# 178. Поясной поклон урок 1
-
-Конспекта урока не существует.
+# 178. Поясной поклон урок 1 Конспекта урока не существует.

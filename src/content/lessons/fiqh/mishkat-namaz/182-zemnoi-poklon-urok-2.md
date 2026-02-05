@@ -8,6 +8,4 @@ audioRel: audio/182-zemnoi-poklon-urok-2.mp3
 video: /media/fiqh/mishkat-namaz/video/182-zemnoi-poklon-urok-2.mp4
 videoRel: video/182-zemnoi-poklon-urok-2.mp4
 ---
-# 182. Земной поклон урок 2
-
-Конспекта урока не существует.
+# 182. Земной поклон урок 2 Конспекта урока не существует.

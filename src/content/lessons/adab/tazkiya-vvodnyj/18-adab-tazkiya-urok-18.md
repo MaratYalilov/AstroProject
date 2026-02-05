@@ -8,6 +8,4 @@ audioRel: audio/18-adab-tazkiya-urok-18.mp3
 video: /media/adab/tazkiya-vvodnyj/video/18-adab-tazkiya-urok-18.mp4
 videoRel: video/18-adab-tazkiya-urok-18.mp4
 ---
-# 18 <a href="/glossary/adab" class="glossary-link" target="_blank" rel="noopener noreferrer">Адаб</a> (тазкия) урок 18
-
-Конспекта урока не существует.
+# 18 <a href="/glossary/adab" class="glossary-link" target="_blank" rel="noopener noreferrer">Адаб</a> (тазкия) урок 18 Конспекта урока не существует.

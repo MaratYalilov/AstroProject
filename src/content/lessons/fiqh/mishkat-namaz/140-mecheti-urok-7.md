@@ -8,6 +8,4 @@ audioRel: audio/140-mecheti-urok-7.mp3
 video: /media/fiqh/mishkat-namaz/video/140-mecheti-urok-7.mp4
 videoRel: video/140-mecheti-urok-7.mp4
 ---
-# 140. Мечети урок 7
-
-Конспекта урока не существует.
+# 140. Мечети урок 7 Конспекта урока не существует.

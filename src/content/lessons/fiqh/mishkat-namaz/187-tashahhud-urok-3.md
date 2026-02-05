@@ -8,6 +8,4 @@ audioRel: audio/187-tashahhud-urok-3.mp3
 video: /media/fiqh/mishkat-namaz/video/187-tashahhud-urok-3.mp4
 videoRel: video/187-tashahhud-urok-3.mp4
 ---
-# 187. <a href="/glossary/tashakhkhud" class="glossary-link" target="_blank" rel="noopener noreferrer">Ташаххуд</a> урок 3
-
-Конспекта урока не существует.
+# 187. <a href="/glossary/tashakhkhud" class="glossary-link" target="_blank" rel="noopener noreferrer">Ташаххуд</a> урок 3 Конспекта урока не существует.

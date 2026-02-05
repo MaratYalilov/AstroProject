@@ -3,11 +3,9 @@ title: '9, Формы передачи Откровения'
 order: 9
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/sira/analiticheskaya-sira/audio/09-urok-sira-formy-peredachi-otkroveniya.mp3
+audio:  /media/sira/analiticheskaya-sira/audio/09-urok-sira-formy-peredachi-otkroveniya.mp3
 audioRel: audio/09-urok-sira-formy-peredachi-otkroveniya.mp3
-video: >-
-  /media/sira/analiticheskaya-sira/video/09-urok-sira-formy-peredachi-otkroveniya.mp4
+video: /media/sira/analiticheskaya-sira/video/09-urok-sira-formy-peredachi-otkroveniya.mp4
 videoRel: video/09-urok-sira-formy-peredachi-otkroveniya.mp4
 ---
 # 9, Формы передачи Откровения

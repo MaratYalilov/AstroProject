@@ -8,6 +8,4 @@ audioRel: audio/155-sutra-urok-3.mp3
 video: /media/fiqh/mishkat-namaz/video/155-sutra-urok-3.mp4
 videoRel: video/155-sutra-urok-3.mp4
 ---
-# 155. Сутра урок 3
-
-Конспекта урока не существует.
+# 155. Сутра урок 3 Конспекта урока не существует.

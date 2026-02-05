@@ -3,11 +3,9 @@ title: '8, Пророческий этап в жизни Избранника'
 order: 8
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/sira/analiticheskaya-sira/audio/08-urok-sira-prorocheskii-etap-v-zhizni-izbrannika.mp3
+audio:  /media/sira/analiticheskaya-sira/audio/08-urok-sira-prorocheskii-etap-v-zhizni-izbrannika.mp3
 audioRel: audio/08-urok-sira-prorocheskii-etap-v-zhizni-izbrannika.mp3
-video: >-
-  /media/sira/analiticheskaya-sira/video/08-urok-sira-prorocheskii-etap-v-zhizni-izbrannika.mp4
+video: /media/sira/analiticheskaya-sira/video/08-urok-sira-prorocheskii-etap-v-zhizni-izbrannika.mp4
 videoRel: video/08-urok-sira-prorocheskii-etap-v-zhizni-izbrannika.mp4
 ---
 # 8, Пророческий этап в жизни Избранника

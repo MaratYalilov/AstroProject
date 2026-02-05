@@ -8,6 +8,4 @@ hasVideo: true
 audioRel: audio/78_voda_posle_tayammum.mp3
 videoRel: video/78_voda_posle_tayammum.mp4
 ---
-# Voda posle tayammum
-
-Конспекта урока не существует.
+# Voda posle tayammum Конспекта урока не существует.

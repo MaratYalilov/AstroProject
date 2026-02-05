@@ -8,6 +8,7 @@ audioRel: audio/50-sposobnosti-angelov.mp3
 video: /media/akida/akida-6-stolpov/video/50-sposobnosti-angelov.mp4
 videoRel: video/50-sposobnosti-angelov.mp4
 ---
+
 <h1>Способности</h1>
 <p>Ангелы служат Аллаху на земле и на небесах. Таким образом, каждый момент, который имеет место в мире - результат деятельности ангелов.<br />Аллах сказал:</p>
 <p>{Quran}79:5{/Quran}</p>
@@ -18,7 +19,7 @@ videoRel: video/50-sposobnosti-angelov.mp4
 <h2>Подвижность</h2>
 <p>Ангелы способны преодолевать огромные расстояния с непостижимой разумом скоростью.<br />Аллах сказал:</p>
 <p>{Quran}70:4{/Quran}</p>
-<p>&nbsp;</p>
+
 <h2>Покорность</h2>
 <p>Ангелы, по природе, - покорные рабы Аллаха и не способны ослушиваться Его, в соответствии с текстами Корана:</p>
 <p>{Quran}16:49{/Quran}<br />{Quran}16:50{/Quran}</p>

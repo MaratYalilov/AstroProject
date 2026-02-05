@@ -8,6 +8,4 @@ audioRel: audio/143-mecheti-urok-10.mp3
 video: /media/fiqh/mishkat-namaz/video/143-mecheti-urok-10.mp4
 videoRel: video/143-mecheti-urok-10.mp4
 ---
-# 143. Мечети урок 10
-
-Конспекта урока не существует.
+# 143. Мечети урок 10 Конспекта урока не существует.

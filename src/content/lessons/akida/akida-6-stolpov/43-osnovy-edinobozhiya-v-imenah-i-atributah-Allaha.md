@@ -3,13 +3,12 @@ title: 43 Основы единобожия в именах и атрибута�
 order: 43
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/akida/akida-6-stolpov/audio/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp3
+audio:  /media/akida/akida-6-stolpov/audio/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp3
 audioRel: audio/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp3
-video: >-
-  /media/akida/akida-6-stolpov/video/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp4
+video: /media/akida/akida-6-stolpov/video/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp4
 videoRel: video/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp4
 ---
+
 <h2>Основы единобожия в именах Аллаха и Его атрибутах</h2>
 <ul>
 <li><strong>Все имена Аллаха имеют наивысшую степень красоты.</strong></li>
@@ -34,7 +33,7 @@ videoRel: video/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp4
 <p>Что же касается их истинной сущности, то это известно лишь Одному Аллаху.<br />Например, мы знаем, что у Аллаха есть Руки, но их истинную суть нам не дано познать, потому что Аллах сделал это сокровенным знанием.<br />Всевышний сказал:</p>
 <p>{Quran}20:110{/Quran}</p>
 <ul>
-<li>&nbsp;<strong>Нет схожести имен и атрибутов Аллаха с именами и атрибутами Его творений.</strong></li>
+<li> <strong>Нет схожести имен и атрибутов Аллаха с именами и атрибутами Его творений.</strong></li>
 </ul>
 <p>Схожесть имен и качеств Создателя в произношении и начертании с некоторыми именами и качествами Его созданий не означает их схожесть в сущности этих имен и качеств. Например: Его качество - Слух - схоже в произношении и начертании с качеством творений, однако это не означает, что эти качества схожи или одинаковы.<br />Аллах сказал:</p>
 <p>{Quran}16:74{/Quran}</p>
@@ -43,4 +42,4 @@ videoRel: video/43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha.mp4
 </ul>
 <p>Мы подтверждаем все атрибуты Аллаха, о которых Он сообщил нам и отрицаем какое либо сходство с качествами Его творений.<br />Аллах сказал:</p>
 <p>{Quran}42:11{/Quran}</p>
-<p>&nbsp;</p>
+

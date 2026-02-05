@@ -13,5 +13,4 @@ groupTitle: Вера в посланников
 <p>{Quran}42:13{/Quran}</p>
 <p>Аллах сказал:</p>
 <p>{Quran}33:7{/Quran}</p>
-<p>&nbsp;</p>
-<p><span style="font-family: \'times new roman\', times;">&nbsp;</span></p>
+

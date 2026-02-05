@@ -6,11 +6,9 @@ hits: 2553
 order: 57
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/audio/57-an-naziat-istorgaiushchie-1.mp3
+audio:  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/audio/57-an-naziat-istorgaiushchie-1.mp3
 audioRel: audio/57-an-naziat-istorgaiushchie-1.mp3
-video: >-
-  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/video/57-an-naziat-istorgaiushchie-1.mp4
+video: /media/tafsir/tafsir-ibn-kasir-30-dzhuz/video/57-an-naziat-istorgaiushchie-1.mp4
 videoRel: video/57-an-naziat-istorgaiushchie-1.mp4
 ---
 

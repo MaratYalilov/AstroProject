@@ -8,6 +8,4 @@ audioRel: audio/170-chtenie-korana-v-namaze-urok-2.mp3
 video: /media/fiqh/mishkat-namaz/video/170-chtenie-korana-v-namaze-urok-2.mp4
 videoRel: video/170-chtenie-korana-v-namaze-urok-2.mp4
 ---
-# 170 Чтение Корана в намазе урок 2
-
-Конспекта урока не существует.
+# 170 Чтение Корана в намазе урок 2 Конспекта урока не существует.

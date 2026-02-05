@@ -8,6 +8,7 @@ audioRel: audio/62-mesta-shodstva-mezhdu-shariatami.mp3
 video: /media/akida/akida-6-stolpov/video/62-mesta-shodstva-mezhdu-shariatami.mp4
 videoRel: video/62-mesta-shodstva-mezhdu-shariatami.mp4
 ---
+
 <h1>Места сходства между шариатами</h1>
 <ul>
 <li>Религия, с которой приходили все посланники от Аллаха, - это <a href="/glossary/islam" class="glossary-link" target="_blank" rel="noopener noreferrer">Ислам</a>, то есть подчинение Аллаху.</li>
@@ -18,7 +19,7 @@ videoRel: video/62-mesta-shodstva-mezhdu-shariatami.mp4
 <p>{Quran}3:85{/Quran}</p>
 <p>Аллах сообщает слова Его посланников, которые объявляли себя мусульманами.<br />Нух, мир ему, обращаясь к своему народу, говорил:</p>
 <p>{Quran}10:72{/Quran}</p>
-<p>&nbsp;</p>
+
 <p>Ибрагим - отец пророков, был мусульманином.<br />Аллах сказал:</p>
 <p>{Quran}2:131{/Quran}</p>
 <p>Аллах сказал:</p>
@@ -44,7 +45,7 @@ videoRel: video/62-mesta-shodstva-mezhdu-shariatami.mp4
 <p>Нух говорил своему народу:</p>
 <p>{Quran}71:17{/Quran}<br />{Quran}71:18{/Quran}</p>
 <ul>
-<li>&nbsp;Все пророки сообщали о Будущей жизни.</li>
+<li> Все пророки сообщали о Будущей жизни.</li>
 </ul>
 <p>Ибрагим взывал к Аллаху словами:</p>
 <p>{Quran}2:126{/Quran}</p>
@@ -54,12 +55,12 @@ videoRel: video/62-mesta-shodstva-mezhdu-shariatami.mp4
 <p>Аллах сказал:</p>
 <p>{Quran}23:24{/Quran}<br />{Quran}23:25{/Quran}</p>
 <ul>
-<li>&nbsp;Все пророки сообщали своим общинам о Даджале.</li>
+<li> Все пророки сообщали своим общинам о Даджале.</li>
 </ul>
 <p>Пророк, да благословит его Аллах и приветствует, сказал: "<em>Не было пророка, который бы не предупредил свой народ о его появлении</em>" <span class="hadis">[ Аль-Бухари, Муслим].</span></p>
-<p dir="rtl"><span class="arab">قَالَ رَسُولُ اللّهِ : "إِنِّى لأُنْذِرُكُمُوهُ ، وَمَا مِنْ نَبِىٍّ إِلاَّ وَقَدْ أَنْذَرَهُ قَوْمَهُ".</span></p>
+<p><span class="arab">قَالَ رَسُولُ اللّهِ : "إِنِّى لأُنْذِرُكُمُوهُ ، وَمَا مِنْ نَبِىٍّ إِلاَّ وَقَدْ أَنْذَرَهُ قَوْمَهُ".</span></p>
 <ul>
-<li>&nbsp;Все предыдущие общины верили в награду от Аллаха за праведные дела и то, что душа не понесет бремени за другую душу.</li>
+<li> Все предыдущие общины верили в награду от Аллаха за праведные дела и то, что душа не понесет бремени за другую душу.</li>
 </ul>
 <p>Аллах сказал:</p>
 <p>{Quran}53:36{/Quran}<br />{Quran}53:37{/Quran}<br />{Quran}53:38{/Quran}<br />{Quran}53:39{/Quran}<br />{Quran}53:40{/Quran}<br />{Quran}53:41{/Quran}</p>
@@ -85,15 +86,15 @@ videoRel: video/62-mesta-shodstva-mezhdu-shariatami.mp4
 <p>Аллах сказал:</p>
 <p>{Quran}2:183{/Quran}</p>
 <ul>
-<li>&nbsp;Аллах повелел Ибрагиму объявить всем людям о паломничестве.</li>
+<li> Аллах повелел Ибрагиму объявить всем людям о паломничестве.</li>
 </ul>
 <p>Аллах сказал:</p>
 <p>{Quran}22:27{/Quran}</p>
 <ul>
-<li>&nbsp;Все верующие во все времена боролись с ширком, грехами и несправедливостью.</li>
+<li> Все верующие во все времена боролись с ширком, грехами и несправедливостью.</li>
 </ul>
 <p>Аллах сообщил нам о призыве Лута:</p>
 <p>{Quran}7:80{/Quran}<br />{Quran}7:81{/Quran}</p>
 <p>Аллах сказал:</p>
 <p>{Quran}7:85{/Quran}<br />{Quran}7:86{/Quran}</p>
-<h1 style="text-align: justify;"><span style="font-family: 'times new roman', times;">&nbsp;</span></h1>
+<h1></h1>

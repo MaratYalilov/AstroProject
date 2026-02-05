@@ -8,6 +8,4 @@ audioRel: audio/82-mesto-vyhoda-dadzhalya.mp3
 video: /media/akida/akida-6-stolpov/video/82-mesto-vyhoda-dadzhalya.mp4
 videoRel: video/82-mesto-vyhoda-dadzhalya.mp4
 ---
-# 82 Место выхода даджаля
-
-Смотри конспект урока # 81
+# 82 Место выхода даджаля Смотри конспект урока # 81

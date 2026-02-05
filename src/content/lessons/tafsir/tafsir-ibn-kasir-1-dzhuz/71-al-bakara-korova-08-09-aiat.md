@@ -6,11 +6,9 @@ hits: 2587
 order: 71
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/audio/71-al-bakara-korova-08-09-aiat.mp3
+audio:  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/audio/71-al-bakara-korova-08-09-aiat.mp3
 audioRel: audio/71-al-bakara-korova-08-09-aiat.mp3
-video: >-
-  /media/tafsir/tafsir-ibn-kasir-1-dzhuz/video/71-al-bakara-korova-08-09-aiat.mp4
+video: /media/tafsir/tafsir-ibn-kasir-1-dzhuz/video/71-al-bakara-korova-08-09-aiat.mp4
 videoRel: video/71-al-bakara-korova-08-09-aiat.mp4
 ---
 

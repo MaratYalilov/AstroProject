@@ -1,5 +1,5 @@
 ---
-title: '7,  Фарзы и сунны омовения'
+title: '7, Фарзы и сунны омовения'
 order: 7
 hasAudio: true
 hasVideo: true
@@ -8,7 +8,7 @@ audioRel: audio/07-farzy-i-sunny-omoveniya.mp3
 video: /media/fiqh/nurul-idah/video/07-farzy-i-sunny-omoveniya.mp4
 videoRel: video/07-farzy-i-sunny-omoveniya.mp4
 ---
-# 7,  Фарзы и сунны омовения
+# 7, Фарзы и сунны омовения
 <p><span class="arab">فَصْلٌ فِي تمَامِ أَحْكَامِ الْوُضُوءِ</span></p>
 <p>Раздел: положения шариата связанные с омовением 1 -</p>
 <p><span class="arab">يَجِبُ غَسْلُ ظَاهِرِ اللِّحْيَةِ الْكَثَّةِ فيِ أَصَحِّ مَا يُفْتَى بِهِ</span></p>

@@ -8,11 +8,12 @@ audioRel: audio/03-akyda-istinnaya-i-lozhnaya.mp3
 video: /media/akida/akida-6-stolpov/video/03-akyda-istinnaya-i-lozhnaya.mp4
 videoRel: video/03-akyda-istinnaya-i-lozhnaya.mp4
 ---
+
 <p><strong>Акыда истинная и ложная</strong>
-<span class="arab"> <br /></span></p>
-<p dir="rtl"><span class="arab">العقيدة الصحيحة و العقيدة الفاسدة</span></p>
-<p><span style="color: black; font-family: times new roman,times; font-size: 18pt;"><span dir="RTL"><span dir="RTL"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;">&nbsp;</span></span></span></span></span></span></span></span></p>
-<p>Акыда может быть истинной и ложной, и ее формирование обуславливается различными причинными факторами и родом источников.<br />Источником истинной акыды является сообщение от Самого Всевышнего Аллаха, Который не оставил Свои творения блуждать в неведении после того, как создал их. Всякий раз, когда люди отходили от Его заповедей и заблуждались в неведении, не зная смысла и цели своего существования, Аллах направлял к ним Своих посланников с ясными знамениями, наставлениями и руководством для правильного ведения мирской жизни.<span style="color: black; font-family: times new roman,times; font-size: 18pt;"><span dir="RTL"><span dir="RTL"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"><span dir="RTL" style="color: black;"> <br /></span></span></span></span></span></span></span></span></p>
+</p>
+<p><span class="arab">العقيدة الصحيحة و العقيدة الفاسدة</span></p>
+
+<p>Акыда может быть истинной и ложной, и ее формирование обуславливается различными причинными факторами и родом источников.<br />Источником истинной акыды является сообщение от Самого Всевышнего Аллаха, Который не оставил Свои творения блуждать в неведении после того, как создал их. Всякий раз, когда люди отходили от Его заповедей и заблуждались в неведении, не зная смысла и цели своего существования, Аллах направлял к ним Своих посланников с ясными знамениями, наставлениями и руководством для правильного ведения мирской жизни.</span></p>
 <p><strong>Ложное вероубеждение обусловлено двумя причинами</strong><br /><strong>Первая причина</strong> - это искажение божественных писаний противниками религии или духовными деятелями ради своих корыстных целей. Примером тому являются иудеи и христиане, исказившие свои божественные писания, ниспосланные Аллахом Его посланникам.<br />Аллах сказал:</p>
 <p>{Quran}5:13{/Quran}<br />Аллах сказал:</p>
 <p>{Quran}2:79{/Quran}<br />

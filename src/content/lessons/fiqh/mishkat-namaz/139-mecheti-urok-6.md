@@ -8,6 +8,4 @@ audioRel: audio/139-mecheti-urok-6.mp3
 video: /media/fiqh/mishkat-namaz/video/139-mecheti-urok-6.mp4
 videoRel: video/139-mecheti-urok-6.mp4
 ---
-# 139. Мечети урок 6
-
-Конспекта урока не существует.
+# 139. Мечети урок 6 Конспекта урока не существует.

@@ -8,6 +8,4 @@ audioRel: audio/183-zemnoi-poklon-urok-3.mp3
 video: /media/fiqh/mishkat-namaz/video/183-zemnoi-poklon-urok-3.mp4
 videoRel: video/183-zemnoi-poklon-urok-3.mp4
 ---
-# 183. Земной поклон урок 3
-
-Конспекта урока не существует.
+# 183. Земной поклон урок 3 Конспекта урока не существует.

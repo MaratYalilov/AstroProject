@@ -3,11 +3,9 @@ title: 91 Доводы отрицающих мучения в могиле
 order: 91
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/akida/akida-6-stolpov/audio/91-dovody-otricayuschih-mucheniya-v-mogile.mp3
+audio:  /media/akida/akida-6-stolpov/audio/91-dovody-otricayuschih-mucheniya-v-mogile.mp3
 audioRel: audio/91-dovody-otricayuschih-mucheniya-v-mogile.mp3
-video: >-
-  /media/akida/akida-6-stolpov/video/91-dovody-otricayuschih-mucheniya-v-mogile.mp4
+video: /media/akida/akida-6-stolpov/video/91-dovody-otricayuschih-mucheniya-v-mogile.mp4
 videoRel: video/91-dovody-otricayuschih-mucheniya-v-mogile.mp4
 ---
 # 91 Доводы отрицающих мучения в могиле

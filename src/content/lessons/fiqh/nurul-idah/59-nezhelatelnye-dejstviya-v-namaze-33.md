@@ -8,6 +8,4 @@ audioRel: audio/59-nezhelatelnye-dejstviya-v-namaze-33.mp3
 video: /media/fiqh/nurul-idah/video/59-nezhelatelnye-dejstviya-v-namaze-33.mp4
 videoRel: video/59-nezhelatelnye-dejstviya-v-namaze-33.mp4
 ---
-# 59, Нежелательные действия в намазе-33
-
-Конспекта урока не существует.
+# 59, Нежелательные действия в намазе-33 Конспекта урока не существует.

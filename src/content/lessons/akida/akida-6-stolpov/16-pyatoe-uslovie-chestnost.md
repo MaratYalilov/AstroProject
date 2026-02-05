@@ -8,9 +8,10 @@ audioRel: audio/16-pyatoe-uslovie-chestnost.mp3
 video: /media/akida/akida-6-stolpov/video/16-pyatoe-uslovie-chestnost.mp4
 videoRel: video/16-pyatoe-uslovie-chestnost.mp4
 ---
-<li><strong>&nbsp;Честность, противоречащая лжи.</strong></li>
+
+<li><strong> Честность, противоречащая лжи.</strong></li>
 </ul>
-<p class="arab" dir="rtl">اّلصِّدْقُ الْمُنَافِي لِلْكَذِبِ</p>
+<p class="arab">اّلصِّدْقُ الْمُنَافِي لِلْكَذِبِ</p>
 <p>Под лжецами имеются в виду лицемеры, которые внешне демонстрируют веру, но в душе являются неверными.</p>
 <p>Аллах сказал:</p>
 <p>{Quran}2:8{/Quran}</p>

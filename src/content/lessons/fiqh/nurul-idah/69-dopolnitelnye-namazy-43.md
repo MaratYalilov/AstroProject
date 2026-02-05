@@ -8,6 +8,4 @@ audioRel: audio/69-dopolnitelnye-namazy-43.mp3
 video: /media/fiqh/nurul-idah/video/69-dopolnitelnye-namazy-43.mp4
 videoRel: video/69-dopolnitelnye-namazy-43.mp4
 ---
-# 69, Дополнительные намазы-43
-
-Конспекта урока не существует.
+# 69, Дополнительные намазы-43 Конспекта урока не существует.

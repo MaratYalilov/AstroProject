@@ -8,6 +8,4 @@ audioRel: audio/34-kniga-namaza-8.mp3
 video: /media/fiqh/nurul-idah/video/34-kniga-namaza-8.mp4
 videoRel: video/34-kniga-namaza-8.mp4
 ---
-# 34, Книга намаза-8
-
-Конспекта урока не существует.
+# 34, Книга намаза-8 Конспекта урока не существует.

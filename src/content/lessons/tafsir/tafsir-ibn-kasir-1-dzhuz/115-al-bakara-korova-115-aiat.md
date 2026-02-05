@@ -8,6 +8,4 @@ audioRel: audio/115-al-bakara-korova-115-aiat.mp3
 video: /media/tafsir/tafsir-ibn-kasir-1-dzhuz/video/115-al-bakara-korova-115-aiat.mp4
 videoRel: video/115-al-bakara-korova-115-aiat.mp4
 ---
-# 115, «аль-Бакара» - «Корова » - 115 аят
-
-Конспекта урока не существует.
+# 115, «аль-Бакара» - «Корова » - 115 аят Конспекта урока не существует.

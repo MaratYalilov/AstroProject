@@ -19,18 +19,16 @@ groupTitle: Вера в Писания
 <p>{Quran}6:125{/Quran}</p>
 <p><strong>Пример многобожника.</strong><br />Аллах сказал:</p>
 <p>{Quran}22:31{/Quran}</p>
-<p>&nbsp;</p>
+
 <p><strong>Пример деяний неверующих.</strong><br />Аллах сказал:</p>
 <p>{Quran}25:23{/Quran}<br />Аллах сказал:</p>
 <p>{Quran}3:116{/Quran}<br />{Quran}3:117{/Quran}</p>
 <p><strong>Пример того, кто отвратился от Аллаха и последовал за своими страстями.</strong><br />Аллах сказал:</p>
 <p>{Quran}7:176{/Quran}</p>
-<p>&nbsp;</p>
+
 <p><strong>Пример выхода из могил.</strong><br />Аллах сказал:</p>
 <p>{Quran}54:6{/Quran}<br />{Quran}54:7{/Quran}<br />{Quran}54:8{/Quran}</p>
 <p><strong>Пример злословия о брате мусульманине.</strong><br />Аллах сказал:</p>
 <p>{Quran}49:12{/Quran}</p>
-<p>&nbsp;</p>
-<p style="text-align: justify;">&nbsp;</p>
-<p style="text-align: justify;">&nbsp;</p>
-<h1 style="text-align: justify;"><span style="font-family: \'times new roman\', times;">&nbsp;</span></h1>
+
+<h1></h1>

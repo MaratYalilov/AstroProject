@@ -8,6 +8,4 @@ audioRel: audio/160-opisanie-namaza-urok-4.mp3
 video: /media/fiqh/mishkat-namaz/video/160-opisanie-namaza-urok-4.mp4
 videoRel: video/160-opisanie-namaza-urok-4.mp4
 ---
-# 160, Описание намаза урок 4
-
-Конспекта урока не существует.
+# 160, Описание намаза урок 4 Конспекта урока не существует.

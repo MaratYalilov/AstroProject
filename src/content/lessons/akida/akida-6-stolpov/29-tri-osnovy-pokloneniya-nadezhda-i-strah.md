@@ -3,23 +3,22 @@ title: 29 Три основы поклонения — надежда и стр�
 order: 29
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/akida/akida-6-stolpov/audio/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp3
+audio:  /media/akida/akida-6-stolpov/audio/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp3
 audioRel: audio/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp3
-video: >-
-  /media/akida/akida-6-stolpov/video/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp4
+video: /media/akida/akida-6-stolpov/video/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp4
 videoRel: video/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp4
 ---
+
 <p><strong>Надежда.</strong></p>
-<p>&nbsp;</p>
-<p dir="rtl"><span class="arab">الرجاء</span></p>
+
+<p><span class="arab">الرجاء</span></p>
 <p>Аллах характеризует верующих тем, что они надеются на Него.</p>
 <p>Аллах сказал:</p>
 <p>{Quran}2:218{/Quran}<br />Также Аллах сказал:</p>
 <p>{Quran}18:110{/Quran}<br />Надежда должна пробуждать страх, иначе настанет хладнокровие и невозмутимость. Также и страх должен порождать надежду, в противном случае, человек придёт к отчаянию.<br />Всевышний сказал:</p>
 <p>{Quran}7:99{/Quran}<br />Примером неправильного понимания надежды являются <a href="/glossary/murdzhiity" class="glossary-link" target="_blank" rel="noopener noreferrer">мурджииты</a>, которые надеются на милость Аллаха, оставляя при этом страх перед Его наказанием, вследствие чего пренебрегают поклонением Ему.<br /><strong>Страх.</strong></p>
-<p>&nbsp;</p>
-<p dir="rtl"><span class="arab">الخوف</span></p>
+
+<p><span class="arab">الخوف</span></p>
 <p>Аллах вменил страх в обязанность каждому человеку, сказав:</p>
 <p>{Quran}5:44{/Quran}<br />Также Всевышний сказал:</p>
 <p>{Quran}3:175{/Quran}<br />Но эти слова Всевышнего не означают оставление надежды, потому что о тех, кто забывает о милости Аллаха, Всевышний сказал:</p>
@@ -39,4 +38,4 @@ videoRel: video/29-tri-osnovy-pokloneniya-nadezhda-i-strah.mp4
 <p>Один ученый сказал: «<em>Сердце человека на пути к Аллаху похоже на птицу. Любовь – это ее голова, а страх и надежда - ее крылья. Если с ними все в порядке - она сможет летать. Если же оторвать птице голову - она умрет, а если подрезать ей крылья, то она станет добычей любого охотника или хищника</em>».</p>
 <p>Настоящий верующий надеется на милость Аллаха, и это побуждает его поклоняться Аллаху с любовью и желанием встречи с Ним. Когда он чувствует страх перед наказанием Аллаха, то готов растаять от трепета перед Ним, и это также движет его к подчинению Ему. Поэтому он постоянно находится в поисках довольства Аллаха, устремляясь к Нему со страхом и надеждой.<br />Мудрость гласит: «<em>Тот, кто боится сотворенного бежит от него, а тот, кто боится Творца бежит к Нему</em>».</p>
 <p>Таким образом, раб Аллаха обязан строить свое поклонение на этих трёх столпах: любви, надежде и страхе, претворяя в жизнь единобожие и веру.</p>
-<p style="text-align: left;"><span style="font-family: book antiqua,palatino; font-size: 12pt;"></span></p>
+

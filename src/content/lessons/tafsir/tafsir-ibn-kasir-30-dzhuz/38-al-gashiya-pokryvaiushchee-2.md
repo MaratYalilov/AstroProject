@@ -6,11 +6,9 @@ hits: 1770
 order: 38
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/audio/38-al-gashiya-pokryvaiushchee-2.mp3
+audio:  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/audio/38-al-gashiya-pokryvaiushchee-2.mp3
 audioRel: audio/38-al-gashiya-pokryvaiushchee-2.mp3
-video: >-
-  /media/tafsir/tafsir-ibn-kasir-30-dzhuz/video/38-al-gashiya-pokryvaiushchee-2.mp4
+video: /media/tafsir/tafsir-ibn-kasir-30-dzhuz/video/38-al-gashiya-pokryvaiushchee-2.mp4
 videoRel: video/38-al-gashiya-pokryvaiushchee-2.mp4
 ---
 

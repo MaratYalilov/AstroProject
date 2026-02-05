@@ -8,6 +8,4 @@ audioRel: audio/80-razrushenie-kaby.mp3
 video: /media/akida/akida-6-stolpov/video/80-razrushenie-kaby.mp4
 videoRel: video/80-razrushenie-kaby.mp4
 ---
-# 80 Разрушение Каабы
-
-Смотри конспект урока # 75
+# 80 Разрушение Каабы Смотри конспект урока # 75

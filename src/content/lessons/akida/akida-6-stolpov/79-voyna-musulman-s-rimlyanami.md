@@ -8,6 +8,4 @@ audioRel: audio/79-voyna-musulman-s-rimlyanami.mp3
 video: /media/akida/akida-6-stolpov/video/79-voyna-musulman-s-rimlyanami.mp4
 videoRel: video/79-voyna-musulman-s-rimlyanami.mp4
 ---
-# 79 Война мусульман с римлянами
-
-Смотри конспект урока # 75
+# 79 Война мусульман с римлянами Смотри конспект урока # 75

@@ -8,6 +8,4 @@ audioRel: audio/07-adab-tazkiya-urok-07.mp3
 video: /media/adab/tazkiya-vvodnyj/video/07-adab-tazkiya-urok-07.mp4
 videoRel: video/07-adab-tazkiya-urok-07.mp4
 ---
-# 7 <a href="/glossary/adab" class="glossary-link" target="_blank" rel="noopener noreferrer">Адаб</a> (тазкия) урок 7
-
-Конспекта урока не существует.
+# 7 <a href="/glossary/adab" class="glossary-link" target="_blank" rel="noopener noreferrer">Адаб</a> (тазкия) урок 7 Конспекта урока не существует.

@@ -8,6 +8,4 @@ audioRel: audio/145-mecheti-urok-12.mp3
 video: /media/fiqh/mishkat-namaz/video/145-mecheti-urok-12.mp4
 videoRel: video/145-mecheti-urok-12.mp4
 ---
-# 145, Мечети урок 12
-
-Конспекта урока не существует.
+# 145, Мечети урок 12 Конспекта урока не существует.

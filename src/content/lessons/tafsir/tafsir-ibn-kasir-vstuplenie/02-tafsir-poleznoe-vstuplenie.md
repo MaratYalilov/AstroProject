@@ -6,16 +6,14 @@ hits: 2835
 order: 2
 hasAudio: true
 hasVideo: true
-audio: >-
-  /media/tafsir/tafsir-ibn-kasir-vstuplenie/audio/02-tafsir-poleznoe-vstuplenie.mp3
+audio:  /media/tafsir/tafsir-ibn-kasir-vstuplenie/audio/02-tafsir-poleznoe-vstuplenie.mp3
 audioRel: audio/02-tafsir-poleznoe-vstuplenie.mp3
-video: >-
-  /media/tafsir/tafsir-ibn-kasir-vstuplenie/video/02-tafsir-poleznoe-vstuplenie.mp4
+video: /media/tafsir/tafsir-ibn-kasir-vstuplenie/video/02-tafsir-poleznoe-vstuplenie.mp4
 videoRel: video/02-tafsir-poleznoe-vstuplenie.mp4
 ---
 
 <h1>Полезное вступление</h1>
-<p>Сказал Катада: <em>В Медине были ниспосланы</em><strong><em> </em></strong>«<strong>Бакара</strong>» [2], «<strong>Семейство Имрана</strong>» [3], «<strong>Женщины</strong>» [4], «<strong>Трапеза</strong>» [5], «<strong>Добыча</strong>» [8], «<strong>Покаяние</strong>» [9], «<strong>Гром</strong>» [13], «<strong>Пчелы</strong>» [16], «<strong><a href="/glossary/khadzh" class="glossary-link" target="_blank" rel="noopener noreferrer">Хадж</a></strong>» [22], «<strong>Свет</strong>» [24], «<strong>Сонмы</strong>» [32], «<strong>Мухаммад</strong>» [47], «<strong>Победа</strong>» [48], «<strong>Комнаты</strong>» [49], «<strong>Милостивый</strong>» [55], «<strong>Железо</strong>» [57], «<strong>Препирающаяся</strong>» [58], «<strong>Собрание</strong>» [59], «<strong>Испытуемая</strong>» [60], «<strong>Ряды</strong>» [61], «<strong>Собрание</strong>» [62], «<strong>Лицемеры</strong>» [63], «<strong>Взаимный обман</strong>» [64], «<strong>Развод</strong>» [65], «<strong>Запрещение</strong>» [66, первые 10 аятов], «<strong>Землетрясение</strong>» [99], «<strong>Помощь</strong>» [110].</p><p><em>Остальные суры были ниспосланы в Мекке</em>.</p>
+<p>Сказал Катада: <em>В Медине были ниспосланы</em>«<strong>Бакара</strong>» [2], «<strong>Семейство Имрана</strong>» [3], «<strong>Женщины</strong>» [4], «<strong>Трапеза</strong>» [5], «<strong>Добыча</strong>» [8], «<strong>Покаяние</strong>» [9], «<strong>Гром</strong>» [13], «<strong>Пчелы</strong>» [16], «<strong><a href="/glossary/khadzh" class="glossary-link" target="_blank" rel="noopener noreferrer">Хадж</a></strong>» [22], «<strong>Свет</strong>» [24], «<strong>Сонмы</strong>» [32], «<strong>Мухаммад</strong>» [47], «<strong>Победа</strong>» [48], «<strong>Комнаты</strong>» [49], «<strong>Милостивый</strong>» [55], «<strong>Железо</strong>» [57], «<strong>Препирающаяся</strong>» [58], «<strong>Собрание</strong>» [59], «<strong>Испытуемая</strong>» [60], «<strong>Ряды</strong>» [61], «<strong>Собрание</strong>» [62], «<strong>Лицемеры</strong>» [63], «<strong>Взаимный обман</strong>» [64], «<strong>Развод</strong>» [65], «<strong>Запрещение</strong>» [66, первые 10 аятов], «<strong>Землетрясение</strong>» [99], «<strong>Помощь</strong>» [110].</p><p><em>Остальные суры были ниспосланы в Мекке</em>.</p>
 <p><em>Остальные суры были ниспосланы в Мекке</em>.</p>
 <ul class="list">
 <li><strong>Количество аятов в Коране</strong>. Все единогласны, что их <strong>6000</strong>, а дальше идет разногласие на сколько больше шести тысяч.
@@ -29,7 +27,7 @@ videoRel: video/02-tafsir-poleznoe-vstuplenie.mp4
 </ol>
 </li>
 <li><strong>Количество слов в Коране</strong>. Сказал Ата ибн Ясар: <strong>77439</strong>.</li>
-<li><strong>Количество букв в Коране</strong>: Со слов Муджахида <strong>321280</strong>. Также было сказано, что букв <strong><em>323015</em></strong>, также есть мнение что, <em><strong>340740</strong></em>.</li>
+<li><strong>Количество букв в Коране</strong>: Со слов Муджахида <strong>321280</strong>. Также было сказано, что букв <strong><em>323015</em></strong>, также есть мнение что, <strong><em>340740</em></strong>.</li>
 <li><strong>Количество джузов (частей) 30</strong>, как это распространено.</li>
 </ul>
 <p>А другое деление (тахзиб), то имеется хадис со слов Ауса ибн Хузайфа, который спросил у сподвижников Посланника Аллаха, да благословит его Аллах и приветствует, как они делили Коран при чтении? Он сказал: <em>три, пять, семь, девять, одиннадцать, тринадцать, и остальные суры от суры «Каф» до конца Корана</em> [Ахмад, Абу Дауд,1393; ибн Маджа, 1345, сказал Альбани: <em>слабый, хотя ибн Касир не упомянул о его слабости]</em>.
@@ -45,7 +43,7 @@ videoRel: video/02-tafsir-poleznoe-vstuplenie.mp4
 <br><span class="arab">{لَيَسْتَخْلِفَنَّهُمْ}</span> - сура 24, «<strong>Свет</strong>», 55
 <br><span class="arab">{أَنُلْزِمُكُمُوهَا}</span> - сура 11, «<strong>Худ</strong>», 28
 <br><span class="arab">{فَأَسْقَيْنَاكُمُوهُ}</span> сура 15, «<strong><a href="/glossary/khidzhr" class="glossary-link" target="_blank" rel="noopener noreferrer">Хиджр</a></strong>», 22.
-<br>Иногда одно слово может быть аятом. Как <span class="arab">{و الفجر}</span> <span class="arab">{و العصر}</span> а также <span class="arab">ألم</span>, <span class="arab">يس</span>, <span class="arab">طه</span> и другие по мнению ученых Куфы. Другие же ученые не считают их аятами, а называют «<em>начало</em> <em>сур</em>». Сказал Абу Амр Дани<em>: я не знаю аят состоящий из одного слова, кроме слов Всевышнего: </em><span class="arab">{مُدْهَامَّتَانِ}</span> – сура 55, «<strong>Милостивый</strong>», 64.</p>
+<br>Иногда одно слово может быть аятом. Как <span class="arab">{و الفجر}</span> <span class="arab">{و العصر}</span> а также <span class="arab">ألم</span>, <span class="arab">يس</span>, <span class="arab">طه</span> и другие по мнению ученых Куфы. Другие же ученые не считают их аятами, а называют «<em>начало сур</em>». Сказал Абу Амр Дани<em>: я не знаю аят состоящий из одного слова, кроме слов Всевышнего: </em><span class="arab">{مُدْهَامَّتَانِ}</span> – сура 55, «<strong>Милостивый</strong>», 64.</p>
 <p><span class="arab">سورة</span> <span class="arab">الفاتحة</span> – сура «<strong>Фатиха</strong>».
 <br>Её называют «<strong>Фатиха</strong>» («<em>открывающая</em>») то есть открывающая книгу (Коран) на письме, а также с неё начинают чтение Корана в намазах.
 <br>Другое название <span class="arab">أُمُّ الْكِتَابِ</span> <strong class="arab">мать книги</strong> по мнению большинства ученых.</p>
@@ -89,7 +87,7 @@ videoRel: video/02-tafsir-poleznoe-vstuplenie.mp4
 <p>В ней семь аятов и в этом нет разногласия. Также было сказано, что в ней восемь или шесть аятов.
 <br>Разногласие в басмаля, является ли она отдельным аятом в начале суре «Фатиха» [это мнение чтецов Куфы и группы сподвижников и табиин] или она часть аята или не является аятом из суры «Фатиха» [это мнение ученых Медины: чтецов и факихов]. Это будет разобрано позднее.
 <br><strong>Количество слов в суре – 25. Количество букв – 130.</strong></p>
-<p><em><strong>Сказал Бухари в начале книги тафсира: </strong></em></p>
+<p><strong><em>Сказал Бухари в начале книги тафсира: </em></strong></p>
 <p><em>Названа «</em><strong>Уммуль</strong><em>-</em><strong>Куран</strong><em>» так, как её первой записывают в мусхафах, и с ней начинается чтение Корана в намазе.</em></p>
 <ul class="list">
 <li>Было сказано: она названа так, потому что весь смысл Корана возвращается к ней и имеется в этой суре.</li>
