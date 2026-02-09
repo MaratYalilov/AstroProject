@@ -24,7 +24,7 @@ videoRel: video/55-chudo-korana-nauki.mp4
 <p><strong>Шарообразность земли.</strong><br />Аллах сказал:</p>
 <p>{Quran}39:5{/Quran}</p>
 <p><strong>Строение и функции гор.</strong><br />Аллах сказал:</p>
-<p>{Quran}78:6{/Quran}<br />{Quran}78:7{/Quran}<br />Также Аллах сказал:</p>
+<p>{Quran}78:6-7{/Quran}<br />Также Аллах сказал:</p>
 <p>{Quran}21:31{/Quran}</p>
 <p>Аллах сказал:</p>
 <p>{Quran}31:10{/Quran}</p>
@@ -44,16 +44,16 @@ videoRel: video/55-chudo-korana-nauki.mp4
 <p>Аллах сказал:</p>
 <p>{Quran}24:43{/Quran}</p>
 <p><strong>Преграды между морями.</strong><br />Аллах сказал:</p>
-<p>{Quran}55:19{/Quran}<br />{Quran}55:20{/Quran}</p>
+<p>{Quran}55:19-20{/Quran}</p>
 <p><strong>Головной мозг.</strong><br />Аллах сказал:</p>
-<p>{Quran}96:15{/Quran}<br />{Quran}96:16{/Quran}</p>
+<p>{Quran}96:15-16{/Quran}</p>
 <p><strong>Рецепторный аппарат кожи.</strong><br />Аллах сказал:</p>
 <p>{Quran}4:56{/Quran}</p>
 <p><strong>Эмбриональное развитие человека.</strong><br />Аллах сказал:</p>
-<p>{Quran}86:5{/Quran}<br />{Quran}86:6{/Quran}<br />Аллах сказал:</p>
-<p>{Quran}23:12{/Quran}<br />{Quran}23:13{/Quran}<br />{Quran}23:14{/Quran}</p>
+<p>{Quran}86:5-6{/Quran}<br />Аллах сказал:</p>
+<p>{Quran}23:12-14{/Quran}</p>
 <p><strong>Выход в космос.</strong><br />Аллах сказал:</p>
-<p>{Quran}15:14{/Quran}<br />{Quran}15:15{/Quran}</p>
+<p>{Quran}15:14-15{/Quran}</p>
 <div>
 <h2>Беспристрастное и объективное исследование Корана приводит к следующему заключению</h2>
 <ol>

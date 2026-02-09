@@ -19,7 +19,7 @@ intro: >
   </ul>
   <p>Но в Судный день даже не мусульмане будут наказаны за оставление намаза и других велений Аллаха.</p>
   <p>Сказал Всевышний:</p>
-  <p>{Quran}74:40{/Quran}<br />{Quran}74:41{/Quran}<br />{Quran}74:42{/Quran}<br />{Quran}74:43{/Quran}<br />{Quran}74:44{/Quran}<br />{Quran}74:45{/Quran}<br />{Quran}74:46{/Quran}<br />{Quran}74:47{/Quran}</p>
+  <p>{Quran}74:40-47{/Quran}</p>
   <ul>
   <li> <strong>Разумный</strong>; Посланник Аллаха, да благословит его Аллах и приветствует, сказал:</li>
   </ul>
@@ -68,7 +68,7 @@ videoRel: video/98-obyazatelnost-soversheniya-namaza.mp4
 </ul>
 <p>Но в Судный день даже не мусульмане будут наказаны за оставление намаза и других велений Аллаха.</p>
 <p>Сказал Всевышний:</p>
-<p>{Quran}74:40{/Quran}<br />{Quran}74:41{/Quran}<br />{Quran}74:42{/Quran}<br />{Quran}74:43{/Quran}<br />{Quran}74:44{/Quran}<br />{Quran}74:45{/Quran}<br />{Quran}74:46{/Quran}<br />{Quran}74:47{/Quran}</p>
+<p>{Quran}74:40-47{/Quran}</p>
 <ul>
 <li> <strong>Разумный</strong>; Посланник Аллаха, да благословит его Аллах и приветствует, сказал:</li>
 </ul>

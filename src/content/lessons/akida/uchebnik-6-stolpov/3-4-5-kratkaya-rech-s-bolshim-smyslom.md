@@ -22,13 +22,12 @@ groupTitle: Вера в Писания
 
 <p><strong>Пример деяний неверующих.</strong><br />Аллах сказал:</p>
 <p>{Quran}25:23{/Quran}<br />Аллах сказал:</p>
-<p>{Quran}3:116{/Quran}<br />{Quran}3:117{/Quran}</p>
+<p>{Quran}3:116-117{/Quran}</p>
 <p><strong>Пример того, кто отвратился от Аллаха и последовал за своими страстями.</strong><br />Аллах сказал:</p>
 <p>{Quran}7:176{/Quran}</p>
 
 <p><strong>Пример выхода из могил.</strong><br />Аллах сказал:</p>
-<p>{Quran}54:6{/Quran}<br />{Quran}54:7{/Quran}<br />{Quran}54:8{/Quran}</p>
+<p>{Quran}54:6-8{/Quran}</p>
 <p><strong>Пример злословия о брате мусульманине.</strong><br />Аллах сказал:</p>
 <p>{Quran}49:12{/Quran}</p>
 
-<h1></h1>

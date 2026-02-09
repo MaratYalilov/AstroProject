@@ -87,7 +87,7 @@ videoRel: video/54-voda-posle-omoveniya.mp4
 <p> Мыться в бане.</p>
 <p><strong>Аяты поста в Коране.</strong></p>
 <p>Сказал Всевышний Аллах:</p>
-<p>{Quran}2:183{/Quran}<br>{Quran}2:184{/Quran}<br>{Quran}2:185{/Quran}<br>{Quran}2:186{/Quran}<br>{Quran}2:187{/Quran}</p>
+<p>{Quran}2:183-187{/Quran}</p>
 <p><strong> Игътикаф</strong>-Это долгое нахождение в мечети с намерением игътикафа.</p>
 <p> <strong>Игътикаф бывает трех видов:</strong></p>
 <ol>
