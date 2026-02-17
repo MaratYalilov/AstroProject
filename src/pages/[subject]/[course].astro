@@ -112,14 +112,19 @@ if (hasLessons) {
 ---
 
 <Base title={`${subjectEntry.data.title} — ${courseTitle}`}>
-<Breadcrumbs
-  items={[
-    { label: "HUTBA", href: "/" },
-    { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
-    { label: courseTitle, href: `/${subjectEntry.data.slug}/${course}` },
-    ...(currentLesson ? [{ label: currentLesson.title }] : []),
-  ]}
-/>
+  <Breadcrumbs
+    items={[
+      { label: "HUTBA", href: "/" },
+      { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
+      { label: courseTitle, href: `/${subject}/${course}` },
+      {
+        label:
+          hasLessons && currentLesson
+            ? currentLesson.title
+            : "Урок не найден",
+      },
+    ]}
+  />
 
 
 {
