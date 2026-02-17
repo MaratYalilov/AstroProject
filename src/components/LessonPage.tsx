@@ -161,6 +161,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
 
     function enableIfAvailable() {
       if (cancelled) return;
+      if (!vid) return;
       try {
         const tts = Array.from(vid.textTracks || []);
         const tt = tts.find(
