@@ -50,4 +50,4 @@ videoRel: video/09-an-nas-lyudi.mp4
   <div class="hadith-reference">Абу Дауд, 5112
 </div>
 </div>
-<p>.</span></p>
+
