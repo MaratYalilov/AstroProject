@@ -6,6 +6,7 @@ import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { getCollection } from "astro:content";
 import LessonPage from "../../components/LessonPage";
 import BlogLessonPage from "../../components/blog";
+import { experimental_AstroContainer } from "astro/container";
 
 export async function getStaticPaths() {
   const courses = await getCollection("courses");
@@ -49,12 +50,37 @@ const allLessons = (await getCollection("lessons"))
 const hasLessons = allLessons.length > 0;
 const emptyStateMessage = "Для выбраного курса уроки ещё не загружены";
 
-let currentLesson = null;
-let lessons = [];
+let currentLesson: {
+  slug: string;
+  title: string;
+  order?: number;
+  html: string;
+  hasAudio?: boolean;
+  hasVideo?: boolean;
+  audio?: string | null;
+  video?: string | null;
+} | null = null;
+
+let lessons: {
+  slug: string;
+  title: string;
+  order?: number;
+  hasAudio?: boolean;
+  hasVideo?: boolean;
+}[] = [];
+
+
+// AstroContainer нужен чтобы отрендерить MD в HTML строку
+const astroContainer = await experimental_AstroContainer.create();
 
 // берём первый урок как текущий
 if (hasLessons) {
   const current = allLessons[0];
+
+  // Рендерим MD → HTML
+  const { Content } = await current.render();
+  const rawHtml = await astroContainer.renderToString(Content);
+  const html = replaceQuranTags(rawHtml);
 
   const audioUrl = current.data.audioRel
     ? `/media/${subject}/${course}/${current.data.audioRel}`
@@ -72,8 +98,7 @@ if (hasLessons) {
     hasVideo: Boolean(current.data.hasVideo ?? videoUrl),
     audio: audioUrl,
     video: videoUrl,
-    // html: current.body,
-    html: replaceQuranTags(current.body ?? ""),
+    html,
   };
 
   lessons = allLessons.map((l) => ({
@@ -89,37 +114,38 @@ if (hasLessons) {
 <Base title={`${subjectEntry.data.title} — ${courseTitle}`}>
   <Breadcrumbs
     items={[
-      { label: "Главная", href: "/" },
+      { label: "HUTBA", href: "/" },
       { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
       { label: courseTitle },
     ]}
   />
 
-  {
-    hasLessons ? (
-      isBlogLayout ? (
-        <BlogLessonPage
-          client:load
-          subject={subject}
-          course={course}
-          courseTitle={courseTitle}
-          currentLesson={currentLesson}
-          lessons={lessons}
-        />
-      ) : (
-        <LessonPage
-          client:load
-          subject={subject}
-          course={course}
-          courseTitle={courseTitle}
-          currentLesson={currentLesson}
-          lessons={lessons}
-        />
-      )
+{
+  hasLessons && currentLesson ? (
+    isBlogLayout ? (
+      <BlogLessonPage
+        client:load
+        subject={subject}
+        course={course}
+        courseTitle={courseTitle}
+        currentLesson={currentLesson}
+        lessons={lessons}
+      />
     ) : (
-      <section class="no-lessons-message">
-        <p>{emptyStateMessage}</p>
-      </section>
+      <LessonPage
+        client:load
+        subject={subject}
+        course={course}
+        courseTitle={courseTitle}
+        currentLesson={currentLesson}
+        lessons={lessons}
+      />
     )
-  }
+  ) : (
+    <section class="no-lessons-message">
+      <p>{emptyStateMessage}</p>
+    </section>
+  )
+}
+
 </Base>
