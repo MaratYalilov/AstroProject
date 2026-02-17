@@ -4,4 +4,4 @@ emoji: "📖"
 order: 3
 description: "Толкование аятов Корана и основы наук Корана."
 iconClass: "w-12 h-12"
-icon: "subject-icons/tafsir.svg"
+icon: "/subject-icons/tafsir.svg"

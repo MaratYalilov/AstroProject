@@ -8,4 +8,5 @@ audioRel: audio/65-dejstviya-dozvolennye-v-namaze-38.mp3
 video: /media/fiqh/nurul-idah/video/65-dejstviya-dozvolennye-v-namaze-38.mp4
 videoRel: video/65-dejstviya-dozvolennye-v-namaze-38.mp4
 ---
-# 65, Действия дозволенные в намазе Конспекта урока не существует.
+# 65, Действия дозволенные в намазе 
+Конспекта урока не существует.

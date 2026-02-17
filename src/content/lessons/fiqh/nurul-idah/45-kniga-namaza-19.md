@@ -8,4 +8,5 @@ audioRel: audio/45-kniga-namaza-19.mp3
 video: /media/fiqh/nurul-idah/video/45-kniga-namaza-19.mp4
 videoRel: video/45-kniga-namaza-19.mp4
 ---
-# 45, Книга намаза-19 Конспекта урока не существует.
+# 45, Книга намаза-19 
+Конспекта урока не существует.

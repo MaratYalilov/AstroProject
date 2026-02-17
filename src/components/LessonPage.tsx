@@ -6,7 +6,6 @@ import {
   ChevronLeft,
   ChevronRight,
   CheckCircle2,
-  FileText,
   Headphones,
   Download,
   X,
@@ -16,8 +15,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Input } from "@/components/ui/input";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { Video, Music } from "lucide-react";
+import { LayoutList } from "lucide-react";
 
 export interface LessonSidebarItem {
   slug: string; // например "fiqh/mishkat-taharat/05-omovenie-i-namaz"
@@ -44,6 +43,7 @@ export interface LessonPageProps {
   lessons: LessonSidebarItem[]; // все уроки курса (для правой панели)
 }
 
+
 const LessonPage: React.FC<LessonPageProps> = ({
   subject,
   course,
@@ -60,6 +60,16 @@ const LessonPage: React.FC<LessonPageProps> = ({
     () => new Set()
   );
 
+  const [mediaMode, setMediaMode] = React.useState<"video" | "audio" | "none">(
+    currentLesson.video ? "video" : currentLesson.audio ? "audio" : "none"
+  );
+
+  React.useEffect(() => {
+    setMediaMode(
+      currentLesson.video ? "video" : currentLesson.audio ? "audio" : "none"
+    );
+  }, [currentLesson.video, currentLesson.audio, currentLesson.slug]);
+
   function getVideoPoster(videoUrl?: string | null): string | undefined {
     if (!videoUrl) return undefined;
 
@@ -74,6 +84,8 @@ const LessonPage: React.FC<LessonPageProps> = ({
   // ---------------------------
   const videoRef = React.useRef<HTMLVideoElement | null>(null);
   const [vttUrl, setVttUrl] = React.useState<string | null>(null);
+  const [isPlaying, setIsPlaying] = React.useState(false);
+
 
   // Если true — попытаемся автоматически включить дорожку (textTrack.mode = 'showing')
   const AUTO_ENABLE_SUBS = false;
@@ -93,7 +105,9 @@ const LessonPage: React.FC<LessonPageProps> = ({
       // Если URL абсолютный (с доменом), то мы всё равно работаем со строкой
       // Ищем сегмент "/video/" и заменяем на "/vtt/"
       if (videoUrl.includes("/video/")) {
-        return videoUrl.replace(/\/video\//, "/vtt/").replace(/\.(mp4|webm|mov)$/i, ".vtt");
+        return videoUrl
+          .replace(/\/video\//, "/vtt/")
+          .replace(/\.(mp4|webm|mov)$/i, ".vtt");
       }
       // fallback: если нет /video/ — просто заменим расширение
       return videoUrl.replace(/\.(mp4|webm|mov)$/i, ".vtt");
@@ -150,7 +164,10 @@ const LessonPage: React.FC<LessonPageProps> = ({
       try {
         const tts = Array.from(vid.textTracks || []);
         const tt = tts.find(
-          (t) => t.label === "Русский" || t.language === "ru" || (t as any).src?.endsWith(vttUrl)
+          (t) =>
+            t.label === "Русский" ||
+            t.language === "ru" ||
+            (t as any).src?.endsWith(vttUrl)
         );
         if (tt) tt.mode = "showing";
       } catch {}
@@ -175,7 +192,8 @@ const LessonPage: React.FC<LessonPageProps> = ({
     }
   }, [vttUrl]);
 
-  // --------------------------- end SUBTITLES
+  // --------------------------- 
+  // end SUBTITLES
   // ---------------------------
 
   React.useEffect(() => {
@@ -273,7 +291,13 @@ const LessonPage: React.FC<LessonPageProps> = ({
   // =============================
   const [query, setQuery] = React.useState("");
   const searchInputRef = React.useRef<HTMLInputElement | null>(null);
-  const sidebarScrollRef = React.useRef<HTMLDivElement | null>(null);
+
+  // ВАЖНО: refs отдельно для мобилки и десктопа, иначе React перезаписывает их
+  const sidebarScrollMobileRef = React.useRef<HTMLDivElement | null>(null);
+  const sidebarScrollDesktopRef = React.useRef<HTMLDivElement | null>(null);
+
+  const activeLessonMobileRef = React.useRef<HTMLAnchorElement | null>(null);
+  const activeLessonDesktopRef = React.useRef<HTMLAnchorElement | null>(null);
 
   const normalizedQuery = query.trim().toLowerCase();
 
@@ -283,7 +307,9 @@ const LessonPage: React.FC<LessonPageProps> = ({
     let result = lessons.filter((l) => {
       const title = l.title.toLowerCase();
       const orderStr = l.order != null ? String(l.order) : "";
-      return title.includes(normalizedQuery) || orderStr.includes(normalizedQuery);
+      return (
+        title.includes(normalizedQuery) || orderStr.includes(normalizedQuery)
+      );
     });
 
     // если текущий урок не попал в фильтр — добавим его сверху,
@@ -316,9 +342,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
       }
 
       if (matchIndex > index) {
-        parts.push(
-          <span key={key++}>{title.slice(index, matchIndex)}</span>
-        );
+        parts.push(<span key={key++}>{title.slice(index, matchIndex)}</span>);
       }
 
       parts.push(
@@ -339,266 +363,330 @@ const LessonPage: React.FC<LessonPageProps> = ({
   // =============================
   // автопрокрутка к активному уроку + скролл страницы наверх
   // =============================
-  const activeLessonRef = React.useRef<HTMLAnchorElement | null>(null);
+    React.useEffect(() => {
+    if (typeof window === "undefined") return;
 
-  React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-    }
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 
-    if (sidebarScrollRef.current && activeLessonRef.current) {
-      const container = sidebarScrollRef.current;
-      const target = activeLessonRef.current;
-      const containerRect = container.getBoundingClientRect();
-      const targetRect = target.getBoundingClientRect();
+    const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
 
-      const offset =
-        targetRect.top -
-        containerRect.top -
-        containerRect.height / 2 +
-        targetRect.height / 2;
+    const container = isDesktop
+      ? sidebarScrollDesktopRef.current
+      : sidebarScrollMobileRef.current;
 
-      container.scrollTo({
-        top: container.scrollTop + offset,
-        behavior: "smooth",
+    const target = isDesktop
+      ? activeLessonDesktopRef.current
+      : activeLessonMobileRef.current;
+
+      if (container && target) {
+        const containerRect = container.getBoundingClientRect();
+        const targetRect = target.getBoundingClientRect();
+
+        const offset =
+          targetRect.top -
+          containerRect.top -
+          containerRect.height / 2 +
+          targetRect.height / 2;
+
+        container.scrollTo({
+          top: container.scrollTop + offset,
+          behavior: "smooth",
       });
-    }
-  }, [currentLesson.slug]);
+      }
+    }, [currentLesson.slug]);
+
+
+  const courseProgramMobileRef = React.useRef<HTMLDivElement | null>(null);
+  const courseProgramDesktopRef = React.useRef<HTMLDivElement | null>(null);
+
+  const scrollToCourseProgram = () => {
+    const target =
+      courseProgramMobileRef.current || courseProgramDesktopRef.current;
+
+    if (!target) return;
+
+    target.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
+
+const hasVideo = Boolean(currentLesson.video);
+const hasAudio = Boolean(currentLesson.audio);
+const hasAnyMedia = hasVideo || hasAudio;
+const hasBothMedia = hasVideo && hasAudio;
+
+// Overlay кнопки "предыдущий/следующий урок" вынесены в отдельный компонент, чтобы не дублировать код для мобилки и десктопа
+const PrevNextOverlay = ({ mode }: { mode: "video" | "audio" }) => (
+  <>
+    {prevLesson && (
+      <a
+        href={buildLessonUrl(prevLesson.slug)}
+        className={`
+          absolute left-3 ${mode === "audio" ? "top-3" : "top-1/2 -translate-y-1/2"}
+          z-20
+          flex items-center gap-1
+          rounded-full
+          bg-black/40 text-white
+          px-3 py-2
+          backdrop-blur
+          hover:bg-black/60
+          transition
+          active:scale-95
+          text-sm font-semibold
+          ${isPlaying ? "opacity-0 pointer-events-none" : "opacity-100"}
+        `}
+      >
+        <ChevronLeft className="h-5 w-5" />
+        {prevLesson.order != null && <span>{prevLesson.order} урок</span>}
+      </a>
+    )}
+
+    {nextLesson && (
+      <a
+        href={buildLessonUrl(nextLesson.slug)}
+        className={`
+          absolute right-3 ${mode === "audio" ? "top-3" : "top-1/2 -translate-y-1/2"}
+          z-20
+          flex items-center gap-1
+          rounded-full
+          bg-black/40 text-white
+          px-3 py-2
+          backdrop-blur
+          hover:bg-black/60
+          transition
+          active:scale-95
+          text-sm font-semibold
+          ${isPlaying ? "opacity-0 pointer-events-none" : "opacity-100"}
+        `}
+      >
+        {nextLesson.order != null && <span>{nextLesson.order} урок</span>}
+        <ChevronRight className="h-5 w-5" />
+      </a>
+    )}
+  </>
+);
+
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <div className="w-full">
-      <main className="
-        mx-auto
-        grid
-        max-w-7xl
-        grid-cols-1
-        gap-6
-        px-0 sm:px-6 lg:px-8
-        py-6
-        lg:grid-cols-12
-      ">
-        {/* ЛЕВАЯ ЧАСТЬ */}
-        <section className="space-y-4 lg:col-span-8">
-          <Tabs
-            defaultValue={
-              videoTabAvailable ? "video" : audioTabAvailable ? "audio" : "text"
-            }
-          >
-            <TabsList className="  
-                    grid
-                    w-full
-                    grid-cols-3
-                    rounded-none sm:rounded-2xl
-                    p-0 sm:p-1
-                    "
-            >
-              <TabsTrigger
-                value="video"
-                disabled={!videoTabAvailable}
-                className="flex w-full items-center justify-center gap-2"
-              >
-                <Play className="h-4 w-4" />
-                Видео
-              </TabsTrigger>
+      {/* ========================= */}
+      {/* FULL WIDTH MOBILE (YouTube) */}
+      {/* ========================= */}
+      <div className="w-full lg:hidden">
+        {/* ВИДЕО / АУДИО */}
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.2 }}
+        >
+          <Card className="overflow-hidden rounded-none border-0">
 
-              <TabsTrigger
-                value="audio"
-                disabled={!audioTabAvailable}
-                className="flex w-full items-center justify-center gap-2"
-              >
-                <Headphones className="h-4 w-4" />
-                Аудио
-              </TabsTrigger>
-              <TabsTrigger value="text" className="flex w-full items-center justify-center gap-2">
-                <FileText className="h-4 w-4" />
-                Текст
-              </TabsTrigger>
-            </TabsList>
+            <CardContent className="space-y-4 p-0">
+              {/* MEDIA (VIDEO / AUDIO) MOBILE*/}
+              {mediaMode === "video" && currentLesson.video ? (
+                <div className="relative aspect-video w-full bg-black overflow-hidden">
+                   <video
+                      ref={videoRef}
+                      className="h-full w-full"
+                      controls
+                      preload="none"
+                      playsInline
+                      poster={getVideoPoster(currentLesson.video)}
+                      onPlay={() => setIsPlaying(true)}
+                      onPause={() => setIsPlaying(false)}
+                      onEnded={() => setIsPlaying(false)}
+                    >
+                      <source src={currentLesson.video} />
+                      {vttUrl && (
+                        <track
+                          kind="subtitles"
+                          src={vttUrl}
+                          srcLang="ru"
+                          label="Русский"
+                          default
+                        />
+                      )}
+                      Ваш браузер не поддерживает субтитры &lt;track&gt;.
+                    </video>
+                    {/* PREV NEXT BUTTON MOBILE*/}
+                      <PrevNextOverlay mode="video" />
+                </div>
+              ) : mediaMode === "audio" && currentLesson.audio ? (
+                // <div className="relative w-full border-t border-border/70 bg-muted/30 p-4">
+                <div className="relative w-full min-h-[140px] rounded-xl border border-border/70 bg-muted/30 p-4 flex flex-col">
+                    {/* Пустое пространство сверху (можно добавить контент) */}
+                  <div className="flex-grow"></div>
+                  <audio className="w-full" 
+                    controls 
+                    preload="none"
+                    onPlay={() => setIsPlaying(true)}
+                    onPause={() => setIsPlaying(false)}
+                    onEnded={() => setIsPlaying(false)}
+                  >
+                    <source src={currentLesson.audio} />
+                    
+                  </audio>
+                  {/* PREV NEXT BUTTON MOBILE*/}
+                  <PrevNextOverlay mode="audio" />
+                </div>
+              ) : (
+                <div className="border-t border-border/70 bg-muted/30 p-6 text-sm text-muted-foreground">
+                  Для этого урока видео и аудио отсутствует.
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        </motion.div>
 
-            {/* ВИДЕО */}
-            <TabsContent value="video">
-              <motion.div
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Card className="overflow-hidden">
-                  <CardHeader className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                    <div>
-                      <CardTitle className="text-xl sm:text-2xl">
-                        {currentLesson.title}
-                      </CardTitle>
-                      <p className="text-xs text-muted-foreground">
-                        Курс: {courseTitle}
-                      </p>
-                    </div>
-                    {currentLesson.video && (
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="gap-2"
-                        asChild
-                      >
-                        <a href={currentLesson.video} download>
-                          <Download className="h-4 w-4" />
-                          Скачать видео
-                        </a>
-                      </Button>
-                    )}
-                  </CardHeader>
-                  <CardContent>
-                    {currentLesson.video ? (
-                      <div className="aspect-video w-full overflow-hidden rounded-xl bg-muted">
-                        <video
-                          ref={videoRef}
-                          className="h-full w-full"
-                          controls
-                          preload="none"
-                          playsInline
-                          poster={getVideoPoster(currentLesson.video)}
-                        >
-                          <source src={currentLesson.video} />
-                          {vttUrl && (
-                            <track
-                              kind="subtitles"
-                              src={vttUrl}
-                              srclang="ru"
-                              label="Русский"
-                              default
-                            />
-                          )}
-                          Ваш браузер не поддерживает субтитры &lt;track&gt;.
-                        </video>
-                      </div>
-                    ) : (
-                      <p className="text-sm text-muted-foreground">
-                        Для этого урока видео-запись отсутствует.
-                      </p>
-                    )}
-                  </CardContent>
-                </Card>
-              </motion.div>
-            </TabsContent>
+        {/* TOOLBAR УРОКА MOBILE*/}
+        <Card className="rounded-none border-x-0 border-border/70 border-t-0">
+          <CardContent className="p-2">
+            <div className="relative w-full">
+              {/* ЛЕВАЯ ТЕНЬ */}
+              <div className="pointer-events-none absolute left-0 top-0 h-full w-6 bg-gradient-to-r from-background to-transparent z-10" />
 
-            {/* АУДИО */}
-            <TabsContent value="audio">
-              <motion.div
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Card>
-                  <CardHeader className="flex items-center justify-between gap-4">
-                    <div>
-                      <CardTitle className="text-xl sm:text-2xl">
-                        Аудио-версия урока
-                      </CardTitle>
-                      <p className="text-xs text-muted-foreground">
-                        Курс: {courseTitle}
-                      </p>
-                    </div>
-                    {currentLesson.audio && (
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="gap-2"
-                        asChild
-                      >
-                        <a href={currentLesson.audio} download>
-                          <Download className="h-4 w-4" />
-                          Скачать аудио
-                        </a>
-                      </Button>
-                    )}
-                  </CardHeader>
-                  <CardContent>
-                    {currentLesson.audio ? (
-                      <audio className="w-full" controls preload="none">
-                        <source src={currentLesson.audio} />
-                      </audio>
-                    ) : (
-                      <p className="text-sm text-muted-foreground">
-                        Для этого урока аудио-запись отсутствует.
-                      </p>
-                    )}
-                  </CardContent>
-                </Card>
-              </motion.div>
-            </TabsContent>
+              {/* ПРАВАЯ ТЕНЬ */}
+              <div className="pointer-events-none absolute right-0 top-0 h-full w-6 bg-gradient-to-l from-background to-transparent z-10" />
 
-            {/* ТЕКСТ */}
-            <TabsContent value="text">
-              <motion.div
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.2 }}
+              {/* СКРОЛЛ-ПАНЕЛЬ */}
+              <div
+                className="
+                  flex w-full gap-2
+                  overflow-x-auto whitespace-nowrap
+                  scrollbar-hide
+                  pb-1
+                  px-1
+                "
               >
-                <Card className="overflow-hidden rounded-none sm:rounded-xl">
-                  <CardContent className="p-0">
-                    <ScrollArea className="h-[60vh] p-0 sm:p-6">
-                      <article
-                        className="
-                              prose
-                              prose-sm sm:prose-base
-                              prose-neutral dark:prose-invert
-                              max-w-none
-                              px-4 sm:px-0
-                        "
-                        dangerouslySetInnerHTML={{ __html: currentLesson.html }}
-                      />
-                    </ScrollArea>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            </TabsContent>
-          </Tabs>
+                {/* TOOLBAR Prev MOBILE */}
+                {!hasAnyMedia && prevLesson && (
+                <Button
+                  variant="secondary"
+                  size="sm"
+                  className={`
+                    gap-2 
+                    rounded-full
+                    border-primary/30 
+                    bg-primary/10 
+                    text-primary 
+                    hover:bg-primary/20
+                 `}
+                  aria-label={prevLesson ? `Урок ${prevLesson.order ?? ""}` : "Нет предыдущего урока"}
+                  asChild
+                  disabled={!prevLesson}
+                >
+                  <a href={prevLesson ? buildLessonUrl(prevLesson.slug) : "#"}>
+                    
+                    {prevLesson && prevLesson.order != null ? <><ChevronLeft className="h-4 w-4" /><span>{prevLesson.order} урок</span></>: ""}
+                  </a>
+                </Button>
+                )}
 
-          {/* Навигация по урокам */}
-          <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:items-center sm:justify-between">
-            <Button
-              variant="secondary"
-              className="w-full gap-2 sm:w-auto"
-              asChild
-              disabled={!prevLesson}
-            >
-              <a href={prevLesson ? buildLessonUrl(prevLesson.slug) : "#"}>
-                <ChevronLeft className="h-4 w-4" />
-                Предыдущий урок
-              </a>
-            </Button>
+                {/*Кнопку Видео/Аудио показываем только если есть ОБА */}
+                {hasBothMedia && (
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="shrink-0 gap-2 rounded-full border-primary/30 bg-primary/10 text-primary hover:bg-primary/20"
+                  type="button"
+                  onClick={() =>
+                    setMediaMode((prev) => (prev === "video" ? "audio" : "video"))
+                  }
+                >
+                  {mediaMode === "video" ? (
+                    <>
+                      <Headphones className="h-4 w-4" />
+                      Аудио
+                    </>
+                  ) : (
+                    <>
+                      <Video className="h-4 w-4" />
+                      Видео
+                    </>
+                  )}
+                </Button>
+                )}
 
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-              <Button
-                type="button"
-                className="w-full gap-2 sm:w-auto"
-                variant={isCurrentLessonCompleted ? "default" : "outline"}
-                onClick={handleToggleCompletion}
-                aria-pressed={isCurrentLessonCompleted}
-              >
-                <CheckCircle2 className="h-4 w-4" />
-                {isCurrentLessonCompleted
-                  ? "Снять отметку"
-                  : "Отметить как завершённый"}
-              </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="shrink-0 gap-2 rounded-full border-primary/30 bg-primary/10 text-primary hover:bg-primary/20"
+                  type="button"
+                  onClick={scrollToCourseProgram}
+                >
+                  <LayoutList className="h-4 w-4" />
+                  Программа
+                </Button>
 
-              <Button
-                className="w-full gap-2 sm:w-auto"
-                asChild
-                disabled={!nextLesson}
-              >
-                <a href={nextLesson ? buildLessonUrl(nextLesson.slug) : "#"}>
-                  Следующий урок
-                  <ChevronRight className="h-4 w-4" />
-                </a>
-              </Button>
+                <Button
+                  size="sm"
+                  className={
+                    "shrink-0 gap-2 rounded-full border-primary/30 " +
+                    (isCurrentLessonCompleted
+                      ? ""
+                      : "bg-primary/10 text-primary hover:bg-primary/20 hover:text-primary")
+                  }
+                  variant={isCurrentLessonCompleted ? "default" : "outline"}
+                  onClick={handleToggleCompletion}
+                >
+                  <CheckCircle2
+                    className={
+                      "h-4 w-4 " +
+                      (isCurrentLessonCompleted ? "text-emerald-600" : "")
+                    }
+                  />
+                  {isCurrentLessonCompleted ? "Завершён" : "Отметить завершённым"}
+                </Button>
+
+                {/* TOOLBAR Next MOBILE */}
+                {!hasAnyMedia && nextLesson &&(
+                <Button
+                  variant="secondary"
+                  size="sm"
+                  className="gap-2 rounded-full border-primary/30 bg-primary/10 text-primary hover:bg-primary/20"
+                  asChild
+                  disabled={!nextLesson}
+                >
+                  <a href={nextLesson ? buildLessonUrl(nextLesson.slug) : "#"}>
+                    
+                    {nextLesson && nextLesson.order != null ? <span>{nextLesson.order} урок</span>: "Нет следующего урока"}
+                    <ChevronRight className="h-4 w-4" />
+                  </a>
+                </Button>
+                )}
+              </div>
             </div>
-          </div>
-        </section>
 
-        {/* ПРАВАЯ ПАНЕЛЬ: список уроков */}
-        <aside className="lg:col-span-4">
-          <div className="sticky top-[80px]">
+          </CardContent>
+        </Card>
+
+
+        {/* ТЕКСТ УРОКА */}
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.2 }}
+        >
+          <Card className="overflow-visible rounded-none border-0 shadow-none">
+            <CardContent className="px-4 py-4">
+              <article
+                className="
+                  prose
+                  prose-sm
+                  prose-neutral dark:prose-invert
+                  max-w-none
+                "
+                dangerouslySetInnerHTML={{ __html: currentLesson.html }}
+              />
+            </CardContent>
+          </Card>
+        </motion.div>
+
+        {/* ПРОГРАММА КУРСА (МОБИЛКА) */}
+        <aside ref={courseProgramMobileRef} className="w-full">
+          <div>
             <Card className="rounded-none sm:rounded-xl">
               <CardHeader>
                 <div className="flex items-center justify-between">
@@ -609,12 +697,14 @@ const LessonPage: React.FC<LessonPageProps> = ({
                     Прогресс
                   </div>
                 </div>
+
                 <div className="mt-3">
                   <Progress value={progress} />
                   <div className="mt-1 text-xs text-muted-foreground">
                     {progress}% просмотрено (условно)
                   </div>
                 </div>
+
                 <div className="mt-4">
                   <div className="relative w-full">
                     <Input
@@ -630,6 +720,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
                         }
                       }}
                     />
+
                     {query && (
                       <button
                         type="button"
@@ -649,7 +740,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
 
               <CardContent className="p-0">
                 <div
-                  ref={sidebarScrollRef}
+                  ref={sidebarScrollMobileRef}
                   className="h-[60vh] overflow-y-auto px-2 pb-2"
                 >
                   {filteredLessons.length === 0 ? (
@@ -666,16 +757,20 @@ const LessonPage: React.FC<LessonPageProps> = ({
                         .map((l) => {
                           const isCurrent = l.slug === currentLesson.slug;
                           const isCompleted = completedLessons.has(l.slug);
+
                           return (
                             <li key={l.slug} className="w-full">
                               <a
                                 href={buildLessonUrl(l.slug)}
-                                ref={isCurrent ? activeLessonRef : undefined}
+                                ref={
+                                  isCurrent ? activeLessonMobileRef : undefined
+                                }
                                 className={[
                                   "group block w-full max-w-full rounded-xl border border-border/70 p-3 text-sm transition",
                                   isCurrent
                                     ? "border-primary/60 bg-primary/5"
-                                    : "hover:border-lime-200 hover:bg-lime-50 dark:hover:border-border/60 dark:hover:bg-muted/50",
+                                    : `hover:border-emerald-200 hover:bg-lime-50 
+                                      dark:hover:border-border/60 dark:hover:bg-muted/50`,
                                 ]
                                   .filter(Boolean)
                                   .join(" ")}
@@ -683,26 +778,30 @@ const LessonPage: React.FC<LessonPageProps> = ({
                                 <div className="flex items-center gap-3 min-w-0">
                                   <div
                                     className={[
-                                      "grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors",
-                                      isCurrent && "bg-primary/10 border-primary/20",
-                                      !isCurrent &&
-                                        isCompleted &&
-                                        "bg-lime-50 text-lime-700 border-lime-200 dark:bg-lime-900/30 dark:text-lime-50 dark:border-lime-800",
+                                      `grid h-9 w-9 shrink-0 
+                                      place-items-center rounded-xl 
+                                      border border-transparent 
+                                      bg-muted text-xs transition-colors`,
+                                      // Текущий И завершенный (новое условие с наивысшим приоритетом)
+                                      isCurrent && isCompleted && `bg-emerald-50 text-emerald-600 border-emerald-200
+                                      dark:bg-primary/10 dark:text-emerald-500 `,
+                                      // Только текущий (но не завершенный)
+                                      isCurrent && !isCompleted && "bg-primary/10 border-primary/20",
+                                      // Только завершенный (но не текущий)
+                                      !isCurrent && isCompleted && `bg-emerald-50 text-emerald-600 border-lime-200
+                                      dark:bg-primary/10 dark:text-e dark:text-emerald-500 `,
                                     ]
                                       .filter(Boolean)
                                       .join(" ")}
-                                    aria-label={
-                                      isCompleted
-                                        ? "Урок отмечен как завершенный"
-                                        : undefined
-                                    }
                                   >
                                     <Play className="h-4 w-4" />
                                   </div>
+
                                   <div className="min-w-0">
                                     <div className="truncate font-medium transition-colors group-hover:text-lime-700 dark:group-hover:text-lime-50">
                                       {renderHighlightedTitle(l.title)}
                                     </div>
+
                                     {l.order != null && (
                                       <div className="text-[10px] uppercase text-muted-foreground transition-colors group-hover:text-lime-700 dark:group-hover:text-lime-50">
                                         Урок {l.order}
@@ -721,7 +820,355 @@ const LessonPage: React.FC<LessonPageProps> = ({
             </Card>
           </div>
         </aside>
-      </main>
+      </div>
+
+      {/* ========================= */}
+      {/* DESKTOP (как было) */}
+      {/* ========================= */}
+      <div className="w-full hidden lg:block">
+        <main
+          className="
+            mx-auto
+            grid
+            max-w-7xl
+            grid-cols-1
+            gap-6
+            px-0 sm:px-6 lg:px-8
+            py-6
+            lg:grid-cols-12
+          "
+        >
+          {/* ЛЕВАЯ ЧАСТЬ */}
+          <section className="lg:col-span-8">
+            {/* ВИДЕО / АУДИО */}
+            <motion.div
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Card className="border-0 rounded-none shadow-none">
+
+                {/* <CardHeader className="flex flex-col gap-2">
+                  <CardTitle className="text-xl sm:text-2xl">
+                    {currentLesson.title}
+                  </CardTitle>
+                  <p className="text-xs text-muted-foreground">
+                    Курс: {courseTitle}
+                  </p>
+                </CardHeader> */}
+
+                <CardContent className="p-0">
+                  {/* MEDIA (VIDEO / AUDIO) */}
+                  {mediaMode === "video" && currentLesson.video ? (
+                    <div className="relative w-full aspect-video bg-muted">
+                      <video
+                        ref={videoRef}
+                        className="h-full w-full"
+                        controls
+                        preload="none"
+                        playsInline
+                        poster={getVideoPoster(currentLesson.video)}
+                      >
+                        <source src={currentLesson.video} />
+                        {vttUrl && (
+                          <track
+                            kind="subtitles"
+                            src={vttUrl}
+                            srcLang="ru"
+                            label="Русский"
+                            default
+                          />
+                        )}
+                        Ваш браузер не поддерживает субтитры &lt;track&gt;.
+                      </video>
+                    </div>
+                  ) : mediaMode === "audio" && currentLesson.audio ? (
+                    <div className="rounded-xl border border-border/70 bg-muted/30 p-4">
+                      <audio className="w-full" controls preload="none">
+                        <source src={currentLesson.audio} />
+                      </audio>
+                    </div>
+                  ) : (
+                    <div className="rounded-xl border border-border/70 bg-muted/30 p-6 text-sm text-muted-foreground">
+                      Для этого урока видео и аудио отсутствует.
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+            </motion.div>
+
+            {/* TOOLBAR УРОКА */}
+            <Card className="border-0 shadow-none ">
+              <CardContent className="p-2 sm:p-4 " >
+                <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 ">
+  
+              {/* Левая группа */}
+              <div className="flex justify-start">
+               
+                {/* <Button
+                  variant="secondary"
+                  size="sm"
+                  className={`
+                    gap-2 
+                    rounded-full
+                    border-primary/30 
+                    bg-primary/10 
+                    text-primary 
+                    hover:bg-primary/20
+                 `}
+                  aria-label={prevLesson ? `Урок ${prevLesson.order ?? ""}` : "Нет предыдущего урока"}
+                  asChild
+                  disabled={!prevLesson}
+                >
+                  <a href={prevLesson ? buildLessonUrl(prevLesson.slug) : "#"}>
+                    <ChevronLeft className="h-4 w-4" />
+                    {prevLesson && prevLesson.order != null ? <span>{prevLesson.order} урок</span>: "Нет предыдущего урока"}
+                  </a>
+                </Button> */}
+
+              </div>
+
+              {/* Центр */}
+              <div className="flex items-center justify-center gap-2">
+                {currentLesson.video && currentLesson.audio && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="gap-2 rounded-full border-primary/30 bg-primary/10 text-primary hover:bg-primary/20"
+                    type="button"
+                    onClick={() =>
+                      setMediaMode((prev) => (prev === "video" ? "audio" : "video"))
+                    }
+                  >
+                    {mediaMode === "video" ? (
+                      <>
+                        <Headphones className="h-4 w-4" />
+                        Аудио-версия
+                      </>
+                    ) : (
+                      <>
+                        <Video className="h-4 w-4" />
+                        Видео-версия
+                      </>
+                    )}
+                  </Button>
+                )}
+
+                {mediaMode === "video" && currentLesson.video && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="gap-2 rounded-full border-primary/30 bg-primary/10 text-primary hover:bg-primary/20"
+                    asChild
+                  >
+                    <a href={currentLesson.video} download>
+                      <Download className="h-4 w-4" />
+                      Скачать
+                    </a>
+                  </Button>
+                )}
+
+                {mediaMode === "audio" && currentLesson.audio && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="gap-2 rounded-full border-primary/30 bg-primary/10 text-primary hover:bg-primary/20"
+                    asChild
+                  >
+                    <a href={currentLesson.audio} download>
+                      <Download className="h-4 w-4" />
+                      Скачать
+                    </a>
+                  </Button>
+                )}
+              </div>
+
+              {/* Правая группа */}
+              <div className="flex justify-end gap-2">
+                <Button
+                  size="sm"
+                  className={
+                    "shrink-0 gap-2 rounded-full border-primary/30 " +
+                    (isCurrentLessonCompleted
+                      ? ""
+                      : "bg-primary/10 text-primary hover:bg-primary/20 hover:text-primary")
+                  }
+                  variant={isCurrentLessonCompleted ? "default" : "outline"}
+                  onClick={handleToggleCompletion}
+                >
+                  <CheckCircle2
+                    className={
+                      "h-4 w-4 " +
+                      (isCurrentLessonCompleted ? "text-emerald-600" : "")
+                    }
+                  />
+                  {isCurrentLessonCompleted ? "Завершён" : "Отметить завершённым"}
+                </Button>
+              </div>
+            </div>
+
+              </CardContent>
+            </Card>
+
+            {/* ТЕКСТ УРОКА (ВСЕГДА ПОД ВИДЕО) */}
+            <motion.div
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Card className="overflow-visible rounded-none border-0 shadow-none">
+                <CardContent className="px-4 py-4 sm:p-6">
+                  <article
+                    className="
+                      prose
+                      prose-sm sm:prose-base
+                      prose-neutral dark:prose-invert
+                      max-w-none
+                    "
+                    dangerouslySetInnerHTML={{ __html: currentLesson.html }}
+                  />
+                </CardContent>
+              </Card>
+            </motion.div>
+          </section>
+
+          {/* ПРАВАЯ ПАНЕЛЬ: список уроков */}
+          <aside ref={courseProgramDesktopRef} className="lg:col-span-4">
+            <div className="lg:sticky lg:top-[80px]">
+              <Card className="rounded-none sm:rounded-xl">
+                <CardHeader>
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-base sm:text-lg">
+                      Программа курса
+                    </CardTitle>
+                    <div className="hidden text-xs text-muted-foreground sm:block">
+                      Прогресс
+                    </div>
+                  </div>
+
+                  <div className="mt-3">
+                    <Progress value={progress} />
+                    <div className="mt-1 text-xs text-muted-foreground">
+                      {progress}% просмотрено (условно)
+                    </div>
+                  </div>
+
+                  <div className="mt-4">
+                    <div className="relative w-full">
+                      <Input
+                        ref={searchInputRef}
+                        placeholder="Поиск по урокам…"
+                        className="pl-3 pr-8 text-sm"
+                        value={query}
+                        onChange={(e) => setQuery(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Escape") {
+                            setQuery("");
+                            searchInputRef.current?.focus();
+                          }
+                        }}
+                      />
+
+                      {query && (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setQuery("");
+                            searchInputRef.current?.focus();
+                          }}
+                          className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full p-1 text-muted-foreground hover:text-foreground hover:bg-muted transition"
+                          aria-label="Очистить поиск"
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </CardHeader>
+
+                <CardContent className="p-0">
+                  <div
+                    ref={sidebarScrollDesktopRef}
+                    className="h-[60vh] overflow-y-auto px-2 pb-2"
+                  >
+                    {filteredLessons.length === 0 ? (
+                      <div className="px-3 py-2 text-xs text-muted-foreground">
+                        Ничего не найдено. Попробуйте изменить запрос.
+                      </div>
+                    ) : (
+                      <ul className="space-y-1">
+                        {filteredLessons
+                          .slice()
+                          .sort(
+                            (a, b) => (a.order ?? 999) - (b.order ?? 999)
+                          )
+                          .map((l) => {
+                            const isCurrent = l.slug === currentLesson.slug;
+                            const isCompleted = completedLessons.has(l.slug);
+
+                            return (
+                              <li key={l.slug} className="w-full">
+                                <a
+                                  href={buildLessonUrl(l.slug)}
+                                  ref={
+                                    isCurrent ? activeLessonDesktopRef : undefined
+                                  }
+                                  className={[
+                                    "group block w-full max-w-full rounded-xl border border-border/70 p-3 text-sm transition",
+                                    isCurrent
+                                      ? "border-primary/60 bg-primary/5"
+                                      :  `hover:border-emerald-200 hover:bg-lime-50 
+                                      dark:hover:border-border/60 dark:hover:bg-muted/50`,
+                                  ]
+                                    .filter(Boolean)
+                                    .join(" ")}
+                                >
+                                  <div className="flex items-center gap-3 min-w-0">
+                                    <div
+                                        className={[
+                                          `grid h-9 w-9 shrink-0 
+                                          place-items-center rounded-xl 
+                                          border border-transparent 
+                                          bg-muted text-xs transition-colors`,
+                                          // Текущий И завершенный (новое условие с наивысшим приоритетом)
+                                          isCurrent && isCompleted && `bg-emerald-50 text-emerald-600 border-emerald-200
+                                          dark:bg-primary/10 dark:text-emerald-500`,
+                                          // Только текущий (но не завершенный)
+                                          isCurrent && !isCompleted && "bg-primary/10 border-primary/20",
+                                          // Только завершенный (но не текущий)
+                                          !isCurrent && isCompleted && `bg-emerald-50 text-emerald-600 border-lime-200
+                                          dark:bg-primary/10 dark:text-e dark:text-emerald-500 `,
+                                        ]
+                                        .filter(Boolean)
+                                        .join(" ")}
+                                    >
+                                      <Play className="h-4 w-4" />
+                                    </div>
+
+                                    <div className="min-w-0">
+                                      <div className="truncate font-medium transition-colors group-hover:text-lime-700 dark:group-hover:text-lime-50">
+                                        {renderHighlightedTitle(l.title)}
+                                      </div>
+
+                                      {l.order != null && (
+                                        <div className="text-[10px] uppercase text-muted-foreground transition-colors group-hover:text-lime-700 dark:group-hover:text-lime-50">
+                                          Урок {l.order}
+                                        </div>
+                                      )}
+                                    </div>
+                                  </div>
+                                </a>
+                              </li>
+                            );
+                          })}
+                      </ul>
+                    )}
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </aside>
+        </main>
       </div>
     </div>
   );

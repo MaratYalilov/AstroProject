@@ -8,7 +8,7 @@ audioRel: audio/13-urok-sira-etapy-prizyva-chast2.mp3
 video: /media/sira/analiticheskaya-sira/video/13-urok-sira-etapy-prizyva-chast2.mp4
 videoRel: video/13-urok-sira-etapy-prizyva-chast2.mp4
 ---
-# 13, Этапы призыва-часть2
+# 13, Этапы призыва-часть 2
 <h1>ПОУЧИТЕЛЬНЫЕ ВЫВОДЫ И НОРМЫ.</h1>
 <p>А) Пренебрежительность к призыву среди близких и родственников, более того родственные связи часто порываются.</p>
 <p>{Quran}47:22{/Quran}</p>

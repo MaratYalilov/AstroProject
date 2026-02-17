@@ -28,7 +28,7 @@ const courses = (await getCollection("courses"))
   .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 
 // Получаем иконку предмета
-const icon = subjectEntry.data.icon; // <-- ДОБАВЬТЕ ЭТУ СТРОКУ
+const icon = subjectEntry.data.icon;
 ---
 
 <Base title={subjectEntry.data.title}>

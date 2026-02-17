@@ -9,3 +9,4 @@ video: /media/sira/sira-osnovy/video/01-vazhnost-izuchniya-siry.mp4
 videoRel: video/01-vazhnost-izuchniya-siry.mp4
 ---
 # 01, Важность изучния сиры
+Конспекта урока не существует.

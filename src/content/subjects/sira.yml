@@ -4,4 +4,4 @@ emoji: "🕊️"
 order: 5
 description: "Жизнь Посланника Аллаха ﷺ, аналитическая и классическая сира."
 iconClass: "w-12 h-12"
-icon: "subject-icons/sira.svg"
+icon: "/subject-icons/sira.svg"

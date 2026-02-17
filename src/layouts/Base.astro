@@ -2,6 +2,7 @@
 import "../styles/tailwind.css";
 import NavBar from "@/components/NavBar";
 import GlossaryOverlay from "@/components/glossary/GlossaryOverlay";
+import ScrollToTop from "../components/ScrollToTop";
 
 const { title = "Lesson" } = Astro.props as { title?: string };
 ---
@@ -205,5 +206,6 @@ const { title = "Lesson" } = Astro.props as { title?: string };
       <slot />
     </main>
     <GlossaryOverlay client:load />
+    <ScrollToTop client:load />
   </body>
 </html>

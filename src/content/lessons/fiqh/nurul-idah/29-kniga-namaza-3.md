@@ -8,4 +8,5 @@ audioRel: audio/29-kniga-namaza-3.mp3
 video: /media/fiqh/nurul-idah/video/29-kniga-namaza-3.mp4
 videoRel: video/29-kniga-namaza-3.mp4
 ---
-# 29, Книга намаза-3 Конспекта урока не существует.
+# 29, Книга намаза-3 
+Конспекта урока не существует.
