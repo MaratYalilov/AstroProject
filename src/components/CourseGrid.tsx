@@ -85,7 +85,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
                   <div className="flex items-start gap-4">
                     {/* Номер курса в кружке */}
                     <div className="relative flex-shrink-0">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-gray-100 to-gray-200 text-lg font-semibold transition-all duration-300 group-hover:scale-110 group-hover:from-lime-50 group-hover:to-lime-100 dark:from-gray-800 dark:to-gray-700 dark:group-hover:from-lime-900/30 dark:group-hover:to-lime-800/30">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-gray-100 to-gray-200 text-lg font-semibold transition-all duration-300 group-hover:scale-110 group-hover:from-lime-50 group-hover:to-lime-100 dark:from-gray-800 dark:to-gray-700 dark:group-hover:from-lime-900/30 dark:group-hover:to-lime-50/30">
                         {c.data.order || "№"}
                       </div>
                     </div>
@@ -125,7 +125,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
                   <Button 
                     variant="ghost" 
                     size="sm" 
-                    className="group/btn h-8 gap-1 text-xs transition-all duration-300 hover:bg-lime-500/10 hover:text-lime-700 dark:hover:bg-lime-900/30 dark:hover:text-lime-400"
+                    className="group/btn h-8 gap-1 text-xs transition-all duration-300  hover:text-lime-700 dark:hover:text-emerald-500"
                   >
                     <span>Открыть курс</span>
                     <ArrowRight className="h-3 w-3 transition-transform duration-300 group-hover/btn:translate-x-1" />
