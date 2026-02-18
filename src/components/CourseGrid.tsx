@@ -48,7 +48,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {sortedCourses.map((c) => {
         // Проверяем, есть ли дополнительная информация для отображения
-        const hasAdditionalInfo = c.data.duration || c.data.lessonsCount;
+        const hasAdditionalInfo = c.data.lessonsCount;
         
         return (
           <motion.a
@@ -108,11 +108,8 @@ const CourseGrid: React.FC<CourseGridProps> = ({
                 <div className="mt-auto flex items-center justify-between">
                   <div className="text-xs text-muted-foreground">
                     {/* Показываем только если есть данные */}
-                    {hasAdditionalInfo ? (
+                    {c.data.lessonsCount ? (
                       <>
-                        {c.data.duration && (
-                          <span className="mr-2">Длительность: {c.data.duration}</span>
-                        )}
                         {c.data.lessonsCount && (
                           <span>{c.data.lessonsCount} уроков</span>
                         )}
