@@ -543,7 +543,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   return (
       <main className="flex flex-col lg:grid lg:grid-cols-12 gap-4">
         {/* ЛЕВО: основная статья */}
-        <section className="space-y-4 lg:col-span-8">
+        <section className="space-y-4 lg:col-span-8 mb-16">
           <motion.div 
             initial={{ opacity: 0, y: 8 }} 
             animate={{ opacity: 1, y: 0 }} 
