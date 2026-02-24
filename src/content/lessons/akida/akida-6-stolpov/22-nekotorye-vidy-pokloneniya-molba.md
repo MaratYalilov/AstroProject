@@ -15,7 +15,7 @@ videoRel: video/22-nekotorye-vidy-pokloneniya-molba.mp4
 
 <p class="arab">الدعاء</p>
 <p>Аллах Всевышний сказал:</p>
-<p>{Quran}40:60{/Quran}<br /></p>
+<p>{Quran}40:60{/Quran}</p>
 <div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>Мольба – это поклонение</em>»</p>
   <div class="hadith-reference">Хадис приводит Ат-Тирмизи (хороший)</div>

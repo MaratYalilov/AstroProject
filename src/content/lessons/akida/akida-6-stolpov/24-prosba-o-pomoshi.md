@@ -12,7 +12,7 @@ videoRel: video/24-prosba-o-pomoshi.mp4
 <p><strong>Просьба о помощи.</strong></p>
 <p><span class="arab">الاستعانة</span></p>
 <p>Аллах сказал:</p>
-<p>{Quran}1:5{/Quran}<br /></p>
+<p>{Quran}1:5{/Quran}</p>
 <div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>...и если просишь помощи, то проси её у Аллаха</em>»</p>
   <div class="hadith-reference">Ат-Тирмизи (сахих)</div>

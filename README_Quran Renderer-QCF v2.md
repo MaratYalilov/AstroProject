@@ -34,7 +34,7 @@
 
 4. `renderAyahBlock` из `quranRenderer.ts`:
 
-   * берёт перевод аята (Кулиев) из локальных JSON;
+   * берёт перевод аята  из локальных JSON;
    * берёт **code_v2** и **page** для mushaf-рендера из `quran-qcf-v2.json`;
    * берёт метаданные суры (название, смысл) из `surahs.json`;
    * возвращает готовый HTML-блок с:
@@ -74,7 +74,7 @@
   Сейчас используется только для карты `arabicMap` (на будущее / отладка).
 
 * `src/data/quran-kuliev-ru.json`
-  Перевод Кулиева. Структура аналогична:
+  Перевод а. Структура аналогична:
 
   ```json
   {
@@ -244,7 +244,7 @@
   2. Построение карт:
 
      * `arabicMap["s:a"]` — арабский текст (на будущее);
-     * `translationMap["s:a"]` — перевод Кулиева;
+     * `translationMap["s:a"]` — перевод а;
      * `qcfMap["s:a"]` — `{ page, code_v2 }` из `quran-qcf-v2.json`.
 
   3. Функция:
@@ -281,7 +281,7 @@
          </div>
 
          <div class="quran-ayah-block__translation">
-           …перевод Кулиева…
+           …перевод а…
          </div>
 
          <div class="quran-ayah-block__source">

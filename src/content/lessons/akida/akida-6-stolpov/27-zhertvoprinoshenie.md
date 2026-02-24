@@ -13,8 +13,8 @@ videoRel: video/27-zhertvoprinoshenie.mp4
 
 <p><strong><span class="arab">الذبح</span></strong></p>
 <p>Аллах Всевышний сказал:</p>
-<p>{Quran}108:2{/Quran}<br />Также Аллах сказал:</p>
-<p>{Quran}6:162{/Quran}<br /></p>
+<p>{Quran}108:2{/Quran}Также Аллах сказал:</p>
+<p>{Quran}6:162{/Quran}</p>
 <div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>Пусть Аллах проклянет того, кто принес жертву не ради Аллаха</em>»</p>
   <div class="hadith-reference">Приводит Муслим</div>

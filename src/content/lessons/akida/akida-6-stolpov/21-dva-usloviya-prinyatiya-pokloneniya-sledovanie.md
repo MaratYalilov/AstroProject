@@ -12,7 +12,7 @@ videoRel: video/21-dva-usloviya-prinyatiya-pokloneniya-sledovanie.mp4
 <strong>Второе условие – следование за пророком, да благословит его Аллах и приветствует.</strong><br />
 <p><span class="arab">المتابعة لرسول الله</span></p>
 <p>Аллах сказал:</p>
-<p>{Quran}3:132{/Quran}<br /></p>
+<p>{Quran}3:132{/Quran}</p>
 <div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>Если кто-нибудь совершит поступок, на который нет указания в религии, он будет отвергнут</em>»</p>
   <div class="hadith-reference">Хадис приводит Муслим</div>
