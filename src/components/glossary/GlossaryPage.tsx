@@ -203,7 +203,7 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
         {!active && (
           <>
             <input
-              className="w-full border rounded-md px-3 py-2"
+              className="w-full border rounded-md px-3 py-2 bg-secondary"
               placeholder="Поиск…"
               value={query}
               onChange={e => setQuery(e.target.value)}
@@ -297,7 +297,7 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
       {/* LIST */}
       <div className="sticky top-24 h-[calc(100vh-6rem)] flex flex-col">
         <input
-          className="mb-4 border rounded-md px-3 py-2"
+          className="mb-4 border rounded-md px-3 py-2 bg-secondary "
           placeholder="Поиск…"
           value={query}
           onChange={e => setQuery(e.target.value)}

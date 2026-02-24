@@ -711,7 +711,7 @@ const PrevNextOverlay = ({ mode }: { mode: "video" | "audio" }) => (
                     <Input
                       ref={searchInputRef}
                       placeholder="Поиск по урокам…"
-                      className="pl-3 pr-8 text-sm"
+                      className="pl-3 pr-8 text-sm bg-secondary"
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
                       onKeyDown={(e) => {

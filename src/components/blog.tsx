@@ -618,7 +618,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                   <div className="relative w-full">
                     <Input
                       placeholder="Поиск по урокам…"
-                      className="pl-3 pr-8 text-sm"
+                      className="pl-3 pr-8 text-sm bg-secondary"
                       value={query}
                       onChange={(e) => setQuery((e.target as HTMLInputElement).value)}
                       onKeyDown={(e) => {
