@@ -26,7 +26,6 @@
     "@astrojs/tailwind": "^6.0.2",
     "@astrojs/vercel": "^8.0.4",
     "autoprefixer": "^10.4.21",
-    "baseline-browser-mapping": "^2.9.11",
     "fast-glob": "^3.3.3",
     "gray-matter": "^4.0.3",
     "postcss": "^8.5.6",
