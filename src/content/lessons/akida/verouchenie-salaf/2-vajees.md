@@ -1,5 +1,5 @@
 ---
-title: 2 Урок Акида саляфов
+title: 2, Крайне важные определения
 order: 2
 hasAudio: true
 hasVideo: true

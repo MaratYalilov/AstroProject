@@ -1,5 +1,5 @@
 ---
-title: 3 Урок Акида саляфов
+title: 3, Термины «Сунна», «Аль-Джама'а»
 order: 3
 hasAudio: true
 hasVideo: true

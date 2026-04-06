@@ -1,5 +1,5 @@
 ---
-title: 4 Урок Акида саляфов
+title: 4, Отличительные качества вероучения
 order: 4
 hasAudio: true
 hasVideo: true

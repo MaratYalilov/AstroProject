@@ -1,5 +1,5 @@
 ---
-title: 10 Урок Акида саляфов
+title: 10, Вера в Последний день-1
 order: 10
 hasAudio: true
 hasVideo: true
@@ -8,7 +8,6 @@ audioRel: audio/10-vajees.mp3
 video: /media/akida/verouchenie-salaf/video/10-vajees.mp4
 videoRel: video/10-vajees.mp4
 ---
-
 
 <h1>Вера в Последний день</h1>
 <p class="greeting">Ассаляму алейкум ва рахматуЛлахи ва баракатуху.</p>

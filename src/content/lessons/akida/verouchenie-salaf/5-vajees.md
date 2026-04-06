@@ -1,5 +1,5 @@
 ---
-title: 5 Урок Акида саляфов
+title: 5, Вера во Всевышнего Аллаха
 order: 5
 hasAudio: true
 hasVideo: true
@@ -8,7 +8,6 @@ audioRel: audio/5-vajees.mp3
 video: /media/akida/verouchenie-salaf/video/5-vajees.mp4
 videoRel: video/5-vajees.mp4
 ---
-
 
 <h1>Вера во Всевышнего Аллаха</h1>
 <p>Вера во Всевышнего Аллаха – это твердая, непоколебимая вера, полное согласие и абсолютное признание существования Всевышнего Аллаха. Она включает в себя:</p>

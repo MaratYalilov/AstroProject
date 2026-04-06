@@ -1,5 +1,5 @@
 ---
-title: 1 Урок Акида саляфов
+title: 1, Акида саляфов
 order: 1
 hasAudio: true
 hasVideo: true

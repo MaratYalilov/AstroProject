@@ -1,5 +1,5 @@
 ---
-title: 7 Урок Акида саляфов
+title: 7, Вера в ангелов
 order: 7
 hasAudio: true
 hasVideo: true
@@ -8,7 +8,6 @@ audioRel: audio/7-vajees.mp3
 video: /media/akida/verouchenie-salaf/video/7-vajees.mp4
 videoRel: video/7-vajees.mp4
 ---
-
 
 <h1>Вера в то, что пришло от Аллаха и Его Посланника</h1>
 <p class="greeting">Ассаляму алейкум ва рахматуЛлахи ва баракатуху.</p>
