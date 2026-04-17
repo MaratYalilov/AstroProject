@@ -1,5 +1,5 @@
 ---
-title: 22 Урок Акида саляфов
+title: 22, Метод получения доводов
 order: 22
 hasAudio: true
 hasVideo: true

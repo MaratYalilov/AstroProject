@@ -1,5 +1,5 @@
 ---
-title: 19 Урок Акида саляфов
+title: 19, Аль-Уаля уаль-Бара
 order: 19
 hasAudio: true
 hasVideo: true
