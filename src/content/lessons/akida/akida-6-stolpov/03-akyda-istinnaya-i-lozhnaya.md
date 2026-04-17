@@ -9,7 +9,6 @@ video: /media/akida/akida-6-stolpov/video/03-akyda-istinnaya-i-lozhnaya.mp4
 videoRel: video/03-akyda-istinnaya-i-lozhnaya.mp4
 ---
 
-
 <h1>Акыда истинная и ложная</h1>
 <p class="greeting">Ассаляму алейкум ва рахматуЛлахи ва баракятуху.</p>
 <p>Продолжаем чтение книги "Шарх усуль аль-иман". Сегодняшняя тема – акыда истинная и ложная. Приступим. БисмиЛляхи р-Рахмани р-Рахим.</p>

@@ -9,7 +9,6 @@ video: /media/akida/akida-6-stolpov/video/20-dva-usloviya-prinyatiya-pokloneniya
 videoRel: video/20-dva-usloviya-prinyatiya-pokloneniya-iskrennost.mp4
 ---
 
-
 <h1>Условия принятия поклонения: искренность и следование сунне</h1>
 <p class="greeting">Ассаляму алейкум ва рахматуЛлахи ва баракятуху.</p>
 <p>БисмиЛляхи р-Рахмани р-Рахим. АльхамдулиЛляхи Раббиль 'алямин.</p>

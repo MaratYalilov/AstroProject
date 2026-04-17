@@ -9,7 +9,6 @@ video: /media/akida/akida-6-stolpov/video/01-vstuplenie-shest-stepeney-imana.mp4
 videoRel: video/01-vstuplenie-shest-stepeney-imana.mp4
 ---
 
-
 <h1>Шесть столпов Веры</h1>
 <p class="greeting">Ассаляму алейкум ва рахматуЛлахи ва баракятуху.</p>
 <p>БисмиЛляхи р-Рахмани р-Рахим. Ас-саляту ва с-саляму аля РасулиЛлях.</p>

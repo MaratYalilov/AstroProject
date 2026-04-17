@@ -9,7 +9,6 @@ video: /media/akida/akida-6-stolpov/video/18-sedmoe-uslovie-lyubov.mp4
 videoRel: video/18-sedmoe-uslovie-lyubov.mp4
 ---
 
-
 <h1>Условия свидетельства «Ля иляха илля Ллах»: Любовь</h1>
 <p class="greeting">Ассаляму алейкум.</p>
 <p>Напомню, что условиями свидетельства являются следующие: <span class="arab">العلم</span> (знание), <span class="arab">اليقين</span> (убежденность), <span class="arab">القبول</span> (принятие), <span class="arab">الانقياد</span> (подчинение), <span class="arab">الصدق</span> (искренность), <span class="arab">الإخلاص</span> (чистота намерения) и <span class="arab">المحبة</span> (любовь). Если человек оставляет хотя бы одно из этих условий, то его вера становится недействительной. Поэтому очень важно знать и понимать их, чтобы правильно воплощать в жизнь.</p>
