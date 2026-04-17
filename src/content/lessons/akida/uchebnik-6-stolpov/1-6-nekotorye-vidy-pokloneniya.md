@@ -47,7 +47,7 @@ groupTitle: Вера в Аллаха
 <p>{Quran}1:5{/Quran}</p>
 <div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>...и если просишь помощи, то проси её у Аллаха</em>»</p>
-  <div class="hadith-reference">Ат-Тирмизи (сахих)</div>
+  <div class="hadith-reference">Ат-Тирмизи (<a href="/glossary/sakhikh" class="glossary-link" target="_blank" rel="noopener noreferrer">сахих</a>)</div>
 </div>
 
 <p><span class="arab">قَالَ رَسُولُ اللّهِ صلى الله عليه و سلم:" وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بالله".</span></p>

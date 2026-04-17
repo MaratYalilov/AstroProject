@@ -13,7 +13,7 @@ groupTitle: Вера в Последний день
 <p><span>{Quran}6:158{/Quran}</span></p>
 <div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, сказал в комментариях к этому аяту: «<em>Это случится тогда, когда солнце взойдет с запада</em>».</p>
-  <div class="hadith-reference">Тафсир ат-Табари</div>
+  <div class="hadith-reference"><a href="/glossary/tafsir" class="glossary-link" target="_blank" rel="noopener noreferrer">Тафсир</a> ат-Табари</div>
 </div>
 
 <div class="hadith">

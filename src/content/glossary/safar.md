@@ -5,33 +5,15 @@ letter: С
 category: С
 tags: []
 aliases: []
-related:
-- akika
-- fitna
-- fitra
-- gusl
-- id
-- imam
-- islam
-- istikhada
-- khadzh
-- khajd
-- kharam
-- khasan
-- makhdi
-- mazkhab
-- musulmanin
-- mutavatir
-- salyam
-- sira
-- sunna
-- vali
-used_in:
-- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
-- 10-bozhestvennoe-proishozhdenie-imen-allaha.md
-- 70-protiranie-dyryavyh-noskov.md
-- 86-sroki-haida.md
-description: сафар – это выход (из селения) с целью преодолеть расстояние определенное шариатом и более этого, в котором позволяется сокращать намаз
+related: []
+used_in: []
+description: сафар – это выход (из селения) с целью преодолеть расстояние определенное
+  шариатом и более этого, в котором позволяется сокращать намаз
 ---
+
+
+
+
+
 
 <p>Сафар (араб. <span class="arab">سَفَرٌ</span>) происходит от глагола <span class="arab">سَفَرَ</span> (раскрывать, выявлять; писать; отправлять; отправляться в путь) и означает – путешествие. Говорят, что сафар назван так от того, что трудности путешествия показывают нрав людей.</p><p>{Quran}80:38{/Quran}</p><p>{Quran}74:34{/Quran}</p><p>{Quran}80:15{/Quran}</p><p>{Quran}2:184{/Quran}</p><p>В терминологии шариата <b>сафар – это выход (из селения) с целью преодолеть расстояние определенное шариатом<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a> и более этого, в котором позволяется сокращать намаз<a href="#_ftn2" name="_ftnref2" title=""><b>[2]</b></a>.</b></p><p><span class="arab">اَلسَّفَرُ فِي الْاِصْطِلَاحِ : "هُوَ الْخُرُوجُ عَلَى قَصْدِ قَطْعِ مَسَافَةِ الْقَصْرِ الشَّرْعِيَّةِ فَمَا فَوْقَهَا".</span></p><p>{Quran}4:101{/Quran}</p><div><br clear="all" /><hr align="left" size="1" width="33%" /><div><p><a href="#_ftnref1" name="_ftn1" title="">[1]</a> По мнению большинства ученых, это расстояние 85 км., равно по суши, воде или воздуху.</p></div><div><p><a href="#_ftnref2" name="_ftn2" title="">[2]</a> А также разрешается постящемуся разговляться.</p></div></div>

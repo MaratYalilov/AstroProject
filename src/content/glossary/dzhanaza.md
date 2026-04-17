@@ -5,67 +5,16 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related:
-- azan
-- dzhanaba
-- dzhikhad
-- fadzhr
-- fard
-- fikkh
-- gusl
-- idda
-- idzhtikhad
-- ikhlas
-- imam
-- islam
-- istikhada
-- kaaba
-- kafan
-- khadzh
-- khafiz
-- khajd
-- kharam
-- khasan
-- kufr
-- makrukh
-- mazkhab
-- mechet
-- mursal
-- muskhaf
-- namima
-- naskh
-- nifas
-- nikakh
-- rukn
-- sadaka
-- salyat
-- shajtan
-- tafsir
-- takhadzhud
-- talak
-- tavaf
-- tayammum
-- vadzhib
-- vali
-- zakyat
-used_in:
-- 10-vidy-omoveniya.md
-- 100-nagrada-za-namaz.md
-- 11-al-ikhlas-ochishchenie-very.md
-- 113-namaz-v-nachale-ego-vremeni.md
-- 116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2.md
-- 122-srednii-namaz.md
-- 13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.md
-- 16-tayammum.md
-- 22-mesyachnye-nifas-istihada.md
-- 30-2-hadis-smert-pervaya-stanciya-v-sudnyj-den.md
-- 5-5-3-2-prikhod-isy-mir-emu.md
-- 58-voda-smeshalas-s-chistym.md
-- 80-al-bakara-korova-27-28-aiat.md
-- 85-isa.md
-- 99-ostavlenie-namaza.md
-description: В терминологии шариата аль-джаназа имеет два значения-1-Покойник 2-Похоронная молитва
+related: []
+used_in: []
+description: В терминологии шариата аль-джаназа имеет два значения-1-Покойник 2-Похоронная
+  молитва
 ---
+
+
+
+
+
 
 <p>Джаназа (араб. <span class="arab">جَنَازَةٌ</span>) происходит от глагола <span class="arab">جَنَزَ</span> (покрывать; класть покойника на носилки; собирать) и означает – покойник; погребальные носилки.</p><p>В терминологии шариата аль-джаназа имеет два значения:</p><p><b>1-Покойник.</b></p><p><b>2-Похоронная молитва – это молитва (над телом<a href="#_ftn1" name="_ftnref1" title=""><b>[1]</b></a>) усопшего мусульманина, мужского или женского пола, состоящая из четырех такбиров<a href="#_ftn2" name="_ftnref2" title=""><b>[2]</b></a>, чтения суры аль-Фатиха после первого такбира, салавата на пророка, да благословит его Аллах и приветствует, после второго такбира, мольбы<a href="#_ftn3" name="_ftnref3" title=""><b>[3]</b></a> за усопшего после третьего, затем после четвертого такбира молитва завершается словами приветствия<a href="#_ftn4" name="_ftnref4" title=""><b>[4]</b></a>. </b></p><p><span class="arab">صلاة الجنازة هي صلاة على الميت المسلم (من ذكر أو أنثى) بأربعة التكبيرات: يقرأ بعد التكبيرة الأولى الفاتحة، ويصلى على النبى صلى الله عليه وسلم بعد الثانية، ويدعو للميت بما يتيسرله بعد الثالثة، ثم يسلم بعد الأخيرة".</span></p><div class="hadith">
   <p>Передают со слов Абу Хурайры, что однажды Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Тому, кто будет присутствовать на похоронах до завершения заупокойной молитвы, полагается награда в один карат, а оставшемуся до завершения погребения — в два карата».</b> Люди спросили: «А что это два карата?» Пророк, да благословит его Аллах и приветствует, сказал: «<b>Меньший из них подобен горе Ухуд».</b></p>

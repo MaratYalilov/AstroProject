@@ -65,7 +65,7 @@ videoRel: video/84-izar.mp4
 <li>Что Масрук приехал к Аише, да будет доволен ею Аллах, и спросил у неё о том, что дозволено мужчине когда у жены месячные. Она сказала:</li>
 <div class="hadith">
   <p>Все кроме полового органа </span>.</p>
-  <div class="hadith-reference">Тафсир Табари, 4248; Дарими,1039; Тахави</div>
+  <div class="hadith-reference"><a href="/glossary/tafsir" class="glossary-link" target="_blank" rel="noopener noreferrer">Тафсир</a> Табари, 4248; Дарими,1039; Тахави</div>
 </div>
 </ol>
 <p>Сказал ибн <a href="/glossary/radzhab" class="glossary-link" target="_blank" rel="noopener noreferrer">Раджаб</a>: Ахмад взял слова Аишы, да будет доволен ею Аллах, в этом вопросе, так как она наиболее знающая в нем.</p>

@@ -6,93 +6,28 @@ category: С
 tags: []
 aliases: []
 related:
-- adab
-- adam
-- ansary
-- arsh
-- dabba
-- dzhakhilijya
-- dzhikhad
-- dzhinn
-- gusl
-- iblis
-- imam
-- iman
-- indzhil
-- islam
-- istigfar
-- istikhada
-- istindzha
-- kaaba
-- khadzh
-- khalyal
-- kharam
+- idzhma
 - khasan
-- khidzhr
-- khidzhra
-- khira
-- makhr
-- makrukh
-- mazkhab
-- mechet
-- mukharram
 - munkar
 - mursal
-- muskhaf
-- musulmanin
-- mutavatir
-- naskh
-- nikakh
-- ramadan
-- rasul
-- rukhsa
-- rukn
-- salyam
-- shajtan
-- sira
-- sunna
-- tafsir
-- tasbikh
-- tauba
-- tayammum
-- umma
-- vadzhib
-- zabkh
-- zabur
-- zakyat
-- zikr
 used_in:
-- 02-otkrovenie-vakhii.md
-- 02-tafsir-poleznoe-vstuplenie.md
-- 02-urok-sira-religii-arabov.md
-- 03-nisposlanie-korana.md
-- 04-sobranie-korana.md
 - 05-urok-sira-yunost-proroka.md
 - 06-urok-sira-vzroslaya-zhizn-proroka.md
-- 08-fatikha-otkryvaiushchaia.md
-- 08-kyraaty-sposoby-chteniia-korana.md
-- 1-6-nekotorye-vidy-pokloneniya.md
 - 12-mazi-i-mani.md
 - 13-an-nasr-pomoshch.md
-- 14-prikosnovenie-k-polovomu-organu.md
-- 16-deistviya-narushayuschie-omovenie.md
 - 19-persten-s-imenem-allaha.md
-- 23-spravlenie-nuzhdy-stoya.md
-- 24-prosba-o-pomoshi.md
-- 28-chistka-zubov.md
-- 35-rot-i-nos-otdelno.md
 - 40-kolichestvo-vody-dlya-omoveniya-i-guslya.md
-- 47-spat-s-omoveniem.md
-- 48-chtenie-korana-oskvernennym.md
-- 5-5-3-7-dabba-zhivotnoe-kotoroe-vyydet-iz-zemli.md
 - 50-obschenie-s-oskvernennym.md
 - 63-al-bakara-ayat-al-kursi.md
-- 72-protiranie-kozhanyh-noskov.md
-- 74-protiranie-obuvi.md
-- 88-dabba.md
-- 95-istihada-i-omovenie.md
-description: сахих – это хадис с непрерывным иснадом, каждый передатчик которого от первого до последнего отличался беспристрастностью и точностью, в силу чего в его иснаде нет никаких отклонений или недостатков
+description: сахих – это хадис с непрерывным иснадом, каждый передатчик которого от
+  первого до последнего отличался беспристрастностью и точностью, в силу чего в его
+  иснаде нет никаких отклонений или недостатков
 ---
+
+
+
+
+
 
 <p>Сахих (араб. <span class="arab">صَحِيحٌ</span>) происходит от глагола <span class="arab">صَحَّ</span> (быть здоровым; быть истинным, верным, достоверным) и означает – здоровый; истинный, подлинный, правильный, достоверный.</p><p>В терминологии шариата <b>сахих – это <a href="/glossary/akhlyul-khadis" class="glossary-link" target="_blank" rel="noopener noreferrer">хадис</a> с непрерывным иснадом, каждый передатчик которого от первого до последнего отличался беспристрастностью и точностью, в силу чего в его иснаде нет никаких отклонений<a title="" href="#_ftn1"><b>[1]</b></a> (<i>шазз</i>) или недостатков<a title="" href="#_ftn2"><b>[2]</b></a> (<i>'илля</i>).</b></p><p><span class="arab">اَلصَّحِيحُ فِي الْاِصْطِلَاحِ: "هُوَ مَا اتَّصَلَ سَنَدُهُ بِنَقْلِ الْعَدْلِ الضَّابِطِ عَنْ مِثْلِهِ إِلَى مُنْتَهَاهُ مَعَ السَّلَامَةِ مِنَ الشُّذُوذِ وَالْعِلَّةِ".</span></p><p>Примером может служить хадис, приводимый Аль-Бухари в его достоверном сборнике «<i>Сахихе»</i>, где говорится:
 <div class="hadith">

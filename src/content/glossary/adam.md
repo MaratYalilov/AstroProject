@@ -5,84 +5,20 @@ letter: А
 category: А
 tags: []
 aliases: []
-related:
-- ansary
-- azan
-- dzhakhilijya
-- dzhinn
-- fitra
-- gusl
-- iblis
-- id
-- idzhtikhad
-- imam
-- iman
-- islam
-- kaaba
-- karamat
-- khadzh
-- khafiz
-- khalil
-- kharam
-- khasan
-- khava
-- khidzhab
-- khidzhr
-- khidzhra
-- khira
-- khukm
-- kunya
-- makrukh
-- mechet
-- musulmanin
-- mutavatir
-- nikakh
-- ramadan
-- riya
-- sadaka
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- sunna
-- tasbikh
-- tavassul
-- tora
-- umma
-- yadzhudzh-i-madzhudzh
-- zakyat
-used_in:
-- 06-urok-sira-vzroslaya-zhizn-proroka.md
-- 07-upodoblenie.md
-- 09-urok-sira-formy-peredachi-otkroveniya.md
-- 1-12-3-atributy-allakha.md
-- 1-9-sredstva-priblizheniya.md
-- 2-1-2-svet.md
-- 30-tauassul.md
-- 33-al-balad-gorod.md
-- 4-3-kto-yavlyaetsya-pervym-poslannikom.md
-- 45-atributy-suschnosti-allaha.md
-- 45-omovenie-posle-guslya.md
-- 48-vera-v-angelov.md
-- 5-1-vera-v-posledniy-den.md
-- 5-2-znanie-o-vremeni-nastupleniya-sudnogo-dnya.md
-- 5-23-khodataystvo.md
-- 5-5-3-3-yadzhudzh-i-madzhudzh.md
-- 51-gusl-v-pyatnicu.md
-- 67-20-hadis-stydlivost-vetv-very.md
-- 67-poslanniki-obladateli-reshimosti.md
-- 71-al-bakara-korova-08-09-aiat.md
-- 73-vera-v-sudnyy-den.md
-- 74-vremya-sudnogo-dnya.md
-- 81-al-bakara-korova-29-30-aiat.md
-- 83-al-bakara-korova-31-33-aiat.md
-- 84-al-bakara-korova-34-aiat.md
-- 85-al-bakara-korova-35-37-aiat.md
-- 86-yadzhudzh-i-madzhudzh.md
-- 97-zastupnichestvo.md
-- 98-hodataystvo.md
-description: Адам – это первый человек, Аллах создал его из земли, склонил перед ним ангелов в земном поклоне для почтения ему и научил его именам всех вещей. Адам, приходится отцом для всего человечества, от него они происходят и к нему относятся. Он, да благословит его Аллах и приветствует, является первым пророком, с которого Аллах начал пророческие мисси, которые были завершены миссией Мухаммада, да благословит его Аллах.
+related: []
+used_in: []
+description: Адам – это первый человек, Аллах создал его из земли, склонил перед ним
+  ангелов в земном поклоне для почтения ему и научил его именам всех вещей. Адам,
+  приходится отцом для всего человечества, от него они происходят и к нему относятся.
+  Он, да благословит его Аллах и приветствует, является первым пророком, с которого
+  Аллах начал пророческие мисси, которые были завершены миссией Мухаммада, да благословит
+  его Аллах.
 ---
+
+
+
+
+
 
 <p>Адам (араб. <span class="arab">آدَمُ</span>) происходит от глагола <span class="arab">أَدِمَ</span> (быть смуглым, иметь цвет земли) и означат – смуглый, с темной кожей, темнокожий; Адам – имя собственное.</p><p>В терминологии шариата <b>Адам – это первый человек, Аллах создал его из земли, склонил перед ним ангелов в земном поклоне для почтения ему и научил его именам всех вещей. Адам, приходится отцом для всего человечества, от него они происходят и к нему относятся. Он, да благословит его Аллах и приветствует, является первым пророком, с которого Аллах начал пророческие мисси, которые были завершены миссией Мухаммада, да благословит его Аллах.</b></p><p><span class="arab">تَعْرِيفٌ بآدَمَ: "هُوَ أَوَّلُ إِنْسَانٍ أَوْجَدَهُ اللهُ تَعَالَى مِنْ تُرَابٍ وَأَسْجَدَ لَهُ الْمَلَائِكَةَ تَكْرِيمًا لَهُ </span><span class="arab">وَعَلَّمَهُ أَسْمَاءَ كُلِّ شَيْئٍ</span><span class="arab">، وَجَعَلَهُ أَبًا لِلْبَشَرِ جَمِيعًا، فَمِنْهُ نَسْلُ النَّاسِ كُلِّهِمْ وَإِلَيْهِ يُنْسَبُونَ، وَهُوَ - صلى الله عليه وسلم - أَوَّلُ الْأَنْبِيَاءِ ، وَبِهِ بَدَأَ اللهُ تَعَالَى النُّبُوَّةَ كَمَا خَتَمَهَا بِسَيِّدِنَا مُحَمَّدٍ صَلَوَاتُ اللهِ عَلَيْهِ".</span></p><p>{Quran}38:71-72{/Quran}</p><p>{Quran}4:1{/Quran}</p><p>{Quran}2:31{/Quran}</p><p>{Quran}3:33{/Quran}</p><div class="hadith">
   <p>Сообщается, что Абу Зарр, да будет доволен им Аллах, сказал, я спросил Посланника Аллаха, да благословит его Аллах и приветствует: «Кто был первым пророком?», он сказал: «<b>Адам</b>», я сказал: «О Посланник Аллаха, разве он был пророком?», он сказал: «<b>Да, он был пророком, который получал откровения</b>»».</p>

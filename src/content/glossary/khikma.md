@@ -1,18 +1,19 @@
 ---
 term: Хикма
 url_slug: khikma
-letter: "Х"
+letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related:
-- dzhikhad
-- ramadan
-- zikr
-used_in:
-- 16-2-hadis-kachestva-i-primer-proroka-mukhammada.md
+related: []
+used_in: []
 description: хикма – это правильное применение вещи по ее назначению.
 ---
+
+
+
+
+
 
 <p>Хикма (араб. <span class="arab">حِكْمَةٌ</span>) происходит от глагола <span class="arab">أَحْكَمَ</span> (укреплять, делать крепко, прочно, точно, хорошо; владеть в совершенстве) и означает – мудрость.</p><p>В терминологии <b>хикма – это правильное применение вещи по ее назначению.</b></p><p><span class="arab">الحِكْمَة اِصْطِلاحًا: "هِيَ اسْمٌ لِإِحْكَامِ وَضْعِ الشَّيْءِ فِي مَوْضِعِهِ".</span></p><p>В Коране слово «хикма» применяется в нескольких значениях:</p><p>1-Сунна <span class="arab">(السنة)</span>.</p><p>{Quran}2:151{/Quran}</p><p>{Quran}33:34{/Quran}</p><p>2-Пророческая миссия <span class="arab">(النبوة)</span>.</p><p>{Quran}2:251{/Quran}</p><p>{Quran}43:63{/Quran}</p><p>3- Понимание <span class="arab">(الفقه)</span>.</p><p>Аллах сказал:
 

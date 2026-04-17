@@ -1,134 +1,20 @@
 ---
 term: Харам
 url_slug: kharam
-letter: "Х"
+letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related:
-- adab
-- adam
-- akika
-- aksa
-- bid-a
-- dabba
-- dadzhal
-- dalil
-- dzhanaza
-- dzhikhad
-- fard
-- fikkh
-- fitna
-- fitra
-- gusl
-- iblis
-- id
-- idda
-- idzhtikhad
-- ikhlas
-- imam
-- iman
-- islam
-- istikhada
-- istindzha
-- kaaba
-- kausar
-- khadzh
-- khajd
-- khalyal
-- khamr
-- khasan
-- khidzhra
-- khukm
-- kufr
-- ma-ruf
-- makhdi
-- makrukh
-- masikh
-- mazkhab
-- mechet
-- mubakh
-- mukhkam
-- munkar
-- mursal
-- muskhaf
-- musulmanin
-- mutashabikh
-- mutavatir
-- namima
-- naskh
-- nifas
-- radzhab
-- ramadan
-- rasul
-- sadaka
-- safar
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shakhada
-- sira
-- sunna
-- tafsir
-- takhadzhud
-- takva
-- talak
-- tasbikh
-- taufik
-- tavaf
-- tavakkul
-- tayammum
-- tora
-- umma
-- vadzhib
-- vali
-- yadzhudzh-i-madzhudzh
-- zakyat
-- zikr
-- zina
-- zukhd
-used_in:
-- 01-tafsir-ibn-kasira.md
-- 02-polozhenie-ostatkov-vody.md
-- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
-- 04-sobranie-korana.md
-- 05-istindzha.md
-- 05-rasm-muskhafa-md.md
-- 07-prichiny-nisposlaniia-aiatov.md
-- 07-upodoblenie.md
-- 10-bozhestvennoe-proishozhdenie-imen-allaha.md
-- 116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2.md
-- 14-2-hadis-otnoshenie-k-poslanniku.md
-- 17-adaby-tualeta.md
-- 17-kurejsh-kurejshity.md
-- 18-obereganie-ot-mochi.md
-- 22-mesyachnye-nifas-istihada.md
-- 23-mesyachnye-nifas-istihada-2chast.md
-- 24-nechistoty-i-ih-ochischenie-1-chast.md
-- 27-fitra.md
-- 31-al-lejl-noch.md
-- 35-rot-i-nos-otdelno.md
-- 40-kolichestvo-vody-dlya-omoveniya-i-guslya.md
-- 43-6-hadis-ostavlenie-somnitelnogo.md
-- 44-6-hadis-ostav-somnitelnoe-radi-yasnogo.md
-- 47-al-mutaffifin-obveshivaiushchie-2.md
-- 5-5-3-1-al-masikhud-dadzhal.md
-- 55-11-hadis-ostav-to-chto-tebya-ne-kasaetsya.md
-- 69-22-hadis-put-vedushchij-v-raj.md
-- 69-zhelatin-margarin.md
-- 75-25-hadis-shirota-milosti-allaha.md
-- 77-29-hadis-put-v-raj-i-dveri-blaga.md
-- 79-30-31-hadis-vseob-emlyushchij-shariat-i-klyuch-k-lyubvi.md
-- 8-1-hadis-hidzhra-polzy.md
-- 81-dadzhal.md
-- 83-blizost-vo-vremya-haida.md
-- 84-izar.md
-- 9-1-hadis-otnoshenie-k-dunya.md
-- 90-cveta-krovi-v-mazhabah.md
-- 92-nifas.md
-description: харам – это то, что законодатель категорично требует оставить, за что оставивший его с повиновением вознаграждается, а совершивший заслуживает наказание.
+related: []
+used_in: []
+description: харам – это то, что законодатель категорично требует оставить, за что
+  оставивший его с повиновением вознаграждается, а совершивший заслуживает наказание.
 ---
+
+
+
+
+
 
 <p>Харам (араб. <span class="arab">حَرَامٌ</span>) происходит от глагола <span class="arab">حَرُمَ</span>(быть запретным, заповедным, священным) и глагола <span class="arab">حَرَمَ</span> (лишать, отказывать; запрещать) и означает – священный, запретный, запрещенный.</p><p>{Quran}5:2{/Quran}</p><p>{Quran}21:95{/Quran}</p><p>В терминологии шариата <b>харам – это то, что законодатель категорично требует оставить, за что оставивший его с повиновением вознаграждается, а совершивший заслуживает наказание.</b></p><p><span class="arab">اَلْحَرَامُ فِي الْاِصْطِلَاحِ: " هُوَ مَا طَلَبَ الشَّارِعُ تَرْكَهُ طَلَبًا جَازِمًا فَيُثَابُ تَارِكُهُ امْتِثَالاً وَيَسْتَحِقُّ الْعِقَابَ فَاعِلُهُ".</span></p><p>{Quran}16:116{/Quran}</p><p>Примером требования указывающего на харам, являются слова Всевышнего:
 {Quran}5:90{/Quran}

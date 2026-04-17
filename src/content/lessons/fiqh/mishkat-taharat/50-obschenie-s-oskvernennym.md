@@ -49,7 +49,7 @@ videoRel: video/50-obschenie-s-oskvernennym.mp4
 <p><span class="arab">رَوَاهُ أَبُو دَاوُد وَ ابْنُ مَاجَة وَ التِّرْمِذِيُّ وَ زَادَ: أَوْ قَالَ: "بِسُؤْرِهَا" وَ قَالَ: هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ</span>.</p>
 <div class="hadith">
 <p>471-Передают со слов Хакама ибн Амра, сказал: Посланник Аллаха запретил мужчине совершать омовение остатками воды после очищения женщины<br>Сказал Навави: этот хадис слабый. Так считали имамы хадиса как Бухари и другие.</p>
-<div class="hadith-reference">Абу Дауд (82), ибн Маджа (373) и Тирмизи (64) и добавил: или сказал: «остатками воды» и сказал: этот хадис хасан сахих</div>
+<div class="hadith-reference">Абу Дауд (82), ибн Маджа (373) и Тирмизи (64) и добавил: или сказал: «остатками воды» и сказал: этот хадис <a href="/glossary/khasan" class="glossary-link" target="_blank" rel="noopener noreferrer">хасан</a> <a href="/glossary/sakhikh" class="glossary-link" target="_blank" rel="noopener noreferrer">сахих</a></div>
 </div>
 
 <p><strong>Эта тема уже разбиралась в двух уроках.</strong></p>

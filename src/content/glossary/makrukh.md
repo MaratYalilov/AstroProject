@@ -5,77 +5,16 @@ letter: М
 category: М
 tags: []
 aliases: []
-related:
-- adab
-- adam
-- azan
-- bid-a
-- dalil
-- dzhanaza
-- fard
-- fikkh
-- fitra
-- gusl
-- id
-- idda
-- idzhtikhad
-- ikhlas
-- imam
-- islam
-- israf
-- istikhada
-- istindzha
-- khadzh
-- khajd
-- kharam
-- khasan
-- khukm
-- mazkhab
-- mechet
-- mikhrab
-- mubakh
-- muskhaf
-- musulmanin
-- namima
-- nifas
-- nikakh
-- radzhab
-- sadaka
-- sakhikh
-- salyam
-- salyat
-- sunna
-- takhara
-- talak
-- tavaf
-- tayammum
-- tora
-- vasvasa
-- vudu
-- zakyat
-- zikr
-used_in:
-- 01-vidy-vody.md
-- 02-polozhenie-ostatkov-vody.md
-- 03-kolodcy.md
-- 05-istindzha.md
-- 07-upodoblenie.md
-- 09-adaby-omoveniya.md
-- 123-kniga-namaza-azan-urok-1.md
-- 125-azan-urok-3.md
-- 126-azan-urok-4.md
-- 17-adaby-tualeta.md
-- 18-obereganie-ot-mochi.md
-- 21-spravlenie-nuzhdy.md
-- 22-istindzha.md
-- 22-mesyachnye-nifas-istihada.md
-- 40-5-hadis-kriterii-sootvetstviya-shariatu.md
-- 40-kolichestvo-vody-dlya-omoveniya-i-guslya.md
-- 57-ostatki-vody-posle-zhivotnyh.md
-- 71-usloviya-protiraniya-noskov.md
-- 92-nifas.md
-description: макрух – это то, что законодатель требует оставить, но некатегорично, за что оставивший его с повиновением вознаграждается, а совершивший не наказывается
+related: []
+used_in: []
+description: макрух – это то, что законодатель требует оставить, но некатегорично,
+  за что оставивший его с повиновением вознаграждается, а совершивший не наказывается
 ---
+
+
+
+
+
 
 <p>Макрух (араб. <span class="arab">مَكْرُوهٌ</span>) происходит от глагола <span class="arab">كَرُهَ</span> (быть ненавистным, быть отвратительным) и глагола <span class="arab">كَرِهَ</span> (не желать; не любить; ненавидеть; чувствовать отвращение) и означает – плохой, дурной; отвергаемый, порицаемый, запрещенный.</p><p>{Quran}17:38{/Quran}</p><div class="hadith">
   <p>Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Поистине Аллах запрещает вам пустословие, задавать много вопросов и расточительство имущества».</b></p>

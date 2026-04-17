@@ -5,94 +5,18 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related:
-- aksa
-- ashura
-- din
-- dukhan
-- dzhanaza
-- dzhikhad
-- fikkh
-- gusl
-- id
-- idda
-- idzhtikhad
-- ikhlas
-- ikhsan
-- indzhil
-- islam
-- isra
-- istikhada
-- kaaba
-- kausar
-- khadzh
-- khafiz
-- khajd
-- khalyal
-- kharam
-- khasan
-- mazkhab
-- mechet
-- mukhkam
-- mursal
-- muskhaf
-- musulmanin
-- mutashabikh
-- mutavatir
-- namima
-- naskh
-- nikakh
-- radzhab
-- ramadan
-- riya
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sira
-- sunna
-- tavaf
-- tayammum
-- tora
-- ukhud
-- umma
-- zabur
-- zakyat
-- zikr
-- zina
+related: []
 used_in:
-- 01-mishkat-al-masabih-vstuplenie.md
-- 01-nauki-sviazannye-s-koranom.md
-- 01-tafsir-ibn-kasira.md
-- 02-otkrovenie-vakhii.md
-- 03-nisposlanie-korana.md
-- 04-sobranie-korana.md
-- 05-rasm-muskhafa-md.md
-- 06-mekkanskie-i-medinskie-sury.md
-- 07-prichiny-nisposlaniia-aiatov.md
-- 08-kyraaty-sposoby-chteniia-korana.md
-- 09-naskh-annulirovanie.md
-- 10-ig-dzhaz.md
-- 11-al-ikhlas-ochishchenie-very.md
-- 11-perevod-korana.md
-- 12-tolkovanie-korana.md
-- 13-vidy-tafsira.md
-- 15-al-kausar-izobilie.md
-- 19-al-khumaza-khulitel.md
-- 22-al-karia-velikoe-bedstvie.md
 - 24-az-zalzala-sotryasenie.md
-- 3-3-chudo-korana.md
-- 34-2-hadis-namaz-fatiha.md
-- 5-5-3-6-voskhod-solntsa-s-zapada.md
-- 54-chudo-korana.md
-- 56-chudo-korana-znamenie.md
-- 57-chudo-korana-prinyatie-islama.md
-- 80-haid.md
-- 82-nahozhdenie-v-mecheti-vo-vremya-haida.md
 - 84-izar.md
-- 87-dym-i-voshod-solnca-na-zapade.md
-description: тафсир – это наука, посредством которой достигается понимание Писания Аллаха, ниспосланное Его пророку Мухаммаду, да благословит его Аллах и приветствует, разъяснение его смыслов, и выведение шариатских постановлений и мудростей.
+description: тафсир – это наука, посредством которой достигается понимание Писания
+  Аллаха, ниспосланное Его пророку Мухаммаду, да благословит его Аллах и приветствует,
+  разъяснение его смыслов, и выведение шариатских постановлений и мудростей.
 ---
+
+
+
+
+
 
 <p>Тафсир (араб. <span class="arab">تَفْسِيرٌ</span>) происходит от глагола первой породы <span class="arab">فَسَرَ</span> (разъяснять, раскрывать, исследовать) и от глагола второй породы <span class="arab">فَسَّرَ</span> (разъяснять, толковать, комментировать; интерпретировать) и означает – разъяснение, толкование, комментарий.</p><p>{Quran}25:33{/Quran}</p><p>В терминологии <b>тафсир – это наука, посредством которой достигается понимание Писания Аллаха, ниспосланное Его пророку Мухаммаду, да благословит его Аллах и приветствует, разъяснение его смыслов, и выведение шариатских постановлений и мудростей.</b></p><p><span class="arab">التفسير في الاصطلاح: " هُوَ عِلْمٌ يُعْرَفُ بِهِ فَهْمُ كِتَابِ اللهِ الْمُنَزَّلِ عَلَى نَبِيِّهِ مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَبَيَانُ مَعَانِيهِ وَاسْتِخْرَاجُ أَحْكَامِهِ وَحِكَمِهِ ".</span></p><p>{Quran}38:29{/Quran}</p><p>{Quran}16:44{/Quran}</p>

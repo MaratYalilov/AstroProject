@@ -5,85 +5,17 @@ letter: И
 category: И
 tags: []
 aliases: []
-related:
-- adam
-- ajn
-- aksa
-- ansary
-- bid-a
-- din
-- fard
-- fitra
-- id
-- idzhtikhad
-- ikhlas
-- ikhsan
-- imam
-- indzhil
-- islam
-- isra
-- khadzh
-- khafiz
-- khalyal
-- kharam
-- khasan
-- khidzhab
-- khidzhra
-- khukm
-- mechet
-- mukhadzhiry
-- musulmanin
-- nikakh
-- ramadan
-- riya
-- sadaka
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shakhada
-- shirk
-- sira
-- sunna
-- tagut
-- takva
-- taravikh
-- tashakhkhud
-- taukhid
-- tavaf
-- tavakkul
-- tora
-- zakyat
-- zikr
-- zukhd
+related: []
 used_in:
-- 01-takhaviya-vstuplenie.md
-- 03-poniatie-termina-akhliussunna.md
-- 09-edinobozhie-v-bozhestvennosti.md
-- 1-11-poseshchenie-mogil.md
-- 1-12-2-imena-allakha.md
-- 10-urok-sira-pervye-musulmane.md
 - 101-namaz-prichina-proscheniya-grehov.md
-- 11-2-hadis-sut-islama.md
-- 11-voleiziavlenie-allaha.md
-- 12-2-hadis-shahada.md
-- 19-2-hadis-duhovnye-uroki-posta.md
-- 28-chistka-zubov.md
-- 33-2-hadis-ihsan.md
-- 38-al-gashiya-pokryvaiushchee-2.md
-- 41-poseschenie-mogil.md
-- 44-imena-allaha.md
-- 59-15-hadis-vera-yazyk-i-prava-soseda.md
-- 60-15-hadis-dobrososedskie-otnosheniya.md
-- 65-19-hadis-hrani-allaha-i-on-sohranit-tebya.md
-- 67-20-hadis-stydlivost-vetv-very.md
-- 67-al-bakara-korova-02-aiat.md
-- 68-al-bakara-korova-03-aiat.md
-- 69-al-bakara-korova-04-05-aiat.md
-- 75-al-bakara-korova-16-18-aiat.md
-- 8-1-hadis-hidzhra-polzy.md
-description: иман – это убеждение сердцем, произнесение языком, деяние органами тела увеличивается с подчинением и ослабевает от ослушания».
+description: иман – это убеждение сердцем, произнесение языком, деяние органами тела
+  увеличивается с подчинением и ослабевает от ослушания».
 ---
+
+
+
+
+
 
 <p>Иман (араб. إِيمانٌ) происходит от глагола آمَنَ и имеет несколько значений:<br /> 1-Обеспечивать безопасность.<br /> Аллах сказал: <b>«и избавил их от страха».</b> Сура: Курейшиты (4).</p><p><span class="arab">قال تعالى: " وَآَمَنَهُمْ مِنْ خَوْفٍ ". سورة قريش: 4</span></p><div class="hadith">
   <p>Посланник Аллаха, да благословит его Аллах и приветствует, сказал: <b>«Звезды являются безопасностью неба, и когда звезды исчезнут, небо постигнет то, что ему обещано, я являюсь безопасностью моих сподвижников и когда я умру, сподвижников постигнет то, что им обещано, и мои сподвижники являются безопасностью моей общины и когда они уйдут мою общину постигнет то, что им обещано».</b></p>

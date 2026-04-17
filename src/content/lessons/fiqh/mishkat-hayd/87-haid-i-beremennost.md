@@ -39,7 +39,7 @@ videoRel: video/87-haid-i-beremennost.mp4
 <li>
 <div class="hadith">
 Передают, что Аиша, да будет доволен ею Аллах, сказала о беременной у которой появилась кровь: <em>пусть совершит <a href="/glossary/gusl" class="glossary-link" target="_blank" rel="noopener noreferrer">гусль</a> и совершает намаз </em></p>
-  <div class="hadith-reference">Дарими, 933. хадис хасан</div>
+  <div class="hadith-reference">Дарими, 933. хадис <a href="/glossary/khasan" class="glossary-link" target="_blank" rel="noopener noreferrer">хасан</a></div>
 </div>
 <li>Факты показывают, что у беременных не бывает месячных. Сказал Ахмад: <em>женщины узнают о беременности после задержки менструального цикла</em>. (Это касается большинства женщин).</li>
 </ol>

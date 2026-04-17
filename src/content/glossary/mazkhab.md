@@ -5,113 +5,16 @@ letter: М
 category: М
 tags: []
 aliases: []
-related:
-- adab
-- azan
-- dzhanaba
-- dzhanaza
-- fadzhr
-- faraid
-- fard
-- fikkh
-- gusl
-- idda
-- idzhtikhad
-- iftar
-- ikhlas
-- imam
-- islam
-- israf
-- istikhada
-- istikhara
-- kaffara
-- khadzh
-- khafiz
-- khajd
-- khalyal
-- kharam
-- khasan
-- khidzhama
-- khukm
-- kunut
-- makrukh
-- mechet
-- mursal
-- muskhaf
-- musulmanin
-- mutavatir
-- naskh
-- nazr
-- nifas
-- radzhab
-- ramadan
-- rasul
-- riba
-- rukhsa
-- rukn
-- sadaka
-- safar
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shakhid
-- sukhur
-- sunna
-- tafsir
-- takhadzhud
-- takhara
-- taklid
-- tavaf
-- tayammum
-- vadzhib
-- vudu
-- zakyat
-- zikr
-used_in:
-- 01-vidy-vody.md
-- 02-biografiia-avtora-i-kommentatora.md
-- 02-polozhenie-ostatkov-vody.md
-- 04-tolkovanie-istigazy.md
-- 05-basmala.md
-- 08-fatikha-otkryvaiushchaia.md
-- 08-kyraaty-sposoby-chteniia-korana.md
-- 116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2.md
-- 12-mazi-i-mani.md
-- 122-srednii-namaz.md
-- 13-son-i-omovenie.md
-- 32-gore-pyatkam-ognem.md
-- 4-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 40-kolichestvo-vody-dlya-omoveniya-i-guslya.md
-- 42-farzy-guslya.md
-- 43-sunny-guslya.md
-- 44-raspuskanie-volos-pri-gusle.md
-- 48-chtenie-korana-oskvernennym.md
-- 5-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 54-voda-posle-omoveniya.md
-- 55-kakaya-voda-chistaya.md
-- 56-morskaya-voda-chistaya.md
-- 57-ostatki-vody-posle-zhivotnyh.md
-- 59-voda-sogretaya-luchami-solnca.md
-- 6-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 64-popadanie-nadzhisa-na-obuv-i-podol.md
-- 65-shkury-hischnyh-zhivotnyh.md
-- 66-shkury-mertvyh-zhivotnyh.md
-- 68-vse-vidy-nadzhisa.md
-- 69-zhelatin-margarin.md
-- 7-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 70-protiranie-dyryavyh-noskov.md
-- 71-usloviya-protiraniya-noskov.md
-- 72-protiranie-kozhanyh-noskov.md
-- 74-protiranie-obuvi.md
-- 75-tayammum.md
-- 8-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 81-chtenie-korana-vo-vremya-haida.md
-- 9-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 90-cveta-krovi-v-mazhabah.md
-- 91-priznaki-zaversheniya-mesyachnyh.md
-- 94-istihada.md
-description: мазхаб – это специализированная методика ученого, имеющего право на иджтихад, выводящего шариатские постановления по правовым вопросам, допускающим мнение, на основе гипотетических доказательств.
+related: []
+used_in: []
+description: мазхаб – это специализированная методика ученого, имеющего право на иджтихад,
+  выводящего шариатские постановления по правовым вопросам, допускающим мнение, на
+  основе гипотетических доказательств.
 ---
+
+
+
+
+
 
 <p>Мазхаб, мн.ч. мазахиб (араб. <span class="arab">مَذْهَبٌ</span> мн.ч. <span class="arab">مَذَاهِبُ</span>) происходит от глагола <span class="arab">ذَهَبَ</span> (идти<span>, </span>направляться<span>; </span>уходить <span>(</span>куда<span class="arab">إلى</span> )) и означает – путь, течение.</p><p>{Quran}75:33{/Quran}</p><p>В терминологии <b>мазхаб – это специализированная (методика) ученого, имеющего право на иджтихад, выводящего шариатские постановления по правовым вопросам, допускающим мнение, на основе гипотетических доказательств. </b></p><p><span class="arab">المذهب اصطلاحا: "مَا اخْتَصَّ بِهِ الْمُجْتَهِدُ مِنَ الْأَحْكَامِ الشَّرْعِيَّةِ الْفَرْعِيَّةِ الْإِجْتِهَادِيَّةِ الْمُسْتَفَادَةِ مِنَ الْأَدِّلَّةِ الظَّنَّيَّةِ".</span></p><p>Имам Абу Ханифа, да смилуется над ним Аллах, сказал: «Если хадис достоверный, то это мой мазхаб».</p><p><span class="arab">قال الإمام أبو حنيفة رحمه الله : "إِذا صح الحديث فهو مذهبي".</span></p>

@@ -1,46 +1,21 @@
 ---
 term: Хиджра
 url_slug: khidzhra
-letter: "Х"
+letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related:
-- adam
-- ansary
-- din
-- dzhakhilijya
-- dzhama-a
-- fard
-- fikkh
-- id
-- imam
-- iman
-- islam
-- kaaba
-- khadzh
-- khafiz
-- kharam
-- khidzhr
-- khira
-- mandub
-- mukhadzhiry
-- musulmanin
-- ramadan
-- sakhikh
-- salyam
-- sira
-- tavaf
-- tavakkul
-- umma
-used_in:
-- 06-urok-sira-vzroslaya-zhizn-proroka.md
-- 07-urok-sira-oblik-proroka.md
-- 10-urok-sira-pervye-musulmane.md
-- 7-1-hadis-hidzhra.md
-- 8-1-hadis-hidzhra-polzy.md
-description: Хиджра в общем смысле – это оставление всего того, что запретил Аллах. Хиджра в особом смысле – это выход на пути Аллаха, (переселяясь) из места неверия в страну Ислама, или из места больших смут туда, где их меньше.
+related: []
+used_in: []
+description: Хиджра в общем смысле – это оставление всего того, что запретил Аллах.
+  Хиджра в особом смысле – это выход на пути Аллаха, (переселяясь) из места неверия
+  в страну Ислама, или из места больших смут туда, где их меньше.
 ---
+
+
+
+
+
 
 <p>Хиджра (араб. <span class="arab">هِجْرَةٌ</span>) происходит от глагола <span class="arab">هَجَرَ</span> (прекращать, бросать (занятия); оставлять, расставаться; прекращать общение) и означает – бросание, оставление, покидание.</p><p>{Quran}25:30{/Quran}</p><p>{Quran}4:34{/Quran}</p><p>В терминологии шариата хиджра имеет общий и особый смысл:</p><ul><li><b>Хиджра в общем смысле – это оставление всего того, что запретил Аллах.</b></li></ul><p><span class="arab">الهجرة في الاصطلاح العام: "هِيَ تَرْكُ مَا نَهَى اللهُ عَنْهُ".</span></p><p>{Quran}74:5{/Quran}</p><div class="hadith">
   <p>Посланник Аллаха, да благословит его Аллах, сказал: <b>«Переселившийся – это тот, кто оставил то, что запретил Аллах».</b></p>

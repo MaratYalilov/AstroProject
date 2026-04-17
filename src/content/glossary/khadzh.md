@@ -1,112 +1,23 @@
 ---
 term: Хадж
 url_slug: khadzh
-letter: "Х"
+letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related:
-- adab
-- adam
-- akhlyak
-- ansary
-- bid-a
-- din
-- dzhama-a
-- dzhanaba
-- dzhanaza
-- dzhikhad
-- fard
-- fitna
-- fitra
-- gusl
-- iblis
-- id
-- idda
-- ikhlas
-- ikhsan
-- imam
-- iman
-- islam
-- isra
-- istikhada
-- kaaba
-- khajd
-- khalyal
-- kharam
-- khasan
-- khidzhr
-- khidzhra
-- kibla
-- madzhaz
-- makrukh
-- mandub
-- mazkhab
-- mechet
-- mursal
-- musulmanin
-- radzhab
-- ramadan
-- rasul
-- riya
-- sadaka
-- safar
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shakhada
-- shirk
-- sira
-- sunna
-- tafsir
-- takfir
-- takhadzhud
-- takva
-- taravikh
-- taufik
-- taukhid
-- tavaf
-- tayammum
-- tora
-- ukhud
-- zabkh
-- zakyat
-- zikr
-- zukhd
-- zulm
-used_in:
-- 02-tafsir-poleznoe-vstuplenie.md
-- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
-- 04-edinobozhie-i-ego-vidy.md
-- 07-upodoblenie.md
-- 07-urok-sira-oblik-proroka.md
-- 09-edinobozhie-v-bozhestvennosti.md
-- 1-6-nekotorye-vidy-pokloneniya.md
-- 10-2-hadis-hadis-dzhibrilya.md
-- 10-ig-dzhaz.md
-- 100-nagrada-za-namaz.md
-- 13-urok-sira-etapy-prizyva-chast2.md
-- 14-2-hadis-otnoshenie-k-poslanniku.md
-- 15-kogda-sovershat-gusl-sunna.md
-- 18-al-fil-slon.md
-- 18-urok-sira-pervoe-pereselenie.md
-- 19-2-hadis-duhovnye-uroki-posta.md
-- 20-al-asr-predvechernee-vremya.md
-- 23-nekotorye-etikety-molby.md
-- 25-upovanie.md
-- 35-3-hadis-sut-pokloneniya.md
-- 38-al-gashiya-pokryvaiushchee-2.md
-- 6-1-hadis-pokazuhra.md
-- 62-17-hadis-ihsan-sovershenstvo-vo-vsem.md
-- 63-18-hadis-bogoboyaznennost-osnova-spaseniya.md
-- 74-al-bakara-korova-14-15-aiat.md
-- 77-29-hadis-put-v-raj-i-dveri-blaga.md
-- 81-chtenie-korana-vo-vremya-haida.md
-- 89-predohranenie-ot-beremennosti.md
-- 90-cveta-krovi-v-mazhabah.md
-description: хадж – это посещение определенного места (священной мечети в Мекке и Арафата) с целью поклонения Аллаху в определенное время (три месяца паломничества) для исполнения определенных действий (обрядов паломничества), совершаемых определенными лицами (разумными мусульманами), так как установлено в сунне Посланника Аллаха, да благословит его Аллах и приветствует.
+related: []
+used_in: []
+description: хадж – это посещение определенного места (священной мечети в Мекке и
+  Арафата) с целью поклонения Аллаху в определенное время (три месяца паломничества)
+  для исполнения определенных действий (обрядов паломничества), совершаемых определенными
+  лицами (разумными мусульманами), так как установлено в сунне Посланника Аллаха,
+  да благословит его Аллах и приветствует.
 ---
+
+
+
+
+
 
 <p>Хадж (араб. <span class="arab">حَجٌّ</span>) происходит от глагола <span class="arab">حَجَّ</span> (направляться, отправляться к священным местам) и означает – устремление.</p><p>В терминологии шариата <b>хадж – это посещение определенного места (священной мечети в Мекке и Арафата) с целью поклонения Аллаху в определенное время (три месяца паломничества) для исполнения определенных действий (обрядов паломничества), совершаемых определенными лицами (разумными мусульманами), так как установлено в сунне Посланника Аллаха, да благословит его Аллах и приветствует.</b></p><p><span class="arab">الحجّ في اصطلاح الشّرع : هُوَ قَصْدُ مَكَانٍ مَخْصُوصٍ « وَهُوَ الْبَيْتُ الْحَرامُ وَعَرَفَةُ » تَعَبُّداً للهِ - عَزَّ وَجَلَّ -</span><span class="arab">فِي أَوْقاتٍ مَخْصُوصَةٍ</span> « وَهُوَ أَشْهُرُ الْحَجِّ » بِأَعْمَالٍ مَخْصُوصَةٍ «اَلْمَنَاسِكُ» <span class="arab">مِنْ شَخْصٍ مَخْصُوصٍ عَلى مَا جَاءَ فِي سُنَّةِ الرَّسُولِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ .</span></p>
 <p>{Quran}2:97{/Quran}</p>

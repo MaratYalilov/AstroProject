@@ -47,7 +47,7 @@ videoRel: video/57-ostatki-vody-posle-zhivotnyh.mp4
 <p class="arab">رَوَاهُ فِي "شَرْحِ السُّنَّةِ"</p>
 <div class="hadith">
 <p>484-Передают со слов Джабира ибн Абдулла, что Посланника Аллаха да благословит Его Аллах и приветствует спросили: можно ли нам совершать омовение водой оставшейся после питья ослов. Он сказал: «<em>Да, а также тем что осталось после питья всех хищных животных</em>»</p>
-<div class="hadith-reference">Багави привел его в «Шарх сунна». Хадис также привел Шафии в своем «Муснаде»</div>
+<div class="hadith-reference">Багави привел его в «Шарх <a href="/glossary/sunna" class="glossary-link" target="_blank" rel="noopener noreferrer">сунна</a>». Хадис также привел Шафии в своем «Муснаде»</div>
 </div>
 
 <p><strong><span class="hadis">Шарх<br data-mce-bogus="1"></span></strong></p>

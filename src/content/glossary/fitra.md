@@ -5,57 +5,15 @@ letter: Ф
 category: Ф
 tags: []
 aliases: []
-related:
-- adam
-- ajn
-- bid-a
-- birr
-- dalil
-- din
-- fard
-- fitna
-- id
-- ikhsan
-- imam
-- iman
-- islam
-- istindzha
-- khadis-kudsi
-- khadzh
-- kharam
-- khidzhab
-- khukm
-- makrukh
-- mechet
-- riya
-- safar
-- salyam
-- salyat
-- shirk
-- sira
-- sunna
-- takhadzhud
-- takva
-- taukhid
-- tora
-- vadzhib
-- vitr
-- zakyat
-used_in:
-- 01-takhaviya-vstuplenie.md
-- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
-- 05-edinobozhie-v-gospodstve.md
-- 07-fitra-ukazyvaet-na-tvorca.md
-- 07-upodoblenie.md
-- 1-1-vera-v-sushchestvovanie-allakha.md
-- 109-ostavlenie-asr-namaza.md
-- 11-voleiziavlenie-allaha.md
-- 110-vremya-namaza-isha.md
-- 27-fitra.md
-- 67-20-hadis-stydlivost-vetv-very.md
-- 76-28-hadis-nastavlenie-na-vremena-smut.md
+related: []
+used_in: []
 description: фитра – врожденное состояние единобожия и предрасположенность к благу.
 ---
+
+
+
+
+
 
 <p>Фитра (араб. <span class="arab">فِطْرَةٌ</span>) происходит от глагола <span class="arab">فَطَرَ</span> (творить, создавать, раскалывать) и означает – природа, естество.</p><p>Аллах сообщил слова Ибрагима:
 {Quran}6:79{/Quran}

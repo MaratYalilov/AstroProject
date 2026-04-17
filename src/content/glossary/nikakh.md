@@ -5,52 +5,16 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related:
-- adam
-- aksa
-- ashura
-- bid-a
-- dalil
-- dzhanaza
-- gusl
-- iblis
-- id
-- idda
-- idzhtikhad
-- iman
-- islam
-- istikhada
-- kaaba
-- kaffara
-- khafiz
-- khasan
-- khava
-- khira
-- makhr
-- makrukh
-- mechet
-- mutavatir
-- naskh
-- nifas
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- tafsir
-- talak
-- zakyat
-- zina
-used_in:
-- 05-urok-sira-yunost-proroka.md
-- 09-naskh-annulirovanie.md
-- 113-namaz-v-nachale-ego-vremeni.md
-- 28-chistka-zubov.md
-- 40-5-hadis-kriterii-sootvetstviya-shariatu.md
-- 85-al-bakara-korova-35-37-aiat.md
-- 93-otlichiya-mezhdu-nifasom-i-mesyachnymi.md
-description: никах – это настоящий акт дающий мужчине право и женщине позволение на интимные взаимоотношения друг с другом на законной основе.
+related: []
+used_in: []
+description: никах – это настоящий акт дающий мужчине право и женщине позволение на
+  интимные взаимоотношения друг с другом на законной основе.
 ---
+
+
+
+
+
 
 <p>Никах (араб. <span class="arab">نِكَاحٌ</span>) происходит от глагола <span class="arab">نَكَحَ</span> (собираться, соединяться; вступать в брак, жениться; выдавать замуж; совокупляться) и означает – брак, совокупление.</p><div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, запретил мужьям совокупляться с женами во время менструации, сказав: <b>«Делайте (с ними) все, (что хотите), кроме совокупления».</b></p>

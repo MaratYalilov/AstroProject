@@ -5,29 +5,15 @@ letter: И
 category: И
 tags: []
 aliases: []
-related:
-- ajn
-- bid-a
-- din
-- fard
-- fitra
-- ikhlas
-- iman
-- islam
-- khadzh
-- khukm
-- musulmanin
-- riya
-- shajtan
-- shirk
-- tafsir
-used_in:
-- 01-takhaviya-vstuplenie.md
-- 33-2-hadis-ihsan.md
-- 34-2-hadis-namaz-fatiha.md
-- 62-17-hadis-ihsan-sovershenstvo-vo-vsem.md
+related: []
+used_in: []
 description: делать превосходно, отлично; совершать благодеяния, делать добро
 ---
+
+
+
+
+
 
 <p>Ихсан (араб. <span class="arab">إِحْسانٌ</span>) существительное от глагола <span class="arab">أَحْسَنَ</span> делать превосходно, отлично; совершать благодеяния, делать добро (кому). Однокоренное со словом <span class="arab">حَسَنَةٌ</span> – добро. И означает – благодеяние, милость и является антонимом «ухудшение, причинение зла».</p><p>{Quran}13:22{/Quran}</p><div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, сказал: <b>«Бойся Аллаха, где бы ты ни был, вслед за дурным делом соверши благое, которое сотрёт собой дурное, и придерживайся благонравия в отношениях с людьми».</b></p>

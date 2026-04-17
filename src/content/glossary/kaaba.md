@@ -5,79 +5,17 @@ letter: К
 category: К
 tags: []
 aliases: []
-related:
-- adam
-- aksa
-- ansary
-- arsh
-- ashura
-- din
-- dzhakhilijya
-- dzhama-a
-- dzhanaza
-- dzhikhad
-- dzhinn
-- gusl
-- iblis
-- id
-- idda
-- idzhtikhad
-- ikhlas
-- imam
-- islam
-- khadzh
-- khafiz
-- khalyal
-- kharam
-- khasan
-- khidzhr
-- khidzhra
-- khira
-- makhdi
-- mechet
-- mukhadzhiry
-- mukhkam
-- mursal
-- muskhaf
-- musulmanin
-- mutashabikh
-- mutavatir
-- naskh
-- nikakh
-- ramadan
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- sira
-- sunna
-- tafsir
-- umma
-- vitr
-- zakyat
-- zina
+related: []
 used_in:
-- 02-urok-sira-religii-arabov.md
-- 06-urok-sira-vzroslaya-zhizn-proroka.md
-- 07-prichiny-nisposlaniia-aiatov.md
-- 07-urok-sira-oblik-proroka.md
-- 09-naskh-annulirovanie.md
-- 11-al-ikhlas-ochishchenie-very.md
-- 17-kurejsh-kurejshity.md
-- 25-al-bejjina-yasnoe-znamenie.md
-- 26-al-kadr-predopredelenie.md
-- 28-at-tin_smokovnitca.md
-- 39-al-aglya-vsevyshniy-1.md
-- 41-prichiny-dlya-soversheniya-guslya.md
-- 46-sokrytie-aurata.md
-- 47-al-mutaffifin-obveshivaiushchie-2.md
-- 48-al-mutaffifin-obveshivaiushchie-3.md
-- 5-5-2-malye-priznaki-sudnogo-dnya.md
 - 57-an-naziat-istorgaiushchie-1.md
-- 63-al-bakara-ayat-al-kursi.md
-- 66-al-bakara-korova-01-aiat.md
-- 75-malye-priznaki-sudnogo-dnya.md
-description: Кааба – это священная мечеть, которая является направлением для мусульман в молитвах, к ней стремятся паломники со всего мира, и совершают обход вокруг нее. Мусульмане считают ее самым святым местом на земле.
+description: Кааба – это священная мечеть, которая является направлением для мусульман
+  в молитвах, к ней стремятся паломники со всего мира, и совершают обход вокруг нее.
+  Мусульмане считают ее самым святым местом на земле.
 ---
+
+
+
+
+
 
 <p>Кааба (араб. <span class="arab">اَلْكَعْبَةُ</span>) происходит от глагола <span class="arab">كَعَّبَ</span> (придавать форму куба) и означает – куб.</p><p>В терминологии шариата <b>Кааба – это священная мечеть, которая является направлением для мусульман в молитвах, к ней стремятся паломники со всего мира, и совершают обход вокруг нее. Мусульмане считают ее самым святым местом на земле.</b></p><p><span class="arab">الكعبة اصطلاحا: "هِيَ الْبَيْتُ الْحَرَامُ وَقِبْلَةُ الْمُسْلِمِينَ في صَلَوَاتِهِمْ، وَإِلَيْهَا يَطُوفُونَ فِي حَجِّهِمْ، وَتَهْوَى أَفْئِدَتُهُمْ وَتَتَطَلَّعُ الْوُصُولَ إِلَيْهَا مِنْ كُلِّ أَرْجَاءِ الْعَالَمِ, وَيَعْتَبِرُهَا الْمُسْلِمُونَ أَقْدَسَ مَكَانٍ عَلى وَجْهِ الْأَرْضِ</span>.</p><p>{Quran}5:97{/Quran}</p><p>Кааба имеет и другие названия:</p><ul><li>Аль-Бейт – Дом (<span class="arab">البيت</span>).</li></ul><p>{Quran}2:125{/Quran}</p><ul><li>Аввальбейт<span> – </span>Первыйдом<span> (</span><span class="arab">أول بيت</span>).</li></ul><p>{Quran}3:96{/Quran}</p><ul><li>Аль-Бейт аль-'атик – Древний дом (<span class="arab">البيت العتيق</span>).</li></ul><p>{Quran}22:29{/Quran}</p><ul><li><span class="arab">Аль-Бейт аль-харам – Заповедный дом (البيت الحرام</span>).</li></ul><p>{Quran}5:2{/Quran}</p><ul><li><span class="arab">Аль-Масджид аль-харам – Заповедная мечеть (المسجد الحرام</span>).</li></ul><p>{Quran}5:2{/Quran}</p>

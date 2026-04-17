@@ -5,66 +5,15 @@ letter: У
 category: У
 tags: []
 aliases: []
-related:
-- adab
-- adam
-- ansary
-- dzhikhad
-- fard
-- fikkh
-- gusl
-- id
-- idzhtikhad
-- ikhlas
-- imam
-- islam
-- istikhada
-- kaaba
-- kausar
-- khafiz
-- khajd
-- khalyal
-- kharam
-- khasan
-- khidzhr
-- khidzhra
-- kufr
-- makhdi
-- mandub
-- mukhadzhiry
-- mukhkam
-- muskhaf
-- musulmanin
-- mutashabikh
-- mutavatir
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- tafsir
-- tasbikh
-- taukhid
-- tavaf
-- zakyat
-- zina
-used_in:
-- 04-sobranie-korana.md
-- 05-omovenie-i-namaz.md
-- 05-rasm-muskhafa-md.md
-- 07-prichiny-nisposlaniia-aiatov.md
-- 15-al-kausar-izobilie.md
-- 25-al-bejjina-yasnoe-znamenie.md
-- 31-al-lejl-noch.md
-- 35-al-fadzhr-zaria-chast-2.md
-- 38-obtiranie-posle-omoveniya.md
-- 45-omovenie-posle-guslya.md
-- 66-19-hadis-esli-prosish-prosi-u-allaha.md
-- 66-al-bakara-korova-01-aiat.md
-- 7-1-hadis-hidzhra.md
-- 70-al-bakara-korova-06-07-aiat.md
-- 97-vozmeshchenie-namaza-posle-ochishcheniia.md
-description: умма исламийя – это приверженцы религии Ислам, во всех концах Земли, которых объединяет единая вера, благие интересы, общие цели и заботы.
+related: []
+used_in: []
+description: умма исламийя – это приверженцы религии Ислам, во всех концах Земли,
+  которых объединяет единая вера, благие интересы, общие цели и заботы.
 ---
+
+
+
+
+
 
 <p>Умма (араб. <span class="arab">أُمَّةٌ</span>) происходит от глагола <span class="arab">أَمَّ</span> (направляться; прибегать, укрываться) и означает - нация, народ.</p><p>В терминологии шариата <b>умма исламийя – это приверженцы религии Ислам, во всех концах Земли, которых объединяет единая вера, благие интересы, общие цели и заботы.</b></p><p><span class="arab">اَلْأُمَّةُ الْإِسْلامِيَّةُ في الْاِصْطِلاحِ: " هُمُ الَّذِينَ يَدِينُونَ بِالْإِسْلامِ في كُلِّ بِقَاعِ الْأَرْضِ، وَ يَشْتَرِكُونَ بِالضَّمِيرِ الْإِسْلامِيِّ الْوَاحِدِ، وَ الْمَصَالِحِ وَ الْهُمُومِ وَ الْغَايَاتِ"</span><b><span>.</span></b></p><p>{Quran}2:143{/Quran}</p><p>{Quran}3:110{/Quran}</p><p>В Коране слово «Умма» применяется в разных значениях:</p><p>1- <span class="arab">Религия (دين</span>).</p><p>{Quran}16:93{/Quran}</p><p>2- <span class="arab">Предводитель, имам (إمام</span>).</p><p>{Quran}16:120{/Quran}</p><p><span>3- </span><span class="arab"> Время (زمان</span>).</p><p>{Quran}12:45{/Quran}</p><p>4- <span class="arab">Группа (جماعة</span>).</p><p>{Quran}28:23{/Quran}</p><p>5- <span class="arab">Народ (قوم</span>).</p><p>{Quran}16:92{/Quran}</p> 

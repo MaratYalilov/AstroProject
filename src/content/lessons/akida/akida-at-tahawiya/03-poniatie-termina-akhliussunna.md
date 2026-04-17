@@ -69,7 +69,7 @@ videoRel: video/03-poniatie-termina-akhliussunna.mp4
 <ol class="list">
 <li>Объединение, общность, единство (противоположность расколу).</li>
 <li>Коллектив, собрание людей.</li>
-<li>Единодушие, единогласие (Иджма).</li>
+<li>Единодушие, единогласие (<a href="/glossary/idzhma" class="glossary-link" target="_blank" rel="noopener noreferrer">Иджма</a>).</li>
 </ol>
 
 <h4>Терминологические значения слова «Джамаа» в Шариате</h4>

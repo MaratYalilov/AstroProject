@@ -22,7 +22,7 @@ videoRel: video/19-persten-s-imenem-allaha.mp4
 <p class="arab">قَالَ أَبُو دَاوُد: هَذَا حَدِيثٌ مُنْكَر</p>
 <div class="hadith">
 <p>343 - Передают Анаса, сказал: Когда Пророк хотел зайти в отхожее место он снимал перстень (печатку)</p>
-<div class="hadith-reference">Абу Дауд (19), Насаи (5213), Тирмизи (1746) и сказал: этот хадис хасан сахих гариб. А также ибн Маджа (303). Сказал Абу Дауд: этот хадис мункар</div>
+<div class="hadith-reference">Абу Дауд (19), Насаи (5213), Тирмизи (1746) и сказал: этот хадис <a href="/glossary/khasan" class="glossary-link" target="_blank" rel="noopener noreferrer">хасан</a> <a href="/glossary/sakhikh" class="glossary-link" target="_blank" rel="noopener noreferrer">сахих</a> гариб. А также ибн Маджа (303). Сказал Абу Дауд: этот хадис <a href="/glossary/munkar" class="glossary-link" target="_blank" rel="noopener noreferrer">мункар</a></div>
 </div>
 
 
