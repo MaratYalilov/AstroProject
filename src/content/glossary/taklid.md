@@ -5,10 +5,38 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- bid-a
+- fadzhr
+- fard
+- id
+- ikhlas
+- ikhram
+- khukm
+- kufr
+- kunut
+- makrukh
+- mazkhab
+- musulmanin
+- ramadan
+- rukn
+- sakhikh
+- salyam
+- salyat
+- sunna
+- takhadzhud
+- tashakhkhud
+- tayammum
+- vadzhib
+- vitr
+- vudu
+used_in:
+- 162-opisanie-namaza-urok-6.md
+- 67-vitr-40.md
 description: таклид – это принятие мнения других (людей) без (знания) доказательства.
 ---
+
 
 
 

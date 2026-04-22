@@ -5,13 +5,36 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhikhad
+- fadzhr
+- fard
+- id
+- islam
+- isra
+- kaffara
+- khafiz
+- kharam
+- khasan
+- mechet
+- mursal
+- safar
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- vadzhib
+- vudu
+used_in:
+- 138-mecheti-urok-5.md
+- 154-sutra-urok-2.md
+- 8-razrush-svoego-idola.md
 description: джинн – это разновидность разумных духов имеющих волю, они ответственны
   за поклонение так же, как люди, остаются недоступными для восприятия и не видимы
   в своем естественном виде, способные перевоплощаться, нуждаются в пище и питье,
   имеют потомство и будут подвергнуты расчету в День суда.
 ---
+
 
 
 

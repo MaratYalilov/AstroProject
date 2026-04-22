@@ -5,11 +5,63 @@ letter: В
 category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- azan
+- azima
+- bid-a
+- dzhanaba
+- dzhanaza
+- dzhikhad
+- dzhinn
+- fadzhr
+- fard
+- fikkh
+- gusl
+- id
+- ikamat
+- ikhlas
+- ikhram
+- kaaba
+- kaffara
+- khafiz
+- kharam
+- khasan
+- kibla
+- kufr
+- kunut
+- makhram
+- makrukh
+- mazkhab
+- mechet
+- mubakh
+- nadzhasa
+- ramadan
+- rukhsa
+- rukn
+- safar
+- sakhikh
+- salyam
+- shart
+- sunna
+- takhara
+- taklid
+- tasbikh
+- tayammum
+- vadzhib
+- vitr
+used_in:
+- 138-mecheti-urok-5.md
+- 162-opisanie-namaza-urok-6.md
+- 34-kniga-namaza-8.md
+- 50-kniga-namaza-24.md
+- 55-chto-narushaet-namaz-1-29.md
+- 57-chto-narushaet-namaz-3-31.md
+- 74-namaz-putnika-48.md
 description: вуду – это очищение определенных органов , посредством чистой и очищающей
   воды, определенным в шариате образом с намерением приблизиться к Аллаху.
 ---
+
 
 
 

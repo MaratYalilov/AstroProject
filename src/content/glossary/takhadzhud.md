@@ -5,11 +5,59 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- birr
+- fadzhr
+- fard
+- i-tikaf
+- id-al-adkha
+- id-al-fitr
+- iman
+- israf
+- istiftakh
+- istikhara
+- khadzh
+- kharam
+- khasan
+- khava
+- khukm
+- kufr
+- kunut
+- makrukh
+- mandub
+- mazkhab
+- mechet
+- munkar
+- musulmanin
+- ramadan
+- sadaka
+- sakhikh
+- salyam
+- salyat
+- sha-ban
+- shajtan
+- sunna
+- tafsir
+- taklid
+- tashakhkhud
+- umma
+- vadzhib
+- vitr
+- zikr
+- zul-khidzha
+used_in:
+- 02-adab-tazkiya-urok-02.md
+- 23-razrush-svoego-idola.md
+- 33-adab-tazkiya-urok-33.md
+- 67-vitr-40.md
+- 69-dopolnitelnye-namazy-43.md
+- 70-namaz-privetstviya-mecheti-44.md
 description: тахаджуд – это добровольный ночной намаз, совершаемый после пробуждения
   от сна.
 ---
+
 
 
 

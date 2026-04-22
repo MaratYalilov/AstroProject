@@ -5,11 +5,31 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- adam
+- aksa
+- iblis
+- islam
+- khadzh
+- khalyal
+- khasan
+- khava
+- mechet
+- mikhrab
+- rauda
+- salyam
+- shajtan
+- tauba
+- tavaf
+- zikr
+used_in:
+- 06-adab-tazkiya-urok-06.md
+- 136-mecheti-urok-3.md
 description: риба – это рост в определенных (шариатом) вещах, равно как по причине
   увеличения (долга), так и по причине отсрочки (выплаты).
 ---
+
 
 
 

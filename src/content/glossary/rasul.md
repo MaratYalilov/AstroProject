@@ -5,11 +5,41 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fard
+- id
+- ikamat
+- ilya
+- islam
+- istiska
+- khadzh
+- khalyal
+- kharam
+- khasan
+- makrukh
+- mechet
+- musulmanin
+- ramadan
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- tadzhvid
+- taravikh
+- umma
+- vadzhib
+- vitr
+- zakyat
+- zikr
+used_in:
+- 112-al-bakara-korova-108-110-aiat.md
+- 191-salavat-urok-3.md
+- 31-kniga-namaza-5.md
 description: расуль – это свободный мужчина, которому Бог посредством откровения даровал
   закон и приказал призывать к нему народ противостоящий ему.
 ---
+
 
 
 

@@ -5,12 +5,27 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- du-a
+- islam
+- israf
+- khalil
+- khasan
+- khidzhab
+- mechet
+- miskin
+- sadaka
+- sakhikh
+- salyam
+- tafsir
+used_in:
+- 105-al-bakara-korova-97-98-aiat.md
+- 17-razrush-svoego-idola.md
 description: Исрафиль – это один из трех чтимых ангелов, он является одним из носителей
   Трона. По приказу Всевышнего Аллаха он будет дуть в рог и тогда умрут все творения,
   а затем он подует еще раз и все встанут перед Господом миров для Суда.
 ---
+
 
 
 

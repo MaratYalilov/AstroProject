@@ -5,12 +5,28 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fadzhr
+- fard
+- idzhma
+- iman
+- islam
+- khukm
+- kufr
+- musulmanin
+- radzhab
+- ramadan
+- sakhikh
+- salyat
+- takhara
+- zakyat
+used_in:
+- 27-kniga-namaza-1.md
 description: 1-Деяния, посредством которых иступляются клятва, обет, непреднамеренное
   убийство или некоторые грехи, для того что бы стереть их и не быть наказанным в
   этой и будущей жизни.2-Постановление в отношении личности (мусульманина) о его вероотступничестве.
 ---
+
 
 
 

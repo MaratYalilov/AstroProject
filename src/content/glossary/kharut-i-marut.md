@@ -5,12 +5,28 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- fitna
+- iblis
+- iman
+- khasan
+- khidzhr
+- kufr
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sikhr
+- zina
+used_in:
+- 107-al-bakara-korova-102-103-aiat.md
+- 108-al-bakara-korova-102-103-aiat.md
 description: Харут и Марут – это два ангела, посредством которых Аллах испытал Своих
   рабов. Они оставались покорными Аллаху и не ослушивались Его ни на миг, в том, что
   Он приказал им.
 ---
+
 
 
 

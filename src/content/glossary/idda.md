@@ -5,12 +5,46 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- azan
+- bid-a
+- dalil
+- fadzhr
+- fard
+- fikkh
+- id
+- ikamat
+- ikhlas
+- ikhram
+- indzhil
+- islam
+- khalyal
+- kharam
+- khukm
+- makrukh
+- musulmanin
+- naskh
+- nikakh
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- tafsir
+- talak
+- vadzhib
+- zikr
+used_in:
+- 111-al-bakara-korova-106-107-aiat.md
+- 166-opisanie-namaza-urok-10.md
+- 173-chtenie-korana-v-namaze-urok-5.md
+- 59-nezhelatelnye-dejstviya-v-namaze-33.md
 description: идда – это наименование срока определенного законодателем, который женщина
   обязана выжидать по причине расставания с мужем, подчиняясь Аллаху, скорбя по мужу
   или для того, что бы убедиться в отсутствии беременности.
 ---
+
 
 
 

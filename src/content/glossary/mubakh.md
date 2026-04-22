@@ -5,13 +5,33 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azima
+- fard
+- iman
+- khalyal
+- kharam
+- khasan
+- kufr
+- makrukh
+- mechet
+- ramadan
+- rukhsa
+- safar
+- sakhikh
+- shirk
+- takva
+- vudu
+used_in:
+- 142-mecheti-urok-9.md
+- 19-adab-tazkiya-urok-19.md
+- 74-namaz-putnika-48.md
 description: мубах – это то, в чем законодатель оставил абсолютное право выбирать
   между исполнением и оставлением, за что исполняющий его не вознаграждается, а оставляющий
   не наказывается, кроме как с праведным намерением (в котором раб желает приближения
   к Аллаху).
 ---
+
 
 
 

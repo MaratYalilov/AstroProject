@@ -5,12 +5,25 @@ letter: У
 category: У
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- islam
+- khadzh
+- kharam
+- makhdi
+- mechet
+- musulmanin
+- sunna
+- tauba
+- tavaf
+- zakyat
+- zikr
+used_in:
+- 114-al-bakara-korova-114-aiat.md
 description: умра – это посещение священного дома Аллаха для исполнения обряда поклонения
   определенным образом, состоящий из намерения и облачения в ихрам, обхода вокруг
   Каабы, бега между холмами ас-Сафа и аль-Марва, бритья волос или их укорачивания.
 ---
+
 
 
 

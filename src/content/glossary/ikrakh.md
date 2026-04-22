@@ -5,11 +5,22 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fadzhr
+- fard
+- musulmanin
+- nadzhasa
+- safar
+- sakhikh
+- sunna
+- vadzhib
+- vitr
+used_in:
+- 71-namaz-verkhom-45.md
 description: икрах – это состояние, в котором человек принужден к произнесению слов
   или совершению действий без своего желания и лишенный выбора.
 ---
+
 
 
 

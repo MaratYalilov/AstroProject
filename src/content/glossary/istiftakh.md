@@ -5,10 +5,33 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- azan
+- fadzhr
+- fard
+- istikhara
+- kunut
+- makrukh
+- mandub
+- mazkhab
+- mechet
+- musulmanin
+- ramadan
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- sunna
+- takhadzhud
+- tashakhkhud
+- vitr
+used_in:
+- 46-kniga-namaza-20.md
+- 69-dopolnitelnye-namazy-43.md
 description: просить открыть; просить о помощи; просить рассудить
 ---
+
 
 
 

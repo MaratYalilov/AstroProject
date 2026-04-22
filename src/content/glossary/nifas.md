@@ -5,12 +5,29 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- dzhanaba
+- fard
+- id
+- ikamat
+- khajd
+- khukm
+- makrukh
+- mechet
+- sakhikh
+- shajtan
+- sunna
+- umma
+- vadzhib
+used_in:
+- 33-kniga-namaza-7.md
 description: нифас – это выделение крови из матки (женщины) по причине родов до определенного
   срока, после родов , во время родов и перед родами за два, три дня с признаком,
   как родовые схватки.
 ---
+
 
 
 

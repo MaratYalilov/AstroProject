@@ -5,11 +5,28 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fadzhr
+- maudu
+- mazkhab
+- mechet
+- miskin
+- sakhikh
+- salyam
+- salyat
+- shakhada
+- shar
+- sunna
+- tashakhkhud
+- umma
+- vitr
+used_in:
+- 164-opisanie-namaza-urok-8.md
 description: иджтихад – это приложение усердия ученого факиха для решения правового
   вопроса по его предположению.
 ---
+
 
 
 

@@ -5,11 +5,36 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- amanat
+- azan
+- fard
+- fikkh
+- id
+- idda
+- ikamat
+- khalyal
+- kharam
+- khasan
+- makrukh
+- mechet
+- nikakh
+- sakhikh
+- salyam
+- shajtan
+- takhara
+- tashakhkhud
+- umma
+- vadzhib
+used_in:
+- 130-azan-urok-8.md
+- 192-salavat-urok-4.md
+- 26-adab-tazkiya-urok-26.md
+- 59-nezhelatelnye-dejstviya-v-namaze-33.md
 description: далиль – это предмет на основании, которого посредством рассудительного
   размышления, с уверенностью или предположением, можно извлечь шариатскую норму (хукм<).
 ---
+
 
 
 

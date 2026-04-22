@@ -5,11 +5,38 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- darura
+- dzhanaza
+- fadzhr
+- fard
+- fikkh
+- id
+- ikamat
+- ikhram
+- istiska
+- kharam
+- khutba
+- makrukh
+- mechet
+- musulmanin
+- ratiba
+- sakhikh
+- salyam
+- sudzhud-at-tilyava
+- sunna
+- tashakhkhud
+- tavaf
+- vadzhib
+- vitr
+used_in:
+- 30-kniga-namaza-4.md
+- 73-namaz-na-korable-47.md
 description: это обременение совершеннолетним мусульманином самого себя тем, чем шариат
   не обязывал его
 ---
+
 
 
 

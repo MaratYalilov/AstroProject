@@ -5,11 +5,31 @@ letter: Ш
 category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fadzhr
+- idzhtikhad
+- maudu
+- mazkhab
+- mechet
+- miskin
+- sakhikh
+- salyam
+- salyat
+- shakhada
+- sunna
+- tafsir
+- tashakhkhud
+- taufik
+- umma
+- vitr
+used_in:
+- 164-opisanie-namaza-urok-8.md
+- 24-razrush-svoego-idola.md
 description: шар' – это закон, охватывающий положения вероубеждения, деяний и нравственности,
   который установил Бог для Своих рабов.
 ---
+
 
 
 

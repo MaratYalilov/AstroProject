@@ -5,12 +5,94 @@ letter: В
 category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- azan
+- bid-a
+- darura
+- dzhanaza
+- fadzhr
+- fard
+- fikkh
+- id
+- idzhtikhad
+- ikamat
+- ikhlas
+- ikhram
+- ikrakh
+- ilya
+- islam
+- istiftakh
+- istikhara
+- istiska
+- kharam
+- khasan
+- khukm
+- khutba
+- kibla
+- kufr
+- kunut
+- makrukh
+- mandub
+- maudu
+- mazkhab
+- mechet
+- miskin
+- musulmanin
+- nadzhasa
+- nazr
+- ramadan
+- rasul
+- ratiba
+- riya
+- rukn
+- safar
+- sakhikh
+- salyam
+- salyat
+- sha-ban
+- shajtan
+- shakhada
+- shar
+- shart
+- sudzhud-at-tilyava
+- sunna
+- tadzhvid
+- takhadzhud
+- taklid
+- taravikh
+- tasbikh
+- tashakhkhud
+- tavaf
+- tayammum
+- umma
+- usul-al-fikkh
+- vadzhib
+- vudu
+- zikr
+used_in:
+- 140-mecheti-urok-7.md
+- 162-opisanie-namaza-urok-6.md
+- 164-opisanie-namaza-urok-8.md
+- 171-chtenie-korana-v-namaze-urok-3.md
+- 29-kniga-namaza-3.md
+- 30-kniga-namaza-4.md
+- 31-kniga-namaza-5.md
+- 36-kniga-namaza-10.md
+- 37-kniga-namaza-11.md
+- 43-kniga-namaza-17.md
+- 47-kniga-namaza-21.md
+- 53-esli-imam-oshibaetsya-27.md
+- 61-nezhelatelnye-dejstviya-v-namaze-35.md
+- 67-vitr-40.md
+- 69-dopolnitelnye-namazy-43.md
+- 71-namaz-verkhom-45.md
+- 73-namaz-na-korable-47.md
 description: витр – это последний ночной намаз, время которого начинается после 'иша
   намаза и заканчивается с наступлением времени фаджр намаза, в нечетном количестве
   рака'атов как один, три или более.
 ---
+
 
 
 

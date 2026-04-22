@@ -5,12 +5,99 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- amanat
+- ashura
+- bid-a
+- din
+- du-a
+- dukhan
+- dzhama-a
+- dzhanaba
+- fadzhr
+- fard
+- gusl
+- i-tikaf
+- id
+- idda
+- idzhma
+- ikamat
+- ikhlas
+- ikhram
+- iman
+- islam
+- israf
+- kausar
+- khadzh
+- khajd
+- khalyal
+- kharam
+- khasan
+- khava
+- khukm
+- kibla
+- makhdi
+- makrukh
+- mazkhab
+- mechet
+- mikhrab
+- mursal
+- musulmanin
+- nadzhasa
+- ramadan
+- rasul
+- rauda
+- riba
+- riya
+- safar
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- sudzhud-ash-shukr
+- sunna
+- takhadzhud
+- takhara
+- takva
+- talak
+- tasbikh
+- tashakhkhud
+- tauba
+- tavaf
+- tavarruk
+- tayammum
+- umma
+- umra
+- vadzhib
+- vitr
+- zakyat
+used_in:
+- 02-adab-tazkiya-urok-02.md
+- 114-al-bakara-korova-114-aiat.md
+- 136-mecheti-urok-3.md
+- 140-mecheti-urok-7.md
+- 144-mecheti-urok-11.md
+- 158-opisanie-namaza-urok-2.md
+- 16-adab-tazkiya-urok-16.md
+- 165-opisanie-namaza-urok-9.md
+- 166-opisanie-namaza-urok-10.md
+- 177-chtenie-korana-v-namaze-urok-9.md
+- 179-poyasnoi-poklon-urok-2.md
+- 180-poyasnoi-poklon-urok-3.md
+- 184-zemnoi-poklon-urok-4.md
+- 19-razrush-svoego-idola.md
+- 191-salavat-urok-3.md
+- 23-adab-tazkiya-urok-23.md
+- 47-kniga-namaza-21.md
+- 56-chto-narushaet-namaz-2-30.md
+- 61-nezhelatelnye-dejstviya-v-namaze-35.md
+- 62-nezhelatelnye-dejstviya-v-namaze-36.md
 description: Зикр в общем смысле – это все виды поклонения, такие как намаз, пост,
   паломничество, чтение Корана, восхваление и прославление, мольба и др., потому что
   поклонение совершается ради поминания Аллаха и подчинения Ему.
 ---
+
 
 
 

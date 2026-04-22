@@ -5,12 +5,32 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- dzhikhad
+- id-al-adkha
+- islam
+- khadzh
+- kharam
+- makrukh
+- mechet
+- ramadan
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shakhada
+- tasbikh
+- tauba
+- zakyat
+used_in:
+- 24-adab-tazkiya-urok-24.md
+- 30-adab-tazkiya-urok-30.md
 description: истигфар – это просьба защиты от наказания, которая может быть прощением
   грехов непосредственно, без взыскания и наказания вовсе, либо прощением после признания
   рабом своих грехов перед его Господом (в День воскресения).
 ---
+
 
 
 

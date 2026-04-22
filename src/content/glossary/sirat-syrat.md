@@ -19,6 +19,7 @@ description: Сират – это мост, который Всевышний �
 
 
 
+
 <p>Сират (араб. <span class="arab">سِرَاطٌ</span> или <span class="arab">صِرَاطٌ</span>) происходит от глагола <span class="arab">صَرِطَ</span> или <span class="arab">سَرِطَ</span> (глотать, проглатывать) и означает – прямой путь, ясная дорога.</p><p>{Quran}7:86{/Quran}</p><p>Аллах сказал:
 
  {Quran}6:153{/Quran}

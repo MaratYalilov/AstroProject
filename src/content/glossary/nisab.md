@@ -5,12 +5,20 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- iman
+- khasan
+- kufr
+- sakhikh
+- shirk
+- zakyat
+used_in:
+- 99-al-bakara-korova-80-82-aiat.md
 description: нисаб – это определенная мера имущества, установленная шариатом, по достижении
   которой становится обязательным выплата заката. Эта мера может различаться в зависимости
   от вида имущества.
 ---
+
 
 
 

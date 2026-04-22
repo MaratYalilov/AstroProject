@@ -5,12 +5,44 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- du-a
+- dzhanaza
+- fitna
+- fitra
+- iblis
+- iman
+- istiska
+- khadzh
+- khalyal
+- kharam
+- kharut-i-marut
+- khasan
+- khidzhr
+- kufr
+- makrukh
+- mechet
+- mursal
+- musulmanin
+- nadzhasa
+- radzhab
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sikhr
+- ukhud
+- zukhd
+used_in:
+- 07-adab-tazkiya-urok-07.md
+- 108-al-bakara-korova-102-103-aiat.md
+- 146-mecheti-urok-13.md
+- 7-razrush-svoego-idola.md
 description: зина – это преднамеренное, внебрачное половое совокупление мужчины с
   женщиной, которая запрещена ему по всем канонам Ислама, с условием проникновения
   полового органа мужчины в половой орган женщины, даже без семяизвержения
 ---
+
 
 
 

@@ -5,12 +5,45 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- ansary
+- dzhinn
+- fard
+- idzhma
+- iman
+- islam
+- khadzh
+- kharam
+- khasan
+- khidzhab
+- kibla
+- mazkhab
+- mechet
+- mi-radzh
+- mikhrab
+- miskin
+- riya
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- tafsir
+- umma
+- vadzhib
+- zakyat
+used_in:
+- 100-al-bakara-korova-83-84-aiat.md
+- 135-mecheti-urok-2.md
+- 22-razrush-svoego-idola.md
+- 3-razrush-svoego-idola.md
+- 8-razrush-svoego-idola.md
 description: аль-исра – это ночное путешествие Посланника Аллаха, да благословит его
   Аллах и приветствует, наяву на Буракеиз Мекки в аль-Кудс, которым Всевышний Аллах
   почтил его.
 ---
+
 
 
 

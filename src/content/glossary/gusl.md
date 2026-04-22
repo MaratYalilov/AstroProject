@@ -5,11 +5,51 @@ letter: Г
 category: Г
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- dzhanaba
+- fadzhr
+- fard
+- fikkh
+- ikamat
+- ikhlas
+- ikhram
+- kaaba
+- kaffara
+- kausar
+- khajd
+- khasan
+- kibla
+- makhram
+- makrukh
+- mazkhab
+- mechet
+- mikhrab
+- nadzhasa
+- ramadan
+- rukn
+- sakhikh
+- salyam
+- shart
+- sunna
+- takhara
+- tasbikh
+- tashakhkhud
+- tavarruk
+- tayammum
+- vadzhib
+- vudu
+- zikr
+used_in:
+- 158-opisanie-namaza-urok-2.md
+- 34-kniga-namaza-8.md
+- 50-kniga-namaza-24.md
+- 62-nezhelatelnye-dejstviya-v-namaze-36.md
 description: гусль – это использование чистой и очищающей воды для (омовения) всего
   тела определенным (в шариате) образом, с исполнением условий и обязательных действий
 ---
+
 
 
 

@@ -5,11 +5,47 @@ letter: Ф
 category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- din
+- iblis
+- idzhma
+- iman
+- islam
+- karamat
+- khalyal
+- kharam
+- kharut-i-marut
+- khasan
+- khidzhr
+- kufr
+- makrukh
+- mechet
+- musulmanin
+- namima
+- naskh
+- ramadan
+- riya
+- safar
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sikhr
+- sukhur
+- tadzhvid
+- tafsir
+- zakyat
+- zina
+used_in:
+- 108-al-bakara-korova-102-103-aiat.md
+- 109-al-bakara-korova-102-103-aiat.md
+- 13-adab-tazkiya-urok-13.md
+- 51-kniga-namaza-25.md
+- 97-al-bakara-korova-75-77-aiat.md
 description: Слово фитна имеет много значений в Коране и сунне-Испытание и экзамен,
   Отвращение от истины, Мучение, страдание, Многобожие,Грехи и лицемерие
 ---
+
 
 
 

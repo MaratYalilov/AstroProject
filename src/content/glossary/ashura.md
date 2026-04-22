@@ -5,13 +5,31 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- du-a
+- i-tikaf
+- ilya
+- khasan
+- kufr
+- mechet
+- mukharram
+- ramadan
+- sakhikh
+- salyam
+- shirk
+- tafsir
+- zakyat
+- zikr
+- zulm
+used_in:
+- 23-adab-tazkiya-urok-23.md
+- 91-al-bakara-korova-50-56-aiat.md
 description: Ашура – это десятый день месяца мухаррама, великий день, в который Аллах
   спас Мусу и его народ (от неверных) и потопил фараона с его окружением (в море).
   За это мусульмане в знак благодарности Аллаху постятся в этот день и день до него
   или после него, в противоречие иудеям.
 ---
+
 
 
 

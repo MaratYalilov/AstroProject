@@ -5,11 +5,34 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhanaza
+- fadzhr
+- fard
+- id
+- ikamat
+- istiska
+- kharam
+- khutba
+- makrukh
+- mechet
+- musulmanin
+- nazr
+- ratiba
+- sakhikh
+- salyam
+- sunna
+- tashakhkhud
+- tavaf
+- vadzhib
+- vitr
+used_in:
+- 30-kniga-namaza-4.md
 description: суджуд ат-тилява – это один земной поклон, который совершает мусульманин
   при чтении аята, в котором упоминается поклон или при его внимательном прослушивании.
 ---
+
 
 
 

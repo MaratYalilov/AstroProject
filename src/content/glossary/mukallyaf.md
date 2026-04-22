@@ -5,12 +5,17 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- khasan
+- sakhikh
+- zakyat
+used_in:
+- 14-razrush-svoego-idola.md
 description: мукалляф – это совершеннолетний, разумный, имеющий свободу выбора, способный,
   понимающий, ответственный за исполнение религиозных обязательств, к которому обращен
   призыв ислама.
 ---
+
 
 
 

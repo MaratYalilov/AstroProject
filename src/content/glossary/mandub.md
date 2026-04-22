@@ -5,11 +5,26 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fadzhr
+- fard
+- istiftakh
+- istikhara
+- kunut
+- makrukh
+- ramadan
+- sakhikh
+- sunna
+- takhadzhud
+- tashakhkhud
+- vitr
+used_in:
+- 69-dopolnitelnye-namazy-43.md
 description: мандуб – это то, что законодатель требует исполнить, но некатегорично,
   за что выполнивший его с повиновением вознаграждается, а оставивший не наказывается.
 ---
+
 
 
 

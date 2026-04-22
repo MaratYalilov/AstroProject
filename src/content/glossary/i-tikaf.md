@@ -5,11 +5,33 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ashura
+- bid-a
+- fard
+- israf
+- khadzh
+- khasan
+- khava
+- khukm
+- mechet
+- muskhaf
+- ramadan
+- sakhikh
+- shajtan
+- sunna
+- takhadzhud
+- umma
+- zakyat
+- zikr
+used_in:
+- 02-adab-tazkiya-urok-02.md
+- 23-adab-tazkiya-urok-23.md
+- 32-adab-tazkiya-urok-32.md
 description: усердно продолжительно работать; упорно заниматься (чем على); отдаваться
   (чему على) и означает – уединение.
 ---
+
 
 
 

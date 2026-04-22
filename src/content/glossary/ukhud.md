@@ -5,12 +5,40 @@ letter: У
 category: У
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- du-a
+- dzhanaza
+- islam
+- istiska
+- kaaba
+- khadzh
+- kharam
+- khasan
+- khikma
+- kufr
+- mazkhab
+- mechet
+- musulmanin
+- radzhab
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- tafsir
+- umma
+- zina
+- zukhd
+used_in:
+- 120-al-bakara-korova-126-aiat.md
+- 14-adab-tazkiya-urok-14.md
+- 7-razrush-svoego-idola.md
+- 96-al-bakara-korova-72-74-aiat.md
 description: это самая большая гора Медины, охватывающая ее с севера, и представляющая
   собой протяженную цепь гор с востока на запад, достигая в длину семь километров
   и в ширину примерно три километра.
 ---
+
 
 
 

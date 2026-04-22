@@ -5,12 +5,76 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- amanat
+- bid-a
+- din
+- du-a
+- dukhan
+- dzhanaba
+- dzhikhad
+- fadzhr
+- fard
+- fikkh
+- gusl
+- id
+- id-al-adkha
+- idzhma
+- ikhlas
+- ikhram
+- islam
+- istigfar
+- kausar
+- khadzh
+- khalyal
+- kharam
+- khasan
+- khukm
+- makrukh
+- mazkhab
+- mechet
+- mikhrab
+- mizan
+- mursal
+- musulmanin
+- nadzhasa
+- ramadan
+- riya
+- rukn
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shakhada
+- sunna
+- tashakhkhud
+- taufik
+- tavarruk
+- vadzhib
+- vitr
+- vudu
+- zakyat
+- zikr
+used_in:
+- 16-adab-tazkiya-urok-16.md
+- 163-opisanie-namaza-urok-7.md
+- 176-chtenie-korana-v-namaze-urok-8.md
+- 177-chtenie-korana-v-namaze-urok-9.md
+- 178-poyasnoi-poklon-urok-1.md
+- 180-poyasnoi-poklon-urok-3.md
+- 29-adab-tazkiya-urok-29.md
+- 30-adab-tazkiya-urok-30.md
+- 43-kniga-namaza-17.md
+- 45-kniga-namaza-19.md
+- 47-kniga-namaza-21.md
+- 55-chto-narushaet-namaz-1-29.md
+- 62-nezhelatelnye-dejstviya-v-namaze-36.md
+- 64-sutra-37.md
 description: тасбих – это прославление и освящение Аллаха, Пречист Он и Возвышен,
   посредством отрицания порочности, недостатков, дурных иллюзий и ложных подозрений,
   которые приписывают Ему многобожники.
 ---
+
 
 
 

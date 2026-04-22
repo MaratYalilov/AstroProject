@@ -5,12 +5,21 @@ letter: В
 category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fitra
+- iblis
+- khava
+- mechet
+- sakhikh
+- shajtan
+- tavaf
+used_in:
+- 04-adab-tazkiya-urok-04.md
 description: Нашептывание души человека, наущение дьявола в душе человека, колебания,
   приводящие к излишеству в набожности и предосторожности, вследствие чего человек
   многократно восполняет дело поклонения
 ---
+
 
 
 

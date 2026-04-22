@@ -5,13 +5,22 @@ letter: В
 category: В
 tags: []
 aliases: []
-related: []
+related:
+- a-raf
+- islam
+- sadaka
+- salyam
+- tafsir
+- tauba
+- umma
 used_in:
-- 19-arabski-bagauddin-abuahmad.md
+- 15-razrush-svoego-idola.md
+- 94-al-bakara-korova-62-66-aiat.md
 description: вали – это богобоязненный раб, верующий в Аллаха и Его Посланника, и
   подчиняющийся Посланнику, как внешне, так и внутренне, исполняя обязательства и
   сторонясь грехов по мере своих сил и возможностей.
 ---
+
 
 
 

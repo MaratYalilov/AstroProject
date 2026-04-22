@@ -6,15 +6,66 @@ category: И
 tags: []
 aliases: []
 related:
+- aksa
+- azan
+- din
+- dukhan
+- fadzhr
+- fard
+- fitna
+- iftirash
+- ikamat
+- ikhlas
+- iman
+- islam
+- isra
+- karamat
+- khadzh
+- kharam
 - khasan
+- khukm
+- kibla
+- kufr
+- makrukh
+- maudu
+- mazkhab
+- mechet
+- mikhrab
 - mursal
+- musulmanin
+- namima
+- radzhab
+- ramadan
+- riya
 - sakhikh
+- salyam
+- salyat
+- shirk
+- sikhr
+- sukhur
+- sunna
+- tadzhvid
+- tafsir
+- takfir
+- takhara
+- tasbikh
+- tashakhkhud
+- tavarruk
+- vadzhib
+- zakyat
+- zikr
 used_in:
-- 12-mazi-i-mani.md
+- 109-al-bakara-korova-102-103-aiat.md
+- 133-azan-urok-11.md
+- 135-mecheti-urok-2.md
+- 159-opisanie-namaza-urok-3.md
+- 177-chtenie-korana-v-namaze-urok-9.md
+- 27-kniga-namaza-1.md
 description: иджма' – это единогласное мнение всех муджтахидов одного века из общины
   Мухаммада, да благословит его Аллах и приветствует, в шариатском постановлении,
   допускающем иджтихад после смерти Посланника, да благословит его Аллах и приветствует.
 ---
+
 
 
 

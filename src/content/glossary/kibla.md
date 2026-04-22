@@ -5,13 +5,68 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ajn
+- aksa
+- azan
+- bid-a
+- dzhanaza
+- fard
+- fikkh
+- gusl
+- iblis
+- id
+- idzhma
+- ikamat
+- ikhlas
+- ikhram
+- islam
+- isra
+- kaaba
+- khadzh
+- khalyal
+- kharam
+- khasan
+- khidzhr
+- khukm
+- kufr
+- makrukh
+- mazkhab
+- mechet
+- mikhrab
+- mubtadi
+- mursal
+- musulmanin
+- nadzhasa
+- riya
+- rukn
+- safar
+- sakhikh
+- salyam
+- shajtan
+- shart
+- sunna
+- takhara
+- talak
+- tayammum
+- vadzhib
+- vitr
+- vudu
+- zikr
+used_in:
+- 115-al-bakara-korova-115-aiat.md
+- 134-mecheti-urok-1.md
+- 135-mecheti-urok-2.md
+- 140-mecheti-urok-7.md
+- 34-kniga-namaza-8.md
+- 35-kniga-namaza-9.md
+- 52-kniga-namaza-26.md
 description: кибла – это почитаемая сторона по направлению к Каабе, расположенной
   в Заповедной мечети в городе Мекке, куда все мусульмане обращают свои лица во время
   исполнения намазов, мольбы, поминаний и жертвоприношения, а также обращают лицом
   в ее сторону умирающих и захороненных.
 ---
+
 
 
 

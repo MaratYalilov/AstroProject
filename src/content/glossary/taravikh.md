@@ -5,12 +5,53 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- dzhanaza
+- fadzhr
+- fard
+- fikkh
+- id
+- id-al-fitr
+- ikamat
+- ikhlas
+- ilya
+- islam
+- istiska
+- kausar
+- kharam
+- khasan
+- kunut
+- makrukh
+- mazkhab
+- mechet
+- muskhaf
+- musulmanin
+- ramadan
+- rasul
+- rukn
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- shart
+- sunna
+- tadzhvid
+- tashakhkhud
+- vadzhib
+- vitr
+used_in:
+- 172-chtenie-korana-v-namaze-urok-4.md
+- 174-chtenie-korana-v-namaze-urok-6.md
+- 31-kniga-namaza-5.md
+- 36-kniga-namaza-10.md
+- 53-esli-imam-oshibaetsya-27.md
 description: таравих – это добровольный намаз совершаемый группой на протяжении всех
   ночей месяца Рамадана, по два рака'ата, в общем количестве которых ученые имеют
   различные мнения.
 ---
+
 
 
 

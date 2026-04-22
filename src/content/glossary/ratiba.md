@@ -5,12 +5,35 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhanaza
+- fadzhr
+- fard
+- id
+- ikamat
+- istiska
+- kharam
+- khutba
+- makrukh
+- mechet
+- musulmanin
+- nazr
+- sakhikh
+- salyam
+- sudzhud-at-tilyava
+- sunna
+- tashakhkhud
+- tavaf
+- vadzhib
+- vitr
+used_in:
+- 30-kniga-namaza-4.md
 description: это добровольная молитва сопутствующая обязательной молитве, которую
   регулярно соблюдал Посланник Аллаха, да благословит его Аллах и приветствует на
   месте жительства
 ---
+
 
 
 

@@ -5,13 +5,27 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dalil
+- islam
+- khasan
+- khukm
+- musulmanin
+- riya
+- sakhikh
+- salyam
+- tasbikh
+- umma
+- zikr
+used_in:
+- 16-adab-tazkiya-urok-16.md
+- 26-adab-tazkiya-urok-26.md
 description: аманат – это все, что возложил Аллах на Своих рабов из обязательств,
   как исполнение намаза, выплата закята, соблюдения сияма, возвращение долга и др.,
   наиболее ответственное это хранение вверенного, самое главное из которого это сохранение
   тайн.
 ---
+
 
 
 

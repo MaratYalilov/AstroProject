@@ -5,10 +5,38 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- id
+- iman
+- khadzh
+- khalifat
+- khalyal
+- kharam
+- khasan
+- mazkhab
+- mechet
+- mubakh
+- ramadan
+- riya
+- sadaka
+- safar
+- sakhikh
+- salyam
+- shajtan
+- sudzhud-ash-shukr
+- sunna
+- tauba
+- zikr
+- zul-khidzha
+used_in:
+- 08-adab-tazkiya-urok-08.md
+- 19-adab-tazkiya-urok-19.md
+- 19-razrush-svoego-idola.md
+- 25-adab-tazkiya-urok-25.md
 description: предохранять, прикрывать, беречь, защищать и означает – защита от вреда
 ---
+
 
 
 

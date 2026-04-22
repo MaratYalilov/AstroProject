@@ -5,13 +5,55 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- ansary
+- du-a
+- dzhanaza
+- fadzhr
+- fard
+- fikkh
+- iblis
+- id
+- idzhma
+- iman
+- islam
+- istiska
+- khadzh
+- khalyal
+- kharam
+- khasan
+- khukm
+- kibr
+- kufr
+- mechet
+- musulmanin
+- naskh
+- ramadan
+- sakhikh
+- salyam
+- salyat
+- sikhr
+- tafsir
+- takfir
+- takhara
+- ukhud
+- usul-al-fikkh
+- zakyat
+- zina
+- zukhd
+used_in:
+- 110-al-bakara-korova-103-106-aiat.md
+- 155-sutra-urok-3.md
+- 27-kniga-namaza-1.md
+- 4-razrush-svoego-idola.md
+- 7-razrush-svoego-idola.md
 description: Раджаб – это седьмой месяц лунного календаря, и один из запретных месяцев,
   о которых Всевышний Аллах упомянул в Коране, запретив совершать несправедливость
   в них, указывая тем самым на их достоинство, хотя несправедливость запрещена и в
   другое время.
 ---
+
 
 
 

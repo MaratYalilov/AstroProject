@@ -5,11 +5,20 @@ letter: В
 category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fard
+- fikkh
+- kaffara
+- mechet
+- musulmanin
+- sakhikh
+- salyam
+used_in:
+- 143-mecheti-urok-10.md
 description: вакф – это имущество, переданное на благотворительные цели, сохраняя
   права владельца на частную собственность.
 ---
+
 
 
 

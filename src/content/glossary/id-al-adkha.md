@@ -5,8 +5,36 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- birr
+- dzhikhad
+- fard
+- id-al-fitr
+- islam
+- istigfar
+- istikhara
+- khadzh
+- kharam
+- makrukh
+- mazkhab
+- mechet
+- munkar
+- musulmanin
+- ramadan
+- sadaka
+- sakhikh
+- sha-ban
+- shajtan
+- shakhada
+- sunna
+- takhadzhud
+- tasbikh
+- zakyat
+- zul-khidzha
+used_in:
+- 30-adab-tazkiya-urok-30.md
+- 70-namaz-privetstviya-mecheti-44.md
 description: Ид аль-Адха – это ежегодное (праздничное) мероприятие, приходящее на
   десятое число месяца Зуль-Хиджа, в котором Аллах предписал мусульманам совершать
   (групповой) праздничный намаз, а также узаконил приближение к Нему посредством жертвоприношения
@@ -15,6 +43,7 @@ description: Ид аль-Адха – это ежегодное (праздни�
   Его милости, главными из которых являются Ислам и следование пути Пророка, да благословит
   его Аллах и приветствует.
 ---
+
 
 
 

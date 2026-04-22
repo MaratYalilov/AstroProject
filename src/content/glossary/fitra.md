@@ -5,10 +5,32 @@ letter: Ф
 category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- iblis
+- iman
+- islam
+- khadzh
+- khalyal
+- khasan
+- khava
+- mechet
+- sadaka
+- sakhikh
+- shajtan
+- shirk
+- tauba
+- taufik
+- tavaf
+- vasvasa
+- zina
+used_in:
+- 03-adab-tazkiya-urok-03.md
+- 04-adab-tazkiya-urok-04.md
+- 07-adab-tazkiya-urok-07.md
+- 15-adab-tazkiya-urok-15.md
 description: фитра – врожденное состояние единобожия и предрасположенность к благу.
 ---
+
 
 
 

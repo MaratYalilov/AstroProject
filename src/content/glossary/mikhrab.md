@@ -5,10 +5,40 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- dzhanaba
+- fard
+- gusl
+- idzhma
+- isra
+- kausar
+- khadzh
+- khalyal
+- kharam
+- khasan
+- kibla
+- makrukh
+- mazkhab
+- mechet
+- nadzhasa
+- ramadan
+- rauda
+- riba
+- sakhikh
+- shajtan
+- sunna
+- tasbikh
+- tauba
+- vadzhib
+- zikr
+used_in:
+- 135-mecheti-urok-2.md
+- 136-mecheti-urok-3.md
+- 62-nezhelatelnye-dejstviya-v-namaze-36.md
 description: означает – дворец; крепость; место, комната для уединения и поклонения.
 ---
+
 
 
 

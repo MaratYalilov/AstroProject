@@ -5,11 +5,32 @@ letter: У
 category: У
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- du-a
+- fard
+- fikkh
+- khalyal
+- kharam
+- khasan
+- khukm
+- makrukh
+- musulmanin
+- naskh
+- radzhab
+- rukn
+- sakhikh
+- sikhr
+- sunna
+- tafsir
+- vitr
+used_in:
+- 110-al-bakara-korova-103-106-aiat.md
+- 37-kniga-namaza-11.md
 description: усуль аль-фикх – это наука о правилах, посредством которых (ученые) выводят
   шариатские законы (ахкам) на основе доказательств Корана и сунны.
 ---
+
 
 
 

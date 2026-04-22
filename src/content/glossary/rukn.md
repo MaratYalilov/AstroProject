@@ -5,10 +5,63 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- azan
+- bid-a
+- dzhanaba
+- dzhanaza
+- fard
+- fikkh
+- gusl
+- id
+- ikamat
+- ikhlas
+- ikhram
+- kaaba
+- kaffara
+- khadzh
+- khalyal
+- kharam
+- khasan
+- kibla
+- kunut
+- makhram
+- makrukh
+- mazkhab
+- mechet
+- muskhaf
+- nadzhasa
+- rukhsa
+- sakhikh
+- salyam
+- shart
+- sunna
+- takhara
+- taklid
+- talak
+- taravikh
+- tasbikh
+- tashakhkhud
+- tayammum
+- usul-al-fikkh
+- vadzhib
+- vitr
+- vudu
+used_in:
+- 162-opisanie-namaza-urok-6.md
+- 34-kniga-namaza-8.md
+- 35-kniga-namaza-9.md
+- 36-kniga-namaza-10.md
+- 37-kniga-namaza-11.md
+- 45-kniga-namaza-19.md
+- 50-kniga-namaza-24.md
+- 53-esli-imam-oshibaetsya-27.md
+- 57-chto-narushaet-namaz-3-31.md
+- 58-chto-narushaet-namaz-4-32.md
 description: рукн – это то, без чего невозможно существование вещи.
 ---
+
 
 
 

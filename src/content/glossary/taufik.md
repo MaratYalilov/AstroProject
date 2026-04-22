@@ -5,12 +5,35 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- du-a
+- fitra
+- ikhram
+- iman
+- khadzh
+- khalyal
+- khasan
+- khava
+- makrukh
+- mechet
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shar
+- shirk
+- tafsir
+- tasbikh
+- tauba
+used_in:
+- 03-adab-tazkiya-urok-03.md
+- 176-chtenie-korana-v-namaze-urok-8.md
+- 24-razrush-svoego-idola.md
 description: тауфик – это особая помощь Аллаха Своему рабу, посредством которой уменьшается
   влияние на него души и дьявола и усиливается желание покорности перед Аллахом, без
   чего раб, оставленный самому себе, будет повержен своей похотливой душой и дьяволом.
 ---
+
 
 
 

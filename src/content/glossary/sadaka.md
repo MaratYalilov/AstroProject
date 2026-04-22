@@ -5,11 +5,103 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- aksa
+- ansary
+- azan
+- bid-a
+- birr
+- din
+- du-a
+- dzhikhad
+- fadzhr
+- fard
+- fikkh
+- fitra
+- iblis
+- id
+- id-al-adkha
+- id-al-fitr
+- idda
+- ikhlas
+- iman
+- indzhil
+- islam
+- isra
+- israfil
+- istigfar
+- istikhara
+- khadzh
+- khalil
+- khalyal
+- kharam
+- khasan
+- khava
+- khidzhab
+- khikma
+- khukm
+- kurban
+- makhr
+- makhram
+- makrukh
+- mazkhab
+- mechet
+- miskin
+- mizan
+- munkar
+- muskhaf
+- musulmanin
+- naskh
+- ramadan
+- riya
+- safar
+- sakhikh
+- salyam
+- salyat
+- sha-ban
+- shajtan
+- shakhada
+- shirk
+- sunna
+- tafsir
+- takhadzhud
+- takva
+- tasbikh
+- tashakhkhud
+- tauba
+- taufik
+- tavaf
+- umma
+- vali
+- zakyat
+- zul-khidzha
+used_in:
+- 03-adab-tazkiya-urok-03.md
+- 05-adab-tazkiya-urok-05.md
+- 08-adab-tazkiya-urok-08.md
+- 100-al-bakara-korova-83-84-aiat.md
+- 102-al-bakara-korova-88-90-aiat.md
+- 11-adab-tazkiya-urok-11.md
+- 111-al-bakara-korova-106-107-aiat.md
+- 12-adab-tazkiya-urok-12.md
+- 145-mecheti-urok-12.md
+- 15-adab-tazkiya-urok-15.md
+- 15-razrush-svoego-idola.md
+- 17-razrush-svoego-idola.md
+- 175-chtenie-korana-v-namaze-urok-7.md
+- 18-adab-tazkiya-urok-18.md
+- 2-razrush-svoego-idola.md
+- 21-razrush-svoego-idola.md
+- 29-adab-tazkiya-urok-29.md
+- 30-adab-tazkiya-urok-30.md
+- 70-namaz-privetstviya-mecheti-44.md
+- 77-namaz-putnika-51.md
+- 9-razrush-svoego-idola.md
 description: садака – это пожертвование чего-либо при жизни безвозмездно, ради приближения
   к Аллаху, обязательное как закят или добровольное, а также - это всякое благое дело.
 ---
+
 
 
 

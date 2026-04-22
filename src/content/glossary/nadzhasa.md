@@ -5,10 +5,56 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- azan
+- bid-a
+- du-a
+- dzhanaba
+- fadzhr
+- fard
+- gusl
+- iblis
+- id
+- ikamat
+- ikrakh
+- kaaba
+- kausar
+- kharam
+- khasan
+- kibla
+- makrukh
+- mazkhab
+- mechet
+- mikhrab
+- mursal
+- musulmanin
+- ramadan
+- rukn
+- safar
+- sakhikh
+- salyam
+- shajtan
+- shart
+- sunna
+- tasbikh
+- tayammum
+- vadzhib
+- vitr
+- vudu
+- zikr
+- zina
+used_in:
+- 131-azan-urok-9.md
+- 146-mecheti-urok-13.md
+- 151-prikryvanie-aurata-urok-3.md
+- 34-kniga-namaza-8.md
+- 62-nezhelatelnye-dejstviya-v-namaze-36.md
+- 65-dejstviya-dozvolennye-v-namaze-38.md
+- 71-namaz-verkhom-45.md
 description: нечистота, скверна, осквернение
 ---
+
 
 
 

@@ -5,12 +5,43 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fadzhr
+- fard
+- fitna
+- idzhma
+- ikamat
+- ilya
+- islam
+- istiska
+- khalyal
+- kharam
+- khasan
+- kufr
+- makrukh
+- maudu
+- mechet
+- musulmanin
+- naskh
+- rasul
+- sakhikh
+- salyam
+- shajtan
+- sukhur
+- sunna
+- taravikh
+- vadzhib
+- vitr
+used_in:
+- 133-azan-urok-11.md
+- 31-kniga-namaza-5.md
+- 97-al-bakara-korova-75-77-aiat.md
 description: 1- Теоретический таджвид – это знание правил и норм, которые установили
   ученые таджвида. 2- Практический таджвид – это правильное произношения каждой буквы,
   отдавая ей должное без изменения и искажения.
 ---
+
 
 
 

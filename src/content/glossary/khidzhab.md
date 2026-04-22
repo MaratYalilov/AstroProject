@@ -5,11 +5,39 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ansary
+- du-a
+- fard
+- id
+- islam
+- isra
+- israfil
+- khalil
+- khalyal
+- kharam
+- khasan
+- kibr
+- makrukh
+- mazkhab
+- mechet
+- miskin
+- mursal
+- sadaka
+- sakhikh
+- salyam
+- tafsir
+- umma
+- zakyat
+used_in:
+- 100-al-bakara-korova-83-84-aiat.md
+- 150-prikryvanie-aurata-urok-2.md
+- 152-prikryvanie-aurata-urok-4.md
+- 17-razrush-svoego-idola.md
 description: хиджаб – это покрывало женщины, которое закрывает все ее тело и украшения
   от взора посторонних мужчин и этим покрывалом является как одежда, так и ее жилище.
 ---
+
 
 
 

@@ -5,11 +5,73 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- azan
+- azima
+- bid-a
+- dzhanaza
+- dzhikhad
+- dzhinn
+- fadzhr
+- fard
+- fitna
+- id
+- ikamat
+- ikrakh
+- iman
+- indzhil
+- islam
+- kaaba
+- kaffara
+- khadzh
+- khafiz
+- kharam
+- khasan
+- kibla
+- kufr
+- makhr
+- makhram
+- makrukh
+- mazkhab
+- mechet
+- mubakh
+- musulmanin
+- nadzhasa
+- ramadan
+- rukhsa
+- sadaka
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- sudzhud-ash-shukr
+- sunna
+- takva
+- tashakhkhud
+- umma
+- vadzhib
+- vitr
+- vudu
+- zakyat
+- zikr
+used_in:
+- 102-al-bakara-korova-88-90-aiat.md
+- 115-al-bakara-korova-115-aiat.md
+- 138-mecheti-urok-5.md
+- 170-chtenie-korana-v-namaze-urok-2.md
+- 19-razrush-svoego-idola.md
+- 21-adab-tazkiya-urok-21.md
+- 29-kniga-namaza-3.md
+- 32-kniga-namaza-6.md
+- 51-kniga-namaza-25.md
+- 71-namaz-verkhom-45.md
+- 74-namaz-putnika-48.md
+- 77-namaz-putnika-51.md
 description: сафар – это выход (из селения) с целью преодолеть расстояние определенное
   шариатом и более этого, в котором позволяется сокращать намаз
 ---
+
 
 
 

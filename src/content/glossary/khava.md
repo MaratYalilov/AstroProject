@@ -5,11 +5,43 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- adam
+- bid-a
+- fard
+- fitra
+- i-tikaf
+- iblis
+- iman
+- islam
+- israf
+- khadzh
+- mechet
+- ramadan
+- riba
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sunna
+- takhadzhud
+- tauba
+- taufik
+- tavaf
+- umma
+- vasvasa
+- zikr
+used_in:
+- 02-adab-tazkiya-urok-02.md
+- 03-adab-tazkiya-urok-03.md
+- 04-adab-tazkiya-urok-04.md
+- 06-adab-tazkiya-urok-06.md
 description: Хава – это первая женщина и первая мусульманка, супруга пророка Адама,
   созданная из его ребра, которая стала матерью для всего человечества.
 ---
+
 
 
 

@@ -6,14 +6,39 @@ category: И
 tags: []
 aliases: []
 related:
-- iblis
+- ashura
+- azan
+- du-a
+- fard
+- ikamat
+- istiska
+- kharam
+- khasan
+- kufr
+- makrukh
+- mechet
+- mukharram
+- musulmanin
+- ramadan
+- rasul
+- sakhikh
+- salyam
+- shajtan
+- shirk
 - sunna
+- tadzhvid
+- tafsir
+- taravikh
+- vadzhib
+- vitr
+- zulm
 used_in:
-- 02-urok-sira-religii-arabov.md
-- 81-al-bakara-korova-29-30-aiat.md
+- 31-kniga-namaza-5.md
+- 91-al-bakara-korova-50-56-aiat.md
 description: иля' – это клятва мужчины Аллахом или Его качеством в том, что он воздерживается
   от совокупления со своей супругой на срок четыре месяца, или более
 ---
+
 
 
 

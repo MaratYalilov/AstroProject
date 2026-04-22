@@ -5,12 +5,71 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- azan
+- fadzhr
+- fard
+- id
+- idzhma
+- idzhtikhad
+- ikhram
+- iman
+- islam
+- istiftakh
+- kausar
+- kharam
+- khasan
+- khukm
+- kufr
+- kunut
+- makhr
+- makrukh
+- maudu
+- mazkhab
+- mechet
+- miskin
+- musulmanin
+- radzhab
+- ramadan
+- sadaka
+- safar
+- sakhikh
+- salyam
+- shajtan
+- shakhada
+- shar
+- sunna
+- tafsir
+- takfir
+- takhadzhud
+- takhara
+- taklid
+- taravikh
+- tashakhkhud
+- tavaf
+- umma
+- vadzhib
+- vitr
+- zakyat
+- zikr
+used_in:
+- 149-prikryvanie-aurata-urok-1.md
+- 156-sutra-urok-4.md
+- 164-opisanie-namaza-urok-8.md
+- 172-chtenie-korana-v-namaze-urok-4.md
+- 189-salavat-urok-1.md
+- 27-kniga-namaza-1.md
+- 46-kniga-namaza-20.md
+- 61-nezhelatelnye-dejstviya-v-namaze-35.md
+- 67-vitr-40.md
+- 77-namaz-putnika-51.md
+- 88-al-bakara-korova-45-47-aiat.md
 description: салят (намаз) – это поклонение, заключающее в себе определенные слова
   и действия, начинающееся с произнесения слов «Аллаху Акбар» и заканчивающееся словами
   приветствия.
 ---
+
 
 
 

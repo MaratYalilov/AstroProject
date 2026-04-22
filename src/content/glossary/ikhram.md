@@ -5,11 +5,65 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- bid-a
+- darura
+- du-a
+- dzhanaza
+- fadzhr
+- fard
+- fikkh
+- gusl
+- id
+- idda
+- ikamat
+- ikhlas
+- khadzh
+- khajd
+- khalyal
+- khasan
+- kibla
+- kunut
+- makrukh
+- mazkhab
+- mechet
+- musulmanin
+- nazr
+- rukn
+- sakhikh
+- salyam
+- salyat
+- shart
+- sunna
+- takhara
+- taklid
+- talak
+- tasbikh
+- tashakhkhud
+- taufik
+- tavarruk
+- tayammum
+- vadzhib
+- vitr
+- vudu
+- zakyat
+- zikr
+used_in:
+- 158-opisanie-namaza-urok-2.md
+- 161-opisanie-namaza-urok-5.md
+- 162-opisanie-namaza-urok-6.md
+- 166-opisanie-namaza-urok-10.md
+- 176-chtenie-korana-v-namaze-urok-8.md
+- 189-salavat-urok-1.md
+- 35-kniga-namaza-9.md
+- 42-kniga-namaza-16.md
+- 43-kniga-namaza-17.md
+- 73-namaz-na-korable-47.md
 description: ихрам – это намерение совершения обрядов хаджа или 'умры, с произнесением
   слов тальбии и облачением в два куска материи (для мужчин).
 ---
+
 
 
 

@@ -5,10 +5,24 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- du-a
+- fard
+- khafiz
+- khalifat
+- khasan
+- mazkhab
+- sakhikh
+- shirk
+- sunna
+- tashakhkhud
+- vadzhib
+used_in:
+- 185-tashahhud-urok-1.md
+- 188-tashahhud-urok-4.md
 description: таухид – это поклонение лишь одному Аллаху, не придавая Ему сотоварища.
 ---
+
 
 
 

@@ -5,11 +5,30 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- dalil
+- fadzhr
+- fard
+- fikkh
+- id
+- idda
+- ikhlas
+- islam
+- khalyal
+- makrukh
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- vadzhib
+used_in:
+- 173-chtenie-korana-v-namaze-urok-5.md
+- 59-nezhelatelnye-dejstviya-v-namaze-33.md
 description: никах – это настоящий акт дающий мужчине право и женщине позволение на
   интимные взаимоотношения друг с другом на законной основе.
 ---
+
 
 
 

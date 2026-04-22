@@ -5,13 +5,25 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- din
+- dzhikhad
+- fikkh
+- khadzh
+- khalyal
+- kharam
+- sadaka
+- shajtan
+- tasbikh
+used_in:
+- 29-adab-tazkiya-urok-29.md
 description: аль-Мизан - это настоящие весы , имеющие две чаши и стрелку. Они будут
   установлены в День воскресения после расчета для определения величины благих и дурных
   деяний и воздаяния за них, для того, что бы проявилась справедливость Всевышнего
   Аллаха.
 ---
+
 
 
 

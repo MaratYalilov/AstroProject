@@ -5,12 +5,30 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ahlul-kitab
+- din
+- du-a
+- fard
+- indzhil
+- islam
+- khalyal
+- kharam
+- kufr
+- mukhkam
+- musulmanin
+- sakhikh
+- salyam
+- sunna
+- tafsir
+- umma
+used_in:
+- 118-al-bakara-korova-120-123-aiat.md
 description: муташабих - это аяты, которые могут иметь несколько толкований и которые
   необходимо понимать только при сопоставлении с другими аятами, либо лишенные ясного
   указания или отмененные аяты.
 ---
+
 
 
 

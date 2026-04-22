@@ -5,11 +5,83 @@ letter: Ф
 category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- adam
+- ajn
+- ansary
+- bid-a
+- dalil
+- darura
+- din
+- du-a
+- dzhanaza
+- dzhikhad
+- dzhizya
+- fard
+- gusl
+- iblis
+- id
+- id-al-fitr
+- idda
+- ikhram
+- islam
+- kaffara
+- khadzh
+- khalyal
+- kharadzh
+- kharam
+- khasan
+- khukm
+- kibla
+- kufr
+- makhram
+- makrukh
+- mechet
+- miskin
+- mizan
+- mubtadi
+- muskhaf
+- musulmanin
+- naskh
+- nazr
+- nikakh
+- radzhab
+- ramadan
+- rukn
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shart
+- shirk
+- sikhr
+- sunna
+- tafsir
+- takhara
+- taravikh
+- tasbikh
+- usul-al-fikkh
+- vadzhib
+- vakf
+- vitr
+- vudu
+- zakyat
+used_in:
+- 101-al-bakara-korova-85-87-aiat.md
+- 110-al-bakara-korova-103-106-aiat.md
+- 143-mecheti-urok-10.md
+- 174-chtenie-korana-v-namaze-urok-6.md
+- 29-adab-tazkiya-urok-29.md
+- 50-kniga-namaza-24.md
+- 52-kniga-namaza-26.md
+- 59-nezhelatelnye-dejstviya-v-namaze-33.md
+- 73-namaz-na-korable-47.md
+- 93-al-bakara-korova-59-61-aiat.md
 description: фикх – это постижение практических постановлений (шариата) на основе
   подробных доказательств.
 ---
+
 
 
 

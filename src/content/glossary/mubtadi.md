@@ -5,11 +5,27 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ajn
+- bid-a
+- fard
+- fikkh
+- iblis
+- kibla
+- kufr
+- makrukh
+- mechet
+- musulmanin
+- sakhikh
+- shajtan
+- shart
+- takhara
+used_in:
+- 52-kniga-namaza-26.md
 description: мубтади' –это тот, кто привнес в религию Аллаха, то на что нет указания,
   затем ему разъяснили (его заблуждение), но он упрямо отверг (доводы).
 ---
+
 
 
 

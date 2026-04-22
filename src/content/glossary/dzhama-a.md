@@ -5,11 +5,27 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fard
+- makrukh
+- mechet
+- muskhaf
+- ramadan
+- sakhikh
+- shajtan
+- sunna
+- tashakhkhud
+- tauba
+- tayammum
+- vadzhib
+- zikr
+used_in:
+- 157-opisanie-namaza-urok-1.md
+- 56-chto-narushaet-namaz-2-30.md
 description: В терминологии шариат слово джама'а применяется в нескольких смыслах-Единство-Группа
   молящихся-Сподвижники и их последователи до Дня суда
 ---
+
 
 
 

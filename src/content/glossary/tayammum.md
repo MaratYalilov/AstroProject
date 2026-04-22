@@ -5,12 +5,45 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- azan
+- bid-a
+- dzhama-a
+- fard
+- gusl
+- id
+- ikamat
+- ikhlas
+- ikhram
+- kaaba
+- khasan
+- kibla
+- kunut
+- makrukh
+- mazkhab
+- mechet
+- nadzhasa
+- rukn
+- sakhikh
+- shajtan
+- shart
+- sunna
+- taklid
+- tashakhkhud
+- vadzhib
+- vitr
+- vudu
+- zikr
+used_in:
+- 162-opisanie-namaza-urok-6.md
+- 34-kniga-namaza-8.md
+- 56-chto-narushaet-namaz-2-30.md
 description: таяммум - это использование чистого грунта, для того чтобы обтереть лицо
   и руки, определенным (в шариате) образом с намерением сделать дозволенным совершение
   молитвы и других действий, в которых обуславливается омовение».
 ---
+
 
 
 

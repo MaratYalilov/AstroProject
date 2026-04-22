@@ -5,11 +5,90 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ahlul-kitab
+- aksa
+- ansary
+- azan
+- bid-a
+- dalil
+- din
+- du-a
+- dzhikhad
+- fard
+- fikkh
+- fitna
+- fitra
+- iblis
+- id
+- idda
+- ikhlas
+- ikhram
+- indzhil
+- islam
+- khadzh
+- kharam
+- khasan
+- khidzhab
+- khukm
+- kibla
+- kibr
+- kufr
+- makrukh
+- mechet
+- mikhrab
+- mizan
+- mubakh
+- mukhkam
+- mursal
+- musulmanin
+- mutashabikh
+- naskh
+- nikakh
+- radzhab
+- rasul
+- rauda
+- riba
+- rukn
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shart
+- sikhr
+- sunna
+- tadzhvid
+- tafsir
+- takva
+- talak
+- tasbikh
+- tauba
+- taufik
+- umma
+- usul-al-fikkh
+- vadzhib
+- zakyat
+- zikr
+- zina
+used_in:
+- 07-adab-tazkiya-urok-07.md
+- 110-al-bakara-korova-103-106-aiat.md
+- 111-al-bakara-korova-106-107-aiat.md
+- 112-al-bakara-korova-108-110-aiat.md
+- 118-al-bakara-korova-120-123-aiat.md
+- 136-mecheti-urok-3.md
+- 150-prikryvanie-aurata-urok-2.md
+- 176-chtenie-korana-v-namaze-urok-8.md
+- 178-poyasnoi-poklon-urok-1.md
+- 19-adab-tazkiya-urok-19.md
+- 29-adab-tazkiya-urok-29.md
+- 35-kniga-namaza-9.md
+- 59-nezhelatelnye-dejstviya-v-namaze-33.md
+- 97-al-bakara-korova-75-77-aiat.md
 description: халяль – это дозволенное шариатом, охватывающее желательное, позволительное
   и нежелательное.
 ---
+
 
 
 

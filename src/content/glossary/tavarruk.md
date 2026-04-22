@@ -5,13 +5,43 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- fadzhr
+- fard
+- gusl
+- idzhma
+- iftirash
+- ikhlas
+- ikhram
+- khajd
+- kharam
+- khasan
+- makrukh
+- mazkhab
+- mechet
+- mursal
+- sakhikh
+- salyam
+- shakhada
+- sunna
+- takhara
+- tasbikh
+- tashakhkhud
+- vadzhib
+- zikr
+used_in:
+- 158-opisanie-namaza-urok-2.md
+- 159-opisanie-namaza-urok-3.md
+- 160-opisanie-namaza-urok-4.md
+- 163-opisanie-namaza-urok-7.md
+- 44-kniga-namaza-18.md
 description: таваррук – это сидение молящегося, на левом бедре, просунув левую ногу
   под голень правой и опираясь пальцами правой стопы в пол, так что бы они были направлены
   в сторону киблы. Эта поза сидения является сунной в последнем ташаххуде, трех или
   четырех ракаатного намаза.
 ---
+
 
 
 

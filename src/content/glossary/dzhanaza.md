@@ -5,11 +5,61 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- darura
+- dzhanaba
+- fadzhr
+- fard
+- fikkh
+- id
+- ikamat
+- ikhram
+- istiska
+- kaaba
+- khadzh
+- kharam
+- khasan
+- khutba
+- kibla
+- kunut
+- makrukh
+- mechet
+- musulmanin
+- nazr
+- radzhab
+- ratiba
+- rukhsa
+- rukn
+- safar
+- sakhikh
+- salyam
+- shajtan
+- sudzhud-at-tilyava
+- sunna
+- taravikh
+- tashakhkhud
+- tavaf
+- ukhud
+- umma
+- vadzhib
+- vitr
+- vudu
+- zina
+- zukhd
+used_in:
+- 115-al-bakara-korova-115-aiat.md
+- 29-kniga-namaza-3.md
+- 30-kniga-namaza-4.md
+- 53-esli-imam-oshibaetsya-27.md
+- 57-chto-narushaet-namaz-3-31.md
+- 7-razrush-svoego-idola.md
+- 73-namaz-na-korable-47.md
 description: В терминологии шариата аль-джаназа имеет два значения-1-Покойник 2-Похоронная
   молитва
 ---
+
 
 
 

@@ -5,11 +5,39 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- dzhanaba
+- fadzhr
+- fard
+- gusl
+- id
+- ikamat
+- ikhlas
+- ikhram
+- khasan
+- khukm
+- makrukh
+- mazkhab
+- mechet
+- nifas
+- sakhikh
+- shajtan
+- sunna
+- takhara
+- tashakhkhud
+- tavarruk
+- umma
+- vadzhib
+- zikr
+used_in:
+- 158-opisanie-namaza-urok-2.md
+- 33-kniga-namaza-7.md
 description: хайд – это выделение крови из полости матки здоровой, совершеннолетней
   женщины не по причине родов, в определенное, закономерное время.
 ---
+
 
 
 

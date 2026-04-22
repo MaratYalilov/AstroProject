@@ -5,11 +5,35 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhikhad
+- dzhinn
+- fadzhr
+- fard
+- id
+- kaffara
+- kharam
+- khasan
+- kufr
+- mazkhab
+- mechet
+- safar
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sunna
+- tashakhkhud
+- taukhid
+- vudu
+used_in:
+- 106-al-bakara-korova-99-101-aiat.md
+- 138-mecheti-urok-5.md
+- 188-tashahhud-urok-4.md
 description: хафиз – это тот, кто знает сто тысяч хадисов с цепочками передатчиков,
   имея о каждом из них больше известного, чем неизвестного.
 ---
+
 
 
 

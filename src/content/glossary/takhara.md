@@ -5,12 +5,63 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ajn
+- azan
+- bid-a
+- dalil
+- fadzhr
+- fard
+- fikkh
+- gusl
+- iblis
+- idzhma
+- ikamat
+- ikhlas
+- ikhram
+- iman
+- islam
+- kaffara
+- khadzh
+- khajd
+- kharam
+- khasan
+- khukm
+- kibla
+- kufr
+- makhram
+- makrukh
+- mazkhab
+- mechet
+- mubtadi
+- musulmanin
+- radzhab
+- ramadan
+- rukn
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- shart
+- sunna
+- takfir
+- tashakhkhud
+- tavarruk
+- vudu
+- zakyat
+- zikr
+used_in:
+- 130-azan-urok-8.md
+- 158-opisanie-namaza-urok-2.md
+- 27-kniga-namaza-1.md
+- 28-adab-tazkiya-urok-28.md
+- 50-kniga-namaza-24.md
+- 52-kniga-namaza-26.md
 description: тахара – это удаление того, что препятствует исполнению молитвы и тому
   подобных (видов поклонения) как осквернение или нечистоты, посредством воды или
   чистого грунта.
 ---
+
 
 
 

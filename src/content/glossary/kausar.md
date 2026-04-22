@@ -5,8 +5,30 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaba
+- fadzhr
+- fard
+- gusl
+- islam
+- makrukh
+- mazkhab
+- mechet
+- mikhrab
+- nadzhasa
+- ramadan
+- sakhikh
+- salyam
+- salyat
+- sunna
+- taravikh
+- tasbikh
+- tashakhkhud
+- vadzhib
+- zikr
+used_in:
+- 172-chtenie-korana-v-namaze-urok-4.md
+- 62-nezhelatelnye-dejstviya-v-namaze-36.md
 description: Каусар – это великое благо в этом мире и Последней жизни, в том числе
   райская река аль-Каусар, которую Аллах даровал Своему Посланнику Мухаммаду, да благословит
   его Аллах и приветствует, в знак обильной щедрости к нему и милосердия к его общине.
@@ -14,6 +36,7 @@ description: Каусар – это великое благо в этом ми�
   слаще меда и белее снега. Она впадает в водоем (аль-Хауд), который будет расположен
   на месте сбора (людей для суда).
 ---
+
 
 
 

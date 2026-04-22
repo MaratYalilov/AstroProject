@@ -5,14 +5,28 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- idzhma
+- kharam
+- makrukh
+- mazkhab
+- mursal
+- sakhikh
+- salyam
+- tashakhkhud
+- tavarruk
+- vadzhib
+used_in:
+- 159-opisanie-namaza-urok-3.md
+- 160-opisanie-namaza-urok-4.md
 description: это сидение молящегося, на левой подогнутой под бедро ноге, опираясь
   пальцами правой стопы в пол, так что бы они были направлены в сторону киблы. Эта
   поза сидения является сунной в первом ташаххуде, трех или четырех ракаатного намаза,
   а также во время сидения между двумя земными поклонами и в последнем ташаххуде двух
   ракаатного намаза.
 ---
+
 
 
 

@@ -5,13 +5,45 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- bid-a
+- birr
+- fard
+- id
+- id-al-adkha
+- id-al-fitr
+- iman
+- istikhara
+- khadzh
+- khalifat
+- kharam
+- khasan
+- kurban
+- makrukh
+- mazkhab
+- mechet
+- munkar
+- musulmanin
+- ramadan
+- sadaka
+- sakhikh
+- sha-ban
+- shajtan
+- sunna
+- takhadzhud
+- takva
+- tavaf
+used_in:
+- 05-adab-tazkiya-urok-05.md
+- 25-adab-tazkiya-urok-25.md
+- 70-namaz-privetstviya-mecheti-44.md
 description: Зуль-Хиджа – это двенадцатый месяц лунного календаря и один из (четырех)
   запретных месяцев. Он назван так, по причине совершаемого паломничества в этот месяц
   к Дому Аллаха в Мекке, для исполнения обрядов хаджа, как обязательных, так и добровольных
   узаконенных шариатом.
 ---
+
 
 
 

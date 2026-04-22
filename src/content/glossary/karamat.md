@@ -5,12 +5,28 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- din
+- fitna
+- idzhma
+- kufr
+- musulmanin
+- namima
+- riya
+- sakhikh
+- salyam
+- shirk
+- sikhr
+- sukhur
+- tafsir
+- zakyat
+used_in:
+- 109-al-bakara-korova-102-103-aiat.md
 description: это необычное явление, которое показывает Аллах через Своего праведного
   раба, как живого, так и мертвого, почтением для него, отдаляя от него вред или принося
   ему пользу, либо возвышая посредством него истину.
 ---
+
 
 
 

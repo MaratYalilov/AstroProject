@@ -5,8 +5,31 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- din
+- du-a
+- fard
+- ikhlas
+- iman
+- indzhil
+- islam
+- khalyal
+- kharam
+- kufr
+- mukhkam
+- musulmanin
+- mutashabikh
+- riya
+- sakhikh
+- salyam
+- sunna
+- tafsir
+- umma
+- zakyat
+used_in:
+- 113-al-bakara-korova-111-113-aiat.md
+- 118-al-bakara-korova-120-123-aiat.md
 description: ахлюль-китаб – это иудеи и христиане, они названы «людьми Писания» оттого,
   что Аллах ниспослал им – сынам Израиля два Писания- первое – это Тора, ниспосланная
   Мусе (Моисею), второе – это инджиль- Евангелие, ниспосланное Исе (Иисусу). Также
@@ -15,6 +38,7 @@ description: ахлюль-китаб – это иудеи и христиане
   женится на их целомудренных женщинах и употреблять мясо их жертвенных животных,
   которых они принесли в жертву с именем Аллаха (Бога), в соответствии с шариатом.
 ---
+
 
 
 

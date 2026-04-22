@@ -5,10 +5,46 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- azan
+- bid-a
+- dzhanaza
+- fadzhr
+- fard
+- id
+- ikhlas
+- ikhram
+- istiftakh
+- istikhara
+- khukm
+- kufr
+- makrukh
+- mandub
+- mazkhab
+- musulmanin
+- ramadan
+- rukn
+- sakhikh
+- salyam
+- salyat
+- sunna
+- takhadzhud
+- taklid
+- taravikh
+- tashakhkhud
+- tayammum
+- vadzhib
+- vitr
+- vudu
+used_in:
+- 162-opisanie-namaza-urok-6.md
+- 53-esli-imam-oshibaetsya-27.md
+- 67-vitr-40.md
+- 69-dopolnitelnye-namazy-43.md
 description: кунут – это мольба, стоя в определенном месте намаза.
 ---
+
 
 
 

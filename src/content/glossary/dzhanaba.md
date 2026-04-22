@@ -5,12 +5,44 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- dzhanaza
+- fard
+- gusl
+- id
+- ikamat
+- kausar
+- khajd
+- kharam
+- khukm
+- makrukh
+- mechet
+- mikhrab
+- nadzhasa
+- nifas
+- ramadan
+- rukhsa
+- rukn
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- tasbikh
+- umma
+- vadzhib
+- vudu
+- zikr
+used_in:
+- 33-kniga-namaza-7.md
+- 57-chto-narushaet-namaz-3-31.md
+- 62-nezhelatelnye-dejstviya-v-namaze-36.md
 description: джанаба – это большое осквернение, охватывающие все органы тела в результате
   выхода спермы, как во сне, так и наяву, либо по причине прикосновения половых органов
   во время совокупления.
 ---
+
 
 
 

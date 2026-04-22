@@ -5,10 +5,25 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fard
+- islam
+- kharam
+- makrukh
+- mazkhab
+- musulmanin
+- sadaka
+- sakhikh
+- shajtan
+- sunna
+- ukhud
+- umma
+used_in:
+- 14-adab-tazkiya-urok-14.md
+- 18-adab-tazkiya-urok-18.md
 description: хикма – это правильное применение вещи по ее назначению.
 ---
+
 
 
 

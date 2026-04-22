@@ -5,13 +5,52 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- ansary
+- din
+- du-a
+- fard
+- fikkh
+- fitna
+- iblis
+- idzhma
+- iman
+- islam
+- karamat
+- khalyal
+- kharam
+- kharut-i-marut
+- khasan
+- khidzhr
+- khukm
+- kufr
+- musulmanin
+- namima
+- naskh
+- radzhab
+- riya
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sukhur
+- tafsir
+- usul-al-fikkh
+- zakyat
+- zina
+used_in:
+- 101-al-bakara-korova-85-87-aiat.md
+- 107-al-bakara-korova-102-103-aiat.md
+- 108-al-bakara-korova-102-103-aiat.md
+- 109-al-bakara-korova-102-103-aiat.md
+- 110-al-bakara-korova-103-106-aiat.md
 description: 1–это чтение заклинаний, завязывание узлов и использование талисманов
   посредством чего колдун прибегает к помощи дьяволов, стремясь причинить вред околдованному.
   2–это использование зелья и снадобий для влияния на тело околдованного, его разум,
   желание и склонности. Колдуны называют это привораживанием.
 ---
+
 
 
 

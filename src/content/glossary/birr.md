@@ -5,8 +5,28 @@ letter: Б
 category: Б
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- fard
+- id-al-adkha
+- id-al-fitr
+- istikhara
+- kharam
+- makrukh
+- mazkhab
+- mechet
+- munkar
+- musulmanin
+- ramadan
+- sadaka
+- sakhikh
+- sha-ban
+- shajtan
+- sunna
+- takhadzhud
+- zul-khidzha
+used_in:
+- 70-namaz-privetstviya-mecheti-44.md
 description: это большое усердие в совершении благодеяний и полезных, угодных дел,
   которые украшают человека, таких как рвение, в подчинении Аллаху, совершение многочисленных
   благодеяний по отношению к родителям, изыскивая то, что они любят и, остерегаясь
@@ -14,6 +34,7 @@ description: это большое усердие в совершении бла
   используется в значении «честность», потому что честность является частью щедрого
   блага.
 ---
+
 
 
 

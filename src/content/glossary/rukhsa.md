@@ -5,11 +5,27 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azima
+- dzhanaba
+- dzhanaza
+- fard
+- kharam
+- kufr
+- makrukh
+- mubakh
+- ramadan
+- rukn
+- safar
+- salyam
+- vudu
+used_in:
+- 57-chto-narushaet-namaz-3-31.md
+- 74-namaz-putnika-48.md
 description: рухса – это наименование того, что разрешил Законодатель, облегчая Своим
   рабам то, что является для них непосильным, в случае крайне необходимости.
 ---
+
 
 
 

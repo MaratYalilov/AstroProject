@@ -5,8 +5,53 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- du-a
+- dzhizya
+- fikkh
+- iblis
+- ikhlas
+- iman
+- islam
+- istigfar
+- kaaba
+- khadzh
+- khalil
+- kharadzh
+- kharam
+- kharut-i-marut
+- khasan
+- khava
+- khukm
+- kibr
+- kufr
+- makrukh
+- mechet
+- miskin
+- musulmanin
+- radzhab
+- ramadan
+- riba
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sikhr
+- sunna
+- tafsir
+- tauba
+- tavaf
+- ukhud
+used_in:
+- 06-adab-tazkiya-urok-06.md
+- 107-al-bakara-korova-102-103-aiat.md
+- 119-al-bakara-korova-125-aiat.md
+- 120-al-bakara-korova-126-aiat.md
+- 24-adab-tazkiya-urok-24.md
+- 4-razrush-svoego-idola.md
+- 6-razrush-svoego-idola.md
+- 93-al-bakara-korova-59-61-aiat.md
 description: Адам – это первый человек, Аллах создал его из земли, склонил перед ним
   ангелов в земном поклоне для почтения ему и научил его именам всех вещей. Адам,
   приходится отцом для всего человечества, от него они происходят и к нему относятся.
@@ -14,6 +59,7 @@ description: Адам – это первый человек, Аллах соз�
   Аллах начал пророческие мисси, которые были завершены миссией Мухаммада, да благословит
   его Аллах.
 ---
+
 
 
 

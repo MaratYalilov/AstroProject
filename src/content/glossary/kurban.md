@@ -5,12 +5,21 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- khadzh
+- kharam
+- khasan
+- sadaka
+- sakhikh
+- tavaf
+- zul-khidzha
+used_in:
+- 05-adab-tazkiya-urok-05.md
 description: курбан – это то, посредством чего приближаются к Аллаху из таких благодеяний
   и подчинения как выстаивание молитвы, милостыня, жертвоприношение и др., и чаще
   всего этот термин применяют для жертвоприношения.
 ---
+
 
 
 

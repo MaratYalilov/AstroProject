@@ -5,12 +5,59 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ahlul-kitab
+- bid-a
+- du-a
+- dzhikhad
+- fard
+- fikkh
+- fitna
+- iblis
+- id
+- idzhma
+- indzhil
+- islam
+- karamat
+- khadzh
+- khalyal
+- kharam
+- khasan
+- khukm
+- kufr
+- ma-ruf
+- mechet
+- mizan
+- mukhkam
+- musulmanin
+- mutashabikh
+- namima
+- riya
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sikhr
+- sukhur
+- sunna
+- tafsir
+- tasbikh
+- umma
+- vadzhib
+- zakyat
+- zikr
+used_in:
+- 109-al-bakara-korova-102-103-aiat.md
+- 118-al-bakara-korova-120-123-aiat.md
+- 165-opisanie-namaza-urok-9.md
+- 22-adab-tazkiya-urok-22.md
+- 29-adab-tazkiya-urok-29.md
 description: религия ислам – это совокупность законов, которые ниспослал Всевышний
   Аллах Своему Посланнику Мухаммаду, да благословит его Аллах и приветствует, охватывающие
   убеждение, нравы, обряды поклонения, взаимоотношения и наказания в Коране и сунне.
 ---
+
 
 
 

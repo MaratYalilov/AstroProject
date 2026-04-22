@@ -5,12 +5,39 @@ letter: Ш
 category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- birr
+- fadzhr
+- fard
+- id-al-adkha
+- id-al-fitr
+- ikamat
+- ikhlas
+- islam
+- istikhara
+- kharam
+- makrukh
+- mazkhab
+- mechet
+- munkar
+- musulmanin
+- ramadan
+- sadaka
+- sakhikh
+- shajtan
+- sunna
+- takhadzhud
+- vitr
+- zul-khidzha
+used_in:
+- 171-chtenie-korana-v-namaze-urok-3.md
+- 70-namaz-privetstviya-mecheti-44.md
 description: Ша'бан – это восьмой месяц лунного календаря, который приходится между
   Раджабом и Рамаданом. В этот месяц праведные деяния возносятся к Аллаху и в течение
   него желательно много постится.
 ---
+
 
 
 

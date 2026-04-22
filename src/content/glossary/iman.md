@@ -5,12 +5,95 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
+related:
+- a-raf
+- adab
+- adam
+- ahlul-kitab
+- azan
+- bid-a
+- fadzhr
+- fard
+- fitna
+- fitra
+- iblis
+- id
+- idzhma
+- ikhlas
+- indzhil
+- islam
+- isra
+- khadzh
+- khalifat
+- kharam
+- kharut-i-marut
+- khasan
+- khava
+- khidzhr
+- khukm
+- kibr
+- kufr
+- makrukh
+- mazkhab
+- mechet
+- mi-radzh
+- mubakh
+- mursal
+- musulmanin
+- nisab
+- radzhab
+- ramadan
+- riya
+- sadaka
+- safar
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- shirk
+- sikhr
+- sudzhud-ash-shukr
+- sunna
+- tafsir
+- takfir
+- takhadzhud
+- takhara
+- takva
+- tauba
+- taufik
+- tuba
+- umma
+- zakyat
+- zikr
+- zina
+- zul-khidzha
 used_in:
-- 101-namaz-prichina-proscheniya-grehov.md
+- 03-adab-tazkiya-urok-03.md
+- 08-adab-tazkiya-urok-08.md
+- 10-razrush-svoego-idola.md
+- 103-al-bakara-korova-91-93-aiat.md
+- 108-al-bakara-korova-102-103-aiat.md
+- 113-al-bakara-korova-111-113-aiat.md
+- 13-adab-tazkiya-urok-13.md
+- 142-mecheti-urok-9.md
+- 19-razrush-svoego-idola.md
+- 22-razrush-svoego-idola.md
+- 23-razrush-svoego-idola.md
+- 25-adab-tazkiya-urok-25.md
+- 27-kniga-namaza-1.md
+- 28-kniga-namaza-2.md
+- 4-razrush-svoego-idola.md
+- 5-razrush-svoego-idola.md
+- 6-razrush-svoego-idola.md
+- 88-al-bakara-korova-45-47-aiat.md
+- 9-razrush-svoego-idola.md
+- 90-al-bakara-korova-48-49-aiat.md
+- 95-al-bakara-korova-67-71-aiat.md
+- 99-al-bakara-korova-80-82-aiat.md
 description: иман – это убеждение сердцем, произнесение языком, деяние органами тела
   увеличивается с подчинением и ослабевает от ослушания».
 ---
+
 
 
 

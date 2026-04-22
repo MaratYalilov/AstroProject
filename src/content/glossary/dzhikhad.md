@@ -5,11 +5,52 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- bid-a
+- din
+- dzhinn
+- fadzhr
+- fard
+- fikkh
+- id
+- id-al-adkha
+- islam
+- istigfar
+- kaffara
+- khadzh
+- khafiz
+- khalyal
+- kharam
+- khasan
+- khidzhra
+- kunya
+- mazkhab
+- mechet
+- mizan
+- ramadan
+- sadaka
+- safar
+- sakhikh
+- salyam
+- shajtan
+- shakhada
+- sunna
+- tasbikh
+- umma
+- vudu
+- zakyat
+used_in:
+- 11-razrush-svoego-idola.md
+- 12-adab-tazkiya-urok-12.md
+- 138-mecheti-urok-5.md
+- 183-zemnoi-poklon-urok-3.md
+- 29-adab-tazkiya-urok-29.md
+- 30-adab-tazkiya-urok-30.md
 description: джихад – это приложение усилий для возвышения слова Аллаха и распространения
   Его религии на Земле.
 ---
+
 
 
 

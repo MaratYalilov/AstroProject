@@ -5,12 +5,25 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- id
+- iman
+- khadzh
+- khasan
+- mazkhab
+- safar
+- sakhikh
+- salyam
+- shajtan
+- takva
+- zikr
+used_in:
+- 19-razrush-svoego-idola.md
 description: суджуд аш-шукр – это один земной поклон, который совершает человек (в
   знак благодарности Аллаху) за избавление от какой-либо беды, либо после обретения
   какого-нибудь блага.
 ---
+
 
 
 

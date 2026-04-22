@@ -5,10 +5,37 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fadzhr
+- fard
+- idzhma
+- idzhtikhad
+- ikamat
+- islam
+- khasan
+- makrukh
+- mazkhab
+- mechet
+- miskin
+- sakhikh
+- salyam
+- salyat
+- shakhada
+- shar
+- sukhur
+- sunna
+- tadzhvid
+- tashakhkhud
+- umma
+- vadzhib
+- vitr
+used_in:
+- 133-azan-urok-11.md
+- 164-opisanie-namaza-urok-8.md
 description: мауду' – это вымышленная ложь, возводимая на посланника Аллаха,
 ---
+
 
 
 

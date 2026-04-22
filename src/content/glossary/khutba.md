@@ -5,13 +5,36 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhanaza
+- fadzhr
+- fard
+- id
+- ikamat
+- istiska
+- kharam
+- makrukh
+- mechet
+- musulmanin
+- nazr
+- ratiba
+- sakhikh
+- salyam
+- sudzhud-at-tilyava
+- sunna
+- tashakhkhud
+- tavaf
+- vadzhib
+- vitr
+used_in:
+- 30-kniga-namaza-4.md
 description: хутба – это последовательная речь, которую произносит проповедник с намерением
   для определенного количества людей перед пятничной молитвой, после наступления ее
   времени или после праздничной молитвы, либо при (другой) необходимости, громким
   голосом, по возможности стоя.
 ---
+
 
 
 

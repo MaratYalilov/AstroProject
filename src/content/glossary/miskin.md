@@ -5,11 +5,50 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- adam
+- ansary
+- azan
+- du-a
+- dzhizya
+- fadzhr
+- fard
+- fikkh
+- idzhtikhad
+- islam
+- isra
+- israfil
+- khalil
+- kharadzh
+- khasan
+- khidzhab
+- maudu
+- mazkhab
+- mechet
+- musulmanin
+- sadaka
+- sakhikh
+- salyam
+- salyat
+- shakhada
+- shar
+- shirk
+- sunna
+- tafsir
+- tashakhkhud
+- umma
+- vitr
+- zakyat
+used_in:
+- 100-al-bakara-korova-83-84-aiat.md
+- 164-opisanie-namaza-urok-8.md
+- 17-razrush-svoego-idola.md
+- 93-al-bakara-korova-59-61-aiat.md
 description: мискин – это тот, кто покрывает половину своих потребностей или большую
   ее часть посредством заработка или других средств
 ---
+
 
 
 

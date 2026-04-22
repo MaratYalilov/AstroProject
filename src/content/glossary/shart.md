@@ -5,12 +5,53 @@ letter: Ш
 category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ajn
+- azan
+- bid-a
+- fard
+- fikkh
+- gusl
+- iblis
+- ikamat
+- ikhlas
+- ikhram
+- kaaba
+- kaffara
+- khadzh
+- khalyal
+- khasan
+- kibla
+- kufr
+- makhram
+- makrukh
+- mechet
+- mubtadi
+- musulmanin
+- nadzhasa
+- rukn
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- takhara
+- talak
+- taravikh
+- tayammum
+- vadzhib
+- vitr
+- vudu
+used_in:
+- 34-kniga-namaza-8.md
+- 35-kniga-namaza-9.md
+- 36-kniga-namaza-10.md
+- 50-kniga-namaza-24.md
+- 52-kniga-namaza-26.md
 description: шарт – это то, без чего не будет действительным (обряд поклонения), но
   от его наличия не следует (абсолютная) правильность поклонения, равно как и его
   исполнение.
 ---
+
 
 
 

@@ -5,13 +5,29 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- din
+- fitna
+- idzhma
+- karamat
+- kufr
+- musulmanin
+- riya
+- sakhikh
+- salyam
+- shirk
+- sikhr
+- sukhur
+- tafsir
+- zakyat
+used_in:
+- 109-al-bakara-korova-102-103-aiat.md
 description: намима – это передача слов от одних людей другим, для того чтобы привнести
   раздор между ними, обнародовать тайну или изобличить кого либо, равно будь то словами,
   письмом, жестом или намеком, равно будь то передаваемое словами или делами и равно
   будь то пороком и недостатком у обсуждаемого или не являющееся таковым.
 ---
+
 
 
 

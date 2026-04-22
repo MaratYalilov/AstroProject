@@ -5,14 +5,60 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- bid-a
+- du-a
+- dzhizya
+- fadzhr
+- fikkh
+- iblis
+- id
+- ikhlas
+- ikhram
+- iman
+- islam
+- khadzh
+- kharadzh
+- khasan
+- khava
+- kunut
+- makrukh
+- mazkhab
+- miskin
+- musulmanin
+- riba
+- rukn
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sunna
+- tafsir
+- taklid
+- tauba
+- tavaf
+- tayammum
+- umma
+- vadzhib
+- vali
+- vitr
+- vudu
+used_in:
+- 06-adab-tazkiya-urok-06.md
+- 10-razrush-svoego-idola.md
+- 162-opisanie-namaza-urok-6.md
+- 175-chtenie-korana-v-namaze-urok-7.md
+- 93-al-bakara-korova-59-61-aiat.md
+- 94-al-bakara-korova-62-66-aiat.md
 description: аль-А'раф – это преграда установленная между Раем и Адом в День воскресения
   во время расчета, отделяющая от их обитателей, на ней будут стоять люди, добрые
   деяния которых сравняются с дурными деяниями, от чего благие деяния станут защитой
   от входа в Ад, а дурные станут препятствием войти в Рай, но после ожидания они все
   же войдут в Рай.
 ---
+
 
 
 

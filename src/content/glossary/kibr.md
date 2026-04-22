@@ -5,11 +5,35 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- iblis
+- id
+- iman
+- islam
+- khalyal
+- kharam
+- khasan
+- khidzhab
+- khukm
+- kufr
+- makrukh
+- mechet
+- mursal
+- radzhab
+- sakhikh
+- salyam
+- tauba
+- umma
+- zakyat
+used_in:
+- 103-al-bakara-korova-91-93-aiat.md
+- 150-prikryvanie-aurata-urok-2.md
+- 4-razrush-svoego-idola.md
 description: быть большим, огромным; быть великим; быть важным и означает - гордость,
   высокомерие, величие; огромность, большая величина, большая часть.
 ---
+
 
 
 

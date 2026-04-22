@@ -5,11 +5,21 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fard
+- kharam
+- kufr
+- mubakh
+- ramadan
+- rukhsa
+- safar
+- vudu
+used_in:
+- 74-namaz-putnika-48.md
 description: азима – это изначальные постановления, которые установил Аллах для Своих
   рабов во всех поступках и состояниях.
 ---
+
 
 
 

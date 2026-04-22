@@ -5,13 +5,87 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- adam
+- ahlul-kitab
+- ansary
+- ashura
+- din
+- fadzhr
+- fard
+- fikkh
+- id
+- ikhlas
+- ikhram
+- ilya
+- indzhil
+- islam
+- israfil
+- kaaba
+- khalifat
+- khalil
+- khalyal
+- kharam
+- khasan
+- khidzhab
+- khukm
+- kufr
+- makrukh
+- mazkhab
+- mechet
+- miskin
+- mukharram
+- mukhkam
+- mursal
+- muskhaf
+- musulmanin
+- mutashabikh
+- nadzhasa
+- naskh
+- radzhab
+- ramadan
+- riya
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sikhr
+- sunna
+- tafsir
+- tarbiya
+- tasbikh
+- tashakhkhud
+- taufik
+- taukhid
+- ukhud
+- umma
+- usul-al-fikkh
+- vadzhib
+- zikr
+- zina
+- zulm
+used_in:
+- 01-adab-tazkiya-urok-01.md
+- 110-al-bakara-korova-103-106-aiat.md
+- 118-al-bakara-korova-120-123-aiat.md
+- 120-al-bakara-korova-126-aiat.md
+- 145-mecheti-urok-12.md
+- 146-mecheti-urok-13.md
+- 17-razrush-svoego-idola.md
+- 175-chtenie-korana-v-namaze-urok-7.md
+- 176-chtenie-korana-v-namaze-urok-8.md
+- 180-poyasnoi-poklon-urok-3.md
+- 185-tashahhud-urok-1.md
+- 187-tashahhud-urok-3.md
+- 91-al-bakara-korova-50-56-aiat.md
 description: ду'а – это обращение раба к его Господу с просьбой о заботе и помощи,
   показывая свою нужду в Аллахе и отрекаясь от своей силы и мощи, в чем проявляется
   признак покорности и выражение человеческого смирения. И в этом заключается смысл
   восхваления Аллаха и подтверждения Его великой щедрости.
 ---
+
 
 
 

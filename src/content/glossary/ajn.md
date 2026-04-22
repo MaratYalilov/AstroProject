@@ -5,14 +5,30 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- fard
+- fikkh
+- iblis
+- kibla
+- kufr
+- makrukh
+- mechet
+- mubtadi
+- musulmanin
+- sakhikh
+- shajtan
+- shart
+- takhara
+used_in:
+- 52-kniga-namaza-26.md
 description: айн - это взгляд смотрящего направленный на других, от злобы и завести,
   желая лишить сглаживаемого его блага, это исходит только от скверной души. Либо
   по причине изумления и восторга, которое не сопровождается завистью и без желания
   лишить человека его благ, это может исходить от любого человека даже от праведных
   людей.
 ---
+
 
 
 

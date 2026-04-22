@@ -5,11 +5,20 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- din
+- iblis
+- id
+- kharam
+- khasan
+- khukm
+- sakhikh
+used_in:
+- 22-adab-tazkiya-urok-22.md
 description: ма'руф – это все, чему учит и приказывает шариат, восхваляя его приверженцев
   из всех видов подчинения, главными из которых являются единобожие и вера в Аллаха.
 ---
+
 
 
 

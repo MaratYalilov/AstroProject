@@ -5,11 +5,39 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- dzhikhad
+- dzhinn
+- fadzhr
+- fard
+- fikkh
+- gusl
+- id
+- khafiz
+- kharam
+- khasan
+- makhram
+- makrukh
+- mechet
+- musulmanin
+- rukn
+- safar
+- sakhikh
+- salyam
+- shart
+- sunna
+- takhara
+- vakf
+- vudu
+used_in:
+- 138-mecheti-urok-5.md
+- 143-mecheti-urok-10.md
+- 50-kniga-namaza-24.md
 description: каффара – это то, посредством чего грешник искупляет свой грех как милостыня,
   пост и др.
 ---
+
 
 
 

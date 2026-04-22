@@ -5,10 +5,28 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ahlul-kitab
+- din
+- du-a
+- fard
+- indzhil
+- islam
+- khalyal
+- kharam
+- kufr
+- musulmanin
+- mutashabikh
+- sakhikh
+- salyam
+- sunna
+- tafsir
+- umma
+used_in:
+- 118-al-bakara-korova-120-123-aiat.md
 description: мухкам – это (аяты) имеющие только один смысл и не требующие трактовки.
 ---
+
 
 
 

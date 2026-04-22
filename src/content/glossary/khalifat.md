@@ -5,12 +5,31 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- du-a
+- fard
+- id
+- iman
+- khasan
+- mazkhab
+- mechet
+- ramadan
+- sakhikh
+- sunna
+- takva
+- tashakhkhud
+- taukhid
+- vadzhib
+- zul-khidzha
+used_in:
+- 185-tashahhud-urok-1.md
+- 25-adab-tazkiya-urok-25.md
 description: халифат – это общее управление для всех мусульман, в делах религии и
   социума, для претворения исламских законов и донесения призыва ко всему Миру, замещая
   Пророка.
 ---
+
 
 
 

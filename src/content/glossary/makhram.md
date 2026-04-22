@@ -5,11 +5,34 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- fard
+- fikkh
+- gusl
+- indzhil
+- kaffara
+- khadzh
+- khasan
+- makrukh
+- mechet
+- rukn
+- sadaka
+- safar
+- sakhikh
+- salyam
+- shart
+- sunna
+- takhara
+- vudu
+- zakyat
+used_in:
+- 102-al-bakara-korova-88-90-aiat.md
+- 50-kniga-namaza-24.md
 description: махарам – это тот, кому навсегда запрещается жениться на женщине по причине
   кровного, молочного либо брачного родства.
 ---
+
 
 
 

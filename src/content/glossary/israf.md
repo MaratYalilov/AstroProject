@@ -5,11 +5,30 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- fard
+- i-tikaf
+- islam
+- israfil
+- khadzh
+- khava
+- ramadan
+- sakhikh
+- salyam
+- shajtan
+- sunna
+- tafsir
+- takhadzhud
+- umma
+- zikr
+used_in:
+- 02-adab-tazkiya-urok-02.md
+- 105-al-bakara-korova-97-98-aiat.md
 description: исраф – это чрезмерность в поступках человека, его словах и расходовании,
   и может быть как во благе, так и во зле.
 ---
+
 
 
 

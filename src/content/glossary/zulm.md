@@ -5,11 +5,24 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ashura
+- du-a
+- ilya
+- khasan
+- kufr
+- mukharram
+- ramadan
+- sakhikh
+- salyam
+- shirk
+- tafsir
+used_in:
+- 91-al-bakara-korova-50-56-aiat.md
 description: зульм – это применение чего-либо не по его специальному месту назначения
   по причине пренебрежения, излишества
 ---
+
 
 
 

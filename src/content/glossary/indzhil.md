@@ -5,12 +5,48 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- ahlul-kitab
+- aksa
+- azan
+- bid-a
+- din
+- du-a
+- fard
+- idda
+- ikhlas
+- iman
+- islam
+- khadzh
+- khalyal
+- kharam
+- khasan
+- khukm
+- kufr
+- makhram
+- mukhkam
+- musulmanin
+- mutashabikh
+- naskh
+- riya
+- sadaka
+- safar
+- sakhikh
+- salyam
+- sunna
+- tafsir
+- umma
+- zakyat
+used_in:
+- 102-al-bakara-korova-88-90-aiat.md
+- 111-al-bakara-korova-106-107-aiat.md
+- 113-al-bakara-korova-111-113-aiat.md
+- 118-al-bakara-korova-120-123-aiat.md
 description: это Писание Аллаха, ниспосланное Исе (Иисусу) сыну Марьям (Марии), да
   благословит его Аллах и приветствует, которого Всевышний Аллах сделал Посланникам
   к сынам израилевым после Мусы (Моисея).
 ---
+
 
 
 

@@ -5,8 +5,31 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- du-a
+- fard
+- fikkh
+- islam
+- isra
+- khalyal
+- kharam
+- khasan
+- khidzhab
+- khukm
+- miskin
+- musulmanin
+- naskh
+- radzhab
+- sadaka
+- sakhikh
+- sikhr
+- tafsir
+- umma
+- usul-al-fikkh
+- zakyat
+used_in:
+- 100-al-bakara-korova-83-84-aiat.md
+- 110-al-bakara-korova-103-106-aiat.md
 description: ансары – это жители Ясриба, состоящие из племен ауситов и хазраджитов,
   имеющие одни корни из Йемена, которые покинули его после разрушения известной платины
   Мариба. Они оказали помощь Посланнику Аллаха, да благословит его Аллах и приветствует,
@@ -14,6 +37,7 @@ description: ансары – это жители Ясриба, состоящи
   усердие на пути призыва они удостоились имени ансары, которое увековечило память
   об их вкладе в распространении Ислама.
 ---
+
 
 
 

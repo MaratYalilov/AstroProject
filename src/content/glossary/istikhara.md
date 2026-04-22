@@ -5,12 +5,44 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- bid-a
+- birr
+- fadzhr
+- fard
+- id-al-adkha
+- id-al-fitr
+- islam
+- istiftakh
+- kharam
+- khasan
+- kunut
+- makrukh
+- mandub
+- mazkhab
+- mechet
+- munkar
+- musulmanin
+- ramadan
+- sadaka
+- sakhikh
+- sha-ban
+- shajtan
+- sunna
+- takhadzhud
+- tashakhkhud
+- vitr
+- zul-khidzha
+used_in:
+- 12-razrush-svoego-idola.md
+- 69-dopolnitelnye-namazy-43.md
+- 70-namaz-privetstviya-mecheti-44.md
 description: истихара – это обращение к Аллаху посредством (добровольного) намаза
   и узаконенной мольбы с просьбой направить к тому, что лучше и предпочтительней (в
   знании) Аллаха.
 ---
+
 
 
 

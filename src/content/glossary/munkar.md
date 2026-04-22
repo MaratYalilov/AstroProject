@@ -6,13 +6,30 @@ category: М
 tags: []
 aliases: []
 related:
-- khasan
+- bid-a
+- birr
+- fard
+- id-al-adkha
+- id-al-fitr
+- istikhara
+- kharam
+- makrukh
+- mazkhab
+- mechet
+- musulmanin
+- ramadan
+- sadaka
 - sakhikh
+- sha-ban
+- shajtan
+- sunna
+- takhadzhud
+- zul-khidzha
 used_in:
-- 19-persten-s-imenem-allaha.md
-- 49-nahozhdenie-oskvernennogo-v-mecheti.md
+- 70-namaz-privetstviya-mecheti-44.md
 description: означает - порицаемый; отвратительный, скверный, дурной, постыдный; отрицаемый.
 ---
+
 
 
 

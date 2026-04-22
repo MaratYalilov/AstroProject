@@ -5,11 +5,47 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhanaza
+- fadzhr
+- fard
+- id
+- ikamat
+- ilya
+- khadzh
+- kharam
+- khasan
+- khutba
+- makrukh
+- mechet
+- musulmanin
+- nazr
+- radzhab
+- rasul
+- ratiba
+- sakhikh
+- salyam
+- shajtan
+- sudzhud-at-tilyava
+- sunna
+- tadzhvid
+- taravikh
+- tashakhkhud
+- tavaf
+- ukhud
+- vadzhib
+- vitr
+- zina
+- zukhd
+used_in:
+- 30-kniga-namaza-4.md
+- 31-kniga-namaza-5.md
+- 7-razrush-svoego-idola.md
 description: истиска – это мольба к Аллаху о ниспослании дождя во время засухи и отсутствия
   дождей.
 ---
+
 
 
 

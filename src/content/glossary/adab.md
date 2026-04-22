@@ -5,13 +5,48 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhikhad
+- fard
+- id
+- iman
+- islam
+- istiftakh
+- khadzh
+- khalifat
+- kharam
+- khasan
+- kunya
+- makrukh
+- mazkhab
+- mechet
+- musulmanin
+- nadzhasa
+- ramadan
+- safar
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- sunna
+- takva
+- tashakhkhud
+- zakyat
+- zul-khidzha
+used_in:
+- 10-adab-tazkiya-urok-10.md
+- 151-prikryvanie-aurata-urok-3.md
+- 183-zemnoi-poklon-urok-3.md
+- 21-adab-tazkiya-urok-21.md
+- 25-adab-tazkiya-urok-25.md
+- 46-kniga-namaza-20.md
 description: а́да́б – это совокупность благих качеств, состоящих из достойных слов
   и дел, которыми характеризуется мусульманин в своей жизни, такие как; этикет приема
   пищи и питья, этикет бракосочетания, этикет справления естественной нужды, этикет
   ходьбы и т.п.
 ---
+
 
 
 

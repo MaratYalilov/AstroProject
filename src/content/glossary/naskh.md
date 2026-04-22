@@ -5,11 +5,38 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- ansary
+- azan
+- du-a
+- fikkh
+- fitna
+- idda
+- indzhil
+- islam
+- khalyal
+- kharam
+- khasan
+- khukm
+- kufr
+- musulmanin
+- radzhab
+- sadaka
+- sakhikh
+- salyam
+- sikhr
+- tadzhvid
+- tafsir
+- usul-al-fikkh
+used_in:
+- 110-al-bakara-korova-103-106-aiat.md
+- 111-al-bakara-korova-106-107-aiat.md
+- 97-al-bakara-korova-75-77-aiat.md
 description: насх – это отмена (раннего) шариатского положения (хукм) посредством
   позднего шариатского указания (далиль).
 ---
+
 
 
 

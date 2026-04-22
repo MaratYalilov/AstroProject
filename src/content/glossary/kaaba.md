@@ -5,13 +5,49 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
+related:
+- adam
+- azan
+- du-a
+- dzhanaza
+- fard
+- gusl
+- id
+- ikamat
+- ikhlas
+- khalil
+- kharam
+- khasan
+- khidzhr
+- kibla
+- kufr
+- makrukh
+- mechet
+- mursal
+- nadzhasa
+- rukn
+- safar
+- sakhikh
+- salyam
+- shart
+- shirk
+- sunna
+- tafsir
+- tavaf
+- tayammum
+- ukhud
+- vudu
 used_in:
-- 57-an-naziat-istorgaiushchie-1.md
+- 115-al-bakara-korova-115-aiat.md
+- 119-al-bakara-korova-125-aiat.md
+- 120-al-bakara-korova-126-aiat.md
+- 134-mecheti-urok-1.md
+- 34-kniga-namaza-8.md
 description: Кааба – это священная мечеть, которая является направлением для мусульман
   в молитвах, к ней стремятся паломники со всего мира, и совершают обход вокруг нее.
   Мусульмане считают ее самым святым местом на земле.
 ---
+
 
 
 

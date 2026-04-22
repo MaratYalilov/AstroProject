@@ -5,12 +5,37 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- fard
+- fitna
+- iblis
+- iman
+- islam
+- kaaba
+- kharam
+- kharut-i-marut
+- khasan
+- kibla
+- kufr
+- mechet
+- mursal
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sikhr
+- sunna
+- zina
+used_in:
+- 108-al-bakara-korova-102-103-aiat.md
+- 134-mecheti-urok-1.md
+- 16-razrush-svoego-idola.md
 description: аль-хиджр – это северная часть Каабы, которую не смогли достроить курайшиты
   из-за недостатка средств, и тогда на этом месте они установили полукруглую стену,
   как указание на недостающую часть Каабы.
 ---
+
 
 
 

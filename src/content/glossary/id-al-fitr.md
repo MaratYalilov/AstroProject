@@ -5,14 +5,39 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- birr
+- fard
+- fikkh
+- id-al-adkha
+- istikhara
+- kharam
+- makrukh
+- mazkhab
+- mechet
+- munkar
+- muskhaf
+- musulmanin
+- ramadan
+- sadaka
+- sakhikh
+- sha-ban
+- shajtan
+- sunna
+- takhadzhud
+- taravikh
+- zul-khidzha
+used_in:
+- 174-chtenie-korana-v-namaze-urok-6.md
+- 70-namaz-privetstviya-mecheti-44.md
 description: Ид аль-Фитр – это ежегодное (праздничное) мероприятие, приходящее на
   день, следующий после благословенного поста Рамадана, которое Аллах установил для
   проявления радости и веселья мусульман в благодарность за оказанную Им милость и
   помощь в поклонении Ему. Для этого дня Аллах узаконил выплату закят аль-фитр для
   очищения постящегося
 ---
+
 
 
 

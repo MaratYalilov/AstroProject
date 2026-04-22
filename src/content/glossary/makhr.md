@@ -5,11 +5,19 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- fard
+- makrukh
+- sadaka
+- safar
+- salyat
+- tashakhkhud
+used_in:
+- 77-namaz-putnika-51.md
 description: – это имущество, которое муж в обязательном порядке дарит своей жене
   по причине брачного акта.
 ---
+
 
 
 

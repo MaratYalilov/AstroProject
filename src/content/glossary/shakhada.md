@@ -5,11 +5,41 @@ letter: Ш
 category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- dzhikhad
+- fadzhr
+- id-al-adkha
+- idzhtikhad
+- islam
+- istigfar
+- khadzh
+- kharam
+- maudu
+- mazkhab
+- mechet
+- miskin
+- sadaka
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- shar
+- sunna
+- tasbikh
+- tashakhkhud
+- tavarruk
+- umma
+- vitr
+- zakyat
+used_in:
+- 163-opisanie-namaza-urok-7.md
+- 164-opisanie-namaza-urok-8.md
+- 30-adab-tazkiya-urok-30.md
 description: быть, присутствовать (при чем-л.); быть свидетелем (чего-либо)) и имеет
   несколько значений...
 ---
+
 
 
 

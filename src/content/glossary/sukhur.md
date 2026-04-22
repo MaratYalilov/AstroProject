@@ -5,11 +5,42 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- din
+- fadzhr
+- fard
+- fitna
+- idzhma
+- ikamat
+- islam
+- karamat
+- khasan
+- kufr
+- makrukh
+- maudu
+- mechet
+- musulmanin
+- namima
+- riya
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sikhr
+- sunna
+- tadzhvid
+- tafsir
+- vadzhib
+- zakyat
+used_in:
+- 109-al-bakara-korova-102-103-aiat.md
+- 132-azan-urok-10.md
+- 133-azan-urok-11.md
 description: сухур – это любая пища или питье, которые принимает намеревающийся поститься
   в конце ночи.
 ---
+
 
 
 

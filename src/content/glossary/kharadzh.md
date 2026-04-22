@@ -5,13 +5,26 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- adam
+- dzhizya
+- fikkh
+- islam
+- khasan
+- miskin
+- musulmanin
+- sakhikh
+- salyam
+- shirk
+used_in:
+- 93-al-bakara-korova-59-61-aiat.md
 description: Харадж в общем смысле – это взимаемый государством налог с имущества,
   которым оно распоряжается по своему усмотрению, как джизья и т.п. Харадж в особом
   смысле – это земельный налог, которым облагает правитель мусульман владельцев плодящей
   земли
 ---
+
 
 
 

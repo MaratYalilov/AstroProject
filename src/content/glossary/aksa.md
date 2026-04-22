@@ -5,12 +5,50 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- azan
+- fard
+- idda
+- idzhma
+- indzhil
+- islam
+- isra
+- khadzh
+- khalyal
+- kharam
+- khasan
+- khidzhr
+- khukm
+- kibla
+- mazkhab
+- mechet
+- mikhrab
+- mursal
+- musulmanin
+- naskh
+- rauda
+- riba
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- sunna
+- tafsir
+- tauba
+- vadzhib
+- zikr
+used_in:
+- 111-al-bakara-korova-106-107-aiat.md
+- 135-mecheti-urok-2.md
+- 136-mecheti-urok-3.md
+- 148-mecheti-urok-15.md
+- 16-razrush-svoego-idola.md
 description: аль-Акса – это мечеть в Бейт аль-Макдис (Иерусалим), первая кибла (для
   мусульман), вторая мечеть, построенная на Земле и третья мечеть по достоинству.
   Она и земля вокруг нее – благословенна, по тексту Корана.
 ---
+
 
 
 

@@ -5,11 +5,30 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- bid-a
+- fard
+- idda
+- ikamat
+- ikhlas
+- ikhram
+- khadzh
+- khalyal
+- kibla
+- makrukh
+- mechet
+- rukn
+- sakhikh
+- shart
+- sunna
+- zikr
+used_in:
+- 166-opisanie-namaza-urok-10.md
+- 35-kniga-namaza-9.md
 description: талак – это окончательное (или частичное расторжение брачных уз в настоящем
   или будущем времени, посредством определенных слов или тем, что заменяет их.
 ---
+
 
 
 

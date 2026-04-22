@@ -5,13 +5,34 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- du-a
+- ikhlas
+- islam
+- israfil
+- kaaba
+- kharam
+- khasan
+- khidzhab
+- mechet
+- miskin
+- sadaka
+- sakhikh
+- salyam
+- shirk
+- sunna
+- tafsir
+- tavaf
+used_in:
+- 119-al-bakara-korova-125-aiat.md
+- 17-razrush-svoego-idola.md
 description: Халиль – это прозвище Ибрахима и Мухаммада, да благословит их Аллах и
   приветствует, которые удостоились этого великого качества и самое возвышенное из
   видов любви, которое является атрибутом Аллаха Всевышнего. Никто из рабов не заслужил
   этой степени, кроме Ибрахима и Мухаммада, да благословит их Аллах и приветствует.
 ---
+
 
 
 

@@ -5,11 +5,65 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- a-raf
+- adam
+- azan
+- dzhanaza
+- fadzhr
+- fard
+- fitra
+- iblis
+- id
+- ikamat
+- ikhlas
+- islam
+- istiska
+- kaaba
+- khadzh
+- khalil
+- kharam
+- khasan
+- khava
+- khutba
+- kurban
+- makhdi
+- makrukh
+- mechet
+- musulmanin
+- nazr
+- ratiba
+- riba
+- sadaka
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- shirk
+- sudzhud-at-tilyava
+- sunna
+- tafsir
+- tashakhkhud
+- tauba
+- umra
+- vadzhib
+- vasvasa
+- vitr
+- zakyat
+- zikr
+- zul-khidzha
+used_in:
+- 04-adab-tazkiya-urok-04.md
+- 05-adab-tazkiya-urok-05.md
+- 06-adab-tazkiya-urok-06.md
+- 114-al-bakara-korova-114-aiat.md
+- 119-al-bakara-korova-125-aiat.md
+- 149-prikryvanie-aurata-urok-1.md
+- 30-kniga-namaza-4.md
 description: таваф – это поклонение Всевышнему Аллаху, посредством обхода вокруг Каабы,
   определенным образом.
 ---
+
 
 
 

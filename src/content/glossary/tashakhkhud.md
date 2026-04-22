@@ -5,12 +5,104 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adab
+- azan
+- bid-a
+- dalil
+- du-a
+- dzhama-a
+- dzhanaza
+- fadzhr
+- fard
+- gusl
+- id
+- idzhma
+- idzhtikhad
+- iftirash
+- ikamat
+- ikhlas
+- ikhram
+- islam
+- istiftakh
+- istikhara
+- istiska
+- kausar
+- khafiz
+- khajd
+- khalifat
+- kharam
+- khasan
+- khukm
+- khutba
+- kufr
+- kunut
+- makhr
+- makrukh
+- mandub
+- maudu
+- mazkhab
+- mechet
+- miskin
+- muskhaf
+- musulmanin
+- nazr
+- ramadan
+- ratiba
+- rukn
+- sadaka
+- safar
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- shakhada
+- shar
+- shirk
+- sudzhud-at-tilyava
+- sunna
+- takhadzhud
+- takhara
+- taklid
+- taravikh
+- tasbikh
+- taukhid
+- tavaf
+- tavarruk
+- tayammum
+- umma
+- vadzhib
+- vitr
+- zakyat
+- zikr
+used_in:
+- 158-opisanie-namaza-urok-2.md
+- 159-opisanie-namaza-urok-3.md
+- 163-opisanie-namaza-urok-7.md
+- 164-opisanie-namaza-urok-8.md
+- 170-chtenie-korana-v-namaze-urok-2.md
+- 172-chtenie-korana-v-namaze-urok-4.md
+- 185-tashahhud-urok-1.md
+- 187-tashahhud-urok-3.md
+- 188-tashahhud-urok-4.md
+- 189-salavat-urok-1.md
+- 192-salavat-urok-4.md
+- 30-kniga-namaza-4.md
+- 44-kniga-namaza-18.md
+- 45-kniga-namaza-19.md
+- 46-kniga-namaza-20.md
+- 47-kniga-namaza-21.md
+- 56-chto-narushaet-namaz-2-30.md
+- 58-chto-narushaet-namaz-4-32.md
+- 61-nezhelatelnye-dejstviya-v-namaze-35.md
+- 67-vitr-40.md
+- 69-dopolnitelnye-namazy-43.md
+- 77-namaz-putnika-51.md
 description: в намазе– это чтение восхвалений Аллаху, которую молящийся читает в сидячем
   положении, в первом сидении трех и четырех ракаатного намаза и в последнем сидении
   после заключительного ракаата всех намазов.
 ---
+
 
 
 

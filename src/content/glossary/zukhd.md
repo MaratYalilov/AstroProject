@@ -5,13 +5,31 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- dzhanaza
+- dzhannat
+- istiska
+- khadzh
+- khasan
+- mechet
+- musulmanin
+- radzhab
+- sakhikh
+- salyam
+- shajtan
+- shirk
+- ukhud
+- zina
+used_in:
+- 1-razrush-svoego-idola.md
+- 18-razrush-svoego-idola.md
+- 7-razrush-svoego-idola.md
 description: зухд – это отказ от чего либо, ради наилучшего, оставление мирского блага,
   ради блага будущей жизни. Это отсутствие привязанности сердца к тому, чем владеет
   рука. А помогает всему этому осознание того, что мирская жизнь является проходящей
   тенью и временным виденьем
 ---
+
 
 
 

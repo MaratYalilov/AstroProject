@@ -6,15 +6,60 @@ category: М
 tags: []
 aliases: []
 related:
+- aksa
+- bid-a
+- du-a
+- dukhan
+- dzhinn
+- fard
+- iblis
+- id
 - idzhma
+- iftirash
+- ikhlas
+- iman
+- islam
+- kaaba
+- khadzh
+- khalyal
+- kharam
 - khasan
+- khidzhab
+- khidzhr
+- kibla
+- kibr
+- makrukh
+- mazkhab
+- mechet
+- nadzhasa
+- ramadan
+- riya
 - sakhikh
+- salyam
+- shajtan
+- shirk
+- sunna
+- tasbikh
+- tauba
+- tavarruk
+- vadzhib
+- zikr
+- zina
 used_in:
-- 12-mazi-i-mani.md
-- 42-al-burudzh-sozvezdiia-zodiaka-1.md
+- 134-mecheti-urok-1.md
+- 144-mecheti-urok-11.md
+- 146-mecheti-urok-13.md
+- 148-mecheti-urok-15.md
+- 150-prikryvanie-aurata-urok-2.md
+- 154-sutra-urok-2.md
+- 160-opisanie-namaza-urok-4.md
+- 177-chtenie-korana-v-namaze-urok-9.md
+- 180-poyasnoi-poklon-urok-3.md
+- 5-razrush-svoego-idola.md
 description: хадис, передаваемый табиином от Посланника Аллаха, да благословит его
   Аллах и приветствует, не упоминая передатчика в иснаде
 ---
+
 
 
 

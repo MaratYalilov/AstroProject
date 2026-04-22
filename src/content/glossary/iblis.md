@@ -6,16 +6,71 @@ category: И
 tags: []
 aliases: []
 related:
-- ilya
-- sunna
+- a-raf
+- adam
+- ajn
+- azan
+- bid-a
+- din
+- fard
+- fikkh
+- fitna
+- fitra
+- id
+- ikamat
+- iman
+- islam
+- khadzh
+- khalyal
+- kharam
+- kharut-i-marut
+- khasan
+- khava
+- khidzhr
+- khukm
+- kibla
+- kibr
+- kufr
+- ma-ruf
+- makrukh
+- mechet
+- mubtadi
+- mursal
+- musulmanin
+- nadzhasa
+- radzhab
+- riba
+- riya
+- sadaka
+- sakhikh
+- salyam
+- shajtan
+- shart
+- shirk
+- sikhr
+- takhara
+- tauba
+- tavaf
+- vasvasa
+- zina
 used_in:
-- 02-urok-sira-religii-arabov.md
+- 04-adab-tazkiya-urok-04.md
+- 06-adab-tazkiya-urok-06.md
+- 07-adab-tazkiya-urok-07.md
+- 108-al-bakara-korova-102-103-aiat.md
+- 131-azan-urok-9.md
+- 2-razrush-svoego-idola.md
+- 22-adab-tazkiya-urok-22.md
+- 4-razrush-svoego-idola.md
+- 5-razrush-svoego-idola.md
+- 52-kniga-namaza-26.md
 description: Иблис – это джин сотворенный из огня, который жил вместе с ангелами и
   поклонялся Аллаху наряду с ними. Ему было приказано, склонится ниц перед Адамом,
   однако он отказался, возгордился и стал неверующим, за что получил проклятие до
   Дня воскресения. У него есть потомство, в число которых входят демоны, он является
   их отцом и предводителем, побуждающим их творить смуты и заблуждать людей.
 ---
+
 
 
 

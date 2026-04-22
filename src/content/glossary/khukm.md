@@ -5,11 +5,84 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- adam
+- aksa
+- amanat
+- ansary
+- azan
+- bid-a
+- din
+- du-a
+- dzhanaba
+- fadzhr
+- fard
+- fikkh
+- i-tikaf
+- iblis
+- id
+- idda
+- idzhma
+- ikamat
+- iman
+- indzhil
+- islam
+- khajd
+- khalyal
+- kharam
+- khasan
+- kibla
+- kibr
+- kufr
+- kunut
+- ma-ruf
+- makrukh
+- mazkhab
+- mechet
+- muskhaf
+- musulmanin
+- naskh
+- nifas
+- radzhab
+- ramadan
+- riya
+- sadaka
+- sakhikh
+- salyam
+- salyat
+- shajtan
+- sikhr
+- sunna
+- tafsir
+- takfir
+- takhadzhud
+- takhara
+- taklid
+- tasbikh
+- tashakhkhud
+- tauba
+- umma
+- usul-al-fikkh
+- vadzhib
+- vitr
+- zakyat
+- zikr
+used_in:
+- 103-al-bakara-korova-91-93-aiat.md
+- 110-al-bakara-korova-103-106-aiat.md
+- 111-al-bakara-korova-106-107-aiat.md
+- 140-mecheti-urok-7.md
+- 16-adab-tazkiya-urok-16.md
+- 22-adab-tazkiya-urok-22.md
+- 27-kniga-namaza-1.md
+- 32-adab-tazkiya-urok-32.md
+- 33-kniga-namaza-7.md
+- 4-razrush-svoego-idola.md
+- 67-vitr-40.md
 description: хукм – это обращение законодателя, имеющее отношение к действиям мукалляфа,
   с требованием , представлением выбора или установлением
 ---
+
 
 
 

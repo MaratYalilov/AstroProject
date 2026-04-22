@@ -5,10 +5,21 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+- aksa
+- khalyal
+- khasan
+- mechet
+- mikhrab
+- riba
+- shajtan
+- tauba
+- zikr
+used_in:
+- 136-mecheti-urok-3.md
 description: первообразное имя в значении – сад, луг
 ---
+
 
 
 
