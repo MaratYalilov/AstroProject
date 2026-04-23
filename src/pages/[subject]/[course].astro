@@ -3,7 +3,7 @@
 import { replaceQuranTags } from "../../utils/replaceQuranTags";
 import Base from "../../layouts/Base.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import LessonPage from "../../components/LessonPage";
 import BlogLessonPage from "../../components/blog";
 import { experimental_AstroContainer } from "astro/container";
@@ -44,7 +44,7 @@ const isBlogLayout = layoutMode === "blog";
 
 // 3) Уроки курса
 const allLessons = (await getCollection("lessons"))
-  .filter((l) => l.slug.startsWith(`${subject}/${course}/`))
+  .filter((l) => l.id.startsWith(`${subject}/${course}/`))
   .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 
 const hasLessons = allLessons.length > 0;
@@ -78,7 +78,7 @@ if (hasLessons) {
   const current = allLessons[0];
 
   // Рендерим MD → HTML
-  const { Content } = await current.render();
+  const { Content } = await render(current);
   const rawHtml = await astroContainer.renderToString(Content);
   const html = replaceQuranTags(rawHtml);
 
@@ -91,7 +91,7 @@ if (hasLessons) {
     : current.data.video ?? null;
 
   currentLesson = {
-    slug: current.slug,
+    slug: current.id,
     title: current.data.title,
     order: current.data.order,
     hasAudio: Boolean(current.data.hasAudio ?? audioUrl),
@@ -102,7 +102,7 @@ if (hasLessons) {
   };
 
   lessons = allLessons.map((l) => ({
-    slug: l.slug,
+    slug: l.id,
     title: l.data.title,
     order: l.data.order,
     hasAudio: Boolean(l.data.hasAudio ?? l.data.audio ?? l.data.audioRel),

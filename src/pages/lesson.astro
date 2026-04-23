@@ -5,7 +5,7 @@ import Base from "../layouts/Base.astro";
 import LessonPage from "../components/LessonPage";
 import BlogLessonPage from "../components/blog";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import { experimental_AstroContainer } from "astro/container";
 export const prerender = false;
 
@@ -48,7 +48,7 @@ const astroContainer = await experimental_AstroContainer.create();
 // ---------- 3) Уроки курса ----------
 const allLessons = await getCollection("lessons");
 const lessonsCollection = allLessons.filter((l) =>
-  l.slug.startsWith(`${subject}/${course}/`)
+  l.id.startsWith(`${subject}/${course}/`)
 );
 
 
@@ -68,7 +68,7 @@ if (hasLessons) {
 
   const target =
     sortedLessons.find((l) => {
-      const full = normalize(l.slug);
+      const full = normalize(l.id);
       const tail = full.split("/").pop();
       const wanted = normalize(slugParam);
       if (!wanted) return false;
@@ -76,7 +76,7 @@ if (hasLessons) {
     }) ?? sortedLessons[0];
 
   // Рендерим MD → HTML
-  const { Content } = await target.render();
+  const { Content } = await render(target);
   const rawHtml = await astroContainer.renderToString(Content);
   const html = replaceQuranTags(rawHtml);
 
@@ -90,7 +90,7 @@ if (hasLessons) {
     : target.data.video ?? null;
 
   currentLesson = {
-    slug: target.slug,
+    slug: target.id,
     title: target.data.title,
     order: target.data.order,
     html,
@@ -101,7 +101,7 @@ if (hasLessons) {
   };
 
   lessons = sortedLessons.map((l) => ({
-    slug: l.slug,
+    slug: l.id,
     title: l.data.title,
     order: l.data.order,
     group: l.data.group,

@@ -7,7 +7,7 @@ export async function getStaticPaths() {
   const entries = await getCollection('glossary')
 
   return entries.map(e => ({
-    params: { slug: e.data.url_slug ?? e.slug },
+    params: { slug: e.data.url_slug ?? e.id },
   }))
 }
 
@@ -17,7 +17,7 @@ const { slug } = Astro.params
 const entries = await getCollection('glossary')
 
 const entry = entries.find(
-  e => (e.data.url_slug ?? e.slug) === slug
+  e => (e.data.url_slug ?? e.id) === slug
 )
 
 if (!entry) {
