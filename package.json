@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/tailwind": "^6.0.2",
     "@radix-ui/react-progress": "^1.1.7",
     "@radix-ui/react-scroll-area": "^1.2.10",
     "@radix-ui/react-slot": "^1.2.3",
@@ -18,19 +19,19 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.548.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^3.4.19",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@astrojs/react": "^4.4.1",
-    "@astrojs/tailwind": "^6.0.2",
-    "@astrojs/vercel": "^8.0.4",
+    "@astrojs/react": "^5.0.4",
+    "@astrojs/vercel": "^10.0.4",
     "@types/react": "^19.2.14",
-    "autoprefixer": "^10.4.21",
     "fast-glob": "^3.3.3",
     "gray-matter": "^4.0.3",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.18",
+    "postcss": "^8.5.10",
     "xlsx": "^0.18.5"
   }
 }

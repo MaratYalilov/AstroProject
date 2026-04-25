@@ -1,5 +1,5 @@
 ---
-import "../styles/tailwind.css";
+import "../styles/tailwind.css"; 
 import NavBar from "@/components/NavBar";
 import GlossaryOverlay from "@/components/glossary/GlossaryOverlay";
 import ScrollToTop from "../components/ScrollToTop";
@@ -9,6 +9,8 @@ const { title = "Lesson" } = Astro.props as { title?: string };
 
 <html lang="ru" class="bg-background text-foreground">
   <head>
+    <!-- Временно, для проверки -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Тема из localStorage -->
     <script is:inline>
       (function () {

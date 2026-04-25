@@ -1,21 +1,27 @@
 // astro.config.mjs
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
+import vercel from '@astrojs/vercel';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
   site: 'https://hutba.org',
-  integrations: [react(), tailwind()],
-    server: {
-    host: '0.0.0.0', // или '0.0.0.0' - позволяет подключиться с телефона
+  integrations: [
+    tailwind(),
+    // mdx(),
+    react(),
+  ],
+  server: {
+    host: '0.0.0.0',
     port: 4321
   },
   vite: {
     resolve: {
       alias: {
-        '@': new URL('./src', import.meta.url).pathname, // @ → src/*
+        '@': new URL('./src', import.meta.url).pathname,
       },
     },
   },
-  output: 'static', // по умолчанию SSG. Если нужно SSR — раскомментируйте и поставьте 'server'
+  output: 'static',
+  adapter: vercel(),
 });
