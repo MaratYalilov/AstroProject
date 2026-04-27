@@ -1,0 +1,72 @@
+---
+import BaseLayout from './Base.astro';
+import Flashcard from '../components/Flashcard.astro';
+import wordsData from '../data/arabski_bagauddin_abuahmad_dictionary.json';
+import { Check } from 'lucide-react';
+export interface Props {
+  title: string;
+  order: number;
+}
+
+const { title, order } = Astro.props;
+
+const lessonWords = wordsData.lessons.find(l => l.lesson === order)?.words || [];
+---
+
+<BaseLayout title={title}>
+  <main class="max-w-4xl mx-auto px-4 py-8">
+
+
+      {lessonWords.length > 0 && (
+        <section class="flashcards-section mt-12">
+          <div class="flashcards-header">
+            <h2 class="text-2xl font-semibold mb-2">Слова урока</h2>
+            <p class="text-center text-gray-500 dark:text-gray-400 text-sm">
+              
+              Нажми на карточку, чтобы увидеть перевод. Отмечай <Check className="w-4 h-4 inline text-green-500" /> изученные слова.
+            </p>
+          </div>
+          <Flashcard words={lessonWords} lessonNumber={order} />
+        </section>
+      )}
+
+    <div class="lesson-original-content">
+      <slot />
+    </div>
+    
+  </main>
+</BaseLayout>
+
+<style is:global>
+.lesson-original-content {
+  @apply max-w-none;
+}
+
+.lesson-original-content p {
+  @apply mb-4 text-gray-700 dark:text-gray-300;
+}
+
+.lesson-original-content h1,
+.lesson-original-content h2,
+.lesson-original-content h3 {
+  @apply font-bold mt-6 mb-3 text-gray-900 dark:text-gray-100;
+}
+.lesson-original-content h1 { @apply text-3xl; }
+.lesson-original-content h2 { @apply text-2xl; }
+.lesson-original-content h3 { @apply text-xl; }
+
+.lesson-original-content .arab {
+  font-size: clamp(1.2rem, 3.5vw, 1.6rem);
+  line-height: 1.9;
+  direction: rtl !important;
+  font-family: "AmiriLocal", "Scheherazade New", "Amiri", serif !important;
+}
+
+.flashcards-section {
+  @apply bg-gray-50 dark:bg-gray-800/50 rounded-2xl p-6 border border-gray-200 dark:border-gray-700;
+}
+
+.flashcards-header {
+  @apply text-center mb-6;
+}
+</style>

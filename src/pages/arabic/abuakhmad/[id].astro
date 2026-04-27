@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import WordLessonLayout from '../../../layouts/WordLessonLayout.astro';
+
+export async function getStaticPaths() {
+  const lessons = await getCollection('arabic-abu-akhmad');
+  return lessons.map((lesson) => ({
+    params: { id: lesson.id },
+    props: { lesson },
+  }));
+}
+
+const { lesson } = Astro.props;
+---
+
+<WordLessonLayout title={lesson?.data?.title || 'Lesson'} order={lesson?.data?.order || 0}>
+  <div class="markdown-content" set:html={lesson?.body || '<p>Content not found</p>'} />
+</WordLessonLayout>

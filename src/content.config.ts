@@ -64,4 +64,23 @@ const glossary = defineCollection({
   }),
 });
 
-export const collections = { subjects, courses, lessons, glossary };
+// НОВАЯ КОЛЛЕКЦИЯ: Арабские уроки Абу Ахмада
+const arabicAbuAkhmad = defineCollection({
+  loader: glob({ 
+    pattern: "*.md", 
+    base: "./src/content/lessons/arabic/arabskij-yazyk-abu-akhmad" 
+  }),
+  schema: z.object({
+    title: z.string(),
+    order: z.number(),
+    hasAudio: z.boolean().default(false),
+    hasVideo: z.boolean().default(false),
+    audio: z.string().optional(),
+    audioRel: z.string().optional(),
+    video: z.string().optional(),
+    videoRel: z.string().optional(),
+    layout: z.string().optional(),
+  }),
+});
+
+export const collections = { subjects, courses, lessons, glossary,'arabic-abu-akhmad': arabicAbuAkhmad, };

@@ -1,0 +1,10 @@
+---
+import FlashcardApp from './FlashcardApp.jsx';
+const { words, lessonNumber } = Astro.props;
+---
+
+<FlashcardApp 
+  words={words} 
+  lessonNumber={lessonNumber} 
+  client:load 
+/>

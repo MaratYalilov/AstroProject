@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+
+const lessons = await getCollection('arabic-abu-akhmad');
+const sortedLessons = lessons.sort((a, b) => a.data.order - b.data.order);
+---
+<div class="max-w-4xl mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-6">📖 Арабский язык - Абу Ахмад</h1>
+  
+  <div class="grid gap-4">
+    {sortedLessons.map((lesson) => (
+      <a 
+        href={`/arabic/abuakhmad/${lesson.id}`} 
+        class="block p-4 bg-gray-50 dark:bg-gray-800 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+      >
+        <span class="font-medium">Урок {lesson.data.order}</span>
+        <span class="text-gray-600 dark:text-gray-400 ml-2">{lesson.data.title}</span>
+      </a>
+    ))}
+  </div>
+</div>
