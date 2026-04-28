@@ -207,5 +207,9 @@ const { title = "Lesson" } = Astro.props as { title?: string };
     </main>
     <GlossaryOverlay client:load />
     <ScrollToTop client:load />
+
+    <script>
+      import '../scripts/mountFlashcards';
+    </script>
   </body>
 </html>

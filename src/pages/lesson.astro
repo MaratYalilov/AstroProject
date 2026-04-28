@@ -7,6 +7,7 @@ import BlogLessonPage from "../components/blog";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { getCollection, render } from "astro:content";
 import { experimental_AstroContainer } from "astro/container";
+import { replaceDicTags } from "../utils/replaceDicTags";
 export const prerender = false;
 
 // Читаем query-параметры
@@ -77,8 +78,9 @@ if (hasLessons) {
 
   // Рендерим MD → HTML
   const { Content } = await render(target);
-  const rawHtml = await astroContainer.renderToString(Content);
-  const html = replaceQuranTags(rawHtml);
+  let rawHtml = await astroContainer.renderToString(Content);
+  rawHtml = replaceQuranTags(rawHtml);
+  const html = replaceDicTags(rawHtml);
 
   // Аудио / видео (если используешь audioRel / videoRel)
   const audioUrl = target.data.audioRel
