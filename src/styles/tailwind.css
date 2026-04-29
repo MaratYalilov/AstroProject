@@ -920,3 +920,30 @@ footer {
 .dic-stats-btn {
   @apply w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600;
 }
+
+/* Подсказки к клавишам и свайпам */
+.dic-keyboard-shortcuts kbd {
+  @apply inline-block px-1.5 py-0.5 mx-0.5 bg-gray-100 dark:bg-gray-800 
+         border border-gray-300 dark:border-gray-600 rounded font-mono 
+         text-xs font-medium shadow-sm;
+}
+
+/* По умолчанию показываем подсказку клавиш, скрываем свайпы */
+.dic-keyboard-shortcuts {
+  display: block;
+}
+.dic-swipe-hint {
+  display: none;
+}
+
+/* На мобильных: скрываем клавиши, показываем свайпы */
+@media (max-width: 768px) {
+  .dic-keyboard-shortcuts {
+    display: none;
+  }
+  .dic-swipe-hint {
+    display: block;
+  }
+}
+
+

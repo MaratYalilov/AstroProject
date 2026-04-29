@@ -31,7 +31,7 @@ function renderFlashcardHTML(words: any[], lessonNumber: number): string {
   const isRuFirst = savedDirection === 'ru-ar';
 
   return `
-  <div class="dic-flashcard-wrapper" data-lesson="${lessonNumber}">
+  <div class="dic-flashcard-wrapper mb-12" data-lesson="${lessonNumber}">
     <!-- Свитчер направления -->
     <div class="dic-direction-toggle">
       <div class="dic-toggle-info">
@@ -129,6 +129,22 @@ function renderFlashcardHTML(words: any[], lessonNumber: number): string {
         </svg>
       </button>
     </div>
+
+    <!-- Кнопки управления -->
+        <!-- Десктоп: клавиши -->
+    <div class="dic-keyboard-shortcuts mt-4 text-center text-xs text-gray-400 dark:text-gray-500">
+      <kbd>←</kbd> <kbd>→</kbd> листать 
+      <kbd>Space</kbd> переворот 
+      <kbd>↑</kbd> <kbd>↓</kbd> выучено 
+      <kbd>R</kbd> сброс 
+      <kbd>S</kbd> перемешать 
+      <kbd>T</kbd> статистика
+    </div>
+
+      <!-- Мобильные: свайпы -->
+    <div class="dic-swipe-hint mt-4 text-center text-xs text-gray-400 dark:text-gray-500">
+      Тап — переворот  ← → Свайп — листать
+    </div>
   </div>  <!-- Закрываем dic-flashcard-wrapper -->
 `;
 }
@@ -146,7 +162,7 @@ function attachEventHandlers(container: HTMLElement, words: any[]) {
   let currentIndex = 0;
   let isFlipped = false;
   let studied = new Set<number>();
-  let currentDirection: 'ar-ru' | 'ru-ar' = 'ru-ar'; // По умолчанию русский-арабский
+  let currentDirection: 'ar-ru' | 'ru-ar' = 'ru-ar';
   
   // Для свайпов
   let touchStartX = 0;
@@ -215,29 +231,29 @@ function attachEventHandlers(container: HTMLElement, words: any[]) {
     }
   }
   
-    const labels = container.querySelectorAll('.dic-toggle-label');
-
-    function updateLabels() {
-      labels.forEach((label, index) => {
-        if (currentDirection === 'ar-ru') {
-          label.classList.toggle('active', index === 1);
-        } else {
-          label.classList.toggle('active', index === 0);
-        }
-      });
-    }
-
+  const labels = container.querySelectorAll('.dic-toggle-label');
+  
+  function updateLabels() {
+    labels.forEach((label, index) => {
+      if (currentDirection === 'ar-ru') {
+        label.classList.toggle('active', index === 1);
+      } else {
+        label.classList.toggle('active', index === 0);
+      }
+    });
+  }
+  
   function updateDirection(direction: 'ar-ru' | 'ru-ar') {
     currentDirection = direction;
     localStorage.setItem('flashcard_direction', direction);
-
+    
     if (flashcard) {
       flashcard.setAttribute('data-direction', direction);
     }
-
+    
     updateLabels();
     renderCard();
-
+    
     // сброс переворота
     isFlipped = false;
     if (inner) inner.style.transform = 'rotateY(0deg)';
@@ -245,47 +261,37 @@ function attachEventHandlers(container: HTMLElement, words: any[]) {
   
   function renderCard() {
     const currentWord = words[currentIndex];
-
     const isArabicFront = currentDirection === 'ar-ru';
-
+    
     if (frontText) {
-      frontText.textContent = isArabicFront
-        ? currentWord.arabic
-        : currentWord.russian;
-
+      frontText.textContent = isArabicFront ? currentWord.arabic : currentWord.russian;
       frontText.classList.toggle('arab', isArabicFront);
     }
-
+    
     if (backText) {
-      backText.textContent = isArabicFront
-        ? currentWord.russian
-        : currentWord.arabic;
-
+      backText.textContent = isArabicFront ? currentWord.russian : currentWord.arabic;
       backText.classList.toggle('arab', !isArabicFront);
     }
-
+    
     if (frontHint) {
-      frontHint.textContent = isArabicFront
-        ? '👆 нажмите для перевода'
-        : '👆 нажмите для перевода на арабский';
+      frontHint.textContent = isArabicFront ? '👆 нажмите для перевода' : '👆 нажмите для перевода на арабский';
     }
-
+    
     if (backHint) {
       backHint.textContent = '👆 нажмите для возврата';
     }
   }
-
-
+  
   function updateUI() {
     if (counter) {
       counter.textContent = `${currentIndex + 1} / ${words.length}`;
     }
-
+    
     const progress = (studied.size / words.length) * 100;
-
+    
     if (progressFill) progressFill.style.width = `${progress}%`;
     if (progressText) progressText.textContent = `${studied.size} / ${words.length}`;
-
+    
     updateStudiedIcon();
     renderCard();
   }
@@ -336,7 +342,25 @@ function attachEventHandlers(container: HTMLElement, words: any[]) {
     updateUI();
   }
   
+  // Глобальная переменная для отслеживания открытой модалки
+  let currentModal: HTMLElement | null = null;
+
   function showStats() {
+    // Если модалка уже открыта — закрываем её
+    if (currentModal) {
+      const closeModal = (modalElement: HTMLElement) => {
+        modalElement.classList.add('dic-stats-closing');
+        setTimeout(() => {
+          modalElement.remove();
+          if (currentModal === modalElement) {
+            currentModal = null;
+          }
+        }, 300);
+      };
+      closeModal(currentModal);
+      return;
+    }
+    
     const progress = Math.round((studied.size / words.length) * 100);
     
     const modal = document.createElement('div');
@@ -372,19 +396,27 @@ function attachEventHandlers(container: HTMLElement, words: any[]) {
     `;
     
     document.body.appendChild(modal);
+    currentModal = modal;
     
-    const closeModal = () => {
-      modal.classList.add('dic-stats-closing');
-      setTimeout(() => modal.remove(), 300);
+    const closeCurrentModal = () => {
+      if (currentModal) {
+        currentModal.classList.add('dic-stats-closing');
+        setTimeout(() => {
+          if (currentModal) {
+            currentModal.remove();
+            currentModal = null;
+          }
+        }, 300);
+      }
     };
     
-    modal.querySelector('.dic-stats-close')?.addEventListener('click', closeModal);
-    modal.querySelector('.dic-stats-btn')?.addEventListener('click', closeModal);
-    modal.querySelector('.dic-stats-overlay')?.addEventListener('click', closeModal);
+    modal.querySelector('.dic-stats-close')?.addEventListener('click', closeCurrentModal);
+    modal.querySelector('.dic-stats-btn')?.addEventListener('click', closeCurrentModal);
+    modal.querySelector('.dic-stats-overlay')?.addEventListener('click', closeCurrentModal);
     
     const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
-        closeModal();
+      if (e.key === 'Escape' && currentModal) {
+        closeCurrentModal();
         document.removeEventListener('keydown', handleEsc);
       }
     };
@@ -407,24 +439,75 @@ function attachEventHandlers(container: HTMLElement, words: any[]) {
     }, 150);
   }
   
+  // ========== УПРАВЛЕНИЕ С КЛАВИАТУРЫ ==========
+  // Удаляем старый обработчик, чтобы не было дублирования
+  if ((window as any)._keydownHandler) {
+    document.removeEventListener('keydown', (window as any)._keydownHandler);
+  }
+  
+  const handleKeyPress = (e: KeyboardEvent) => {
+    const keysToPrevent = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', ' ', 'Space'];
+    if (keysToPrevent.includes(e.key)) {
+      e.preventDefault();
+    }
+    
+    switch (e.code) {
+      case 'ArrowLeft':
+        prev();
+        addSwipeFeedback('right');
+        break;
+      case 'ArrowRight':
+        next();
+        addSwipeFeedback('left');
+        break;
+      case 'ArrowUp':
+      case 'ArrowDown':
+        toggleStudied();
+        if (studiedBtn) {
+          studiedBtn.style.transform = 'scale(0.9)';
+          setTimeout(() => {
+            if (studiedBtn) studiedBtn.style.transform = '';
+          }, 150);
+        }
+        break;
+      case 'Space':
+        e.preventDefault();
+        flip();
+        break;
+      case 'KeyR':
+        if (confirm('Сбросить прогресс изучения для этого урока?')) {
+          resetProgress();
+        }
+        break;
+      case 'KeyS':
+        shuffle();
+        break;
+      case 'KeyT':
+        showStats();
+        break;
+    }
+  };
+  
+  (window as any)._keydownHandler = handleKeyPress;
+  document.addEventListener('keydown', handleKeyPress);
+  
   // Инициализация направления
   updateDirection(savedDirection);
   updateLabels();
-
+  
   // Обработчик свитчера
   const toggleInput = container.querySelector('.dic-toggle-input') as HTMLInputElement;
-
+  
   if (toggleInput) {
-      toggleInput.checked = currentDirection === 'ru-ar';
-
-      toggleInput.addEventListener('change', (e) => {
-        e.stopPropagation();
-        const newDirection = toggleInput.checked ? 'ru-ar' : 'ar-ru';
-        updateDirection(newDirection);
-        updateLabels();
-      });
-    }
-
+    toggleInput.checked = currentDirection === 'ru-ar';
+    
+    toggleInput.addEventListener('change', (e) => {
+      e.stopPropagation();
+      const newDirection = toggleInput.checked ? 'ru-ar' : 'ar-ru';
+      updateDirection(newDirection);
+      updateLabels();
+    });
+  }
   
   // Обработчики свайпов и кликов
   if (flashcard) {
