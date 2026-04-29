@@ -489,12 +489,19 @@ if (typeof document !== 'undefined') {
     safeProtect();
   });
   
-  const startObserver = () => {
-    document.querySelectorAll('.dic-flashcard-container').forEach(container => {
-      observer.observe(container, { childList: true });
-    });
-  };
+ const startObserver = () => {
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+};
   
+
+
+
+
+
+
   // Запуск монтирования
   const run = () => {
     setTimeout(() => {
