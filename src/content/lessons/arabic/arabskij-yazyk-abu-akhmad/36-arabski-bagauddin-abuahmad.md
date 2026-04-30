@@ -1,15 +1,19 @@
 ---
-title: '36, Арабский язык- Багауддин- Абу Ахмад'
+title: '36, Время. Врач. Подарки'
 order: 36
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/36-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/36-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/36-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/36-arabski_bagauddin_abuahmad.mp3
 videoRel: video/36-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Время. Врач. Подарки</h1>
+
+{Dic}36{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ السَّادِسُ وَ الثَّلاَثُونَ 36</h1>
 <p><span class="arab">سَاعَةٌ (ات).    طَبِيبٌ, أَطِبَّاءُ. مَرِيضٌ, مَرْضَى.     سَطْلٌ, سُطُولٌ.   حِكَايَةٌ (ات).   عَمٌّ, أَعْمَامٌ.   هَدِيَّةٌ, هَدَايَا.   سَنَةٌ, سَنَوَاتٌ.   وَقْتٌ, أَوْقَاتٌ.   ضَعِيفٌ, ضُعَفَاءُ.   صَبَاحِيٌّ.   مَاضٍ.     وَلِذَلِكَ.   اَلسَّنَةُ الْمَاضِيَةُ.     نَهَارُكَ سَعِيدٌ.     أَهْلاً وَ سَهْلاً.     دَخَلَ الْجَامِعَةَ.     إِنَّ.    إِنَّهُ.    أَمَا قَرَأَ؟   أَمَا قُلْتُ لَكَ؟     زَارَ, يَزُورُ, زِيَارَةٌ.</span></p>

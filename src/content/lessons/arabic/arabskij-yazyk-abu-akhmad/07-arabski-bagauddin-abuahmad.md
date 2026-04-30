@@ -1,15 +1,19 @@
 ---
-title: '7, Арабский язык- Багауддин- Абу Ахмад'
+title: '7, Прилагательные. Притяжательные местоимения'
 order: 7
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/07-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/07-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/07-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/07-arabski_bagauddin_abuahmad.mp3
 videoRel: video/07-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Прилагательные. Притяжательные местоимения</h1>
+
+{Dic}7{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ السَّابِعُ 7</h1>
 <p><span class="arab">جَرِيدَةٌ، جَرَائِدُ.  مَجَلَّةٌ (ات).  عَرَبِيٌّ.  رُوسِيٌّ.  جَمِيلٌ.  وَ.  كِتَابٌ وَ دَفْتَرٌ.  لَهُ.  لَهَا. لَكَ.  لَكِ.   لِي.</span></p>

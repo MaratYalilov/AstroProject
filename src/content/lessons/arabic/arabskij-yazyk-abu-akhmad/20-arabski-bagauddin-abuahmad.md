@@ -1,15 +1,19 @@
 ---
-title: '20, Арабский язык- Багауддин- Абу Ахмад'
+title: '20, Глагол быть в прошедшем времени. Наречия'
 order: 20
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/20-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/20-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/20-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/20-arabski_bagauddin_abuahmad.mp3
 videoRel: video/20-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Глагол 'быть' в прошедшем времени. Наречия</h1>
+
+{Dic}20{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الْعِشْرُونَ 20</h1>
 <p><span class="arab">كُنْتُ.    أَيْنَ  كُنْتَ؟    مَتَى؟    صَبَاحًا.    مَسَاءً.    اَلْآنَ.    قَبْلَ.    بَعْدَ.     (قَامَ، يَقُومُ، قِيَامٌ).  قَامَ فَقَرَأَ دَرْسَهُ.     قُمْ.    لاَ تَقُمْ.     قُمْ وَ اقْرَأِ الدَّرْسَ.</span></p>

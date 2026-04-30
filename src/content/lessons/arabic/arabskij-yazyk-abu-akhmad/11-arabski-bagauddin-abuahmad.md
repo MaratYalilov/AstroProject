@@ -1,15 +1,19 @@
 ---
-title: '11, Арабский язык- Багауддин- Абу Ахмад'
+title: '11, Город. Предлоги'
 order: 11
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/11-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/11-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/11-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/11-arabski_bagauddin_abuahmad.mp3
 videoRel: video/11-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Город. Предлоги</h1>
+
+{Dic}11{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الحَادِي عَشَرَ 11</h1>
 <p><span class="arab">مَدِينَةٌ، مُدُنٌ.     مَكْتَبٌ، مَكَاتِبُ.     كَاتِبٌ، كُتَّابٌ.     كَاتِبَةٌ (ات).      مَكْتَبُ الْمُعَلِّمِ.     عَلَى... عَلَى مَقْعَدِ التِّلْمِيذِ.     عَلَيْهِ.      بَلْ.</span></p>

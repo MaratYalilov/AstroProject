@@ -1,15 +1,19 @@
 ---
-title: '29, Арабский язык- Багауддин- Абу Ахмад'
+title: '29, Повелительное наклонение (мн.ч.). Глаголы'
 order: 29
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/29-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/29-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/29-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/29-arabski_bagauddin_abuahmad.mp3
 videoRel: video/29-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Повелительное наклонение (мн.ч.). Глаголы</h1>
+
+{Dic}29{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ التَّاسِعُ وَ الْعِشْرُونَ 29</h1>
 <p><span class="arab">(نَزَلَ، يَنْزِلُ، نُزُولٌ).     (لَبِسَ، يَلْبَسُ، لُبْسٌ).      (فَتَحَ، يَفْتَحُ، فَتْحٌ).      (شَرَحَ، يَشْرَحُ، شَرْحٌ). (مَسَحَ، يَمْسَحُ، مَسْحٌ).     مَعْنًى، مَعَانٍ.    آخَرُ، أُخْرَى.     عِنْدَ ذَلِكَ.      اَلْجَوُّ بَارِدٌ.</span></p>

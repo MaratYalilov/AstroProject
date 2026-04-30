@@ -1,15 +1,19 @@
 ---
-title: '15, Арабский язык- Багауддин- Абу Ахмад'
+title: '15, Семья. Притяжательные местоимения (суффиксы)'
 order: 15
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/15-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/15-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/15-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/15-arabski_bagauddin_abuahmad.mp3
 videoRel: video/15-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Семья. Притяжательные местоимения (суффиксы)</h1>
+
+{Dic}15{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الْخَامِسَ عَشَرَ 15</h1>
 <p><span class="arab">أَبٌ، آبَاءٌ.   أُمٌّ، أُمَّهَاتٌ.   أَخٌ، إِخْوَةٌ.   أُخْتٌ، أَخَوَاتٌ.  اِبْنٌ، أَبْنَاءٌ.   بِنْتٌ، بَنَاتٌ.   أَبُوهُ. أَبُوهَا.   أَبُوكَ. أَبُوكِ. أَبِي.  ...ـهُ   ...ـهَا    ...ـكَ   ...ـكِ   ...ـِي</span></p>

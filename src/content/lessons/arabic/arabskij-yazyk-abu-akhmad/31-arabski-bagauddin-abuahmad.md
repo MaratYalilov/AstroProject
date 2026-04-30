@@ -1,15 +1,19 @@
 ---
-title: '31, Арабский язык- Багауддин- Абу Ахмад'
+title: '31, Символы. Профессии. Глаголы'
 order: 31
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/31-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/31-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/31-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/31-arabski_bagauddin_abuahmad.mp3
 videoRel: video/31-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Символы. Профессии. Глаголы</h1>
+
+{Dic}31{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الْحَادِى وَ الثَّلاَثُونَ 31</h1>
 <p><span class="arab">عَلَمٌ, أَعْلاَمٌ.   عَلَمُ الْإِسْلاَمِ.    جُبْنٌ.    طَبْلٌ, طُبُولٌ    زَرَّاعٌ (ون).   بَيَّاعٌ (ون).   رَبِيعٌ.   مَرْفُوعٌ.   حَسَنًا.   أَبَدًا.   (قَفَزَ, يَقْفِزُ, قَفْزٌ).  (زَرَعَ, يَزْرَعُ, زَرْعٌ).  (رَفَعَ, يَرْفَعُ, رَفْعٌ).   (كَسَرَ, يَكْسِرُ, كَسْرٌ).   (نَقَرَ, يَنْقُرُ, نَقْرٌ).   (بَاعَ, يَبِيعُ, بَيْعٌ).   (رَقَصَ, يَرْقُصُ, رَقْصٌ).    نَقَرَ عَلَى الطَّبْلِ.   رَفْرَفَ.</span></p>

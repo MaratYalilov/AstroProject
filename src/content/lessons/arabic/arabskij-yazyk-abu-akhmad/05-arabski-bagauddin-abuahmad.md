@@ -1,15 +1,19 @@
 ---
-title: '5, Арабский язык- Багауддин- Абу Ахмад'
+title: '5, Школьные принадлежности'
 order: 5
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/05-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/05-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/05-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/05-arabski_bagauddin_abuahmad.mp3
 videoRel: video/05-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Школьные принадлежности</h1>
+
+{Dic}5{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الْخَامِسُ 5</h1>
 <p><span class="arab">كِتَابٌ, كُتُبٌ.   دَفْتَرٌ, دَفَاتِرُ.   مِحْفَظَةٌ, مَحَافِظُ.   قَلَمٌ, أَقْلاَمٌ.      مَا؟   مَا هَذَا؟   لِمَنْ؟   لِلْمُعَلِّمِ.</span></p>

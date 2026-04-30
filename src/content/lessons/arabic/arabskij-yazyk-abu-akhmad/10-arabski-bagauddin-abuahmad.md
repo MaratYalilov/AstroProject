@@ -1,15 +1,19 @@
 ---
-title: '10, Арабский язык- Багауддин- Абу Ахмад'
+title: '10, Глаголы в настоящем времени. Предметы'
 order: 10
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/10-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/10-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/10-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/10-arabski_bagauddin_abuahmad.mp3
 videoRel: video/10-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Глаголы в настоящем времени. Предметы</h1>
+
+{Dic}10{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ العَاشِرُ 10</h1>
 <p><span class="arab">مَقْعَدُ التِّلْمِيذِ.    يَقْرَأُ.    يَكْتُبُ.    خُذْ، خُذِي.    هَاتِ، هَاتِي.    وَرَقٌ، أَوْرَاقٌ.    كُرْسِيٌّ، كَرَاسِيُّ.</span></p>

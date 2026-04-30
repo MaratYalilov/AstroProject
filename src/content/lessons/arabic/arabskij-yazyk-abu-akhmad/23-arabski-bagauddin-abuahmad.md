@@ -1,15 +1,19 @@
 ---
-title: '23, Арабский язык- Багауддин- Абу Ахмад'
+title: '23, Мечеть. Квартира. Глагол жить'
 order: 23
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/23-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/23-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/23-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/23-arabski_bagauddin_abuahmad.mp3
 videoRel: video/23-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Мечеть. Квартира. Глагол 'жить'</h1>
+
+{Dic}23{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّالِثُ وَ الْعِشْرُونَ 23</h1>
 <p><span class="arab">مَسْجِدٌ، مَسَاجِدُ.   شِقَّةٌ، شُقَقٌ.   أَلَيْسَ؟  عَنْ.  قَرِيبٌ.  بَعِيدٌ. قَدِيمٌ. ...ـهُمْ.  ...ـهُنَّ. ...ـكُمْ. ...ـكُنَّ.   ...ـنَا.  بَيْتُهُمْ.   بَيْتُهُنَّ.   بَيْتُكُمْ.   بَيْتُكُنَّ.   بَيْتُنَا.  سَكَنَ (و) سَكَنٌ.  نَظَرَ (و) نَظَرٌ.  رَحَلَ (أَ) رَحِيلٌ.</span></p>

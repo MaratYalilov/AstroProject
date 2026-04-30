@@ -1,15 +1,19 @@
 ---
-title: '34, Арабский язык- Багауддин- Абу Ахмад'
+title: '34, Рыбалка. Водоёмы. Глаголы'
 order: 34
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/34-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/34-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/34-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/34-arabski_bagauddin_abuahmad.mp3
 videoRel: video/34-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Рыбалка. Водоёмы. Глаголы</h1>
+
+{Dic}34{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الرَّابِعُ وَ الثَّلاَثُونَ 34</h1>
 <p><span class="arab">سَمَكٌ, أَسْمَاكٌ.     سُوقٌ, أَسْوَاقٌ.     سَمَّاكٌ (ون).    نَهْرٌ, أَنْهَارٌ.    بَحْرٌ, بِحَارٌ.    بُحَيْرَةٌ (ات). مِنَشَّةٌ.     ذُبَابٌ, ذُبَّانٌ.     شُكْرًا لَكَ.     خَبَرٌ, أَخْبَارٌ.     بِحَمْدِ اللَّهِ.     قِرَاءَةٌ.    كِتَابَةٌ.    عَلَّمَ.  كُلٌّ.    كُلَّ يَوْمٍ.     عَادَةً.     أَوَّلَ أَمْسِ.      بَعْدَ غَدٍ.     عَصًا, عِصِىٌّ.    عَاشَ (ى) عَيْشٌ.   صَادَ (ى) صَيْدٌ.        طَرَدَ (و) طَرْدٌ.      سَبَحَ (ا) سِبَاحَةٌ.</span></p>

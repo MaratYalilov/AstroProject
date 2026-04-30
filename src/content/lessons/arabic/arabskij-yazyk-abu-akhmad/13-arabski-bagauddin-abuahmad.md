@@ -1,15 +1,19 @@
 ---
-title: '13, Арабский язык- Багауддин- Абу Ахмад'
+title: '13, Дом. Прилагательные'
 order: 13
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/13-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/13-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/13-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/13-arabski_bagauddin_abuahmad.mp3
 videoRel: video/13-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Дом. Прилагательные</h1>
+
+{Dic}13{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّالِثَ عَشَرَ 13</h1>
 <p><span class="arab">بَابٌ، أَبْوَابٌ.    شُبَّاكٌ، شَبَابِيكُ.      مِقْلَمَةٌ، مَقَالِمُ.     طَاوِلَةٌ (ات). بَابُ الْبَيْتِ.    شُبَّاكُ الْحُجْرَةِ.   مَفْتُوحٌ.   مُغْلَقٌ.   بَابٌ مَفْتُوحٌ.    تَعَالَ.   تَعَالَيْ.</span></p>

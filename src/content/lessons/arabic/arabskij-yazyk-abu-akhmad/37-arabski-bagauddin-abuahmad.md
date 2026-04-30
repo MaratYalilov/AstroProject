@@ -1,15 +1,19 @@
 ---
-title: '37, Арабский язык- Багауддин- Абу Ахмад'
+title: '37, Спорт. Предметы. Глаголы'
 order: 37
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/37-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/37-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/37-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/37-arabski_bagauddin_abuahmad.mp3
 videoRel: video/37-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Спорт. Предметы. Глаголы</h1>
+
+{Dic}37{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ السَّابِعُ وَ الثَّلاَثُونَ 37</h1>
 <p><span class="arab">الْكُرَةُ الطَّائِرَةُ.    مِقَصٌّ.    زَهْرِيَّةٌ (ات).     رِيَاضَةٌ (ات).     رِيَاضِيٌّ (ون).     فُرْصَةٌ, فُرَصٌ.   طَيَّارَةٌ (ات).    أَرْضِيَّةٌ.    حَائِطٌ, حِيطَانٌ.     صَيَّادُ السَّمَكِ.    شِصٌّ, شُصُوصٌ (سِنَّارَةٌ, سِنَّارَاتٌ). بِسَاطٌ, بُسُطٌ.     خَرِيطَةٌ, خَرَائِطُ.     زَاوِيَةٌ, زَوَايَا.     جُغْرَافِىٌّ.    خَرِيطَةٌ جُغْرَافِيَّةٌ.    عَرِيضٌ.   مُدَوَّرٌ.    فِي الْغَدِ.      قَصَّ (و) قَصٌّ.      (رَأَى, يَرَى, رُؤْيَةٌ).      (عَمِلَ, يَعْمَلُ, عَمَلٌ).</span></p>

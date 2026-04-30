@@ -1,15 +1,19 @@
 ---
-title: '22, Арабский язык- Багауддин- Абу Ахмад'
+title: '22, Природа. Дом. Наречия'
 order: 22
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/22-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/22-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/22-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/22-arabski_bagauddin_abuahmad.mp3
 videoRel: video/22-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Природа. Дом. Наречия</h1>
+
+{Dic}22{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّانِي وَ الْعِشْرُونَ 22</h1>
 <p><span class="arab">بُسْتَانٌ، بَسَاتِينُ.   قَرْيَةٌ، قُرًى.  شَجَرٌ، أَشْجَارٌ. أَرِيكَةٌ، أَرَائِكُ.  نَبَاتٌ (ات).  نَافِذَةٌ، نَوَافِذُ. مَنْزِلٌ، مَنَازِلُ.   نَادِرٌ.   مُخْتَلِفٌ. كَثِيرٌ.   وَثِيرٌ.   قَلِيلاً.   جِدًّا.   قُرْبَ...   ذَلِكَ.   لاَ أُرِيدُ.  تَعَالَ هُنَا نَقْرَأِ الدَّرْسَ.</span></p>

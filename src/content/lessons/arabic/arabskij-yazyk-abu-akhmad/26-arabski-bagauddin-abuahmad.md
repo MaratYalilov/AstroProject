@@ -1,15 +1,19 @@
 ---
-title: '26, Арабский язык- Багауддин- Абу Ахмад'
+title: '26, Школьные принадлежности. Глаголы'
 order: 26
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/26-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/26-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/26-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/26-arabski_bagauddin_abuahmad.mp3
 videoRel: video/26-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Школьные принадлежности. Глаголы</h1>
+
+{Dic}26{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ السَّادِسُ وَ الْعِشْرُونَ 26</h1>
 <p><span class="arab">حَلِيبٌ.     مَائِدَةٌ، مَوَائِدُ.     لَوْحٌ. أَلْوَاحٌ.     طَبَاشِيرُ. مِحْبَرَةٌ، مَحَابِرُ.  مِلْحٌ، أَمْلاَحٌ.   مِمْلَحَةٌ، مَمَالِحُ.   مِمْسَحَةٌ.    حِبْرٌ، أَحْبَارٌ.   فِلْمٌ، أَفْلاَمٌ.   حَارٌّ.   جَيِّدٌ.   يُوجَدُ.   أَجَلْ.   فَقَطْ.   وَاحِدٌ.   شَاهَدَ</span></p>

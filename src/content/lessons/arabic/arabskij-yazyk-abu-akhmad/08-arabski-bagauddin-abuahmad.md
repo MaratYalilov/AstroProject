@@ -1,15 +1,19 @@
 ---
-title: '8, Арабский язык- Багауддин- Абу Ахмад'
+title: '8, Животные. Отрицание'
 order: 8
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/08-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/08-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/08-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/08-arabski_bagauddin_abuahmad.mp3
 videoRel: video/08-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Животные. Отрицание</h1>
+
+{Dic}8{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّامِنُ 8</h1>
 <p><span class="arab">كَلْبٌ، كِلاَبٌ.   دِيكٌ، دِيَكَةٌ.   دَجَاجَةٌ (ات).   مَكْتَبَةٌ، مَكْتَبَاتٌ.  هَلْ؟   نَعَمْ.   لاَ.   لَيْسَ.   لَيْسَتْ.</span></p>

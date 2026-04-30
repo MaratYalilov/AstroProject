@@ -1,15 +1,19 @@
 ---
-title: '24, Арабский язык- Багауддин- Абу Ахмад'
+title: '24, Животные. Люди. Прилагательные'
 order: 24
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/24-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/24-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/24-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/24-arabski_bagauddin_abuahmad.mp3
 videoRel: video/24-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Животные. Люди. Прилагательные</h1>
+
+{Dic}24{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الرَّابِعُ وَ الْعِشْرُونَ 24</h1>
 <p><span class="arab">هِرٌّ، هِرَرَةٌ.    فَأْرٌ، فِئْرَانٌ.    شَيْخٌ، شُيُوخٌ.      عَجُوزٌ، عَجَائِزُ.     فَتًى، فِتْيَانٌ.     فَتَاةٌ، فَتَيَاتٌ.   شَابٌّ، شُبَّانٌ.    أُسْتَاذٌ، أَسَاتِيذُ.    فَلاَّحٌ (ون).    فلاَّحَةٌ (ات).    غَنِيٌّ، أَغْنِيَاءُ.    فَقِيرٌ، فُقَرَاءُ. مَشْهُورٌ، مَشَاهِيرُ.   مُجْتَهِدٌ (ون).   رَفٌّ، رُفُوفٌ.   مِصْرُ. مِصْرِيٌّ.</span></p>

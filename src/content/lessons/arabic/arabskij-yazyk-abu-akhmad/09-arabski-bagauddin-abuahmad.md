@@ -1,15 +1,19 @@
 ---
-title: '9, Арабский язык- Багауддин- Абу Ахмад'
+title: '9, Повелительное наклонение. Обращение'
 order: 9
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/09-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/09-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/09-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/09-arabski_bagauddin_abuahmad.mp3
 videoRel: video/09-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Повелительное наклонение. Обращение</h1>
+
+{Dic}9{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ التَّاسِعُ 9</h1>
 <p><span class="arab">دَرْسٌ، دُرُوسٌ.     اِقْرَأْ، اِقْرَئِي.     اُدْخُلْ.     اُخْرُجْ.     اُكْتُبْ.     يَا.    يَا مُحَمَّدُ.     يَا فَاطِمَةُ.   يَا مُحَمَّدُ اقْرَأْ.       يَا فَاطِمَةُ اقْرَئِي.      مِنْ.      مِنَ الْبَيْتِ.</span></p>

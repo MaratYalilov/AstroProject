@@ -1,15 +1,19 @@
 ---
-title: '21, Арабский язык- Багауддин- Абу Ахмад'
+title: '21, Профессии. Глаголы движения'
 order: 21
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/21-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/21-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/21-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/21-arabski_bagauddin_abuahmad.mp3
 videoRel: video/21-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Профессии. Глаголы движения</h1>
+
+{Dic}21{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الْحَادِي وَ الْعِشْرُونَ 21</h1>
 <p><span class="arab">سَيَّارَةٌ (ات).    مُهَنْدِسٌ (ون).   مُدَرِّسٌ (ون).   مَاهِرٌ، مَهَرَةٌ.  جَدِيدٌ، جُدُدٌ.   دَافِئٌ.   رَكِبَ السَّيَّارَةَ.  قَادَ السَّيَّارَةَ.  عِنْدَ. لَسْتَ. لَسْتِ. لَسْتُ. (رَكِبَ، يَرْكَبُ، رُكُوبٌ). (قَادَ، يَقُودُ، قِيَادَةٌ). (رَجَعَ، يَرْجِعُ، رُجُوعٌ).</span></p>

@@ -1,15 +1,19 @@
 ---
-title: '27, Арабский язык- Багауддин- Абу Ахмад'
+title: '27, Семья. Город. Предлоги места'
 order: 27
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/27-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/27-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/27-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/27-arabski_bagauddin_abuahmad.mp3
 videoRel: video/27-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Семья. Город. Предлоги места</h1>
+
+{Dic}27{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ السَّابِعُ وَ الْعِشْرُونَ 27</h1>
 <p><span class="arab">وَرْدَةٌ (ات).   زَوْجٌ، أَزْوَاجٌ.   زَوْجَةٌ (ات). مَسْرَحٌ، مَسَارِحُ. مَيْدَانٌ، مَيَادِينُ.   حَدِيقَةٌ، حَدَائِقُ.   أَجْنَبِيٌّ. مَنْ هُوَ هَذَا الرَّجُلُ؟   كَثِيرٌ مِنْ...   كَثِيرٌ مِنَ الْكُتُبِ.   أَمَامَ. وَرَاءَ.   يَمِينَ.   يَسَارَ.   فَوْقَ.   تَحْتَ.</span></p>

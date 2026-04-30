@@ -1,15 +1,19 @@
 ---
-title: '16, Арабский язык- Багауддин- Абу Ахмад'
+title: '16, Школьные предметы. Двор'
 order: 16
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/16-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/16-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/16-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/16-arabski_bagauddin_abuahmad.mp3
 videoRel: video/16-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Школьные предметы. Двор</h1>
+
+{Dic}16{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ السَّادِسَ عَشَرَ 16</h1>
 <p><span class="arab">دَارٌ، دُورٌ.   سَاحَةٌ (ات).     مِمْحَاةٌ، مَمَاحٍ.   رِيشَةٌ (ات).     يَرْكُضُ. يَلْعَبُ.    اُرْكُضْ.   اِلْعَبْ.   فِي سَاحَةِ الدَّارِ.     فِي سَاحَةِ الْمَدْرَسَةِ.</span></p>

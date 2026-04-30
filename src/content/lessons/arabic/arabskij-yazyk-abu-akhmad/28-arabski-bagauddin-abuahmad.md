@@ -1,15 +1,19 @@
 ---
-title: '28, Арабский язык- Багауддин- Абу Ахмад'
+title: '28, Университет. Работа. Глаголы'
 order: 28
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/28-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/28-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/28-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/28-arabski_bagauddin_abuahmad.mp3
 videoRel: video/28-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Университет. Работа. Глаголы</h1>
+
+{Dic}28{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّامِنُ وَ الْعِشْرُونَ 28</h1>
 <p><span class="arab">جَامِعَةٌ (ات).    شَارَةٌ (ات).     بَدْلَةٌ، بَدَلاَتٌ.  عَامِلٌ، عُمَّالٌ. عَامِلَةٌ (ات).   مَعْمَلٌ، مَعَامِلُ.   حَيَاةٌ.   عَمَّاذَا؟    مِمَّنْ؟    كَانَ.    تَسَلَّمَ.    عِنْدَمَا خَرَجَ.    عَنْ...    رِسَالَةٌ, رَسَائِلُ.     عَرَفَ (ى) مَعْرِفَةٌ.   دَرَسَ (و) دِرَاسَةٌ.  عَمِلَ (ا) عَمَلٌ.</span></p>

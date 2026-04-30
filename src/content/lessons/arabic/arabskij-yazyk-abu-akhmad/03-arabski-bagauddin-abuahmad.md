@@ -1,15 +1,19 @@
 ---
-title: '3, Арабский язык- Багауддин- Абу Ахмад'
+title: '3, Указательные местоимения. Существительные'
 order: 3
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/03-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/03-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/03-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/03-arabski_bagauddin_abuahmad.mp3
 videoRel: video/03-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Указательные местоимения. Существительные</h1>
+
+{Dic}3{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّالِثُ 3</h1>
 <p><span class="arab">هَذَا.    هَذِهِ.    هَؤُلاَءِ.    رَجُلٌ, رِجَالٌ.    اِمْرَأَةٌ, نِسَاءٌ.    طَوِيلٌ, طِوَالٌ.    قَصِيرٌ, قِصَارٌ.</span></p>

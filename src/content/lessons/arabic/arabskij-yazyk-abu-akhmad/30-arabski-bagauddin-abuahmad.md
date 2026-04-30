@@ -1,15 +1,19 @@
 ---
-title: '30, Арабский язык- Багауддин- Абу Ахмад'
+title: 'Фрукты. Погода. Глаголы'
 order: 30
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/30-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/30-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/30-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/30-arabski_bagauddin_abuahmad.mp3
 videoRel: video/30-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Фрукты. Погода. Глаголы</h1>
+
+{Dic}30{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّلاَثوُنَ 30</h1>
 <p><span class="arab">تَمْرٌ.     تِينٌ.    زَيْتُونٌ.  سَمَاءٌ, سَمَاوَاتٌ.  مَطَرٌ, أَمْطَارٌ.    ثَلْجٌ, ثُلُوجٌ.   مَاءُ الْمَطَرِ.   وَرْدٌ، وُرُودٌ. زَرْعٌ، زُرُوعٌ.   مُفِيدٌ.   نَافِعٌ.   (سَأَلَ، يَسْأَلُ، سُؤَالٌ).   (رَسَمَ، يَرْسُمُ، رَسْمٌ).    (قَالَ، يَقُولُ، قَوْلٌ). (سَقَى، يَسْقِي، سَقْيٌ).   لِمَاذَا؟   قِيلَ لَهُ.   لاَ أَدْرِي.   نَزَلَ الْمَطَرُ.</span></p>

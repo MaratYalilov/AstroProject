@@ -1,15 +1,19 @@
 ---
-title: '6, Арабский язык- Багауддин- Абу Ахмад'
+title: '6, Школьные принадлежности'
 order: 6
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/06-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/06-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/06-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/06-arabski_bagauddin_abuahmad.mp3
 videoRel: video/06-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Школьные принадлежности</h1>
+
+{Dic}6{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ السَّادِسُ 6</h1>
 <p><span class="arab">بَيْتٌ, بُيُوتٌ.     حُجْرَةٌ, حُجُرَاتٌ.      مَدْرَسَةٌ, مَدَارِسُ.      ذَاكَ.     تِلْكَ.      أُولَئِكَ .     أَيْنَ؟   هُنَا.   هُنَاكَ.    فِي.    فِي الْمَدْرَسَةِ.     فِي الْحُجْرَةِ.     فَصْلٌ, فُصُولٌ.</span></p>

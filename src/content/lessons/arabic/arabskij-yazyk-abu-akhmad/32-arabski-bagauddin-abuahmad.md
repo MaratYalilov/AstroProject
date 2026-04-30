@@ -1,15 +1,19 @@
 ---
-title: '32, Арабский язык- Багауддин- Абу Ахмад'
+title: '32, Природа. Город. Глаголы'
 order: 32
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/32-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/32-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/32-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/32-arabski_bagauddin_abuahmad.mp3
 videoRel: video/32-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Природа. Город. Глаголы</h1>
+
+{Dic}32{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّانِي وَ الثَّلاَثُونَ 32</h1>
 <p><span class="arab">فَرَاشَةٌ (ات). عُشٌّ, عِشَاشٌ     طَيْرٌ, طُيُورٌ.    رِيشٌ, أَرْيَاشٌ. غُصْنٌ, أَغْصَانٌ.  شُرْطِيُّ الْمُرُورِ.   رَادِيُو.  مُسْلِمٌ (ون).  نَشِيطٌ, نُشَطَاءُ.  اَلْحَمْدُ لِلَّهِ. شُرْطِىٌّ.   قَشٌّ.   إِنْسَانٌ, نَاسٌ.   شَجَرَةٌ (ات).   شَارِعٌ, شَوَارِعُ.   إِذَاعَةٌ (ات).   إِذَاعَةُ رَادِيُو.  عُبُورٌ.  مُرُورٌ.  جَمِيعًا.  عَالَمٌ.   فِي الْعَالَمِ.  (سَمِعَ, يَسْمَعُ, سَمَاعٌ). (وَقَفَ, يَقِفُ, وُقُوفٌ).  (صَنَعَ, يَصْنَعُ, صُنْعٌ).  (جَمَعَ, يَجْمَعُ, جَمْعٌ).  (طَارَ,يَطِيرُ,طَيَرَانٌ).   سَاعَدَ.</span></p>

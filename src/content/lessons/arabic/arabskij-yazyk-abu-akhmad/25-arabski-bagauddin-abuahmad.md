@@ -1,15 +1,19 @@
 ---
-title: '25, Арабский язык- Багауддин- Абу Ахмад'
+title: '25, Животные. Глаголы во множественном числе'
 order: 25
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/25-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/25-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/25-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/25-arabski_bagauddin_abuahmad.mp3
 videoRel: video/25-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Животные. Глаголы во множественном числе</h1>
+
+{Dic}25{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الْخَامِسُ وَ الْعِشْرُونَ 25</h1>
 <p><span class="arab">ثَوْرٌ، ثِيرَانٌ.     بَقَرَةٌ (ات).   فَرَسٌ، أَفْرَاسٌ.   حِمَارٌ، حُمُرٌ.  حَقْلٌ، حُقُولٌ.    بَلَدٌ، بِلاَدٌ.   كُلُّهُمْ.   كُلُّكُمْ.   كُلُّنَا. أَنْ يَفْعَلَ.   لِيَفْعَلَ.</span></p>

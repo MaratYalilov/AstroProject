@@ -1,15 +1,19 @@
 ---
-title: '12, Арабский язык- Багауддин- Абу Ахмад'
+title: '12, Еда и напитки. Повелительное наклонение'
 order: 12
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/12-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/12-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/12-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/12-arabski_bagauddin_abuahmad.mp3
 videoRel: video/12-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Еда и напитки. Повелительное наклонение</h1>
+
+{Dic}12{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّانِي عَشَرَ 12</h1>
 <p><span class="arab">وَلَدٌ، أَوْلاَدٌ.   خُبْزٌ، أَخْبَازٌ.    كُوبٌ، أَكْوَابٌ.    لَبَنٌ، أَلْبَانٌ.   مَاءٌ، مِيَاهٌ.   بَارِدٌ.   سَاخِنٌ.   لَذِيذٌ.   كُلْ.   اِشْرَبْ.   فِيهِ.    يَا أَيُّهَا الْوَلَدُ.   اِقْرَأْهُ.    اُكْتُبْهُ.</span></p>

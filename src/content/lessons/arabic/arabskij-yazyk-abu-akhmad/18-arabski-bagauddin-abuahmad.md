@@ -1,15 +1,19 @@
 ---
-title: '18, Арабский язык- Багауддин- Абу Ахмад'
+title: '18, Наречия времени. Дополнительные глаголы'
 order: 18
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/18-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/18-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/18-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/18-arabski_bagauddin_abuahmad.mp3
 videoRel: video/18-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Наречия времени. Дополнительные глаголы</h1>
+
+{Dic}18{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الثَّامِنَ عَشَرَ 18</h1>
 <p><span class="arab">مَقْعَدٌ، مَقَاعِدُ.  كَلِمَةٌ (ات).   قَاعَةٌ (ات).   أَيْضًا.   بَعْضُ. أَمْسِ.   اَلْيَوْمَ.   غَدًا.   أَقَرَأْتَ؟   إِلَى. إِلَى الْبَيْتِ.  إِنْ شَاءَ اللهُ.   (فَهِمَ، يَفْهَمُ، فَهْمٌ).   (جَلَسَ، يَجْلِسُ، جُلُوسٌ).    (ذَهَبَ، يَذْهَبُ، ذَهَابٌ).</span></p>

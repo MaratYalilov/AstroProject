@@ -1,15 +1,19 @@
 ---
-title: '14, Арабский язык- Багауддин- Абу Ахмад'
+title: '14, Напитки. Глаголы'
 order: 14
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/14-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/14-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/14-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/14-arabski_bagauddin_abuahmad.mp3
 videoRel: video/14-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Напитки. Глаголы</h1>
+
+{Dic}14{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ الرَّابِعَ عَشَرَ 14</h1>
 <p><span class="arab">فِنْجَانٌ، فَنَاجِينُ.  سُكَّرٌ.  سُكَّرِيَّةٌ (ات).  قَهْوَةٌ.  شَايٌ. بِالسُّكَّرِ.  مَاذَا؟   مَاذَا تَفْعَلُ؟  لاَ يَفْعَلُ. هَلْ تَفْعَلُ؟</span></p>

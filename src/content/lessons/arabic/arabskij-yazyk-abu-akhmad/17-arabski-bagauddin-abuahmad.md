@@ -1,15 +1,19 @@
 ---
-title: '17, Арабский язык- Багауддин- Абу Ахмад'
+title: '17, Прошедшее время глаголов'
 order: 17
 hasAudio: true
 hasVideo: true
 audio: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/audio/17-arabski_bagauddin_abuahmad.mp3
-audioRel: audio/17-arabski_bagauddin_abuahmad.mp3
 video: >-
   /media/arabic/arabskij-yazyk-abu-akhmad/video/17-arabski_bagauddin_abuahmad.mp4
+audioRel: audio/17-arabski_bagauddin_abuahmad.mp3
 videoRel: video/17-arabski_bagauddin_abuahmad.mp4
 ---
+
+<h1>Прошедшее время глаголов</h1>
+
+{Dic}17{/Dic}
 
 <h1 class="arab">اَلدَّرْسُ السَّابِعَ عَشَرَ 17</h1>
 <p><span class="arab">(كَتَبَ، يَكْتُبُ، كِتَابَةٌ).  (أَخَذَ، يَأْخُذُ، أَخْذٌ).  (أَكَلَ، يَأْكُلُ، أَكْلٌ).  (شَرِبَ، يَشْرَبُ، شُرْبٌ).  (دَخَلَ، يَدْخُلُ، دُخُولٌ). (خَرَجَ، يَخْرُجُ، خُرُوجٌ). هُوَ مَا قَرَأَ.   ثُمَّ.   بَعْدُ. مَا قَرَأْتُ بَعْدُ.  هَلْ قَرَأْتَ؟   مَاذَا فَعَلْتَ؟</span></p>
