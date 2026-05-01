@@ -549,7 +549,7 @@ function attachEventHandlers(container: HTMLElement, words: any[]) {
 }
 
 // Защита от перерисовки при воспроизведении видео
-let protectTimeout: number | null = null;
+let protectTimeout: ReturnType<typeof setTimeout> | null = null;
 
 function safeProtect() {
   if (protectTimeout) clearTimeout(protectTimeout);
