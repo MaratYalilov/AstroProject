@@ -177,15 +177,6 @@ const { title = "Lesson" } = Astro.props as { title?: string };
         document.addEventListener('quran:reinit', initAll);
 
         var scheduleId = null;
-        var observer = new MutationObserver(function () {
-          if (scheduleId !== null) return;
-          scheduleId = requestAnimationFrame(function () {
-            scheduleId = null;
-            initAll();
-          });
-        });
-        observer.observe(document.documentElement, { childList: true, subtree: true });
-
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', initAll);
         } else {
@@ -207,9 +198,5 @@ const { title = "Lesson" } = Astro.props as { title?: string };
     </main>
     <GlossaryOverlay client:load />
     <ScrollToTop client:load />
-
-    <script>
-      import '../scripts/mountFlashcards';
-    </script>
   </body>
 </html>

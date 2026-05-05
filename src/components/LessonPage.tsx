@@ -1,5 +1,5 @@
 // src/components/LessonPage.tsx
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import {
   Play,
@@ -17,6 +17,8 @@ import { Progress } from "@/components/ui/progress";
 import { Input } from "@/components/ui/input";
 import { Video, Music } from "lucide-react";
 import { LayoutList } from "lucide-react";
+
+import DictionaryFlashcard from './DictionaryFlashcard';
 
 export interface LessonSidebarItem {
   slug: string; // например "fiqh/mishkat-taharat/05-omovenie-i-namaz"
@@ -470,6 +472,68 @@ const PrevNextOverlay = ({ mode }: { mode: "video" | "audio" }) => (
 );
 
 
+const [htmlWithCards, setHtmlWithCards] = useState<React.ReactNode[]>([]);
+
+useEffect(() => {
+  const html = currentLesson.html;
+  
+  // Находим все маркеры с их позициями
+  const markerRegex = /<div class="dic-flashcard-marker" data-lesson="(\d+)" data-words='([^']+)'><\/div>/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match;
+  
+  // Копируем html для поиска
+  let tempHtml = html;
+  
+  while ((match = markerRegex.exec(html)) !== null) {
+    // Добавляем текст до маркера
+    const textBefore = html.substring(lastIndex, match.index);
+    if (textBefore) {
+      parts.push(
+        <div key={`text-${lastIndex}`} dangerouslySetInnerHTML={{ __html: textBefore }} />
+      );
+    }
+    
+    // Парсим данные карточки
+    const lessonNumber = parseInt(match[1], 10);
+    const wordsJson = match[2];
+    
+    try {
+      const words = JSON.parse(wordsJson);
+      parts.push(
+        <DictionaryFlashcard 
+          key={`card-${match.index}`}
+          words={words} 
+          lessonNumber={lessonNumber} 
+        />
+      );
+    } catch (e) {
+      console.error('Ошибка парсинга карточек:', e);
+    }
+    
+    lastIndex = match.index + match[0].length;
+  }
+  
+  // Добавляем остаток текста
+  if (lastIndex < html.length) {
+    const remainingText = html.substring(lastIndex);
+    if (remainingText) {
+      parts.push(
+        <div key={`text-remaining`} dangerouslySetInnerHTML={{ __html: remainingText }} />
+      );
+    }
+  }
+  
+  // Если маркеров не найдено, показываем весь HTML как есть
+  if (parts.length === 0) {
+    setHtmlWithCards([<div key="full-html" dangerouslySetInnerHTML={{ __html: html }} />]);
+  } else {
+    setHtmlWithCards(parts);
+  }
+  
+}, [currentLesson.html]);
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* ========================= */}
@@ -672,15 +736,9 @@ const PrevNextOverlay = ({ mode }: { mode: "video" | "audio" }) => (
         >
           <Card className="overflow-visible rounded-none border-0 shadow-none">
             <CardContent className="px-4 py-4">
-              <article
-                className="
-                  prose
-                  prose-sm
-                  prose-neutral dark:prose-invert
-                  max-w-none
-                "
-                dangerouslySetInnerHTML={{ __html: currentLesson.html }}
-              />
+              <article className="prose prose-sm prose-neutral dark:prose-invert max-w-none">
+                {htmlWithCards}
+              </article>
             </CardContent>
           </Card>
         </motion.div>
@@ -1019,15 +1077,9 @@ const PrevNextOverlay = ({ mode }: { mode: "video" | "audio" }) => (
             >
               <Card className="overflow-visible rounded-none border-0 shadow-none">
                 <CardContent className="px-4 py-4 sm:p-6">
-                  <article
-                    className="
-                      prose
-                      prose-sm sm:prose-base
-                      prose-neutral dark:prose-invert
-                      max-w-none
-                    "
-                    dangerouslySetInnerHTML={{ __html: currentLesson.html }}
-                  />
+                  <article className="prose prose-sm prose-neutral dark:prose-invert max-w-none">
+                    {htmlWithCards}
+                  </article>
                 </CardContent>
               </Card>
             </motion.div>

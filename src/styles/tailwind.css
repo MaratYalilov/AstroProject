@@ -808,11 +808,19 @@ footer {
     font-size: 2.5rem;
     font-weight: 400;
   }
+
+  .dic-card-word.arab {
+    font-size: 2em;
+    line-height: 1.25;
+  }
 }
 
 /* подсказка */
 .dic-flip-hint {
   @apply absolute bottom-3 text-xs text-muted-foreground;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 /* =========================
@@ -920,6 +928,9 @@ footer {
 .dic-stats-btn {
   @apply w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600;
 }
+
+
+
 
 /* Подсказки к клавишам и свайпам */
 .dic-keyboard-shortcuts kbd {

@@ -10,12 +10,15 @@ export function replaceDicTags(html: string): string {
     const lesson = wordsData.lessons.find(l => l.lesson === lessonNum);
     
     if (!lesson || !lesson.words.length) {
-      return `<div class="text-center py-4 text-red-500">⚠️ Слова для урока ${lessonNum} не найдены</div>`;
+      return `<div class="dic-error-placeholder">⚠️ Слова для урока ${lessonNum} не найдены</div>`;
     }
     
-    const wordsJson = JSON.stringify(lesson.words);
+    const wordsJson = JSON.stringify(lesson.words)
+      .replace(/</g, '\\u003c')
+      .replace(/>/g, '\\u003e')
+      .replace(/&/g, '\\u0026');
     
-    // Возвращаем контейнер, который будет заполнен скриптом
-    return `<div class="dic-flashcard-container" data-lesson="${lessonNum}" data-words='${wordsJson}'></div>`;
+    // Возвращаем маркер, который будет заменён на React-компонент
+    return `<div class="dic-flashcard-marker" data-lesson="${lessonNum}" data-words='${wordsJson}'></div>`;
   });
 }
