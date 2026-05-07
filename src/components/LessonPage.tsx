@@ -428,11 +428,11 @@ const LessonPage: React.FC<LessonPageProps> = ({
   // автопрокрутка к активному уроку + скролл страницы наверх
   // =============================
   React.useEffect(() => {
-    if (!isClient || normalizedQuery || hasUserInteracted) return;
+    if (!isClient || normalizedQuery) return;
 
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 
-    const timer = window.setTimeout(() => {
+    const scrollToActiveLesson = () => {
       const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
 
       const container = isDesktop
@@ -444,18 +444,37 @@ const LessonPage: React.FC<LessonPageProps> = ({
         : activeLessonMobileRef.current;
 
       if (container && target) {
-        const scrollPosition = target.offsetTop - container.clientHeight / 3;
+        // Используем getBoundingClientRect для точного расчёта позиции
+        // относительно контейнера, независимо от offsetParent
+        const containerRect = container.getBoundingClientRect();
+        const targetRect = target.getBoundingClientRect();
+
+        // Позиция target относительно container
+        const relativeTop = targetRect.top - containerRect.top;
+
+        // Скроллим так, чтобы target оказался в верхней трети контейнера
+        const scrollTarget = container.scrollTop + relativeTop - containerRect.height / 3;
 
         container.scrollTo({
-          top: Math.max(0, scrollPosition),
+          top: Math.max(0, scrollTarget),
           behavior: "smooth",
         });
       }
-    }, 300);
+    };
 
-    return () => window.clearTimeout(timer);
-  }, [currentLesson.slug, normalizedQuery, isClient, hasUserInteracted]);
+    // Первая попытка через 300ms
+    const timer = window.setTimeout(scrollToActiveLesson, 300);
 
+    // Вторая попытка через requestAnimationFrame (после полного рендера)
+    const raf = window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(scrollToActiveLesson);
+    });
+
+    return () => {
+      window.clearTimeout(timer);
+      window.cancelAnimationFrame(raf);
+    };
+  }, [currentLesson.slug, normalizedQuery, isClient]);
 
   const courseProgramMobileRef = React.useRef<HTMLDivElement | null>(null);
   const courseProgramDesktopRef = React.useRef<HTMLDivElement | null>(null);
