@@ -45,8 +45,7 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
 
   /* ---------------- helpers ---------------- */
 
-  const getSlug = (e: GlossaryEntry) =>
-    e.data.url_slug ?? e.slug
+  const getSlug = (e: GlossaryEntry) => e.data.url_slug
 
   /* ---------------- letters ---------------- */
 
@@ -184,6 +183,22 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
     setQuery('')
     setLetter(prev => (prev === l ? null : l))
   }
+
+  useEffect(() => {
+    if (!active) return
+
+    const frameId = window.requestAnimationFrame(() => {
+      document.dispatchEvent(new CustomEvent('quran:reinit'))
+    })
+    const timeoutId = window.setTimeout(() => {
+      document.dispatchEvent(new CustomEvent('quran:reinit'))
+    }, 250)
+
+    return () => {
+      window.cancelAnimationFrame(frameId)
+      window.clearTimeout(timeoutId)
+    }
+  }, [active?.id, active?.body])
 
   /* ---------------- LOADER ---------------- */
 

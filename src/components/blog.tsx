@@ -407,7 +407,12 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   // Реинициализация плагина Корана
   React.useEffect(() => {
     if (!isClient) return;
-    document.dispatchEvent(new CustomEvent("quran:reinit"));
+
+    const frameId = window.requestAnimationFrame(() => {
+      document.dispatchEvent(new CustomEvent("quran:reinit"));
+    });
+
+    return () => window.cancelAnimationFrame(frameId);
   }, [currentLesson.slug, currentLesson.html, isClient]);
 
 

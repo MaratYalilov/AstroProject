@@ -90,6 +90,91 @@ const { title = "Lesson" } = Astro.props as { title?: string };
         // --- Кастомная кнопка "квадрат с треугольником" для аятов ---
         var currentQuranAudio = null;
         var currentQuranButton = null;
+        var quranAudioClickDelegated = false;
+
+        function resetQuranAudioState(audio) {
+          if (currentQuranAudio !== audio) return;
+
+          currentQuranAudio = null;
+          if (currentQuranButton) {
+            currentQuranButton.removeAttribute('data-state');
+            currentQuranButton = null;
+          }
+        }
+
+        function handleQuranAudioButtonClick(button) {
+          var block = button.closest('[data-quran-ayah]');
+          if (!block) return;
+
+          var audioId = button.getAttribute('data-audio-id');
+          var audio = audioId
+            ? document.getElementById(audioId)
+            : block.querySelector('audio.quran-audio-element');
+
+          if (!audio || !audio.classList || !audio.classList.contains('quran-audio-element')) {
+            return;
+          }
+
+          if (audio.hasAttribute('data-playlist') && audio.getAttribute('data-playlist-initialized') !== 'true') {
+            audio.setAttribute('data-playlist-initialized', 'true');
+            enhanceAudio(audio);
+          }
+
+          if (audio.getAttribute('data-quran-audio-events-initialized') !== 'true') {
+            audio.setAttribute('data-quran-audio-events-initialized', 'true');
+            if (!audio.hasAttribute('data-playlist')) {
+              audio.addEventListener('ended', function () {
+                resetQuranAudioState(audio);
+              });
+            }
+            audio.addEventListener('quran-playlist-finished', function () {
+              resetQuranAudioState(audio);
+            });
+          }
+
+          if (currentQuranAudio && currentQuranAudio !== audio) {
+            currentQuranAudio.pause();
+            currentQuranAudio.currentTime = 0;
+            if (currentQuranButton) {
+              currentQuranButton.removeAttribute('data-state');
+            }
+            currentQuranAudio = null;
+            currentQuranButton = null;
+          }
+
+          if (audio.paused) {
+            var playPromise = audio.play();
+            currentQuranAudio = audio;
+            currentQuranButton = button;
+            button.setAttribute('data-state', 'playing');
+            if (playPromise && typeof playPromise.catch === 'function') {
+              playPromise.catch(function () {
+                resetQuranAudioState(audio);
+              });
+            }
+          } else {
+            audio.pause();
+            button.removeAttribute('data-state');
+            currentQuranAudio = null;
+            currentQuranButton = null;
+          }
+        }
+
+        function setupDelegatedQuranAudioClick() {
+          if (quranAudioClickDelegated) return;
+          quranAudioClickDelegated = true;
+
+          document.addEventListener('click', function (event) {
+            var target = event.target;
+            if (!target || !target.closest) return;
+
+            var button = target.closest('.quran-audio-button');
+            if (!button) return;
+
+            event.preventDefault();
+            handleQuranAudioButtonClick(button);
+          });
+        }
 
         function setupQuranAudioButtons() {
           var blocks = document.querySelectorAll('[data-quran-ayah]');
@@ -102,9 +187,10 @@ const { title = "Lesson" } = Astro.props as { title?: string };
               return;
             }
             button.setAttribute('data-quran-audio-initialized', 'true');
+            audio.setAttribute('data-quran-audio-events-initialized', 'true');
 
             // Клик по плашке: play/pause
-            button.addEventListener('click', function () {
+            button.addEventListener('quran-audio-legacy-click-disabled', function () {
               // если уже играет другой аят — останавливаем его
               if (currentQuranAudio && currentQuranAudio !== audio) {
                 currentQuranAudio.pause();
@@ -160,6 +246,8 @@ const { title = "Lesson" } = Astro.props as { title?: string };
 
         // --- Инициализация всего, что связано с Quran-аудио ---
         function initAll() {
+          setupDelegatedQuranAudioClick();
+
           // Подготовить плейлисты (audio[data-playlist])
           document.querySelectorAll('audio[data-playlist]').forEach(function (audio) {
             if (audio.getAttribute('data-playlist-initialized') === 'true') {

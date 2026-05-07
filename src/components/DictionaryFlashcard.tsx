@@ -10,6 +10,21 @@ import {
 } from 'lucide-react';
 
 const STORAGE_KEY = 'arabic_dictionary_progress';
+const DIRECTION_STORAGE_KEY = 'flashcard_direction';
+type FlashcardDirection = 'ar-ru' | 'ru-ar';
+
+const getStoredDirection = (): FlashcardDirection => {
+  if (typeof window === 'undefined') {
+    return 'ru-ar';
+  }
+
+  try {
+    const savedDirection = window.localStorage.getItem(DIRECTION_STORAGE_KEY);
+    return savedDirection === 'ar-ru' || savedDirection === 'ru-ar' ? savedDirection : 'ru-ar';
+  } catch {
+    return 'ru-ar';
+  }
+};
 
 interface DictionaryFlashcardProps {
   words: Array<{ arabic: string; russian: string }>;
@@ -22,7 +37,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
   const [isFlipped, setIsFlipped] = useState(false);
   const [studied, setStudied] = useState<Set<number>>(new Set());
   const [showStats, setShowStats] = useState(false);
-  const [currentDirection, setCurrentDirection] = useState<'ar-ru' | 'ru-ar'>('ru-ar');
+  const [currentDirection, setCurrentDirection] = useState<FlashcardDirection>(() => getStoredDirection());
   const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(null);
   
   // Для свайпов
@@ -44,11 +59,6 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
       const all = JSON.parse(saved);
       setStudied(new Set(all[lessonNumber] || []));
     }
-    
-    const savedDirection = localStorage.getItem('flashcard_direction');
-    if (savedDirection === 'ar-ru' || savedDirection === 'ru-ar') {
-      setCurrentDirection(savedDirection);
-    }
   }, [lessonNumber]);
 
   // Сохранение прогресса
@@ -61,7 +71,9 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
 
   // Сохранение направления
   useEffect(() => {
-    localStorage.setItem('flashcard_direction', currentDirection);
+    try {
+      window.localStorage.setItem(DIRECTION_STORAGE_KEY, currentDirection);
+    } catch {}
   }, [currentDirection]);
 
   useEffect(() => {

@@ -152,7 +152,7 @@ export function renderAyahBlock(
     rounded-xl p-6
     shadow-lg
     "
-    data-quran-ayah="one_verse" // используется в Base.astro для поиска блоков
+    data-quran-ayah="one_verse"
     data-surah="${surah}" 
     data-ayah="${ayah}" 
     data-page="${page}"
@@ -347,7 +347,7 @@ export function renderAyahRangeBlock(
     rounded-xl p-6
     shadow-lg
   "
-  data-quran-ayah="many_verses" // используется в Base.astro для поиска блоков
+  data-quran-ayah="many_verses"
   data-surah="${surah}"
   data-from="${start}"
   data-to="${end}"

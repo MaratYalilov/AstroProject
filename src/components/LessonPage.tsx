@@ -53,6 +53,11 @@ const LessonPage: React.FC<LessonPageProps> = ({
   currentLesson,
   lessons,
 }) => {
+  const lastLessonKey = React.useMemo(
+    () => `last-lesson:${subject}/${course}`,
+    [subject, course]
+  );
+
   const storageKey = React.useMemo(
     () => `completed-lessons:${subject}/${course}`,
     [subject, course]
@@ -61,6 +66,62 @@ const LessonPage: React.FC<LessonPageProps> = ({
   const [completedLessons, setCompletedLessons] = React.useState<Set<string>>(
     () => new Set()
   );
+  const [isClient, setIsClient] = React.useState(false);
+  const [hasUserInteracted, setHasUserInteracted] = React.useState(false);
+  const [lastViewedSlug, setLastViewedSlug] = React.useState<string | null>(null);
+
+  // Редирект на последний урок при входе "снаружи"
+  React.useEffect(() => {
+    setIsClient(true);
+
+    try {
+      const lastSlug = window.localStorage.getItem(lastLessonKey);
+      setLastViewedSlug(lastSlug);
+
+      // Если в URL нет slug, а в сторадже есть последний просмотренный - редиректим
+      const params = new URLSearchParams(window.location.search);
+      const currentSlugInUrl = params.get("slug");
+
+      if (lastSlug && lastSlug !== currentLesson.slug && !currentSlugInUrl) {
+        window.location.replace(buildLessonUrl(lastSlug));
+      }
+    } catch (error) {
+      console.error("Failed to get last lesson", error);
+      setLastViewedSlug(null);
+    }
+  }, [lastLessonKey]);
+
+  // Сохраняем текущий урок как последний просмотренный
+  React.useEffect(() => {
+    if (!isClient) return;
+
+    try {
+      window.localStorage.setItem(lastLessonKey, currentLesson.slug);
+
+      const lastLessons = JSON.parse(
+        window.localStorage.getItem("recent-lessons") || "{}"
+      );
+      lastLessons[lastLessonKey] = {
+        slug: currentLesson.slug,
+        subject,
+        course,
+        courseTitle,
+        title: currentLesson.title,
+        timestamp: Date.now(),
+      };
+      window.localStorage.setItem("recent-lessons", JSON.stringify(lastLessons));
+    } catch (error) {
+      console.error("Failed to save last lesson", error);
+    }
+  }, [
+    currentLesson.slug,
+    currentLesson.title,
+    lastLessonKey,
+    subject,
+    course,
+    courseTitle,
+    isClient,
+  ]);
 
   const [mediaMode, setMediaMode] = React.useState<"video" | "audio" | "none">(
     currentLesson.video ? "video" : currentLesson.audio ? "audio" : "none"
@@ -366,37 +427,34 @@ const LessonPage: React.FC<LessonPageProps> = ({
   // =============================
   // автопрокрутка к активному уроку + скролл страницы наверх
   // =============================
-    React.useEffect(() => {
-    if (typeof window === "undefined") return;
+  React.useEffect(() => {
+    if (!isClient || normalizedQuery || hasUserInteracted) return;
 
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 
-    const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
+    const timer = window.setTimeout(() => {
+      const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
 
-    const container = isDesktop
-      ? sidebarScrollDesktopRef.current
-      : sidebarScrollMobileRef.current;
+      const container = isDesktop
+        ? sidebarScrollDesktopRef.current
+        : sidebarScrollMobileRef.current;
 
-    const target = isDesktop
-      ? activeLessonDesktopRef.current
-      : activeLessonMobileRef.current;
+      const target = isDesktop
+        ? activeLessonDesktopRef.current
+        : activeLessonMobileRef.current;
 
       if (container && target) {
-        const containerRect = container.getBoundingClientRect();
-        const targetRect = target.getBoundingClientRect();
-
-        const offset =
-          targetRect.top -
-          containerRect.top -
-          containerRect.height / 2 +
-          targetRect.height / 2;
+        const scrollPosition = target.offsetTop - container.clientHeight / 3;
 
         container.scrollTo({
-          top: container.scrollTop + offset,
+          top: Math.max(0, scrollPosition),
           behavior: "smooth",
-      });
+        });
       }
-    }, [currentLesson.slug]);
+    }, 300);
+
+    return () => window.clearTimeout(timer);
+  }, [currentLesson.slug, normalizedQuery, isClient, hasUserInteracted]);
 
 
   const courseProgramMobileRef = React.useRef<HTMLDivElement | null>(null);
@@ -824,6 +882,7 @@ useEffect(() => {
                                 ref={
                                   isCurrent ? activeLessonMobileRef : undefined
                                 }
+                                onClick={() => setHasUserInteracted(false)}
                                 className={[
                                   "group block w-full max-w-full rounded-xl border border-border/70 p-3 text-sm transition",
                                   isCurrent
@@ -1161,11 +1220,12 @@ useEffect(() => {
 
                             return (
                               <li key={l.slug} className="w-full">
-                                <a
+                              <a
                                   href={buildLessonUrl(l.slug)}
                                   ref={
                                     isCurrent ? activeLessonDesktopRef : undefined
                                   }
+                                  onClick={() => setHasUserInteracted(false)}
                                   className={[
                                     "group block w-full max-w-full rounded-xl border border-border/70 p-3 text-sm transition",
                                     isCurrent
