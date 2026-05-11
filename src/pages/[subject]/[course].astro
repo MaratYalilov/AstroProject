@@ -7,6 +7,8 @@ import { getCollection, render } from "astro:content";
 import LessonPage from "../../components/LessonPage";
 import BlogLessonPage from "../../components/blog";
 import { experimental_AstroContainer } from "astro/container";
+import fs from "node:fs";
+import path from "node:path";
 
 export async function getStaticPaths() {
   const courses = await getCollection("courses");
@@ -59,6 +61,7 @@ let currentLesson: {
   hasVideo?: boolean;
   audio?: string | null;
   video?: string | null;
+  vtt?: string | null;
 } | null = null;
 
 let lessons: {
@@ -90,6 +93,22 @@ if (hasLessons) {
     ? `/media/${subject}/${course}/${current.data.videoRel}`
     : current.data.video ?? null;
 
+  // Проверяем существование VTT файла на сервере
+  let vttUrl: string | null = null;
+  if (videoUrl) {
+    try {
+      const vttRelPath = videoUrl
+        .replace("/video/", "/vtt/")
+        .replace(/\.(mp4|webm|mov)$/i, ".vtt");
+      const vttFsPath = path.join(process.cwd(), "public", vttRelPath);
+      if (fs.existsSync(vttFsPath)) {
+        vttUrl = vttRelPath;
+      }
+    } catch {
+      vttUrl = null;
+    }
+  }
+
   currentLesson = {
     slug: current.id,
     title: current.data.title,
@@ -98,6 +117,7 @@ if (hasLessons) {
     hasVideo: Boolean(current.data.hasVideo ?? videoUrl),
     audio: audioUrl,
     video: videoUrl,
+    vtt: vttUrl,
     html,
   };
 

@@ -8,6 +8,8 @@ import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { getCollection, render } from "astro:content";
 import { experimental_AstroContainer } from "astro/container";
 import { replaceDicTags } from "../utils/replaceDicTags";
+import fs from "node:fs";
+import path from "node:path";
 export const prerender = false;
 
 // Читаем query-параметры
@@ -91,6 +93,23 @@ if (hasLessons) {
     ? `/media/${subject}/${course}/${target.data.videoRel}`
     : target.data.video ?? null;
 
+  // Проверяем существование VTT файла на сервере и сразу формируем URL
+  let vttUrl: string | null = null;
+  if (videoUrl) {
+    try {
+      // Вычисляем путь к VTT из URL видео
+      const vttRelPath = videoUrl
+        .replace("/video/", "/vtt/")
+        .replace(/\.(mp4|webm|mov)$/i, ".vtt");
+      const vttFsPath = path.join(process.cwd(), "public", vttRelPath);
+      if (fs.existsSync(vttFsPath)) {
+        vttUrl = vttRelPath;
+      }
+    } catch {
+      vttUrl = null;
+    }
+  }
+
   currentLesson = {
     slug: target.id,
     title: target.data.title,
@@ -98,6 +117,7 @@ if (hasLessons) {
     html,
     audio: audioUrl,
     video: videoUrl,
+    vtt: vttUrl,
     hasAudio: Boolean(target.data.hasAudio ?? audioUrl),
     hasVideo: Boolean(target.data.hasVideo ?? videoUrl),
   };

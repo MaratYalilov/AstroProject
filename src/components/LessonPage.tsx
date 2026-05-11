@@ -39,8 +39,10 @@ export interface LessonPageProps {
     html: string; // тело урока (HTML/Markdown → HTML)
     hasAudio?: boolean;
     hasVideo?: boolean;
+    hasVtt?: boolean;
     audio?: string | null;
     video?: string | null;
+    vtt?: string | null; // готовый URL к VTT файлу (если существует на сервере)
   };
   lessons: LessonSidebarItem[]; // все уроки курса (для правой панели)
 }
@@ -179,9 +181,23 @@ const LessonPage: React.FC<LessonPageProps> = ({
     }
   }
 
-  // Проверяем доступность .vtt (HEAD, fallback GET). Устанавливаем vttUrl если найден.
+  // Устанавливаем vttUrl: если сервер уже предоставил готовый URL — используем его,
+  // иначе пытаемся вывести путь из video URL и проверяем доступность через fetch.
   React.useEffect(() => {
     if (typeof window === "undefined") return;
+
+    // Если сервер уже предоставил готовый URL к VTT — используем сразу, без fetch
+    if (currentLesson.vtt) {
+      setVttUrl(currentLesson.vtt);
+      return;
+    }
+
+    // Если сервер явно указал, что VTT нет (vtt === null) — не делаем fetch
+    if (currentLesson.vtt === null) {
+      setVttUrl(null);
+      return;
+    }
+
     const candidate = deriveVttPathFromVideoUrl(currentLesson.video);
     if (!candidate) {
       setVttUrl(null);
@@ -211,7 +227,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
     return () => {
       aborted = true;
     };
-  }, [currentLesson.video]);
+  }, [currentLesson.video, currentLesson.vtt]);
 
   // Автовключение дорожки (опционально)
   React.useEffect(() => {
