@@ -1,0 +1,99 @@
+{
+  "id": "alif",
+  "title": "Әлиф и һәмзә",
+
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Әлиф и һәмзә",
+      "description": "Собственно буква «әлиф» не несёт никакого звукового содержания, звучит «һәмзә», подставкой для которой и служит «әлиф». Звук «һәмзә» выходит из самой нижней части гортани со смыканием голосовых связок, и поэтому он считается гортанным звуком.",
+      "letters": [
+        { 
+          "name": "Әлиф",
+          "arabic": "ا",
+          "arabname": "ألف",
+          "audio":
+            "/media/quran/muallim-sani/audio/alifba/01_alif.mp3",
+          "image":
+            "/media/quran/muallim-sani/images/letters/alif.webp"
+        }
+      ],
+
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "/media/quran/muallim-sani/audio/letterspack/a-u2.mp3",
+        "items": [
+          {
+            "arabic": " ـأُ",
+            "transcription": "у",
+            "color": "#9333ea",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/01-u.mp3"
+          },
+                    {
+            "arabic": "ـإِ",
+            "transcription": "и",
+            "color": "#9333ea",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/01-i.mp3"
+          },
+          {
+            "arabic": "أَ",
+            "transcription": "ә",
+            "color": "#3b82f6",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/01-a.mp3"
+          }
+        ]
+      },
+
+      "makhraj": {
+        "image":
+          "/media/quran/muallim-sani/images/makhraj/HamzaWaHa.webp"
+      }
+    },
+
+
+    {
+      "type": "writing-animation",
+      "title": "Написание Әлиф",
+      "animation": {
+        "format": "svg",
+
+        "src":
+          "/media/quran/muallim-sani/animations/svg/Alif.svg"
+          
+      }
+    }
+    ,{
+      "type": "letter-forms",
+      "title": "Формы буквы",
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image":
+            "/media/quran/muallim-sani/forms/alif-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image":
+            "/media/quran/muallim-sani/forms/alif-final.webp"
+        },
+               {
+          "position": "middle",
+          "label": "В середине",
+          "image":
+            "/media/quran/muallim-sani/forms/alif-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image":
+            "/media/quran/muallim-sani/forms/alif-initial.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+---
+import Base from "../layouts/Base.astro";
+
+import InteractiveLessonPage
+from "@/components/alifba/InteractiveLessonPage";
+
+import lesson
+from "@/content/lessons/quran/muallim-sani/001-alif.json";
+const title = "Әлиф и һәмзә";
+---
+<Base title={title}>  
+  <body class="bg-slate-950 text-white p-10">
+    <InteractiveLessonPage
+      lesson={lesson}
+      client:load
+    />
+  </body>
+</Base>
