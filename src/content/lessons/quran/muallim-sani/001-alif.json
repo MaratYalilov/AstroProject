@@ -21,7 +21,7 @@
 
       "pronunciation": {
         "title": "Огласовки",
-        "audio": "/media/quran/muallim-sani/audio/letterspack/a-u2.mp3",
+        "audio": "",
         "items": [
           {
             "arabic": " ـأُ",
@@ -49,7 +49,8 @@
 
       "makhraj": {
         "image":
-          "/media/quran/muallim-sani/images/makhraj/HamzaWaHa.webp"
+          "/media/quran/muallim-sani/images/makhraj/Hamza.webp",
+        "description": "Звук «һәмзә» выходит из самой нижней части гортани со смыканием голосовых связок, и поэтому он считается гортанным звуком." 
       }
     },
 
