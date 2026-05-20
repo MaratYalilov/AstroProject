@@ -4,6 +4,7 @@
 import { motion } from "framer-motion";
 import { Pause, Play, RotateCcw } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { Howl } from "howler";
 
 type Letter = {
   name: string;
@@ -139,7 +140,8 @@ export default function LetterIntroCombined({
   makhrajImage,
   makhrajDescription,
 }: Props) {
-  const audioRefs = useRef<Record<string, HTMLAudioElement | null>>({});
+  const howlsRef = useRef<Record<string, Howl | null>>({});
+  const currentHowlIdRef = useRef<number | null>(null);
   const sequenceTokenRef = useRef(0);
   const [activeAudio, setActiveAudio] = useState<string | null>(null);
   const [pillStatus, setPillStatus] = useState<AudioStatus>("idle");
@@ -160,32 +162,27 @@ export default function LetterIntroCombined({
     const uniqueSrcs = [...new Set(allSrcs)];
 
     uniqueSrcs.forEach((src) => {
-      const audio = new Audio();
-      audio.preload = "auto";
-      audio.src = src;
-      audio.load();
-      audioRefs.current[src] = audio;
+      if (!howlsRef.current[src]) {
+        howlsRef.current[src] = new Howl({
+          src: [src],
+          preload: true,
+          html5: true,
+        });
+      }
     });
 
     return () => {
-      Object.values(audioRefs.current).forEach((audio) => audio?.pause());
+      Object.values(howlsRef.current).forEach((howl) => howl?.unload());
     };
   }, [letters, pronunciationItems]);
 
   const stopAllAudio = ({
-    except,
     resetPill = true,
   }: {
-    except?: string;
     resetPill?: boolean;
   } = {}) => {
-    Object.entries(audioRefs.current).forEach(([src, audio]) => {
-      if (audio) {
-        if (src === except) return;
-        audio.pause();
-        audio.currentTime = 0;
-      }
-    });
+    Object.values(howlsRef.current).forEach((howl) => howl?.stop());
+    currentHowlIdRef.current = null;
     setActiveAudio(null);
     if (resetPill) {
       sequenceTokenRef.current += 1;
@@ -194,25 +191,33 @@ export default function LetterIntroCombined({
     }
   };
 
-  const ensureAudio = (src: string) => {
-    if (!audioRefs.current[src]) {
-      audioRefs.current[src] = new Audio(src);
+  const getHowl = (src: string): Howl => {
+    if (!howlsRef.current[src]) {
+      howlsRef.current[src] = new Howl({
+        src: [src],
+        preload: true,
+        html5: true,
+      });
     }
-
-    return audioRefs.current[src]!;
+    return howlsRef.current[src]!;
   };
 
   const playSingle = (src: string): Promise<void> => {
     return new Promise((resolve) => {
       stopAllAudio();
 
-      const audio = ensureAudio(src);
-      audio.onended = () => {
+      const howl = getHowl(src);
+      const id = howl.play();
+      currentHowlIdRef.current = id;
+      setActiveAudio(src);
+
+      howl.once("end", () => {
+        if (currentHowlIdRef.current === id) {
+          currentHowlIdRef.current = null;
+        }
         setActiveAudio(null);
         resolve();
-      };
-      audio.play();
-      setActiveAudio(src);
+      });
     });
   };
 
@@ -222,7 +227,6 @@ export default function LetterIntroCombined({
     // Если кликнули по той же карточке — останавливаем
     if (activeAudio === src) {
       stopAllAudio();
-      setActiveAudio(null);
       return;
     }
 
@@ -237,39 +241,37 @@ export default function LetterIntroCombined({
 
     sequenceTokenRef.current += 1;
     const token = sequenceTokenRef.current;
-    stopAllAudio({ resetPill: false });
+
+    // Останавливаем всё, но не сбрасываем token
+    Object.values(howlsRef.current).forEach((howl) => howl?.stop());
+    currentHowlIdRef.current = null;
+    setActiveAudio(null);
     setPillStatus("playing");
 
     for (let index = startIndex; index < playable.length; index += 1) {
       const src = playable[index];
       if (!src) continue;
-      const audio = ensureAudio(src);
 
-      audio.ontimeupdate = () => {
-        if (sequenceTokenRef.current !== token) return;
-        const duration = audio.duration || 0;
-        const itemProgress = duration ? audio.currentTime / duration : 0;
-        setPillProgress(((index + itemProgress) / playable.length) * 100);
-      };
-      audio.onended = null;
-
+      if (sequenceTokenRef.current !== token) return;
       setActiveAudio(src);
-      const ended = new Promise<void>((resolve) => {
-        const intervalId = window.setInterval(() => {
-          if (sequenceTokenRef.current !== token) {
-            window.clearInterval(intervalId);
-            resolve();
-          }
-        }, 100);
+      setPillProgress(((index + 0.5) / playable.length) * 100);
 
-        audio.onended = () => {
-          window.clearInterval(intervalId);
+      const howl = getHowl(src);
+
+      const ended = new Promise<void>((resolve) => {
+        const id = howl.play();
+        currentHowlIdRef.current = id;
+
+        howl.once("end", () => {
+          if (currentHowlIdRef.current === id) {
+            currentHowlIdRef.current = null;
+          }
           resolve();
-        };
+        });
       });
 
       try {
-        await audio.play();
+        await ended;
       } catch {
         if (sequenceTokenRef.current === token) {
           setPillStatus("idle");
@@ -278,8 +280,6 @@ export default function LetterIntroCombined({
         }
         return;
       }
-
-      await ended;
 
       if (sequenceTokenRef.current !== token) return;
       setPillProgress(((index + 1) / playable.length) * 100);
@@ -302,17 +302,15 @@ export default function LetterIntroCombined({
     if (!srcList || srcList.length === 0) return;
 
     if (pillStatus === "playing") {
-      Object.values(audioRefs.current).forEach((audio) => audio?.pause());
+      Object.values(howlsRef.current).forEach((howl) => howl?.stop());
       setPillStatus("paused");
       return;
     }
 
     if (pillStatus === "paused" && activeAudio) {
-      const audio = ensureAudio(activeAudio);
       setPillStatus("playing");
-      setActiveAudio(activeAudio);
       try {
-        await audio.play();
+        await playSingle(activeAudio);
       } catch {
         setPillStatus("idle");
         setPillProgress(0);
@@ -321,9 +319,8 @@ export default function LetterIntroCombined({
       return;
     }
 
-    const startIndex = pillStatus === "ended" ? 0 : 0;
     setPillProgress(0);
-    await playSequence(srcList, startIndex);
+    await playSequence(srcList, 0);
   };
 
   const baseCardClass =

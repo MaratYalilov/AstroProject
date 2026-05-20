@@ -18,6 +18,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.24",
+    "howler": "^2.2.4",
     "lucide-react": "^0.548.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@astrojs/react": "^5.0.4",
     "@astrojs/vercel": "^10.0.4",
+    "@types/howler": "^2.2.13",
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
