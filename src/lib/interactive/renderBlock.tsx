@@ -3,14 +3,10 @@ import LetterIntroCombined from "@/components/alifba/LetterIntroCombined";
 import WritingAnimation from "@/components/alifba/WritingAnimation";
 import LetterForms from "@/components/alifba/LetterForms";
 import PronunciationGrid from "@/components/alifba/PronunciationGrid";
+import TheoryReveal from "@/components/alifba/TheoryReveal";
 
 import type {
   LessonBlock,
-  LetterIntroBlock,
-  LetterLessonBlock,
-  WritingAnimationBlock,
-  LetterFormsBlock,
-  PronunciationGridBlock,
 } from "./types";
 
 type Props = {
@@ -67,6 +63,14 @@ case "pronunciation-grid":
         <LetterForms
           title={block.title}
           forms={block.forms}
+        />
+      );
+
+    case "theory":
+      return (
+        <TheoryReveal
+          title={block.title}
+          source={block.source}
         />
       );
 

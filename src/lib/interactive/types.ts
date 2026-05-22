@@ -86,10 +86,17 @@ export type ReadingPracticeBlock = {
   }[];
 };
 
+export type TheoryBlock = {
+  type: "theory";
+  title: string;
+  source: string;
+};
+
 export type LessonBlock =
   | LetterIntroBlock
   | LetterLessonBlock
   | PronunciationGridBlock
   | WritingAnimationBlock
   | LetterFormsBlock
-  | ReadingPracticeBlock;
+  | ReadingPracticeBlock
+  | TheoryBlock;

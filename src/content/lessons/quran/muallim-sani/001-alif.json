@@ -1,5 +1,6 @@
 {
-  "id": "alif",
+  "id": 2,
+  "slug": "alif",
   "title": "Әлиф и һәмзә",
 
   "blocks": [
@@ -60,7 +61,6 @@
       "title": "Написание Әлиф",
       "animation": {
         "format": "svg",
-
         "src":
           "/media/quran/muallim-sani/animations/svg/Alif.svg"
           
@@ -95,6 +95,11 @@
             "/media/quran/muallim-sani/forms/alif-initial.webp"
         }
       ]
+    },
+    {
+      "type": "theory",
+      "title": "Әлиф и һәмзә",
+      "source": "001-alif.md"
     }
   ]
 }

@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Input } from "@/components/ui/input";
-import { Video, Music } from "lucide-react";
+import { Video} from "lucide-react";
 import { LayoutList } from "lucide-react";
 
 import DictionaryFlashcard from './DictionaryFlashcard';
