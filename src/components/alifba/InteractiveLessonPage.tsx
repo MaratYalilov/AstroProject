@@ -6,10 +6,14 @@ type Props = {
     title: string;
     blocks: any[];
   };
+  subject: string;
+  course: string;
 };
 
 export default function InteractiveLessonPage({
   lesson,
+  subject,
+  course,
 }: Props) {
   return (
     <div className="space-y-10 text-foreground">

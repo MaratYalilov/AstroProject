@@ -6,7 +6,9 @@ import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { getCollection, render } from "astro:content";
 import LessonPage from "../../components/LessonPage";
 import BlogLessonPage from "../../components/blog";
+import InteractiveLessonPage from "../../components/alifba/InteractiveLessonPage";
 import { experimental_AstroContainer } from "astro/container";
+import { loadAllInteractiveLessons } from "../../lib/interactive/loadInteractiveLesson";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -44,6 +46,9 @@ const courseTitle = courseEntry.data.title;
 const layoutMode = courseEntry.data.layout ?? "tabs";
 const isBlogLayout = layoutMode === "blog";
 
+// Определяем, является ли курс интерактивным
+const isInteractive = courseEntry.data.type === "interactive";
+
 // 3) Уроки курса
 const allLessons = (await getCollection("lessons"))
   .filter((l) => l.id.startsWith(`${subject}/${course}/`))
@@ -72,12 +77,42 @@ let lessons: {
   hasVideo?: boolean;
 }[] = [];
 
+// ---------- INTERACTIVE: загружаем JSON уроки ----------
+let interactiveLesson: any = null;
+let interactiveLessons: any[] = [];
 
 // AstroContainer нужен чтобы отрендерить MD в HTML строку
 const astroContainer = await experimental_AstroContainer.create();
 
-// берём первый урок как текущий
-if (hasLessons) {
+if (isInteractive) {
+  // Загружаем все JSON уроки курса
+  interactiveLessons = await loadAllInteractiveLessons(subject, course);
+
+  // Берём первый урок как текущий
+  interactiveLesson = interactiveLessons[0] ?? null;
+
+  // Формируем список уроков для сайдбара
+  lessons = interactiveLessons.map((l) => ({
+    slug: `${subject}/${course}/${l.slug}`,
+    title: l.title,
+    order: l.id,
+  }));
+
+  // Формируем currentLesson для совместимости
+  if (interactiveLesson) {
+    currentLesson = {
+      slug: `${subject}/${course}/${interactiveLesson.slug}`,
+      title: interactiveLesson.title,
+      order: interactiveLesson.id,
+      html: "",
+      audio: null,
+      video: null,
+      vtt: null,
+      hasAudio: false,
+      hasVideo: false,
+    };
+  }
+} else if (hasLessons) {
   const current = allLessons[0];
 
   // Рендерим MD → HTML
@@ -148,7 +183,14 @@ if (hasLessons) {
 
 
 {
-  hasLessons && currentLesson ? (
+  isInteractive && interactiveLesson ? (
+    <InteractiveLessonPage
+      client:load
+      lesson={interactiveLesson}
+      subject={subject}
+      course={course}
+    />
+  ) : hasLessons && currentLesson ? (
     isBlogLayout ? (
       <BlogLessonPage
         client:load

@@ -162,6 +162,11 @@
 
 /* Цитата Корана */
 
+.quran-ayah-block__arabic {
+  font-size: clamp(1.3rem, 3.5vw, 2rem) !important;
+  line-height: clamp(1, 2, 2.5) !important;
+}
+
 .quran-ayah-block__translation {
   margin: 12px 0;
   font-size: clamp(0.9rem, 2.1vw, 1.0rem);

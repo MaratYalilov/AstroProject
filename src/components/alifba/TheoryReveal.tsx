@@ -2,14 +2,18 @@ import { AnimatePresence, motion } from "framer-motion";
 import { BookOpen, ChevronDown, Sparkles } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
 import { marked } from "marked";
+import { replaceQuranTags } from "../../utils/replaceQuranTags";
 
 type Props = {
   title: string;
   source: string;
+  subject?: string;
+  course?: string;
 };
 
+// Общий glob для всех theory-файлов во всех курсах
 const theoryModules = import.meta.glob<string>(
-  "/src/content/lessons/quran/muallim-sani/theory/*.md",
+  "/src/content/lessons/**/theory/*.md",
   {
     query: "?raw",
     import: "default",
@@ -89,7 +93,9 @@ export default function TheoryReveal({
           try {
             // marked.parse возвращает строку HTML (синхронно или асинхронно)
             const parsedHtml = await marked.parse(content);
-            setHtml(parsedHtml);
+            // Заменяем теги {Quran}...{/Quran} на HTML-блоки с аятами
+            const htmlWithQuran = replaceQuranTags(parsedHtml);
+            setHtml(htmlWithQuran);
           } catch (err) {
             console.error(err);
             setError("Не удалось загрузить теорию урока.");
