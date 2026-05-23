@@ -1,8 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { BookOpen, ChevronDown, Sparkles } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
-
-import ReactMarkdown from "react-markdown";
+import { marked } from "marked";
 
 type Props = {
   title: string;
@@ -18,20 +17,8 @@ const theoryModules = import.meta.glob<string>(
 );
 
 function normalizeMarkdown(markdown: string): string {
-  return markdown
-    .replace(/^---[\s\S]*?---\s*/, "")
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/p>/gi, "\n\n")
-    .replace(/<\/h[1-6]>/gi, "\n\n")
-    .replace(/<[^>]+>/g, "")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&laquo;/g, "«")
-    .replace(/&raquo;/g, "»")
-    .replace(/&quot;/g, '"')
-    .replace(/&amp;/g, "&")
-    .replace(/[ \t]+\n/g, "\n")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
+  // Просто удаляем Frontmatter (служебную информацию в начале файла)
+  return markdown.replace(/^---[\s\S]*?---\s*/, "").trim();
 }
 
 async function loadTheoryMarkdown(source: string): Promise<string> {
@@ -50,101 +37,31 @@ async function loadTheoryMarkdown(source: string): Promise<string> {
 }
 
 function TheoryContent({
-  markdown,
+  html,
 }: {
-  markdown: string;
+  html: string;
 }) {
   return (
-    <ReactMarkdown
-      skipHtml
-      components={{
-        h1: ({ children }) => (
-          <h2 className="mb-5 mt-2 text-3xl font-semibold leading-tight text-slate-950 dark:text-white">
-            {children}
-          </h2>
-        ),
-        h2: ({ children }) => (
-          <h3 className="mb-4 mt-9 text-2xl font-semibold leading-tight text-slate-950 dark:text-white">
-            {children}
-          </h3>
-        ),
-        h3: ({ children }) => (
-          <h4 className="mb-3 mt-7 text-xl font-semibold leading-snug text-slate-900 dark:text-slate-50">
-            {children}
-          </h4>
-        ),
-        p: ({ children }) => (
-          <p className="my-5 text-lg leading-8 text-slate-700 dark:text-slate-200">
-            {children}
-          </p>
-        ),
-        strong: ({ children }) => (
-          <strong className="font-semibold text-slate-950 dark:text-white">
-            {children}
-          </strong>
-        ),
-        ul: ({ children }) => (
-          <ul className="my-6 space-y-3 pl-6 text-lg leading-8 text-slate-700 dark:text-slate-200">
-            {children}
-          </ul>
-        ),
-        ol: ({ children }) => (
-          <ol className="my-6 list-decimal space-y-3 pl-6 text-lg leading-8 text-slate-700 dark:text-slate-200">
-            {children}
-          </ol>
-        ),
-        li: ({ children }) => (
-          <li className="pl-1 marker:text-cyan-600 dark:marker:text-cyan-300">
-            {children}
-          </li>
-        ),
-        blockquote: ({ children }) => (
-          <blockquote className="my-7 rounded-2xl border border-cyan-200/70 bg-cyan-50/70 px-5 py-4 text-lg leading-8 text-slate-800 shadow-sm shadow-cyan-100/60 dark:border-cyan-300/15 dark:bg-cyan-300/10 dark:text-slate-100 dark:shadow-none">
-            {children}
-          </blockquote>
-        ),
-        code: ({ children }) => (
-          <code className="rounded-md bg-slate-100 px-1.5 py-0.5 text-base text-slate-900 dark:bg-white/10 dark:text-slate-100">
-            {children}
-          </code>
-        ),
-        table: ({ children }) => (
-          <div className="my-6 overflow-x-auto rounded-xl border border-slate-200/80 dark:border-white/10">
-            <table className="w-full border-collapse text-left text-base text-slate-700 dark:text-slate-200">
-              {children}
-            </table>
-          </div>
-        ),
-        thead: ({ children }) => (
-          <thead className="border-b border-slate-200/80 bg-slate-50/80 dark:border-white/10 dark:bg-white/[0.04]">
-            {children}
-          </thead>
-        ),
-        tbody: ({ children }) => (
-          <tbody className="divide-y divide-slate-200/80 dark:divide-white/10">
-            {children}
-          </tbody>
-        ),
-        tr: ({ children }) => (
-          <tr className="transition-colors hover:bg-slate-50/50 dark:hover:bg-white/[0.02]">
-            {children}
-          </tr>
-        ),
-        th: ({ children }) => (
-          <th className="px-4 py-3 text-sm font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-400 sm:px-5">
-            {children}
-          </th>
-        ),
-        td: ({ children }) => (
-          <td className="px-4 py-3 text-lg sm:px-5 [&:first-child]:font-arabic [&:first-child]:text-2xl">
-            {children}
-          </td>
-        ),
-      }}
-
-    >
-      {markdown}
-    </ReactMarkdown>
+    <div
+      className="max-w-none
+        [&_h1]:mb-5 [&_h1]:mt-2 [&_h1]:text-3xl [&_h1]:font-semibold [&_h1]:leading-tight [&_h1]:text-slate-950 dark:[&_h1]:text-white
+        [&_h2]:mb-4 [&_h2]:mt-9 [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:leading-tight [&_h2]:text-slate-950 dark:[&_h2]:text-white
+        [&_h3]:mb-3 [&_h3]:mt-7 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:leading-snug [&_h3]:text-slate-900 dark:[&_h3]:text-slate-50
+        [&_p]:my-5 [&_p]:text-lg [&_p]:leading-8 [&_p]:text-slate-700 dark:[&_p]:text-slate-200
+        [&_strong]:font-semibold [&_strong]:text-slate-950 dark:[&_strong]:text-white
+        [&_ul]:my-6 [&_ul]:list-disc [&_ul]:space-y-3 [&_ul]:pl-6 [&_ul]:text-lg [&_ul]:leading-8 [&_ul]:text-slate-700 dark:[&_ul]:text-slate-200
+        [&_ol]:my-6 [&_ol]:list-decimal [&_ol]:space-y-3 [&_ol]:pl-6 [&_ol]:text-lg [&_ol]:leading-8 [&_ol]:text-slate-700 dark:[&_ol]:text-slate-200
+        [&_li]:pl-1 [&_li]:marker:text-cyan-600 dark:[&_li]:marker:text-cyan-300
+        [&_blockquote]:my-7 [&_blockquote]:rounded-2xl [&_blockquote]:border [&_blockquote]:border-cyan-200/70 [&_blockquote]:bg-cyan-50/70 [&_blockquote]:px-5 [&_blockquote]:py-4 [&_blockquote]:text-lg [&_blockquote]:leading-8 [&_blockquote]:text-slate-800 [&_blockquote]:shadow-sm [&_blockquote]:shadow-cyan-100/60 dark:[&_blockquote]:border-cyan-300/15 dark:[&_blockquote]:bg-cyan-300/10 dark:[&_blockquote]:text-slate-100 dark:[&_blockquote]:shadow-none
+        [&_code]:rounded-md [&_code]:bg-slate-100 [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:text-base [&_code]:text-slate-900 dark:[&_code]:bg-white/10 dark:[&_code]:text-slate-100
+        [&_table]:my-6 [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_table]:text-base [&_table]:text-slate-700 dark:[&_table]:text-slate-200 [&_table]:border [&_table]:border-slate-200/80 dark:[&_table]:border-white/10 [&_table]:rounded-xl [&_table]:overflow-hidden
+        [&_thead]:border-b [&_thead]:border-slate-200/80 [&_thead]:bg-slate-50/80 dark:[&_thead]:border-white/10 dark:[&_thead]:bg-white/[0.04]
+        [&_tbody]:divide-y [&_tbody]:divide-slate-200/80 dark:[&_tbody]:divide-white/10
+        [&_tr]:transition-colors [&_tr]:hover:bg-slate-50/50 dark:[&_tr]:hover:bg-white/[0.02]
+        [&_th]:px-4 [&_th]:py-3 [&_th]:text-sm [&_th]:font-semibold [&_th]:uppercase [&_th]:tracking-wider [&_th]:text-slate-600 dark:[&_th]:text-slate-400 sm:[&_th]:px-5
+        [&_td]:px-4 [&_td]:py-3 [&_td]:text-lg sm:[&_td]:px-5 [&_td:first-child]:font-arabic [&_td:first-child]:text-2xl"
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
   );
 }
 
@@ -153,24 +70,34 @@ export default function TheoryReveal({
   source,
 }: Props) {
   const [isOpen, setIsOpen] = useState(false);
-  const [markdown, setMarkdown] = useState<string | null>(null);
+  const [html, setHtml] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const contentId = useId();
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!isOpen || markdown !== null || isLoading) return;
+    if (!isOpen || html !== null || isLoading) return;
 
     let isCancelled = false;
     setIsLoading(true);
     setError(null);
 
     loadTheoryMarkdown(source)
-      .then((content) => {
-        if (!isCancelled) setMarkdown(content);
+      .then(async (content) => {
+        if (!isCancelled) {
+          try {
+            // marked.parse возвращает строку HTML (синхронно или асинхронно)
+            const parsedHtml = await marked.parse(content);
+            setHtml(parsedHtml);
+          } catch (err) {
+            console.error(err);
+            setError("Не удалось загрузить теорию урока.");
+          }
+        }
       })
-      .catch(() => {
+      .catch((err) => {
+        console.error(err);
         if (!isCancelled) {
           setError("Не удалось загрузить теорию урока.");
         }
@@ -224,7 +151,7 @@ export default function TheoryReveal({
             type="button"
             whileHover={{ y: -1 }}
             whileTap={{ scale: 0.98 }}
-            onClick={() => setIsOpen((value) => !value)}
+            onClick={handleOpen}
             aria-expanded={isOpen}
             aria-controls={contentId}
             className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-950 px-5 py-3.5 text-sm font-semibold text-white shadow-lg shadow-slate-900/20 transition hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-white dark:bg-white dark:text-slate-950 dark:shadow-cyan-400/10 dark:hover:bg-cyan-50 dark:focus:ring-offset-slate-950 sm:w-auto"
@@ -277,9 +204,9 @@ export default function TheoryReveal({
                   </p>
                 )}
 
-                {markdown && <TheoryContent markdown={markdown} />}
+                {html && <TheoryContent html={html} />}
 
-                {markdown && (
+                {html && (
                   <div className="mt-8 flex justify-center border-t border-slate-200/60 pt-6 dark:border-white/10">
                     <motion.button
                       type="button"

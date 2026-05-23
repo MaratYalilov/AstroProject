@@ -20,6 +20,7 @@
     "framer-motion": "^12.23.24",
     "howler": "^2.2.4",
     "lucide-react": "^0.548.0",
+    "marked": "^18.0.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-markdown": "^10.1.0",
