@@ -1,0 +1,105 @@
+{
+  "id": 4,
+  "slug": "zay",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Зай (ز)",
+
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Зай (ز)",
+      "description": "Буква «зай» — это звонкий согласный звук. При произнесении кончик языка находится у нижних зубов, а средняя часть языка поднимается к нёбу.",
+      "letters": [
+        { 
+          "name": "Зай",
+          "arabic": "ز",
+          "arabname": "زاي",
+          "audio":
+            "/media/quran/muallim-sani/audio/alifba/03_zay.mp3",
+          "image":
+            "/media/quran/muallim-sani/images/letters/zay.webp"
+        }
+      ],
+
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "زُ",
+            "transcription": "зу",
+            "color": "#9333ea",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/03-zu.mp3"
+          },
+          {
+            "arabic": "زِ",
+            "transcription": "зи",
+            "color": "#9333ea",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/03-zi.mp3"
+          },
+          {
+            "arabic": "زَ",
+            "transcription": "за",
+            "color": "#3b82f6",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/03-za.mp3"
+          }
+        ]
+      },
+
+      "makhraj": {
+        "image":
+          "/media/quran/muallim-sani/images/makhraj/Zay.webp",
+        "description": "" 
+      }
+    },
+
+    {
+      "type": "writing-animation",
+      "title": "Написание Зай",
+      "animation": {
+        "format": "svg",
+        "src":
+          "/media/quran/muallim-sani/animations/svg/Zay.svg"
+      }
+    },
+    {
+      "type": "letter-forms",
+      "title": "Формы буквы",
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image":
+            "/media/quran/muallim-sani/forms/zay-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image":
+            "/media/quran/muallim-sani/forms/zay-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image":
+            "/media/quran/muallim-sani/forms/zay-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image":
+            "/media/quran/muallim-sani/forms/zay-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Зай (ز)",
+      "source": "003-zay.md"
+    }
+  ]
+}

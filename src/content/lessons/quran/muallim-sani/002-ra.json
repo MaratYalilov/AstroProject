@@ -1,0 +1,105 @@
+{
+  "id": 3,
+  "slug": "ra",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Ра (ر)",
+
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Ра (ر)",
+      "description": "Буква «ра» — это среднеязычный согласный звук. При произнесении кончик языка приближается к альвеолам, не касаясь их, создавая вибрацию.",
+      "letters": [
+        { 
+          "name": "Ра",
+          "arabic": "ر",
+          "arabname": "راء",
+          "audio":
+            "/media/quran/muallim-sani/audio/alifba/02_ra.mp3",
+          "image":
+            "/media/quran/muallim-sani/images/letters/ra.webp"
+        }
+      ],
+
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "رُ",
+            "transcription": "ру",
+            "color": "#9333ea",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/02-ru.mp3"
+          },
+          {
+            "arabic": "رِ",
+            "transcription": "ри",
+            "color": "#9333ea",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/02-ri.mp3"
+          },
+          {
+            "arabic": "رَ",
+            "transcription": "ра",
+            "color": "#3b82f6",
+            "audio":
+              "/media/quran/muallim-sani/audio/byletters/02-ra.mp3"
+          }
+        ]
+      },
+
+      "makhraj": {
+        "image":
+          "/media/quran/muallim-sani/images/makhraj/Ra.webp",
+        "description": "" 
+      }
+    },
+
+    {
+      "type": "writing-animation",
+      "title": "Написание Ра",
+      "animation": {
+        "format": "svg",
+        "src":
+          "/media/quran/muallim-sani/animations/svg/Ra.svg"
+      }
+    },
+    {
+      "type": "letter-forms",
+      "title": "Формы буквы",
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image":
+            "/media/quran/muallim-sani/forms/ra-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image":
+            "/media/quran/muallim-sani/forms/ra-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image":
+            "/media/quran/muallim-sani/forms/ra-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image":
+            "/media/quran/muallim-sani/forms/ra-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Ра (ر)",
+      "source": "002-ra.md"
+    }
+  ]
+}
