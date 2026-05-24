@@ -18,13 +18,13 @@
           "audio":
             "/media/quran/muallim-sani/audio/alifba/01_alif.mp3",
           "image":
-            "/media/quran/muallim-sani/images/letters/alif.webp"
+            "не нужное"
         }
       ],
 
       "pronunciation": {
         "title": "Огласовки",
-        "audio": "",
+        "audio": "не нужное",
         "items": [
           {
             "arabic": " ـأُ",

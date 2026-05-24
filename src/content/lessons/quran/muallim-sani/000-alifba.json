@@ -3,7 +3,7 @@
   "slug": "alif",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Әлиф и һәмзә",
+  "title": "Алфавит",
 
   "blocks": [
     {
@@ -12,7 +12,7 @@
     
     {
       "type": "theory",
-      "title": "Әлиф и һәмзә",
+      "title": "Алфавит",
       "source": "001-alif.md"
     }
   ]
