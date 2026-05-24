@@ -58,17 +58,14 @@
     },
 
     {
-      "type": "writing-animation",
-      "title": "Написание Зай",
+      "type": "writing-and-forms",
+      "title": "Формы буквы",
+      "arabname": "زاي",
       "animation": {
         "format": "svg",
         "src":
           "/media/quran/muallim-sani/animations/svg/Zay.svg"
-      }
-    },
-    {
-      "type": "letter-forms",
-      "title": "Формы буквы",
+      },
       "forms": [
         {
           "position": "isolated",

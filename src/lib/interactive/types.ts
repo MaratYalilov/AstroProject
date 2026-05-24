@@ -86,6 +86,25 @@ export type ReadingPracticeBlock = {
   }[];
 };
 
+export type WritingAndFormsBlock = {
+  type: "writing-and-forms";
+  title: string;
+  arabname?: string;
+  animation: {
+    format: "gif" | "svg" | "lottie";
+    src: string;
+  };
+  forms: {
+    position:
+      | "isolated"
+      | "final"
+      | "middle"
+      | "initial";
+    label: string;
+    image: string;
+  }[];
+};
+
 export type TheoryBlock = {
   type: "theory";
   title: string;
@@ -99,4 +118,5 @@ export type LessonBlock =
   | WritingAnimationBlock
   | LetterFormsBlock
   | ReadingPracticeBlock
+  | WritingAndFormsBlock
   | TheoryBlock;

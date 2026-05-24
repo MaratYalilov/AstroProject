@@ -4,6 +4,7 @@ import WritingAnimation from "@/components/alifba/WritingAnimation";
 import LetterForms from "@/components/alifba/LetterForms";
 import PronunciationGrid from "@/components/alifba/PronunciationGrid";
 import TheoryReveal from "@/components/alifba/TheoryReveal";
+import WritingAndFormsBlock from "@/components/alifba/WritingAndFormsBlock";
 
 import type {
   LessonBlock,
@@ -62,6 +63,16 @@ case "pronunciation-grid":
       return (
         <LetterForms
           title={block.title}
+          forms={block.forms}
+        />
+      );
+
+    case "writing-and-forms":
+      return (
+        <WritingAndFormsBlock
+          title={block.title}
+          arabname={block.arabname}
+          animation={block.animation}
           forms={block.forms}
         />
       );

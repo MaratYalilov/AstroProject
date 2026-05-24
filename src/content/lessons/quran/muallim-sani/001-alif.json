@@ -59,18 +59,14 @@
 
 
     {
-      "type": "writing-animation",
-      "title": "Написание Әлиф",
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "arabname": "ألف",
       "animation": {
         "format": "svg",
         "src":
           "/media/quran/muallim-sani/animations/svg/Alif.svg"
-          
-      }
-    }
-    ,{
-      "type": "letter-forms",
-      "title": "Формы буквы",
+      },
       "forms": [
         {
           "position": "isolated",
@@ -84,7 +80,7 @@
           "image":
             "/media/quran/muallim-sani/forms/alif-final.webp"
         },
-               {
+        {
           "position": "middle",
           "label": "В середине",
           "image":

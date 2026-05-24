@@ -58,17 +58,14 @@
     },
 
     {
-      "type": "writing-animation",
-      "title": "Написание Ра",
+      "type": "writing-and-forms",
+      "title": "Формы буквы",
+      "arabname": "راء",
       "animation": {
         "format": "svg",
         "src":
           "/media/quran/muallim-sani/animations/svg/Ra.svg"
-      }
-    },
-    {
-      "type": "letter-forms",
-      "title": "Формы буквы",
+      },
       "forms": [
         {
           "position": "isolated",
