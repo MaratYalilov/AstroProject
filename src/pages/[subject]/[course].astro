@@ -7,6 +7,7 @@ import { getCollection, render } from "astro:content";
 import LessonPage from "../../components/LessonPage";
 import BlogLessonPage from "../../components/blog";
 import InteractiveLessonPage from "../../components/alifba/InteractiveLessonPage";
+import CourseLayout from "../../components/course/CourseLayout";
 import { experimental_AstroContainer } from "astro/container";
 import { loadAllInteractiveLessons } from "../../lib/interactive/loadInteractiveLesson";
 import fs from "node:fs";
@@ -167,54 +168,56 @@ if (isInteractive) {
 ---
 
 <Base title={`${subjectEntry.data.title} — ${courseTitle}`}>
-  <Breadcrumbs
-    items={[
-      { label: "HUTBA", href: "/" },
-      { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
-      { label: courseTitle, href: `/${subject}/${course}` },
-      {
-        label:
-          hasLessons && currentLesson
-            ? currentLesson.title
-            : "Урок не найден",
-      },
-    ]}
-  />
-
-
-{
-  isInteractive && interactiveLesson ? (
-    <InteractiveLessonPage
-      client:load
-      lesson={interactiveLesson}
-      subject={subject}
-      course={course}
-    />
-  ) : hasLessons && currentLesson ? (
-    isBlogLayout ? (
-      <BlogLessonPage
+  {
+    isInteractive && interactiveLessons.length > 0 ? (
+      <CourseLayout
         client:load
+        lessons={interactiveLessons}
         subject={subject}
         course={course}
-        courseTitle={courseTitle}
-        currentLesson={currentLesson}
-        lessons={lessons}
       />
     ) : (
-      <LessonPage
-        client:load
-        subject={subject}
-        course={course}
-        courseTitle={courseTitle}
-        currentLesson={currentLesson}
-        lessons={lessons}
-      />
+      <>
+        <Breadcrumbs
+          items={[
+            { label: "HUTBA", href: "/" },
+            { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
+            { label: courseTitle, href: `/${subject}/${course}` },
+            {
+              label:
+                hasLessons && currentLesson
+                  ? currentLesson.title
+                  : "Урок не найден",
+            },
+          ]}
+        />
+        {hasLessons && currentLesson ? (
+          isBlogLayout ? (
+            <BlogLessonPage
+              client:load
+              subject={subject}
+              course={course}
+              courseTitle={courseTitle}
+              currentLesson={currentLesson}
+              lessons={lessons}
+            />
+          ) : (
+            <LessonPage
+              client:load
+              subject={subject}
+              course={course}
+              courseTitle={courseTitle}
+              currentLesson={currentLesson}
+              lessons={lessons}
+            />
+          )
+        ) : (
+          <section class="no-lessons-message">
+            <p>{emptyStateMessage}</p>
+          </section>
+        )}
+      </>
     )
-  ) : (
-    <section class="no-lessons-message">
-      <p>{emptyStateMessage}</p>
-    </section>
-  )
-}
+  }
 
 </Base>

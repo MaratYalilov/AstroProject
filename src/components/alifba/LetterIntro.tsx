@@ -38,7 +38,7 @@ export default function LetterIntro({
   };
 
   return (
-    <section className="rounded-3xl border border-gray-200 bg-white p-6 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/5 dark:shadow-2xl dark:shadow-black/20">
+    <section className="rounded-3xl border border-gray-200 bg-white p-0 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/5 dark:shadow-2xl dark:shadow-black/20 sm:p-6">
       <div className="mb-8">
         <h2 className="text-3xl font-bold text-gray-950 dark:text-white">{title}</h2>
       </div>

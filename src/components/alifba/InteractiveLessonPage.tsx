@@ -1,5 +1,4 @@
-import RenderBlock
-from "@/lib/interactive/renderBlock";
+import RenderBlock from "@/lib/interactive/renderBlock";
 
 type Props = {
   lesson: {
@@ -17,11 +16,9 @@ export default function InteractiveLessonPage({
 }: Props) {
   return (
     <div className="space-y-10 text-foreground">
+      {/* Blocks */}
       {lesson.blocks.map((block, index) => (
-        <RenderBlock
-          key={index}
-          block={block}
-        />
+        <RenderBlock key={index} block={block} />
       ))}
     </div>
   );
