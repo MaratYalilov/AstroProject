@@ -110,6 +110,10 @@ export type TheoryBlock = {
   source: string;
 };
 
+export type AlphabetGridBlock = {
+  type: "alphabet-grid";
+};
+
 export type LessonBlock =
   | LetterIntroBlock
   | LetterLessonBlock
@@ -118,4 +122,5 @@ export type LessonBlock =
   | LetterFormsBlock
   | ReadingPracticeBlock
   | WritingAndFormsBlock
+  | AlphabetGridBlock
   | TheoryBlock;

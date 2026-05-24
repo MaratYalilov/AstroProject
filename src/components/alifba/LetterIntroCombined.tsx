@@ -75,7 +75,7 @@ function AudioPill({
       onClick={onToggle}
       aria-label={label}
       className={[
-        "group relative inline-flex w-full max-w-[360px] items-center gap-3 overflow-hidden rounded-full",
+        "group relative inline-flex w-full max-w-[360px] sm:max-w-full items-center gap-3 overflow-hidden rounded-full",
         "border border-white/10 bg-white/70 px-3.5 py-3 text-left backdrop-blur-xl",
         "shadow-lg shadow-cyan-500/10 transition-all duration-300 hover:scale-[1.02]",
         "hover:border-cyan-300/40 hover:shadow-cyan-500/20",
@@ -429,7 +429,7 @@ export default function LetterIntroCombined({
                       })}
                     </div>
 
-                    <div className="col-span-2 flex justify-center lg:col-span-auto">
+                    <div className="col-span-2 flex justify-center px-2 sm:px-0 lg:col-span-auto">
                       <AudioPill
                         status={pillStatus}
                         progress={pillProgress}

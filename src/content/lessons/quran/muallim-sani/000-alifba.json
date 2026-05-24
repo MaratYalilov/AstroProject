@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "slug": "alif",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Әлиф и һәмзә",
+
+  "blocks": [
+    {
+  "type": "alphabet-grid"
+},
+    
+    {
+      "type": "theory",
+      "title": "Әлиф и һәмзә",
+      "source": "001-alif.md"
+    }
+  ]
+}

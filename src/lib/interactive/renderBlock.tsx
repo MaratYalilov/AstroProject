@@ -5,6 +5,7 @@ import LetterForms from "@/components/alifba/LetterForms";
 import PronunciationGrid from "@/components/alifba/PronunciationGrid";
 import TheoryReveal from "@/components/alifba/TheoryReveal";
 import WritingAndFormsBlock from "@/components/alifba/WritingAndFormsBlock";
+import AlphabetGrid from "@/components/alifba/AlphabetGrid";
 
 import type {
   LessonBlock,
@@ -86,6 +87,9 @@ case "pronunciation-grid":
           source={block.source}
         />
       );
+
+    case "alphabet-grid":
+      return <AlphabetGrid />;
 
     default:
       return (
