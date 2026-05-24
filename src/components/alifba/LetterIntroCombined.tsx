@@ -327,14 +327,14 @@ export default function LetterIntroCombined({
     "relative z-[1] flex cursor-pointer flex-col items-center justify-between rounded-[18px] border border-gray-200 bg-white text-center shadow-sm shadow-gray-200/70 transition-all duration-300 hover:border-cyan-200 hover:bg-cyan-50/50 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-none dark:hover:border-white/15 dark:hover:bg-white/[0.08]";
 
   return (
-    <section className="rounded-3xl border border-gray-200 bg-white p-0 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/5 dark:shadow-2xl dark:shadow-black/20 sm:p-6">
+    <section className="rounded-3xl border border-gray-200 bg-white p-4 sm:p-6 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/5 dark:shadow-2xl dark:shadow-black/20">
       {/* Заголовок */}
-      <div className="mb-8">
+      <div className="mb-8 px-2 sm:px-0">
         <h2 className="text-3xl font-bold text-gray-950 dark:text-white">{title}</h2>
       </div>
 
       {/* Grid: буквы + махрадж, описание на всю ширину */}
-      <div className="grid min-h-[360px] gap-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr]">
+      <div className="grid min-h-[360px] gap-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr] px-2 sm:px-0">
         {/* Левая часть: буквы + огласовки */}
         <div>
           <div className="flex flex-col gap-[18px]">
