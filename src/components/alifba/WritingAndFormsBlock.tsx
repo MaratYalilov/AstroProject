@@ -35,7 +35,7 @@ export default function WritingAndFormsBlock({
         <div className="col-span-2 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm shadow-gray-200/70 dark:border-white/10 dark:bg-slate-900/60 dark:shadow-none lg:col-span-1">
           {arabname && (
             <div className="border-b border-gray-200 bg-gray-50 p-4 dark:border-white/10 dark:bg-transparent">
-              <div className="whitespace-nowrap text-center text-sm font-semibold text-gray-900 dark:text-slate-200 lg:text-base xl:text-xl">
+              <div className="arab whitespace-nowrap text-center text-sm font-semibold text-gray-900 dark:text-slate-200 lg:text-base xl:text-xl">
                 {arabname}
               </div>
             </div>

@@ -89,7 +89,6 @@ export type ReadingPracticeBlock = {
 export type WritingAndFormsBlock = {
   type: "writing-and-forms";
   title: string;
-  arabname?: string;
   animation: {
     format: "gif" | "svg" | "lottie";
     src: string;

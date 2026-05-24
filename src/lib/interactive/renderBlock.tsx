@@ -12,10 +12,12 @@ import type {
 
 type Props = {
   block: LessonBlock;
+  arabname?: string;
 };
 
 export default function RenderBlock({
   block,
+  arabname,
 }: Props) {
   switch (block.type) {
     case "letter-intro":
@@ -71,7 +73,7 @@ case "pronunciation-grid":
       return (
         <WritingAndFormsBlock
           title={block.title}
-          arabname={block.arabname}
+          arabname={arabname}
           animation={block.animation}
           forms={block.forms}
         />
