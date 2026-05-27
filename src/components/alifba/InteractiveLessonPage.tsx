@@ -1,9 +1,14 @@
 import { useState } from "react";
 import RenderBlock from "@/lib/interactive/renderBlock";
 
+type TitleSegment = {
+  text: string;
+  arab?: boolean;
+};
+
 type Props = {
   lesson: {
-    title: string;
+    title: string | TitleSegment[];
     blocks: any[];
   };
   subject: string;

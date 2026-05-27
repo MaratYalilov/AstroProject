@@ -3,11 +3,27 @@
   "slug": "dal",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «дәль»",
+  "title": [
+    {
+      "text": "Буква «дәль» "
+    },
+    {
+      "text": "د",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «дәль»",
+      "title": [
+        {
+          "text": "Буква «дәль» "
+        },
+        {
+          "text": "د",
+          "arab": true
+        }
+      ],
       "description": "Звук «дәль» образуется при задевании кончиком языка основания верхних резцов при участии голосовых связок.",
       "letters": [
         {
@@ -31,7 +47,7 @@
           {
             "arabic": "ـدِ",
             "transcription": "ди",
-            "color": "#943634",
+            "color": "#9333ea",
             "audio": "/media/quran/muallim-sani/audio/byletters/08_dal-kasra.mp3"
           },
           {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Dal.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/08_dal.webp",
         "description": "Кончик языка и основание верхних резцов"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «дәль»",
+      "title": [
+        {
+          "text": "Буква «дәль» "
+        },
+        {
+          "text": "د",
+          "arab": true
+        }
+      ],
       "source": "025-dal.md"
     }
   ]

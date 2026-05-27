@@ -3,11 +3,27 @@
   "slug": "fa",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «фә»",
+  "title": [
+    {
+      "text": "Буква «фә» "
+    },
+    {
+      "text": "ف",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «фә»",
+      "title": [
+        {
+          "text": "Буква «фә» "
+        },
+        {
+          "text": "ف",
+          "arab": true
+        }
+      ],
       "description": "Звук «фә» образуется при прохождении воздуха через тонкую щель между верхними резцами и нижней губой без участия голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Fa.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/20_fa.webp",
         "description": "Между верхними резцами и нижней губой"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «фә»",
+      "title": [
+        {
+          "text": "Буква «фә» "
+        },
+        {
+          "text": "ف",
+          "arab": true
+        }
+      ],
       "source": "013-fa.md"
     }
   ]

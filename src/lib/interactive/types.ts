@@ -15,9 +15,14 @@ export type LetterIntroBlock = {
   };
 };
 
+export type TitleSegment = {
+  text: string;
+  arab?: boolean;
+};
+
 export type LetterLessonBlock = {
   type: "letter-lesson";
-  title: string;
+  title: string | TitleSegment[];
   description?: string;
   letters: {
     name: string;
@@ -106,7 +111,7 @@ export type WritingAndFormsBlock = {
 
 export type TheoryBlock = {
   type: "theory";
-  title: string;
+  title: string | TitleSegment[];
   source: string;
 };
 

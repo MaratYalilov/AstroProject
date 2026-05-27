@@ -3,11 +3,27 @@
   "slug": "zal",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ҙәль»",
+  "title": [
+    {
+      "text": "Буква «ҙәль» "
+    },
+    {
+      "text": "ذ",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ҙәль»",
+      "title": [
+        {
+          "text": "Буква «ҙәль» "
+        },
+        {
+          "text": "ذ",
+          "arab": true
+        }
+      ],
       "description": "Звук «ҙәль» образуется при задевании кончиком языка концов верхних резцов с участием голосовых связок. Схож с английским звуком «ð» в слове «this».",
       "letters": [
         {
@@ -31,7 +47,7 @@
           {
             "arabic": "ـذِ",
             "transcription": "ҙи",
-            "color": "#943634",
+            "color": "#9333ea",
             "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-kasra.mp3"
           },
           {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Dhal.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/09_zal.webp",
         "description": "Кончик языка и концы верхних резцов (межзубный)"
       }
     },
@@ -68,18 +84,26 @@
         {
           "position": "middle",
           "label": "В середине",
-          "image": "/media/quran/muallim-sani/forms/10_ra-middle.webp"
+          "image": "/media/quran/muallim-sani/forms/09_zal-middle.webp"
         },
         {
           "position": "initial",
           "label": "В начале",
-          "image": "/media/quran/muallim-sani/forms/10_ra-initial.webp"
+          "image": "/media/quran/muallim-sani/forms/09_zal-initial.webp"
         }
       ]
     },
     {
       "type": "theory",
-      "title": "Звук «ҙәль»",
+      "title": [
+        {
+          "text": "Буква «ҙәль» "
+        },
+        {
+          "text": "ذ",
+          "arab": true
+        }
+      ],
       "source": "027-dhal.md"
     }
   ]

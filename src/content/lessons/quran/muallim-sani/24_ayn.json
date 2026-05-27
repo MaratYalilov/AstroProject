@@ -3,11 +3,30 @@
   "slug": "ayn",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «٬әйн»",
+  "title": [
+    {
+      "text": "Буква «"
+    },
+    {
+      "text": "٬",
+      "arab": true
+    },
+    {
+      "text": "әйн»"
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «٬әйн»",
+      "title": [
+        {
+          "text": "Буква «٬әйн» "
+        },
+        {
+          "text": "ع",
+          "arab": true
+        }
+      ],
       "description": "Звук «٬әйн» выходит из средней части гортани при смыкании голосовых связок.",
       "letters": [
         {
@@ -79,7 +98,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «٬әйн»",
+      "title": [
+        {
+          "text": "Буква «٬әйн» "
+        },
+        {
+          "text": "ع",
+          "arab": true
+        }
+      ],
       "source": "024-ayn.md"
     }
   ]

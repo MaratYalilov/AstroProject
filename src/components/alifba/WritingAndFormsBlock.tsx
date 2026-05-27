@@ -18,6 +18,13 @@ type Props = {
   forms: FormItem[];
 };
 
+const positionColors: Record<FormItem["position"], string> = {
+  isolated: "#3b82f6",
+  final: "#9333ea",
+  middle: "#943634",
+  initial: "#667f35",
+};
+
 export default function WritingAndFormsBlock({
   title,
   arabname,
@@ -79,11 +86,15 @@ export default function WritingAndFormsBlock({
               </div>
             </div>
 
-            <div className="flex h-[220px] items-center justify-center bg-white">
+            <div className="relative flex h-[220px] items-center justify-center bg-white">
               <img
                 src={form.image}
                 alt={form.label}
                 className="h-full w-full object-contain transition duration-300 group-hover:scale-105"
+              />
+              <span
+                className="absolute right-2 top-2 inline-block h-3 w-3 rounded-full"
+                style={{ backgroundColor: positionColors[form.position] }}
               />
             </div>
           </motion.div>

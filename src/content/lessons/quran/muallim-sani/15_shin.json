@@ -3,11 +3,27 @@
   "slug": "shin",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «шин»",
+  "title": [
+    {
+      "text": "Буква «шин» "
+    },
+    {
+      "text": "ش",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «шин»",
+      "title": [
+        {
+          "text": "Буква «шин» "
+        },
+        {
+          "text": "ش",
+          "arab": true
+        }
+      ],
       "description": "Шипящий звук «шин» образуется при участии середины языка, верхней и середины нёба без участия голосовых связок. Звук в отличие от русского намного мягче.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Shin.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/13_shin.webp",
         "description": "Середина языка, верхняя и середина нёба"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «шин»",
+      "title": [
+        {
+          "text": "Буква «шин» "
+        },
+        {
+          "text": "ش",
+          "arab": true
+        }
+      ],
       "source": "015-shin.md"
     }
   ]

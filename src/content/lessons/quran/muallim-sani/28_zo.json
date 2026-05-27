@@ -3,11 +3,27 @@
   "slug": "zo",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ҙа»",
+  "title": [
+    {
+      "text": "Буква «ҙа» "
+    },
+    {
+      "text": "ظ",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ҙа»",
+      "title": [
+        {
+          "text": "Буква «ҙа» "
+        },
+        {
+          "text": "ظ",
+          "arab": true
+        }
+      ],
       "description": "Твёрдый звук «ҙа» образуется при задевании кончиком языка концов верхних резцов с участием голосовых связок. Твёрдый вариант звука «ҙәль».",
       "letters": [
         {
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «ҙа»",
+      "title": [
+        {
+          "text": "Буква «ҙа» "
+        },
+        {
+          "text": "ظ",
+          "arab": true
+        }
+      ],
       "source": "028-dha.md"
     }
   ]

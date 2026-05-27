@@ -3,11 +3,27 @@
   "slug": "ha",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «һә»",
+  "title": [
+    {
+      "text": "Буква «һә» "
+    },
+    {
+      "text": "ه",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «һә»",
+      "title": [
+        {
+          "text": "Буква «һә» "
+        },
+        {
+          "text": "ه",
+          "arab": true
+        }
+      ],
       "description": "Звук «һә» выходит из самой нижней части гортани без участия голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Ha2.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/27_ha2.webp",
         "description": "Самая нижняя часть гортани"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «һә»",
+      "title": [
+        {
+          "text": "Буква «һә» "
+        },
+        {
+          "text": "ه",
+          "arab": true
+        }
+      ],
       "source": "012-ha.md"
     }
   ]

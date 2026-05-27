@@ -3,11 +3,27 @@
   "slug": "ta",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «тә»",
+  "title": [
+    {
+      "text": "Буква «тә» "
+    },
+    {
+      "text": "ت",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «тә»",
+      "title": [
+        {
+          "text": "Буква «тә» "
+        },
+        {
+          "text": "ت",
+          "arab": true
+        }
+      ],
       "description": "Звук «тә» образуется при задевании кончиком языка основания верхних резцов без участия голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Ta.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/03_ta.webp",
         "description": "Кончик языка и основание верхних резцов"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «тә»",
+      "title": [
+        {
+          "text": "Буква «тә» "
+        },
+        {
+          "text": "ت",
+          "arab": true
+        }
+      ],
       "source": "005-ta.md"
     }
   ]

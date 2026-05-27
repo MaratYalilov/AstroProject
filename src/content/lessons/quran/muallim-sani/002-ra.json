@@ -3,11 +3,27 @@
   "slug": "ra",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ра»",
+  "title": [
+    {
+      "text": "Буква «ра» "
+    },
+    {
+      "text": "ر",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ра»",
+      "title": [
+        {
+          "text": "Буква «ра» "
+        },
+        {
+          "text": "ر",
+          "arab": true
+        }
+      ],
       "description": "Звук «ра» образуется при задевании кончиком языка передней части нёба. Когда она читается твёрдо, кончик языка касается передней части нёба. Когда же она читается мягко, кончик языка задевает нёбо чуть дальше назад.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Ra.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/10_ra.webp",
         "description": "Кончик языка и передняя часть нёба"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «ра»",
+      "title": [
+        {
+          "text": "Буква «ра» "
+        },
+        {
+          "text": "ر",
+          "arab": true
+        }
+      ],
       "source": "002-ra.md"
     }
   ]

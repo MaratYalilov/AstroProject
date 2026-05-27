@@ -3,11 +3,27 @@
   "slug": "lam",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ләм»",
+  "title": [
+    {
+      "text": "Буква «ләм» "
+    },
+    {
+      "text": "ل",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ләм»",
+      "title": [
+        {
+          "text": "Буква «ләм» "
+        },
+        {
+          "text": "ل",
+          "arab": true
+        }
+      ],
       "description": "Звук «ләм» образуется при задевании задней частью краёв языка об твёрдое нёбо с участием голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Lam.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/23_lam.webp",
         "description": "Задняя часть краёв языка и твёрдое нёбо"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «ләм»",
+      "title": [
+        {
+          "text": "Буква «ләм» "
+        },
+        {
+          "text": "ل",
+          "arab": true
+        }
+      ],
       "source": "010-lam.md"
     }
   ]

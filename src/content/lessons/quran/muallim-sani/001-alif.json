@@ -31,7 +31,7 @@
           {
             "arabic": "ـإِ",
             "transcription": "и",
-            "color": "#943634",
+            "color": "#9333ea",
             "audio": "/media/quran/muallim-sani/audio/byletters/01_alif-kasra.mp3"
           },
           {
@@ -43,7 +43,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Hamza.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/28_hamza.webp",
         "description": ""
       }
     },

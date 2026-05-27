@@ -1,11 +1,17 @@
+import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { BookOpen, ChevronDown, Sparkles } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
 import { marked } from "marked";
 import { replaceQuranTags } from "../../utils/replaceQuranTags";
 
+type TitleSegment = {
+  text: string;
+  arab?: boolean;
+};
+
 type Props = {
-  title: string;
+  title: string | TitleSegment[];
   source: string;
   subject?: string;
   course?: string;
@@ -192,7 +198,15 @@ export default function TheoryReveal({
             <div className="w-full px-0 pb-4 pt-6 sm:mx-auto sm:px-4 sm:pb-6">
               <div className="sticky top-4 z-10 mb-6 flex items-center gap-2 rounded-2xl border border-white/80 bg-white/85 px-3 py-3 text-sm font-semibold text-slate-700 shadow-lg shadow-slate-200/70 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/75 dark:text-slate-200 dark:shadow-black/20 sm:px-4">
                 <BookOpen size={17} className="text-cyan-600 dark:text-cyan-300" aria-hidden="true" />
-                {title || "Теория урока"}
+                {Array.isArray(title)
+                  ? title.map((seg, i) =>
+                      seg.arab ? (
+                        <span key={i} className="arab">{seg.text}</span>
+                      ) : (
+                        <React.Fragment key={i}>{seg.text}</React.Fragment>
+                      ),
+                    )
+                  : title || "Теория урока"}
               </div>
 
               <article className="rounded-2xl border border-slate-200/80 bg-white/80 px-4 py-6 shadow-sm shadow-slate-200/60 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/35 dark:shadow-none sm:px-8 sm:py-8">

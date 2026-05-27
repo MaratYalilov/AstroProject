@@ -3,11 +3,27 @@
   "slug": "ha",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ҳа»",
+  "title": [
+    {
+      "text": "Буква «ҳа» "
+    },
+    {
+      "text": "ح",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ҳа»",
+      "title": [
+        {
+          "text": "Буква «ҳа» "
+        },
+        {
+          "text": "ح",
+          "arab": true
+        }
+      ],
       "description": "Хрипящий звук «ҳа» выходит из верхней части гортани без участия голосовых связок.",
       "letters": [
         {
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «ҳа»",
+      "title": [
+        {
+          "text": "Буква «ҳа» "
+        },
+        {
+          "text": "ح",
+          "arab": true
+        }
+      ],
       "source": "021-ha-upper.md"
     }
   ]

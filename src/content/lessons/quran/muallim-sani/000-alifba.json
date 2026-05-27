@@ -4,12 +4,10 @@
   "subject": "quran",
   "course": "muallim-sani",
   "title": "Алфавит",
-
   "blocks": [
     {
-  "type": "alphabet-grid"
-},
-    
+      "type": "alphabet-grid"
+    },
     {
       "type": "theory",
       "title": "Алфавит",

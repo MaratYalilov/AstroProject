@@ -3,11 +3,27 @@
   "slug": "ya",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «йә»",
+  "title": [
+    {
+      "text": "Буква «йә» "
+    },
+    {
+      "text": "ي",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «йә»",
+      "title": [
+        {
+          "text": "Буква «йә» "
+        },
+        {
+          "text": "ي",
+          "arab": true
+        }
+      ],
       "description": "Согласный звук «йә» образуется при участии середины языка и середины нёба с участием голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Ya.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/29_ya.webp",
         "description": "Середина языка и середина нёба"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «йә»",
+      "title": [
+        {
+          "text": "Буква «йә» "
+        },
+        {
+          "text": "ي",
+          "arab": true
+        }
+      ],
       "source": "007-ya.md"
     }
   ]

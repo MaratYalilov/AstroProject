@@ -3,11 +3,27 @@
   "slug": "ghayn",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ғайн»",
+  "title": [
+    {
+      "text": "Буква «ғайн» "
+    },
+    {
+      "text": "غ",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ғайн»",
+      "title": [
+        {
+          "text": "Буква «ғайн» "
+        },
+        {
+          "text": "غ",
+          "arab": true
+        }
+      ],
       "description": "Хрипящий звук «ғайн» выходит из верхней части гортани при смыкании голосовых связок.",
       "letters": [
         {
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «ғайн»",
+      "title": [
+        {
+          "text": "Буква «ғайн» "
+        },
+        {
+          "text": "غ",
+          "arab": true
+        }
+      ],
       "source": "023-ghayn.md"
     }
   ]

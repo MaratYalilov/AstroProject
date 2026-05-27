@@ -3,11 +3,27 @@
   "slug": "nun",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «нун»",
+  "title": [
+    {
+      "text": "Буква «нун» "
+    },
+    {
+      "text": "ن",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «нун»",
+      "title": [
+        {
+          "text": "Буква «нун» "
+        },
+        {
+          "text": "ن",
+          "arab": true
+        }
+      ],
       "description": "Звук «нун» образуется при прохождении воздуха через носовую полость и задевании кончиком языка нёба с участием голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Nun.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/25_nun.webp",
         "description": "Кончик языка и нёбо, прохождение воздуха через носовую полость"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «нун»",
+      "title": [
+        {
+          "text": "Буква «нун» "
+        },
+        {
+          "text": "ن",
+          "arab": true
+        }
+      ],
       "source": "006-nun.md"
     }
   ]

@@ -3,11 +3,27 @@
   "slug": "jim",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «дҗим»",
+  "title": [
+    {
+      "text": "Буква «дҗим» "
+    },
+    {
+      "text": "ج",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «дҗим»",
+      "title": [
+        {
+          "text": "Буква «дҗим» "
+        },
+        {
+          "text": "ج",
+          "arab": true
+        }
+      ],
       "description": "Звук «дҗим» образуется при участии середины языка и середины нёба при участии голосовых связок. Соответствует звонкой паре глухого звука «ч».",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Jim.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/05_jim.webp",
         "description": "Середина языка и середина нёба"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «дҗим»",
+      "title": [
+        {
+          "text": "Буква «дҗим» "
+        },
+        {
+          "text": "ج",
+          "arab": true
+        }
+      ],
       "source": "020-jim.md"
     }
   ]

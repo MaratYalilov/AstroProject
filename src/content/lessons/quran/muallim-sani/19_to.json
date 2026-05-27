@@ -3,11 +3,27 @@
   "slug": "to",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «Ṭа»",
+  "title": [
+    {
+      "text": "Буква «Ṭа» "
+    },
+    {
+      "text": "ط",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «Ṭа»",
+      "title": [
+        {
+          "text": "Буква «Ṭа» "
+        },
+        {
+          "text": "ط",
+          "arab": true
+        }
+      ],
       "description": "Твёрдый звук «Ṭа» образуется при задевании кончиком языка основания верхних резцов без участия голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/To.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/16_to.webp",
         "description": "Кончик языка и основание верхних резцов (твёрдый)"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «Ṭа»",
+      "title": [
+        {
+          "text": "Буква «Ṭа» "
+        },
+        {
+          "text": "ط",
+          "arab": true
+        }
+      ],
       "source": "019-ta-emphatic.md"
     }
   ]

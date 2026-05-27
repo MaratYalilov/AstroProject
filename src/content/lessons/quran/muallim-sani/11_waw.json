@@ -3,11 +3,27 @@
   "slug": "waw",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «уау»",
+  "title": [
+    {
+      "text": "Буква «уау» "
+    },
+    {
+      "text": "و",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «уау»",
+      "title": [
+        {
+          "text": "Буква «уау» "
+        },
+        {
+          "text": "و",
+          "arab": true
+        }
+      ],
       "description": "Согласный звук «уау» образуется при прохождении воздуха между губ, собранными в трубочку, задняя часть языка при этом приподнята. Голосовые связки сомкнуты. Очень схож с английским и французским звуком «w».",
       "letters": [
         {
@@ -31,7 +47,7 @@
           {
             "arabic": "ـوِ",
             "transcription": "уи",
-            "color": "#943634",
+            "color": "#9333ea",
             "audio": "/media/quran/muallim-sani/audio/byletters/26_waw-kasra.mp3"
           },
           {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Waw.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/26_waw.webp",
         "description": "Между губ, собранными в трубочку"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «уау»",
+      "title": [
+        {
+          "text": "Буква «уау» "
+        },
+        {
+          "text": "و",
+          "arab": true
+        }
+      ],
       "source": "011-waw.md"
     }
   ]

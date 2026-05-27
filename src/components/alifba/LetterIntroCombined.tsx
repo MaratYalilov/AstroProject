@@ -1,6 +1,7 @@
 // src/components/alifba/LetterIntroCombined.tsx
 // Объединяет letter-intro, pronunciation-grid и makhraj в один блок
 
+import React from "react";
 import { motion } from "framer-motion";
 import { Pause, Play, RotateCcw } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
@@ -21,8 +22,13 @@ type PronunciationItem = {
   audio?: string;
 };
 
+type TitleSegment = {
+  text: string;
+  arab?: boolean;
+};
+
 type Props = {
-  title: string;
+  title: string | TitleSegment[];
   description?: string;
   letters: Letter[];
   pronunciationItems?: PronunciationItem[];
@@ -130,6 +136,23 @@ function activeCardClass(isActive: boolean): string {
   return isActive
     ? "ring-2 ring-cyan-400 scale-[1.03] shadow-lg shadow-cyan-500/20"
     : "";
+}
+
+function renderTitle(title: string | TitleSegment[]) {
+  if (Array.isArray(title)) {
+    return (
+      <>
+        {title.map((seg, i) =>
+          seg.arab ? (
+            <span key={i} className="arab">{seg.text}</span>
+          ) : (
+            <React.Fragment key={i}>{seg.text}</React.Fragment>
+          ),
+        )}
+      </>
+    );
+  }
+  return title;
 }
 
 export default function LetterIntroCombined({
@@ -330,7 +353,7 @@ export default function LetterIntroCombined({
     <section className="rounded-3xl border border-gray-200 bg-white p-4 sm:p-6 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/5 dark:shadow-2xl dark:shadow-black/20">
       {/* Заголовок */}
       <div className="mb-8 px-2 sm:px-0">
-        <h2 className="text-3xl font-bold text-gray-950 dark:text-white">{title}</h2>
+        <h2 className="text-3xl font-bold text-gray-950 dark:text-white">{renderTitle(title)}</h2>
       </div>
 
       {/* Grid: буквы + махрадж, описание на всю ширину */}
@@ -433,7 +456,7 @@ export default function LetterIntroCombined({
                       <AudioPill
                         status={pillStatus}
                         progress={pillProgress}
-                        letterName={letters[0]?.name || title}
+                        letterName={letters[0]?.name || (typeof title === "string" ? title : "")}
                         onToggle={handleAudioPillToggle}
                       />
                     </div>

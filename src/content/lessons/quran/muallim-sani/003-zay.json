@@ -3,11 +3,27 @@
   "slug": "zay",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «зәй»",
+  "title": [
+    {
+      "text": "Буква «зәй» "
+    },
+    {
+      "text": "ز",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «зәй»",
+      "title": [
+        {
+          "text": "Буква «зәй» "
+        },
+        {
+          "text": "ز",
+          "arab": true
+        }
+      ],
       "description": "Звук «зәй» образуется при задевании кончиком языка верхней части нижних резцов при участии голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Zay.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/11_zai.webp",
         "description": "Кончик языка и верхняя часть нижних резцов"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «зәй»",
+      "title": [
+        {
+          "text": "Буква «зәй» "
+        },
+        {
+          "text": "ز",
+          "arab": true
+        }
+      ],
       "source": "003-zay.md"
     }
   ]

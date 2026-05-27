@@ -3,11 +3,27 @@
   "slug": "kaf",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «кәф»",
+  "title": [
+    {
+      "text": "Буква «кәф» "
+    },
+    {
+      "text": "ك",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «кәф»",
+      "title": [
+        {
+          "text": "Буква «кәф» "
+        },
+        {
+          "text": "ك",
+          "arab": true
+        }
+      ],
       "description": "Звук «кәф» образуется при участии задней части языка, твёрдого и мягкого нёба без смыкания голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Kaf.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/22_kaf.webp",
         "description": "Задняя часть языка, твёрдое и мягкое нёбо"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «кәф»",
+      "title": [
+        {
+          "text": "Буква «кәф» "
+        },
+        {
+          "text": "ك",
+          "arab": true
+        }
+      ],
       "source": "009-kaf.md"
     }
   ]

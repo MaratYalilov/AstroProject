@@ -1,11 +1,17 @@
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, Lock, BookOpen, ChevronRight, X } from "lucide-react";
 import CourseProgress from "./CourseProgress";
 
+export type TitleSegment = {
+  text: string;
+  arab?: boolean;
+};
+
 export type LessonItem = {
   id: number;
   slug: string;
-  title: string;
+  title: string | TitleSegment[];
 };
 
 type Props = {
@@ -192,7 +198,15 @@ function SidebarContent({
                     }
                   `}
                 >
-                  {lesson.title}
+                  {Array.isArray(lesson.title)
+                    ? lesson.title.map((seg, i) =>
+                        seg.arab ? (
+                          <span key={i} className="arab">{seg.text}</span>
+                        ) : (
+                          <React.Fragment key={i}>{seg.text}</React.Fragment>
+                        ),
+                      )
+                    : lesson.title}
                 </span>
                 <span className="block text-sm text-muted-foreground/40 mt-0.5">
                   Урок {lesson.id}

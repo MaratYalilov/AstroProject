@@ -3,11 +3,27 @@
   "slug": "mim",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «мим»",
+  "title": [
+    {
+      "text": "Буква «мим» "
+    },
+    {
+      "text": "م",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «мим»",
+      "title": [
+        {
+          "text": "Буква «мим» "
+        },
+        {
+          "text": "م",
+          "arab": true
+        }
+      ],
       "description": "Звук «мим» образуется при прохождении воздуха через носовую полость со смыканием губ при участии голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Mim.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/24_mim.webp",
         "description": "Смыкание губ, прохождение воздуха через носовую полость"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «мим»",
+      "title": [
+        {
+          "text": "Буква «мим» "
+        },
+        {
+          "text": "م",
+          "arab": true
+        }
+      ],
       "source": "004-mim.md"
     }
   ]

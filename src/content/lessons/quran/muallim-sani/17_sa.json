@@ -3,11 +3,27 @@
   "slug": "sa",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ҫә»",
+  "title": [
+    {
+      "text": "Буква «ҫә» "
+    },
+    {
+      "text": "ث",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ҫә»",
+      "title": [
+        {
+          "text": "Буква «ҫә» "
+        },
+        {
+          "text": "ث",
+          "arab": true
+        }
+      ],
       "description": "Звук «ҫә» образуется при задевании кончиком языка концов верхних резцов без участия голосовых связок. Схож с английским межзубным звуком «θ» в слове «thank».",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Sa.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/04_sa.webp",
         "description": "Кончик языка и концы верхних резцов (межзубный)"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «ҫә»",
+      "title": [
+        {
+          "text": "Буква «ҫә» "
+        },
+        {
+          "text": "ث",
+          "arab": true
+        }
+      ],
       "source": "017-sa.md"
     }
   ]

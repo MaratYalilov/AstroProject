@@ -5,7 +5,7 @@ export type InteractiveLesson = {
   slug: string;
   subject: string;
   course: string;
-  title: string;
+  title: string | { text: string; arab?: boolean }[];
   blocks: LessonBlock[];
 };
 

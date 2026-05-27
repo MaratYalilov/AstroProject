@@ -3,11 +3,27 @@
   "slug": "dad",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ḍад»",
+  "title": [
+    {
+      "text": "Буква «ḍад» "
+    },
+    {
+      "text": "ض",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ḍад»",
+      "title": [
+        {
+          "text": "Буква «ḍад» "
+        },
+        {
+          "text": "ض",
+          "arab": true
+        }
+      ],
       "description": "Твёрдый звук «ḍад» образуется при задевании краёв языка об верхние коренные зубы с участием голосовых связок.",
       "letters": [
         {
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «ḍад»",
+      "title": [
+        {
+          "text": "Буква «ḍад» "
+        },
+        {
+          "text": "ض",
+          "arab": true
+        }
+      ],
       "source": "026-dad.md"
     }
   ]

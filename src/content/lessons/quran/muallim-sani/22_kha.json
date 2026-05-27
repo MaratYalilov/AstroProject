@@ -3,11 +3,27 @@
   "slug": "kha",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «хә»",
+  "title": [
+    {
+      "text": "Буква «хә» "
+    },
+    {
+      "text": "خ",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «хә»",
+      "title": [
+        {
+          "text": "Буква «хә» "
+        },
+        {
+          "text": "خ",
+          "arab": true
+        }
+      ],
       "description": "Звук «хә» выходит из средней части гортани без смыкания голосовых связок. Можно сравнить с горловым шипеньем.",
       "letters": [
         {
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «хә»",
+      "title": [
+        {
+          "text": "Буква «хә» "
+        },
+        {
+          "text": "خ",
+          "arab": true
+        }
+      ],
       "source": "022-kha-middle.md"
     }
   ]

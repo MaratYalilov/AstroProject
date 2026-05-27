@@ -3,11 +3,27 @@
   "slug": "sad",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «ċад»",
+  "title": [
+    {
+      "text": "Буква «ċад» "
+    },
+    {
+      "text": "ص",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «ċад»",
+      "title": [
+        {
+          "text": "Буква «ċад» "
+        },
+        {
+          "text": "ص",
+          "arab": true
+        }
+      ],
       "description": "Твёрдый звук «ċад» образуется при задевании кончиком языка основания нижних резцов без участия голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Sad.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/14_sad.webp",
         "description": "Кончик языка и основание нижних резцов (твёрдый)"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «ċад»",
+      "title": [
+        {
+          "text": "Буква «ċад» "
+        },
+        {
+          "text": "ص",
+          "arab": true
+        }
+      ],
       "source": "018-sad.md"
     }
   ]

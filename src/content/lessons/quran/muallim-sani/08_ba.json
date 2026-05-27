@@ -3,11 +3,27 @@
   "slug": "ba",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Звук «бә»",
+  "title": [
+    {
+      "text": "Буква «бә» "
+    },
+    {
+      "text": "ب",
+      "arab": true
+    }
+  ],
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Звук «бә»",
+      "title": [
+        {
+          "text": "Буква «бә» "
+        },
+        {
+          "text": "ب",
+          "arab": true
+        }
+      ],
       "description": "Звук «бә» образуется при смыкании губ с участием голосовых связок.",
       "letters": [
         {
@@ -43,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Ba.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/02_ba.webp",
         "description": "Смыкание губ"
       }
     },
@@ -79,7 +95,15 @@
     },
     {
       "type": "theory",
-      "title": "Звук «бә»",
+      "title": [
+        {
+          "text": "Буква «бә» "
+        },
+        {
+          "text": "ب",
+          "arab": true
+        }
+      ],
       "source": "008-ba.md"
     }
   ]

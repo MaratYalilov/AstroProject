@@ -95,7 +95,7 @@ if (isInteractive) {
   // Формируем список уроков для сайдбара
   lessons = interactiveLessons.map((l) => ({
     slug: `${subject}/${course}/${l.slug}`,
-    title: l.title,
+    title: Array.isArray(l.title) ? l.title.map((s: any) => s.text).join("") : l.title,
     order: l.id,
   }));
 
@@ -103,7 +103,9 @@ if (isInteractive) {
   if (interactiveLesson) {
     currentLesson = {
       slug: `${subject}/${course}/${interactiveLesson.slug}`,
-      title: interactiveLesson.title,
+      title: Array.isArray(interactiveLesson.title)
+        ? interactiveLesson.title.map((s: any) => s.text).join("")
+        : interactiveLesson.title,
       order: interactiveLesson.id,
       html: "",
       audio: null,
