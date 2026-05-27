@@ -38,6 +38,11 @@ type Props = {
 };
 
 const arabicFont = "'AmiriLocal', 'Scheherazade New', 'Amiri', serif";
+const titleArabicStyle: React.CSSProperties = {
+  fontFamily: arabicFont,
+  fontSize: "1.35em",
+  lineHeight: 0.9,
+};
 type AudioStatus = "idle" | "playing" | "paused" | "ended";
 
 function AudioWave() {
@@ -144,7 +149,13 @@ function renderTitle(title: string | TitleSegment[]) {
       <>
         {title.map((seg, i) =>
           seg.arab ? (
-            <span key={i} className="arab">{seg.text}</span>
+            <span
+              key={i}
+              className="arab inline-block align-[-0.08em] font-normal"
+              style={titleArabicStyle}
+            >
+              {seg.text}
+            </span>
           ) : (
             <React.Fragment key={i}>{seg.text}</React.Fragment>
           ),
