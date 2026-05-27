@@ -23,21 +23,21 @@
         "audio": "",
         "items": [
           {
-            "arabic": "حُ",
+            "arabic": "ـحُ",
             "transcription": "ҳу",
             "color": "#9333ea",
             "audio": "/media/quran/muallim-sani/audio/byletters/06_ha-damma.mp3"
           },
           {
-            "arabic": "حِ",
+            "arabic": "ـحِـ",
             "transcription": "ҳи",
-            "color": "#9333ea",
+            "color": "#943634",
             "audio": "/media/quran/muallim-sani/audio/byletters/06_ha-kasra.mp3"
           },
           {
-            "arabic": "حَ",
+            "arabic": "حَـ",
             "transcription": "ҳа",
-            "color": "#3b82f6",
+            "color": "#667f35",
             "audio": "/media/quran/muallim-sani/audio/byletters/06_ha-fatha.mp3"
           }
         ]

@@ -23,15 +23,15 @@
         "audio": "",
         "items": [
           {
-            "arabic": "ذُ",
+            "arabic": "ـذُ",
             "transcription": "ҙу",
             "color": "#9333ea",
             "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-damma.mp3"
           },
           {
-            "arabic": "ذِ",
+            "arabic": "ـذِ",
             "transcription": "ҙи",
-            "color": "#9333ea",
+            "color": "#943634",
             "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-kasra.mp3"
           },
           {
@@ -65,17 +65,15 @@
           "label": "В конце",
           "image": "/media/quran/muallim-sani/forms/09_zal-final.webp"
         },
-                {
+        {
           "position": "middle",
           "label": "В середине",
-          "image":
-            "/media/quran/muallim-sani/forms/10_ra-middle.webp"
+          "image": "/media/quran/muallim-sani/forms/10_ra-middle.webp"
         },
         {
           "position": "initial",
           "label": "В начале",
-          "image":
-            "/media/quran/muallim-sani/forms/10_ra-initial.webp"
+          "image": "/media/quran/muallim-sani/forms/10_ra-initial.webp"
         }
       ]
     },

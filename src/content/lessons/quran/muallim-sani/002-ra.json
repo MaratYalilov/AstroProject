@@ -65,17 +65,15 @@
           "label": "В конце",
           "image": "/media/quran/muallim-sani/forms/10_ra-final.webp"
         },
-                {
+        {
           "position": "middle",
           "label": "В середине",
-          "image":
-            "/media/quran/muallim-sani/forms/10_ra-middle.webp"
+          "image": "/media/quran/muallim-sani/forms/10_ra-middle.webp"
         },
         {
           "position": "initial",
           "label": "В начале",
-          "image":
-            "/media/quran/muallim-sani/forms/10_ra-initial.webp"
+          "image": "/media/quran/muallim-sani/forms/10_ra-initial.webp"
         }
       ]
     },

@@ -29,7 +29,7 @@
             "audio": "/media/quran/muallim-sani/audio/byletters/11_zai-damma.mp3"
           },
           {
-            "arabic": " ـزِ",
+            "arabic": "ـزِ",
             "transcription": "зи",
             "color": "#9333ea",
             "audio": "/media/quran/muallim-sani/audio/byletters/11_zai-kasra.mp3"
@@ -65,17 +65,15 @@
           "label": "В конце",
           "image": "/media/quran/muallim-sani/forms/11_zai-final.webp"
         },
-                {
+        {
           "position": "middle",
           "label": "В середине",
-          "image":
-            "/media/quran/muallim-sani/forms/11_zai-middle.webp"
+          "image": "/media/quran/muallim-sani/forms/11_zai-middle.webp"
         },
         {
           "position": "initial",
           "label": "В начале",
-          "image":
-            "/media/quran/muallim-sani/forms/11_zai-initial.webp"
+          "image": "/media/quran/muallim-sani/forms/11_zai-initial.webp"
         }
       ]
     },

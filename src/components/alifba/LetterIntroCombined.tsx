@@ -356,8 +356,8 @@ export default function LetterIntroCombined({
                           tabIndex={0}
                         >
                           <span
-                            className="mb-1.5 block py-2.5 text-[56px] font-normal leading-[1.1] text-gray-900 dark:text-[#e8e1d8]"
-                            style={{ fontFamily: arabicFont }}
+                            className="mb-1.5 block py-2.5 text-[56px] font-normal leading-[1.1] dark:brightness-150"
+                            style={{ fontFamily: arabicFont, color: '#3b82f6' }}
                           >
                             {letter.arabic}
                           </span>

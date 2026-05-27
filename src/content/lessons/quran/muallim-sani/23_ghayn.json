@@ -23,21 +23,21 @@
         "audio": "",
         "items": [
           {
-            "arabic": "غُ",
+            "arabic": "ـغُ",
             "transcription": "ғу",
             "color": "#9333ea",
             "audio": "/media/quran/muallim-sani/audio/byletters/19_ghain-damma.mp3"
           },
           {
-            "arabic": "غِ",
+            "arabic": "ـغِـ",
             "transcription": "ғи",
-            "color": "#9333ea",
+            "color": "#943634",
             "audio": "/media/quran/muallim-sani/audio/byletters/19_ghain-kasra.mp3"
           },
           {
-            "arabic": "غَ",
+            "arabic": "غَـ",
             "transcription": "ға",
-            "color": "#3b82f6",
+            "color": "#667f35",
             "audio": "/media/quran/muallim-sani/audio/byletters/19_ghain-fatha.mp3"
           }
         ]

@@ -4,92 +4,76 @@
   "subject": "quran",
   "course": "muallim-sani",
   "title": "Әлиф и һәмзә",
-
   "blocks": [
     {
       "type": "letter-lesson",
       "title": "Әлиф и һәмзә",
       "description": "Собственно буква «әлиф» не несёт никакого звукового содержания, звучит «һәмзә», подставкой для которой и служит «әлиф». Звук «һәмзә» выходит из самой нижней части гортани со смыканием голосовых связок, и поэтому он считается гортанным звуком.",
       "letters": [
-        { 
+        {
           "name": "Әлиф",
           "arabic": "ا",
           "arabname": "ألف",
-          "audio":
-            "/media/quran/muallim-sani/audio/alifba/01_alif.mp3",
-          "image":
-            "не нужное"
+          "audio": "/media/quran/muallim-sani/audio/alifba/01_alif.mp3",
+          "image": "не нужное"
         }
       ],
-
       "pronunciation": {
         "title": "Огласовки",
         "audio": "не нужное",
         "items": [
           {
-            "arabic": " ـأُ",
+            "arabic": "ـأُ",
             "transcription": "у",
             "color": "#9333ea",
-            "audio":
-              "/media/quran/muallim-sani/audio/byletters/01_alif-damma.mp3"
+            "audio": "/media/quran/muallim-sani/audio/byletters/01_alif-damma.mp3"
           },
-                    {
+          {
             "arabic": "ـإِ",
             "transcription": "и",
-            "color": "#9333ea",
-            "audio":
-              "/media/quran/muallim-sani/audio/byletters/01_alif-kasra.mp3"
+            "color": "#943634",
+            "audio": "/media/quran/muallim-sani/audio/byletters/01_alif-kasra.mp3"
           },
           {
             "arabic": "أَ",
             "transcription": "ә",
             "color": "#3b82f6",
-            "audio":
-              "/media/quran/muallim-sani/audio/byletters/01_alif-fatha.mp3"
+            "audio": "/media/quran/muallim-sani/audio/byletters/01_alif-fatha.mp3"
           }
         ]
       },
-
       "makhraj": {
-        "image":
-          "/media/quran/muallim-sani/images/makhraj/Hamza.webp",
-        "description": "" 
+        "image": "/media/quran/muallim-sani/images/makhraj/Hamza.webp",
+        "description": ""
       }
     },
-
-
     {
       "type": "writing-and-forms",
       "title": "Написание буквы",
       "animation": {
         "format": "svg",
-        "src":
-          "/media/quran/muallim-sani/animations/svg/01_alif.svg"
+        "src": "/media/quran/muallim-sani/animations/svg/01_alif.svg"
       },
       "forms": [
         {
           "position": "isolated",
           "label": "Отдельно",
-          "image":
-            "/media/quran/muallim-sani/forms/01_alif-isolated.webp"
+          "image": "/media/quran/muallim-sani/forms/01_alif-isolated.webp"
         },
         {
           "position": "final",
           "label": "В конце",
-          "image":
-            "/media/quran/muallim-sani/forms/01_alif-final.webp"
+          "image": "/media/quran/muallim-sani/forms/01_alif-final.webp"
         },
         {
           "position": "middle",
           "label": "В середине",
-          "image":
-            "/media/quran/muallim-sani/forms/01_alif-middle.webp"
+          "image": "/media/quran/muallim-sani/forms/01_alif-middle.webp"
         },
         {
           "position": "initial",
           "label": "В начале",
-          "image":
-            "/media/quran/muallim-sani/forms/01_alif-initial.webp"
+          "image": "/media/quran/muallim-sani/forms/01_alif-initial.webp"
         }
       ]
     },
