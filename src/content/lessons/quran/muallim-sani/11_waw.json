@@ -1,0 +1,88 @@
+{
+  "id": 11,
+  "slug": "waw",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «уау»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «уау»",
+      "description": "Согласный звук «уау» образуется при прохождении воздуха между губ, собранными в трубочку, задняя часть языка при этом приподнята. Голосовые связки сомкнуты. Очень схож с английским и французским звуком «w».",
+      "letters": [
+        {
+          "name": "Уау",
+          "arabic": "و",
+          "arabname": "وَاو",
+          "audio": "/media/quran/muallim-sani/audio/alifba/26_waw.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "وُ",
+            "transcription": "у",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/26_waw-damma.mp3"
+          },
+          {
+            "arabic": "وِ",
+            "transcription": "уи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/26_waw-kasra.mp3"
+          },
+          {
+            "arabic": "وَ",
+            "transcription": "уә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/26_waw-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Waw.webp",
+        "description": "Между губ, собранными в трубочку"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/26_waw.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/26_waw-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/26_waw-final.webp"
+        },
+                {
+          "position": "middle",
+          "label": "В середине",
+          "image":
+            "/media/quran/muallim-sani/forms/26_waw-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image":
+            "/media/quran/muallim-sani/forms/26_waw-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «уау»",
+      "source": "011-waw.md"
+    }
+  ]
+}

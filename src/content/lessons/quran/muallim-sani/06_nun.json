@@ -1,0 +1,86 @@
+{
+  "id": 6,
+  "slug": "nun",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «нун»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «нун»",
+      "description": "Звук «нун» образуется при прохождении воздуха через носовую полость и задевании кончиком языка нёба с участием голосовых связок.",
+      "letters": [
+        {
+          "name": "Нун",
+          "arabic": "ن",
+          "arabname": "نُون",
+          "audio": "/media/quran/muallim-sani/audio/alifba/25_nun.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "نُ",
+            "transcription": "ну",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/25_nun-damma.mp3"
+          },
+          {
+            "arabic": "نِ",
+            "transcription": "ни",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/25_nun-kasra.mp3"
+          },
+          {
+            "arabic": "نَ",
+            "transcription": "нә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/25_nun-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Nun.webp",
+        "description": "Кончик языка и нёбо, прохождение воздуха через носовую полость"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/25_nun.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/25_nun-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/25_nun-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/25_nun-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/25_nun-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «нун»",
+      "source": "006-nun.md"
+    }
+  ]
+}

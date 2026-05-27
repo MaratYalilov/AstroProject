@@ -1,100 +1,87 @@
 {
-  "id": 4,
+  "id": 3,
   "slug": "zay",
   "subject": "quran",
   "course": "muallim-sani",
-  "title": "Зай (ز)",
-
+  "title": "Звук «зәй»",
   "blocks": [
     {
       "type": "letter-lesson",
-      "title": "Зай (ز)",
-      "description": "Буква «зай» — это звонкий согласный звук. При произнесении кончик языка находится у нижних зубов, а средняя часть языка поднимается к нёбу.",
+      "title": "Звук «зәй»",
+      "description": "Звук «зәй» образуется при задевании кончиком языка верхней части нижних резцов при участии голосовых связок.",
       "letters": [
-        { 
-          "name": "Зай",
+        {
+          "name": "Зәй",
           "arabic": "ز",
-          "arabname": "زاي",
-          "audio":
-            "/media/quran/muallim-sani/audio/alifba/03_zay.mp3",
-          "image":
-            "/media/quran/muallim-sani/images/letters/zay.webp"
+          "arabname": "زَاي",
+          "audio": "/media/quran/muallim-sani/audio/alifba/11_zai.mp3",
+          "image": ""
         }
       ],
-
       "pronunciation": {
         "title": "Огласовки",
         "audio": "",
         "items": [
           {
-            "arabic": "زُ",
+            "arabic": "ـزُ",
             "transcription": "зу",
             "color": "#9333ea",
-            "audio":
-              "/media/quran/muallim-sani/audio/byletters/03-zu.mp3"
+            "audio": "/media/quran/muallim-sani/audio/byletters/11_zai-damma.mp3"
           },
           {
-            "arabic": "زِ",
+            "arabic": " ـزِ",
             "transcription": "зи",
             "color": "#9333ea",
-            "audio":
-              "/media/quran/muallim-sani/audio/byletters/03-zi.mp3"
+            "audio": "/media/quran/muallim-sani/audio/byletters/11_zai-kasra.mp3"
           },
           {
             "arabic": "زَ",
-            "transcription": "за",
+            "transcription": "зә",
             "color": "#3b82f6",
-            "audio":
-              "/media/quran/muallim-sani/audio/byletters/03-za.mp3"
+            "audio": "/media/quran/muallim-sani/audio/byletters/11_zai-fatha.mp3"
           }
         ]
       },
-
       "makhraj": {
-        "image":
-          "/media/quran/muallim-sani/images/makhraj/Zay.webp",
-        "description": "" 
+        "image": "/media/quran/muallim-sani/images/makhraj/Zay.webp",
+        "description": "Кончик языка и верхняя часть нижних резцов"
       }
     },
-
     {
       "type": "writing-and-forms",
-      "title": "Написание буквы ",
+      "title": "Написание буквы",
       "animation": {
         "format": "svg",
-        "src":
-          "/media/quran/muallim-sani/animations/svg/Zay.svg"
+        "src": "/media/quran/muallim-sani/animations/svg/11_zai.svg"
       },
       "forms": [
         {
           "position": "isolated",
           "label": "Отдельно",
-          "image":
-            "/media/quran/muallim-sani/forms/zay-isolated.webp"
+          "image": "/media/quran/muallim-sani/forms/11_zai-isolated.webp"
         },
         {
           "position": "final",
           "label": "В конце",
-          "image":
-            "/media/quran/muallim-sani/forms/zay-final.webp"
+          "image": "/media/quran/muallim-sani/forms/11_zai-final.webp"
         },
-        {
+                {
           "position": "middle",
           "label": "В середине",
           "image":
-            "/media/quran/muallim-sani/forms/zay-middle.webp"
+            "/media/quran/muallim-sani/forms/11_zai-middle.webp"
         },
         {
           "position": "initial",
           "label": "В начале",
           "image":
-            "/media/quran/muallim-sani/forms/zay-initial.webp"
+            "/media/quran/muallim-sani/forms/11_zai-initial.webp"
         }
       ]
     },
     {
       "type": "theory",
-      "title": "Зай (ز)",
+      "title": "Звук «зәй»",
       "source": "003-zay.md"
     }
   ]

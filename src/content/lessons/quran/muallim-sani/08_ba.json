@@ -1,0 +1,86 @@
+{
+  "id": 8,
+  "slug": "ba",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «бә»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «бә»",
+      "description": "Звук «бә» образуется при смыкании губ с участием голосовых связок.",
+      "letters": [
+        {
+          "name": "Бә",
+          "arabic": "ب",
+          "arabname": "بَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/02_ba.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "بُ",
+            "transcription": "бу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/02_ba-damma.mp3"
+          },
+          {
+            "arabic": "بِ",
+            "transcription": "би",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/02_ba-kasra.mp3"
+          },
+          {
+            "arabic": "بَ",
+            "transcription": "бә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/02_ba-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Ba.webp",
+        "description": "Смыкание губ"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/02_ba.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/02_ba-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/02_ba-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/02_ba-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/02_ba-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «бә»",
+      "source": "008-ba.md"
+    }
+  ]
+}

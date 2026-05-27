@@ -1,0 +1,86 @@
+{
+  "id": 4,
+  "slug": "mim",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «мим»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «мим»",
+      "description": "Звук «мим» образуется при прохождении воздуха через носовую полость со смыканием губ при участии голосовых связок.",
+      "letters": [
+        {
+          "name": "Мим",
+          "arabic": "م",
+          "arabname": "مِيم",
+          "audio": "/media/quran/muallim-sani/audio/alifba/24_mim.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "ـمُ",
+            "transcription": "му",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/24_mim-damma.mp3"
+          },
+          {
+            "arabic": "ـمِـ",
+            "transcription": "ми",
+            "color": "#943634",
+            "audio": "/media/quran/muallim-sani/audio/byletters/24_mim-kasra.mp3"
+          },
+          {
+            "arabic": "مَـ",
+            "transcription": "мә",
+            "color": "#667f35",
+            "audio": "/media/quran/muallim-sani/audio/byletters/24_mim-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Mim.webp",
+        "description": "Смыкание губ, прохождение воздуха через носовую полость"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/24_mim.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/24_mim-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/24_mim-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/24_mim-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/24_mim-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «мим»",
+      "source": "004-mim.md"
+    }
+  ]
+}

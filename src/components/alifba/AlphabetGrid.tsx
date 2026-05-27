@@ -27,7 +27,7 @@ const ALPHABET_DATA: AlphabetLetter[] = [
   { char: "ش", name: "шин", arabName: "شِين", audio: "/media/quran/muallim-sani/audio/alifba/13_shin.mp3" },
   { char: "ص", name: "сад", arabName: "صَاد", audio: "/media/quran/muallim-sani/audio/alifba/14_sad.mp3" },
   { char: "ض", name: "дад", arabName: "ضَاد", audio: "/media/quran/muallim-sani/audio/alifba/15_dad.mp3" },
-  { char: "ط", name: "та", arabName: "طَاء", audio: "/media/quran/muallim-sani/audio/alifba/16_to.mp3" },
+  { char: "ط", name: "Ṭа", arabName: "طَاء", audio: "/media/quran/muallim-sani/audio/alifba/16_to.mp3" },
   { char: "ظ", name: "ҙа", arabName: "ظَاء", audio: "/media/quran/muallim-sani/audio/alifba/17_zo.mp3" },
   { char: "ع", name: "ғәйн", arabName: "عَيْن", audio: "/media/quran/muallim-sani/audio/alifba/18_ain.mp3" },
   { char: "غ", name: "ғайн", arabName: "غَيْن", audio: "/media/quran/muallim-sani/audio/alifba/19_ghain.mp3" },

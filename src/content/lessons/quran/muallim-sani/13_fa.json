@@ -1,0 +1,86 @@
+{
+  "id": 13,
+  "slug": "fa",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «фә»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «фә»",
+      "description": "Звук «фә» образуется при прохождении воздуха через тонкую щель между верхними резцами и нижней губой без участия голосовых связок.",
+      "letters": [
+        {
+          "name": "Фә",
+          "arabic": "ف",
+          "arabname": "فَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/20_fa.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "فُ",
+            "transcription": "фу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/20_fa-damma.mp3"
+          },
+          {
+            "arabic": "فِ",
+            "transcription": "фи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/20_fa-kasra.mp3"
+          },
+          {
+            "arabic": "فَ",
+            "transcription": "фә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/20_fa-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Fa.webp",
+        "description": "Между верхними резцами и нижней губой"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/20_fa.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/20_fa-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/20_fa-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/20_fa-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/20_fa-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «фә»",
+      "source": "013-fa.md"
+    }
+  ]
+}

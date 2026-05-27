@@ -1,0 +1,86 @@
+{
+  "id": 16,
+  "slug": "sin",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «син»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «син»",
+      "description": "Звук «син» образуется при задевании кончиком языка основания нижних резцов без участия голосовых связок.",
+      "letters": [
+        {
+          "name": "Син",
+          "arabic": "س",
+          "arabname": "سِين",
+          "audio": "/media/quran/muallim-sani/audio/alifba/12_sin.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "سُ",
+            "transcription": "су",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/12_sin-damma.mp3"
+          },
+          {
+            "arabic": "سِ",
+            "transcription": "си",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/12_sin-kasra.mp3"
+          },
+          {
+            "arabic": "سَ",
+            "transcription": "сә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/12_sin-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Sin.webp",
+        "description": "Кончик языка и основание нижних резцов"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/12_sin.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/12_sin-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/12_sin-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/12_sin-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/12_sin-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «син»",
+      "source": "016-sin.md"
+    }
+  ]
+}

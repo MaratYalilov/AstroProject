@@ -1,5 +1,5 @@
 {
-  "id": 2,
+  "id": 1,
   "slug": "alif",
   "subject": "quran",
   "course": "muallim-sani",
@@ -31,21 +31,21 @@
             "transcription": "у",
             "color": "#9333ea",
             "audio":
-              "/media/quran/muallim-sani/audio/byletters/01-u.mp3"
+              "/media/quran/muallim-sani/audio/byletters/01_alif-damma.mp3"
           },
                     {
             "arabic": "ـإِ",
             "transcription": "и",
             "color": "#9333ea",
             "audio":
-              "/media/quran/muallim-sani/audio/byletters/01-i.mp3"
+              "/media/quran/muallim-sani/audio/byletters/01_alif-kasra.mp3"
           },
           {
             "arabic": "أَ",
             "transcription": "ә",
             "color": "#3b82f6",
             "audio":
-              "/media/quran/muallim-sani/audio/byletters/01-a.mp3"
+              "/media/quran/muallim-sani/audio/byletters/01_alif-fatha.mp3"
           }
         ]
       },
@@ -64,32 +64,32 @@
       "animation": {
         "format": "svg",
         "src":
-          "/media/quran/muallim-sani/animations/svg/Alif.svg"
+          "/media/quran/muallim-sani/animations/svg/01_alif.svg"
       },
       "forms": [
         {
           "position": "isolated",
           "label": "Отдельно",
           "image":
-            "/media/quran/muallim-sani/forms/alif-isolated.webp"
+            "/media/quran/muallim-sani/forms/01_alif-isolated.webp"
         },
         {
           "position": "final",
           "label": "В конце",
           "image":
-            "/media/quran/muallim-sani/forms/alif-final.webp"
+            "/media/quran/muallim-sani/forms/01_alif-final.webp"
         },
         {
           "position": "middle",
           "label": "В середине",
           "image":
-            "/media/quran/muallim-sani/forms/alif-middle.webp"
+            "/media/quran/muallim-sani/forms/01_alif-middle.webp"
         },
         {
           "position": "initial",
           "label": "В начале",
           "image":
-            "/media/quran/muallim-sani/forms/alif-initial.webp"
+            "/media/quran/muallim-sani/forms/01_alif-initial.webp"
         }
       ]
     },

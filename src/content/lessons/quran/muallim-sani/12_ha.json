@@ -1,0 +1,86 @@
+{
+  "id": 12,
+  "slug": "ha",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «һә»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «һә»",
+      "description": "Звук «һә» выходит из самой нижней части гортани без участия голосовых связок.",
+      "letters": [
+        {
+          "name": "Һә",
+          "arabic": "ه",
+          "arabname": "هَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/27_ha2.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "هُ",
+            "transcription": "һу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/27_ha2-damma.mp3"
+          },
+          {
+            "arabic": "هِ",
+            "transcription": "һи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/27_ha2-kasra.mp3"
+          },
+          {
+            "arabic": "هَ",
+            "transcription": "һә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/27_ha2-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Ha2.webp",
+        "description": "Самая нижняя часть гортани"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/27_ha2.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/27_ha2-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/27_ha2-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/27_ha2-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/27_ha2-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «һә»",
+      "source": "012-ha.md"
+    }
+  ]
+}

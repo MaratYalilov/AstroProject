@@ -1,0 +1,86 @@
+{
+  "id": 17,
+  "slug": "sa",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «ҫә»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «ҫә»",
+      "description": "Звук «ҫә» образуется при задевании кончиком языка концов верхних резцов без участия голосовых связок. Схож с английским межзубным звуком «θ» в слове «thank».",
+      "letters": [
+        {
+          "name": "Ҫә",
+          "arabic": "ث",
+          "arabname": "ثَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/04_sa.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "ثُ",
+            "transcription": "ҫу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/04_sa-damma.mp3"
+          },
+          {
+            "arabic": "ثِ",
+            "transcription": "ҫи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/04_sa-kasra.mp3"
+          },
+          {
+            "arabic": "ثَ",
+            "transcription": "ҫә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/04_sa-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Sa.webp",
+        "description": "Кончик языка и концы верхних резцов (межзубный)"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/04_sa.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/04_sa-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/04_sa-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/04_sa-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/04_sa-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «ҫә»",
+      "source": "017-sa.md"
+    }
+  ]
+}

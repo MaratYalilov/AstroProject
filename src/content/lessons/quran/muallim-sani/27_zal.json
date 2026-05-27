@@ -1,0 +1,88 @@
+{
+  "id": 27,
+  "slug": "zal",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «ҙәль»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «ҙәль»",
+      "description": "Звук «ҙәль» образуется при задевании кончиком языка концов верхних резцов с участием голосовых связок. Схож с английским звуком «ð» в слове «this».",
+      "letters": [
+        {
+          "name": "Ҙәль",
+          "arabic": "ذ",
+          "arabname": "ذَال",
+          "audio": "/media/quran/muallim-sani/audio/alifba/09_zal.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "ذُ",
+            "transcription": "ҙу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-damma.mp3"
+          },
+          {
+            "arabic": "ذِ",
+            "transcription": "ҙи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-kasra.mp3"
+          },
+          {
+            "arabic": "ذَ",
+            "transcription": "ҙә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Dhal.webp",
+        "description": "Кончик языка и концы верхних резцов (межзубный)"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/09_zal.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/09_zal-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/09_zal-final.webp"
+        },
+                {
+          "position": "middle",
+          "label": "В середине",
+          "image":
+            "/media/quran/muallim-sani/forms/10_ra-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image":
+            "/media/quran/muallim-sani/forms/10_ra-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «ҙәль»",
+      "source": "027-dhal.md"
+    }
+  ]
+}

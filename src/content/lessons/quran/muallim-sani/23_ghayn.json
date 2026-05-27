@@ -1,0 +1,86 @@
+{
+  "id": 23,
+  "slug": "ghayn",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «ғайн»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «ғайн»",
+      "description": "Хрипящий звук «ғайн» выходит из верхней части гортани при смыкании голосовых связок.",
+      "letters": [
+        {
+          "name": "Ғайн",
+          "arabic": "غ",
+          "arabname": "غَيْن",
+          "audio": "/media/quran/muallim-sani/audio/alifba/19_ghain.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "غُ",
+            "transcription": "ғу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/19_ghain-damma.mp3"
+          },
+          {
+            "arabic": "غِ",
+            "transcription": "ғи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/19_ghain-kasra.mp3"
+          },
+          {
+            "arabic": "غَ",
+            "transcription": "ға",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/19_ghain-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Ghayn.webp",
+        "description": "Верхняя часть гортани со смыканием голосовых связок"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/19_ghain.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/19_ghain-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/19_ghain-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/19_ghain-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/19_ghain-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «ғайн»",
+      "source": "023-ghayn.md"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 25,
+  "slug": "dal",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «дәль»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «дәль»",
+      "description": "Звук «дәль» образуется при задевании кончиком языка основания верхних резцов при участии голосовых связок.",
+      "letters": [
+        {
+          "name": "Дәль",
+          "arabic": "د",
+          "arabname": "دَال",
+          "audio": "/media/quran/muallim-sani/audio/alifba/08_dal.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "دُ",
+            "transcription": "ду",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/08_dal-damma.mp3"
+          },
+          {
+            "arabic": "دِ",
+            "transcription": "ди",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/08_dal-kasra.mp3"
+          },
+          {
+            "arabic": "دَ",
+            "transcription": "дә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/08_dal-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Dal.webp",
+        "description": "Кончик языка и основание верхних резцов"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/08_dal.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/08_dal-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/08_dal-final.webp"
+        },
+                {
+          "position": "middle",
+          "label": "В середине",
+          "image":
+            "/media/quran/muallim-sani/forms/08_dal-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image":
+            "/media/quran/muallim-sani/forms/08_dal-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «дәль»",
+      "source": "025-dal.md"
+    }
+  ]
+}

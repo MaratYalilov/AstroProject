@@ -1,0 +1,86 @@
+{
+  "id": 20,
+  "slug": "jim",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «дҗим»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «дҗим»",
+      "description": "Звук «дҗим» образуется при участии середины языка и середины нёба при участии голосовых связок. Соответствует звонкой паре глухого звука «ч».",
+      "letters": [
+        {
+          "name": "Дҗим",
+          "arabic": "ج",
+          "arabname": "جِيم",
+          "audio": "/media/quran/muallim-sani/audio/alifba/05_jim.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "جُ",
+            "transcription": "дҗу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/05_jim-damma.mp3"
+          },
+          {
+            "arabic": "جِ",
+            "transcription": "дҗи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/05_jim-kasra.mp3"
+          },
+          {
+            "arabic": "جَ",
+            "transcription": "дҗә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/05_jim-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Jim.webp",
+        "description": "Середина языка и середина нёба"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/05_jim.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/05_jim-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/05_jim-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/05_jim-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/05_jim-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «дҗим»",
+      "source": "020-jim.md"
+    }
+  ]
+}

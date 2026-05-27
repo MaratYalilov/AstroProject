@@ -1,0 +1,86 @@
+{
+  "id": 19,
+  "slug": "to",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «Ṭа»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «Ṭа»",
+      "description": "Твёрдый звук «Ṭа» образуется при задевании кончиком языка основания верхних резцов без участия голосовых связок.",
+      "letters": [
+        {
+          "name": "Ṭа",
+          "arabic": "ط",
+          "arabname": "طَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/16_to.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "طُ",
+            "transcription": "ту",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/16_to-damma.mp3"
+          },
+          {
+            "arabic": "طِ",
+            "transcription": "ти",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/16_to-kasra.mp3"
+          },
+          {
+            "arabic": "طَ",
+            "transcription": "та",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/16_to-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/To.webp",
+        "description": "Кончик языка и основание верхних резцов (твёрдый)"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/16_to.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/16_to-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/16_to-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/16_to-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/16_to-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «Ṭа»",
+      "source": "019-ta-emphatic.md"
+    }
+  ]
+}

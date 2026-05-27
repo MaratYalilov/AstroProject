@@ -1,0 +1,86 @@
+{
+  "id": 10,
+  "slug": "lam",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «ләм»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «ләм»",
+      "description": "Звук «ләм» образуется при задевании задней частью краёв языка об твёрдое нёбо с участием голосовых связок.",
+      "letters": [
+        {
+          "name": "Ләм",
+          "arabic": "ل",
+          "arabname": "لاَم",
+          "audio": "/media/quran/muallim-sani/audio/alifba/23_lam.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "لُ",
+            "transcription": "лу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/23_lam-damma.mp3"
+          },
+          {
+            "arabic": "لِ",
+            "transcription": "ли",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/23_lam-kasra.mp3"
+          },
+          {
+            "arabic": "لَ",
+            "transcription": "лә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/23_lam-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Lam.webp",
+        "description": "Задняя часть краёв языка и твёрдое нёбо"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/23_lam.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/23_lam-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/23_lam-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/23_lam-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/23_lam-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «ләм»",
+      "source": "010-lam.md"
+    }
+  ]
+}

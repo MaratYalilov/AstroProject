@@ -1,0 +1,86 @@
+{
+  "id": 15,
+  "slug": "shin",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «шин»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «шин»",
+      "description": "Шипящий звук «шин» образуется при участии середины языка, верхней и середины нёба без участия голосовых связок. Звук в отличие от русского намного мягче.",
+      "letters": [
+        {
+          "name": "Шин",
+          "arabic": "ش",
+          "arabname": "شِين",
+          "audio": "/media/quran/muallim-sani/audio/alifba/13_shin.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "شُ",
+            "transcription": "шу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/13_shin-damma.mp3"
+          },
+          {
+            "arabic": "شِ",
+            "transcription": "ши",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/13_shin-kasra.mp3"
+          },
+          {
+            "arabic": "شَ",
+            "transcription": "шә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/13_shin-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Shin.webp",
+        "description": "Середина языка, верхняя и середина нёба"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/13_shin.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/13_shin-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/13_shin-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/13_shin-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/13_shin-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «шин»",
+      "source": "015-shin.md"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": 7,
+  "slug": "ya",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «йә»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «йә»",
+      "description": "Согласный звук «йә» образуется при участии середины языка и середины нёба с участием голосовых связок.",
+      "letters": [
+        {
+          "name": "Йә",
+          "arabic": "ي",
+          "arabname": "يَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/29_ya.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "يُ",
+            "transcription": "йу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/29_ya-damma.mp3"
+          },
+          {
+            "arabic": "يِ",
+            "transcription": "йи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/29_ya-kasra.mp3"
+          },
+          {
+            "arabic": "يَ",
+            "transcription": "йә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/29_ya-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Ya.webp",
+        "description": "Середина языка и середина нёба"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/29_ya.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/29_ya-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/29_ya-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/29_ya-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/29_ya-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «йә»",
+      "source": "007-ya.md"
+    }
+  ]
+}

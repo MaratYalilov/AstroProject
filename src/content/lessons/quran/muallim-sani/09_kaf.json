@@ -1,0 +1,86 @@
+{
+  "id": 9,
+  "slug": "kaf",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «кәф»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «кәф»",
+      "description": "Звук «кәф» образуется при участии задней части языка, твёрдого и мягкого нёба без смыкания голосовых связок.",
+      "letters": [
+        {
+          "name": "Кәф",
+          "arabic": "ك",
+          "arabname": "كَاف",
+          "audio": "/media/quran/muallim-sani/audio/alifba/22_kaf.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "كُ",
+            "transcription": "ку",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/22_kaf-damma.mp3"
+          },
+          {
+            "arabic": "كِ",
+            "transcription": "ки",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/22_kaf-kasra.mp3"
+          },
+          {
+            "arabic": "كَ",
+            "transcription": "кә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/22_kaf-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Kaf.webp",
+        "description": "Задняя часть языка, твёрдое и мягкое нёбо"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/22_kaf.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/22_kaf-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/22_kaf-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/22_kaf-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/22_kaf-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «кәф»",
+      "source": "009-kaf.md"
+    }
+  ]
+}

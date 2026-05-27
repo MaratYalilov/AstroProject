@@ -1,0 +1,86 @@
+{
+  "id": 18,
+  "slug": "sad",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «ċад»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «ċад»",
+      "description": "Твёрдый звук «ċад» образуется при задевании кончиком языка основания нижних резцов без участия голосовых связок.",
+      "letters": [
+        {
+          "name": "Ċад",
+          "arabic": "ص",
+          "arabname": "صَاد",
+          "audio": "/media/quran/muallim-sani/audio/alifba/14_sad.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "صُ",
+            "transcription": "ċу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/14_sad-damma.mp3"
+          },
+          {
+            "arabic": "صِ",
+            "transcription": "ċи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/14_sad-kasra.mp3"
+          },
+          {
+            "arabic": "صَ",
+            "transcription": "ċа",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/14_sad-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Sad.webp",
+        "description": "Кончик языка и основание нижних резцов (твёрдый)"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/14_sad.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/14_sad-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/14_sad-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/14_sad-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/14_sad-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «ċад»",
+      "source": "018-sad.md"
+    }
+  ]
+}

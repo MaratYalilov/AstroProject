@@ -1,0 +1,86 @@
+{
+  "id": 5,
+  "slug": "ta",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «тә»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «тә»",
+      "description": "Звук «тә» образуется при задевании кончиком языка основания верхних резцов без участия голосовых связок.",
+      "letters": [
+        {
+          "name": "Тә",
+          "arabic": "ت",
+          "arabname": "تَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/03_ta.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "تُ",
+            "transcription": "ту",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/03_ta-damma.mp3"
+          },
+          {
+            "arabic": "تِ",
+            "transcription": "ти",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/03_ta-kasra.mp3"
+          },
+          {
+            "arabic": "تَ",
+            "transcription": "тә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/03_ta-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Ta.webp",
+        "description": "Кончик языка и основание верхних резцов"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/03_ta.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/03_ta-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/03_ta-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/03_ta-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/03_ta-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «тә»",
+      "source": "005-ta.md"
+    }
+  ]
+}

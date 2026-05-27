@@ -1,0 +1,86 @@
+{
+  "id": 26,
+  "slug": "dad",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «ḍад»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «ḍад»",
+      "description": "Твёрдый звук «ḍад» образуется при задевании краёв языка об верхние коренные зубы с участием голосовых связок.",
+      "letters": [
+        {
+          "name": "Ḍад",
+          "arabic": "ض",
+          "arabname": "ضَاد",
+          "audio": "/media/quran/muallim-sani/audio/alifba/15_dad.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "ضُ",
+            "transcription": "dу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/15_dad-damma.mp3"
+          },
+          {
+            "arabic": "ضِ",
+            "transcription": "dи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/15_dad-kasra.mp3"
+          },
+          {
+            "arabic": "ضَ",
+            "transcription": "dа",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/15_dad-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Dad.webp",
+        "description": "Края языка и верхние коренные зубы"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/15_dad.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/15_dad-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/15_dad-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/15_dad-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/15_dad-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «ḍад»",
+      "source": "026-dad.md"
+    }
+  ]
+}

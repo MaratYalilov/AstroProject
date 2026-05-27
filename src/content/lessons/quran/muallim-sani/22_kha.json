@@ -1,0 +1,86 @@
+{
+  "id": 22,
+  "slug": "kha",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «хә»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «хә»",
+      "description": "Звук «хә» выходит из средней части гортани без смыкания голосовых связок. Можно сравнить с горловым шипеньем.",
+      "letters": [
+        {
+          "name": "Хә",
+          "arabic": "خ",
+          "arabname": "خَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/07_kha.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "خُ",
+            "transcription": "ху",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/07_kha-damma.mp3"
+          },
+          {
+            "arabic": "خِ",
+            "transcription": "хи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/07_kha-kasra.mp3"
+          },
+          {
+            "arabic": "خَ",
+            "transcription": "хә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/07_kha-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/KhaMiddle.webp",
+        "description": "Средняя часть гортани"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/07_kha.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/07_kha-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/07_kha-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/07_kha-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/07_kha-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «хә»",
+      "source": "022-kha-middle.md"
+    }
+  ]
+}

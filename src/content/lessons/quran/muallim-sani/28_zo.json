@@ -1,0 +1,86 @@
+{
+  "id": 28,
+  "slug": "zo",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «ҙа»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «ҙа»",
+      "description": "Твёрдый звук «ҙа» образуется при задевании кончиком языка концов верхних резцов с участием голосовых связок. Твёрдый вариант звука «ҙәль».",
+      "letters": [
+        {
+          "name": "Ҙа",
+          "arabic": "ظ",
+          "arabname": "ظَاء",
+          "audio": "/media/quran/muallim-sani/audio/alifba/17_zo.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "ظُ",
+            "transcription": "ҙу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/17_zo-damma.mp3"
+          },
+          {
+            "arabic": "ظِ",
+            "transcription": "ҙи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/17_zo-kasra.mp3"
+          },
+          {
+            "arabic": "ظَ",
+            "transcription": "ҙа",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/17_zo-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Dha.webp",
+        "description": "Кончик языка и концы верхних резцов (твёрдый межзубный)"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/17_zo.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/17_zo-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/17_zo-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/17_zo-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/17_zo-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «ҙа»",
+      "source": "028-dha.md"
+    }
+  ]
+}

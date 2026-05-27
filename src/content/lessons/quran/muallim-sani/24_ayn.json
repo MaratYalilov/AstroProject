@@ -1,0 +1,86 @@
+{
+  "id": 24,
+  "slug": "ayn",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": "Звук «٬әйн»",
+  "blocks": [
+    {
+      "type": "letter-lesson",
+      "title": "Звук «٬әйн»",
+      "description": "Звук «٬әйн» выходит из средней части гортани при смыкании голосовых связок.",
+      "letters": [
+        {
+          "name": "Ъәйн",
+          "arabic": "ع",
+          "arabname": "عَيْن",
+          "audio": "/media/quran/muallim-sani/audio/alifba/18_ain.mp3",
+          "image": ""
+        }
+      ],
+      "pronunciation": {
+        "title": "Огласовки",
+        "audio": "",
+        "items": [
+          {
+            "arabic": "عُ",
+            "transcription": "ъу",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/18_ain-damma.mp3"
+          },
+          {
+            "arabic": "عِ",
+            "transcription": "ъи",
+            "color": "#9333ea",
+            "audio": "/media/quran/muallim-sani/audio/byletters/18_ain-kasra.mp3"
+          },
+          {
+            "arabic": "عَ",
+            "transcription": "ъә",
+            "color": "#3b82f6",
+            "audio": "/media/quran/muallim-sani/audio/byletters/18_ain-fatha.mp3"
+          }
+        ]
+      },
+      "makhraj": {
+        "image": "/media/quran/muallim-sani/images/makhraj/Ayn.webp",
+        "description": "Средняя часть гортани со смыканием голосовых связок"
+      }
+    },
+    {
+      "type": "writing-and-forms",
+      "title": "Написание буквы",
+      "animation": {
+        "format": "svg",
+        "src": "/media/quran/muallim-sani/animations/svg/18_ain.svg"
+      },
+      "forms": [
+        {
+          "position": "isolated",
+          "label": "Отдельно",
+          "image": "/media/quran/muallim-sani/forms/18_ain-isolated.webp"
+        },
+        {
+          "position": "final",
+          "label": "В конце",
+          "image": "/media/quran/muallim-sani/forms/18_ain-final.webp"
+        },
+        {
+          "position": "middle",
+          "label": "В середине",
+          "image": "/media/quran/muallim-sani/forms/18_ain-middle.webp"
+        },
+        {
+          "position": "initial",
+          "label": "В начале",
+          "image": "/media/quran/muallim-sani/forms/18_ain-initial.webp"
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Звук «٬әйн»",
+      "source": "024-ayn.md"
+    }
+  ]
+}
