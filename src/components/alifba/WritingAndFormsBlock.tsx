@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
+import { FORM_THEME, type FormName } from "./formTheme";
 
 type FormItem = {
-  position: "isolated" | "final" | "middle" | "initial";
+  position: FormName;
   label: string;
   image: string;
 };
@@ -16,13 +17,6 @@ type Props = {
   arabname?: string;
   animation: Animation;
   forms: FormItem[];
-};
-
-const positionColors: Record<FormItem["position"], string> = {
-  isolated: "#3c6da2",
-  final: "#78477d",
-  middle: "#943634",
-  initial: "#667f35",
 };
 
 export default function WritingAndFormsBlock({
@@ -93,8 +87,7 @@ export default function WritingAndFormsBlock({
                 className="h-full w-full object-contain transition duration-300 group-hover:scale-105"
               />
               <span
-                className="absolute right-2 top-2 inline-block h-3 w-3 rounded-full"
-                style={{ backgroundColor: positionColors[form.position] }}
+                className={`absolute right-2 top-2 inline-block h-3 w-3 rounded-full ${FORM_THEME[form.position].dot}`}
               />
             </div>
           </motion.div>

@@ -41,19 +41,19 @@
           {
             "arabic": "ـنُ",
             "transcription": "ну",
-            "color": "#78477d",
+            "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/25_nun-damma.mp3"
           },
           {
             "arabic": "ـنِـ",
             "transcription": "ни",
-            "color": "#943634",
+            "form": "middle",
             "audio": "/media/quran/muallim-sani/audio/byletters/25_nun-kasra.mp3"
           },
           {
             "arabic": "نَـ",
             "transcription": "нә",
-            "color": "#667f35",
+            "form": "initial",
             "audio": "/media/quran/muallim-sani/audio/byletters/25_nun-fatha.mp3"
           }
         ]

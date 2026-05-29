@@ -41,19 +41,19 @@
           {
             "arabic": "ـرُ",
             "transcription": "ру",
-            "color": "#78477d",
+            "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/10_ra-damma.mp3"
           },
           {
             "arabic": "ـرِ",
             "transcription": "ри",
-            "color": "#78477d",
+            "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/10_ra-kasra.mp3"
           },
           {
             "arabic": "رَ",
             "transcription": "ра",
-            "color": "#3c6da2",
+            "form": "isolated",
             "audio": "/media/quran/muallim-sani/audio/byletters/10_ra-fatha.mp3"
           }
         ]

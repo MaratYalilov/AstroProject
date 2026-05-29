@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Pause, Play, RotateCcw } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Howl } from "howler";
+import { FORM_THEME, type FormName } from "./formTheme";
 
 type Letter = {
   name: string;
@@ -18,7 +19,7 @@ type Letter = {
 type PronunciationItem = {
   arabic: string;
   transcription: string;
-  color?: string;
+  form?: FormName;
   audio?: string;
 };
 
@@ -390,8 +391,8 @@ export default function LetterIntroCombined({
                           tabIndex={0}
                         >
                           <span
-                            className="mb-1.5 block py-2.5 text-[56px] font-normal leading-[1.1] dark:brightness-150"
-                            style={{ fontFamily: arabicFont, color: '#3c6da2' }}
+                            className={`mb-1.5 block py-2.5 text-[56px] font-normal leading-[1.1]  ${FORM_THEME.isolated.text}`}
+                            style={{ fontFamily: arabicFont }}
                           >
                             {letter.arabic}
                           </span>
@@ -436,10 +437,9 @@ export default function LetterIntroCombined({
                             tabIndex={0}
                           >
                             <span
-                              className="mb-1.5 block py-3.5 text-[56px] font-normal leading-[1.3] text-gray-900 dark:brightness-150"
+                              className={`mb-1.5 block py-3.5 text-[56px] font-normal leading-[1.3]  ${item.form ? FORM_THEME[item.form].text : "text-gray-900"}`}
                               style={{
                                 fontFamily: arabicFont,
-                                color: item.color,
                               }}
                             >
                               {item.arabic}

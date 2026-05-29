@@ -41,19 +41,19 @@
           {
             "arabic": "ـزُ",
             "transcription": "зу",
-            "color": "#78477d",
+            "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/11_zai-damma.mp3"
           },
           {
             "arabic": "ـزِ",
             "transcription": "зи",
-            "color": "#78477d",
+            "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/11_zai-kasra.mp3"
           },
           {
             "arabic": "زَ",
             "transcription": "зә",
-            "color": "#3c6da2",
+            "form": "isolated",
             "audio": "/media/quran/muallim-sani/audio/byletters/11_zai-fatha.mp3"
           }
         ]

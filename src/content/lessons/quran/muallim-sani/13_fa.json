@@ -41,19 +41,19 @@
           {
             "arabic": "ـفُ",
             "transcription": "фу",
-            "color": "#78477d",
+            "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/20_fa-damma.mp3"
           },
           {
             "arabic": "ـفِـ",
             "transcription": "фи",
-            "color": "#943634",
+            "form": "middle",
             "audio": "/media/quran/muallim-sani/audio/byletters/20_fa-kasra.mp3"
           },
           {
             "arabic": "فَـ",
             "transcription": "фә",
-            "color": "#667f35",
+            "form": "initial",
             "audio": "/media/quran/muallim-sani/audio/byletters/20_fa-fatha.mp3"
           }
         ]

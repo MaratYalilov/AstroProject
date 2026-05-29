@@ -41,19 +41,19 @@
           {
             "arabic": "ـمُ",
             "transcription": "му",
-            "color": "#78477d",
+            "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/24_mim-damma.mp3"
           },
           {
             "arabic": "ـمِـ",
             "transcription": "ми",
-            "color": "#943634",
+            "form": "middle",
             "audio": "/media/quran/muallim-sani/audio/byletters/24_mim-kasra.mp3"
           },
           {
             "arabic": "مَـ",
             "transcription": "мә",
-            "color": "#667f35",
+            "form": "initial",
             "audio": "/media/quran/muallim-sani/audio/byletters/24_mim-fatha.mp3"
           }
         ]

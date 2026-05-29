@@ -41,19 +41,19 @@
           {
             "arabic": "ـطُ",
             "transcription": "ту",
-            "color": "#78477d",
+            "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/16_to-damma.mp3"
           },
           {
             "arabic": "ـطِـ",
             "transcription": "ти",
-            "color": "#943634",
+            "form": "middle",
             "audio": "/media/quran/muallim-sani/audio/byletters/16_to-kasra.mp3"
           },
           {
             "arabic": "طَـ",
             "transcription": "та",
-            "color": "#667f35",
+            "form": "initial",
             "audio": "/media/quran/muallim-sani/audio/byletters/16_to-fatha.mp3"
           }
         ]

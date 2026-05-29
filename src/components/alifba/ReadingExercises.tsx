@@ -15,13 +15,11 @@ import {
 } from "lucide-react";
 import { Howl } from "howler";
 import exercisesData from "@/content/lessons/quran/muallim-sani/exercises.json";
-
-type FormName = "initial" | "middle" | "final" | "isolated";
+import { FORM_THEME, type FormName } from "./formTheme";
 
 type ExerciseSegment = {
   text: string;
   form?: FormName;
-  color?: string;
 };
 
 type Exercise = {
@@ -58,27 +56,6 @@ type Props = {
   lessonOrder?: number;
 };
 
-const FORM_COLORS: Record<FormName, string> = {
-  initial: "text-forest-500 dark:text-forest-400",  // лес
-  middle: "text-terracotta-500 dark:text-terracotta-400", // терракота
-  final: "text-eggplant-500 dark:text-eggplant-400",     // баклажан
-  isolated: "text-fjord-500 dark:text-fjord-300", // пыльно-синий
-};
-
-const FORM_DOTS: Record<FormName, string> = {
-  initial: "bg-forest-500 shadow-forest-500/30",
-  middle: "bg-terracotta-500 shadow-terracotta-500/30",
-  final: "bg-eggplant-500 shadow-eggplant-500/30",
-  isolated: "bg-fjord-500 shadow-fjord-500/30",
-};
-
-const RAW_COLOR_TO_FORM: Record<string, FormName> = {
-  "#667f35": "initial",
-  "#943634": "middle",
-  "#78477d": "final",
-  "#3c6da2": "isolated",
-};
-
 const LEGEND: { form: FormName; label: string }[] = [
   { form: "initial", label: "Начальная форма" },
   { form: "middle", label: "Серединная форма" },
@@ -110,9 +87,7 @@ function AudioWave() {
 }
 
 function normalizeForm(segment: ExerciseSegment): FormName | undefined {
-  if (segment.form) return segment.form;
-  if (!segment.color) return undefined;
-  return RAW_COLOR_TO_FORM[segment.color.trim().toLowerCase()];
+  return segment.form;
 }
 
 function normalizeArabicMarks(text: string) {
@@ -181,7 +156,7 @@ function renderExerciseText(exercise: Exercise) {
         key={`${segment.text}-${index}`}
         className={[
           "arab inline",
-          form ? FORM_COLORS[form] : "text-gray-900 dark:text-[#e8e1d8]",
+          form ? FORM_THEME[form].text : "text-gray-900 dark:text-[#e8e1d8]",
         ].join(" ")}
         style={{
           direction: "inherit",
@@ -440,7 +415,7 @@ export default function ReadingExercises({ lessonOrder }: Props) {
               className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/75 px-3 py-2 text-xs font-medium text-gray-700 shadow-sm shadow-gray-200/50 backdrop-blur dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-200 dark:shadow-none"
             >
               <span
-                className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_DOTS[item.form]}`}
+                className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_THEME[item.form].dot}`}
               />
               {item.label}
             </span>
