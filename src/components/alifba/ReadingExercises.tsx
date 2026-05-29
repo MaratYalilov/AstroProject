@@ -16,6 +16,8 @@ import {
 import { Howl } from "howler";
 import exercisesData from "@/content/lessons/quran/muallim-sani/exercises.json";
 import { FORM_THEME, type FormName } from "./formTheme";
+import { Menu, Transition } from "@headlessui/react";
+import { Fragment } from "react";
 
 type ExerciseSegment = {
   text: string;
@@ -57,10 +59,10 @@ type Props = {
 };
 
 const LEGEND: { form: FormName; label: string }[] = [
-  { form: "initial", label: "Начальная форма" },
-  { form: "middle", label: "Серединная форма" },
-  { form: "final", label: "Конечная форма" },
   { form: "isolated", label: "Отдельная форма" },
+  { form: "final", label: "Конечная форма" },
+  { form: "middle", label: "Серединная форма" },
+  { form: "initial", label: "Начальная форма" },
 ];
 
 const SEQUENCE_GAP_MS = 520;
@@ -408,19 +410,89 @@ export default function ReadingExercises({ lessonOrder }: Props) {
           </div> */}
         </header>
 
-        <div className="flex flex-wrap gap-2">
+<>
+  {/* DESKTOP */}
+  <div className="hidden flex-wrap gap-2 sm:flex">
+    {LEGEND.map((item) => (
+      <span
+        key={item.form}
+        className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/75 px-3 py-2 text-xs font-medium text-gray-700 shadow-sm shadow-gray-200/50 backdrop-blur dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-200 dark:shadow-none"
+      >
+        <span
+          className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_THEME[item.form].dot}`}
+        />
+        {item.label}
+      </span>
+    ))}
+  </div>
+
+  {/* MOBILE */}
+  <div className="sm:hidden">
+    <Menu as="div" className="relative inline-block text-left">
+      <Menu.Button
+        className="
+          inline-flex items-center gap-2 rounded-full
+          border border-gray-200 bg-white/75
+          px-3 py-2 text-xs font-medium
+          text-gray-700 shadow-sm shadow-gray-200/50
+          backdrop-blur transition
+          dark:border-white/10 dark:bg-white/[0.06]
+          dark:text-slate-200 dark:shadow-none
+        "
+      >
+        <div className="flex items-center gap-1">
           {LEGEND.map((item) => (
             <span
               key={item.form}
-              className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/75 px-3 py-2 text-xs font-medium text-gray-700 shadow-sm shadow-gray-200/50 backdrop-blur dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-200 dark:shadow-none"
-            >
-              <span
-                className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_THEME[item.form].dot}`}
-              />
-              {item.label}
-            </span>
+              className={`h-2.5 w-2.5 rounded-full ${FORM_THEME[item.form].dot}`}
+            />
           ))}
         </div>
+
+        Формы букв
+      </Menu.Button>
+
+      <Transition
+        as={Fragment}
+        enter="transition duration-100 ease-out"
+        enterFrom="scale-95 opacity-0"
+        enterTo="scale-100 opacity-100"
+        leave="transition duration-75 ease-in"
+        leaveFrom="scale-100 opacity-100"
+        leaveTo="scale-95 opacity-0"
+      >
+        <Menu.Items
+          className="
+            absolute left-0 z-30 mt-2 w-60 origin-top-left
+            rounded-2xl border border-gray-200
+            bg-white/95 p-2 shadow-2xl backdrop-blur-xl
+            dark:border-white/10 dark:bg-slate-900/95
+          "
+        >
+          <div className="flex flex-col gap-1">
+            {LEGEND.map((item) => (
+              <div
+                key={item.form}
+                className="
+                  flex items-center gap-2 rounded-xl
+                  px-3 py-2 text-sm
+                  text-gray-700
+                  dark:text-slate-200
+                "
+              >
+                <span
+                  className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_THEME[item.form].dot}`}
+                />
+
+                {item.label}
+              </div>
+            ))}
+          </div>
+        </Menu.Items>
+      </Transition>
+    </Menu>
+  </div>
+</>
 
         <div className="sticky top-[69px] z-20 order-first flex justify-center">
           <div
