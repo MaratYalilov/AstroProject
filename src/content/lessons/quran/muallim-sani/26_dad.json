@@ -41,7 +41,7 @@
           {
             "arabic": "ـضُ",
             "transcription": "dу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/15_dad-damma.mp3"
           },
           {
@@ -59,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Dad.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/15_dad.webp",
         "description": "Края языка и верхние коренные зубы"
       }
     },
@@ -105,6 +105,9 @@
         }
       ],
       "source": "026-dad.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

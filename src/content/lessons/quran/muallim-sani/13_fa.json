@@ -41,7 +41,7 @@
           {
             "arabic": "ـفُ",
             "transcription": "фу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/20_fa-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "013-fa.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

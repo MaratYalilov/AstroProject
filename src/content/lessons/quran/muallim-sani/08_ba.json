@@ -41,7 +41,7 @@
           {
             "arabic": "ـبُ",
             "transcription": "бу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/02_ba-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "008-ba.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

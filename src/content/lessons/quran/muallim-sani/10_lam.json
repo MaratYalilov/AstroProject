@@ -41,7 +41,7 @@
           {
             "arabic": "ـلُ",
             "transcription": "лу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/23_lam-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "010-lam.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

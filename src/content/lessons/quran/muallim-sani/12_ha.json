@@ -41,7 +41,7 @@
           {
             "arabic": "ـهُ",
             "transcription": "һу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/27_ha2-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "012-ha.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

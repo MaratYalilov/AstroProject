@@ -41,7 +41,7 @@
           {
             "arabic": "ـجُ",
             "transcription": "дҗу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/05_jim-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "020-jim.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

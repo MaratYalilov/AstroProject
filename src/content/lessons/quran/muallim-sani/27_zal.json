@@ -41,19 +41,19 @@
           {
             "arabic": "ـذُ",
             "transcription": "ҙу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-damma.mp3"
           },
           {
             "arabic": "ـذِ",
             "transcription": "ҙи",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-kasra.mp3"
           },
           {
             "arabic": "ذَ",
             "transcription": "ҙә",
-            "color": "#3b82f6",
+            "color": "#3c6da2",
             "audio": "/media/quran/muallim-sani/audio/byletters/09_zal-fatha.mp3"
           }
         ]
@@ -105,6 +105,9 @@
         }
       ],
       "source": "027-dhal.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

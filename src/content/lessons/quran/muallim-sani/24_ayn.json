@@ -5,14 +5,11 @@
   "course": "muallim-sani",
   "title": [
     {
-      "text": "Буква «"
+      "text": "Буква «٬әйн»"
     },
     {
-      "text": "٬",
+      "text": "ع",
       "arab": true
-    },
-    {
-      "text": "әйн»"
     }
   ],
   "blocks": [
@@ -44,7 +41,7 @@
           {
             "arabic": "ـعُ",
             "transcription": "ъу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/18_ain-damma.mp3"
           },
           {
@@ -62,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Ayn.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/18_ain.webp",
         "description": "Средняя часть гортани со смыканием голосовых связок"
       }
     },
@@ -108,6 +105,9 @@
         }
       ],
       "source": "024-ayn.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

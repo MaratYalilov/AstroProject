@@ -41,7 +41,7 @@
           {
             "arabic": "ـتُ",
             "transcription": "ту",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/03_ta-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "005-ta.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

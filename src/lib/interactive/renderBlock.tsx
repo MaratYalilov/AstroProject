@@ -6,6 +6,7 @@ import PronunciationGrid from "@/components/alifba/PronunciationGrid";
 import TheoryReveal from "@/components/alifba/TheoryReveal";
 import WritingAndFormsBlock from "@/components/alifba/WritingAndFormsBlock";
 import AlphabetGrid from "@/components/alifba/AlphabetGrid";
+import ReadingExercises from "@/components/alifba/ReadingExercises";
 
 import type {
   LessonBlock,
@@ -14,11 +15,13 @@ import type {
 type Props = {
   block: LessonBlock;
   arabname?: string;
+  lessonId?: number;
 };
 
 export default function RenderBlock({
   block,
   arabname,
+  lessonId,
 }: Props) {
   switch (block.type) {
     case "letter-intro":
@@ -90,6 +93,13 @@ case "pronunciation-grid":
 
     case "alphabet-grid":
       return <AlphabetGrid />;
+
+    case "reading-exercises":
+      return (
+        <ReadingExercises
+          lessonOrder={block.lessonOrder ?? lessonId}
+        />
+      );
 
     default:
       return (

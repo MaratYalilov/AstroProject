@@ -41,7 +41,7 @@
           {
             "arabic": "ـكُ",
             "transcription": "ку",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/22_kaf-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "009-kaf.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

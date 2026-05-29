@@ -41,7 +41,7 @@
           {
             "arabic": "ـقُ",
             "transcription": "қу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/21_qaf-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "014-qaf.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

@@ -41,7 +41,7 @@
           {
             "arabic": "ـيُ",
             "transcription": "йу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/29_ya-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "007-ya.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

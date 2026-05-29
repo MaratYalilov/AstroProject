@@ -8,6 +8,7 @@ type TitleSegment = {
 
 type Props = {
   lesson: {
+    id?: number;
     title: string | TitleSegment[];
     blocks: any[];
   };
@@ -40,6 +41,7 @@ export default function InteractiveLessonPage({
           <RenderBlock
             key={index}
             block={block}
+            lessonId={lesson.id}
             arabname={block.type === "writing-and-forms" ? arabname : undefined}
           />
         );

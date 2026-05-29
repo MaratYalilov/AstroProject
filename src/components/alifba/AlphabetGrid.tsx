@@ -243,7 +243,7 @@ export default function AlphabetGrid() {
   return (
     <div className="relative w-full space-y-6">
       {/* Player — над сеткой, sticky чтобы не перекрывал навигацию внизу */}
-      <div className="sticky top-16 z-10 flex justify-center">
+      <div className="sticky top-[69px] z-10 flex justify-center">
         <button
           type="button"
           onClick={togglePlaylist}

@@ -25,19 +25,19 @@
           {
             "arabic": "ـأُ",
             "transcription": "у",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/01_alif-damma.mp3"
           },
           {
             "arabic": "ـإِ",
             "transcription": "и",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/01_alif-kasra.mp3"
           },
           {
             "arabic": "أَ",
             "transcription": "ә",
-            "color": "#3b82f6",
+            "color": "#3c6da2",
             "audio": "/media/quran/muallim-sani/audio/byletters/01_alif-fatha.mp3"
           }
         ]
@@ -82,5 +82,6 @@
       "title": "Әлиф и һәмзә",
       "source": "001-alif.md"
     }
+
   ]
 }

@@ -12,14 +12,14 @@ const nonJoiningLetters = ['ا', 'ر', 'ز', 'و', 'د', 'ذ'];
 const joiningRules = {
   fatha: { color: '#667f35', form: 'initial' },    // зелёный → начальная
   kasra: { color: '#943634', form: 'middle' },      // бордо → срединная
-  damma: { color: '#9333ea', form: 'final' },       // баклажан → конечная
+  damma: { color: '#78477d', form: 'final' },       // баклажан → конечная
 };
 
 // Правила для несоединяемых слева букв (по образцу 002-ra.json)
 const nonJoiningRules = {
-  fatha: { color: '#3b82f6', form: 'isolated' },    // синий → отдельная
+  fatha: { color: '#3c6da2', form: 'isolated' },    // синий → отдельная
   kasra: { color: '#943634', form: 'final' },       // бордо → конечная
-  damma: { color: '#9333ea', form: 'final' },       // баклажан → конечная
+  damma: { color: '#78477d', form: 'final' },       // баклажан → конечная
 };
 
 function getVowelType(arabic) {

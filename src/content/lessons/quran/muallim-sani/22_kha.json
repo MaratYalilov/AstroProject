@@ -41,7 +41,7 @@
           {
             "arabic": "ـخُ",
             "transcription": "ху",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/07_kha-damma.mp3"
           },
           {
@@ -59,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/KhaMiddle.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/07_kha.webp",
         "description": "Средняя часть гортани"
       }
     },
@@ -105,6 +105,9 @@
         }
       ],
       "source": "022-kha-middle.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

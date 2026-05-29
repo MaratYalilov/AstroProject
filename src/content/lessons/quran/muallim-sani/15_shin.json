@@ -41,7 +41,7 @@
           {
             "arabic": "ـشُ",
             "transcription": "шу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/13_shin-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "015-shin.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

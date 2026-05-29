@@ -41,7 +41,7 @@
           {
             "arabic": "ـحُ",
             "transcription": "ҳу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/06_ha-damma.mp3"
           },
           {
@@ -59,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/HaUpper.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/06_ha.webp",
         "description": "Верхняя часть гортани"
       }
     },
@@ -105,6 +105,9 @@
         }
       ],
       "source": "021-ha-upper.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

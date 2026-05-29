@@ -119,6 +119,11 @@ export type AlphabetGridBlock = {
   type: "alphabet-grid";
 };
 
+export type ReadingExercisesBlock = {
+  type: "reading-exercises";
+  lessonOrder?: number;
+};
+
 export type LessonBlock =
   | LetterIntroBlock
   | LetterLessonBlock
@@ -128,4 +133,5 @@ export type LessonBlock =
   | ReadingPracticeBlock
   | WritingAndFormsBlock
   | AlphabetGridBlock
+  | ReadingExercisesBlock
   | TheoryBlock;

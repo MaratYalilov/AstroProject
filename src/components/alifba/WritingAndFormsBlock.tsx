@@ -19,8 +19,8 @@ type Props = {
 };
 
 const positionColors: Record<FormItem["position"], string> = {
-  isolated: "#3b82f6",
-  final: "#9333ea",
+  isolated: "#3c6da2",
+  final: "#78477d",
   middle: "#943634",
   initial: "#667f35",
 };

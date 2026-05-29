@@ -41,7 +41,7 @@
           {
             "arabic": "ـصُ",
             "transcription": "ċу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/14_sad-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "018-sad.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

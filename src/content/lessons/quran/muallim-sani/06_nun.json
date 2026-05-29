@@ -41,7 +41,7 @@
           {
             "arabic": "ـنُ",
             "transcription": "ну",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/25_nun-damma.mp3"
           },
           {
@@ -105,6 +105,9 @@
         }
       ],
       "source": "006-nun.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

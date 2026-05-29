@@ -41,7 +41,7 @@
           {
             "arabic": "ـغُ",
             "transcription": "ғу",
-            "color": "#9333ea",
+            "color": "#78477d",
             "audio": "/media/quran/muallim-sani/audio/byletters/19_ghain-damma.mp3"
           },
           {
@@ -59,7 +59,7 @@
         ]
       },
       "makhraj": {
-        "image": "/media/quran/muallim-sani/images/makhraj/Ghayn.webp",
+        "image": "/media/quran/muallim-sani/images/makhraj/19_ghain.webp",
         "description": "Верхняя часть гортани со смыканием голосовых связок"
       }
     },
@@ -105,6 +105,9 @@
         }
       ],
       "source": "023-ghayn.md"
+    },
+    {
+      "type": "reading-exercises"
     }
   ]
 }

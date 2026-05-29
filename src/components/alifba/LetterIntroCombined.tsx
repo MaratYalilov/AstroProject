@@ -368,7 +368,7 @@ export default function LetterIntroCombined({
       </div>
 
       {/* Grid: буквы + махрадж, описание на всю ширину */}
-      <div className="grid min-h-[360px] gap-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr] px-2 sm:px-0">
+      <div className="grid  gap-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr] px-2 sm:px-0">
         {/* Левая часть: буквы + огласовки */}
         <div>
           <div className="flex flex-col gap-[18px]">
@@ -391,7 +391,7 @@ export default function LetterIntroCombined({
                         >
                           <span
                             className="mb-1.5 block py-2.5 text-[56px] font-normal leading-[1.1] dark:brightness-150"
-                            style={{ fontFamily: arabicFont, color: '#3b82f6' }}
+                            style={{ fontFamily: arabicFont, color: '#3c6da2' }}
                           >
                             {letter.arabic}
                           </span>
@@ -478,11 +478,11 @@ export default function LetterIntroCombined({
           </div>
 
           {/* Описание */}
-          {description && (
+          {/* {description && (
             <div className="mt-5 text-xl font-normal leading-snug text-gray-700 max-sm:text-lg dark:text-slate-200">
               <p className="m-0">{description}</p>
             </div>
-          )}
+          )} */}
         </div>
 
         {/* Правая часть: махрадж */}
@@ -499,11 +499,11 @@ export default function LetterIntroCombined({
                 className="h-auto w-full rounded-[10px] border-2 border-[#353535]/50 bg-white"
               />
             </div>
-            {makhrajDescription && (
+            {/* {makhrajDescription && (
               <span className="block w-full p-2.5 text-center text-[22px] font-normal leading-[1.3] text-gray-800 dark:text-slate-200">
                 {makhrajDescription}
               </span>
-            )}
+            )} */}
           </motion.div>
         )}
       </div>
