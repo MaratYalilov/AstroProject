@@ -65,7 +65,7 @@ const LEGEND: { form: FormName; label: string }[] = [
   { form: "initial", label: "Начальная форма" },
 ];
 
-const SEQUENCE_GAP_MS = 520;
+const SEQUENCE_GAP_MS = 2000; // 2 секунды паузы между упражнениями в плейлисте
 const NORMAL_RATE = 1;
 const SLOW_RATE = 0.75;
 
