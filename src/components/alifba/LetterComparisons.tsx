@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef } from "react";
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Play,
@@ -8,9 +8,10 @@ import {
   Volume2,
   AudioLines,
   Check,
+  Headphones,
 } from "lucide-react";
 import { FORM_THEME, type FormName } from "./formTheme";
-import { useAudioPlayer, type PlaybackStatus } from "./useAudioPlayer";
+import { Howl } from "howler";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -19,14 +20,18 @@ type ComparisonSegment = {
   form?: FormName;
 };
 
-type Comparison = {
-  id: number;
+type ComparisonSide = {
   audio: string;
-  left: ComparisonSegment[];
-  right: ComparisonSegment[];
+  segments: ComparisonSegment[];
 };
 
-export type { Comparison, ComparisonSegment };
+type Comparison = {
+  id: number;
+  left: ComparisonSide;
+  right: ComparisonSide;
+};
+
+export type { Comparison, ComparisonSegment, ComparisonSide };
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -114,6 +119,46 @@ function AudioWave() {
   );
 }
 
+// ─── Audio Button for a single side ──────────────────────────────────────────
+
+function AudioButton({
+  audio,
+  isActive,
+  isPlaying,
+  label,
+  onClick,
+}: {
+  audio: string;
+  isActive: boolean;
+  isPlaying: boolean;
+  label: string;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={(e) => {
+        e.stopPropagation();
+        onClick();
+      }}
+      className={[
+        "flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-all duration-200",
+        isActive && isPlaying
+          ? "bg-amber-500 text-white shadow-lg shadow-amber-500/30 ring-2 ring-amber-400/50"
+          : "bg-amber-100 text-amber-700 hover:bg-amber-200 dark:bg-amber-400/15 dark:text-amber-300 dark:hover:bg-amber-400/25",
+      ].join(" ")}
+      aria-label={label}
+      title={label}
+    >
+      {isActive && isPlaying ? (
+        <AudioWave />
+      ) : (
+        <Headphones size={16} aria-hidden="true" />
+      )}
+    </button>
+  );
+}
+
 // ─── Floating Audio Pill ─────────────────────────────────────────────────────
 
 function formatCounter(index: number | null, total: number) {
@@ -130,7 +175,7 @@ function AudioPill({
   onReplay,
   onStop,
 }: {
-  status: PlaybackStatus;
+  status: "idle" | "playing" | "paused" | "completed";
   activeIndex: number | null;
   total: number;
   isPlaying: boolean;
@@ -172,9 +217,7 @@ function AudioPill({
         <div className="flex items-center justify-between gap-3">
           <div className="min-w-0">
             <p className="m-0 truncate text-left text-sm font-semibold leading-5 text-gray-950 dark:text-white sm:text-base">
-              {status === "completed"
-                ? "Сравнение завершено"
-                : "Прослушать все сравнения"}
+              Прослушать все сравнения
             </p>
             <p className="m-0 truncate text-left text-[12px] leading-4 text-gray-500 dark:text-slate-400">
               {formatCounter(activeIndex, total)}
@@ -209,6 +252,184 @@ function AudioPill({
   );
 }
 
+// ─── Custom hook for playing two audios per comparison ───────────────────────
+
+type PlayState = {
+  activeIndex: number | null;
+  activeSide: "left" | "right" | null;
+  status: "idle" | "playing" | "paused" | "completed";
+};
+
+function useComparisonPlayer({ comparisons }: { comparisons: Comparison[] }) {
+  const [state, setState] = useState<PlayState>({
+    activeIndex: null,
+    activeSide: null,
+    status: "idle",
+  });
+  const howlsRef = useRef<Record<string, Howl>>({});
+  const playlistTokenRef = useRef(0);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Preload all howls
+  useEffect(() => {
+    comparisons.forEach((comp) => {
+      [comp.left, comp.right].forEach((side) => {
+        if (!howlsRef.current[side.audio]) {
+          howlsRef.current[side.audio] = new Howl({
+            src: [side.audio],
+            preload: true,
+            html5: true,
+          });
+        }
+      });
+    });
+
+    return () => {
+      Object.values(howlsRef.current).forEach((howl) => howl.unload());
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [comparisons.map((c) => c.left.audio + c.right.audio).join(",")]);
+
+  const stopAll = useCallback(({ markCompleted = false } = {}) => {
+    playlistTokenRef.current += 1;
+    Object.values(howlsRef.current).forEach((howl) => howl.stop());
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setState({
+      activeIndex: null,
+      activeSide: null,
+      status: markCompleted ? "completed" : "idle",
+    });
+  }, []);
+
+  const getHowl = useCallback((audio: string) => {
+    if (!howlsRef.current[audio]) {
+      howlsRef.current[audio] = new Howl({
+        src: [audio],
+        preload: true,
+        html5: true,
+      });
+    }
+    return howlsRef.current[audio];
+  }, []);
+
+  const playSide = useCallback(
+    (
+      index: number,
+      side: "left" | "right",
+      token = playlistTokenRef.current,
+      { playlist = false }: { playlist?: boolean } = {},
+    ) => {
+      const comparison = comparisons[index];
+      if (!comparison) return;
+
+      const sideData = comparison[side];
+      if (!sideData) return;
+
+      Object.values(howlsRef.current).forEach((howl) => howl.stop());
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+
+      const howl = getHowl(sideData.audio);
+      howl.off("end");
+
+      setState({ activeIndex: index, activeSide: side, status: "playing" });
+
+      const id = howl.play();
+
+      howl.once("end", () => {
+        if (playlistTokenRef.current !== token) return;
+
+        if (!playlist) {
+          setState({ activeIndex: null, activeSide: null, status: "idle" });
+          return;
+        }
+
+        // In playlist mode, play the other side of the same comparison
+        const nextSide = side === "right" ? "left" : "right";
+        const nextSideData = comparison[nextSide];
+
+        if (nextSideData && playlistTokenRef.current === token) {
+          // Play the other side
+          timeoutRef.current = setTimeout(() => {
+            if (playlistTokenRef.current !== token) return;
+            const howl2 = getHowl(nextSideData.audio);
+            howl2.off("end");
+            setState({ activeIndex: index, activeSide: nextSide, status: "playing" });
+            const id2 = howl2.play();
+            howl2.once("end", () => {
+              if (playlistTokenRef.current !== token) return;
+              // Move to next comparison
+              const nextIndex = index + 1;
+              if (nextIndex < comparisons.length) {
+                timeoutRef.current = setTimeout(() => {
+                  playSide(nextIndex, "right", token, { playlist: true });
+                }, 2000);
+              } else {
+                setState({ activeIndex: null, activeSide: null, status: "completed" });
+              }
+            });
+          }, 2000);
+        } else {
+          const nextIndex = index + 1;
+          if (nextIndex < comparisons.length) {
+            timeoutRef.current = setTimeout(() => {
+              playSide(nextIndex, "right", token, { playlist: true });
+            }, 2000);
+          } else {
+            setState({ activeIndex: null, activeSide: null, status: "completed" });
+          }
+        }
+      });
+    },
+    [comparisons, getHowl],
+  );
+
+  const handleSideClick = useCallback(
+    (index: number, side: "left" | "right") => {
+      playlistTokenRef.current += 1;
+      playSide(index, side, playlistTokenRef.current, { playlist: false });
+    },
+    [playSide],
+  );
+
+  const handlePlayAll = useCallback(() => {
+    if (state.status === "playing") {
+      Object.values(howlsRef.current).forEach((howl) => howl.pause());
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      setState((prev) => ({ ...prev, status: "paused" }));
+      return;
+    }
+
+    playlistTokenRef.current += 1;
+    const startIndex =
+      state.status === "paused" && state.activeIndex !== null
+        ? state.activeIndex
+        : state.activeIndex ?? 0;
+    playSide(startIndex, "right", playlistTokenRef.current, { playlist: true });
+  }, [state.status, state.activeIndex, playSide]);
+
+  const handleReplay = useCallback(() => {
+    playlistTokenRef.current += 1;
+    if (state.activeIndex !== null && state.activeSide !== null) {
+      playSide(state.activeIndex, state.activeSide, playlistTokenRef.current, {
+        playlist: state.status === "playing",
+      });
+    } else {
+      playSide(0, "right", playlistTokenRef.current, {
+        playlist: state.status === "playing",
+      });
+    }
+  }, [state.activeIndex, state.activeSide, state.status, playSide]);
+
+  return {
+    ...state,
+    stopAll,
+    handleSideClick,
+    handlePlayAll,
+    handleReplay,
+  };
+}
+
 // ─── Main Component ──────────────────────────────────────────────────────────
 
 type LetterComparisonsProps = {
@@ -216,18 +437,18 @@ type LetterComparisonsProps = {
 };
 
 export default function LetterComparisons({ comparisons }: LetterComparisonsProps) {
-  const audioItems = useMemo(() => comparisons, [comparisons]);
   const {
     activeIndex,
+    activeSide,
     status,
     stopAll,
-    handleCardClick,
+    handleSideClick,
     handlePlayAll,
     handleReplay,
-  } = useAudioPlayer({ items: audioItems });
+  } = useComparisonPlayer({ comparisons });
 
   const isPlaying = status === "playing";
-  const cardRefs = useRef<(HTMLButtonElement | null)[]>([]);
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   // Auto-scroll to active card
   useEffect(() => {
@@ -256,7 +477,9 @@ export default function LetterComparisons({ comparisons }: LetterComparisonsProp
             Сравнение букв
           </div>
           <p className="m-0 text-sm leading-6 text-gray-600 dark:text-slate-300 sm:text-base">
-            Обратите внимание на различия в произношении букв.
+            Обратите внимание на различия в произношении букв. Нажмите на
+            кнопку <Headphones size={14} className="inline" aria-hidden="true" /> рядом со словом,
+            чтобы прослушать его произношение.
           </p>
         </header>
 
@@ -273,26 +496,8 @@ export default function LetterComparisons({ comparisons }: LetterComparisonsProp
           />
         </div>
 
-        {/* Completed banner */}
-        <AnimatePresence>
-          {status === "completed" && (
-            <motion.div
-              initial={{ opacity: 0, y: -8, scale: 0.98 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: -8, scale: 0.98 }}
-              className="flex items-center justify-center gap-2 rounded-2xl border border-emerald-300/60 bg-emerald-50/80 px-4 py-3 text-sm font-semibold text-emerald-800 shadow-lg shadow-emerald-500/10 backdrop-blur dark:border-emerald-300/20 dark:bg-emerald-400/10 dark:text-emerald-200"
-            >
-              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-emerald-500 text-white shadow-lg shadow-emerald-500/30">
-                <Check size={17} aria-hidden="true" />
-              </span>
-              Сравнение завершено
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        {/* Comparison cards — horizontal layout, one per row */}
+        {/* Comparison cards */}
         <motion.div
-          dir="rtl"
           initial="hidden"
           animate="show"
           variants={{
@@ -302,30 +507,27 @@ export default function LetterComparisons({ comparisons }: LetterComparisonsProp
           className="flex flex-col gap-3 pb-24 sm:pb-0"
         >
           {comparisons.map((comparison, index) => {
-            const isActive = activeIndex === index;
+            const isLeftActive = activeIndex === index && activeSide === "left";
+            const isRightActive = activeIndex === index && activeSide === "right";
+            const isCardActive = activeIndex === index;
 
             return (
-              <motion.button
-                key={`comparison-${comparison.id}-${comparison.audio}`}
+              <motion.div
+                key={`comparison-${comparison.id}`}
                 ref={(element) => {
                   cardRefs.current[index] = element;
                 }}
-                type="button"
                 variants={{
                   hidden: { opacity: 0, y: 12 },
                   show: { opacity: 1, y: 0 },
                 }}
-                whileHover={{ scale: 1.01 }}
-                whileTap={{ scale: 0.99 }}
-                onClick={() => handleCardClick(index)}
                 className={[
-                  "group relative flex w-full items-center justify-center overflow-hidden rounded-[18px] border px-5 py-4",
+                  "group relative flex w-full items-center justify-center overflow-hidden rounded-[18px] border px-4 py-4 sm:px-5",
                   "bg-white/82 shadow-sm shadow-gray-200/70 backdrop-blur transition-all duration-300",
-                  "hover:border-amber-300/60 hover:bg-amber-50/50 hover:shadow-lg hover:shadow-amber-500/10",
-                  "dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none dark:hover:border-amber-300/30 dark:hover:bg-white/[0.075]",
-                  isActive
+                  "dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none",
+                  isCardActive
                     ? "border-amber-300 ring-2 ring-amber-400/50 shadow-xl shadow-amber-500/20 dark:border-amber-300/40"
-                    : "border-gray-200",
+                    : "border-gray-200 hover:border-amber-300/60 hover:bg-amber-50/50 hover:shadow-lg hover:shadow-amber-500/10 dark:hover:border-amber-300/30 dark:hover:bg-white/[0.075]",
                 ].join(" ")}
               >
                 {/* Background gradient */}
@@ -333,12 +535,12 @@ export default function LetterComparisons({ comparisons }: LetterComparisonsProp
                   className={[
                     "pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300",
                     "bg-gradient-to-br from-amber-400/12 via-transparent to-yellow-300/10",
-                    isActive ? "opacity-100" : "group-hover:opacity-100",
+                    isCardActive ? "opacity-100" : "group-hover:opacity-100",
                   ].join(" ")}
                 />
 
                 {/* Pulse border for active card */}
-                {isActive && (
+                {isCardActive && (
                   <motion.span
                     className="pointer-events-none absolute inset-0 rounded-[18px] border border-amber-300/70"
                     animate={{ opacity: [0.4, 1, 0.4] }}
@@ -346,21 +548,51 @@ export default function LetterComparisons({ comparisons }: LetterComparisonsProp
                   />
                 )}
 
-                {/* Comparison text: left — right, single line */}
-                <span
-                  className="arab relative inline-block tracking-normal whitespace-nowrap"
-                  style={{
-                    fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
-                    lineHeight: 1.25,
-                  }}
-                >
-                  {renderComparisonText(comparison.left)}
-                  <span className="mx-4 text-gray-400 dark:text-slate-500">
-                    —
+                {/* Left side */}
+                <div className="relative flex items-center gap-2 sm:gap-3">
+                  <AudioButton
+                    audio={comparison.left.audio}
+                    isActive={isLeftActive}
+                    isPlaying={isPlaying}
+                    label="Прослушать левое слово"
+                    onClick={() => handleSideClick(index, "left")}
+                  />
+                  <span
+                    className="arab tracking-normal whitespace-nowrap"
+                    style={{
+                      fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
+                      lineHeight: 1.25,
+                    }}
+                  >
+                    {renderComparisonText(comparison.left.segments)}
                   </span>
-                  {renderComparisonText(comparison.right)}
+                </div>
+
+                {/* Separator */}
+                <span className="relative mx-3 shrink-0 text-gray-400 dark:text-slate-500 sm:mx-4">
+                  —
                 </span>
-              </motion.button>
+
+                {/* Right side */}
+                <div className="relative flex items-center gap-2 sm:gap-3">
+                  <span
+                    className="arab tracking-normal whitespace-nowrap"
+                    style={{
+                      fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
+                      lineHeight: 1.25,
+                    }}
+                  >
+                    {renderComparisonText(comparison.right.segments)}
+                  </span>
+                  <AudioButton
+                    audio={comparison.right.audio}
+                    isActive={isRightActive}
+                    isPlaying={isPlaying}
+                    label="Прослушать правое слово"
+                    onClick={() => handleSideClick(index, "right")}
+                  />
+                </div>
+              </motion.div>
             );
           })}
         </motion.div>
