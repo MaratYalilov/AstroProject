@@ -7,8 +7,6 @@ import {
   Square,
   Volume2,
   AudioLines,
-  Check,
-  Headphones,
 } from "lucide-react";
 import { FORM_THEME, type FormName } from "./formTheme";
 import { Howl } from "howler";
@@ -116,46 +114,6 @@ function AudioWave() {
         />
       ))}
     </div>
-  );
-}
-
-// ─── Audio Button for a single side ──────────────────────────────────────────
-
-function AudioButton({
-  audio,
-  isActive,
-  isPlaying,
-  label,
-  onClick,
-}: {
-  audio: string;
-  isActive: boolean;
-  isPlaying: boolean;
-  label: string;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={(e) => {
-        e.stopPropagation();
-        onClick();
-      }}
-      className={[
-        "flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-all duration-200",
-        isActive && isPlaying
-          ? "bg-amber-500 text-white shadow-lg shadow-amber-500/30 ring-2 ring-amber-400/50"
-          : "bg-amber-100 text-amber-700 hover:bg-amber-200 dark:bg-amber-400/15 dark:text-amber-300 dark:hover:bg-amber-400/25",
-      ].join(" ")}
-      aria-label={label}
-      title={label}
-    >
-      {isActive && isPlaying ? (
-        <AudioWave />
-      ) : (
-        <Headphones size={16} aria-hidden="true" />
-      )}
-    </button>
   );
 }
 
@@ -478,8 +436,7 @@ export default function LetterComparisons({ comparisons }: LetterComparisonsProp
           </div>
           <p className="m-0 text-sm leading-6 text-gray-600 dark:text-slate-300 sm:text-base">
             Обратите внимание на различия в произношении букв. Нажмите на
-            кнопку <Headphones size={14} className="inline" aria-hidden="true" /> рядом со словом,
-            чтобы прослушать его произношение.
+            слово, чтобы прослушать его произношение.
           </p>
         </header>
 
@@ -550,22 +507,26 @@ export default function LetterComparisons({ comparisons }: LetterComparisonsProp
 
                 {/* Left side */}
                 <div className="relative flex items-center gap-2 sm:gap-3">
-                  <AudioButton
-                    audio={comparison.left.audio}
-                    isActive={isLeftActive}
-                    isPlaying={isPlaying}
-                    label="Прослушать левое слово"
-                    onClick={() => handleSideClick(index, "left")}
-                  />
-                  <span
-                    className="arab tracking-normal whitespace-nowrap"
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleSideClick(index, "left");
+                    }}
+                    className={[
+                      "arab tracking-normal whitespace-nowrap rounded-xl px-2 py-1 transition-all duration-200",
+                      isLeftActive && isPlaying
+                        ? "bg-amber-500/15 text-amber-700 shadow-inner ring-1 ring-amber-400/40 dark:text-amber-300"
+                        : "hover:bg-amber-50 hover:shadow-sm dark:hover:bg-white/[0.08]",
+                    ].join(" ")}
                     style={{
                       fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
                       lineHeight: 1.25,
                     }}
+                    aria-label="Прослушать левое слово"
                   >
                     {renderComparisonText(comparison.left.segments)}
-                  </span>
+                  </button>
                 </div>
 
                 {/* Separator */}
@@ -575,22 +536,26 @@ export default function LetterComparisons({ comparisons }: LetterComparisonsProp
 
                 {/* Right side */}
                 <div className="relative flex items-center gap-2 sm:gap-3">
-                  <span
-                    className="arab tracking-normal whitespace-nowrap"
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleSideClick(index, "right");
+                    }}
+                    className={[
+                      "arab tracking-normal whitespace-nowrap rounded-xl px-2 py-1 transition-all duration-200",
+                      isRightActive && isPlaying
+                        ? "bg-amber-500/15 text-amber-700 shadow-inner ring-1 ring-amber-400/40 dark:text-amber-300"
+                        : "hover:bg-amber-50 hover:shadow-sm dark:hover:bg-white/[0.08]",
+                    ].join(" ")}
                     style={{
                       fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
                       lineHeight: 1.25,
                     }}
+                    aria-label="Прослушать правое слово"
                   >
                     {renderComparisonText(comparison.right.segments)}
-                  </span>
-                  <AudioButton
-                    audio={comparison.right.audio}
-                    isActive={isRightActive}
-                    isPlaying={isPlaying}
-                    label="Прослушать правое слово"
-                    onClick={() => handleSideClick(index, "right")}
-                  />
+                  </button>
                 </div>
               </motion.div>
             );
