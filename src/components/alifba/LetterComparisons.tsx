@@ -60,7 +60,7 @@ function shouldJoinSegments(previous: string, current: string) {
 
 function renderComparisonText(segments: ComparisonSegment[]) {
   return (
-    <span className="arab inline">
+    <span className="inline">
       {segments.map((segment, index) => {
         const form = segment.form;
         const previousSegment = segments[index - 1];
@@ -73,7 +73,7 @@ function renderComparisonText(segments: ComparisonSegment[]) {
           <span
             key={`${segment.text}-${index}`}
             className={[
-              "inline",
+              "arab inline",
               form ? FORM_THEME[form].text : "text-gray-900 dark:text-[#e8e1d8]",
             ].join(" ")}
             style={{
