@@ -6,18 +6,18 @@ import {
   Play,
   RotateCcw,
   Snail,
-  Sparkles,
   Square,
   Volume2,
-  Target,
-  Dumbbell,
-   AudioLines,
+  AudioLines,
 } from "lucide-react";
-import { Howl } from "howler";
 import exercisesData from "@/content/lessons/quran/muallim-sani/exercises.json";
 import { FORM_THEME, type FormName } from "./formTheme";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
+import { Howl } from "howler";
+import { useAudioPlayer } from "./useAudioPlayer";
+import LetterComparisons from "./LetterComparisons";
+import type { Comparison } from "./LetterComparisons";
 
 type ExerciseSegment = {
   text: string;
@@ -670,6 +670,13 @@ export default function ReadingExercises({ lessonOrder }: Props) {
             );
           })}
         </motion.div>
+
+        {/* Letter Comparisons Section */}
+        {selectedLesson && (selectedLesson as any).comparisons && (
+          <LetterComparisons
+            comparisons={(selectedLesson as any).comparisons as Comparison[]}
+          />
+        )}
       </div>
     </section>
   );
