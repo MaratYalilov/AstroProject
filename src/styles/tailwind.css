@@ -55,7 +55,17 @@
   font-display: swap;
 }
 
-
+@font-face {
+  font-family: 'Propisi';
+  src: url('/fonts/Propisi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@layer utilities {
+  .font-propisi {
+    font-family: 'Propisi', cursive;
+  }
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -129,7 +139,7 @@
 
   /* арабский inline-текст */
   .arab {
-    font-size: clamp(1.2rem, 3.5vw, 1.6rem);
+    font-size: clamp(1.6rem, 3.5vw, 1.8rem);
     line-height: clamp(1, 2, 2.5);
     direction: rtl !important;
     unicode-bidi: isolate;
@@ -156,8 +166,15 @@
       serif !important;
   }
 
-
-
+/* арабский для SVG -огласовки в теории муаллим сани */
+.arab-mark {
+  font-family:
+    "AmiriLocal",
+    "Scheherazade New",
+    "Amiri",
+    serif;
+  font-size: 48px;
+}
 
 
 /* Цитата Корана */
