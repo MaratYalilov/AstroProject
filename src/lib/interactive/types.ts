@@ -124,6 +124,10 @@ export type ReadingExercisesBlock = {
   lessonOrder?: number;
 };
 
+export type LessonCompleteBlock = {
+  type: "lesson-complete";
+};
+
 export type LessonBlock =
   | LetterIntroBlock
   | LetterLessonBlock
@@ -134,4 +138,5 @@ export type LessonBlock =
   | WritingAndFormsBlock
   | AlphabetGridBlock
   | ReadingExercisesBlock
-  | TheoryBlock;
+  | TheoryBlock
+  | LessonCompleteBlock;

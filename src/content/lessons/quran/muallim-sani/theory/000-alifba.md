@@ -54,9 +54,9 @@ order: 1
       <div class="font-propisi text-4xl flex flex-col items-center gap-1">
         кнз шп
           <svg width="120" height="20" viewBox="0 0 120 20" class="text-black dark:text-white">
-          <line x1="110" y1="10" x2="10" y2="10" stroke="currentColor" stroke-width="2"/>
-          <polygon points="10,10 20,5 20,15" fill="currentColor"/>
-        </svg>
+            <line x1="110" y1="10" x2="10" y2="10" stroke="currentColor" stroke-width="2"/>
+            <polygon points="10,10 20,5 20,15" fill="currentColor"/>
+          </svg>
       </div>
     </div>
         <p>
@@ -224,31 +224,34 @@ order: 1
     </div>
     <div class="p-4 relative z-[1]  flex-col items-center justify-between rounded-[18px] border border-gray-200 bg-white text-center shadow-sm shadow-gray-200/70 transition-all duration-300 hover:border-cyan-200 hover:bg-cyan-50/50 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-none dark:hover:border-white/15 dark:hover:bg-white/[0.08]">
       <div class="text-sm opacity-60 mb-2">5. Возвращаем гласные огласовками </div>
-        <svg
-          class="w-full max-w-[320px] mx-auto text-black dark:text-white"
-          viewBox="0 0 320 100">
-          <!-- огласовки -->
-          <text x="52" y="65" class="arab-mark" fill="currentColor">ِ</text>
-          <text x="75" y="80" class="arab-mark" fill="currentColor">َ</text>
-          <text x="98" y="80" class="arab-mark" fill="currentColor">ۡ</text>
-          <text x="125" y="83" class="arab-mark" fill="currentColor">ُ</text>
-          <text x="145" y="65" class="arab-mark" fill="currentColor">ِ</text>
-          <!-- буквы -->
-          <text x="60" y="70"
-                class="font-propisi"
-                style="font-size:48px;"
-                fill="currentColor">кнз</text>
-          <text x="125" y="70"
-                class="font-propisi"
-                style="font-size:48px;"
-                fill="currentColor">шп</text>
-        </svg>
+          <svg
+            class="w-full max-w-[320px] mx-auto text-black dark:text-white"
+            viewBox="0 0 320 110">
+            <!-- огласовки -->
+            <text x="52" y="65" class="arab-mark" fill="currentColor">ِ</text>
+            <text x="75" y="80" class="arab-mark" fill="currentColor">َ</text>
+            <text x="98" y="80" class="arab-mark" fill="currentColor">ۡ</text>
+            <text x="125" y="83" class="arab-mark" fill="currentColor">ُ</text>
+            <text x="145" y="65" class="arab-mark" fill="currentColor">ِ</text>
+            <!-- буквы -->
+            <text x="60" y="70"
+                  class="font-propisi"
+                  style="font-size:48px;"
+                  fill="currentColor">кнз</text>
+            <text x="125" y="70"
+                  class="font-propisi"
+                  style="font-size:48px;"
+                  fill="currentColor">шп</text>
+            <line x1="165" y1="100" x2="50" y2="100" stroke="currentColor" stroke-width="2"/>
+            <polygon points="50,100 60,95 60,105" fill="currentColor"/>
+          </svg>
           <div class="mt-3 text-sm opacity-60">
             Огласовки вернули в слово гласные звуки.
           </div>
   </div>
+    <div class="mt-10 rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900/50 dark:bg-sky-950/20">
+      {Quran}12:2{/Quran}
+    </div>
 
-{Quran}12:2{/Quran}
-  
 </div>
 

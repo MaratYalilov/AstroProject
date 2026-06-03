@@ -12,6 +12,9 @@
       "type": "theory",
       "title": "Алфавит",
       "source": "000-alifba.md"
+    },
+    {
+      "type": "lesson-complete"
     }
   ]
 }

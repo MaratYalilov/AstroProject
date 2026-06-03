@@ -180,7 +180,7 @@
 /* Цитата Корана */
 
 .quran-ayah-block__arabic {
-  font-size: clamp(1.3rem, 3.5vw, 2rem) !important;
+  font-size: clamp(2.2rem, 3.5vw, 2.2rem) !important;
   line-height: clamp(1, 2, 2.5) !important;
 }
 
