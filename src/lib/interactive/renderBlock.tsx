@@ -101,12 +101,18 @@ case "pronunciation-grid":
           lessonOrder={block.lessonOrder ?? lessonId}
         />
       );
-      case "lesson-complete":
-        return (
-          <LessonComplete
-            lessonId={String(lessonId ?? 0)}
-          />
-        );
+
+    case "lesson-complete":
+      return (
+        <LessonComplete
+          lessonId={String(lessonId ?? 0)}
+          arabic={block.arabic}
+          title={block.title}
+          text={block.text}
+          nextLesson={block.nextLesson}
+        />
+      );
+
     default:
       return (
         <div className="rounded-2xl border border-red-500/30 bg-red-500/10 p-6 text-red-300">

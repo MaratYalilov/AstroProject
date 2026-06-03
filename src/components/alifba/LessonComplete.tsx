@@ -3,9 +3,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 type Props = {
   lessonId: string;
+  arabic?: string;
+  title?: string;
+  text?: string;
+  nextLesson?: string;
 };
 
-export default function LessonComplete({ lessonId }: Props) {
+export default function LessonComplete({ lessonId, arabic, title, text, nextLesson }: Props) {
   const storageKey = `lesson-complete-${lessonId}`;
 
   const [done, setDone] = useState(false);
@@ -31,20 +35,22 @@ function handleClick() {
   return (
     <div className="relative mt-10 rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900/50 dark:bg-sky-950/20">
       <div className="arab text-4xl mb-3">
-        بارك الله فيك
+        {arabic}
       </div>
 
       <div className="font-medium mb-2">
-        Да благословит вас Аллах.
+        {title}
       </div>
 
       <p className="text-sm opacity-80">
-        Первый урок завершён. Теперь вы знаете основные принципы арабского письма и назначение огласовок.
+        {text}
       </p>
 
-      <p className="text-sm opacity-80 mb-5">
-        В следующем уроке начнём знакомство с буквами и их звучанием.
-      </p>
+      {nextLesson && (
+        <p className="text-sm opacity-80 mb-5">
+          {nextLesson}
+        </p>
+      )}
 
       {done ? (
         <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-100 px-4 py-2 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300">

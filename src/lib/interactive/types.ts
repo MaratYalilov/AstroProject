@@ -126,6 +126,10 @@ export type ReadingExercisesBlock = {
 
 export type LessonCompleteBlock = {
   type: "lesson-complete";
+  arabic?: string;
+  title?: string;
+  text?: string;
+  nextLesson?: string;
 };
 
 export type LessonBlock =
