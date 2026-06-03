@@ -11,12 +11,12 @@ type Props = {
 };
 
 const COMPLETE_EVENT = "lesson-complete-changed";
-const PARTICLE_COLORS = [
-  "bg-cyan-400",
-  "bg-sky-400",
-  "bg-emerald-300",
-  "bg-emerald-500",
-  "bg-white",
+const FIREWORK_EMOJIS = [
+  "\u2728",
+  "\u2b50",
+  "\ud83c\udf89",
+  "\ud83d\udc9a",
+  "\ud83d\udc99",
 ];
 
 export default function LessonComplete({
@@ -115,10 +115,10 @@ export default function LessonComplete({
             {Array.from({ length: 42 }).map((_, i) => {
               const angle = (360 / 42) * i;
               const distance = 120 + ((i * 37) % 120);
-              const color = PARTICLE_COLORS[i % PARTICLE_COLORS.length];
+              const emoji = FIREWORK_EMOJIS[i % FIREWORK_EMOJIS.length];
 
               return (
-                <motion.span
+                <motion.div
                   key={i}
                   initial={{
                     x: 0,
@@ -137,8 +137,10 @@ export default function LessonComplete({
                     duration: 1.8,
                     ease: "easeOut",
                   }}
-                  className={`absolute left-1/2 top-1/2 h-2.5 w-2.5 rounded-full shadow-lg ${color}`}
-                />
+                  className="absolute left-1/2 top-1/2 text-2xl"
+                >
+                  {emoji}
+                </motion.div>
               );
             })}
           </div>
