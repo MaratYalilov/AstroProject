@@ -29,7 +29,7 @@ export default function InteractiveLessonPage({
       {lesson.blocks.map((block, index) => {
         // Запоминаем arabname из блоков, содержащих letters
         if (
-          (block.type === "letter-intro" || block.type === "letter-lesson") &&
+          block.type === "letter-lesson" &&
           block.letters?.[0]?.arabname
         ) {
           if (block.letters[0].arabname !== arabname) {

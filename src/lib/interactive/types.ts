@@ -1,20 +1,3 @@
-export type LetterIntroBlock = {
-  type: "letter-intro";
-  title: string;
-  description?: string;
-  letters: {
-    name: string;
-    arabic: string;
-    arabname?: string;
-    audio?: string;
-    image?: string;
-  }[];
-  makhraj?: {
-    image?: string;
-    description?: string;
-  };
-};
-
 export type TitleSegment = {
   text: string;
   arab?: boolean;
@@ -45,50 +28,6 @@ export type LetterLessonBlock = {
     image?: string;
     description?: string;
   };
-};
-
-export type PronunciationGridBlock = {
-  type: "pronunciation-grid";
-  title?: string;
-  audio?: string;
-  items: {
-    arabic: string;
-    transcription: string;
-    color?: string;
-    audio?: string;
-  }[];
-};
-
-export type WritingAnimationBlock = {
-  type: "writing-animation";
-  title: string;
-  animation: {
-    format: "gif" | "svg" | "lottie";
-    src: string;
-  };
-};
-
-export type LetterFormsBlock = {
-  type: "letter-forms";
-  title: string;
-  forms: {
-    position:
-      | "isolated"
-      | "final"
-      | "middle"
-      | "initial";
-    label: string;
-    image: string;
-  }[];
-};
-
-export type ReadingPracticeBlock = {
-  type: "reading-practice";
-  title: string;
-  items: {
-    text: string;
-    audio?: string;
-  }[];
 };
 
 export type WritingAndFormsBlock = {
@@ -133,12 +72,7 @@ export type LessonCompleteBlock = {
 };
 
 export type LessonBlock =
-  | LetterIntroBlock
   | LetterLessonBlock
-  | PronunciationGridBlock
-  | WritingAnimationBlock
-  | LetterFormsBlock
-  | ReadingPracticeBlock
   | WritingAndFormsBlock
   | AlphabetGridBlock
   | ReadingExercisesBlock

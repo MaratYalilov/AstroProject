@@ -1,5 +1,5 @@
 // src/components/alifba/LetterIntroCombined.tsx
-// Объединяет letter-intro, pronunciation-grid и makhraj в один блок
+// Combined letter introduction with pronunciation and makhraj.
 
 import React from "react";
 import { motion } from "framer-motion";

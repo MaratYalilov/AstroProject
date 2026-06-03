@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, Lock, BookOpen, ChevronRight, X } from "lucide-react";
 import CourseProgress from "./CourseProgress";
@@ -149,6 +149,8 @@ function SidebarContent({
   currentIndex: number;
   onSelect: (index: number) => void;
 }) {
+  const navRef = useRef<HTMLElement | null>(null);
+  const currentLessonRef = useRef<HTMLButtonElement | null>(null);
   const [completedLessonIds, setCompletedLessonIds] = useState<Set<number>>(
     () => getCompletedLessonIds(lessons)
   );
@@ -167,6 +169,25 @@ function SidebarContent({
       window.removeEventListener(LESSON_COMPLETE_EVENT, syncCompletedLessons);
     };
   }, [lessons]);
+
+  useEffect(() => {
+    const nav = navRef.current;
+    const currentLesson = currentLessonRef.current;
+
+    if (!nav || !currentLesson) {
+      return;
+    }
+
+    const targetTop =
+      currentLesson.offsetTop -
+      nav.offsetTop -
+      (nav.clientHeight - currentLesson.clientHeight) / 2;
+
+    nav.scrollTo({
+      top: Math.max(0, targetTop),
+      behavior: "smooth",
+    });
+  }, [currentIndex, lessons.length]);
 
   const completedCount = lessons.reduce(
     (count, lesson) => count + (completedLessonIds.has(lesson.id) ? 1 : 0),
@@ -191,7 +212,7 @@ function SidebarContent({
       </div>
 
       {/* Lessons list */}
-      <nav className="flex-1 overflow-y-auto px-3 pb-4 space-y-1">
+      <nav ref={navRef} className="flex-1 overflow-y-auto px-3 pb-4 space-y-1">
         {lessons.map((lesson, index) => {
           const isCurrent = index === currentIndex;
           const isCompleted = completedLessonIds.has(lesson.id);
@@ -204,6 +225,7 @@ function SidebarContent({
 
           return (
             <motion.button
+              ref={isCurrent ? currentLessonRef : undefined}
               key={lesson.id}
               onClick={() => onSelect(index)}
               className={`

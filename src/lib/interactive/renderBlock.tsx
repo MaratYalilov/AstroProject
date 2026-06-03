@@ -1,8 +1,4 @@
-import LetterIntro from "@/components/alifba/LetterIntro";
 import LetterIntroCombined from "@/components/alifba/LetterIntroCombined";
-import WritingAnimation from "@/components/alifba/WritingAnimation";
-import LetterForms from "@/components/alifba/LetterForms";
-import PronunciationGrid from "@/components/alifba/PronunciationGrid";
 import TheoryReveal from "@/components/alifba/TheoryReveal";
 import WritingAndFormsBlock from "@/components/alifba/WritingAndFormsBlock";
 import AlphabetGrid from "@/components/alifba/AlphabetGrid";
@@ -25,16 +21,6 @@ export default function RenderBlock({
   lessonId,
 }: Props) {
   switch (block.type) {
-    case "letter-intro":
-      return (
-        <LetterIntro
-          title={block.title}
-          description={block.description || ""}
-          letters={block.letters}
-          makhrajImage={block.makhraj?.image}
-        />
-      );
-
     case "letter-lesson": {
       return (
         <LetterIntroCombined
@@ -48,31 +34,6 @@ export default function RenderBlock({
         />
       );
     }
-
-case "pronunciation-grid":
-  return (
-    <PronunciationGrid
-      title={block.title}
-      audio={block.audio}
-      items={block.items}
-    />
-  );
-
-    case "writing-animation":
-      return (
-        <WritingAnimation
-          title={block.title}
-          animation={block.animation}
-        />
-      );
-
-    case "letter-forms":
-      return (
-        <LetterForms
-          title={block.title}
-          forms={block.forms}
-        />
-      );
 
     case "writing-and-forms":
       return (
