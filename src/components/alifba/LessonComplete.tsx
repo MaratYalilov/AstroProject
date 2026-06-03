@@ -23,6 +23,7 @@ function handleClick() {
     `lesson-complete-${lessonId}`,
     "1"
   );
+  window.dispatchEvent(new Event("lesson-complete-changed"));
 
   setDone(true);
   setShowFireworks(true);

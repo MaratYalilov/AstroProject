@@ -1,19 +1,20 @@
 import { motion } from "framer-motion";
 
 type Props = {
-  current: number;
+  completed: number;
   total: number;
 };
 
-export default function CourseProgress({ current, total }: Props) {
-  const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
+export default function CourseProgress({ completed, total }: Props) {
+  const safeCompleted = Math.min(Math.max(completed, 0), total);
+  const percentage = total > 0 ? Math.round((safeCompleted / total) * 100) : 0;
 
   return (
     <div className="w-full space-y-2">
       {/* Label */}
       <div className="flex items-center justify-between text-sm">
         <span className="text-muted-foreground font-medium">
-          Урок {current} из {total}
+          Завершено {safeCompleted} из {total}
         </span>
         <span className="text-cyan-400 font-semibold tabular-nums">
           {percentage}%

@@ -252,6 +252,23 @@ order: 1
     <div class="mt-10 rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900/50 dark:bg-sky-950/20">
       {Quran}12:2{/Quran}
     </div>
+<div class="mt-8 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
 
+<div class="mb-4 border-b border-gray-200 pb-2 dark:border-white/10">
+  <h3 class="text-lg font-semibold">
+    Итоги урока
+  </h3>
+</div>
+
+  <ul class="space-y-2">
+    <li>✓ Арабское письмо записывается справа налево.</li>
+    <li>✓ На письме обычно записываются только согласные буквы.</li>
+    <li>✓ В арабском письме нет заглавных и печатных букв.</li>
+    <li>✓ Краткие гласные обозначаются огласовками.</li>
+    <li>✓ Вы познакомились с огласовками: фатха, кясра, дамма и сукун.</li>
+    <li>✓ Вы научились понимать принцип чтения арабского текста.</li>
+  </ul>
+
+</div>
 </div>
 

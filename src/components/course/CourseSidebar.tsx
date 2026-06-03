@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, Lock, BookOpen, ChevronRight, X } from "lucide-react";
 import CourseProgress from "./CourseProgress";
@@ -21,6 +21,28 @@ type Props = {
   isOpen: boolean;
   onClose: () => void;
 };
+
+const LESSON_COMPLETE_EVENT = "lesson-complete-changed";
+
+function getCompletedLessonIds(lessons: LessonItem[]) {
+  const completed = new Set<number>();
+
+  if (typeof window === "undefined") {
+    return completed;
+  }
+
+  lessons.forEach((lesson) => {
+    try {
+      if (localStorage.getItem(`lesson-complete-${lesson.id}`) === "1") {
+        completed.add(lesson.id);
+      }
+    } catch (e) {
+      // localStorage РЅРµРґРѕСЃС‚СѓРїРµРЅ
+    }
+  });
+
+  return completed;
+}
 
 function LessonStatusIcon({
   status,
@@ -127,6 +149,30 @@ function SidebarContent({
   currentIndex: number;
   onSelect: (index: number) => void;
 }) {
+  const [completedLessonIds, setCompletedLessonIds] = useState<Set<number>>(
+    () => getCompletedLessonIds(lessons)
+  );
+
+  useEffect(() => {
+    const syncCompletedLessons = () => {
+      setCompletedLessonIds(getCompletedLessonIds(lessons));
+    };
+
+    syncCompletedLessons();
+    window.addEventListener("storage", syncCompletedLessons);
+    window.addEventListener(LESSON_COMPLETE_EVENT, syncCompletedLessons);
+
+    return () => {
+      window.removeEventListener("storage", syncCompletedLessons);
+      window.removeEventListener(LESSON_COMPLETE_EVENT, syncCompletedLessons);
+    };
+  }, [lessons]);
+
+  const completedCount = lessons.reduce(
+    (count, lesson) => count + (completedLessonIds.has(lesson.id) ? 1 : 0),
+    0
+  );
+
   return (
     <div className="flex flex-col h-full">
       {/* Header */}
@@ -141,16 +187,18 @@ function SidebarContent({
 
       {/* Progress */}
       <div className="px-5 pt-4 pb-3">
-        <CourseProgress current={currentIndex + 1} total={lessons.length} />
+        <CourseProgress completed={completedCount} total={lessons.length} />
       </div>
 
       {/* Lessons list */}
       <nav className="flex-1 overflow-y-auto px-3 pb-4 space-y-1">
         {lessons.map((lesson, index) => {
+          const isCurrent = index === currentIndex;
+          const isCompleted = completedLessonIds.has(lesson.id);
           const status =
-            index < currentIndex
+            isCompleted
               ? "completed"
-              : index === currentIndex
+              : isCurrent
                 ? "current"
                 : "next";
 
@@ -162,7 +210,7 @@ function SidebarContent({
                 group relative w-full flex items-center gap-3 rounded-2xl px-4 py-3.5
                 text-left text-sm sm:text-base transition-all duration-300
                 ${
-                  status === "current"
+                  isCurrent
                     ? "bg-cyan-500/10 ring-1 ring-cyan-400/30 shadow-lg shadow-cyan-500/10"
                     : "hover:bg-white/5"
                 }
@@ -171,7 +219,7 @@ function SidebarContent({
               whileTap={{ scale: 0.98 }}
             >
               {/* Current lesson glow */}
-              {status === "current" && (
+              {isCurrent && (
                 <motion.div
                   className="absolute inset-0 rounded-2xl bg-gradient-to-r from-cyan-500/5 to-transparent"
                   layoutId="activeGlow"
@@ -190,10 +238,10 @@ function SidebarContent({
                   className={`
                     block truncate font-semibold text-base
                     ${
-                      status === "current"
-                        ? "text-cyan-300"
-                        : status === "completed"
-                          ? "text-emerald-300"
+                      status === "completed"
+                        ? "text-emerald-300"
+                        : status === "current"
+                          ? "text-cyan-300"
                           : "text-muted-foreground"
                     }
                   `}
@@ -214,7 +262,7 @@ function SidebarContent({
               </div>
 
               {/* Chevron for current */}
-              {status === "current" && (
+              {isCurrent && (
                 <ChevronRight className="relative z-10 h-4 w-4 text-cyan-400/60" />
               )}
             </motion.button>
