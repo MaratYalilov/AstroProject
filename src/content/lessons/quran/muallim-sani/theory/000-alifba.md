@@ -71,10 +71,7 @@ order: 1
   <h1 class="text-center text-4xl font-bold mb-8">Огласовки</h1>
 
 <p class="mb-8 leading-relaxed">
-  <b>Огласовки</b> (араб. <span class="arab">حركات</span> «движения», ед. ч.
-  <span class="arab">حركة</span> — хәрәкә) — система надстрочных и подстрочных
-  диакритических знаков, используемых в арабском письме для обозначения
-  кратких гласных звуков и других особенностей произношения слова, не
+  <b>Огласовки</b>  — система надстрочных и подстрочных знаков, используемых в арабском письме для обозначения  кратких гласных звуков и других особенностей произношения слова, не
   отображаемых буквами.
 </p>
 
@@ -83,7 +80,7 @@ order: 1
   <!-- ФАТХА -->
   <div>
     <p class="mb-4">
-      • <b>ФАТХА</b> — диагональная черточка над буквой <span class="arab">(فتحة)</span>обозначает звук <b>Ә</b>.
+      • <b>ФАТХА</b> — диагональная черточка над буквой обозначает звук <b>Ә</b>.
     </p>
     <svg width="460" height="120" viewBox="0 0 460 120">
       <rect x="5" y="28" width="130" height="36"
@@ -124,22 +121,9 @@ order: 1
   <!-- КЯСРА -->
   <div>
     <p class="mb-4">
-      • <b>КЯСРА</b> — диагональная черточка под буквой <span class="arab">(كسرة)</span>
-      обозначает звук <b>И</b>.
+      • <b>КЯСРА</b> — диагональная черточка под буквой обозначает звук <b>И</b>.
     </p>
     <svg width="460" height="130" viewBox="0 0 460 130">
-      <rect x="5" y="28" width="130" height="36"
-            fill="none" stroke="currentColor"/>
-      <text x="70" y="51"
-            text-anchor="middle"
-            fill="currentColor"
-            font-size="14">
-        Задуманная буква
-      </text>
-      <line x1="135" y1="46" x2="225" y2="46"
-            stroke="currentColor"/>
-      <line x1="225" y1="46" x2="245" y2="66"
-            stroke="currentColor"/>
       <line x1="165" y1="103" x2="320" y2="103"
             stroke="#888"/>
       <ellipse cx="245" cy="81"
@@ -155,22 +139,9 @@ order: 1
 <!-- ДАММА -->
   <div>
     <p class="mb-4">
-      • <b>ДАММА</b> — это крючок, напоминающий запятую, над буквой
-      <span class="arab">(ضمة)</span> обозначает звук <b>У</b>.
+      • <b>ДАММА</b> — это крючок, напоминающий запятую, над буквой обозначает звук <b>У</b>.
     </p>
     <svg width="460" height="120" viewBox="0 0 460 120">
-      <rect x="5" y="28" width="130" height="36"
-            fill="none" stroke="currentColor"/>
-      <text x="70" y="51"
-            text-anchor="middle"
-            fill="currentColor"
-            font-size="14">
-        Задуманная буква
-      </text>
-      <line x1="135" y1="46" x2="225" y2="46"
-            stroke="currentColor"/>
-      <line x1="225" y1="46" x2="245" y2="66"
-            stroke="currentColor"/>
       <line x1="165" y1="103" x2="320" y2="103"
             stroke="#888"/>
       <ellipse cx="245" cy="81"
@@ -180,32 +151,15 @@ order: 1
       <text x="230" y="76"
             class="arab-mark"
             fill="currentColor">ُ</text>
-      <text x="165" y="120"
-            fill="#999"
-            font-size="13">
-        линия написания харфа
-      </text>
     </svg>
   </div>
 
   <!-- СУКУН -->
   <div class="pb-8">
     <p class="mb-4">
-      • <b>СУКУН</b> — знак отсутствия гласного звука. Традиционно он изображается в виде кружка над буквой <span class="arab">(سكون)</span>. В мединском мусхафе используется другая форма сукуна — небольшая галочка над буквой, именно её мы будем использовать в дальнейшем.
+      • <b>СУКУН</b> — знак отсутствия гласного звука. Традиционно он изображается в виде кружка над буквой. В мединском мусхафе используется другая форма сукуна — небольшая галочка над буквой, именно её мы будем использовать в дальнейшем.
     </p>
       <svg width="460" height="120" viewBox="0 0 460 120">
-        <rect x="5" y="28" width="130" height="36"
-              fill="none" stroke="currentColor"/>
-        <text x="70" y="51"
-              text-anchor="middle"
-              fill="currentColor"
-              font-size="14">
-          Задуманная буква
-        </text>
-        <line x1="135" y1="46" x2="225" y2="46"
-              stroke="currentColor"/>
-        <line x1="225" y1="46" x2="245" y2="66"
-              stroke="currentColor"/>
         <line x1="165" y1="103" x2="320" y2="103"
               stroke="#888"/>
         <ellipse cx="245" cy="81"
@@ -215,11 +169,6 @@ order: 1
         <text x="235" y="82"
         class="arab-mark"
         fill="currentColor">ۡ</text>
-        <text x="165" y="120"
-              fill="#999"
-              font-size="13">
-          линия написания харфа
-        </text>
       </svg>
     </div>
     <div class="p-4 relative z-[1]  flex-col items-center justify-between rounded-[18px] border border-gray-200 bg-white text-center shadow-sm shadow-gray-200/70 transition-all duration-300 hover:border-cyan-200 hover:bg-cyan-50/50 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-none dark:hover:border-white/15 dark:hover:bg-white/[0.08]">
