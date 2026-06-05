@@ -91,7 +91,8 @@
           "label": "В начале",
           "image": "/media/quran/muallim-sani/forms/06_ha-initial.webp"
         }
-      ]
+      ],
+      "description": "В написании полностью идентична букве «дҗим», только точка ставится над буквой, а не под ней."
     },
     {
       "type": "theory",

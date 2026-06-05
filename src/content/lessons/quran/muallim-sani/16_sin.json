@@ -91,7 +91,8 @@
           "label": "В начале",
           "image": "/media/quran/muallim-sani/forms/12_sin-initial.webp"
         }
-      ]
+      ],
+      "description": "В написании та же буква «шин» только без точек."
     },
     {
       "type": "theory",
