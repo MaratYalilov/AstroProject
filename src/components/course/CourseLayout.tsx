@@ -83,7 +83,8 @@ export default function CourseLayout({ lessons, subject, course }: Props) {
 
   const handleSelect = useCallback((index: number) => {
     setCurrentIndex(index);
-  }, []);
+    scrollToTop();
+  }, [scrollToTop]);
 
   return (
     <div className="flex min-h-screen bg-gradient-to-br from-background via-background to-cyan-950/10">

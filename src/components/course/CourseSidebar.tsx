@@ -1,6 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Check, Lock, BookOpen, ChevronRight, X } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
+import {
+  BookOpen,
+  Check,
+  ChevronRight,
+  ListChecks,
+  Lock,
+  X,
+} from "lucide-react";
 import CourseProgress from "./CourseProgress";
 
 export type TitleSegment = {
@@ -37,7 +44,7 @@ function getCompletedLessonIds(lessons: LessonItem[]) {
         completed.add(lesson.id);
       }
     } catch (e) {
-      // localStorage РЅРµРґРѕСЃС‚СѓРїРµРЅ
+      // localStorage недоступен
     }
   });
 
@@ -52,26 +59,26 @@ function LessonStatusIcon({
   switch (status) {
     case "completed":
       return (
-        <div className="flex h-7 w-7 items-center justify-center rounded-full bg-emerald-500/20 ring-1 ring-emerald-500/30">
-          <Check className="h-3.5 w-3.5 text-emerald-400" />
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500 text-white shadow-lg shadow-emerald-500/25 ring-1 ring-emerald-300/50">
+          <Check className="h-4 w-4" />
         </div>
       );
     case "current":
       return (
-        <div className="flex h-7 w-7 items-center justify-center rounded-full bg-cyan-500/20 ring-2 ring-cyan-400 shadow-lg shadow-cyan-500/25">
-          <BookOpen className="h-3.5 w-3.5 text-cyan-400" />
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white shadow-lg shadow-cyan-500/25 ring-2 ring-cyan-300/60 dark:bg-cyan-400 dark:text-slate-950">
+          <BookOpen className="h-4 w-4" />
         </div>
       );
     case "locked":
       return (
-        <div className="flex h-7 w-7 items-center justify-center rounded-full bg-white/5 ring-1 ring-white/10">
-          <Lock className="h-3.5 w-3.5 text-muted-foreground/40" />
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-1 ring-gray-200 dark:bg-white/5 dark:ring-white/10">
+          <Lock className="h-4 w-4 text-gray-400 dark:text-slate-500" />
         </div>
       );
     default:
       return (
-        <div className="flex h-7 w-7 items-center justify-center rounded-full bg-white/5 ring-1 ring-white/10">
-          <span className="text-xs font-medium text-muted-foreground/60" />
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/75 shadow-sm shadow-gray-200/50 ring-1 ring-gray-200 dark:bg-white/[0.06] dark:shadow-none dark:ring-white/10">
+          <span className="h-2 w-2 rounded-full bg-gray-300 dark:bg-slate-500" />
         </div>
       );
   }
@@ -86,8 +93,7 @@ export default function CourseSidebar({
 }: Props) {
   return (
     <>
-      {/* Desktop sidebar */}
-      <aside className="hidden lg:flex lg:flex-col lg:w-80 lg:shrink-0 lg:border-r lg:border-border lg:h-screen lg:sticky lg:top-0 lg:overflow-y-auto lg:bg-background/95 lg:backdrop-blur-2xl lg:shadow-2xl lg:shadow-cyan-500/5">
+      <aside className="hidden lg:flex lg:h-screen lg:w-80 lg:shrink-0 lg:sticky lg:top-0 lg:overflow-hidden lg:border-r lg:border-gray-200 lg:bg-white/80 lg:backdrop-blur-xl lg:shadow-2xl lg:shadow-gray-200/60 dark:lg:border-white/10 dark:lg:bg-white/[0.04] dark:lg:shadow-black/20">
         <SidebarContent
           lessons={lessons}
           currentIndex={currentIndex}
@@ -95,33 +101,31 @@ export default function CourseSidebar({
         />
       </aside>
 
-      {/* Mobile drawer overlay */}
       <AnimatePresence>
         {isOpen && (
           <>
-            {/* Backdrop */}
             <motion.div
-              className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm lg:hidden"
+              className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm lg:hidden"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={onClose}
             />
 
-            {/* Drawer */}
             <motion.aside
-              className="fixed inset-y-0 left-0 z-50 w-80 max-w-[85vw] bg-black/90 backdrop-blur-2xl border-r border-white/10 overflow-y-auto lg:hidden"
+              className="fixed inset-y-0 left-0 z-50 w-80 max-w-[85vw] overflow-hidden border-r border-gray-200 bg-white/90 shadow-2xl shadow-gray-900/20 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/90 lg:hidden"
               initial={{ x: "-100%" }}
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ type: "spring", damping: 30, stiffness: 300 }}
             >
-              {/* Close button */}
               <button
+                type="button"
                 onClick={onClose}
-                className="absolute top-4 right-4 flex h-8 w-8 items-center justify-center rounded-xl bg-white/5 hover:bg-white/10 transition-colors"
+                className="absolute right-4 top-4 z-20 flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 bg-white/75 text-gray-600 shadow-sm shadow-gray-200/50 backdrop-blur transition hover:bg-cyan-50 hover:text-cyan-700 dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-300 dark:shadow-none dark:hover:bg-white/10 dark:hover:text-cyan-300"
+                aria-label="Закрыть меню"
               >
-                <X className="h-4 w-4 text-muted-foreground" />
+                <X className="h-4 w-4" />
               </button>
 
               <SidebarContent
@@ -195,109 +199,112 @@ function SidebarContent({
   );
 
   return (
-    <div className="flex flex-col h-full">
-      {/* Header */}
-      <div className="p-5 border-b border-white/5">
-        <h2 className="text-lg font-semibold text-foreground tracking-tight">
+    <div className="relative flex h-full w-full flex-col">
+      <div className="pointer-events-none absolute inset-x-8 top-0 h-28 rounded-full bg-cyan-400/10 blur-3xl dark:bg-cyan-300/10" />
+
+      <header className="relative border-b border-gray-200/70 p-5 dark:border-white/10">
+        <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-200/80 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 shadow-sm shadow-cyan-100/70 dark:border-cyan-300/20 dark:bg-white/10 dark:text-cyan-200 dark:shadow-none">
+          <ListChecks size={13} aria-hidden="true" />
+          Курс
+        </div>
+        <h2 className="text-lg font-bold tracking-tight text-gray-950 dark:text-white">
           Муаллим Сани
         </h2>
-        <p className="text-xs text-muted-foreground/60 mt-1">
-          Интерактивный курс
+        <p className="mt-1 text-xs text-gray-500 dark:text-slate-400">
+          Интерактивные уроки
         </p>
-      </div>
+      </header>
 
-      {/* Progress */}
-      <div className="px-5 pt-4 pb-3">
+      <div className="relative px-5 pb-3 pt-4">
         <CourseProgress completed={completedCount} total={lessons.length} />
       </div>
 
-      {/* Lessons list */}
-      <nav ref={navRef} className="flex-1 overflow-y-auto px-3 pb-4 space-y-1">
+      <nav ref={navRef} className="relative flex-1 space-y-2 overflow-y-auto px-3 pb-4">
         {lessons.map((lesson, index) => {
           const isCurrent = index === currentIndex;
           const isCompleted = completedLessonIds.has(lesson.id);
-          const status =
-            isCompleted
-              ? "completed"
-              : isCurrent
-                ? "current"
-                : "next";
+          const status = isCompleted
+            ? "completed"
+            : isCurrent
+              ? "current"
+              : "next";
 
           return (
             <motion.button
               ref={isCurrent ? currentLessonRef : undefined}
               key={lesson.id}
+              type="button"
               onClick={() => onSelect(index)}
-              className={`
-                group relative w-full flex items-center gap-3 rounded-2xl px-4 py-3.5
-                text-left text-sm sm:text-base transition-all duration-300
-                ${
-                  isCurrent
-                    ? "bg-cyan-500/10 ring-1 ring-cyan-400/30 shadow-lg shadow-cyan-500/10"
-                    : "hover:bg-white/5"
-                }
-              `}
-              whileHover={{ x: 4 }}
-              whileTap={{ scale: 0.98 }}
+              className={[
+                "group relative flex w-full items-center gap-3 overflow-hidden rounded-[18px] border px-4 py-3.5 text-left text-sm transition-all duration-300 sm:text-base",
+                isCurrent
+                  ? "border-cyan-300 bg-cyan-50/70 shadow-lg shadow-cyan-500/10 ring-2 ring-cyan-400/35 dark:border-cyan-300/40 dark:bg-cyan-300/10"
+                  : "border-gray-200 bg-white/75 shadow-sm shadow-gray-200/50 hover:border-cyan-300/60 hover:bg-cyan-50/50 hover:shadow-lg hover:shadow-cyan-500/10 dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none dark:hover:border-cyan-300/30 dark:hover:bg-white/[0.075]",
+              ].join(" ")}
+              whileHover={{ y: -2, scale: 1.01 }}
+              whileTap={{ scale: 0.985 }}
             >
-              {/* Current lesson glow */}
+              <span
+                className={[
+                  "pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300",
+                  "bg-gradient-to-br from-cyan-400/12 via-transparent to-emerald-300/10",
+                  isCurrent ? "opacity-100" : "group-hover:opacity-100",
+                ].join(" ")}
+              />
+
               {isCurrent && (
-                <motion.div
-                  className="absolute inset-0 rounded-2xl bg-gradient-to-r from-cyan-500/5 to-transparent"
-                  layoutId="activeGlow"
+                <motion.span
+                  className="pointer-events-none absolute inset-0 rounded-[18px] border border-cyan-300/60"
+                  layoutId="activeSidebarLesson"
                   transition={{ type: "spring", stiffness: 300, damping: 30 }}
                 />
               )}
 
-              {/* Status icon */}
               <div className="relative z-10">
                 <LessonStatusIcon status={status} />
               </div>
 
-              {/* Lesson info */}
-              <div className="relative z-10 flex-1 min-w-0">
+              <div className="relative z-10 min-w-0 flex-1">
                 <span
-                  className={`
-                    block truncate font-semibold text-base
-                    ${
-                      status === "completed"
-                        ? "text-emerald-300"
-                        : status === "current"
-                          ? "text-cyan-300"
-                          : "text-muted-foreground"
-                    }
-                  `}
+                  className={[
+                    "block truncate text-base font-semibold",
+                    status === "completed"
+                      ? "text-emerald-700 dark:text-emerald-300"
+                      : status === "current"
+                        ? "text-cyan-800 dark:text-cyan-200"
+                        : "text-gray-700 dark:text-slate-300",
+                  ].join(" ")}
                 >
                   {Array.isArray(lesson.title)
                     ? lesson.title.map((seg, i) =>
                         seg.arab ? (
-                          <span key={i} className="arab">{seg.text}</span>
+                          <span key={i} className="arab">
+                            {seg.text}
+                          </span>
                         ) : (
                           <React.Fragment key={i}>{seg.text}</React.Fragment>
-                        ),
+                        )
                       )
                     : lesson.title}
                 </span>
-                <span className="block text-sm text-muted-foreground/40 mt-0.5">
+                <span className="mt-0.5 block text-sm text-gray-500 dark:text-slate-500">
                   Урок {lesson.id}
                 </span>
               </div>
 
-              {/* Chevron for current */}
               {isCurrent && (
-                <ChevronRight className="relative z-10 h-4 w-4 text-cyan-400/60" />
+                <ChevronRight className="relative z-10 h-4 w-4 text-cyan-600 dark:text-cyan-300" />
               )}
             </motion.button>
           );
         })}
       </nav>
 
-      {/* Footer */}
-      <div className="p-4 border-t border-white/5">
-        <p className="text-[10px] text-muted-foreground/30 text-center">
+      <footer className="relative border-t border-gray-200/70 p-4 dark:border-white/10">
+        <p className="text-center text-[10px] font-medium uppercase tracking-[0.16em] text-gray-400 dark:text-slate-600">
           {lessons.length} уроков
         </p>
-      </div>
+      </footer>
     </div>
   );
 }

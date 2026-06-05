@@ -3132,18 +3132,6 @@
         {
           "id": 1,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-kaf-1.mp3",
-            "segments": [
-              {
-                "text": "قَ",
-                "form": "initial"
-              },
-              {
-                "text": "دَرْ"
-              }
-            ]
-          },
-          "left": {
             "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-kaf-2.mp3",
             "segments": [
               {
@@ -3154,11 +3142,23 @@
                 "text": "دَرْ"
               }
             ]
+          },
+          "left": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-kaf-1.mp3",
+            "segments": [
+              {
+                "text": "قَ",
+                "form": "initial"
+              },
+              {
+                "text": "دَرْ"
+              }
+            ]
           }
         },
         {
           "id": 2,
-          "right": {
+          "left": {
             "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-kaf-3.mp3",
             "segments": [
               {
@@ -3170,7 +3170,7 @@
               }
             ]
           },
-          "left": {
+          "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-kaf-4.mp3",
             "segments": [
               {
@@ -3185,7 +3185,7 @@
         },
         {
           "id": 3,
-          "right": {
+          "left": {
             "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-kaf-5.mp3",
             "segments": [
               {
@@ -3197,7 +3197,7 @@
               }
             ]
           },
-          "left": {
+          "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-kaf-6.mp3",
             "segments": [
               {
@@ -4100,7 +4100,77 @@
         {
           "id": 1,
           "right": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-5.mp3",
+            "segments": [
+              {
+                "text": "سَ",
+                "form": "initial"
+              },
+              {
+                "text": "مَرْ"
+              }
+            ]
+          },
+          "left": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-6.mp3",
+            "segments": [
+              {
+                "text": "ثَ",
+                "form": "initial"
+              },
+              {
+                "text": "مَرْ"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "right": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-3.mp3",
+            "segments": [
+              {
+                "text": "سَ",
+                "form": "initial"
+              },
+              {
+                "text": "بْتُ"
+              }
+            ]
+          },
+          "left": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-4.mp3",
+            "segments": [
+              {
+                "text": "ثَ",
+                "form": "initial"
+              },
+              {
+                "text": "بْتُ"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-1.mp3",
+             "segments": [
+              {
+                "text": "سَ",
+                "form": "initial"
+              },
+              {
+                "text": "لْ"
+              },
+              {
+                "text": "سُ",
+                "form": "final"
+              }
+            ]
+          },
+          "left": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-2.mp3",
             "segments": [
               {
                 "text": "ثَ",
@@ -4114,78 +4184,9 @@
                 "form": "final"
               }
             ]
-          },
-          "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-2.mp3",
-            "segments": [
-              {
-                "text": "سَ",
-                "form": "initial"
-              },
-              {
-                "text": "لْ"
-              },
-              {
-                "text": "سُ",
-                "form": "final"
-              }
-            ]
-          }
-        },
-        {
-          "id": 2,
-          "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-3.mp3",
-            "segments": [
-              {
-                "text": "ثَ",
-                "form": "initial"
-              },
-              {
-                "text": "بْتُ"
-              }
-            ]
-          },
-          "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-4.mp3",
-            "segments": [
-              {
-                "text": "سَ",
-                "form": "initial"
-              },
-              {
-                "text": "بْتُ"
-              }
-            ]
-          }
-        },
-        {
-          "id": 3,
-          "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-5.mp3",
-            "segments": [
-              {
-                "text": "ثَ",
-                "form": "initial"
-              },
-              {
-                "text": "مَرْ"
-              }
-            ]
-          },
-          "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/04_sin-sa-6.mp3",
-            "segments": [
-              {
-                "text": "سَ",
-                "form": "initial"
-              },
-              {
-                "text": "مَرْ"
-              }
-            ]
           }
         }
+        
       ]
     },
     {
@@ -4361,32 +4362,26 @@
         {
           "id": 1,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-1.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-4.mp3",
             "segments": [
               {
-                "text": "اِنْتَ"
-              },
-              {
                 "text": "سَ",
-                "form": "middle"
+                "form": "initial"
               },
               {
-                "text": "بَ"
+                "text": "فَرْ"
               }
             ]
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-2.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-3.mp3",
             "segments": [
               {
-                "text": "اِنْتَ"
-              },
-              {
                 "text": "صَ",
-                "form": "middle"
+                "form": "initial"
               },
               {
-                "text": "بَ"
+                "text": "فَرْ"
               }
             ]
           }
@@ -4394,53 +4389,59 @@
         {
           "id": 2,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-3.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-6.mp3",
             "segments": [
               {
                 "text": "سَ",
                 "form": "initial"
               },
               {
-                "text": "فَرْ"
+                "text": "يْفُ"
               }
             ]
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-4.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-5.mp3",
             "segments": [
               {
                 "text": "صَ",
                 "form": "initial"
               },
               {
-                "text": "فَرْ"
+                "text": "يْفُ"
               }
             ]
           }
         },
-        {
+        { 
           "id": 3,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-5.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-2.mp3",
             "segments": [
               {
-                "text": "سَ",
-                "form": "initial"
+                "text": "اِنْتَ"
               },
               {
-                "text": "يْفُ"
+                "text": "سَ",
+                "form": "middle"
+              },
+              {
+                "text": "بَ"
               }
             ]
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-6.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/14_sin-sad-1.mp3",
             "segments": [
               {
-                "text": "صَ",
-                "form": "initial"
+                "text": "اِنْتَ"
               },
               {
-                "text": "يْفُ"
+                "text": "صَ",
+                "form": "middle"
+              },
+              {
+                "text": "بَ"
               }
             ]
           }
@@ -4714,7 +4715,7 @@
             "audio": "/media/quran/muallim-sani/audio/exercises/16_to-ta-1.mp3",
             "segments": [
               {
-                "text": "طَ",
+                "text": "تَ",
                 "form": "initial"
               },
               {
@@ -4726,7 +4727,7 @@
             "audio": "/media/quran/muallim-sani/audio/exercises/16_to-ta-2.mp3",
             "segments": [
               {
-                "text": "تَ",
+                "text": "طَ",
                 "form": "initial"
               },
               {
@@ -4744,7 +4745,7 @@
                 "text": "سَبْ"
               },
               {
-                "text": "طُ",
+                "text": "تُ",
                 "form": "final"
               }
             ]
@@ -4756,7 +4757,7 @@
                 "text": "سَبْ"
               },
               {
-                "text": "تُ",
+                "text": "طُ",
                 "form": "final"
               }
             ]
@@ -4765,13 +4766,13 @@
         {
           "id": 3,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/16_to-ta-5.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/16_to-ta-5.mp3",            
             "segments": [
               {
                 "text": "مُسْتَ"
               },
               {
-                "text": "طِ",
+                "text": "تِ",
                 "form": "middle"
               },
               {
@@ -4786,7 +4787,7 @@
                 "text": "مُسْتَ"
               },
               {
-                "text": "تِ",
+                "text": "طِ",
                 "form": "middle"
               },
               {
@@ -5317,32 +5318,27 @@
         {
           "id": 1,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-1.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-5.mp3",
             "segments": [
               {
-                "text": "اَرْ"
+                "text": "خَ",
+                "form": "initial"
               },
               {
-                "text": "حَ",
-                "form": "middle"
-              },
-              {
-                "text": "مْ"
+                "text": "لْقُ"
               }
             ]
           },
-          "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-2.mp3",
+          "left": 
+          {
+            "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-6.mp3",
             "segments": [
               {
-                "text": "اَرْ"
+                "text": "حَ",
+                "form": "initial"
               },
               {
-                "text": "خَ",
-                "form": "middle"
-              },
-              {
-                "text": "مْ"
+                "text": "لْقُ"
               }
             ]
           }
@@ -5353,7 +5349,7 @@
             "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-3.mp3",
             "segments": [
               {
-                "text": "حَ",
+                "text": "خَ",
                 "form": "initial"
               },
               {
@@ -5361,11 +5357,12 @@
               }
             ]
           },
-          "left": {
+          "left": 
+          {
             "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-4.mp3",
             "segments": [
               {
-                "text": "خَ",
+                "text": "حَ",
                 "form": "initial"
               },
               {
@@ -5373,30 +5370,38 @@
               }
             ]
           }
-        },
+          
+        },     
         {
           "id": 3,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-5.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-1.mp3",
             "segments": [
               {
-                "text": "حَ",
-                "form": "initial"
+                "text": "اَرْ"
               },
               {
-                "text": "لْقُ"
+                "text": "خَ",
+                "form": "middle"
+              },
+              {
+                "text": "مْ"
               }
             ]
           },
-          "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-6.mp3",
+          "left": 
+          {
+            "audio": "/media/quran/muallim-sani/audio/exercises/06_ha-kha-2.mp3",
             "segments": [
               {
-                "text": "خَ",
-                "form": "initial"
+                "text": "اَرْ"
               },
               {
-                "text": "لْقُ"
+                "text": "حَ",
+                "form": "middle"
+              },
+              {
+                "text": "مْ"
               }
             ]
           }
@@ -6112,32 +6117,33 @@
         {
           "id": 1,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-1.mp3",
+           "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-5.mp3",
             "segments": [
               {
-                "text": "بَلۡ"
+                "text": "غَ",
+                "form": "initial"
               },
               {
-                "text": "عُ",
-                "form": "final"
+                "text": "يْنُ"
               }
-            ]
+            ] 
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-2.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-6.mp3",
             "segments": [
               {
-                "text": "بَلۡ"
+                "text": "عَ",
+                "form": "initial"
               },
               {
-                "text": "غُ",
-                "form": "final"
+                "text": "يْنُ"
               }
             ]
+            
           }
         },
         {
-          "id": 2,
+          "id": 2,          
           "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-3.mp3",
             "segments": [
@@ -6145,7 +6151,7 @@
                 "text": "بَ"
               },
               {
-                "text": "عْ",
+                "text": "غْ",
                 "form": "middle"
               },
               {
@@ -6160,7 +6166,7 @@
                 "text": "بَ"
               },
               {
-                "text": "غْ",
+                "text": "عْ",
                 "form": "middle"
               },
               {
@@ -6172,30 +6178,31 @@
         {
           "id": 3,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-5.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-1.mp3",
             "segments": [
               {
-                "text": "عَ",
-                "form": "initial"
+                "text": "بَلۡ"
               },
               {
-                "text": "يْنُ"
+                "text": "غُ",
+                "form": "final"
               }
             ]
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-6.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/18_ain-ghain-2.mp3",
             "segments": [
               {
-                "text": "غَ",
-                "form": "initial"
+                "text": "بَلۡ"
               },
               {
-                "text": "يْنُ"
+                "text": "عُ",
+                "form": "final"
               }
             ]
           }
         }
+        
       ]
     },
     {
@@ -6685,34 +6692,36 @@
           ]
         }
       ],
-      "comparisons": [
+      "comparisons": [      
         {
           "id": 1,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/15_dad-dal-1.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/15_dad-dal-5.mp3",
             "segments": [
               {
-                "text": "بَعْ"
+                "text": "دَ",
+                "form": "isolated"
               },
               {
-                "text": "ضُ",
-                "form": "final"
+                "text": "رْسُ"
               }
             ]
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/15_dad-dal-2.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/15_dad-dal-6.mp3",
             "segments": [
               {
-                "text": "بَعْ"
+                "text": "ضَ",
+                "form": "initial"
               },
               {
-                "text": "دُ",
-                "form": "final"
+                "text": "رْسُ"
               }
+              
             ]
           }
-        },
+        }
+        ,
         {
           "id": 2,
           "right": {
@@ -6722,8 +6731,8 @@
                 "text": "وَ"
               },
               {
-                "text": "ضْ",
-                "form": "middle"
+                "text": "دْ",
+                "form": "isolated"
               },
               {
                 "text": "عُ"
@@ -6737,38 +6746,39 @@
                 "text": "وَ"
               },
               {
-                "text": "دْ",
-                "form": "isolated"
+                "text": "ضْ",
+                "form": "middle"
               },
               {
                 "text": "عُ"
               }
+              
             ]
           }
         },
         {
           "id": 3,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/15_dad-dal-5.mp3",
-            "segments": [
+            "audio": "/media/quran/muallim-sani/audio/exercises/15_dad-dal-1.mp3",
+            "segments": [         
               {
-                "text": "ضَ",
-                "form": "initial"
+                "text": "بَعْ"
               },
               {
-                "text": "رْسُ"
-              }
+                "text": "دُ",
+                "form": "final"
+              } 
             ]
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/15_dad-dal-6.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/15_dad-dal-2.mp3",
             "segments": [
               {
-                "text": "دَ",
-                "form": "isolated"
+                "text": "بَعْ"
               },
               {
-                "text": "رْسُ"
+                "text": "ضُ",
+                "form": "final"
               }
             ]
           }
@@ -7071,40 +7081,51 @@
         {
           "id": 1,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-1.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-5.mp3",
             "segments": [
               {
-                "text": "اَبْ"
+                "text": "ذِ",
+                "form": "isolated"
               },
               {
-                "text": "زَ",
-                "form": "final"
-              },
-              {
-                "text": "لْ"
+                "text": "فْرُ"
               }
             ]
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-2.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-6.mp3",
             "segments": [
               {
-                "text": "اَبْ"
+                "text": "زِ",
+                "form": "isolated"
               },
               {
-                "text": "ذَ",
-                "form": "final"
-              },
-              {
-                "text": "لْ"
+                "text": "فْرُ"
               }
+              
             ]
           }
-        },
+        }
+        ,
         {
           "id": 2,
           "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-3.mp3",
+            "segments": [       
+              {
+                "text": "بَ"
+              },
+              {
+                "text": "ذْ",
+                "form": "final"
+              },
+              {
+                "text": "لُ"
+              } 
+            ]
+          },
+          "left": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-4.mp3",
             "segments": [
               {
                 "text": "بَ"
@@ -7117,46 +7138,38 @@
                 "text": "لُ"
               }
             ]
-          },
-          "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-4.mp3",
-            "segments": [
-              {
-                "text": "بَ"
-              },
-              {
-                "text": "ذْ",
-                "form": "final"
-              },
-              {
-                "text": "لُ"
-              }
-            ]
           }
         },
+        
         {
           "id": 3,
           "right": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-5.mp3",
-            "segments": [
+            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-1.mp3",
+            "segments": [            
               {
-                "text": "زِ",
-                "form": "isolated"
+                "text": "اَبْ"
               },
               {
-                "text": "فْرُ"
-              }
+                "text": "ذَ",
+                "form": "final"
+              },
+              {
+                "text": "لْ"
+              } 
             ]
           },
           "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-6.mp3",
+            "audio": "/media/quran/muallim-sani/audio/exercises/09_zal-zai-2.mp3",
             "segments": [
               {
-                "text": "ذِ",
-                "form": "isolated"
+                "text": "اَبْ"
               },
               {
-                "text": "فْرُ"
+                "text": "زَ",
+                "form": "final"
+              },
+              {
+                "text": "لْ"
               }
             ]
           }
@@ -7675,22 +7688,22 @@
           "id": 1,
           "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-1.mp3",
-            "segments": [
+            "segments": [          
               {
-                "text": "ظَ",
-                "form": "initial"
+                "text": "ذَ",
+                "form": "isolated"
               },
               {
                 "text": "فَرْ"
-              }
+              }  
             ]
           },
           "left": {
             "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-2.mp3",
             "segments": [
               {
-                "text": "ذَ",
-                "form": "isolated"
+                "text": "ظَ",
+                "form": "initial"
               },
               {
                 "text": "فَرْ"
@@ -7703,16 +7716,17 @@
           "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-3.mp3",
             "segments": [
+             
               {
                 "text": "حَ"
               },
               {
-                "text": "ضَ",
+                "text": "ظَ",
                 "form": "middle"
               },
               {
                 "text": "رْ"
-              }
+              } 
             ]
           },
           "left": {
@@ -7722,7 +7736,7 @@
                 "text": "حَ"
               },
               {
-                "text": "ظَ",
+                "text": "ضَ",
                 "form": "middle"
               },
               {
@@ -7735,21 +7749,21 @@
           "id": 3,
           "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-5.mp3",
-            "segments": [
+            "segments": [            
               {
-                "text": "ضَ",
+                "text": "ظَ",
                 "form": "initial"
               },
               {
                 "text": "هْرُ"
-              }
+              } 
             ]
           },
           "left": {
             "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-6.mp3",
             "segments": [
               {
-                "text": "ظَ",
+                "text": "ضَ",
                 "form": "initial"
               },
               {
@@ -7762,6 +7776,18 @@
           "id": 4,
           "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-7.mp3",
+            "segments": [            
+              {
+                "text": "زَ",
+                "form": "isolated"
+              },
+              {
+                "text": "هَرْ"
+              } 
+            ]
+          },
+          "left": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-8.mp3",
             "segments": [
               {
                 "text": "ظَ",
@@ -7774,24 +7800,27 @@
                 "text": "ْ"
               }
             ]
-          },
-          "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-8.mp3",
-            "segments": [
-              {
-                "text": "زَ",
-                "form": "isolated"
-              },
-              {
-                "text": "هَرْ"
-              }
-            ]
           }
         },
         {
           "id": 5,
           "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-9.mp3",
+            "segments": [            
+              {
+                "text": "اَ"
+              },
+              {
+                "text": "زْ",
+                "form": "isolated"
+              },
+              {
+                "text": "هَرْ"
+              } 
+            ]
+          },
+          "left": {
+            "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-10.mp3",
             "segments": [
               {
                 "text": "اَ"
@@ -7804,38 +7833,23 @@
                 "text": "هَرْ"
               }
             ]
-          },
-          "left": {
-            "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-10.mp3",
-            "segments": [
-              {
-                "text": "اَ"
-              },
-              {
-                "text": "زْ",
-                "form": "isolated"
-              },
-              {
-                "text": "هَرْ"
-              }
-            ]
           }
         },
         {
           "id": 6,
           "right": {
             "audio": "/media/quran/muallim-sani/audio/exercises/17_zo-za-11.mp3",
-            "segments": [
+            "segments": [           
               {
                 "text": "اَعْ"
               },
               {
-                "text": "ظَ",
-                "form": "middle"
+                "text": "زَ",
+                "form": "final"
               },
               {
                 "text": "مْ"
-              }
+              } 
             ]
           },
           "left": {
@@ -7845,8 +7859,8 @@
                 "text": "اَعْ"
               },
               {
-                "text": "زَ",
-                "form": "final"
+                "text": "ظَ",
+                "form": "middle"
               },
               {
                 "text": "مْ"
