@@ -7,6 +7,7 @@ type Props = {
   arabic?: string;
   title?: string;
   text?: string;
+  items?: string[];
   nextLesson?: string;
 };
 
@@ -24,6 +25,7 @@ export default function LessonComplete({
   arabic,
   title,
   text,
+  items,
   nextLesson,
 }: Props) {
   const storageKey = `lesson-complete-${lessonId}`;
@@ -71,11 +73,18 @@ export default function LessonComplete({
           )}
 
           {text && (
-            <p className="m-0 text-sm leading-6 text-gray-600 dark:text-slate-300 sm:text-base">
+            <p className="m-0  leading-6 text-gray-600 dark:text-slate-300 sm:text-base">
               {text}
             </p>
           )}
 
+          {items && items.length > 0 && (
+            <ul className="list-disc pl-6 text-left leading-6 text-gray-600 dark:text-slate-300 sm:text-base">
+              {items.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          )}
           {nextLesson && (
             <p className="m-0 text-sm leading-6 text-gray-500 dark:text-slate-400">
               {nextLesson}

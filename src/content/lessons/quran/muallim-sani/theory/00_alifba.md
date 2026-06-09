@@ -3,6 +3,14 @@ title: 'Алифба'
 order: 1
 ---
 <div style="font-family: system-ui, sans-serif; line-height: 1.6; font-size: 18px;">
+<div class="mb-8 rounded-xl border border-gray-200 bg-gray-50 p-4 dark:border-white/10 dark:bg-white/[0.03]">
+  В этом уроке вы узнаете:
+  <ul>
+    <li>как устроено арабское письмо;</li>
+    <li>как арабы обходятся без записи гласных;</li>
+    <li>для чего нужны огласовки.</li>
+  </ul>
+</div>
 <p>
 Выше вы видели карточки с буквами арабского алфавита. Нажимайте на них, чтобы прослушать звучание <b>названия</b> буквы. Обратите внимание: вы слышите не звук самой буквы, а звук её названия. Как звучат сами буквы, мы изучим далее. Также вы можете прослушать весь алфавит по порядку, нажав кнопку воспроизведения в плеере.
 </p>
@@ -171,8 +179,8 @@ order: 1
         fill="currentColor">ۡ</text>
       </svg>
     </div>
-    <div class="p-4 relative z-[1]  flex-col items-center justify-between rounded-[18px] border border-gray-200 bg-white text-center shadow-sm shadow-gray-200/70 transition-all duration-300 hover:border-cyan-200 hover:bg-cyan-50/50 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-none dark:hover:border-white/15 dark:hover:bg-white/[0.08]">
-      <div class="text-sm opacity-60 mb-2">5. Возвращаем гласные огласовками </div>
+    <div class="p-4 relative z-[1]  flex-col items-center justify-between rounded-[18px] border border-gray-200 bg-white text-center shadow-sm shadow-gray-200/70 transition-all duration-300 hover:border-cyan-200 hover:bg-cyan-50/50 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-none dark:hover:border-white/15 dark:hover:bg-white/[0.08] ">
+      <div class="text-sm opacity-60 mb-2 ">5. Возвращаем гласные огласовками </div>
           <svg
             class="w-full max-w-[320px] mx-auto text-black dark:text-white"
             viewBox="0 0 320 110">
@@ -194,30 +202,10 @@ order: 1
             <line x1="165" y1="100" x2="50" y2="100" stroke="currentColor" stroke-width="2"/>
             <polygon points="50,100 60,95 60,105" fill="currentColor"/>
           </svg>
-          <div class="mt-3 text-sm opacity-60">
-            Огласовки вернули в слово гласные звуки.
-          </div>
-  </div>
-    <div class="mt-10 rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900/50 dark:bg-sky-950/20">
-      {Quran}12:2{/Quran}
+      </div>
+    <p class="mb-4">Огласовки вернули в слово гласные звуки.Вот как устроено арабское письмо.</p>
+    <div class="mt-10 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+          {Quran}12:2{/Quran}
     </div>
-<div class="mt-8 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-
-<div class="mb-4 border-b border-gray-200 pb-2 dark:border-white/10">
-  <h3 class="text-lg font-semibold">
-    Итоги урока
-  </h3>
-</div>
-
-  <ul class="space-y-2">
-    <li>✓ Арабское письмо записывается справа налево.</li>
-    <li>✓ На письме обычно записываются только согласные буквы.</li>
-    <li>✓ В арабском письме нет заглавных и печатных букв.</li>
-    <li>✓ Краткие гласные обозначаются огласовками.</li>
-    <li>✓ Вы познакомились с огласовками: фатха, кясра, дамма и сукун.</li>
-    <li>✓ Вы научились понимать принцип чтения арабского текста.</li>
-  </ul>
-
-</div>
 </div>
 

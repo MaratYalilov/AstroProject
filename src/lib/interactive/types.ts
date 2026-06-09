@@ -68,6 +68,7 @@ export type LessonCompleteBlock = {
   arabic?: string;
   title?: string;
   text?: string;
+  items?: string[];
   nextLesson?: string;
 };
 

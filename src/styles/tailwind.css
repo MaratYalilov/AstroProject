@@ -173,7 +173,7 @@
     "Scheherazade New",
     "Amiri",
     serif;
-  font-size: 48px;
+  font-size: 50px;
 }
 
 
@@ -940,4 +940,203 @@ footer {
   .dic-swipe-hint {
     display: block;
   }
+}
+
+/* стили для теории муаллим сани */
+/* .theory-block {
+  @apply mb-8 rounded-2xl border p-5;
+}
+
+.theory-writing {
+  @apply mt-8 mb-3 border-b border-gray-200 pb-2 text-xl font-semibold dark:border-white/10;
+}
+
+.theory-summary {
+  @apply mt-10 rounded-2xl border border-emerald-200 bg-emerald-50 p-6;
+  @apply  dark:border-emerald-900/40 dark:bg-emerald-950/20;
+}
+
+.theory-title {
+  @apply mb-3 text-lg font-semibold;
+} */
+
+/* цвета для теории муаллим сани */
+:root {
+  --color-fjord: theme('colors.fjord.500');
+  --color-eggplant: theme('colors.eggplant.500');
+  --color-terracotta: theme('colors.terracotta.500');
+  --color-forest: theme('colors.forest.500');
+}
+
+.dark {
+  --color-fjord: theme('colors.fjord.400');
+  --color-eggplant: theme('colors.eggplant.400');
+  --color-terracotta: theme('colors.terracotta.400');
+  --color-forest: theme('colors.forest.400');
+}
+
+/* ==========================================
+   MUALLIM SANI THEORY
+========================================== */
+/* HERO */
+/* HERO */
+
+.theory-hero {
+  margin-bottom: 2rem;
+  border: 1px solid rgb(229 231 235);
+  border-radius: 1.5rem;
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(60,109,162,0.08) 0%,
+      rgba(60,109,162,0.02) 100%
+    );
+
+  padding: 2rem;
+}
+
+.dark .theory-hero {
+  border-color: rgb(255 255 255 / 0.1);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(111,158,205,0.12) 0%,
+      rgba(111,158,205,0.03) 100%
+    );
+}
+
+.theory-hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.theory-hero-letter {
+  flex-shrink: 0;
+  font-size: 7rem;
+  line-height: 1;
+  color: var(--color-fjord);
+  font-family: serif;
+}
+
+.theory-hero-content {
+  flex: 1;
+}
+
+.theory-hero-title {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.theory-hero-sub {
+  margin-top: 1rem;
+  line-height: 1.8;
+  color: rgb(75 85 99);
+}
+
+.dark .theory-hero-sub {
+  color: rgb(203 213 225);
+}
+
+.theory-hero-meta {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: rgb(107 114 128);
+}
+
+.dark .theory-hero-meta {
+  color: rgb(148 163 184);
+}
+
+@media (max-width: 640px) {
+  .theory-hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .theory-hero-letter {
+    font-size: 5rem;
+  }
+
+  .theory-hero-title {
+    font-size: 1.875rem;
+  }
+}
+
+
+
+
+.theory-section {
+  @apply mb-10;
+}
+
+.theory-heading {
+  @apply mb-4 flex items-center gap-3 text-2xl font-semibold;
+}
+
+.theory-heading::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--color-fjord);
+  flex-shrink: 0;
+}
+
+.theory-card {
+  @apply rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.03];
+}
+
+.theory-card-soft {
+  @apply rounded-2xl border border-gray-200 bg-gray-50 p-6 dark:border-white/10 dark:bg-white/[0.02];
+}
+
+.theory-note {
+  @apply rounded-xl border-l-4 p-4 text-sm leading-6;
+  border-color: var(--color-fjord);
+  background: rgb(248 250 252);
+}
+
+.dark .theory-note {
+  background: rgb(255 255 255 / 0.03);
+}
+
+.theory-forms {
+  @apply grid gap-4 sm:grid-cols-2;
+}
+
+.theory-form {
+  @apply rounded-xl border border-gray-200 bg-white p-5 text-center dark:border-white/10 dark:bg-white/[0.03];
+}
+
+.theory-form-disabled {
+  @apply opacity-40;
+}
+
+.theory-form-label {
+  @apply mt-2 text-sm text-gray-400;
+}
+
+.theory-summary {
+  @apply mt-10 rounded-3xl border border-fjord-200 bg-fjord-50 p-6 dark:border-fjord-700 dark:bg-fjord-900/30;
+}
+
+.theory-summary h2 {
+  @apply mb-4 text-xl font-semibold;
+}
+
+.theory-summary ul {
+  @apply space-y-2;
+}
+
+.theory-summary li {
+  @apply leading-7;
+}
+
+.theory-divider {
+  @apply my-6 border-t border-gray-200 dark:border-white/10;
 }

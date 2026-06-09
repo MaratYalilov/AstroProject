@@ -70,6 +70,7 @@ export default function RenderBlock({
           arabic={block.arabic}
           title={block.title}
           text={block.text}
+          items={block.items}
           nextLesson={block.nextLesson}
         />
       );
