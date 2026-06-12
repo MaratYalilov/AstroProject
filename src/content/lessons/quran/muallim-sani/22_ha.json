@@ -1,11 +1,11 @@
 {
-  "id": 21,
+  "id": 22,
   "slug": "ha",
   "subject": "quran",
   "course": "muallim-sani",
   "title": [
     {
-      "text": "Буква «ҳа» "
+      "text": "Буква «хә»"
     },
     {
       "text": "ح",
@@ -17,14 +17,14 @@
       "type": "letter-lesson",
       "title": [
         {
-          "text": "Буква «ҳа» "
+          "text": "Буква «хә» "
         },
         {
           "text": "ح",
           "arab": true
         }
       ],
-      "description": "Хрипящий звук «ҳа» выходит из верхней части гортани без участия голосовых связок.",
+      "description": "Хрипящий звук «хә» выходит из верхней части гортани без участия голосовых связок.",
       "letters": [
         {
           "name": "Хә",
@@ -40,19 +40,19 @@
         "items": [
           {
             "arabic": "ـحُ",
-            "transcription": "ҳу",
+            "transcription": "ху",
             "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/06_ha-damma.mp3"
           },
           {
             "arabic": "ـحِـ",
-            "transcription": "ҳи",
+            "transcription": "хи",
             "form": "middle",
             "audio": "/media/quran/muallim-sani/audio/byletters/06_ha-kasra.mp3"
           },
           {
             "arabic": "حَـ",
-            "transcription": "ҳа",
+            "transcription": "хә",
             "form": "initial",
             "audio": "/media/quran/muallim-sani/audio/byletters/06_ha-fatha.mp3"
           }
@@ -98,14 +98,14 @@
       "type": "theory",
       "title": [
         {
-          "text": "Буква «ҳа» "
+          "text": "Буква «хә» "
         },
         {
           "text": "ح",
           "arab": true
         }
       ],
-      "source": "21_ha.md"
+      "source": "22_ha.md"
     },
     {
       "type": "reading-exercises"

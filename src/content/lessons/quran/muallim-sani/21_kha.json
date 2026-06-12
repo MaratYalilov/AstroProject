@@ -1,11 +1,11 @@
 {
-  "id": 22,
+  "id": 21,
   "slug": "kha",
   "subject": "quran",
   "course": "muallim-sani",
   "title": [
     {
-      "text": "Буква «хә» "
+      "text": "Буква «ҳа» "
     },
     {
       "text": "خ",
@@ -17,14 +17,14 @@
       "type": "letter-lesson",
       "title": [
         {
-          "text": "Буква «хә» "
+          "text": "Буква «ҳа» "
         },
         {
           "text": "خ",
           "arab": true
         }
       ],
-      "description": "Звук «хә» выходит из средней части гортани без смыкания голосовых связок. Можно сравнить с горловым шипеньем.",
+      "description": "Звук «ҳа» выходит из средней части гортани без смыкания голосовых связок. Можно сравнить с горловым шипеньем.",
       "letters": [
         {
           "name": "Ҳа",
@@ -40,19 +40,19 @@
         "items": [
           {
             "arabic": "ـخُ",
-            "transcription": "ху",
+            "transcription": "ҳу",
             "form": "final",
             "audio": "/media/quran/muallim-sani/audio/byletters/07_kha-damma.mp3"
           },
           {
             "arabic": "ـخِـ",
-            "transcription": "хи",
+            "transcription": "ҳи",
             "form": "middle",
             "audio": "/media/quran/muallim-sani/audio/byletters/07_kha-kasra.mp3"
           },
           {
             "arabic": "خَـ",
-            "transcription": "хә",
+            "transcription": "ҳа",
             "form": "initial",
             "audio": "/media/quran/muallim-sani/audio/byletters/07_kha-fatha.mp3"
           }
@@ -98,14 +98,14 @@
       "type": "theory",
       "title": [
         {
-          "text": "Буква «хә» "
+          "text": "Буква «ҳа» "
         },
         {
           "text": "خ",
           "arab": true
         }
       ],
-      "source": "22_kha.md"
+      "source": "21_kha.md"
     },
     {
       "type": "reading-exercises"
