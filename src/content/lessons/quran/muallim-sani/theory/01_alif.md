@@ -25,18 +25,6 @@ order: 2
     Буква <b>әлиф</b> занимает особое место в арабском письме.  
     Сам по себе әлиф <b>не имеет собственного звучания</b>. Когда мы видим <span class="arab-mark" style="color: var(--color-fjord);">أ</span>, звучит не әлиф <span class="arab-mark" style="color: var(--color-fjord);">ا</span>, а <b>һәмзә</b> <span class="arab-mark" style="color: var(--color-fjord);">ء</span>, для которой әлиф служит опорой.
   </p>
-<!-- 
-  <h2 class="theory-writing ">
-    Начертание
-  </h2>
-  <p>
-  Буква «әлиф» является <b>полностью надстрочной буквой</b>, занимает всю высоту строки. Размер высоты «әлифа» является главным эталоном (мерилом) для всех остальных букв.</p>
-  <p>
-    һәмзә ставится над әлиф с огласовками фатха <span class="arab-mark" style="color: var(--color-fjord);">أَ</span>, дамма <span class="arab-mark" style="color: var(--color-eggplant);"> ـأُ</span> и с сукун <span class="arab-mark" style="color: var(--color-fjord);">أۡ</span>.
-  </p> 
-  <p>
-    В случае с кясра һәмзә ставится под әлиф <span class="arab-mark" style="color: var(--color-eggplant);">ـإِ </span>
-  </p> -->
 
   <section class="theory-section">
 <h2 class="theory-heading">

@@ -1,5 +1,5 @@
 import LetterIntroCombined from "@/components/alifba/LetterIntroCombined";
-import TheoryReveal from "@/components/alifba/TheoryReveal";
+import TheoryReveal from "@/components/alifba/TheoryReveal-OLD";
 import WritingAndFormsBlock from "@/components/alifba/WritingAndFormsBlock";
 import AlphabetGrid from "@/components/alifba/AlphabetGrid";
 import ReadingExercises from "@/components/alifba/ReadingExercises";

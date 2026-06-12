@@ -27,7 +27,7 @@
       "description": "Хрипящий звук «ҳа» выходит из верхней части гортани без участия голосовых связок.",
       "letters": [
         {
-          "name": "Ҳа",
+          "name": "Хә",
           "arabic": "ح",
           "arabname": "حَاء",
           "audio": "/media/quran/muallim-sani/audio/alifba/06_ha.mp3",
@@ -105,7 +105,7 @@
           "arab": true
         }
       ],
-      "source": "21_ha-upper.md"
+      "source": "21_ha.md"
     },
     {
       "type": "reading-exercises"

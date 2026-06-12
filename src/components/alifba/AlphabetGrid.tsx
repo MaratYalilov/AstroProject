@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Play, Pause, RotateCcw, Volume2 } from "lucide-react";
 import { Howl } from "howler";
+import alphabetData from "@/content/lessons/quran/muallim-sani/AlphabetLetter.json";
 
 interface AlphabetLetter {
   char: string;
@@ -11,37 +12,9 @@ interface AlphabetLetter {
   audio: string;
 }
 
-const ALPHABET_DATA: AlphabetLetter[] = [
-  { char: "أ", name: "әлиф", arabName: "أَلِف", audio: "/media/quran/muallim-sani/audio/alifba/01_alif.mp3" },
-  { char: "ب", name: "бә", arabName: "بَاء", audio: "/media/quran/muallim-sani/audio/alifba/02_ba.mp3" },
-  { char: "ت", name: "тә", arabName: "تَاء", audio: "/media/quran/muallim-sani/audio/alifba/03_ta.mp3" },
-  { char: "ث", name: "ҫә", arabName: "ثَاء", audio: "/media/quran/muallim-sani/audio/alifba/04_sa.mp3" },
-  { char: "ج", name: "дҗим", arabName: "جِيم", audio: "/media/quran/muallim-sani/audio/alifba/05_jim.mp3" },
-  { char: "ح", name: "хә", arabName: "حَاء", audio: "/media/quran/muallim-sani/audio/alifba/06_ha.mp3" },
-  { char: "خ", name: "ҳа", arabName: "خَاء", audio: "/media/quran/muallim-sani/audio/alifba/07_kha.mp3" },
-  { char: "د", name: "дәль", arabName: "دَال", audio: "/media/quran/muallim-sani/audio/alifba/08_dal.mp3" },
-  { char: "ذ", name: "ҙәль", arabName: "ذَال", audio: "/media/quran/muallim-sani/audio/alifba/09_zal.mp3" },
-  { char: "ر", name: "ра", arabName: "رَاء", audio: "/media/quran/muallim-sani/audio/alifba/10_ra.mp3" },
-  { char: "ز", name: "зәй", arabName: "زَاي", audio: "/media/quran/muallim-sani/audio/alifba/11_zai.mp3" },
-  { char: "س", name: "син", arabName: "سِين", audio: "/media/quran/muallim-sani/audio/alifba/12_sin.mp3" },
-  { char: "ش", name: "шин", arabName: "شِين", audio: "/media/quran/muallim-sani/audio/alifba/13_shin.mp3" },
-  { char: "ص", name: "сад", arabName: "صَاد", audio: "/media/quran/muallim-sani/audio/alifba/14_sad.mp3" },
-  { char: "ض", name: "дад", arabName: "ضَاد", audio: "/media/quran/muallim-sani/audio/alifba/15_dad.mp3" },
-  { char: "ط", name: "Ṭа", arabName: "طَاء", audio: "/media/quran/muallim-sani/audio/alifba/16_to.mp3" },
-  { char: "ظ", name: "ҙа", arabName: "ظَاء", audio: "/media/quran/muallim-sani/audio/alifba/17_zo.mp3" },
-  { char: "ع", name: "ғәйн", arabName: "عَيْن", audio: "/media/quran/muallim-sani/audio/alifba/18_ain.mp3" },
-  { char: "غ", name: "ғайн", arabName: "غَيْن", audio: "/media/quran/muallim-sani/audio/alifba/19_ghain.mp3" },
-  { char: "ف", name: "фә", arabName: "فَاء", audio: "/media/quran/muallim-sani/audio/alifba/20_fa.mp3" },
-  { char: "ق", name: "қаф", arabName: "قَاف", audio: "/media/quran/muallim-sani/audio/alifba/21_qaf.mp3" },
-  { char: "ك", name: "кәф", arabName: "كَاف", audio: "/media/quran/muallim-sani/audio/alifba/22_kaf.mp3" },
-  { char: "ل", name: "ләм", arabName: "لاَم", audio: "/media/quran/muallim-sani/audio/alifba/23_lam.mp3" },
-  { char: "م", name: "мим", arabName: "مِيم", audio: "/media/quran/muallim-sani/audio/alifba/24_mim.mp3" },
-  { char: "ن", name: "нун", arabName: "نُون", audio: "/media/quran/muallim-sani/audio/alifba/25_nun.mp3" },
-  { char: "و", name: "уау", arabName: "وَاو", audio: "/media/quran/muallim-sani/audio/alifba/26_waw.mp3" },
-  { char: "ه", name: "һә", arabName: "هَاء", audio: "/media/quran/muallim-sani/audio/alifba/27_ha2.mp3" },
-  { char: "ء", name: "һәмзә", arabName: "هَمْزَة", audio: "/media/quran/muallim-sani/audio/alifba/28_hamza.mp3" },
-  { char: "ي", name: "йә", arabName: "يَاء", audio: "/media/quran/muallim-sani/audio/alifba/29_ya.mp3" },
-];
+const ALPHABET_DATA: AlphabetLetter[] = (alphabetData as AlphabetLetter[]).sort(
+  (a, b) => (a as any).lessonOrder - (b as any).lessonOrder
+);
 
 const arabicFont = "'AmiriLocal', 'Scheherazade New', 'Amiri', serif";
 

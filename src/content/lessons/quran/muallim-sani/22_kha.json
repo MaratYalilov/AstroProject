@@ -27,7 +27,7 @@
       "description": "Звук «хә» выходит из средней части гортани без смыкания голосовых связок. Можно сравнить с горловым шипеньем.",
       "letters": [
         {
-          "name": "Хә",
+          "name": "Ҳа",
           "arabic": "خ",
           "arabname": "خَاء",
           "audio": "/media/quran/muallim-sani/audio/alifba/07_kha.mp3",
@@ -105,7 +105,7 @@
           "arab": true
         }
       ],
-      "source": "22_kha-middle.md"
+      "source": "22_kha.md"
     },
     {
       "type": "reading-exercises"
