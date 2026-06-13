@@ -154,7 +154,7 @@ function SidebarContent({
   onSelect: (index: number) => void;
 }) {
   const navRef = useRef<HTMLElement | null>(null);
-  const currentLessonRef = useRef<HTMLButtonElement | null>(null);
+  const buttonRefs = useRef<Map<number, HTMLButtonElement>>(new Map());
   const [completedLessonIds, setCompletedLessonIds] = useState<Set<number>>(
     () => getCompletedLessonIds(lessons)
   );
@@ -176,21 +176,20 @@ function SidebarContent({
 
   useEffect(() => {
     const nav = navRef.current;
-    const currentLesson = currentLessonRef.current;
+    const el = buttonRefs.current.get(currentIndex);
+    if (!nav || !el) return;
 
-    if (!nav || !currentLesson) {
-      return;
-    }
+    const raf = requestAnimationFrame(() => {
+      const navRect = nav.getBoundingClientRect();
+      const elRect = el.getBoundingClientRect();
 
-    const targetTop =
-      currentLesson.offsetTop -
-      nav.offsetTop -
-      (nav.clientHeight - currentLesson.clientHeight) / 2;
+      const delta =
+        elRect.top - navRect.top - (navRect.height - elRect.height) / 2;
 
-    nav.scrollTo({
-      top: Math.max(0, targetTop),
-      behavior: "smooth",
+      nav.scrollTo({ top: nav.scrollTop + delta, behavior: "smooth" });
     });
+
+    return () => cancelAnimationFrame(raf);
   }, [currentIndex, lessons.length]);
 
   const completedCount = lessons.reduce(
@@ -231,7 +230,13 @@ function SidebarContent({
 
           return (
             <motion.button
-              ref={isCurrent ? currentLessonRef : undefined}
+              ref={(el) => {
+                if (el) {
+                  buttonRefs.current.set(index, el);
+                } else {
+                  buttonRefs.current.delete(index);
+                }
+              }}
               key={lesson.id}
               type="button"
               onClick={() => onSelect(index)}
@@ -291,7 +296,6 @@ function SidebarContent({
                   Урок {lesson.id}
                 </span>
               </div>
-
               {isCurrent && (
                 <ChevronRight className="relative z-10 h-4 w-4 text-cyan-600 dark:text-cyan-300" />
               )}
