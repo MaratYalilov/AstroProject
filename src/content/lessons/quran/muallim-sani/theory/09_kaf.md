@@ -35,12 +35,94 @@ order: 10
       </div>
     </div>
     <div class="flex-1">
-      <p class="!mt-0 leading-relaxed">
-        Полностью надстрочная высокая буква, равная по высоте «әлифу». В начальной форме начинаем пропись с самого верха (высота «әлифа»), спускаясь налево под углом 45º, затем, достигнув середины высоты «әлифа» под углом 90º делаем резкий поворот направо и спускаемся до строки, перед которой слегка закругляем линию и продолжаем по строке, продолжая в виде лигатуры. При написании средней формы, проведя лигатуру справа, начинаем подъём налево под углом 135º до высоты середины «әлифа», затем резко под углом 90º продолжаем подниматься направо до полной высоты «әлифа», в этой точке мы вынуждены оторвать руку от бумаги, продолжаем с высоты в ¼ «әлифа» в месте, где начинается закругление перед строкой у начального «кәф», спускаемся под углом 45º направо и продолжаем по строке в виде лигатуры. Конечная и отдельная формы вертикально спускаютя вниз и после небольшого закругления продолжаются по строке на ⅔ или ½ высоты «әлифа» затем на ¼ «әлифа» приподнимаем вертикально конец буквы, у конечной буквы справа подводим лигатуру затем поднимаемся на высоту «әлифа» вертикально и снова по этой же линии начинаем прописывать отдельную форму.
-      </p>
-    </div>
+  <p class="!mt-0 mb-3 leading-relaxed">
+    Полностью надстрочная высокая буква, равная по высоте «әлифу». Раскройте каждую форму, чтобы увидеть порядок написания.
+  </p>
+
+  <div class="space-y-2">
+    <details class="theory-card group">
+      <summary class="cursor-pointer list-none font-semibold text-gray-900 dark:text-slate-100 flex items-center justify-between">
+        Начальная форма (كـ)
+        <i class="ti ti-chevron-down transition-transform group-open:rotate-180"></i>
+      </summary>
+      <div class="mt-3 flex flex-col gap-3">
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-forest-100 text-sm font-semibold text-forest-700 dark:bg-forest-900/40 dark:text-forest-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Начинаем с самого верха — на полной высоте «әлифа»</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-forest-100 text-sm font-semibold text-forest-700 dark:bg-forest-900/40 dark:text-forest-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Спускаемся налево под углом <b>45°</b> до середины высоты «әлифа»</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-forest-100 text-sm font-semibold text-forest-700 dark:bg-forest-900/40 dark:text-forest-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Резкий поворот направо под углом <b>90°</b> и спуск вниз до строки</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-forest-100 text-sm font-semibold text-forest-700 dark:bg-forest-900/40 dark:text-forest-300">4</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Перед строкой слегка закругляем линию и продолжаем по строке лигатурой</p>
+        </div>
+      </div>
+    </details>
+    <details class="theory-card group">
+      <summary class="cursor-pointer list-none font-semibold text-gray-900 dark:text-slate-100 flex items-center justify-between">
+        Серединная форма (ـكـ)
+        <i class="ti ti-chevron-down transition-transform group-open:rotate-180"></i>
+      </summary>
+      <div class="mt-3 flex flex-col gap-3">
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-terracotta-100 text-sm font-semibold text-terracotta-700 dark:bg-terracotta-900/40 dark:text-terracotta-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Проводим лигатуру справа по строке</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-terracotta-100 text-sm font-semibold text-terracotta-700 dark:bg-terracotta-900/40 dark:text-terracotta-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Поднимаемся налево под углом <b>135°</b> до середины высоты «әлифа»</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-terracotta-100 text-sm font-semibold text-terracotta-700 dark:bg-terracotta-900/40 dark:text-terracotta-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Резкий поворот под углом <b>90°</b> — продолжаем подниматься направо до полной высоты «әлифа»</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-terracotta-100 text-sm font-semibold text-terracotta-700 dark:bg-terracotta-900/40 dark:text-terracotta-300">5</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Здесь рука отрывается от бумаги</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-terracotta-100 text-sm font-semibold text-terracotta-700 dark:bg-terracotta-900/40 dark:text-terracotta-300">6</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Продолжаем с высоты <b>¼</b> «әлифа» — в точке закругления перед строкой, как у начального «кәф»</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-terracotta-100 text-sm font-semibold text-terracotta-700 dark:bg-terracotta-900/40 dark:text-terracotta-300">7</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Спускаемся направо под углом <b>45°</b> и продолжаем по строке лигатурой</p>
+        </div>
+      </div>
+    </details>
+    <details class="theory-card group">
+      <summary class="cursor-pointer list-none font-semibold text-gray-900 dark:text-slate-100 flex items-center justify-between">
+        Конечная и отдельная формы (ـك, ك)
+        <i class="ti ti-chevron-down transition-transform group-open:rotate-180"></i>
+      </summary>
+      <div class="mt-3 flex flex-col gap-3">
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-eggplant-100 text-sm font-semibold text-eggplant-700 dark:bg-eggplant-900/40 dark:text-eggplant-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Вертикальная линия спускается вниз с полной высоты «әлифа»</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-eggplant-100 text-sm font-semibold text-eggplant-700 dark:bg-eggplant-900/40 dark:text-eggplant-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">После небольшого закругления продолжаем по строке на <b>⅔</b> или <b>½</b> высоты «әлифа»</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-eggplant-100 text-sm font-semibold text-eggplant-700 dark:bg-eggplant-900/40 dark:text-eggplant-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Приподнимаем конец буквы вертикально на <b>¼</b> высоты «әлифа»</p>
+        </div>
+      </div>
+      <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">
+        <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400">Только у конечной формы</p>
+        <p class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+          Справа подводим лигатуру и поднимаемся вертикально на высоту «әлифа» — с этой же линии начинаем прописывать форму, описанную выше.
+        </p>
+      </div>
+    </details>
   </div>
-</div>
 </section>
 
   <h2 class="theory-writing ">
@@ -105,7 +187,7 @@ order: 10
 
 </div>
 
-  <h2 class="theory-writing ">
+<h2 class="theory-writing ">
     Произношение
   </h2>
 
@@ -124,8 +206,53 @@ order: 10
       </div>
       <div class="flex-1">
         <p class="!mt-0 leading-relaxed">
-          Задняя часть языка, твёрдое и мягкое нёбо
+          Буква <strong class="text-fjord-600 dark:text-fjord-400">ك (каф)</strong> - заднеязычный взрывной (смычный) звук. Образуется при соприкосновении задней части языка с границей твёрдого и мягкого нёба. Ближайший аналог - русский звук «к» в слове «кот».
         </p>
       </div>
+    </div>
+    <!-- Блок: Как произнести -->
+    <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">Как произнести</p>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Поднимите</b> корень (заднюю часть) языка к нёбу</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Создайте</b> полную смычку между языком и нёбом</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Резко разомкните</b> смычку, произнося «к-к-к» без голоса</p>
+        </div>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК 2: Свойства (Сыфат) -->
+    <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">🏷️ Постоянные свойства (Сыфат)</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Хамс</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Шидда</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Истифаль</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Инфитах</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Исмат</span>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК 3: Важное отличие от русской «К» -->
+    <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400">💎 Отличие от русской «К»</p>
+      <p class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+        Русская буква <strong class="text-amber-700 dark:text-amber-400">«К»</strong> часто произносится с заметным <strong>придыханием</strong>, особенно перед гласными. Арабская <strong class="text-amber-700 dark:text-amber-400">ك</strong> произносится <strong>чище и суше</strong>, с меньшим потоком воздуха после взрыва. Старайтесь не добавлять выдох после звука.
+      </p>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК 5: Частые ошибки -->
+    <div class="mt-4 rounded-xl border border-red-100 bg-red-50/30 p-4 dark:border-red-900/30 dark:bg-red-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-red-500 dark:text-red-400">❌ Частые ошибки</p>
+      <ul class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300 space-y-1 pl-4">
+        <li><strong class="text-red-700 dark:text-red-400">Придыхание</strong> — не выдыхайте воздух после «к»</li>
+        <li><strong class="text-red-700 dark:text-red-400">Слишком мягкое «кь»</strong> — арабская ك твёрже, чем в слове «кино»</li>
+        <li><strong class="text-red-700 dark:text-red-400">Недостаточная смычка</strong> — язык должен плотно прилегать к нёбу</li>
+      </ul>
     </div>
   </div>
