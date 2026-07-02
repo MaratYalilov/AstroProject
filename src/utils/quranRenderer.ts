@@ -1,10 +1,10 @@
 ﻿// src/utils/quranRenderer.ts
 
 // JSON-файлы
-import surahsData from "../data/surahs.json" assert { type: "json" };
-import quranUthmaniData from "../data/quran-uthmani-hafs.json" assert { type: "json" };
-import quranKulievData from "../data/quran-kuliev-ru.json" assert { type: "json" };
-import qcfV2Data from "../data/quran-qcf-v2.json" assert { type: "json" };
+import surahsData from "../data/surahs.json" with { type: "json" };
+import quranUthmaniData from "../data/quran-uthmani-hafs.json" with { type: "json" };
+import quranKulievData from "../data/quran-kuliev-ru.json" with { type: "json" };
+import qcfV2Data from "../data/quran-qcf-v2.json" with { type: "json" };
 
 // Типы
 type SurahMeta = {

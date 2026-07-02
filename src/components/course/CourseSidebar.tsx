@@ -156,7 +156,7 @@ function SidebarContent({
   const navRef = useRef<HTMLElement | null>(null);
   const buttonRefs = useRef<Map<number, HTMLButtonElement>>(new Map());
   const [completedLessonIds, setCompletedLessonIds] = useState<Set<number>>(
-    () => getCompletedLessonIds(lessons)
+    () => new Set<number>()
   );
 
   useEffect(() => {

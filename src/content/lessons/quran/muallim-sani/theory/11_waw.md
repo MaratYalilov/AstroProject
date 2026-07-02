@@ -100,8 +100,58 @@ order: 12
       </div>
       <div class="flex-1">
         <p class="!mt-0 leading-relaxed">
-          Между губ, собранными в трубочку
+          Буква <strong class="text-fjord-600 dark:text-fjord-400">و (уау)</strong> — губно-губной полугласный звук. Образуется при сближении округлённых, вытянутых вперёд «в трубочку» губ; задняя часть языка приподнята к мягкому нёбу. Голос участвует. Ближайший аналог — английский звук «w» в слове «water».
         </p>
       </div>
+    </div>
+    <!-- Блок: Как произнести -->
+    <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">Как произнести</p>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Округлите</b> и слегка вытяните губы вперёд, как при свисте</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Приподнимите</b> заднюю часть языка к мягкому нёбу</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Произнесите</b> короткий губной звук «ў», как английское «w» в слове «water», с голосом</p>
+        </div>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Свойства (Сыфат) -->
+    <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">🏷️ Постоянные свойства (Сыфат)</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Джахр</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Рахава</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Истифаль</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Инфитах</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Исмат</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Лин</span>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Особенность буквы уау -->
+    <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400">✨ Особенность буквы уау</p>
+      <p class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+        Буква <strong>و</strong> бывает и согласной, и буквой протяжения. Когда <strong>و</strong> с сукуном
+        стоит после <strong>даммы</strong>, она становится буквой долготы (мадд) и читается как протяжное «ӯ».
+        Когда <strong>و</strong> с сукуном стоит после <strong>фатхи</strong>, образуется мягкий звук «лин» (ау).
+        Позже эти правила будут изучаться отдельно.
+      </p>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Частые ошибки -->
+    <div class="mt-4 rounded-xl border border-red-100 bg-red-50/30 p-4 dark:border-red-900/30 dark:bg-red-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-red-500 dark:text-red-400">❌ Частые ошибки</p>
+      <ul class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300 space-y-1 pl-4">
+        <li><strong class="text-red-700 dark:text-red-400">Замена на русский «в»</strong> — губы не касаются зубов; уау образуется двумя губами, а не губой и зубами</li>
+        <li><strong class="text-red-700 dark:text-red-400">Полное смыкание губ</strong> — при плотном смыкании получится «б» или «м»</li>
+        <li><strong class="text-red-700 dark:text-red-400">Недостаточное округление губ</strong> — без «трубочки» звук теряет свою чистоту</li>
+        <li><strong class="text-red-700 dark:text-red-400">Чрезмерное растягивание</strong> — обычная буква «уау» не должна превращаться в долгий звук «ӯ» без причины</li>
+      </ul>
     </div>
   </div>

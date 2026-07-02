@@ -100,8 +100,55 @@ order: 26
       </div>
       <div class="flex-1">
         <p class="!mt-0 leading-relaxed">
-          Кончик языка и основание верхних резцов
+          Буква <strong class="text-fjord-600 dark:text-fjord-400">د (дәль)</strong> — звонкий взрывной звук. Кончик языка прижимается к основанию верхних передних зубов, с участием голоса. Тонкая буква, близкая к русскому «д» в слове «дом», но чуть мягче.
         </p>
       </div>
+    </div>
+    <!-- Блок: Как произнести -->
+    <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">Как произнести</p>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Прижмите</b> кончик языка к основанию верхних передних зубов</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Создайте</b> полную смычку</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Разомкните</b>, произнося звонкий «д» с отскоком (калькаля)</p>
+        </div>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Свойства (Сыфат) -->
+    <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">🏷️ Постоянные свойства (Сыфат)</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Джахр</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Шидда</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Истифаль</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Инфитах</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Исмат</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Калькаля</span>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Особенность буквы дәль -->
+    <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400">✨ Особенность буквы дәль</p>
+      <p class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+        <strong>د</strong> — <strong>тонкая</strong> (без тафхима) буква, в отличие от уже знакомой «тяжёлой» <strong>ط</strong>.
+        Обладает свойством <strong>калькаля</strong>: при сукуне даёт лёгкий отскок звука.
+      </p>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Частые ошибки -->
+    <div class="mt-4 rounded-xl border border-red-100 bg-red-50/30 p-4 dark:border-red-900/30 dark:bg-red-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-red-500 dark:text-red-400">❌ Частые ошибки</p>
+      <ul class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300 space-y-1 pl-4">
+        <li><strong class="text-red-700 dark:text-red-400">Утолщение</strong> — смешение с «тяжёлой» ط; дәль остаётся тонкой</li>
+        <li><strong class="text-red-700 dark:text-red-400">Оглушение в «т»</strong> — дәль звонкая, с участием голоса</li>
+        <li><strong class="text-red-700 dark:text-red-400">Потеря калькаля</strong> — при сукуне нужен чёткий отскок</li>
+      </ul>
     </div>
   </div>

@@ -1,9 +1,22 @@
 import { useMemo, useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import type { CollectionEntry } from 'astro:content'
 import { replaceQuranTags } from '@/utils/replaceQuranTags'
 
-type GlossaryEntry = CollectionEntry<'glossary'>
+type GlossaryEntry = {
+  id: string
+  body: string
+  data: {
+    term: string
+    url_slug: string
+    letter: string
+    category: string
+    tags: string[]
+    aliases: string[]
+    related: string[]
+    used_in: any[]
+    description?: string
+  }
+}
 
 type Props = {
   entries: GlossaryEntry[]
@@ -18,24 +31,20 @@ const LETTERS = [
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(false)
-  const [isChecking, setIsChecking] = useState(true)
 
   useEffect(() => {
     const mq = window.matchMedia('(max-width: 768px)')
-    const update = () => {
-      setIsMobile(mq.matches)
-      setIsChecking(false)
-    }
-    update()
+    setIsMobile(mq.matches)
+    const update = (e: MediaQueryListEvent) => setIsMobile(e.matches)
     mq.addEventListener('change', update)
     return () => mq.removeEventListener('change', update)
   }, [])
 
-  return { isMobile, isChecking }
+  return isMobile
 }
 
 export default function GlossaryPage({ entries, initialSlug }: Props) {
-  const { isMobile, isChecking } = useIsMobile()
+  const isMobile = useIsMobile()
 
   const [letter, setLetter] = useState<string | null>(null)
   const [query, setQuery] = useState('')
@@ -96,7 +105,6 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
 
   useEffect(() => {
     if (
-      !isChecking &&
       !isMobile &&
       !active &&
       !hasInitializedDesktop.current &&
@@ -111,7 +119,7 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
         `/glossary/${getSlug(filtered[0])}`
       )
     }
-  }, [filtered, active, isMobile, isChecking])
+  }, [filtered, active, isMobile])
 
   /* ---------------- keep active valid ---------------- */
 
@@ -199,16 +207,6 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
       window.clearTimeout(timeoutId)
     }
   }, [active?.id, active?.body])
-
-  /* ---------------- LOADER ---------------- */
-
-  if (isChecking) {
-    return (
-      <div className="flex items-center justify-center h-64 text-muted-foreground">
-        Загрузка…
-      </div>
-    )
-  }
 
   /* ================= MOBILE ================= */
 

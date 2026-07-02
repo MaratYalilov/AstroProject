@@ -3,7 +3,12 @@ import Base from '@/layouts/Base.astro'
 import GlossaryPage from '@/components/glossary/GlossaryPage'
 import { getCollection } from 'astro:content'
 
-const glossary = await getCollection('glossary')
+const rawGlossary = await getCollection('glossary')
+const glossary = rawGlossary.map(e => ({
+  id: e.id,
+  data: e.data,
+  body: e.body ?? '',
+}))
 ---
 
 <Base title="Словарь терминов">

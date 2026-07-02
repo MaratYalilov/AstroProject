@@ -124,8 +124,55 @@ order: 16
       </div>
       <div class="flex-1">
         <p class="!mt-0 leading-relaxed">
-          Середина языка, верхняя и середина нёба
+          Буква <strong class="text-fjord-600 dark:text-fjord-400">ش (шин)</strong> — глухой щелевой звук. Образуется при сближении средней части языка с твёрдым нёбом, без участия голосовых связок. Похож на русский «ш», но мягче и с распространением звука по ротовой полости (тафашши).
         </p>
       </div>
+    </div>
+    <!-- Блок: Как произнести -->
+    <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">Как произнести</p>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Приблизьте</b> среднюю часть языка к твёрдому нёбу, не касаясь его</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Пропустите</b> воздух через щель без голоса</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Произнесите</b> мягкий «ш», распространяя звук по ротовой полости</p>
+        </div>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Свойства (Сыфат) -->
+    <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">🏷️ Постоянные свойства (Сыфат)</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Хамс</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Рахава</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Истифаль</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Инфитах</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Исмат</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Тафашши</span>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Особенность буквы шин -->
+    <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400">✨ Особенность буквы шин</p>
+      <p class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+        Свойство <strong>тафашши</strong> означает, что при <strong>ش</strong> струя воздуха распространяется по всей
+        ротовой полости и доходит до зубов. Поэтому звук получается <strong>мягче</strong> русского твёрдого «ш».
+      </p>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Частые ошибки -->
+    <div class="mt-4 rounded-xl border border-red-100 bg-red-50/30 p-4 dark:border-red-900/30 dark:bg-red-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-red-500 dark:text-red-400">❌ Частые ошибки</p>
+      <ul class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300 space-y-1 pl-4">
+        <li><strong class="text-red-700 dark:text-red-400">Слишком твёрдый «ш»</strong> — как в слове «шар»; арабская ش мягче</li>
+        <li><strong class="text-red-700 dark:text-red-400">Озвончение в «ж»</strong> — шин всегда глухая</li>
+        <li><strong class="text-red-700 dark:text-red-400">Касание языком нёба</strong> — должно быть сближение, а не контакт</li>
+      </ul>
     </div>
   </div>

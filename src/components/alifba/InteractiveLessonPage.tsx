@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo } from "react";
 import RenderBlock from "@/lib/interactive/renderBlock";
 
 type TitleSegment = {
@@ -21,31 +21,26 @@ export default function InteractiveLessonPage({
   subject,
   course,
 }: Props) {
-  const [arabname, setArabname] = useState<string | undefined>();
+  const arabname = useMemo(() => {
+    const block = lesson.blocks.find(
+      (item) =>
+        item.type === "letter-lesson" &&
+        item.letters?.[0]?.arabname
+    );
+    return block?.letters?.[0]?.arabname;
+  }, [lesson.blocks]);
 
   return (
     <div className="space-y-10 text-foreground">
       {/* Blocks */}
-      {lesson.blocks.map((block, index) => {
-        // Запоминаем arabname из блоков, содержащих letters
-        if (
-          block.type === "letter-lesson" &&
-          block.letters?.[0]?.arabname
-        ) {
-          if (block.letters[0].arabname !== arabname) {
-            setArabname(block.letters[0].arabname);
-          }
-        }
-
-        return (
-          <RenderBlock
-            key={index}
-            block={block}
-            lessonId={lesson.id}
-            arabname={block.type === "writing-and-forms" ? arabname : undefined}
-          />
-        );
-      })}
+      {lesson.blocks.map((block, index) => (
+        <RenderBlock
+          key={index}
+          block={block}
+          lessonId={lesson.id}
+          arabname={block.type === "writing-and-forms" ? arabname : undefined}
+        />
+      ))}
     </div>
   );
 }

@@ -124,8 +124,55 @@ order: 25
       </div>
       <div class="flex-1">
         <p class="!mt-0 leading-relaxed">
-          Средняя часть гортани со смыканием голосовых связок
+          Буква <strong class="text-fjord-600 dark:text-fjord-400">ع (٬әйн)</strong> — звонкий глоточный звук из середины горла. Образуется при лёгком сжатии середины глотки с участием голоса. Один из труднейших звуков арабского — аналога в русском нет.
         </p>
       </div>
+    </div>
+    <!-- Блок: Как произнести -->
+    <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">Как произнести</p>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Слегка сожмите</b> середину горла (лёгкое напряжение глотки)</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Пропустите</b> голос через сжатое место</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Произнесите</b> глубокий звонкий «٬» — не переходя в гласный</p>
+        </div>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Свойства (Сыфат) -->
+    <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">🏷️ Постоянные свойства (Сыфат)</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Джахр</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Байния</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Истифаль</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Инфитах</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Исмат</span>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Особенность буквы ٬әйн -->
+    <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400">✨ Особенность буквы ٬әйн</p>
+      <p class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+        Свойство <strong>байния</strong> означает промежуточное качество между полной задержкой (шидда) и свободным
+        течением (рахава): звук не полностью перекрыт и не полностью свободен. Буква <strong>тонкая</strong>; это
+        <strong>звонкая пара</strong> к глухой <strong>ح</strong>.
+      </p>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Частые ошибки -->
+    <div class="mt-4 rounded-xl border border-red-100 bg-red-50/30 p-4 dark:border-red-900/30 dark:bg-red-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-red-500 dark:text-red-400">❌ Частые ошибки</p>
+      <ul class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300 space-y-1 pl-4">
+        <li><strong class="text-red-700 dark:text-red-400">Замена на «а» или хамзу (ء)</strong> — ٬әйн образуется в глотке, а не в горловой смычке</li>
+        <li><strong class="text-red-700 dark:text-red-400">Замена на ح или خ</strong> — ٬әйн звонкая, со сжатием середины глотки</li>
+        <li><strong class="text-red-700 dark:text-red-400">Недостаточное сжатие глотки</strong> — без него звук теряет свою характерность</li>
+      </ul>
     </div>
   </div>

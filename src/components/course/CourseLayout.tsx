@@ -43,9 +43,12 @@ type Props = {
 };
 
 export default function CourseLayout({ lessons, subject, course }: Props) {
-  const [currentIndex, setCurrentIndex] = useState(() =>
-    loadProgress(subject, course)
-  );
+  const [currentIndex, setCurrentIndex] = useState(0);
+  // Загружаем сохранённый прогресс на клиенте (после монтирования)
+  useEffect(() => {
+    const saved = loadProgress(subject, course);
+    if (saved !== 0) setCurrentIndex(saved);
+  }, [subject, course]);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const lessonItems: LessonItem[] = useMemo(

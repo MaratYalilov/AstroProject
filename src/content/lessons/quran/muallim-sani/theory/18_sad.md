@@ -124,8 +124,55 @@ order: 19
       </div>
       <div class="flex-1">
         <p class="!mt-0 leading-relaxed">
-          Кончик языка и основание нижних резцов (твёрдый)
+          Буква <strong class="text-fjord-600 dark:text-fjord-400">ص (ċад)</strong> — глухой свистящий звук, эмфатический («тяжёлый»). Кончик языка у основания нижних резцов, как при «с», но задняя часть языка приподнята к нёбу (итбак). Это «тяжёлая» сестра буквы س.
         </p>
       </div>
+    </div>
+    <!-- Блок: Как произнести -->
+    <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">Как произнести</p>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">1</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Поднесите</b> кончик языка к основанию нижних резцов, как при «с»</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">2</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Приподнимите</b> заднюю часть языка к нёбу (итбак), наполняя рот</p>
+        </div>
+        <div class="flex flex-1 items-start gap-3">
+          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">3</div>
+          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300"><b class="text-gray-800 dark:text-gray-100">Произнесите</b> твёрдый свистящий «ص» без голоса</p>
+        </div>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Свойства (Сыфат) -->
+    <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">🏷️ Постоянные свойства (Сыфат)</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Хамс</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Рахава</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Исти`ля</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Итбак</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Исмат</span>
+        <span class="inline-flex items-center rounded-full bg-fjord-100 px-3 py-1 text-xs text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">Сафир</span>
+      </div>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Особенность буквы ċад -->
+    <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400">✨ Особенность буквы ċад</p>
+      <p class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+        <strong>ص</strong> — эмфатическая (итбак) «тяжёлая» сестра <strong>س</strong>. Звук толстый, с приподнятым
+        корнем языка, но сохраняет свистящий призвук (<strong>сафир</strong>). Сравните: «син» — тонкая, «ċад» — тяжёлая.
+      </p>
+    </div>
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: Частые ошибки -->
+    <div class="mt-4 rounded-xl border border-red-100 bg-red-50/30 p-4 dark:border-red-900/30 dark:bg-red-900/10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-red-500 dark:text-red-400">❌ Частые ошибки</p>
+      <ul class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300 space-y-1 pl-4">
+        <li><strong class="text-red-700 dark:text-red-400">Произношение как обычное «с»</strong> — потеря тяжести (тафхима)</li>
+        <li><strong class="text-red-700 dark:text-red-400">Озвончение</strong> — ċад глухая, без участия голоса</li>
+        <li><strong class="text-red-700 dark:text-red-400">Потеря свиста</strong> — призвук сафир должен сохраняться</li>
+      </ul>
     </div>
   </div>
