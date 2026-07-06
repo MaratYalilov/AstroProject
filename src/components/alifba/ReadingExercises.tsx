@@ -204,11 +204,16 @@ export default function ReadingExercises({ lessonOrder }: Props) {
   const cardRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
   useEffect(() => {
+    // ВАЖНО: preload: false — в уроках части 2 до ~300 карточек;
+    // одновременная преподгрузка сотен html5-audio открывает шторм
+    // аудио-сессий WASAPI и роняет аудио-движок Windows (мониторы с
+    // HDMI-звуком переинициализируются и «моргают»). Загрузка каждого
+    // файла идёт лениво при первом воспроизведении.
     exercises.forEach((exercise) => {
       if (!howlsRef.current[exercise.audio]) {
         howlsRef.current[exercise.audio] = new Howl({
           src: [exercise.audio],
-          preload: true,
+          preload: false,
           html5: true,
         });
       }
@@ -351,7 +356,10 @@ export default function ReadingExercises({ lessonOrder }: Props) {
 
   return (
     <>
-      <section className="relative rounded-3xl border border-gray-200 bg-white/80 p-4 shadow-lg shadow-gray-200/60 backdrop-blur-xl dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-6">
+      {/* ВАЖНО: без backdrop-blur — в уроках части 2 секция высотой в тысячи
+          пикселей, размытие подложки такой площади пересчитывается на GPU
+          каждый кадр и роняет драйвер на картах с малым объёмом VRAM. */}
+      <section className="relative rounded-3xl border border-gray-200 bg-white p-4 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-6">
       <div className="pointer-events-none absolute inset-x-8 top-0 h-28 rounded-full bg-cyan-400/10 blur-3xl dark:bg-cyan-300/10" />
 
       <div className="relative flex flex-col gap-6">
@@ -605,37 +613,29 @@ export default function ReadingExercises({ lessonOrder }: Props) {
           )}
         </AnimatePresence> */}
 
-        <motion.div
+        <div
           dir="rtl"
-          initial="hidden"
-          animate="show"
-          variants={{
-            hidden: {},
-            show: { transition: { staggerChildren: 0.025 } },
-          }}
           className="grid grid-cols-1 gap-3 pb-24 sm:grid-cols-2 sm:pb-0 lg:grid-cols-3 xl:grid-cols-4"
         >
           {exercises.map((exercise, index) => {
             const isActive = activeIndex === index;
 
             return (
-              <motion.button
+              // ВАЖНО: обычный button + CSS-эффекты вместо motion.button —
+              // framer вешал will-change: transform на каждую из ~300 карточек,
+              // создавая сотни постоянных GPU-слоёв (переполнение VRAM, TDR).
+              // Также без backdrop-blur и полупрозрачности по той же причине.
+              <button
                 key={`${exercise.lessonOrder}-${exercise.id}-${exercise.audio}`}
                 ref={(element) => {
                   cardRefs.current[index] = element;
                 }}
                 type="button"
-                variants={{
-                  hidden: { opacity: 0, y: 12 },
-                  show: { opacity: 1, y: 0 },
-                }}
-                whileHover={{ y: -4, scale: 1.015 }}
-                whileTap={{ scale: 0.985 }}
                 onClick={() => handleCardClick(index)}
                 className={[
                   "group relative flex min-h-[132px] items-center justify-center overflow-hidden rounded-[18px] border p-4 text-center",
-                  "bg-white/82 shadow-sm shadow-gray-200/70 backdrop-blur transition-all duration-300",
-                  "hover:border-cyan-300/60 hover:bg-cyan-50/50 hover:shadow-lg hover:shadow-cyan-500/10",
+                  "bg-white shadow-sm shadow-gray-200/70 transition-all duration-300",
+                  "hover:-translate-y-1 hover:border-cyan-300/60 hover:bg-cyan-50/50 hover:shadow-lg hover:shadow-cyan-500/10 active:translate-y-0 active:scale-[0.985]",
                   "dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none dark:hover:border-cyan-300/30 dark:hover:bg-white/[0.075]",
                   isActive
                     ? "scale-[1.025] border-cyan-300 ring-2 ring-cyan-400/50 shadow-xl shadow-cyan-500/20 dark:border-cyan-300/40"
@@ -667,10 +667,10 @@ export default function ReadingExercises({ lessonOrder }: Props) {
                 >
                   {renderExerciseText(exercise)}
                 </span>
-              </motion.button>
+              </button>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
 

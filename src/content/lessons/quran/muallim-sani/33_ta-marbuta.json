@@ -1,0 +1,45 @@
+{
+  "id": 33,
+  "slug": "ta-marbuta",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": [
+    {
+      "text": "Та марбута "
+    },
+    {
+      "text": "ة",
+      "arab": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "theory",
+      "title": [
+        {
+          "text": "Та марбута "
+        },
+        {
+          "text": "ة",
+          "arab": true
+        }
+      ],
+      "source": "33_ta-marbuta.md"
+    },
+    {
+      "type": "reading-exercises"
+    },
+    {
+      "type": "lesson-complete",
+      "arabic": "بارك الله فيك",
+      "title": "Да благословит вас Аллах.",
+      "text": "Вы изучили та марбуту.",
+      "items": [
+        "та марбута пишется как «һә» с двумя точками: ة ، ـة;",
+        "встречается только в конце слова;",
+        "при слитном чтении читается как «т»."
+      ],
+      "nextLesson": "В следующем уроке — написание хамзы и её виды."
+    }
+  ]
+}

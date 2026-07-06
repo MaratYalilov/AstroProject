@@ -1,0 +1,15 @@
+{
+  "id": 502,
+  "slug": "m05-02-hams-dzhahr",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Глухость (хамс) и звонкость (джахр)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Глухость (хамс) и звонкость (джахр)",
+      "source": "m05_02_hams-dzhahr.md"
+    }
+  ]
+}

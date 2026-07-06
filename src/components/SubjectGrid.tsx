@@ -1,6 +1,7 @@
 // src/components/SubjectGrid.tsx
 import React from "react";
 import { motion } from "framer-motion";
+import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -24,6 +25,7 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
   }
 
   return (
+    <ReducedMotionProvider>
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {items.map((s) => (
         <motion.a
@@ -138,6 +140,7 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
         </motion.a>
       ))}
     </div>
+    </ReducedMotionProvider>
   );
 };
 

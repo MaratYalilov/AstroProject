@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { BookOpen, Sparkles } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
 import { marked } from "marked";
@@ -123,10 +122,13 @@ export default function TheoryReveal({
   }, [source]);
 
   return (
-    <motion.section
+    // ВАЖНО: обычный section без layout-анимации и backdrop-blur.
+    // motion.section layout анимировал трансформом всю секцию при подгрузке
+    // теории (текст появлялся растянутым/размытым), а backdrop-blur-2xl на
+    // полотне высотой в тысячи пикселей переполнял VRAM и ронял драйвер GPU.
+    <section
       ref={sectionRef}
-      layout
-      className="scroll-mt-28 overflow-hidden rounded-3xl border border-white/70 bg-white/75 p-0 sm:p-4 shadow-xl shadow-slate-200/70 backdrop-blur-2xl transition-colors duration-300 dark:border-white/10 dark:bg-white/[0.06] dark:shadow-black/20"
+      className="scroll-mt-28 overflow-hidden rounded-3xl border border-white/70 bg-white p-0 sm:p-4 shadow-xl shadow-slate-200/70 transition-colors duration-300 dark:border-white/10 dark:bg-white/[0.06] dark:shadow-black/20"
     >
 
       <div className="relative overflow-hidden rounded-3xl border border-slate-200/80 bg-gradient-to-br from-white via-cyan-50/55 to-emerald-50/70 p-4 sm:p-6 dark:border-white/10 dark:from-white/[0.08] dark:via-cyan-300/[0.08] dark:to-emerald-300/[0.06]">
@@ -161,7 +163,9 @@ export default function TheoryReveal({
             : title || "Теория урока"}
         </div>
 
-        <article className="rounded-2xl border border-slate-200/80 bg-white/80 px-4 py-6 shadow-sm shadow-slate-200/60 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/35 dark:shadow-none sm:px-8 sm:py-8">
+        {/* без backdrop-blur: статья — вся высота теории, размытие подложки
+            такой площади слишком дорого для GPU */}
+        <article className="rounded-2xl border border-slate-200/80 bg-white px-4 py-6 shadow-sm shadow-slate-200/60 dark:border-white/10 dark:bg-slate-950/35 dark:shadow-none sm:px-8 sm:py-8">
           {isLoading && (
             <div className="space-y-4" aria-live="polite">
               <div className="h-5 w-2/3 animate-pulse rounded-full bg-slate-200 dark:bg-white/10" />
@@ -180,6 +184,6 @@ export default function TheoryReveal({
         </article>
       </div>
 
-    </motion.section>
+    </section>
   );
 }

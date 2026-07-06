@@ -20,8 +20,7 @@ order: 2
   </div>
 </div>
 
-
-</div>
+  <p>
     Буква <b>әлиф</b> занимает особое место в арабском письме.  
     Сам по себе әлиф <b>не имеет собственного звучания</b>. Когда мы видим <span class="arab-mark" style="color: var(--color-fjord);">أ</span>, звучит не әлиф <span class="arab-mark" style="color: var(--color-fjord);">ا</span>, а <b>һәмзә</b> <span class="arab-mark" style="color: var(--color-fjord);">ء</span>, для которой әлиф служит опорой.
   </p>
@@ -136,63 +135,3 @@ order: 2
 
 </div>
 
-  <h2 class="theory-writing ">
-    Произношение
-  </h2>
-
-  <div class="theory-card">
-    <!-- Верхний блок: изображение + описание источника -->
-    <div class="flex flex-col sm:flex-row gap-6 items-start mb-6">
-      <!-- Изображение -->
-      <div class="shrink-0 flex flex-col items-center gap-3">
-        <img
-          alt="Махрадж буквы"
-          class="h-auto w-full max-w-[160px] rounded-xl border border-gray-200 bg-white dark:border-white/10 sm:max-w-[150px]"
-          src="/media/quran/muallim-sani/images/makhraj/28_hamza.webp"
-        >
-        <!-- МФА символ -->
-        <div class="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-gray-50 px-3 py-2 dark:border-white/10 dark:bg-white/[0.04]">
-          <span class="font-serif text-2xl leading-none text-fjord-500 dark:text-fjord-400">ʔ</span>
-          <span class="text-xs text-gray-500 dark:text-gray-400">МФА символ</span>
-        </div>
-      </div>
-      <!-- Текст -->
-      <div class="flex-1">
-        <p class="!mt-0 leading-relaxed">
-          Собственно буква «әлиф» не несёт никакого звукового содержания, звучит «һәмзә», 
-          подставкой для которой и служит «әлиф». Звук «һәмзә» выходит из самой нижней 
-          части гортани со смыканием голосовых связок.
-        </p>
-        <p class="leading-relaxed">
-          В МФА он обозначается знаком ʔ.
-          Похожий звук возникает, когда мы говорим «не-а» или «у-у» (в значении «нет»): между двумя гласными связки полностью перекрывают воздух [не-ʔ-а].
-          То же самое происходит при чтении по слогам: «ко-ʔ-операция».
-        </p>
-      </div>
-    </div>
-    <!-- Шаги произношения -->
-    <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
-      <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">Как произнести</p>
-      <div class="flex flex-col gap-3 sm:flex-row">
-        <div class="flex flex-1 items-start gap-3">
-          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">1</div>
-          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-            <b class="text-gray-800 dark:text-gray-100">Сомкните</b> голосовые связки полностью
-          </p>
-        </div>
-        <div class="flex flex-1 items-start gap-3">
-          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">2</div>
-          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-            <b class="text-gray-800 dark:text-gray-100">Задержите</b> дыхание на долю секунды
-          </p>
-        </div>
-        <div class="flex flex-1 items-start gap-3">
-          <div class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fjord-100 text-sm font-semibold text-fjord-700 dark:bg-fjord-900/40 dark:text-fjord-300">3</div>
-          <p class="!mb-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-            <b class="text-gray-800 dark:text-gray-100">Резко разомкните</b> — пустите поток воздуха: «щелчок» в горле
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>

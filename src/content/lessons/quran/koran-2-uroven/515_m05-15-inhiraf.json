@@ -1,0 +1,15 @@
+{
+  "id": 515,
+  "slug": "m05-15-inhiraf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Инхираф (отклонение) в ل и ر",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Инхираф (отклонение) в ل и ر",
+      "source": "m05_15_inhiraf.md"
+    }
+  ]
+}

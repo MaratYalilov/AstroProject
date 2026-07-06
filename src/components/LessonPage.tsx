@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Input } from "@/components/ui/input";
@@ -628,6 +629,7 @@ useEffect(() => {
 }, [currentLesson.html]);
 
   return (
+    <ReducedMotionProvider>
     <div className="min-h-screen bg-background text-foreground">
       {/* ========================= */}
       {/* FULL WIDTH MOBILE (YouTube) */}
@@ -1319,6 +1321,7 @@ useEffect(() => {
         </main>
       </div>
     </div>
+    </ReducedMotionProvider>
   );
 };
 

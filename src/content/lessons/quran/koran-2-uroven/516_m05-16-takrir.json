@@ -1,0 +1,15 @@
+{
+  "id": 516,
+  "slug": "m05-16-takrir",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Такрир (повторение) в букве ر",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Такрир (повторение) в букве ر",
+      "source": "m05_16_takrir.md"
+    }
+  ]
+}

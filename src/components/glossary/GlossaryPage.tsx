@@ -1,5 +1,6 @@
 import { useMemo, useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 import { replaceQuranTags } from '@/utils/replaceQuranTags'
 
 type GlossaryEntry = {
@@ -212,6 +213,7 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
 
   if (isMobile) {
     return (
+      <ReducedMotionProvider>
       <div className="space-y-4">
         {!active && (
           <>
@@ -274,12 +276,14 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
           </div>
         )}
       </div>
+      </ReducedMotionProvider>
     )
   }
 
   /* ================= DESKTOP ================= */
 
   return (
+    <ReducedMotionProvider>
     <div className="grid grid-cols-[1fr_260px] gap-6 min-h-[600px]">
       {/* ARTICLE */}
       <div className="border-r pr-4">
@@ -349,5 +353,6 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
         </ul>
       </div>
     </div>
+    </ReducedMotionProvider>
   )
 }

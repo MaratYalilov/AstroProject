@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 
 type GlossaryEntry = {
   term: string
@@ -144,6 +145,7 @@ export default function GlossaryOverlay() {
   // ---------- DESKTOP POPOVER ----------
   if (!active.isMobile) {
     return (
+      <ReducedMotionProvider>
       <AnimatePresence>
         <motion.div
         key="popover"
@@ -172,11 +174,13 @@ export default function GlossaryOverlay() {
           <div>{entry.description}</div>
         </motion.div>
       </AnimatePresence>
+      </ReducedMotionProvider>
     )
   }
 
   // ---------- MOBILE BOTTOM-SHEET ----------
   return (
+    <ReducedMotionProvider>
     <AnimatePresence>
       <motion.div
         key="sheet-backdrop"
@@ -225,5 +229,6 @@ export default function GlossaryOverlay() {
 
       </motion.div>
     </AnimatePresence>
+    </ReducedMotionProvider>
   )
 }

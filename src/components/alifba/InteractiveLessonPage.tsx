@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import RenderBlock from "@/lib/interactive/renderBlock";
+import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
 
 type TitleSegment = {
   text: string;
@@ -31,6 +32,7 @@ export default function InteractiveLessonPage({
   }, [lesson.blocks]);
 
   return (
+    <ReducedMotionProvider>
     <div className="space-y-10 text-foreground">
       {/* Blocks */}
       {lesson.blocks.map((block, index) => (
@@ -42,5 +44,6 @@ export default function InteractiveLessonPage({
         />
       ))}
     </div>
+    </ReducedMotionProvider>
   );
 }

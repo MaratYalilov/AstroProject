@@ -1,0 +1,22 @@
+{
+  "_comment": "Карта: name_ru свойства из tajweed_sifat_v6.json -> slug урока курса «Коран, 2-й уровень» (модуль m05). Используется компонентом SifatBlock.",
+  "Джахр": "m05-02-hams-dzhahr",
+  "Хамс": "m05-02-hams-dzhahr",
+  "Шидда": "m05-03-sila-slabost",
+  "Рахава": "m05-03-sila-slabost",
+  "Байния": "m05-03-sila-slabost",
+  "Истифаль": "m05-05-podyom-ponizhenie",
+  "Исти`ля": "m05-05-podyom-ponizhenie",
+  "Инфитах": "m05-06-zakrytost-otkrytost",
+  "Итбак": "m05-06-zakrytost-otkrytost",
+  "Изляк": "m05-07-izlyak-ismat",
+  "Исмат": "m05-07-izlyak-ismat",
+  "Сафир": "m05-08-safir",
+  "Калькаля": "m05-09-kalkalya-1",
+  "Лин": "m05-14-lin",
+  "Гунна": "m05-19-gunna",
+  "Тафашши": "m05-17-tafashshi",
+  "Такрир": "m05-16-takrir",
+  "Инхираф": "m05-15-inhiraf",
+  "Иститаля": "m05-18-istitalya"
+}

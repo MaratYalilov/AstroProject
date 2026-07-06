@@ -6,6 +6,8 @@ export type InteractiveLesson = {
   subject: string;
   course: string;
   title: string | { text: string; arab?: boolean }[];
+  /** Название модуля курса — для группировки уроков в сайдбаре (курсы с большим числом уроков) */
+  module?: string;
   blocks: LessonBlock[];
 };
 

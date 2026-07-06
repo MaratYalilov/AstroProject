@@ -1,0 +1,15 @@
+{
+  "id": 506,
+  "slug": "m05-06-zakrytost-otkrytost",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: закрытость (итбак) и открытость (инфитах)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Свойства: закрытость (итбак) и открытость (инфитах)",
+      "source": "m05_06_zakrytost-otkrytost.md"
+    }
+  ]
+}

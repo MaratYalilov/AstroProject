@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowUp } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 
 const MAX_WIDTH = 1280;
 
@@ -46,6 +47,7 @@ const ScrollToTop: React.FC = () => {
   }, []);
 
   return (
+    <ReducedMotionProvider>
     <AnimatePresence>
       {visible && (
         <motion.button
@@ -81,6 +83,7 @@ const ScrollToTop: React.FC = () => {
         </motion.button>
       )}
     </AnimatePresence>
+    </ReducedMotionProvider>
   );
 };
 

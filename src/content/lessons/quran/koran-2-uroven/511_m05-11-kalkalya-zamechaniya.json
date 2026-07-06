@@ -1,0 +1,15 @@
+{
+  "id": 511,
+  "slug": "m05-11-kalkalya-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Калькаля: важные замечания",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Калькаля: важные замечания",
+      "source": "m05_11_kalkalya-zamechaniya.md"
+    }
+  ]
+}

@@ -26,11 +26,13 @@ export function useAudioPlayer({
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
+    // preload: false — см. ReadingExercises: массовая преподгрузка
+    // html5-audio вызывает переинициализацию аудиоустройств Windows.
     items.forEach((item) => {
       if (!howlsRef.current[item.audio]) {
         howlsRef.current[item.audio] = new Howl({
           src: [item.audio],
-          preload: true,
+          preload: false,
           html5: true,
         });
       }

@@ -1,0 +1,15 @@
+{
+  "id": 517,
+  "slug": "m05-17-tafashshi",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Тафашши (распространение) в букве ش",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Тафашши (распространение) в букве ش",
+      "source": "m05_17_tafashshi.md"
+    }
+  ]
+}

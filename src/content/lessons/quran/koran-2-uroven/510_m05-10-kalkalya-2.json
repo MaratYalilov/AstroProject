@@ -1,0 +1,15 @@
+{
+  "id": 510,
+  "slug": "m05-10-kalkalya-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Калькаля (2): сравнение трёх состояний буквы",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Калькаля (2): сравнение трёх состояний буквы",
+      "source": "m05_10_kalkalya-2.md"
+    }
+  ]
+}

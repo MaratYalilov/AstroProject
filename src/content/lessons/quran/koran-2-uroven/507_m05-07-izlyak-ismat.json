@@ -1,0 +1,15 @@
+{
+  "id": 507,
+  "slug": "m05-07-izlyak-ismat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: изляк (إذلاق) и исмат (إصمات)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Свойства: изляк (إذلاق) и исмат (إصمات)",
+      "source": "m05_07_izlyak-ismat.md"
+    }
+  ]
+}

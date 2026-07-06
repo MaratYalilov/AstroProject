@@ -1,6 +1,7 @@
 // src/components/blog.tsx
 import React from "react";
 import { motion } from "framer-motion";
+import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import {
   ChevronLeft,
   ChevronRight,
@@ -546,6 +547,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
 // );
 
   return (
+    <ReducedMotionProvider>
       <main className="flex flex-col lg:grid lg:grid-cols-12 gap-4">
         {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8 mb-16">
@@ -781,6 +783,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
           </div>
         </aside>
       </main>
+    </ReducedMotionProvider>
   );
 };
 

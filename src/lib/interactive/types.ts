@@ -54,6 +54,46 @@ export type TheoryBlock = {
   source: string;
 };
 
+export type PronunciationNote = {
+  /** info — серая карточка, warning — янтарная, error — красная (частые ошибки) */
+  tone?: "info" | "warning" | "error";
+  title?: string;
+  /** Простой HTML разрешён (<b>, <strong>) */
+  text?: string;
+  /** Маркированный список; простой HTML разрешён */
+  items?: string[];
+};
+
+export type PronunciationBlock = {
+  type: "pronunciation";
+  /** Заголовок секции, по умолчанию «Произношение» */
+  title?: string;
+  /** Арабское название буквы рядом с махраджем, напр. رَاء */
+  arabname?: string;
+  makhraj?: {
+    image?: string;
+    description?: string;
+  };
+  /** Основной абзац описания звука; простой HTML разрешён */
+  description?: string;
+  /** Маркированный список сразу после описания */
+  points?: string[];
+  /** Дополнительные карточки: примечания, правила, частые ошибки */
+  notes?: PronunciationNote[];
+  /** Шаги «Как произнести» */
+  howTo?: string[];
+  /** Арабская буква для поиска сыфатов в tajweed_sifat_v6.json, напр. "ف" */
+  letter?: string;
+};
+
+export type SifatBlock = {
+  type: "sifat";
+  /** Заголовок, по умолчанию «🏷️ Постоянные свойства (Сыфат)» */
+  title?: string;
+  /** Арабская буква для поиска сыфатов в tajweed_sifat_v6.json, напр. "ف" */
+  letter: string;
+};
+
 export type AlphabetGridBlock = {
   type: "alphabet-grid";
 };
@@ -78,4 +118,6 @@ export type LessonBlock =
   | AlphabetGridBlock
   | ReadingExercisesBlock
   | TheoryBlock
+  | PronunciationBlock
+  | SifatBlock
   | LessonCompleteBlock;

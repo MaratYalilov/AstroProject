@@ -1,0 +1,15 @@
+{
+  "id": 512,
+  "slug": "m05-12-kalkalya-oshibki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Ошибки при произнесении калькаля",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ошибки при произнесении калькаля",
+      "source": "m05_12_kalkalya-oshibki.md"
+    }
+  ]
+}

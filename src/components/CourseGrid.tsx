@@ -2,6 +2,7 @@
 import React from "react";
 import type { CollectionEntry } from "astro:content";
 import { motion } from "framer-motion";
+import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -45,6 +46,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
   }
 
   return (
+    <ReducedMotionProvider>
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {sortedCourses.map((c) => {
         // Проверяем, есть ли дополнительная информация для отображения
@@ -137,6 +139,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
         );
       })}
     </div>
+    </ReducedMotionProvider>
   );
 };
 

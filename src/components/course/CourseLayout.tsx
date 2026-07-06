@@ -1,11 +1,12 @@
 import { useState, useCallback, useMemo, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Menu } from "lucide-react";
 import CourseSidebar from "./CourseSidebar";
 import LessonNavigation from "./LessonNavigation";
 import InteractiveLessonPage from "../alifba/InteractiveLessonPage";
 import type { LessonItem } from "./CourseSidebar";
 import type { InteractiveLesson } from "../../lib/interactive/loadInteractiveLesson";
+import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
 
 const STORAGE_KEY_PREFIX = "course_progress_";
 
@@ -40,14 +41,25 @@ type Props = {
   lessons: InteractiveLesson[];
   subject: string;
   course: string;
+  courseTitle?: string;
 };
 
-export default function CourseLayout({ lessons, subject, course }: Props) {
+export default function CourseLayout({ lessons, subject, course, courseTitle }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  // Загружаем сохранённый прогресс на клиенте (после монтирования)
+  // Стартовый урок: приоритет у URL-параметра ?lesson=<slug> (deep-link),
+  // иначе — сохранённый прогресс из localStorage.
   useEffect(() => {
+    const param = new URLSearchParams(window.location.search).get("lesson");
+    if (param) {
+      const idx = lessons.findIndex((l) => l.slug === param);
+      if (idx >= 0) {
+        setCurrentIndex(idx);
+        return;
+      }
+    }
     const saved = loadProgress(subject, course);
-    if (saved !== 0) setCurrentIndex(saved);
+    if (saved > 0 && saved < lessons.length) setCurrentIndex(saved);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [subject, course]);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -57,15 +69,26 @@ export default function CourseLayout({ lessons, subject, course }: Props) {
         id: l.id,
         slug: l.slug,
         title: l.title,
+        module: l.module,
       })),
     [lessons]
   );
 
   const currentLesson = lessons[currentIndex];
 
-  // Сохраняем прогресс при каждом изменении currentIndex
+  // Сохраняем прогресс и отражаем текущий урок в URL (?lesson=<slug>) —
+  // ссылку на конкретный урок можно копировать/отправлять (deep-link).
   useEffect(() => {
     saveProgress(subject, course, currentIndex);
+    const slug = lessons[currentIndex]?.slug;
+    if (slug) {
+      window.history.replaceState(
+        null,
+        "",
+        `?lesson=${encodeURIComponent(slug)}`,
+      );
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [subject, course, currentIndex]);
 
   const scrollToTop = useCallback(() => {
@@ -90,6 +113,7 @@ export default function CourseLayout({ lessons, subject, course }: Props) {
   }, [scrollToTop]);
 
   return (
+    <ReducedMotionProvider>
     <div className="flex min-h-screen bg-gradient-to-br from-background via-background to-cyan-950/10">
       {/* Sidebar */}
       <CourseSidebar
@@ -98,6 +122,7 @@ export default function CourseLayout({ lessons, subject, course }: Props) {
         onSelect={handleSelect}
         isOpen={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
+        title={courseTitle}
       />
 
       {/* Main content area */}
@@ -129,27 +154,23 @@ export default function CourseLayout({ lessons, subject, course }: Props) {
 
         {/* Lesson content */}
         <main className="flex-1 w-full mx-auto px-0 sm:px-6 lg:px-8 py-6 lg:py-10">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={currentLesson?.slug ?? "empty"}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.3, ease: "easeInOut" }}
-            >
-              {currentLesson ? (
-                <InteractiveLessonPage
-                  lesson={currentLesson}
-                  subject={subject}
-                  course={course}
-                />
-              ) : (
-                <div className="flex items-center justify-center h-64 text-muted-foreground">
-                  Урок не найден
-                </div>
-              )}
-            </motion.div>
-          </AnimatePresence>
+          {/* ВАЖНО: без AnimatePresence/motion — анимация opacity/y всего урока
+              промоутила в GPU-слой страницу целиком (в уроках части 2 это
+              огромная текстура, старый+новый урок одновременно), что
+              переполняло видеопамять и роняло драйвер (экраны моргали). */}
+          <div key={currentLesson?.slug ?? "empty"}>
+            {currentLesson ? (
+              <InteractiveLessonPage
+                lesson={currentLesson}
+                subject={subject}
+                course={course}
+              />
+            ) : (
+              <div className="flex items-center justify-center h-64 text-muted-foreground">
+                Урок не найден
+              </div>
+            )}
+          </div>
 
           {/* Bottom navigation */}
           {lessons.length > 1 && (
@@ -163,5 +184,6 @@ export default function CourseLayout({ lessons, subject, course }: Props) {
         </main>
       </div>
     </div>
+    </ReducedMotionProvider>
   );
 }

@@ -1,0 +1,15 @@
+{
+  "id": 518,
+  "slug": "m05-18-istitalya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Иститаля (удлинение) в букве ض",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Иститаля (удлинение) в букве ض",
+      "source": "m05_18_istitalya.md"
+    }
+  ]
+}

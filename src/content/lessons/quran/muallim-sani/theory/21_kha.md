@@ -105,27 +105,3 @@ order: 22
 
 </div>
 
-  <h2 class="theory-writing ">
-    Произношение
-  </h2>
-
-  <div class="theory-card">
-    <div class="flex flex-col sm:flex-row gap-6 items-start mb-6">
-      <div class="shrink-0 flex flex-col items-center gap-3">
-        <img
-          alt="Махрадж буквы"
-          class="h-auto w-full max-w-[160px] rounded-xl border border-gray-200 bg-white dark:border-white/10 sm:max-w-[150px]"
-          src="/media/quran/muallim-sani/images/makhraj/07_kha.webp"
-        >
-        <div class="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-gray-50 px-3 py-2 dark:border-white/10 dark:bg-white/[0.04]">
-          <span class="font-serif text-2xl leading-none text-fjord-500 dark:text-fjord-400">خَاء</span>
-          <span class="text-xs text-gray-500 dark:text-gray-400">арабское название</span>
-        </div>
-      </div>
-      <div class="flex-1">
-        <p class="!mt-0 leading-relaxed">
-          Средняя часть гортани
-        </p>
-      </div>
-    </div>
-  </div>

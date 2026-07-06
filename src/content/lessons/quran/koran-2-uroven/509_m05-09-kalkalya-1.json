@@ -1,0 +1,15 @@
+{
+  "id": 509,
+  "slug": "m05-09-kalkalya-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: КАЛЬКАЛЯ (часть 1)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Свойства: КАЛЬКАЛЯ (часть 1)",
+      "source": "m05_09_kalkalya-1.md"
+    }
+  ]
+}

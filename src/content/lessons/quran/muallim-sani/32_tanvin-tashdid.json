@@ -1,0 +1,45 @@
+{
+  "id": 32,
+  "slug": "tanvin-tashdid",
+  "subject": "quran",
+  "course": "muallim-sani",
+  "title": [
+    {
+      "text": "Танвин и ташдид "
+    },
+    {
+      "text": "ــًّـ",
+      "arab": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "theory",
+      "title": [
+        {
+          "text": "Танвин и ташдид "
+        },
+        {
+          "text": "ــًّـ",
+          "arab": true
+        }
+      ],
+      "source": "32_tanvin-tashdid.md"
+    },
+    {
+      "type": "reading-exercises"
+    },
+    {
+      "type": "lesson-complete",
+      "arabic": "بارك الله فيك",
+      "title": "Да благословит вас Аллах.",
+      "text": "Вы изучили сочетание танвина с ташдидом.",
+      "items": [
+        "буква с ташдидом читается удвоенно;",
+        "танвин добавляет в конце звук «н»;",
+        "رَبًّا читается как رَبْبَنْ."
+      ],
+      "nextLesson": "В следующем уроке — та марбута."
+    }
+  ]
+}

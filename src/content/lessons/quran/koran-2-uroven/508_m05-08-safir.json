@@ -1,0 +1,15 @@
+{
+  "id": 508,
+  "slug": "m05-08-safir",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: свист (сафир)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Свойства: свист (сафир)",
+      "source": "m05_08_safir.md"
+    }
+  ]
+}

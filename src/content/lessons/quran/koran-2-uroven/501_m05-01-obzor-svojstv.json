@@ -1,0 +1,15 @@
+{
+  "id": 501,
+  "slug": "m05-01-obzor-svojstv",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства (сыфаты): обзор и классификация",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Свойства (сыфаты): обзор и классификация",
+      "source": "m05_01_obzor-svojstv.md"
+    }
+  ]
+}

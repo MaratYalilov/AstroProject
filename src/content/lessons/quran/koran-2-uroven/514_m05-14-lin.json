@@ -1,0 +1,15 @@
+{
+  "id": 514,
+  "slug": "m05-14-lin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Лин (мягкость)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Лин (мягкость)",
+      "source": "m05_14_lin.md"
+    }
+  ]
+}

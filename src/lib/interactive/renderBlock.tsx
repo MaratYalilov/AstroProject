@@ -1,4 +1,6 @@
 import LetterIntroCombined from "@/components/alifba/LetterIntroCombined";
+import PronunciationBlock from "@/components/alifba/PronunciationBlock";
+import SifatBlock from "@/components/alifba/SifatBlock";
 import TheoryReveal from "@/components/alifba/TheoryReveal-OLD";
 import WritingAndFormsBlock from "@/components/alifba/WritingAndFormsBlock";
 import AlphabetGrid from "@/components/alifba/AlphabetGrid";
@@ -50,6 +52,29 @@ export default function RenderBlock({
         <TheoryReveal
           title={block.title}
           source={block.source}
+        />
+      );
+
+    case "pronunciation":
+      return (
+        <PronunciationBlock
+          title={block.title}
+          letter={block.letter}
+          arabname={block.arabname}
+          makhraj={block.makhraj}
+          description={block.description}
+          points={block.points}
+          notes={block.notes}
+          howTo={block.howTo}
+        />
+      );
+
+    case "sifat":
+      return (
+        <SifatBlock
+          letter={block.letter}
+          title={block.title}
+          standalone
         />
       );
 
