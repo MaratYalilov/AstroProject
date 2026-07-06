@@ -1,0 +1,15 @@
+{
+  "id": 203,
+  "slug": "m02-03-hukm-tablitsa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Хукм таджвида (уточнение)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Хукм таджвида (уточнение)",
+      "source": "m02_03_hukm-tablitsa.md"
+    }
+  ]
+}

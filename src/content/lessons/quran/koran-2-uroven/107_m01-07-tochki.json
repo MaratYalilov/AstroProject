@@ -1,0 +1,15 @@
+{
+  "id": 107,
+  "slug": "m01-07-tochki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Точки в буквах",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Точки в буквах",
+      "source": "m01_07_tochki.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 605,
+  "slug": "m06-05-mim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по букве م (мим)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Замечания по букве م (мим)",
+      "source": "m06_05_mim.md"
+    }
+  ]
+}

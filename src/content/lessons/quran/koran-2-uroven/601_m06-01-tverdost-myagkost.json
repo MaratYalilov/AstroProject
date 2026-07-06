@@ -1,0 +1,15 @@
+{
+  "id": 601,
+  "slug": "m06-01-tverdost-myagkost",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Твёрдость и мягкость (вводное замечание)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Твёрдость и мягкость (вводное замечание)",
+      "source": "m06_01_tverdost-myagkost.md"
+    }
+  ]
+}

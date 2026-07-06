@@ -1,0 +1,15 @@
+{
+  "id": 104,
+  "slug": "m01-04-chtecu-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Что нужно знать чтецу Корана (часть 2)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Что нужно знать чтецу Корана (часть 2)",
+      "source": "m01_04_chtecu-2.md"
+    }
+  ]
+}

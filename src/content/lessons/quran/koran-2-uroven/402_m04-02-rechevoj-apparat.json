@@ -1,0 +1,15 @@
+{
+  "id": 402,
+  "slug": "m04-02-rechevoj-apparat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Строение речевого аппарата",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Строение речевого аппарата",
+      "source": "m04_02_rechevoj-apparat.md"
+    }
+  ]
+}

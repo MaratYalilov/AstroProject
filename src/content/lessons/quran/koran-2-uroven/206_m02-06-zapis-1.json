@@ -1,0 +1,15 @@
+{
+  "id": 206,
+  "slug": "m02-06-zapis-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Первый этап записи Корана",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Первый этап записи Корана",
+      "source": "m02_06_zapis-1.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 706,
+  "slug": "m07-06-ra-s-shaddoj",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "«Ра» с шаддой (удвоённая)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«Ра» с шаддой (удвоённая)",
+      "source": "m07_06_ra-s-shaddoj.md"
+    }
+  ]
+}

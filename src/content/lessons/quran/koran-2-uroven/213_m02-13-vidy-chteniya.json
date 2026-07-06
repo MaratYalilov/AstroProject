@@ -1,0 +1,15 @@
+{
+  "id": 213,
+  "slug": "m02-13-vidy-chteniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Тиляуа, ада и кыраа (три термина)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Тиляуа, ада и кыраа (три термина)",
+      "source": "m02_13_vidy-chteniya.md"
+    }
+  ]
+}

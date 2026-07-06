@@ -1,0 +1,15 @@
+{
+  "id": 211,
+  "slug": "m02-11-ustnaya-peredacha-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Устная передача Корана (часть 1)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Устная передача Корана (часть 1)",
+      "source": "m02_11_ustnaya-peredacha-1.md"
+    }
+  ]
+}

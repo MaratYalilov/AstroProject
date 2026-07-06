@@ -1,0 +1,15 @@
+{
+  "id": 405,
+  "slug": "m04-05-bukvy-madda",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж букв мадда (аль-джауф)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махрадж букв мадда (аль-джауф)",
+      "source": "m04_05_bukvy-madda.md"
+    }
+  ]
+}

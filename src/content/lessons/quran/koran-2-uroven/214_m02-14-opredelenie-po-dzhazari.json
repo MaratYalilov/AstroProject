@@ -1,0 +1,15 @@
+{
+  "id": 214,
+  "slug": "m02-14-opredelenie-po-dzhazari",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Определение таджвида по аль-Джазари",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Определение таджвида по аль-Джазари",
+      "source": "m02_14_opredelenie-po-dzhazari.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 101,
+  "slug": "m01-01-dzhazari-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Биография имама Ибн аль-Джазари (часть 1)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Биография имама Ибн аль-Джазари (часть 1)",
+      "source": "m01_01_dzhazari-1.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 201,
+  "slug": "m02-01-chto-takoe-tadzhvid",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Что такое таджвид",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Что такое таджвид",
+      "source": "m02_01_chto-takoe-tadzhvid.md"
+    }
+  ]
+}

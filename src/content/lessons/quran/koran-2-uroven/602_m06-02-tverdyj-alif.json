@@ -1,0 +1,15 @@
+{
+  "id": 602,
+  "slug": "m06-02-tverdyj-alif",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Твёрдый алиф",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Твёрдый алиф",
+      "source": "m06_02_tverdyj-alif.md"
+    }
+  ]
+}

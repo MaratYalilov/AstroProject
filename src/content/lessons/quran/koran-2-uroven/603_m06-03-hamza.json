@@ -1,0 +1,15 @@
+{
+  "id": 603,
+  "slug": "m06-03-hamza",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по хамзе",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Замечания по хамзе",
+      "source": "m06_03_hamza.md"
+    }
+  ]
+}

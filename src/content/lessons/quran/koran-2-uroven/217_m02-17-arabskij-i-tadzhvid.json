@@ -1,0 +1,15 @@
+{
+  "id": 217,
+  "slug": "m02-17-arabskij-i-tadzhvid",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Арабский язык и правила таджвида: в чём разница",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Арабский язык и правила таджвида: в чём разница",
+      "source": "m02_17_arabskij-i-tadzhvid.md"
+    }
+  ]
+}

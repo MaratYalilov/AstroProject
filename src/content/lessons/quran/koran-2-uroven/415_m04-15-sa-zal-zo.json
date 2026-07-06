@@ -1,0 +1,15 @@
+{
+  "id": 415,
+  "slug": "m04-15-sa-zal-zo",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи ظ، ذ، ث",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махраджи ظ، ذ، ث",
+      "source": "m04_15_sa-zal-zo.md"
+    }
+  ]
+}

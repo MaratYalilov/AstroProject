@@ -1,0 +1,15 @@
+{
+  "id": 407,
+  "slug": "m04-07-kaf-qaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи ق и ك (задняя часть языка)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махраджи ق и ك (задняя часть языка)",
+      "source": "m04_07_kaf-qaf.md"
+    }
+  ]
+}

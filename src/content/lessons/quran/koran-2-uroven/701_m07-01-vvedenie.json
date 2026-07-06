@@ -1,0 +1,15 @@
+{
+  "id": 701,
+  "slug": "m07-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "Правила буквы ر: введение",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правила буквы ر: введение",
+      "source": "m07_01_vvedenie.md"
+    }
+  ]
+}

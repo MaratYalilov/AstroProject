@@ -1,0 +1,15 @@
+{
+  "id": 608,
+  "slug": "m06-08-kalkalya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по калькаля",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Замечания по калькаля",
+      "source": "m06_08_kalkalya.md"
+    }
+  ]
+}

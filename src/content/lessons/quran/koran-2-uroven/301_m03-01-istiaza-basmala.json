@@ -1,0 +1,15 @@
+{
+  "id": 301,
+  "slug": "m03-01-istiaza-basmala",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "3. Истиаза и басмаля",
+  "title": "Истиаза и басмаля",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Истиаза и басмаля",
+      "source": "m03_01_istiaza-basmala.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 204,
+  "slug": "m02-04-vidy-oshibok",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Виды ошибок при чтении Корана (ляхн)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Виды ошибок при чтении Корана (ляхн)",
+      "source": "m02_04_vidy-oshibok.md"
+    }
+  ]
+}

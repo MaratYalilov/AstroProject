@@ -1,0 +1,15 @@
+{
+  "id": 202,
+  "slug": "m02-02-hukm-tadzhvida",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Хукм (предписание) применения таджвида",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Хукм (предписание) применения таджвида",
+      "source": "m02_02_hukm-tadzhvida.md"
+    }
+  ]
+}

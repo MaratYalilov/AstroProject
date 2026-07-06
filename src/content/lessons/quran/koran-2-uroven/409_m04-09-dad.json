@@ -1,0 +1,15 @@
+{
+  "id": 409,
+  "slug": "m04-09-dad",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ض",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махрадж буквы ض",
+      "source": "m04_09_dad.md"
+    }
+  ]
+}

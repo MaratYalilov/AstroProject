@@ -1,0 +1,15 @@
+{
+  "id": 406,
+  "slug": "m04-06-bukvy-gorla",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи горловых букв (الحلق)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махраджи горловых букв (الحلق)",
+      "source": "m04_06_bukvy-gorla.md"
+    }
+  ]
+}

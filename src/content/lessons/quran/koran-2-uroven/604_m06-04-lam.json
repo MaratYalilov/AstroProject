@@ -1,0 +1,15 @@
+{
+  "id": 604,
+  "slug": "m06-04-lam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по букве ل (ләм)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Замечания по букве ل (ләм)",
+      "source": "m06_04_lam.md"
+    }
+  ]
+}

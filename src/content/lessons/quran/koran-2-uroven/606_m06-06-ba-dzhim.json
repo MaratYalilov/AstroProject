@@ -1,0 +1,15 @@
+{
+  "id": 606,
+  "slug": "m06-06-ba-dzhim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по буквам ب (бә) и ج (дҗим)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Замечания по буквам ب (бә) и ج (дҗим)",
+      "source": "m06_06_ba-dzhim.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 702,
+  "slug": "m07-02-tverdoe-chtenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "Твёрдое чтение ر (8 случаев)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Твёрдое чтение ر (8 случаев)",
+      "source": "m07_02_tverdoe-chtenie.md"
+    }
+  ]
+}

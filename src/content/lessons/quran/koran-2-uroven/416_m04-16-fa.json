@@ -1,0 +1,15 @@
+{
+  "id": 416,
+  "slug": "m04-16-fa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ف (фә)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махрадж буквы ف (фә)",
+      "source": "m04_16_fa.md"
+    }
+  ]
+}

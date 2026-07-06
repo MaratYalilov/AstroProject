@@ -1,0 +1,15 @@
+{
+  "id": 109,
+  "slug": "m01-09-abdzhadiya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Буквы «абджадия» (письменные) и их порядок",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Буквы «абджадия» (письменные) и их порядок",
+      "source": "m01_09_abdzhadiya.md"
+    }
+  ]
+}

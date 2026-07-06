@@ -1,0 +1,15 @@
+{
+  "id": 410,
+  "slug": "m04-10-lam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ل (ләм)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махрадж буквы ل (ләм)",
+      "source": "m04_10_lam.md"
+    }
+  ]
+}

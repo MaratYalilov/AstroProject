@@ -1,0 +1,15 @@
+{
+  "id": 412,
+  "slug": "m04-12-ra",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ر (ра)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махрадж буквы ر (ра)",
+      "source": "m04_12_ra.md"
+    }
+  ]
+}

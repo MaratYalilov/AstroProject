@@ -1,0 +1,15 @@
+{
+  "id": 401,
+  "slug": "m04-01-skolko-mest",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Сколько мест образования у арабских букв",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Сколько мест образования у арабских букв",
+      "source": "m04_01_skolko-mest.md"
+    }
+  ]
+}

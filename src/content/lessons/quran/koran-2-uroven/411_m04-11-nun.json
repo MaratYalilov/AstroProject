@@ -1,0 +1,15 @@
+{
+  "id": 411,
+  "slug": "m04-11-nun",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ن (нун)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Махрадж буквы ن (нун)",
+      "source": "m04_11_nun.md"
+    }
+  ]
+}

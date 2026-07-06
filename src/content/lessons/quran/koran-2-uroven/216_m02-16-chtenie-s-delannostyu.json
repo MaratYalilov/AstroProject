@@ -1,0 +1,15 @@
+{
+  "id": 216,
+  "slug": "m02-16-chtenie-s-delannostyu",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Без деланности (без такаллюфа)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Без деланности (без такаллюфа)",
+      "source": "m02_16_chtenie-s-delannostyu.md"
+    }
+  ]
+}
