@@ -1,0 +1,15 @@
+{
+  "id": 1219,
+  "slug": "m12-19-ihfa-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа (часть 2): теория и практика",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ихфа (часть 2): теория и практика",
+      "source": "m12_19_ihfa-2.md"
+    }
+  ]
+}

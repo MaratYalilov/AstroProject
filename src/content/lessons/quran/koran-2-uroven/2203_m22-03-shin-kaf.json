@@ -1,0 +1,15 @@
+{
+  "id": 2203,
+  "slug": "m22-03-shin-kaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "22. Письмо Корана",
+  "title": "Треугольник над «шин» и зигзаг над «каф»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Треугольник над «шин» и зигзаг над «каф»",
+      "source": "m22_03_shin-kaf.md"
+    }
+  ]
+}

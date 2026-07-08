@@ -1,0 +1,15 @@
+{
+  "id": 2010,
+  "slug": "m20-10-bisama",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«بئسما»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«بئسما»",
+      "source": "m20_10_bisama.md"
+    }
+  ]
+}

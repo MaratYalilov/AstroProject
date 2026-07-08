@@ -1,0 +1,15 @@
+{
+  "id": 1001,
+  "slug": "m10-01-sosednie-bukvy-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Соседние (встречающиеся) буквы — часть 1",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Соседние (встречающиеся) буквы — часть 1",
+      "source": "m10_01_sosednie-bukvy-1.md"
+    }
+  ]
+}

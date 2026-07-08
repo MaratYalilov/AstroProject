@@ -1,0 +1,15 @@
+{
+  "id": 2105,
+  "slug": "m21-05-imraat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«امرأت»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«امرأت»",
+      "source": "m21_05_imraat.md"
+    }
+  ]
+}

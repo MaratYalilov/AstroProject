@@ -1,0 +1,15 @@
+{
+  "id": 2019,
+  "slug": "m20-19-tahina",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«تحين» (وَلَاتَ حِينَ)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«تحين» (وَلَاتَ حِينَ)",
+      "source": "m20_19_tahina.md"
+    }
+  ]
+}

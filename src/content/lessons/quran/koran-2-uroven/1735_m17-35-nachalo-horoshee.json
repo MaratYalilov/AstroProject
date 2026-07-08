@@ -1,0 +1,15 @@
+{
+  "id": 1735,
+  "slug": "m17-35-nachalo-horoshee",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Остановка и начало: начало (хорошее)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Остановка и начало: начало (хорошее)",
+      "source": "m17_35_nachalo-horoshee.md"
+    }
+  ]
+}

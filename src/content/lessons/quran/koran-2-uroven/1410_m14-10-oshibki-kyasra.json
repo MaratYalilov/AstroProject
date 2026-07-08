@@ -1,0 +1,15 @@
+{
+  "id": 1410,
+  "slug": "m14-10-oshibki-kyasra",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Ошибки при произнесении кясры",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ошибки при произнесении кясры",
+      "source": "m14_10_oshibki-kyasra.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1712,
+  "slug": "m17-12-znak-mim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «мим» (вакф лязим)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Знак «мим» (вакф лязим)",
+      "source": "m17_12_znak-mim.md"
+    }
+  ]
+}

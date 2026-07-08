@@ -1,0 +1,15 @@
+{
+  "id": 1308,
+  "slug": "m13-08-badal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд бадаль",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Мадд бадаль",
+      "source": "m13_08_badal.md"
+    }
+  ]
+}

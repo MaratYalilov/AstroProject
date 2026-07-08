@@ -1,0 +1,15 @@
+{
+  "id": 1334,
+  "slug": "m13-34-silnyj-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Правило сильного мадда: введение",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правило сильного мадда: введение",
+      "source": "m13_34_silnyj-vvedenie.md"
+    }
+  ]
+}

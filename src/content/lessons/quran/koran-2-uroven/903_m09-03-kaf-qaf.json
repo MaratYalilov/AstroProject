@@ -1,0 +1,15 @@
+{
+  "id": 903,
+  "slug": "m09-03-kaf-qaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах ق (қаф) и ك (кәф)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ошибки в буквах ق (қаф) и ك (кәф)",
+      "source": "m09_03_kaf-qaf.md"
+    }
+  ]
+}

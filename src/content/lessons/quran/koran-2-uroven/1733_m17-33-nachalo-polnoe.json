@@ -1,0 +1,15 @@
+{
+  "id": 1733,
+  "slug": "m17-33-nachalo-polnoe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Полное начало (ибтида тамм)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Полное начало (ибтида тамм)",
+      "source": "m17_33_nachalo-polnoe.md"
+    }
+  ]
+}

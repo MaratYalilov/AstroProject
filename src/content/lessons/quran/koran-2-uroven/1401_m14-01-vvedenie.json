@@ -1,0 +1,15 @@
+{
+  "id": 1401,
+  "slug": "m14-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Итмам аль-харакат: введение",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Итмам аль-харакат: введение",
+      "source": "m14_01_vvedenie.md"
+    }
+  ]
+}

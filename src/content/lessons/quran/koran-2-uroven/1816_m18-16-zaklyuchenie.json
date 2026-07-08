@@ -1,0 +1,15 @@
+{
+  "id": 1816,
+  "slug": "m18-16-zaklyuchenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Раум и ишмам: заключение",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Раум и ишмам: заключение",
+      "source": "m18_16_zaklyuchenie.md"
+    }
+  ]
+}

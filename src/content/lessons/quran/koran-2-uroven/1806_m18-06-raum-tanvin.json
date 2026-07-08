@@ -1,0 +1,15 @@
+{
+  "id": 1806,
+  "slug": "m18-06-raum-tanvin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Раум при танвине",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Раум при танвине",
+      "source": "m18_06_raum-tanvin.md"
+    }
+  ]
+}

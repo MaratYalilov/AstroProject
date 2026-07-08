@@ -1,0 +1,15 @@
+{
+  "id": 803,
+  "slug": "m08-03-stepeni-tverdosti-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Степени твёрдости (часть 1)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Степени твёрдости (часть 1)",
+      "source": "m08_03_stepeni-tverdosti-1.md"
+    }
+  ]
+}

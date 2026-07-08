@@ -1,0 +1,15 @@
+{
+  "id": 1008,
+  "slug": "m10-08-idgam-odnorodnyh-4",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам однородных (часть 4): ب → م",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Идгам однородных (часть 4): ب → م",
+      "source": "m10_08_idgam-odnorodnyh-4.md"
+    }
+  ]
+}

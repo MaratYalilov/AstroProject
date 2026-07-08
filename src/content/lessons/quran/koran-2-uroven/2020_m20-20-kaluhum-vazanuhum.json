@@ -1,0 +1,15 @@
+{
+  "id": 2020,
+  "slug": "m20-20-kaluhum-vazanuhum",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«كالوهم» и «وزنوهم»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«كالوهم» и «وزنوهم»",
+      "source": "m20_20_kaluhum-vazanuhum.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1207,
+  "slug": "m12-07-idgam-opredelenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам (определение)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Идгам (определение)",
+      "source": "m12_07_idgam-opredelenie.md"
+    }
+  ]
+}

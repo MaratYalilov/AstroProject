@@ -1,0 +1,15 @@
+{
+  "id": 1110,
+  "slug": "m11-10-oshibki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "Ошибки в правилах «мим» с сукуном",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ошибки в правилах «мим» с сукуном",
+      "source": "m11_10_oshibki.md"
+    }
+  ]
+}

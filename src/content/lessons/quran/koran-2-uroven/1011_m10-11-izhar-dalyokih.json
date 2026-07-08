@@ -1,0 +1,15 @@
+{
+  "id": 1011,
+  "slug": "m10-11-izhar-dalyokih",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Изхар далёких букв (мутабаъидайн)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Изхар далёких букв (мутабаъидайн)",
+      "source": "m10_11_izhar-dalyokih.md"
+    }
+  ]
+}

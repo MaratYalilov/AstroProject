@@ -1,0 +1,15 @@
+{
+  "id": 1325,
+  "slug": "m13-25-munfasyl",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд мунфасыль (раздельный, допустимый)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Мадд мунфасыль (раздельный, допустимый)",
+      "source": "m13_25_munfasyl.md"
+    }
+  ]
+}

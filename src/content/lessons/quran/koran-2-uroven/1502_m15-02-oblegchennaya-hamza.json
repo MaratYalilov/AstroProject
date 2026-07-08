@@ -1,0 +1,15 @@
+{
+  "id": 1502,
+  "slug": "m15-02-oblegchennaya-hamza",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "15. Короткие темы",
+  "title": "Облегчённая хамза (тасхиль)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Облегчённая хамза (тасхиль)",
+      "source": "m15_02_oblegchennaya-hamza.md"
+    }
+  ]
+}

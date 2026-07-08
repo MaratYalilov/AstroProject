@@ -1,0 +1,15 @@
+{
+  "id": 802,
+  "slug": "m08-02-tverdoe-proiznoshenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Твёрдое произношение (буквы возвышения)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Твёрдое произношение (буквы возвышения)",
+      "source": "m08_02_tverdoe-proiznoshenie.md"
+    }
+  ]
+}

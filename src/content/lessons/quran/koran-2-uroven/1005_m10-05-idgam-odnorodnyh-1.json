@@ -1,0 +1,15 @@
+{
+  "id": 1005,
+  "slug": "m10-05-idgam-odnorodnyh-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам однородных букв (часть 1)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Идгам однородных букв (часть 1)",
+      "source": "m10_05_idgam-odnorodnyh-1.md"
+    }
+  ]
+}

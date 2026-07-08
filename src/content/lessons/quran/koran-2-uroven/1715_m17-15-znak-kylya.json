@@ -1,0 +1,15 @@
+{
+  "id": 1715,
+  "slug": "m17-15-znak-kylya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «кыля» (قلى)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Знак «кыля» (قلى)",
+      "source": "m17_15_znak-kylya.md"
+    }
+  ]
+}

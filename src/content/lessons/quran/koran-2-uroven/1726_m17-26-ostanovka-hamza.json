@@ -1,0 +1,15 @@
+{
+  "id": 1726,
+  "slug": "m17-26-ostanovka-hamza",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Остановка на хамзу (написанную как «йа»/«вав»)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Остановка на хамзу (написанную как «йа»/«вав»)",
+      "source": "m17_26_ostanovka-hamza.md"
+    }
+  ]
+}

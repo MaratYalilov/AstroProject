@@ -1,0 +1,15 @@
+{
+  "id": 2104,
+  "slug": "m21-04-lanat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«لعنت»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«لعنت»",
+      "source": "m21_04_lanat.md"
+    }
+  ]
+}

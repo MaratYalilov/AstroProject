@@ -1,0 +1,15 @@
+{
+  "id": 2016,
+  "slug": "m20-16-anman",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«عن من»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«عن من»",
+      "source": "m20_16_anman.md"
+    }
+  ]
+}

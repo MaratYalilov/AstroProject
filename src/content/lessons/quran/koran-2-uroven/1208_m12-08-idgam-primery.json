@@ -1,0 +1,15 @@
+{
+  "id": 1208,
+  "slug": "m12-08-idgam-primery",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам: примеры",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Идгам: примеры",
+      "source": "m12_08_idgam-primery.md"
+    }
+  ]
+}

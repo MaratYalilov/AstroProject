@@ -1,0 +1,15 @@
+{
+  "id": 1104,
+  "slug": "m11-04-mim-ihfa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "«Мим» с сукуном: ихфа (шафави)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«Мим» с сукуном: ихфа (шафави)",
+      "source": "m11_04_mim-ihfa.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1503,
+  "slug": "m15-03-imalya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "15. Короткие темы",
+  "title": "Ималя",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ималя",
+      "source": "m15_03_imalya.md"
+    }
+  ]
+}

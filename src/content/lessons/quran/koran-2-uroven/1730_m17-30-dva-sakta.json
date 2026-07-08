@@ -1,0 +1,15 @@
+{
+  "id": 1730,
+  "slug": "m17-30-dva-sakta",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Два дозволенных (необязательных) сакта",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Два дозволенных (необязательных) сакта",
+      "source": "m17_30_dva-sakta.md"
+    }
+  ]
+}

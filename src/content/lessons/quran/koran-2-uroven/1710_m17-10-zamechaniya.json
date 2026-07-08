@@ -1,0 +1,15 @@
+{
+  "id": 1710,
+  "slug": "m17-10-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Замечания: на чём не останавливаются",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Замечания: на чём не останавливаются",
+      "source": "m17_10_zamechaniya.md"
+    }
+  ]
+}

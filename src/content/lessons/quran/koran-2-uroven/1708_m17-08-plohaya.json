@@ -1,0 +1,15 @@
+{
+  "id": 1708,
+  "slug": "m17-08-plohaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Плохая остановка (вакф кабих)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Плохая остановка (вакф кабих)",
+      "source": "m17_08_plohaya.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 906,
+  "slug": "m09-06-lyam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в букве ل (ләм)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ошибки в букве ل (ләм)",
+      "source": "m09_06_lyam.md"
+    }
+  ]
+}

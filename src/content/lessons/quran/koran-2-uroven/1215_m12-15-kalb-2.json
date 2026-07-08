@@ -1,0 +1,15 @@
+{
+  "id": 1215,
+  "slug": "m12-15-kalb-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Кальб (часть 2): с гунной",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Кальб (часть 2): с гунной",
+      "source": "m12_15_kalb-2.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1706,
+  "slug": "m17-06-dostatochnaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Достаточная остановка (вакф кафи)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Достаточная остановка (вакф кафи)",
+      "source": "m17_06_dostatochnaya.md"
+    }
+  ]
+}

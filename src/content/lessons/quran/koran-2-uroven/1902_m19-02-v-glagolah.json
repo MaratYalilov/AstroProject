@@ -1,0 +1,15 @@
+{
+  "id": 1902,
+  "slug": "m19-02-v-glagolah",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Соединительная хамза в глаголах",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Соединительная хамза в глаголах",
+      "source": "m19_02_v-glagolah.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1203,
+  "slug": "m12-03-kratkij-obzor",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Правила «нун» с сукуном: краткий обзор",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правила «нун» с сукуном: краткий обзор",
+      "source": "m12_03_kratkij-obzor.md"
+    }
+  ]
+}

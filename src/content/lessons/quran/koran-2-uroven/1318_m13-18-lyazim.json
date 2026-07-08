@@ -1,0 +1,15 @@
+{
+  "id": 1318,
+  "slug": "m13-18-lyazim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд лязим (обязательный): определение",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Мадд лязим (обязательный): определение",
+      "source": "m13_18_lyazim.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 904,
+  "slug": "m09-04-jim-shin-ya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах ج (дҗим), ش (шин), ي (йа неполногласная)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ошибки в буквах ج (дҗим), ش (шин), ي (йа неполногласная)",
+      "source": "m09_04_jim-shin-ya.md"
+    }
+  ]
+}

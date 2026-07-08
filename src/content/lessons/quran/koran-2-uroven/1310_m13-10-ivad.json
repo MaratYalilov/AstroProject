@@ -1,0 +1,15 @@
+{
+  "id": 1310,
+  "slug": "m13-10-ivad",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд ивад (замещения)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Мадд ивад (замещения)",
+      "source": "m13_10_ivad.md"
+    }
+  ]
+}

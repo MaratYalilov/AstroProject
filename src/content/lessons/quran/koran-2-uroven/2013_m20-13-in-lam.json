@@ -1,0 +1,15 @@
+{
+  "id": 2013,
+  "slug": "m20-13-in-lam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«إن لم» (وصل فإن لم هود)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«إن لم» (وصل فإن لم هود)",
+      "source": "m20_13_in-lam.md"
+    }
+  ]
+}

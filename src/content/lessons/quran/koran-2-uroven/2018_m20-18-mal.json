@@ -1,0 +1,15 @@
+{
+  "id": 2018,
+  "slug": "m20-18-mal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«ما ل» (отделённая «лям»)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«ما ل» (отделённая «лям»)",
+      "source": "m20_18_mal.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1905,
+  "slug": "m19-05-znak-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Знак соединительной хамзы в мусхафе",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Знак соединительной хамзы в мусхафе",
+      "source": "m19_05_znak-v-mushafe.md"
+    }
+  ]
+}

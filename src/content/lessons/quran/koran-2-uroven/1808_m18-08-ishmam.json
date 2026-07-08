@@ -1,0 +1,15 @@
+{
+  "id": 1808,
+  "slug": "m18-08-ishmam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Ишмам",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ишмам",
+      "source": "m18_08_ishmam.md"
+    }
+  ]
+}

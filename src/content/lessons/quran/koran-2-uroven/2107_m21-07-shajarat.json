@@ -1,0 +1,15 @@
+{
+  "id": 2107,
+  "slug": "m21-07-shajarat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«شجرت» (и начало о «سنت»)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«شجرت» (и начало о «سنت»)",
+      "source": "m21_07_shajarat.md"
+    }
+  ]
+}

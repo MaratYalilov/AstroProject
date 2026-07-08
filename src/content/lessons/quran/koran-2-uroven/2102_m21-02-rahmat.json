@@ -1,0 +1,15 @@
+{
+  "id": 2102,
+  "slug": "m21-02-rahmat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«رحمت» (7 мест)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«رحمت» (7 мест)",
+      "source": "m21_02_rahmat.md"
+    }
+  ]
+}

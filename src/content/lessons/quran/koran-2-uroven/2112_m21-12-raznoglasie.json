@@ -1,0 +1,15 @@
+{
+  "id": 2112,
+  "slug": "m21-12-raznoglasie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "Спорные слова (разногласие чтецов)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Спорные слова (разногласие чтецов)",
+      "source": "m21_12_raznoglasie.md"
+    }
+  ]
+}

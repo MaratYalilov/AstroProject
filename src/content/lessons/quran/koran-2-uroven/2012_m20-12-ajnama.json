@@ -1,0 +1,15 @@
+{
+  "id": 2012,
+  "slug": "m20-12-ajnama",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«أين ما»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«أين ما»",
+      "source": "m20_12_ajnama.md"
+    }
+  ]
+}

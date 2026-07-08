@@ -1,0 +1,15 @@
+{
+  "id": 1404,
+  "slug": "m14-04-kyasra",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Кясра",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Кясра",
+      "source": "m14_04_kyasra.md"
+    }
+  ]
+}

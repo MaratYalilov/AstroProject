@@ -1,0 +1,15 @@
+{
+  "id": 2006,
+  "slug": "m20-06-amman",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«أمّن» (أم مّن)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«أمّن» (أم مّن)",
+      "source": "m20_06_amman.md"
+    }
+  ]
+}

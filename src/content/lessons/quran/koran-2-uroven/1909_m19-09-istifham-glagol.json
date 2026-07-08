@@ -1,0 +1,15 @@
+{
+  "id": 1909,
+  "slug": "m19-09-istifham-glagol",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Хамза истифхама на васль в глаголе",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Хамза истифхама на васль в глаголе",
+      "source": "m19_09_istifham-glagol.md"
+    }
+  ]
+}

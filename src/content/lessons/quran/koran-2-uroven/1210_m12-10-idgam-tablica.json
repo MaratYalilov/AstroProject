@@ -1,0 +1,15 @@
+{
+  "id": 1210,
+  "slug": "m12-10-idgam-tablica",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам: таблица (две части «нун» при двух видах идгама)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Идгам: таблица (две части «нун» при двух видах идгама)",
+      "source": "m12_10_idgam-tablica.md"
+    }
+  ]
+}

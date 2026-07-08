@@ -1,0 +1,15 @@
+{
+  "id": 1812,
+  "slug": "m18-12-isklyuchenie-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Исключение 1: «та' женского рода» (تاء التأنيث)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Исключение 1: «та' женского рода» (تاء التأنيث)",
+      "source": "m18_12_isklyuchenie-1.md"
+    }
+  ]
+}

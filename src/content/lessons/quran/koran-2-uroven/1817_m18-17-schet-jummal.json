@@ -1,0 +1,15 @@
+{
+  "id": 1817,
+  "slug": "m18-17-schet-jummal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Раум и ишмам: счёт джумаль (حساب الجمل)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Раум и ишмам: счёт джумаль (حساب الجمل)",
+      "source": "m18_17_schet-jummal.md"
+    }
+  ]
+}

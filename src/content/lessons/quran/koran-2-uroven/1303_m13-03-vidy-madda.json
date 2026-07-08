@@ -1,0 +1,15 @@
+{
+  "id": 1303,
+  "slug": "m13-03-vidy-madda",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Виды мадда",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Виды мадда",
+      "source": "m13_03_vidy-madda.md"
+    }
+  ]
+}

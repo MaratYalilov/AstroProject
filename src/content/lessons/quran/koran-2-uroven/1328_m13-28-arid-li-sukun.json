@@ -1,0 +1,15 @@
+{
+  "id": 1328,
+  "slug": "m13-28-arid-li-sukun",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд арид ли-сукун (из-за временного сукуна)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Мадд арид ли-сукун (из-за временного сукуна)",
+      "source": "m13_28_arid-li-sukun.md"
+    }
+  ]
+}

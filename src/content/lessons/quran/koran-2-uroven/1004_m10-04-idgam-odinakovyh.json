@@ -1,0 +1,15 @@
+{
+  "id": 1004,
+  "slug": "m10-04-idgam-odinakovyh",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам одинаковых букв (митляйн)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Идгам одинаковых букв (митляйн)",
+      "source": "m10_04_idgam-odinakovyh.md"
+    }
+  ]
+}

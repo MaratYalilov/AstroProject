@@ -1,0 +1,15 @@
+{
+  "id": 1109,
+  "slug": "m11-09-mim-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "Правила «мим» с сукуном в мусхафе",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правила «мим» с сукуном в мусхафе",
+      "source": "m11_09_mim-v-mushafe.md"
+    }
+  ]
+}

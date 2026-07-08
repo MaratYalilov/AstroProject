@@ -1,0 +1,15 @@
+{
+  "id": 1305,
+  "slug": "m13-05-mery-tempy",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Меры мадда и темпы чтения",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Меры мадда и темпы чтения",
+      "source": "m13_05_mery-tempy.md"
+    }
+  ]
+}

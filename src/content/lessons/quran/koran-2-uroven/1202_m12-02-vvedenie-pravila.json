@@ -1,0 +1,15 @@
+{
+  "id": 1202,
+  "slug": "m12-02-vvedenie-pravila",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Правила «нун» с сукуном и танвина: введение",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правила «нун» с сукуном и танвина: введение",
+      "source": "m12_02_vvedenie-pravila.md"
+    }
+  ]
+}

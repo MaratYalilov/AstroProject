@@ -1,0 +1,15 @@
+{
+  "id": 1713,
+  "slug": "m17-13-znak-lya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «ля» (لا)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Знак «ля» (لا)",
+      "source": "m17_13_znak-lya.md"
+    }
+  ]
+}

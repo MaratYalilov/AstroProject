@@ -1,0 +1,15 @@
+{
+  "id": 1405,
+  "slug": "m14-05-sukun",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Сукун (неподвижная буква)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Сукун (неподвижная буква)",
+      "source": "m14_05_sukun.md"
+    }
+  ]
+}

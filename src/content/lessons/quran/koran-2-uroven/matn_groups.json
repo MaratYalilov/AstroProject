@@ -1,0 +1,293 @@
+{
+ "00-1-8": {
+  "audio": "/media/quran/koran-2-uroven/matn/00-1-8.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/00-1-8.vtt",
+  "from": 1,
+  "to": 8,
+  "noSync": true,
+  "times": {}
+ },
+ "01-9-19": {
+  "audio": "/media/quran/koran-2-uroven/matn/01-9-19.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/01-9-19.vtt",
+  "from": 9,
+  "to": 19,
+  "noSync": false,
+  "times": {
+   "9": [
+    3.0,
+    10.6
+   ],
+   "10": [
+    10.6,
+    19.22
+   ],
+   "11": [
+    19.22,
+    26.46
+   ],
+   "12": [
+    26.46,
+    33.92
+   ],
+   "13": [
+    33.92,
+    42.68
+   ],
+   "14": [
+    42.68,
+    50.66
+   ],
+   "15": [
+    50.66,
+    59.26
+   ],
+   "16": [
+    59.26,
+    68.02
+   ],
+   "17": [
+    68.02,
+    76.48
+   ],
+   "18": [
+    76.48,
+    84.98
+   ],
+   "19": [
+    84.98,
+    92.94
+   ]
+  }
+ },
+ "02-20-26": {
+  "audio": "/media/quran/koran-2-uroven/matn/02-20-26.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/02-20-26.vtt",
+  "from": 20,
+  "to": 26,
+  "noSync": true,
+  "times": {}
+ },
+ "03-27-33": {
+  "audio": "/media/quran/koran-2-uroven/matn/03-27-33.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/03-27-33.vtt",
+  "from": 27,
+  "to": 33,
+  "noSync": false,
+  "times": {
+   "27": [
+    2.02,
+    10.34
+   ],
+   "28": [
+    10.34,
+    18.0
+   ],
+   "29": [
+    18.74,
+    27.32
+   ],
+   "30": [
+    27.32,
+    36.2
+   ],
+   "31": [
+    36.2,
+    43.86
+   ],
+   "32": [
+    43.86,
+    52.0
+   ],
+   "33": [
+    52.0,
+    60.0
+   ]
+  }
+ },
+ "04-34-40": {
+  "audio": "/media/quran/koran-2-uroven/matn/04-34-40.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/04-34-40.vtt",
+  "from": 34,
+  "to": 40,
+  "noSync": true,
+  "times": {}
+ },
+ "05-41-43": {
+  "audio": "/media/quran/koran-2-uroven/matn/05-41-43.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/05-41-43.vtt",
+  "from": 41,
+  "to": 43,
+  "noSync": true,
+  "times": {}
+ },
+ "06-07-44-51": {
+  "audio": "/media/quran/koran-2-uroven/matn/06-07-44-51.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/06-07-44-51.vtt",
+  "from": 44,
+  "to": 51,
+  "noSync": true,
+  "times": {}
+ },
+ "08-09-52-61": {
+  "audio": "/media/quran/koran-2-uroven/matn/08-09-52-61.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/08-09-52-61.vtt",
+  "from": 52,
+  "to": 61,
+  "noSync": true,
+  "times": {}
+ },
+ "10-62-64": {
+  "audio": "/media/quran/koran-2-uroven/matn/10-62-64.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/10-62-64.vtt",
+  "from": 62,
+  "to": 64,
+  "noSync": true,
+  "times": {}
+ },
+ "11-65-68": {
+  "audio": "/media/quran/koran-2-uroven/matn/11-65-68.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/11-65-68.vtt",
+  "from": 65,
+  "to": 68,
+  "noSync": false,
+  "times": {
+   "65": [
+    4.72,
+    12.48
+   ],
+   "66": [
+    12.48,
+    20.7
+   ],
+   "67": [
+    20.7,
+    28.9
+   ],
+   "68": [
+    28.9,
+    38.02
+   ]
+  }
+ },
+ "12-69-72": {
+  "audio": "/media/quran/koran-2-uroven/matn/12-69-72.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/12-69-72.vtt",
+  "from": 69,
+  "to": 72,
+  "noSync": true,
+  "times": {}
+ },
+ "13-73-78": {
+  "audio": "/media/quran/koran-2-uroven/matn/13-73-78.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/13-73-78.vtt",
+  "from": 73,
+  "to": 78,
+  "noSync": false,
+  "times": {
+   "73": [
+    3.66,
+    11.0
+   ],
+   "74": [
+    11.54,
+    19.0
+   ],
+   "75": [
+    19.7,
+    28.98
+   ],
+   "76": [
+    28.98,
+    38.04
+   ],
+   "77": [
+    38.04,
+    46.44
+   ],
+   "78": [
+    46.44,
+    55.68
+   ]
+  }
+ },
+ "14-79-93": {
+  "audio": "/media/quran/koran-2-uroven/matn/14-79-93.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/14-79-93.vtt",
+  "from": 79,
+  "to": 93,
+  "noSync": true,
+  "times": {}
+ },
+ "15-94-100": {
+  "audio": "/media/quran/koran-2-uroven/matn/15-94-100.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/15-94-100.vtt",
+  "from": 94,
+  "to": 100,
+  "noSync": true,
+  "times": {}
+ },
+ "16-101-103": {
+  "audio": "/media/quran/koran-2-uroven/matn/16-101-103.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/16-101-103.vtt",
+  "from": 101,
+  "to": 103,
+  "noSync": false,
+  "times": {
+   "101": [
+    1.64,
+    9.84
+   ],
+   "102": [
+    9.84,
+    18.62
+   ],
+   "103": [
+    18.62,
+    26.74
+   ]
+  }
+ },
+ "17-104-105": {
+  "audio": "/media/quran/koran-2-uroven/matn/17-104-105.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/17-104-105.vtt",
+  "from": 104,
+  "to": 105,
+  "noSync": false,
+  "times": {
+   "104": [
+    4.58,
+    12.76
+   ],
+   "105": [
+    12.76,
+    21.34
+   ]
+  }
+ },
+ "17-106-109": {
+  "audio": "/media/quran/koran-2-uroven/matn/17-106-109.mp3",
+  "vtt": "/media/quran/koran-2-uroven/matn/17-106-109.vtt",
+  "from": 106,
+  "to": 109,
+  "noSync": false,
+  "times": {
+   "106": [
+    0.0,
+    8.5
+   ],
+   "107": [
+    8.5,
+    17.18
+   ],
+   "108": [
+    17.18,
+    25.32
+   ],
+   "109": [
+    25.32,
+    34.74
+   ]
+  }
+ }
+}

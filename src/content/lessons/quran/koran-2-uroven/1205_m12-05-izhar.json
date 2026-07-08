@@ -1,0 +1,15 @@
+{
+  "id": 1205,
+  "slug": "m12-05-izhar",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Изхар (ясное произнесение)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Изхар (ясное произнесение)",
+      "source": "m12_05_izhar.md"
+    }
+  ]
+}

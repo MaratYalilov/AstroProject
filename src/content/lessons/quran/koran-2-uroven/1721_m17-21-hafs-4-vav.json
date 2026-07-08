@@ -1,0 +1,15 @@
+{
+  "id": 1721,
+  "slug": "m17-21-hafs-4-vav",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса (4): удалённый вав",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правило Хафса (4): удалённый вав",
+      "source": "m17_21_hafs-4-vav.md"
+    }
+  ]
+}

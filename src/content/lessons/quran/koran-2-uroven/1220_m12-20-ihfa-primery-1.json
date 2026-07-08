@@ -1,0 +1,15 @@
+{
+  "id": 1220,
+  "slug": "m12-20-ihfa-primery-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа: примеры для ص، ذ، ث، ك",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ихфа: примеры для ص، ذ، ث، ك",
+      "source": "m12_20_ihfa-primery-1.md"
+    }
+  ]
+}

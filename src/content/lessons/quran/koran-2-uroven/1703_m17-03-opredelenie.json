@@ -1,0 +1,15 @@
+{
+  "id": 1703,
+  "slug": "m17-03-opredelenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Определение",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Определение",
+      "source": "m17_03_opredelenie.md"
+    }
+  ]
+}

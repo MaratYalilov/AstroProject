@@ -1,0 +1,15 @@
+{
+  "id": 1737,
+  "slug": "m17-37-proverochnoe-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Проверочное начало (1)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Проверочное начало (1)",
+      "source": "m17_37_proverochnoe-1.md"
+    }
+  ]
+}

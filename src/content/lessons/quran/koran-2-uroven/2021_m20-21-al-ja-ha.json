@@ -1,0 +1,15 @@
+{
+  "id": 2021,
+  "slug": "m20-21-al-ja-ha",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«ال», «يا», «ها» — не отделяются",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«ال», «يا», «ها» — не отделяются",
+      "source": "m20_21_al-ja-ha.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1707,
+  "slug": "m17-07-horoshaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Хорошая остановка (вакф хасан)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Хорошая остановка (вакф хасан)",
+      "source": "m17_07_horoshaya.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1336,
+  "slug": "m13-36-silnejshaya-prichina",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Правило сильнейшей из двух причин: формулировка",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правило сильнейшей из двух причин: формулировка",
+      "source": "m13_36_silnejshaya-prichina.md"
+    }
+  ]
+}

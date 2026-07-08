@@ -1,6 +1,7 @@
 import LetterIntroCombined from "@/components/alifba/LetterIntroCombined";
 import PronunciationBlock from "@/components/alifba/PronunciationBlock";
 import SifatBlock from "@/components/alifba/SifatBlock";
+import MatnBlock from "@/components/course/MatnBlock";
 import TheoryReveal from "@/components/alifba/TheoryReveal-OLD";
 import WritingAndFormsBlock from "@/components/alifba/WritingAndFormsBlock";
 import AlphabetGrid from "@/components/alifba/AlphabetGrid";
@@ -75,6 +76,18 @@ export default function RenderBlock({
           letter={block.letter}
           title={block.title}
           standalone
+        />
+      );
+
+    case "matn":
+      return (
+        <MatnBlock
+          title={block.title}
+          audio={block.audio}
+          from={block.from}
+          to={block.to}
+          noSync={block.noSync}
+          beits={block.beits}
         />
       );
 

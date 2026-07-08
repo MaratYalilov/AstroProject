@@ -1,0 +1,15 @@
+{
+  "id": 1605,
+  "slug": "m16-05-daf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "16. Отдельные слова",
+  "title": "«ضعف / ضعفا» (сура ар-Рум)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«ضعف / ضعفا» (сура ар-Рум)",
+      "source": "m16_05_daf.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 806,
+  "slug": "m08-06-tverdost-itbak",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Твёрдость букв закрытости (итбак)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Твёрдость букв закрытости (итбак)",
+      "source": "m08_06_tverdost-itbak.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1906,
+  "slug": "m19-06-razdelitelnaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Хамза катъ (разделительная)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Хамза катъ (разделительная)",
+      "source": "m19_06_razdelitelnaya.md"
+    }
+  ]
+}

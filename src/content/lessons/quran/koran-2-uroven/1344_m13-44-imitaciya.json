@@ -1,0 +1,15 @@
+{
+  "id": 1344,
+  "slug": "m13-44-imitaciya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Случай, лишь похожий на правило (не входящий в него)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Случай, лишь похожий на правило (не входящий в него)",
+      "source": "m13_44_imitaciya.md"
+    }
+  ]
+}

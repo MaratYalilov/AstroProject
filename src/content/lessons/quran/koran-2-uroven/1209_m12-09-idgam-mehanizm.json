@@ -1,0 +1,15 @@
+{
+  "id": 1209,
+  "slug": "m12-09-idgam-mehanizm",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам с гунной: механизм",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Идгам с гунной: механизм",
+      "source": "m12_09_idgam-mehanizm.md"
+    }
+  ]
+}

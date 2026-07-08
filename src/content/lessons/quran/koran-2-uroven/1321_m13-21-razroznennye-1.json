@@ -1,0 +1,15 @@
+{
+  "id": 1321,
+  "slug": "m13-21-razroznennye-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "«Разрозненные буквы» Корана (часть 1)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«Разрозненные буквы» Корана (часть 1)",
+      "source": "m13_21_razroznennye-1.md"
+    }
+  ]
+}

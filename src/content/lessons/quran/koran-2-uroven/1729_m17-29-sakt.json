@@ -1,0 +1,15 @@
+{
+  "id": 1729,
+  "slug": "m17-29-sakt",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Сакт (краткая пауза без дыхания)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Сакт (краткая пауза без дыхания)",
+      "source": "m17_29_sakt.md"
+    }
+  ]
+}

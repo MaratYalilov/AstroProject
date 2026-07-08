@@ -1,0 +1,15 @@
+{
+  "id": 1002,
+  "slug": "m10-02-sosednie-bukvy-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Соседние буквы — часть 2 (четыре вида)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Соседние буквы — часть 2 (четыре вида)",
+      "source": "m10_02_sosednie-bukvy-2.md"
+    }
+  ]
+}

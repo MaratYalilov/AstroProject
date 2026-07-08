@@ -1,0 +1,15 @@
+{
+  "id": 2014,
+  "slug": "m20-14-an-lan",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«أن لن» (صل أن لن نجعل، نجمع)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«أن لن» (صل أن لن نجعل، نجمع)",
+      "source": "m20_14_an-lan.md"
+    }
+  ]
+}

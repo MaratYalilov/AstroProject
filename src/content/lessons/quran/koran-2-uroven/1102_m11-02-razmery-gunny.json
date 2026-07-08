@@ -1,0 +1,15 @@
+{
+  "id": 1102,
+  "slug": "m11-02-razmery-gunny",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "Размеры (длительности) гунны",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Размеры (длительности) гунны",
+      "source": "m11_02_razmery-gunny.md"
+    }
+  ]
+}

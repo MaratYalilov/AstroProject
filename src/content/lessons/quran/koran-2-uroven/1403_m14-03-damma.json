@@ -1,0 +1,15 @@
+{
+  "id": 1403,
+  "slug": "m14-03-damma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Дамма",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Дамма",
+      "source": "m14_03_damma.md"
+    }
+  ]
+}

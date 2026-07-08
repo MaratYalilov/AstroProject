@@ -1,0 +1,15 @@
+{
+  "id": 1323,
+  "slug": "m13-23-muttasyl",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд муттасыль (связный, необходимый)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Мадд муттасыль (связный, необходимый)",
+      "source": "m13_23_muttasyl.md"
+    }
+  ]
+}

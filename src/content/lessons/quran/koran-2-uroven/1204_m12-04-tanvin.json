@@ -1,0 +1,15 @@
+{
+  "id": 1204,
+  "slug": "m12-04-tanvin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Танвин",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Танвин",
+      "source": "m12_04_tanvin.md"
+    }
+  ]
+}

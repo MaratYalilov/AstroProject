@@ -1,0 +1,15 @@
+{
+  "id": 805,
+  "slug": "m08-05-oshibki-tverdyh",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Ошибки в твёрдых буквах",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Ошибки в твёрдых буквах",
+      "source": "m08_05_oshibki-tverdyh.md"
+    }
+  ]
+}

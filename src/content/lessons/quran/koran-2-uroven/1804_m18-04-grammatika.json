@@ -1,0 +1,15 @@
+{
+  "id": 1804,
+  "slug": "m18-04-grammatika",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Бина и и'раб (почему «إلا بفتح أو بنصب»)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Бина и и'раб (почему «إلا بفتح أو بنصب»)",
+      "source": "m18_04_grammatika.md"
+    }
+  ]
+}

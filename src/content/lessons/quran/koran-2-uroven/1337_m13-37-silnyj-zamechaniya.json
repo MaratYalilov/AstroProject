@@ -1,0 +1,15 @@
+{
+  "id": 1337,
+  "slug": "m13-37-silnyj-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Правило сильного мадда: замечания",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правило сильного мадда: замечания",
+      "source": "m13_37_silnyj-zamechaniya.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1211,
+  "slug": "m12-11-idgam-isklyuchenie-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам: исключение 1 — «нун» и буква идгама в одном слове",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Идгам: исключение 1 — «нун» и буква идгама в одном слове",
+      "source": "m12_11_idgam-isklyuchenie-1.md"
+    }
+  ]
+}

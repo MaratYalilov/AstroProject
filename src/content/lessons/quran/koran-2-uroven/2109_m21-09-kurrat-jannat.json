@@ -1,0 +1,15 @@
+{
+  "id": 2109,
+  "slug": "m21-09-kurrat-jannat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«قرت عين» и «جنت»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«قرت عين» и «جنت»",
+      "source": "m21_09_kurrat-jannat.md"
+    }
+  ]
+}

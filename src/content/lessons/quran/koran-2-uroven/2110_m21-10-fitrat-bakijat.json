@@ -1,0 +1,15 @@
+{
+  "id": 2110,
+  "slug": "m21-10-fitrat-bakijat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«فطرت» и «بقيت»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«فطرت» и «بقيت»",
+      "source": "m21_10_fitrat-bakijat.md"
+    }
+  ]
+}

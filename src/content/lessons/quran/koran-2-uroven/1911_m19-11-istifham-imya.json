@@ -1,0 +1,15 @@
+{
+  "id": 1911,
+  "slug": "m19-11-istifham-imya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Хамза истифхама на васль в имени",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Хамза истифхама на васль в имени",
+      "source": "m19_11_istifham-imya.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1722,
+  "slug": "m17-22-hafs-5-ya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса (5): удалённая йа",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Правило Хафса (5): удалённая йа",
+      "source": "m17_22_hafs-5-ya.md"
+    }
+  ]
+}

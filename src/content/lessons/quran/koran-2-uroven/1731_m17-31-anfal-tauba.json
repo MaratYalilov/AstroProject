@@ -1,0 +1,15 @@
+{
+  "id": 1731,
+  "slug": "m17-31-anfal-tauba",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Между сурами аль-Анфаль и ат-Тауба",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Между сурами аль-Анфаль и ат-Тауба",
+      "source": "m17_31_anfal-tauba.md"
+    }
+  ]
+}

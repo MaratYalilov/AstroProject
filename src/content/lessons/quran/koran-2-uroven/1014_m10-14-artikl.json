@@ -1,0 +1,15 @@
+{
+  "id": 1014,
+  "slug": "m10-14-artikl",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Определённый артикль (لام التعريف)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Определённый артикль (لام التعريف)",
+      "source": "m10_14_artikl.md"
+    }
+  ]
+}

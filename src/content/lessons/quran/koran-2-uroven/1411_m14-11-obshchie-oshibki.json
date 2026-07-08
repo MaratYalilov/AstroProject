@@ -1,0 +1,15 @@
+{
+  "id": 1411,
+  "slug": "m14-11-obshchie-oshibki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Общие ошибки: равенство времён огласовок",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Общие ошибки: равенство времён огласовок",
+      "source": "m14_11_obshchie-oshibki.md"
+    }
+  ]
+}

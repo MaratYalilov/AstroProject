@@ -1,0 +1,15 @@
+{
+  "id": 1734,
+  "slug": "m17-34-nachalo-dostatochnoe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Достаточное начало (ибтида кафи)",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "Достаточное начало (ибтида кафи)",
+      "source": "m17_34_nachalo-dostatochnoe.md"
+    }
+  ]
+}

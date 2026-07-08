@@ -1,0 +1,15 @@
+{
+  "id": 2017,
+  "slug": "m20-17-jaumahum",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«يوم هم»",
+  "blocks": [
+    {
+      "type": "theory",
+      "title": "«يوم هم»",
+      "source": "m20_17_jaumahum.md"
+    }
+  ]
+}
