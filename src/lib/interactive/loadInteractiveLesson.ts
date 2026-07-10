@@ -15,35 +15,50 @@ export type InteractiveLesson = {
  * Загружает все JSON-уроки для указанного курса.
  * Возвращает массив InteractiveLesson.
  */
+// Бандлы курсов: один файл со всеми уроками курса (массив InteractiveLesson).
+// Если у курса есть lessons.bundle.json — грузим его; иначе — по отдельным файлам.
+const bundleModules = import.meta.glob<InteractiveLesson[]>(
+  `/src/content/lessons/**/lessons.bundle.json`,
+  { import: "default", eager: false }
+);
+const singleModules = import.meta.glob<InteractiveLesson>(
+  `/src/content/lessons/**/*.json`,
+  { import: "default", eager: false }
+);
+
 export async function loadAllInteractiveLessons(
   subject: string,
   course: string
 ): Promise<InteractiveLesson[]> {
-  // Используем Vite's import.meta.glob для загрузки всех JSON файлов курса
-  const modules = import.meta.glob<InteractiveLesson>(
-    `/src/content/lessons/**/*.json`,
-    { import: "default", eager: false }
-  );
+  const marker = `/lessons/${subject}/${course}/`;
 
+  // 1) Бандл курса (все уроки в одном файле)
+  const bundleKey = Object.keys(bundleModules).find((p) => p.includes(marker));
+  if (bundleKey) {
+    try {
+      const arr = (await bundleModules[bundleKey]()) as InteractiveLesson[];
+      if (Array.isArray(arr)) {
+        return [...arr].sort((a, b) => a.id - b.id);
+      }
+    } catch (err) {
+      console.warn(`Failed to load lessons bundle: ${bundleKey}`, err);
+    }
+  }
+
+  // 2) Иначе — по отдельным JSON-файлам курса (как в muallim-sani)
   const lessons: InteractiveLesson[] = [];
-
-  for (const [path, loader] of Object.entries(modules)) {
-    // Проверяем, что путь соответствует subject/course
-    if (!path.includes(`/lessons/${subject}/${course}/`)) continue;
-
+  for (const [path, loader] of Object.entries(singleModules)) {
+    if (!path.includes(marker)) continue;
     try {
       const lesson = await loader();
-      if (lesson && lesson.blocks) {
-        lessons.push(lesson);
+      if (lesson && (lesson as InteractiveLesson).blocks) {
+        lessons.push(lesson as InteractiveLesson);
       }
     } catch (err) {
       console.warn(`Failed to load interactive lesson: ${path}`, err);
     }
   }
-
-  // Сортируем по id
   lessons.sort((a, b) => a.id - b.id);
-
   return lessons;
 }
 

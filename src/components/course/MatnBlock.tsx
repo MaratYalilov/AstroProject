@@ -1,8 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Howl } from "howler";
 import { marked } from "marked";
 import { BookOpen, ChevronDown, Pause, Play, Volume2 } from "lucide-react";
 import { replaceQuranTags } from "../../utils/replaceQuranTags";
+import mukaddimaData from "@/content/lessons/quran/koran-2-uroven/mukaddima.json";
+import sharhData from "@/content/lessons/quran/koran-2-uroven/sharh.json";
+import groupsData from "@/content/lessons/quran/koran-2-uroven/matn_groups.json";
 
 export type MatnBeit = {
   n: number;
@@ -17,17 +20,31 @@ export type MatnBeit = {
   end?: number;
 };
 
+type MatnGroup = {
+  audio?: string;
+  from: number;
+  to: number;
+  noSync?: boolean;
+  times?: Record<string, [number, number]>;
+};
+
 type Props = {
   /** Заголовок блока, напр. «Мукаддима аль-Джазари: бейты 9–19» */
   title?: string;
-  /** mp3 группы бейтов (общий на группу, переиспользуется многими уроками) */
-  audio?: string;
-  from?: number;
-  to?: number;
-  /** true — тайминги бейтов недоступны (битый/неполный VTT): играем файл целиком без подсветки */
-  noSync?: boolean;
-  beits: MatnBeit[];
+  /** Ключ группы бейтов (аудио + тайминги) из matn_groups.json, напр. "01-9-19" */
+  group: string;
+  /** Диапазон бейтов — ссылки на ID в mukaddima.json / sharh.json */
+  from: number;
+  to: number;
 };
+
+// Матн «Мукаддимы» и шарх лежат в общих JSON; блок урока лишь ссылается на ID.
+const MUKADDIMA = mukaddimaData as { n: number; ar: string; ru: string }[];
+const MUK_MAP: Record<number, { ar: string; ru: string }> = Object.fromEntries(
+  MUKADDIMA.map((b) => [b.n, { ar: b.ar, ru: b.ru }]),
+);
+const SHARH = sharhData as Record<string, string>;
+const GROUPS = groupsData as Record<string, MatnGroup>;
 
 async function toHtml(md: string): Promise<string> {
   const parsed = await marked.parse(md);
@@ -54,13 +71,32 @@ function AudioWave() {
   );
 }
 
-export default function MatnBlock({
-  audio,
-  from,
-  to,
-  noSync,
-  beits,
-}: Props) {
+export default function MatnBlock({ group, from, to }: Props) {
+  const g = GROUPS[group];
+  const audio = g?.audio;
+  const noSync = g?.noSync ?? true;
+
+  // Собираем бейты диапазона из общих JSON: матн — из mukaddima.json,
+  // шарх — из sharh.json, тайминги — из matn_groups.json.
+  const beits = useMemo<MatnBeit[]>(() => {
+    const times = g?.times ?? {};
+    const list: MatnBeit[] = [];
+    for (let n = from; n <= to; n += 1) {
+      const m = MUK_MAP[n];
+      if (!m) continue;
+      const be: MatnBeit = { n, ar: m.ar, ru: m.ru };
+      if (SHARH[String(n)]) be.sharh = SHARH[String(n)];
+      const t = times[String(n)];
+      if (t) {
+        be.start = t[0];
+        be.end = t[1];
+      }
+      list.push(be);
+    }
+    return list;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [group, from, to]);
+
   const howlRef = useRef<Howl | null>(null);
   const rafRef = useRef<number | null>(null);
   const stopAtRef = useRef<number | null>(null);
@@ -168,9 +204,9 @@ export default function MatnBlock({
     // при запуске чтения списка сворачиваем раскрытые шархи
     setOpenSharh({});
     if (synced) {
-      const s = Math.min(
-        ...beits.filter((b) => b.start != null).map((b) => b.start as number),
-      );
+      // если у первых бейтов диапазона нет тайминга (Whisper их не поймал) —
+      // стартуем с начала аудио, чтобы не пропустить их звучание.
+      const s = beits[0]?.start ?? 0;
       const e = Math.max(
         ...beits.filter((b) => b.end != null).map((b) => b.end as number),
       );
@@ -260,7 +296,7 @@ export default function MatnBlock({
           </div>
         )}
 
-        <ol className="divide-y divide-gray-200/70 dark:divide-white/10">
+        <ol className="">
           {beits.map((b) => {
             const active = activeN === b.n;
             return (
@@ -344,19 +380,20 @@ export default function MatnBlock({
                             ) : (
                               <div
                                 className="max-w-none
-                                  [&_h2]:mb-3 [&_h2]:mt-6 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-slate-950 dark:[&_h2]:text-white
-                                  [&_h3]:mb-2 [&_h3]:mt-5 [&_h3]:text-lg [&_h3]:font-semibold [&_h3]:text-slate-900 dark:[&_h3]:text-slate-50
-                                  [&_p]:my-3 [&_p]:text-base [&_p]:leading-7 [&_p]:text-slate-700 dark:[&_p]:text-slate-200
+                                  [&_h2]:mb-4 [&_h2]:mt-9 [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:leading-tight [&_h2]:text-slate-950 dark:[&_h2]:text-white
+                                  [&_h3]:mb-3 [&_h3]:mt-7 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:leading-snug [&_h3]:text-slate-900 dark:[&_h3]:text-slate-50
+                                  [&_p]:my-5 [&_p]:text-lg [&_p]:leading-8 [&_p]:text-slate-700 dark:[&_p]:text-slate-200
                                   [&_strong]:font-semibold [&_strong]:text-slate-950 dark:[&_strong]:text-white
-                                  [&_ul]:my-3 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-6 [&_ul]:text-base [&_ul]:leading-7 [&_ul]:text-slate-700 dark:[&_ul]:text-slate-200
-                                  [&_ol]:my-3 [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:pl-6 [&_ol]:text-base [&_ol]:leading-7 [&_ol]:text-slate-700 dark:[&_ol]:text-slate-200
-                                  [&_blockquote]:my-4 [&_blockquote]:rounded-xl [&_blockquote]:border [&_blockquote]:border-cyan-200/70 [&_blockquote]:bg-cyan-50/70 [&_blockquote]:px-4 [&_blockquote]:py-3 [&_blockquote]:text-right [&_blockquote]:leading-8 [&_blockquote]:text-slate-800 dark:[&_blockquote]:border-cyan-300/15 dark:[&_blockquote]:bg-cyan-300/10 dark:[&_blockquote]:text-slate-100
-                                  [&_blockquote_p]:my-1 [&_blockquote_p]:text-2xl [&_blockquote_p]:leading-[2.1]
-                                  [&_table]:my-4 [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_table]:text-sm [&_table]:text-slate-700 dark:[&_table]:text-slate-200 [&_table]:border [&_table]:border-slate-200/80 dark:[&_table]:border-white/10 [&_table]:rounded-xl [&_table]:overflow-hidden
+                                  [&_ul]:my-6 [&_ul]:list-disc [&_ul]:space-y-3 [&_ul]:pl-6 [&_ul]:text-lg [&_ul]:leading-8 [&_ul]:text-slate-700 dark:[&_ul]:text-slate-200
+                                  [&_ol]:my-6 [&_ol]:list-decimal [&_ol]:space-y-3 [&_ol]:pl-6 [&_ol]:text-lg [&_ol]:leading-8 [&_ol]:text-slate-700 dark:[&_ol]:text-slate-200
+                                  [&_li]:pl-1 [&_li]:marker:text-cyan-600 dark:[&_li]:marker:text-cyan-300
+                                  [&_blockquote]:my-7 [&_blockquote]:rounded-2xl [&_blockquote]:border [&_blockquote]:border-cyan-200/70 [&_blockquote]:bg-cyan-50/70 [&_blockquote]:px-5 [&_blockquote]:py-4 [&_blockquote]:text-right [&_blockquote]:leading-8 [&_blockquote]:text-slate-800 dark:[&_blockquote]:border-cyan-300/15 dark:[&_blockquote]:bg-cyan-300/10 dark:[&_blockquote]:text-slate-100
+                                  [&_blockquote_p]:my-1 [&_blockquote_p]:text-[clamp(1.6rem,3.5vw,1.8rem)] [&_blockquote_p]:leading-[2.1]
+                                  [&_table]:my-6 [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_table]:text-base [&_table]:text-slate-700 dark:[&_table]:text-slate-200 [&_table]:border [&_table]:border-slate-200/80 dark:[&_table]:border-white/10 [&_table]:rounded-xl [&_table]:overflow-hidden
                                   [&_thead]:bg-slate-50/80 dark:[&_thead]:bg-white/[0.04]
                                   [&_tbody]:divide-y [&_tbody]:divide-slate-200/80 dark:[&_tbody]:divide-white/10
-                                  [&_th]:px-3 [&_th]:py-2 [&_th]:text-xs [&_th]:font-semibold [&_th]:uppercase [&_th]:tracking-wider [&_th]:text-slate-600 dark:[&_th]:text-slate-400
-                                  [&_td]:px-3 [&_td]:py-2 [&_td]:text-base"
+                                  [&_th]:px-4 [&_th]:py-3 [&_th]:text-sm [&_th]:font-semibold [&_th]:uppercase [&_th]:tracking-wider [&_th]:text-slate-600 dark:[&_th]:text-slate-400
+                                  [&_td]:px-4 [&_td]:py-3 [&_td]:text-lg"
                                 dangerouslySetInnerHTML={{ __html: sharhHtml[b.n] }}
                               />
                             )}

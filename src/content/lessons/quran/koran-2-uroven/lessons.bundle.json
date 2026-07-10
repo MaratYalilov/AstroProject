@@ -1,0 +1,5124 @@
+[
+ {
+  "id": 101,
+  "slug": "m01-01-dzhazari-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Биография имама Ибн аль-Джазари (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Биография имама Ибн аль-Джазари (часть 1)",
+    "source": "m01_01_dzhazari-1.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 1–8",
+    "group": "00-1-8",
+    "from": 1,
+    "to": 8
+   }
+  ]
+ },
+ {
+  "id": 102,
+  "slug": "m01-02-dzhazari-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Биография имама Ибн аль-Джазари (часть 2)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Биография имама Ибн аль-Джазари (часть 2)",
+    "source": "m01_02_dzhazari-2.md"
+   }
+  ]
+ },
+ {
+  "id": 103,
+  "slug": "m01-03-chtecu-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Что нужно знать чтецу Корана (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Что нужно знать чтецу Корана (часть 1)",
+    "source": "m01_03_chtecu-1.md"
+   }
+  ]
+ },
+ {
+  "id": 104,
+  "slug": "m01-04-chtecu-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Что нужно знать чтецу Корана (часть 2)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Что нужно знать чтецу Корана (часть 2)",
+    "source": "m01_04_chtecu-2.md"
+   }
+  ]
+ },
+ {
+  "id": 105,
+  "slug": "m01-05-alfavit",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Арабский алфавит",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Арабский алфавит",
+    "source": "m01_05_alfavit.md"
+   }
+  ]
+ },
+ {
+  "id": 106,
+  "slug": "m01-06-hamza-istoriya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Хамза: начертание в древности и в наши дни",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хамза: начертание в древности и в наши дни",
+    "source": "m01_06_hamza-istoriya.md"
+   }
+  ]
+ },
+ {
+  "id": 107,
+  "slug": "m01-07-tochki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Точки в буквах",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Точки в буквах",
+    "source": "m01_07_tochki.md"
+   }
+  ]
+ },
+ {
+  "id": 108,
+  "slug": "m01-08-pismo-lam-kaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Письмо букв ك (кәф) и происхождение لا (ләм-әлиф)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Письмо букв ك (кәф) и происхождение لا (ләм-әлиф)",
+    "source": "m01_08_pismo-lam-kaf.md"
+   }
+  ]
+ },
+ {
+  "id": 109,
+  "slug": "m01-09-abdzhadiya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "1. Введение",
+  "title": "Буквы «абджадия» (письменные) и их порядок",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Буквы «абджадия» (письменные) и их порядок",
+    "source": "m01_09_abdzhadiya.md"
+   }
+  ]
+ },
+ {
+  "id": 201,
+  "slug": "m02-01-chto-takoe-tadzhvid",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Что такое таджвид",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Что такое таджвид",
+    "source": "m02_01_chto-takoe-tadzhvid.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 27–33",
+    "group": "03-27-33",
+    "from": 27,
+    "to": 33
+   }
+  ]
+ },
+ {
+  "id": 202,
+  "slug": "m02-02-hukm-tadzhvida",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Хукм (предписание) применения таджвида",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хукм (предписание) применения таджвида",
+    "source": "m02_02_hukm-tadzhvida.md"
+   }
+  ]
+ },
+ {
+  "id": 203,
+  "slug": "m02-03-hukm-tablitsa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Хукм таджвида (уточнение)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хукм таджвида (уточнение)",
+    "source": "m02_03_hukm-tablitsa.md"
+   }
+  ]
+ },
+ {
+  "id": 204,
+  "slug": "m02-04-vidy-oshibok",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Виды ошибок при чтении Корана (ляхн)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Виды ошибок при чтении Корана (ляхн)",
+    "source": "m02_04_vidy-oshibok.md"
+   }
+  ]
+ },
+ {
+  "id": 205,
+  "slug": "m02-05-puti-peredachi",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Пути передачи Корана",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Пути передачи Корана",
+    "source": "m02_05_puti-peredachi.md"
+   }
+  ]
+ },
+ {
+  "id": 206,
+  "slug": "m02-06-zapis-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Первый этап записи Корана",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Первый этап записи Корана",
+    "source": "m02_06_zapis-1.md"
+   }
+  ]
+ },
+ {
+  "id": 207,
+  "slug": "m02-07-svitki-abu-bakra",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Свитки Абу Бакра (ас-сухуф ас-сыддикыя)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Свитки Абу Бакра (ас-сухуф ас-сыддикыя)",
+    "source": "m02_07_svitki-abu-bakra.md"
+   }
+  ]
+ },
+ {
+  "id": 208,
+  "slug": "m02-08-mushafy-usmana-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Мусхафы Усмана (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мусхафы Усмана (часть 1)",
+    "source": "m02_08_mushafy-usmana-1.md"
+   }
+  ]
+ },
+ {
+  "id": 209,
+  "slug": "m02-09-mushafy-usmana-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Мусхафы Усмана (часть 2)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мусхафы Усмана (часть 2)",
+    "source": "m02_09_mushafy-usmana-2.md"
+   }
+  ]
+ },
+ {
+  "id": 210,
+  "slug": "m02-10-mushafy-segodnya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Мусхафы сегодня",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мусхафы сегодня",
+    "source": "m02_10_mushafy-segodnya.md"
+   }
+  ]
+ },
+ {
+  "id": 211,
+  "slug": "m02-11-ustnaya-peredacha-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Устная передача Корана (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Устная передача Корана (часть 1)",
+    "source": "m02_11_ustnaya-peredacha-1.md"
+   }
+  ]
+ },
+ {
+  "id": 212,
+  "slug": "m02-12-ustnaya-peredacha-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Устная передача Корана (часть 2)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Устная передача Корана (часть 2)",
+    "source": "m02_12_ustnaya-peredacha-2.md"
+   }
+  ]
+ },
+ {
+  "id": 213,
+  "slug": "m02-13-vidy-chteniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Тиляуа, ада и кыраа (три термина)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Тиляуа, ада и кыраа (три термина)",
+    "source": "m02_13_vidy-chteniya.md"
+   }
+  ]
+ },
+ {
+  "id": 214,
+  "slug": "m02-14-opredelenie-po-dzhazari",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Определение таджвида по аль-Джазари",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Определение таджвида по аль-Джазари",
+    "source": "m02_14_opredelenie-po-dzhazari.md"
+   }
+  ]
+ },
+ {
+  "id": 215,
+  "slug": "m02-15-chtenie-podobnyh",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Чтение подобных букв",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Чтение подобных букв",
+    "source": "m02_15_chtenie-podobnyh.md"
+   }
+  ]
+ },
+ {
+  "id": 216,
+  "slug": "m02-16-chtenie-s-delannostyu",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Без деланности (без такаллюфа)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Без деланности (без такаллюфа)",
+    "source": "m02_16_chtenie-s-delannostyu.md"
+   }
+  ]
+ },
+ {
+  "id": 217,
+  "slug": "m02-17-arabskij-i-tadzhvid",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "2. Таджвид и история Корана",
+  "title": "Арабский язык и правила таджвида: в чём разница",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Арабский язык и правила таджвида: в чём разница",
+    "source": "m02_17_arabskij-i-tadzhvid.md"
+   }
+  ]
+ },
+ {
+  "id": 301,
+  "slug": "m03-01-istiaza-basmala",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "3. Истиаза и басмаля",
+  "title": "Истиаза и басмаля",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Истиаза и басмаля",
+    "source": "m03_01_istiaza-basmala.md"
+   }
+  ]
+ },
+ {
+  "id": 401,
+  "slug": "m04-01-skolko-mest",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Сколько мест образования у арабских букв",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Сколько мест образования у арабских букв",
+    "source": "m04_01_skolko-mest.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 9–19",
+    "group": "01-9-19",
+    "from": 9,
+    "to": 19
+   }
+  ]
+ },
+ {
+  "id": 402,
+  "slug": "m04-02-rechevoj-apparat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Строение речевого аппарата",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Строение речевого аппарата",
+    "source": "m04_02_rechevoj-apparat.md"
+   }
+  ]
+ },
+ {
+  "id": 403,
+  "slug": "m04-03-zvuk-v-prirode",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Как образуется звук (в природе)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Как образуется звук (в природе)",
+    "source": "m04_03_zvuk-v-prirode.md"
+   }
+  ]
+ },
+ {
+  "id": 404,
+  "slug": "m04-04-sukun-oglasovka-madd",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Буква: неподвижная, огласованная и буква мадда",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Буква: неподвижная, огласованная и буква мадда",
+    "source": "m04_04_sukun-oglasovka-madd.md"
+   }
+  ]
+ },
+ {
+  "id": 405,
+  "slug": "m04-05-bukvy-madda",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж букв мадда (аль-джауф)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махрадж букв мадда (аль-джауф)",
+    "source": "m04_05_bukvy-madda.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 10",
+    "group": "01-9-19",
+    "from": 10,
+    "to": 10
+   }
+  ]
+ },
+ {
+  "id": 406,
+  "slug": "m04-06-bukvy-gorla",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи горловых букв (الحلق)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махраджи горловых букв (الحلق)",
+    "source": "m04_06_bukvy-gorla.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 11–12",
+    "group": "01-9-19",
+    "from": 11,
+    "to": 12
+   }
+  ]
+ },
+ {
+  "id": 407,
+  "slug": "m04-07-kaf-qaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи ق и ك (задняя часть языка)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махраджи ق и ك (задняя часть языка)",
+    "source": "m04_07_kaf-qaf.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 12",
+    "group": "01-9-19",
+    "from": 12,
+    "to": 12
+   }
+  ]
+ },
+ {
+  "id": 408,
+  "slug": "m04-08-ya-shin-jim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи ج، ش، ي (середина языка)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махраджи ج، ش، ي (середина языка)",
+    "source": "m04_08_ya-shin-jim.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 13",
+    "group": "01-9-19",
+    "from": 13,
+    "to": 13
+   }
+  ]
+ },
+ {
+  "id": 409,
+  "slug": "m04-09-dad",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ض",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махрадж буквы ض",
+    "source": "m04_09_dad.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 13",
+    "group": "01-9-19",
+    "from": 13,
+    "to": 13
+   }
+  ]
+ },
+ {
+  "id": 410,
+  "slug": "m04-10-lam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ل (ләм)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махрадж буквы ل (ләм)",
+    "source": "m04_10_lam.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 14",
+    "group": "01-9-19",
+    "from": 14,
+    "to": 14
+   }
+  ]
+ },
+ {
+  "id": 411,
+  "slug": "m04-11-nun",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ن (нун)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махрадж буквы ن (нун)",
+    "source": "m04_11_nun.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 15",
+    "group": "01-9-19",
+    "from": 15,
+    "to": 15
+   }
+  ]
+ },
+ {
+  "id": 412,
+  "slug": "m04-12-ra",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ر (ра)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махрадж буквы ر (ра)",
+    "source": "m04_12_ra.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 15",
+    "group": "01-9-19",
+    "from": 15,
+    "to": 15
+   }
+  ]
+ },
+ {
+  "id": 413,
+  "slug": "m04-13-ta-dal-to",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи ط، د، ت",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махраджи ط، د، ت",
+    "source": "m04_13_ta-dal-to.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 16",
+    "group": "01-9-19",
+    "from": 16,
+    "to": 16
+   }
+  ]
+ },
+ {
+  "id": 414,
+  "slug": "m04-14-zay-sin-sad",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи ص، س، ز (буквы свиста)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махраджи ص، س، ز (буквы свиста)",
+    "source": "m04_14_zay-sin-sad.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 16",
+    "group": "01-9-19",
+    "from": 16,
+    "to": 16
+   }
+  ]
+ },
+ {
+  "id": 415,
+  "slug": "m04-15-sa-zal-zo",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи ظ، ذ، ث",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махраджи ظ، ذ، ث",
+    "source": "m04_15_sa-zal-zo.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 17",
+    "group": "01-9-19",
+    "from": 17,
+    "to": 17
+   }
+  ]
+ },
+ {
+  "id": 416,
+  "slug": "m04-16-fa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж буквы ف (фә)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махрадж буквы ف (фә)",
+    "source": "m04_16_fa.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 18",
+    "group": "01-9-19",
+    "from": 18,
+    "to": 18
+   }
+  ]
+ },
+ {
+  "id": 417,
+  "slug": "m04-17-mim-ba-waw",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махраджи م، ب، و (губные буквы)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махраджи م، ب، و (губные буквы)",
+    "source": "m04_17_mim-ba-waw.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 19",
+    "group": "01-9-19",
+    "from": 19,
+    "to": 19
+   }
+  ]
+ },
+ {
+  "id": 418,
+  "slug": "m04-18-gunna",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "4. Места образования букв (махраджи)",
+  "title": "Махрадж гунны — носовая полость (хайшум)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Махрадж гунны — носовая полость (хайшум)",
+    "source": "m04_18_gunna.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейт 19",
+    "group": "01-9-19",
+    "from": 19,
+    "to": 19
+   }
+  ]
+ },
+ {
+  "id": 501,
+  "slug": "m05-01-obzor-svojstv",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства (сыфаты): обзор и классификация",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Свойства (сыфаты): обзор и классификация",
+    "source": "m05_01_obzor-svojstv.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 20–26",
+    "group": "02-20-26",
+    "from": 20,
+    "to": 26
+   }
+  ]
+ },
+ {
+  "id": 502,
+  "slug": "m05-02-hams-dzhahr",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Глухость (хамс) и звонкость (джахр)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Глухость (хамс) и звонкость (джахр)",
+    "source": "m05_02_hams-dzhahr.md"
+   }
+  ]
+ },
+ {
+  "id": 503,
+  "slug": "m05-03-sila-slabost",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: сила (шидда), слабость (рахава) и средняя (бинийя)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Свойства: сила (шидда), слабость (рахава) и средняя (бинийя)",
+    "source": "m05_03_sila-slabost.md"
+   }
+  ]
+ },
+ {
+  "id": 504,
+  "slug": "m05-04-dolgoty-bukv",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Длительности (времена) букв",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Длительности (времена) букв",
+    "source": "m05_04_dolgoty-bukv.md"
+   }
+  ]
+ },
+ {
+  "id": 505,
+  "slug": "m05-05-podyom-ponizhenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: подъём (исти‘ля) и понижение (истифаль)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Свойства: подъём (исти‘ля) и понижение (истифаль)",
+    "source": "m05_05_podyom-ponizhenie.md"
+   }
+  ]
+ },
+ {
+  "id": 506,
+  "slug": "m05-06-zakrytost-otkrytost",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: закрытость (итбак) и открытость (инфитах)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Свойства: закрытость (итбак) и открытость (инфитах)",
+    "source": "m05_06_zakrytost-otkrytost.md"
+   }
+  ]
+ },
+ {
+  "id": 507,
+  "slug": "m05-07-izlyak-ismat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: изляк (إذلاق) и исмат (إصمات)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Свойства: изляк (إذلاق) и исмат (إصمات)",
+    "source": "m05_07_izlyak-ismat.md"
+   }
+  ]
+ },
+ {
+  "id": 508,
+  "slug": "m05-08-safir",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: свист (сафир)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Свойства: свист (сафир)",
+    "source": "m05_08_safir.md"
+   }
+  ]
+ },
+ {
+  "id": 509,
+  "slug": "m05-09-kalkalya-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Свойства: КАЛЬКАЛЯ (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Свойства: КАЛЬКАЛЯ (часть 1)",
+    "source": "m05_09_kalkalya-1.md"
+   }
+  ]
+ },
+ {
+  "id": 510,
+  "slug": "m05-10-kalkalya-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Калькаля (2): сравнение трёх состояний буквы",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Калькаля (2): сравнение трёх состояний буквы",
+    "source": "m05_10_kalkalya-2.md"
+   }
+  ]
+ },
+ {
+  "id": 511,
+  "slug": "m05-11-kalkalya-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Калькаля: важные замечания",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Калькаля: важные замечания",
+    "source": "m05_11_kalkalya-zamechaniya.md"
+   }
+  ]
+ },
+ {
+  "id": 512,
+  "slug": "m05-12-kalkalya-oshibki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Ошибки при произнесении калькаля",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки при произнесении калькаля",
+    "source": "m05_12_kalkalya-oshibki.md"
+   }
+  ]
+ },
+ {
+  "id": 513,
+  "slug": "m05-13-kalkalya-stepeni",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Две степени калькаля",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Две степени калькаля",
+    "source": "m05_13_kalkalya-stepeni.md"
+   }
+  ]
+ },
+ {
+  "id": 514,
+  "slug": "m05-14-lin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Лин (мягкость)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Лин (мягкость)",
+    "source": "m05_14_lin.md"
+   }
+  ]
+ },
+ {
+  "id": 515,
+  "slug": "m05-15-inhiraf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Инхираф (отклонение) в ل и ر",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Инхираф (отклонение) в ل и ر",
+    "source": "m05_15_inhiraf.md"
+   }
+  ]
+ },
+ {
+  "id": 516,
+  "slug": "m05-16-takrir",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Такрир (повторение) в букве ر",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Такрир (повторение) в букве ر",
+    "source": "m05_16_takrir.md"
+   }
+  ]
+ },
+ {
+  "id": 517,
+  "slug": "m05-17-tafashshi",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Тафашши (распространение) в букве ش",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Тафашши (распространение) в букве ش",
+    "source": "m05_17_tafashshi.md"
+   }
+  ]
+ },
+ {
+  "id": 518,
+  "slug": "m05-18-istitalya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Иститаля (удлинение) в букве ض",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Иститаля (удлинение) в букве ض",
+    "source": "m05_18_istitalya.md"
+   }
+  ]
+ },
+ {
+  "id": 519,
+  "slug": "m05-19-gunna",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "5. Свойства букв (сыфаты)",
+  "title": "Гунна как свойство (буквы ن и م)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Гунна как свойство (буквы ن и م)",
+    "source": "m05_19_gunna.md"
+   }
+  ]
+ },
+ {
+  "id": 601,
+  "slug": "m06-01-tverdost-myagkost",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Твёрдость и мягкость (вводное замечание)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Твёрдость и мягкость (вводное замечание)",
+    "source": "m06_01_tverdost-myagkost.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 34–40",
+    "group": "04-34-40",
+    "from": 34,
+    "to": 40
+   }
+  ]
+ },
+ {
+  "id": 602,
+  "slug": "m06-02-tverdyj-alif",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Твёрдый алиф",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Твёрдый алиф",
+    "source": "m06_02_tverdyj-alif.md"
+   }
+  ]
+ },
+ {
+  "id": 603,
+  "slug": "m06-03-hamza",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по хамзе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания по хамзе",
+    "source": "m06_03_hamza.md"
+   }
+  ]
+ },
+ {
+  "id": 604,
+  "slug": "m06-04-lam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по букве ل (ләм)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания по букве ل (ләм)",
+    "source": "m06_04_lam.md"
+   }
+  ]
+ },
+ {
+  "id": 605,
+  "slug": "m06-05-mim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по букве م (мим)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания по букве م (мим)",
+    "source": "m06_05_mim.md"
+   }
+  ]
+ },
+ {
+  "id": 606,
+  "slug": "m06-06-ba-dzhim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по буквам ب (бә) и ج (дҗим)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания по буквам ب (бә) и ج (дҗим)",
+    "source": "m06_06_ba-dzhim.md"
+   }
+  ]
+ },
+ {
+  "id": 607,
+  "slug": "m06-07-ostalnye-bukvy",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по остальным буквам",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания по остальным буквам",
+    "source": "m06_07_ostalnye-bukvy.md"
+   }
+  ]
+ },
+ {
+  "id": 608,
+  "slug": "m06-08-kalkalya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по калькаля",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания по калькаля",
+    "source": "m06_08_kalkalya.md"
+   }
+  ]
+ },
+ {
+  "id": 609,
+  "slug": "m06-09-ha-sin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "6. Важные замечания",
+  "title": "Замечания по буквам ح (хә) и س (син)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания по буквам ح (хә) и س (син)",
+    "source": "m06_09_ha-sin.md"
+   }
+  ]
+ },
+ {
+  "id": 701,
+  "slug": "m07-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "Правила буквы ر: введение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правила буквы ر: введение",
+    "source": "m07_01_vvedenie.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 41–43",
+    "group": "05-41-43",
+    "from": 41,
+    "to": 43
+   }
+  ]
+ },
+ {
+  "id": 702,
+  "slug": "m07-02-tverdoe-chtenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "Твёрдое чтение ر (8 случаев)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Твёрдое чтение ر (8 случаев)",
+    "source": "m07_02_tverdoe-chtenie.md"
+   }
+  ]
+ },
+ {
+  "id": 703,
+  "slug": "m07-03-myagkoe-chtenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "Мягкое чтение ر (4 случая)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мягкое чтение ر (4 случая)",
+    "source": "m07_03_myagkoe-chtenie.md"
+   }
+  ]
+ },
+ {
+  "id": 704,
+  "slug": "m07-04-po-zhelaniyu",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "Чтение ر «по желанию» (джаваз аль-ваджхайн)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Чтение ر «по желанию» (джаваз аль-ваджхайн)",
+    "source": "m07_04_po-zhelaniyu.md"
+   }
+  ]
+ },
+ {
+  "id": 705,
+  "slug": "m07-05-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "Замечания по букве Ра",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания по букве Ра",
+    "source": "m07_05_zamechaniya.md"
+   }
+  ]
+ },
+ {
+  "id": 706,
+  "slug": "m07-06-ra-s-shaddoj",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "7. Правила буквы ر",
+  "title": "«Ра» с шаддой (удвоённая)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Ра» с шаддой (удвоённая)",
+    "source": "m07_06_ra-s-shaddoj.md"
+   }
+  ]
+ },
+ {
+  "id": 801,
+  "slug": "m08-01-pravilo-lyama",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Правило ляма (в имени «Аллах»)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило ляма (в имени «Аллах»)",
+    "source": "m08_01_pravilo-lyama.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 44–51",
+    "group": "06-07-44-51",
+    "from": 44,
+    "to": 51
+   }
+  ]
+ },
+ {
+  "id": 802,
+  "slug": "m08-02-tverdoe-proiznoshenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Твёрдое произношение (буквы возвышения)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Твёрдое произношение (буквы возвышения)",
+    "source": "m08_02_tverdoe-proiznoshenie.md"
+   }
+  ]
+ },
+ {
+  "id": 803,
+  "slug": "m08-03-stepeni-tverdosti-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Степени твёрдости (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Степени твёрдости (часть 1)",
+    "source": "m08_03_stepeni-tverdosti-1.md"
+   }
+  ]
+ },
+ {
+  "id": 804,
+  "slug": "m08-04-stepeni-tverdosti-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Степени твёрдости (часть 2)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Степени твёрдости (часть 2)",
+    "source": "m08_04_stepeni-tverdosti-2.md"
+   }
+  ]
+ },
+ {
+  "id": 805,
+  "slug": "m08-05-oshibki-tverdyh",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Ошибки в твёрдых буквах",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в твёрдых буквах",
+    "source": "m08_05_oshibki-tverdyh.md"
+   }
+  ]
+ },
+ {
+  "id": 806,
+  "slug": "m08-06-tverdost-itbak",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Твёрдость букв закрытости (итбак)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Твёрдость букв закрытости (итбак)",
+    "source": "m08_06_tverdost-itbak.md"
+   }
+  ]
+ },
+ {
+  "id": 807,
+  "slug": "m08-07-sochetanie-to-ta",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Сочетание طْ + ت (ясное проявление итбака)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Сочетание طْ + ت (ясное проявление итбака)",
+    "source": "m08_07_sochetanie-to-ta.md"
+   }
+  ]
+ },
+ {
+  "id": 808,
+  "slug": "m08-08-sochetanie-qo-kaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Сочетание قْ + ك (слово نَخْلُقكُّمْ)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Сочетание قْ + ك (слово نَخْلُقكُّمْ)",
+    "source": "m08_08_sochetanie-qo-kaf.md"
+   }
+  ]
+ },
+ {
+  "id": 809,
+  "slug": "m08-09-soblyudenie-sukuna",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Соблюдение сукуна",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Соблюдение сукуна",
+    "source": "m08_09_soblyudenie-sukuna.md"
+   }
+  ]
+ },
+ {
+  "id": 810,
+  "slug": "m08-10-zo-zal-sad-sin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Различение ظ/ذ и ص/س (твёрдость меняет смысл)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Различение ظ/ذ и ص/س (твёрдость меняет смысл)",
+    "source": "m08_10_zo-zal-sad-sin.md"
+   }
+  ]
+ },
+ {
+  "id": 811,
+  "slug": "m08-11-kaf-ta-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Произношение ك и ت (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Произношение ك и ت (часть 1)",
+    "source": "m08_11_kaf-ta-1.md"
+   }
+  ]
+ },
+ {
+  "id": 812,
+  "slug": "m08-12-kaf-ta-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "8. Правило Лям и другие",
+  "title": "Произношение ك и ت (часть 2)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Произношение ك и ت (часть 2)",
+    "source": "m08_12_kaf-ta-2.md"
+   }
+  ]
+ },
+ {
+  "id": 901,
+  "slug": "m09-01-madd",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах мадда (ا، و، ي)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в буквах мадда (ا، و، ي)",
+    "source": "m09_01_madd.md"
+   }
+  ]
+ },
+ {
+  "id": 902,
+  "slug": "m09-02-gortannye",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в гортанных буквах (ء، ه، ع، ح، غ، خ)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в гортанных буквах (ء، ه، ع، ح، غ، خ)",
+    "source": "m09_02_gortannye.md"
+   }
+  ]
+ },
+ {
+  "id": 903,
+  "slug": "m09-03-kaf-qaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах ق (қаф) и ك (кәф)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в буквах ق (қаф) и ك (кәф)",
+    "source": "m09_03_kaf-qaf.md"
+   }
+  ]
+ },
+ {
+  "id": 904,
+  "slug": "m09-04-jim-shin-ya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах ج (дҗим), ش (шин), ي (йа неполногласная)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в буквах ج (дҗим), ش (шин), ي (йа неполногласная)",
+    "source": "m09_04_jim-shin-ya.md"
+   }
+  ]
+ },
+ {
+  "id": 905,
+  "slug": "m09-05-dad",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в букве ض (ḍад)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в букве ض (ḍад)",
+    "source": "m09_05_dad.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 52–61",
+    "group": "08-09-52-61",
+    "from": 52,
+    "to": 61
+   }
+  ]
+ },
+ {
+  "id": 906,
+  "slug": "m09-06-lyam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в букве ل (ләм)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в букве ل (ләм)",
+    "source": "m09_06_lyam.md"
+   }
+  ]
+ },
+ {
+  "id": 907,
+  "slug": "m09-07-nun",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в букве ن (нун)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в букве ن (нун)",
+    "source": "m09_07_nun.md"
+   }
+  ]
+ },
+ {
+  "id": 908,
+  "slug": "m09-08-ra",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в букве ر (ра)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в букве ر (ра)",
+    "source": "m09_08_ra.md"
+   }
+  ]
+ },
+ {
+  "id": 909,
+  "slug": "m09-09-ta-dal-to",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах ت (тә), ط (та эмфатическая), د (дәль)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в буквах ت (тә), ط (та эмфатическая), د (дәль)",
+    "source": "m09_09_ta-dal-to.md"
+   }
+  ]
+ },
+ {
+  "id": 910,
+  "slug": "m09-10-sad-sin-zay",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах ص (ċад), س (син), ز (зәй)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в буквах ص (ċад), س (син), ز (зәй)",
+    "source": "m09_10_sad-sin-zay.md"
+   }
+  ]
+ },
+ {
+  "id": 911,
+  "slug": "m09-11-sa-zal-zo",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах ث (ҫә), ذ (ҙәль), ظ (ҙа)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в буквах ث (ҫә), ذ (ҙәль), ظ (ҙа)",
+    "source": "m09_11_sa-zal-zo.md"
+   }
+  ]
+ },
+ {
+  "id": 912,
+  "slug": "m09-12-fa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в букве ف (фә)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в букве ف (фә)",
+    "source": "m09_12_fa.md"
+   }
+  ]
+ },
+ {
+  "id": 913,
+  "slug": "m09-13-mim-ba-waw",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "9. Ошибки в буквах",
+  "title": "Ошибки в буквах و (вав неполногласная), ب (бә), م (мим)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в буквах و (вав неполногласная), ب (бә), م (мим)",
+    "source": "m09_13_mim-ba-waw.md"
+   }
+  ]
+ },
+ {
+  "id": 1001,
+  "slug": "m10-01-sosednie-bukvy-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Соседние (встречающиеся) буквы — часть 1",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Соседние (встречающиеся) буквы — часть 1",
+    "source": "m10_01_sosednie-bukvy-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1002,
+  "slug": "m10-02-sosednie-bukvy-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Соседние буквы — часть 2 (четыре вида)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Соседние буквы — часть 2 (четыре вида)",
+    "source": "m10_02_sosednie-bukvy-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1003,
+  "slug": "m10-03-opredelenie-idgama",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Определение идгама",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Определение идгама",
+    "source": "m10_03_opredelenie-idgama.md"
+   }
+  ]
+ },
+ {
+  "id": 1004,
+  "slug": "m10-04-idgam-odinakovyh",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам одинаковых букв (митляйн)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам одинаковых букв (митляйн)",
+    "source": "m10_04_idgam-odinakovyh.md"
+   }
+  ]
+ },
+ {
+  "id": 1005,
+  "slug": "m10-05-idgam-odnorodnyh-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам однородных букв (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам однородных букв (часть 1)",
+    "source": "m10_05_idgam-odnorodnyh-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1006,
+  "slug": "m10-06-idgam-odnorodnyh-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам однородных (часть 2): ل → ر",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам однородных (часть 2): ل → ر",
+    "source": "m10_06_idgam-odnorodnyh-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1007,
+  "slug": "m10-07-idgam-odnorodnyh-3",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам однородных (часть 3): ث → ذ",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам однородных (часть 3): ث → ذ",
+    "source": "m10_07_idgam-odnorodnyh-3.md"
+   }
+  ]
+ },
+ {
+  "id": 1008,
+  "slug": "m10-08-idgam-odnorodnyh-4",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам однородных (часть 4): ب → م",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам однородных (часть 4): ب → م",
+    "source": "m10_08_idgam-odnorodnyh-4.md"
+   }
+  ]
+ },
+ {
+  "id": 1009,
+  "slug": "m10-09-idgam-odnorodnyh-5",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам однородных (часть 5): ط → ت (неполный)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам однородных (часть 5): ط → ت (неполный)",
+    "source": "m10_09_idgam-odnorodnyh-5.md"
+   }
+  ]
+ },
+ {
+  "id": 1010,
+  "slug": "m10-10-idgam-blizkih",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Идгам близких букв (мутакарибайн)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам близких букв (мутакарибайн)",
+    "source": "m10_10_idgam-blizkih.md"
+   }
+  ]
+ },
+ {
+  "id": 1011,
+  "slug": "m10-11-izhar-dalyokih",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Изхар далёких букв (мутабаъидайн)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Изхар далёких букв (мутабаъидайн)",
+    "source": "m10_11_izhar-dalyokih.md"
+   }
+  ]
+ },
+ {
+  "id": 1012,
+  "slug": "m10-12-isklyucheniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Исключения (читаются только с изхаром)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Исключения (читаются только с изхаром)",
+    "source": "m10_12_isklyucheniya.md"
+   }
+  ]
+ },
+ {
+  "id": 1013,
+  "slug": "m10-13-priznaki-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Признаки идгама в мусхафе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Признаки идгама в мусхафе",
+    "source": "m10_13_priznaki-v-mushafe.md"
+   }
+  ]
+ },
+ {
+  "id": 1014,
+  "slug": "m10-14-artikl",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "10. Идгам",
+  "title": "Определённый артикль (لام التعريف)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Определённый артикль (لام التعريف)",
+    "source": "m10_14_artikl.md"
+   }
+  ]
+ },
+ {
+  "id": 1101,
+  "slug": "m11-01-udvoennye-nun-mim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "Правило удвоенных «нун» и «мим»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило удвоенных «нун» и «мим»",
+    "source": "m11_01_udvoennye-nun-mim.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 62–64",
+    "group": "10-62-64",
+    "from": 62,
+    "to": 64
+   }
+  ]
+ },
+ {
+  "id": 1102,
+  "slug": "m11-02-razmery-gunny",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "Размеры (длительности) гунны",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Размеры (длительности) гунны",
+    "source": "m11_02_razmery-gunny.md"
+   }
+  ]
+ },
+ {
+  "id": 1103,
+  "slug": "m11-03-mim-idgam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "«Мим» с сукуном: идгам",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Мим» с сукуном: идгам",
+    "source": "m11_03_mim-idgam.md"
+   }
+  ]
+ },
+ {
+  "id": 1104,
+  "slug": "m11-04-mim-ihfa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "«Мим» с сукуном: ихфа (шафави)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Мим» с сукуном: ихфа (шафави)",
+    "source": "m11_04_mim-ihfa.md"
+   }
+  ]
+ },
+ {
+  "id": 1105,
+  "slug": "m11-05-guby-ihfa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "О губах при ихфа «мим» (спорный вопрос)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "О губах при ихфа «мим» (спорный вопрос)",
+    "source": "m11_05_guby-ihfa.md"
+   }
+  ]
+ },
+ {
+  "id": 1106,
+  "slug": "m11-06-mim-izhar",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "«Мим» с сукуном: изхар (шафави)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Мим» с сукуном: изхар (шафави)",
+    "source": "m11_06_mim-izhar.md"
+   }
+  ]
+ },
+ {
+  "id": 1107,
+  "slug": "m11-07-mim-dopolneniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "«Мим»: дополнения к идгаму и ихфа",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Мим»: дополнения к идгаму и ихфа",
+    "source": "m11_07_mim-dopolneniya.md"
+   }
+  ]
+ },
+ {
+  "id": 1108,
+  "slug": "m11-08-mim-pered-vav-fa",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "«Мим» перед «вав» и «фа»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Мим» перед «вав» и «фа»",
+    "source": "m11_08_mim-pered-vav-fa.md"
+   }
+  ]
+ },
+ {
+  "id": 1109,
+  "slug": "m11-09-mim-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "Правила «мим» с сукуном в мусхафе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правила «мим» с сукуном в мусхафе",
+    "source": "m11_09_mim-v-mushafe.md"
+   }
+  ]
+ },
+ {
+  "id": 1110,
+  "slug": "m11-10-oshibki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "11. Удвоенные нун и мим, мим с сукуном",
+  "title": "Ошибки в правилах «мим» с сукуном",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в правилах «мим» с сукуном",
+    "source": "m11_10_oshibki.md"
+   }
+  ]
+ },
+ {
+  "id": 1201,
+  "slug": "m12-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Введение к правилам «нун» с сукуном",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Введение к правилам «нун» с сукуном",
+    "source": "m12_01_vvedenie.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 65–68",
+    "group": "11-65-68",
+    "from": 65,
+    "to": 68
+   }
+  ]
+ },
+ {
+  "id": 1202,
+  "slug": "m12-02-vvedenie-pravila",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Правила «нун» с сукуном и танвина: введение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правила «нун» с сукуном и танвина: введение",
+    "source": "m12_02_vvedenie-pravila.md"
+   }
+  ]
+ },
+ {
+  "id": 1203,
+  "slug": "m12-03-kratkij-obzor",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Правила «нун» с сукуном: краткий обзор",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правила «нун» с сукуном: краткий обзор",
+    "source": "m12_03_kratkij-obzor.md"
+   }
+  ]
+ },
+ {
+  "id": 1204,
+  "slug": "m12-04-tanvin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Танвин",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Танвин",
+    "source": "m12_04_tanvin.md"
+   }
+  ]
+ },
+ {
+  "id": 1205,
+  "slug": "m12-05-izhar",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Изхар (ясное произнесение)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Изхар (ясное произнесение)",
+    "source": "m12_05_izhar.md"
+   }
+  ]
+ },
+ {
+  "id": 1206,
+  "slug": "m12-06-izhar-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Изхар в мусхафе (как он обозначен)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Изхар в мусхафе (как он обозначен)",
+    "source": "m12_06_izhar-v-mushafe.md"
+   }
+  ]
+ },
+ {
+  "id": 1207,
+  "slug": "m12-07-idgam-opredelenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам (определение)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам (определение)",
+    "source": "m12_07_idgam-opredelenie.md"
+   }
+  ]
+ },
+ {
+  "id": 1208,
+  "slug": "m12-08-idgam-primery",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам: примеры",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам: примеры",
+    "source": "m12_08_idgam-primery.md"
+   }
+  ]
+ },
+ {
+  "id": 1209,
+  "slug": "m12-09-idgam-mehanizm",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам с гунной: механизм",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам с гунной: механизм",
+    "source": "m12_09_idgam-mehanizm.md"
+   }
+  ]
+ },
+ {
+  "id": 1210,
+  "slug": "m12-10-idgam-tablica",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам: таблица (две части «нун» при двух видах идгама)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам: таблица (две части «нун» при двух видах идгама)",
+    "source": "m12_10_idgam-tablica.md"
+   }
+  ]
+ },
+ {
+  "id": 1211,
+  "slug": "m12-11-idgam-isklyuchenie-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам: исключение 1 — «нун» и буква идгама в одном слове",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам: исключение 1 — «нун» и буква идгама в одном слове",
+    "source": "m12_11_idgam-isklyuchenie-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1212,
+  "slug": "m12-12-idgam-isklyuchenie-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам: исключение 2 — «йā-сӣн ва-ль-Куран» и «нӯн ва-ль-калям»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам: исключение 2 — «йā-сӣн ва-ль-Куран» и «нӯн ва-ль-калям»",
+    "source": "m12_12_idgam-isklyuchenie-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1213,
+  "slug": "m12-13-idgam-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Идгам: признаки в мусхафе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Идгам: признаки в мусхафе",
+    "source": "m12_13_idgam-v-mushafe.md"
+   }
+  ]
+ },
+ {
+  "id": 1214,
+  "slug": "m12-14-kalb-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Кальб (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Кальб (часть 1)",
+    "source": "m12_14_kalb-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1215,
+  "slug": "m12-15-kalb-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Кальб (часть 2): с гунной",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Кальб (часть 2): с гунной",
+    "source": "m12_15_kalb-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1216,
+  "slug": "m12-16-kalb-guby",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Кальб: вопрос о губах",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Кальб: вопрос о губах",
+    "source": "m12_16_kalb-guby.md"
+   }
+  ]
+ },
+ {
+  "id": 1217,
+  "slug": "m12-17-kalb-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Кальб в мусхафе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Кальб в мусхафе",
+    "source": "m12_17_kalb-v-mushafe.md"
+   }
+  ]
+ },
+ {
+  "id": 1218,
+  "slug": "m12-18-ihfa-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа (часть 1)",
+    "source": "m12_18_ihfa-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1219,
+  "slug": "m12-19-ihfa-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа (часть 2): теория и практика",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа (часть 2): теория и практика",
+    "source": "m12_19_ihfa-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1220,
+  "slug": "m12-20-ihfa-primery-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа: примеры для ص، ذ، ث، ك",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа: примеры для ص، ذ، ث، ك",
+    "source": "m12_20_ihfa-primery-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1221,
+  "slug": "m12-21-ihfa-primery-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа: примеры для ج، ش، ق، س",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа: примеры для ج، ش، ق، س",
+    "source": "m12_21_ihfa-primery-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1222,
+  "slug": "m12-22-ihfa-primery-3",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа: примеры для د، ط، ز، ف",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа: примеры для د، ط، ز، ف",
+    "source": "m12_22_ihfa-primery-3.md"
+   }
+  ]
+ },
+ {
+  "id": 1223,
+  "slug": "m12-23-ihfa-primery-4",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа: примеры для ت، ض، ظ",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа: примеры для ت، ض، ظ",
+    "source": "m12_23_ihfa-primery-4.md"
+   }
+  ]
+ },
+ {
+  "id": 1224,
+  "slug": "m12-24-ihfa-mezhdu",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа — состояние между изхаром и идгамом",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа — состояние между изхаром и идгамом",
+    "source": "m12_24_ihfa-mezhdu.md"
+   }
+  ]
+ },
+ {
+  "id": 1225,
+  "slug": "m12-25-ihfa-mehanizm-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа: что требуется от чтеца (механизм 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа: что требуется от чтеца (механизм 1)",
+    "source": "m12_25_ihfa-mehanizm-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1226,
+  "slug": "m12-26-ihfa-mehanizm-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа перед ق и ك (механизм 2)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа перед ق и ك (механизм 2)",
+    "source": "m12_26_ihfa-mehanizm-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1227,
+  "slug": "m12-27-ihfa-tverdost-myagkost",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа: твёрдость и мягкость гунны",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа: твёрдость и мягкость гунны",
+    "source": "m12_27_ihfa-tverdost-myagkost.md"
+   }
+  ]
+ },
+ {
+  "id": 1228,
+  "slug": "m12-28-ihfa-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Ихфа: признаки в мусхафе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ихфа: признаки в мусхафе",
+    "source": "m12_28_ihfa-v-mushafe.md"
+   }
+  ]
+ },
+ {
+  "id": 1229,
+  "slug": "m12-29-oshibki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "12. Правила нун с сукуном и танвина",
+  "title": "Правила «нун» с сукуном: ошибки",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правила «нун» с сукуном: ошибки",
+    "source": "m12_29_oshibki.md"
+   }
+  ]
+ },
+ {
+  "id": 1301,
+  "slug": "m13-01-madd-i-kasr",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд и каср",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд и каср",
+    "source": "m13_01_madd-i-kasr.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 69–72",
+    "group": "12-69-72",
+    "from": 69,
+    "to": 72
+   }
+  ]
+ },
+ {
+  "id": 1302,
+  "slug": "m13-02-opredelenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд: определение и буквы мадда",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд: определение и буквы мадда",
+    "source": "m13_02_opredelenie.md"
+   }
+  ]
+ },
+ {
+  "id": 1303,
+  "slug": "m13-03-vidy-madda",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Виды мадда",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Виды мадда",
+    "source": "m13_03_vidy-madda.md"
+   }
+  ]
+ },
+ {
+  "id": 1304,
+  "slug": "m13-04-edinica-harakat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Единица измерения мадда — харакат",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Единица измерения мадда — харакат",
+    "source": "m13_04_edinica-harakat.md"
+   }
+  ]
+ },
+ {
+  "id": 1305,
+  "slug": "m13-05-mery-tempy",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Меры мадда и темпы чтения",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Меры мадда и темпы чтения",
+    "source": "m13_05_mery-tempy.md"
+   }
+  ]
+ },
+ {
+  "id": 1306,
+  "slug": "m13-06-tablica-maddov",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Таблица маддов (обзор всех девяти видов)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Таблица маддов (обзор всех девяти видов)",
+    "source": "m13_06_tablica-maddov.md"
+   }
+  ]
+ },
+ {
+  "id": 1307,
+  "slug": "m13-07-tabigyj",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд табигый (естественный)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд табигый (естественный)",
+    "source": "m13_07_tabigyj.md"
+   }
+  ]
+ },
+ {
+  "id": 1308,
+  "slug": "m13-08-badal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд бадаль",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд бадаль",
+    "source": "m13_08_badal.md"
+   }
+  ]
+ },
+ {
+  "id": 1309,
+  "slug": "m13-09-badal-nazvanie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд бадаль: почему так называется",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд бадаль: почему так называется",
+    "source": "m13_09_badal-nazvanie.md"
+   }
+  ]
+ },
+ {
+  "id": 1310,
+  "slug": "m13-10-ivad",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд ивад (замещения)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд ивад (замещения)",
+    "source": "m13_10_ivad.md"
+   }
+  ]
+ },
+ {
+  "id": 1311,
+  "slug": "m13-11-ivad-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд ивад: два замечания",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд ивад: два замечания",
+    "source": "m13_11_ivad-zamechaniya.md"
+   }
+  ]
+ },
+ {
+  "id": 1312,
+  "slug": "m13-12-sylya-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд сыля: определение и замечание 1",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд сыля: определение и замечание 1",
+    "source": "m13_12_sylya-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1313,
+  "slug": "m13-13-sylya-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд сыля: замечание 2 — где сыля НЕТ",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд сыля: замечание 2 — где сыля НЕТ",
+    "source": "m13_13_sylya-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1314,
+  "slug": "m13-14-sylya-3",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд сыля: замечание 3 — два исключения у Хафса",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд сыля: замечание 3 — два исключения у Хафса",
+    "source": "m13_14_sylya-3.md"
+   }
+  ]
+ },
+ {
+  "id": 1315,
+  "slug": "m13-15-sylya-4",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд сыля: замечание 4 — слово هَٰذِهِ",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд сыля: замечание 4 — слово هَٰذِهِ",
+    "source": "m13_15_sylya-4.md"
+   }
+  ]
+ },
+ {
+  "id": 1316,
+  "slug": "m13-16-ha-lozhnaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "«Ха», похожая на местоимение, но им не являющаяся",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Ха», похожая на местоимение, но им не являющаяся",
+    "source": "m13_16_ha-lozhnaya.md"
+   }
+  ]
+ },
+ {
+  "id": 1317,
+  "slug": "m13-17-malaya-sylya-mushaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Малая сыля: знак в мусхафе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Малая сыля: знак в мусхафе",
+    "source": "m13_17_malaya-sylya-mushaf.md"
+   }
+  ]
+ },
+ {
+  "id": 1318,
+  "slug": "m13-18-lyazim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд лязим (обязательный): определение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд лязим (обязательный): определение",
+    "source": "m13_18_lyazim.md"
+   }
+  ]
+ },
+ {
+  "id": 1319,
+  "slug": "m13-19-lyazim-vidy",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд лязим: виды и долгота",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд лязим: виды и долгота",
+    "source": "m13_19_lyazim-vidy.md"
+   }
+  ]
+ },
+ {
+  "id": 1320,
+  "slug": "m13-20-znak-madda-mushaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Знак мадда в мусхафе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знак мадда в мусхафе",
+    "source": "m13_20_znak-madda-mushaf.md"
+   }
+  ]
+ },
+ {
+  "id": 1321,
+  "slug": "m13-21-razroznennye-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "«Разрозненные буквы» Корана (часть 1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Разрозненные буквы» Корана (часть 1)",
+    "source": "m13_21_razroznennye-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1322,
+  "slug": "m13-22-razroznennye-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "«Разрозненные буквы» Корана (часть 2): четыре группы по мадду",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«Разрозненные буквы» Корана (часть 2): четыре группы по мадду",
+    "source": "m13_22_razroznennye-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1323,
+  "slug": "m13-23-muttasyl",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд муттасыль (связный, необходимый)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд муттасыль (связный, необходимый)",
+    "source": "m13_23_muttasyl.md"
+   }
+  ]
+ },
+ {
+  "id": 1324,
+  "slug": "m13-24-muttasyl-haumu",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд муттасыль: слово هَاؤُمُ",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд муттасыль: слово هَاؤُمُ",
+    "source": "m13_24_muttasyl-haumu.md"
+   }
+  ]
+ },
+ {
+  "id": 1325,
+  "slug": "m13-25-munfasyl",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд мунфасыль (раздельный, допустимый)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд мунфасыль (раздельный, допустимый)",
+    "source": "m13_25_munfasyl.md"
+   }
+  ]
+ },
+ {
+  "id": 1326,
+  "slug": "m13-26-munfasyl-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд мунфасыль: два замечания",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд мунфасыль: два замечания",
+    "source": "m13_26_munfasyl-zamechaniya.md"
+   }
+  ]
+ },
+ {
+  "id": 1327,
+  "slug": "m13-27-bolshaya-sylya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд большая сыля (сыля кубра)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд большая сыля (сыля кубра)",
+    "source": "m13_27_bolshaya-sylya.md"
+   }
+  ]
+ },
+ {
+  "id": 1328,
+  "slug": "m13-28-arid-li-sukun",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд арид ли-сукун (из-за временного сукуна)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд арид ли-сукун (из-за временного сукуна)",
+    "source": "m13_28_arid-li-sukun.md"
+   }
+  ]
+ },
+ {
+  "id": 1329,
+  "slug": "m13-29-lin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд лин (девятый, последний)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд лин (девятый, последний)",
+    "source": "m13_29_lin.md"
+   }
+  ]
+ },
+ {
+  "id": 1330,
+  "slug": "m13-30-lin-zamechanie-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд лин: замечание 1 — он не длиннее арид ли-сукун",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд лин: замечание 1 — он не длиннее арид ли-сукун",
+    "source": "m13_30_lin-zamechanie-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1331,
+  "slug": "m13-31-lin-zamechanie-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Мадд лин: замечание 2 — постоянство меры в одном чтении",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Мадд лин: замечание 2 — постоянство меры в одном чтении",
+    "source": "m13_31_lin-zamechanie-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1332,
+  "slug": "m13-32-vse-maddy",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Все мадды (сводка)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Все мадды (сводка)",
+    "source": "m13_32_vse-maddy.md"
+   }
+  ]
+ },
+ {
+  "id": 1333,
+  "slug": "m13-33-oshibki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Ошибки в маддах",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки в маддах",
+    "source": "m13_33_oshibki.md"
+   }
+  ]
+ },
+ {
+  "id": 1334,
+  "slug": "m13-34-silnyj-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Правило сильного мадда: введение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило сильного мадда: введение",
+    "source": "m13_34_silnyj-vvedenie.md"
+   }
+  ]
+ },
+ {
+  "id": 1335,
+  "slug": "m13-35-sravnenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Сравнение маддов по силе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Сравнение маддов по силе",
+    "source": "m13_35_sravnenie.md"
+   }
+  ]
+ },
+ {
+  "id": 1336,
+  "slug": "m13-36-silnejshaya-prichina",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Правило сильнейшей из двух причин: формулировка",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило сильнейшей из двух причин: формулировка",
+    "source": "m13_36_silnejshaya-prichina.md"
+   }
+  ]
+ },
+ {
+  "id": 1337,
+  "slug": "m13-37-silnyj-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Правило сильного мадда: замечания",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило сильного мадда: замечания",
+    "source": "m13_37_silnyj-zamechaniya.md"
+   }
+  ]
+ },
+ {
+  "id": 1338,
+  "slug": "m13-38-lyazim-badal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Встреча лязима и бадаля",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Встреча лязима и бадаля",
+    "source": "m13_38_lyazim-badal.md"
+   }
+  ]
+ },
+ {
+  "id": 1339,
+  "slug": "m13-39-muttasyl-badal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Встреча муттасыля и бадаля",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Встреча муттасыля и бадаля",
+    "source": "m13_39_muttasyl-badal.md"
+   }
+  ]
+ },
+ {
+  "id": 1340,
+  "slug": "m13-40-munfasyl-badal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Встреча мунфасыля и бадаля",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Встреча мунфасыля и бадаля",
+    "source": "m13_40_munfasyl-badal.md"
+   }
+  ]
+ },
+ {
+  "id": 1341,
+  "slug": "m13-41-muttasyl-arid",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Встреча муттасыля и арид ли-сукун",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Встреча муттасыля и арид ли-сукун",
+    "source": "m13_41_muttasyl-arid.md"
+   }
+  ]
+ },
+ {
+  "id": 1342,
+  "slug": "m13-42-tri-prichiny",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Три причины на одной букве",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Три причины на одной букве",
+    "source": "m13_42_tri-prichiny.md"
+   }
+  ]
+ },
+ {
+  "id": 1343,
+  "slug": "m13-43-arid-badal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Встреча арид ли-сукун и бадаля",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Встреча арид ли-сукун и бадаля",
+    "source": "m13_43_arid-badal.md"
+   }
+  ]
+ },
+ {
+  "id": 1344,
+  "slug": "m13-44-imitaciya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "13. Мадд",
+  "title": "Случай, лишь похожий на правило (не входящий в него)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Случай, лишь похожий на правило (не входящий в него)",
+    "source": "m13_44_imitaciya.md"
+   }
+  ]
+ },
+ {
+  "id": 1401,
+  "slug": "m14-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Итмам аль-харакат: введение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Итмам аль-харакат: введение",
+    "source": "m14_01_vvedenie.md"
+   }
+  ]
+ },
+ {
+  "id": 1402,
+  "slug": "m14-02-fatha",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Фатха",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Фатха",
+    "source": "m14_02_fatha.md"
+   }
+  ]
+ },
+ {
+  "id": 1403,
+  "slug": "m14-03-damma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Дамма",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Дамма",
+    "source": "m14_03_damma.md"
+   }
+  ]
+ },
+ {
+  "id": 1404,
+  "slug": "m14-04-kyasra",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Кясра",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Кясра",
+    "source": "m14_04_kyasra.md"
+   }
+  ]
+ },
+ {
+  "id": 1405,
+  "slug": "m14-05-sukun",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Сукун (неподвижная буква)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Сукун (неподвижная буква)",
+    "source": "m14_05_sukun.md"
+   }
+  ]
+ },
+ {
+  "id": 1406,
+  "slug": "m14-06-zamechanie-madd",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Замечание: огласовки — краткие буквы мадда",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечание: огласовки — краткие буквы мадда",
+    "source": "m14_06_zamechanie-madd.md"
+   }
+  ]
+ },
+ {
+  "id": 1407,
+  "slug": "m14-07-stihi-tyjbi",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Стихи имама ат-Тыйби",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Стихи имама ат-Тыйби",
+    "source": "m14_07_stihi-tyjbi.md"
+   }
+  ]
+ },
+ {
+  "id": 1408,
+  "slug": "m14-08-oshibki-fatha",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Ошибки при произнесении фатхи",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки при произнесении фатхи",
+    "source": "m14_08_oshibki-fatha.md"
+   }
+  ]
+ },
+ {
+  "id": 1409,
+  "slug": "m14-09-oshibki-damma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Ошибки при произнесении даммы",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки при произнесении даммы",
+    "source": "m14_09_oshibki-damma.md"
+   }
+  ]
+ },
+ {
+  "id": 1410,
+  "slug": "m14-10-oshibki-kyasra",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Ошибки при произнесении кясры",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ошибки при произнесении кясры",
+    "source": "m14_10_oshibki-kyasra.md"
+   }
+  ]
+ },
+ {
+  "id": 1411,
+  "slug": "m14-11-obshchie-oshibki",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "14. Произнесение огласовок",
+  "title": "Общие ошибки: равенство времён огласовок",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Общие ошибки: равенство времён огласовок",
+    "source": "m14_11_obshchie-oshibki.md"
+   }
+  ]
+ },
+ {
+  "id": 1501,
+  "slug": "m15-01-vstrecha-sukunov",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "15. Короткие темы",
+  "title": "Встреча двух сукунов (التقاء الساكنين)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Встреча двух сукунов (التقاء الساكنين)",
+    "source": "m15_01_vstrecha-sukunov.md"
+   }
+  ]
+ },
+ {
+  "id": 1502,
+  "slug": "m15-02-oblegchennaya-hamza",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "15. Короткие темы",
+  "title": "Облегчённая хамза (тасхиль)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Облегчённая хамза (тасхиль)",
+    "source": "m15_02_oblegchennaya-hamza.md"
+   }
+  ]
+ },
+ {
+  "id": 1503,
+  "slug": "m15-03-imalya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "15. Короткие темы",
+  "title": "Ималя",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ималя",
+    "source": "m15_03_imalya.md"
+   }
+  ]
+ },
+ {
+  "id": 1504,
+  "slug": "m15-04-nabr",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "15. Короткие темы",
+  "title": "Набр (ударение)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Набр (ударение)",
+    "source": "m15_04_nabr.md"
+   }
+  ]
+ },
+ {
+  "id": 1505,
+  "slug": "m15-05-sem-alifov",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "15. Короткие темы",
+  "title": "Семь алифов",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Семь алифов",
+    "source": "m15_05_sem-alifov.md"
+   }
+  ]
+ },
+ {
+  "id": 1601,
+  "slug": "m16-01-yabsutu",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "16. Отдельные слова",
+  "title": "«يبصُط» и её «сёстры» (буква ص ↔ س)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«يبصُط» и её «сёстры» (буква ص ↔ س)",
+    "source": "m16_01_yabsutu.md"
+   }
+  ]
+ },
+ {
+  "id": 1602,
+  "slug": "m16-02-al-imran",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "16. Отдельные слова",
+  "title": "Отдельные слова: начало суры «Аль ‘Имран»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Отдельные слова: начало суры «Аль ‘Имран»",
+    "source": "m16_02_al-imran.md"
+   }
+  ]
+ },
+ {
+  "id": 1603,
+  "slug": "m16-03-tamanna",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "16. Отдельные слова",
+  "title": "«تأمنّا» (сура Юсуф)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«تأمنّا» (сура Юсуф)",
+    "source": "m16_03_tamanna.md"
+   }
+  ]
+ },
+ {
+  "id": 1604,
+  "slug": "m16-04-fama-atani",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "16. Отдельные слова",
+  "title": "«فما آتاني» (сура ан-Намль)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«فما آتاني» (сура ан-Намль)",
+    "source": "m16_04_fama-atani.md"
+   }
+  ]
+ },
+ {
+  "id": 1605,
+  "slug": "m16-05-daf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "16. Отдельные слова",
+  "title": "«ضعف / ضعفا» (сура ар-Рум)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«ضعف / ضعفا» (сура ар-Рум)",
+    "source": "m16_05_daf.md"
+   }
+  ]
+ },
+ {
+  "id": 1701,
+  "slug": "m17-01-vazhnost",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Важность темы «вакф и ибтида»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Важность темы «вакф и ибтида»",
+    "source": "m17_01_vazhnost.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 73–78",
+    "group": "13-73-78",
+    "from": 73,
+    "to": 78
+   }
+  ]
+ },
+ {
+  "id": 1702,
+  "slug": "m17-02-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Введение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Введение",
+    "source": "m17_02_vvedenie.md"
+   }
+  ]
+ },
+ {
+  "id": 1703,
+  "slug": "m17-03-opredelenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Определение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Определение",
+    "source": "m17_03_opredelenie.md"
+   }
+  ]
+ },
+ {
+  "id": 1704,
+  "slug": "m17-04-vidy-ostanovok",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Виды остановки",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Виды остановки",
+    "source": "m17_04_vidy-ostanovok.md"
+   }
+  ]
+ },
+ {
+  "id": 1705,
+  "slug": "m17-05-polnaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Полная остановка (вакф тамм)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Полная остановка (вакф тамм)",
+    "source": "m17_05_polnaya.md"
+   }
+  ]
+ },
+ {
+  "id": 1706,
+  "slug": "m17-06-dostatochnaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Достаточная остановка (вакф кафи)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Достаточная остановка (вакф кафи)",
+    "source": "m17_06_dostatochnaya.md"
+   }
+  ]
+ },
+ {
+  "id": 1707,
+  "slug": "m17-07-horoshaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Хорошая остановка (вакф хасан)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хорошая остановка (вакф хасан)",
+    "source": "m17_07_horoshaya.md"
+   }
+  ]
+ },
+ {
+  "id": 1708,
+  "slug": "m17-08-plohaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Плохая остановка (вакф кабих)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Плохая остановка (вакф кабих)",
+    "source": "m17_08_plohaya.md"
+   }
+  ]
+ },
+ {
+  "id": 1709,
+  "slug": "m17-09-dva-pravila",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Два великих правила",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Два великих правила",
+    "source": "m17_09_dva-pravila.md"
+   }
+  ]
+ },
+ {
+  "id": 1710,
+  "slug": "m17-10-zamechaniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Замечания: на чём не останавливаются",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Замечания: на чём не останавливаются",
+    "source": "m17_10_zamechaniya.md"
+   }
+  ]
+ },
+ {
+  "id": 1711,
+  "slug": "m17-11-znaki-obzor",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знаки остановки в мусхафе (обзор)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знаки остановки в мусхафе (обзор)",
+    "source": "m17_11_znaki-obzor.md"
+   }
+  ]
+ },
+ {
+  "id": 1712,
+  "slug": "m17-12-znak-mim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «мим» (вакф лязим)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знак «мим» (вакф лязим)",
+    "source": "m17_12_znak-mim.md"
+   }
+  ]
+ },
+ {
+  "id": 1713,
+  "slug": "m17-13-znak-lya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «ля» (لا)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знак «ля» (لا)",
+    "source": "m17_13_znak-lya.md"
+   }
+  ]
+ },
+ {
+  "id": 1714,
+  "slug": "m17-14-znak-jim",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «джим» (ج)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знак «джим» (ج)",
+    "source": "m17_14_znak-jim.md"
+   }
+  ]
+ },
+ {
+  "id": 1715,
+  "slug": "m17-15-znak-kylya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «кыля» (قلى)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знак «кыля» (قلى)",
+    "source": "m17_15_znak-kylya.md"
+   }
+  ]
+ },
+ {
+  "id": 1716,
+  "slug": "m17-16-znak-sylya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «сыля» (صلى)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знак «сыля» (صلى)",
+    "source": "m17_16_znak-sylya.md"
+   }
+  ]
+ },
+ {
+  "id": 1717,
+  "slug": "m17-17-znak-taanuk",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Знак «таанук» (три точки)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знак «таанук» (три точки)",
+    "source": "m17_17_znak-taanuk.md"
+   }
+  ]
+ },
+ {
+  "id": 1718,
+  "slug": "m17-18-hafs-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса (1): следование расму мусхафа",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило Хафса (1): следование расму мусхафа",
+    "source": "m17_18_hafs-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1719,
+  "slug": "m17-19-hafs-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса (2): «макту'» и «маусуль»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило Хафса (2): «макту'» и «маусуль»",
+    "source": "m17_19_hafs-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1720,
+  "slug": "m17-20-hafs-3-alif",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса (3): удалённый алиф",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило Хафса (3): удалённый алиф",
+    "source": "m17_20_hafs-3-alif.md"
+   }
+  ]
+ },
+ {
+  "id": 1721,
+  "slug": "m17-21-hafs-4-vav",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса (4): удалённый вав",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило Хафса (4): удалённый вав",
+    "source": "m17_21_hafs-4-vav.md"
+   }
+  ]
+ },
+ {
+  "id": 1722,
+  "slug": "m17-22-hafs-5-ya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса (5): удалённая йа",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило Хафса (5): удалённая йа",
+    "source": "m17_22_hafs-5-ya.md"
+   }
+  ]
+ },
+ {
+  "id": 1723,
+  "slug": "m17-23-hafs-6-maktu",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса (6): «макту'» и слитные слова",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило Хафса (6): «макту'» и слитные слова",
+    "source": "m17_23_hafs-6-maktu.md"
+   }
+  ]
+ },
+ {
+  "id": 1724,
+  "slug": "m17-24-hafs-7-ya-ha",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса 7: частицы «йā» и «хā»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило Хафса 7: частицы «йā» и «хā»",
+    "source": "m17_24_hafs-7-ya-ha.md"
+   }
+  ]
+ },
+ {
+  "id": 1725,
+  "slug": "m17-25-hafs-8-dve-ya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Правило Хафса 8: слова с двумя «йа»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Правило Хафса 8: слова с двумя «йа»",
+    "source": "m17_25_hafs-8-dve-ya.md"
+   }
+  ]
+ },
+ {
+  "id": 1726,
+  "slug": "m17-26-ostanovka-hamza",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Остановка на хамзу (написанную как «йа»/«вав»)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Остановка на хамзу (написанную как «йа»/«вав»)",
+    "source": "m17_26_ostanovka-hamza.md"
+   }
+  ]
+ },
+ {
+  "id": 1727,
+  "slug": "m17-27-ostanovka-nun-taukid",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Остановка на «нун усиления» (нун таукид хафифа)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Остановка на «нун усиления» (нун таукид хафифа)",
+    "source": "m17_27_ostanovka-nun-taukid.md"
+   }
+  ]
+ },
+ {
+  "id": 1728,
+  "slug": "m17-28-tri-termina",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Три термина: вакф, сакт, катъ",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Три термина: вакф, сакт, катъ",
+    "source": "m17_28_tri-termina.md"
+   }
+  ]
+ },
+ {
+  "id": 1729,
+  "slug": "m17-29-sakt",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Сакт (краткая пауза без дыхания)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Сакт (краткая пауза без дыхания)",
+    "source": "m17_29_sakt.md"
+   }
+  ]
+ },
+ {
+  "id": 1730,
+  "slug": "m17-30-dva-sakta",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Два дозволенных (необязательных) сакта",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Два дозволенных (необязательных) сакта",
+    "source": "m17_30_dva-sakta.md"
+   }
+  ]
+ },
+ {
+  "id": 1731,
+  "slug": "m17-31-anfal-tauba",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Между сурами аль-Анфаль и ат-Тауба",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Между сурами аль-Анфаль и ат-Тауба",
+    "source": "m17_31_anfal-tauba.md"
+   }
+  ]
+ },
+ {
+  "id": 1732,
+  "slug": "m17-32-nachalo-tablica",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Начало (ибтида): обзорная таблица",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Начало (ибтида): обзорная таблица",
+    "source": "m17_32_nachalo-tablica.md"
+   }
+  ]
+ },
+ {
+  "id": 1733,
+  "slug": "m17-33-nachalo-polnoe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Полное начало (ибтида тамм)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Полное начало (ибтида тамм)",
+    "source": "m17_33_nachalo-polnoe.md"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "slug": "m17-34-nachalo-dostatochnoe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Достаточное начало (ибтида кафи)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Достаточное начало (ибтида кафи)",
+    "source": "m17_34_nachalo-dostatochnoe.md"
+   }
+  ]
+ },
+ {
+  "id": 1735,
+  "slug": "m17-35-nachalo-horoshee",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Остановка и начало: начало (хорошее)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Остановка и начало: начало (хорошее)",
+    "source": "m17_35_nachalo-horoshee.md"
+   }
+  ]
+ },
+ {
+  "id": 1736,
+  "slug": "m17-36-nachalo-plohoe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Плохое начало (ибтида кабих)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Плохое начало (ибтида кабих)",
+    "source": "m17_36_nachalo-plohoe.md"
+   }
+  ]
+ },
+ {
+  "id": 1737,
+  "slug": "m17-37-proverochnoe-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Проверочное начало (1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Проверочное начало (1)",
+    "source": "m17_37_proverochnoe-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1738,
+  "slug": "m17-38-proverochnoe-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Проверочное начало (2)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Проверочное начало (2)",
+    "source": "m17_38_proverochnoe-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1739,
+  "slug": "m17-39-proverochnoe-3",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "17. Остановка и начало",
+  "title": "Проверочное начало (3): мнимая дамма третьей буквы",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Проверочное начало (3): мнимая дамма третьей буквы",
+    "source": "m17_39_proverochnoe-3.md"
+   }
+  ]
+ },
+ {
+  "id": 1801,
+  "slug": "m18-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Введение: остановка на концах слов",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Введение: остановка на концах слов",
+    "source": "m18_01_vvedenie.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 104–105",
+    "group": "17-104-105",
+    "from": 104,
+    "to": 105
+   }
+  ]
+ },
+ {
+  "id": 1802,
+  "slug": "m18-02-etapy",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Этапы (как менялась остановка)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Этапы (как менялась остановка)",
+    "source": "m18_02_etapy.md"
+   }
+  ]
+ },
+ {
+  "id": 1803,
+  "slug": "m18-03-obzor",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Краткий обзор",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Краткий обзор",
+    "source": "m18_03_obzor.md"
+   }
+  ]
+ },
+ {
+  "id": 1804,
+  "slug": "m18-04-grammatika",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Бина и и'раб (почему «إلا بفتح أو بنصب»)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Бина и и'раб (почему «إلا بفتح أو بنصب»)",
+    "source": "m18_04_grammatika.md"
+   }
+  ]
+ },
+ {
+  "id": 1805,
+  "slug": "m18-05-raum",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Раум",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Раум",
+    "source": "m18_05_raum.md"
+   }
+  ]
+ },
+ {
+  "id": 1806,
+  "slug": "m18-06-raum-tanvin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Раум при танвине",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Раум при танвине",
+    "source": "m18_06_raum-tanvin.md"
+   }
+  ]
+ },
+ {
+  "id": 1807,
+  "slug": "m18-07-hukm-rauma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Хукм раума — как при соединении",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хукм раума — как при соединении",
+    "source": "m18_07_hukm-rauma.md"
+   }
+  ]
+ },
+ {
+  "id": 1808,
+  "slug": "m18-08-ishmam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Ишмам",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ишмам",
+    "source": "m18_08_ishmam.md"
+   }
+  ]
+ },
+ {
+  "id": 1809,
+  "slug": "m18-09-tri-isklyucheniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Раум и ишмам: три исключения",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Раум и ишмам: три исключения",
+    "source": "m18_09_tri-isklyucheniya.md"
+   }
+  ]
+ },
+ {
+  "id": 1810,
+  "slug": "m18-10-tamanna",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "«تَأْمَنَّا»: раум и ишмам в середине речи",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«تَأْمَنَّا»: раум и ишмам в середине речи",
+    "source": "m18_10_tamanna.md"
+   }
+  ]
+ },
+ {
+  "id": 1811,
+  "slug": "m18-11-tamanna-damma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "«تَأْمَنَّا»: откуда дамма в ишмаме",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«تَأْمَنَّا»: откуда дамма в ишмаме",
+    "source": "m18_11_tamanna-damma.md"
+   }
+  ]
+ },
+ {
+  "id": 1812,
+  "slug": "m18-12-isklyuchenie-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Исключение 1: «та' женского рода» (تاء التأنيث)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Исключение 1: «та' женского рода» (تاء التأنيث)",
+    "source": "m18_12_isklyuchenie-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1813,
+  "slug": "m18-13-isklyucheniya-2-3",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Исключения 2 и 3: мим множественного числа и случайная огласовка",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Исключения 2 и 3: мим множественного числа и случайная огласовка",
+    "source": "m18_13_isklyucheniya-2-3.md"
+   }
+  ]
+ },
+ {
+  "id": 1814,
+  "slug": "m18-14-mestoimenie-ha",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Ха' местоимения (هاء الضمير)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Ха' местоимения (هاء الضمير)",
+    "source": "m18_14_mestoimenie-ha.md"
+   }
+  ]
+ },
+ {
+  "id": 1815,
+  "slug": "m18-15-tablica",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Итоговая таблица: как останавливаться на словах",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Итоговая таблица: как останавливаться на словах",
+    "source": "m18_15_tablica.md"
+   }
+  ]
+ },
+ {
+  "id": 1816,
+  "slug": "m18-16-zaklyuchenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Раум и ишмам: заключение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Раум и ишмам: заключение",
+    "source": "m18_16_zaklyuchenie.md"
+   }
+  ]
+ },
+ {
+  "id": 1817,
+  "slug": "m18-17-schet-jummal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "18. Раум и ишмам",
+  "title": "Раум и ишмам: счёт джумаль (حساب الجمل)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Раум и ишмам: счёт джумаль (حساب الجمل)",
+    "source": "m18_17_schet-jummal.md"
+   }
+  ]
+ },
+ {
+  "id": 1901,
+  "slug": "m19-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Соединительная хамза (хамзат аль-васль): введение",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Соединительная хамза (хамзат аль-васль): введение",
+    "source": "m19_01_vvedenie.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 101–103",
+    "group": "16-101-103",
+    "from": 101,
+    "to": 103
+   }
+  ]
+ },
+ {
+  "id": 1902,
+  "slug": "m19-02-v-glagolah",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Соединительная хамза в глаголах",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Соединительная хамза в глаголах",
+    "source": "m19_02_v-glagolah.md"
+   }
+  ]
+ },
+ {
+  "id": 1903,
+  "slug": "m19-03-v-imenah-1",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Соединительная хамза в именах (1)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Соединительная хамза в именах (1)",
+    "source": "m19_03_v-imenah-1.md"
+   }
+  ]
+ },
+ {
+  "id": 1904,
+  "slug": "m19-04-v-imenah-2",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Соединительная хамза в именах (2): семь слов",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Соединительная хамза в именах (2): семь слов",
+    "source": "m19_04_v-imenah-2.md"
+   }
+  ]
+ },
+ {
+  "id": 1905,
+  "slug": "m19-05-znak-v-mushafe",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Знак соединительной хамзы в мусхафе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Знак соединительной хамзы в мусхафе",
+    "source": "m19_05_znak-v-mushafe.md"
+   }
+  ]
+ },
+ {
+  "id": 1906,
+  "slug": "m19-06-razdelitelnaya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Хамза катъ (разделительная)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хамза катъ (разделительная)",
+    "source": "m19_06_razdelitelnaya.md"
+   }
+  ]
+ },
+ {
+  "id": 1907,
+  "slug": "m19-07-dve-razdelitelnye",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Две хамзы катъ (вторая неподвижна)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Две хамзы катъ (вторая неподвижна)",
+    "source": "m19_07_dve-razdelitelnye.md"
+   }
+  ]
+ },
+ {
+  "id": 1908,
+  "slug": "m19-08-razdel-soedin",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Хамза васль на хамзу катъ (неподвижную)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хамза васль на хамзу катъ (неподвижную)",
+    "source": "m19_08_razdel-soedin.md"
+   }
+  ]
+ },
+ {
+  "id": 1909,
+  "slug": "m19-09-istifham-glagol",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Хамза истифхама на васль в глаголе",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хамза истифхама на васль в глаголе",
+    "source": "m19_09_istifham-glagol.md"
+   }
+  ]
+ },
+ {
+  "id": 1910,
+  "slug": "m19-10-istifham-artikl",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Хамза истифхама на васль в артикле",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хамза истифхама на васль в артикле",
+    "source": "m19_10_istifham-artikl.md"
+   }
+  ]
+ },
+ {
+  "id": 1911,
+  "slug": "m19-11-istifham-imya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "19. Соединительная хамза",
+  "title": "Хамза истифхама на васль в имени",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хамза истифхама на васль в имени",
+    "source": "m19_11_istifham-imya.md"
+   }
+  ]
+ },
+ {
+  "id": 2001,
+  "slug": "m20-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "Введение: «макту'» и «маусуль»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Введение: «макту'» и «маусуль»",
+    "source": "m20_01_vvedenie.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 79–93",
+    "group": "14-79-93",
+    "from": 79,
+    "to": 93
+   }
+  ]
+ },
+ {
+  "id": 2002,
+  "slug": "m20-02-an-la",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«أن لا» (раздельно в 10 местах)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«أن لا» (раздельно в 10 местах)",
+    "source": "m20_02_an-la.md"
+   }
+  ]
+ },
+ {
+  "id": 2003,
+  "slug": "m20-03-imma-amma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«إمّا» и «أمّا»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«إمّا» и «أمّا»",
+    "source": "m20_03_imma-amma.md"
+   }
+  ]
+ },
+ {
+  "id": 2004,
+  "slug": "m20-04-amma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«عمّا»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«عمّا»",
+    "source": "m20_04_amma.md"
+   }
+  ]
+ },
+ {
+  "id": 2005,
+  "slug": "m20-05-mimma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«ممّا»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«ممّا»",
+    "source": "m20_05_mimma.md"
+   }
+  ]
+ },
+ {
+  "id": 2006,
+  "slug": "m20-06-amman",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«أمّن» (أم مّن)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«أمّن» (أم مّن)",
+    "source": "m20_06_amman.md"
+   }
+  ]
+ },
+ {
+  "id": 2007,
+  "slug": "m20-07-hajsuma",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«حيث ما» и «أن لم»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«حيث ما» и «أن لم»",
+    "source": "m20_07_hajsuma.md"
+   }
+  ]
+ },
+ {
+  "id": 2008,
+  "slug": "m20-08-innama-annama",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«إنّما» и «أنّما»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«إنّما» и «أنّما»",
+    "source": "m20_08_innama-annama.md"
+   }
+  ]
+ },
+ {
+  "id": 2009,
+  "slug": "m20-09-kullama",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«كلّما»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«كلّما»",
+    "source": "m20_09_kullama.md"
+   }
+  ]
+ },
+ {
+  "id": 2010,
+  "slug": "m20-10-bisama",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«بئسما»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«بئسما»",
+    "source": "m20_10_bisama.md"
+   }
+  ]
+ },
+ {
+  "id": 2011,
+  "slug": "m20-11-fima",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«في ما» (раздельно в 11 местах)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«في ما» (раздельно в 11 местах)",
+    "source": "m20_11_fima.md"
+   }
+  ]
+ },
+ {
+  "id": 2012,
+  "slug": "m20-12-ajnama",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«أين ما»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«أين ما»",
+    "source": "m20_12_ajnama.md"
+   }
+  ]
+ },
+ {
+  "id": 2013,
+  "slug": "m20-13-in-lam",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«إن لم» (وصل فإن لم هود)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«إن لم» (وصل فإن لم هود)",
+    "source": "m20_13_in-lam.md"
+   }
+  ]
+ },
+ {
+  "id": 2014,
+  "slug": "m20-14-an-lan",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«أن لن» (صل أن لن نجعل، نجمع)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«أن لن» (صل أن لن نجعل، نجمع)",
+    "source": "m20_14_an-lan.md"
+   }
+  ]
+ },
+ {
+  "id": 2015,
+  "slug": "m20-15-kajla",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«كي لا»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«كي لا»",
+    "source": "m20_15_kajla.md"
+   }
+  ]
+ },
+ {
+  "id": 2016,
+  "slug": "m20-16-anman",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«عن من»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«عن من»",
+    "source": "m20_16_anman.md"
+   }
+  ]
+ },
+ {
+  "id": 2017,
+  "slug": "m20-17-jaumahum",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«يوم هم»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«يوم هم»",
+    "source": "m20_17_jaumahum.md"
+   }
+  ]
+ },
+ {
+  "id": 2018,
+  "slug": "m20-18-mal",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«ما ل» (отделённая «лям»)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«ما ل» (отделённая «лям»)",
+    "source": "m20_18_mal.md"
+   }
+  ]
+ },
+ {
+  "id": 2019,
+  "slug": "m20-19-tahina",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«تحين» (وَلَاتَ حِينَ)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«تحين» (وَلَاتَ حِينَ)",
+    "source": "m20_19_tahina.md"
+   }
+  ]
+ },
+ {
+  "id": 2020,
+  "slug": "m20-20-kaluhum-vazanuhum",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«كالوهم» и «وزنوهم»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«كالوهم» и «وزنوهم»",
+    "source": "m20_20_kaluhum-vazanuhum.md"
+   }
+  ]
+ },
+ {
+  "id": 2021,
+  "slug": "m20-21-al-ja-ha",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "20. Раздельное и слитное письмо",
+  "title": "«ال», «يا», «ها» — не отделяются",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«ال», «يا», «ها» — не отделяются",
+    "source": "m20_21_al-ja-ha.md"
+   }
+  ]
+ },
+ {
+  "id": 2101,
+  "slug": "m21-01-vvedenie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "Введение: «та мабсута» (развёрнутая «та»)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Введение: «та мабсута» (развёрнутая «та»)",
+    "source": "m21_01_vvedenie.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 94–100",
+    "group": "15-94-100",
+    "from": 94,
+    "to": 100
+   }
+  ]
+ },
+ {
+  "id": 2102,
+  "slug": "m21-02-rahmat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«رحمت» (7 мест)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«رحمت» (7 мест)",
+    "source": "m21_02_rahmat.md"
+   }
+  ]
+ },
+ {
+  "id": 2103,
+  "slug": "m21-03-nimat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«نعمت» (самый сложный бейт)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«نعمت» (самый сложный бейт)",
+    "source": "m21_03_nimat.md"
+   }
+  ]
+ },
+ {
+  "id": 2104,
+  "slug": "m21-04-lanat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«لعنت»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«لعنت»",
+    "source": "m21_04_lanat.md"
+   }
+  ]
+ },
+ {
+  "id": 2105,
+  "slug": "m21-05-imraat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«امرأت»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«امرأت»",
+    "source": "m21_05_imraat.md"
+   }
+  ]
+ },
+ {
+  "id": 2106,
+  "slug": "m21-06-masijat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«معصيت»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«معصيت»",
+    "source": "m21_06_masijat.md"
+   }
+  ]
+ },
+ {
+  "id": 2107,
+  "slug": "m21-07-shajarat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«شجرت» (и начало о «سنت»)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«شجرت» (и начало о «سنت»)",
+    "source": "m21_07_shajarat.md"
+   }
+  ]
+ },
+ {
+  "id": 2108,
+  "slug": "m21-08-sunnat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«سنت»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«سنت»",
+    "source": "m21_08_sunnat.md"
+   }
+  ]
+ },
+ {
+  "id": 2109,
+  "slug": "m21-09-kurrat-jannat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«قرت عين» и «جنت»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«قرت عين» и «جنت»",
+    "source": "m21_09_kurrat-jannat.md"
+   }
+  ]
+ },
+ {
+  "id": 2110,
+  "slug": "m21-10-fitrat-bakijat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«فطرت» и «بقيت»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«فطرت» и «بقيت»",
+    "source": "m21_10_fitrat-bakijat.md"
+   }
+  ]
+ },
+ {
+  "id": 2111,
+  "slug": "m21-11-ibnat-kalimat",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "«ابنت» и «كلمت»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "«ابنت» и «كلمت»",
+    "source": "m21_11_ibnat-kalimat.md"
+   }
+  ]
+ },
+ {
+  "id": 2112,
+  "slug": "m21-12-raznoglasie",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "21. Слова с развёрнутой та",
+  "title": "Спорные слова (разногласие чтецов)",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Спорные слова (разногласие чтецов)",
+    "source": "m21_12_raznoglasie.md"
+   }
+  ]
+ },
+ {
+  "id": 2201,
+  "slug": "m22-01-poyavlenie-oglasovok",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "22. Письмо Корана",
+  "title": "Откуда взялись огласовки: история красных точек Абу-ль-Асвада",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Откуда взялись огласовки: история красных точек Абу-ль-Асвада",
+    "source": "m22_01_poyavlenie-oglasovok.md"
+   }
+  ]
+ },
+ {
+  "id": 2202,
+  "slug": "m22-02-tochki-razlicheniya",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "22. Письмо Корана",
+  "title": "Точки различения: как Наср ибн Асим разделил похожие буквы",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Точки различения: как Наср ибн Асим разделил похожие буквы",
+    "source": "m22_02_tochki-razlicheniya.md"
+   }
+  ]
+ },
+ {
+  "id": 2203,
+  "slug": "m22-03-shin-kaf",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "22. Письмо Корана",
+  "title": "Треугольник над «шин» и зигзаг над «каф»",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Треугольник над «шин» и зигзаг над «каф»",
+    "source": "m22_03_shin-kaf.md"
+   }
+  ]
+ },
+ {
+  "id": 2204,
+  "slug": "m22-04-hamza",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "22. Письмо Корана",
+  "title": "Хамза: буква без собственной формы",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Хамза: буква без собственной формы",
+    "source": "m22_04_hamza.md"
+   }
+  ]
+ },
+ {
+  "id": 2205,
+  "slug": "m22-05-bukvy-itbaka",
+  "subject": "quran",
+  "course": "koran-2-uroven",
+  "module": "22. Письмо Корана",
+  "title": "Как разделили четыре «буквы итбака»: ص، ض، ط، ظ",
+  "blocks": [
+   {
+    "type": "theory",
+    "title": "Как разделили четыре «буквы итбака»: ص، ض، ط، ظ",
+    "source": "m22_05_bukvy-itbaka.md"
+   },
+   {
+    "type": "matn",
+    "title": "Мукаддима аль-Джазари: бейты 106–109",
+    "group": "17-106-109",
+    "from": 106,
+    "to": 109
+   }
+  ]
+ }
+]

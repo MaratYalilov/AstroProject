@@ -103,30 +103,14 @@ export type ReadingExercisesBlock = {
   lessonOrder?: number;
 };
 
-export type MatnBeit = {
-  n: number;
-  /** Матн бейта (арабский, обе полустишия) */
-  ar: string;
-  /** Краткий перевод бейта */
-  ru: string;
-  /** Шарх Муллы Али аль-Кари (raw markdown) */
-  sharh?: string;
-  /** Границы бейта в аудио группы (сек); только у синхронизированных групп */
-  start?: number;
-  end?: number;
-};
-
 export type MatnBlock = {
   type: "matn";
   title?: string;
-  /** mp3 группы бейтов (общий на группу) */
-  audio?: string;
-  vtt?: string;
-  from?: number;
-  to?: number;
-  /** true — тайминги недоступны: играть файл целиком без подсветки */
-  noSync?: boolean;
-  beits: MatnBeit[];
+  /** Ключ группы (аудио + тайминги) из matn_groups.json, напр. "01-9-19" */
+  group: string;
+  /** Диапазон бейтов — ссылки на ID в mukaddima.json / sharh.json */
+  from: number;
+  to: number;
 };
 
 export type LessonCompleteBlock = {

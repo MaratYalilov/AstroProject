@@ -83,11 +83,9 @@ export default function RenderBlock({
       return (
         <MatnBlock
           title={block.title}
-          audio={block.audio}
+          group={block.group}
           from={block.from}
           to={block.to}
-          noSync={block.noSync}
-          beits={block.beits}
         />
       );
 
