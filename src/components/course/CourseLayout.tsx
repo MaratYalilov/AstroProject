@@ -123,6 +123,8 @@ export default function CourseLayout({ lessons, subject, course, courseTitle }: 
         isOpen={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
         title={courseTitle}
+        subject={subject}
+        course={course}
       />
 
       {/* Main content area */}

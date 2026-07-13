@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "slug": "l01-vvedenie",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Введение: имамы, основы, истиаза и басмала",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Введение",
+        "source": "l01_vvedenie.md"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "l02-izhar-idgam",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Нун-сакин и танвин: изхар и идгам",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Изхар и идгам",
+        "source": "l02_izhar-idgam.md"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "l03-iklab-ihfa",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Нун-сакин и танвин: икляб и ихфа",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Икляб и ихфа",
+        "source": "l03_iklab-ihfa.md"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "l04-mim-sukun",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Правила мим-сакина",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Мим-сакин",
+        "source": "l04_mim-sukun.md"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "l05-gunna",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Гунна (назализация)",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Гунна",
+        "source": "l05_gunna.md"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "l06-lyam",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Правила лама",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Лам",
+        "source": "l06_lyam.md"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "l07-madd-tabii",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Мадд: буквы мадда и основной мадд",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Основной мадд",
+        "source": "l07_madd-tabii.md"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "l08-madd-prilozheniya",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Мадд: бадаль, иваз, фаватих",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Приложения мадда",
+        "source": "l08_madd-prilozheniya.md"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "l09-sila-sugra",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Мадд ас-сила ас-сугра",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Сила сугра",
+        "source": "l09_sila-sugra.md"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "l10-muttasyl-munfasyl",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Мадд по причине хамзы: муттасыль и мунфасыль",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Муттасыль и мунфасыль",
+        "source": "l10_muttasyl-munfasyl.md"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "l11-kubra-arid",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Сила кубра и мадд арид",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Кубра и арид",
+        "source": "l11_kubra-arid.md"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "l12-lin-lyazim",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Мадд аль-лин и лазимный словный",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Лин и лазим",
+        "source": "l12_lin-lyazim.md"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "l13-lyazim-harfi",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Лазимный буквенный мадд и зачины сур",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Лазим харфи",
+        "source": "l13_lyazim-harfi.md"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "l14-alifaty",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Алифаты и исчезновение буквы мадда",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Алифаты",
+        "source": "l14_alifaty.md"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "l15-maharidzh",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Места артикуляции букв (махраджи)",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Махраджи",
+        "source": "l15_maharidzh.md"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "l16-sifat-postoyannye",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Свойства букв: постоянные характеристики",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Постоянные свойства",
+        "source": "l16_sifat-postoyannye.md"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "l17-sifat-tablica",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Свойства букв: сводная таблица",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Таблица свойств",
+        "source": "l17_sifat-tablica.md"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "l18-tafhim-ra",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Тафхим и таркик ра",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Тафхим ра",
+        "source": "l18_tafhim-ra.md"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "l19-tafhim-lyam-alif-gunna",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Тафхим и таркик лама, алифа, гунны",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Тафхим лам/алиф/гунна",
+        "source": "l19_tafhim-lyam-alif-gunna.md"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "l20-idgam-vidy",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Идгам и его виды (малая ассимиляция)",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Идгам и его виды",
+        "source": "l20_idgam-vidy.md"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "l21-hamza-vasl",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Хамза аль-васль (соединительная хамза)",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Хамза аль-васль",
+        "source": "l21_hamza-vasl.md"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "l22-zamechaniya",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Важные замечания по чтению",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Замечания по чтению",
+        "source": "l22_zamechaniya.md"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "l23-oshibki",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Важные замечания об ошибках в чтении",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Ошибки в чтении",
+        "source": "l23_oshibki.md"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "l24-vakf",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Вакф (остановка)",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Вакф",
+        "source": "l24_vakf.md"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "l25-ibtida",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Ибтида (начало чтения)",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Ибтида",
+        "source": "l25_ibtida.md"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "l26-sakt",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Сакт (краткая пауза)",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Сакт",
+        "source": "l26_sakt.md"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "l27-raum-ishmam",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Раум, ишмам и искан",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Раум и ишмам",
+        "source": "l27_raum-ishmam.md"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "l28-tasviyat-mudud",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Выравнивание маддов",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Выравнивание маддов",
+        "source": "l28_tasviyat-mudud.md"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "l29-tajiba-shatibiyya",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Отличия ат-Тайиба от аш-Шатибийи",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Тайиба и Шатибийя",
+        "source": "l29_tajiba-shatibiyya.md"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "l30-zaklyuchenie",
+    "subject": "quran",
+    "course": "muzakkara-tajvid",
+    "title": "Заключение и труды автора",
+    "blocks": [
+      {
+        "type": "theory",
+        "title": "Заключение",
+        "source": "l30_zaklyuchenie.md"
+      }
+    ]
+  }
+]

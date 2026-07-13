@@ -10,6 +10,7 @@ import {
   X,
 } from "lucide-react";
 import CourseProgress from "./CourseProgress";
+import { lessonCompleteKey, LESSON_COMPLETE_EVENT } from "../../lib/interactive/lessonProgress";
 
 export type TitleSegment = {
   text: string;
@@ -32,11 +33,16 @@ type Props = {
   onClose: () => void;
   /** Заголовок курса в шапке сайдбара */
   title?: string;
+  /** subject/course — для пер-курсового ключа завершённости */
+  subject?: string;
+  course?: string;
 };
 
-const LESSON_COMPLETE_EVENT = "lesson-complete-changed";
-
-function getCompletedLessonIds(lessons: LessonItem[]) {
+function getCompletedLessonIds(
+  lessons: LessonItem[],
+  subject?: string,
+  course?: string
+) {
   const completed = new Set<number>();
 
   if (typeof window === "undefined") {
@@ -45,7 +51,7 @@ function getCompletedLessonIds(lessons: LessonItem[]) {
 
   lessons.forEach((lesson) => {
     try {
-      if (localStorage.getItem(`lesson-complete-${lesson.id}`) === "1") {
+      if (localStorage.getItem(lessonCompleteKey(subject, course, lesson.id)) === "1") {
         completed.add(lesson.id);
       }
     } catch (e) {
@@ -96,6 +102,8 @@ export default function CourseSidebar({
   isOpen,
   onClose,
   title,
+  subject,
+  course,
 }: Props) {
   return (
     <>
@@ -105,6 +113,8 @@ export default function CourseSidebar({
           currentIndex={currentIndex}
           onSelect={onSelect}
           title={title}
+          subject={subject}
+          course={course}
         />
       </aside>
 
@@ -143,6 +153,8 @@ export default function CourseSidebar({
                   onClose();
                 }}
                 title={title}
+                subject={subject}
+                course={course}
               />
             </motion.aside>
           </>
@@ -176,11 +188,15 @@ function SidebarContent({
   currentIndex,
   onSelect,
   title,
+  subject,
+  course,
 }: {
   lessons: LessonItem[];
   currentIndex: number;
   onSelect: (index: number) => void;
   title?: string;
+  subject?: string;
+  course?: string;
 }) {
   const navRef = useRef<HTMLElement | null>(null);
   const buttonRefs = useRef<Map<number, HTMLButtonElement>>(new Map());
@@ -215,7 +231,7 @@ function SidebarContent({
 
   useEffect(() => {
     const syncCompletedLessons = () => {
-      setCompletedLessonIds(getCompletedLessonIds(lessons));
+      setCompletedLessonIds(getCompletedLessonIds(lessons, subject, course));
     };
 
     syncCompletedLessons();
@@ -226,7 +242,7 @@ function SidebarContent({
       window.removeEventListener("storage", syncCompletedLessons);
       window.removeEventListener(LESSON_COMPLETE_EVENT, syncCompletedLessons);
     };
-  }, [lessons]);
+  }, [lessons, subject, course]);
 
   useEffect(() => {
     const nav = navRef.current;

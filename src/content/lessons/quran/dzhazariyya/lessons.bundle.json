@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "slug": "gl-01-vvedenie",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Введение (мукаддима)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 1–8",
+        "group": "00-1-8",
+        "from": 1,
+        "to": 8
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "gl-02-mahradzhi",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Места образования букв (махраджи)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 9–19",
+        "group": "01-9-19",
+        "from": 9,
+        "to": 19
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "gl-03-syfaty",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Свойства букв (сыфаты)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 20–26",
+        "group": "02-20-26",
+        "from": 20,
+        "to": 26
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "gl-04-tadzhvid",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Правила таджвида",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 27–33",
+        "group": "03-27-33",
+        "from": 27,
+        "to": 33
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "gl-05-tonkie-zamechaniya",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Тонкие замечания (тарки́к и тафхи́м)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 34–40",
+        "group": "04-34-40",
+        "from": 34,
+        "to": 40
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "gl-06-ra",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Правила буквы ر (ра)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 41–43",
+        "group": "05-41-43",
+        "from": 41,
+        "to": 43
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "gl-07-lyam",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Правила лям и разные правила",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 44–51",
+        "group": "06-07-44-51",
+        "from": 44,
+        "to": 51
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "gl-08-dad-za",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Различение ض и ظ; предостережения",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 52–61",
+        "group": "08-09-52-61",
+        "from": 52,
+        "to": 61
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "gl-09-udvoennye-nun-mim",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Удвоенные нун и мим; мим с сукуном",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 62–64",
+        "group": "10-62-64",
+        "from": 62,
+        "to": 64
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "gl-10-nun-sukun-tanvin",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Нун с сукуном и танвин",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 65–68",
+        "group": "11-65-68",
+        "from": 65,
+        "to": 68
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "gl-11-madd",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Виды мадда (долготы)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 69–72",
+        "group": "12-69-72",
+        "from": 69,
+        "to": 72
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "gl-12-vakf-ibtida",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Остановка (вакф) и начало (ибтида)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 73–78",
+        "group": "13-73-78",
+        "from": 73,
+        "to": 78
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "gl-13-maktu-mausul",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Раздельное и слитное написание",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 79–93",
+        "group": "14-79-93",
+        "from": 79,
+        "to": 93
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "gl-14-otkrytaya-ta",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Слова с открытой «та»",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 94–100",
+        "group": "15-94-100",
+        "from": 94,
+        "to": 100
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "gl-15-hamzat-al-vasl",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Соединительная хамза (хамзат аль-васл)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 101–103",
+        "group": "16-101-103",
+        "from": 101,
+        "to": 103
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "gl-16-raum-ishmam",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Остановка на концах слов (раум и ишмам)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 104–105",
+        "group": "17-104-105",
+        "from": 104,
+        "to": 105
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "gl-17-hatima",
+    "subject": "quran",
+    "course": "dzhazariyya",
+    "title": "Заключение (хатима)",
+    "blocks": [
+      {
+        "type": "matn",
+        "title": "«Мукаддима аль-Джазари»: бейты 106–109",
+        "group": "17-106-109",
+        "from": 106,
+        "to": 109
+      }
+    ]
+  }
+]

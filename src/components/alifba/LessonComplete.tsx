@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CheckCircle2, Sparkles } from "lucide-react";
+import { lessonCompleteKey, LESSON_COMPLETE_EVENT } from "@/lib/interactive/lessonProgress";
 
 type Props = {
   lessonId: string;
+  /** Курс, к которому относится урок — нужен для пер-курсового ключа прогресса */
+  subject?: string;
+  course?: string;
   arabic?: string;
   title?: string;
   text?: string;
@@ -11,7 +15,7 @@ type Props = {
   nextLesson?: string;
 };
 
-const COMPLETE_EVENT = "lesson-complete-changed";
+const COMPLETE_EVENT = LESSON_COMPLETE_EVENT;
 const FIREWORK_EMOJIS = [
   "\u2728",
   "\u2b50",
@@ -22,13 +26,15 @@ const FIREWORK_EMOJIS = [
 
 export default function LessonComplete({
   lessonId,
+  subject,
+  course,
   arabic,
   title,
   text,
   items,
   nextLesson,
 }: Props) {
-  const storageKey = `lesson-complete-${lessonId}`;
+  const storageKey = lessonCompleteKey(subject, course, lessonId);
 
   const [done, setDone] = useState(false);
   const [showFireworks, setShowFireworks] = useState(false);

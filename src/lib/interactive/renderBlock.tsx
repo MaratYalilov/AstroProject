@@ -16,12 +16,16 @@ type Props = {
   block: LessonBlock;
   arabname?: string;
   lessonId?: number;
+  subject?: string;
+  course?: string;
 };
 
 export default function RenderBlock({
   block,
   arabname,
   lessonId,
+  subject,
+  course,
 }: Props) {
   switch (block.type) {
     case "letter-lesson": {
@@ -103,6 +107,8 @@ export default function RenderBlock({
       return (
         <LessonComplete
           lessonId={String(lessonId ?? 0)}
+          subject={subject}
+          course={course}
           arabic={block.arabic}
           title={block.title}
           text={block.text}
