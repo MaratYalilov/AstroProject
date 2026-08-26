@@ -130,24 +130,10 @@ export default function TheoryReveal({
       ref={sectionRef}
       className="scroll-mt-28 overflow-hidden rounded-3xl border border-white/70 bg-white p-0 sm:p-4 shadow-xl shadow-slate-200/70 transition-colors duration-300 dark:border-white/10 dark:bg-white/[0.06] dark:shadow-black/20"
     >
-
-      <div className="relative overflow-hidden rounded-3xl border border-slate-200/80 bg-gradient-to-br from-white via-cyan-50/55 to-emerald-50/70 p-4 sm:p-6 dark:border-white/10 dark:from-white/[0.08] dark:via-cyan-300/[0.08] dark:to-emerald-300/[0.06]">
-        <div className="pointer-events-none absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-cyan-300/70 to-transparent" />
-
-        <div className="relative flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
-          <div className="max-w-2xl">
             <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-200/80 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 shadow-sm shadow-cyan-100/70 dark:border-cyan-300/20 dark:bg-white/10 dark:text-cyan-200 dark:shadow-none">
               <Sparkles size={13} aria-hidden="true" />
               Теория
             </div>
-
-            <h2 className="text-2xl font-semibold leading-tight text-slate-950 dark:text-white sm:text-3xl">
-              Теперь давайте разберём подробнее
-            </h2>
-
-          </div>
-        </div>
-      </div>
 
       <div className="w-full px-0 pb-4 pt-6 sm:mx-auto sm:px-4 sm:pb-6">
         <div className="sticky top-4 z-10 mb-6 flex items-center gap-2 rounded-2xl border border-white/80 bg-white/85 px-3 py-3 text-sm font-semibold text-slate-700 shadow-lg shadow-slate-200/70 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/75 dark:text-slate-200 dark:shadow-black/20 sm:px-4">

@@ -200,6 +200,10 @@ function SidebarContent({
 }) {
   const navRef = useRef<HTMLElement | null>(null);
   const buttonRefs = useRef<Map<number, HTMLButtonElement>>(new Map());
+  const moduleHeaderRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
+  // Модуль, к заголовку которого нужно проскроллить после ручного открытия;
+  // "" — ручное сворачивание, скроллить никуда не нужно
+  const manualScrollModuleRef = useRef<string | null>(null);
   const [completedLessonIds, setCompletedLessonIds] = useState<Set<number>>(
     () => new Set<number>()
   );
@@ -213,19 +217,17 @@ function SidebarContent({
   useEffect(() => {
     if (!currentModule) return;
     setOpenModules((prev) => {
-      if (prev.has(currentModule)) return prev;
-      const next = new Set(prev);
-      next.add(currentModule);
-      return next;
+      if (prev.size === 1 && prev.has(currentModule)) return prev;
+      return new Set([currentModule]);
     });
   }, [currentModule]);
 
+  // Аккордеон: открытие модуля сворачивает остальные
   const toggleModule = (name: string) => {
     setOpenModules((prev) => {
-      const next = new Set(prev);
-      if (next.has(name)) next.delete(name);
-      else next.add(name);
-      return next;
+      const opening = !prev.has(name);
+      manualScrollModuleRef.current = opening ? name : "";
+      return opening ? new Set([name]) : new Set();
     });
   };
 
@@ -246,20 +248,40 @@ function SidebarContent({
 
   useEffect(() => {
     const nav = navRef.current;
-    const el = buttonRefs.current.get(currentIndex);
-    if (!nav || !el) return;
+    if (!nav) return;
 
-    const raf = requestAnimationFrame(() => {
-      const navRect = nav.getBoundingClientRect();
-      const elRect = el.getBoundingClientRect();
+    // Эффект выполняется после обновления DOM — скроллим синхронно,
+    // без requestAnimationFrame (его cleanup отменял отложенный скролл)
+
+    // Ручной клик по заголовку модуля: при открытии скроллим к началу
+    // группы (заголовок + первый урок), при сворачивании не скроллим
+    const manualModule = manualScrollModuleRef.current;
+    if (manualModule !== null) {
+      manualScrollModuleRef.current = null;
+      const header = manualModule
+        ? moduleHeaderRefs.current.get(manualModule)
+        : undefined;
+      if (!header) return;
 
       const delta =
-        elRect.top - navRect.top - (navRect.height - elRect.height) / 2;
-
+        header.getBoundingClientRect().top -
+        nav.getBoundingClientRect().top -
+        8;
       nav.scrollTo({ top: nav.scrollTop + delta });
-    });
+      return;
+    }
 
-    return () => cancelAnimationFrame(raf);
+    // Смена урока: центрируем текущий
+    const el = buttonRefs.current.get(currentIndex);
+    if (!el) return;
+
+    const navRect = nav.getBoundingClientRect();
+    const elRect = el.getBoundingClientRect();
+
+    const delta =
+      elRect.top - navRect.top - (navRect.height - elRect.height) / 2;
+
+    nav.scrollTo({ top: nav.scrollTop + delta });
   }, [currentIndex, lessons.length, openModules]);
 
   const completedCount = lessons.reduce(
@@ -390,6 +412,13 @@ function SidebarContent({
           return (
             <div key={group.module} className="space-y-2">
               <button
+                ref={(el) => {
+                  if (el) {
+                    moduleHeaderRefs.current.set(group.module!, el);
+                  } else {
+                    moduleHeaderRefs.current.delete(group.module!);
+                  }
+                }}
                 type="button"
                 onClick={() => toggleModule(group.module!)}
                 className={[

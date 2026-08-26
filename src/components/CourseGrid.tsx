@@ -98,7 +98,10 @@ const CourseGrid: React.FC<CourseGridProps> = ({
                         {c.data.title}
                       </CardTitle>
                       {c.data.description && (
-                        <p className="mt-2 text-sm text-muted-foreground line-clamp-2">
+                        <p
+                          className="mt-2 text-sm text-muted-foreground line-clamp-4"
+                          title={c.data.description}
+                        >
                           {c.data.description}
                         </p>
                       )}
