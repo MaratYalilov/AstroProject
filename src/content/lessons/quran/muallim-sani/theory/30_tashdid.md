@@ -13,7 +13,9 @@ order: 31
       </h1>
       <div class="theory-hero-sub">
         <b>Ташдид</b> — знак удвоения буквы. Ставится над буквой вместе с огласовкой:
-        <span class="arab">ــَّـ ــِّـ ــُّـ</span>
+        <span class="arab" style="color: var(--color-fjord);margin-right: 10px;">ــَّـ</span>
+        <span class="arab" style="color: var(--color-eggplant);margin-right: 10px;">ــِّـ</span>
+        <span class="arab" style="color: var(--color-forest);">ــُّـ</span>
       </div>
     </div>
   </div>
@@ -32,7 +34,9 @@ order: 31
   </p>
 
   <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 text-center dark:border-white/[0.06] dark:bg-white/[0.02]">
-    <div class="arab text-3xl leading-loose" dir="rtl">رَبَّ = رَبْبَ ، رَبِّ = رَبْبِ ، رَبُّ = رَبْبُ</div>
+    <div class="arab" >رَ<span class="arab" style="color: var(--color-fjord);">بَّ </span> = رَ<span class="arab" style="color: var(--color-fjord);">  بۡبَ </span></div>
+    <div class="arab" >رَ<span class="arab" style="color: var(--color-eggplant);">بِّ </span> = رَ<span class="arab" style="color: var(--color-eggplant);">  بۡبِ </span></div>
+    <div class="arab" >رَ<span class="arab" style="color: var(--color-forest);">بُّ </span> = رَ<span class="arab" style="color: var(--color-forest);">  بۡبُ </span></div>
   </div>
 
   <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">

@@ -144,7 +144,94 @@ function flattenLessons(lessons: ExerciseLesson[]): FlatExercise[] {
   ).map((exercise, globalIndex) => ({ ...exercise, globalIndex }));
 }
 
+function renderComparisonWord(text: string, key: string) {
+  return (
+    <span
+      key={key}
+      className="arab block min-w-0 text-center"
+      style={{
+        fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
+        lineHeight: 1.25,
+      }}
+    >
+      {normalizeArabicMarks(text)}
+    </span>
+  );
+}
+
+function isComparisonExercise(exercise: Exercise) {
+  const comparisonPair = exercise.segments.length === 1
+    ? exercise.segments[0]?.text.split(/\s*[–—]\s*/)
+    : null;
+
+  const hasMultiWordPhrase = exercise.segments.some((segment) => /\s+/.test(segment.text.trim()));
+
+  return !!(
+    (comparisonPair &&
+      comparisonPair.length === 2 &&
+      comparisonPair[0] &&
+      comparisonPair[1]) ||
+    hasMultiWordPhrase
+  );
+}
+
 function renderExerciseText(exercise: Exercise) {
+  const comparisonPair = exercise.segments.length === 1
+    ? exercise.segments[0]?.text.split(/\s*[–—]\s*/)
+    : null;
+
+  const hasMultiWordPhrase = exercise.segments.some((segment) => /\s+/.test(segment.text.trim()));
+
+  if (comparisonPair && comparisonPair.length === 2 && comparisonPair[0] && comparisonPair[1]) {
+    const [leftText, rightText] = comparisonPair;
+
+    return (
+      <div className="flex w-full items-center justify-center gap-2 sm:gap-4">
+        <span
+          className="arab flex min-h-[96px] flex-1 basis-0 items-center justify-center px-1 py-2 text-center"
+          style={{
+            fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
+            lineHeight: 1.25,
+          }}
+        >
+          {renderComparisonWord(leftText, `${exercise.audio}-left`)}
+        </span>
+
+        <span className="flex shrink-0 items-center text-lg font-medium text-gray-400 dark:text-slate-500 sm:text-xl">
+          —
+        </span>
+
+        <span
+          className="arab flex min-h-[96px] flex-1 basis-0 items-center justify-center px-1 py-2 text-center"
+          style={{
+            fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
+            lineHeight: 1.25,
+          }}
+        >
+          {renderComparisonWord(rightText, `${exercise.audio}-right`)}
+        </span>
+      </div>
+    );
+  }
+
+  if (hasMultiWordPhrase) {
+    const fullText = exercise.segments.map((segment) => normalizeArabicMarks(segment.text)).join(" ");
+
+    return (
+      <div className="flex w-full items-center justify-center">
+        <span
+          className="arab block text-center"
+          style={{
+            fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
+            lineHeight: 1.25,
+          }}
+        >
+          {fullText}
+        </span>
+      </div>
+    );
+  }
+
   return exercise.segments.map((segment, index) => {
     const form = normalizeForm(segment);
     const previousSegment = exercise.segments[index - 1];
@@ -419,89 +506,91 @@ export default function ReadingExercises({ lessonOrder }: Props) {
           </div> */}
         </header>
 
-<>
-  {/* DESKTOP */}
-  <div className="hidden flex-wrap gap-2 sm:flex">
-    {LEGEND.map((item) => (
-      <span
-        key={item.form}
-        className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/75 px-3 py-2 text-xs font-medium text-gray-700 shadow-sm shadow-gray-200/50 backdrop-blur dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-200 dark:shadow-none"
-      >
+{(lessonOrder === undefined || lessonOrder < 29) && (
+  <>
+    {/* DESKTOP */}
+    <div className="hidden flex-wrap gap-2 sm:flex">
+      {LEGEND.map((item) => (
         <span
-          className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_THEME[item.form].dot}`}
-        />
-        {item.label}
-      </span>
-    ))}
-  </div>
+          key={item.form}
+          className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/75 px-3 py-2 text-xs font-medium text-gray-700 shadow-sm shadow-gray-200/50 backdrop-blur dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-200 dark:shadow-none"
+        >
+          <span
+            className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_THEME[item.form].dot}`}
+          />
+          {item.label}
+        </span>
+      ))}
+    </div>
 
-  {/* MOBILE */}
-  <div className="sm:hidden">
-    <Menu as="div" className="relative inline-block text-left">
-      <Menu.Button
-        className="
-          inline-flex items-center gap-2 rounded-full
-          border border-gray-200 bg-white/75
-          px-3 py-2 text-xs font-medium
-          text-gray-700 shadow-sm shadow-gray-200/50
-          backdrop-blur transition
-          dark:border-white/10 dark:bg-white/[0.06]
-          dark:text-slate-200 dark:shadow-none
-        "
-      >
-        <div className="flex items-center gap-1">
-          {LEGEND.map((item) => (
-            <span
-              key={item.form}
-              className={`h-2.5 w-2.5 rounded-full ${FORM_THEME[item.form].dot}`}
-            />
-          ))}
-        </div>
-
-        Формы букв
-      </Menu.Button>
-
-      <Transition
-        as={Fragment}
-        enter="transition duration-100 ease-out"
-        enterFrom="scale-95 opacity-0"
-        enterTo="scale-100 opacity-100"
-        leave="transition duration-75 ease-in"
-        leaveFrom="scale-100 opacity-100"
-        leaveTo="scale-95 opacity-0"
-      >
-        <Menu.Items
+    {/* MOBILE */}
+    <div className="sm:hidden">
+      <Menu as="div" className="relative inline-block text-left">
+        <Menu.Button
           className="
-            absolute left-0 z-30 mt-2 w-60 origin-top-left
-            rounded-2xl border border-gray-200
-            bg-white/95 p-2 shadow-2xl backdrop-blur-xl
-            dark:border-white/10 dark:bg-slate-900/95
+            inline-flex items-center gap-2 rounded-full
+            border border-gray-200 bg-white/75
+            px-3 py-2 text-xs font-medium
+            text-gray-700 shadow-sm shadow-gray-200/50
+            backdrop-blur transition
+            dark:border-white/10 dark:bg-white/[0.06]
+            dark:text-slate-200 dark:shadow-none
           "
         >
-          <div className="flex flex-col gap-1">
+          <div className="flex items-center gap-1">
             {LEGEND.map((item) => (
-              <div
+              <span
                 key={item.form}
-                className="
-                  flex items-center gap-2 rounded-xl
-                  px-3 py-2 text-sm
-                  text-gray-700
-                  dark:text-slate-200
-                "
-              >
-                <span
-                  className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_THEME[item.form].dot}`}
-                />
-
-                {item.label}
-              </div>
+                className={`h-2.5 w-2.5 rounded-full ${FORM_THEME[item.form].dot}`}
+              />
             ))}
           </div>
-        </Menu.Items>
-      </Transition>
-    </Menu>
-  </div>
-</>
+
+          Формы букв
+        </Menu.Button>
+
+        <Transition
+          as={Fragment}
+          enter="transition duration-100 ease-out"
+          enterFrom="scale-95 opacity-0"
+          enterTo="scale-100 opacity-100"
+          leave="transition duration-75 ease-in"
+          leaveFrom="scale-100 opacity-100"
+          leaveTo="scale-95 opacity-0"
+        >
+          <Menu.Items
+            className="
+              absolute left-0 z-30 mt-2 w-60 origin-top-left
+              rounded-2xl border border-gray-200
+              bg-white/95 p-2 shadow-2xl backdrop-blur-xl
+              dark:border-white/10 dark:bg-slate-900/95
+            "
+          >
+            <div className="flex flex-col gap-1">
+              {LEGEND.map((item) => (
+                <div
+                  key={item.form}
+                  className="
+                    flex items-center gap-2 rounded-xl
+                    px-3 py-2 text-sm
+                    text-gray-700
+                    dark:text-slate-200
+                  "
+                >
+                  <span
+                    className={`h-2.5 w-2.5 rounded-full shadow-lg ${FORM_THEME[item.form].dot}`}
+                  />
+
+                  {item.label}
+                </div>
+              ))}
+            </div>
+          </Menu.Items>
+        </Transition>
+      </Menu>
+    </div>
+  </>
+)}
 
         <div className="sticky top-[69px] z-20 order-first flex justify-center">
           <div
@@ -619,6 +708,7 @@ export default function ReadingExercises({ lessonOrder }: Props) {
         >
           {exercises.map((exercise, index) => {
             const isActive = activeIndex === index;
+            const comparisonCard = isComparisonExercise(exercise);
 
             return (
               // ВАЖНО: обычный button + CSS-эффекты вместо motion.button —
@@ -633,18 +723,20 @@ export default function ReadingExercises({ lessonOrder }: Props) {
                 type="button"
                 onClick={() => handleCardClick(index)}
                 className={[
-                  "group relative flex min-h-[132px] items-center justify-center overflow-hidden rounded-[18px] border p-4 text-center",
+                  "group relative flex min-h-[132px] items-center justify-center rounded-[18px] border p-4 text-center",
                   "bg-white shadow-sm shadow-gray-200/70 transition-all duration-300",
                   "hover:-translate-y-1 hover:border-cyan-300/60 hover:bg-cyan-50/50 hover:shadow-lg hover:shadow-cyan-500/10 active:translate-y-0 active:scale-[0.985]",
                   "dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none dark:hover:border-cyan-300/30 dark:hover:bg-white/[0.075]",
+                  comparisonCard ? "col-span-full w-full min-h-[180px] p-5" : "",
                   isActive
-                    ? "scale-[1.025] border-cyan-300 ring-2 ring-cyan-400/50 shadow-xl shadow-cyan-500/20 dark:border-cyan-300/40"
+                    ? "scale-[1.025] overflow-visible border-cyan-300 ring-2 ring-cyan-400/50 shadow-xl shadow-cyan-500/20 dark:border-cyan-300/40"
                     : "border-gray-200",
                 ].join(" ")}
+                style={{ borderRadius: "18px" }}
               >
                 <span
                   className={[
-                    "pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300",
+                    "pointer-events-none absolute inset-0 rounded-[18px] opacity-0 transition-opacity duration-300",
                     "bg-gradient-to-br from-cyan-400/12 via-transparent to-emerald-300/10",
                     isActive ? "opacity-100" : "group-hover:opacity-100",
                   ].join(" ")}

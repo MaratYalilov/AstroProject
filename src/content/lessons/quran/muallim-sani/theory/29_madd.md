@@ -12,7 +12,7 @@ order: 30
         Долгие гласные
       </h1>
       <div class="theory-hero-sub">
-        Буквы <b>ا</b>, <b>و</b> и <b>ى</b> без огласовок служат для обозначения <b>долгих гласных звуков</b>.
+        Буквы <b class="arab" style="color: var(--color-fjord);">ا</b> ,   <b class="arab" style="color: var(--color-eggplant);">ى</b> и <b class="arab" style="color: var(--color-forest);">و</b> без огласовок служат для обозначения <b>долгих гласных звуков</b>.
         Каждой из них предшествует соответствующая огласовка: алифу — фатха, уау — дамма, йа — кясра.
       </div>
     </div>
@@ -29,8 +29,8 @@ order: 30
     <div class="flex items-center gap-4">
       <div class="arab-mark shrink-0 text-4xl" style="color: var(--color-fjord);">ءَا</div>
       <p class="!my-0 leading-relaxed">
-        Если перед <b>ا</b> приходит знак «фатха» (ــَـ), то это сочетание читается протяжно, как два «Ә»:
-        <span class="arab">ءَابَاتَا</span>
+        Если перед <span class="arab shrink-0 " style="color: var(--color-fjord);">ا</span> приходит знак «фатха» <span class="arab" style="color: var(--color-fjord);">ــَـ</span> , то это сочетание читается протяжно, звук «Ә» длится в 2 раза дольше чем при произношении буквы с фатхой:
+        <span class="arab" style="color: var(--color-fjord);">ءَا  بَا  تَا</span>
       </p>
     </div>
   </div>
@@ -38,7 +38,8 @@ order: 30
     <div class="flex items-center gap-4">
       <div class="arab-mark shrink-0 text-4xl" style="color: var(--color-eggplant);">إِى</div>
       <p class="!my-0 leading-relaxed">
-        Если перед <b>ى</b> без огласовки приходит знак «кясра» (ــِـ), то это сочетание читается протяжно, как два «и».
+        Если перед <span class="arab" style="color: var(--color-eggplant);">ى</span> без огласовки приходит знак «кясра» <span class="arab" style="color: var(--color-eggplant);">ــِـ</span> , то это сочетание читается протяжно, звук «и» длится в 2 раза дольше чем при произношении буквы с кясрой:
+        <span class="arab" style="color: var(--color-eggplant);">إِى  بِـى  تِـى</span>
       </p>
     </div>
   </div>
@@ -46,8 +47,8 @@ order: 30
     <div class="flex items-center gap-4">
       <div class="arab-mark shrink-0 text-4xl" style="color: var(--color-forest);">أُو</div>
       <p class="!my-0 leading-relaxed">
-        Если перед <b>و</b> без огласовки приходит знак «дамма» (ــُـ), то это сочетание читается протяжно, как два «у»:
-        <span class="arab">أُوبُوتُو</span>
+        Если перед <span class="arab" style="color: var(--color-forest);">و</span> без огласовки приходит знак «дамма» <span class="arab" style="color: var(--color-forest);">ــُـ</span> , то это сочетание читается протяжно, звук «у» длится в 2 раза дольше чем при произношении буквы с даммой:
+        <span class="arab" style="color: var(--color-forest);">أُو  بُو  تُو</span>
       </p>
     </div>
   </div>
@@ -72,14 +73,15 @@ order: 30
 <div class="theory-card">
   <ul>
     <li>
-      Во время произнесения долгой гласной <b>ا</b> язык ровный, есть колебания в горле. Рот должен открываться.
+      Во время произнесения долгой гласной <b class="arab" style="color: var(--color-fjord);">ا</b> язык ровный. Рот должен открываться.
     </li>
     <li>
-      Во время произнесения <b>و</b> задняя часть языка приподнята, а губы вытянуты.
+      Во время произнесения <b class="arab" style="color: var(--color-eggplant);">ى</b> язык приподнят в середине, и нижняя челюсть опускается.
     </li>
     <li>
-      Во время произнесения <b>ى</b> язык приподнят в середине, и нижняя челюсть опускается.
+      Во время произнесения <b class="arab" style="color: var(--color-forest);">و</b> задняя часть языка приподнята, а губы вытянуты.
     </li>
+
   </ul>
 
   <div class="mt-4 rounded-xl border border-red-100 bg-red-50/30 p-4 dark:border-red-900/30 dark:bg-red-900/10">
