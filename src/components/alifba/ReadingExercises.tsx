@@ -93,7 +93,11 @@ function normalizeForm(segment: ExerciseSegment): FormName | undefined {
 }
 
 function normalizeArabicMarks(text: string) {
-  return text.replace(/\u0652/g, "\u06e1");
+  return text;
+}
+
+function hasSukoon(text: string) {
+  return /[\u0652\u06e1\u06df]/.test(text);
 }
 
 const ARABIC_MARKS_RE = /[\u064b-\u065f\u0670\u06d6-\u06ed]/g;
@@ -144,6 +148,111 @@ function flattenLessons(lessons: ExerciseLesson[]): FlatExercise[] {
   ).map((exercise, globalIndex) => ({ ...exercise, globalIndex }));
 }
 
+function renderMuqaddaraWaw(text: string) {
+  const normalized = normalizeArabicMarks(text);
+  const chunks: Array<{ text: string; base: string }> = [];
+  let current = "";
+
+  for (const char of normalized) {
+    if (ARABIC_MARKS_RE.test(char)) {
+      if (current) {
+        current += char;
+      }
+      continue;
+    }
+
+    if (current) {
+      chunks.push({ text: current, base: current.replace(ARABIC_MARKS_RE, "") });
+    }
+
+    current = char;
+  }
+
+  if (current) {
+    chunks.push({ text: current, base: current.replace(ARABIC_MARKS_RE, "") });
+  }
+
+  if (chunks.length === 0) {
+    return normalized;
+  }
+
+  const smallIndices = new Set<number>();
+  const hamzaBases = new Set(["أ", "إ", "ؤ", "ئ", "ء"]);
+
+  for (let i = 1; i < chunks.length; i += 1) {
+    const prevChunk = chunks[i - 1];
+    const currentChunk = chunks[i];
+    const prevBase = prevChunk.base;
+    const currentBase = currentChunk.base;
+
+    if (hasSukoon(prevChunk.text) || hasSukoon(currentChunk.text)) {
+      continue;
+    }
+
+    if (prevBase === "و" && currentBase === "و") {
+      smallIndices.add(i);
+    }
+
+    if (currentBase === "و" && hamzaBases.has(prevBase)) {
+      smallIndices.add(i);
+    }
+  }
+
+  const lastIndex = chunks.length - 1;
+  const prevLastChunk = chunks[lastIndex - 1];
+  const prevLastBase = prevLastChunk?.base;
+  const lastChunk = chunks[lastIndex];
+  const lastBase = lastChunk?.base;
+
+  if (hasSukoon(lastChunk?.text ?? "")) {
+    return normalized;
+  }
+
+  if (lastBase === "و" && prevLastBase !== "و") {
+    smallIndices.add(lastIndex);
+  }
+
+  if (lastBase === "و" && hamzaBases.has(prevLastBase ?? "")) {
+    smallIndices.add(lastIndex);
+  }
+
+  if (smallIndices.size === 0) {
+    return normalized;
+  }
+
+  return (
+    <>
+      {chunks.map((chunk, index) => {
+        const isSmall = smallIndices.has(index);
+
+        if (!isSmall) {
+          return chunk.text;
+        }
+
+        const prevBase = chunks[index - 1]?.base;
+        const needsBreak = prevBase && ["و", "أ", "إ", "ؤ", "ئ", "ء"].includes(prevBase);
+
+        return (
+          <React.Fragment key={`${text}-${index}`}>
+            {needsBreak && <span aria-hidden="true" style={{ display: "inline-block", width: "0.0em" }} />}
+            <span
+              className="arab inline-block align-middle"
+              style={{
+                fontSize: "0.5em",
+                lineHeight: 1,
+                verticalAlign: "middle",
+                transform: "translateY(-0.04em)",
+              }}
+            >
+              {chunk.text}
+            </span>
+          </React.Fragment>
+        );
+      })}
+    </>
+  );
+}
+
 function renderComparisonWord(text: string, key: string) {
   return (
     <span
@@ -154,7 +263,7 @@ function renderComparisonWord(text: string, key: string) {
         lineHeight: 1.25,
       }}
     >
-      {normalizeArabicMarks(text)}
+      {renderMuqaddaraWaw(text)}
     </span>
   );
 }
@@ -215,8 +324,6 @@ function renderExerciseText(exercise: Exercise) {
   }
 
   if (hasMultiWordPhrase) {
-    const fullText = exercise.segments.map((segment) => normalizeArabicMarks(segment.text)).join(" ");
-
     return (
       <div className="flex w-full items-center justify-center">
         <span
@@ -226,7 +333,12 @@ function renderExerciseText(exercise: Exercise) {
             lineHeight: 1.25,
           }}
         >
-          {fullText}
+          {exercise.segments.map((segment, index) => (
+            <React.Fragment key={`${segment.text}-${index}`}>
+              {renderMuqaddaraWaw(segment.text)}
+              {index < exercise.segments.length - 1 ? " " : ""}
+            </React.Fragment>
+          ))}
         </span>
       </div>
     );
@@ -255,7 +367,7 @@ function renderExerciseText(exercise: Exercise) {
         }}
       >
         {joiner}
-        {normalizeArabicMarks(segment.text)}
+        {renderMuqaddaraWaw(segment.text)}
       </span>
     );
   });

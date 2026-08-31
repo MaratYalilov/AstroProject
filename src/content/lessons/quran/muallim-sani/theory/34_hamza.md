@@ -57,5 +57,9 @@ order: 35
       </p>
     </div>
   </div>
+  <div>
+    <p class="!my-0 leading-relaxed">Найдите разделительную и соединительную хамзу в аяте Корана</p>
+    {Quran}114:1{/Quran}
+  </div>
 </div>
 </section>

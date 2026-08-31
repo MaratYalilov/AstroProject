@@ -20,7 +20,7 @@ order: 38
 
 <section class="theory-section">
 <h2 class="theory-heading">
-  1. Знак сукуна над ا и و
+  1. Знак сукуна над <span class="arab">ا</span> и <span class="arab">و</span>
 </h2>
 
 <div class="theory-card">
@@ -29,7 +29,7 @@ order: 38
     (<span class="arab">ــْـ</span>), буква пишется, но не читается:
   </p>
   <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 text-center dark:border-white/[0.06] dark:bg-white/[0.02]">
-    <div class="arab text-3xl leading-loose" dir="rtl">أُوْلُو = أُلُو ، قَالُواْ ، ءَامَنُواْ</div>
+    <div class="arab text-3xl">أُوْلُو = أُلُو</div>
   </div>
 </div>
 </section>

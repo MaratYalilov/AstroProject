@@ -48,7 +48,7 @@ order: 37
       <div class="arab-mark shrink-0 text-3xl" style="color: var(--color-forest);">و</div>
       <p class="!my-0 leading-relaxed">
         <b>Уау мукаддара</b> — подразумеваемый «у» после даммы:
-        <span class="arab">لَهُو ، دَاوُودُ</span>
+        <span class="arab">لَهُ<span aria-label="waw muqaddara" class="arab" style="display:inline-block; font-size:0.5em; line-height:1; vertical-align:middle; transform:translateY(-0.04em); margin-left:0.12em;">و</span> ، دَاوُ<span aria-label="waw muqaddara" class="arab" style="display:inline-block; font-size:0.5em; line-height:1; vertical-align:middle; transform:translateY(-0.04em); margin-left:0.12em;">و</span>دُ</span>
       </p>
     </div>
   </div>
