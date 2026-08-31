@@ -34,7 +34,7 @@ export type { Comparison, ComparisonSegment, ComparisonSide };
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
 function normalizeArabicMarks(text: string) {
-  return text.replace(/\u0652/g, "\u06e1");
+  return text;
 }
 
 const ARABIC_MARKS_RE = /[\u064b-\u065f\u0670\u06d6-\u06ed]/g;
@@ -88,7 +88,7 @@ function renderComparisonText(segments: ComparisonSegment[]) {
             }}
           >
             {joiner}
-            {normalizeArabicMarks(segment.text)}
+            {segment.text}
           </span>
         );
       })}
