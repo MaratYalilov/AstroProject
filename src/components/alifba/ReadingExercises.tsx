@@ -28,6 +28,7 @@ type Exercise = {
   id: number;
   audio: string;
   segments: ExerciseSegment[];
+  sectionTitle?: string;
 };
 
 type ExerciseLesson = {
@@ -720,57 +721,69 @@ export default function ReadingExercises({ lessonOrder }: Props) {
           {exercises.map((exercise, index) => {
             const isActive = activeIndex === index;
             const comparisonCard = isComparisonExercise(exercise);
+            const showSectionTitle =
+              !!exercise.sectionTitle &&
+              (index === 0 || exercises[index - 1].sectionTitle !== exercise.sectionTitle);
 
             return (
-              // ВАЖНО: обычный button + CSS-эффекты вместо motion.button —
-              // framer вешал will-change: transform на каждую из ~300 карточек,
-              // создавая сотни постоянных GPU-слоёв (переполнение VRAM, TDR).
-              // Также без backdrop-blur и полупрозрачности по той же причине.
-              <button
-                key={`${exercise.lessonOrder}-${exercise.id}-${exercise.audio}`}
-                ref={(element) => {
-                  cardRefs.current[index] = element;
-                }}
-                type="button"
-                onClick={() => handleCardClick(index)}
-                className={[
-                  "group relative flex min-h-[132px] items-center justify-center rounded-[18px] border p-4 text-center",
-                  "bg-white shadow-sm shadow-gray-200/70 transition-all duration-300",
-                  "hover:-translate-y-1 hover:border-cyan-300/60 hover:bg-cyan-50/50 hover:shadow-lg hover:shadow-cyan-500/10 active:translate-y-0 active:scale-[0.985]",
-                  "dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none dark:hover:border-cyan-300/30 dark:hover:bg-white/[0.075]",
-                  comparisonCard ? "col-span-full w-full min-h-[180px] p-5" : "",
-                  isActive
-                    ? "scale-[1.025] overflow-visible border-cyan-300 ring-2 ring-cyan-400/50 shadow-xl shadow-cyan-500/20 dark:border-cyan-300/40"
-                    : "border-gray-200",
-                ].join(" ")}
-                style={{ borderRadius: "18px" }}
-              >
-                <span
-                  className={[
-                    "pointer-events-none absolute inset-0 rounded-[18px] opacity-0 transition-opacity duration-300",
-                    "bg-gradient-to-br from-cyan-400/12 via-transparent to-emerald-300/10",
-                    isActive ? "opacity-100" : "group-hover:opacity-100",
-                  ].join(" ")}
-                />
-
-                {isActive && (
-                  <motion.span
-                    className="pointer-events-none absolute inset-0 rounded-[18px] border border-cyan-300/70"
-                    animate={{ opacity: [0.4, 1, 0.4] }}
-                    transition={{ repeat: Infinity, duration: 1.2 }}
-                  />
+              <React.Fragment key={`${exercise.lessonOrder}-${exercise.id}-${exercise.audio}`}>
+                {showSectionTitle && (
+                  <div className="col-span-full flex items-center justify-start pt-2">
+                    <span className="rounded-full border border-cyan-200 bg-cyan-50 px-3 py-1 text-sm font-semibold text-cyan-800 shadow-sm dark:border-cyan-400/30 dark:bg-cyan-500/10 dark:text-cyan-200">
+                      {exercise.sectionTitle}
+                    </span>
+                  </div>
                 )}
 
-                <span
-                  className="arab relative block text-center tracking-normal"
-                  style={{
-                    fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
-                    lineHeight: 1.25,
+                {/* ВАЖНО: обычный button + CSS-эффекты вместо motion.button —
+                    framer вешал will-change: transform на каждую из ~300 карточек,
+                    создавая сотни постоянных GPU-слоёв (переполнение VRAM, TDR).
+                    Также без backdrop-blur и полупрозрачности по той же причине. */}
+                <button
+                  ref={(element) => {
+                    cardRefs.current[index] = element;
                   }}
+                  type="button"
+                  onClick={() => handleCardClick(index)}
+                  className={[
+                    "group relative flex min-h-[132px] items-center justify-center rounded-[18px] border p-4 text-center",
+                    "bg-white shadow-sm shadow-gray-200/70 transition-all duration-300",
+                    "hover:-translate-y-1 hover:border-cyan-300/60 hover:bg-cyan-50/50 hover:shadow-lg hover:shadow-cyan-500/10 active:translate-y-0 active:scale-[0.985]",
+                    "dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none dark:hover:border-cyan-300/30 dark:hover:bg-white/[0.075]",
+                    comparisonCard ? "col-span-full w-full min-h-[180px] p-5" : "",
+                    isActive
+                      ? "scale-[1.025] overflow-visible border-cyan-300 ring-2 ring-cyan-400/50 shadow-xl shadow-cyan-500/20 dark:border-cyan-300/40"
+                      : "border-gray-200",
+                  ].join(" ")}
+                  style={{ borderRadius: "18px" }}
                 >
-                  {renderExerciseText(exercise)}
-                </span>
-              </button>
+                  <span
+                    className={[
+                      "pointer-events-none absolute inset-0 rounded-[18px] opacity-0 transition-opacity duration-300",
+                      "bg-gradient-to-br from-cyan-400/12 via-transparent to-emerald-300/10",
+                      isActive ? "opacity-100" : "group-hover:opacity-100",
+                    ].join(" ")}
+                  />
+
+                  {isActive && (
+                    <motion.span
+                      className="pointer-events-none absolute inset-0 rounded-[18px] border border-cyan-300/70"
+                      animate={{ opacity: [0.4, 1, 0.4] }}
+                      transition={{ repeat: Infinity, duration: 1.2 }}
+                    />
+                  )}
+
+                  <span
+                    className="arab relative block text-center tracking-normal"
+                    style={{
+                      fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
+                      lineHeight: 1.25,
+                    }}
+                  >
+                    {renderExerciseText(exercise)}
+                  </span>
+                </button>
+              </React.Fragment>
             );
           })}
         </div>

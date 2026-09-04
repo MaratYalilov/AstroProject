@@ -14641,6 +14641,7 @@
       "exercises": [
         {
           "id": 1,
+          "sectionTitle": "Идгам шамсийя",
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-01-1.mp3",
           "segments": [
             {
@@ -14686,15 +14687,51 @@
         },
         {
           "id": 6,
-          "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-02.mp3",
+          "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-02-1.mp3",
           "segments": [
             {
-              "text": "أَلزَّبَدُ ، أَلسَّفَرُ ، أَلشَّجَرُ ، أَلصَّفَرُ ، أَلضَّرَرُ"
+              "text": "أَلزَّبَدُ"
             }
           ]
         },
         {
           "id": 7,
+          "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-02-2.mp3",
+          "segments": [
+            {
+              "text": "أَلسَّفَرُ"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-02-3.mp3",
+          "segments": [
+            {
+              "text": "أَلشَّجَرُ"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-02-4.mp3",
+          "segments": [
+            {
+              "text": "أَلصَّفَرُ"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-02-5.mp3",
+          "segments": [
+            {
+              "text": "أَلضَّرَرُ"
+            }
+          ]
+        },
+        {
+          "id": 11,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-03-1.mp3",
           "segments": [
             {
@@ -14703,7 +14740,7 @@
           ]
         },
         {
-          "id": 8,
+          "id": 12,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-03-2.mp3",
           "segments": [
             {
@@ -14712,7 +14749,7 @@
           ]
         },
         {
-          "id": 9,
+          "id": 13,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-03-3.mp3",
           "segments": [
             {
@@ -14721,7 +14758,7 @@
           ]
         },
         {
-          "id": 10,
+          "id": 14,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-03-4.mp3",
           "segments": [
             {
@@ -14730,7 +14767,8 @@
           ]
         },
         {
-          "id": 11,
+          "id": 15,
+          "sectionTitle": "Васлирование и солнечные буквы",
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-04-1.mp3",
           "segments": [
             {
@@ -14739,7 +14777,7 @@
           ]
         },
         {
-          "id": 12,
+          "id": 16,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-04-2.mp3",
           "segments": [
             {
@@ -14748,7 +14786,7 @@
           ]
         },
         {
-          "id": 13,
+          "id": 17,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-04-3.mp3",
           "segments": [
             {
@@ -14757,7 +14795,7 @@
           ]
         },
         {
-          "id": 14,
+          "id": 18,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-04-4.mp3",
           "segments": [
             {
@@ -14766,7 +14804,7 @@
           ]
         },
         {
-          "id": 15,
+          "id": 19,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-05-1.mp3",
           "segments": [
             {
@@ -14775,7 +14813,7 @@
           ]
         },
         {
-          "id": 16,
+          "id": 20,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-05-2.mp3",
           "segments": [
             {
@@ -14784,7 +14822,7 @@
           ]
         },
         {
-          "id": 17,
+          "id": 21,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-05-3.mp3",
           "segments": [
             {
@@ -14793,7 +14831,7 @@
           ]
         },
         {
-          "id": 18,
+          "id": 22,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-05-4.mp3",
           "segments": [
             {
@@ -14802,7 +14840,7 @@
           ]
         },
         {
-          "id": 19,
+          "id": 23,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-06-1.mp3",
           "segments": [
             {
@@ -14811,7 +14849,7 @@
           ]
         },
         {
-          "id": 20,
+          "id": 24,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-06-2.mp3",
           "segments": [
             {
@@ -14820,7 +14858,7 @@
           ]
         },
         {
-          "id": 21,
+          "id": 25,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-06-3.mp3",
           "segments": [
             {
@@ -14829,7 +14867,7 @@
           ]
         },
         {
-          "id": 22,
+          "id": 26,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-07-1.mp3",
           "segments": [
             {
@@ -14838,7 +14876,7 @@
           ]
         },
         {
-          "id": 23,
+          "id": 27,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-07-2.mp3",
           "segments": [
             {
@@ -14847,7 +14885,7 @@
           ]
         },
         {
-          "id": 24,
+          "id": 28,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-07-3.mp3",
           "segments": [
             {
@@ -14856,7 +14894,8 @@
           ]
         },
         {
-          "id": 25,
+          "id": 29,
+          "sectionTitle": "Изхар комария",
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-08-1.mp3",
           "segments": [
             {
@@ -14865,7 +14904,7 @@
           ]
         },
         {
-          "id": 26,
+          "id": 30,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-08-2.mp3",
           "segments": [
             {
@@ -14874,7 +14913,7 @@
           ]
         },
         {
-          "id": 27,
+          "id": 31,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-08-3.mp3",
           "segments": [
             {
@@ -14883,7 +14922,7 @@
           ]
         },
         {
-          "id": 28,
+          "id": 32,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-08-4.mp3",
           "segments": [
             {
@@ -14892,7 +14931,7 @@
           ]
         },
         {
-          "id": 29,
+          "id": 33,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-08-5.mp3",
           "segments": [
             {
@@ -14901,7 +14940,7 @@
           ]
         },
         {
-          "id": 30,
+          "id": 34,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-09-1.mp3",
           "segments": [
             {
@@ -14910,7 +14949,7 @@
           ]
         },
         {
-          "id": 31,
+          "id": 35,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-09-2.mp3",
           "segments": [
             {
@@ -14919,7 +14958,7 @@
           ]
         },
         {
-          "id": 32,
+          "id": 36,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-09-3.mp3",
           "segments": [
             {
@@ -14928,7 +14967,7 @@
           ]
         },
         {
-          "id": 33,
+          "id": 37,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-09-4.mp3",
           "segments": [
             {
@@ -14937,7 +14976,7 @@
           ]
         },
         {
-          "id": 34,
+          "id": 38,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-09-5.mp3",
           "segments": [
             {
@@ -14946,7 +14985,7 @@
           ]
         },
         {
-          "id": 35,
+          "id": 39,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-10-1.mp3",
           "segments": [
             {
@@ -14955,7 +14994,7 @@
           ]
         },
         {
-          "id": 36,
+          "id": 40,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-10-2.mp3",
           "segments": [
             {
@@ -14964,7 +15003,7 @@
           ]
         },
         {
-          "id": 37,
+          "id": 41,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-10-3.mp3",
           "segments": [
             {
@@ -14973,7 +15012,7 @@
           ]
         },
         {
-          "id": 38,
+          "id": 42,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-10-4.mp3",
           "segments": [
             {
@@ -14982,7 +15021,8 @@
           ]
         },
         {
-          "id": 39,
+          "id": 43,
+          "sectionTitle": "Васлирование и лунные буквы",
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-11-1.mp3",
           "segments": [
             {
@@ -14991,7 +15031,7 @@
           ]
         },
         {
-          "id": 40,
+          "id": 44,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-11-2.mp3",
           "segments": [
             {
@@ -15000,7 +15040,7 @@
           ]
         },
         {
-          "id": 41,
+          "id": 45,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-11-3.mp3",
           "segments": [
             {
@@ -15009,7 +15049,8 @@
           ]
         },
         {
-          "id": 42,
+          "id": 46,
+          "sectionTitle": "Примеры васлирования трёх и более слов",
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-12-1.mp3",
           "segments": [
             {
@@ -15018,7 +15059,7 @@
           ]
         },
         {
-          "id": 43,
+          "id": 47,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-12-2.mp3",
           "segments": [
             {
@@ -15027,7 +15068,7 @@
           ]
         },
         {
-          "id": 44,
+          "id": 48,
           "audio": "/media/quran/muallim-sani/audio/part2/38_artikl-13-1.mp3",
           "segments": [
             {
