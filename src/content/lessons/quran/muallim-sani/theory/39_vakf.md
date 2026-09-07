@@ -44,14 +44,33 @@ order: 40
 <div class="theory-card">
   <p class="!mt-0 leading-relaxed">При остановке на слове:</p>
   <ul>
-    <li>огласовка последней буквы (фатха, кясра, дамма, танвин кясра и танвин дамма) заменяется <b>сукуном</b>: <span class="arab">يُؤْمِنُونَ٭ = يُؤْمِنُونْ</span>;</li>
-    <li>танвин фатха читается как <b>долгий «ә»</b>: <span class="arab">يُسْرًا٭ = يُسْرَا</span>;</li>
-    <li>та марбута читается как <span class="arab">هْ</span>: <span class="arab">اَلۡقَارِعَةُ٭ = اَلۡقَارِعَهْ</span>;</li>
-    <li>мукаддара-окончания (<span class="arab">ـهُو ، ـهِۦ</span>) читаются как <span class="arab">ـهْ</span>: <span class="arab">فَقَدَّرَهُو٭ = فَقَدَّرَهْ</span>.</li>
+    <li>огласовка последней буквы (фатха, кясра, дамма, танвин кясра и танвин дамма) заменяется <b>сукуном</b>: <span class="arab">يُؤۡمِنُونَ٭ = يُؤۡمِنُونۡ</span>;</li>
+    <li>танвин фатха читается как <b>долгий «ә»</b>: <span class="arab">يُسۡرًا٭ = يُسۡرَا</span>;</li>
+    <li>
+      <strong>та марбута</strong>
+      <span class="arab">ة</span>
+      читается как
+      <span class="arab">هۡ</span>:
+      все знаки над та марбута мысленно убираем,
+      в том числе две точки, и получаем
+      <span class="arab">ه</span> с сукуном.
+      <p>Например:
+      <span class="arab">اَلۡقَارِعَةُ٭ = اَلۡقَارِعَهۡ</span>.</p>
+    </li>
+    <li>
+      <span class="arab">ـهُۥ ، ـهِۦ</span>
+      при остановке не читается:
+      дополнительный звук صلة убирается,
+      а сама <span class="arab">ه</span>
+      читается с сукуном:
+        <span class="arab">ـهُۥ ، ـهِۦ ← ـهۡ</span>.
+      <p>Например:
+        <span class="arab">فَقَدَّرَهُۥ٭ = فَقَدَّرَهۡ</span>.
+      </p>
+    </li>
   </ul>
 </div>
 </section>
-
 <section class="theory-section">
 <h2 class="theory-heading">
   Пауза (сакт)

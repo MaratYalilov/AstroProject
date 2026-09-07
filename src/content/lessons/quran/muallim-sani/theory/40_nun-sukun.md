@@ -65,7 +65,6 @@ order: 41
     танвин дамма изображён в виде <span class="arab">ــٌـ</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Курайшиты 106:4</p>
     {Quran}106:4{/Quran}
   </div>
 </div>
@@ -83,7 +82,7 @@ order: 41
     то <span class="arab">ن</span> превращается в букву <span class="arab">م</span>
     и читается с утаиванием и назализацией:
   </p>
-  <p class="text-center"><span class="arab text-2xl">أَنۢبِئۡهُمۡ = أَمۡبِئۡهُمۡ</span></p>
+  <p class="text-center"><span class="arab text-2xl">أَنۢبِئۡهُمۡ ← أَمۡبِئۡهُمۡ</span></p>
   <p class="leading-relaxed">
     <b>Подсказка в Коране:</b> вместо «сукуна» над <span class="arab">ن</span> —
     маленькая <span class="arab">م</span>; в танвине вместо второй чёрточки стоит
@@ -112,18 +111,16 @@ order: 41
     <span class="arab">ي ن م و</span> сливаются с ними и читаются с назализацией
     (звук произносится в нос):
   </p>
-  <p class="text-center"><span class="arab text-2xl">مَن يَقُولُ = مَيْ يَقُولُ</span></p>
+  <p class="text-center"><span class="arab text-2xl">مَن يَقُولُ </span></p>
   <p class="leading-relaxed">
     <b>Подсказка в Коране:</b> отсутствие «сукуна» над <span class="arab">ن</span>,
     чёрточки над танвинами смещены, танвин дамма написн в виде двух значков дамма<span class="arab">ُ ُ</span> ; дополнительно над <span class="arab">مّ</span>
     и <span class="arab">نّ</span> ставится «шадда».
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Землетрясение 99:7-8</p>
     {Quran}99:7-8{/Quran}
   </div>
 </div>
-
 <div class="theory-card mt-4">
   <p class="!mt-0 leading-relaxed">
     <b>Примечание.</b> В словах
@@ -162,7 +159,7 @@ order: 41
     <span class="arab">ــًـ ــٍـ ــٌـ</span> при встрече с идущими после них буквами
     <span class="arab">ر ل</span> сливаются с ними и читаются без назализации:
   </p>
-  <p class="text-center"><span class="arab text-2xl">مِن رَّبِّهِمۡ = مِرۡ رَّبِّهِمۡ</span></p>
+  <p class="text-center"><span class="arab text-2xl">مِن رَّبِّهِمۡ ← مِرۡ رَّبِّهِمۡ</span></p>
   <p class="leading-relaxed">
     <b>Подсказка в Коране:</b> отсутствие «сукуна» над <span class="arab">ن</span>,
     чёрточки над танвинами смещены,танвин дамма написн в виде двух значков дамма<span class="arab">ُ ُ</span>; дополнительно над <span class="arab">رّ</span>
@@ -218,7 +215,7 @@ order: 41
     <span class="arab">ــۡـ</span> или шадды <span class="arab">ــّـ</span>,
     к танвину добавляется <b>соединительная кясра</b>:
   </p>
-  <p class="text-center"><span class="arab text-2xl">مَثَلاً الْقَوْمُ = مَثَلَنِ لْقَوْمُ</span></p>
+  <p class="text-center"><span class="arab text-2xl">مَثَلاً الۡقَوْمُ ← مَثَلَنِ لۡقَوْمُ</span></p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
     <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Преграды 7:177</p>
     {Quran}7:177{/Quran}

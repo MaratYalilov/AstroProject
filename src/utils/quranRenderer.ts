@@ -314,7 +314,7 @@ export function renderAyahRangeBlock(
   // Построим единый непрерывный арабский блок: внутри - span'ы по страницам
   // между группами ставим пробел, чтобы они шли подряд; можно заменить на '' если нужен без пробелов.
   const arabicInlineHtml = `
-    <p class="qcf-ayah" aria-label="Арабский текст">
+    <p class="quran-ayah-block__arabic qcf-ayah" aria-label="Арабский текст">
       ${groups
         .map(
           (g) => `<span class="qcf-page-${g.page}" data-page="${g.page}">${g.codes.join(
