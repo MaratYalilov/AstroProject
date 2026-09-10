@@ -15490,10 +15490,28 @@
         },
         {
           "id": 19,
-          "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-07.mp3",
+          "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-07-1.mp3",
           "segments": [
             {
-              "text": "أَنۢبِئۡهُمۡ = أَمۡبِئۡهُمۡ أَنۢ بُورِكَ سَمِيعٌۢ بَصِيرٌ"
+              "text": "أَنۢبِئۡهُمۡ = أَمۡبِئۡهُمۡ"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-07-2.mp3",
+          "segments": [
+            {
+              "text": "أَنۢ بُورِكَ"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-07-3.mp3",
+          "segments": [
+            {
+              "text": "سَمِيعٌۢ بَصِيرٌ"
             }
           ]
         },
@@ -15511,7 +15529,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-08-2.mp3",
           "segments": [
             {
-              "text": "بَرۡقٚ يَجۡعَلُونَ"
+              "text": "بَرۡقٌ يَجۡعَلُونَ"
             }
           ]
         },
@@ -15529,7 +15547,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-09-2.mp3",
           "segments": [
             {
-              "text": "يَوۡمَئِذٛ نَّاعِمَةٌ"
+              "text": "يَوۡمَئِذٍ نَّاعِمَةٌ"
             }
           ]
         },
@@ -15565,7 +15583,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-11-2.mp3",
           "segments": [
             {
-              "text": "وَلِكُلّٛ وِجۡهَةٌ"
+              "text": "وَلِكُلٍّٛ وِجۡهَةٌ"
             }
           ]
         },
@@ -15583,7 +15601,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-12-2.mp3",
           "segments": [
             {
-              "text": "وَيۡلٚ لِّكُلِّ هُمَزَةٛ لُّمَزَةٍ"
+              "text": "وَيۡلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ"
             }
           ]
         },
@@ -15628,7 +15646,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-14-3.mp3",
           "segments": [
             {
-              "text": "جَنَّاتٛ تَجۡرِي"
+              "text": "جَنَّاتٍ تَجۡرِي"
             }
           ]
         },
@@ -15655,7 +15673,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-15-3.mp3",
           "segments": [
             {
-              "text": "قَوۡلٙا ثَقِيلًا"
+              "text": "قَوۡلاً ثَقِيلًا"
             }
           ]
         },
@@ -15682,7 +15700,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-16-3.mp3",
           "segments": [
             {
-              "text": "خَلۡقٛ جَدِيدٍ"
+              "text": "خَلۡقٍ جَدِيدٍ"
             }
           ]
         },
@@ -15709,7 +15727,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-17-3.mp3",
           "segments": [
             {
-              "text": "وَكَأۡسٙا دِهَاقًا"
+              "text": "وَكَأۡسًا دِهَاقًا"
             }
           ]
         },
@@ -15736,7 +15754,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-18-3.mp3",
           "segments": [
             {
-              "text": "ظِلّٛ ذِي ثَلَاثِ"
+              "text": "ظِلٍّٛ ذِي ثَلَاثِ"
             }
           ]
         },
@@ -15763,7 +15781,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-19-3.mp3",
           "segments": [
             {
-              "text": "صَعِيدٙا زَلَقًا"
+              "text": "صَعِيدًا زَلَقًا"
             }
           ]
         },
@@ -15790,7 +15808,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-20-3.mp3",
           "segments": [
             {
-              "text": "وَرَجُلٙا سَلَمًا"
+              "text": "وَرَجُلً سَلَمًا"
             }
           ]
         },
@@ -15817,7 +15835,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-21-3.mp3",
           "segments": [
             {
-              "text": "غَفُورٚ شَكُورٌ"
+              "text": "غَفُورٌ شَكُورٌ"
             }
           ]
         },
@@ -15844,7 +15862,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-22-3.mp3",
           "segments": [
             {
-              "text": "رِيحٙا صَرۡصَرًا"
+              "text": "رِيحًا صَرۡصَرًا"
             }
           ]
         },
@@ -15871,7 +15889,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-23-3.mp3",
           "segments": [
             {
-              "text": "وَكُلّٙا ضَرَبۡنَا"
+              "text": "وَكُلًّا ضَرَبۡنَا"
             }
           ]
         },
@@ -15898,7 +15916,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-24-3.mp3",
           "segments": [
             {
-              "text": "صَعِيدٙا طَيِّبًا"
+              "text": "صَعِيدًا طَيِّبًا"
             }
           ]
         },
@@ -15925,7 +15943,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-25-3.mp3",
           "segments": [
             {
-              "text": "ظِلّٙا ظَلِيلًا"
+              "text": "ظِلًّا ظَلِيلًا"
             }
           ]
         },
@@ -15952,7 +15970,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-26-3.mp3",
           "segments": [
             {
-              "text": "خَالِدٙا فِيهَا"
+              "text": "خَالِدًا فِيهَا"
             }
           ]
         },
@@ -15979,7 +15997,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-27-3.mp3",
           "segments": [
             {
-              "text": "سَمِيعٚ قَرِيبٌ"
+              "text": "سَمِيعٌ قَرِيبٌ"
             }
           ]
         },
@@ -16006,7 +16024,7 @@
           "audio": "/media/quran/muallim-sani/audio/part2/40_nun-sukun-28-3.mp3",
           "segments": [
             {
-              "text": "كِتَابٚ كَرِيمٌ"
+              "text": "كِتَابٌ كَرِيمٌ"
             }
           ]
         }

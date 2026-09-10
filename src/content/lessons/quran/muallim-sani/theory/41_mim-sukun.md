@@ -5,14 +5,14 @@ order: 42
 <div class="theory-hero">
   <div class="theory-hero-inner">
     <div class="theory-hero-letter">
-      مْ
+      مۡ
     </div>
     <div class="theory-hero-content">
       <h1 class="theory-hero-title">
         Правила «мим с сукуном»
       </h1>
       <div class="theory-hero-sub">
-        Звучание буквы <span class="arab">مْ</span> «мим с сукуном» зависит от буквы,
+        Звучание буквы <span class="arab">مۡ</span> «мим с сукуном» зависит от буквы,
         которая следует за ней. Есть <b>3 вида чтения</b>.
       </div>
     </div>
@@ -53,7 +53,7 @@ order: 42
 
 <div class="theory-card">
   <p class="!mt-0 leading-relaxed">
-    Если после буквы <span class="arab">مْ</span> с «сукуном» стоит буква
+    Если после буквы <span class="arab">مۡ</span> с «сукуном» стоит буква
     <span class="arab">م</span>, то звук буквы «мим» <b>удваивается</b> и тянется
     с назализацией.
   </p>
@@ -79,7 +79,7 @@ order: 42
 
 <div class="theory-card">
   <p class="!mt-0 leading-relaxed">
-    Если после буквы <span class="arab">مْ</span> с «сукуном» стоит буква
+    Если после буквы <span class="arab">مۡ</span> с «сукуном» стоит буква
     <span class="arab">ب</span>, то звук буквы «мим» читается с <b>утаиванием</b>
     и назализацией (звук «гунна»).
   </p>
@@ -105,12 +105,12 @@ order: 42
 
 <div class="theory-card">
   <p class="!mt-0 leading-relaxed">
-    Буква <span class="arab">مْ</span> с «сукуном» читается <b>ясно, без изменений</b>
+    Буква <span class="arab">مۡ</span> с «сукуном» читается <b>ясно, без изменений</b>
     при встрече с остальными буквами, кроме букв <span class="arab">م</span> и
     <span class="arab">ب</span>.
   </p>
   <p class="leading-relaxed">
-    <b>Подсказка в Коране:</b> наличие «сукуна» над <span class="arab">مْ</span>.
+    <b>Подсказка в Коране:</b> наличие «сукуна» над <span class="arab">مۡ</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
     <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Слон 105:1-3</p>

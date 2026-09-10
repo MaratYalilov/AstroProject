@@ -12,7 +12,7 @@ order: 43
         Другие виды идгама
       </h1>
       <div class="theory-hero-sub">
-        Слияние происходит не только после <span class="arab">نْ</span> и <span class="arab">مْ</span>:
+        Слияние происходит не только после <span class="arab">نۡ</span> и <span class="arab">مۡ</span>:
         сливаются также <b>одинаковые</b>, <b>подобные</b> и <b>близкие</b> по месту образования буквы.
       </div>
     </div>
@@ -56,7 +56,7 @@ order: 43
     При встрече двух <b>одинаковых</b> букв, первая из которых с сукуном, а вторая
     с огласовкой, первая буква поглощается второй с удвоением:
   </p>
-  <p class="text-center"><span class="arab text-2xl">أَنِ ٱضْرِب بِّعَصَاكَ</span> <span class="text-sm text-gray-500">(фрагмент из 7:160)</span></p>
+  <p class="text-center"><span class="arab text-2xl">أَنِ ٱضۡرِب بِّعَصَاكَ</span> <span class="text-sm text-gray-500">(фрагмент из 7:160)</span></p>
   <p class="text-center"><span class="arab text-2xl">ءَاوَواْ وَّنَصَرُوٓاْ</span> <span class="text-sm text-gray-500">(фрагмент из 8:72)</span></p>
   <p class="leading-relaxed">
     <b>Подсказка в Коране:</b> отсутствие «сукуна» над первой и наличие «шадды»
@@ -68,11 +68,9 @@ order: 43
     эти буквы произносятся с назализацией.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Корова 2:16</p>
     {Quran}2:16{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Женщины 4:63</p>
     {Quran}4:63{/Quran}
   </div>
 </div>
@@ -95,11 +93,36 @@ order: 43
     <span class="arab">ط</span> после <span class="arab">ت</span>,
     <span class="arab">ت</span> после <span class="arab">ط</span>:
   </p>
-  <p class="text-center"><span class="arab text-2xl">فَرَّطتُمْ ، وَقَالَت طَّآئِفَةٌ</span></p>
+  <p class="text-center"><span class="arab text-2xl">فَرَّطتُمۡ ، وَقَالَت طَّآئِفَةٌ</span></p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Неверующие 109:4</p>
     {Quran}109:4{/Quran}
   </div>
+<div class="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900/40 dark:bg-amber-950/20">
+  <p class="!mt-0 leading-relaxed">
+    <strong>Примечание.</strong>
+    В паре 
+    <span class="arab">ت</span> после <span class="arab">ط</span>,
+    как в примере
+    <span class="arab">فَرَّطتُمۡ</span>,
+    ассимиляция является
+    <strong>неполной (إدغام ناقص — идгам накис)</strong>.
+  </p>
+
+  <p class="mb-0 leading-relaxed">
+    Сильная буква
+    <span class="arab">ط</span>
+    не поглощается полностью: её
+    <strong>твердость (тафхим) сохраняется</strong>.
+    Поэтому над буквой
+    <span class="arab">ت</span>
+    <strong>шадда не ставится</strong>.
+    В остальных парах этой группы слияние является
+    <strong>полным</strong>, поэтому шадда обязательна,
+    например:
+    <span class="arab">وَقَالَت طَّآئِفَةٌ</span>.
+  </p>
+</div>
+
 </div>
 
 <div class="theory-card mt-4">
@@ -113,7 +136,7 @@ order: 43
     Единственный пример в Коране, когда <span class="arab">ذ</span> идёт после
     <span class="arab">ث</span> — фрагмент аята 7:176:
   </p>
-  <p class="text-center"><span class="arab text-2xl">يَلْهَث ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُواْ بِـَٔايَـٰتِنَا</span></p>
+  <p class="text-center"><span class="arab text-2xl">يَلۡهَثۡ ذَّٰلِكَ مَثَلُ ٱلۡقَوۡمِ ٱلَّذِينَ كَذَّبُواْ بِ‍َٔايَٰتِنَا</span></p>
 </div>
 
 <div class="theory-card mt-4">
@@ -121,14 +144,13 @@ order: 43
     Группа <span class="arab">ب م</span>. Правило действует для пары:
     <span class="arab">م</span> после <span class="arab">ب</span>.
   </p>
-  <p class="leading-relaxed">
+  <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+    {Quran}11:42{/Quran}
+  </div>
+    <p class="leading-relaxed">
     <b>Подсказка в Коране:</b> отсутствие «сукуна» над первой и наличие «шадды»
     над второй буквой.
   </p>
-  <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Худ 11:42</p>
-    {Quran}11:42{/Quran}
-  </div>
 </div>
 </section>
 
@@ -147,14 +169,12 @@ order: 43
     <span class="arab">ل</span>:
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Та ха 20:114</p>
     {Quran}20:114{/Quran}
   </div>
   <p class="leading-relaxed">
     <b>Исключение</b> — здесь стоит «сакта», поэтому слияния нет:
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Обвешивающие 83:14</p>
     {Quran}83:14{/Quran}
   </div>
   <p class="leading-relaxed">
@@ -170,8 +190,11 @@ order: 43
     <span class="arab">ق</span>. Единственный пример в Коране:
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Посылаемые 77:20</p>
     {Quran}77:20{/Quran}
   </div>
+    <p class="leading-relaxed">
+    <b>Подсказка в Коране:</b> отсутствие «сукуна» над первой и наличие «шадды»
+    над второй буквой.
+  </p>
 </div>
 </section>

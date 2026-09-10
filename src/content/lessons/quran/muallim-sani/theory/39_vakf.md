@@ -70,6 +70,60 @@ order: 40
     </li>
   </ul>
 </div>
+<div class="theory-card">
+  <p class="!mt-0 leading-relaxed">При остановке на слове:</p>
+  <ul>
+    <li>
+      огласовка последней буквы
+      (фатха, кясра, дамма, танвин кясра и танвин дамма)
+      заменяется <b>сукуном</b>:
+      <span class="arab">يُؤۡمِنُونَ٭ = يُؤۡمِنُونۡ</span>;
+    </li>
+    <li>
+      танвин фатха читается как
+      <b>долгий «ә»</b>:
+      <span class="arab">يُسۡرًا٭ = يُسۡرَا</span>;
+    </li>
+    <li>
+      <strong>та марбута</strong>
+      <span class="arab">ة</span>
+      читается как
+      <span class="arab">هۡ</span>:
+      все знаки над та марбута мысленно убираем,
+      в том числе две точки, и получаем
+      <span class="arab">ه</span> с сукуном.
+      <p>
+        Например:
+        <span class="arab">اَلۡقَارِعَةُ٭ = اَلۡقَارِعَهۡ</span>.
+      </p>
+    </li>
+    <li>
+      <span class="arab">ـهُۥ ، ـهِۦ</span>
+      при остановке не читаются с дополнительным звуком
+      <span class="arab">صلة</span>:
+      дополнительный звук убирается,
+      а сама <span class="arab">ه</span>
+      читается с сукуном:<br>
+      <span class="arab">ـهُۥ ، ـهِۦ ← ـهۡ</span>.
+      <br>
+      <p>
+        Например:
+        <span class="arab">فَقَدَّرَهُۥ٭ = فَقَدَّرَهۡ</span>.
+      </p>
+    </li>
+  <li>
+  <strong>долгие окончания</strong> на букву мадда
+  <span class="arab">ا، و، ي</span>
+  при остановке сохраняют своё произношение.
+  <br>
+      <span class="arab">قَالَا٭ = قَالَا</span>
+  <br>
+  Если долгий звук обозначен малой алиф
+  <span class="arab">ٰ</span>  , он также сохраняется.
+ <span class="arab"> مُوسَىٰٰ </span>
+</li>
+  </ul>
+</div>
 </section>
 <section class="theory-section">
 <h2 class="theory-heading">
