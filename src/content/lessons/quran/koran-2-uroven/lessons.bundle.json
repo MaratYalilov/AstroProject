@@ -179,21 +179,6 @@
   ]
  },
  {
-  "id": 203,
-  "slug": "m02-03-hukm-tablitsa",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "2. Таджвид и история Корана",
-  "title": "Хукм таджвида (уточнение)",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Хукм таджвида (уточнение)",
-    "source": "m02_03_hukm-tablitsa.md"
-   }
-  ]
- },
- {
   "id": 204,
   "slug": "m02-04-vidy-oshibok",
   "subject": "quran",
@@ -255,31 +240,16 @@
  },
  {
   "id": 208,
-  "slug": "m02-08-mushafy-usmana-1",
+  "slug": "m02-08-mushafy-usmana",
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "2. Таджвид и история Корана",
-  "title": "Мусхафы Усмана (часть 1)",
+  "title": "Мусхафы Усмана",
   "blocks": [
    {
     "type": "theory",
-    "title": "Мусхафы Усмана (часть 1)",
+    "title": "Мусхафы Усмана",
     "source": "m02_08_mushafy-usmana-1.md"
-   }
-  ]
- },
- {
-  "id": 209,
-  "slug": "m02-09-mushafy-usmana-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "2. Таджвид и история Корана",
-  "title": "Мусхафы Усмана (часть 2)",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мусхафы Усмана (часть 2)",
-    "source": "m02_09_mushafy-usmana-2.md"
    }
   ]
  },
@@ -300,31 +270,16 @@
  },
  {
   "id": 211,
-  "slug": "m02-11-ustnaya-peredacha-1",
+  "slug": "m02-11-ustnaya-peredacha",
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "2. Таджвид и история Корана",
-  "title": "Устная передача Корана (часть 1)",
+  "title": "Устная передача Корана",
   "blocks": [
    {
     "type": "theory",
-    "title": "Устная передача Корана (часть 1)",
+    "title": "Устная передача Корана",
     "source": "m02_11_ustnaya-peredacha-1.md"
-   }
-  ]
- },
- {
-  "id": 212,
-  "slug": "m02-12-ustnaya-peredacha-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "2. Таджвид и история Корана",
-  "title": "Устная передача Корана (часть 2)",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Устная передача Корана (часть 2)",
-    "source": "m02_12_ustnaya-peredacha-2.md"
    }
   ]
  },
@@ -846,21 +801,6 @@
   ]
  },
  {
-  "id": 504,
-  "slug": "m05-04-dolgoty-bukv",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "5. Свойства букв (сыфаты)",
-  "title": "Длительности (времена) букв",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Длительности (времена) букв",
-    "source": "m05_04_dolgoty-bukv.md"
-   }
-  ]
- },
- {
   "id": 505,
   "slug": "m05-05-podyom-ponizhenie",
   "subject": "quran",
@@ -926,72 +866,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "5. Свойства букв (сыфаты)",
-  "title": "Свойства: КАЛЬКАЛЯ (часть 1)",
+    "title": "Свойства: КАЛЬКАЛЯ",
   "blocks": [
    {
     "type": "theory",
-    "title": "Свойства: КАЛЬКАЛЯ (часть 1)",
+    "title": "Свойства: КАЛЬКАЛЯ",
     "source": "m05_09_kalkalya-1.md"
-   }
-  ]
- },
- {
-  "id": 510,
-  "slug": "m05-10-kalkalya-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "5. Свойства букв (сыфаты)",
-  "title": "Калькаля (2): сравнение трёх состояний буквы",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Калькаля (2): сравнение трёх состояний буквы",
-    "source": "m05_10_kalkalya-2.md"
-   }
-  ]
- },
- {
-  "id": 511,
-  "slug": "m05-11-kalkalya-zamechaniya",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "5. Свойства букв (сыфаты)",
-  "title": "Калькаля: важные замечания",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Калькаля: важные замечания",
-    "source": "m05_11_kalkalya-zamechaniya.md"
-   }
-  ]
- },
- {
-  "id": 512,
-  "slug": "m05-12-kalkalya-oshibki",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "5. Свойства букв (сыфаты)",
-  "title": "Ошибки при произнесении калькаля",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Ошибки при произнесении калькаля",
-    "source": "m05_12_kalkalya-oshibki.md"
-   }
-  ]
- },
- {
-  "id": 513,
-  "slug": "m05-13-kalkalya-stepeni",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "5. Свойства букв (сыфаты)",
-  "title": "Две степени калькаля",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Две степени калькаля",
-    "source": "m05_13_kalkalya-stepeni.md"
    }
   ]
  },
