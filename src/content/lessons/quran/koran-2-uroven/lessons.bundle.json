@@ -1614,72 +1614,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "10. Идгам",
-  "title": "Идгам однородных букв (часть 1)",
+  "title": "Идгам однородных букв",
   "blocks": [
    {
     "type": "theory",
-    "title": "Идгам однородных букв (часть 1)",
+    "title": "Идгам однородных букв",
     "source": "m10_05_idgam-odnorodnyh-1.md"
-   }
-  ]
- },
- {
-  "id": 1006,
-  "slug": "m10-06-idgam-odnorodnyh-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "10. Идгам",
-  "title": "Идгам однородных (часть 2): ل → ر",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Идгам однородных (часть 2): ل → ر",
-    "source": "m10_06_idgam-odnorodnyh-2.md"
-   }
-  ]
- },
- {
-  "id": 1007,
-  "slug": "m10-07-idgam-odnorodnyh-3",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "10. Идгам",
-  "title": "Идгам однородных (часть 3): ث → ذ",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Идгам однородных (часть 3): ث → ذ",
-    "source": "m10_07_idgam-odnorodnyh-3.md"
-   }
-  ]
- },
- {
-  "id": 1008,
-  "slug": "m10-08-idgam-odnorodnyh-4",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "10. Идгам",
-  "title": "Идгам однородных (часть 4): ب → م",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Идгам однородных (часть 4): ب → م",
-    "source": "m10_08_idgam-odnorodnyh-4.md"
-   }
-  ]
- },
- {
-  "id": 1009,
-  "slug": "m10-09-idgam-odnorodnyh-5",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "10. Идгам",
-  "title": "Идгам однородных (часть 5): ط → ت (неполный)",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Идгам однородных (часть 5): ط → ت (неполный)",
-    "source": "m10_09_idgam-odnorodnyh-5.md"
    }
   ]
  },
