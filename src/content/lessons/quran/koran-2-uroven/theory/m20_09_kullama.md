@@ -4,7 +4,9 @@ order: 2009
 ---
 # «<span class="arab">كلّما</span>»
 
-Аль-Джазари: «<span class="arab">وَكُلَّ مَا سَأَلْتُمُوهُ</span> ... <span class="arab">وَاخْتُلِفْ رُدُّوا</span>».
+Аль-Джазари:
+
+> **<span class="arab">وَكُلَّ مَا سَأَلْتُمُوهُ</span> ... <span class="arab">وَاخْتُلِفْ رُدُّوا</span>**.
 
 ## Раздельно «<span class="arab">كُلَّ مَا</span>» — 1 место
 

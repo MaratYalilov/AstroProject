@@ -4,7 +4,9 @@ order: 1211
 ---
 # Идгам: исключение 1 — «нун» и буква идгама в одном слове
 
-Слова аль-Джазари: «**<span class="arab">وَأَدْغِمَنْ بِغُنَّةٍ فِي يُومِنُوا</span> ∗∗∗ <span class="arab">إِلَّا بِكِلْمَةٍ كَدُنْيَا عَنْوَنُوا</span>**».
+Слова аль-Джазари:
+
+> **<span class="arab">إِلَّا بِكِلْمَةٍ؛ كَـ «دُنْيَا، عَنْوَنُوا»</span> … <span class="arab">وَأَدْغِمَنْ بِغُنَّةٍ فِي: «يُومِنُ»</span>**.
 
 ## Суть исключения
 
@@ -21,7 +23,9 @@ order: 1211
 - **<span class="arab">صِنْوَان</span>** (<span class="arab">نْ</span> + <span class="arab">و</span>) — «<span class="arab">صِنْوَانٌ وَغَيْرُ صِنْوَانٍ</span>» (сура «ар-Раад»);
 - **<span class="arab">قِنْوَان</span>** (<span class="arab">نْ</span> + <span class="arab">و</span>).
 
-## Почему аль-Джазари привёл «<span class="arab">عَنْوَنُوا</span>»
+## Почему аль-Джазари привёл
+
+> **<span class="arab">عَنْوَنُوا</span>**
 
 Слово «<span class="arab">دُنْيَا</span>» — кораническое (пример на «<span class="arab">نْ</span> + <span class="arab">ي</span>»). А вот примера на «<span class="arab">نْ</span> + <span class="arab">و</span>» из Корана он **не смог** вставить (стих написан размером **раджаз**, «<span class="arab">مُسْتَفْعِلُنْ</span>» шесть раз, и «<span class="arab">صِنْوَان</span>»/«<span class="arab">قِنْوَان</span>» в размер не легли). Поэтому он взял **некораническое** «<span class="arab">عَنْوَنُوا</span>» («озаглавили»: «<span class="arab">عَنْوَنَ الْكِتَابَ</span>» — дал книге заглавие).
 

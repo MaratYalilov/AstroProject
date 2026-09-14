@@ -2063,27 +2063,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "12. Правила нун с сукуном и танвина",
-  "title": "Кальб (часть 1)",
+  "title": "Кальб",
   "blocks": [
    {
     "type": "theory",
-    "title": "Кальб (часть 1)",
+    "title": "Кальб",
     "source": "m12_14_kalb-1.md"
-   }
-  ]
- },
- {
-  "id": 1215,
-  "slug": "m12-15-kalb-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "12. Правила нун с сукуном и танвина",
-  "title": "Кальб (часть 2): с гунной",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Кальб (часть 2): с гунной",
-    "source": "m12_15_kalb-2.md"
    }
   ]
  },
@@ -2123,27 +2108,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "12. Правила нун с сукуном и танвина",
-  "title": "Ихфа (часть 1)",
+  "title": "Ихфа: теория и практика",
   "blocks": [
    {
     "type": "theory",
-    "title": "Ихфа (часть 1)",
+    "title": "Ихфа: теория и практика",
     "source": "m12_18_ihfa-1.md"
-   }
-  ]
- },
- {
-  "id": 1219,
-  "slug": "m12-19-ihfa-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "12. Правила нун с сукуном и танвина",
-  "title": "Ихфа (часть 2): теория и практика",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Ихфа (часть 2): теория и практика",
-    "source": "m12_19_ihfa-2.md"
    }
   ]
  },

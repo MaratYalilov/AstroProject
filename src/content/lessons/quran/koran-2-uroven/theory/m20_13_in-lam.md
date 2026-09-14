@@ -4,7 +4,9 @@ order: 2013
 ---
 # «<span class="arab">إن لم</span>» (<span class="arab">وصل فإن لم هود</span>)
 
-Аль-Джазари: «<span class="arab">وَصِلْ فَإِنْ لَمْ هُودَ</span>».
+Аль-Джазари:
+
+> **<span class="arab">وَصِلْ فَإِنْ لَمْ هُودَ</span>**.
 
 ## Слитно «<span class="arab">فَإِنْ لَمْ</span>» — 1 место
 

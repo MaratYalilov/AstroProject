@@ -4,7 +4,11 @@ order: 808
 ---
 # Сочетание <span class="arab">قْ</span> + <span class="arab">ك</span> (слово <span class="arab">نَخْلُقكُّمْ</span>)
 
-Имам аль-Джазари: **«<span class="arab">وَالْخُلْفُ بِنَخْلُقْكُّمْ وَقَعْ</span>»**.
+Имам аль-Джазари: **
+
+> **<span class="arab">وَالْخُلْفُ بِنَخْلُقْكُّمْ وَقَعْ</span>**
+
+**.
 
 ## Слово <span class="arab">نَخْلُقكُّمْ</span>
 

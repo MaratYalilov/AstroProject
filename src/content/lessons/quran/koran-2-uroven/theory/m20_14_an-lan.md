@@ -4,7 +4,9 @@ order: 2014
 ---
 # «<span class="arab">أن لن</span>» (<span class="arab">صل أن لن نجعل، نجمع</span>)
 
-Аль-Джазари: «<span class="arab">صِلْ</span> ... <span class="arab">أَنْ لَنْ نُجْعَلْ، نَجْمَعْ</span>».
+Аль-Джазари:
+
+> **<span class="arab">صِلْ</span> ... <span class="arab">أَنْ لَنْ نُجْعَلْ، نَجْمَعْ</span>**.
 
 ## Слитно «<span class="arab">أَلَّنْ</span>» — 2 места
 
