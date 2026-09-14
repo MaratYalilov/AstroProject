@@ -1247,27 +1247,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "8. Правило Лям и другие",
-  "title": "Степени твёрдости (часть 1)",
+  "title": "Степени твёрдости",
   "blocks": [
    {
     "type": "theory",
-    "title": "Степени твёрдости (часть 1)",
+    "title": "Степени твёрдости",
     "source": "m08_03_stepeni-tverdosti-1.md"
-   }
-  ]
- },
- {
-  "id": 804,
-  "slug": "m08-04-stepeni-tverdosti-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "8. Правило Лям и другие",
-  "title": "Степени твёрдости (часть 2)",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Степени твёрдости (часть 2)",
-    "source": "m08_04_stepeni-tverdosti-2.md"
    }
   ]
  },
@@ -1367,27 +1352,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "8. Правило Лям и другие",
-  "title": "Произношение ك и ت (часть 1)",
+  "title": "Произношение ك и ت",
   "blocks": [
    {
     "type": "theory",
-    "title": "Произношение ك и ت (часть 1)",
+    "title": "Произношение ك и ت",
     "source": "m08_11_kaf-ta-1.md"
-   }
-  ]
- },
- {
-  "id": 812,
-  "slug": "m08-12-kaf-ta-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "8. Правило Лям и другие",
-  "title": "Произношение ك и ت (часть 2)",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Произношение ك и ت (часть 2)",
-    "source": "m08_12_kaf-ta-2.md"
    }
   ]
  },
@@ -1599,27 +1569,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "10. Идгам",
-  "title": "Соседние (встречающиеся) буквы — часть 1",
+  "title": "Соседние (встречающиеся) буквы",
   "blocks": [
    {
     "type": "theory",
-    "title": "Соседние (встречающиеся) буквы — часть 1",
+    "title": "Соседние (встречающиеся) буквы",
     "source": "m10_01_sosednie-bukvy-1.md"
-   }
-  ]
- },
- {
-  "id": 1002,
-  "slug": "m10-02-sosednie-bukvy-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "10. Идгам",
-  "title": "Соседние буквы — часть 2 (четыре вида)",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Соседние буквы — часть 2 (четыре вида)",
-    "source": "m10_02_sosednie-bukvy-2.md"
    }
   ]
  },
@@ -1644,11 +1599,11 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "10. Идгам",
-  "title": "Идгам одинаковых букв (митляйн)",
+  "title": "Идгам одинаковых букв (мутамасилайн)",
   "blocks": [
    {
     "type": "theory",
-    "title": "Идгам одинаковых букв (митляйн)",
+    "title": "Идгам одинаковых букв (мутамасилайн)",
     "source": "m10_04_idgam-odinakovyh.md"
    }
   ]
