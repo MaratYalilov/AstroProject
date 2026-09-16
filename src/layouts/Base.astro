@@ -17,9 +17,17 @@ const { title = "Lesson" } = Astro.props as { title?: string };
           var m = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
           var dark = ls ? ls === 'dark' : m;
           if (dark) document.documentElement.classList.add('dark');
+          document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
           document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
         } catch (e) {}
       })();
+    </script>
+
+    <!-- Диаграммы Mermaid: клик по схеме открывает попап с зумом -->
+    <script>
+      import { initMermaidModal } from "../utils/mermaidModal";
+
+      initMermaidModal();
     </script>
 
     <!-- Quran audio: плейлисты + кастомная кнопка play/pause -->

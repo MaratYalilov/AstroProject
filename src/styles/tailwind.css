@@ -1140,3 +1140,195 @@ footer {
 .theory-divider {
   @apply my-6 border-t border-gray-200 dark:border-white/10;
 }
+
+/* ==========================================
+   MERMAID
+   Диаграммы вставляются как <pre class="mermaid">, SVG рисует astro-mermaid.
+   Подписи — свои <p> внутри SVG, и на них попадала типографика статьи
+   ([&_p]:text-lg, [&_p]:leading-8, [&_p]:my-5): размер и межстрочный интервал
+   становились больше, чем mermaid посчитал при разметке узла, — вторая строка
+   вылезала за рамку и обрезалась. Возвращаем подписи к параметрам mermaid.
+========================================== */
+pre.mermaid .nodeLabel p,
+pre.mermaid .edgeLabel p {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: 1.5;
+  font-weight: inherit;
+  letter-spacing: normal;
+  color: inherit;
+  background: transparent;
+}
+
+/* Не даём браузеру ужимать схему под ширину колонки: вместе с SVG
+   масштабируется текст (было ~11px вместо 18px). Широкие схемы прокручиваются
+   внутри блока. !important — стили astro-mermaid вставляются в <head> позже
+   нашей таблицы стилей и перебивают обычные правила с той же специфичностью.
+   display: block вместо flex — во flex-контейнере браузер не отдаёт правый
+   край широкой схемы в прокрутку (scrollWidth меньше реальной ширины). */
+pre.mermaid {
+  display: block !important;
+  overflow-x: auto !important;
+}
+
+pre.mermaid svg {
+  display: block !important;
+  margin-inline: auto;
+  max-width: none !important;
+  height: auto !important;
+}
+
+/* На телефоне полная ширина схемы требует много прокрутки — показываем целиком. */
+@media (max-width: 768px) {
+  pre.mermaid svg {
+    max-width: 100% !important;
+  }
+}
+
+/* Арабский внутри подписи: класс .arab (AmiriLocal + RTL), но своим размером —
+   у .arab он clamp(1.6rem…1.8rem) для текста статьи, в узле это слишком много.
+   Небольшой запас (1.35em) — Amiri при том же кегле мельче Optima/Trebuchet. */
+pre.mermaid .arab,
+.mermaid-modal .arab {
+  font-size: 1.35em;
+  line-height: 1.4;
+}
+
+/* Клик по схеме открывает её в оверлее — src/utils/mermaidModal.ts */
+pre.mermaid {
+  cursor: zoom-in;
+}
+
+pre.mermaid[data-processed]::after {
+  content: "";
+  position: absolute;
+  top: 0.35rem;
+  right: 0.45rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 0.5rem;
+  background-color: hsl(var(--secondary) / 0.75);
+  /* Иконка «развернуть» инлайном: не зависит от шрифтов и эмодзи. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cpolyline points='9 21 3 21 3 15'/%3E%3Cline x1='21' y1='3' x2='14' y2='10'/%3E%3Cline x1='3' y1='21' x2='10' y2='14'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.95rem 0.95rem;
+  opacity: 0.75;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+pre.mermaid[data-processed]:hover::after {
+  opacity: 1;
+}
+
+.mermaid-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: flex;
+  padding: 1rem;
+}
+
+.mermaid-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(2 6 23 / 0.7);
+  backdrop-filter: blur(4px);
+}
+
+.mermaid-modal__panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(96vw, 1700px);
+  height: min(92vh, 1100px);
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid hsl(var(--border));
+  border-radius: 1rem;
+  background-color: hsl(var(--background));
+  box-shadow: 0 25px 60px -20px rgb(0 0 0 / 0.6);
+}
+
+.mermaid-modal__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.mermaid-modal__btn {
+  min-width: 2.25rem;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.6rem;
+  background-color: hsl(var(--secondary) / 0.6);
+  color: hsl(var(--foreground));
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.mermaid-modal__btn:hover {
+  background-color: hsl(var(--secondary));
+}
+
+.mermaid-modal__btn:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
+
+.mermaid-modal__btn--value {
+  min-width: 4.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.mermaid-modal__btn--close {
+  margin-left: 0.35rem;
+}
+
+.mermaid-modal__stage {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  background-color: hsl(var(--secondary) / 0.35);
+  cursor: grab;
+  touch-action: none;
+}
+
+.mermaid-modal__stage.is-dragging {
+  cursor: grabbing;
+}
+
+.mermaid-modal__canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.mermaid-modal__canvas svg {
+  display: block;
+  max-width: none !important;
+  height: auto !important;
+}
+
+@media (max-width: 640px) {
+  .mermaid-modal {
+    padding: 0;
+  }
+
+  .mermaid-modal__panel {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+  }
+}

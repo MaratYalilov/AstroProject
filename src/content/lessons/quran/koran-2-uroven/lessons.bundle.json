@@ -2395,21 +2395,6 @@
   ]
  },
  {
-  "id": 1309,
-  "slug": "m13-09-badal-nazvanie",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд бадаль: почему так называется",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд бадаль: почему так называется",
-    "source": "m13_09_badal-nazvanie.md"
-   }
-  ]
- },
- {
   "id": 1310,
   "slug": "m13-10-ivad",
   "subject": "quran",
@@ -2425,77 +2410,17 @@
   ]
  },
  {
-  "id": 1311,
-  "slug": "m13-11-ivad-zamechaniya",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд ивад: два замечания",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд ивад: два замечания",
-    "source": "m13_11_ivad-zamechaniya.md"
-   }
-  ]
- },
- {
   "id": 1312,
   "slug": "m13-12-sylya-1",
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "13. Мадд",
-  "title": "Мадд сыля: определение и замечание 1",
+  "title": "Мадд сыля",
   "blocks": [
    {
     "type": "theory",
-    "title": "Мадд сыля: определение и замечание 1",
+    "title": "Мадд сыля",
     "source": "m13_12_sylya-1.md"
-   }
-  ]
- },
- {
-  "id": 1313,
-  "slug": "m13-13-sylya-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд сыля: замечание 2 — где сыля НЕТ",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд сыля: замечание 2 — где сыля НЕТ",
-    "source": "m13_13_sylya-2.md"
-   }
-  ]
- },
- {
-  "id": 1314,
-  "slug": "m13-14-sylya-3",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд сыля: замечание 3 — два исключения у Хафса",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд сыля: замечание 3 — два исключения у Хафса",
-    "source": "m13_14_sylya-3.md"
-   }
-  ]
- },
- {
-  "id": 1315,
-  "slug": "m13-15-sylya-4",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд сыля: замечание 4 — слово هَٰذِهِ",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд сыля: замечание 4 — слово هَٰذِهِ",
-    "source": "m13_15_sylya-4.md"
    }
   ]
  },
@@ -2535,42 +2460,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "13. Мадд",
-  "title": "Мадд лязим (обязательный): определение",
+  "title": "Мадд лязим: определение, виды и знак в мусхафе",
   "blocks": [
    {
     "type": "theory",
-    "title": "Мадд лязим (обязательный): определение",
+    "title": "Мадд лязим: определение, виды и знак в мусхафе",
     "source": "m13_18_lyazim.md"
-   }
-  ]
- },
- {
-  "id": 1319,
-  "slug": "m13-19-lyazim-vidy",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд лязим: виды и долгота",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд лязим: виды и долгота",
-    "source": "m13_19_lyazim-vidy.md"
-   }
-  ]
- },
- {
-  "id": 1320,
-  "slug": "m13-20-znak-madda-mushaf",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Знак мадда в мусхафе",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Знак мадда в мусхафе",
-    "source": "m13_20_znak-madda-mushaf.md"
    }
   ]
  },
@@ -2580,27 +2475,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "13. Мадд",
-  "title": "«Разрозненные буквы» Корана (часть 1)",
+  "title": "«Разрозненные буквы» Корана: правила и группы по мадду",
   "blocks": [
    {
     "type": "theory",
-    "title": "«Разрозненные буквы» Корана (часть 1)",
+    "title": "«Разрозненные буквы» Корана: правила и группы по мадду",
     "source": "m13_21_razroznennye-1.md"
-   }
-  ]
- },
- {
-  "id": 1322,
-  "slug": "m13-22-razroznennye-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "«Разрозненные буквы» Корана (часть 2): четыре группы по мадду",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "«Разрозненные буквы» Корана (часть 2): четыре группы по мадду",
-    "source": "m13_22_razroznennye-2.md"
    }
   ]
  },
@@ -2610,27 +2490,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "13. Мадд",
-  "title": "Мадд муттасыль (связный, необходимый)",
+  "title": "Мадд муттасыль: правило и слово هَاؤُمُ",
   "blocks": [
    {
     "type": "theory",
-    "title": "Мадд муттасыль (связный, необходимый)",
+    "title": "Мадд муттасыль: правило и слово هَاؤُمُ",
     "source": "m13_23_muttasyl.md"
-   }
-  ]
- },
- {
-  "id": 1324,
-  "slug": "m13-24-muttasyl-haumu",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд муттасыль: слово هَاؤُمُ",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд муттасыль: слово هَاؤُمُ",
-    "source": "m13_24_muttasyl-haumu.md"
    }
   ]
  },
@@ -2640,27 +2505,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "13. Мадд",
-  "title": "Мадд мунфасыль (раздельный, допустимый)",
+  "title": "Мадд мунфасыль: правило и важные замечания",
   "blocks": [
    {
     "type": "theory",
-    "title": "Мадд мунфасыль (раздельный, допустимый)",
+    "title": "Мадд мунфасыль: правило и важные замечания",
     "source": "m13_25_munfasyl.md"
-   }
-  ]
- },
- {
-  "id": 1326,
-  "slug": "m13-26-munfasyl-zamechaniya",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд мунфасыль: два замечания",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд мунфасыль: два замечания",
-    "source": "m13_26_munfasyl-zamechaniya.md"
    }
   ]
  },
@@ -2700,42 +2550,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "13. Мадд",
-  "title": "Мадд лин (девятый, последний)",
+  "title": "Мадд лин: правило, соотношение с аридом и постоянство меры",
   "blocks": [
    {
     "type": "theory",
-    "title": "Мадд лин (девятый, последний)",
+    "title": "Мадд лин: правило, соотношение с аридом и постоянство меры",
     "source": "m13_29_lin.md"
-   }
-  ]
- },
- {
-  "id": 1330,
-  "slug": "m13-30-lin-zamechanie-1",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд лин: замечание 1 — он не длиннее арид ли-сукун",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд лин: замечание 1 — он не длиннее арид ли-сукун",
-    "source": "m13_30_lin-zamechanie-1.md"
-   }
-  ]
- },
- {
-  "id": 1331,
-  "slug": "m13-31-lin-zamechanie-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Мадд лин: замечание 2 — постоянство меры в одном чтении",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Мадд лин: замечание 2 — постоянство меры в одном чтении",
-    "source": "m13_31_lin-zamechanie-2.md"
    }
   ]
  },
@@ -2775,57 +2595,12 @@
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "13. Мадд",
-  "title": "Правило сильного мадда: введение",
+  "title": "Правило сильнейшей из двух причин мадда",
   "blocks": [
    {
     "type": "theory",
-    "title": "Правило сильного мадда: введение",
+    "title": "Правило сильнейшей из двух причин мадда",
     "source": "m13_34_silnyj-vvedenie.md"
-   }
-  ]
- },
- {
-  "id": 1335,
-  "slug": "m13-35-sravnenie",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Сравнение маддов по силе",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Сравнение маддов по силе",
-    "source": "m13_35_sravnenie.md"
-   }
-  ]
- },
- {
-  "id": 1336,
-  "slug": "m13-36-silnejshaya-prichina",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Правило сильнейшей из двух причин: формулировка",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило сильнейшей из двух причин: формулировка",
-    "source": "m13_36_silnejshaya-prichina.md"
-   }
-  ]
- },
- {
-  "id": 1337,
-  "slug": "m13-37-silnyj-zamechaniya",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "13. Мадд",
-  "title": "Правило сильного мадда: замечания",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило сильного мадда: замечания",
-    "source": "m13_37_silnyj-zamechaniya.md"
    }
   ]
  },
@@ -3513,121 +3288,16 @@
  },
  {
   "id": 1718,
-  "slug": "m17-18-hafs-1",
+  "slug": "m17-18-hafs",
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "17. Остановка и начало",
-  "title": "Правило Хафса (1): следование расму мусхафа",
+  "title": "Правило Хафса: следование расму мусхафа",
   "blocks": [
    {
     "type": "theory",
-    "title": "Правило Хафса (1): следование расму мусхафа",
+    "title": "Правило Хафса: следование расму мусхафа",
     "source": "m17_18_hafs-1.md"
-   }
-  ]
- },
- {
-  "id": 1719,
-  "slug": "m17-19-hafs-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Правило Хафса (2): «макту'» и «маусуль»",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило Хафса (2): «макту'» и «маусуль»",
-    "source": "m17_19_hafs-2.md"
-   }
-  ]
- },
- {
-  "id": 1720,
-  "slug": "m17-20-hafs-3-alif",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Правило Хафса (3): удалённый алиф",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило Хафса (3): удалённый алиф",
-    "source": "m17_20_hafs-3-alif.md"
-   }
-  ]
- },
- {
-  "id": 1721,
-  "slug": "m17-21-hafs-4-vav",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Правило Хафса (4): удалённый вав",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило Хафса (4): удалённый вав",
-    "source": "m17_21_hafs-4-vav.md"
-   }
-  ]
- },
- {
-  "id": 1722,
-  "slug": "m17-22-hafs-5-ya",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Правило Хафса (5): удалённая йа",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило Хафса (5): удалённая йа",
-    "source": "m17_22_hafs-5-ya.md"
-   }
-  ]
- },
- {
-  "id": 1723,
-  "slug": "m17-23-hafs-6-maktu",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Правило Хафса (6): «макту'» и слитные слова",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило Хафса (6): «макту'» и слитные слова",
-    "source": "m17_23_hafs-6-maktu.md"
-   }
-  ]
- },
- {
-  "id": 1724,
-  "slug": "m17-24-hafs-7-ya-ha",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Правило Хафса 7: частицы «йā» и «хā»",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило Хафса 7: частицы «йā» и «хā»",
-    "source": "m17_24_hafs-7-ya-ha.md"
-   }
-  ]
- },
- {
-  "id": 1725,
-  "slug": "m17-25-hafs-8-dve-ya",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Правило Хафса 8: слова с двумя «йа»",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Правило Хафса 8: слова с двумя «йа»",
-    "source": "m17_25_hafs-8-dve-ya.md"
    }
   ]
  },

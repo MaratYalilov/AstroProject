@@ -3,6 +3,7 @@ import { BookOpen, Sparkles } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
 import { marked } from "marked";
 import { replaceQuranTags } from "../../utils/replaceQuranTags";
+import { prepareMermaidBlocks, useMermaidRender } from "../../utils/mermaid";
 
 type TitleSegment = {
   text: string;
@@ -84,6 +85,10 @@ export default function TheoryReveal({
   const contentId = useId();
   const sectionRef = useRef<HTMLDivElement>(null);
 
+  // Диаграммы Mermaid появляются в DOM после подгрузки теории — просим
+  // astro-mermaid отрисовать их (см. src/utils/mermaid.ts).
+  useMermaidRender(html);
+
   useEffect(() => {
     if (html !== null || isLoading) return;
 
@@ -99,7 +104,7 @@ export default function TheoryReveal({
             const parsedHtml = await marked.parse(content);
             // Заменяем теги {Quran}...{/Quran} на HTML-блоки с аятами
             const htmlWithQuran = replaceQuranTags(parsedHtml);
-            setHtml(htmlWithQuran);
+            setHtml(prepareMermaidBlocks(htmlWithQuran));
           } catch (err) {
             console.error(err);
             setError("Не удалось загрузить теорию урока.");

@@ -31,16 +31,33 @@ order: 1505
 Оговорка «**<span class="arab">قَوَارِيرَ</span> первое**» исключает **второе** — «<span class="arab">قَوَارِيرَ مِنْ فِضَّةٍ</span>» (аль-Инсан, 16): его алиф опущен **и при васле, и при вакфе** (над ним — круглый сукун). В мусхафе: над первым «<span class="arab">قواريرا</span>» — продолговатый нолик, над вторым — круглый.
 
 
-![Семь алифатов: аят, сура, слово (1/3) — <span class="arab">أَنَا</span>, <span class="arab">لَكِنَّا</span>](/media/quran/koran-2-uroven/img/m15/seven_alifs_table_1.png)
+## Примеры в аятах
 
-*Семь алифатов: аят, сура, слово (1/3) — <span class="arab">أَنَا</span>, <span class="arab">لَكِنَّا</span>*
-
-
-![Семь алифатов: аят, сура, слово (2/3) — <span class="arab">الظُّنُونَا</span>, <span class="arab">الرَّسُولَا</span>, <span class="arab">السَّبِيلَا</span>](/media/quran/koran-2-uroven/img/m15/seven_alifs_table_2.png)
-
-*Семь алифатов: аят, сура, слово (2/3) — <span class="arab">الظُّنُونَا</span>, <span class="arab">الرَّسُولَا</span>, <span class="arab">السَّبِيلَا</span>*
-
-
-![Семь алифатов: аят, сура, слово (3/3) — <span class="arab">سَلَاسِلَا</span>, <span class="arab">قَوَارِيرَا</span>](/media/quran/koran-2-uroven/img/m15/seven_alifs_table_3.png)
-
-*Семь алифатов: аят, сура, слово (3/3) — <span class="arab">سَلَاسِلَا</span>, <span class="arab">قَوَارِيرَا</span>*
+<div class="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+  <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">1) <span class="arab">أَنَا</span> — Поэты 26:115</p>
+  {Quran}26:115{/Quran}
+</div>
+<div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+  <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">2) <span class="arab">لَكِنَّا</span> — Пещера 18:38</p>
+  {Quran}18:38{/Quran}
+</div>
+<div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+  <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">3) <span class="arab">الظُّنُونَا</span> — Союзники 33:10</p>
+  {Quran}33:10{/Quran}
+</div>
+<div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+  <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">4) <span class="arab">الرَّسُولَا</span> — Союзники 33:66</p>
+  {Quran}33:66{/Quran}
+</div>
+<div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+  <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">5) <span class="arab">السَّبِيلَا</span> — Союзники 33:67</p>
+  {Quran}33:67{/Quran}
+</div>
+<div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+  <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">6) <span class="arab">سَلَاسِلَا</span> — Человек 76:4</p>
+  {Quran}76:4{/Quran}
+</div>
+<div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+  <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">7) <span class="arab">قَوَارِيرَا</span> — Человек 76:15</p>
+  {Quran}76:15{/Quran}
+</div>
