@@ -3468,46 +3468,16 @@
  },
  {
   "id": 1737,
-  "slug": "m17-37-proverochnoe-1",
+  "slug": "m17-37-proverochnoe",
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "17. Остановка и начало",
-  "title": "Проверочное начало (1)",
+  "title": "Проверочное начало (ибтида): сводные примеры",
   "blocks": [
    {
     "type": "theory",
-    "title": "Проверочное начало (1)",
-    "source": "m17_37_proverochnoe-1.md"
-   }
-  ]
- },
- {
-  "id": 1738,
-  "slug": "m17-38-proverochnoe-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Проверочное начало (2)",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Проверочное начало (2)",
-    "source": "m17_38_proverochnoe-2.md"
-   }
-  ]
- },
- {
-  "id": 1739,
-  "slug": "m17-39-proverochnoe-3",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "17. Остановка и начало",
-  "title": "Проверочное начало (3): мнимая дамма третьей буквы",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Проверочное начало (3): мнимая дамма третьей буквы",
-    "source": "m17_39_proverochnoe-3.md"
+    "title": "Проверочное начало (ибтида): сводные примеры",
+    "source": "m17_37_proverochnoe.md"
    }
   ]
  },

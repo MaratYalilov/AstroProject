@@ -10,7 +10,7 @@ order: 1208
 
 - перед **<span class="arab">ي</span>**: **<span class="arab">مَنْ يَعْمَلْ</span>**<span class="arab">،</span> **<span class="arab">خَيْرًا يَرَهُ</span>** — язык переходит к «йа», но гунна удлиняется в полную;
 - перед **<span class="arab">و</span>**: **<span class="arab">مَنْ وَلِيٍّ</span>**<span class="arab">،</span> **<span class="arab">شَيْءٌ وَكِيلٌ</span>** — переход к «вав», от «нун» остаётся лишь её гунна;
-- перед **<span class="arab">م</span>**: **<span class="arab">مِنْ مَالٍ</span>** → «<span class="arab">م</span>-мал», **<span class="arab">خَيْرٌ مِنْ</span>** — «нун»/танвин обращается в «мим», даёт удвоённую «мим» с **полной** гунной (по правилу «<span class="arab">وَأَظْهِرِ الْغُنَّةَ مِنْ نُونٍ وَمِنْ مِيمٍ إِذَا مَا شُدِّدَا</span>»);
+- перед **<span class="arab">م</span>**: **<span class="arab">مِنْ مَالٍ</span>** → «<span class="arab">م</span>-мал», **<span class="arab">خَيْرٌ مِنْ</span>** — «нун»/танвин обращается в «мим», даёт удвоённую «мим» с **полной** гунной (по правилу «<span class="arab">وَأَظْهِرِ الغُنَّةَ مِنْ: نُونٍ، وَمِنْ … مِيمٍ؛ إِذَا مَا شُدِّدَا، وَأَخْفِيَنْ</span>»);
 - перед **<span class="arab">ن</span>**: **<span class="arab">وَلَنْ نُشْرِكَ</span>**<span class="arab">،</span> **<span class="arab">شَيْءٌ نُكْرٌ</span>** — две «нун» дают удвоённую «нун» с полной гунной.
 
 ## Идгам без гунны (перед <span class="arab">ل، ر</span>)
