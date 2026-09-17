@@ -14,12 +14,12 @@ order: 1902
 
 Третья буква с **коренной (асли) даммой** → хамза с **даммой**:
 
-- **<span class="arab">اسْكُنْ</span>** («каф» с даммой), **<span class="arab">ادْعُ</span>** («<span class="arab">عين</span>» с даммой: «<span class="arab">ادْعُ إِلَى سَبِيلِ رَبِّكَ</span>»), **<span class="arab">اركُضْ</span>**<span class="arab">،</span> **<span class="arab">اجْتُثَّتْ</span>**<span class="arab">،</span> **<span class="arab">انْظُرْ</span>**.
+- **<span class="arab">اسْكُنْ</span>** («каф» с даммой), **<span class="arab">ادْعُ</span>** («<span class="arab">عين</span>» с даммой: «<span class="arab">ٱدۡعُ إِلَىٰ سَبِيلِ رَبِّكَ</span>»), **<span class="arab">اركُضْ</span>**<span class="arab">،</span> **<span class="arab">اجْتُثَّتْ</span>**<span class="arab">،</span> **<span class="arab">انْظُرْ</span>**.
 
 ## С кясрой — в остальных случаях
 
-1. третья буква **с кясрой**: **<span class="arab">اصْبِرْ</span>** («<span class="arab">صبر</span>» с кясрой), **<span class="arab">اكْشِفْ</span>** («<span class="arab">رَبَّنَا اكْشِفْ عَنَّا الْعَذَابَ</span>»);
-2. третья буква **с фатхой**: **<span class="arab">اذْهَبْ</span>** («<span class="arab">اذْهَبْ أَنْتَ وَأَخُوكَ</span>»), **<span class="arab">اتَّقُوا</span>**<span class="arab">،</span> **<span class="arab">اسْتَغْفِرْ</span>**;
+1. третья буква **с кясрой**: **<span class="arab">اصْبِرْ</span>** («<span class="arab">صبر</span>» с кясрой), **<span class="arab">اكْشِفْ</span>** («<span class="arab">رَّبَّنَا ٱكۡشِفۡ عَنَّا ٱلۡعَذَابَ</span>»);
+2. третья буква **с фатхой**: **<span class="arab">اذْهَبْ</span>** («<span class="arab">ٱذۡهَبۡ أَنتَ وَأَخُوكَ</span>»), **<span class="arab">اتَّقُوا</span>**<span class="arab">،</span> **<span class="arab">اسْتَغْفِرْ</span>**;
 3. третья буква с **временной (арид) даммой** — от соседства «вав» множества (см. ниже).
 
 ## Пять глаголов: дамма мнимая → начинают с КЯСРОЙ

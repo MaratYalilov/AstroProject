@@ -8,13 +8,13 @@ order: 1505
 
 ## Семь мест
 
-1. **<span class="arab">أَنَا</span>** — везде в Коране: «<span class="arab">أَنَا خَيْرٌ</span>» (васль) → «<span class="arab">أَنَا</span>» (вакф);
-2. **<span class="arab">لَكِنَّا</span>** (аль-Кахф, 38) — основа «<span class="arab">لَكِنْ أَنَا هُوَ اللَّهُ رَبِّي</span>» (обработано как «<span class="arab">أَنَا</span>»): «<span class="arab">لَكِنَّا هُوَ اللَّهُ</span>»;
-3. **<span class="arab">الظُّنُونَا</span>** (аль-Ахзаб, 10): «<span class="arab">وَتَظُنُّونَ بِاللَّهِ الظُّنُونَا</span>»;
-4. **<span class="arab">الرَّسُولَا</span>** (аль-Ахзаб, 66): «<span class="arab">وَأَطَعْنَا الرَّسُولَا</span>»;
-5. **<span class="arab">السَّبِيلَا</span>** (аль-Ахзаб, 67): «<span class="arab">فَأَضَلُّونَا السَّبِيلَا</span>»;
-6. **<span class="arab">سَلَاسِلَا</span>** (аль-Инсан, 4): «<span class="arab">إِنَّا أَعْتَدْنَا لِلْكَافِرِينَ سَلَاسِلَا</span>»;
-7. **<span class="arab">قَوَارِيرَا</span>** — **первое** (аль-Инсан, 15): «<span class="arab">كَانَتْ قَوَارِيرَا</span>».
+1. **<span class="arab">أَنَا</span>** — везде в Коране: «<span class="arab">أَنَا۠ خَيۡرٞ</span>» (васль) → «<span class="arab">أَنَا</span>» (вакф);
+2. **<span class="arab">لَكِنَّا</span>** (аль-Кахф, 38) — основа «<span class="arab">لَكِنْ أَنَا هُوَ اللَّهُ رَبِّي</span>» (обработано как «<span class="arab">أَنَا</span>»): «<span class="arab">لَّٰكِنَّا۠ هُوَ ٱللَّهُ</span>»;
+3. **<span class="arab">الظُّنُونَا</span>** (аль-Ахзаб, 10): «<span class="arab">وَتَظُنُّونَ بِٱللَّهِ ٱلظُّنُونَا۠</span>»;
+4. **<span class="arab">الرَّسُولَا</span>** (аль-Ахзаб, 66): «<span class="arab">وَأَطَعۡنَا ٱلرَّسُولَا۠</span>»;
+5. **<span class="arab">السَّبِيلَا</span>** (аль-Ахзаб, 67): «<span class="arab">فَأَضَلُّونَا ٱلسَّبِيلَا۠</span>»;
+6. **<span class="arab">سَلَاسِلَا</span>** (аль-Инсан, 4): «<span class="arab">إِنَّآ أَعۡتَدۡنَا لِلۡكَٰفِرِينَ سَلَٰسِلَاْ</span>»;
+7. **<span class="arab">قَوَارِيرَا</span>** — **первое** (аль-Инсан, 15): «<span class="arab">كَانَتۡ قَوَارِيرَا۠</span>».
 
 (<span class="arab">الظنون، الرسول، السبيل</span> — все в «аль-Ахзаб».)
 

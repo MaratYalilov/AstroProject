@@ -17,15 +17,15 @@ order: 1501
 **Способ 1: убрать первый (если это буква мадда):**
 
 - «<span class="arab">وَقَالَ الْحَمْدُ لِلَّهِ</span>» (алиф двойственности выпадает; при этом — лёгкий **набр** на «лям» «<span class="arab">قال</span>», чтобы слышалось, что алиф опущен);
-- «<span class="arab">وَإِذْ قَالُوا اللَّهُمَّ</span>» → «<span class="arab">قَالُ</span>-ллахумма»; «<span class="arab">أَفِي اللَّهِ شَكٌّ</span>» → «<span class="arab">أَفِ</span>-ллах». При остановке буква мадда **возвращается**.
+- «<span class="arab">وَإِذۡ قَالُواْ ٱللَّهُمَّ</span>» → «<span class="arab">قَالُ</span>-ллахумма»; «<span class="arab">أَفِي ٱللَّهِ شَكّٞ</span>» → «<span class="arab">أَفِ</span>-ллах». При остановке буква мадда **возвращается**.
 
 **Способ 2: огласовать первый сукон** (если он «здоровый», буква лина или танвин):
 
-- **кясра** (основа): «<span class="arab">قُلِ اللَّهُمَّ</span>»<span class="arab">،</span> «<span class="arab">أَوِ اسْتَقَامُوا</span>»<span class="arab">،</span> «<span class="arab">لَوِ اسْتَطَعْنَا</span>»;
+- **кясра** (основа): «<span class="arab">قُلِ ٱللَّهُمَّ</span>»<span class="arab">،</span> «<span class="arab">أَوِ اسْتَقَامُوا</span>»<span class="arab">،</span> «<span class="arab">لَوِ ٱسۡتَطَعۡنَا</span>»;
 - **фатха** (легчайшая): «<span class="arab">مِنَ اللَّهِ</span>»<span class="arab">،</span> «<span class="arab">الم ۝ اللَّهُ</span>»;
-- **дамма** (мим множества): «<span class="arab">عَلَيْكُمُ الْقِتَالُ</span>»<span class="arab">،</span> «<span class="arab">بِهِمُ الْأَسْبَابُ</span>»;
+- **дамма** (мим множества): «<span class="arab">عَلَيۡكُمُ ٱلۡقِتَالُ</span>»<span class="arab">،</span> «<span class="arab">بِهِمُ ٱلۡأَسۡبَابُ</span>»;
 - **по однородности**: «<span class="arab">دَعَوُا اللَّهَ</span>» (вав → дамма), «<span class="arab">يَا صَاحِبَيِ السِّجْنِ</span>» (йа → кясра);
-- **танвин** → кясра: «<span class="arab">نُوحٍ ابْنَهُ</span>» → «<span class="arab">نُوحِنِ</span>-бнах», «<span class="arab">عَادًا الْأُولَى</span>» → «<span class="arab">عَادَنِ</span>-люля».
+- **танвин** → кясра: «<span class="arab">نُوحٌ ٱبۡنَهُۥ</span>» → «<span class="arab">نُوحِنِ</span>-бнах», «<span class="arab">عَادًا ٱلۡأُولَىٰ</span>» → «<span class="arab">عَادَنِ</span>-люля».
 
 ## Главное правило
 

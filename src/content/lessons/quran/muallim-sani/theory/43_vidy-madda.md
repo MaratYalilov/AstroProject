@@ -88,7 +88,7 @@ order: 44
           <td class="p-2">нет</td>
           <td class="p-2"><span class="arab">ــَـا ــِـى ــُـو</span></td>
           <td class="p-2">2</td>
-          <td class="p-2"><span class="arab">مَلِكِ ٱلنَّاسِ</span> (114:2)</td>
+          <td class="p-2"><span class="arab">مَلِكِ ٱلنَّاسِ</span> (114:2)</td>
         </tr>
         <tr>
           <td class="p-2">ʼивад</td>
@@ -102,7 +102,7 @@ order: 44
           <td class="p-2"><span class="arab">ء</span> в том же слове</td>
           <td class="p-2"><span class="arab">ــَـا ــِـى ــُـو</span></td>
           <td class="p-2">4–5</td>
-          <td class="p-2"><span class="arab">إِذَا جَآءَ</span> (110:1)</td>
+          <td class="p-2"><span class="arab">إِذَا جَآءَ</span> (110:1)</td>
         </tr>
         <tr>
           <td class="p-2">мунфасыль</td>
@@ -116,14 +116,14 @@ order: 44
           <td class="p-2"><span class="arab">ــۡـ</span> (<span class="arab">ــّـ</span>)</td>
           <td class="p-2"><span class="arab">ــَـا ــِـى ــُـو</span></td>
           <td class="p-2">6</td>
-          <td class="p-2"><span class="arab">وَلَا ٱلضَّآلِّينَ</span> (1:7)</td>
+          <td class="p-2"><span class="arab">وَلَا ٱلضَّآلِّينَ</span> (1:7)</td>
         </tr>
         <tr>
           <td class="p-2">ʼарид</td>
           <td class="p-2"><span class="arab">ــۡـ</span> (временный)</td>
           <td class="p-2"><span class="arab">ــَـا ــِـى ــُـو</span></td>
           <td class="p-2">2–4–6</td>
-          <td class="p-2"><span class="arab">مَـٰلِكِ يَوۡمِ ٱلـدِّينِ</span> (1:4)</td>
+          <td class="p-2"><span class="arab">مَٰلِكِ يَوۡمِ ٱلدِّينِ</span> (1:4)</td>
         </tr>
         <tr>
           <td class="p-2">лин</td>

@@ -18,7 +18,7 @@ order: 2107
 
 В идафе к явному имени («<span class="arab">الزَّقُّوم</span>»). При остановке: «<span class="arab">شَجَرَتْ</span>».
 
-В остальном Коране «<span class="arab">شجرة</span>» — с «та марбута»: «<span class="arab">تَحْتَ الشَّجَرَةِ</span>»<span class="arab">،</span> «<span class="arab">وَالشَّجَرَةَ الْمَلْعُونَةَ</span>».
+В остальном Коране «<span class="arab">شجرة</span>» — с «та марбута»: «<span class="arab">تَحۡتَ ٱلشَّجَرَةِ</span>»<span class="arab">،</span> «<span class="arab">وَٱلشَّجَرَةَ ٱلۡمَلۡعُونَةَ</span>».
 
 ## «<span class="arab">سنت</span>» (введение)
 

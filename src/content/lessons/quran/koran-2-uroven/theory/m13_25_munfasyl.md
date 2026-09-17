@@ -12,7 +12,7 @@ order: 1325
 
 **Мунфасыль** — это когда **буква мадда стоит в конце первого слова, а хамза катъ — в начале следующего**. То есть та же картина, что у муттасыля (мадд + хамза), но в **двух** соседних словах.
 
-Примеры: **<span class="arab">يَا أَيُّهَا</span>**<span class="arab">،</span> **<span class="arab">قُوا أَنْفُسَكُمْ</span>**<span class="arab">،</span> **<span class="arab">وَفِي أَنْفُسِكُمْ</span>**<span class="arab">،</span> **<span class="arab">بِمَا أُنْزِلَ</span>**<span class="arab">،</span> **<span class="arab">قَالُوا آمَنَّا</span>**.
+Примеры: **<span class="arab">يَا أَيُّهَا</span>**<span class="arab">،</span> **<span class="arab">قُوٓاْ أَنفُسَكُمۡ</span>**<span class="arab">،</span> **<span class="arab">وَفِيٓ أَنفُسِكُمۡ</span>**<span class="arab">،</span> **<span class="arab">بِمَا أُنْزِلَ</span>**<span class="arab">،</span> **<span class="arab">قَالُوا آمَنَّا</span>**.
 
 ## Мера
 

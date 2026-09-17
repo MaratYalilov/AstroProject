@@ -18,17 +18,17 @@ order: 2112
 
 ## Семь слов в 12 местах
 
-1. **аль-Ан'ам (115)**: «<span class="arab">وَتَمَّتْ كَلِمَتُ</span> / <span class="arab">كَلِمَاتُ رَبِّكَ صِدْقًا وَعَدْلًا</span>»;
-2. **Юнус (33)**: «<span class="arab">حَقَّتْ كَلِمَتُ</span> / <span class="arab">كَلِمَاتُ رَبِّكَ</span>»;
-3. **Юнус (96)**: «<span class="arab">حَقَّتْ عَلَيْهِمْ كَلِمَتُ</span> / <span class="arab">كَلِمَاتُ رَبِّكَ</span>»;
+1. **аль-Ан'ам (115)**: «<span class="arab">وَتَمَّتۡ كَلِمَتُ</span> / <span class="arab">كَلِمَاتُ رَبِّكَ صِدْقًا وَعَدْلًا</span>»;
+2. **Юнус (33)**: «<span class="arab">حَقَّتۡ كَلِمَتُ</span> / <span class="arab">كَلِمَاتُ رَبِّكَ</span>»;
+3. **Юнус (96)**: «<span class="arab">حَقَّتۡ عَلَيۡهِمۡ كَلِمَتُ</span> / <span class="arab">كَلِمَاتُ رَبِّكَ</span>»;
 4. **Юсуф (7)**: «<span class="arab">آيَةٌ</span> / <span class="arab">آيَاتٌ لِلسَّائِلِينَ</span>»;
-5. **Юсуф (10)**: «<span class="arab">فِي غَيَابَتِ</span> / <span class="arab">غَيَابَاتِ الْجُبِّ</span>»;
-6. **Юсуф (15)** — то же слово: «<span class="arab">فِي غَيَابَتِ</span> / <span class="arab">غَيَابَاتِ الْجُبِّ</span>»;
+5. **Юсуф (10)**: «<span class="arab">فِي غَيَٰبَتِ</span> / <span class="arab">غَيَابَاتِ الْجُبِّ</span>»;
+6. **Юсуф (15)** — то же слово: «<span class="arab">فِي غَيَٰبَتِ</span> / <span class="arab">غَيَابَاتِ الْجُبِّ</span>»;
 7. **аль-Анкабут (50)**: «<span class="arab">آيَةٌ</span> / <span class="arab">آيَاتٌ مِنْ رَبِّهِ</span>»;
 8. **Саба (37)**: «<span class="arab">فِي الْغُرُفَةِ</span> / <span class="arab">الْغُرُفَاتِ آمِنُونَ</span>»;
-9. **Фатыр (40)**: «<span class="arab">عَلَى بَيِّنَةٍ</span> / <span class="arab">بَيِّنَاتٍ مِنْهُ</span>»;
-10. **Гафир (6)**: «<span class="arab">حَقَّتْ كَلِمَتُ</span> / <span class="arab">كَلِمَاتُ رَبِّكَ</span>»;
-11. **Фуссылят (47)**: «<span class="arab">مِنْ ثَمَرَةٍ</span> / <span class="arab">ثَمَرَاتٍ مِنْ أَكْمَامِهَا</span>»;
+9. **Фатыр (40)**: «<span class="arab">عَلَىٰ بَيِّنَةٖ</span> / <span class="arab">بَيِّنَاتٍ مِنْهُ</span>»;
+10. **Гафир (6)**: «<span class="arab">حَقَّتۡ كَلِمَتُ</span> / <span class="arab">كَلِمَاتُ رَبِّكَ</span>»;
+11. **Фуссылят (47)**: «<span class="arab">مِنْ ثَمَرَةٍ</span> / <span class="arab">ثَمَرَٰتٖ مِّنۡ أَكۡمَامِهَا</span>»;
 12. **аль-Мурсалят (33)**: «<span class="arab">جِمَالَةٌ</span> / <span class="arab">جِمَالَاتٌ صُفْرٌ</span>».
 
 ## Итог

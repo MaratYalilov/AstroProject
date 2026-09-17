@@ -14,4 +14,4 @@ order: 1409
 
 ## 3. Примесь сукуна
 
-Из-за **недостаточного сжатия** губ: «<span class="arab">إِيَّاكَ نَعْبُدُ</span>» произносят «...<span class="arab">نَعْبْد</span>»<span class="arab">،</span> «<span class="arab">وَإِيَّاكَ</span>» как «...<span class="arab">بْد</span>». Нужно **обязательно** сжать губы: «<span class="arab">نَعْبُدُ</span>».
+Из-за **недостаточного сжатия** губ: «<span class="arab">إِيَّاكَ نَعۡبُدُ</span>» произносят «...<span class="arab">نَعْبْد</span>»<span class="arab">،</span> «<span class="arab">وَإِيَّاكَ</span>» как «...<span class="arab">بْد</span>». Нужно **обязательно** сжать губы: «<span class="arab">نَعْبُدُ</span>».

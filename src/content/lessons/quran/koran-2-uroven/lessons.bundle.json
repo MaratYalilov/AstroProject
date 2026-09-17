@@ -3782,31 +3782,16 @@
  },
  {
   "id": 1903,
-  "slug": "m19-03-v-imenah-1",
+  "slug": "m19-03-v-imenah",
   "subject": "quran",
   "course": "koran-2-uroven",
   "module": "19. Соединительная хамза",
-  "title": "Соединительная хамза в именах (1)",
+  "title": "Соединительная хамза в именах",
   "blocks": [
    {
     "type": "theory",
-    "title": "Соединительная хамза в именах (1)",
-    "source": "m19_03_v-imenah-1.md"
-   }
-  ]
- },
- {
-  "id": 1904,
-  "slug": "m19-04-v-imenah-2",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "19. Соединительная хамза",
-  "title": "Соединительная хамза в именах (2): семь слов",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Соединительная хамза в именах (2): семь слов",
-    "source": "m19_04_v-imenah-2.md"
+    "title": "Соединительная хамза в именах",
+    "source": "m19_03_v-imenah.md"
    }
   ]
  },

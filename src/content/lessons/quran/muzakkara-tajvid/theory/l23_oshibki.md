@@ -17,7 +17,7 @@ order: 23
 - Путать <span class="arab">ثَاء</span> (ҫә) и <span class="arab">سِين</span> (син): в <span class="arab">ثُمَّ ، يَسقُون</span>.
 - Путать <span class="arab">ذَال</span> (ҙәль) и <span class="arab">زَاي</span> (зәй): в <span class="arab">قُل أَعُوذُ ، الزَّكَاة</span>.
 - Произносить <span class="arab">ظَاء</span> (ҙа) с призвуком зайн: в <span class="arab">العَظِيم</span>.
-- Произносить <span class="arab">جِيم</span> (дҗим) как просторечный звук: в <span class="arab">نَجزِي المُجرِمِين</span>.
+- Произносить <span class="arab">جِيم</span> (дҗим) как просторечный звук: в <span class="arab">نَجۡزِي ٱلۡمُجۡرِمِينَ</span>.
 - Облегчать буквы итбак: сад → син, дад → даль, та → та, за → заль.
 - Заменять син садом: в <span class="arab">المُستَقِيم</span>.
 - Путать <span class="arab">غَيْن</span> (ғайн) и <span class="arab">قَاف</span> (қаф): в <span class="arab">غِسلِين ، لَيلَة القَدر</span>.

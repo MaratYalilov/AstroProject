@@ -50,7 +50,7 @@ hasVideo: false
 </div>
 
 <p><strong>Шарах</strong></p>
-<p>Начало хадиса было в хадисе № 294.<br>Произношение такбира (<span class="arab">الله أكبر</span>) вводит человека в намаз.<br><a href="/glossary/mazkhab" class="glossary-link" target="_blank" rel="noopener noreferrer">Мазхаб</a> ханафи – условие или фарз (<a href="/glossary/rukn" class="glossary-link" target="_blank" rel="noopener noreferrer">рукн</a>).<br>Мазхаб шафии – рукн (столп).<br>Приветствие (салям): мазхаб ханафи – <a href="/glossary/vadzhib" class="glossary-link" target="_blank" rel="noopener noreferrer">ваджиб</a>, мазхаб шафии – первый салям рукн.</p>
+<p>Начало хадиса было в хадисе № 294.<br>Произношение такбира (<span class="arab">ٱللَّهِ أَكۡبَرُ</span>) вводит человека в намаз.<br><a href="/glossary/mazkhab" class="glossary-link" target="_blank" rel="noopener noreferrer">Мазхаб</a> ханафи – условие или фарз (<a href="/glossary/rukn" class="glossary-link" target="_blank" rel="noopener noreferrer">рукн</a>).<br>Мазхаб шафии – рукн (столп).<br>Приветствие (салям): мазхаб ханафи – <a href="/glossary/vadzhib" class="glossary-link" target="_blank" rel="noopener noreferrer">ваджиб</a>, мазхаб шафии – первый салям рукн.</p>
 <p class="arab">313-وَ رَوَاهُ ابْنُ مَاجَه عَنْهُ وَ عَنْ أَبِي سَعِيدٍ</p>
 <p class="hadis">[Его привел ибн Маджа со слов Али (275) и со слов Абу Саида Худри (276)].</p>
 

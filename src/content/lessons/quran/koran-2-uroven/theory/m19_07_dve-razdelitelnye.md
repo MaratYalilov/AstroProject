@@ -10,9 +10,11 @@ order: 1907
 
 **Арабы не соединяют две хамзы, вторая из которых неподвижна.** Если такое возникает, они **заменяют вторую (неподвижную) хамзу буквой мадда, однородной огласовке первой**:
 
-- первая с **фатхой** → вторая в **алиф**: «<span class="arab">أَأْدَم</span>» → **<span class="arab">آدَم</span>**;
-- первая с **даммой** → в **вав**: «<span class="arab">أُؤْت</span>» → **<span class="arab">أُوتُوا</span>**;
-- первая с **кясрой** → в **йа**: «<span class="arab">إِأْمان</span>» → **<span class="arab">إِيمَان</span>**.
+| Пример в контексте | Правило | Пример при замене |
+|---|---|---|
+| <span class="arab">أَأْدَم</span> | первая с фатхой → вторая заменяется **буквой алиф** | <span class="arab">آدَم</span> |
+| <span class="arab">أُؤْفُوا</span> | первая с даммой → вторая заменяется **буквой вав** | <span class="arab">أُوفُوا</span> |
+| <span class="arab">إِأْمَانَا</span> | первая с кясрой → вторая заменяется **буквой йа** | <span class="arab">إِيمَانَا</span> |
 
 («<span class="arab">أَأْ</span>»<span class="arab">،</span> «<span class="arab">أُؤْ</span>»<span class="arab">،</span> «<span class="arab">إِأْ</span>» арабы не произносят — заменяют, как легче.)
 
@@ -23,8 +25,3 @@ order: 1907
 - <span class="arab">آمَنُوا</span> (<span class="arab">آ</span>), <span class="arab">أُوتُوا</span> (<span class="arab">أُو</span>), <span class="arab">إِيمَانًا</span> (<span class="arab">إِي</span>).
 
 То есть при встрече двух хамз катъ (вторая — сукун) лекарство: **обратить вторую в букву мадда**.
-
-
-![Встреча двух хамз катъ, вторая из которых с сукуном: вторая хамза заменяется буквой мадда, однородной огласовке первой (<span class="arab">أَأْدَم</span> → <span class="arab">آدَم، أُؤْت</span> → <span class="arab">أُوتُوا، إِأْمان</span> → <span class="arab">إِيمَان</span>).](/media/quran/koran-2-uroven/img/m19/two_qat_hamzas_meeting.png)
-
-*Встреча двух хамз катъ, вторая из которых с сукуном: вторая хамза заменяется буквой мадда, однородной огласовке первой (<span class="arab">أَأْدَم</span> → <span class="arab">آدَم، أُؤْت</span> → <span class="arab">أُوتُوا، إِأْمان</span> → <span class="arab">إِيمَان</span>).*

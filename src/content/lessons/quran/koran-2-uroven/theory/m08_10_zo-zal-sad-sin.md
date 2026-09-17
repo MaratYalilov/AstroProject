@@ -16,7 +16,7 @@ order: 810
 
 ## Примеры (смысл меняется!)
 
-- **<span class="arab">فَتَرَ</span> ↔ <span class="arab">فَطَرَ</span>**: «<span class="arab">فَتَرَ</span>» (ослаб) — буква «<span class="arab">ت</span>» (<span class="arab">لِيُنذِرَ يَوْمَ التَّلَاقِ</span> — <span class="arab">التَّلَاق</span> с «<span class="arab">ت</span>»); если утолстить «<span class="arab">ت</span>» → получится «<span class="arab">فَطَرَ</span>» (сотворил, как «<span class="arab">فَاطِرِ السَّمَاوَاتِ</span>»);
+- **<span class="arab">فَتَرَ</span> ↔ <span class="arab">فَطَرَ</span>**: «<span class="arab">فَتَرَ</span>» (ослаб) — буква «<span class="arab">ت</span>» (<span class="arab">لِيُنذِرَ يَوۡمَ ٱلتَّلَاقِ</span> — <span class="arab">التَّلَاق</span> с «<span class="arab">ت</span>»); если утолстить «<span class="arab">ت</span>» → получится «<span class="arab">فَطَرَ</span>» (сотворил, как «<span class="arab">فَاطِرِ السَّمَاوَاتِ</span>»);
 - **<span class="arab">التَّلَاق</span> ↔ <span class="arab">الطَّلَاق</span>**: «<span class="arab">التَّلَاق</span>» (встреча, гафир) — с «<span class="arab">ت</span>»; «<span class="arab">الطَّلَاق</span>» (развод, аль-Бакара) — с «<span class="arab">ط</span>». Если **смягчить «<span class="arab">ط</span>»** → «<span class="arab">الطَّلَاق</span>» превратится в «<span class="arab">التَّلَاق</span>» (как читают некоторые начинающие-неарабы);
 - **<span class="arab">مَحْذُورًا</span> ↔ <span class="arab">مَحْظُورًا</span>**: с «<span class="arab">ذ</span>» — «остерегаемое»; с «<span class="arab">ظ</span>» — «запрещённое»;
 - **<span class="arab">عَسَى</span> ↔ <span class="arab">عَصَى</span>**: с «с» — «быть может»; с «<span class="arab">ص</span>» — «ослушался».
