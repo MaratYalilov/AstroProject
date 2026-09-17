@@ -10,7 +10,7 @@ order: 1227
 
 Когда дальше идёт твёрдая буква (**<span class="arab">ص، ض، ط، ظ، ق</span>**), ротовой призвук и гунна звучат **твёрдо**:
 
-- **<span class="arab">مَنْصُورًا</span>**<span class="arab">،</span> **<span class="arab">بِرِيحٖ صَرۡصَرٍ</span>**<span class="arab">،</span> **<span class="arab">عَن طَبَقٖ</span>**<span class="arab">،</span> **<span class="arab">انْظُرْ</span>**.
+- **<span class="arab">مَنْصُورًا</span>**<span class="arab">،</span> **<span class="arab">بِرِيحٖ صَرۡصَرٍ</span>**<span class="arab">،</span> **<span class="arab">عَن طَبَقٖ</span>**<span class="arab">،</span> **<span class="arab">انْظُرْ</span>**. {Quran}69:6{/Quran} {Quran}84:19{/Quran}
 
 **Причина** тафхима — две вещи: **отход надгортанника (лисан аль-мизмар) назад** и **подъём ротового призвука к нёбному своду**.
 
@@ -18,7 +18,7 @@ order: 1227
 
 Когда дальше идёт мягкая (нетвёрдая) буква, гунна звучит **мягко**:
 
-- **<span class="arab">الْإِنْسَان</span>**<span class="arab">،</span> **<span class="arab">خَمۡسَةٞ سَادِسُهُمۡ</span>**<span class="arab">،</span> **<span class="arab">أَنْفُسَكُمْ</span>**<span class="arab">،</span> **<span class="arab">مِنْ دُونِ</span>**.
+- **<span class="arab">الْإِنْسَان</span>**<span class="arab">،</span> **<span class="arab">خَمۡسَةٞ سَادِسُهُمۡ</span>**<span class="arab">،</span> **<span class="arab">أَنْفُسَكُمْ</span>**<span class="arab">،</span> **<span class="arab">مِنْ دُونِ</span>**. {Quran}18:22{/Quran}
 
 **Причина** мягкости — **надгортанник не отходит назад**, ротовой призвук **не поднимается** к нёбному своду.
 

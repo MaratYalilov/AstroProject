@@ -20,7 +20,7 @@ order: 1228
 
 **Для танвина:** **последовательные (мутатаби') огласовки** (вторая **сдвинута**, не над первой) + **отсутствие шадды**:
 
-- **<span class="arab">مَآءٗ ثَجَّاجٗا</span>**<span class="arab">،</span> **<span class="arab">شَيْءٍ شَهِيدٍ</span>**<span class="arab">،</span> **<span class="arab">عَيۡنٞ جَارِيَةٞ</span>**.
+- **<span class="arab">مَآءٗ ثَجَّاجٗا</span>**<span class="arab">،</span> **<span class="arab">شَيْءٍ شَهِيدٍ</span>**<span class="arab">،</span> **<span class="arab">عَيۡنٞ جَارِيَةٞ</span>**. {Quran}78:14{/Quran} {Quran}88:12{/Quran}
 
 ## Важная оговорка
 

@@ -19,8 +19,8 @@ order: 1211
 Это встречается в **четырёх** словах:
 
 - **<span class="arab">الدُّنْيَا</span>** (<span class="arab">نْ</span> + <span class="arab">ي</span>) — говорят «ад-дунйā», а не «ад-дуййā»;
-- **<span class="arab">بُنْيَان</span>** (<span class="arab">نْ</span> + <span class="arab">ي</span>) — «<span class="arab">لَا يَزَالُ بُنۡيَٰنُهُمُ</span>»<span class="arab">،</span> в любой форме слова;
-- **<span class="arab">صِنْوَان</span>** (<span class="arab">نْ</span> + <span class="arab">و</span>) — «<span class="arab">صِنۡوَانٞ وَغَيۡرُ صِنۡوَانٖ</span>» (сура «ар-Раад»);
+- **<span class="arab">بُنْيَان</span>** (<span class="arab">نْ</span> + <span class="arab">ي</span>) — «<span class="arab">لَا يَزَالُ بُنۡيَٰنُهُمُ</span>»<span class="arab">،</span> в любой форме слова; {Quran}9:110{/Quran}
+- **<span class="arab">صِنْوَان</span>** (<span class="arab">نْ</span> + <span class="arab">و</span>) — «<span class="arab">صِنۡوَانٞ وَغَيۡرُ صِنۡوَانٖ</span>» (сура «ар-Раад»); {Quran}13:4{/Quran}
 - **<span class="arab">قِنْوَان</span>** (<span class="arab">نْ</span> + <span class="arab">و</span>).
 
 ## Почему аль-Джазари привёл

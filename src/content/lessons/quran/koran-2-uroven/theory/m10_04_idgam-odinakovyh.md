@@ -12,9 +12,9 @@ order: 1004
 
 Примеры:
 
-- **<span class="arab">وَقَد دَّخَلُواْ</span>** (<span class="arab">د</span> + <span class="arab">د</span>);
-- **<span class="arab">بَل لَّا تُكۡرِمُونَ ٱلۡيَتِيمَ</span>** (<span class="arab">ل</span> + <span class="arab">ل</span> — язык поднимается к нёбу **один раз**);
-- **<span class="arab">يُدۡرِككُّمُ ٱلۡمَوۡتُ</span>** (<span class="arab">يُدْرِك</span> + <span class="arab">كُمْ</span> → удвоённая «кяф»).
+- **<span class="arab">وَقَد دَّخَلُواْ</span>** (<span class="arab">د</span> + <span class="arab">د</span>); {Quran}5:61{/Quran}
+- **<span class="arab">بَل لَّا تُكۡرِمُونَ ٱلۡيَتِيمَ</span>** (<span class="arab">ل</span> + <span class="arab">ل</span> — язык поднимается к нёбу **один раз**); {Quran}89:17{/Quran}
+- **<span class="arab">يُدۡرِككُّمُ ٱلۡمَوۡتُ</span>** (<span class="arab">يُدْرِك</span> + <span class="arab">كُمْ</span> → удвоённая «кяф»). {Quran}4:78{/Quran}
 
 ## Это правило самого языка
 

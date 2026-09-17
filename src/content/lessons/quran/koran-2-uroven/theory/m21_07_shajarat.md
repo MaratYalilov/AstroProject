@@ -14,11 +14,11 @@ order: 2107
 
 «<span class="arab">شَجَرَة</span>» написано развёрнутой «та» **только** в суре **«ад-Духан»** (43) — «<span class="arab">الدُّخَان</span>» с **облегчённой** «ха» (не «<span class="arab">اد</span>-Духхан»):
 
-> <span class="arab">إِنَّ شَجَرَتَ الزَّقُّومِ ۝ طَعَامُ الْأَثِيمِ</span>
+> <span class="arab">إِنَّ شَجَرَتَ الزَّقُّومِ ۝ طَعَامُ الْأَثِيمِ</span> {Quran}44:43-44{/Quran}
 
 В идафе к явному имени («<span class="arab">الزَّقُّوم</span>»). При остановке: «<span class="arab">شَجَرَتْ</span>».
 
-В остальном Коране «<span class="arab">شجرة</span>» — с «та марбута»: «<span class="arab">تَحۡتَ ٱلشَّجَرَةِ</span>»<span class="arab">،</span> «<span class="arab">وَٱلشَّجَرَةَ ٱلۡمَلۡعُونَةَ</span>».
+В остальном Коране «<span class="arab">شجرة</span>» — с «та марбута»: «<span class="arab">تَحۡتَ ٱلشَّجَرَةِ</span>»<span class="arab">،</span> «<span class="arab">وَٱلشَّجَرَةَ ٱلۡمَلۡعُونَةَ</span>». {Quran}48:18{/Quran} {Quran}17:60{/Quran}
 
 ## «<span class="arab">سنت</span>» (введение)
 

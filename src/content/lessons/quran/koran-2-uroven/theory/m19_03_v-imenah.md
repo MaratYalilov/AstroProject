@@ -12,9 +12,9 @@ order: 1903
 
 Соединительная хамза в **имени** имеет **только одно** состояние — **кясра** (вне зависимости от третьей буквы; правило третьей буквы — только у глаголов):
 
-- **<span class="arab">اسْتِكْبَارًا</span>**: «<span class="arab">اسْتِكْبَارًا فِي الْأَرْضِ وَمَكْرَ السَّيِّئِ</span>» (<span class="arab">مصدر</span> — имя);
-- **<span class="arab">اسْتِغْفَار</span>**: «<span class="arab">وَمَا كَانَ ٱسۡتِغۡفَارُ إِبۡرَٰهِيمَ لِأَبِيهِ</span>»;
-- **<span class="arab">ابْنُ مَرْيَمَ</span>**<span class="arab">،</span> **<span class="arab">ٱسۡمُهُ ٱلۡمَسِيحُ</span>**<span class="arab">،</span> **<span class="arab">امْرَأَة</span>**.
+- **<span class="arab">اسْتِكْبَارًا</span>**: «<span class="arab">اسْتِكْبَارًا فِي الْأَرْضِ وَمَكْرَ السَّيِّئِ</span>» (<span class="arab">مصدر</span> — имя); {Quran}35:43{/Quran}
+- **<span class="arab">اسْتِغْفَار</span>**: «<span class="arab">وَمَا كَانَ ٱسۡتِغۡفَارُ إِبۡرَٰهِيمَ لِأَبِيهِ</span>»; {Quran}9:114{/Quran}
+- **<span class="arab">ابْنُ مَرْيَمَ</span>**<span class="arab">،</span> **<span class="arab">ٱسۡمُهُ ٱلۡمَسِيحُ</span>**<span class="arab">،</span> **<span class="arab">امْرَأَة</span>**. {Quran}3:45{/Quran}
 
 Признак: видишь **имя** с хамзой васль в начале → хамза **кясра**.
 
@@ -27,12 +27,12 @@ order: 1903
 Во всех хамза васль — **кясра** (начинают проверочно).
 
 1. **<span class="arab">ابْن</span>**: «<span class="arab">عِيسَى ابْنُ مَرْيَمَ</span>» (аль-Бакара, 87) → начать «<span class="arab">ابْنُ مَرْيَمَ</span>»;
-2. **<span class="arab">ابْنَت</span>**: «<span class="arab">وَمَرۡيَمَ ٱبۡنَتَ عِمۡرَٰنَ</span>» (ат-Тахрим) → «<span class="arab">ابْنَتْ</span>» (кясра хамзы + «та мабсута» по расму);
-3. **<span class="arab">امْرِئ</span>**: «<span class="arab">لِكُلِّ امْرِئٍ مِنْهُمْ مَا اكْتَسَبَ</span>» (ан-Нур, 11) → «<span class="arab">امْرِئٍ</span>»;
-4. **<span class="arab">اثْنَيْن</span>**: «<span class="arab">مِّنَ ٱلضَّأۡنِ ٱثۡنَيۡنِ</span>» → «<span class="arab">اثْنَيْنِ</span>»;
-5. **<span class="arab">امْرَأَة</span>**: «<span class="arab">وَإِنِ ٱمۡرَأَةٌ خَافَتۡ</span>» → «<span class="arab">امْرَأَة</span>»;
+2. **<span class="arab">ابْنَت</span>**: «<span class="arab">وَمَرۡيَمَ ٱبۡنَتَ عِمۡرَٰنَ</span>» (ат-Тахрим) → «<span class="arab">ابْنَتْ</span>» (кясра хамзы + «та мабсута» по расму); {Quran}66:12{/Quran}
+3. **<span class="arab">امْرِئ</span>**: «<span class="arab">لِكُلِّ امْرِئٍ مِنْهُمْ مَا اكْتَسَبَ</span>» (ан-Нур, 11) → «<span class="arab">امْرِئٍ</span>»; {Quran}24:11{/Quran}
+4. **<span class="arab">اثْنَيْن</span>**: «<span class="arab">مِّنَ ٱلضَّأۡنِ ٱثۡنَيۡنِ</span>» → «<span class="arab">اثْنَيْنِ</span>»; {Quran}6:143{/Quran}
+5. **<span class="arab">امْرَأَة</span>**: «<span class="arab">وَإِنِ ٱمۡرَأَةٌ خَافَتۡ</span>» → «<span class="arab">امْرَأَة</span>»; {Quran}4:128{/Quran}
 6. **<span class="arab">اسْم</span>**: «<span class="arab">وَاذْكُرِ اسْمَ اللَّهِ</span>» → «<span class="arab">اسْمُ اللَّهِ</span>»;
-7. **<span class="arab">اثْنَتَيْن</span>**: «<span class="arab">فَإِن كَانَتَا ٱثۡنَتَيۡنِ</span>» (ан-Ниса, 176) → «<span class="arab">اثْنَتَيْنِ</span>».
+7. **<span class="arab">اثْنَتَيْن</span>**: «<span class="arab">فَإِن كَانَتَا ٱثۡنَتَيۡنِ</span>» (ан-Ниса, 176) → «<span class="arab">اثْنَتَيْنِ</span>». {Quran}4:176{/Quran}
 
 ## Диковинка слова «<span class="arab">امْرِئ</span>»
 
@@ -42,7 +42,7 @@ order: 1903
 - насб: «<span class="arab">امْرَأً</span>» («ра» с фатхой);
 - джарр: «<span class="arab">امْرِئٍ</span>» («ра» с кясрой).
 
-Примеры: «<span class="arab">مَا كَانَ أَبُوكِ ٱمۡرَأَ سَوۡءٖ</span>»<span class="arab">،</span> «<span class="arab">إِنِ امْرُؤٌ هَلَكَ</span>» → «<span class="arab">امْرُؤ</span>»<span class="arab">،</span> «<span class="arab">لِكُلِّ امْرِئٍ</span>» → «<span class="arab">امْرِئ</span>». (Аналога этому в арабском почти нет.)
+Примеры: «<span class="arab">مَا كَانَ أَبُوكِ ٱمۡرَأَ سَوۡءٖ</span>»<span class="arab">،</span> «<span class="arab">إِنِ امْرُؤٌ هَلَكَ</span>» → «<span class="arab">امْرُؤ</span>»<span class="arab">،</span> «<span class="arab">لِكُلِّ امْرِئٍ</span>» → «<span class="arab">امْرِئ</span>». (Аналога этому в арабском почти нет.) {Quran}19:28{/Quran}
 
 ## Исключение — «лям» определённого артикля → фатха
 

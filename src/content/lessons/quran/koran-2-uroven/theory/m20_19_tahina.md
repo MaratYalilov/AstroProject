@@ -2,13 +2,13 @@
 title: '«تحين» (وَلَاتَ حِينَ)'
 order: 2019
 ---
-# «<span class="arab">تحين</span>» (<span class="arab">وَّلَاتَ حِينَ</span>)
+# «<span class="arab">تحين</span>» (<span class="arab">وَّلَاتَ حِينَ</span>) {Quran}38:3{/Quran}
 
 Аль-Джазари:
 
 > **<span class="arab">تَحِينَ فِي الْإِمَامِ صِلْ وَهَلَّا</span>**
 
-— о слове «<span class="arab">وَّلَاتَ حِينَ مَنَاصٖ</span>» (начало суры «Сад», аят 3).
+— о слове «<span class="arab">وَّلَاتَ حِينَ مَنَاصٖ</span>» (начало суры «Сад», аят 3). {Quran}38:3{/Quran}
 
 ## История вопроса
 

@@ -14,7 +14,7 @@ order: 1906
 
 - **в начале слова**: «<span class="arab">أَتَى</span>» → «<span class="arab">وَأَتَى</span>»<span class="arab">،</span> «<span class="arab">أُوتُوا</span>» → «<span class="arab">وَأُوتُوا</span>»<span class="arab">،</span> «<span class="arab">إِنَّ</span>» → «<span class="arab">وَإِنَّ</span>»;
 - **в середине**: «<span class="arab">فَأَرَادَ</span>»<span class="arab">،</span> «<span class="arab">يُؤْمِنُونَ</span>»<span class="arab">،</span> «<span class="arab">بِإِذْنِهِ</span>»<span class="arab">،</span> «<span class="arab">الْأُمُور</span>» (даже неподвижная: после даммы/кясры/сукуна — произносится);
-- **в конце**: «<span class="arab">يَشَاءُ</span>»<span class="arab">،</span> «<span class="arab">قُرُوءٍ</span>»<span class="arab">،</span> «<span class="arab">وَجِيءَ</span>» (алиф после неё — лишний в расме, не произносится), «<span class="arab">نَبِّئۡ عِبَادِيٓ</span>».
+- **в конце**: «<span class="arab">يَشَاءُ</span>»<span class="arab">،</span> «<span class="arab">قُرُوءٍ</span>»<span class="arab">،</span> «<span class="arab">وَجِيءَ</span>» (алиф после неё — лишний в расме, не произносится), «<span class="arab">نَبِّئۡ عِبَادِيٓ</span>». {Quran}15:49{/Quran}
 
 ## Знак
 
