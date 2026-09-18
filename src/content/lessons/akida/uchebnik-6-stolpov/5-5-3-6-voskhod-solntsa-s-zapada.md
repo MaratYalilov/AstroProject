@@ -8,9 +8,9 @@ groupOrder: 13
 groupTitle: Вера в Последний день
 ---
 
-<h1><span>Восход солнца с запада</span></h1>
-<p><span>На это указывают Коран и <a href="/glossary/sunna" class="glossary-link" target="_blank" rel="noopener noreferrer">сунна</a> пророка, да благословит его Аллах и приветствует.<br />Всевышний Аллах сказал:</span></p>
-<p><span>{Quran}6:158{/Quran}</span></p>
+<h1>Восход солнца с запада</h1>
+<p>На это указывают Коран и <a href="/glossary/sunna" class="glossary-link" target="_blank" rel="noopener noreferrer">сунна</a> пророка, да благословит его Аллах и приветствует.<br />Всевышний Аллах сказал:</p>
+<p>{Quran}6:158{/Quran}</p>
 <div class="hadith">
   <p>Пророк, да благословит его Аллах и приветствует, сказал в комментариях к этому аяту: «<em>Это случится тогда, когда солнце взойдет с запада</em>».</p>
   <div class="hadith-reference"><a href="/glossary/tafsir" class="glossary-link" target="_blank" rel="noopener noreferrer">Тафсир</a> ат-Табари</div>

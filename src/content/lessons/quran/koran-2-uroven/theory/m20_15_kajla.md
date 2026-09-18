@@ -14,7 +14,7 @@ order: 2015
 
 1. **<span class="arab">تَحْزَنُوا</span>**: «<span class="arab">لِّكَيۡلَا تَحۡزَنُواْ عَلَىٰ مَا فَاتَكُمۡ</span>» (Аль Имран, 153); {Quran}3:153{/Quran}
 2. **<span class="arab">تَأْسَوْا</span>**: «<span class="arab">لِّكَيۡلَا تَأۡسَوۡاْ عَلَىٰ مَا فَاتَكُمۡ</span>» (аль-Хадид, 23); {Quran}57:23{/Quran}
-3. **«<span class="arab">حَجّ</span>»** = аль-Хадж (5): «<span class="arab">لِكَيْلَا يَعْلَمَ مِنْ بَعْدِ عِلْمٍ شَيْئًا</span>»; {Quran}22:5{/Quran}
+3. **«<span class="arab">حَجّ</span>»** = аль-Хадж (5): «<span class="arab">لِكَيۡلَا يَعۡلَمَ مِنۢ بَعۡدِ عِلۡمٖ شَيۡ‍ٔٗا</span>»; {Quran}22:5{/Quran}
 4. **<span class="arab">عَلَيْكَ حَرَجْ</span>** = аль-Ахзаб (50): «<span class="arab">لِكَيۡلَا يَكُونَ عَلَيۡكَ حَرَجٞ</span>». {Quran}33:50{/Quran}
 
 В этих четырёх останавливаются только на целом «<span class="arab">كَيْلَا</span>».

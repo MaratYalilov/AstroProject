@@ -88,7 +88,7 @@ order: 44
           <td class="p-2">нет</td>
           <td class="p-2"><span class="arab">ــَـا ــِـى ــُـو</span></td>
           <td class="p-2">2</td>
-          <td class="p-2"><span class="arab">مَلِكِ ٱلنَّاسِ</span> (114:2)</td>
+          <td class="p-2"><span class="arab">مَلِكِ ٱلنَّاسِ</span> (114:2)</td> {Quran}114:2{/Quran}
         </tr>
         <tr>
           <td class="p-2">ʼивад</td>
@@ -109,7 +109,7 @@ order: 44
           <td class="p-2"><span class="arab">أ</span> в начале следующего слова</td>
           <td class="p-2"><span class="arab">ــَـا ــِـى ــُـو</span></td>
           <td class="p-2">4–5</td>
-          <td class="p-2"><span class="arab">مَالَهُۥٓ أَخۡلَدَهُۥ</span> (104:3)</td>
+          <td class="p-2"><span class="arab">مَالَهُۥٓ أَخۡلَدَهُۥ</span> (104:3)</td> {Quran}104:3{/Quran}
         </tr>
         <tr>
           <td class="p-2">лязим</td>

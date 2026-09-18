@@ -37,7 +37,7 @@ order: 43
       <tbody>
         <tr>
           <td class="p-2">все одинаковые буквы, кроме <span class="arab">م</span> и <span class="arab">ن</span></td>
-          <td class="p-2"><span class="arab">د ت ط</span><br/><span class="arab">ث ذ ظ</span><br/><span class="arab">ب م</span></td>
+          <td class="p-2"><span class="arab">د ت ط</span><br/><span class="arab">ث ذ ظ</span><br/><span class="arab">ب م</span></td> {Quran}27:35{/Quran}
           <td class="p-2"><span class="arab">ل ر</span><br/><span class="arab">ق ك</span></td>
         </tr>
       </tbody>
@@ -119,7 +119,7 @@ order: 43
     В остальных парах этой группы слияние является
     <strong>полным</strong>, поэтому шадда обязательна,
     например:
-    <span class="arab">وَقَالَت طَّآئِفَةٞ</span>.
+    <span class="arab">وَقَالَت طَّآئِفَةٞ</span>. {Quran}3:72{/Quran}
   </p>
 </div>
 

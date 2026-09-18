@@ -2,7 +2,7 @@
 title: '12, Толкование Корана'
 permalink: 12-tolkovanie-korana
 intro: >
-  <p class="urok_tafsir">Урок № 12 | Курс: "Тафсир: Науки Корана"</p><p class="arab"><span class="arab">التَّفْسِيرُ</span>-Толкование Корана<br> <span class="arab">تَفْسِيرُ الْقُرْآنِ</span> -Тафсир Корана.</p><p><strong>Тафсир</strong> – в арабском языке означает: "объяснение, разъяснение, открытие, выявление смысла".Тафсир – раскрывание смысла непонятного слова.</p><p><br>В Коране сказано:<br>{Quran}25:33{/Quran}</p>
+  <p>Урок № 12 | Курс: "Тафсир: Науки Корана"</p><p class="arab"><span class="arab">التَّفْسِيرُ</span>-Толкование Корана<br> <span class="arab">تَفْسِيرُ الْقُرْآنِ</span> -Тафсир Корана.</p><p><strong>Тафсир</strong> – в арабском языке означает: "объяснение, разъяснение, открытие, выявление смысла".Тафсир – раскрывание смысла непонятного слова.</p><p><br>В Коране сказано:<br>{Quran}25:33{/Quran}</p>
 publish_up: '2012-06-30 21:00:00'
 hits: 2086
 order: 12
@@ -14,7 +14,7 @@ video: /media/tafsir/nauki-korana/video/12-tolkovanie-korana.mp4
 videoRel: video/12-tolkovanie-korana.mp4
 ---
 
-<p class="urok_tafsir">Урок № 12 | Курс: "<a href="/glossary/tafsir" class="glossary-link" target="_blank" rel="noopener noreferrer">Тафсир</a>: Науки Корана"</p>
+<p>Урок № 12 | Курс: "<a href="/glossary/tafsir" class="glossary-link" target="_blank" rel="noopener noreferrer">Тафсир</a>: Науки Корана"</p>
 <h1>12, Толкование Корана</h1>
 <p><span class="arab">التَّفْسِيرُ</span>-Толкование Корана<br> <span class="arab">تَفْسِيرُ الْقُرْآنِ</span> -Тафсир Корана.</p><p><strong>Тафсир</strong> – в арабском языке означает: "объяснение, разъяснение, открытие, выявление смысла".Тафсир – раскрывание смысла непонятного слова.</p><p><br>В Коране сказано:<br>{Quran}25:33{/Quran}</p>
 

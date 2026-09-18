@@ -60,7 +60,7 @@ order: 1737
 1. **<span class="arab">أَنِ ٱمۡشُواْ</span>** (Сад: «<span class="arab">وَٱنطَلَقَ ٱلۡمَلَأُ مِنۡهُمۡ أَنِ ٱمۡشُواْ</span>») — основа «<span class="arab">اِمْشِ</span>» (<span class="arab">مشى يمشي امشِ</span>); дамма «шин» — от «вав» множества → начинают «<span class="arab">اِمْشُوا</span>»; {Quran}38:6{/Quran}
 2. **<span class="arab">ثُمَّ ٱقۡضُوٓاْ إِلَيَّ</span>** (Юнус) — основа «<span class="arab">اِقْضِ</span>» → «<span class="arab">اِقْضُوا</span>»; {Quran}10:71{/Quran}
 3. **<span class="arab">ٱبۡنُواْ عَلَيۡهِم بُنۡيَٰنٗا</span>** (аль-Кахф: «<span class="arab">قَالُواْ ٱبۡنُواْ</span>») — основа «<span class="arab">اِبْنِ</span>» → «<span class="arab">اِبْنُوا</span>»; {Quran}18:21{/Quran} {Quran}37:97{/Quran}
-4. **<span class="arab">ٱئۡتُونِي بِكِتَٰبٖ</span>** (аль-Ахкаф: «<span class="arab">فِي ٱلسَّمَٰوَٰتِ ٱئۡتُونِي</span>») — основа «<span class="arab">اِيتِ</span>» → «<span class="arab">اِيتُونِي</span>» (вторая неподвижная хамза заменяется на «йа» — см. раздел 2). {Quran}46:4{/Quran}
+4. **<span class="arab">ٱئۡتُونِي بِكِتَٰبٖ</span>** (аль-Ахкаф: «<span class="arab">فِي ٱلسَّمَٰوَٰتِۖ ٱئۡتُونِي</span>») — основа «<span class="arab">اِيتِ</span>» → «<span class="arab">اِيتُونِي</span>» (вторая неподвижная хамза заменяется на «йа» — см. раздел 2). {Quran}46:4{/Quran}
 
 ### Объяснение
 

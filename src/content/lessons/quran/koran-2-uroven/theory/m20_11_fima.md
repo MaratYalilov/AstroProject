@@ -18,7 +18,7 @@ order: 2011
 7. **<span class="arab">وَقَعَتْ</span>**: «<span class="arab">وَنُنشِئَكُمۡ فِي مَا لَا تَعۡلَمُونَ</span>» (аль-Вакыа, 61); {Quran}56:61{/Quran}
 8. **<span class="arab">رُوم</span>**: «<span class="arab">هَل لَّكُم</span> ... <span class="arab">فِي مَا رَزَقۡنَٰكُمۡ</span>» (ар-Рум, 28); {Quran}30:28{/Quran}
 9–10. **<span class="arab">كِلَا تَنْزِيل</span>** (аз-Зумар — единственная сура на «<span class="arab">تَنْزِيل</span>»): «<span class="arab">فِي مَا هُمۡ فِيهِ يَخۡتَلِفُونَ</span>» (3) и «<span class="arab">فِي مَا كَانُواْ فِيهِ يَخۡتَلِفُونَ</span>» (46); {Quran}39:3{/Quran} {Quran}39:46{/Quran}
-11. **<span class="arab">شُعَرَاء</span>**: «<span class="arab">أَتُتْرَكُونَ فِي مَا هَاهُنَا آمِنِينَ</span>» (аш-Шуара, 146). {Quran}26:146{/Quran}
+11. **<span class="arab">شُعَرَاء</span>**: «<span class="arab">أَتُتۡرَكُونَ فِي مَا هَٰهُنَآ ءَامِنِينَ</span>» (аш-Шуара, 146). {Quran}26:146{/Quran}
 
 ## «<span class="arab">وَغَيْرُهَا صِلْ</span>»
 

@@ -32,7 +32,7 @@ order: 32
   <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 text-center dark:border-white/[0.06] dark:bg-white/[0.02]">
     <div class="arab" >أً = أَ<span class="arab" style="color: var(--color-fjord);">  نۡ </span></div>
     <div class="arab" >إِ = إِ<span class="arab" style="color: var(--color-eggplant);">  نۡ </span></div>
-    <div class="arab" >أٌ</span> = أُ<span class="arab" style="color: var(--color-forest);">  نۡ </span></div>
+    <div class="arab" >أٌ = أُ<span class="arab" style="color: var(--color-forest);">  نۡ </span></div>
   </div>
 
   <p class="mt-5 leading-relaxed"><b>Три вида танвина:</b></p>

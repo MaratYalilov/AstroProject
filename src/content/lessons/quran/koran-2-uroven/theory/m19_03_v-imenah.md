@@ -12,7 +12,7 @@ order: 1903
 
 Соединительная хамза в **имени** имеет **только одно** состояние — **кясра** (вне зависимости от третьей буквы; правило третьей буквы — только у глаголов):
 
-- **<span class="arab">اسْتِكْبَارًا</span>**: «<span class="arab">اسْتِكْبَارًا فِي الْأَرْضِ وَمَكْرَ السَّيِّئِ</span>» (<span class="arab">مصدر</span> — имя); {Quran}35:43{/Quran}
+- **<span class="arab">اسْتِكْبَارًا</span>**: «<span class="arab">ٱسۡتِكۡبَارٗا فِي ٱلۡأَرۡضِ وَمَكۡرَ ٱلسَّيِّيِٕ</span>» (<span class="arab">مصدر</span> — имя); {Quran}35:43{/Quran}
 - **<span class="arab">اسْتِغْفَار</span>**: «<span class="arab">وَمَا كَانَ ٱسۡتِغۡفَارُ إِبۡرَٰهِيمَ لِأَبِيهِ</span>»; {Quran}9:114{/Quran}
 - **<span class="arab">ابْنُ مَرْيَمَ</span>**<span class="arab">،</span> **<span class="arab">ٱسۡمُهُ ٱلۡمَسِيحُ</span>**<span class="arab">،</span> **<span class="arab">امْرَأَة</span>**. {Quran}3:45{/Quran}
 
@@ -28,7 +28,7 @@ order: 1903
 
 1. **<span class="arab">ابْن</span>**: «<span class="arab">عِيسَى ابْنُ مَرْيَمَ</span>» (аль-Бакара, 87) → начать «<span class="arab">ابْنُ مَرْيَمَ</span>»;
 2. **<span class="arab">ابْنَت</span>**: «<span class="arab">وَمَرۡيَمَ ٱبۡنَتَ عِمۡرَٰنَ</span>» (ат-Тахрим) → «<span class="arab">ابْنَتْ</span>» (кясра хамзы + «та мабсута» по расму); {Quran}66:12{/Quran}
-3. **<span class="arab">امْرِئ</span>**: «<span class="arab">لِكُلِّ امْرِئٍ مِنْهُمْ مَا اكْتَسَبَ</span>» (ан-Нур, 11) → «<span class="arab">امْرِئٍ</span>»; {Quran}24:11{/Quran}
+3. **<span class="arab">امْرِئ</span>**: «<span class="arab">لِكُلِّ ٱمۡرِيٕٖ مِّنۡهُم مَّا ٱكۡتَسَبَ</span>» (ан-Нур, 11) → «<span class="arab">امْرِئٍ</span>»; {Quran}24:11{/Quran}
 4. **<span class="arab">اثْنَيْن</span>**: «<span class="arab">مِّنَ ٱلضَّأۡنِ ٱثۡنَيۡنِ</span>» → «<span class="arab">اثْنَيْنِ</span>»; {Quran}6:143{/Quran}
 5. **<span class="arab">امْرَأَة</span>**: «<span class="arab">وَإِنِ ٱمۡرَأَةٌ خَافَتۡ</span>» → «<span class="arab">امْرَأَة</span>»; {Quran}4:128{/Quran}
 6. **<span class="arab">اسْم</span>**: «<span class="arab">وَاذْكُرِ اسْمَ اللَّهِ</span>» → «<span class="arab">اسْمُ اللَّهِ</span>»;

@@ -12,7 +12,7 @@ order: 1908
 |---|---|---|---|
 | <span class="arab">ٱلَّذِي ٱؤۡتُمِنَ</span> | <span class="arab">ٱؤْتُمِنَ</span> | <span class="arab">ٱُوتُمِنَ</span> | (البقرة ٢٨٣) | {Quran}2:283{/Quran}
 | <span class="arab">فِي ٱلسَّمَوَاتِ ٱئْتُونِي</span> | <span class="arab">ٱئْتُونِي</span> | <span class="arab">ٱِيتُونِي</span> | (الأحقاف ٤) |
-| <span class="arab">لِقَاءَنَا ٱئْتِ بِقُرْآنٍ</span> | <span class="arab">ٱئْتِ</span> | <span class="arab">ٱِيتِ</span> | (يونس ١٥) | {Quran}10:15{/Quran}
+| <span class="arab">لِقَآءَنَا ٱئۡتِ بِقُرۡءَانٍ</span> | <span class="arab">ٱئْتِ</span> | <span class="arab">ٱِيتِ</span> | (يونس ١٥) | {Quran}10:15{/Quran}
 | <span class="arab">مَّن يَقُولُ ٱئۡذَن لِّي</span> | <span class="arab">ٱئْذَنْ</span> | <span class="arab">ٱِيذَنْ</span> | (التوبة ٤٩) | {Quran}9:49{/Quran}
 
 Пояснение к огласовке хамзы васль: в «<span class="arab">ٱئْتُونِي</span>» третья буква внешне с даммой (от «вав» множества) — поэтому хамза васль берёт **кясру**; в «<span class="arab">ٱؤْتُمِنَ</span>» третья буква («та») с настоящей даммой — хамза васль с **даммой**; в «<span class="arab">ٱئْتِ</span>» и «<span class="arab">ٱئْذَنْ</span>» — **кясра**.

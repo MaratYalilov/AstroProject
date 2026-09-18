@@ -2,7 +2,7 @@
 title: '93, Отличия между нифасом и месячными'
 permalink: 93-otlichiya-mezhdu-nifasom-i-mesyachnymi
 intro: >
-  <p class="urok">Урок № 93 | Курс: "Мишкат аль-Масабих", глава "Нифас"</p>
+  <p>Урок № 93 | Курс: "Мишкат аль-Масабих", глава "Нифас"</p>
   <p><strong>Прерывание выделения крови в дни нифаса?</strong></p>
   <ol>
   <li>  Весь срок считается нифасом, даже если кровь выделялась небольшое время в начале и в конце. Это мнение Абу Ханифы.</li>
@@ -33,7 +33,7 @@ audioRel: audio/93-otlichiya-mezhdu-nifasom-i-mesyachnymi.mp3
 videoRel: video/93-otlichiya-mezhdu-nifasom-i-mesyachnymi.mp4
 ---
 
-<p class="urok">Урок № 93 | Курс: "Мишкат аль-Масабих", глава "<a href="/glossary/nifas" class="glossary-link" target="_blank" rel="noopener noreferrer">Нифас</a>"</p>
+<p>Урок № 93 | Курс: "Мишкат аль-Масабих", глава "<a href="/glossary/nifas" class="glossary-link" target="_blank" rel="noopener noreferrer">Нифас</a>"</p>
 <p><strong>Прерывание выделения крови в дни нифаса?</strong></p>
 <ol>
 <li>  Весь срок считается нифасом, даже если кровь выделялась небольшое время в начале и в конце. Это мнение Абу Ханифы.</li>

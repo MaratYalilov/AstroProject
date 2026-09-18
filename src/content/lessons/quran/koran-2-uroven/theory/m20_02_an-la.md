@@ -19,7 +19,7 @@ order: 2002
 3. **<span class="arab">تَعْبُدُوا</span> (Йā-Сӣн)**: «<span class="arab">أَن لَّا تَعۡبُدُواْ ٱلشَّيۡطَٰنَ</span>» (Йā-Сӣн, 60); {Quran}36:60{/Quran}
 4. **<span class="arab">ثَانِي هُود</span>**: «<span class="arab">أَن لَّا تَعۡبُدُوٓاْ إِلَّا ٱللَّهَ</span>» (Худ, 26) — в отличие от **первого** места в Худ (аят 2 — там слитно); {Quran}11:26{/Quran}
 5. **<span class="arab">لَا يُشْرِكْنَ</span>**: «<span class="arab">أَن لَّا يُشۡرِكۡنَ بِٱللَّهِ</span>» (аль-Мумтахана, 12); {Quran}60:12{/Quran}
-6. **<span class="arab">تُشْرِكْ</span>**: «<span class="arab">أَنْ لَا تُشْرِكْ بِي شَيْئًا</span>» (аль-Хадж, 26); {Quran}22:26{/Quran}
+6. **<span class="arab">تُشْرِكْ</span>**: «<span class="arab">أَن لَّا تُشۡرِكۡ بِي شَيۡ‍ٔٗا</span>» (аль-Хадж, 26); {Quran}22:26{/Quran}
 7. **<span class="arab">يَدْخُلَنَّهَا</span>**: «<span class="arab">أَن لَّا يَدۡخُلَنَّهَا ٱلۡيَوۡمَ عَلَيۡكُم مِّسۡكِينٞ</span>» (аль-Калям, 24); {Quran}68:24{/Quran}
 8. **<span class="arab">تَعْلُوا</span>**: «<span class="arab">وَأَن لَّا تَعۡلُواْ عَلَى ٱللَّهِ</span>» (ад-Духан, 19); {Quran}44:19{/Quran}
 9. **<span class="arab">يَقُولُوا</span>**: «<span class="arab">أَن لَّا يَقُولُواْ عَلَى ٱللَّهِ إِلَّا ٱلۡحَقَّ</span>» (аль-А'раф, 169); {Quran}7:169{/Quran}

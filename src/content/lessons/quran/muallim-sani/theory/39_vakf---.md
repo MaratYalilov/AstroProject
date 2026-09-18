@@ -508,7 +508,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>1.</span>
+      1.
       Что такое الوقف والابتداء
     </h2>
     <div class="waqf-card">
@@ -567,7 +567,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>2.</span>
+      2.
       Виды الوقف
     </h2>
     <div class="waqf-types">
@@ -630,7 +630,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>3.</span>
+      3.
       Четыре вида الوقف الاختياري
     </h2>
     <div class="waqf-card">
@@ -719,7 +719,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>4.</span>
+      4.
       Правила изменения последней буквы при الوقف
     </h2>
     <div class="waqf-card">
@@ -907,7 +907,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>5.</span>
+      5.
       Особые случаи: ة، ه، ء، ي، و، ا
     </h2>
     <div class="waqf-table-wrap">
@@ -1005,7 +1005,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>6.</span>
+      6.
       هاء الضمير и صلة
     </h2>
     <div class="waqf-card">
@@ -1047,7 +1047,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>7.</span>
+      7.
       السكون — обычная остановка
     </h2>
     <div class="waqf-card">
@@ -1084,7 +1084,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>8.</span>
+      8.
       <span class="arab">الرَّوْم</span>
       — Раум
     </h2>
@@ -1181,7 +1181,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>9.</span>
+      9.
       Знаки остановки в мусхафе
     </h2>
     <div class="waqf-signs">
@@ -1189,59 +1189,59 @@ order: 1
         <div class="waqf-symbol arab">م</div>
         <div>
           <strong>الوقف اللازم</strong>
-          <span>
+          
             Остановка необходима или настоятельно рекомендуется,
             чтобы не нарушить смысл.
-          </span>
+          
         </div>
       </div>
       <div class="waqf-sign">
         <div class="waqf-symbol arab">لا</div>
         <div>
           <strong>لا تقف</strong>
-          <span>
+          
             Обычно означает, что останавливаться здесь не следует.
             <br><span class="waqf-muted">(Исключение: при нехватке дыхания
             допускается вынужденная остановка)</span>
-          </span>
+          
         </div>
       </div>
       <div class="waqf-sign">
         <div class="waqf-symbol arab">ج</div>
         <div>
           <strong>الوقف الجائز</strong>
-          <span>
+          
             Остановиться можно, можно также продолжить.
-          </span>
+          
         </div>
       </div>
       <div class="waqf-sign">
         <div class="waqf-symbol arab">قِفْ</div>
         <div>
           <strong>الوقف أولى</strong>
-          <span>
+          
             Остановка предпочтительнее продолжения.
             <br><span class="waqf-muted">(Ранее обозначалось как قلى)</span>
-          </span>
+          
         </div>
       </div>
       <div class="waqf-sign">
         <div class="waqf-symbol arab">صِلْ</div>
         <div>
           <strong>الوصل أولى</strong>
-          <span>
+          
             Продолжение предпочтительнее остановки.
             <br><span class="waqf-muted">(Ранее обозначалось как صلى)</span>
-          </span>
+          
         </div>
       </div>
       <div class="waqf-sign">
         <div class="waqf-symbol arab">ۛ</div>
         <div>
           <strong>وقف المعانقة</strong>
-          <span>
+          
             Между двумя знаками можно остановиться только в одном месте.
-          </span>
+          
         </div>
       </div>
     </div>
@@ -1251,7 +1251,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>10.</span>
+      10.
       <span class="arab">وقف المعانقة</span>
     </h2>
     <div class="waqf-card">
@@ -1274,7 +1274,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>11.</span>
+      11.
       <span class="arab">السكت</span>
       в رواية حفص
     </h2>
@@ -1338,7 +1338,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>12.</span>
+      12.
       Если закончился воздух
     </h2>
     <div class="waqf-card">
@@ -1379,7 +1379,7 @@ order: 1
        ===================================================== -->
   <section class="waqf-section">
     <h2 class="waqf-section-title">
-      <span>13.</span>
+      13.
       Практический алгоритм чтения
     </h2>
     <div class="waqf-steps">
@@ -1424,7 +1424,7 @@ order: 1
      ===================================================== -->
 <section class="waqf-section">
   <h2 class="waqf-section-title">
-    <span>14.</span>
+    14.
     Краткая шпаргалка
   </h2>
   <div class="waqf-card">
@@ -1596,7 +1596,7 @@ order: 1
           <td class="arab-cell">
             <span class="arab">يَدْعُو → يَدْعُو</span>
             <br>
-            <span class="arab">آمَنُوا → آمَنُوا</span>
+            <span class="arab">آمَنُوا → آمَنُوا</span> {Quran}4:136{/Quran}
           </td>
         </tr>
         <tr>

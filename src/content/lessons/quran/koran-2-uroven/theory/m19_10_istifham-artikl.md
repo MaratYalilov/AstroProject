@@ -19,7 +19,7 @@ order: 1910
 
 1. **<span class="arab">آلذَّكَرَيْنِ</span>** (аль-Ан'ам): «<span class="arab">آلذَّكَرَيْنِ حَرَّمَ</span>» — ибдаль (6 харакятов) или тасхиль;
 2. **<span class="arab">آلْآنَ</span>** (Юнус, 2 места): «<span class="arab">آلْآنَ وَقَدْ كُنْتُمْ</span>» — ибдаль или тасхиль;
-3. **<span class="arab">آللَّهُ</span>** (на лафз аль-джаляля, 2 места): «<span class="arab">قُلْ آللَّهُ أَذِنَ لَكُمْ</span>»<span class="arab">،</span> «<span class="arab">آللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ</span>» — ибдаль или тасхиль. {Quran}10:59{/Quran} {Quran}27:59{/Quran}
+3. **<span class="arab">آللَّهُ</span>** (на лафз аль-джаляля, 2 места): «<span class="arab">قُلۡ ءَآللَّهُ أَذِنَ لَكُم</span>»<span class="arab">،</span> «<span class="arab">ءَآللَّهُ خَيۡرٌ أَمَّا يُشۡرِكُونَ</span>» — ибдаль или тасхиль. {Quran}10:59{/Quran} {Quran}27:59{/Quran}
 
 ## Знак в мусхафе
 

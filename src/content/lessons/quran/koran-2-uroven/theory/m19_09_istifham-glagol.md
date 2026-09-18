@@ -11,10 +11,9 @@ order: 1909
 | Пример | Разбор | Пример в аяте |
 |---|---|---|
 | **<span class="arab">أَفْتَرَى</span>** | <span class="arab">أَ</span> + <span class="arab">افْتَرَى</span> | «<span class="arab">أَفۡتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَم بِهِۦ جِنَّةُۢ</span>» | {Quran}34:8{/Quran}
-| **<span class="arab">أَسْتَكْبَرْتَ</span>** | <span class="arab">أَ</span> + <span class="arab">اسْتَكْبَرْتَ</span> | — |
+| **<span class="arab">أَسْتَكْبَرْتَ</span>** | <span class="arab">أَ</span> + <span class="arab">اسْتَكْبَرْتَ</span> | «<span class="arab">أَسۡتَكۡبَرۡتَ أَمۡ كُنتَ مِنَ ٱلۡعَالِينَ</span>» | {Quran}38:75{/Quran}
 | **<span class="arab">أَطَّلَعَ</span>** | <span class="arab">أَ</span> + <span class="arab">اطَّلَعَ</span> | «<span class="arab">أَطَّلَعَ ٱلۡغَيۡبَ أَمِ ٱتَّخَذَ</span>» | {Quran}19:78{/Quran}
-| **<span class="arab">أَصْطَفَى</span>** | <span class="arab">أَ</span> + <span class="arab">اصْطَفَى</span> | «<span class="arab">أَصۡطَفَى ٱلۡبَنَاتِ عَلَى ٱلۡبَنِينَ</span>» |
- {Quran}37:153{/Quran}
+| **<span class="arab">أَصْطَفَى</span>** | <span class="arab">أَ</span> + <span class="arab">اصْطَفَى</span> | «<span class="arab">أَصۡطَفَى ٱلۡبَنَاتِ عَلَى ٱلۡبَنِينَ</span>» | {Quran}37:153{/Quran}
 ## Как опознать, что это вопрос
 
 Хамза васль в **глаголе** бывает только с **даммой** или **кясрой** (фатхи нет). Значит, если видим глагол, начинающийся с хамзы **с фатхой** («<span class="arab">أَفْتَرَى</span>»<span class="arab">،</span> «<span class="arab">أَصْطَفَى</span>»), — это **хамза вопроса** (катъ), а исходная хамза васль **выпала**:

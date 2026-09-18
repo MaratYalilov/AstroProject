@@ -2,7 +2,7 @@
 title: '41, Причины для совершения гусля'
 permalink: 41-prichiny-dlya-soversheniya-guslya
 intro: >
-  <p class="urok">Урок № 41. | Курс: "Мишкат аль-Масабих", «Гусль».</p>
+  <p>Урок № 41. | Курс: "Мишкат аль-Масабих", «Гусль».</p>
   <h2>Гусль</h2>
   <p><span class="arab">الْغُسْلُ</span> – гусль. Производное от глагола <span class="arab">اغَتَسَلَ</span> – мыться. Его основа глагол <span class="arab">غَسَلَ</span> - мыть, омывать, лить воду.<br>В шариате: намочить все тело водой.<br>Сказал Всевышний Аллах:</p>
   <p>{Quran}5:6{/Quran}</p>
@@ -17,7 +17,7 @@ audioRel: audio/41-prichiny-dlya-soversheniya-guslya.mp3
 videoRel: video/41-prichiny-dlya-soversheniya-guslya.mp4
 ---
 
-<p class="urok">Урок № 41. | Курс: "Мишкат аль-Масабих", «<a href="/glossary/gusl" class="glossary-link" target="_blank" rel="noopener noreferrer">Гусль</a>».</p>
+<p>Урок № 41. | Курс: "Мишкат аль-Масабих", «<a href="/glossary/gusl" class="glossary-link" target="_blank" rel="noopener noreferrer">Гусль</a>».</p>
 <h2>Гусль</h2>
 <p><span class="arab">الْغُسْلُ</span> – гусль. Производное от глагола <span class="arab">اغَتَسَلَ</span> – мыться. Его основа глагол <span class="arab">غَسَلَ</span> - мыть, омывать, лить воду.<br>В шариате: намочить все тело водой.<br>Сказал Всевышний Аллах:</p>
 <p>{Quran}5:6{/Quran}</p>

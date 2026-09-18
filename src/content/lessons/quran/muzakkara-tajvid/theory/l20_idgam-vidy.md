@@ -18,7 +18,7 @@ order: 20
 
 <div class="arab">مَالِكَ لَا تَأمَنَّا عَلَى يُوسُفَ</div>
 
-Здесь <span class="arab">نُون</span> (нун) рафъ слился с последующим нуном. Также: <span class="arab">مَا مَكَّنِّي</span> (исходно <span class="arab">مَا مَكَّنَنِي</span>) и <span class="arab">تَأمُرُونِّي</span> (исходно <span class="arab">تَأمُرُونَنِي</span>).
+Здесь <span class="arab">نُون</span> (нун) рафъ слился с последующим нуном. Также: <span class="arab">مَا مَكَّنِّي</span> (исходно <span class="arab">مَا مَكَّنَنِي</span>) и <span class="arab">تَأمُرُونِّي</span> (исходно <span class="arab">تَأمُرُونَنِي</span>). {Quran}18:95{/Quran}
 
 ## Малый идгам — три вида
 
@@ -26,11 +26,11 @@ order: 20
 
 <div class="arab">رَبِحَتْ تِّجَارَتُهُم ، إِذَا طَلَعَتْ تَّزَاوَر ، وَقَد دَّخَلُوا ، إِذ ذَّهَب ، يُدرِككُّمُ المَوت ، قُل لَّا أَقُولُ</div>
 
-- <span class="arab">فَاء</span> (фә) в фа: <span class="arab">فَلَا يُسۡرِف فِّي ٱلۡقَتۡلِ</span>
+- <span class="arab">فَاء</span> (фә) в фа: <span class="arab">فَلَا يُسۡرِف فِّي ٱلۡقَتۡلِ</span> {Quran}17:33{/Quran}
 - <span class="arab">بَاء</span> (бә) в ба: <span class="arab">اذهَب بِّكِتَابِي ، اضرِب بِّعَصَاكَ</span>
-- <span class="arab">وَاو</span> (уау) сакин после фатхи в уав: <span class="arab">عَفَواْ وَّقَالُواْ</span>
-- <span class="arab">مِيم</span> (мим) в мим: <span class="arab">قَدۡ جَآءَتۡكُم مَّوۡعِظَةٞ</span>
-- <span class="arab">نُون</span> в нун: <span class="arab">لَن نَّصۡبِرَ</span>
+- <span class="arab">وَاو</span> (уау) сакин после фатхи в уав: <span class="arab">عَفَواْ وَّقَالُواْ</span> {Quran}7:95{/Quran}
+- <span class="arab">مِيم</span> (мим) в мим: <span class="arab">قَدۡ جَآءَتۡكُم مَّوۡعِظَةٞ</span> {Quran}10:57{/Quran}
+- <span class="arab">نُون</span> в нун: <span class="arab">لَن نَّصۡبِرَ</span> {Quran}2:61{/Quran}
 
 *Примечание:* мадийные уау и йа не сливаются со своими парами: <span class="arab">آمَنُوا وَعَمِلُوا ، الَّذِي يُوَسوِسُ</span>
 
@@ -38,23 +38,23 @@ order: 20
 
 **Натъийские буквы:**
 
-- <span class="arab">تَاء</span> (тә) в та: <span class="arab">وَدَّت طَّآئِفَةٞ</span>
-- Та в <span class="arab">دَال</span> (дәль): <span class="arab">أُجِيبَت دَّعۡوَتُكُمَا</span>
-- Даль в та: <span class="arab">قَد تَّبَيَّنَ</span>
+- <span class="arab">تَاء</span> (тә) в та: <span class="arab">وَدَّت طَّآئِفَةٞ</span> {Quran}3:69{/Quran}
+- Та в <span class="arab">دَال</span> (дәль): <span class="arab">أُجِيبَت دَّعۡوَتُكُمَا</span> {Quran}10:89{/Quran}
+- Даль в та: <span class="arab">قَد تَّبَيَّنَ</span> {Quran}2:256{/Quran}
 
 **Лясавийские буквы:**
 
-- <span class="arab">ثَاء</span> (ҫә) в <span class="arab">ذَال</span> (ҙәль): <span class="arab">يَلۡهَث ذَّٰلِكَ</span>
-- Заль в <span class="arab">ظَاء</span> (ҙа): <span class="arab">إِذ ظَّلَمُوٓاْ</span>
+- <span class="arab">ثَاء</span> (ҫә) в <span class="arab">ذَال</span> (ҙәль): <span class="arab">يَلۡهَث ذَّٰلِكَ</span> {Quran}7:176{/Quran}
+- Заль в <span class="arab">ظَاء</span> (ҙа): <span class="arab">إِذ ظَّلَمُوٓاْ</span> {Quran}4:64{/Quran}
 
 **Шафавийские буквы:**
 
-- Ба в мим (единственный пример в Коране): <span class="arab">ٱرۡكَب مَّعَنَا</span>
+- Ба в мим (единственный пример в Коране): <span class="arab">ٱرۡكَب مَّعَنَا</span> {Quran}11:42{/Quran}
 
 ### 3. Мутакариб (близкородственный) — близкие махрадж и сифат
 
 - <span class="arab">لاَم</span> (ләм) в <span class="arab">رَاء</span> (ра): <span class="arab">وَقُل رَّبِّ</span>
-- <span class="arab">قَاف</span> (қаф) в <span class="arab">كَاف</span> (кәф): <span class="arab">أَلَمۡ نَخۡلُقكُّم</span> — два вида: неполный (с сохранением сифатов) и полный.
+- <span class="arab">قَاف</span> (қаф) в <span class="arab">كَاف</span> (кәф): <span class="arab">أَلَمۡ نَخۡلُقكُّم</span> — два вида: неполный (с сохранением сифатов) и полный. {Quran}77:20{/Quran}
 - Нун в буквы «йанму» — разобрано в разделе о нун-сакине.
 
 ## Неполный идгам (накис)
@@ -62,7 +62,7 @@ order: 20
 Слияние по природе (зат), но не по характеристикам (сифат):
 
 - Нун при уаве или йа: <span class="arab">مِن وَاق ، وَمَن يَعمَل</span>
-- Та при та: <span class="arab">لَئِنۢ بَسَطتَ</span> — буква та произносится без калькалы.
+- Та при та: <span class="arab">لَئِنۢ بَسَطتَ</span> — буква та произносится без калькалы. {Quran}5:28{/Quran}
 - Каф при кяфе — один из двух вариантов (полный или неполный).
 
 ## Краткое резюме идгама

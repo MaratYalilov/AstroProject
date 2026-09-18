@@ -2,7 +2,7 @@
 title: '91, Признаки завершения месячных'
 permalink: 91_-priznaki-zaversheniia-mesiachnykh
 intro: >
-  <p class="urok">Урок № 91 | Курс: "Мишкат аль-Масабих", глава "Хайд"</p>
+  <p>Урок № 91 | Курс: "Мишкат аль-Масабих", глава "Хайд"</p>
   <p><strong>В этом вопросе имеется несколько мнений ученых.</strong></p>
   <ol>
   <li> Если выделения крови прекратились, она считается очищенной. И нет разницы были после этого белые выделения или нет. Это мнение ученых ханафитского, шафитского и ханбалитского мазхабов.</li>
@@ -21,7 +21,7 @@ audioRel: audio/91-priznaki-zaversheniya-mesyachnyh.mp3
 videoRel: video/91-priznaki-zaversheniya-mesyachnyh.mp4
 ---
 
-<p class="urok">Урок № 91 | Курс: "Мишкат аль-Масабих", глава "<a href="/glossary/khajd" class="glossary-link" target="_blank" rel="noopener noreferrer">Хайд</a>"</p>
+<p>Урок № 91 | Курс: "Мишкат аль-Масабих", глава "<a href="/glossary/khajd" class="glossary-link" target="_blank" rel="noopener noreferrer">Хайд</a>"</p>
 <p><strong>В этом вопросе имеется несколько мнений ученых.</strong></p>
 <ol>
 <li> Если выделения крови прекратились, она считается очищенной. И нет разницы были после этого белые выделения или нет. Это мнение ученых ханафитского, шафитского и ханбалитского мазхабов.</li>
