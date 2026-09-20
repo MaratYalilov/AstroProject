@@ -18,7 +18,7 @@ order: 106
 
 Так, в **<span class="arab">أَنْزَلَ</span>** точка перед алифом означала, что хамза с **даммой**, и т. д. С этих простых начал ад-Ду’али и начал **огласовку мусхафа**, чтобы помочь чтецу.
 
-![Старинная рукопись: слово <span class="arab">أنتم</span> записано через алиф, без отдельного знака хамзы](/media/quran/koran-2-uroven/img/m01/hamza_manuscript_alif.png)
+<img src="/media/quran/koran-2-uroven/img/m01/hamza_manuscript_alif.png" alt="Старинная рукопись: слово أنتم записано через алиф, без отдельного знака хамзы" loading="lazy" decoding="async" class="block h-auto w-1/4 max-md:w-full mx-auto max-md:mx-0 mt-6 mb-3" />
 
 *Фотография старинной рукописи (Атлас Аймана Сувейда): в словах вроде <span class="arab">أنتم</span>, <span class="arab">أنزل</span>, <span class="arab">إذا</span> хамза в начале слова писалась просто алифом.*
 
@@ -33,7 +33,7 @@ order: 106
 
 То же и в конце слова: **<span class="arab">جاء</span>** записывали как «джим–алиф» (без хамзы); **<span class="arab">اللؤلؤ</span>** — через вав; **<span class="arab">يُؤْيِء</span>**-подобные — через **«отогнутую назад» йа (<span class="arab">ياء مردودة</span>)**, служившую «сиденьем» для хамзы после кясры.
 
-![Рукописные примеры: хамза в середине/конце слова через алиф, вав или йа](/media/quran/koran-2-uroven/img/m01/hamza_alif_vav_ya_examples.png)
+<img src="/media/quran/koran-2-uroven/img/m01/hamza_alif_vav_ya_examples.png" alt="Рукописные примеры: хамза в середине или конце слова через алиф, вав или йа" loading="lazy" decoding="async" class="block h-auto w-1/4 max-md:w-full mx-auto max-md:mx-0 mt-6 mb-3" />
 
 *Примеры из старых рукописей (Атлас Аймана Сувейда): <span class="arab">يَامركم</span>, <span class="arab">مُؤمنين</span>, <span class="arab">بِيسما</span>, <span class="arab">بَرَاة</span> — хамза передана через алиф, вав, йа или вовсе не написана.*
 
@@ -43,6 +43,6 @@ order: 106
 
 Этот знак мы и пишем сегодня: его ставят **над** алифом (если хамза с фатхой или даммой: **<span class="arab">أَحمد، أُمور</span>**), **под** алифом (если с кясрой: **<span class="arab">إِيمان</span>**), либо **на строке** — в словах вроде **<span class="arab">قراءة، براءة، وجاء، هؤلاء</span>**. Да воздаст Аллах аль-Халилю благом — он очень облегчил нам письмо.
 
-![Как из верхней части буквы <span class="arab">ع</span> получился знак хамзы <span class="arab">ء</span>](/media/quran/koran-2-uroven/img/m01/hamza_from_ain_diagram.png)
+<img src="/media/quran/koran-2-uroven/img/m01/hamza_from_ain_diagram.png" alt="Как из верхней части буквы ع получился знак хамзы ء" loading="lazy" decoding="async" class="block h-auto w-1/4 max-md:w-full mx-auto max-md:mx-0 mt-6 mb-3" />
 
 *Аль-Халиль ибн Ахмад взял верхушку буквы <span class="arab">ع</span> (выделено красным) и превратил её в современный знак хамзы <span class="arab">ء</span>.*

@@ -4406,81 +4406,6 @@
     "type": "theory",
     "title": "Спорные слова (разногласие чтецов)",
     "source": "m21_12_raznoglasie.md"
-   }
-  ]
- },
- {
-  "id": 2201,
-  "slug": "m22-01-poyavlenie-oglasovok",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "22. Письмо Корана",
-  "title": "Откуда взялись огласовки: история красных точек Абу-ль-Асвада",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Откуда взялись огласовки: история красных точек Абу-ль-Асвада",
-    "source": "m22_01_poyavlenie-oglasovok.md"
-   }
-  ]
- },
- {
-  "id": 2202,
-  "slug": "m22-02-tochki-razlicheniya",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "22. Письмо Корана",
-  "title": "Точки различения: как Наср ибн Асим разделил похожие буквы",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Точки различения: как Наср ибн Асим разделил похожие буквы",
-    "source": "m22_02_tochki-razlicheniya.md"
-   }
-  ]
- },
- {
-  "id": 2203,
-  "slug": "m22-03-shin-kaf",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "22. Письмо Корана",
-  "title": "Треугольник над «шин» и зигзаг над «каф»",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Треугольник над «шин» и зигзаг над «каф»",
-    "source": "m22_03_shin-kaf.md"
-   }
-  ]
- },
- {
-  "id": 2204,
-  "slug": "m22-04-hamza",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "22. Письмо Корана",
-  "title": "Хамза: буква без собственной формы",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Хамза: буква без собственной формы",
-    "source": "m22_04_hamza.md"
-   }
-  ]
- },
- {
-  "id": 2205,
-  "slug": "m22-05-bukvy-itbaka",
-  "subject": "quran",
-  "course": "koran-2-uroven",
-  "module": "22. Письмо Корана",
-  "title": "Как разделили четыре «буквы итбака»: ص، ض، ط، ظ",
-  "blocks": [
-   {
-    "type": "theory",
-    "title": "Как разделили четыре «буквы итбака»: ص، ض، ط، ظ",
-    "source": "m22_05_bukvy-itbaka.md"
    },
    {
     "type": "matn",
@@ -4491,4 +4416,4 @@
    }
   ]
  }
-]
+ ]

@@ -28,6 +28,15 @@ type MatnGroup = {
   times?: Record<string, [number, number]>;
 };
 
+/** «Сырой» вид matn_groups.json: import JSON выводит тайминги как number[]. */
+type MatnGroupJson = {
+  audio?: string;
+  from: number;
+  to: number;
+  noSync?: boolean;
+  times?: Record<string, number[]>;
+};
+
 type Props = {
   /** Заголовок блока, напр. «Мукаддима аль-Джазари: бейты 9–19» */
   title?: string;
@@ -44,7 +53,26 @@ const MUK_MAP: Record<number, { ar: string; ru: string }> = Object.fromEntries(
   MUKADDIMA.map((b) => [b.n, { ar: b.ar, ru: b.ru }]),
 );
 const SHARH = sharhData as Record<string, string>;
-const GROUPS = groupsData as Record<string, MatnGroup>;
+// JSON выводит тайминги как number[], поэтому приводим их к кортежу [start, end]
+// один раз здесь: дальше в коде t[0]/t[1] гарантированно числа.
+const GROUPS: Record<string, MatnGroup> = Object.fromEntries(
+  Object.entries(groupsData as Record<string, MatnGroupJson>).map(([key, raw]) => [
+    key,
+    {
+      audio: raw.audio,
+      from: raw.from,
+      to: raw.to,
+      noSync: raw.noSync,
+      times: raw.times
+        ? Object.fromEntries(
+            Object.entries(raw.times)
+              .filter(([, t]) => Array.isArray(t) && t.length >= 2)
+              .map(([n, t]) => [n, [t[0], t[1]] as [number, number]]),
+          )
+        : undefined,
+    } satisfies MatnGroup,
+  ]),
+);
 
 async function toHtml(md: string): Promise<string> {
   const parsed = await marked.parse(md);
@@ -281,7 +309,7 @@ export default function MatnBlock({ group, from, to }: Props) {
             <span className="relative min-w-0 flex-1">
               <span className="flex items-center justify-between gap-3">
                 <span className="truncate text-sm font-semibold text-gray-950 dark:text-white sm:text-base">
-                  {rangeLabel} · Саад аль-Гамди
+                  {rangeLabel} · чтец Саад аль-Гамиди
                 </span>
                 {playing && <AudioWave />}
               </span>
