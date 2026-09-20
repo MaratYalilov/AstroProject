@@ -1,6 +1,7 @@
+// src/components/NavBar.tsx
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import SearchBox from "@/components/search/SearchBox";
 import ThemeToggle from "@/components/ThemeToggle";
 import { Menu, X } from "lucide-react";
 
@@ -44,7 +45,7 @@ export default function NavBar({ currentPath = "/" }: { currentPath?: string }) 
           );
         })}
         <div className="ml-2 hidden md:flex items-center gap-2">
-          <Input placeholder="Поиск…" className="w-48" />
+          <SearchBox />
           <ThemeToggle />
         </div>
       </nav>
@@ -62,7 +63,7 @@ export default function NavBar({ currentPath = "/" }: { currentPath?: string }) 
         <div className="absolute left-0 right-0 top-[64px] border-b bg-background sm:hidden">
           <div className="mx-auto max-w-7xl px-4 py-3 space-y-3">
             <div className="flex gap-2">
-              <Input placeholder="Поиск…" />
+              <SearchBox variant="mobile" onNavigate={() => setOpen(false)} />
             </div>
             <div className="flex flex-col">
               {NAV.map((item, index) => {

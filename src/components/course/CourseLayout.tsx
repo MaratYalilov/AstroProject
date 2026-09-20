@@ -4,7 +4,7 @@ import { Menu } from "lucide-react";
 import CourseSidebar from "./CourseSidebar";
 import LessonNavigation from "./LessonNavigation";
 import InteractiveLessonPage from "../alifba/InteractiveLessonPage";
-import type { LessonItem } from "./CourseSidebar";
+import type { LessonItem, CourseDownload } from "./CourseSidebar";
 import type { InteractiveLesson } from "../../lib/interactive/loadInteractiveLesson";
 import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
 
@@ -42,9 +42,11 @@ type Props = {
   subject: string;
   course: string;
   courseTitle?: string;
+  /** Скачиваемые материалы курса (из YAML курса) — показываются в меню курса */
+  downloads?: CourseDownload[];
 };
 
-export default function CourseLayout({ lessons, subject, course, courseTitle }: Props) {
+export default function CourseLayout({ lessons, subject, course, courseTitle, downloads }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   // Стартовый урок: приоритет у URL-параметра ?lesson=<slug> (deep-link),
   // иначе — сохранённый прогресс из localStorage.
@@ -125,6 +127,7 @@ export default function CourseLayout({ lessons, subject, course, courseTitle }: 
         title={courseTitle}
         subject={subject}
         course={course}
+        downloads={downloads}
       />
 
       {/* Main content area */}

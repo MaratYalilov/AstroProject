@@ -28,6 +28,21 @@ const courses = defineCollection({
     lessonsCount: z.number().optional(),
     layout: z.enum(["tabs", "blog"]).optional().default("tabs"),
     type: z.string().optional().default("standard"),
+    // Скачиваемые материалы курса (PDF-тетради, прописи, методички и т.п.).
+    // Рендерятся в меню курса (CourseSidebar) — блок «Материалы курса».
+    downloads: z
+      .array(
+        z.object({
+          title: z.string(),
+          url: z.string(),
+          /** Короткий бейдж формата, например "PDF" */
+          type: z.string().optional(),
+          /** Человекочитаемый размер, например "1,4 МБ" */
+          size: z.string().optional(),
+        })
+      )
+      .optional()
+      .default([]),
     order: z.number().optional().default(999),
   }),
 });

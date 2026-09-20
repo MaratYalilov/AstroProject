@@ -47,15 +47,26 @@ function useIsMobile() {
 export default function GlossaryPage({ entries, initialSlug }: Props) {
   const isMobile = useIsMobile()
 
-  const [letter, setLetter] = useState<string | null>(null)
-  const [query, setQuery] = useState('')
-  const [active, setActive] = useState<GlossaryEntry | null>(null)
-
-  const hasInitializedDesktop = useRef(false)
-
   /* ---------------- helpers ---------------- */
 
   const getSlug = (e: GlossaryEntry) => e.data.url_slug
+
+  /* ---------------- state ---------------- */
+
+  // ВАЖНО: термин из URL (/glossary/<slug>) выбираем сразу при инициализации,
+  // а не эффектом — иначе эффект «desktop auto-select» в том же коммите ещё
+  // видит active === null и перебивает выбор первой статьёй (плюс подменяет URL
+  // через replaceState → любой переход открывал /glossary/a-raf).
+  const [active, setActive] = useState<GlossaryEntry | null>(() =>
+    initialSlug
+      ? entries.find(e => getSlug(e) === initialSlug) ?? null
+      : null
+  )
+
+  const [letter, setLetter] = useState<string | null>(null)
+  const [query, setQuery] = useState('')
+
+  const hasInitializedDesktop = useRef(false)
 
   /* ---------------- letters ---------------- */
 
@@ -108,6 +119,9 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
     if (
       !isMobile &&
       !active &&
+      // В URL уже указан конкретный термин (/glossary/<slug>) — авто-выбор
+      // первой статьи здесь не нужен, иначе он перебьёт переход по ссылке.
+      !initialSlug &&
       !hasInitializedDesktop.current &&
       filtered.length
     ) {

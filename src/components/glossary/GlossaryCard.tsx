@@ -33,7 +33,7 @@ export default function GlossaryCard({
           >
             <div
               dangerouslySetInnerHTML={{
-                __html: replaceQuranTags(entry.body),
+                __html: replaceQuranTags(entry.body ?? ''),
               }}
             />
           </motion.div>

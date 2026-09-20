@@ -1,0 +1,17 @@
+---
+// src/pages/search.astro
+import Base from "../layouts/Base.astro";
+import Breadcrumbs from "../components/Breadcrumbs.astro";
+import SearchPage from "../components/search/SearchPage";
+---
+
+<Base title="Поиск по урокам">
+  <Breadcrumbs
+    items={[
+      { label: "HUTBA", href: "/" },
+      { label: "Поиск по урокам" },
+    ]}
+  />
+
+  <SearchPage client:load />
+</Base>

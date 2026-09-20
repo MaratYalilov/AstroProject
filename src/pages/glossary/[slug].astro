@@ -14,7 +14,12 @@ export async function getStaticPaths() {
 const site = Astro.site
 const { slug } = Astro.params
 
-const entries = await getCollection('glossary')
+const entries = (await getCollection('glossary')).map(e => ({
+  id: e.id,
+  data: e.data,
+  // body в новых версиях Astro — string | undefined
+  body: e.body ?? '',
+}))
 
 const entry = entries.find(
   e => (e.data.url_slug ?? e.id) === slug

@@ -28,7 +28,7 @@ export default function GlossaryDetail({ entry }: Props) {
 
       <div
         dangerouslySetInnerHTML={{
-          __html: replaceQuranTags(entry.body),
+          __html: replaceQuranTags(entry.body ?? ''),
         }}
       />
     </article>
