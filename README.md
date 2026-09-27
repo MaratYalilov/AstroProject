@@ -41,3 +41,12 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+---
+
+## 🚀 Развёртывание на хостинге (инструкция администратору)
+
+Пошаговое руководство по выкладке сайта: VPS + nginx + Node.js (адаптер `@astrojs/node`,
+`mode: standalone`), перенос медиатеки (≈113 ГБ, в Git её нет), systemd-сервис, HTTPS,
+чек-лист приёмки и диагностика — см. [`DEPLOY.md`](./DEPLOY.md).
+
