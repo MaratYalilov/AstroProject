@@ -16,12 +16,18 @@ import path from "node:path";
 export async function getStaticPaths() {
   const courses = await getCollection("courses");
 
-  return courses.map((c) => ({
-    params: {
-      subject: c.data.subject, // например "fiqh"
-      course: c.data.slug,     // например "mishkat-namaz"
-    },
-  }));
+  return courses
+    // This course has a dedicated page that resumes the last viewed lesson.
+    .filter(
+      (c) =>
+        !(c.data.subject === "akida" && c.data.slug === "uchebnik-6-stolpov")
+    )
+    .map((c) => ({
+      params: {
+        subject: c.data.subject, // например "fiqh"
+        course: c.data.slug, // например "mishkat-namaz"
+      },
+    }));
 }
 
 const { subject, course } = Astro.params;
