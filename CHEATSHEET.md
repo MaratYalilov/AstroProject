@@ -25,13 +25,19 @@
 ### Обновить сайт с GitHub
 
 ```bash
+ssh hutba
 cd /srv/hutba/app
 git status                          # убедиться, что рабочая копия чистая
 git pull origin scroll-to-active-patch
 npm ci                              # если менялся package.json / package-lock.json
 npm run build
-sudo systemctl restart hutba
-curl -s -o /dev/null -w '%{http_code}\n' https://hutba.org/
+systemctl --user restart hutba
+curl -s -o /dev/null -w '%{http_code}\n' https://hutba.org/   
+
+SSH:
+Host: hutba.org
+Port: 4242
+User: hutba
 ```
 
 ### Откатить на предыдущий коммит

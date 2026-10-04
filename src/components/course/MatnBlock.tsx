@@ -399,15 +399,19 @@ export default function MatnBlock({ group, from, to }: Props) {
                           />
                           Шарх Муллы Али аль-Кари
                         </button>
-                        {openSharh[b.n] && (
-                          <div className="mt-3 rounded-2xl border border-gray-200 bg-gray-50/70 px-4 py-3 dark:border-white/10 dark:bg-white/[0.03]">
-                            {sharhHtml[b.n] == null ? (
-                              <p className="m-0 text-base text-slate-500 dark:text-slate-400">
-                                Загрузка…
-                              </p>
-                            ) : (
-                              <div
-                                className="max-w-none
+                      </div>
+                    )}
+                  </div>
+                </div>
+                {b.sharh && openSharh[b.n] && (
+                  <div className="mt-3 w-full min-w-0 rounded-2xl border border-gray-200 bg-gray-50/70 px-4 py-3 dark:border-white/10 dark:bg-white/[0.03] sm:ml-10 sm:w-[calc(100%-2.5rem)]">
+                    {sharhHtml[b.n] == null ? (
+                      <p className="m-0 text-base text-slate-500 dark:text-slate-400">
+                        Загрузка…
+                      </p>
+                    ) : (
+                      <div
+                        className="max-w-none
                                   [&_h2]:mb-4 [&_h2]:mt-9 [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:leading-tight [&_h2]:text-slate-950 dark:[&_h2]:text-white
                                   [&_h3]:mb-3 [&_h3]:mt-7 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:leading-snug [&_h3]:text-slate-900 dark:[&_h3]:text-slate-50
                                   [&_p]:my-5 [&_p]:text-lg [&_p]:leading-8 [&_p]:text-slate-700 dark:[&_p]:text-slate-200
@@ -422,15 +426,11 @@ export default function MatnBlock({ group, from, to }: Props) {
                                   [&_tbody]:divide-y [&_tbody]:divide-slate-200/80 dark:[&_tbody]:divide-white/10
                                   [&_th]:px-4 [&_th]:py-3 [&_th]:text-sm [&_th]:font-semibold [&_th]:uppercase [&_th]:tracking-wider [&_th]:text-slate-600 dark:[&_th]:text-slate-400
                                   [&_td]:px-4 [&_td]:py-3 [&_td]:text-lg"
-                                dangerouslySetInnerHTML={{ __html: sharhHtml[b.n] }}
-                              />
-                            )}
-                          </div>
-                        )}
-                      </div>
+                        dangerouslySetInnerHTML={{ __html: sharhHtml[b.n] }}
+                      />
                     )}
                   </div>
-                </div>
+                )}
               </li>
             );
           })}
