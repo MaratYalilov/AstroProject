@@ -745,8 +745,10 @@ export default function ReadingExercises({ lessonOrder }: Props) {
                   }}
                   type="button"
                   onClick={() => handleCardClick(index)}
+                  aria-pressed={isActive}
+                  aria-label={`Прослушать упражнение ${index + 1}`}
                   className={[
-                    "group relative flex min-h-[132px] items-center justify-center rounded-[18px] border p-4 text-center",
+                    "state-choice group relative flex min-h-[132px] items-center justify-center rounded-[18px] border p-4 text-center",
                     "bg-white shadow-sm shadow-gray-200/70 transition-all duration-300",
                     "hover:-translate-y-1 hover:border-cyan-300/60 hover:bg-cyan-50/50 hover:shadow-lg hover:shadow-cyan-500/10 active:translate-y-0 active:scale-[0.985]",
                     "dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none dark:hover:border-cyan-300/30 dark:hover:bg-white/[0.075]",

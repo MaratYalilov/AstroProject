@@ -67,12 +67,13 @@ interface LetterCardProps {
 
 function LetterCard({ letter, isActive, onClick }: LetterCardProps) {
   return (
-    <motion.div
+    <motion.button
+      type="button"
       whileHover={{ y: -2 }}
-      className={`${baseCardClass} ${activeCardClass(isActive)} px-3 pb-4 pt-[18px]`}
+      className={`${baseCardClass} ${activeCardClass(isActive)} state-choice w-full px-3 pb-4 pt-[18px]`}
       onClick={onClick}
-      role="button"
-      tabIndex={0}
+      aria-pressed={isActive}
+      aria-label={`Прослушать букву ${letter.name}`}
     >
       <span
         className="mb-1.5 block py-2.5 text-[56px] font-normal leading-[1.1] text-gray-900 dark:text-arabic-foreground"
@@ -80,12 +81,12 @@ function LetterCard({ letter, isActive, onClick }: LetterCardProps) {
       >
         {letter.char}
       </span>
-      <p className="m-0 text-base font-semibold text-gray-900 dark:text-white">
+      <span className="block m-0 text-base font-semibold text-gray-900 dark:text-white">
         {letter.name}
-      </p>
-      <p className="arab mb-0 mt-1.5 text-sm text-gray-500 dark:text-arabic-caption">
+      </span>
+      <span className="block arab mb-0 mt-1.5 text-sm text-gray-500 dark:text-arabic-caption">
         {letter.arabName}
-      </p>
+      </span>
       <div className="mt-2 flex h-4 justify-center">
         <span
           className={
@@ -97,7 +98,7 @@ function LetterCard({ letter, isActive, onClick }: LetterCardProps) {
           <AudioWave />
         </span>
       </div>
-    </motion.div>
+    </motion.button>
   );
 }
 

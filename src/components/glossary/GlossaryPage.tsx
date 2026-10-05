@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
+import { Input } from '@/components/ui/input'
 import { replaceQuranTags } from '@/utils/replaceQuranTags'
 
 type GlossaryEntry = {
@@ -231,8 +232,8 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
       <div className="space-y-4">
         {!active && (
           <>
-            <input
-              className="w-full border rounded-md px-3 py-2 bg-secondary"
+            <Input
+              className="h-auto bg-secondary py-2 shadow-none md:text-base"
               placeholder="Поиск…"
               value={query}
               onChange={e => setQuery(e.target.value)}
@@ -327,8 +328,8 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
 
       {/* LIST */}
       <div className="sticky top-24 h-[calc(100vh-6rem)] flex flex-col">
-        <input
-          className="mb-4 border rounded-md px-3 py-2 bg-secondary "
+        <Input
+          className="mb-4 h-auto bg-secondary py-2 shadow-none md:text-base"
           placeholder="Поиск…"
           value={query}
           onChange={e => setQuery(e.target.value)}

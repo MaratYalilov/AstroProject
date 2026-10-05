@@ -385,6 +385,7 @@ function SidebarContent({
                 key={lesson.id}
                 type="button"
                 onClick={() => onSelect(index)}
+                aria-current={isCurrent ? "step" : undefined}
                 className={[
                   "group relative flex w-full items-center gap-3 overflow-hidden rounded-[18px] border px-4 py-3.5 text-left text-sm transition-all duration-300 sm:text-base",
                   "hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.99]",
@@ -407,6 +408,10 @@ function SidebarContent({
 
                 <div className="relative z-10">
                   <LessonStatusIcon status={status} />
+                  <span className="sr-only">
+                    {isCurrent ? "Текущий урок. " : ""}
+                    {isCompleted ? "Урок завершён. " : ""}
+                  </span>
                 </div>
 
                 <div className="relative z-10 min-w-0 flex-1">

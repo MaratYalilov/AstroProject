@@ -4,7 +4,6 @@ import type { CollectionEntry } from "astro:content";
 import { motion } from "framer-motion";
 import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 type CourseEntry = CollectionEntry<"courses">;
@@ -58,7 +57,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
             href={`/${subjectSlug}/${c.data.slug}`}
             whileHover={{ y: -6, scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="block h-full no-underline"
+            className="interaction-card block h-full no-underline"
           >
             <Card className="group relative h-full min-h-[180px] cursor-pointer overflow-hidden border border-border/70 bg-gradient-to-br from-white to-gray-50/50 transition-all duration-300 hover:border-lime-300/50 hover:shadow-lg hover:shadow-lime-100/50 dark:from-gray-900/50 dark:to-gray-800/30 dark:hover:border-lime-800/50 dark:hover:shadow-lime-900/20">
               
@@ -124,14 +123,10 @@ const CourseGrid: React.FC<CourseGridProps> = ({
                       <span>&nbsp;</span>
                     )}
                   </div>
-                  <Button 
-                    variant="ghost" 
-                    size="sm" 
-                    className="group/btn h-8 gap-1 text-xs transition-all duration-300  hover:text-lime-700 dark:hover:text-emerald-500"
-                  >
+                  <span className="inline-flex items-center justify-center rounded-md px-3 py-2 font-medium group/btn h-8 gap-1 text-xs transition-all duration-300  hover:text-lime-700 dark:hover:text-emerald-500">
                     <span>Открыть курс</span>
                     <ArrowRight className="h-3 w-3 transition-transform duration-300 group-hover/btn:translate-x-1" />
-                  </Button>
+                  </span>
                 </div>
               </div>
               

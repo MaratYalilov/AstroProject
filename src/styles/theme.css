@@ -146,3 +146,13 @@
     --theory-hero-gradient-end: rgba(111, 158, 205, 0.03);
     --theory-subtitle: rgb(203 213 225);
 }
+
+/* Фокус и ошибки ввода: единая семантика для всех компонентов. */
+:root {
+    --interaction-focus: var(--primary-color);
+    --interaction-error: #b91c1c;
+}
+.dark {
+    --interaction-focus: var(--secondary-color);
+    --interaction-error: #f87171;
+}

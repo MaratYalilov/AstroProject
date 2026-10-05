@@ -46,6 +46,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
   const [isDragging, setIsDragging] = useState(false);
   const [isSwipeAnimating, setIsSwipeAnimating] = useState(false);
   const [suppressClick, setSuppressClick] = useState(false);
+  const containerRef = useRef<HTMLDivElement | null>(null);
   const swipeTimeoutRef = useRef<number | null>(null);
   const clickSuppressTimeoutRef = useRef<number | null>(null);
   const minSwipeDistance = 50;
@@ -90,6 +91,19 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
   // Управление с клавиатуры
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
+      const container = containerRef.current;
+      // The responsive layout mounts two copies; only the visible copy handles keys.
+      if (e.defaultPrevented || !container || container.getClientRects().length === 0) {
+        return;
+      }
+      const target = e.target instanceof HTMLElement ? e.target : null;
+      if (target?.closest('input, select, textarea, [contenteditable="true"], [contenteditable=""]')) {
+        return;
+      }
+      const control = target?.closest('button, a[href], [role="button"]');
+      if (control && (!container.contains(control) || !['ArrowLeft', 'ArrowRight'].includes(e.code))) {
+        return;
+      }
       const keysToPrevent = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', ' ', 'Space'];
       if (keysToPrevent.includes(e.key)) {
         e.preventDefault();
@@ -331,7 +345,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
   };
 
   return (
-    <div className="my-8 p-6 bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-indigo-200 dark:border-indigo-800">
+    <div ref={containerRef} className="my-8 p-6 bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-indigo-200 dark:border-indigo-800">
       {/* Переключатель направления */}
       <div className="flex justify-between items-center mb-4">
         <div className="dic-toggle-controls flex items-center gap-3">
@@ -402,7 +416,9 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
          style={{
            ...cardFaceStyle,
            transform: 'rotateY(0deg) translateZ(1px)'
-         }}>
+         }}
+         aria-hidden={isFlipped}
+         inert={isFlipped}>
       {isArabicFront && (
         <button 
           onClick={(e) => { e.stopPropagation(); playAudio(currentWord.arabic); }}
@@ -429,7 +445,9 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
          style={{
            ...cardFaceStyle,
            transform: 'rotateY(180deg) translateZ(1px)'
-         }}>
+         }}
+         aria-hidden={!isFlipped}
+         inert={!isFlipped}>
       {!isArabicFront && (
         <button 
           onClick={(e) => { e.stopPropagation(); playAudio(currentWord.arabic); }}
@@ -465,7 +483,8 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
         </button>
 
         <button 
-          onClick={toggleStudied} 
+          onClick={toggleStudied}
+          aria-pressed={studied.has(currentIndex)} 
           className={`w-9 h-9 rounded-full flex items-center justify-center transition-colors ${
             studied.has(currentIndex) 
               ? 'text-white' 
@@ -492,6 +511,15 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
           <ChevronRight size={18} />
         </button>
       </div>
+
+      <button
+        type="button"
+        onClick={flip}
+        className="mt-3 rounded-md px-3 py-2 text-sm text-caption hover:bg-accent"
+        aria-label={isFlipped ? "Показать лицевую сторону карточки" : "Показать обратную сторону карточки"}
+      >
+        Перевернуть карточку
+      </button>
 
       {/* Подсказки клавиш */}
     <div className="dic-keyboard-shortcuts mt-4 text-center text-xs text-gray-400 dark:text-gray-500">

@@ -1,0 +1,33 @@
+/* Единые состояния интерактивных элементов в обеих темах. */
+html :is(a[href], button, input, select, textarea, [role="button"], [role="tab"], [tabindex]):focus-visible {
+    outline: 2px solid var(--interaction-focus);
+    outline-offset: 3px;
+}
+
+.ui-button:is(:disabled, [data-disabled="true"]),
+.ui-input:disabled,
+[role="tab"]:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.ui-button:is(:disabled, [data-disabled="true"]) { pointer-events: none; }
+
+.ui-input:not(:disabled):hover { border-color: var(--interaction-focus); }
+.ui-input[aria-invalid="true"] { border-color: var(--interaction-error); }
+.ui-input[aria-invalid="true"]:focus-visible { outline-color: var(--interaction-error); }
+
+.interaction-card { border-radius: 12px; }
+.interaction-card:focus-visible > div { border-color: var(--interaction-focus); }
+
+.ui-tab[data-state="active"] {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ui-button,
+    .interaction-card,
+    .state-choice { transition-duration: 0s; }
+}

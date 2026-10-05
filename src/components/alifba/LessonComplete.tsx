@@ -100,6 +100,8 @@ export default function LessonComplete({
 
         {done ? (
           <motion.div
+            role="status"
+            aria-live="polite"
             initial={{ opacity: 0, y: 8, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             className="inline-flex items-center gap-2 rounded-full border border-emerald-300/60 bg-emerald-50/80 px-4 py-2 text-sm font-semibold text-emerald-800 shadow-lg shadow-emerald-500/10 backdrop-blur dark:border-emerald-300/20 dark:bg-emerald-400/10 dark:text-emerald-200"
