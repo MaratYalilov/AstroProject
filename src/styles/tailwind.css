@@ -1,4 +1,5 @@
 @import "./qcf-v2.css";
+@import "./theme.css";
 
 @tailwind base;
 @tailwind components;
@@ -66,66 +67,7 @@
     font-family: 'Propisi', cursive;
   }
 }
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
 
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
-    --radius: 0.5rem;
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-  }
-
-  .dark {
-    --background: 200 3% 17%;
-    --foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-    --card: 200 3% 17%;
-    --card-foreground: 0 0% 98%;
-    --popover: 200 3% 17%;
-    --popover-foreground: 0 0% 98%;
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
-  }
-}
 
 @layer base {
   * {
@@ -174,15 +116,14 @@
 }
 
 .quran-ayah-block__source {
-  font-size: 0.9rem;
-  color: var(--secondary-text);
-  margin-bottom: 8px;
+  margin: 0;
+  text-align: left;
 }
 
 
 /* минималистичный аудиоплеер */
   .quran-ayah-block__audio {
-    margin-top: 0.5rem;
+    margin-top: 12px;
   }
 
   /* сам <audio> прячем — управляем им кнопкой */
@@ -255,47 +196,9 @@
     line-height: 1.6;
 }
 
-/* CSS переменные для светлой темы (по умолчанию) */
-:root {
-    --bg-color: #f8f9fa;
-    --text-color: #333;
-    --container-bg: white;
-    --primary-color: #2c6e49;
-    --secondary-color: #4a7c59;
-    --secondary-text: #666;
-    --border-color: #eee;
-    --shadow: 0 0 15px rgba(0,0,0,0.1);
-    
-    --hadith-bg: #f5f5f5;
-    --hadith-border: #8a715e;
-    
-    --important-bg: #fff9e6;
-    --important-border: #e6b325;
-    
-    --qa-bg: #f0f8ff;
-    --qa-border: #d0e3ff;
-}
 
-/* CSS переменные для тёмной темы (при наличии класса dark) */
-:root.dark {
-    --bg-color: #1a1a1a;
-    --text-color: #e0e0e0;
-    --container-bg: #2d2d2d;
-    --primary-color: #4caf7d;
-    --secondary-color: #6bbf8f;
-    --secondary-text: #aaa;
-    --border-color: #444;
-    --shadow: 0 0 15px rgba(0,0,0,0.3);
-    
-    --hadith-bg: #3a3a3a;
-    --hadith-border: #a1887f;
-    
-    --important-bg: #332b1a;
-    --important-border: #ffb74d;
-    
-    --qa-bg: #2b2d30;
-    --qa-border: #4a6572;
-}
+
+
 
 /* Основные стили */
 h1 {
@@ -326,7 +229,7 @@ h3 {
 
 p {
     margin-bottom: 15px;
-    text-align: justify;
+    text-align: start;
 }
 
 .greeting {
@@ -336,20 +239,133 @@ p {
     margin-bottom: 20px;
 }
 
+/* Единая типографика учебного текста; интерфейс и упражнения оформляются отдельно. */
+.lesson-text,
+.lesson-copy {
+    font-size: 1rem;
+    line-height: 1.75;
+    letter-spacing: normal;
+}
+
+.lesson-copy :where(li) { line-height: inherit; }
+
+.lesson-text :where(p:not(.arab):not(.qcf-ayah), li:not(.arab), blockquote, .hadith, .important) {
+    font-size: inherit;
+    line-height: 1.75;
+}
+
+.lesson-text :where(p) {
+    margin: 0 0 16px;
+}
+
+.lesson-text :where(h1, h2, h3, h4, h5, h6) {
+    font-weight: 600;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.lesson-text :where(h1) {
+    font-size: 1.625rem;
+    margin: 32px 0 16px;
+}
+
+.lesson-text :where(h2) {
+    font-size: 1.375rem;
+    margin: 32px 0 16px;
+}
+
+.lesson-text :where(h3) {
+    font-size: 1.125rem;
+    margin: 24px 0 12px;
+}
+
+.lesson-text :where(h4, h5, h6) {
+    font-size: 1rem;
+    margin: 24px 0 12px;
+}
+
+.lesson-text :where(ul, ol) {
+    margin: 16px 0;
+    padding-inline-start: 24px;
+}
+
+.lesson-text :where(ul) { list-style-type: disc; }
+.lesson-text :where(ol) { list-style-type: decimal; }
+.lesson-text :where(li) { margin: 8px 0; }
+.lesson-text :where(li > ul, li > ol) { margin: 8px 0; }
+.lesson-text .list { margin-inline-start: 0; }
+.lesson-text .list :where(li) { padding-inline-start: 0; }
+
+.lesson-text :where(blockquote, table) { margin: 24px 0; }
+
+.lesson-text :where(table) {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.lesson-text .subtitle {
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.lesson-text > :first-child { margin-top: 0; }
+.lesson-text > :last-child { margin-bottom: 0; }
+
+@media (min-width: 640px) {
+    .lesson-text,
+    .lesson-copy { font-size: 1.125rem; }
+    .lesson-text :where(h1) { font-size: 1.875rem; }
+    .lesson-text :where(h2) { font-size: 1.5rem; }
+    .lesson-text :where(h3) { font-size: 1.25rem; }
+    .lesson-text :where(h4, h5, h6) { font-size: 1.125rem; }
+}
+
+/* Общая геометрия смысловых блоков */
+.hadith,
+.important,
+.quran-ayah-block {
+    width: 100%;
+    margin: 24px 0;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.hadith > :first-child,
+.important > :first-child,
+.quran-ayah-block > :first-child {
+    margin-top: 0;
+}
+
+.hadith > :last-child,
+.important > :last-child,
+.quran-ayah-block > :last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+    .hadith,
+    .important,
+    .quran-ayah-block {
+        padding: 16px;
+    }
+}
+
 .hadith {
     background-color: var(--hadith-bg);
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 5px;
     border-left: 4px solid var(--hadith-border);
 }
 
 
-.hadith-reference {
+.hadith-reference,
+.quran-ayah-block__source {
     color: var(--secondary-text);
-    font-size: 14px;
-    margin-top: 5px;
-    font-style: italic;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.hadith .hadith-reference {
+    margin-top: 12px;
 }
 
 .list {
@@ -371,10 +387,7 @@ p {
 
 .important {
     background-color: var(--important-bg);
-    padding: 15px;
-    border-radius: 5px;
     border-left: 4px solid var(--important-border);
-    margin: 20px 0;
 }
 
 .qa-section {
@@ -438,7 +451,7 @@ footer {
 /* стили для ссылок на глоссарий */
 
 .glossary-link {
-  color: #2c6e49;
+  color: var(--term-color);
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-color: currentColor;
@@ -449,20 +462,10 @@ footer {
   cursor: pointer;
 }
 
-.dark .glossary-link {
-  color: #6bbf8f;
-}
-
 .glossary-link:hover,
 .glossary-link:focus-visible,
 .glossary-link:active {
-  background-color: rgba(44, 110, 73, 0.1);
-}
-
-.dark .glossary-link:hover,
-.dark .glossary-link:focus-visible,
-.dark .glossary-link:active {
-  background-color: rgba(107, 191, 143, 0.15);
+  background-color: var(--term-highlight);
 }
 
 .glossary-link:focus-visible {
@@ -472,17 +475,12 @@ footer {
 
 /* стили для подсказок */
 .glossary-popover {
-  background: var(--color-bg, #fff);
-  border: 1px solid rgba(0,0,0,.08);
+  background: var(--color-bg, var(--term-popover-bg));
+  border: 1px solid var(--term-popover-border);
   border-radius: 8px;
   padding: 0.5rem 0.75rem;
   font-size: 0.9rem;
-  box-shadow: 0 6px 20px rgba(0,0,0,.12);
-}
-.dark .glossary-popover {
-  background: var(--color-bg, #2d2d2d);
-  border: 1px solid rgba(255,255,255,.1);
-  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+  box-shadow: var(--term-popover-shadow);
 }
 
 :root {
@@ -587,30 +585,20 @@ footer {
 
 .theory-hero {
   margin-bottom: 2rem;
-  border: 1px solid rgb(229 231 235);
+  border: 1px solid var(--theory-hero-border);
   border-radius: 1.5rem;
   overflow: hidden;
 
   background:
     linear-gradient(
       135deg,
-      rgba(60,109,162,0.08) 0%,
-      rgba(60,109,162,0.02) 100%
+      var(--theory-hero-gradient-start) 0%,
+      var(--theory-hero-gradient-end) 100%
     );
 
   padding: 2rem;
 }
 
-.dark .theory-hero {
-  border-color: rgb(255 255 255 / 0.1);
-
-  background:
-    linear-gradient(
-      135deg,
-      rgba(111,158,205,0.12) 0%,
-      rgba(111,158,205,0.03) 100%
-    );
-}
 
 .theory-hero-inner {
   display: flex;
@@ -639,12 +627,9 @@ footer {
 .theory-hero-sub {
   margin-top: 1rem;
   line-height: 1.8;
-  color: rgb(75 85 99);
+  color: var(--theory-subtitle);
 }
 
-.dark .theory-hero-sub {
-  color: rgb(203 213 225);
-}
 
 @media (max-width: 640px) {
   .theory-hero-inner {
@@ -699,7 +684,7 @@ footer {
 
 .theory-form-label {
   @apply mt-2 text-sm text-gray-400;
-}
+  }
 
 /* ==========================================
    MERMAID
@@ -794,7 +779,7 @@ pre.mermaid[data-processed]:hover::after {
 .mermaid-modal__backdrop {
   position: absolute;
   inset: 0;
-  background-color: rgb(2 6 23 / 0.7);
+  background-color: var(--diagram-backdrop);
   backdrop-filter: blur(4px);
 }
 
@@ -809,7 +794,7 @@ pre.mermaid[data-processed]:hover::after {
   border: 1px solid hsl(var(--border));
   border-radius: 1rem;
   background-color: hsl(var(--background));
-  box-shadow: 0 25px 60px -20px rgb(0 0 0 / 0.6);
+  box-shadow: var(--diagram-shadow);
 }
 
 .mermaid-modal__toolbar {

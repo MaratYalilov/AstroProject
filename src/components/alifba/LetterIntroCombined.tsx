@@ -400,7 +400,7 @@ export default function LetterIntroCombined({
                             {letter.name}
                           </p>
                           {letter.arabname && (
-                            <p className="arab mb-0 mt-1.5 text-sm text-gray-500 dark:text-[#b0b0b0]">
+                            <p className="arab mb-0 mt-1.5 text-sm text-gray-500 dark:text-arabic-caption">
                               {letter.arabname}
                             </p>
                           )}

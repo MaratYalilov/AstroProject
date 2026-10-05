@@ -77,7 +77,7 @@ function renderComparisonText(segments: ComparisonSegment[]) {
             key={`${segment.text}-${index}`}
             className={[
               "arab inline",
-              form ? FORM_THEME[form].text : "text-gray-900 dark:text-[#e8e1d8]",
+              form ? FORM_THEME[form].text : "text-gray-900 dark:text-arabic-foreground",
             ].join(" ")}
             style={{
               fontFamily: "inherit",

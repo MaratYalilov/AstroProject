@@ -339,7 +339,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
             className="text-sm"
             style={{ 
               fontWeight: currentDirection === 'ru-ar' ? 'bold' : 'normal',
-              color: currentDirection === 'ru-ar' ? 'var(--primary-color)' : '#6b7280'
+              color: currentDirection === 'ru-ar' ? 'var(--primary-color)' : 'var(--inactive-label)'
             }}
           >
             Русский → العربية
@@ -361,7 +361,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
             className="text-sm"
             style={{ 
               fontWeight: currentDirection === 'ar-ru' ? 'bold' : 'normal',
-              color: currentDirection === 'ar-ru' ? 'var(--primary-color)' : '#6b7280'
+              color: currentDirection === 'ar-ru' ? 'var(--primary-color)' : 'var(--inactive-label)'
             }}
           >
             العربية → Русский
@@ -376,7 +376,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
           width: `${progress}%`,
           backgroundColor:'var(--primary-color)'
         }} />
-        <span className="absolute -top-6 right-0 text-xs text-gray-500 dark:text-gray-400">
+        <span className="absolute -top-6 right-0 text-xs text-caption">
           {studied.size} / {words.length}
         </span>
       </div>
@@ -454,7 +454,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
 </div>
 
       {/* Счётчик */}
-      <div className="text-center text-sm text-gray-500 dark:text-gray-400 mt-4">
+      <div className="text-center text-sm text-caption mt-4">
         {currentIndex + 1} / {words.length}
       </div>
 

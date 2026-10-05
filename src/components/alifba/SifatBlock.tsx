@@ -95,7 +95,7 @@ export default function SifatBlock({
           );
         })}
       </div>
-      <p className="!mb-0 mt-3 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
+      <p className="!mb-0 mt-3 text-sm leading-relaxed text-caption">
         Нажмите на свойство, чтобы открыть его подробный разбор в курсе{" "}
         <a
           href={COURSE_URL}

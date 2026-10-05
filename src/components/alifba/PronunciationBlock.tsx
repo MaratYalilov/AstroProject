@@ -2,7 +2,7 @@
 // Блок «Произношение»: махрадж, описание звука, шаги «Как произнести»,
 // постоянные свойства (сыфаты — компонент SifatBlock) и примечания.
 // Данные приходят из JSON урока (block.type === "pronunciation").
-// Размеры шрифтов соответствуют рендеру теории (TheoryContent): текст text-lg/leading-8, заголовок text-2xl.
+// Основной текст использует общую типографику lesson-copy.
 
 import type { PronunciationNote } from "@/lib/interactive/types";
 import SifatBlock from "./SifatBlock";
@@ -54,12 +54,12 @@ function NoteCard({ note }: { note: PronunciationNote }) {
       )}
       {note.text && (
         <p
-          className="!mb-0 text-lg leading-8 text-slate-700 dark:text-slate-200"
+          className="!mb-0 lesson-copy text-lesson-text"
           dangerouslySetInnerHTML={{ __html: note.text }}
         />
       )}
       {note.items && note.items.length > 0 && (
-        <ul className="!mb-0 list-disc space-y-3 pl-6 text-lg leading-8 text-slate-700 marker:text-cyan-600 dark:text-slate-200 dark:marker:text-cyan-300">
+        <ul className="!mb-0 list-disc space-y-3 pl-6 lesson-copy text-slate-700 marker:text-cyan-600 dark:text-slate-200 dark:marker:text-cyan-300">
           {note.items.map((item, index) => (
             <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
           ))}
@@ -101,13 +101,13 @@ export default function PronunciationBlock({
                 <span className="arab text-2xl leading-none text-fjord-500 dark:text-fjord-400">
                   {arabname}
                 </span>
-                <span className="text-xs text-gray-500 dark:text-gray-400">
+                <span className="text-xs text-caption">
                   арабское название
                 </span>
               </div>
             )}
             {makhraj?.description && (
-              <p className="!my-0 max-w-[200px] text-center text-sm leading-relaxed text-gray-500 dark:text-gray-400">
+              <p className="!my-0 max-w-[200px] text-center text-sm leading-relaxed text-caption">
                 {makhraj.description}
               </p>
             )}
@@ -117,12 +117,12 @@ export default function PronunciationBlock({
         <div className="flex-1">
           {description && (
             <p
-              className="!mt-0 text-lg leading-8 text-slate-700 dark:text-slate-200"
+              className="!mt-0 lesson-copy text-lesson-text"
               dangerouslySetInnerHTML={{ __html: description }}
             />
           )}
           {points && points.length > 0 && (
-            <ul className="mt-5 list-disc space-y-3 pl-6 text-lg leading-8 text-slate-700 marker:text-cyan-600 dark:text-slate-200 dark:marker:text-cyan-300">
+            <ul className="mt-5 list-disc space-y-3 pl-6 lesson-copy text-slate-700 marker:text-cyan-600 dark:text-slate-200 dark:marker:text-cyan-300">
               {points.map((point, index) => (
                 <li key={index} dangerouslySetInnerHTML={{ __html: point }} />
               ))}
@@ -144,7 +144,7 @@ export default function PronunciationBlock({
                   {index + 1}
                 </div>
                 <p
-                  className="!mb-0 text-lg leading-8 text-slate-700 dark:text-slate-200"
+                  className="!mb-0 lesson-copy text-lesson-text"
                   dangerouslySetInnerHTML={{ __html: step }}
                 />
               </div>

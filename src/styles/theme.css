@@ -1,0 +1,148 @@
+/* HUTBA: общие настройки светлой и тёмной тем. */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: var(--secondary);
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --border: 240 5.9% 90%;
+    --input: var(--border);
+    --ring: 240 10% 3.9%;
+    --radius: 0.5rem;
+    --card: var(--background);
+    --card-foreground: var(--foreground);
+    --popover: var(--background);
+    --popover-foreground: var(--foreground);
+    --accent: var(--secondary);
+    --accent-foreground: var(--secondary-foreground);
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 200 3% 17%;
+    --foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: var(--secondary);
+    --muted-foreground: 240 5% 64.9%;
+    --border: 240 3.7% 15.9%;
+    --input: var(--border);
+    --ring: 240 4.9% 83.9%;
+    --card: var(--background);
+    --card-foreground: var(--foreground);
+    --popover: var(--background);
+    --popover-foreground: var(--foreground);
+    --accent: var(--secondary);
+    --accent-foreground: var(--secondary-foreground);
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+:root {
+    --bg-color: #f8f9fa;
+    --text-color: #333;
+    --container-bg: white;
+    --primary-color: #2c6e49;
+    --secondary-color: #4a7c59;
+    --secondary-text: #666;
+    --border-color: #eee;
+    --shadow: 0 0 15px rgba(0,0,0,0.1);
+    
+    --hadith-bg: #f5f5f5;
+    --hadith-border: #8a715e;
+    
+    --important-bg: #fff9e6;
+    --important-border: #e6b325;
+    
+    --qa-bg: #f0f8ff;
+    --qa-border: #d0e3ff;
+}
+
+:root.dark {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --container-bg: #2d2d2d;
+    --primary-color: #4caf7d;
+    --secondary-color: #6bbf8f;
+    --secondary-text: #aaa;
+    --border-color: #444;
+    --shadow: 0 0 15px rgba(0,0,0,0.3);
+    
+    --hadith-bg: #3a3a3a;
+    --hadith-border: #a1887f;
+    
+    --important-bg: #332b1a;
+    --important-border: #ffb74d;
+    
+    --qa-bg: #2b2d30;
+    --qa-border: #4a6572;
+}
+
+/* Общие цвета интерфейса и учебных материалов. RGB-компоненты позволяют использовать прозрачность Tailwind. */
+:root {
+    --lesson-text: 51 65 85;
+    --lesson-heading: 2 6 23;
+    --lesson-subheading: 15 23 42;
+    --caption-text: 107 114 128;
+    --arabic-foreground: 17 24 39;
+    --arabic-caption: 107 114 128;
+    --inactive-label: #6b7280;
+
+    --term-color: var(--primary-color);
+    --term-highlight: rgba(44, 110, 73, 0.1);
+    --term-popover-bg: #fff;
+    --term-popover-border: rgba(0, 0, 0, 0.08);
+    --term-popover-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    --overlay-dim: rgba(0, 0, 0, 0.4);
+    --subject-icon-tint: rgba(163, 230, 53, 0.1);
+
+    --theory-hero-border: rgb(229 231 235);
+    --theory-hero-gradient-start: rgba(60, 109, 162, 0.08);
+    --theory-hero-gradient-end: rgba(60, 109, 162, 0.02);
+    --theory-subtitle: rgb(75 85 99);
+    --diagram-backdrop: rgb(2 6 23 / 0.7);
+    --diagram-shadow: 0 25px 60px -20px rgb(0 0 0 / 0.6);
+}
+
+.dark {
+    --lesson-text: 226 232 240;
+    --lesson-heading: 255 255 255;
+    --lesson-subheading: 248 250 252;
+    --caption-text: 156 163 175;
+    --arabic-foreground: 232 225 216;
+    --arabic-caption: 176 176 176;
+
+    --term-color: var(--secondary-color);
+    --term-highlight: rgba(107, 191, 143, 0.15);
+    --term-popover-bg: #2d2d2d;
+    --term-popover-border: rgba(255, 255, 255, 0.1);
+    --term-popover-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+
+    --theory-hero-border: rgb(255 255 255 / 0.1);
+    --theory-hero-gradient-start: rgba(111, 158, 205, 0.12);
+    --theory-hero-gradient-end: rgba(111, 158, 205, 0.03);
+    --theory-subtitle: rgb(203 213 225);
+}

@@ -145,12 +145,9 @@ export function renderAyahBlock(
 
   return `
 <div class="
-    w-full md:w-[90%] lg:w-[85%]
-    mx-auto mb-6
+    quran-ayah-block
     bg-amber-50 dark:bg-gray-800
     border-2 border-emerald-200 dark:border-emerald-700
-    rounded-xl p-6
-    shadow-lg
     "
     data-quran-ayah="one_verse"
     data-surah="${surah}" 
@@ -340,12 +337,9 @@ export function renderAyahRangeBlock(
   return `
 <div
   class="
-    w-full md:w-[90%] lg:w-[85%]
-    mx-auto mb-6
+    quran-ayah-block
     bg-amber-50 dark:bg-gray-800
     border-2 border-emerald-100 dark:border-emerald-700
-    rounded-xl p-6
-    shadow-lg
   "
   data-quran-ayah="many_verses"
   data-surah="${surah}"

@@ -257,7 +257,7 @@ function renderExerciseText(exercise: Exercise) {
         key={`${segment.text}-${index}`}
         className={[
           "arab inline",
-          form ? FORM_THEME[form].text : "text-gray-900 dark:text-[#e8e1d8]",
+          form ? FORM_THEME[form].text : "text-gray-900 dark:text-arabic-foreground",
         ].join(" ")}
         style={{
           direction: "inherit",
@@ -478,7 +478,7 @@ export default function ReadingExercises({ lessonOrder }: Props) {
             </h2> */}
             {/* {selectedLesson && (
               <div className="mt-2 flex items-center gap-3">
-                <span className="arab text-4xl leading-none text-gray-950 dark:text-[#e8e1d8]">
+                <span className="arab text-4xl leading-none text-gray-950 dark:text-arabic-foreground">
                   {selectedLesson.char}
                 </span>
                 <span className="arab text-xl text-gray-500 dark:text-slate-400">

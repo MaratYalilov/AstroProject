@@ -73,7 +73,7 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
                           height={48}
                           loading="lazy"
                           style={{
-                            backgroundColor: 'rgba(163, 230, 53, 0.1)',
+                            backgroundColor: 'var(--subject-icon-tint)',
                           }}
                         />
                         {/* Акцентная рамка при наведении */}

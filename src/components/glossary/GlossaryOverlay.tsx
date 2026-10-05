@@ -189,7 +189,7 @@ export default function GlossaryOverlay() {
         exit={{ opacity: 0 }}
         onClick={() => setActive(null)}
         className="fixed inset-0 z-50 overflow-x-hidden"
-        style={{ background: 'rgba(0,0,0,0.4)' }}
+        style={{ background: 'var(--overlay-dim)' }}
       >
         <motion.div
           key="sheet"

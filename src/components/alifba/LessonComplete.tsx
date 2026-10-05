@@ -66,7 +66,7 @@ export default function LessonComplete({
         </div>
 
         {arabic && (
-          <div className="arab text-4xl leading-tight text-gray-950 dark:text-[#e8e1d8] sm:text-5xl">
+          <div className="arab text-4xl leading-tight text-gray-950 dark:text-arabic-foreground sm:text-5xl">
             {arabic}
           </div>
         )}

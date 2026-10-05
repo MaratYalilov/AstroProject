@@ -585,7 +585,7 @@ useEffect(() => {
     const textBefore = html.substring(lastIndex, match.index);
     if (textBefore) {
       parts.push(
-        <div key={`text-${lastIndex}`} dangerouslySetInnerHTML={{ __html: textBefore }} />
+        <div key={`text-${lastIndex}`} className="lesson-text" dangerouslySetInnerHTML={{ __html: textBefore }} />
       );
     }
     
@@ -614,14 +614,14 @@ useEffect(() => {
     const remainingText = html.substring(lastIndex);
     if (remainingText) {
       parts.push(
-        <div key={`text-remaining`} dangerouslySetInnerHTML={{ __html: remainingText }} />
+        <div key={`text-remaining`} className="lesson-text" dangerouslySetInnerHTML={{ __html: remainingText }} />
       );
     }
   }
   
   // Если маркеров не найдено, показываем весь HTML как есть
   if (parts.length === 0) {
-    setHtmlWithCards([<div key="full-html" dangerouslySetInnerHTML={{ __html: html }} />]);
+    setHtmlWithCards([<div key="full-html" className="lesson-text" dangerouslySetInnerHTML={{ __html: html }} />]);
   } else {
     setHtmlWithCards(parts);
   }

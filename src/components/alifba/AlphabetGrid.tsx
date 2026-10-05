@@ -75,7 +75,7 @@ function LetterCard({ letter, isActive, onClick }: LetterCardProps) {
       tabIndex={0}
     >
       <span
-        className="mb-1.5 block py-2.5 text-[56px] font-normal leading-[1.1] text-gray-900 dark:text-[#e8e1d8]"
+        className="mb-1.5 block py-2.5 text-[56px] font-normal leading-[1.1] text-gray-900 dark:text-arabic-foreground"
         style={{ fontFamily: arabicFont }}
       >
         {letter.char}
@@ -83,7 +83,7 @@ function LetterCard({ letter, isActive, onClick }: LetterCardProps) {
       <p className="m-0 text-base font-semibold text-gray-900 dark:text-white">
         {letter.name}
       </p>
-      <p className="arab mb-0 mt-1.5 text-sm text-gray-500 dark:text-[#b0b0b0]">
+      <p className="arab mb-0 mt-1.5 text-sm text-gray-500 dark:text-arabic-caption">
         {letter.arabName}
       </p>
       <div className="mt-2 flex h-4 justify-center">

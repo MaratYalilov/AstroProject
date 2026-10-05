@@ -8,7 +8,13 @@ export default {
   theme: {
   	extend: {
   		colors: {
-  			border: 'hsl(var(--border))',
+              'lesson-text': 'rgb(var(--lesson-text) / <alpha-value>)',
+            'lesson-heading': 'rgb(var(--lesson-heading) / <alpha-value>)',
+            'lesson-subheading': 'rgb(var(--lesson-subheading) / <alpha-value>)',
+            'caption': 'rgb(var(--caption-text) / <alpha-value>)',
+            'arabic-foreground': 'rgb(var(--arabic-foreground) / <alpha-value>)',
+            'arabic-caption': 'rgb(var(--arabic-caption) / <alpha-value>)',
+			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
   			background: 'hsl(var(--background))',

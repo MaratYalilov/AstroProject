@@ -375,11 +375,11 @@ export default function MatnBlock({ group, from, to }: Props) {
                   <div className="min-w-0 flex-1">
                     <p
                       dir="rtl"
-                      className="arab m-0 block w-full text-right text-slate-950 dark:text-[#e8e1d8]"
+                      className="arab m-0 block w-full text-right text-slate-950 dark:text-arabic-foreground"
                     >
                       {b.ar}
                     </p>
-                    <p className="mt-2 mb-0 text-lg leading-8 text-slate-700 dark:text-slate-200">
+                    <p className="mt-2 mb-0 text-lg leading-8 text-lesson-text">
                       {b.ru}
                     </p>
 
@@ -411,21 +411,21 @@ export default function MatnBlock({ group, from, to }: Props) {
                       </p>
                     ) : (
                       <div
-                        className="max-w-none
-                                  [&_h2]:mb-4 [&_h2]:mt-9 [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:leading-tight [&_h2]:text-slate-950 dark:[&_h2]:text-white
-                                  [&_h3]:mb-3 [&_h3]:mt-7 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:leading-snug [&_h3]:text-slate-900 dark:[&_h3]:text-slate-50
-                                  [&_p]:my-5 [&_p]:text-lg [&_p]:leading-8 [&_p]:text-slate-700 dark:[&_p]:text-slate-200
-                                  [&_strong]:font-semibold [&_strong]:text-slate-950 dark:[&_strong]:text-white
-                                  [&_ul]:my-6 [&_ul]:list-disc [&_ul]:space-y-3 [&_ul]:pl-6 [&_ul]:text-lg [&_ul]:leading-8 [&_ul]:text-slate-700 dark:[&_ul]:text-slate-200
-                                  [&_ol]:my-6 [&_ol]:list-decimal [&_ol]:space-y-3 [&_ol]:pl-6 [&_ol]:text-lg [&_ol]:leading-8 [&_ol]:text-slate-700 dark:[&_ol]:text-slate-200
+                        className="lesson-text max-w-none
+                                  [&_h2]:text-lesson-heading
+                                  [&_h3]:text-lesson-subheading
+                                  [&_p]:text-lesson-text
+                                  [&_strong]:font-semibold [&_strong]:text-lesson-heading
+                                  [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:text-lesson-text
+                                  [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:text-lesson-text
                                   [&_li]:pl-1 [&_li]:marker:text-cyan-600 dark:[&_li]:marker:text-cyan-300
-                                  [&_blockquote]:my-7 [&_blockquote]:rounded-2xl [&_blockquote]:border [&_blockquote]:border-cyan-200/70 [&_blockquote]:bg-cyan-50/70 [&_blockquote]:px-5 [&_blockquote]:py-4 [&_blockquote]:text-right [&_blockquote]:leading-8 [&_blockquote]:text-slate-800 dark:[&_blockquote]:border-cyan-300/15 dark:[&_blockquote]:bg-cyan-300/10 dark:[&_blockquote]:text-slate-100
+                                  [&_blockquote]:rounded-2xl [&_blockquote]:border [&_blockquote]:border-cyan-200/70 [&_blockquote]:bg-cyan-50/70 [&_blockquote]:px-5 [&_blockquote]:py-4 [&_blockquote]:text-right [&_blockquote]:text-slate-800 dark:[&_blockquote]:border-cyan-300/15 dark:[&_blockquote]:bg-cyan-300/10 dark:[&_blockquote]:text-slate-100
                                   [&_blockquote_p]:my-1 [&_blockquote_p]:text-[clamp(1.6rem,3.5vw,1.8rem)] [&_blockquote_p]:leading-[2.1]
-                                  [&_table]:my-6 [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_table]:text-base [&_table]:text-slate-700 dark:[&_table]:text-slate-200 [&_table]:border [&_table]:border-slate-200/80 dark:[&_table]:border-white/10 [&_table]:rounded-xl [&_table]:overflow-hidden
+                                  [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_table]:text-lesson-text [&_table]:border [&_table]:border-slate-200/80 dark:[&_table]:border-white/10 [&_table]:rounded-xl [&_table]:overflow-hidden
                                   [&_thead]:bg-slate-50/80 dark:[&_thead]:bg-white/[0.04]
                                   [&_tbody]:divide-y [&_tbody]:divide-slate-200/80 dark:[&_tbody]:divide-white/10
                                   [&_th]:px-4 [&_th]:py-3 [&_th]:text-sm [&_th]:font-semibold [&_th]:uppercase [&_th]:tracking-wider [&_th]:text-slate-600 dark:[&_th]:text-slate-400
-                                  [&_td]:px-4 [&_td]:py-3 [&_td]:text-lg"
+                                  [&_td]:px-4 [&_td]:py-3 "
                         dangerouslySetInnerHTML={{ __html: sharhHtml[b.n] }}
                       />
                     )}

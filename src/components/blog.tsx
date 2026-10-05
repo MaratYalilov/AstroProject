@@ -559,10 +559,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
             {/* На мобиле просто article, на десктопе Card */}
             <article 
               className="
-                prose prose-neutral dark:prose-invert
-                max-w-none
-                text-[clamp(0.9rem,2.1vw,1rem)]
-                leading-relaxed tracking-tight sm:tracking-normal
+                lesson-text max-w-none
 
                 p-0 lg:p-6
                 lg:border lg:border-input lg:shadow-sm lg:rounded-lg
