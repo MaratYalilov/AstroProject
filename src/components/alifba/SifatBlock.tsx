@@ -77,6 +77,8 @@ export default function SifatBlock({
               <a
                 key={item.name}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 title={item.definition}
                 className={`${chipClass} underline decoration-fjord-300 decoration-dotted underline-offset-2 transition-colors hover:bg-fjord-200 hover:text-fjord-900 dark:hover:bg-fjord-900/70 dark:hover:text-fjord-100`}
               >
@@ -99,6 +101,8 @@ export default function SifatBlock({
         Нажмите на свойство, чтобы открыть его подробный разбор в курсе{" "}
         <a
           href={COURSE_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="font-medium text-fjord-600 underline decoration-fjord-300 underline-offset-2 hover:text-fjord-700 hover:decoration-fjord-500 dark:text-fjord-400 dark:decoration-fjord-600 dark:hover:text-fjord-300"
         >
           «{COURSE_TITLE}»
