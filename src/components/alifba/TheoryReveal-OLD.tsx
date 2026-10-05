@@ -133,14 +133,14 @@ export default function TheoryReveal({
     // полотне высотой в тысячи пикселей переполнял VRAM и ронял драйвер GPU.
     <section
       ref={sectionRef}
-      className="scroll-mt-28 overflow-hidden rounded-3xl border border-white/70 bg-white p-0 sm:p-4 shadow-xl shadow-slate-200/70 transition-colors duration-300 dark:border-white/10 dark:bg-white/[0.06] dark:shadow-black/20"
+      className="lesson-block scroll-mt-28 overflow-hidden rounded-3xl border border-white/70 bg-white p-0 sm:p-4 shadow-xl shadow-slate-200/70 transition-colors duration-300 dark:border-white/10 dark:bg-white/[0.06] dark:shadow-black/20"
     >
             <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-200/80 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 shadow-sm shadow-cyan-100/70 dark:border-cyan-300/20 dark:bg-white/10 dark:text-cyan-200 dark:shadow-none">
               <Sparkles size={13} aria-hidden="true" />
               Теория
             </div>
 
-      <div className="w-full px-0 pb-4 pt-6 sm:mx-auto sm:px-4 sm:pb-6">
+      <div className="lesson-theory-content w-full px-0 pb-4 pt-6 sm:mx-auto sm:px-4 sm:pb-6">
         <div className="sticky top-4 z-10 mb-6 flex items-center gap-2 rounded-2xl border border-white/80 bg-white/85 px-3 py-3 text-sm font-semibold text-slate-700 shadow-lg shadow-slate-200/70 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/75 dark:text-slate-200 dark:shadow-black/20 sm:px-4">
           <BookOpen size={17} className="text-cyan-600 dark:text-cyan-300" aria-hidden="true" />
           {Array.isArray(title)
@@ -156,7 +156,7 @@ export default function TheoryReveal({
 
         {/* без backdrop-blur: статья — вся высота теории, размытие подложки
             такой площади слишком дорого для GPU */}
-        <article className="rounded-2xl border border-slate-200/80 bg-white px-4 py-6 shadow-sm shadow-slate-200/60 dark:border-white/10 dark:bg-slate-950/35 dark:shadow-none sm:px-8 sm:py-8">
+        <article className="lesson-theory-body rounded-2xl border border-slate-200/80 bg-white px-4 py-6 shadow-sm shadow-slate-200/60 dark:border-white/10 dark:bg-slate-950/35 dark:shadow-none sm:px-8 sm:py-8">
           {isLoading && (
             <div className="space-y-4" aria-live="polite">
               <div className="h-5 w-2/3 animate-pulse rounded-full bg-slate-200 dark:bg-white/10" />

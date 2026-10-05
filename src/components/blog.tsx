@@ -551,22 +551,18 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
       <main className="flex flex-col lg:grid lg:grid-cols-12 gap-4">
         {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8 mb-16">
-          <motion.div 
+          <motion.article
             initial={{ opacity: 0, y: 8 }} 
             animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.2 }}
-          >
-            {/* На мобиле просто article, на десктопе Card */}
-            <article 
               className="
-                lesson-text max-w-none
+                lesson-reading lesson-text max-w-none
 
                 p-0 lg:p-6
                 lg:border lg:border-input lg:shadow-sm lg:rounded-lg
               "
               dangerouslySetInnerHTML={{ __html: currentLesson.html }}
             />
-          </motion.div>
 
           <div className="mt-4 grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
             <div className="flex justify-start">

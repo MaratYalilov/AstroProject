@@ -824,19 +824,14 @@ useEffect(() => {
 
 
         {/* ТЕКСТ УРОКА */}
-        <motion.div
+        <motion.article
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2 }}
+          className="lesson-reading max-w-none px-0 py-4"
         >
-          <Card className="overflow-visible rounded-none border-0 shadow-none">
-            <CardContent className="px-4 py-4">
-              <article className="prose prose-sm prose-neutral dark:prose-invert max-w-none">
-                {htmlWithCards}
-              </article>
-            </CardContent>
-          </Card>
-        </motion.div>
+          {htmlWithCards}
+        </motion.article>
 
         {/* ПРОГРАММА КУРСА (МОБИЛКА) */}
         <aside ref={courseProgramMobileRef} className="w-full">
@@ -1166,19 +1161,14 @@ useEffect(() => {
             </Card>
 
             {/* ТЕКСТ УРОКА (ВСЕГДА ПОД ВИДЕО) */}
-            <motion.div
+            <motion.article
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.2 }}
+              className="lesson-reading max-w-none p-6"
             >
-              <Card className="overflow-visible rounded-none border-0 shadow-none">
-                <CardContent className="px-4 py-4 sm:p-6">
-                  <article className="prose prose-sm prose-neutral dark:prose-invert max-w-none">
-                    {htmlWithCards}
-                  </article>
-                </CardContent>
-              </Card>
-            </motion.div>
+              {htmlWithCards}
+            </motion.article>
           </section>
 
           {/* ПРАВАЯ ПАНЕЛЬ: список уроков */}

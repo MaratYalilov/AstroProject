@@ -345,7 +345,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
   };
 
   return (
-    <div ref={containerRef} className="my-8 p-6 bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-indigo-200 dark:border-indigo-800">
+    <div ref={containerRef} className="lesson-flashcards my-8 p-6 bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-indigo-200 dark:border-indigo-800">
       {/* Переключатель направления */}
       <div className="flex justify-between items-center mb-4">
         <div className="dic-toggle-controls flex items-center gap-3">
@@ -411,7 +411,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
 >
   <div className="relative w-full h-full transition-transform duration-500" style={cardInnerStyle}>
     {/* Передняя сторона */}
-    <div className="absolute inset-0 w-full h-full rounded-xl shadow-lg flex flex-col items-center justify-center p-6 bg-white dark:bg-gray-800 border-2
+    <div className="lesson-flashcard-face absolute inset-0 w-full h-full rounded-xl shadow-lg flex flex-col items-center justify-center p-6 bg-white dark:bg-gray-800 border-2
      border-indigo-200 dark:border-indigo-800/50"
          style={{
            ...cardFaceStyle,
@@ -441,7 +441,7 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
     </div>
     
     {/* Задняя сторона */}
-    <div className="absolute inset-0 w-full h-full rounded-xl shadow-lg flex flex-col items-center justify-center p-6 bg-gradient-to-br from-green-50 to-emerald-100 dark:from-gray-900 dark:to-gray-800 dark:border-green-900/50 border-2"
+    <div className="lesson-flashcard-face absolute inset-0 w-full h-full rounded-xl shadow-lg flex flex-col items-center justify-center p-6 bg-gradient-to-br from-green-50 to-emerald-100 dark:from-gray-900 dark:to-gray-800 dark:border-green-900/50 border-2"
          style={{
            ...cardFaceStyle,
            transform: 'rotateY(180deg) translateZ(1px)'

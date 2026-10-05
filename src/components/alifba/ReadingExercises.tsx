@@ -458,7 +458,7 @@ export default function ReadingExercises({ lessonOrder }: Props) {
       {/* ВАЖНО: без backdrop-blur — в уроках части 2 секция высотой в тысячи
           пикселей, размытие подложки такой площади пересчитывается на GPU
           каждый кадр и роняет драйвер на картах с малым объёмом VRAM. */}
-      <section className="relative rounded-3xl border border-gray-200 bg-white p-4 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-6">
+      <section className="lesson-block relative rounded-3xl border border-gray-200 bg-white p-4 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-6">
       <div className="pointer-events-none absolute inset-x-8 top-0 h-28 rounded-full bg-cyan-400/10 blur-3xl dark:bg-cyan-300/10" />
 
       <div className="relative flex flex-col gap-6">

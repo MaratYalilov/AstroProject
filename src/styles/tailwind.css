@@ -1,6 +1,7 @@
 @import "./qcf-v2.css";
 @import "./theme.css";
 @import "./interaction.css";
+@import "./mobile-reading.css";
 
 @tailwind base;
 @tailwind components;

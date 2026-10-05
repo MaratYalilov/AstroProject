@@ -56,7 +56,7 @@ export default function LessonComplete({
   }
 
   return (
-    <section className="relative mt-10 overflow-hidden rounded-3xl border border-gray-200 bg-white/80 p-4 text-center shadow-lg shadow-gray-200/60 backdrop-blur-xl dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-6">
+    <section className="lesson-block relative mt-10 overflow-hidden rounded-3xl border border-gray-200 bg-white/80 p-4 text-center shadow-lg shadow-gray-200/60 backdrop-blur-xl dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-6">
       <div className="pointer-events-none absolute inset-x-8 top-0 h-28 rounded-full bg-cyan-400/10 blur-3xl dark:bg-cyan-300/10" />
 
       <div className="relative mx-auto flex max-w-3xl flex-col items-center gap-5">

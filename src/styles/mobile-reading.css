@@ -1,0 +1,79 @@
+/* На телефоне одно внешнее поле; декоративные оболочки не сужают учебный текст. */
+@media (max-width: 767px) {
+    html body.reading-page { padding: 0; }
+
+    html .mobile-reading .lesson-reading,
+    html .mobile-reading .lesson-course-content,
+    html .mobile-reading .lesson-theory-content {
+        padding-inline: 0;
+        min-width: 0;
+    }
+
+    html .mobile-reading .lesson-block,
+    html .mobile-reading .lesson-theory-body,
+    html .mobile-reading .lesson-sharh,
+    html .mobile-reading .lesson-flashcards {
+        padding-inline: 0;
+        border-width: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+        backdrop-filter: none;
+        overflow: visible;
+    }
+
+    html .mobile-reading .lesson-block { padding-block: 16px; }
+    html .mobile-reading .lesson-theory-body { padding-block: 0; }
+
+    html .mobile-reading .lesson-text .theory-card,
+    html .mobile-reading .lesson-text .theory-hero {
+        padding: 12px 0;
+        border-width: 0;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    html .mobile-reading .hadith,
+    html .mobile-reading .important,
+    html .mobile-reading .quran-ayah-block,
+    html .mobile-reading .qa-section,
+    html .mobile-reading .lesson-text blockquote,
+    html .mobile-reading .lesson-note { padding: 12px 8px; }
+
+    html .mobile-reading .answer { padding-inline: 0; }
+    html .mobile-reading .lesson-text .theory-hero-inner { flex-direction: column; }
+
+    html .mobile-reading .lesson-sharh {
+        margin-inline: 0;
+        width: 100%;
+    }
+
+    html .mobile-reading .lesson-matn-line {
+        border-left-width: 0;
+        padding-inline: 0;
+    }
+    html .mobile-reading .lesson-matn-row { flex-direction: column; }
+    html .mobile-reading .lesson-matn-controls { flex-direction: row; }
+    html .mobile-reading .lesson-matn-text { width: 100%; }
+    html .mobile-reading .matn-misra {
+        display: block;
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    html .mobile-reading .matn-misra-separator { display: none; }
+    html .mobile-reading .lesson-pronunciation-layout { flex-direction: column; }
+    html .mobile-reading .lesson-flashcard-face { padding: 12px; }
+
+    html .mobile-reading .lesson-text {
+        min-width: 0;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+    html .mobile-reading .lesson-text table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+    html .mobile-reading .quran-audio-button { max-width: 100%; }
+}

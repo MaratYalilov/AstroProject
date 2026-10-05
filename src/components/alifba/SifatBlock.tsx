@@ -110,7 +110,7 @@ export default function SifatBlock({
 
   if (standalone) {
     return (
-      <section className="rounded-3xl border border-gray-200 bg-white p-6 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/5 dark:shadow-2xl dark:shadow-black/20">
+      <section className="lesson-block rounded-3xl border border-gray-200 bg-white p-6 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/5 dark:shadow-2xl dark:shadow-black/20">
         <h2 className="mb-6 border-b border-gray-200 pb-2 text-2xl font-semibold leading-tight text-slate-950 dark:border-white/10 dark:text-white">
           {title}
         </h2>
@@ -120,7 +120,7 @@ export default function SifatBlock({
   }
 
   return (
-    <div className="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+    <div className="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
       <p className="mb-3 text-lg font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">
         {title}
       </p>

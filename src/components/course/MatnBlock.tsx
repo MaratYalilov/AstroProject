@@ -87,6 +87,23 @@ async function toHtml(md: string): Promise<string> {
   return replaceQuranTags(withArab);
 }
 
+function MatnArabicText({ text }: { text: string }) {
+  const misras = text.split(/\s*(\.{3}|…)\s*/);
+
+  return (
+    <p
+      dir="rtl"
+      className="arab m-0 block w-full text-right text-slate-950 dark:text-arabic-foreground"
+    >
+      {misras.map((part, index) => index % 2 === 0 ? (
+        <span key={index} className="arab matn-misra">{part}</span>
+      ) : (
+        <span key={index} className="arab matn-misra-separator">{` ${part} `}</span>
+      ))}
+    </p>
+  );
+}
+
 function AudioWave() {
   return (
     <span className="flex items-end gap-[3px]" aria-hidden="true">
@@ -266,7 +283,7 @@ export default function MatnBlock({ group, from, to }: Props) {
       : "Матн";
 
   return (
-    <section className="relative rounded-3xl border border-gray-200 bg-white p-4 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-6">
+    <section className="lesson-block relative rounded-3xl border border-gray-200 bg-white p-4 shadow-lg shadow-gray-200/60 dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-6">
       <div className="pointer-events-none absolute inset-x-8 top-0 h-24 rounded-full bg-cyan-400/10 blur-3xl dark:bg-cyan-300/10" />
 
       <div className="relative flex flex-col gap-5">
@@ -334,14 +351,14 @@ export default function MatnBlock({ group, from, to }: Props) {
                   liRefs.current[b.n] = el;
                 }}
                 className={[
-                  "scroll-mt-28 border-l-4 py-5 pl-3 pr-1 transition-colors duration-200 sm:pl-4",
+                  "lesson-matn-line scroll-mt-28 border-l-4 py-5 pl-3 pr-1 transition-colors duration-200 sm:pl-4",
                   active
                     ? "border-amber-400 bg-amber-50 dark:border-amber-400 dark:bg-amber-300/[0.1]"
                     : "border-transparent bg-transparent",
                 ].join(" ")}
               >
-                <div className="flex items-start gap-3">
-                  <div className="flex flex-none flex-col items-center gap-2">
+                <div className="lesson-matn-row flex items-start gap-3">
+                  <div className="lesson-matn-controls flex flex-none flex-col items-center gap-2">
                     <span
                       className={[
                         "inline-flex h-7 w-7 items-center justify-center rounded-full border text-xs font-semibold transition-colors",
@@ -372,13 +389,8 @@ export default function MatnBlock({ group, from, to }: Props) {
                       )
                     )}
                   </div>
-                  <div className="min-w-0 flex-1">
-                    <p
-                      dir="rtl"
-                      className="arab m-0 block w-full text-right text-slate-950 dark:text-arabic-foreground"
-                    >
-                      {b.ar}
-                    </p>
+                  <div className="lesson-matn-text min-w-0 flex-1">
+                    <MatnArabicText text={b.ar} />
                     <p className="mt-2 mb-0 text-lg leading-8 text-lesson-text">
                       {b.ru}
                     </p>
@@ -404,7 +416,7 @@ export default function MatnBlock({ group, from, to }: Props) {
                   </div>
                 </div>
                 {b.sharh && openSharh[b.n] && (
-                  <div className="mt-3 w-full min-w-0 rounded-2xl border border-gray-200 bg-gray-50/70 px-4 py-3 dark:border-white/10 dark:bg-white/[0.03] sm:ml-10 sm:w-[calc(100%-2.5rem)]">
+                  <div className="lesson-sharh mt-3 w-full min-w-0 rounded-2xl border border-gray-200 bg-gray-50/70 px-4 py-3 dark:border-white/10 dark:bg-white/[0.03] sm:ml-10 sm:w-[calc(100%-2.5rem)]">
                     {sharhHtml[b.n] == null ? (
                       <p className="m-0 text-base text-slate-500 dark:text-slate-400">
                         Загрузка…
