@@ -20,6 +20,20 @@ const CourseGrid: React.FC<CourseGridProps> = ({
   courses, 
   subjectIcon 
 }) => {
+  const [lastTextbookLessonSlug, setLastTextbookLessonSlug] = React.useState<string | null>(null);
+
+  React.useEffect(() => {
+    let lastSlug: string | null = null;
+    if (subjectSlug === "akida") {
+      try {
+        lastSlug = window.localStorage.getItem("last-lesson:akida/uchebnik-6-stolpov");
+      } catch {
+        // При недоступном хранилище открываем предисловие.
+      }
+    }
+    setLastTextbookLessonSlug(lastSlug);
+  }, [subjectSlug]);
+
   const sortedCourses = [...courses].sort((a, b) => {
     if (a.data.order !== undefined && b.data.order !== undefined) {
       return a.data.order - b.data.order;
@@ -50,11 +64,20 @@ const CourseGrid: React.FC<CourseGridProps> = ({
       {sortedCourses.map((c) => {
         // Проверяем, есть ли дополнительная информация для отображения
         const hasAdditionalInfo = c.data.lessonsCount;
+        // Учебник открываем сразу, без промежуточной страницы-перенаправления.
+        const isTextbook = subjectSlug === "akida" && c.data.slug === "uchebnik-6-stolpov";
+        const href = isTextbook
+          ? `/lesson?${new URLSearchParams({
+              subject: subjectSlug,
+              course: c.data.slug,
+              slug: lastTextbookLessonSlug || "akida/uchebnik-6-stolpov/0-predislovie",
+            })}`
+          : `/${subjectSlug}/${c.data.slug}`;
         
         return (
           <motion.a
             key={c.id}
-            href={`/${subjectSlug}/${c.data.slug}`}
+            href={href}
             whileHover={{ y: -6, scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="interaction-card block h-full no-underline"

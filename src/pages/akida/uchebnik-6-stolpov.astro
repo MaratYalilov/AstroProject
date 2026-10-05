@@ -1,45 +1,47 @@
 ---
-// src/pages/akida/uchebnik-6-stolpov.astro
+// Совместимость со старыми ссылками на курс. Карточка ведёт сразу на /lesson.
 const subject = 'akida';
 const course = 'uchebnik-6-stolpov';
 const firstLessonSlug = 'akida/uchebnik-6-stolpov/0-predislovie';
-// сформируем безопасный fallback URL
 const fallbackUrl = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(firstLessonSlug)}`;
 ---
-<html>
+<html lang="ru">
   <head>
-    <!-- Fallback для отключенного JavaScript -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Учебник 6 столпов — открытие урока</title>
+    <style is:inline>
+      html { background: #fff; color: #09090b; color-scheme: light; }
+      html[data-theme="dark"] { background: hsl(200 3% 17%); color: #fafafa; color-scheme: dark; }
+      @media (prefers-color-scheme: dark) {
+        html:not([data-theme]) { background: hsl(200 3% 17%); color: #fafafa; color-scheme: dark; }
+      }
+      body { margin: 0; font-family: sans-serif; }
+      a { color: inherit; }
+    </style>
+    <!-- Выполняем сразу при разборе head, без загрузки отдельного JS-модуля. -->
+    <script is:inline define:vars={{ subject, course, firstLessonSlug }}>
+      (function () {
+        var theme = null;
+        var slug = firstLessonSlug;
+        try {
+          theme = localStorage.getItem('theme');
+          slug = localStorage.getItem(`last-lesson:${subject}/${course}`) || firstLessonSlug;
+        } catch (error) {
+          // Хранилище может быть недоступно; остаётся первый урок.
+        }
+        var dark = theme
+          ? theme === 'dark'
+          : window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        window.location.replace(`/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(slug)}`);
+      })();
+    </script>
     <noscript>
-      <!-- В Astro атрибут можно задать как выражение -->
       <meta http-equiv="refresh" content={`0;url=${fallbackUrl}`} />
-      <!-- И запасная ссылка на случай, если meta не сработает -->
-      <style> .nojs-link{display:block;margin-top:8px;} </style>
-      <a class="nojs-link" href={fallbackUrl}>Перейти к уроку</a>
     </noscript>
   </head>
   <body>
-    <script>
-      (function() {
-        const subject = 'akida';
-        const course = 'uchebnik-6-stolpov';
-        const lastLessonKey = `last-lesson:${subject}/${course}`;
-        const firstLessonSlug = 'akida/uchebnik-6-stolpov/0-predislovie'; // Дублируем здесь для JavaScript
-        try {
-          const lastLessonSlug = localStorage.getItem(lastLessonKey);
-          if (lastLessonSlug) {
-            const safeSlug = lastLessonSlug || '';
-            if (safeSlug) {
-              window.location.href = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(safeSlug)}`;
-              return;
-            }
-          }
-          // Фоллбек — первый урок
-          window.location.href = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(firstLessonSlug)}`;
-        } catch (error) {
-          console.error('Error redirecting:', error);
-          window.location.href = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(firstLessonSlug)}`;
-        }
-      })();
-    </script>
+    <noscript><p><a href={fallbackUrl}>Перейти к уроку</a></p></noscript>
   </body>
 </html>

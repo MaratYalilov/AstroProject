@@ -12,8 +12,10 @@ interface AlphabetLetter {
   audio: string;
 }
 
-const ALPHABET_DATA: AlphabetLetter[] = (alphabetData as AlphabetLetter[]).sort(
-  (a, b) => (a as any).lessonOrder - (b as any).lessonOrder
+// Карточки и общее прослушивание идут по алфавиту, а не по порядку уроков курса.
+const ALPHABET_ORDER = "أبتثجحخدذرزسشصضطظعغفقكلمنهوي";
+const ALPHABET_DATA: AlphabetLetter[] = [...alphabetData].sort(
+  (a, b) => ALPHABET_ORDER.indexOf(a.char) - ALPHABET_ORDER.indexOf(b.char)
 );
 
 const arabicFont = "'AmiriLocal', 'Scheherazade New', 'Amiri', serif";

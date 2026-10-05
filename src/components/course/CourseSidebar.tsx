@@ -48,7 +48,7 @@ type Props = {
   /** subject/course — для пер-курсового ключа завершённости */
   subject?: string;
   course?: string;
-  /** Скачиваемые материалы курса — блок «Материалы курса» внизу меню */
+  /** Скачиваемые материалы курса над списком уроков */
   downloads?: CourseDownload[];
 };
 
@@ -312,7 +312,9 @@ function SidebarContent({
     <div className="relative flex h-full w-full flex-col">
       <div className="pointer-events-none absolute inset-x-8 top-0 h-28 rounded-full bg-cyan-400/10 blur-xl dark:bg-cyan-300/10" />
 
-      <header className="relative border-b border-gray-200/70 p-5 dark:border-white/10">
+      <header className={downloads?.length
+        ? "relative px-5 pt-5 pb-2"
+        : "relative border-b border-gray-200/70 p-5 dark:border-white/10"}>
         <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-200/80 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 shadow-sm shadow-cyan-100/70 dark:border-cyan-300/20 dark:bg-white/10 dark:text-cyan-200 dark:shadow-none">
           <ListChecks size={13} aria-hidden="true" />
           Курс
@@ -325,42 +327,36 @@ function SidebarContent({
       {/* Материалы курса: PDF-тетради и прочие файлы из поля downloads в YAML курса.
           Стоят над списком уроков — и на десктопе, и в мобильном меню. */}
       {downloads && downloads.length > 0 && (
-        <div className="relative border-b border-gray-200/70 px-4 pb-4 pt-4 dark:border-white/10">
-          <p className="mb-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-gray-400 dark:text-slate-500">
-            Материалы курса
-          </p>
-
+        <section aria-label="Материалы курса" className="relative border-b border-gray-200/70 px-4 pb-4 dark:border-white/10">
           <div className="space-y-2">
             {downloads.map((item) => (
               <a
                 key={item.url}
                 href={item.url}
                 download
-                className="group flex items-center gap-3 rounded-[18px] border border-gray-200 bg-white px-3 py-2.5 shadow-sm shadow-gray-200/50 transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300/60 hover:bg-cyan-50/50 hover:shadow-lg hover:shadow-cyan-500/10 dark:border-white/10 dark:bg-white/[0.045] dark:shadow-none dark:hover:border-cyan-300/30 dark:hover:bg-white/[0.075]"
+                className="group flex items-center gap-3 rounded-xl border border-cyan-200/70 bg-cyan-50/50 px-3 py-3 text-gray-800 transition-colors hover:border-cyan-300/80 hover:bg-cyan-100/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-500 focus-visible:ring-offset-2 focus-visible:ring-offset-background dark:border-cyan-300/15 dark:bg-cyan-300/[0.04] dark:text-slate-200 dark:hover:border-cyan-300/30 dark:hover:bg-cyan-300/[0.08]"
               >
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-cyan-50 text-cyan-600 ring-1 ring-cyan-200/70 dark:bg-cyan-300/10 dark:text-cyan-300 dark:ring-cyan-300/20">
-                  <FileText className="h-4 w-4" />
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-cyan-100/70 text-cyan-700 dark:bg-cyan-300/10 dark:text-cyan-300">
+                  <FileText className="h-5 w-5" aria-hidden="true" />
                 </span>
 
                 <span className="min-w-0 flex-1">
-                  <span className="block truncate text-sm font-semibold text-gray-700 dark:text-slate-200">
+                  <span className="block text-sm font-semibold leading-snug">
                     {item.title}
                   </span>
-                  {(item.type || item.size) && (
-                    <span className="mt-0.5 block text-xs text-gray-500 dark:text-slate-500">
-                      {[item.type, item.size].filter(Boolean).join(" · ")}
-                    </span>
-                  )}
+                  <span className="mt-1 block text-xs text-gray-500 dark:text-slate-400">
+                    {["Скачать", item.type, item.size].filter(Boolean).join(" · ")}
+                  </span>
                 </span>
 
-                <Download className="h-4 w-4 shrink-0 text-gray-400 transition-colors group-hover:text-cyan-600 dark:text-slate-500 dark:group-hover:text-cyan-300" />
+                <Download className="h-4 w-4 shrink-0 text-cyan-700 dark:text-cyan-300" aria-hidden="true" />
               </a>
             ))}
           </div>
-        </div>
+        </section>
       )}
 
-      <nav ref={navRef} className="relative flex-1 space-y-2 overflow-y-auto px-3 pb-4">
+      <nav ref={navRef} className="relative flex-1 space-y-2 overflow-y-auto px-3 pb-4 pt-3">
         {groups.map((group, gi) => {
           const renderLesson = ({ lesson, index }: { lesson: LessonItem; index: number }) => {
             const isCurrent = index === currentIndex;
