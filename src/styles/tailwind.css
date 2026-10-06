@@ -452,6 +452,33 @@ footer {
 
 /* стили для ссылок на глоссарий */
 
+/* Ссылки в обычном тексте видны до наведения; навигация и кнопки имеют свои стили. */
+.content-link,
+.lesson-text :where(p, li, dd, blockquote) a[href]:not(.glossary-link) {
+  color: var(--primary-color);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-skip-ink: auto;
+  border-radius: 2px;
+}
+
+.dark .content-link,
+.dark .lesson-text :where(p, li, dd, blockquote) a[href]:not(.glossary-link) {
+  color: var(--secondary-color);
+}
+
+.content-link:hover,
+.lesson-text :where(p, li, dd, blockquote) a[href]:not(.glossary-link):hover {
+  background-color: var(--term-highlight);
+}
+
+.content-link:focus-visible,
+.lesson-text :where(p, li, dd, blockquote) a[href]:not(.glossary-link):focus-visible {
+  outline: 2px solid var(--interaction-focus);
+  outline-offset: 3px;
+}
+
 .glossary-link {
   color: var(--term-color);
   text-decoration-line: underline;

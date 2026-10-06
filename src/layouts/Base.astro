@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 import GlossaryOverlay from "@/components/glossary/GlossaryOverlay";
 import ScrollToTop from "../components/ScrollToTop";
 
-const { title = "Lesson", readingPage = false } = Astro.props as { title?: string; readingPage?: boolean };
+const { title = "Lesson", description, readingPage = false } = Astro.props as { title?: string; description?: string; readingPage?: boolean };
 ---
 
 <html lang="ru" class="bg-background text-foreground">
@@ -285,6 +285,7 @@ const { title = "Lesson", readingPage = false } = Astro.props as { title?: strin
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
+    {description && <meta name="description" content={description} />}
   </head>
   <body class:list={["min-h-screen bg-background text-foreground", { "reading-page": readingPage }]}>
     <header class="sticky top-0 z-40 border-b bg-background/80 dark:bg-[#181818] backdrop-blur supports-[backdrop-filter]:bg-background/60 supports-[backdrop-filter]:dark:bg-[#181818]/95">

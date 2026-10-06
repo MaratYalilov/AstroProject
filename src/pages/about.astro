@@ -1,0 +1,252 @@
+---
+import Base from "../layouts/Base.astro";
+
+const sections = [
+  { id: "purpose", title: "Для чего существует HUTBA" },
+  { id: "audience", title: "Для кого этот проект" },
+  { id: "history", title: "Как всё начиналось" },
+  { id: "approach", title: "Наш подход к обучению" },
+  { id: "today", title: "Что доступно на сайте" },
+  { id: "books", title: "Учебники и рабочие тетради" },
+];
+
+// Основа истории: пресс-релизы и концепция HUTBA, презентация 2011 года
+// и архивная справка по учебному процессу. Текущие возможности сверены
+// с каталогом сайта; архивные сведения не описывают действующие группы.
+// Уточнения владельца и правила оформления: D:/Yandex.Disk/Hutba/Оформление/Брендбук/
+// HUTBA-brandbook-text.md, public-facts.json, youtube-duration-report.md.
+// Контекст: codex://threads/01a1076b-61b5-77d2-9fdd-cd0f5297ae6b.
+---
+
+<Base
+  title="О проекте — HUTBA.org"
+  description="HUTBA работает с 2010 года. Бесплатные самостоятельные курсы по исламу, арабскому языку и чтению Корана. История проекта, учебники и рабочие тетради."
+>
+  <article class="about-page mx-auto max-w-5xl">
+    <header class="border-b pb-10 pt-5 sm:pb-12 sm:pt-9">
+      <p class="about-eyebrow mb-4 text-sm font-medium tracking-wide">HUTBA.org · С 2010 года</p>
+      <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">О проекте</h1>
+      <p class="mt-6 max-w-3xl text-xl leading-relaxed sm:text-2xl">
+        Помогаем изучать ислам, арабский язык и чтение Корана —
+        последовательно и с пониманием.
+      </p>
+      <p class="mt-4 max-w-3xl text-base leading-8 text-muted-foreground sm:text-lg">
+        HUTBA — бесплатная платформа для самостоятельного изучения ислама
+        на основе записей лекций, с текстами, конспектами и упражнениями.
+        Проект вырос из онлайн-медресе, где преподаватели и ученики из разных
+        городов встречались на занятиях через интернет.
+      </p>
+    </header>
+
+    <div class="grid gap-10 py-10 lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-14 lg:py-12">
+      <aside>
+        <nav aria-label="Содержание страницы" class="lg:sticky lg:top-24">
+          <p class="mb-4 text-sm font-semibold">На этой странице</p>
+          <ul class="space-y-3 text-sm leading-6">
+            {sections.map((section) => (
+              <li>
+                <a class="text-muted-foreground transition-colors hover:text-foreground" href={`#${section.id}`}>
+                  {section.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </aside>
+
+      <div class="space-y-12 sm:space-y-16">
+        <section id="purpose" aria-labelledby="purpose-title">
+          <h2 id="purpose-title">Для чего существует HUTBA</h2>
+          <p>
+            Желание учиться не всегда совпадает с возможностью посещать медресе.
+            В одном городе нет преподавателя, в другом занятия трудно совместить
+            с работой. Кому-то мешают расстояние, здоровье или забота о семье.
+            HUTBA появился, чтобы помочь людям получать знания в этих обстоятельствах.
+          </p>
+          <p>
+            Наша цель — сделать исламские знания доступными и помочь выстроить
+            последовательное обучение: разобраться в основах, понимать изучаемое
+            и применять полученные знания в своей жизни.
+          </p>
+        </section>
+
+        <section id="audience" aria-labelledby="audience-title">
+          <h2 id="audience-title">Для кого этот проект</h2>
+          <p>
+            Для русскоязычных читателей, которые хотят познакомиться с исламом
+            или продолжить своё образование. Для начинающих, осваивающих
+            арабский алфавит и чтение Корана, и для тех, кто уже изучает
+            арабский язык и исламские дисциплины.
+          </p>
+          <p>
+            Проект особенно полезен тем, кому трудно посещать очные занятия.
+            Материалы сайта можно изучать в удобное время, возвращаясь к темам,
+            которые требуют повторения.
+          </p>
+        </section>
+
+        <section id="history" aria-labelledby="history-title">
+          <h2 id="history-title">Как всё начиналось</h2>
+          <p>
+            Первые уроки HUTBA начались в сентябре 2010 года.
+            В начале работы мы спросили будущих учеников, что мешает им получать
+            знания и как интернет мог бы помочь. В ответах повторялись
+            несколько трудностей: отсутствие преподавателей поблизости,
+            расходы на поездки и нехватка системы в самостоятельном обучении.
+          </p>
+          <p>
+            Ответом стало первое онлайн-медресе HUTBA. Преподаватели и ученики
+            подключались к веб-конференциям из разных городов.
+            На занятиях можно было слушать объяснение, задавать вопросы
+            и отвечать преподавателю. Записи уроков и учебные материалы
+            сохранялись в библиотеке, а обсуждение продолжалось на форуме.
+          </p>
+          <p>
+            Регулярная программа с преподавателями действовала до 2022 года.
+            Последней онлайн-группой стала женская группа «Хифз Корана»,
+            набранная в январе 2022 года: преподаватель проверял чтение сур,
+            которые ученицы заучивали наизусть. Занятия остановились
+            из-за сложностей с финансированием и оплатой преподавателей.
+          </p>
+          <p>
+            Число зарегистрированных пользователей прежнего сайта HUTBA
+            достигало 14&nbsp;000. Сохранённые записи занятий стали основой
+            нового формата — самостоятельных курсов, к которым можно
+            обращаться в удобное время.
+          </p>
+          <p>
+            Проект развивался благодаря труду преподавателей и людей,
+            которые помогали организовывать занятия, поддерживать сайт
+            и готовить учебные материалы. Общей целью было передавать
+            полезные знания ради Аллаха.
+          </p>
+        </section>
+
+        <section id="approach" aria-labelledby="approach-title">
+          <h2 id="approach-title">Наш подход к обучению</h2>
+          <dl class="mt-6 space-y-6">
+            <div>
+              <dt class="font-semibold">Последовательность</dt>
+              <dd class="mt-2">От основ к более сложным темам. Учебный курс помогает видеть связь между уроками и опираться на уже изученное.</dd>
+            </div>
+            <div>
+              <dt class="font-semibold">Понимание изучаемого</dt>
+              <dd class="mt-2">Записи объяснений преподавателей дополняются текстами и конспектами. Вы можете вернуться к трудному месту, разобрать незнакомое понятие и проверить себя с помощью упражнений.</dd>
+            </div>
+            <div>
+              <dt class="font-semibold">Практика и повторение</dt>
+              <dd class="mt-2">Чтение, прослушивание и упражнения помогают закреплять материал. Возможность вернуться к уроку позволяет двигаться в своём темпе.</dd>
+            </div>
+            <div>
+              <dt class="font-semibold">Уважение к знанию и учителю</dt>
+              <dd class="mt-2">Мы ценим внимательное изучение источников, доброжелательность и культуру общения. В первоначальной концепции проекта отдельно подчёркивалось стремление избегать тем, вызывающих вражду между мусульманами.</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section id="today" aria-labelledby="today-title">
+          <h2 id="today-title">Что доступно на сайте</h2>
+          <p>
+            Сегодня HUTBA развивается как полностью переработанная платформа
+            для самостоятельного прохождения курсов. Обучение бесплатное.
+            Вы изучаете записи прежних лекций и сопровождающие материалы
+            в своём темпе; в интерактивных курсах сохраняется прогресс.
+          </p>
+          <p>
+            В каталоге собраны материалы по арабскому языку, Корану,
+            акиде, фикху, хадисам, тафсиру, сире и адабу.
+            В уроках используются тексты, аудио и наглядные объяснения;
+            отдельные курсы содержат интерактивные упражнения.
+            Словарь помогает разобраться в встречающихся терминах.
+          </p>
+          <p>
+            Начните с предмета, который хотите изучать, и познакомьтесь
+            с доступными курсами и уроками.
+          </p>
+          <div class="mt-7 flex flex-wrap gap-3">
+            <a href="/" class="rounded-lg bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-85">Выбрать предмет</a>
+            <a href="/glossary" class="rounded-lg border px-5 py-3 text-sm font-medium transition-colors hover:bg-muted">Открыть словарь</a>
+          </div>
+        </section>
+
+        <section id="books" aria-labelledby="books-title">
+          <h2 id="books-title">Учебники и рабочие тетради</h2>
+          <p>
+            Ещё одно направление HUTBA — учебники и рабочие тетради для детей
+            с первого класса и далее. Их используют родители, преподаватели
+            при мечетях, медресе и школы.
+          </p>
+          <p>
+            HUTBA выступает издателем, автором и разработчиком программы,
+            организует перевод и адаптацию учебников американского фонда IQRA
+            с его разрешения. По состоянию на июль 2026 года продано около
+            37 тысяч экземпляров изданий HUTBA: около 18 тысяч учебников
+            и 19 тысяч рабочих тетрадей.
+          </p>
+          <p>
+            Видеозаписи проекта доступны на{" "}<a class="content-link" href="https://www.youtube.com/@HUTBAorg" target="_blank" rel="noopener noreferrer" aria-label="YouTube-канал HUTBA (откроется в новой вкладке)"><img src="/social-icons/youtube.svg" alt="" aria-hidden="true" width="20" height="20" style="display:inline-block;width:20px;height:20px;max-width:20px;margin-inline-end:6px;vertical-align:-3px" />YouTube-канале HUTBA</a>.
+            На нём опубликовано 674 видео
+            общей продолжительностью около 595 часов.
+            Новости проекта — в Telegram-канале{" "}<a class="content-link" href="https://t.me/HUTBA_News" target="_blank" rel="noopener noreferrer" aria-label="HUTBA News в Telegram (откроется в новой вкладке)"><img src="/social-icons/telegram.svg" alt="" aria-hidden="true" width="20" height="20" style="display:inline-block;width:20px;height:20px;max-width:20px;margin-inline-end:6px;vertical-align:-3px" />HUTBA News</a>.
+          </p>
+        </section>
+      </div>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .about-eyebrow {
+    color: var(--primary-color);
+  }
+
+  .social-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-inline-end: 0.35em;
+    vertical-align: -0.12em;
+  }
+
+  .about-page section {
+    scroll-margin-top: 6rem;
+  }
+
+  .about-page h2 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+
+  .about-page section p,
+  .about-page dd {
+    font-size: 1rem;
+    line-height: 1.75;
+    text-align: start;
+  }
+
+  .about-page section p + p {
+    margin-top: 1rem;
+  }
+
+  .about-page a:focus-visible {
+    outline: 2px solid var(--interaction-focus);
+    outline-offset: 3px;
+  }
+
+  :global(.dark) .about-eyebrow {
+    color: var(--secondary-color);
+  }
+
+  @media (min-width: 640px) {
+    .about-page h2 {
+      font-size: 1.5rem;
+    }
+
+    .about-page section p,
+    .about-page dd {
+      font-size: 1.125rem;
+    }
+  }
+</style>
