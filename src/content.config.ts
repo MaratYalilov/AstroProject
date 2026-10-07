@@ -13,6 +13,7 @@ const subjects = defineCollection({
     description: z.string().optional(),
     icon: z.string().optional(),
     iconClass: z.string().optional(),
+    ogImage: z.string().optional(),
   }),
 });
 
@@ -26,6 +27,7 @@ const courses = defineCollection({
     author: z.string().optional(),
     description: z.string().optional(),
     lessonsCount: z.number().optional(),
+    ogImage: z.string().optional(),
     layout: z.enum(["tabs", "blog"]).optional().default("tabs"),
     type: z.string().optional().default("standard"),
     // Скачиваемые материалы курса (PDF-тетради, прописи, методички и т.п.).
@@ -53,6 +55,7 @@ const lessons = defineCollection({
   schema: z.object({
     title: z.string(),
     order: z.number().optional(),
+    ogImage: z.string().optional(),
     hasAudio: z.boolean().default(false),
     hasVideo: z.boolean().default(false),
     audio: z.string().optional(),
@@ -69,6 +72,7 @@ const glossary = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/glossary" }),
   schema: z.object({
     term: z.string(),
+    ogImage: z.string().optional(),
     url_slug: z.string(),
     letter: z.string(),
     category: z.string(),
@@ -89,6 +93,7 @@ const arabicAbuAkhmad = defineCollection({
   schema: z.object({
     title: z.string(),
     order: z.number(),
+    ogImage: z.string().optional(),
     hasAudio: z.boolean().default(false),
     hasVideo: z.boolean().default(false),
     audio: z.string().optional(),

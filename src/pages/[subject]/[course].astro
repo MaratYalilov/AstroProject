@@ -175,7 +175,14 @@ if (isInteractive) {
 }
 ---
 
-<Base title={`${subjectEntry.data.title} — ${courseTitle}`} readingPage>
+<Base
+  title={`${subjectEntry.data.title} — ${courseTitle}`}
+  ogImage={courseEntry.data.ogImage ?? subjectEntry.data.ogImage}
+  ogSubject={subject}
+  ogTitle={courseTitle}
+  ogSubtitle={`${subjectEntry.data.title} · Курс`}
+  readingPage
+>
   {
     isInteractive && interactiveLessons.length > 0 ? (
       <CourseLayout

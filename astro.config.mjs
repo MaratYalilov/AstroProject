@@ -33,6 +33,11 @@ export default defineConfig({
     port: 4321
   },
   vite: {
+    // Сборка и локальный сервер не должны перезаписывать кэш друг друга:
+    // иначе страницы запрашивают устаревшие зависимости и получают 504.
+    cacheDir: process.argv.includes('build')
+      ? 'node_modules/.vite-build'
+      : 'node_modules/.vite-dev',
     resolve: {
       alias: {
         '@': new URL('./src', import.meta.url).pathname,

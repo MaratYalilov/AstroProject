@@ -31,7 +31,7 @@ const courses = (await getCollection("courses"))
 const icon = subjectEntry.data.icon;
 ---
 
-<Base title={subjectEntry.data.title}>
+<Base title={subjectEntry.data.title} ogImage={subjectEntry.data.ogImage} ogSubject={subject} ogSubtitle="Предмет">
   <Breadcrumbs
     items={[
       { label: "HUTBA", href: "/" },

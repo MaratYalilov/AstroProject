@@ -1,7 +1,12 @@
 ---
 // Совместимость со старыми ссылками на курс. Карточка ведёт сразу на /lesson.
+import { getCollection } from 'astro:content';
+import OpenGraphImage from '../../components/OpenGraphImage.astro';
 const subject = 'akida';
 const course = 'uchebnik-6-stolpov';
+const courseEntry = (await getCollection('courses')).find(c => c.data.subject === subject && c.data.slug === course);
+const subjectEntry = (await getCollection('subjects')).find(s => s.data.slug === subject);
+const ogImage = courseEntry?.data.ogImage ?? subjectEntry?.data.ogImage;
 const firstLessonSlug = 'akida/uchebnik-6-stolpov/0-predislovie';
 const fallbackUrl = `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(firstLessonSlug)}`;
 ---
@@ -10,6 +15,9 @@ const fallbackUrl = `/lesson?subject=${encodeURIComponent(subject)}&course=${enc
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Учебник 6 столпов — открытие урока</title>
+    <meta property="og:title" content="Учебник 6 столпов" />
+    <meta property="og:site_name" content="HUTBA" />
+    <OpenGraphImage title="Учебник 6 столпов" subject={subject} subtitle="Курс" image={ogImage} />
     <style is:inline>
       html { background: #fff; color: #09090b; color-scheme: light; }
       html[data-theme="dark"] { background: hsl(200 3% 17%); color: #fafafa; color-scheme: dark; }

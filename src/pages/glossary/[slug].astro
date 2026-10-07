@@ -36,18 +36,15 @@ const description =
   entry.data.description ??
   `${entry.data.term} — термин и определение из глоссария`
 ---
-<Base title={title} description={description}>
-  <!-- Canonical -->
-  <link rel="canonical" href={canonical} />
+<Base title={title} description={description} ogImage={entry.data.ogImage}>
+  <Fragment slot="head">
+    <link rel="canonical" href={canonical} />
 
-  <!-- OpenGraph -->
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={description} />
-  <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={canonical} />
 
-  <!-- (опционально, но полезно) -->
-  <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow" />
+  </Fragment>
 
   <GlossaryPage
     entries={entries}

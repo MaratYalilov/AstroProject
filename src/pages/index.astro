@@ -4,6 +4,35 @@ import Base from "../layouts/Base.astro";
 import { getCollection } from "astro:content";
 import SubjectGrid from "../components/SubjectGrid";
 
+const title = "HUTBA.org - первое онлайн-медресе";
+const description = "HUTBA.org - образовательный проект с 2010 года. Достоверные знания для каждого мусульманина. Сегодня это платформа для самостоятельного изучения ислама, арабского языка и чтения Корана: видеозаписи лекций, учебные материалы, конспекты и упражнения.";
+const siteUrl = new URL("/", Astro.site!).href;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${siteUrl}#organization`,
+      name: "HUTBA",
+      alternateName: ["Хутба", "Hutba.org"],
+      url: siteUrl,
+      description,
+      foundingDate: "2010",
+      sameAs: ["https://www.youtube.com/@HUTBAorg", "https://t.me/HUTBA_News"],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}#website`,
+      name: "HUTBA",
+      alternateName: ["Хутба", "Hutba.org"],
+      url: siteUrl,
+      description,
+      inLanguage: "ru",
+      publisher: { "@id": `${siteUrl}#organization` },
+    },
+  ],
+};
+
 const subjects = (await getCollection("subjects")).sort(
   (a, b) => (a.data.order ?? 999) - (b.data.order ?? 999)
 );
@@ -26,7 +55,12 @@ const items = subjects.map((s) => ({
 }));
 ---
 
-<Base title="Предметы">
-  <h1 class="mb-6 text-2xl font-semibold">Предметы</h1>
+<Base title={title} description={description}>
+  <Fragment slot="head">
+    <link rel="canonical" href={siteUrl} />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:type" content="website" />
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")} />
+  </Fragment>
   <SubjectGrid client:load items={items} />
 </Base>

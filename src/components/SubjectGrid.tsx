@@ -66,7 +66,7 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
                       <div className="relative">
                         <img
                           src={s.icon}
-                          alt={`Иконка предмета ${s.title}`}
+                          alt=""
                           className={`h-12 w-12 ${s.iconClass || ""}`}
                           width={48}
                           height={48}

@@ -3,8 +3,20 @@ import "../styles/tailwind.css";
 import NavBar from "@/components/NavBar";
 import GlossaryOverlay from "@/components/glossary/GlossaryOverlay";
 import ScrollToTop from "../components/ScrollToTop";
+import OpenGraphImage from "../components/OpenGraphImage.astro";
 
-const { title = "Lesson", description, readingPage = false } = Astro.props as { title?: string; description?: string; readingPage?: boolean };
+interface Props {
+  title?: string;
+  description?: string;
+  readingPage?: boolean;
+  ogImage?: string;
+  ogImageAlt?: string;
+  ogTitle?: string;
+  ogSubtitle?: string;
+  ogSubject?: string;
+}
+
+const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt, ogTitle = title, ogSubtitle, ogSubject } = Astro.props;
 ---
 
 <html lang="ru" class="bg-background text-foreground">
@@ -286,6 +298,11 @@ const { title = "Lesson", description, readingPage = false } = Astro.props as { 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    <meta property="og:title" content={ogTitle} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:site_name" content="HUTBA" />
+    <OpenGraphImage title={ogTitle} subtitle={ogSubtitle} subject={ogSubject} image={ogImage} alt={ogImageAlt} />
+    <slot name="head" />
   </head>
   <body class:list={["min-h-screen bg-background text-foreground", { "reading-page": readingPage }]}>
     <header class="sticky top-0 z-40 border-b bg-background/80 dark:bg-[#181818] backdrop-blur supports-[backdrop-filter]:bg-background/60 supports-[backdrop-filter]:dark:bg-[#181818]/95">
