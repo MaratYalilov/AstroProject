@@ -123,10 +123,19 @@ ogImage: "https://example.com/my-cover.jpg"
 Миниатюра: /media/akida/akida-6-stolpov/thumbs/01-vstuplenie-shest-stepeney-imana.jpg
 ```
 
-Файл миниатюры должен существовать в `public` при разработке или в
-`dist/client` после сборки. Если JPG отсутствует, используется следующий
+При разработке миниатюра ищется в `public/media`, после сборки также в
+`dist/client/media`. На Linux сначала проверяется медиатека рабочего сайта
+`/srv/hutba/assets/media`. Например, URL `/media/akida/akida-at-tahawiya/thumbs/02-biografiia-avtora-i-kommentatora.jpg`
+соответствует файлу `/srv/hutba/assets/media/akida/akida-at-tahawiya/thumbs/02-biografiia-avtora-i-kommentatora.jpg`.
+
+Другой путь можно задать переменной окружения `HUTBA_MEDIA_ROOT` при запуске
+Node. Она указывает непосредственно на каталог `media`, а не его родителя.
+Новые миниатюры определяются при запросе страницы без обновления списка
+или пересборки приложения. Если JPG отсутствует, используется следующий
 вариант из таблицы. Внешние видео не получают предполагаемую миниатюру:
 для них можно явно указать `ogImage`.
+
+Проверка выбора картинки: `npm run test:lesson-preview`.
 
 ## Публикация и изменение оформления
 

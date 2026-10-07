@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test:lesson-preview": "node scripts/test-lesson-preview.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
