@@ -175,13 +175,20 @@ if (isInteractive) {
     hasVideo: Boolean(l.data.hasVideo ?? l.data.video ?? l.data.videoRel),
   }));
 }
+
+const lessonTitle = Array.isArray(currentLesson?.title)
+  ? currentLesson.title.map((part: { text: string }) => part.text).join("")
+  : currentLesson?.title;
+const previewTitle = [subjectEntry.data.title, courseTitle, lessonTitle]
+  .filter(Boolean)
+  .join(" - ");
 ---
 
 <Base
   title={`${subjectEntry.data.title} — ${courseTitle}`}
   ogImage={ogImage}
   ogSubject={subject}
-  ogTitle={Array.isArray(currentLesson?.title) ? currentLesson.title.map((part: { text: string }) => part.text).join("") : currentLesson?.title ?? courseTitle}
+  ogTitle={previewTitle}
   ogSubtitle={courseTitle}
   readingPage
 >
