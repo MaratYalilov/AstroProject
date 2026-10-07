@@ -17,9 +17,11 @@ export async function getStaticPaths() {
   const courses = await getCollection("courses");
 
   return courses
-    // This course has a dedicated page that resumes the last viewed lesson.
+    // Interactive courses have dedicated routes that read the lesson query.
+    // The textbook course has a dedicated page that resumes the last viewed lesson.
     .filter(
       (c) =>
+        c.data.type !== "interactive" &&
         !(c.data.subject === "akida" && c.data.slug === "uchebnik-6-stolpov")
     )
     .map((c) => ({

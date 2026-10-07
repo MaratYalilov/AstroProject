@@ -1,0 +1,50 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import CourseLayout from "./CourseLayout";
+import { loadAllInteractiveLessons } from "../../lib/interactive/loadInteractiveLesson";
+
+interface Props {
+  subject: string;
+  course: string;
+}
+
+const { subject, course } = Astro.props;
+const subjectEntry = (await getCollection("subjects")).find(entry => entry.data.slug === subject);
+const courseEntry = (await getCollection("courses")).find(entry =>
+  entry.data.subject === subject && entry.data.slug === course,
+);
+if (!subjectEntry || !courseEntry || courseEntry.data.type !== "interactive") {
+  throw new Error(`Интерактивный курс не найден: ${subject}/${course}`);
+}
+
+const lessons = await loadAllInteractiveLessons(subject, course);
+const lessonSlug = Astro.url.searchParams.get("lesson");
+const selectedLesson = lessons.find(lesson => lesson.slug === lessonSlug);
+const lessonTitle = Array.isArray(selectedLesson?.title)
+  ? selectedLesson.title.map(part => part.text).join("")
+  : selectedLesson?.title;
+const courseTitle = courseEntry.data.title;
+const previewTitle = [subjectEntry.data.title, courseTitle, lessonTitle]
+  .filter(Boolean)
+  .join(" - ");
+---
+
+<Base
+  title={`${subjectEntry.data.title} — ${courseTitle}`}
+  ogTitle={previewTitle}
+  ogSubtitle={selectedLesson ? courseTitle : `${subjectEntry.data.title} · Курс`}
+  ogSubject={subject}
+  ogImage={selectedLesson?.ogImage ?? courseEntry.data.ogImage ?? subjectEntry.data.ogImage}
+  readingPage
+>
+  <CourseLayout
+    client:load
+    lessons={lessons}
+    subject={subject}
+    course={course}
+    courseTitle={courseTitle}
+    downloads={courseEntry.data.downloads}
+    initialLessonSlug={selectedLesson?.slug}
+  />
+</Base>

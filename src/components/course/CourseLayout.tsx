@@ -42,12 +42,16 @@ type Props = {
   subject: string;
   course: string;
   courseTitle?: string;
+  initialLessonSlug?: string;
   /** Скачиваемые материалы курса (из YAML курса) — показываются в меню курса */
   downloads?: CourseDownload[];
 };
 
-export default function CourseLayout({ lessons, subject, course, courseTitle, downloads }: Props) {
-  const [currentIndex, setCurrentIndex] = useState(0);
+export default function CourseLayout({ lessons, subject, course, courseTitle, downloads, initialLessonSlug }: Props) {
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const index = lessons.findIndex(lesson => lesson.slug === initialLessonSlug);
+    return index >= 0 ? index : 0;
+  });
   // Стартовый урок: приоритет у URL-параметра ?lesson=<slug> (deep-link),
   // иначе — сохранённый прогресс из localStorage.
   useEffect(() => {
