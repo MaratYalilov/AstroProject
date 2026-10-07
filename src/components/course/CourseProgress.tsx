@@ -7,7 +7,7 @@ type Props = {
 
 export default function CourseProgress({ completed, total }: Props) {
   const safeCompleted = Math.min(Math.max(completed, 0), total);
-  const percentage = total > 0 ? Math.round((safeCompleted / total) * 100) : 0;
+  const percentage = total > 0 ? Math.floor((safeCompleted / total) * 100) : 0;
 
   return (
     <div className="w-full rounded-2xl border border-gray-200 bg-white/75 p-3 shadow-sm shadow-gray-200/50 backdrop-blur dark:border-white/10 dark:bg-white/[0.06] dark:shadow-none">

@@ -2,8 +2,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Card, CardTitle } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
+import { readCourseProgress, subjectProgress, type StudyCourse } from "@/lib/studyProgress";
+import { useStudyProgress } from "./hooks/useStudyProgress";
 
 export interface SubjectSummary {
   slug: string;
@@ -11,7 +13,7 @@ export interface SubjectSummary {
   emoji?: string;
   icon?: string;
   iconClass?: string;
-  coursesCount: number;
+  courses: StudyCourse[];
 }
 
 interface SubjectGridProps {
@@ -19,6 +21,11 @@ interface SubjectGridProps {
 }
 
 const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
+  const courses = React.useMemo(() => items.flatMap(subject =>
+    subject.courses.map(course => ({ ...course, subject: subject.slug })),
+  ), [items]);
+  const savedProgress = useStudyProgress(courses);
+
   if (!items.length) {
     return <p className="text-sm text-muted-foreground">Предметы не найдены.</p>;
   }
@@ -26,7 +33,12 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
   return (
     <ReducedMotionProvider>
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {items.map((s) => (
+      {items.map((s) => {
+        const courseProgress = s.courses.map(course =>
+          savedProgress[`${s.slug}/${course.slug}`] ?? readCourseProgress(s.slug, course),
+        );
+        const progress = subjectProgress(courseProgress);
+        return (
         <motion.a
           key={s.slug}
           href={`/${s.slug}`}
@@ -59,7 +71,7 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
             <div className="relative z-10 h-full p-6 flex flex-col">
               {/* Верхняя часть с иконкой и заголовком */}
               <div className="flex items-start justify-between gap-4 mb-4">
-                <div className="flex items-start gap-4">
+                <div className="flex min-w-0 flex-1 items-start gap-4">
                   {/* Основная иконка предмета */}
                   <div className="relative flex-shrink-0">
                     {s.icon ? (
@@ -89,21 +101,31 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
                   </div>
                   
                   {/* Заголовок и информация */}
-                  <div className="flex-1">
+                  <div className="min-w-0 flex-1">
                     <CardTitle className="text-lg font-semibold leading-tight text-gray-900 dark:text-gray-100">
                       {s.title}
                     </CardTitle>
                     <div className="mt-1 flex items-center gap-2">
                       <span className="text-xs font-medium text-lime-600 dark:text-lime-400">
-                        {s.coursesCount} {s.coursesCount === 1 ? 'курс' : s.coursesCount < 5 ? 'курса' : 'курсов'}
-                      </span>
-                      {s.coursesCount > 0 && (
-                        <div className="h-1 w-1 rounded-full bg-gray-300 dark:bg-gray-600" />
-                      )}
-                      <span className="text-xs text-muted-foreground">
-                        Изучается
+                        {s.courses.length} {s.courses.length === 1 ? 'курс' : s.courses.length > 1 && s.courses.length < 5 ? 'курса' : 'курсов'}
                       </span>
                     </div>
+                    {s.courses.length > 0 && (
+                      <ul className="mt-3 list-none space-y-2 p-0 text-sm leading-snug text-muted-foreground">
+                        {s.courses.map((course, index) => (
+                          <li key={course.slug} className="flex items-start gap-2">
+                            <span
+                              aria-hidden="true"
+                              className={`mt-1 h-2.5 w-2.5 shrink-0 rounded-full ${courseProgress[index].finished ? "bg-lime-600 dark:bg-lime-400" : "bg-gray-400 dark:bg-gray-500"}`}
+                            />
+                            <span className="min-w-0 break-words">
+                              {course.title}
+                              <span className="sr-only">{courseProgress[index].finished ? ": курс завершён" : ": курс не завершён"}</span>
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
                 
@@ -114,15 +136,28 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
 
               </div>
               
-              {/* Нижняя часть с кнопкой */}
-              <div className="mt-auto flex items-center justify-between">
-                <div className="text-sm text-muted-foreground">
-                  {/* Здесь можно добавить краткое описание предмета, если нужно */}
+              <div className="mt-auto pt-2">
+                <div
+                  role="progressbar"
+                  aria-label={`Пройденные уроки по предмету «${s.title}»`}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-valuenow={progress.percentage}
+                  aria-valuetext={`Пройдено ${progress.completed} из ${progress.total} уроков`}
+                  className="h-1.5 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700"
+                >
+                  <div className="h-full rounded-full bg-lime-500" style={{ width: `${progress.percentage}%` }} />
                 </div>
-                <span className="inline-flex items-center justify-center rounded-md px-3 py-2 font-medium group/btn h-8 gap-1 text-xs transition-all duration-300 hover:bg-lime-500/10 hover:text-lime-700 dark:hover:text-lime-400">
-                  <span>Перейти</span>
-                  <ArrowRight className="h-3 w-3 transition-transform duration-300 group-hover/btn:translate-x-1" />
-                </span>
+                {/* Нижняя часть с кнопкой */}
+                <div className="mt-2 flex items-center justify-between gap-3">
+                  <span className="text-xs tabular-nums text-muted-foreground">
+                    {progress.total > 0 ? `Пройдено ${progress.completed} из ${progress.total} уроков` : "Уроков пока нет"}
+                  </span>
+                  <span className="inline-flex items-center justify-center rounded-md px-3 py-2 font-medium group/btn h-8 gap-1 text-xs transition-all duration-300 hover:bg-lime-500/10 hover:text-lime-700 dark:hover:text-lime-400">
+                    <span>Перейти</span>
+                    <ArrowRight className="h-3 w-3 transition-transform duration-300 group-hover/btn:translate-x-1" />
+                  </span>
+                </div>
               </div>
             </div>
             
@@ -130,7 +165,8 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
             <div className="absolute bottom-0 left-0 z-20 h-1 w-0 bg-gradient-to-r from-lime-400 to-emerald-400 transition-all duration-500 group-hover:w-full" />
           </Card>
         </motion.a>
-      ))}
+        );
+      })}
     </div>
     </ReducedMotionProvider>
   );

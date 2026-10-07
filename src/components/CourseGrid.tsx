@@ -3,8 +3,10 @@ import React from "react";
 import type { CollectionEntry } from "astro:content";
 import { motion } from "framer-motion";
 import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { ArrowRight } from "lucide-react";
+import { Card, CardTitle } from "@/components/ui/card";
+import { ArrowRight, Check } from "lucide-react";
+import { readCourseProgress, type StudyCourse } from "@/lib/studyProgress";
+import { useStudyProgress } from "./hooks/useStudyProgress";
 
 type CourseEntry = CollectionEntry<"courses">;
 
@@ -12,14 +14,20 @@ interface CourseGridProps {
   subjectSlug: string;
   subjectTitle?: string;
   courses: CourseEntry[];
+  studyCourses: StudyCourse[];
   subjectIcon?: string;
 }
 
 const CourseGrid: React.FC<CourseGridProps> = ({ 
   subjectSlug, 
   courses, 
+  studyCourses,
   subjectIcon 
 }) => {
+  const progressCourses = React.useMemo(() => studyCourses.map(course => ({
+    ...course, subject: subjectSlug,
+  })), [studyCourses, subjectSlug]);
+  const savedProgress = useStudyProgress(progressCourses);
   const [lastTextbookLessonSlug, setLastTextbookLessonSlug] = React.useState<string | null>(null);
 
   React.useEffect(() => {
@@ -62,8 +70,9 @@ const CourseGrid: React.FC<CourseGridProps> = ({
     <ReducedMotionProvider>
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {sortedCourses.map((c) => {
-        // Проверяем, есть ли дополнительная информация для отображения
-        const hasAdditionalInfo = c.data.lessonsCount;
+        const studyCourse = studyCourses.find(course => course.slug === c.data.slug)!;
+        const progress = savedProgress[`${subjectSlug}/${c.data.slug}`]
+          ?? readCourseProgress(subjectSlug, studyCourse);
         // Учебник открываем сразу, без промежуточной страницы-перенаправления.
         const isTextbook = subjectSlug === "akida" && c.data.slug === "uchebnik-6-stolpov";
         const href = isTextbook
@@ -106,7 +115,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
               <div className="relative z-10 h-full p-6 flex flex-col">
                 {/* Верхняя часть с номером и заголовком */}
                 <div className="flex items-start justify-between gap-4 mb-4">
-                  <div className="flex items-start gap-4">
+                  <div className="flex min-w-0 items-start gap-4">
                     {/* Номер курса в кружке */}
                     <div className="relative flex-shrink-0">
                       <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-gray-100 to-gray-200 text-lg font-semibold transition-all duration-300 group-hover:scale-110 group-hover:from-lime-50 group-hover:to-lime-100 dark:from-gray-800 dark:to-gray-700 dark:group-hover:from-lime-900/30 dark:group-hover:to-lime-50/30">
@@ -115,7 +124,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
                     </div>
                     
                     {/* Заголовок и описание */}
-                    <div className="flex-1">
+                    <div className="min-w-0 flex-1">
                       <CardTitle className="text-lg font-semibold leading-tight text-gray-900 dark:text-gray-100">
                         {c.data.title}
                       </CardTitle>
@@ -131,21 +140,30 @@ const CourseGrid: React.FC<CourseGridProps> = ({
                   </div>
                 </div>
                 
-                {/* Нижняя часть с кнопкой */}
-                <div className="mt-auto flex items-center justify-between">
-                  <div className="text-xs text-muted-foreground">
-                    {/* Показываем только если есть данные */}
-                    {c.data.lessonsCount ? (
-                      <>
-                        {c.data.lessonsCount && (
-                          <span>{c.data.lessonsCount} уроков</span>
-                        )}
-                      </>
-                    ) : (
-                      // Если нет дополнительной информации, оставляем пустой div для выравнивания
-                      <span>&nbsp;</span>
-                    )}
+                <div className="mt-auto space-y-2 border-t border-border/60 pt-4">
+                  <div className="flex items-center justify-between gap-3 text-xs">
+                    <span className={progress.finished ? "inline-flex items-center gap-1 text-lime-700 dark:text-lime-400" : "text-muted-foreground"}>
+                      {progress.finished ? <><Check className="h-3.5 w-3.5" aria-hidden="true" />Курс завершён</> : "Прогресс курса"}
+                    </span>
+                    <span className="font-semibold tabular-nums text-lime-700 dark:text-lime-400">{progress.percentage}%</span>
                   </div>
+                  <div
+                    role="progressbar"
+                    aria-label={`Прогресс курса «${c.data.title}»`}
+                    aria-valuemin={0}
+                    aria-valuemax={100}
+                    aria-valuenow={progress.percentage}
+                    aria-valuetext={`Пройдено ${progress.completed} из ${progress.total} уроков`}
+                    className="h-1.5 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700"
+                  >
+                    <div className="h-full rounded-full bg-lime-500" style={{ width: `${progress.percentage}%` }} />
+                  </div>
+                  <p className="text-xs tabular-nums text-muted-foreground">
+                    {progress.total > 0 ? `Пройдено ${progress.completed} из ${progress.total} уроков` : "Уроков пока нет"}
+                  </p>
+                </div>
+                {/* Нижняя часть с кнопкой */}
+                <div className="mt-3 flex justify-end">
                   <span className="inline-flex items-center justify-center rounded-md px-3 py-2 font-medium group/btn h-8 gap-1 text-xs transition-all duration-300  hover:text-lime-700 dark:hover:text-emerald-500">
                     <span>Открыть курс</span>
                     <ArrowRight className="h-3 w-3 transition-transform duration-300 group-hover/btn:translate-x-1" />

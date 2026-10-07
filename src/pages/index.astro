@@ -3,6 +3,8 @@
 import Base from "../layouts/Base.astro";
 import { getCollection } from "astro:content";
 import SubjectGrid from "../components/SubjectGrid";
+import { studyCourseSummaries } from "../lib/studyCourseSummaries";
+import type { StudyCourse } from "../lib/studyProgress";
 
 const title = "HUTBA.org - первое онлайн-медресе";
 const description = "HUTBA.org - образовательный проект с 2010 года. Достоверные знания для каждого мусульманина. Сегодня это платформа для самостоятельного изучения ислама, арабского языка и чтения Корана: видеозаписи лекций, учебные материалы, конспекты и упражнения.";
@@ -37,12 +39,16 @@ const subjects = (await getCollection("subjects")).sort(
   (a, b) => (a.data.order ?? 999) - (b.data.order ?? 999)
 );
 
-// При желании можно посчитать количество курсов на предмет:
-const courses = await getCollection("courses");
-const counts = new Map<string, number>();
-for (const c of courses) {
-  const s = c.data.subject;
-  counts.set(s, (counts.get(s) ?? 0) + 1);
+const courses = (await getCollection("courses")).sort(
+  (a, b) => (a.data.order ?? 999) - (b.data.order ?? 999)
+);
+const lessons = await getCollection("lessons");
+const summaries = await studyCourseSummaries(courses, lessons);
+const coursesBySubject = new Map<string, StudyCourse[]>();
+for (const { subject, ...course } of summaries) {
+  const entries = coursesBySubject.get(subject) ?? [];
+  entries.push(course);
+  coursesBySubject.set(subject, entries);
 }
 
 const items = subjects.map((s) => ({
@@ -51,7 +57,7 @@ const items = subjects.map((s) => ({
   emoji: s.data.emoji,
   icon: s.data.icon,
   iconClass: s.data.iconClass,
-  coursesCount: counts.get(s.data.slug) ?? 0,
+  courses: coursesBySubject.get(s.data.slug) ?? [],
 }));
 ---
 
