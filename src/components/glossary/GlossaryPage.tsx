@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 import { Input } from '@/components/ui/input'
 import { replaceQuranTags } from '@/utils/replaceQuranTags'
+import { buildGlossaryEntryMetadata, glossaryIndexMetadata } from '@/utils/glossaryMetadata'
 
 type GlossaryEntry = {
   id: string
@@ -69,6 +70,7 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
   const [query, setQuery] = useState('')
 
   const hasInitializedDesktop = useRef(false)
+  const canonicalOrigin = useRef<string | null>(null)
 
   /* ---------------- letters ---------------- */
 
@@ -159,13 +161,55 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
         e => getSlug(e) === slug
       )
 
-      if (entry) setActive(entry)
+      setQuery('')
+      setLetter(null)
+      setActive(entry ?? null)
     }
 
     window.addEventListener('popstate', onPopState)
     return () =>
       window.removeEventListener('popstate', onPopState)
   }, [entries])
+
+  useEffect(() => {
+    const path = active ? `/glossary/${getSlug(active)}` : '/glossary'
+    const metadata = active
+      ? buildGlossaryEntryMetadata(active.data)
+      : glossaryIndexMetadata
+    let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')
+    if (!canonicalOrigin.current) {
+      canonicalOrigin.current = new URL(canonical?.href || window.location.href).origin
+    }
+    const canonicalUrl = new URL(path, canonicalOrigin.current).href
+
+    if (window.location.pathname !== path) {
+      window.history.replaceState(null, '', path)
+    }
+    document.title = metadata.title
+
+    const updateMeta = (attribute: 'name' | 'property', key: string, content: string) => {
+      let meta = document.head.querySelector<HTMLMetaElement>(`meta[${attribute}="${key}"]`)
+      if (!meta) {
+        meta = document.createElement('meta')
+        meta.setAttribute(attribute, key)
+        document.head.appendChild(meta)
+      }
+      meta.content = content
+    }
+
+    updateMeta('name', 'description', metadata.description)
+    updateMeta('property', 'og:title', metadata.ogTitle)
+    updateMeta('property', 'og:description', metadata.description)
+    updateMeta('property', 'og:url', canonicalUrl)
+    updateMeta('property', 'og:type', metadata.ogType)
+
+    if (!canonical) {
+      canonical = document.createElement('link')
+      canonical.rel = 'canonical'
+      document.head.appendChild(canonical)
+    }
+    canonical.href = canonicalUrl
+  }, [active])
 
   /* ---------------- UX helpers ---------------- */
 

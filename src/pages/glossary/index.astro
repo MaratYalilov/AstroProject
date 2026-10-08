@@ -2,6 +2,7 @@
 import Base from '@/layouts/Base.astro'
 import GlossaryPage from '@/components/glossary/GlossaryPage'
 import { getCollection } from 'astro:content'
+import { glossaryIndexMetadata } from '@/utils/glossaryMetadata'
 
 const rawGlossary = await getCollection('glossary')
 const glossary = rawGlossary.map(e => ({
@@ -13,12 +14,14 @@ const canonical = new URL('/glossary', Astro.site).href
 ---
 
 <Base
-  title="Словарь исламских терминов | HUTBA.org"
-  ogTitle="Словарь исламских терминов"
-  description="Словарь исламских терминов HUTBA.org: определения и пояснения для самостоятельного изучения ислама, арабского языка и чтения Корана."
+  title={glossaryIndexMetadata.title}
+  ogTitle={glossaryIndexMetadata.ogTitle}
+  description={glossaryIndexMetadata.description}
 >
   <Fragment slot="head">
     <link rel="canonical" href={canonical} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content={glossaryIndexMetadata.ogType} />
   </Fragment>
   <GlossaryPage entries={glossary} client:load />
 </Base>
