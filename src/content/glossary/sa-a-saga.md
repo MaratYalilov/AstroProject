@@ -61,12 +61,9 @@ related:
 used_in:
   - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F01-vstuplenie-shest-stepeney-imana"
   - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F73-vera-v-sudnyy-den"
-  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F75-malye-priznaki-sudnogo-dnya"
   - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F25-dokazatelstva-prorocheskoi-missii-muhammada-2"
   - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F26-dokazatelstva-prorocheskoi-missii-muhammada-3"
-  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F40-kolichestvo-vody-dlya-omoveniya-i-guslya"
   - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F44-raspuskanie-volos-pri-gusle"
-  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F53-postanovleniya-kasayushhiesya-vody"
   - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F01-tafsir-ibn-kasira"
 description: "Ас-Са'а: время наступления Дня воскресения. Пояснение названия Судного часа, внезапности его наступления и расчёта деяний."
 ---

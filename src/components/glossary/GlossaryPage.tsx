@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input'
 import { replaceQuranTags } from '@/utils/replaceQuranTags'
 import { buildGlossaryEntryMetadata, glossaryIndexMetadata } from '@/utils/glossaryMetadata'
 import { updatePageMetadata } from '@/utils/updatePageMetadata'
+import { updateGlossaryStructuredData } from '@/utils/glossaryStructuredData'
 import type { GlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
 import { withGlossaryTarget } from '@/utils/glossaryTarget'
 import TeacherCredit from '../TeacherCredit'
@@ -30,6 +31,7 @@ type Props = {
   entries: GlossaryEntry[]
   lessonLinks: GlossaryLessonLinks
   initialSlug?: string
+  siteUrl: string
 }
 
 const LETTERS = [
@@ -92,7 +94,7 @@ function LessonBacklinks({ references, links, termSlug }: { references: unknown[
   )
 }
 
-export default function GlossaryPage({ entries, lessonLinks, initialSlug }: Props) {
+export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUrl }: Props) {
   const isMobile = useIsMobile()
 
   /* ---------------- helpers ---------------- */
@@ -224,7 +226,8 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug }: Prop
       window.history.replaceState(null, '', path)
     }
     updatePageMetadata({ ...metadata, canonicalPath: path })
-  }, [active])
+    updateGlossaryStructuredData(entries, siteUrl, active)
+  }, [active, entries, siteUrl])
 
   /* ---------------- UX helpers ---------------- */
 
