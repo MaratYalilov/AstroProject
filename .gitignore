@@ -24,4 +24,6 @@ pnpm-debug.log*
 .idea/
 
 # media assets (stored outside version control)
-public/
+public/*
+!public/robots.txt
+!public/yandex_de2d35d38832f550.html
