@@ -1,4 +1,5 @@
 import { useMemo, useState, useEffect, useRef } from 'react'
+import type { MouseEvent } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 import { Input } from '@/components/ui/input'
@@ -203,6 +204,23 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
     window.history.pushState(null, '', '/glossary')
   }
 
+  const handleTermClick = (
+    event: MouseEvent<HTMLAnchorElement>,
+    entry: GlossaryEntry
+  ) => {
+    if (
+      event.defaultPrevented ||
+      event.button !== 0 ||
+      event.ctrlKey ||
+      event.metaKey ||
+      event.shiftKey ||
+      event.altKey
+    ) return
+
+    event.preventDefault()
+    handleSelectEntry(entry)
+  }
+
   const handleLetterClick = (l: string) => {
     setQuery('')
     setLetter(prev => (prev === l ? null : l))
@@ -257,12 +275,14 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
 
             <ul className="divide-y border rounded-md">
               {filtered.map(e => (
-                <li
-                  key={e.id}
-                  onClick={() => handleSelectEntry(e)}
-                  className="px-4 py-3 cursor-pointer hover:bg-accent"
-                >
-                  <strong>{e.data.term}</strong>
+                <li key={e.id}>
+                  <a
+                    href={`/glossary/${getSlug(e)}`}
+                    onClick={event => handleTermClick(event, e)}
+                    className="block px-4 py-3 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary"
+                  >
+                    <strong>{e.data.term}</strong>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -353,16 +373,19 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
 
         <ul className="overflow-auto divide-y flex-1">
           {filtered.map(e => (
-            <li
-              key={e.id}
-              onClick={() => handleSelectEntry(e)}
-              className={`px-2 py-2 cursor-pointer ${
-                active?.id === e.id
-                  ? 'bg-primary/10 font-semibold'
-                  : 'hover:bg-accent'
-              }`}
-            >
-              {e.data.term}
+            <li key={e.id}>
+              <a
+                href={`/glossary/${getSlug(e)}`}
+                onClick={event => handleTermClick(event, e)}
+                aria-current={active?.id === e.id ? 'page' : undefined}
+                className={`block px-2 py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary ${
+                  active?.id === e.id
+                    ? 'bg-primary/10 font-semibold'
+                    : 'hover:bg-accent'
+                }`}
+              >
+                {e.data.term}
+              </a>
             </li>
           ))}
         </ul>
