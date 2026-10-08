@@ -1,4 +1,5 @@
 ---
+description: "Посланники, обладающие решимостью: значение выражения «улюль-азм» и сведения об этой группе пророков."
 id: 476
 title: Посланники обладатели решимости.
 alias: 4chetvertyistolpposlannikiobladatelireshimosti

@@ -1,4 +1,5 @@
 ---
+description: "Достоинство двух прохладных молитв, бардайн: разбор хадисов об утреннем намазе и асре."
 title: '120, Достоинство утреннего и вечернего (бардайн) намазов.'
 permalink: 120-dostoinstvo-utrennego-i-vechernego-bardain-namazov
 intro:

@@ -1,4 +1,5 @@
 ---
+description: "Примеры воскрешения в земной жизни: истории из народа Мусы, Узейра и Ибрахима, приведённые в Коране."
 id: 469
 title: Примеры воскрешения в этой жизни
 alias: 5stolpveriprimerivoskresheniyvetoijizni

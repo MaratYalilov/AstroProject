@@ -1,4 +1,5 @@
 ---
+description: "Шкуры хищных животных: разбор сообщений об их использовании и мнений учёных о чистоте."
 title: '65, Шкуры хищных животных'
 permalink: 65-shkury-khishchnykh-zhivotnykh
 intro: >

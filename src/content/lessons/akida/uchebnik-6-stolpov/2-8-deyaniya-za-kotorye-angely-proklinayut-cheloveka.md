@@ -1,4 +1,5 @@
 ---
+description: "Деяния, за которые ангелы проклинают человека: разбор соответствующих сообщений и предостережений в хадисах."
 id: 338
 title: Деяния, за которые ангелы проклинают человека
 alias: 2stolpveryveravangelovdejanijazakotoryeangelyproklinajutcheloveka

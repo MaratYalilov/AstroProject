@@ -99,6 +99,7 @@ if (isInteractive) {
     currentLesson = {
       slug: `${subject}/${course}/${interactiveLesson.slug}`,
       title: interactiveLesson.title,
+      description: interactiveLesson.description,
       order: interactiveLesson.id,
       html: "", // interactive lessons не используют HTML
       audio: null,
@@ -157,6 +158,7 @@ if (isInteractive) {
   currentLesson = {
     slug: target.id,
     title: target.data.title,
+    description: target.data.description,
     order: target.data.order,
     html,
     audio: audioUrl,
@@ -185,7 +187,7 @@ const previewTitle = [subjectEntry.data.title, courseTitle, lessonTitle]
   .join(" - ");
 const pageTitle = buildPageTitle(lessonTitle, courseTitle);
 const description = lessonTitle
-  ? buildLessonDescription(lessonTitle, courseTitle, courseEntry.data.description)
+  ? buildLessonDescription(lessonTitle, courseTitle, currentLesson.description)
   : buildCourseDescription(courseTitle, courseEntry.data.description);
 const canonicalPath = isInteractive && interactiveLesson
   ? `/${subject}/${course}/?lesson=${encodeURIComponent(interactiveLesson.slug)}`

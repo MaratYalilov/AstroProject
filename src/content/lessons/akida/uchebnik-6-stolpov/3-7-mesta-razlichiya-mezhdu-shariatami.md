@@ -1,4 +1,5 @@
 ---
+description: "Различия между шариатами: особенности предписаний, данных разным общинам, при единстве основ веры."
 id: 459
 title: Места различия между шариатами
 alias: 3tretiistolpmestarazlichiyzmezhdushariatami

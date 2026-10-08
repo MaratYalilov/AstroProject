@@ -1,4 +1,5 @@
 ---
+description: "Общие основы шариатов пророков: единобожие, покорность Аллаху и преемственность религии посланников."
 id: 458
 title: Места сходства между шариатами
 alias: 3tretiistolpmestachodstvamezhdushariatami

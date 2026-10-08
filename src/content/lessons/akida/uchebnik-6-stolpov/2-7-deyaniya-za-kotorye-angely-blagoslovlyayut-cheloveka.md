@@ -1,4 +1,5 @@
 ---
+description: "За какие дела ангелы благословляют человека: обучение добру, ожидание коллективной молитвы и другие примеры из хадисов."
 id: 337
 title: Деяния, за которые ангелы благословляют человека.
 alias: 2stolpveryveravangelovdejanijazakotoryeangelyblagoslovljajutcheloveka

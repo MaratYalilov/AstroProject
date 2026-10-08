@@ -1,4 +1,5 @@
 ---
+description: "Количество ангелов: сообщения о многочисленности ангелов и пределах знания человека об их числе."
 id: 303
 title: Число ангелов.
 alias: 2stolpveryveravangelovchisloangelov

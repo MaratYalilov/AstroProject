@@ -1,4 +1,5 @@
 ---
+description: "Отношения ангелов с людьми: их поручения и участие в событиях человеческой жизни по исламским текстам."
 id: 333
 title: Отношения с людьми.
 alias: 2stolpveryveravangelovotnosheniyasludmi

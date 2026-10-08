@@ -1,4 +1,5 @@
 ---
+description: "Последовательность малого омовения: разбор сообщений о том, как Пророк совершал вуду."
 title: '30, Порядок совершения омовения'
 permalink: 30-poryadok-soversheniya-omoveniya
 intro: >

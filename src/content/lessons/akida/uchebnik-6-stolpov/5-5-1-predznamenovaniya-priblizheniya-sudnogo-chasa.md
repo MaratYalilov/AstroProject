@@ -1,4 +1,5 @@
 ---
+description: "Предзнаменования Судного часа: различия между малыми и большими признаками и порядок их рассмотрения."
 id: 485
 title: Предзнаменования приближения Судного часа
 alias: 5stolppredznamenovaniyapriblizheniyacudnogodnya

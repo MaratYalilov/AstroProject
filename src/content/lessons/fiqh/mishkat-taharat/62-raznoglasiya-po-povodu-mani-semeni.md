@@ -1,4 +1,5 @@
 ---
+description: "Чистота мани: разногласия учёных о семени и разбор сообщений о его удалении с одежды."
 title: '62, Разногласия по поводу мани (семени)'
 permalink: 62-raznoglasiya-po-povodu-mani-semeni
 intro: >

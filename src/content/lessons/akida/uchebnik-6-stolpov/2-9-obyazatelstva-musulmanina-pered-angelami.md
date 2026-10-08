@@ -1,4 +1,5 @@
 ---
+description: "Обязанности мусульманина перед ангелами: уважение к ним и правила поведения, рассматриваемые в исламских текстах."
 id: 351
 title: Обязательства мусульманина перед ангелами.
 alias: 2stolpveryveravangelovobjazatelstvamusulmaninaperedangelami

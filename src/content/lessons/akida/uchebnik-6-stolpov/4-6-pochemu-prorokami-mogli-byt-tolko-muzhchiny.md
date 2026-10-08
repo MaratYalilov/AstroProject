@@ -1,4 +1,5 @@
 ---
+description: "Раздел о том, почему пророками были мужчины: приведённые в учебнике доводы и пояснения роли пророческой миссии."
 id: 478
 title: Почему пророками могли быть только мужчины?
 alias: 4chetvertyistolppochemuprorokamimoglibyttolkomuzhchiny

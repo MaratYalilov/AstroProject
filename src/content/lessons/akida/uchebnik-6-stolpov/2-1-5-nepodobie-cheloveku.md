@@ -1,4 +1,5 @@
 ---
+description: "Отличие ангелов от людей: особенности их природы и разбор сообщений о мире ангелов в Коране и Сунне."
 id: 297
 title: Неподобие человеку.
 alias: 2stolpveryveravangelovnepodobiecheloveku

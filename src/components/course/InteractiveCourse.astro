@@ -33,7 +33,7 @@ const pageTitle = selectedLesson
   ? buildPageTitle(lessonTitle, courseTitle)
   : buildPageTitle(courseTitle, subjectEntry.data.title);
 const description = lessonTitle
-  ? buildLessonDescription(lessonTitle, courseTitle, courseEntry.data.description)
+  ? buildLessonDescription(lessonTitle, courseTitle, selectedLesson?.description)
   : buildCourseDescription(courseTitle, courseEntry.data.description);
 const canonicalPath = selectedLesson
   ? `/${subject}/${course}/?lesson=${encodeURIComponent(selectedLesson.slug)}`

@@ -54,6 +54,7 @@ const lessons = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/lessons" }),
   schema: z.object({
     title: z.string(),
+    description: z.string().optional(),
     order: z.number().optional(),
     ogImage: z.string().optional(),
     hasAudio: z.boolean().default(false),
@@ -92,6 +93,7 @@ const arabicAbuAkhmad = defineCollection({
   }),
   schema: z.object({
     title: z.string(),
+    description: z.string().optional(),
     order: z.number(),
     ogImage: z.string().optional(),
     hasAudio: z.boolean().default(false),

@@ -1,4 +1,5 @@
 ---
+description: "Когда необходим гусль: причины полного омовения и разбор связанных с ними сообщений."
 title: '41, Причины для совершения гусля'
 permalink: 41-prichiny-dlya-soversheniya-guslya
 intro: >

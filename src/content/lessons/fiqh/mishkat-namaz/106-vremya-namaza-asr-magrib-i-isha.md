@@ -1,4 +1,5 @@
 ---
+description: "Время асра, магриба и иша: разбор признаков наступления послеполуденной, вечерней и ночной молитв."
 title: '106, Время послеполуденного,вечернего,ночного намаза'
 permalink: 106-vremia-poslepoludennogo-vechernego-nochnogo-namaza
 intro: >

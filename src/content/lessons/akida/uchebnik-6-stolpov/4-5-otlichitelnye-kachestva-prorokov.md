@@ -1,4 +1,5 @@
 ---
+description: "Особенности пророков: получение откровения, защита в передаче религии и другие отличительные качества."
 id: 477
 title: Отличительные качества пророков.
 alias: 4chetvertyistolotlichitelnyekachestvaprorokov

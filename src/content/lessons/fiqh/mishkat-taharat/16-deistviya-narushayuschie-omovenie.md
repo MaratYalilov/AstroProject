@@ -1,4 +1,5 @@
 ---
+description: "Действия, нарушающие вуду: продолжение разбора хадисов о причинах нарушения малого омовения."
 title: '16, Действия нарушающие омовение'
 permalink: 16-dejstviya-narushayushchie-omovenie
 intro: >

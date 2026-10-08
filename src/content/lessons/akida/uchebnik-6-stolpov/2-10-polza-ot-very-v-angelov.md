@@ -1,4 +1,5 @@
 ---
+description: "Польза веры в ангелов: осознание величия Аллаха, благодарность за Его заботу о людях и укрепление веры."
 id: 352
 title: Польза от веры в ангелов.
 alias: 2stolpveryveravangelovpolzaotveryvangelov

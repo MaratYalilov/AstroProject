@@ -1,4 +1,5 @@
 ---
+description: "Облик ангелов: описания их формы в исламских текстах, крылья и особенности сотворения."
 id: 296
 title: Форма.
 alias: 2stolpveryveravangelovforma

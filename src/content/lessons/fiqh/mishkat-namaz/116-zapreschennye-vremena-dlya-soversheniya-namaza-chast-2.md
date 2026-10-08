@@ -1,4 +1,5 @@
 ---
+description: "Ограничения молитвы в определённые часы: продолжение разбора запрещённых времён и относящихся к ним случаев."
 title: '116, Запрещённые времена для совершения намаза (часть 2)'
 permalink: 116-zapreshchyonnye-vremena-dlia-soversheniia-namaza-chast-2
 intro: >

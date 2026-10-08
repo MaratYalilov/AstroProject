@@ -1,4 +1,5 @@
 ---
+description: "Пророк и посланник: различия между этими понятиями, их назначение и особенности передачи откровения."
 id: 467
 title: Разница между посланником и пророком.
 alias: 4chetvertyistolpraznicamezhduposlannikomiprorokom

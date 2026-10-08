@@ -1,4 +1,5 @@
 ---
+description: "Мучения в могиле: разбор доводов тех, кто их отрицает, и ответов на эти доводы в учебнике."
 id: 505
 title: Довод отрицающих мучения в могиле.
 alias: 5stolpdovodotricajucshihmuchenijavmogile

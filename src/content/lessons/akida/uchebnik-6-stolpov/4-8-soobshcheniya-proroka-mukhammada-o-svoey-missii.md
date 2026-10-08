@@ -1,4 +1,5 @@
 ---
+description: "Сообщения Пророка Мухаммада о своей миссии: разбор хадисов о его посланничестве и назначении."
 id: 480
 title: Сообщения пророка Мухаммада о своей миссии.
 alias: 4chetvertyistolpsoobcsheniyamuhammadaomissii

@@ -1,4 +1,5 @@
 ---
+description: "Времена, в которые ограничено совершение намаза: начало разбора хадисов и мнений учёных об этих промежутках."
 title: '115, Запрещённые времена для совершения намаза'
 permalink: 115-zapreshchyonnye-vremena-dlia-soversheniia-namaza
 intro: >

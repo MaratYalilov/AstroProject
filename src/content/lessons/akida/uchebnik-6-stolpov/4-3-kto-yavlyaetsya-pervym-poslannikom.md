@@ -1,4 +1,5 @@
 ---
+description: "Кто был первым посланником: разбор сообщений о Нухе и различия между первым пророком и первым посланником."
 id: 473
 title: Кто является первым посланником
 alias: 4chetvertyistolpktoyavlyaetsyapervymposlannikom

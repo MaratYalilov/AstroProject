@@ -1,4 +1,5 @@
 ---
+description: "Вера в посланников: смысл четвёртого столпа имана и отношение мусульманина к пророческим миссиям."
 id: 461
 title: Смысл веры в посланников.
 alias: 4chetvertyistolpsmyslveryvposlannikov

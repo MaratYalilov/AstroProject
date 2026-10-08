@@ -1,4 +1,5 @@
 ---
+description: "Польза веры в посланников: благодарность за руководство, любовь к пророкам и следование их примеру."
 id: 483
 title: Польза от веры в посланников
 alias: 4chetvertyistolppolzaotveryvposlannikov

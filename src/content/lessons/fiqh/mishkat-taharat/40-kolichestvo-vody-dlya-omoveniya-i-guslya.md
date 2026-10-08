@@ -1,4 +1,5 @@
 ---
+description: "Расход воды при вуду и гусле: разбор хадисов о количестве воды для малого и полного омовения."
 title: '40, Количество воды для омовения и гусля'
 permalink: kolichestvo-vody-dlya-omoveniya-i-guslya
 intro: >

@@ -24,11 +24,14 @@ export function buildCourseDescription(
 export function buildLessonDescription(
   lessonTitle: string,
   courseTitle: string,
-  courseDescription?: string
+  lessonDescription?: string
 ): string {
+  if (lessonDescription?.trim()) {
+    return normalizeMetadataText(lessonDescription);
+  }
   const topic = normalizeMetadataText(lessonTitle).replace(/\.+$/, "");
   const sentence = /[!?]$/.test(topic) ? topic : `${topic}.`;
   return normalizeMetadataText(
-    `${sentence} Материал курса «${courseTitle}». ${buildCourseDescription(courseTitle, courseDescription)}`
+    `${sentence} Урок курса «${courseTitle}» на HUTBA.org.`
   );
 }
