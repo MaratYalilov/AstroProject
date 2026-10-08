@@ -6,24 +6,84 @@ category: А
 tags: []
 aliases: []
 related:
-- du-a
-- i-tikaf
-- ilya
-- khasan
-- kufr
-- mechet
-- mukharram
-- ramadan
-- sakhikh
-- salyam
-- shirk
-- tafsir
-- zakyat
-- zikr
-- zulm
+  - "adab"
+  - "adam"
+  - "akida"
+  - "aksa"
+  - "arafa-arafat"
+  - "baraka"
+  - "bid-a"
+  - "du-a"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fitna"
+  - "i-tikaf"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ilya"
+  - "imam"
+  - "islam"
+  - "kaaba"
+  - "kaffara"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhab"
+  - "khidzhr"
+  - "khukm"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "ma-ruf"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mukharram"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "naskh"
+  - "nazr"
+  - "nikab"
+  - "nikakh"
+  - "niyat-nijya"
+  - "ramadan"
+  - "rasul"
+  - "riba"
+  - "riya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shakhada"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sivak-misvak"
+  - "sunna"
+  - "tafsir"
+  - "umra"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "vali"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
+  - "zina"
+  - "zulm"
 used_in:
-- 23-adab-tazkiya-urok-23.md
-- 91-al-bakara-korova-50-56-aiat.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F23-adab-tazkiya-urok-23"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F65-smysl-very-v-poslannikov"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F03-smyvanie-grehov"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F65-al-bakara-vvedenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F91-al-bakara-korova-50-56-aiat"
 description: "Ашура: десятый день месяца Мухаррам, связанный со спасением Мусы и его народа. Значение этого дня и пояснение поста в знак благодарности Аллаху."
 ---
 

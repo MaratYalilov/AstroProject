@@ -5,8 +5,26 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "barzakh"
+  - "da-if-daif"
+  - "id"
+  - "iman"
+  - "islam"
+  - "kabair"
+  - "khalifat"
+  - "khasan"
+  - "khukm"
+  - "kufr"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "vakhj-vakhij"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F68-otlichitelnye-kachestva-prorokov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F78-rasprostranenie-mnogobozhiya"
 description: "Сагаир: малые грехи, для которых нет установленного хадда или особой угрозы наказания. Пояснение их отличия от больших грехов."
 ---
 

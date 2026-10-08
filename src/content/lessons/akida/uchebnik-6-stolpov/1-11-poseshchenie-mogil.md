@@ -23,7 +23,7 @@ groupTitle: Вера в Аллаха
 <li><strong>Запрещается путешествовать с целью посещения могил.</strong></li>
 </ul>
 <div class="hadith">
-  <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>Держать путь можно только к трем мечетям: Священной мечети (в Мекке), этой моей мечети (в Медине) и мечети «Аль-<a href="/glossary/aksa" class="glossary-link" target="_blank" rel="noopener noreferrer">Акса</a>» (в г. Аль-Кудс)</em>»</p>
+  <p>Пророк, да благословит его Аллах и приветствует, сказал: «<em>Держать путь можно только к трем мечетям: Священной мечети (в Мекке), этой моей мечети (в Медине) и мечети «Аль-<a href="/glossary/aksa" class="glossary-link" target="_blank" rel="noopener noreferrer">Акса</a>» (в г. Аль-<a href="/glossary/kuds-bejt-al-makdis" class="glossary-link" target="_blank" rel="noopener noreferrer">Кудс</a>)</em>»</p>
   <div class="hadith-reference">Аль-Бухари и Муслим</div>
 </div>
 

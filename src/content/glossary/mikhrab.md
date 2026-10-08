@@ -6,36 +6,42 @@ category: М
 tags: []
 aliases: []
 related:
-- aksa
-- dzhanaba
-- fard
-- gusl
-- idzhma
-- isra
-- kausar
-- khadzh
-- khalyal
-- kharam
-- khasan
-- kibla
-- makrukh
-- mazkhab
-- mechet
-- nadzhasa
-- ramadan
-- rauda
-- riba
-- sakhikh
-- shajtan
-- sunna
-- tasbikh
-- tauba
-- vadzhib
-- zikr
+  - "akida"
+  - "aksa"
+  - "azan"
+  - "dzhanaba"
+  - "fard"
+  - "gusl"
+  - "idzhma"
+  - "idzhtikhad"
+  - "imam"
+  - "isra"
+  - "kausar"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "kibla"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "nadzhasa"
+  - "niyat-nijya"
+  - "ramadan"
+  - "rauda"
+  - "riba"
+  - "sakhikh"
+  - "shajtan"
+  - "sunna"
+  - "tasbikh"
+  - "tauba"
+  - "vadzhib"
+  - "zikr"
 used_in:
-- 135-mecheti-urok-2.md
-- 136-mecheti-urok-3.md
-- 62-nezhelatelnye-dejstviya-v-namaze-36.md
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F125-azan-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F135-mecheti-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F136-mecheti-urok-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F62-nezhelatelnye-dejstviya-v-namaze-36"
 description: "Михраб: место уединения и поклонения; слово также означает дворец или крепость. Пояснение значений и употребления термина."
 ---
 

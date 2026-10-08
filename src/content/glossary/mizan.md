@@ -6,18 +6,39 @@ category: М
 tags: []
 aliases: []
 related:
-- bid-a
-- din
-- dzhikhad
-- fikkh
-- khadzh
-- khalyal
-- kharam
-- sadaka
-- shajtan
-- tasbikh
+  - "akida"
+  - "arsh"
+  - "azab-al-kabr"
+  - "bid-a"
+  - "din"
+  - "dzhikhad"
+  - "fikkh"
+  - "fitra"
+  - "ibada-ibadat"
+  - "indzhil"
+  - "israfil"
+  - "kantara-kontara"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khaud"
+  - "khisab"
+  - "munkar-i-nakir"
+  - "rububijya"
+  - "sadaka"
+  - "shajtan"
+  - "shari-a"
+  - "sirat-syrat"
+  - "sunna"
+  - "tafsir"
+  - "tasbikh"
+  - "taukhid"
+  - "umma"
+  - "usul-al-fikkh"
 used_in:
-- 29-adab-tazkiya-urok-29.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F29-adab-tazkiya-urok-29"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F06-shariat-ukazyvaet-na-suschestvovanie-allaha"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F31-2-hadis-sudnyj-den"
 description: "Аль-Мизан: весы, на которых в День воскресения будут взвешены благие и дурные деяния. Пояснение их связи с воздаянием и справедливостью Аллаха."
 ---
 

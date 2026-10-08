@@ -24,7 +24,7 @@ order: 2008
 
 — «<span class="arab">أَنَّمَا</span>» (с **фатхой**), привязанное к слову «<span class="arab">يَدْعُونَ</span>», написано **раздельно** в **двух** местах:
 
-- **аль-Хадж (62)**: «<span class="arab">وَأَنَّ مَا يَدۡعُونَ مِن دُونِهِۦ هُوَ ٱلۡبَٰطِلُ</span>»; {Quran}22:62{/Quran}
+- **аль-<a href="/glossary/khadzh" class="glossary-link" target="_blank" rel="noopener noreferrer">Хадж</a> (62)**: «<span class="arab">وَأَنَّ مَا يَدۡعُونَ مِن دُونِهِۦ هُوَ ٱلۡبَٰطِلُ</span>»; {Quran}22:62{/Quran}
 - **Лукман (30)**: «<span class="arab">وَأَنَّ مَا يَدۡعُونَ مِن دُونِهِ ٱلۡبَٰطِلُ</span>». {Quran}31:30{/Quran}
 
 ## Два места с разногласием (хильф)

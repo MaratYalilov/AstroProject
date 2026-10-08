@@ -5,8 +5,18 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "imam"
+  - "islam"
+  - "mechet"
+  - "salyam"
+  - "shakhada"
+  - "shirk"
+  - "sunna"
+  - "taufik"
+  - "taukhid"
+used_in:
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F06-opravdanie-nevezhestvom"
 description: "Ахлюль-фатра: люди, жившие между посланническими миссиями, и те, до кого не дошёл призыв. Пояснение понятия и мнений об их положении."
 ---
 

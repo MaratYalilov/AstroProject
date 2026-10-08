@@ -5,8 +5,39 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adab"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhikhad"
+  - "fetva-fatva"
+  - "gusl"
+  - "ikhlas"
+  - "imam"
+  - "israf"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "khalyal"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khukm"
+  - "kuds-bejt-al-makdis"
+  - "makhdi"
+  - "makrukh"
+  - "mazkhab"
+  - "musulmanin"
+  - "sakhikh"
+  - "takhara"
+  - "tayammum"
+  - "vudu"
+  - "zabkh"
+used_in:
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-6-nekotorye-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-2-malye-priznaki-sudnogo-dnya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F56-morskaya-voda-chistaya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F59-voda-sogretaya-luchami-solnca"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F01-vidy-vody"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F09-adaby-omoveniya"
 description: "Замзам: известный источник рядом с Каабой в священной мечети Мекки. Пояснение его названия, расположения и религиозного значения."
 ---
 

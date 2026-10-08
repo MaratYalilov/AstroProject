@@ -6,45 +6,73 @@ category: С
 tags: []
 aliases: []
 related:
-- adam
-- ansary
-- din
-- du-a
-- fard
-- fikkh
-- fitna
-- iblis
-- idzhma
-- iman
-- islam
-- karamat
-- khalyal
-- kharam
-- kharut-i-marut
-- khasan
-- khidzhr
-- khukm
-- kufr
-- musulmanin
-- namima
-- naskh
-- radzhab
-- riya
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sukhur
-- tafsir
-- usul-al-fikkh
-- zakyat
-- zina
+  - "adam"
+  - "akida"
+  - "ansary"
+  - "azan"
+  - "da-if-daif"
+  - "dalil"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhinn"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "idzhma"
+  - "iman"
+  - "islam"
+  - "karamat"
+  - "khadzh"
+  - "khafiz"
+  - "khalyal"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasad"
+  - "khasan"
+  - "khidzhr"
+  - "khukm"
+  - "kufr"
+  - "kunya"
+  - "kysas-kisas"
+  - "mazkhab"
+  - "mikail-mikal"
+  - "mu-dzhiza"
+  - "murdzhiity"
+  - "musulmanin"
+  - "namima"
+  - "naskh"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riya"
+  - "rukya"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sukhur"
+  - "sunna"
+  - "tafsir"
+  - "usul-al-fikkh"
+  - "vakhj-vakhij"
+  - "zakyat"
+  - "zina"
+  - "zulm"
 used_in:
-- 101-al-bakara-korova-85-87-aiat.md
-- 107-al-bakara-korova-102-103-aiat.md
-- 108-al-bakara-korova-102-103-aiat.md
-- 109-al-bakara-korova-102-103-aiat.md
-- 110-al-bakara-korova-103-106-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F35-maloe-mnogobozhie-v-namereniyah"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F69-chudesa-prorokov"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F21-vajees"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F101-al-bakara-korova-85-87-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F107-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F108-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F110-al-bakara-korova-103-106-aiat"
 description: "Сихр: колдовство с использованием заклинаний, узлов, талисманов или снадобий. Пояснение двух значений термина, приведённых в статье."
 ---
 

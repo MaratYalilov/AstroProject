@@ -6,29 +6,77 @@ category: К
 tags: []
 aliases: []
 related:
-- dzhanaba
-- fadzhr
-- fard
-- gusl
-- islam
-- makrukh
-- mazkhab
-- mechet
-- mikhrab
-- nadzhasa
-- ramadan
-- sakhikh
-- salyam
-- salyat
-- sunna
-- taravikh
-- tasbikh
-- tashakhkhud
-- vadzhib
-- zikr
+  - "amanat"
+  - "azan"
+  - "bid-a"
+  - "dzhanaba"
+  - "fadzhr"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "gusl"
+  - "id"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "imam"
+  - "islam"
+  - "kadarity-kadarijya"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khaud"
+  - "kurban"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mikhrab"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "nadzhasa"
+  - "naskh"
+  - "nazr"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sirat-syrat"
+  - "sivak-misvak"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "ukhud"
+  - "umma"
+  - "vadzhib"
+  - "zabkh"
+  - "zikr"
 used_in:
-- 172-chtenie-korana-v-namaze-urok-4.md
-- 62-nezhelatelnye-dejstviya-v-namaze-36.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F27-zhertvoprinoshenie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F94-vesy"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F3-4-1-nepodrazhaemost-korana"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-18-vodoem"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F172-chtenie-korana-v-namaze-urok-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F62-nezhelatelnye-dejstviya-v-namaze-36"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F05-rasm-muskhafa-md"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F12-tolkovanie-korana"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F79-al-bakara-korova-25-26-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F15-al-kausar-izobilie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F23-al-adijat-skachushchie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F30-ad-dukha-utro"
 description: "Каусар: великое благо, дарованное Пророку Мухаммаду, и название райской реки. Пояснение её описания и связи с водоёмом аль-Хауд."
 ---
 

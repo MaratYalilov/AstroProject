@@ -6,30 +6,61 @@ category: А
 tags: []
 aliases: []
 related:
-- du-a
-- fard
-- fikkh
-- islam
-- isra
-- khalyal
-- kharam
-- khasan
-- khidzhab
-- khukm
-- miskin
-- musulmanin
-- naskh
-- radzhab
-- sadaka
-- sakhikh
-- sikhr
-- tafsir
-- umma
-- usul-al-fikkh
-- zakyat
+  - "adam"
+  - "akida"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "gusl"
+  - "id"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "istindzha"
+  - "kaaba"
+  - "khadzh"
+  - "khafiz"
+  - "khalifat"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khidzhab"
+  - "khidzhr"
+  - "khidzhra"
+  - "khukm"
+  - "makhdi"
+  - "mechet"
+  - "miskin"
+  - "mukhadzhiry"
+  - "munkar"
+  - "musulmanin"
+  - "naskh"
+  - "radzhab"
+  - "rukya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "sikhr"
+  - "sira"
+  - "tafsir"
+  - "tauba"
+  - "ukhud"
+  - "umma"
+  - "usul-al-fikkh"
+  - "zakyat"
 used_in:
-- 100-al-bakara-korova-83-84-aiat.md
-- 110-al-bakara-korova-103-106-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F72-chudesa-poslannika-allaha"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F23-spravlenie-nuzhdy-stoya"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F11-2-hadis-sut-islama"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F07-urok-sira-oblik-proroka"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F100-al-bakara-korova-83-84-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F110-al-bakara-korova-103-106-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F66-al-bakara-korova-01-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F71-al-bakara-korova-08-09-aiat"
 description: "Ансары: жители Ясриба, помогавшие Пророку Мухаммаду и переселенцам из Мекки. Происхождение названия и их вклад в распространение ислама."
 ---
 

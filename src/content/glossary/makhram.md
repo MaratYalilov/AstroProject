@@ -6,29 +6,69 @@ category: М
 tags: []
 aliases: []
 related:
-- bid-a
-- fard
-- fikkh
-- gusl
-- indzhil
-- kaffara
-- khadzh
-- khasan
-- makrukh
-- mechet
-- rukn
-- sadaka
-- safar
-- sakhikh
-- salyam
-- shart
-- sunna
-- takhara
-- vudu
-- zakyat
+  - "adam"
+  - "baraka"
+  - "bid-a"
+  - "dadzhal"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhanaza"
+  - "dzhannat"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "firdaus"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "israf"
+  - "istigfar"
+  - "kadarity-kadarijya"
+  - "kaffara"
+  - "khadzh"
+  - "khalyal"
+  - "khanif"
+  - "kharam"
+  - "khasan"
+  - "khidzhab"
+  - "kufr"
+  - "makrukh"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mubtadi"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "musulmanin"
+  - "nadzhasa"
+  - "nikakh"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rukn"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shart"
+  - "shirk"
+  - "sunna"
+  - "takdir-kadar"
+  - "takhara"
+  - "tora"
+  - "vudu"
+  - "zakyat"
 used_in:
-- 102-al-bakara-korova-88-90-aiat.md
-- 50-kniga-namaza-24.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F37-maloe-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F45-atributy-suschnosti-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F99-znanie-allaha"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F12-deistviya-ne-narushayuschie-omovenie"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F50-kniga-namaza-24"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F102-al-bakara-korova-88-90-aiat"
 description: "Махрам: человек, брак с которым навсегда запрещён из-за кровного, молочного или брачного родства. Пояснение понятия и оснований запрета."
 ---
 

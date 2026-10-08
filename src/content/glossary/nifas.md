@@ -6,23 +6,56 @@ category: Н
 tags: []
 aliases: []
 related:
-- azan
-- bid-a
-- dzhanaba
-- fard
-- id
-- ikamat
-- khajd
-- khukm
-- makrukh
-- mechet
-- sakhikh
-- shajtan
-- sunna
-- umma
-- vadzhib
+  - "azan"
+  - "bid-a"
+  - "diya-dijya"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "gusl"
+  - "id"
+  - "idda"
+  - "idzhtikhad"
+  - "ikamat"
+  - "imam"
+  - "islam"
+  - "istikhada"
+  - "kaffara"
+  - "khajd"
+  - "khamr"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khukm"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "muskhaf"
+  - "nikakh"
+  - "radzhab"
+  - "sadaka"
+  - "sakhikh"
+  - "shajtan"
+  - "shakhid"
+  - "sunna"
+  - "talak"
+  - "tavaf"
+  - "tayammum"
+  - "umma"
+  - "vadzhib"
 used_in:
-- 33-kniga-namaza-7.md
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F91-priznaki-zaversheniya-mesyachnyh"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F92-nifas"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F93-otlichiya-mezhdu-nifasom-i-mesyachnymi"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F42-farzy-guslya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F11-deistviya-narushayuschie-omovenie"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F17-tayammum-chast-2"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F22-mesyachnye-nifas-istihada"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F23-mesyachnye-nifas-istihada-2chast"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F24-nechistoty-i-ih-ochischenie-1-chast"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F33-kniga-namaza-7"
 description: "Нифас: кровотечение, связанное с родами. Пояснение понятия и его употребления для выделений до, во время и после родов."
 ---
 

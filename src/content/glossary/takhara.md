@@ -6,57 +6,73 @@ category: Т
 tags: []
 aliases: []
 related:
-- ajn
-- azan
-- bid-a
-- dalil
-- fadzhr
-- fard
-- fikkh
-- gusl
-- iblis
-- idzhma
-- ikamat
-- ikhlas
-- ikhram
-- iman
-- islam
-- kaffara
-- khadzh
-- khajd
-- kharam
-- khasan
-- khukm
-- kibla
-- kufr
-- makhram
-- makrukh
-- mazkhab
-- mechet
-- mubtadi
-- musulmanin
-- radzhab
-- ramadan
-- rukn
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shart
-- sunna
-- takfir
-- tashakhkhud
-- tavarruk
-- vudu
-- zakyat
-- zikr
+  - "ajn"
+  - "akida"
+  - "azan"
+  - "bid-a"
+  - "dalil"
+  - "dzhakhmity-dzhakhmijya"
+  - "fadzhr"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "idzhma"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "iman"
+  - "islam"
+  - "kaffara"
+  - "khadzh"
+  - "khajd"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "kibla"
+  - "kufr"
+  - "kurban"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "musulmanin"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rukn"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+  - "takfir"
+  - "tashakhkhud"
+  - "taukhid"
+  - "tavarruk"
+  - "vudu"
+  - "zakyat"
+  - "zamzam-zemzem"
+  - "zikr"
+  - "zukhd"
 used_in:
-- 130-azan-urok-8.md
-- 158-opisanie-namaza-urok-2.md
-- 27-kniga-namaza-1.md
-- 28-adab-tazkiya-urok-28.md
-- 50-kniga-namaza-24.md
-- 52-kniga-namaza-26.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F28-adab-tazkiya-urok-28"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F130-azan-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F158-opisanie-namaza-urok-2"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F01-vidy-vody"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F27-kniga-namaza-1"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F50-kniga-namaza-24"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F52-kniga-namaza-26"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F70-23-hadis-sdelka-o-dushe"
 description: "Тахара: очищение от осквернения и нечистот, препятствующих молитве. Пояснение использования воды или чистого грунта для ритуального очищения."
 ---
 

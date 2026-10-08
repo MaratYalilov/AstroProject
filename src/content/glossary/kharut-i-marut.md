@@ -6,22 +6,62 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- adam
-- fitna
-- iblis
-- iman
-- khasan
-- khidzhr
-- kufr
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sikhr
-- zina
+  - "adab"
+  - "adam"
+  - "ashura"
+  - "bid-a"
+  - "da-if-daif"
+  - "dzhibril-dzhabrail"
+  - "dzhinn"
+  - "fadzhr"
+  - "fard"
+  - "fitna"
+  - "iblis"
+  - "id"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "israfil"
+  - "karamat"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khasad"
+  - "khasan"
+  - "khidzhab"
+  - "khidzhr"
+  - "khukm"
+  - "kiyama-kyyama"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "ma-ruf"
+  - "mazkhab"
+  - "mechet"
+  - "mi-radzh"
+  - "mikail-mikal"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "muskhaf"
+  - "musulmanin"
+  - "nikab"
+  - "ramadan"
+  - "rasul"
+  - "riya"
+  - "rukya"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "zina"
 used_in:
-- 107-al-bakara-korova-102-103-aiat.md
-- 108-al-bakara-korova-102-103-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F49-imena-angelov"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F2-3-imena"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F21-vajees"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F107-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F108-al-bakara-korova-102-103-aiat"
 description: "Харут и Марут: два ангела, посредством которых Аллах испытал людей. Пояснение их упоминания и покорности повелениям Аллаха."
 ---
 

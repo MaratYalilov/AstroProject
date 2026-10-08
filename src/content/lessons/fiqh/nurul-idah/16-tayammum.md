@@ -10,7 +10,7 @@ video: /media/fiqh/nurul-idah/video/16-tayammum.mp4
 videoRel: video/16-tayammum.mp4
 ---
 # 16, <a href="/glossary/tayammum" class="glossary-link" target="_blank" rel="noopener noreferrer">Таяммум</a>
-<p><span class="arab">بَابُ التَّيَمُّمِ</span></p> Глава: таяммум После того, как был упомянуты виды очищения
+<p><span class="arab">بَابُ التَّيَمُّمِ</span></p> Глава: <a href="/glossary/tayammum" class="glossary-link" target="_blank" rel="noopener noreferrer">таяммум</a> После того, как был упомянуты виды очищения
 водой автор приступил к разъяснению таяммума, так как он является
 заменой омовению и гуслю. Таяммум был предписан в походе на бану
 Мусталик в Мурайси’е. Это колодец возле Кудайда между Меккой и Мединой.

@@ -5,8 +5,51 @@ letter: В
 category: В
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "aksa"
+  - "ashura"
+  - "barzakh"
+  - "dalil"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "idda"
+  - "idzhtikhad"
+  - "islam"
+  - "kaaba"
+  - "kabair"
+  - "karamat"
+  - "khukm"
+  - "kufr"
+  - "mu-dzhiza"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "naskh"
+  - "nikakh"
+  - "rasul"
+  - "sadaka"
+  - "sagair-sogair"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "sikhr"
+  - "sunna"
+  - "tafsir"
+  - "tasbikh"
+  - "taukhid"
+  - "tora"
+  - "zabur"
+  - "zikr"
+  - "zina"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F66-raznica-mezhdu-poslannikom-i-prorokom"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F68-otlichitelnye-kachestva-prorokov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F69-chudesa-prorokov"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F01-nauki-sviazannye-s-koranom"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F02-otkrovenie-vakhii"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
 description: "Вахй: откровение Аллаха Его пророкам, передаваемое напрямую или через посредников. Пояснение значения термина и способа передачи."
 ---
 

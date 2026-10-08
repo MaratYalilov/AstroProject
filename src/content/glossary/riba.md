@@ -6,26 +6,86 @@ category: Р
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- aksa
-- iblis
-- islam
-- khadzh
-- khalyal
-- khasan
-- khava
-- mechet
-- mikhrab
-- rauda
-- salyam
-- shajtan
-- tauba
-- tavaf
-- zikr
+  - "a-raf"
+  - "adab"
+  - "adam"
+  - "aksa"
+  - "ashura"
+  - "baraka"
+  - "bid-a"
+  - "dadzhal"
+  - "diya-dijya"
+  - "du-a"
+  - "dzhinn"
+  - "fakikh-fakykh"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "gusl"
+  - "iblis"
+  - "idda"
+  - "idzhtikhad"
+  - "imam"
+  - "islam"
+  - "isra"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khava"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhab"
+  - "khidzhama"
+  - "khidzhr"
+  - "khidzhra"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "makhdi"
+  - "makhr"
+  - "mazkhab"
+  - "mechet"
+  - "mikhrab"
+  - "munkar"
+  - "mursal"
+  - "musulmanin"
+  - "radzhab"
+  - "ramadan"
+  - "rauda"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shirk"
+  - "sivak-misvak"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takfir"
+  - "taklid"
+  - "takva"
+  - "tauba"
+  - "tavaf"
+  - "tavassul"
+  - "vadzhib"
+  - "vali"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
+  - "zulm"
 used_in:
-- 06-adab-tazkiya-urok-06.md
-- 136-mecheti-urok-3.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F06-adab-tazkiya-urok-06"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F55-chudo-korana-nauki"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F65-smysl-very-v-poslannikov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F77-vino"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F19-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F136-mecheti-urok-3"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F1-prichiny-raznoglasij-mezhdu-uchenymi"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F3-prichiny-raznoglasij-mezhdu-uchenymi"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F4-prichiny-raznoglasij-mezhdu-uchenymi"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F83-35-hadis-musulmanin-brat-musulmanina"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F65-al-bakara-vvedenie"
 description: "Риба: рост в определённых шариатом вещах вследствие увеличения долга или отсрочки выплаты. Пояснение значения термина в исламском праве."
 ---
 

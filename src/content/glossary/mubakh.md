@@ -6,26 +6,87 @@ category: М
 tags: []
 aliases: []
 related:
-- azima
-- fard
-- iman
-- khalyal
-- kharam
-- khasan
-- kufr
-- makrukh
-- mechet
-- ramadan
-- rukhsa
-- safar
-- sakhikh
-- shirk
-- takva
-- vudu
+  - "aksa"
+  - "azan"
+  - "azima"
+  - "bid-a"
+  - "da-if-daif"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhinn"
+  - "fadzhr"
+  - "fard"
+  - "fetva-fatva"
+  - "fitra"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ilya"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "israfil"
+  - "istikhara"
+  - "kafan"
+  - "kausar"
+  - "khadd-khudud"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kufr"
+  - "kurban"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mechet"
+  - "mukallyaf"
+  - "munkar-i-nakir"
+  - "mursal"
+  - "musulmanin"
+  - "nazr"
+  - "niyat-nijya"
+  - "ramadan"
+  - "rukhsa"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+  - "takfir"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "takva"
+  - "taravikh"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "zabkh"
+  - "zikr"
+  - "zukhd"
 used_in:
-- 142-mecheti-urok-9.md
-- 19-adab-tazkiya-urok-19.md
-- 74-namaz-putnika-48.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F19-adab-tazkiya-urok-19"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F27-zhertvoprinoshenie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F23-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F123-kniga-namaza-azan-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F142-mecheti-urok-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F74-namaz-putnika-48"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F79-30-31-hadis-vseob-emlyushchij-shariat-i-klyuch-k-lyubvi"
 description: "Мубах: действие, в котором шариат предоставляет выбор между совершением и оставлением. Пояснение роли праведного намерения в получении награды."
 ---
 

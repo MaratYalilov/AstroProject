@@ -6,30 +6,43 @@ category: К
 tags: []
 aliases: []
 related:
-- adam
-- iblis
-- id
-- iman
-- islam
-- khalyal
-- kharam
-- khasan
-- khidzhab
-- khukm
-- kufr
-- makrukh
-- mechet
-- mursal
-- radzhab
-- sakhikh
-- salyam
-- tauba
-- umma
-- zakyat
+  - "adam"
+  - "iblis"
+  - "id"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "khafiz"
+  - "khalyal"
+  - "kharam"
+  - "khasad"
+  - "khasan"
+  - "khidzhab"
+  - "khukm"
+  - "kufr"
+  - "makrukh"
+  - "mechet"
+  - "mursal"
+  - "radzhab"
+  - "ramadan"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "sukhur"
+  - "takdir-kadar"
+  - "tauba"
+  - "tora"
+  - "umma"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 103-al-bakara-korova-91-93-aiat.md
-- 150-prikryvanie-aurata-urok-2.md
-- 4-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F4-razrush-svoego-idola"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F150-prikryvanie-aurata-urok-2"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F22-2-hadis-vera-v-angelov-i-pisaniya"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F82-35-hadis-zavist-bolezn-serdca"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F103-al-bakara-korova-91-93-aiat"
 description: "Кибр: высокомерие, выражающееся в неприятии истины и презрении к людям. Пояснение значения термина на основе хадиса Пророка."
 ---
 

@@ -6,35 +6,90 @@ category: И
 tags: []
 aliases: []
 related:
-- ashura
-- azan
-- du-a
-- fard
-- ikamat
-- istiska
-- kharam
-- khasan
-- kufr
-- makrukh
-- mechet
-- mukharram
-- musulmanin
-- ramadan
-- rasul
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sunna
-- tadzhvid
-- tafsir
-- taravikh
-- vadzhib
-- vitr
-- zulm
+  - "adam"
+  - "akida"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "dalil"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "fikkh"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhsan"
+  - "imam"
+  - "islam"
+  - "istigfar"
+  - "istiska"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "khalifat"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khava"
+  - "khukm"
+  - "khutba"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "mukallyaf"
+  - "mukharram"
+  - "murdzhiity"
+  - "musulmanin"
+  - "ramadan"
+  - "rasul"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shar"
+  - "shari-a"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sira"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tadzhvid"
+  - "tafsir"
+  - "taklid"
+  - "taravikh"
+  - "tasbikh"
+  - "taukhid"
+  - "tora"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "zakyat"
+  - "zulm"
 used_in:
-- 31-kniga-namaza-5.md
-- 91-al-bakara-korova-50-56-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F32-shirk"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F37-somneniia-otritcaiushchikh-litcezrenie-allaha"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F23-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F25-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F26-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F28-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F33-vajees"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F31-kniga-namaza-5"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F02-urok-sira-religii-arabov"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F81-al-bakara-korova-29-30-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F91-al-bakara-korova-50-56-aiat"
 description: "Иля': клятва мужа воздерживаться от супружеской близости четыре месяца или дольше. Пояснение этого понятия в исламском семейном праве."
 ---
 

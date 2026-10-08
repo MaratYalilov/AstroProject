@@ -6,160 +6,301 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- adab
-- adam
-- ahlul-kitab
-- aksa
-- ansary
-- azan
-- azima
-- bid-a
-- birr
-- dalil
-- din
-- du-a
-- dzhanaba
-- dzhanaza
-- dzhikhad
-- dzhinn
-- fadzhr
-- fard
-- fikkh
-- fitna
-- iblis
-- id
-- id-al-adkha
-- id-al-fitr
-- idda
-- idzhma
-- iftirash
-- ikamat
-- ikhlas
-- ilya
-- iman
-- indzhil
-- islam
-- isra
-- istigfar
-- istikhara
-- istiska
-- kaaba
-- kaffara
-- khadzh
-- khafiz
-- khalil
-- khalyal
-- khasan
-- khidzhab
-- khidzhr
-- khikma
-- khukm
-- khutba
-- kibla
-- kibr
-- kufr
-- kunya
-- kurban
-- ma-ruf
-- makhdi
-- makrukh
-- mazkhab
-- mechet
-- mikhrab
-- mizan
-- mubakh
-- mukhkam
-- munkar
-- mursal
-- muskhaf
-- musulmanin
-- mutashabikh
-- nadzhasa
-- naskh
-- nazr
-- radzhab
-- ramadan
-- rasul
-- ratiba
-- riya
-- rukhsa
-- rukn
-- sadaka
-- safar
-- sakhikh
-- salyam
-- salyat
-- sha-ban
-- shajtan
-- shakhada
-- shirk
-- sikhr
-- sudzhud-at-tilyava
-- sunna
-- tadzhvid
-- tafsir
-- takhadzhud
-- takhara
-- takva
-- taravikh
-- tasbikh
-- tashakhkhud
-- tauba
-- tavaf
-- tavarruk
-- ukhud
-- umma
-- umra
-- usul-al-fikkh
-- vadzhib
-- vitr
-- vudu
-- zakyat
-- zikr
-- zina
-- zul-khidzha
+  - "adab"
+  - "adam"
+  - "ahlul-kitab"
+  - "ajn"
+  - "akida"
+  - "akika"
+  - "aksa"
+  - "amanat"
+  - "ansary"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "azima"
+  - "baki-baky"
+  - "barzakh"
+  - "bid-a"
+  - "birr"
+  - "da-if-daif"
+  - "dadzhal"
+  - "dalil"
+  - "din"
+  - "diya-dijya"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "iftirash"
+  - "ikamat"
+  - "ikhlas"
+  - "ikrakh"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "israfil"
+  - "istigfar"
+  - "istikhada"
+  - "istikhara"
+  - "istindzha"
+  - "istiska"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "kafan"
+  - "kaffara"
+  - "karamat"
+  - "karun-korun"
+  - "kausar"
+  - "khadd-khudud"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalil"
+  - "khalyal"
+  - "khamr"
+  - "khanif"
+  - "kharidzhity-khavaridzhi"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khidzhab"
+  - "khidzhr"
+  - "khidzhra"
+  - "khikma"
+  - "khisab"
+  - "khukm"
+  - "khur-in-gurii"
+  - "khutba"
+  - "kibla"
+  - "kibr"
+  - "kiyama-kyyama"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "kunut"
+  - "kunya"
+  - "kurban"
+  - "kysas-kisas"
+  - "ma-ruf"
+  - "makam-makom"
+  - "makhdi"
+  - "makhram"
+  - "makrukh"
+  - "malyaika"
+  - "mankhadzh-minkha-dzh"
+  - "masikh"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "mikhrab"
+  - "mizan"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "muftij"
+  - "mukallyaf"
+  - "mukhkam"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "nadzhasa"
+  - "namima"
+  - "naskh"
+  - "nazr"
+  - "nifas"
+  - "nikab"
+  - "nikakh"
+  - "niyat-nijya"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "ratiba"
+  - "riba"
+  - "riya"
+  - "rukhsa"
+  - "rukn"
+  - "sa-a-saga"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "sha-ban"
+  - "shajtan"
+  - "shakhada"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sira"
+  - "sirat-syrat"
+  - "sivak-misvak"
+  - "sudzhud-at-tilyava"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tadzhvid"
+  - "tafsir"
+  - "tagut"
+  - "takfir"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "takva"
+  - "talak"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "tavarruk"
+  - "tavassul"
+  - "tayammum"
+  - "tora"
+  - "ukhud"
+  - "umma"
+  - "umra"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "zabkh"
+  - "zakyat"
+  - "zikr"
+  - "zina"
+  - "zukhd"
+  - "zul-khidzha"
 used_in:
-- 05-adab-tazkiya-urok-05.md
-- 110-al-bakara-korova-103-106-aiat.md
-- 111-al-bakara-korova-106-107-aiat.md
-- 112-al-bakara-korova-108-110-aiat.md
-- 114-al-bakara-korova-114-aiat.md
-- 115-al-bakara-korova-115-aiat.md
-- 118-al-bakara-korova-120-123-aiat.md
-- 119-al-bakara-korova-125-aiat.md
-- 120-al-bakara-korova-126-aiat.md
-- 130-azan-urok-8.md
-- 134-mecheti-urok-1.md
-- 135-mecheti-urok-2.md
-- 138-mecheti-urok-5.md
-- 140-mecheti-urok-7.md
-- 144-mecheti-urok-11.md
-- 145-mecheti-urok-12.md
-- 146-mecheti-urok-13.md
-- 148-mecheti-urok-15.md
-- 149-prikryvanie-aurata-urok-1.md
-- 150-prikryvanie-aurata-urok-2.md
-- 159-opisanie-namaza-urok-3.md
-- 160-opisanie-namaza-urok-4.md
-- 163-opisanie-namaza-urok-7.md
-- 171-chtenie-korana-v-namaze-urok-3.md
-- 18-adab-tazkiya-urok-18.md
-- 181-zemnoi-poklon-urok-1.md
-- 183-zemnoi-poklon-urok-3.md
-- 19-adab-tazkiya-urok-19.md
-- 191-salavat-urok-3.md
-- 22-adab-tazkiya-urok-22.md
-- 24-adab-tazkiya-urok-24.md
-- 29-adab-tazkiya-urok-29.md
-- 30-kniga-namaza-4.md
-- 31-kniga-namaza-5.md
-- 45-kniga-namaza-19.md
-- 57-chto-narushaet-namaz-3-31.md
-- 64-sutra-37.md
-- 70-namaz-privetstviya-mecheti-44.md
-- 74-namaz-putnika-48.md
-- 88-al-bakara-korova-45-47-aiat.md
-- 97-al-bakara-korova-75-77-aiat.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F05-adab-tazkiya-urok-05"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F18-adab-tazkiya-urok-18"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F19-adab-tazkiya-urok-19"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F22-adab-tazkiya-urok-22"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F24-adab-tazkiya-urok-24"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F29-adab-tazkiya-urok-29"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F16-pyatoe-uslovie-chestnost"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F19-vosmoe-uslovie-otrechenie-ot-togo-chemu-poklonyayutsya-pomimo-allakha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F23-nekotorye-etikety-molby"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F27-zhertvoprinoshenie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F37-maloe-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F39-maloe-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F48-vera-v-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F53-yasno-izlozhennye-i-inoskazatelnye-ayaty"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F58-nepodrazhaemost-korana"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F76-smuty-malyy-priznak"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F80-razrushenie-kaby"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F90-mucheniya-i-naslazhdeniya-v-mogile"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F93-raschet"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F07-upodoblenie"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F10-bozhestvennoe-proishozhdenie-imen-allaha"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-1-al-masikhud-dadzhal"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F23-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F3-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F34-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F83-blizost-vo-vremya-haida"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F84-izar"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F90-cveta-krovi-v-mazhabah"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F92-nifas"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F130-azan-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F134-mecheti-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F135-mecheti-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F138-mecheti-urok-5"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F140-mecheti-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F144-mecheti-urok-11"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F145-mecheti-urok-12"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F146-mecheti-urok-13"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F148-mecheti-urok-15"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F149-prikryvanie-aurata-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F150-prikryvanie-aurata-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F159-opisanie-namaza-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F160-opisanie-namaza-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F163-opisanie-namaza-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F171-chtenie-korana-v-namaze-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F181-zemnoi-poklon-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F183-zemnoi-poklon-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F191-salavat-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F17-adaby-tualeta"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F18-obereganie-ot-mochi"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F27-fitra"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F35-rot-i-nos-otdelno"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F40-kolichestvo-vody-dlya-omoveniya-i-guslya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F69-zhelatin-margarin"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F02-polozhenie-ostatkov-vody"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F05-istindzha"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F22-mesyachnye-nifas-istihada"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F23-mesyachnye-nifas-istihada-2chast"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F24-nechistoty-i-ih-ochischenie-1-chast"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F31-kniga-namaza-5"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F45-kniga-namaza-19"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F57-chto-narushaet-namaz-3-31"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F64-sutra-37"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F74-namaz-putnika-48"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F14-2-hadis-otnoshenie-k-poslanniku"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F43-6-hadis-ostavlenie-somnitelnogo"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F44-6-hadis-ostav-somnitelnoe-radi-yasnogo"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F69-22-hadis-put-vedushchij-v-raj"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F75-25-hadis-shirota-milosti-allaha"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F77-29-hadis-put-v-raj-i-dveri-blaga"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F79-30-31-hadis-vseob-emlyushchij-shariat-i-klyuch-k-lyubvi"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F8-1-hadis-hidzhra-polzy"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F9-1-hadis-otnoshenie-k-dunya"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F03-urok-sira-slonovyi-pohod-religiya-mekki"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F04-sobranie-korana"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F05-rasm-muskhafa-md"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F07-prichiny-nisposlaniia-aiatov"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F110-al-bakara-korova-103-106-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F111-al-bakara-korova-106-107-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F112-al-bakara-korova-108-110-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F114-al-bakara-korova-114-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F115-al-bakara-korova-115-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F118-al-bakara-korova-120-123-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F119-al-bakara-korova-125-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F120-al-bakara-korova-126-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F88-al-bakara-korova-45-47-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F97-al-bakara-korova-75-77-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F17-kurejsh-kurejshity"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F31-al-lejl-noch"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F47-al-mutaffifin-obveshivaiushchie-2"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F01-tafsir-ibn-kasira"
+  - "/quran/koran-2-uroven/?lesson=m17-09-dva-pravila"
 description: "Харам: то, что шариат категорически запрещает. Пояснение награды за оставление запретного из покорности и ответственности за его совершение."
 ---
 

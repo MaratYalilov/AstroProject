@@ -5,8 +5,51 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adab"
+  - "barzakh"
+  - "din"
+  - "du-a"
+  - "dzhabarity-dzhabrity-dzhabrijya"
+  - "fakikh-fakykh"
+  - "fetva-fatva"
+  - "fikkh"
+  - "iblis"
+  - "id"
+  - "islam"
+  - "isra"
+  - "israfil"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "khalil"
+  - "kharam"
+  - "khasan"
+  - "khidzhab"
+  - "khikma"
+  - "khukm"
+  - "ma-ruf"
+  - "mechet"
+  - "miskin"
+  - "musulmanin"
+  - "mutavatir"
+  - "ramadan"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "taufik"
+  - "zakyat"
+  - "zukhd"
+used_in:
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F17-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F2-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F21-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F22-adab-tazkiya-urok-22"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F103-otvet-dzhabaritam"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F91-dovody-otricayuschih-mucheniya-v-mogile"
 description: "Карун: богатый человек из сынов Израиля, превознёсшийся над своим народом. Пояснение его положения и связи с фараоном."
 ---
 

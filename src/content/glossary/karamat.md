@@ -6,22 +6,70 @@ category: К
 tags: []
 aliases: []
 related:
-- din
-- fitna
-- idzhma
-- kufr
-- musulmanin
-- namima
-- riya
-- sakhikh
-- salyam
-- shirk
-- sikhr
-- sukhur
-- tafsir
-- zakyat
+  - "adam"
+  - "aksa"
+  - "bid-a"
+  - "dadzhal"
+  - "dalil"
+  - "din"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fard"
+  - "fidya-fidiya"
+  - "fitna"
+  - "fitra"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "idzhma"
+  - "iman"
+  - "islam"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "kharut-i-marut"
+  - "khasad"
+  - "khasan"
+  - "khidzhr"
+  - "kufr"
+  - "kysas-kisas"
+  - "makhdi"
+  - "malyaika"
+  - "mu-dzhiza"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "mutavatir"
+  - "namima"
+  - "ramadan"
+  - "riya"
+  - "rukya"
+  - "sa-a-saga"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sukhur"
+  - "sunna"
+  - "tafsir"
+  - "taukhid"
+  - "vakhj-vakhij"
+  - "vali"
+  - "zakyat"
 used_in:
-- 109-al-bakara-korova-102-103-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F09-chuvstvo-ukazyvaet-na-suschestvovanie-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F48-vera-v-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F69-chudesa-prorokov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F75-malye-priznaki-sudnogo-dnya"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F20-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F21-vajees"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F84-al-bakara-korova-34-aiat"
 description: "Карамат: необычное явление, которым Аллах почитает праведного раба. Пояснение его связи с пользой, защитой от вреда и возвышением истины."
 ---
 

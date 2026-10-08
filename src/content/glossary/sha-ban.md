@@ -6,33 +6,35 @@ category: Ш
 tags: []
 aliases: []
 related:
-- bid-a
-- birr
-- fadzhr
-- fard
-- id-al-adkha
-- id-al-fitr
-- ikamat
-- ikhlas
-- islam
-- istikhara
-- kharam
-- makrukh
-- mazkhab
-- mechet
-- munkar
-- musulmanin
-- ramadan
-- sadaka
-- sakhikh
-- shajtan
-- sunna
-- takhadzhud
-- vitr
-- zul-khidzha
+  - "bid-a"
+  - "birr"
+  - "fadzhr"
+  - "fard"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "ikamat"
+  - "ikhlas"
+  - "islam"
+  - "istikhara"
+  - "kharam"
+  - "kiyama-kyyama"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "munkar"
+  - "musulmanin"
+  - "niyat-nijya"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "shajtan"
+  - "sunna"
+  - "takhadzhud"
+  - "vitr"
+  - "zul-khidzha"
 used_in:
-- 171-chtenie-korana-v-namaze-urok-3.md
-- 70-namaz-privetstviya-mecheti-44.md
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F171-chtenie-korana-v-namaze-urok-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
 description: "Ша'бан: восьмой месяц лунного календаря между Раджабом и Рамаданом. Пояснение вознесения деяний и желательности поста в этот месяц."
 ---
 

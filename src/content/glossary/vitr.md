@@ -6,88 +6,134 @@ category: В
 tags: []
 aliases: []
 related:
-- a-raf
-- azan
-- bid-a
-- darura
-- dzhanaza
-- fadzhr
-- fard
-- fikkh
-- id
-- idzhtikhad
-- ikamat
-- ikhlas
-- ikhram
-- ikrakh
-- ilya
-- islam
-- istiftakh
-- istikhara
-- istiska
-- kharam
-- khasan
-- khukm
-- khutba
-- kibla
-- kufr
-- kunut
-- makrukh
-- mandub
-- maudu
-- mazkhab
-- mechet
-- miskin
-- musulmanin
-- nadzhasa
-- nazr
-- ramadan
-- rasul
-- ratiba
-- riya
-- rukn
-- safar
-- sakhikh
-- salyam
-- salyat
-- sha-ban
-- shajtan
-- shakhada
-- shar
-- shart
-- sudzhud-at-tilyava
-- sunna
-- tadzhvid
-- takhadzhud
-- taklid
-- taravikh
-- tasbikh
-- tashakhkhud
-- tavaf
-- tayammum
-- umma
-- usul-al-fikkh
-- vadzhib
-- vudu
-- zikr
+  - "a-raf"
+  - "akida"
+  - "arafa-arafat"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "darura"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhinn"
+  - "fadzhr"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitra"
+  - "id"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "ikhsan"
+  - "ikrakh"
+  - "ilya"
+  - "imam"
+  - "indzhil"
+  - "islam"
+  - "israf"
+  - "israfil"
+  - "istiftakh"
+  - "istikhara"
+  - "istiska"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khava"
+  - "khukm"
+  - "khur-in-gurii"
+  - "khutba"
+  - "kibla"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "kunut"
+  - "makrukh"
+  - "mandub"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "musulmanin"
+  - "nadzhasa"
+  - "nazr"
+  - "niyat-nijya"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "ratiba"
+  - "riya"
+  - "rukn"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "sha-ban"
+  - "shajtan"
+  - "shakhada"
+  - "shar"
+  - "shari-a"
+  - "shart"
+  - "shi-a-shiity"
+  - "sudzhud-at-tilyava"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tadzhvid"
+  - "takdir-kadar"
+  - "takhadzhud"
+  - "taklid"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "tavaf"
+  - "tayammum"
+  - "umma"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 140-mecheti-urok-7.md
-- 162-opisanie-namaza-urok-6.md
-- 164-opisanie-namaza-urok-8.md
-- 171-chtenie-korana-v-namaze-urok-3.md
-- 29-kniga-namaza-3.md
-- 30-kniga-namaza-4.md
-- 31-kniga-namaza-5.md
-- 36-kniga-namaza-10.md
-- 37-kniga-namaza-11.md
-- 43-kniga-namaza-17.md
-- 47-kniga-namaza-21.md
-- 53-esli-imam-oshibaetsya-27.md
-- 61-nezhelatelnye-dejstviya-v-namaze-35.md
-- 67-vitr-40.md
-- 69-dopolnitelnye-namazy-43.md
-- 71-namaz-verkhom-45.md
-- 73-namaz-na-korable-47.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F47-atributy-deystviya-allaha-2-chast"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F28-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F105-vremya-utrennego-i-poludennogo-namaza"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F106-vremya-namaza-asr-magrib-i-isha"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F109-ostavlenie-asr-namaza"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F110-vremya-namaza-isha"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F140-mecheti-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F162-opisanie-namaza-urok-6"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F164-opisanie-namaza-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F171-chtenie-korana-v-namaze-urok-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F29-kniga-namaza-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F31-kniga-namaza-5"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F36-kniga-namaza-10"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F37-kniga-namaza-11"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F43-kniga-namaza-17"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F47-kniga-namaza-21"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F53-esli-imam-oshibaetsya-27"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F61-nezhelatelnye-dejstviya-v-namaze-35"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F67-vitr-40"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F69-dopolnitelnye-namazy-43"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F71-namaz-verkhom-45"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F73-namaz-na-korable-47"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F39-al-aglya-vsevyshniy-1"
 description: "Витр: заключительный ночной намаз с нечётным количеством ракаатов. Пояснение времени молитвы от намаза 'иша до наступления фаджра."
 ---
 

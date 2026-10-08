@@ -6,42 +6,79 @@ category: К
 tags: []
 aliases: []
 related:
-- a-raf
-- azan
-- bid-a
-- dzhanaza
-- fadzhr
-- fard
-- id
-- ikhlas
-- ikhram
-- istiftakh
-- istikhara
-- khukm
-- kufr
-- makrukh
-- mandub
-- mazkhab
-- musulmanin
-- ramadan
-- rukn
-- sakhikh
-- salyam
-- salyat
-- sunna
-- takhadzhud
-- taklid
-- taravikh
-- tashakhkhud
-- tayammum
-- vadzhib
-- vitr
-- vudu
+  - "a-raf"
+  - "adab"
+  - "akida"
+  - "azan"
+  - "barzakh"
+  - "bid-a"
+  - "da-if-daif"
+  - "dalil"
+  - "du-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fikkh"
+  - "gusl"
+  - "id"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ikhram"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "istiftakh"
+  - "istikhara"
+  - "kaaba"
+  - "khamr"
+  - "kharam"
+  - "khasan"
+  - "khidzhama"
+  - "khukm"
+  - "kufr"
+  - "kurban"
+  - "makrukh"
+  - "mandub"
+  - "mazkhab"
+  - "mechet"
+  - "musulmanin"
+  - "mutavatir"
+  - "nadzhasa"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riba"
+  - "rukn"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takhadzhud"
+  - "taklid"
+  - "taravikh"
+  - "tashakhkhud"
+  - "tayammum"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zina"
 used_in:
-- 162-opisanie-namaza-urok-6.md
-- 53-esli-imam-oshibaetsya-27.md
-- 67-vitr-40.md
-- 69-dopolnitelnye-namazy-43.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F89-vera-v-smertnyy-mig"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F6-6-predopredelennost-zla-i-ego-ponyatie"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F162-opisanie-namaza-urok-6"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F53-esli-imam-oshibaetsya-27"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F67-vitr-40"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F69-dopolnitelnye-namazy-43"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F4-prichiny-raznoglasij-mezhdu-uchenymi"
 description: "Кунут: мольба, произносимая стоя в установленном месте намаза. Определение термина и его употребление в исламском поклонении."
 ---
 

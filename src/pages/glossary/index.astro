@@ -3,6 +3,7 @@ import Base from '@/layouts/Base.astro'
 import GlossaryPage from '@/components/glossary/GlossaryPage'
 import { getCollection } from 'astro:content'
 import { glossaryIndexMetadata } from '@/utils/glossaryMetadata'
+import { loadGlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
 
 const rawGlossary = await getCollection('glossary')
 const glossary = rawGlossary.map(e => ({
@@ -11,6 +12,7 @@ const glossary = rawGlossary.map(e => ({
   body: e.body ?? '',
 }))
 const canonical = new URL('/glossary', Astro.site).href
+const lessonLinks = await loadGlossaryLessonLinks(rawGlossary.flatMap(entry => entry.data.used_in))
 ---
 
 <Base
@@ -23,5 +25,5 @@ const canonical = new URL('/glossary', Astro.site).href
     <meta property="og:url" content={canonical} />
     <meta property="og:type" content={glossaryIndexMetadata.ogType} />
   </Fragment>
-  <GlossaryPage entries={glossary} client:load />
+  <GlossaryPage entries={glossary} lessonLinks={lessonLinks} client:load />
 </Base>

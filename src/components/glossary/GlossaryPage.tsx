@@ -5,6 +5,8 @@ import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 import { Input } from '@/components/ui/input'
 import { replaceQuranTags } from '@/utils/replaceQuranTags'
 import { buildGlossaryEntryMetadata, glossaryIndexMetadata } from '@/utils/glossaryMetadata'
+import { updatePageMetadata } from '@/utils/updatePageMetadata'
+import type { GlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
 
 type GlossaryEntry = {
   id: string
@@ -24,6 +26,7 @@ type GlossaryEntry = {
 
 type Props = {
   entries: GlossaryEntry[]
+  lessonLinks: GlossaryLessonLinks
   initialSlug?: string
 }
 
@@ -47,7 +50,47 @@ function useIsMobile() {
   return isMobile
 }
 
-export default function GlossaryPage({ entries, initialSlug }: Props) {
+function LessonBacklinks({ references, links }: { references: unknown[]; links: GlossaryLessonLinks }) {
+  const groups = new Map<string, { title: string; lessons: { href: string; title: string }[] }>()
+  for (const href of new Set(references)) {
+    if (typeof href !== 'string' || !Object.hasOwn(links, href)) continue
+    const lesson = links[href]
+    if (!groups.has(lesson.coursePath)) {
+      groups.set(lesson.coursePath, { title: lesson.courseTitle, lessons: [] })
+    }
+    groups.get(lesson.coursePath)!.lessons.push({ href, title: lesson.title })
+  }
+  if (!groups.size) return null
+
+  return (
+    <section className="mt-8 border-t pt-6" aria-label="Уроки по теме">
+      <h2 className="mb-2 text-xl font-semibold">Уроки по теме</h2>
+      <p className="mb-4 text-sm text-muted-foreground">Этот термин встречается в материалах следующих уроков.</p>
+      <div className="space-y-3">
+        {[...groups.entries()]
+          .sort(([, a], [, b]) => a.title.localeCompare(b.title, 'ru'))
+          .map(([path, group]) => (
+            <details key={path} open={groups.size === 1} className="rounded-md border px-4 py-3">
+              <summary className="cursor-pointer font-medium">
+                {group.title} <span className="text-sm text-muted-foreground">({group.lessons.length})</span>
+              </summary>
+              <ul className="mt-3 space-y-2">
+                {group.lessons.map(lesson => (
+                  <li key={lesson.href}>
+                    <a href={lesson.href} className="text-primary underline underline-offset-4 hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary">
+                      {lesson.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          ))}
+      </div>
+    </section>
+  )
+}
+
+export default function GlossaryPage({ entries, lessonLinks, initialSlug }: Props) {
   const isMobile = useIsMobile()
 
   /* ---------------- helpers ---------------- */
@@ -70,7 +113,6 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
   const [query, setQuery] = useState('')
 
   const hasInitializedDesktop = useRef(false)
-  const canonicalOrigin = useRef<string | null>(null)
 
   /* ---------------- letters ---------------- */
 
@@ -176,39 +218,10 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
     const metadata = active
       ? buildGlossaryEntryMetadata(active.data)
       : glossaryIndexMetadata
-    let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')
-    if (!canonicalOrigin.current) {
-      canonicalOrigin.current = new URL(canonical?.href || window.location.href).origin
-    }
-    const canonicalUrl = new URL(path, canonicalOrigin.current).href
-
     if (window.location.pathname !== path) {
       window.history.replaceState(null, '', path)
     }
-    document.title = metadata.title
-
-    const updateMeta = (attribute: 'name' | 'property', key: string, content: string) => {
-      let meta = document.head.querySelector<HTMLMetaElement>(`meta[${attribute}="${key}"]`)
-      if (!meta) {
-        meta = document.createElement('meta')
-        meta.setAttribute(attribute, key)
-        document.head.appendChild(meta)
-      }
-      meta.content = content
-    }
-
-    updateMeta('name', 'description', metadata.description)
-    updateMeta('property', 'og:title', metadata.ogTitle)
-    updateMeta('property', 'og:description', metadata.description)
-    updateMeta('property', 'og:url', canonicalUrl)
-    updateMeta('property', 'og:type', metadata.ogType)
-
-    if (!canonical) {
-      canonical = document.createElement('link')
-      canonical.rel = 'canonical'
-      document.head.appendChild(canonical)
-    }
-    canonical.href = canonicalUrl
+    updatePageMetadata({ ...metadata, canonicalPath: path })
   }, [active])
 
   /* ---------------- UX helpers ---------------- */
@@ -352,6 +365,7 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
                 __html: replaceQuranTags(active.body ?? ''),
               }}
             />
+            <LessonBacklinks references={active.data.used_in} links={lessonLinks} />
           </div>
         )}
       </div>
@@ -385,6 +399,7 @@ export default function GlossaryPage({ entries, initialSlug }: Props) {
                   __html: replaceQuranTags(active.body ?? ''),
                 }}
               />
+              <LessonBacklinks references={active.data.used_in} links={lessonLinks} />
             </motion.div>
           )}
         </AnimatePresence>

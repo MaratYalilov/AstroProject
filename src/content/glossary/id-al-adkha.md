@@ -6,35 +6,57 @@ category: И
 tags: []
 aliases: []
 related:
-- bid-a
-- birr
-- dzhikhad
-- fard
-- id-al-fitr
-- islam
-- istigfar
-- istikhara
-- khadzh
-- kharam
-- makrukh
-- mazkhab
-- mechet
-- munkar
-- musulmanin
-- ramadan
-- sadaka
-- sakhikh
-- sha-ban
-- shajtan
-- shakhada
-- sunna
-- takhadzhud
-- tasbikh
-- zakyat
-- zul-khidzha
+  - "arafa-arafat"
+  - "bid-a"
+  - "birr"
+  - "dalil"
+  - "dzhikhad"
+  - "fard"
+  - "firdaus"
+  - "i-tikaf"
+  - "id"
+  - "id-al-fitr"
+  - "islam"
+  - "istigfar"
+  - "istikhara"
+  - "karamat"
+  - "khadzh"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "kurban"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-dzhiza"
+  - "mu-tazility-mu-tazilya"
+  - "mubtadi"
+  - "munkar"
+  - "musulmanin"
+  - "radzhab"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "sha-ban"
+  - "shajtan"
+  - "shakhada"
+  - "sikhr"
+  - "sunna"
+  - "takdir-kadar"
+  - "takhadzhud"
+  - "taravikh"
+  - "tasbikh"
+  - "tavaf"
+  - "vakhj-vakhij"
+  - "zakyat"
+  - "zul-khidzha"
 used_in:
-- 30-adab-tazkiya-urok-30.md
-- 70-namaz-privetstviya-mecheti-44.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F30-adab-tazkiya-urok-30"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F21-dva-usloviya-prinyatiya-pokloneniya-sledovanie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F69-chudesa-prorokov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F96-vera-v-ray-i-ad"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
 description: "Ид аль-Адха: праздник жертвоприношения, приходящийся на 10 Зуль-Хиджа. Пояснение праздничного намаза, жертвоприношения и помощи нуждающимся."
 ---
 

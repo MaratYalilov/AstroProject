@@ -10,7 +10,7 @@ video: /media/fiqh/nurul-idah/video/17-tayammum-chast-2.mp4
 videoRel: video/17-tayammum-chast-2.mp4
 ---
 # 17, <a href="/glossary/tayammum" class="glossary-link" target="_blank" rel="noopener noreferrer">Таяммум</a> (часть 2)
-<p><span class="arab">بَابُ التَّيَمُّمِ</span></p> Глава: таяммум (продолжение) <p><span class="arab">الثالث</span></p>: <p><span class="arab">أن يكون التيمم بطاهر
+<p><span class="arab">بَابُ التَّيَمُّمِ</span></p> Глава: <a href="/glossary/tayammum" class="glossary-link" target="_blank" rel="noopener noreferrer">таяммум</a> (продолжение) <p><span class="arab">الثالث</span></p>: <p><span class="arab">أن يكون التيمم بطاهر
 من جنس الأرض</span></p>: <p><span class="arab">كالتراب والحجر والرمل لا الحطب والفضة والذهب</span></p> Третье
 (условие): чтобы таяммум совершался чистым веществом, землей и тем, что
 входит в ней, как почва, камни, песок, но не дрова, серебро и золото.

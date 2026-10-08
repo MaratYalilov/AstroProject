@@ -6,33 +6,36 @@ category: М
 tags: []
 aliases: []
 related:
-- azan
-- fadzhr
-- fard
-- idzhma
-- idzhtikhad
-- ikamat
-- islam
-- khasan
-- makrukh
-- mazkhab
-- mechet
-- miskin
-- sakhikh
-- salyam
-- salyat
-- shakhada
-- shar
-- sukhur
-- sunna
-- tadzhvid
-- tashakhkhud
-- umma
-- vadzhib
-- vitr
+  - "akida"
+  - "azan"
+  - "da-if-daif"
+  - "fadzhr"
+  - "fard"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikamat"
+  - "islam"
+  - "khasan"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "rakaat-rak-a"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shakhada"
+  - "shar"
+  - "sukhur"
+  - "sunna"
+  - "tadzhvid"
+  - "tashakhkhud"
+  - "umma"
+  - "vadzhib"
+  - "vitr"
 used_in:
-- 133-azan-urok-11.md
-- 164-opisanie-namaza-urok-8.md
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F133-azan-urok-11"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F164-opisanie-namaza-urok-8"
 description: "Мауду': вымышленное сообщение, ложно приписанное Пророку Мухаммаду. Определение подложного хадиса в исламской терминологии."
 ---
 

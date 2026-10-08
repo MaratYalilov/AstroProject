@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import CourseLayout from "./CourseLayout";
 import { loadAllInteractiveLessons } from "../../lib/interactive/loadInteractiveLesson";
-import { buildPageTitle, buildCourseDescription, buildLessonDescription } from "../../utils/pageMetadata";
+import { buildPageTitle, buildCourseDescription, buildInteractiveLessonMetadata } from "../../utils/pageMetadata";
 
 interface Props {
   subject: string;
@@ -22,19 +22,15 @@ if (!subjectEntry || !courseEntry || courseEntry.data.type !== "interactive") {
 const lessons = await loadAllInteractiveLessons(subject, course);
 const lessonSlug = Astro.url.searchParams.get("lesson");
 const selectedLesson = lessons.find(lesson => lesson.slug === lessonSlug);
-const lessonTitle = Array.isArray(selectedLesson?.title)
-  ? selectedLesson.title.map(part => part.text).join("")
-  : selectedLesson?.title;
 const courseTitle = courseEntry.data.title;
-const previewTitle = [subjectEntry.data.title, courseTitle, lessonTitle]
+const lessonMetadata = selectedLesson
+  ? buildInteractiveLessonMetadata(selectedLesson, courseTitle, subjectEntry.data.title)
+  : null;
+const previewTitle = lessonMetadata?.ogTitle ?? [subjectEntry.data.title, courseTitle]
   .filter(Boolean)
   .join(" - ");
-const pageTitle = selectedLesson
-  ? buildPageTitle(lessonTitle, courseTitle)
-  : buildPageTitle(courseTitle, subjectEntry.data.title);
-const description = lessonTitle
-  ? buildLessonDescription(lessonTitle, courseTitle, selectedLesson?.description)
-  : buildCourseDescription(courseTitle, courseEntry.data.description);
+const pageTitle = lessonMetadata?.title ?? buildPageTitle(courseTitle, subjectEntry.data.title);
+const description = lessonMetadata?.description ?? buildCourseDescription(courseTitle, courseEntry.data.description);
 const canonicalPath = selectedLesson
   ? `/${subject}/${course}/?lesson=${encodeURIComponent(selectedLesson.slug)}`
   : `/${subject}/${course}`;
@@ -59,6 +55,7 @@ const canonical = new URL(canonicalPath, Astro.site).href;
     subject={subject}
     course={course}
     courseTitle={courseTitle}
+    subjectTitle={subjectEntry.data.title}
     downloads={courseEntry.data.downloads}
     initialLessonSlug={selectedLesson?.slug}
   />

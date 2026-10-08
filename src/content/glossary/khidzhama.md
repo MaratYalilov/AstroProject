@@ -5,8 +5,39 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adab"
+  - "adam"
+  - "amanat"
+  - "fakikh-fakykh"
+  - "fikkh"
+  - "gusl"
+  - "idzhtikhad"
+  - "iftar"
+  - "imam"
+  - "istigfar"
+  - "kaffara"
+  - "kufr"
+  - "kunut"
+  - "makrukh"
+  - "mazkhab"
+  - "musulmanin"
+  - "nazr"
+  - "riba"
+  - "sadaka"
+  - "salyam"
+  - "shirk"
+  - "sukhur"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takhadzhud"
+  - "taklid"
+  - "vadzhib"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F34-maloe-mnogobozhie"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F54-voda-posle-omoveniya"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F4-prichiny-raznoglasij-mezhdu-uchenymi"
 description: "Хиджама: кровопускание с неглубокими надрезами кожи и сбором крови в баночку. Определение термина и описание процедуры в исламском словаре."
 ---
 

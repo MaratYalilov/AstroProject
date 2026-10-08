@@ -35,3 +35,18 @@ export function buildLessonDescription(
     `${sentence} Урок курса «${courseTitle}» на HUTBA.org.`
   );
 }
+
+export function buildInteractiveLessonMetadata(
+  lesson: { title: string | { text: string }[]; description?: string },
+  courseTitle: string,
+  subjectTitle?: string,
+) {
+  const lessonTitle = Array.isArray(lesson.title)
+    ? lesson.title.map(part => part.text).join("")
+    : lesson.title;
+  return {
+    title: buildPageTitle(lessonTitle, courseTitle),
+    description: buildLessonDescription(lessonTitle, courseTitle, lesson.description),
+    ogTitle: [subjectTitle, courseTitle, lessonTitle].filter(Boolean).join(" - "),
+  };
+}

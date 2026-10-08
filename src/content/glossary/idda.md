@@ -6,40 +6,73 @@ category: И
 tags: []
 aliases: []
 related:
-- aksa
-- azan
-- bid-a
-- dalil
-- fadzhr
-- fard
-- fikkh
-- id
-- ikamat
-- ikhlas
-- ikhram
-- indzhil
-- islam
-- khalyal
-- kharam
-- khukm
-- makrukh
-- musulmanin
-- naskh
-- nikakh
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- tafsir
-- talak
-- vadzhib
-- zikr
+  - "aksa"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "dalil"
+  - "diya-dijya"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "gusl"
+  - "id"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "imam"
+  - "indzhil"
+  - "islam"
+  - "istikhada"
+  - "kaaba"
+  - "kaffara"
+  - "khadzh"
+  - "khajd"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "makhr"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "naskh"
+  - "nifas"
+  - "nikakh"
+  - "radzhab"
+  - "ramadan"
+  - "riba"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "sunna"
+  - "tafsir"
+  - "talak"
+  - "tavaf"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "zikr"
+  - "zina"
 used_in:
-- 111-al-bakara-korova-106-107-aiat.md
-- 166-opisanie-namaza-urok-10.md
-- 173-chtenie-korana-v-namaze-urok-5.md
-- 59-nezhelatelnye-dejstviya-v-namaze-33.md
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F89-predohranenie-ot-beremennosti"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F90-cveta-krovi-v-mazhabah"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F93-otlichiya-mezhdu-nifasom-i-mesyachnymi"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F166-opisanie-namaza-urok-10"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F173-chtenie-korana-v-namaze-urok-5"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F22-mesyachnye-nifas-istihada"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F59-nezhelatelnye-dejstviya-v-namaze-33"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F1-prichiny-raznoglasij-mezhdu-uchenymi"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F3-prichiny-raznoglasij-mezhdu-uchenymi"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F111-al-bakara-korova-106-107-aiat"
 description: "Идда: установленный срок ожидания для женщины после расставания с мужем. Пояснение назначения этого периода в шариате."
 ---
 

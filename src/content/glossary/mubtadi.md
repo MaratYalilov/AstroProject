@@ -6,22 +6,94 @@ category: М
 tags: []
 aliases: []
 related:
-- ajn
-- bid-a
-- fard
-- fikkh
-- iblis
-- kibla
-- kufr
-- makrukh
-- mechet
-- musulmanin
-- sakhikh
-- shajtan
-- shart
-- takhara
+  - "akhlyak"
+  - "akida"
+  - "amanat"
+  - "arafa-arafat"
+  - "bid-a"
+  - "din"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "fikkh"
+  - "i-tikaf"
+  - "id"
+  - "id-al-adkha"
+  - "idzhma"
+  - "ikhsan"
+  - "ilya"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "istiska"
+  - "kadarity-kadarijya"
+  - "kalam"
+  - "kausar"
+  - "khadzh"
+  - "khafiz"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khaud"
+  - "khava"
+  - "khidzhab"
+  - "khukm"
+  - "kiyama-kyyama"
+  - "kiyas"
+  - "kufr"
+  - "kurban"
+  - "ma-ruf"
+  - "makhdi"
+  - "makhram"
+  - "mankhadzh-minkha-dzh"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mukhkam"
+  - "munkar"
+  - "murdzhiity"
+  - "musulmanin"
+  - "nasikha"
+  - "nikakh"
+  - "radzhab"
+  - "ramadan"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shar"
+  - "shari-a"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sira"
+  - "sirat-syrat"
+  - "sivak-misvak"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takdir-kadar"
+  - "takfir"
+  - "takva"
+  - "taravikh"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "ukhud"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vitr"
+  - "zakyat"
 used_in:
-- 52-kniga-namaza-26.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F21-dva-usloviya-prinyatiya-pokloneniya-sledovanie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F37-maloe-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F94-vesy"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F28-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F3-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F30-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F32-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F35-vajees"
 description: "Мубтади': человек, привнёсший в религию новшество и отвергший доводы после разъяснения. Определение понятия в исламской терминологии."
 ---
 

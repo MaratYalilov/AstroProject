@@ -6,36 +6,87 @@ category: Р
 tags: []
 aliases: []
 related:
-- azan
-- fard
-- id
-- ikamat
-- ilya
-- islam
-- istiska
-- khadzh
-- khalyal
-- kharam
-- khasan
-- makrukh
-- mechet
-- musulmanin
-- ramadan
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- tadzhvid
-- taravikh
-- umma
-- vadzhib
-- vitr
-- zakyat
-- zikr
+  - "adab"
+  - "adam"
+  - "akida"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "dalil"
+  - "du-a"
+  - "dzhama-a"
+  - "fakikh-fakykh"
+  - "faraid"
+  - "fard"
+  - "fitra"
+  - "ibada-ibadat"
+  - "id"
+  - "ikamat"
+  - "ikhlas"
+  - "ilya"
+  - "imam"
+  - "islam"
+  - "istikhara"
+  - "istiska"
+  - "khadzh"
+  - "khafiz"
+  - "khalyal"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khidzhab"
+  - "khukm"
+  - "kiyama-kyyama"
+  - "ma-ruf"
+  - "makhdi"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "munkar"
+  - "muskhaf"
+  - "musulmanin"
+  - "nikab"
+  - "ramadan"
+  - "riya"
+  - "rububijya"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "shajtan"
+  - "shar"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tadzhvid"
+  - "takdir-kadar"
+  - "taravikh"
+  - "tasbikh"
+  - "taukhid"
+  - "tora"
+  - "umma"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "vitr"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 112-al-bakara-korova-108-110-aiat.md
-- 191-salavat-urok-3.md
-- 31-kniga-namaza-5.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F66-raznica-mezhdu-poslannikom-i-prorokom"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F02-biografiia-avtora-i-kommentatora"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F27-raznitca-mezhdu-prorokom-i-poslannikom-pechat-prorokov"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F26-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F5-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F191-salavat-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F19-persten-s-imenem-allaha"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F31-kniga-namaza-5"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F14-2-hadis-otnoshenie-k-poslanniku"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F112-al-bakara-korova-108-110-aiat"
 description: "Расуль: посланник, которому Аллах даровал откровение и велел призывать противостоящий народ. Определение понятия в исламском вероучении."
 ---
 

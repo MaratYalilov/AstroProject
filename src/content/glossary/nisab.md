@@ -6,14 +6,15 @@ category: Н
 tags: []
 aliases: []
 related:
-- iman
-- khasan
-- kufr
-- sakhikh
-- shirk
-- zakyat
+  - "iman"
+  - "khasan"
+  - "kufr"
+  - "sakhikh"
+  - "shirk"
+  - "takdir-kadar"
+  - "zakyat"
 used_in:
-- 99-al-bakara-korova-80-82-aiat.md
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F99-al-bakara-korova-80-82-aiat"
 description: "Нисаб: установленная мера имущества, при достижении которой обязательна выплата закята. Пояснение различий в зависимости от вида имущества."
 ---
 

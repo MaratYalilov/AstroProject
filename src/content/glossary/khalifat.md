@@ -6,25 +6,59 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- adab
-- du-a
-- fard
-- id
-- iman
-- khasan
-- mazkhab
-- mechet
-- ramadan
-- sakhikh
-- sunna
-- takva
-- tashakhkhud
-- taukhid
-- vadzhib
-- zul-khidzha
+  - "adab"
+  - "adam"
+  - "akida"
+  - "ansary"
+  - "arafa-arafat"
+  - "da-if-daif"
+  - "dabba"
+  - "dadzhal"
+  - "du-a"
+  - "dzhama-a"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fitna"
+  - "id"
+  - "ilya"
+  - "iman"
+  - "islam"
+  - "khadzh"
+  - "khafiz"
+  - "khasan"
+  - "kibla"
+  - "makhdi"
+  - "mazkhab"
+  - "mechet"
+  - "mukhadzhiry"
+  - "mukhkam"
+  - "munkar"
+  - "mutashabikh"
+  - "mutavatir"
+  - "ramadan"
+  - "rukya"
+  - "sagair-sogair"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "sunna"
+  - "takva"
+  - "tashakhkhud"
+  - "tauba"
+  - "taukhid"
+  - "ukhud"
+  - "vadzhib"
+  - "yadzhudzh-i-madzhudzh"
+  - "zul-khidzha"
 used_in:
-- 185-tashahhud-urok-1.md
-- 25-adab-tazkiya-urok-25.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F25-adab-tazkiya-urok-25"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F54-chudo-korana"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F72-chudesa-poslannika-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F78-rasprostranenie-mnogobozhiya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F84-mahdi"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F88-dabba"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F25-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F185-tashahhud-urok-1"
 description: "Халифат: общее управление мусульманами в делах религии и общества. Пояснение его связи с исполнением исламских законов и распространением призыва."
 ---
 

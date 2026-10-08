@@ -6,33 +6,61 @@ category: Н
 tags: []
 aliases: []
 related:
-- aksa
-- ansary
-- azan
-- du-a
-- fikkh
-- fitna
-- idda
-- indzhil
-- islam
-- khalyal
-- kharam
-- khasan
-- khukm
-- kufr
-- musulmanin
-- radzhab
-- sadaka
-- sakhikh
-- salyam
-- sikhr
-- tadzhvid
-- tafsir
-- usul-al-fikkh
+  - "akida"
+  - "aksa"
+  - "ansary"
+  - "ashura"
+  - "azan"
+  - "du-a"
+  - "dzhanaza"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "gusl"
+  - "idda"
+  - "idzhtikhad"
+  - "indzhil"
+  - "islam"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "kausar"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "kufr"
+  - "mazkhab"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mukharram"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "nikakh"
+  - "radzhab"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "sikhr"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tadzhvid"
+  - "tafsir"
+  - "usul-al-fikkh"
+  - "vakhj-vakhij"
+  - "zikr"
+  - "zina"
 used_in:
-- 110-al-bakara-korova-103-106-aiat.md
-- 111-al-bakara-korova-106-107-aiat.md
-- 97-al-bakara-korova-75-77-aiat.md
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F35-rot-i-nos-otdelno"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F50-obschenie-s-oskvernennym"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F01-nauki-sviazannye-s-koranom"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F12-tolkovanie-korana"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F110-al-bakara-korova-103-106-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F111-al-bakara-korova-106-107-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F97-al-bakara-korova-75-77-aiat"
 description: "Насх: отмена раннего шариатского постановления более поздним указанием. Определение понятия и пояснение связи между постановлением и доводом."
 ---
 

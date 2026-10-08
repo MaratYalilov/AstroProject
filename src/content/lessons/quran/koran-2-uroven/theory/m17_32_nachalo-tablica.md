@@ -26,7 +26,7 @@ order: 1732
 
 - **тамм** (полное),
 - **кафи** (достаточное),
-- **хасан** (хорошее),
+- **<a href="/glossary/khasan" class="glossary-link" target="_blank" rel="noopener noreferrer">хасан</a>** (хорошее),
 - и недозволенное — **кабих** (плохое).
 
 Аль-Джазари

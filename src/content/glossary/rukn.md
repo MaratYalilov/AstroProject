@@ -6,59 +6,77 @@ category: Р
 tags: []
 aliases: []
 related:
-- a-raf
-- azan
-- bid-a
-- dzhanaba
-- dzhanaza
-- fard
-- fikkh
-- gusl
-- id
-- ikamat
-- ikhlas
-- ikhram
-- kaaba
-- kaffara
-- khadzh
-- khalyal
-- kharam
-- khasan
-- kibla
-- kunut
-- makhram
-- makrukh
-- mazkhab
-- mechet
-- muskhaf
-- nadzhasa
-- rukhsa
-- sakhikh
-- salyam
-- shart
-- sunna
-- takhara
-- taklid
-- talak
-- taravikh
-- tasbikh
-- tashakhkhud
-- tayammum
-- usul-al-fikkh
-- vadzhib
-- vitr
-- vudu
+  - "a-raf"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "gusl"
+  - "id"
+  - "idzhma"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "imam"
+  - "islam"
+  - "istindzha"
+  - "kaaba"
+  - "kaffara"
+  - "khadzh"
+  - "khajd"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "kibla"
+  - "kiyama-kyyama"
+  - "kunut"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mursal"
+  - "muskhaf"
+  - "mutavatir"
+  - "nadzhasa"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "rukhsa"
+  - "sakhikh"
+  - "salyam"
+  - "shart"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takhara"
+  - "taklid"
+  - "talak"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tayammum"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
 used_in:
-- 162-opisanie-namaza-urok-6.md
-- 34-kniga-namaza-8.md
-- 35-kniga-namaza-9.md
-- 36-kniga-namaza-10.md
-- 37-kniga-namaza-11.md
-- 45-kniga-namaza-19.md
-- 50-kniga-namaza-24.md
-- 53-esli-imam-oshibaetsya-27.md
-- 57-chto-narushaet-namaz-3-31.md
-- 58-chto-narushaet-namaz-4-32.md
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F162-opisanie-namaza-urok-6"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F12-mazi-i-mani"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F33-protiranie-golovy"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F34-soobschi-mne-ob-omovenii"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F13-deistviya-narushayuschie-i-ne-narushayuschie-gusl"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F34-kniga-namaza-8"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F35-kniga-namaza-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F36-kniga-namaza-10"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F37-kniga-namaza-11"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F45-kniga-namaza-19"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F50-kniga-namaza-24"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F53-esli-imam-oshibaetsya-27"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F57-chto-narushaet-namaz-3-31"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F58-chto-narushaet-namaz-4-32"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F03-dostoinstva-sury-fatikha"
 description: "Рукн: необходимая основа, без которой вещь не может существовать. Пояснение значения столпа и хадис о пяти столпах ислама."
 ---
 

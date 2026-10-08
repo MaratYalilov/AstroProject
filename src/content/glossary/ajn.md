@@ -6,22 +6,47 @@ category: А
 tags: []
 aliases: []
 related:
-- bid-a
-- fard
-- fikkh
-- iblis
-- kibla
-- kufr
-- makrukh
-- mechet
-- mubtadi
-- musulmanin
-- sakhikh
-- shajtan
-- shart
-- takhara
+  - "akida"
+  - "bid-a"
+  - "fard"
+  - "fikkh"
+  - "fitra"
+  - "iblis"
+  - "idzhtikhad"
+  - "ikhsan"
+  - "iman"
+  - "islam"
+  - "khadis-kudsi"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kibla"
+  - "kufr"
+  - "makrukh"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mukhkam"
+  - "musulmanin"
+  - "mutashabikh"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takhara"
+  - "zakyat"
 used_in:
-- 52-kniga-namaza-26.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F53-yasno-izlozhennye-i-inoskazatelnye-ayaty"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F01-takhaviya-vstuplenie"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F39-tavil"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F52-kniga-namaza-26"
 description: "Айн: сглаз, связанный с завистью или восхищением. Пояснение значения термина и различия между взглядом из злобы и взглядом из изумления."
 ---
 

@@ -6,19 +6,27 @@ category: М
 tags: []
 aliases: []
 related:
-- ashura
-- du-a
-- ilya
-- khasan
-- kufr
-- ramadan
-- sakhikh
-- salyam
-- shirk
-- tafsir
-- zulm
+  - "ashura"
+  - "du-a"
+  - "gusl"
+  - "ilya"
+  - "imam"
+  - "islam"
+  - "khasan"
+  - "kufr"
+  - "naskh"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "zakyat"
+  - "zulm"
 used_in:
-- 91-al-bakara-korova-50-56-aiat.md
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F50-obschenie-s-oskvernennym"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F21-urok-sira-polnaya-blokada"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F91-al-bakara-korova-50-56-aiat"
 description: "Мухаррам: первый месяц лунного календаря и один из четырёх запретных месяцев. Пояснение его достоинства и связи с днём Ашура."
 ---
 

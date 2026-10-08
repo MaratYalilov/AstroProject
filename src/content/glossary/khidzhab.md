@@ -6,34 +6,83 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- ansary
-- du-a
-- fard
-- id
-- islam
-- isra
-- israfil
-- khalil
-- khalyal
-- kharam
-- khasan
-- kibr
-- makrukh
-- mazkhab
-- mechet
-- miskin
-- mursal
-- sadaka
-- sakhikh
-- salyam
-- tafsir
-- umma
-- zakyat
+  - "adab"
+  - "adam"
+  - "ansary"
+  - "ashura"
+  - "bid-a"
+  - "du-a"
+  - "dzhama-a"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fikkh"
+  - "firdaus"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "ikrakh"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "israfil"
+  - "istigfar"
+  - "karun-korun"
+  - "khadzh"
+  - "khalil"
+  - "khalyal"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khukm"
+  - "kibr"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "ma-ruf"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mubtadi"
+  - "muftij"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "nikab"
+  - "nikakh"
+  - "rasul"
+  - "riba"
+  - "riya"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sirat-syrat"
+  - "sivak-misvak"
+  - "sunna"
+  - "tafsir"
+  - "takfir"
+  - "taklid"
+  - "umma"
+  - "vudu"
+  - "zakyat"
 used_in:
-- 100-al-bakara-korova-83-84-aiat.md
-- 150-prikryvanie-aurata-urok-2.md
-- 152-prikryvanie-aurata-urok-4.md
-- 17-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F17-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F37-maloe-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F55-chudo-korana-nauki"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F64-vera-v-poslannikov"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F150-prikryvanie-aurata-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F152-prikryvanie-aurata-urok-4"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F67-20-hadis-stydlivost-vetv-very"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F100-al-bakara-korova-83-84-aiat"
 description: "Хиджаб: покрытие, скрывающее тело и украшения женщины от посторонних мужчин. Пояснение значения термина и того, что относится к покрытию."
 ---
 

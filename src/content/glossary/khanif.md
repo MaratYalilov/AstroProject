@@ -5,8 +5,47 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "azima"
+  - "burak"
+  - "din"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhibril-dzhabrail"
+  - "dzhinn"
+  - "fard"
+  - "fetva-fatva"
+  - "ikhlas"
+  - "imam"
+  - "islam"
+  - "istigfar"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khalyal"
+  - "kharam"
+  - "khira"
+  - "kuds-bejt-al-makdis"
+  - "makhram"
+  - "mankhadzh-minkha-dzh"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "nadzhasa"
+  - "nikab"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shavval-shauual"
+  - "shirk"
+  - "sunna"
+  - "taukhid"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F17-shestoe-uslovie-iskrennost"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F20-protiranie-kozhanoi-obuvi-2"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F23-urok-sira-taif-nochnoe-voznesenie"
 description: "Ханиф: человек, оставивший ложные религии и обратившийся к единобожию. Определение понятия в исламской терминологии."
 ---
 

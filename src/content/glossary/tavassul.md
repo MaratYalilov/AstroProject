@@ -5,8 +5,39 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adab"
+  - "adam"
+  - "bid-a"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhinn"
+  - "fikkh"
+  - "iman"
+  - "islam"
+  - "khadzh"
+  - "kharam"
+  - "khava"
+  - "khidzhra"
+  - "kurban"
+  - "mechet"
+  - "munkar"
+  - "musulmanin"
+  - "riba"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "sunna"
+  - "takfir"
+  - "taklid"
+  - "tauba"
+  - "zakyat"
+  - "zikr"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F30-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-9-sredstva-priblizheniya"
 description: "Тавассуль: разрешённые способы приближения к Аллаху. Пояснение понятия на основе установлений Корана и Сунны Пророка."
 ---
 

@@ -6,19 +6,41 @@ category: К
 tags: []
 aliases: []
 related:
-- adab
-- dzhikhad
-- fard
-- islam
-- kharam
-- mazkhab
-- ramadan
-- sakhikh
-- salyam
-- shajtan
-- zakyat
+  - "adab"
+  - "azan"
+  - "din"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fard"
+  - "iman"
+  - "islam"
+  - "khadzh"
+  - "khafiz"
+  - "kharam"
+  - "khasan"
+  - "madzhaz"
+  - "mazkhab"
+  - "murdzhiity"
+  - "musulmanin"
+  - "namima"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sunna"
+  - "zakyat"
+  - "zulm"
 used_in:
-- 183-zemnoi-poklon-urok-3.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F35-maloe-mnogobozhie-v-namereniyah"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F183-zemnoi-poklon-urok-3"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F12-al-masad-palmovye-volokna"
 description: "Кунья: почтительное именование с приставкой Абу, Умм, Ибн или Бинт. Пояснение употребления таких имён и приведённых в статье примеров."
 ---
 

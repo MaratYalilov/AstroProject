@@ -54,7 +54,7 @@ videoRel: video/56-morskaya-voda-chistaya.mp4
 
 <ul>
 <li> Вода родников, рек, озер, колодцев.
-<div class="hadith">Замзам. Передал 'Али, что Посланник Аллаха попросил, чтобы ему принесли полное ведро замзама. Когда ему принесли, он попил и совершил им омовение
+<div class="hadith"><a href="/glossary/zamzam-zemzem" class="glossary-link" target="_blank" rel="noopener noreferrer">Замзам</a>. Передал 'Али, что Посланник Аллаха попросил, чтобы ему принесли полное ведро замзама. Когда ему принесли, он попил и совершил им омовение
 <div class="hadith-reference">Абдулла ибн Ахмад</div>
 </div>
 </li>

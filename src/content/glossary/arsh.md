@@ -5,8 +5,34 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "din"
+  - "dzhinn"
+  - "fikkh"
+  - "fitra"
+  - "ibada-ibadat"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "kaaba"
+  - "khadzh"
+  - "mizan"
+  - "musulmanin"
+  - "mut-a-nikyakh-mut-a"
+  - "rububijya"
+  - "sakhikh"
+  - "shajtan"
+  - "shari-a"
+  - "sunna"
+  - "tafsir"
+  - "taukhid"
+  - "umma"
+  - "usul-al-fikkh"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F06-shariat-ukazyvaet-na-suschestvovanie-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F10-edinobozhie-v-gospodstve"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F63-al-bakara-ayat-al-kursi"
 description: "Арш: величайшее творение Аллаха, Трон, который несут ангелы. Пояснение его места в мироздании и упоминаний в исламском вероучении."
 ---
 

@@ -6,19 +6,44 @@ category: У
 tags: []
 aliases: []
 related:
-- islam
-- khadzh
-- kharam
-- makhdi
-- mechet
-- musulmanin
-- sunna
-- tauba
-- tavaf
-- zakyat
-- zikr
+  - "adam"
+  - "akida"
+  - "amanat"
+  - "ashura"
+  - "din"
+  - "dzhama-a"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fitna"
+  - "iblis"
+  - "ikhsan"
+  - "iman"
+  - "islam"
+  - "kaffara"
+  - "khadzh"
+  - "kharam"
+  - "khasan"
+  - "makhdi"
+  - "makrukh"
+  - "mechet"
+  - "miskin"
+  - "musulmanin"
+  - "nazr"
+  - "niyat-nijya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shakhada"
+  - "shirk"
+  - "sunna"
+  - "tauba"
+  - "tavaf"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 114-al-bakara-korova-114-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F05-sut-very"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F114-al-bakara-korova-114-aiat"
 description: "Умра: паломничество с ихрамом, обходом Каабы, са'ем и бритьём либо укорачиванием волос. Определение и пояснение обрядов малого паломничества."
 ---
 

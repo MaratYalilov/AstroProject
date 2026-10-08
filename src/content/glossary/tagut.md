@@ -5,8 +5,21 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "faraon-fir-aun"
+  - "ikhlas"
+  - "islam"
+  - "kharam"
+  - "musulmanin"
+  - "ramadan"
+  - "shajtan"
+  - "shakhada"
+  - "shirk"
+  - "zakyat"
+  - "zikr"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F19-vosmoe-uslovie-otrechenie-ot-togo-chemu-poklonyayutsya-pomimo-allakha"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F12-2-hadis-shahada"
 description: "Тагут: тот, кому поклоняются помимо Аллаха и кто преступает Его границы. Пояснение видов объектов поклонения, относимых к этому понятию."
 ---
 

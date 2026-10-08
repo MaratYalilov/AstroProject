@@ -5,8 +5,18 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "bid-a"
+  - "ganima-ganaim"
+  - "id"
+  - "islam"
+  - "khasan"
+  - "musulmanin"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F63-razlichiya-mezhdu-shariatami"
 description: "Аврат: части тела, которые необходимо закрывать от посторонних взглядов. Значение термина и его связь со стыдливостью в исламе."
 ---
 

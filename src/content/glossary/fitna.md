@@ -6,42 +6,95 @@ category: Ф
 tags: []
 aliases: []
 related:
-- din
-- iblis
-- idzhma
-- iman
-- islam
-- karamat
-- khalyal
-- kharam
-- kharut-i-marut
-- khasan
-- khidzhr
-- kufr
-- makrukh
-- mechet
-- musulmanin
-- namima
-- naskh
-- ramadan
-- riya
-- safar
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sikhr
-- sukhur
-- tadzhvid
-- tafsir
-- zakyat
-- zina
+  - "akida"
+  - "ansary"
+  - "arafa-arafat"
+  - "ashura"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "din"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "fard"
+  - "fidya-fidiya"
+  - "fitra"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "ikhlas"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "kadarity-kadarijya"
+  - "kaffara"
+  - "karamat"
+  - "khadzh"
+  - "khafiz"
+  - "khalifat"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khidzhr"
+  - "kufr"
+  - "kysas-kisas"
+  - "makhdi"
+  - "makrukh"
+  - "masikh"
+  - "mechet"
+  - "mikail-mikal"
+  - "miskin"
+  - "mu-tazility-mu-tazilya"
+  - "mukhadzhiry"
+  - "musulmanin"
+  - "mutavatir"
+  - "namima"
+  - "naskh"
+  - "nazr"
+  - "niyat-nijya"
+  - "ramadan"
+  - "riba"
+  - "riya"
+  - "rukya"
+  - "sa-a-saga"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shakhada"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sira"
+  - "sukhur"
+  - "sunna"
+  - "tadzhvid"
+  - "tafsir"
+  - "takfir"
+  - "ukhud"
+  - "umra"
+  - "zakkum"
+  - "zakyat"
+  - "zikr"
+  - "zina"
 used_in:
-- 108-al-bakara-korova-102-103-aiat.md
-- 109-al-bakara-korova-102-103-aiat.md
-- 13-adab-tazkiya-urok-13.md
-- 51-kniga-namaza-25.md
-- 97-al-bakara-korova-75-77-aiat.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F13-adab-tazkiya-urok-13"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F42-edinobozhie-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F72-chudesa-poslannika-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F75-malye-priznaki-sudnogo-dnya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F76-smuty-malyy-priznak"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F77-vino"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F51-kniga-namaza-25"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F03-urok-sira-slonovyi-pohod-religiya-mekki"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F108-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F97-al-bakara-korova-75-77-aiat"
 description: "Фитна: испытание, отвращение от истины, страдание, многобожие, грехи или лицемерие. Разбор значений слова в Коране и Сунне."
 ---
 

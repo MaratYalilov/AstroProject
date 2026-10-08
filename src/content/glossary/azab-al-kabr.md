@@ -5,8 +5,16 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "israfil"
+  - "kantara-kontara"
+  - "khaud"
+  - "khisab"
+  - "mizan"
+  - "munkar-i-nakir"
+  - "sirat-syrat"
+used_in:
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F31-2-hadis-sudnyj-den"
 description: "Азаб аль-кабр: наказание в могиле и барзахе. Пояснение понятия и того, почему оно касается умершего независимо от способа погребения."
 ---
 

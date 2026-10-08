@@ -5,8 +5,44 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "azan"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "ibada-ibadat"
+  - "id"
+  - "ikhlas"
+  - "imam"
+  - "islam"
+  - "kaaba"
+  - "khadzh"
+  - "khalil"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khava"
+  - "kiyama-kyyama"
+  - "madzhaz"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shafa-a"
+  - "shirk"
+  - "sunna"
+  - "tafsir"
+  - "tauba"
+  - "tavaf"
+  - "vali"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F97-zastupnichestvo"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F29-liubimetc-gospoda-mirov"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-23-khodataystvo"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F13-urok-sira-etapy-prizyva-chast2"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F119-al-bakara-korova-125-aiat"
 description: "Макам Ибрахима: камень, на котором стоял пророк Ибрахим при строительстве Каабы. Пояснение его назначения и упоминание следов ног пророка."
 ---
 

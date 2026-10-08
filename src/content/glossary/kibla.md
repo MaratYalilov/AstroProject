@@ -6,61 +6,68 @@ category: К
 tags: []
 aliases: []
 related:
-- ajn
-- aksa
-- azan
-- bid-a
-- dzhanaza
-- fard
-- fikkh
-- gusl
-- iblis
-- id
-- idzhma
-- ikamat
-- ikhlas
-- ikhram
-- islam
-- isra
-- kaaba
-- khadzh
-- khalyal
-- kharam
-- khasan
-- khidzhr
-- khukm
-- kufr
-- makrukh
-- mazkhab
-- mechet
-- mikhrab
-- mubtadi
-- mursal
-- musulmanin
-- nadzhasa
-- riya
-- rukn
-- safar
-- sakhikh
-- salyam
-- shajtan
-- shart
-- sunna
-- takhara
-- talak
-- tayammum
-- vadzhib
-- vitr
-- vudu
-- zikr
+  - "ajn"
+  - "akida"
+  - "aksa"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dabba"
+  - "dadzhal"
+  - "dzhanaza"
+  - "fard"
+  - "fikkh"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "islam"
+  - "isra"
+  - "kaaba"
+  - "khadzh"
+  - "khalifat"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "kufr"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mikhrab"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "nadzhasa"
+  - "niyat-nijya"
+  - "riya"
+  - "rukn"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shart"
+  - "shi-a-shiity"
+  - "sunna"
+  - "takhara"
+  - "talak"
+  - "tauba"
+  - "tayammum"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "yadzhudzh-i-madzhudzh"
+  - "zikr"
 used_in:
-- 115-al-bakara-korova-115-aiat.md
-- 134-mecheti-urok-1.md
-- 135-mecheti-urok-2.md
-- 140-mecheti-urok-7.md
-- 34-kniga-namaza-8.md
-- 35-kniga-namaza-9.md
-- 52-kniga-namaza-26.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F88-dabba"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F135-mecheti-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F140-mecheti-urok-7"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F34-kniga-namaza-8"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F35-kniga-namaza-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F52-kniga-namaza-26"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F115-al-bakara-korova-115-aiat"
 description: "Кибла: направление к Каабе в Мекке, к которому обращаются мусульмане в намазе. Пояснение значения этого направления в поклонении и погребении."
 ---
 

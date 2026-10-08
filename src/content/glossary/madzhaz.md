@@ -5,8 +5,18 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "imam"
+  - "islam"
+  - "khadzh"
+  - "khasan"
+  - "kunya"
+  - "makam-makom"
+  - "musulmanin"
+  - "namima"
+used_in:
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F13-urok-sira-etapy-prizyva-chast2"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F12-al-masad-palmovye-volokna"
 description: "Маджаз: выражение, употребляемое в переносном значении при наличии смысловой связи. Пояснение термина и отличия от первоначального смысла."
 ---
 

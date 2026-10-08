@@ -5,8 +5,41 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "ansary"
+  - "fetva-fatva"
+  - "fitra"
+  - "gusl"
+  - "islam"
+  - "istidzhmar"
+  - "istikhada"
+  - "kharam"
+  - "khasan"
+  - "makrukh"
+  - "mechet"
+  - "munkar"
+  - "mutavatir"
+  - "rukn"
+  - "sakhikh"
+  - "shajtan"
+  - "sivak-misvak"
+  - "sunna"
+  - "takhadzhud"
+  - "tauba"
+  - "vadzhib"
+  - "vasvasa"
+used_in:
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F95-istihada-i-omovenie"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F22-istindzha"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F23-spravlenie-nuzhdy-stoya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F24-vyvody-po-adabam-tualeta"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F27-fitra"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F29-myte-ruk-posle-sna"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F33-protiranie-golovy"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F61-vidy-nadzhisa"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F04-istindzha"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F05-istindzha"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F07-farzy-i-sunny-omoveniya"
 description: "Истинджа: очищение после справления нужды водой или сухими предметами. Пояснение удаления нечистот и значения термина в шариате."
 ---
 

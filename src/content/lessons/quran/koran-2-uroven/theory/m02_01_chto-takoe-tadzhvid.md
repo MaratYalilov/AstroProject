@@ -6,7 +6,7 @@ order: 201
 
 ## Значение слова
 
-**Таджвид (<span class="arab">تجويد</span>)** — слово по модели **<span class="arab">تفعيل</span>** (как <span class="arab">تقطيع</span> — «разделение», <span class="arab">تثبيت</span> — «закрепление»). Соответственно **<span class="arab">تجويد</span>** означает **«сделать что-либо хорошим, превосходным»** (от **<span class="arab">الإجادة</span>** — «делать хорошо, верно»).
+**<a href="/glossary/tadzhvid" class="glossary-link" target="_blank" rel="noopener noreferrer">Таджвид</a> (<span class="arab">تجويد</span>)** — слово по модели **<span class="arab">تفعيل</span>** (как <span class="arab">تقطيع</span> — «разделение», <span class="arab">تثبيت</span> — «закрепление»). Соответственно **<span class="arab">تجويد</span>** означает **«сделать что-либо хорошим, превосходным»** (от **<span class="arab">الإجادة</span>** — «делать хорошо, верно»).
 
 То есть **таджвид** в языке — это **улучшение, доведение до совершенства**: сделать нечто хорошим и правильным.
 

@@ -18,7 +18,7 @@ related:
 - salyam
 - shirk
 used_in:
-- 93-al-bakara-korova-59-61-aiat.md
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F93-al-bakara-korova-59-61-aiat"
 description: "Джизья: платёж определённых категорий немусульман, живущих под защитой исламского государства. Пояснение назначения платежа и освобождения от него."
 ---
 

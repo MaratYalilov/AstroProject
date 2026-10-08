@@ -6,29 +6,41 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- azan
-- dzhanaza
-- fadzhr
-- fard
-- id
-- ikamat
-- istiska
-- kharam
-- makrukh
-- mechet
-- musulmanin
-- nazr
-- ratiba
-- sakhikh
-- salyam
-- sudzhud-at-tilyava
-- sunna
-- tashakhkhud
-- tavaf
-- vadzhib
-- vitr
+  - "arafa-arafat"
+  - "azan"
+  - "bid-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "id"
+  - "ikamat"
+  - "ilya"
+  - "islam"
+  - "istigfar"
+  - "istiska"
+  - "kharam"
+  - "makrukh"
+  - "mechet"
+  - "musulmanin"
+  - "nazr"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "ratiba"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sudzhud-at-tilyava"
+  - "sunna"
+  - "tashakhkhud"
+  - "tavaf"
+  - "vadzhib"
+  - "vitr"
 used_in:
-- 30-kniga-namaza-4.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F32-shirk"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
 description: "Хутба: проповедь перед пятничным намазом, после праздничного намаза или по другой необходимости. Пояснение её назначения и произнесения."
 ---
 

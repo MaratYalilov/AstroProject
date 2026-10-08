@@ -6,29 +6,100 @@ category: Д
 tags: []
 aliases: []
 related:
-- dzhikhad
-- fadzhr
-- fard
-- id
-- islam
-- isra
-- kaffara
-- khafiz
-- kharam
-- khasan
-- mechet
-- mursal
-- safar
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- vadzhib
-- vudu
+  - "adab"
+  - "adam"
+  - "arsh"
+  - "azan"
+  - "azima"
+  - "bid-a"
+  - "da-if-daif"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhikhad"
+  - "fadzhr"
+  - "fard"
+  - "fikkh"
+  - "iblis"
+  - "id"
+  - "ikhlas"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "israfil"
+  - "istikhara"
+  - "kaaba"
+  - "kaffara"
+  - "karamat"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khanif"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasad"
+  - "khasan"
+  - "khidzhr"
+  - "khira"
+  - "khur-in-gurii"
+  - "kuds-bejt-al-makdis"
+  - "kunya"
+  - "kurban"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mechet"
+  - "mi-radzh"
+  - "mikail-mikal"
+  - "mubakh"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "musulmanin"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riba"
+  - "riya"
+  - "rukya"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sunna"
+  - "takfir"
+  - "takhadzhud"
+  - "taklid"
+  - "taravikh"
+  - "tauba"
+  - "taukhid"
+  - "tavassul"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
+  - "zulm"
 used_in:
-- 138-mecheti-urok-5.md
-- 154-sutra-urok-2.md
-- 8-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F8-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F17-shestoe-uslovie-iskrennost"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F35-maloe-mnogobozhie-v-namereniyah"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F49-imena-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F21-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F138-mecheti-urok-5"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F154-sutra-urok-2"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F17-urok-sira-popytki-poseyat-somneniya"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F63-al-bakara-ayat-al-kursi"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F84-al-bakara-korova-34-aiat"
 description: "Джинны: невидимые в своём естественном облике разумные существа, обладающие волей. Пояснение их ответственности за поклонение и расчёта в День суда."
 ---
 

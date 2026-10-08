@@ -6,61 +6,126 @@ category: И
 tags: []
 aliases: []
 related:
-- aksa
-- azan
-- din
-- dukhan
-- fadzhr
-- fard
-- fitna
-- iftirash
-- ikamat
-- ikhlas
-- iman
-- islam
-- isra
-- karamat
-- khadzh
-- kharam
-- khasan
-- khukm
-- kibla
-- kufr
-- makrukh
-- maudu
-- mazkhab
-- mechet
-- mikhrab
-- mursal
-- musulmanin
-- namima
-- radzhab
-- ramadan
-- riya
-- sakhikh
-- salyam
-- salyat
-- shirk
-- sikhr
-- sukhur
-- sunna
-- tadzhvid
-- tafsir
-- takfir
-- takhara
-- tasbikh
-- tashakhkhud
-- tavarruk
-- vadzhib
-- zakyat
-- zikr
+  - "adam"
+  - "akida"
+  - "aksa"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "din"
+  - "dukhan"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "idzhtikhad"
+  - "iftirash"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhsan"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "istikama"
+  - "kadarity-kadarijya"
+  - "karamat"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khava"
+  - "khidr-khidir-khizr-khyzr"
+  - "khukm"
+  - "kibla"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "kurban"
+  - "kysas-kisas"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "masikh"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "mikhrab"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "mukallyaf"
+  - "murdzhiity"
+  - "mursal"
+  - "musulmanin"
+  - "namima"
+  - "niyat-nijya"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riya"
+  - "rukn"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salafiya-salyafiya"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shakhid"
+  - "shar"
+  - "shari-a"
+  - "shirk"
+  - "sikhr"
+  - "sira"
+  - "sirat-syrat"
+  - "sukhur"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tadzhvid"
+  - "tafsir"
+  - "takfir"
+  - "takhara"
+  - "taklid"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taukhid"
+  - "tavarruk"
+  - "umma"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
+  - "zukhd"
 used_in:
-- 109-al-bakara-korova-102-103-aiat.md
-- 133-azan-urok-11.md
-- 135-mecheti-urok-2.md
-- 159-opisanie-namaza-urok-3.md
-- 177-chtenie-korana-v-namaze-urok-9.md
-- 27-kniga-namaza-1.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F03-akyda-istinnaya-i-lozhnaya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F59-nauchnye-otkrytiya-v-korane"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F03-poniatie-termina-akhliussunna"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F23-vera-v-prorocheskuiu-missiiu-muhammada"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F23-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F28-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F4-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F133-azan-urok-11"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F135-mecheti-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F159-opisanie-namaza-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F177-chtenie-korana-v-namaze-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F03-smyvanie-grehov"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F06-nahozhdenie-s-omoveniem"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F12-mazi-i-mani"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F27-kniga-namaza-1"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
 description: "Иджма': единогласие муджтахидов одного поколения по шариатскому вопросу после смерти Пророка. Определение понятия в исламском праве."
 ---
 

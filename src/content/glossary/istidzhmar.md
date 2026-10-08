@@ -5,8 +5,12 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "istindzha"
+  - "sunna"
+  - "vadzhib"
+used_in:
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F04-istindzha"
 description: "Истиджмар: удаление нечистот после справления нужды протиранием сухими предметами. Определение способа очищения в шариате."
 ---
 

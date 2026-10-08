@@ -6,16 +6,30 @@ category: А
 tags: []
 aliases: []
 related:
-- fard
-- kharam
-- kufr
-- mubakh
-- ramadan
-- rukhsa
-- safar
-- vudu
+  - "din"
+  - "dzhinn"
+  - "fard"
+  - "ikhlas"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khanif"
+  - "kharam"
+  - "kufr"
+  - "mubakh"
+  - "musulmanin"
+  - "niyat-nijya"
+  - "ramadan"
+  - "rukhsa"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "taukhid"
+  - "vudu"
+  - "zakyat"
 used_in:
-- 74-namaz-putnika-48.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F17-shestoe-uslovie-iskrennost"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F74-namaz-putnika-48"
 description: "Азима: изначальные постановления, установленные Аллахом для поступков и состояний человека. Определение понятия в шариате."
 ---
 

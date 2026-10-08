@@ -38,7 +38,7 @@ hasVideo: false
 <li> Выходит при возбуждение и человек чувствует расслабленность.</li>
 <li> Имеет специфический запах.</li>
 <li> Выходит с напором, несколько раз.</li>
-<li> Сказал Тирмизи: «<em>Это мнение большого количества ученых из сподвижников, и табиин. Это мнение Суфьяна, Щафии, Ахмада Исхака</em>». Сказал ибн Хаджар: <a href="/glossary/idzhma" class="glossary-link" target="_blank" rel="noopener noreferrer">иджма</a> ученых.</li>
+<li> Сказал Тирмизи: «<em>Это мнение большого количества ученых из сподвижников, и <a href="/glossary/tabi-ij-tabi-un" class="glossary-link" target="_blank" rel="noopener noreferrer">табиин</a>. Это мнение Суфьяна, Щафии, Ахмада Исхака</em>». Сказал ибн Хаджар: <a href="/glossary/idzhma" class="glossary-link" target="_blank" rel="noopener noreferrer">иджма</a> ученых.</li>
 <li> Посланник Аллаха – да благословит Его Аллах и приветствует часто отвечая на вопрос, добавлял некоторые знания.</li>
 <li> Здесь было спрошено только о мази.</li>
 <li> В другом хадисе спросили, можно ли совершать омовение морской водой, он ответил на вопрос и добавил, что мертвые морские животные <a href="/glossary/khalyal" class="glossary-link" target="_blank" rel="noopener noreferrer">халяль</a>.</li>

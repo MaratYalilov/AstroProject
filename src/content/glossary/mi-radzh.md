@@ -6,12 +6,41 @@ category: М
 tags: []
 aliases: []
 related:
-- iman
-- isra
-- sakhikh
-- salyam
+  - "adam"
+  - "aksa"
+  - "dzhama-a"
+  - "dzhinn"
+  - "fadzhr"
+  - "iblis"
+  - "id"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "israfil"
+  - "khadd-khudud"
+  - "kharut-i-marut"
+  - "khasan"
+  - "kuds-bejt-al-makdis"
+  - "mechet"
+  - "mikail-mikal"
+  - "mu-dzhiza"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "musulmanin"
+  - "mutavatir"
+  - "ramadan"
+  - "rukya"
+  - "sa-a-saga"
+  - "sakhikh"
+  - "salyam"
+  - "sunna"
+  - "ukhud"
 used_in:
-- 22-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F22-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F49-imena-angelov"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F25-dokazatelstva-prorocheskoi-missii-muhammada-2"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F9-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F98-obyazatelnost-soversheniya-namaza"
 description: "Ми'радж: ночное вознесение Пророка Мухаммада от мечети аль-Акса на небеса. Пояснение события и показанных ему великих знамений."
 ---
 

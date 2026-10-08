@@ -6,27 +6,31 @@ category: Б
 tags: []
 aliases: []
 related:
-- bid-a
-- fard
-- id-al-adkha
-- id-al-fitr
-- istikhara
-- kharam
-- makrukh
-- mazkhab
-- mechet
-- munkar
-- musulmanin
-- ramadan
-- sadaka
-- sakhikh
-- sha-ban
-- shajtan
-- sunna
-- takhadzhud
-- zul-khidzha
+  - "bid-a"
+  - "fard"
+  - "fitra"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "islam"
+  - "istikhara"
+  - "kharam"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "munkar"
+  - "musulmanin"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "sha-ban"
+  - "shajtan"
+  - "sunna"
+  - "takhadzhud"
+  - "takva"
+  - "zul-khidzha"
 used_in:
-- 70-namaz-privetstviya-mecheti-44.md
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F76-28-hadis-nastavlenie-na-vremena-smut"
 description: "Бирр: усердие в благих делах, подчинении Аллаху и добром отношении к родителям. Пояснение значения благочестия, доброжелательности и честности."
 ---
 

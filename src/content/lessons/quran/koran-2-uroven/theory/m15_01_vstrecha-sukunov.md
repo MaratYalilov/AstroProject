@@ -10,7 +10,7 @@ order: 1501
 
 1. **первый из двух — буква мадда или лина**: <span class="arab">الضَّالِّين، اتِّحَادًا، جَانٌّ، يس، نون، عسق</span> («<span class="arab">عين</span>» — буква лина);
 2. **сукун второй буквы — временный** (арид ли-сукун / мадд аль-лин): <span class="arab">الْحِسَابْ، تَعْمَلُونْ، الرَّحِيمْ</span>; <span class="arab">قُرَيْشْ، خَوْفْ</span>;
-   - и редкий случай — **два «здоровых» (сахих)** согласных: первый — коренной сукун, второй — временный (вакф): «<span class="arab">مِنْ بَعْدُ</span>» → «<span class="arab">الْقَدْرْ</span>» («<span class="arab">مِنْ بَعْدِ الْقَدْرْ</span>»... вернее «<span class="arab">الْقَدْرْ</span>»), «<span class="arab">السُّحْتْ</span>».
+   - и редкий случай — **два «здоровых» (<a href="/glossary/sakhikh" class="glossary-link" target="_blank" rel="noopener noreferrer">сахих</a>)** согласных: первый — коренной сукун, второй — временный (<a href="/glossary/vakf" class="glossary-link" target="_blank" rel="noopener noreferrer">вакф</a>): «<span class="arab">مِنْ بَعْدُ</span>» → «<span class="arab">الْقَدْرْ</span>» («<span class="arab">مِنْ بَعْدِ الْقَدْرْ</span>»... вернее «<span class="arab">الْقَدْرْ</span>»), «<span class="arab">السُّحْتْ</span>».
 
 ## В ДВУХ словах — устраняют двумя способами
 

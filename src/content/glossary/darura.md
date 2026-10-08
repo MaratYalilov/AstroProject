@@ -17,7 +17,7 @@ related:
 - vadzhib
 - vitr
 used_in:
-- 73-namaz-na-korable-47.md
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F73-namaz-na-korable-47"
 description: "Дарура: крайняя необходимость, связанная с угрозой жизни, чести, разуму или имуществу. Пояснение шариатских послаблений для устранения вреда."
 ---
 

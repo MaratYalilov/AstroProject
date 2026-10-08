@@ -6,29 +6,31 @@ category: С
 tags: []
 aliases: []
 related:
-- azan
-- dzhanaza
-- fadzhr
-- fard
-- id
-- ikamat
-- istiska
-- kharam
-- khutba
-- makrukh
-- mechet
-- musulmanin
-- nazr
-- ratiba
-- sakhikh
-- salyam
-- sunna
-- tashakhkhud
-- tavaf
-- vadzhib
-- vitr
+  - "arafa-arafat"
+  - "azan"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "id"
+  - "ikamat"
+  - "istiska"
+  - "kharam"
+  - "khutba"
+  - "makrukh"
+  - "mechet"
+  - "musulmanin"
+  - "nazr"
+  - "rakaat-rak-a"
+  - "ratiba"
+  - "sakhikh"
+  - "salyam"
+  - "sunna"
+  - "tashakhkhud"
+  - "tavaf"
+  - "vadzhib"
+  - "vitr"
 used_in:
-- 30-kniga-namaza-4.md
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
 description: "Суджуд ат-тилява: земной поклон при чтении аята о поклоне или его внимательном слушании. Определение этого действия в поклонении."
 ---
 

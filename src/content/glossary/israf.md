@@ -6,25 +6,78 @@ category: И
 tags: []
 aliases: []
 related:
-- bid-a
-- fard
-- i-tikaf
-- islam
-- israfil
-- khadzh
-- khava
-- ramadan
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- tafsir
-- takhadzhud
-- umma
-- zikr
+  - "adab"
+  - "aksa"
+  - "bid-a"
+  - "da-if-daif"
+  - "dzhanaza"
+  - "dzhinn"
+  - "fadzhr"
+  - "fard"
+  - "fikkh"
+  - "gusl"
+  - "i-tikaf"
+  - "ibada-ibadat"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "israfil"
+  - "istikhara"
+  - "kafan"
+  - "khadzh"
+  - "kharam"
+  - "khasan"
+  - "khava"
+  - "khidzhab"
+  - "khur-in-gurii"
+  - "kufr"
+  - "kurban"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "mubakh"
+  - "mubtadi"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "musulmanin"
+  - "nikakh"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "tafsir"
+  - "takhadzhud"
+  - "taravikh"
+  - "tasbikh"
+  - "tauba"
+  - "tavaf"
+  - "tora"
+  - "umma"
+  - "vadzhib"
+  - "vasvasa"
+  - "vitr"
+  - "vudu"
+  - "zamzam-zemzem"
+  - "zikr"
 used_in:
-- 02-adab-tazkiya-urok-02.md
-- 105-al-bakara-korova-97-98-aiat.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F02-adab-tazkiya-urok-02"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F37-maloe-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F56-chudo-korana-znamenie"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F36-protiranie-ushei"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F37-somnenie-v-omovenii"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F43-sunny-guslya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F09-adaby-omoveniya"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F105-al-bakara-korova-97-98-aiat"
 description: "Исраф: чрезмерность в действиях, словах и расходовании. Пояснение значения термина и того, как излишество проявляется в разных делах."
 ---
 

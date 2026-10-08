@@ -5,8 +5,39 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "du-a"
+  - "dzhanaza"
+  - "id"
+  - "islam"
+  - "khadzh"
+  - "kharam"
+  - "khasan"
+  - "kysas-kisas"
+  - "makrukh"
+  - "mechet"
+  - "mi-radzh"
+  - "mubakh"
+  - "mursal"
+  - "musulmanin"
+  - "nadzhasa"
+  - "ramadan"
+  - "sakhikh"
+  - "shajtan"
+  - "tafsir"
+  - "vakf"
+  - "vali"
+  - "zakyat"
+  - "zina"
+  - "zukhd"
+used_in:
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F146-mecheti-urok-13"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F98-obyazatelnost-soversheniya-namaza"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F99-ostavlenie-namaza"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F79-30-31-hadis-vseob-emlyushchij-shariat-i-klyuch-k-lyubvi"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F10-ig-dzhaz"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F07-fatikha-otkryvaiushchaia"
+  - "/quran/koran-2-uroven/?lesson=m17-10-zamechaniya"
 description: "Хадд, или худуд: установленное исламским законом телесное наказание за определённые грехи. Пояснение термина в шариатской правовой системе."
 ---
 

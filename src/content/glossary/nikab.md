@@ -5,8 +5,33 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adab"
+  - "ashura"
+  - "bid-a"
+  - "fard"
+  - "islam"
+  - "khadzh"
+  - "khalyal"
+  - "khanif"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khidzhab"
+  - "khukm"
+  - "kiyama-kyyama"
+  - "ma-ruf"
+  - "mazkhab"
+  - "mechet"
+  - "muskhaf"
+  - "musulmanin"
+  - "rasul"
+  - "riya"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F20-protiranie-kozhanoi-obuvi-2"
 description: "Никаб: покрывало для лица женщины с прорезью для глаз. Определение термина и пояснение назначения этого вида покрытия."
 ---
 

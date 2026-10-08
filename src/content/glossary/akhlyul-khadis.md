@@ -5,8 +5,25 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "bid-a"
+  - "dzhama-a"
+  - "fikkh"
+  - "iblis"
+  - "ikhsan"
+  - "iman"
+  - "islam"
+  - "kufr"
+  - "mankhadzh-minkha-dzh"
+  - "musulmanin"
+  - "nasikha"
+  - "sakhikh"
+  - "sunna"
+  - "umma"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F1-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F13-vajees"
 description: "Ахлюль-хадис: последователи Корана и Сунны, опирающиеся на понимание сподвижников и первых поколений мусульман в убеждениях и делах."
 ---
 

@@ -6,19 +6,49 @@ category: З
 tags: []
 aliases: []
 related:
-- ashura
-- du-a
-- ilya
-- khasan
-- kufr
-- mukharram
-- ramadan
-- sakhikh
-- salyam
-- shirk
-- tafsir
+  - "ashura"
+  - "azan"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhinn"
+  - "id"
+  - "ilya"
+  - "iman"
+  - "islam"
+  - "kazf"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khasan"
+  - "kufr"
+  - "kunya"
+  - "mazkhab"
+  - "mukharram"
+  - "murdzhiity"
+  - "musulmanin"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riba"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sirat-syrat"
+  - "sunna"
+  - "tafsir"
+  - "takva"
 used_in:
-- 91-al-bakara-korova-50-56-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F35-maloe-mnogobozhie-v-namereniyah"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F95-raschet-za-nespravedlivost"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F72-24-hadis-ya-zapretil-priteenenie"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F83-35-hadis-musulmanin-brat-musulmanina"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F74-al-bakara-korova-14-15-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F91-al-bakara-korova-50-56-aiat"
 description: "Зульм: несправедливость, притеснение и применение вещи не по назначению. Пояснение видов зульма и хадиса о запрете несправедливости."
 ---
 

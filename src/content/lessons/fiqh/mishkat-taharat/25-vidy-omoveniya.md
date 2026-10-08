@@ -22,7 +22,7 @@ videoRel: video/25-vidy-omoveniya.mp4
 ---
 
 <p>Урок № 25. | Курс: "Мишкат аль-Масабих", «Омовение: фарзы и сунны».</p>
-<p><strong>Сивак имеет два значения.</strong></p>
+<p><strong><a href="/glossary/sivak-misvak" class="glossary-link" target="_blank" rel="noopener noreferrer">Сивак</a> имеет два значения.</strong></p>
 <ul>
 <li> Действие. То есть чистка зубов.</li>
 <li> Средство. То есть мисвак, зубная паста, все то чем мы чистим зубы.</li>

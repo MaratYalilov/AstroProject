@@ -6,44 +6,100 @@ category: А
 tags: []
 aliases: []
 related:
-- azan
-- fard
-- idda
-- idzhma
-- indzhil
-- islam
-- isra
-- khadzh
-- khalyal
-- kharam
-- khasan
-- khidzhr
-- khukm
-- kibla
-- mazkhab
-- mechet
-- mikhrab
-- mursal
-- musulmanin
-- naskh
-- rauda
-- riba
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sunna
-- tafsir
-- tauba
-- vadzhib
-- zikr
+  - "adam"
+  - "akida"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "fard"
+  - "fikkh"
+  - "fitra"
+  - "iblis"
+  - "id"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "kaaba"
+  - "kafan"
+  - "karamat"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhr"
+  - "khukm"
+  - "kibla"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "kurban"
+  - "makrukh"
+  - "malyaika"
+  - "masikh"
+  - "mazkhab"
+  - "mechet"
+  - "mi-radzh"
+  - "mikhrab"
+  - "mu-dzhiza"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "munkar-i-nakir"
+  - "mursal"
+  - "musulmanin"
+  - "mutavatir"
+  - "naskh"
+  - "nikakh"
+  - "niyat-nijya"
+  - "ramadan"
+  - "rauda"
+  - "riba"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shakhid"
+  - "shirk"
+  - "sunna"
+  - "tadzhvid"
+  - "tafsir"
+  - "taravikh"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "zakyat"
+  - "zikr"
+  - "zina"
 used_in:
-- 111-al-bakara-korova-106-107-aiat.md
-- 135-mecheti-urok-2.md
-- 136-mecheti-urok-3.md
-- 148-mecheti-urok-15.md
-- 16-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F16-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F48-vera-v-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F82-mesto-vyhoda-dadzhalya"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F23-vera-v-prorocheskuiu-missiiu-muhammada"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-11-poseshchenie-mogil"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-1-al-masikhud-dadzhal"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F9-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F135-mecheti-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F136-mecheti-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F148-mecheti-urok-15"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F04-prichina-vhoda-v-rai"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F111-al-bakara-korova-106-107-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F28-at-tin_smokovnitca"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F57-an-naziat-istorgaiushchie-1"
+  - "/quran/muzakkara-tajvid/?lesson=l15-maharidzh"
 description: "Аль-Акса: мечеть в Иерусалиме и первая кибла мусульман. Её место среди мечетей и благословенность окружающей земли в Коране."
 ---
 

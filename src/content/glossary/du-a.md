@@ -6,80 +6,164 @@ category: Д
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- ahlul-kitab
-- ansary
-- ashura
-- din
-- fadzhr
-- fard
-- fikkh
-- id
-- ikhlas
-- ikhram
-- ilya
-- indzhil
-- islam
-- israfil
-- kaaba
-- khalifat
-- khalil
-- khalyal
-- kharam
-- khasan
-- khidzhab
-- khukm
-- kufr
-- makrukh
-- mazkhab
-- mechet
-- miskin
-- mukharram
-- mukhkam
-- mursal
-- muskhaf
-- musulmanin
-- mutashabikh
-- nadzhasa
-- naskh
-- radzhab
-- ramadan
-- riya
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sikhr
-- sunna
-- tafsir
-- tarbiya
-- tasbikh
-- tashakhkhud
-- taufik
-- taukhid
-- ukhud
-- umma
-- usul-al-fikkh
-- vadzhib
-- zikr
-- zina
-- zulm
+  - "a-raf"
+  - "adab"
+  - "adam"
+  - "ahlul-kitab"
+  - "akida"
+  - "ansary"
+  - "ashura"
+  - "azan"
+  - "baraka"
+  - "barzakh"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "din"
+  - "dzhabarity-dzhabrity-dzhabrijya"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhannat"
+  - "dzhinn"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fikkh"
+  - "firdaus"
+  - "fitra"
+  - "ibada-ibadat"
+  - "iblis"
+  - "id"
+  - "ikhlas"
+  - "ikhram"
+  - "ikrakh"
+  - "ilya"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "israfil"
+  - "istigfar"
+  - "istiska"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "karun-korun"
+  - "khadd-khudud"
+  - "khadzh"
+  - "khalifat"
+  - "khalil"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhab"
+  - "khidzhr"
+  - "khukm"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "kysas-kisas"
+  - "makam-makom"
+  - "makhdi"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "muftij"
+  - "mukharram"
+  - "mukhkam"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "nadzhasa"
+  - "naskh"
+  - "nazr"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riba"
+  - "riya"
+  - "rububijya"
+  - "rukya"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "shafa-a"
+  - "shajtan"
+  - "shar"
+  - "shavval-shauual"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sirat-syrat"
+  - "sunna"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takfir"
+  - "taklid"
+  - "takva"
+  - "tarbiya"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "tavakkul"
+  - "tavassul"
+  - "tora"
+  - "ukhud"
+  - "umma"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "zabkh"
+  - "zakyat"
+  - "zikr"
+  - "zina"
+  - "zindik"
+  - "zulm"
 used_in:
-- 01-adab-tazkiya-urok-01.md
-- 110-al-bakara-korova-103-106-aiat.md
-- 118-al-bakara-korova-120-123-aiat.md
-- 120-al-bakara-korova-126-aiat.md
-- 145-mecheti-urok-12.md
-- 146-mecheti-urok-13.md
-- 17-razrush-svoego-idola.md
-- 175-chtenie-korana-v-namaze-urok-7.md
-- 176-chtenie-korana-v-namaze-urok-8.md
-- 180-poyasnoi-poklon-urok-3.md
-- 185-tashahhud-urok-1.md
-- 187-tashahhud-urok-3.md
-- 91-al-bakara-korova-50-56-aiat.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F17-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F01-adab-tazkiya-urok-01"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F11-edinobozhie-v-bozhestvennosti"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F22-nekotorye-vidy-pokloneniya-molba"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F23-nekotorye-etikety-molby"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F24-prosba-o-pomoshi"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F25-upovanie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F28-tri-osnovy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F45-atributy-suschnosti-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F47-atributy-deystviya-allaha-2-chast"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F65-smysl-very-v-poslannikov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F89-vera-v-smertnyy-mig"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F97-zastupnichestvo"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F5-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F145-mecheti-urok-12"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F146-mecheti-urok-13"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F175-chtenie-korana-v-namaze-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F176-chtenie-korana-v-namaze-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F180-poyasnoi-poklon-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F185-tashahhud-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F187-tashahhud-urok-3"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F110-al-bakara-korova-103-106-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F118-al-bakara-korova-120-123-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F120-al-bakara-korova-126-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F91-al-bakara-korova-50-56-aiat"
 description: "Ду'а: мольба, обращение человека к Аллаху с просьбой о помощи и заботе. Пояснение её связи со смирением, покорностью и признанием нужды в Господе."
 ---
 

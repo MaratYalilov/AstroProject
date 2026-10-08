@@ -6,17 +6,40 @@ category: Д
 tags: []
 aliases: []
 related:
-- fard
-- idzhma
-- ikhlas
-- khadzh
-- makrukh
-- mursal
-- sakhikh
-- tasbikh
-- zikr
+  - "a-raf"
+  - "dadzhal"
+  - "dalil"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fitra"
+  - "idzhma"
+  - "ikhlas"
+  - "islam"
+  - "khadzh"
+  - "khasan"
+  - "makhdi"
+  - "makrukh"
+  - "mursal"
+  - "mutavatir"
+  - "rakaat-rak-a"
+  - "sa-a-saga"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "sunna"
+  - "tasbikh"
+  - "tauba"
+  - "tora"
+  - "vadzhib"
+  - "yadzhudzh-i-madzhudzh"
+  - "zikr"
 used_in:
-- 177-chtenie-korana-v-namaze-urok-9.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F87-dym-i-voshod-solnca-na-zapade"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F26-dokazatelstva-prorocheskoi-missii-muhammada-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F177-chtenie-korana-v-namaze-urok-9"
+  - "/quran/koran-2-uroven/?lesson=m20-02-an-la"
+  - "/quran/koran-2-uroven/?lesson=m21-07-shajarat"
+  - "/quran/muzakkara-tajvid/?lesson=l24-vakf"
 description: "Ад-Духан: дым, появление которого относится к признакам приближения Судного часа. Пояснение его распространения и воздействия на людей."
 ---
 

@@ -6,38 +6,80 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- bid-a
-- fard
-- fitra
-- i-tikaf
-- iblis
-- iman
-- islam
-- israf
-- khadzh
-- mechet
-- ramadan
-- riba
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sunna
-- takhadzhud
-- tauba
-- taufik
-- tavaf
-- umma
-- vasvasa
-- zikr
+  - "a-raf"
+  - "adam"
+  - "akida"
+  - "bid-a"
+  - "da-if-daif"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "fitra"
+  - "i-tikaf"
+  - "ibada-ibadat"
+  - "iblis"
+  - "idzhma"
+  - "ikhsan"
+  - "ilya"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "khafiz"
+  - "khalil"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khidzhra"
+  - "khukm"
+  - "kiyama-kyyama"
+  - "makam-makom"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mubtadi"
+  - "murdzhiity"
+  - "musulmanin"
+  - "nazr"
+  - "nikakh"
+  - "ramadan"
+  - "riba"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shafa-a"
+  - "shajtan"
+  - "shar"
+  - "shari-a"
+  - "shirk"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takhadzhud"
+  - "takva"
+  - "taravikh"
+  - "tauba"
+  - "taufik"
+  - "tavaf"
+  - "tavassul"
+  - "umma"
+  - "vadzhib"
+  - "vali"
+  - "vasvasa"
+  - "vitr"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 02-adab-tazkiya-urok-02.md
-- 03-adab-tazkiya-urok-03.md
-- 04-adab-tazkiya-urok-04.md
-- 06-adab-tazkiya-urok-06.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F02-adab-tazkiya-urok-02"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F03-adab-tazkiya-urok-03"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F04-adab-tazkiya-urok-04"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F06-adab-tazkiya-urok-06"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F30-tauassul"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F29-liubimetc-gospoda-mirov"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F28-vajees"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F89-41-hadis-strasti-i-istinnaya-vera"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F85-al-bakara-korova-35-37-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F86-al-bakara-korova-38-41-aiat"
 description: "Хава: первая женщина, супруга Адама и прародительница человечества. Пояснение её создания и места в истории первых людей."
 ---
 

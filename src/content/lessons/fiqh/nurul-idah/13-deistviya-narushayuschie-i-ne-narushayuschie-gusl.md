@@ -11,7 +11,7 @@ videoRel: video/13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.mp4
 ---
 # 13, Действия нарушающие и не нарушающие <a href="/glossary/gusl" class="glossary-link" target="_blank" rel="noopener noreferrer">гусль</a>
 <p><span class="arab">فَصْلٌ في ما يوجب الاغتسال</span></p> Раздел: действия делающие совершение гусля
-обязательным То есть действия нарушающие гусль. Слово гусль в арабском
+обязательным То есть действия нарушающие <a href="/glossary/gusl" class="glossary-link" target="_blank" rel="noopener noreferrer">гусль</a>. Слово гусль в арабском
 языке означает намочить все тело водой, а также воду, которой
 совершается гусль. В шариате: омывание тела чистой водой после
 осквернения (<a href="/glossary/dzhanaba" class="glossary-link" target="_blank" rel="noopener noreferrer">джанаба</a>), месячных (<a href="/glossary/khajd" class="glossary-link" target="_blank" rel="noopener noreferrer">хайд</a>) и послеродового кровотечения
@@ -40,7 +40,7 @@ videoRel: video/13-deistviya-narushayuschie-i-ne-narushayuschie-gusl.mp4
 его гусль нарушается. А по мнению Абу Юсуфа во всех этих случаях гусль
 не нарушается. Если он совершит намаз и затем выйдет семя, то после
 совершения гусля намаз перечитывать не нужно согласно единогласному
-мнению ученых. Согласно мнению Абу Юсуфа фетва выносится относительно
+мнению ученых. Согласно мнению Абу Юсуфа <a href="/glossary/fetva-fatva" class="glossary-link" target="_blank" rel="noopener noreferrer">фетва</a> выносится относительно
 гостя, а если человек не в гостях, то согласно мнению Абу Ханифы и
 Мухаммада. Это одинаково касается как мужчин, так и женщин согласно
 основному мнению мазхаба. Было сказано, что она обязана совершат гусль

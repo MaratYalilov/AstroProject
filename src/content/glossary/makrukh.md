@@ -6,155 +6,234 @@ category: М
 tags: []
 aliases: []
 related:
-- a-raf
-- adab
-- adam
-- ajn
-- azan
-- bid-a
-- birr
-- dalil
-- du-a
-- dukhan
-- dzhama-a
-- dzhanaba
-- dzhanaza
-- fadzhr
-- fard
-- fikkh
-- fitna
-- gusl
-- iblis
-- id
-- id-al-adkha
-- id-al-fitr
-- idda
-- idzhma
-- iftirash
-- ikamat
-- ikhlas
-- ikhram
-- ilya
-- iman
-- islam
-- istiftakh
-- istigfar
-- istikhara
-- istiska
-- kaaba
-- kaffara
-- kausar
-- khadzh
-- khajd
-- khalyal
-- kharam
-- khasan
-- khidzhab
-- khikma
-- khukm
-- khutba
-- kibla
-- kibr
-- kufr
-- kunut
-- makhr
-- makhram
-- mandub
-- maudu
-- mazkhab
-- mechet
-- mikhrab
-- mubakh
-- mubtadi
-- munkar
-- mursal
-- muskhaf
-- musulmanin
-- nadzhasa
-- nazr
-- nifas
-- nikakh
-- ramadan
-- rasul
-- ratiba
-- riya
-- rukhsa
-- rukn
-- sadaka
-- safar
-- sakhikh
-- salyam
-- salyat
-- sha-ban
-- shajtan
-- shart
-- shirk
-- sudzhud-at-tilyava
-- sukhur
-- sunna
-- tadzhvid
-- takhadzhud
-- takhara
-- taklid
-- talak
-- taravikh
-- tasbikh
-- tashakhkhud
-- tauba
-- taufik
-- tavaf
-- tavarruk
-- tayammum
-- umma
-- usul-al-fikkh
-- vadzhib
-- vitr
-- vudu
-- zikr
-- zina
-- zul-khidzha
+  - "a-raf"
+  - "adab"
+  - "adam"
+  - "ajn"
+  - "akida"
+  - "aksa"
+  - "amanat"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "birr"
+  - "da-if-daif"
+  - "dadzhal"
+  - "dalil"
+  - "diya-dijya"
+  - "du-a"
+  - "dukhan"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "iftirash"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "ikrakh"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "istiftakh"
+  - "istigfar"
+  - "istikhada"
+  - "istikhara"
+  - "istindzha"
+  - "istiska"
+  - "kaaba"
+  - "kafan"
+  - "kaffara"
+  - "kausar"
+  - "khadd-khudud"
+  - "khadzh"
+  - "khajd"
+  - "khalyal"
+  - "khamr"
+  - "kharam"
+  - "khasan"
+  - "khidzhab"
+  - "khidzhama"
+  - "khikma"
+  - "khukm"
+  - "khutba"
+  - "kibla"
+  - "kibr"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "kysas-kisas"
+  - "makhdi"
+  - "makhr"
+  - "makhram"
+  - "mandub"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "mikhrab"
+  - "miskin"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "muftij"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "nadzhasa"
+  - "namima"
+  - "nazr"
+  - "nifas"
+  - "nikakh"
+  - "niyat-nijya"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "ratiba"
+  - "riya"
+  - "rukhsa"
+  - "rukn"
+  - "rukya"
+  - "sa-a-saga"
+  - "sadaka"
+  - "safar"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "sha-ban"
+  - "shafa-a"
+  - "shajtan"
+  - "shakhada"
+  - "shart"
+  - "shavval-shauual"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sirat-syrat"
+  - "sudzhud-at-tilyava"
+  - "sukhur"
+  - "sunna"
+  - "tadzhvid"
+  - "takfir"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "talak"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "tavakkul"
+  - "tavarruk"
+  - "tayammum"
+  - "tora"
+  - "umma"
+  - "umra"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vasvasa"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zamzam-zemzem"
+  - "zikr"
+  - "zina"
+  - "zukhd"
+  - "zul-khidzha"
 used_in:
-- 133-azan-urok-11.md
-- 140-mecheti-urok-7.md
-- 142-mecheti-urok-9.md
-- 145-mecheti-urok-12.md
-- 146-mecheti-urok-13.md
-- 149-prikryvanie-aurata-urok-1.md
-- 150-prikryvanie-aurata-urok-2.md
-- 151-prikryvanie-aurata-urok-3.md
-- 153-sutra-urok-1.md
-- 160-opisanie-namaza-urok-4.md
-- 162-opisanie-namaza-urok-6.md
-- 176-chtenie-korana-v-namaze-urok-8.md
-- 177-chtenie-korana-v-namaze-urok-9.md
-- 18-adab-tazkiya-urok-18.md
-- 24-adab-tazkiya-urok-24.md
-- 30-kniga-namaza-4.md
-- 31-kniga-namaza-5.md
-- 33-kniga-namaza-7.md
-- 34-kniga-namaza-8.md
-- 35-kniga-namaza-9.md
-- 37-kniga-namaza-11.md
-- 42-kniga-namaza-16.md
-- 43-kniga-namaza-17.md
-- 45-kniga-namaza-19.md
-- 46-kniga-namaza-20.md
-- 47-kniga-namaza-21.md
-- 50-kniga-namaza-24.md
-- 51-kniga-namaza-25.md
-- 52-kniga-namaza-26.md
-- 53-esli-imam-oshibaetsya-27.md
-- 55-chto-narushaet-namaz-1-29.md
-- 56-chto-narushaet-namaz-2-30.md
-- 57-chto-narushaet-namaz-3-31.md
-- 58-chto-narushaet-namaz-4-32.md
-- 59-nezhelatelnye-dejstviya-v-namaze-33.md
-- 61-nezhelatelnye-dejstviya-v-namaze-35.md
-- 62-nezhelatelnye-dejstviya-v-namaze-36.md
-- 65-dejstviya-dozvolennye-v-namaze-38.md
-- 69-dopolnitelnye-namazy-43.md
-- 70-namaz-privetstviya-mecheti-44.md
-- 77-namaz-putnika-51.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F18-adab-tazkiya-urok-18"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F24-adab-tazkiya-urok-24"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F25-upovanie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F32-shirk"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F34-maloe-mnogobozhie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F51-obyazatelstva-musulmanina-pered-angelami"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F80-razrushenie-kaby"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F07-upodoblenie"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F92-nifas"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F123-kniga-namaza-azan-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F125-azan-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F126-azan-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F133-azan-urok-11"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F140-mecheti-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F142-mecheti-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F145-mecheti-urok-12"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F146-mecheti-urok-13"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F149-prikryvanie-aurata-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F150-prikryvanie-aurata-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F151-prikryvanie-aurata-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F153-sutra-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F160-opisanie-namaza-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F162-opisanie-namaza-urok-6"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F176-chtenie-korana-v-namaze-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F177-chtenie-korana-v-namaze-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F17-adaby-tualeta"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F18-obereganie-ot-mochi"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F21-spravlenie-nuzhdy"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F22-istindzha"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F40-kolichestvo-vody-dlya-omoveniya-i-guslya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F57-ostatki-vody-posle-zhivotnyh"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F71-usloviya-protiraniya-noskov"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F01-vidy-vody"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F02-polozhenie-ostatkov-vody"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F03-kolodcy"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F05-istindzha"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F09-adaby-omoveniya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F22-mesyachnye-nifas-istihada"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F31-kniga-namaza-5"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F33-kniga-namaza-7"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F34-kniga-namaza-8"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F35-kniga-namaza-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F37-kniga-namaza-11"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F42-kniga-namaza-16"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F43-kniga-namaza-17"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F45-kniga-namaza-19"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F46-kniga-namaza-20"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F47-kniga-namaza-21"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F50-kniga-namaza-24"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F51-kniga-namaza-25"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F52-kniga-namaza-26"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F53-esli-imam-oshibaetsya-27"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F55-chto-narushaet-namaz-1-29"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F56-chto-narushaet-namaz-2-30"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F57-chto-narushaet-namaz-3-31"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F58-chto-narushaet-namaz-4-32"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F59-nezhelatelnye-dejstviya-v-namaze-33"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F61-nezhelatelnye-dejstviya-v-namaze-35"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F62-nezhelatelnye-dejstviya-v-namaze-36"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F65-dejstviya-dozvolennye-v-namaze-38"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F69-dopolnitelnye-namazy-43"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F77-namaz-putnika-51"
 description: "Макрух: нежелательное действие, которое шариат требует оставить некатегорично. Пояснение награды за оставление и отсутствия наказания за совершение."
 ---
 

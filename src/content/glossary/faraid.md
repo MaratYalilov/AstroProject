@@ -5,8 +5,20 @@ letter: Ф
 category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "akida"
+  - "azan"
+  - "fakikh-fakykh"
+  - "imam"
+  - "istikhara"
+  - "khafiz"
+  - "khasan"
+  - "mazkhab"
+  - "rasul"
+  - "tabi-ij-tabi-un"
+  - "zikr"
+used_in:
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F02-biografiia-avtora-i-kommentatora"
 description: "Фараид: наука о наследовании, наследниках и размерах их долей. Пояснение того, кто получает наследство и кто лишается права на него."
 ---
 

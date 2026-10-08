@@ -12,7 +12,7 @@ order: 2107
 
 ## «<span class="arab">شجرت</span>» — 1 место
 
-«<span class="arab">شَجَرَة</span>» написано развёрнутой «та» **только** в суре **«ад-Духан»** (43) — «<span class="arab">الدُّخَان</span>» с **облегчённой** «ха» (не «<span class="arab">اد</span>-Духхан»):
+«<span class="arab">شَجَرَة</span>» написано развёрнутой «та» **только** в суре **«ад-<a href="/glossary/dukhan" class="glossary-link" target="_blank" rel="noopener noreferrer">Духан</a>»** (43) — «<span class="arab">الدُّخَان</span>» с **облегчённой** «ха» (не «<span class="arab">اد</span>-Духхан»):
 
 > <span class="arab">إِنَّ شَجَرَتَ ٱلزَّقُّومِ طَعَامُ ٱلۡأَثِيمِ</span> {Quran}44:43-44{/Quran}
 

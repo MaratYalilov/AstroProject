@@ -6,26 +6,65 @@ category: Ш
 tags: []
 aliases: []
 related:
-- azan
-- fadzhr
-- idzhtikhad
-- maudu
-- mazkhab
-- mechet
-- miskin
-- sakhikh
-- salyam
-- salyat
-- shakhada
-- sunna
-- tafsir
-- tashakhkhud
-- taufik
-- umma
-- vitr
+  - "akida"
+  - "azan"
+  - "bid-a"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "fadzhr"
+  - "fitra"
+  - "ibada-ibadat"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ikhsan"
+  - "ilya"
+  - "islam"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "kharidzhity-khavaridzhi"
+  - "khava"
+  - "khidzhra"
+  - "khukm"
+  - "kiyama-kyyama"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mu-tazility-mu-tazilya"
+  - "mubtadi"
+  - "murdzhiity"
+  - "musulmanin"
+  - "rakaat-rak-a"
+  - "rasul"
+  - "rububijya"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "shakhada"
+  - "shari-a"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "takdir-kadar"
+  - "taravikh"
+  - "tashakhkhud"
+  - "taufik"
+  - "taukhid"
+  - "umma"
+  - "vadzhib"
+  - "vitr"
+  - "zakyat"
 used_in:
-- 164-opisanie-namaza-urok-8.md
-- 24-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F24-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F18-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F28-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F5-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F164-opisanie-namaza-urok-8"
 description: "Шар': закон Аллаха, охватывающий вероубеждение, дела и нравственность. Определение понятия в исламской терминологии."
 ---
 

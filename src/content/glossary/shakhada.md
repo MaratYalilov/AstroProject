@@ -6,36 +6,69 @@ category: Ш
 tags: []
 aliases: []
 related:
-- azan
-- dzhikhad
-- fadzhr
-- id-al-adkha
-- idzhtikhad
-- islam
-- istigfar
-- khadzh
-- kharam
-- maudu
-- mazkhab
-- mechet
-- miskin
-- sadaka
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shar
-- sunna
-- tasbikh
-- tashakhkhud
-- tavarruk
-- umma
-- vitr
-- zakyat
+  - "akhlyul-fatra"
+  - "akida"
+  - "ashura"
+  - "azan"
+  - "dadzhal"
+  - "dzhabarity-dzhabrity-dzhabrijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "fadzhr"
+  - "fard"
+  - "fitna"
+  - "id"
+  - "id-al-adkha"
+  - "idzhtikhad"
+  - "imam"
+  - "islam"
+  - "istigfar"
+  - "kadarity-kadarijya"
+  - "kaffara"
+  - "khadzh"
+  - "kharam"
+  - "makhdi"
+  - "makrukh"
+  - "masikh"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "musulmanin"
+  - "mutavatir"
+  - "nazr"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shar"
+  - "shirk"
+  - "sunna"
+  - "tagut"
+  - "takdir-kadar"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "taufik"
+  - "taukhid"
+  - "tavarruk"
+  - "umma"
+  - "umra"
+  - "vitr"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 163-opisanie-namaza-urok-7.md
-- 164-opisanie-namaza-urok-8.md
-- 30-adab-tazkiya-urok-30.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F30-adab-tazkiya-urok-30"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F101-zhelanie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F85-isa"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F06-opravdanie-nevezhestvom"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F163-opisanie-namaza-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F164-opisanie-namaza-urok-8"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F12-2-hadis-shahada"
 description: "Шахада: свидетельство, присутствие, сообщение, знание или клятва. Разбор разных значений арабского слова и примеров его употребления."
 ---
 

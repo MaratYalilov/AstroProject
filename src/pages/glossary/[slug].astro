@@ -3,6 +3,7 @@ import Base from '@/layouts/Base.astro'
 import GlossaryPage from '@/components/glossary/GlossaryPage'
 import { getCollection } from 'astro:content'
 import { buildGlossaryEntryMetadata } from '@/utils/glossaryMetadata'
+import { loadGlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossary')
@@ -33,6 +34,7 @@ if (!entry) {
 const canonical = new URL(`/glossary/${slug}`, site).toString()
 
 const metadata = buildGlossaryEntryMetadata(entry.data)
+const lessonLinks = await loadGlossaryLessonLinks(entries.flatMap(entry => entry.data.used_in))
 ---
 <Base title={metadata.title} description={metadata.description} ogTitle={metadata.ogTitle} ogImage={entry.data.ogImage}>
   <Fragment slot="head">
@@ -46,6 +48,7 @@ const metadata = buildGlossaryEntryMetadata(entry.data)
 
   <GlossaryPage
     entries={entries}
+    lessonLinks={lessonLinks}
     initialSlug={slug}
     client:load
   />

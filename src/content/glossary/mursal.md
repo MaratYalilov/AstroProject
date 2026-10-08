@@ -6,56 +6,112 @@ category: М
 tags: []
 aliases: []
 related:
-- aksa
-- bid-a
-- du-a
-- dukhan
-- dzhinn
-- fard
-- iblis
-- id
-- idzhma
-- iftirash
-- ikhlas
-- iman
-- islam
-- kaaba
-- khadzh
-- khalyal
-- kharam
-- khasan
-- khidzhab
-- khidzhr
-- kibla
-- kibr
-- makrukh
-- mazkhab
-- mechet
-- nadzhasa
-- ramadan
-- riya
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sunna
-- tasbikh
-- tauba
-- tavarruk
-- vadzhib
-- zikr
-- zina
+  - "adam"
+  - "aksa"
+  - "arafa-arafat"
+  - "ashura"
+  - "bid-a"
+  - "da-if-daif"
+  - "du-a"
+  - "dukhan"
+  - "dzhanaza"
+  - "dzhinn"
+  - "fakikh-fakykh"
+  - "faraon-fir-aun"
+  - "fard"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "iftirash"
+  - "ikhlas"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "kaaba"
+  - "kafan"
+  - "kausar"
+  - "khadd-khudud"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khaud"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhab"
+  - "khidzhr"
+  - "kibr"
+  - "kufr"
+  - "kurban"
+  - "kysas-kisas"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mubakh"
+  - "munkar-i-nakir"
+  - "musulmanin"
+  - "nadzhasa"
+  - "nazr"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riba"
+  - "ribat"
+  - "riya"
+  - "rukn"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "tasbikh"
+  - "tauba"
+  - "tavaf"
+  - "tavarruk"
+  - "tayammum"
+  - "vadzhib"
+  - "vali"
+  - "vasvasa"
+  - "zakyat"
+  - "zikr"
+  - "zina"
+  - "zul-khidzha"
 used_in:
-- 134-mecheti-urok-1.md
-- 144-mecheti-urok-11.md
-- 146-mecheti-urok-13.md
-- 148-mecheti-urok-15.md
-- 150-prikryvanie-aurata-urok-2.md
-- 154-sutra-urok-2.md
-- 160-opisanie-namaza-urok-4.md
-- 177-chtenie-korana-v-namaze-urok-9.md
-- 180-poyasnoi-poklon-urok-3.md
-- 5-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F5-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F60-nauchnye-otkrytiya-v-korane-primery"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F65-smysl-very-v-poslannikov"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F84-izar"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F85-kaffara-za-blizost-vo-vremya-haida"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F134-mecheti-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F144-mecheti-urok-11"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F146-mecheti-urok-13"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F148-mecheti-urok-15"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F150-prikryvanie-aurata-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F154-sutra-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F160-opisanie-namaza-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F177-chtenie-korana-v-namaze-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F180-poyasnoi-poklon-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F08-ciyayuschie-lica"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F12-mazi-i-mani"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F15-prigotovlennoe-na-ogne"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F16-deistviya-narushayuschie-omovenie"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F36-protiranie-ushei"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F66-shkury-mertvyh-zhivotnyh"
+  - "/lesson?subject=fiqh&course=mishkat-tayammum&slug=fiqh%2Fmishkat-tayammum%2F78-poyavilas-voda-posle-tayammum"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F14-urok-sira-etapy-prizyva-chast3"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F76-al-bakara-korova-19-20-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F11-al-ikhlas-ochishchenie-very"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F30-ad-dukha-utro"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F42-al-burudzh-sozvezdiia-zodiaka-1"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F02-tafsir-poleznoe-vstuplenie"
 description: "Мурсаль: хадис, передаваемый таби'ином от Пророка без упоминания передатчика в иснаде. Определение этой категории сообщений."
 ---
 

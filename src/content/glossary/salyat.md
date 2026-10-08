@@ -6,65 +6,123 @@ category: С
 tags: []
 aliases: []
 related:
-- adab
-- azan
-- fadzhr
-- fard
-- id
-- idzhma
-- idzhtikhad
-- ikhram
-- iman
-- islam
-- istiftakh
-- kausar
-- kharam
-- khasan
-- khukm
-- kufr
-- kunut
-- makhr
-- makrukh
-- maudu
-- mazkhab
-- mechet
-- miskin
-- musulmanin
-- radzhab
-- ramadan
-- sadaka
-- safar
-- sakhikh
-- salyam
-- shajtan
-- shakhada
-- shar
-- sunna
-- tafsir
-- takfir
-- takhadzhud
-- takhara
-- taklid
-- taravikh
-- tashakhkhud
-- tavaf
-- umma
-- vadzhib
-- vitr
-- zakyat
-- zikr
+  - "adab"
+  - "adam"
+  - "akhlyak"
+  - "akida"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhinn"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fitra"
+  - "ibada-ibadat"
+  - "id"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ikhram"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "israf"
+  - "israfil"
+  - "istiftakh"
+  - "istikhara"
+  - "kausar"
+  - "khadzh"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kufr"
+  - "kunut"
+  - "makrukh"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mubakh"
+  - "mukhkam"
+  - "munkar-i-nakir"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "nazr"
+  - "niyat-nijya"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riya"
+  - "rububijya"
+  - "rukya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "saum-siyam"
+  - "shajtan"
+  - "shakhada"
+  - "shar"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sira"
+  - "sirat-syrat"
+  - "sunna"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "takva"
+  - "taravikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "tora"
+  - "umma"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zabkh"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 149-prikryvanie-aurata-urok-1.md
-- 156-sutra-urok-4.md
-- 164-opisanie-namaza-urok-8.md
-- 172-chtenie-korana-v-namaze-urok-4.md
-- 189-salavat-urok-1.md
-- 27-kniga-namaza-1.md
-- 46-kniga-namaza-20.md
-- 61-nezhelatelnye-dejstviya-v-namaze-35.md
-- 67-vitr-40.md
-- 77-namaz-putnika-51.md
-- 88-al-bakara-korova-45-47-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F11-edinobozhie-v-bozhestvennosti"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F56-chudo-korana-znamenie"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F03-poniatie-termina-akhliussunna"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F07-upodoblenie"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F31-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F5-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F8-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F112-namaz-vo-vremya-voshoda-solnca"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F122-srednii-namaz"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F149-prikryvanie-aurata-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F156-sutra-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F164-opisanie-namaza-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F172-chtenie-korana-v-namaze-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F189-salavat-urok-1"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F27-kniga-namaza-1"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F46-kniga-namaza-20"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F61-nezhelatelnye-dejstviya-v-namaze-35"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F67-vitr-40"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F18-2-hadis-znachimost-zakyata"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F68-al-bakara-korova-03-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F88-al-bakara-korova-45-47-aiat"
 description: "Салят, или намаз: поклонение с установленными словами и действиями, от такбира до приветствия. Определение молитвы в исламской терминологии."
 ---
 

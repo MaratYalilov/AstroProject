@@ -14,7 +14,7 @@ order: 2010
 
 ## Два места, согласованно слитные («<span class="arab">وَالْوَصْلُ صِفْ</span>»)
 
-- **<span class="arab">خَلَّفْتُمُونِي</span>** = аль-А'раф (150): «<span class="arab">بِئۡسَمَا خَلَفۡتُمُونِي مِنۢ بَعۡدِيٓ</span>»; {Quran}7:150{/Quran}
+- **<span class="arab">خَلَّفْتُمُونِي</span>** = аль-<a href="/glossary/a-raf" class="glossary-link" target="_blank" rel="noopener noreferrer">А'раф</a> (150): «<span class="arab">بِئۡسَمَا خَلَفۡتُمُونِي مِنۢ بَعۡدِيٓ</span>»; {Quran}7:150{/Quran}
 - **<span class="arab">اشْتَرَوْا</span>** = аль-Бакара (90): «<span class="arab">بِئۡسَمَا ٱشۡتَرَوۡاْ بِهِۦٓ أَنفُسَهُمۡ</span>». {Quran}2:90{/Quran}
 
 ## Итог

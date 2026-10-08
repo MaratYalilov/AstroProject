@@ -45,7 +45,7 @@ videoRel: video/83-35-hadis-musulmanin-brat-musulmanina.mp4
 - Богобоязненность (<a href="/glossary/takva" class="glossary-link" target="_blank" rel="noopener noreferrer">таква</a>) — в сердце, и только Аллах знает истинное положение человека
 
 **Основополагающий принцип:**
-- **"Мусульманин мусульманину брат"** — это фундаментальное отношение
+- **"<a href="/glossary/musulmanin" class="glossary-link" target="_blank" rel="noopener noreferrer">Мусульманин</a> мусульманину брат"** — это фундаментальное отношение
 - **"Запретны для мусульманина кровь, имущество и честь другого мусульманина"** — большинство правил Шариата направлены на защиту этих трёх ценностей
   *Примеры:*
   - Запрет ростовщичества (<a href="/glossary/riba" class="glossary-link" target="_blank" rel="noopener noreferrer">риба</a>) → защита имущества

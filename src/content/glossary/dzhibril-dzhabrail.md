@@ -5,8 +5,37 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "barzakh"
+  - "burak"
+  - "iblis"
+  - "id"
+  - "imam"
+  - "islam"
+  - "israfil"
+  - "khafiz"
+  - "khanif"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khira"
+  - "kuds-bejt-al-makdis"
+  - "mankhadzh-minkha-dzh"
+  - "mechet"
+  - "mikail-mikal"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "ramadan"
+  - "shavval-shauual"
+  - "tora"
+  - "zakkum"
+used_in:
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F2-3-imena"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-6-vera-v-smertnyy-mig"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F09-urok-sira-formy-peredachi-otkroveniya"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F23-urok-sira-taif-nochnoe-voznesenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F83-al-bakara-korova-31-33-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F59-an-naziat-istorgaiushchie-3"
 description: "Джибрил, или Джабраил: ангел, передающий откровения Аллаха Его пророкам. Пояснение имени, положения и обязанностей этого ангела."
 ---
 

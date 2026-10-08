@@ -11,7 +11,7 @@ videoRel: video/04-istindzha.mp4
 ---
 # 4,  <a href="/glossary/istindzha" class="glossary-link" target="_blank" rel="noopener noreferrer">Истинджа</a>
 <p><span class="arab">فَصْلٌ فِي الاسْتِنْجَاءِ</span></p>
-<p>Раздел: истинджа Истинджа – протирание или промывание места выхода наджиса. Или это удаление наджиса водой и другими вещами.</p>
+<p>Раздел: <a href="/glossary/istindzha" class="glossary-link" target="_blank" rel="noopener noreferrer">истинджа</a> Истинджа – протирание или промывание места выхода наджиса. Или это удаление наджиса водой и другими вещами.</p>
 <p class="arab">الاِسْتطَابَةُ</p>
 <p>- иститаба, синоним слова истинджа.</p>
 <p><span class="arab"> الاِسْتِجْمَارُ</span></p>

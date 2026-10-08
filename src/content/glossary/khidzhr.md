@@ -6,31 +6,68 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- aksa
-- fard
-- fitna
-- iblis
-- iman
-- islam
-- kaaba
-- kharam
-- kharut-i-marut
-- khasan
-- kibla
-- kufr
-- mechet
-- mursal
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sikhr
-- sunna
-- zina
+  - "adam"
+  - "aksa"
+  - "ansary"
+  - "ashura"
+  - "din"
+  - "du-a"
+  - "dzhakhilijya"
+  - "dzhama-a"
+  - "dzhinn"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fitna"
+  - "iblis"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "kaaba"
+  - "karamat"
+  - "khadzh"
+  - "khafiz"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhra"
+  - "khira"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "mechet"
+  - "mikail-mikal"
+  - "mursal"
+  - "musulmanin"
+  - "ramadan"
+  - "riba"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shakhid"
+  - "shirk"
+  - "sikhr"
+  - "sira"
+  - "sunna"
+  - "umma"
+  - "vadzhib"
+  - "vali"
+  - "zina"
 used_in:
-- 108-al-bakara-korova-102-103-aiat.md
-- 134-mecheti-urok-1.md
-- 16-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F16-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F65-smysl-very-v-poslannikov"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F134-mecheti-urok-1"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F06-urok-sira-vzroslaya-zhizn-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F07-urok-sira-oblik-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F15-urok-sira-prodolzhenie-ispytanii"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F108-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F84-al-bakara-korova-34-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F35-al-fadzhr-zaria-chast-2"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F02-tafsir-poleznoe-vstuplenie"
+  - "/quran/dzhazariyya/?lesson=gl-08-dad-za"
+  - "/quran/koran-2-uroven/?lesson=m09-05-dad"
 description: "Аль-хиджр: северная часть Каабы, обозначенная полукруглой стеной. Пояснение её связи с перестройкой Каабы курайшитами."
 ---
 

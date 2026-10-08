@@ -6,70 +6,108 @@ category: Т
 tags: []
 aliases: []
 related:
-- amanat
-- bid-a
-- din
-- du-a
-- dukhan
-- dzhanaba
-- dzhikhad
-- fadzhr
-- fard
-- fikkh
-- gusl
-- id
-- id-al-adkha
-- idzhma
-- ikhlas
-- ikhram
-- islam
-- istigfar
-- kausar
-- khadzh
-- khalyal
-- kharam
-- khasan
-- khukm
-- makrukh
-- mazkhab
-- mechet
-- mikhrab
-- mizan
-- mursal
-- musulmanin
-- nadzhasa
-- ramadan
-- riya
-- rukn
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shakhada
-- sunna
-- tashakhkhud
-- taufik
-- tavarruk
-- vadzhib
-- vitr
-- vudu
-- zakyat
-- zikr
+  - "adam"
+  - "akida"
+  - "amanat"
+  - "bid-a"
+  - "da-if-daif"
+  - "din"
+  - "du-a"
+  - "dukhan"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaba"
+  - "dzhikhad"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fikkh"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ikhram"
+  - "ilya"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "istigfar"
+  - "kaffara"
+  - "kausar"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "kufr"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mikhrab"
+  - "mizan"
+  - "mu-tazility-mu-tazilya"
+  - "mursal"
+  - "musulmanin"
+  - "nadzhasa"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riya"
+  - "rukn"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shakhada"
+  - "shi-a-shiity"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takdir-kadar"
+  - "tashakhkhud"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "tavarruk"
+  - "tayammum"
+  - "tora"
+  - "ukhud"
+  - "umma"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "vasvasa"
+  - "vitr"
+  - "vudu"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 16-adab-tazkiya-urok-16.md
-- 163-opisanie-namaza-urok-7.md
-- 176-chtenie-korana-v-namaze-urok-8.md
-- 177-chtenie-korana-v-namaze-urok-9.md
-- 178-poyasnoi-poklon-urok-1.md
-- 180-poyasnoi-poklon-urok-3.md
-- 29-adab-tazkiya-urok-29.md
-- 30-adab-tazkiya-urok-30.md
-- 43-kniga-namaza-17.md
-- 45-kniga-namaza-19.md
-- 47-kniga-namaza-21.md
-- 55-chto-narushaet-namaz-1-29.md
-- 62-nezhelatelnye-dejstviya-v-namaze-36.md
-- 64-sutra-37.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F16-adab-tazkiya-urok-16"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F29-adab-tazkiya-urok-29"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F30-adab-tazkiya-urok-30"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F66-raznica-mezhdu-poslannikom-i-prorokom"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F33-somneniia-otritcaiushchikh-rech-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F34-kto-schitaiet-quran-pereskazom-rechi-allaha"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F163-opisanie-namaza-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F176-chtenie-korana-v-namaze-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F177-chtenie-korana-v-namaze-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F178-poyasnoi-poklon-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F180-poyasnoi-poklon-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F07-klyuchi-namaza"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F37-somnenie-v-omovenii"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F38-obtiranie-posle-omoveniya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F43-kniga-namaza-17"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F45-kniga-namaza-19"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F47-kniga-namaza-21"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F55-chto-narushaet-namaz-1-29"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F62-nezhelatelnye-dejstviya-v-namaze-36"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F64-sutra-37"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F81-al-bakara-korova-29-30-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F13-an-nasr-pomoshch"
 description: "Тасбих: прославление Аллаха и утверждение Его свободы от недостатков. Пояснение значения термина и отрицания приписываемой Ему порочности."
 ---
 

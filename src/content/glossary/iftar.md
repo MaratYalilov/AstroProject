@@ -5,8 +5,22 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "fidya-fidiya"
+  - "gusl"
+  - "kaffara"
+  - "khidzhama"
+  - "mazkhab"
+  - "nazr"
+  - "ramadan"
+  - "sa-a-saga"
+  - "sadaka"
+  - "sukhur"
+  - "sunna"
+  - "vadzhib"
+used_in:
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F53-postanovleniya-kasayushhiesya-vody"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F54-voda-posle-omoveniya"
 description: "Ифтар: прерывание поста или разговение после завершения дня поста. Пояснение значений слова и его связи с приёмом пищи и питья."
 ---
 

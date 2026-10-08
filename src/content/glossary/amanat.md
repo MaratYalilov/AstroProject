@@ -6,20 +6,63 @@ category: А
 tags: []
 aliases: []
 related:
-- dalil
-- islam
-- khasan
-- khukm
-- musulmanin
-- riya
-- sakhikh
-- salyam
-- tasbikh
-- umma
-- zikr
+  - "adam"
+  - "azan"
+  - "bid-a"
+  - "dalil"
+  - "din"
+  - "dzhama-a"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "ibada-ibadat"
+  - "iblis"
+  - "id"
+  - "ikhsan"
+  - "iman"
+  - "islam"
+  - "istigfar"
+  - "kaffara"
+  - "kausar"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khaud"
+  - "khidzhama"
+  - "khukm"
+  - "kufr"
+  - "makrukh"
+  - "mechet"
+  - "mikail-mikal"
+  - "mubtadi"
+  - "muftij"
+  - "musulmanin"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sirat-syrat"
+  - "sivak-misvak"
+  - "sunna"
+  - "takhadzhud"
+  - "tasbikh"
+  - "ukhud"
+  - "umma"
+  - "umra"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 16-adab-tazkiya-urok-16.md
-- 26-adab-tazkiya-urok-26.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F16-adab-tazkiya-urok-16"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F26-adab-tazkiya-urok-26"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F05-sut-very"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F34-maloe-mnogobozhie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F39-maloe-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F94-vesy"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F17-2-hadis-znachenie-namaza"
 description: "Аманат: возложенные на человека обязательства и вверенное ему на хранение. Пояснение ответственности за поклонение, долги и сохранение тайн."
 ---
 

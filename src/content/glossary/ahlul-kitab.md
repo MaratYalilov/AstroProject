@@ -6,30 +6,37 @@ category: А
 tags: []
 aliases: []
 related:
-- bid-a
-- din
-- du-a
-- fard
-- ikhlas
-- iman
-- indzhil
-- islam
-- khalyal
-- kharam
-- kufr
-- mukhkam
-- musulmanin
-- mutashabikh
-- riya
-- sakhikh
-- salyam
-- sunna
-- tafsir
-- umma
-- zakyat
+  - "bid-a"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "fard"
+  - "ikhlas"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "khalyal"
+  - "kharam"
+  - "kufr"
+  - "mechet"
+  - "mukhkam"
+  - "munkar-i-nakir"
+  - "musulmanin"
+  - "mutashabikh"
+  - "niyat-nijya"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "sunna"
+  - "tafsir"
+  - "taukhid"
+  - "umma"
+  - "zakyat"
 used_in:
-- 113-al-bakara-korova-111-113-aiat.md
-- 118-al-bakara-korova-120-123-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F14-vtoroe-uslovie-ubezhdennost"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F34-vajees"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F113-al-bakara-korova-111-113-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F118-al-bakara-korova-120-123-aiat"
 description: "Ахлюль-китаб (люди Писания) - иудеи и христиане. Происхождение названия, Тора и Инджиль, шариатские положения о браке и жертвенной пище."
 ---
 

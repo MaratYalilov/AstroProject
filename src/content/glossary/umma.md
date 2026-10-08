@@ -6,84 +6,147 @@ category: У
 tags: []
 aliases: []
 related:
-- a-raf
-- ahlul-kitab
-- amanat
-- ansary
-- azan
-- bid-a
-- dalil
-- din
-- du-a
-- dzhanaba
-- dzhanaza
-- dzhikhad
-- fadzhr
-- fard
-- i-tikaf
-- id
-- idzhtikhad
-- ikamat
-- iman
-- indzhil
-- islam
-- isra
-- israf
-- khadzh
-- khajd
-- khalyal
-- kharam
-- khasan
-- khava
-- khidzhab
-- khikma
-- khukm
-- kibr
-- kufr
-- makrukh
-- maudu
-- mazkhab
-- mechet
-- miskin
-- mukhkam
-- musulmanin
-- mutashabikh
-- nifas
-- ramadan
-- rasul
-- sadaka
-- safar
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shakhada
-- shar
-- sunna
-- tafsir
-- takhadzhud
-- tashakhkhud
-- tauba
-- ukhud
-- vadzhib
-- vali
-- vitr
-- zakyat
-- zikr
+  - "a-raf"
+  - "adab"
+  - "adam"
+  - "ahlul-kitab"
+  - "akhlyul-khadis"
+  - "akida"
+  - "amanat"
+  - "ansary"
+  - "arafa-arafat"
+  - "arsh"
+  - "azan"
+  - "baki-baky"
+  - "bid-a"
+  - "dalil"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitra"
+  - "gusl"
+  - "i-tikaf"
+  - "ibada-ibadat"
+  - "id"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhlas"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "istikhada"
+  - "kaaba"
+  - "kausar"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalyal"
+  - "kharadzh"
+  - "kharam"
+  - "khasan"
+  - "khava"
+  - "khidzhab"
+  - "khidzhr"
+  - "khikma"
+  - "khira"
+  - "khukm"
+  - "kibr"
+  - "kufr"
+  - "makhdi"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "masikh"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mizan"
+  - "mukhadzhiry"
+  - "mukhkam"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "nasikha"
+  - "nifas"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riya"
+  - "rububijya"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shakhada"
+  - "shar"
+  - "shari-a"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tadzhvid"
+  - "tafsir"
+  - "takhadzhud"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "ukhud"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "zakyat"
+  - "zikr"
+  - "zina"
 used_in:
-- 02-adab-tazkiya-urok-02.md
-- 100-al-bakara-korova-83-84-aiat.md
-- 103-al-bakara-korova-91-93-aiat.md
-- 112-al-bakara-korova-108-110-aiat.md
-- 118-al-bakara-korova-120-123-aiat.md
-- 12-adab-tazkiya-urok-12.md
-- 14-adab-tazkiya-urok-14.md
-- 164-opisanie-namaza-urok-8.md
-- 18-adab-tazkiya-urok-18.md
-- 26-adab-tazkiya-urok-26.md
-- 29-kniga-namaza-3.md
-- 33-kniga-namaza-7.md
-- 94-al-bakara-korova-62-66-aiat.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F02-adab-tazkiya-urok-02"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F12-adab-tazkiya-urok-12"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F14-adab-tazkiya-urok-14"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F18-adab-tazkiya-urok-18"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F26-adab-tazkiya-urok-26"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F03-akyda-istinnaya-i-lozhnaya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F06-shariat-ukazyvaet-na-suschestvovanie-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F70-prorocheskaya-missiya-muhammada"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F1-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F97-vozmeshchenie-namaza-posle-ochishcheniia"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F164-opisanie-namaza-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F05-omovenie-i-namaz"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F38-obtiranie-posle-omoveniya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F45-omovenie-posle-guslya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F29-kniga-namaza-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F33-kniga-namaza-7"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F66-19-hadis-esli-prosish-prosi-u-allaha"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F04-sobranie-korana"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F05-rasm-muskhafa-md"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F07-prichiny-nisposlaniia-aiatov"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F100-al-bakara-korova-83-84-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F103-al-bakara-korova-91-93-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F112-al-bakara-korova-108-110-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F118-al-bakara-korova-120-123-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F66-al-bakara-korova-01-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F70-al-bakara-korova-06-07-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F94-al-bakara-korova-62-66-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F15-al-kausar-izobilie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F25-al-bejjina-yasnoe-znamenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F31-al-lejl-noch"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F35-al-fadzhr-zaria-chast-2"
+  - "/quran/dzhazariyya/?lesson=gl-04-tadzhvid"
+  - "/quran/koran-2-uroven/?lesson=m02-01-chto-takoe-tadzhvid"
+  - "/quran/koran-2-uroven/?lesson=m02-08-mushafy-usmana"
 description: "Умма: община приверженцев ислама во всём мире. Пояснение её единства в вере, общих целях, благих интересах и заботах."
 ---
 

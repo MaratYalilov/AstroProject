@@ -5,8 +5,11 @@ letter: И
 category: И
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "idzhma"
+  - "khasan"
+used_in:
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F06-nahozhdenie-s-omoveniem"
 description: "Истикама: неуклонное следование Корану и Сунне без отклонения от прямого пути. Пояснение исполнения обязательств и оставления запретного."
 ---
 

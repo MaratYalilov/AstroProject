@@ -16,7 +16,7 @@ related:
 - tauba
 - zikr
 used_in:
-- 136-mecheti-urok-3.md
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F136-mecheti-urok-3"
 description: "Рауда: сад или луг. Пояснение хадиса о месте между минбаром и домом Пророка и разных толкований слов об одном из райских садов."
 ---
 

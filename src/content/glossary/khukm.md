@@ -6,79 +6,172 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- adam
-- aksa
-- amanat
-- ansary
-- azan
-- bid-a
-- din
-- du-a
-- dzhanaba
-- fadzhr
-- fard
-- fikkh
-- i-tikaf
-- iblis
-- id
-- idda
-- idzhma
-- ikamat
-- iman
-- indzhil
-- islam
-- khajd
-- khalyal
-- kharam
-- khasan
-- kibla
-- kibr
-- kufr
-- kunut
-- ma-ruf
-- makrukh
-- mazkhab
-- mechet
-- muskhaf
-- musulmanin
-- naskh
-- nifas
-- radzhab
-- ramadan
-- riya
-- sadaka
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- sikhr
-- sunna
-- tafsir
-- takfir
-- takhadzhud
-- takhara
-- taklid
-- tasbikh
-- tashakhkhud
-- tauba
-- umma
-- usul-al-fikkh
-- vadzhib
-- vitr
-- zakyat
-- zikr
+  - "adab"
+  - "adam"
+  - "ajn"
+  - "akida"
+  - "aksa"
+  - "amanat"
+  - "ansary"
+  - "ashura"
+  - "azan"
+  - "barzakh"
+  - "bid-a"
+  - "dalil"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitra"
+  - "gusl"
+  - "i-tikaf"
+  - "iblis"
+  - "id"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhsan"
+  - "ikrakh"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "istigfar"
+  - "istikhara"
+  - "kaaba"
+  - "kabair"
+  - "kadarity-kadarijya"
+  - "kalam"
+  - "karun-korun"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalyal"
+  - "khamr"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khava"
+  - "khidzhab"
+  - "kibla"
+  - "kibr"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "ma-ruf"
+  - "makhdi"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "muftij"
+  - "mukallyaf"
+  - "mukhkam"
+  - "murdzhiity"
+  - "muskhaf"
+  - "musulmanin"
+  - "nadzhasa"
+  - "naskh"
+  - "nifas"
+  - "nikab"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riya"
+  - "sadaka"
+  - "sagair-sogair"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shar"
+  - "shari-a"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sira"
+  - "sirat-syrat"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "takva"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taukhid"
+  - "tayammum"
+  - "tora"
+  - "umma"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vakf"
+  - "vakhj-vakhij"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "zabur"
+  - "zakyat"
+  - "zamzam-zemzem"
+  - "zikr"
+  - "zina"
+  - "zindik"
+  - "zukhd"
 used_in:
-- 103-al-bakara-korova-91-93-aiat.md
-- 110-al-bakara-korova-103-106-aiat.md
-- 111-al-bakara-korova-106-107-aiat.md
-- 140-mecheti-urok-7.md
-- 16-adab-tazkiya-urok-16.md
-- 22-adab-tazkiya-urok-22.md
-- 27-kniga-namaza-1.md
-- 32-adab-tazkiya-urok-32.md
-- 33-kniga-namaza-7.md
-- 4-razrush-svoego-idola.md
-- 67-vitr-40.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F4-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F16-adab-tazkiya-urok-16"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F22-adab-tazkiya-urok-22"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F32-adab-tazkiya-urok-32"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F28-tri-osnovy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F39-maloe-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F52-vera-v-pisaniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F68-otlichitelnye-kachestva-prorokov"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F01-takhaviya-vstuplenie"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F23-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F28-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F3-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F32-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F140-mecheti-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F51-gusl-v-pyatnicu"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F01-vidy-vody"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F02-polozhenie-ostatkov-vody"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F27-kniga-namaza-1"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F33-kniga-namaza-7"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F67-vitr-40"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F103-al-bakara-korova-91-93-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F110-al-bakara-korova-103-106-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F111-al-bakara-korova-106-107-aiat"
+  - "/quran/koran-2-uroven/?lesson=m16-04-fama-atani"
+  - "/quran/koran-2-uroven/?lesson=m17-15-znak-kylya"
+  - "/quran/koran-2-uroven/?lesson=m18-07-hukm-rauma"
+  - "/quran/koran-2-uroven/?lesson=m18-08-ishmam"
 description: "Хукм: шариатское постановление, относящееся к действиям религиозно ответственного человека. Пояснение требования, выбора и установления."
 ---
 

@@ -5,8 +5,15 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "arsh"
+  - "iman"
+  - "islam"
+  - "musulmanin"
+  - "taukhid"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F10-edinobozhie-v-gospodstve"
 description: "Мут'а: брак на заранее оговорённый срок за плату. Пояснение условий такого союза, его прекращения и отличий в обязательствах супругов."
 ---
 

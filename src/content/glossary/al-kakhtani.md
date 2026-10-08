@@ -5,8 +5,17 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "dadzhal"
+  - "id"
+  - "khasan"
+  - "mechet"
+  - "sakhikh"
+  - "salyam"
+  - "yadzhudzh-i-madzhudzh"
+  - "zina"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F79-voyna-musulman-s-rimlyanami"
 description: "Аль-Кахтани: праведный человек, появление которого относится к признакам приближения Судного часа. Пояснение его роли и качеств."
 ---
 

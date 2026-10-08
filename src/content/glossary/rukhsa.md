@@ -6,22 +6,28 @@ category: Р
 tags: []
 aliases: []
 related:
-- azima
-- dzhanaba
-- dzhanaza
-- fard
-- kharam
-- kufr
-- makrukh
-- mubakh
-- ramadan
-- rukn
-- safar
-- salyam
-- vudu
+  - "azima"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "fard"
+  - "gusl"
+  - "kharam"
+  - "kufr"
+  - "makrukh"
+  - "mazkhab"
+  - "mubakh"
+  - "niyat-nijya"
+  - "ramadan"
+  - "rukn"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "sunna"
+  - "vudu"
 used_in:
-- 57-chto-narushaet-namaz-3-31.md
-- 74-namaz-putnika-48.md
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F72-protiranie-kozhanyh-noskov"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F57-chto-narushaet-namaz-3-31"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F74-namaz-putnika-48"
 description: "Рухса: шариатское послабление, облегчающее непосильное в случае крайней необходимости. Определение понятия и его назначения."
 ---
 

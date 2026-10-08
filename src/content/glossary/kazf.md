@@ -5,8 +5,24 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "dadzhal"
+  - "islam"
+  - "khasan"
+  - "makhdi"
+  - "musulmanin"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shafa-a"
+  - "shirk"
+  - "sirat-syrat"
+  - "sunna"
+  - "yadzhudzh-i-madzhudzh"
+  - "zulm"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F95-raschet-za-nespravedlivost"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F10-vajees"
 description: "Казф: обвинение целомудренного человека в прелюбодеянии без четырёх свидетелей. Пояснение понятия и ответственности за подобное обвинение."
 ---
 

@@ -6,43 +6,129 @@ category: К
 tags: []
 aliases: []
 related:
-- adam
-- azan
-- du-a
-- dzhanaza
-- fard
-- gusl
-- id
-- ikamat
-- ikhlas
-- khalil
-- kharam
-- khasan
-- khidzhr
-- kibla
-- kufr
-- makrukh
-- mechet
-- mursal
-- nadzhasa
-- rukn
-- safar
-- sakhikh
-- salyam
-- shart
-- shirk
-- sunna
-- tafsir
-- tavaf
-- tayammum
-- ukhud
-- vudu
+  - "adab"
+  - "adam"
+  - "aksa"
+  - "ansary"
+  - "arsh"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "dadzhal"
+  - "dalil"
+  - "din"
+  - "du-a"
+  - "dzhakhilijya"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fard"
+  - "fetva-fatva"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "idda"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhlas"
+  - "ilya"
+  - "imam"
+  - "islam"
+  - "israfil"
+  - "istikhara"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "khafiz"
+  - "khalil"
+  - "khalyal"
+  - "khamr"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khidzhr"
+  - "khidzhra"
+  - "khira"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kibla"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "makam-makom"
+  - "makhdi"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mechet"
+  - "mikail-mikal"
+  - "mukhadzhiry"
+  - "mukhkam"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "nadzhasa"
+  - "naskh"
+  - "nikakh"
+  - "niyat-nijya"
+  - "ramadan"
+  - "rukn"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sira"
+  - "sirat-syrat"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "tavaf"
+  - "tayammum"
+  - "tora"
+  - "ukhud"
+  - "umma"
+  - "vakhj-vakhij"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zamzam-zemzem"
+  - "zina"
 used_in:
-- 115-al-bakara-korova-115-aiat.md
-- 119-al-bakara-korova-125-aiat.md
-- 120-al-bakara-korova-126-aiat.md
-- 134-mecheti-urok-1.md
-- 34-kniga-namaza-8.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F62-mesta-shodstva-mezhdu-shariatami"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F80-razrushenie-kaby"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F92-voskresenie"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-2-malye-priznaki-sudnogo-dnya"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F134-mecheti-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F41-prichiny-dlya-soversheniya-guslya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F46-sokrytie-aurata"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F34-kniga-namaza-8"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F02-urok-sira-religii-arabov"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F06-urok-sira-vzroslaya-zhizn-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F07-urok-sira-oblik-proroka"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F07-prichiny-nisposlaniia-aiatov"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F115-al-bakara-korova-115-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F119-al-bakara-korova-125-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F120-al-bakara-korova-126-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F63-al-bakara-ayat-al-kursi"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F66-al-bakara-korova-01-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F11-al-ikhlas-ochishchenie-very"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F17-kurejsh-kurejshity"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F25-al-bejjina-yasnoe-znamenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F26-al-kadr-predopredelenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F28-at-tin_smokovnitca"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F39-al-aglya-vsevyshniy-1"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F47-al-mutaffifin-obveshivaiushchie-2"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F48-al-mutaffifin-obveshivaiushchie-3"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F57-an-naziat-istorgaiushchie-1"
 description: "Кааба: святыня, к которой обращаются мусульмане во время намаза. Пояснение её значения для паломников и обхода вокруг неё."
 ---
 

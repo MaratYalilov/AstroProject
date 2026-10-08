@@ -5,8 +5,18 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "islam"
+  - "khaud"
+  - "mechet"
+  - "mursal"
+  - "sadaka"
+  - "tabi-ij-tabi-un"
+  - "vudu"
+  - "zikr"
+used_in:
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F02-dostoinstva-omoveniya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F08-ciyayuschie-lica"
 description: "Рибат: усердие в поклонении в общем смысле и охрана границ в особом. Разбор двух значений слова в исламской терминологии."
 ---
 

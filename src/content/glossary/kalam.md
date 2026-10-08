@@ -5,8 +5,48 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "akida"
+  - "bid-a"
+  - "din"
+  - "dzhama-a"
+  - "fakikh-fakykh"
+  - "fard"
+  - "fikkh"
+  - "id"
+  - "iman"
+  - "islam"
+  - "khadzh"
+  - "khafiz"
+  - "khasan"
+  - "khidr-khidir-khizr-khyzr"
+  - "khukm"
+  - "makhdi"
+  - "mu-tazility-mu-tazilya"
+  - "mubtadi"
+  - "muskhaf"
+  - "musulmanin"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shari-a"
+  - "shi-a-shiity"
+  - "sunna"
+  - "tadzhvid"
+  - "takdir-kadar"
+  - "tauba"
+  - "taukhid"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vali"
+  - "zabkh"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F02-terminy"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F40-islam-eto-pokornost-i-podchinenie"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F32-vajees"
+  - "/quran/dzhazariyya/?lesson=gl-13-maktu-mausul"
+  - "/quran/koran-2-uroven/?lesson=m20-01-vvedenie"
 description: "Калам: дисциплина, обсуждающая вопросы вероубеждения на основе доводов разума. Пояснение значения термина в исламском словаре."
 ---
 

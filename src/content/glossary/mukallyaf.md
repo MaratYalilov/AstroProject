@@ -6,11 +6,26 @@ category: М
 tags: []
 aliases: []
 related:
-- khasan
-- sakhikh
-- zakyat
+  - "dzhama-a"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ilya"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mubakh"
+  - "musulmanin"
+  - "sakhikh"
+  - "sunna"
+  - "taklid"
+  - "vali"
+  - "zakyat"
 used_in:
-- 14-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F14-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F23-vajees"
 description: "Мукалляф: человек, ответственный за исполнение религиозных обязательств. Пояснение требований совершеннолетия, разума, способности и свободы выбора."
 ---
 

@@ -6,27 +6,71 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- adam
-- du-a
-- ikhlas
-- islam
-- israfil
-- kaaba
-- kharam
-- khasan
-- khidzhab
-- mechet
-- miskin
-- sadaka
-- sakhikh
-- salyam
-- shirk
-- sunna
-- tafsir
-- tavaf
+  - "a-raf"
+  - "adam"
+  - "akida"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fetva-fatva"
+  - "fikkh"
+  - "ibada-ibadat"
+  - "id"
+  - "ikhlas"
+  - "iman"
+  - "islam"
+  - "israfil"
+  - "kaaba"
+  - "karun-korun"
+  - "khadzh"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khava"
+  - "khidzhab"
+  - "kiyama-kyyama"
+  - "makam-makom"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "rakaat-rak-a"
+  - "sa-a-saga"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salafiya-salyafiya"
+  - "salyam"
+  - "shafa-a"
+  - "shajtan"
+  - "shakhid"
+  - "shirk"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "takhadzhud"
+  - "taukhid"
+  - "tavaf"
+  - "vali"
 used_in:
-- 119-al-bakara-korova-125-aiat.md
-- 17-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F17-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F01-vstuplenie-shest-stepeney-imana"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F98-hodataystvo"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F29-liubimetc-gospoda-mirov"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-23-khodataystvo"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F102-vremena-namazov"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F107-otkladyvanie-namaza-isha"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F114-otkladyvanie-isha-namaza"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F119-al-bakara-korova-125-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F45-al-inshikak-razverznetsia-2"
+  - "/quran/dzhazariyya/?lesson=gl-02-mahradzhi"
+  - "/quran/dzhazariyya/?lesson=gl-15-hamzat-al-vasl"
+  - "/quran/koran-2-uroven/?lesson=m04-01-skolko-mest"
+  - "/quran/koran-2-uroven/?lesson=m10-05-idgam-odnorodnyh-1"
+  - "/quran/koran-2-uroven/?lesson=m19-01-vvedenie"
 description: "Халиль: высокое положение в любви Аллаха, которого удостоились Ибрахим и Мухаммад. Пояснение значения этого именования пророков."
 ---
 

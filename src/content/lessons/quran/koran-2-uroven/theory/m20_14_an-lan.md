@@ -13,7 +13,7 @@ order: 2014
 «<span class="arab">أَنْ</span>» оканчивается на «нун» с сукуном, «<span class="arab">لَنْ</span>» начинается с «лям»; «нун» сливается с «лям». В **двух** местах написано **слитно** (на идгам, без «нун»):
 
 - **аль-Кахф (48)**: «<span class="arab">أَنْ لَنْ نَجْعَلَ لَكُمْ مَوْعِدًا</span>» («<span class="arab">أَلَّنْ</span>»);
-- **аль-Кыяма (3)**: «<span class="arab">أَنْ لَنْ نَجْمَعَ عِظَامَهُ</span>» («<span class="arab">أَلَّنْ</span>»).
+- **аль-<a href="/glossary/kiyama-kyyama" class="glossary-link" target="_blank" rel="noopener noreferrer">Кыяма</a> (3)**: «<span class="arab">أَنْ لَنْ نَجْمَعَ عِظَامَهُ</span>» («<span class="arab">أَلَّنْ</span>»).
 
 При остановке здесь — только на целом «<span class="arab">أَلَّنْ</span>» (нет «нун» в начертании).
 

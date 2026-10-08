@@ -5,8 +5,51 @@ letter: Я
 category: Я
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "al-kakhtani"
+  - "da-if-daif"
+  - "dabba"
+  - "dadzhal"
+  - "dalil"
+  - "dukhan"
+  - "firdaus"
+  - "id"
+  - "iman"
+  - "islam"
+  - "kazf"
+  - "khalifat"
+  - "khasan"
+  - "kibla"
+  - "kuds-bejt-al-makdis"
+  - "makhdi"
+  - "masikh"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "mutavatir"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shafa-a"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "tashakhkhud"
+  - "tauba"
+  - "ukhud"
+  - "vadzhib"
+  - "zina"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F79-voyna-musulman-s-rimlyanami"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F81-dadzhal"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F83-unichtozhenie-dadzhalya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F86-yadzhudzh-i-madzhudzh"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F87-dym-i-voshod-solnca-na-zapade"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F88-dabba"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-3-yadzhudzh-i-madzhudzh"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-bolshie-priznaki-sudnogo-dnya"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F10-vajees"
 description: "Яджудж и Маджудж: два народа, нашествие которых относится к признакам Судного дня. Пояснение события и его связи с приходом Исы, сына Марьям."
 ---
 

@@ -5,8 +5,47 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "din"
+  - "du-a"
+  - "fitna"
+  - "id"
+  - "idzhma"
+  - "ikhlas"
+  - "islam"
+  - "kaffara"
+  - "karamat"
+  - "khadd-khudud"
+  - "kharam"
+  - "khasan"
+  - "kufr"
+  - "kurban"
+  - "makrukh"
+  - "mechet"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "nadzhasa"
+  - "namima"
+  - "riya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sukhur"
+  - "sunna"
+  - "tafsir"
+  - "zakyat"
+  - "zina"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F58-nepodrazhaemost-korana"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F3-4-5-kratkaya-rech-s-bolshim-smyslom"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F145-mecheti-urok-12"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F146-mecheti-urok-13"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
 description: "Кысас, или кисас: воздаяние, соответствующее преступлению и восстанавливающее право потерпевшего. Определение понятия в шариате."
 ---
 

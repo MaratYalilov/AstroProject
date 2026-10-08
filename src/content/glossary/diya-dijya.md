@@ -5,8 +5,21 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "gusl"
+  - "idda"
+  - "kharam"
+  - "khasan"
+  - "makhr"
+  - "makrukh"
+  - "nifas"
+  - "radzhab"
+  - "riba"
+  - "sunna"
+used_in:
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F92-nifas"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F1-prichiny-raznoglasij-mezhdu-uchenymi"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F3-prichiny-raznoglasij-mezhdu-uchenymi"
 description: "Дия, или дийя: имущественное возмещение пострадавшему или его родственникам за убийство либо телесные повреждения. Значение термина в шариате."
 ---
 

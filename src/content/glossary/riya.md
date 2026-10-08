@@ -6,62 +6,116 @@ category: Р
 tags: []
 aliases: []
 related:
-- ahlul-kitab
-- amanat
-- azan
-- bid-a
-- din
-- du-a
-- fard
-- fitna
-- iblis
-- id
-- idzhma
-- ikhlas
-- iman
-- indzhil
-- islam
-- isra
-- karamat
-- khadzh
-- kharam
-- khasan
-- khukm
-- kibla
-- kufr
-- makrukh
-- mazkhab
-- mechet
-- mursal
-- muskhaf
-- musulmanin
-- namima
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sikhr
-- sukhur
-- sunna
-- tafsir
-- takva
-- tasbikh
-- tauba
-- vitr
-- zakyat
-- zikr
+  - "adab"
+  - "adam"
+  - "ahlul-kitab"
+  - "akhlyak"
+  - "amanat"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhinn"
+  - "fard"
+  - "fitna"
+  - "fitra"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "ikhlas"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "istiska"
+  - "karamat"
+  - "kausar"
+  - "khadzh"
+  - "khafiz"
+  - "khalyal"
+  - "kharadzh"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasad"
+  - "khasan"
+  - "khidzhab"
+  - "khukm"
+  - "kibla"
+  - "kibr"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "kunya"
+  - "kysas-kisas"
+  - "ma-ruf"
+  - "makhdi"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mechet"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "namima"
+  - "nikab"
+  - "niyat-nijya"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sirat-syrat"
+  - "sukhur"
+  - "sunna"
+  - "tadzhvid"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takva"
+  - "tasbikh"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "umma"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
+  - "zulm"
 used_in:
-- 08-adab-tazkiya-urok-08.md
-- 109-al-bakara-korova-102-103-aiat.md
-- 113-al-bakara-korova-111-113-aiat.md
-- 140-mecheti-urok-7.md
-- 145-mecheti-urok-12.md
-- 16-adab-tazkiya-urok-16.md
-- 184-zemnoi-poklon-urok-4.md
-- 20-adab-tazkiya-urok-20.md
-- 3-razrush-svoego-idola.md
-- 5-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F3-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F5-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F08-adab-tazkiya-urok-08"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F16-adab-tazkiya-urok-16"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F20-adab-tazkiya-urok-20"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F23-nekotorye-etikety-molby"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F35-maloe-mnogobozhie-v-namereniyah"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F31-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F140-mecheti-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F145-mecheti-urok-12"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F184-zemnoi-poklon-urok-4"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F2-sobiranie-hadisov-i-1-hadis-ihlas"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F3-1-hadis-namerenie"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F6-1-hadis-pokazuhra"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F67-20-hadis-stydlivost-vetv-very"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F82-35-hadis-zavist-bolezn-serdca"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F113-al-bakara-korova-111-113-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F16-al-maun-meloch"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F30-ad-dukha-utro"
+  - "/quran/dzhazariyya/?lesson=gl-04-tadzhvid"
+  - "/quran/koran-2-uroven/?lesson=m02-01-chto-takoe-tadzhvid"
 description: "Рия: совершение поклонения напоказ ради похвалы и положения в глазах людей. Определение показухи и её связи с намерением."
 ---
 

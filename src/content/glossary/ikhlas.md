@@ -6,75 +6,173 @@ category: И
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- ahlul-kitab
-- bid-a
-- du-a
-- dukhan
-- fadzhr
-- fard
-- gusl
-- id
-- idda
-- idzhma
-- ikamat
-- ikhram
-- iman
-- indzhil
-- islam
-- kaaba
-- khadzh
-- khajd
-- khalil
-- khalyal
-- kharam
-- khasan
-- kibla
-- kunut
-- makrukh
-- mazkhab
-- mechet
-- mursal
-- musulmanin
-- nikakh
-- ramadan
-- riya
-- rukn
-- sadaka
-- sakhikh
-- salyam
-- sha-ban
-- shart
-- shirk
-- sunna
-- tafsir
-- takhara
-- taklid
-- talak
-- taravikh
-- tasbikh
-- tashakhkhud
-- tavaf
-- tavarruk
-- tayammum
-- vadzhib
-- vitr
-- vudu
-- zakyat
-- zikr
+  - "a-raf"
+  - "adam"
+  - "ahlul-kitab"
+  - "akida"
+  - "arafa-arafat"
+  - "azima"
+  - "bid-a"
+  - "da-if-daif"
+  - "din"
+  - "du-a"
+  - "dukhan"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "ibada-ibadat"
+  - "iblis"
+  - "id"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhram"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "kaffara"
+  - "kausar"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalil"
+  - "khalyal"
+  - "khanif"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khukm"
+  - "kibla"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "kysas-kisas"
+  - "ma-ruf"
+  - "makam-makom"
+  - "makhdi"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mukhkam"
+  - "munkar"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "nikakh"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riya"
+  - "rububijya"
+  - "rukn"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salafiya-salyafiya"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "sha-ban"
+  - "shajtan"
+  - "shar"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sirat-syrat"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "tagut"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhara"
+  - "taklid"
+  - "takva"
+  - "talak"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "taukhid"
+  - "tavaf"
+  - "tavarruk"
+  - "tayammum"
+  - "ukhud"
+  - "umma"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zakkum"
+  - "zakyat"
+  - "zamzam-zemzem"
+  - "zikr"
+  - "zina"
+  - "zindik"
+  - "zukhd"
 used_in:
-- 113-al-bakara-korova-111-113-aiat.md
-- 116-al-bakara-korova-116-117-aiat.md
-- 119-al-bakara-korova-125-aiat.md
-- 158-opisanie-namaza-urok-2.md
-- 162-opisanie-namaza-urok-6.md
-- 171-chtenie-korana-v-namaze-urok-3.md
-- 173-chtenie-korana-v-namaze-urok-5.md
-- 175-chtenie-korana-v-namaze-urok-7.md
-- 177-chtenie-korana-v-namaze-urok-9.md
-- 35-kniga-namaza-9.md
-- 36-kniga-namaza-10.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F17-shestoe-uslovie-iskrennost"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F19-vosmoe-uslovie-otrechenie-ot-togo-chemu-poklonyayutsya-pomimo-allakha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F28-tri-osnovy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F42-edinobozhie-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F58-nepodrazhaemost-korana"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F04-edinobozhie-i-ego-vidy"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F08-otritcanie-nedostatkov-u-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F12-znanie-cheloveka-ob-istinnoi-sushchnosti-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F13-imena-zhivoi-i-vsederzhitel"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F22-nastavlenie-i-vvod-v-zabluzhdenie"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F27-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F4-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F5-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F158-opisanie-namaza-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F162-opisanie-namaza-urok-6"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F171-chtenie-korana-v-namaze-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F173-chtenie-korana-v-namaze-urok-5"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F175-chtenie-korana-v-namaze-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F177-chtenie-korana-v-namaze-urok-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F01-vidy-vody"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F35-kniga-namaza-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F36-kniga-namaza-10"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F19-2-hadis-duhovnye-uroki-posta"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F2-sobiranie-hadisov-i-1-hadis-ihlas"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F23-2-hadis-chudo-korana"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F3-1-hadis-namerenie"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F35-3-hadis-sut-pokloneniya"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F4-1-hadis-plody-ihlasa"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F6-1-hadis-pokazuhra"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F81-34-hadis-kak-pravilno-izmenyat-poritsaemoe"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F05-rasm-muskhafa-md"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F06-mekkanskie-i-medinskie-sury"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F07-prichiny-nisposlaniia-aiatov"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F113-al-bakara-korova-111-113-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F116-al-bakara-korova-116-117-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F119-al-bakara-korova-125-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F10-al-falyak-rassvet"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F11-al-ikhlas-ochishchenie-very"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F14-al-kafirun-neveruyushchie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F39-al-aglya-vsevyshniy-1"
 description: "Ихлас: искреннее намерение и посвящение своих действий Аллаху. Пояснение значения искренности во взаимоотношениях человека с Господом."
 ---
 

@@ -6,31 +6,44 @@ category: И
 tags: []
 aliases: []
 related:
-- bid-a
-- birr
-- fard
-- fikkh
-- id-al-adkha
-- istikhara
-- kharam
-- makrukh
-- mazkhab
-- mechet
-- munkar
-- muskhaf
-- musulmanin
-- ramadan
-- sadaka
-- sakhikh
-- sha-ban
-- shajtan
-- sunna
-- takhadzhud
-- taravikh
-- zul-khidzha
+  - "bid-a"
+  - "birr"
+  - "dalil"
+  - "fard"
+  - "fikkh"
+  - "firdaus"
+  - "id"
+  - "id-al-adkha"
+  - "islam"
+  - "istikhara"
+  - "karamat"
+  - "kharam"
+  - "khasan"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-dzhiza"
+  - "mu-tazility-mu-tazilya"
+  - "munkar"
+  - "muskhaf"
+  - "musulmanin"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "sha-ban"
+  - "shajtan"
+  - "sikhr"
+  - "sunna"
+  - "takhadzhud"
+  - "taravikh"
+  - "vakhj-vakhij"
+  - "zul-khidzha"
 used_in:
-- 174-chtenie-korana-v-namaze-urok-6.md
-- 70-namaz-privetstviya-mecheti-44.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F69-chudesa-prorokov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F96-vera-v-ray-i-ad"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F174-chtenie-korana-v-namaze-urok-6"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
 description: "Ид аль-Фитр: праздник разговения после поста Рамадана. Пояснение его значения, благодарности Аллаху и выплаты закят аль-фитр."
 ---
 

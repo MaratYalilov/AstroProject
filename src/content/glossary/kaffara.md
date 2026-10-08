@@ -6,34 +6,79 @@ category: К
 tags: []
 aliases: []
 related:
-- bid-a
-- dzhikhad
-- dzhinn
-- fadzhr
-- fard
-- fikkh
-- gusl
-- id
-- khafiz
-- kharam
-- khasan
-- makhram
-- makrukh
-- mechet
-- musulmanin
-- rukn
-- safar
-- sakhikh
-- salyam
-- shart
-- sunna
-- takhara
-- vakf
-- vudu
+  - "akida"
+  - "amanat"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "gusl"
+  - "ibada-ibadat"
+  - "id"
+  - "idda"
+  - "iftar"
+  - "ikhlas"
+  - "islam"
+  - "istikhada"
+  - "khadzh"
+  - "khafiz"
+  - "kharam"
+  - "khasan"
+  - "khidzhama"
+  - "kufr"
+  - "kurban"
+  - "kysas-kisas"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mu-tazility-mu-tazilya"
+  - "muskhaf"
+  - "musulmanin"
+  - "nazr"
+  - "nifas"
+  - "nikakh"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "rukn"
+  - "sadaka"
+  - "safar"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "shakhada"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sukhur"
+  - "sunna"
+  - "takhara"
+  - "talak"
+  - "tasbikh"
+  - "umra"
+  - "vadzhib"
+  - "vakf"
+  - "vudu"
+  - "zakyat"
 used_in:
-- 138-mecheti-urok-5.md
-- 143-mecheti-urok-10.md
-- 50-kniga-namaza-24.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F58-nepodrazhaemost-korana"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F33-somneniia-otritcaiushchikh-rech-allaha"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F93-otlichiya-mezhdu-nifasom-i-mesyachnymi"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F138-mecheti-urok-5"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F143-mecheti-urok-10"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F54-voda-posle-omoveniya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F50-kniga-namaza-24"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F17-2-hadis-znachenie-namaza"
 description: "Каффара: искупление греха через предписанные действия, такие как милостыня или пост. Определение понятия в шариате."
 ---
 

@@ -5,8 +5,20 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "du-a"
+  - "dzhama-a"
+  - "islam"
+  - "makrukh"
+  - "rukya"
+  - "sakhikh"
+  - "shafa-a"
+  - "shavval-shauual"
+  - "zikr"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F25-upovanie"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F13-2-hadis-smysl-svidetelstva"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F21-2-hadis-vera-v-allaha"
 description: "Таваккуль: надежда на Аллаха в получении желаемого и устранении неприятного. Пояснение упования вместе с использованием разрешённых причин."
 ---
 

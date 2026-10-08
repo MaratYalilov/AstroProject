@@ -5,8 +5,39 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adab"
+  - "bid-a"
+  - "dalil"
+  - "dzhanaza"
+  - "fetva-fatva"
+  - "id"
+  - "idzhtikhad"
+  - "islam"
+  - "istikhara"
+  - "kaaba"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "kunut"
+  - "kurban"
+  - "makrukh"
+  - "mechet"
+  - "nadzhasa"
+  - "nifas"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "vadzhib"
+  - "zina"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F24-nechistoty-i-ih-ochischenie-1-chast"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F25-nechistoty-i-ih-ochischenie-2-chast"
 description: "Хамр: всё, что одурманивает разум, независимо от сырья и способа приготовления. Пояснение запрета большого и малого количества."
 ---
 

@@ -5,8 +5,40 @@ letter: Ш
 category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "azan"
+  - "dadzhal"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "ibada-ibadat"
+  - "id"
+  - "islam"
+  - "kazf"
+  - "khalil"
+  - "khava"
+  - "kiyama-kyyama"
+  - "makam-makom"
+  - "makhdi"
+  - "makrukh"
+  - "musulmanin"
+  - "rukya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shavval-shauual"
+  - "shirk"
+  - "sunna"
+  - "tauba"
+  - "tavakkul"
+  - "vali"
+  - "yadzhudzh-i-madzhudzh"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F25-upovanie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F97-zastupnichestvo"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F29-liubimetc-gospoda-mirov"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F10-vajees"
 description: "Шафа'а: заступничество ради получения блага или устранения вреда для другого. Пояснение значения посреднического обращения."
 ---
 

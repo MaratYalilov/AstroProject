@@ -6,93 +6,178 @@ category: З
 tags: []
 aliases: []
 related:
-- aksa
-- amanat
-- ashura
-- bid-a
-- din
-- du-a
-- dukhan
-- dzhama-a
-- dzhanaba
-- fadzhr
-- fard
-- gusl
-- i-tikaf
-- id
-- idda
-- idzhma
-- ikamat
-- ikhlas
-- ikhram
-- iman
-- islam
-- israf
-- kausar
-- khadzh
-- khajd
-- khalyal
-- kharam
-- khasan
-- khava
-- khukm
-- kibla
-- makhdi
-- makrukh
-- mazkhab
-- mechet
-- mikhrab
-- mursal
-- musulmanin
-- nadzhasa
-- ramadan
-- rasul
-- rauda
-- riba
-- riya
-- safar
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- sudzhud-ash-shukr
-- sunna
-- takhadzhud
-- takhara
-- takva
-- talak
-- tasbikh
-- tashakhkhud
-- tauba
-- tavaf
-- tavarruk
-- tayammum
-- umma
-- umra
-- vadzhib
-- vitr
-- zakyat
+  - "adab"
+  - "adam"
+  - "akida"
+  - "aksa"
+  - "amanat"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dalil"
+  - "din"
+  - "du-a"
+  - "dukhan"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaba"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "faraid"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "i-tikaf"
+  - "ibada-ibadat"
+  - "id"
+  - "idda"
+  - "idzhma"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "israfil"
+  - "istikhara"
+  - "kausar"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalyal"
+  - "kharam"
+  - "khasad"
+  - "khasan"
+  - "khaud"
+  - "khava"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kibla"
+  - "kibr"
+  - "kufr"
+  - "kurban"
+  - "ma-ruf"
+  - "makhdi"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mikhrab"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mukhkam"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "nadzhasa"
+  - "naskh"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "rauda"
+  - "riba"
+  - "ribat"
+  - "riya"
+  - "rukya"
+  - "sa-a-saga"
+  - "sadaka"
+  - "safar"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shakhada"
+  - "shirk"
+  - "sivak-misvak"
+  - "sudzhud-ash-shukr"
+  - "sukhur"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "tagut"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "takva"
+  - "talak"
+  - "taravikh"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "tavakkul"
+  - "tavarruk"
+  - "tavassul"
+  - "tayammum"
+  - "tora"
+  - "umma"
+  - "umra"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "vitr"
+  - "vudu"
+  - "zabur"
+  - "zakkum"
+  - "zakyat"
+  - "zukhd"
 used_in:
-- 02-adab-tazkiya-urok-02.md
-- 114-al-bakara-korova-114-aiat.md
-- 136-mecheti-urok-3.md
-- 140-mecheti-urok-7.md
-- 144-mecheti-urok-11.md
-- 158-opisanie-namaza-urok-2.md
-- 16-adab-tazkiya-urok-16.md
-- 165-opisanie-namaza-urok-9.md
-- 166-opisanie-namaza-urok-10.md
-- 177-chtenie-korana-v-namaze-urok-9.md
-- 179-poyasnoi-poklon-urok-2.md
-- 180-poyasnoi-poklon-urok-3.md
-- 184-zemnoi-poklon-urok-4.md
-- 19-razrush-svoego-idola.md
-- 191-salavat-urok-3.md
-- 23-adab-tazkiya-urok-23.md
-- 47-kniga-namaza-21.md
-- 56-chto-narushaet-namaz-2-30.md
-- 61-nezhelatelnye-dejstviya-v-namaze-35.md
-- 62-nezhelatelnye-dejstviya-v-namaze-36.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F19-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F02-adab-tazkiya-urok-02"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F16-adab-tazkiya-urok-16"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F23-adab-tazkiya-urok-23"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F42-edinobozhie-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F02-biografiia-avtora-i-kommentatora"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F12-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F8-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F81-chtenie-korana-vo-vremya-haida"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F136-mecheti-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F140-mecheti-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F144-mecheti-urok-11"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F158-opisanie-namaza-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F165-opisanie-namaza-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F166-opisanie-namaza-urok-10"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F177-chtenie-korana-v-namaze-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F179-poyasnoi-poklon-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F180-poyasnoi-poklon-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F184-zemnoi-poklon-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F191-salavat-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F08-ciyayuschie-lica"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F39-sunny-omoveniya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F40-kolichestvo-vody-dlya-omoveniya-i-guslya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F47-spat-s-omoveniem"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F47-kniga-namaza-21"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F56-chto-narushaet-namaz-2-30"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F61-nezhelatelnye-dejstviya-v-namaze-35"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F62-nezhelatelnye-dejstviya-v-namaze-36"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F12-2-hadis-shahada"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F16-2-hadis-kachestva-i-primer-proroka-mukhammada"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F21-2-hadis-vera-v-allaha"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F22-2-hadis-vera-v-angelov-i-pisaniya"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F44-6-hadis-ostav-somnitelnoe-radi-yasnogo"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F01-nauki-sviazannye-s-koranom"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F114-al-bakara-korova-114-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F06-fatikha-otkryvaiushchaia"
 description: "Зикр: поминание Аллаха. Пояснение общего смысла, охватывающего поклонение, и особого смысла, связанного с установленными словами и выражениями."
 ---
 

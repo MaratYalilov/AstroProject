@@ -5,8 +5,35 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "aksa"
+  - "bid-a"
+  - "da-if-daif"
+  - "dzhanaza"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "khadzh"
+  - "kharam"
+  - "khasan"
+  - "kufr"
+  - "kurban"
+  - "makrukh"
+  - "mubakh"
+  - "munkar-i-nakir"
+  - "mursal"
+  - "musulmanin"
+  - "sadaka"
+  - "sakhikh"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "tauba"
+  - "tavaf"
+  - "vadzhib"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F80-al-bakara-korova-27-28-aiat"
 description: "Кафан: одежда, покрывающая тело покойного. Пояснение требований к чистоте, непрозрачности и материалу погребального облачения."
 ---
 

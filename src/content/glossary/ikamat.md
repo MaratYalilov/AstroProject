@@ -6,75 +6,89 @@ category: И
 tags: []
 aliases: []
 related:
-- azan
-- bid-a
-- dalil
-- dzhanaba
-- dzhanaza
-- fadzhr
-- fard
-- gusl
-- iblis
-- id
-- idda
-- idzhma
-- ikhlas
-- ikhram
-- ilya
-- islam
-- istiska
-- kaaba
-- khajd
-- kharam
-- khasan
-- khukm
-- khutba
-- kibla
-- makrukh
-- maudu
-- mechet
-- musulmanin
-- nadzhasa
-- nazr
-- nifas
-- ramadan
-- rasul
-- ratiba
-- rukn
-- safar
-- sakhikh
-- salyam
-- sha-ban
-- shajtan
-- shart
-- sudzhud-at-tilyava
-- sukhur
-- sunna
-- tadzhvid
-- takhara
-- talak
-- taravikh
-- tashakhkhud
-- tavaf
-- tayammum
-- umma
-- vadzhib
-- vitr
-- vudu
-- zikr
+  - "akida"
+  - "arafa-arafat"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dalil"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "fadzhr"
+  - "fard"
+  - "gusl"
+  - "ibada-ibadat"
+  - "iblis"
+  - "id"
+  - "idda"
+  - "idzhma"
+  - "ikhlas"
+  - "ikhram"
+  - "ilya"
+  - "islam"
+  - "istiska"
+  - "kaaba"
+  - "khajd"
+  - "kharam"
+  - "khasan"
+  - "khikma"
+  - "khukm"
+  - "khutba"
+  - "kibla"
+  - "kiyama-kyyama"
+  - "makrukh"
+  - "maudu"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "nadzhasa"
+  - "nazr"
+  - "nifas"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "ratiba"
+  - "rukn"
+  - "safar"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "sha-ban"
+  - "shajtan"
+  - "shart"
+  - "sudzhud-at-tilyava"
+  - "sukhur"
+  - "sunna"
+  - "tadzhvid"
+  - "takhara"
+  - "talak"
+  - "taravikh"
+  - "tashakhkhud"
+  - "tavaf"
+  - "tayammum"
+  - "umma"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zikr"
 used_in:
-- 130-azan-urok-8.md
-- 131-azan-urok-9.md
-- 132-azan-urok-10.md
-- 133-azan-urok-11.md
-- 166-opisanie-namaza-urok-10.md
-- 171-chtenie-korana-v-namaze-urok-3.md
-- 29-kniga-namaza-3.md
-- 30-kniga-namaza-4.md
-- 31-kniga-namaza-5.md
-- 32-kniga-namaza-6.md
-- 33-kniga-namaza-7.md
-- 34-kniga-namaza-8.md
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F17-poniatie-moshchi-allaha"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F130-azan-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F131-azan-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F132-azan-urok-10"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F133-azan-urok-11"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F166-opisanie-namaza-urok-10"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F171-chtenie-korana-v-namaze-urok-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F29-kniga-namaza-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F31-kniga-namaza-5"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F32-kniga-namaza-6"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F33-kniga-namaza-7"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F34-kniga-namaza-8"
 description: "Икамат: объявление о начале обязательного намаза установленными словами. Определение и пояснение этого вида поклонения."
 ---
 

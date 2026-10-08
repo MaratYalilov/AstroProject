@@ -33,7 +33,7 @@ order: 1704
 
 - **тамм** (полная),
 - **кафи** (достаточная),
-- **хасан** (хорошая).
+- **<a href="/glossary/khasan" class="glossary-link" target="_blank" rel="noopener noreferrer">хасан</a>** (хорошая).
 
 А недозволенный — это **кабих** (безобразная) остановка («<span class="arab">وَغَيْرُ مَا تَمَّ قَبِيحٌ</span>»).
 

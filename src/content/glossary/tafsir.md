@@ -6,83 +6,171 @@ category: Т
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- ahlul-kitab
-- aksa
-- ansary
-- ashura
-- azan
-- din
-- du-a
-- fard
-- fikkh
-- fitna
-- idda
-- idzhma
-- ikhlas
-- ilya
-- iman
-- indzhil
-- islam
-- isra
-- israf
-- israfil
-- kaaba
-- karamat
-- khalil
-- khalyal
-- kharam
-- khasan
-- khidzhab
-- khukm
-- kufr
-- miskin
-- mukharram
-- mukhkam
-- musulmanin
-- mutashabikh
-- namima
-- naskh
-- radzhab
-- ramadan
-- riya
-- sadaka
-- sakhikh
-- salyam
-- salyat
-- shar
-- shirk
-- sikhr
-- sukhur
-- sunna
-- takhadzhud
-- tauba
-- taufik
-- tavaf
-- tuba
-- ukhud
-- umma
-- usul-al-fikkh
-- vali
-- zakyat
-- zulm
+  - "a-raf"
+  - "adab"
+  - "adam"
+  - "ahlul-kitab"
+  - "ajn"
+  - "aksa"
+  - "ansary"
+  - "arafa-arafat"
+  - "arsh"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "din"
+  - "du-a"
+  - "dzhabarity-dzhabrity-dzhabrijya"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitna"
+  - "fitra"
+  - "ibada-ibadat"
+  - "id"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ikhsan"
+  - "ilya"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "israfil"
+  - "istikhada"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "karamat"
+  - "kausar"
+  - "khadd-khudud"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalil"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khidzhab"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kufr"
+  - "kurban"
+  - "kysas-kisas"
+  - "makam-makom"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "miskin"
+  - "mizan"
+  - "mu-dzhiza"
+  - "mu-tazility-mu-tazilya"
+  - "mukharram"
+  - "mukhkam"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "namima"
+  - "naskh"
+  - "nikakh"
+  - "radzhab"
+  - "ramadan"
+  - "riya"
+  - "rububijya"
+  - "sa-a-saga"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shar"
+  - "shari-a"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sira"
+  - "sukhur"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takhadzhud"
+  - "tauba"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "tayammum"
+  - "tora"
+  - "tuba"
+  - "ukhud"
+  - "umma"
+  - "usul-al-fikkh"
+  - "vakhj-vakhij"
+  - "vali"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
+  - "zina"
+  - "zulm"
 used_in:
-- 100-al-bakara-korova-83-84-aiat.md
-- 101-al-bakara-korova-85-87-aiat.md
-- 105-al-bakara-korova-97-98-aiat.md
-- 109-al-bakara-korova-102-103-aiat.md
-- 110-al-bakara-korova-103-106-aiat.md
-- 111-al-bakara-korova-106-107-aiat.md
-- 118-al-bakara-korova-120-123-aiat.md
-- 119-al-bakara-korova-125-aiat.md
-- 23-razrush-svoego-idola.md
-- 24-razrush-svoego-idola.md
-- 88-al-bakara-korova-45-47-aiat.md
-- 90-al-bakara-korova-48-49-aiat.md
-- 91-al-bakara-korova-50-56-aiat.md
-- 94-al-bakara-korova-62-66-aiat.md
-- 96-al-bakara-korova-72-74-aiat.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F23-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F24-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F04-vtoroy-faktor-lozhnogo-veroucheniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F06-shariat-ukazyvaet-na-suschestvovanie-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F12-vazhnost-edinobozhiya-v-bozhestvennosti"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F13-usloviya-slov-edinobozhiya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F22-nekotorye-vidy-pokloneniya-molba"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F46-atributy-deystviya-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F53-yasno-izlozhennye-i-inoskazatelnye-ayaty"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F61-chisla-v-korane"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F39-tavil"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F3-3-chudo-korana"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-6-voskhod-solntsa-s-zapada"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F33-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F82-nahozhdenie-v-mecheti-vo-vremya-haida"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F84-izar"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F01-mishkat-al-masabih-vstuplenie"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F34-2-hadis-namaz-fatiha"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F01-nauki-sviazannye-s-koranom"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F02-otkrovenie-vakhii"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F03-nisposlanie-korana"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F04-sobranie-korana"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F05-rasm-muskhafa-md"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F06-mekkanskie-i-medinskie-sury"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F07-prichiny-nisposlaniia-aiatov"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F08-kyraaty-sposoby-chteniia-korana"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F10-ig-dzhaz"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F11-perevod-korana"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F12-tolkovanie-korana"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F13-vidy-tafsira"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F100-al-bakara-korova-83-84-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F101-al-bakara-korova-85-87-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F105-al-bakara-korova-97-98-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F111-al-bakara-korova-106-107-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F118-al-bakara-korova-120-123-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F119-al-bakara-korova-125-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F88-al-bakara-korova-45-47-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F90-al-bakara-korova-48-49-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F91-al-bakara-korova-50-56-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F94-al-bakara-korova-62-66-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F11-al-ikhlas-ochishchenie-very"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F15-al-kausar-izobilie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F19-al-khumaza-khulitel"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F22-al-karia-velikoe-bedstvie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F24-az-zalzala-sotryasenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F01-tafsir-ibn-kasira"
+  - "/quran/koran-2-uroven/?lesson=m17-16-znak-sylya"
 description: "Тафсир: наука о понимании и разъяснении смыслов Корана. Пояснение её связи с выведением шариатских постановлений и мудростей."
 ---
 

@@ -6,24 +6,60 @@ category: З
 tags: []
 aliases: []
 related:
-- dzhanaza
-- dzhannat
-- istiska
-- khadzh
-- khasan
-- mechet
-- musulmanin
-- radzhab
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- ukhud
-- zina
+  - "adab"
+  - "barzakh"
+  - "bid-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhanaza"
+  - "dzhannat"
+  - "fikkh"
+  - "fitra"
+  - "idzhma"
+  - "ikhlas"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "istiska"
+  - "karun-korun"
+  - "khadd-khudud"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khidr-khidir-khizr-khyzr"
+  - "khikma"
+  - "khukm"
+  - "kufr"
+  - "kurban"
+  - "makrukh"
+  - "mechet"
+  - "mubakh"
+  - "musulmanin"
+  - "mutavatir"
+  - "radzhab"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+  - "saum-siyam"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "takfir"
+  - "takhara"
+  - "takva"
+  - "taravikh"
+  - "taukhid"
+  - "ukhud"
+  - "zikr"
+  - "zina"
 used_in:
-- 1-razrush-svoego-idola.md
-- 18-razrush-svoego-idola.md
-- 7-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F1-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F18-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F7-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F91-dovody-otricayuschih-mucheniya-v-mogile"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F19-2-hadis-duhovnye-uroki-posta"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F79-30-31-hadis-vseob-emlyushchij-shariat-i-klyuch-k-lyubvi"
 description: "Зухд: оставление мирского ради блага будущей жизни и отсутствие привязанности сердца к имуществу. Пояснение смысла этого понятия."
 ---
 

@@ -5,8 +5,22 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "azab-al-kabr"
+  - "dzhama-a"
+  - "islam"
+  - "israfil"
+  - "khaud"
+  - "khisab"
+  - "mizan"
+  - "munkar-i-nakir"
+  - "salyam"
+  - "sirat-syrat"
+  - "sunna"
+used_in:
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-20-rasplata-za-nespravedlivost"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F11-vajees"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F31-2-hadis-sudnyj-den"
 description: "Кантара: мост между Адом и Раем, где верующие рассчитаются за взаимные обиды. Пояснение очищения перед входом в Рай."
 ---
 

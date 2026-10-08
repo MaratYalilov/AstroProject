@@ -6,15 +6,28 @@ category: В
 tags: []
 aliases: []
 related:
-- fitra
-- iblis
-- khava
-- mechet
-- sakhikh
-- shajtan
-- tavaf
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "imam"
+  - "israf"
+  - "istindzha"
+  - "khasan"
+  - "khava"
+  - "makrukh"
+  - "mechet"
+  - "mursal"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "sunna"
+  - "tasbikh"
+  - "tavaf"
 used_in:
-- 04-adab-tazkiya-urok-04.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F04-adab-tazkiya-urok-04"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F22-istindzha"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F36-protiranie-ushei"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F37-somnenie-v-omovenii"
 description: "Васваса: наущения и сомнения, ведущие к излишней предосторожности и повторению поклонения. Пояснение нашёптывания души и дьявола."
 ---
 

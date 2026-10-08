@@ -6,21 +6,74 @@ category: И
 tags: []
 aliases: []
 related:
-- du-a
-- islam
-- israf
-- khalil
-- khasan
-- khidzhab
-- mechet
-- miskin
-- sadaka
-- sakhikh
-- salyam
-- tafsir
+  - "adam"
+  - "azab-al-kabr"
+  - "da-if-daif"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "dzhibril-dzhabrail"
+  - "dzhinn"
+  - "fadzhr"
+  - "fard"
+  - "iblis"
+  - "id"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "istikhara"
+  - "kaaba"
+  - "kantara-kontara"
+  - "karun-korun"
+  - "khafiz"
+  - "khalil"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khaud"
+  - "khidzhab"
+  - "khisab"
+  - "khur-in-gurii"
+  - "kuds-bejt-al-makdis"
+  - "mechet"
+  - "mi-radzh"
+  - "mikail-mikal"
+  - "miskin"
+  - "mizan"
+  - "mubakh"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "ramadan"
+  - "rukya"
+  - "sa-a-saga"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "sirat-syrat"
+  - "sunna"
+  - "tafsir"
+  - "takhadzhud"
+  - "taravikh"
+  - "tauba"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 105-al-bakara-korova-97-98-aiat.md
-- 17-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F17-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F49-imena-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F73-vera-v-sudnyy-den"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F92-voskresenie"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F2-3-imena"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F11-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F7-vajees"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F31-2-hadis-sudnyj-den"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F105-al-bakara-korova-97-98-aiat"
 description: "Исрафиль: ангел, который по приказу Аллаха будет дуть в рог. Пояснение его связи со смертью творений и их воскрешением для Суда."
 ---
 

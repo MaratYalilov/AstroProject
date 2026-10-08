@@ -5,8 +5,33 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "din"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "ikhsan"
+  - "iman"
+  - "islam"
+  - "istiska"
+  - "khadzh"
+  - "ma-ruf"
+  - "mankhadzh-minkha-dzh"
+  - "mubtadi"
+  - "munkar"
+  - "musulmanin"
+  - "nasikha"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "sirat-syrat"
+  - "sunna"
+  - "takva"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F30-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F31-vajees"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F20-al-asr-predvechernee-vremya"
 description: "Ахляк: нравственные принципы и правила поведения, установленные Аллахом. Их роль в жизни человека и его взаимоотношениях с другими."
 ---
 

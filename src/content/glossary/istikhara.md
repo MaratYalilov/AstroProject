@@ -6,38 +6,74 @@ category: И
 tags: []
 aliases: []
 related:
-- azan
-- bid-a
-- birr
-- fadzhr
-- fard
-- id-al-adkha
-- id-al-fitr
-- islam
-- istiftakh
-- kharam
-- khasan
-- kunut
-- makrukh
-- mandub
-- mazkhab
-- mechet
-- munkar
-- musulmanin
-- ramadan
-- sadaka
-- sakhikh
-- sha-ban
-- shajtan
-- sunna
-- takhadzhud
-- tashakhkhud
-- vitr
-- zul-khidzha
+  - "adab"
+  - "akida"
+  - "azan"
+  - "bid-a"
+  - "birr"
+  - "da-if-daif"
+  - "dalil"
+  - "dzhanaza"
+  - "dzhinn"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "faraid"
+  - "fard"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "imam"
+  - "islam"
+  - "israf"
+  - "israfil"
+  - "istiftakh"
+  - "kaaba"
+  - "khafiz"
+  - "khamr"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kunut"
+  - "kurban"
+  - "makrukh"
+  - "mandub"
+  - "mazkhab"
+  - "mechet"
+  - "mubakh"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "musulmanin"
+  - "nadzhasa"
+  - "ramadan"
+  - "rasul"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "sha-ban"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takhadzhud"
+  - "taravikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zikr"
+  - "zina"
+  - "zul-khidzha"
 used_in:
-- 12-razrush-svoego-idola.md
-- 69-dopolnitelnye-namazy-43.md
-- 70-namaz-privetstviya-mecheti-44.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F12-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F02-biografiia-avtora-i-kommentatora"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F69-dopolnitelnye-namazy-43"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
 description: "Истихара: обращение к Аллаху через добровольный намаз и мольбу с просьбой направить к лучшему выбору. Определение и пояснение термина."
 ---
 

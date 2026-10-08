@@ -5,8 +5,24 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "aksa"
+  - "fard"
+  - "fitra"
+  - "iblis"
+  - "iman"
+  - "islam"
+  - "karamat"
+  - "khadzh"
+  - "kharam"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+  - "taukhid"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F48-vera-v-angelov"
 description: "Маляика: ангелы, сотворённые Аллахом из света. Пояснение их качеств, исполнения велений Аллаха и непрерывного поклонения Ему."
 ---
 

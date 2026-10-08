@@ -5,8 +5,20 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "akida"
+  - "din"
+  - "dzhama-a"
+  - "fikkh"
+  - "ikhram"
+  - "iman"
+  - "islam"
+  - "musulmanin"
+  - "salafiya-salyafiya"
+  - "shari-a"
+  - "sunna"
+used_in:
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F2-vajees"
 description: "Салаф: сподвижники и следующие за ними поколения, придерживающиеся Корана и Сунны. Пояснение понятия праведных предшественников."
 ---
 

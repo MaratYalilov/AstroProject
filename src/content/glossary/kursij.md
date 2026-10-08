@@ -5,8 +5,15 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "baraka"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "islam"
+  - "mu-tazility-mu-tazilya"
+  - "sunna"
+used_in:
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F6-vajees"
 description: "Курсий: великое творение, охватывающее небеса и землю и расположенное перед Троном как подножие. Пояснение понятия в исламском вероучении."
 ---
 

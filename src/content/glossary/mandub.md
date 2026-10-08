@@ -6,21 +6,31 @@ category: М
 tags: []
 aliases: []
 related:
-- azan
-- fadzhr
-- fard
-- istiftakh
-- istikhara
-- kunut
-- makrukh
-- ramadan
-- sakhikh
-- sunna
-- takhadzhud
-- tashakhkhud
-- vitr
+  - "arafa-arafat"
+  - "azan"
+  - "dzhanaba"
+  - "fadzhr"
+  - "fard"
+  - "gusl"
+  - "id"
+  - "islam"
+  - "istiftakh"
+  - "istikhara"
+  - "khadzh"
+  - "khasan"
+  - "kunut"
+  - "makrukh"
+  - "mechet"
+  - "ramadan"
+  - "sakhikh"
+  - "sunna"
+  - "takhadzhud"
+  - "tashakhkhud"
+  - "tayammum"
+  - "vitr"
 used_in:
-- 69-dopolnitelnye-namazy-43.md
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F15-kogda-sovershat-gusl-sunna"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F69-dopolnitelnye-namazy-43"
 description: "Мандуб: желательное действие, за исполнение которого есть награда, а за оставление нет наказания. Определение понятия в шариате."
 ---
 

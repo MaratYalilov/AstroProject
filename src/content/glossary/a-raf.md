@@ -6,52 +6,69 @@ category: А
 tags: []
 aliases: []
 related:
-- adam
-- bid-a
-- du-a
-- dzhizya
-- fadzhr
-- fikkh
-- iblis
-- id
-- ikhlas
-- ikhram
-- iman
-- islam
-- khadzh
-- kharadzh
-- khasan
-- khava
-- kunut
-- makrukh
-- mazkhab
-- miskin
-- musulmanin
-- riba
-- rukn
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sunna
-- tafsir
-- taklid
-- tauba
-- tavaf
-- tayammum
-- umma
-- vadzhib
-- vali
-- vitr
-- vudu
+  - "adam"
+  - "bid-a"
+  - "da-if-daif"
+  - "du-a"
+  - "dukhan"
+  - "dzhizya"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "fikkh"
+  - "iblis"
+  - "id"
+  - "ikhlas"
+  - "ikhram"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "khadzh"
+  - "khalil"
+  - "kharadzh"
+  - "khasan"
+  - "khava"
+  - "kiyama-kyyama"
+  - "kunut"
+  - "makrukh"
+  - "mazkhab"
+  - "miskin"
+  - "muskhaf"
+  - "musulmanin"
+  - "rakaat-rak-a"
+  - "riba"
+  - "rukn"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "tafsir"
+  - "taklid"
+  - "tauba"
+  - "tavaf"
+  - "tayammum"
+  - "umma"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "vudu"
 used_in:
-- 06-adab-tazkiya-urok-06.md
-- 10-razrush-svoego-idola.md
-- 162-opisanie-namaza-urok-6.md
-- 175-chtenie-korana-v-namaze-urok-7.md
-- 93-al-bakara-korova-59-61-aiat.md
-- 94-al-bakara-korova-62-66-aiat.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F10-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F06-adab-tazkiya-urok-06"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F162-opisanie-namaza-urok-6"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F175-chtenie-korana-v-namaze-urok-7"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F93-al-bakara-korova-59-61-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F94-al-bakara-korova-62-66-aiat"
+  - "/quran/koran-2-uroven/?lesson=m10-05-idgam-odnorodnyh-1"
+  - "/quran/koran-2-uroven/?lesson=m16-01-yabsutu"
+  - "/quran/koran-2-uroven/?lesson=m17-18-hafs"
+  - "/quran/koran-2-uroven/?lesson=m20-02-an-la"
+  - "/quran/koran-2-uroven/?lesson=m20-04-amma"
+  - "/quran/koran-2-uroven/?lesson=m20-09-kullama"
+  - "/quran/koran-2-uroven/?lesson=m20-10-bisama"
+  - "/quran/koran-2-uroven/?lesson=m21-02-rahmat"
+  - "/quran/koran-2-uroven/?lesson=m21-11-ibnat-kalimat"
 description: "А'раф — преграда между Раем и Адом в Судный день. Кто на ней стоит, что происходит с людьми, чьи добрые и дурные деяния равны, и что говорит Коран (7:46–49)."
 ---
 

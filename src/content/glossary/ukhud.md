@@ -6,34 +6,82 @@ category: У
 tags: []
 aliases: []
 related:
-- adam
-- du-a
-- dzhanaza
-- islam
-- istiska
-- kaaba
-- khadzh
-- kharam
-- khasan
-- khikma
-- kufr
-- mazkhab
-- mechet
-- musulmanin
-- radzhab
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- tafsir
-- umma
-- zina
-- zukhd
+  - "adam"
+  - "amanat"
+  - "ansary"
+  - "arafa-arafat"
+  - "bid-a"
+  - "dabba"
+  - "dadzhal"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "fitna"
+  - "fitra"
+  - "id"
+  - "ikhlas"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "istiska"
+  - "kaaba"
+  - "kausar"
+  - "khadzh"
+  - "khafiz"
+  - "khalifat"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khaud"
+  - "khidr-khidir-khizr-khyzr"
+  - "khikma"
+  - "kufr"
+  - "makhdi"
+  - "masikh"
+  - "mazkhab"
+  - "mechet"
+  - "mi-radzh"
+  - "mubtadi"
+  - "mukhadzhiry"
+  - "musulmanin"
+  - "mutavatir"
+  - "radzhab"
+  - "ramadan"
+  - "rukya"
+  - "sa-a-saga"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "sirat-syrat"
+  - "sivak-misvak"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "tasbikh"
+  - "tayammum"
+  - "umma"
+  - "yadzhudzh-i-madzhudzh"
+  - "zakyat"
+  - "zina"
+  - "zukhd"
 used_in:
-- 120-al-bakara-korova-126-aiat.md
-- 14-adab-tazkiya-urok-14.md
-- 7-razrush-svoego-idola.md
-- 96-al-bakara-korova-72-74-aiat.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F7-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F14-adab-tazkiya-urok-14"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F46-atributy-deystviya-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F72-chudesa-poslannika-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F76-smuty-malyy-priznak"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F81-dadzhal"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F94-vesy"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F25-dokazatelstva-prorocheskoi-missii-muhammada-2"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-17-vyskazyvaniya-uchenykh-o-tom-chto-budet-vzveshivatsya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F07-klyuchi-namaza"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F10-2-hadis-hadis-dzhibrilya"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F06-mekkanskie-i-medinskie-sury"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F120-al-bakara-korova-126-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F96-al-bakara-korova-72-74-aiat"
 description: "Ухуд: гора к северу от Медины, образующая протяжённую горную цепь. Пояснение её расположения и размеров, приведённых в статье."
 ---
 

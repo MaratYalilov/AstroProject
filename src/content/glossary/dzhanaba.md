@@ -6,38 +6,49 @@ category: Д
 tags: []
 aliases: []
 related:
-- azan
-- bid-a
-- dzhanaza
-- fard
-- gusl
-- id
-- ikamat
-- kausar
-- khajd
-- kharam
-- khukm
-- makrukh
-- mechet
-- mikhrab
-- nadzhasa
-- nifas
-- ramadan
-- rukhsa
-- rukn
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- tasbikh
-- umma
-- vadzhib
-- vudu
-- zikr
+  - "arafa-arafat"
+  - "azan"
+  - "bid-a"
+  - "dzhanaza"
+  - "fard"
+  - "fetva-fatva"
+  - "gusl"
+  - "id"
+  - "ikamat"
+  - "islam"
+  - "kausar"
+  - "khadzh"
+  - "khajd"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "makrukh"
+  - "mandub"
+  - "mazkhab"
+  - "mechet"
+  - "mikhrab"
+  - "nadzhasa"
+  - "nifas"
+  - "ramadan"
+  - "rukhsa"
+  - "rukn"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "sunna"
+  - "tasbikh"
+  - "tayammum"
+  - "umma"
+  - "vadzhib"
+  - "vudu"
+  - "zikr"
 used_in:
-- 33-kniga-namaza-7.md
-- 57-chto-narushaet-namaz-3-31.md
-- 62-nezhelatelnye-dejstviya-v-namaze-36.md
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F42-farzy-guslya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F13-deistviya-narushayuschie-i-ne-narushayuschie-gusl"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F15-kogda-sovershat-gusl-sunna"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F33-kniga-namaza-7"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F57-chto-narushaet-namaz-3-31"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F62-nezhelatelnye-dejstviya-v-namaze-36"
 description: "Джанаба: большое ритуальное осквернение после выхода семени или полового совокупления. Определение понятия и пояснение его причин."
 ---
 

@@ -5,8 +5,22 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "azab-al-kabr"
+  - "id"
+  - "israfil"
+  - "kantara-kontara"
+  - "khalyal"
+  - "kharam"
+  - "khaud"
+  - "mizan"
+  - "munkar-i-nakir"
+  - "sakhikh"
+  - "salyam"
+  - "sirat-syrat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F93-raschet"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F31-2-hadis-sudnyj-den"
 description: "Аль-Хисаб: расчёт дел человека перед Аллахом в День воскресения. Пояснение учёта благих и дурных поступков и дарованных милостей."
 ---
 

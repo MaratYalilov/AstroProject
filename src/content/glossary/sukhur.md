@@ -6,37 +6,64 @@ category: С
 tags: []
 aliases: []
 related:
-- azan
-- din
-- fadzhr
-- fard
-- fitna
-- idzhma
-- ikamat
-- islam
-- karamat
-- khasan
-- kufr
-- makrukh
-- maudu
-- mechet
-- musulmanin
-- namima
-- riya
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sikhr
-- sunna
-- tadzhvid
-- tafsir
-- vadzhib
-- zakyat
+  - "azan"
+  - "da-if-daif"
+  - "din"
+  - "fadzhr"
+  - "fard"
+  - "fidya-fidiya"
+  - "fitna"
+  - "gusl"
+  - "ibada-ibadat"
+  - "idzhma"
+  - "iftar"
+  - "ikamat"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "kaffara"
+  - "karamat"
+  - "khafiz"
+  - "khasad"
+  - "khasan"
+  - "khidzhama"
+  - "kibr"
+  - "kufr"
+  - "kysas-kisas"
+  - "makrukh"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "musulmanin"
+  - "namima"
+  - "nazr"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riya"
+  - "sa-a-saga"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shirk"
+  - "sikhr"
+  - "sunna"
+  - "tadzhvid"
+  - "tafsir"
+  - "tora"
+  - "vadzhib"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 109-al-bakara-korova-102-103-aiat.md
-- 132-azan-urok-10.md
-- 133-azan-urok-11.md
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F2-7-deyaniya-za-kotorye-angely-blagoslovlyayut-cheloveka"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F132-azan-urok-10"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F133-azan-urok-11"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F53-postanovleniya-kasayushhiesya-vody"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F54-voda-posle-omoveniya"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F22-2-hadis-vera-v-angelov-i-pisaniya"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
 description: "Сухур: пища и питьё, которые намеревающийся поститься принимает в конце ночи. Определение предрассветной трапезы."
 ---
 

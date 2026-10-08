@@ -5,8 +5,42 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "bid-a"
+  - "din"
+  - "du-a"
+  - "dzhikhad"
+  - "fadzhr"
+  - "ibada-ibadat"
+  - "islam"
+  - "kalam"
+  - "kausar"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "kurban"
+  - "mubakh"
+  - "muskhaf"
+  - "musulmanin"
+  - "nazr"
+  - "sadaka"
+  - "sakhikh"
+  - "salyat"
+  - "shi-a-shiity"
+  - "sunna"
+  - "tadzhvid"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "vadzhib"
+  - "zakyat"
+  - "zamzam-zemzem"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F11-edinobozhie-v-bozhestvennosti"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F27-zhertvoprinoshenie"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-6-nekotorye-vidy-pokloneniya"
+  - "/quran/dzhazariyya/?lesson=gl-13-maktu-mausul"
+  - "/quran/koran-2-uroven/?lesson=m20-01-vvedenie"
 description: "Забх: жертвенное заклание дозволенного в пищу животного ради Аллаха. Определение термина и пояснение установленного шариатом способа."
 ---
 

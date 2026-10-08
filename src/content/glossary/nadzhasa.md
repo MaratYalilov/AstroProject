@@ -6,52 +6,76 @@ category: Н
 tags: []
 aliases: []
 related:
-- adab
-- azan
-- bid-a
-- du-a
-- dzhanaba
-- fadzhr
-- fard
-- gusl
-- iblis
-- id
-- ikamat
-- ikrakh
-- kaaba
-- kausar
-- kharam
-- khasan
-- kibla
-- makrukh
-- mazkhab
-- mechet
-- mikhrab
-- mursal
-- musulmanin
-- ramadan
-- rukn
-- safar
-- sakhikh
-- salyam
-- shajtan
-- shart
-- sunna
-- tasbikh
-- tayammum
-- vadzhib
-- vitr
-- vudu
-- zikr
-- zina
+  - "adab"
+  - "azan"
+  - "bid-a"
+  - "dalil"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhanaba"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "fetva-fatva"
+  - "gusl"
+  - "ibada-ibadat"
+  - "iblis"
+  - "id"
+  - "ikamat"
+  - "ikrakh"
+  - "islam"
+  - "istigfar"
+  - "istikhara"
+  - "kaaba"
+  - "kausar"
+  - "khadd-khudud"
+  - "khalyal"
+  - "khamr"
+  - "khanif"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "kibla"
+  - "kunut"
+  - "kurban"
+  - "kysas-kisas"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mikhrab"
+  - "mu-tazility-mu-tazilya"
+  - "mursal"
+  - "musulmanin"
+  - "niyat-nijya"
+  - "ramadan"
+  - "rukn"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+  - "tasbikh"
+  - "tayammum"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zikr"
+  - "zina"
 used_in:
-- 131-azan-urok-9.md
-- 146-mecheti-urok-13.md
-- 151-prikryvanie-aurata-urok-3.md
-- 34-kniga-namaza-8.md
-- 62-nezhelatelnye-dejstviya-v-namaze-36.md
-- 65-dejstviya-dozvolennye-v-namaze-38.md
-- 71-namaz-verkhom-45.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F131-azan-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F146-mecheti-urok-13"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F151-prikryvanie-aurata-urok-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F34-kniga-namaza-8"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F62-nezhelatelnye-dejstviya-v-namaze-36"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F65-dejstviya-dozvolennye-v-namaze-38"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F71-namaz-verkhom-45"
 description: "Наджаса: нечистота и осквернение. Разбор ритуального, вещественного и духовного видов нечистоты и их значения в шариате."
 ---
 

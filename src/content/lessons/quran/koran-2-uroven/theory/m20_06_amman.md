@@ -10,7 +10,7 @@ order: 2006
 
 «<span class="arab">أَمَّنْ أَسَّسَ</span> ... <span class="arab">فُصِّلَتْ النِّسَاءُ وَذَبْحُ</span>»:
 
-1. **<span class="arab">أَمَّنْ أَسَّسَ</span>** (ат-Тауба, 109): «<span class="arab">أَم مَّنۡ أَسَّسَ بُنۡيَٰنَهُۥ عَلَىٰ شَفَا جُرُفٍ هَارٖ</span>» (привязано словом «<span class="arab">أَسَّسَ</span>»); {Quran}9:109{/Quran}
+1. **<span class="arab">أَمَّنْ أَسَّسَ</span>** (ат-<a href="/glossary/tauba" class="glossary-link" target="_blank" rel="noopener noreferrer">Тауба</a>, 109): «<span class="arab">أَم مَّنۡ أَسَّسَ بُنۡيَٰنَهُۥ عَلَىٰ شَفَا جُرُفٍ هَارٖ</span>» (привязано словом «<span class="arab">أَسَّسَ</span>»); {Quran}9:109{/Quran}
 2. **<span class="arab">فُصِّلَتْ</span>** (41): «<span class="arab">أَفَمَنْ يُلْقَى فِي النَّارِ خَيْرٌ أَمْ مَنْ يَأْتِي آمِنًا يَوْمَ الْقِيَامَةِ</span>»;
 3. **ан-Ниса (109)**: «<span class="arab">أَم مَّن يَكُونُ عَلَيۡهِمۡ وَكِيلٗا</span>»; {Quran}4:109{/Quran}
 4. **«<span class="arab">ذَبْح</span>» = ас-Саффат (11)**: «<span class="arab">فَٱسۡتَفۡتِهِمۡ أَهُمۡ أَشَدُّ خَلۡقًا أَم مَّنۡ خَلَقۡنَآ</span>». {Quran}37:11{/Quran}

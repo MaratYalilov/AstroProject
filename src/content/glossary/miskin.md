@@ -6,45 +6,58 @@ category: М
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- ansary
-- azan
-- du-a
-- dzhizya
-- fadzhr
-- fard
-- fikkh
-- idzhtikhad
-- islam
-- isra
-- israfil
-- khalil
-- kharadzh
-- khasan
-- khidzhab
-- maudu
-- mazkhab
-- mechet
-- musulmanin
-- sadaka
-- sakhikh
-- salyam
-- salyat
-- shakhada
-- shar
-- shirk
-- sunna
-- tafsir
-- tashakhkhud
-- umma
-- vitr
-- zakyat
+  - "a-raf"
+  - "adam"
+  - "akida"
+  - "ansary"
+  - "ashura"
+  - "azan"
+  - "du-a"
+  - "dzhizya"
+  - "fadzhr"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "idzhtikhad"
+  - "islam"
+  - "isra"
+  - "israfil"
+  - "kaffara"
+  - "karun-korun"
+  - "khadzh"
+  - "khalil"
+  - "kharadzh"
+  - "khasan"
+  - "khidzhab"
+  - "makrukh"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "musulmanin"
+  - "nazr"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "sadaka"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shakhada"
+  - "shar"
+  - "shirk"
+  - "sunna"
+  - "tafsir"
+  - "tashakhkhud"
+  - "umma"
+  - "umra"
+  - "vitr"
+  - "zakyat"
 used_in:
-- 100-al-bakara-korova-83-84-aiat.md
-- 164-opisanie-namaza-urok-8.md
-- 17-razrush-svoego-idola.md
-- 93-al-bakara-korova-59-61-aiat.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F17-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F164-opisanie-namaza-urok-8"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F100-al-bakara-korova-83-84-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F93-al-bakara-korova-59-61-aiat"
 description: "Мискин: нуждающийся, чьи средства покрывают лишь часть его потребностей. Определение понятия и пояснение его материального положения."
 ---
 

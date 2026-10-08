@@ -6,38 +6,44 @@ category: З
 tags: []
 aliases: []
 related:
-- adab
-- bid-a
-- birr
-- fard
-- id
-- id-al-adkha
-- id-al-fitr
-- iman
-- istikhara
-- khadzh
-- khalifat
-- kharam
-- khasan
-- kurban
-- makrukh
-- mazkhab
-- mechet
-- munkar
-- musulmanin
-- ramadan
-- sadaka
-- sakhikh
-- sha-ban
-- shajtan
-- sunna
-- takhadzhud
-- takva
-- tavaf
+  - "adab"
+  - "arafa-arafat"
+  - "bid-a"
+  - "birr"
+  - "fard"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "iman"
+  - "islam"
+  - "istikhara"
+  - "khadzh"
+  - "khalifat"
+  - "kharam"
+  - "khasan"
+  - "kurban"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "munkar"
+  - "mursal"
+  - "musulmanin"
+  - "nazr"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "sha-ban"
+  - "shajtan"
+  - "sunna"
+  - "takhadzhud"
+  - "takva"
+  - "tavaf"
 used_in:
-- 05-adab-tazkiya-urok-05.md
-- 25-adab-tazkiya-urok-25.md
-- 70-namaz-privetstviya-mecheti-44.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F05-adab-tazkiya-urok-05"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F25-adab-tazkiya-urok-25"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F60-nauchnye-otkrytiya-v-korane-primery"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
 description: "Зуль-Хиджа: двенадцатый месяц лунного календаря и один из запретных месяцев. Пояснение названия и его связи с обрядами хаджа."
 ---
 

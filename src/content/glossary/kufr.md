@@ -6,94 +6,179 @@ category: К
 tags: []
 aliases: []
 related:
-- adam
-- ahlul-kitab
-- ajn
-- ashura
-- azima
-- bid-a
-- din
-- du-a
-- fadzhr
-- fard
-- fikkh
-- fitna
-- iblis
-- idzhma
-- ilya
-- iman
-- indzhil
-- islam
-- kaaba
-- karamat
-- khafiz
-- khalyal
-- kharam
-- kharut-i-marut
-- khasan
-- khidzhr
-- khukm
-- kibla
-- kibr
-- kunut
-- makrukh
-- mazkhab
-- mechet
-- mubakh
-- mubtadi
-- mukharram
-- mukhkam
-- musulmanin
-- mutashabikh
-- namima
-- naskh
-- nisab
-- radzhab
-- ramadan
-- riya
-- rukhsa
-- safar
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shart
-- shirk
-- sikhr
-- sukhur
-- sunna
-- tadzhvid
-- tafsir
-- takfir
-- takhadzhud
-- takhara
-- taklid
-- tashakhkhud
-- tauba
-- ukhud
-- umma
-- vadzhib
-- vitr
-- vudu
-- zakyat
-- zina
-- zulm
+  - "adam"
+  - "ahlul-kitab"
+  - "ajn"
+  - "akhlyul-khadis"
+  - "akida"
+  - "aksa"
+  - "amanat"
+  - "ashura"
+  - "azan"
+  - "azima"
+  - "baraka"
+  - "barzakh"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhannat"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "firdaus"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ikhsan"
+  - "ikrakh"
+  - "ilya"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "israf"
+  - "istigfar"
+  - "kaaba"
+  - "kabair"
+  - "kafan"
+  - "kaffara"
+  - "karamat"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khidzhab"
+  - "khidzhama"
+  - "khidzhr"
+  - "khidzhra"
+  - "khukm"
+  - "kibla"
+  - "kibr"
+  - "kunut"
+  - "kurban"
+  - "kysas-kisas"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "muftij"
+  - "mukharram"
+  - "mukhkam"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "namima"
+  - "naskh"
+  - "nikakh"
+  - "nisab"
+  - "niyat-nijya"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "riba"
+  - "riya"
+  - "rukhsa"
+  - "sadaka"
+  - "safar"
+  - "sagair-sogair"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sirat-syrat"
+  - "sukhur"
+  - "sunna"
+  - "tadzhvid"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "tayammum"
+  - "tora"
+  - "ukhud"
+  - "umma"
+  - "vadzhib"
+  - "vakf"
+  - "vakhj-vakhij"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
+  - "zina"
+  - "zukhd"
+  - "zulm"
 used_in:
-- 101-al-bakara-korova-85-87-aiat.md
-- 103-al-bakara-korova-91-93-aiat.md
-- 106-al-bakara-korova-99-101-aiat.md
-- 107-al-bakara-korova-102-103-aiat.md
-- 108-al-bakara-korova-102-103-aiat.md
-- 109-al-bakara-korova-102-103-aiat.md
-- 118-al-bakara-korova-120-123-aiat.md
-- 120-al-bakara-korova-126-aiat.md
-- 27-kniga-namaza-1.md
-- 52-kniga-namaza-26.md
-- 67-vitr-40.md
-- 74-namaz-putnika-48.md
-- 91-al-bakara-korova-50-56-aiat.md
-- 97-al-bakara-korova-75-77-aiat.md
-- 99-al-bakara-korova-80-82-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F34-maloe-mnogobozhie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F37-maloe-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F39-maloe-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F45-atributy-suschnosti-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F51-obyazatelstva-musulmanina-pered-angelami"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F68-otlichitelnye-kachestva-prorokov"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F33-somneniia-otritcaiushchikh-rech-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F35-somnenie-panteistov"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F39-tavil"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-8-2-vidy-neveriya"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F13-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F16-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F19-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F83-blizost-vo-vremya-haida"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F09-chto-narushaet-omovenie"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F27-kniga-namaza-1"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F52-kniga-namaza-26"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F67-vitr-40"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F74-namaz-putnika-48"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F15-2-hadis-obyazannosti-pered-poslannikom"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F101-al-bakara-korova-85-87-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F103-al-bakara-korova-91-93-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F106-al-bakara-korova-99-101-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F107-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F108-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F118-al-bakara-korova-120-123-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F120-al-bakara-korova-126-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F70-al-bakara-korova-06-07-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F91-al-bakara-korova-50-56-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F97-al-bakara-korova-75-77-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F99-al-bakara-korova-80-82-aiat"
+  - "/quran/dzhazariyya/?lesson=gl-12-vakf-ibtida"
+  - "/quran/koran-2-uroven/?lesson=m17-01-vazhnost"
 description: "Куфр: неверие, выводящее человека из мусульманской общины. Пояснение его причин, включая отрицание, высокомерие, сомнение и лицемерие."
 ---
 

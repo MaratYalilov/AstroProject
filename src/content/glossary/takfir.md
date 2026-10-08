@@ -6,22 +6,87 @@ category: Т
 tags: []
 aliases: []
 related:
-- fadzhr
-- fard
-- idzhma
-- iman
-- islam
-- khukm
-- kufr
-- musulmanin
-- radzhab
-- ramadan
-- sakhikh
-- salyat
-- takhara
-- zakyat
+  - "adab"
+  - "adam"
+  - "akida"
+  - "bid-a"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhinn"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "fitra"
+  - "iblis"
+  - "idzhma"
+  - "ikhlas"
+  - "ikrakh"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "istigfar"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khidzhab"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kufr"
+  - "kurban"
+  - "makhdi"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "muftij"
+  - "mukhkam"
+  - "munkar"
+  - "murdzhiity"
+  - "musulmanin"
+  - "radzhab"
+  - "ramadan"
+  - "riba"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sira"
+  - "sirat-syrat"
+  - "sunna"
+  - "takhara"
+  - "taklid"
+  - "takva"
+  - "taukhid"
+  - "tavassul"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "zakkum"
+  - "zakyat"
+  - "zikr"
+  - "zindik"
+  - "zukhd"
 used_in:
-- 27-kniga-namaza-1.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F28-tri-osnovy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F42-edinobozhie-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F04-edinobozhie-i-ego-vidy"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F38-kto-budet-udostoin-videt-allaha"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F3-vajees"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F27-kniga-namaza-1"
 description: "Такфир: искупление греха или постановление о вероотступничестве. Разбор двух значений слова, приведённых в статье."
 ---
 

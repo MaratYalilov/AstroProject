@@ -6,36 +6,38 @@ category: Т
 tags: []
 aliases: []
 related:
-- bid-a
-- fadzhr
-- fard
-- gusl
-- idzhma
-- iftirash
-- ikhlas
-- ikhram
-- khajd
-- kharam
-- khasan
-- makrukh
-- mazkhab
-- mechet
-- mursal
-- sakhikh
-- salyam
-- shakhada
-- sunna
-- takhara
-- tasbikh
-- tashakhkhud
-- vadzhib
-- zikr
+  - "bid-a"
+  - "da-if-daif"
+  - "fadzhr"
+  - "fard"
+  - "gusl"
+  - "idzhma"
+  - "iftirash"
+  - "ikhlas"
+  - "ikhram"
+  - "khajd"
+  - "kharam"
+  - "khasan"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mursal"
+  - "rakaat-rak-a"
+  - "sakhikh"
+  - "salyam"
+  - "shakhada"
+  - "sunna"
+  - "takhara"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "vadzhib"
+  - "zikr"
 used_in:
-- 158-opisanie-namaza-urok-2.md
-- 159-opisanie-namaza-urok-3.md
-- 160-opisanie-namaza-urok-4.md
-- 163-opisanie-namaza-urok-7.md
-- 44-kniga-namaza-18.md
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F158-opisanie-namaza-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F159-opisanie-namaza-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F160-opisanie-namaza-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F163-opisanie-namaza-urok-7"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F44-kniga-namaza-18"
 description: "Таваррук: положение сидя на левом бедре в последнем ташаххуде трёх- или четырёхракаатного намаза. Пояснение размещения ног в этой позе."
 ---
 

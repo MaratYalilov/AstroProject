@@ -6,25 +6,43 @@ category: Т
 tags: []
 aliases: []
 related:
-- bid-a
-- fard
-- idda
-- ikamat
-- ikhlas
-- ikhram
-- khadzh
-- khalyal
-- kibla
-- makrukh
-- mechet
-- rukn
-- sakhikh
-- shart
-- sunna
-- zikr
+  - "bid-a"
+  - "dzhanaza"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "gusl"
+  - "idda"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "imam"
+  - "istikhada"
+  - "kaffara"
+  - "khadzh"
+  - "khajd"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "kibla"
+  - "makrukh"
+  - "mechet"
+  - "muskhaf"
+  - "nifas"
+  - "nikakh"
+  - "rukn"
+  - "sadaka"
+  - "sakhikh"
+  - "shart"
+  - "sunna"
+  - "tavaf"
+  - "zikr"
 used_in:
-- 166-opisanie-namaza-urok-10.md
-- 35-kniga-namaza-9.md
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F87-haid-i-beremennost"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F93-otlichiya-mezhdu-nifasom-i-mesyachnymi"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F166-opisanie-namaza-urok-10"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F22-mesyachnye-nifas-istihada"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F35-kniga-namaza-9"
 description: "Талак: расторжение брачных уз посредством определённых слов или заменяющих их действий. Пояснение понятия в исламском семейном праве."
 ---
 

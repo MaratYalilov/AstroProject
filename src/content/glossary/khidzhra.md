@@ -6,11 +6,52 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- dzhikhad
-- id
-- sakhikh
+  - "adam"
+  - "ansary"
+  - "din"
+  - "dzhakhilijya"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "fikkh"
+  - "id"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "kaaba"
+  - "khadzh"
+  - "khafiz"
+  - "kharam"
+  - "khava"
+  - "khidzhr"
+  - "khira"
+  - "kufr"
+  - "mukhadzhiry"
+  - "musulmanin"
+  - "ramadan"
+  - "riba"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shar"
+  - "shirk"
+  - "sira"
+  - "sunna"
+  - "tauba"
+  - "tavaf"
+  - "tavassul"
+  - "vadzhib"
+  - "zakyat"
 used_in:
-- 11-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F11-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F30-tauassul"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F18-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F19-vajees"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F7-1-hadis-hidzhra"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F8-1-hadis-hidzhra-polzy"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F06-urok-sira-vzroslaya-zhizn-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F07-urok-sira-oblik-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F10-urok-sira-pervye-musulmane"
 description: "Хиджра: оставление запретного в общем смысле и переселение ради Аллаха в особом. Пояснение различий между этими значениями термина."
 ---
 

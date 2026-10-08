@@ -6,33 +6,78 @@ category: Н
 tags: []
 aliases: []
 related:
-- azan
-- darura
-- dzhanaza
-- fadzhr
-- fard
-- fikkh
-- id
-- ikamat
-- ikhram
-- istiska
-- kharam
-- khutba
-- makrukh
-- mechet
-- musulmanin
-- ratiba
-- sakhikh
-- salyam
-- sudzhud-at-tilyava
-- sunna
-- tashakhkhud
-- tavaf
-- vadzhib
-- vitr
+  - "akida"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "bid-a"
+  - "darura"
+  - "din"
+  - "du-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "fikkh"
+  - "fitna"
+  - "gusl"
+  - "ibada-ibadat"
+  - "id"
+  - "iftar"
+  - "ikamat"
+  - "ikhram"
+  - "islam"
+  - "istiska"
+  - "kaffara"
+  - "kausar"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khava"
+  - "khidzhama"
+  - "khutba"
+  - "kurban"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mubakh"
+  - "mursal"
+  - "musulmanin"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "ratiba"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shakhada"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sudzhud-at-tilyava"
+  - "sukhur"
+  - "sunna"
+  - "takva"
+  - "tashakhkhud"
+  - "taukhid"
+  - "tavaf"
+  - "umra"
+  - "vadzhib"
+  - "vitr"
+  - "zabkh"
+  - "zakyat"
+  - "zul-khidzha"
 used_in:
-- 30-kniga-namaza-4.md
-- 73-namaz-na-korable-47.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F11-edinobozhie-v-bozhestvennosti"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F27-zhertvoprinoshenie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F60-nauchnye-otkrytiya-v-korane-primery"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F54-voda-posle-omoveniya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F73-namaz-na-korable-47"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F86-al-bakara-korova-38-41-aiat"
 description: "Назр: обет, которым мусульманин возлагает на себя то, чем шариат его не обязывал. Определение и пояснение термина."
 ---
 

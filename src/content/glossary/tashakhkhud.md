@@ -6,98 +6,113 @@ category: Т
 tags: []
 aliases: []
 related:
-- adab
-- azan
-- bid-a
-- dalil
-- du-a
-- dzhama-a
-- dzhanaza
-- fadzhr
-- fard
-- gusl
-- id
-- idzhma
-- idzhtikhad
-- iftirash
-- ikamat
-- ikhlas
-- ikhram
-- islam
-- istiftakh
-- istikhara
-- istiska
-- kausar
-- khafiz
-- khajd
-- khalifat
-- kharam
-- khasan
-- khukm
-- khutba
-- kufr
-- kunut
-- makhr
-- makrukh
-- mandub
-- maudu
-- mazkhab
-- mechet
-- miskin
-- muskhaf
-- musulmanin
-- nazr
-- ramadan
-- ratiba
-- rukn
-- sadaka
-- safar
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shakhada
-- shar
-- shirk
-- sudzhud-at-tilyava
-- sunna
-- takhadzhud
-- takhara
-- taklid
-- taravikh
-- tasbikh
-- taukhid
-- tavaf
-- tavarruk
-- tayammum
-- umma
-- vadzhib
-- vitr
-- zakyat
-- zikr
+  - "adab"
+  - "akida"
+  - "arafa-arafat"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "dalil"
+  - "du-a"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "firdaus"
+  - "gusl"
+  - "id"
+  - "idzhma"
+  - "idzhtikhad"
+  - "iftirash"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "iman"
+  - "islam"
+  - "istiftakh"
+  - "istikhara"
+  - "istiska"
+  - "kausar"
+  - "khafiz"
+  - "khajd"
+  - "khalifat"
+  - "kharam"
+  - "khasan"
+  - "khukm"
+  - "khutba"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "kunut"
+  - "makhdi"
+  - "makhr"
+  - "makrukh"
+  - "mandub"
+  - "masikh"
+  - "maudu"
+  - "mazkhab"
+  - "mechet"
+  - "miskin"
+  - "mu-tazility-mu-tazilya"
+  - "muskhaf"
+  - "musulmanin"
+  - "nazr"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "ratiba"
+  - "rukn"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shakhada"
+  - "shar"
+  - "shirk"
+  - "sudzhud-at-tilyava"
+  - "sunna"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "taravikh"
+  - "tasbikh"
+  - "taukhid"
+  - "tavaf"
+  - "tavarruk"
+  - "tayammum"
+  - "umma"
+  - "vadzhib"
+  - "vitr"
+  - "yadzhudzh-i-madzhudzh"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 158-opisanie-namaza-urok-2.md
-- 159-opisanie-namaza-urok-3.md
-- 163-opisanie-namaza-urok-7.md
-- 164-opisanie-namaza-urok-8.md
-- 170-chtenie-korana-v-namaze-urok-2.md
-- 172-chtenie-korana-v-namaze-urok-4.md
-- 185-tashahhud-urok-1.md
-- 187-tashahhud-urok-3.md
-- 188-tashahhud-urok-4.md
-- 189-salavat-urok-1.md
-- 192-salavat-urok-4.md
-- 30-kniga-namaza-4.md
-- 44-kniga-namaza-18.md
-- 45-kniga-namaza-19.md
-- 46-kniga-namaza-20.md
-- 47-kniga-namaza-21.md
-- 56-chto-narushaet-namaz-2-30.md
-- 58-chto-narushaet-namaz-4-32.md
-- 61-nezhelatelnye-dejstviya-v-namaze-35.md
-- 67-vitr-40.md
-- 69-dopolnitelnye-namazy-43.md
-- 77-namaz-putnika-51.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F83-unichtozhenie-dadzhalya"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F158-opisanie-namaza-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F159-opisanie-namaza-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F163-opisanie-namaza-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F164-opisanie-namaza-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F170-chtenie-korana-v-namaze-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F172-chtenie-korana-v-namaze-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F185-tashahhud-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F187-tashahhud-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F188-tashahhud-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F189-salavat-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F192-salavat-urok-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F44-kniga-namaza-18"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F45-kniga-namaza-19"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F46-kniga-namaza-20"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F47-kniga-namaza-21"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F56-chto-narushaet-namaz-2-30"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F58-chto-narushaet-namaz-4-32"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F61-nezhelatelnye-dejstviya-v-namaze-35"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F67-vitr-40"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F69-dopolnitelnye-namazy-43"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F77-namaz-putnika-51"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F68-al-bakara-korova-03-aiat"
 description: "Ташаххуд: чтение восхвалений Аллаху в положении сидя во время намаза. Пояснение первого и заключительного сидения в молитве."
 ---
 

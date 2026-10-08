@@ -6,7 +6,8 @@ category: Р
 tags: []
 aliases: []
 related: []
-used_in: []
+used_in:
+  - "/quran/koran-2-uroven/?lesson=m02-07-svitki-abu-bakra"
 description: "Ридда: добровольное отступление мусульманина от веры через слова или действия. Определение вероотступничества в исламской терминологии."
 ---
 

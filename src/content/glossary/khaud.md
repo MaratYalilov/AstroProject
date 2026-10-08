@@ -5,8 +5,40 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "amanat"
+  - "azab-al-kabr"
+  - "bid-a"
+  - "id"
+  - "islam"
+  - "israfil"
+  - "kantara-kontara"
+  - "kausar"
+  - "khalyal"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khisab"
+  - "mechet"
+  - "mizan"
+  - "mubtadi"
+  - "munkar-i-nakir"
+  - "mursal"
+  - "ribat"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "sirat-syrat"
+  - "sivak-misvak"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "taukhid"
+  - "ukhud"
+  - "zikr"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F94-vesy"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F08-ciyayuschie-lica"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F31-2-hadis-sudnyj-den"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F41-5-hadis-opasnosti-novovvedenij"
 description: "Аль-Хауд: водоём Пророка Мухаммада на месте сбора в День воскресения. Пояснение его описания и связи с райской рекой аль-Каусар."
 ---
 

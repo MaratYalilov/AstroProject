@@ -7,6 +7,8 @@ import InteractiveLessonPage from "../alifba/InteractiveLessonPage";
 import type { LessonItem, CourseDownload } from "./CourseSidebar";
 import type { InteractiveLesson } from "../../lib/interactive/loadInteractiveLesson";
 import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
+import { buildInteractiveLessonMetadata } from "../../utils/pageMetadata";
+import { updatePageMetadata } from "../../utils/updatePageMetadata";
 
 const STORAGE_KEY_PREFIX = "course_progress_";
 
@@ -42,12 +44,13 @@ type Props = {
   subject: string;
   course: string;
   courseTitle?: string;
+  subjectTitle?: string;
   initialLessonSlug?: string;
   /** Скачиваемые материалы курса (из YAML курса) — показываются в меню курса */
   downloads?: CourseDownload[];
 };
 
-export default function CourseLayout({ lessons, subject, course, courseTitle, downloads, initialLessonSlug }: Props) {
+export default function CourseLayout({ lessons, subject, course, courseTitle, subjectTitle, downloads, initialLessonSlug }: Props) {
   const [currentIndex, setCurrentIndex] = useState(() => {
     const index = lessons.findIndex(lesson => lesson.slug === initialLessonSlug);
     return index >= 0 ? index : 0;
@@ -81,6 +84,14 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, do
   );
 
   const currentLesson = lessons[currentIndex];
+
+  useEffect(() => {
+    if (!currentLesson) return;
+    updatePageMetadata({
+      ...buildInteractiveLessonMetadata(currentLesson, courseTitle || course, subjectTitle),
+      canonicalPath: `/${subject}/${course}/?lesson=${encodeURIComponent(currentLesson.slug)}`,
+    });
+  }, [currentLesson, subject, course, courseTitle, subjectTitle]);
 
   // Сохраняем прогресс и отражаем текущий урок в URL (?lesson=<slug>) —
   // ссылку на конкретный урок можно копировать/отправлять (deep-link).

@@ -6,56 +6,153 @@ category: Д
 tags: []
 aliases: []
 related:
-- azan
-- bid-a
-- darura
-- dzhanaba
-- fadzhr
-- fard
-- fikkh
-- id
-- ikamat
-- ikhram
-- istiska
-- kaaba
-- khadzh
-- kharam
-- khasan
-- khutba
-- kibla
-- kunut
-- makrukh
-- mechet
-- musulmanin
-- nazr
-- radzhab
-- ratiba
-- rukhsa
-- rukn
-- safar
-- sakhikh
-- salyam
-- shajtan
-- sudzhud-at-tilyava
-- sunna
-- taravikh
-- tashakhkhud
-- tavaf
-- ukhud
-- umma
-- vadzhib
-- vitr
-- vudu
-- zina
-- zukhd
+  - "adab"
+  - "adam"
+  - "akida"
+  - "aksa"
+  - "arafa-arafat"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "dalil"
+  - "darura"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaba"
+  - "dzhikhad"
+  - "fadzhr"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "ikhsan"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "istikhada"
+  - "istikhara"
+  - "istiska"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "kafan"
+  - "khadd-khudud"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalil"
+  - "khamr"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khava"
+  - "khidr-khidir-khizr-khyzr"
+  - "khukm"
+  - "khutba"
+  - "kibla"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "makhdi"
+  - "makhram"
+  - "makrukh"
+  - "masikh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "nadzhasa"
+  - "naskh"
+  - "nazr"
+  - "nifas"
+  - "nikakh"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "ratiba"
+  - "rukhsa"
+  - "rukn"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "shakhada"
+  - "shakhid"
+  - "shar"
+  - "shari-a"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sudzhud-at-tilyava"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takhadzhud"
+  - "talak"
+  - "taravikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "tavaf"
+  - "tayammum"
+  - "ukhud"
+  - "umma"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zina"
+  - "zukhd"
 used_in:
-- 115-al-bakara-korova-115-aiat.md
-- 29-kniga-namaza-3.md
-- 30-kniga-namaza-4.md
-- 53-esli-imam-oshibaetsya-27.md
-- 57-chto-narushaet-namaz-3-31.md
-- 7-razrush-svoego-idola.md
-- 73-namaz-na-korable-47.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F7-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F13-usloviya-slov-edinobozhiya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F85-isa"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F98-hodataystvo"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F99-znanie-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F20-predpisanie-srokov-jizni"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-2-prikhod-isy-mir-emu"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F28-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F100-nagrada-za-namaz"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F113-namaz-v-nachale-ego-vremeni"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F116-zapreschennye-vremena-dlya-soversheniya-namaza-chast-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F122-srednii-namaz"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F99-ostavlenie-namaza"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F58-voda-smeshalas-s-chistym"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F10-vidy-omoveniya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F13-deistviya-narushayuschie-i-ne-narushayuschie-gusl"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F16-tayammum"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F22-mesyachnye-nifas-istihada"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F29-kniga-namaza-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F53-esli-imam-oshibaetsya-27"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F57-chto-narushaet-namaz-3-31"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F73-namaz-na-korable-47"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F115-al-bakara-korova-115-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F80-al-bakara-korova-27-28-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F11-al-ikhlas-ochishchenie-very"
 description: "Джаназа: покойник или похоронная молитва. Пояснение двух значений термина, употребляемого в исламской похоронной традиции."
 ---
 

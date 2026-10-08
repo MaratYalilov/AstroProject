@@ -6,28 +6,42 @@ category: И
 tags: []
 aliases: []
 related:
-- ashura
-- bid-a
-- fard
-- israf
-- khadzh
-- khasan
-- khava
-- khukm
-- mechet
-- muskhaf
-- ramadan
-- sakhikh
-- shajtan
-- sunna
-- takhadzhud
-- umma
-- zakyat
-- zikr
+  - "arafa-arafat"
+  - "ashura"
+  - "bid-a"
+  - "fard"
+  - "ibada-ibadat"
+  - "id"
+  - "id-al-adkha"
+  - "islam"
+  - "israf"
+  - "khadzh"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khava"
+  - "khukm"
+  - "kurban"
+  - "mechet"
+  - "mubtadi"
+  - "muskhaf"
+  - "musulmanin"
+  - "radzhab"
+  - "ramadan"
+  - "sakhikh"
+  - "shajtan"
+  - "sivak-misvak"
+  - "sunna"
+  - "takhadzhud"
+  - "taravikh"
+  - "tavaf"
+  - "umma"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 02-adab-tazkiya-urok-02.md
-- 23-adab-tazkiya-urok-23.md
-- 32-adab-tazkiya-urok-32.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F02-adab-tazkiya-urok-02"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F23-adab-tazkiya-urok-23"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F32-adab-tazkiya-urok-32"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F21-dva-usloviya-prinyatiya-pokloneniya-sledovanie"
 description: "И'тикаф: уединение ради поклонения. Пояснение значения слова и хадис об уединении Пророка Мухаммада в последние десять дней Рамадана."
 ---
 

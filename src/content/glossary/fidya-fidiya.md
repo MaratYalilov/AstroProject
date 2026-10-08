@@ -5,8 +5,33 @@ letter: Ф
 category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "bid-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "fitna"
+  - "iftar"
+  - "islam"
+  - "kadarity-kadarijya"
+  - "karamat"
+  - "khadzh"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "makhdi"
+  - "mutavatir"
+  - "ramadan"
+  - "sa-a-saga"
+  - "sakhikh"
+  - "salyam"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sukhur"
+  - "sunna"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F75-malye-priznaki-sudnogo-dnya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F53-postanovleniya-kasayushhiesya-vody"
 description: "Фидья: выкуп. Значение арабского слова и пояснение его употребления в исламской терминологии."
 ---
 

@@ -5,8 +5,35 @@ letter: Б
 category: Б
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "ashura"
+  - "dadzhal"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhannat"
+  - "firdaus"
+  - "iblis"
+  - "id"
+  - "imam"
+  - "islam"
+  - "kufr"
+  - "kursij"
+  - "makhram"
+  - "mu-tazility-mu-tazilya"
+  - "munkar-i-nakir"
+  - "ramadan"
+  - "riba"
+  - "sakhikh"
+  - "shajtan"
+  - "sunna"
+  - "tora"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F45-atributy-suschnosti-allaha"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F6-vajees"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F65-al-bakara-vvedenie"
 description: "Барака: устойчивое благо от Аллаха, его обилие и увеличение. Пояснение значения благословения в исламской терминологии."
 ---
 

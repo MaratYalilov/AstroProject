@@ -10,7 +10,7 @@ video: /media/fiqh/nurul-idah/video/23-mesyachnye-nifas-istihada-2chast.mp4
 videoRel: video/23-mesyachnye-nifas-istihada-2chast.mp4
 ---
 # 23, Месячные, <a href="/glossary/nifas" class="glossary-link" target="_blank" rel="noopener noreferrer">нифас</a>, <a href="/glossary/istikhada" class="glossary-link" target="_blank" rel="noopener noreferrer">истихада</a> -2часть
-<p><span class="arab">باب الحيض والنفاس والاستحاضة</span></p> Глава: месячные, нифас и истихада <p><span class="arab">وإذا
+<p><span class="arab">باب الحيض والنفاس والاستحاضة</span></p> Глава: месячные, <a href="/glossary/nifas" class="glossary-link" target="_blank" rel="noopener noreferrer">нифас</a> и <a href="/glossary/istikhada" class="glossary-link" target="_blank" rel="noopener noreferrer">истихада</a> <p><span class="arab">وإذا
 انقطع الدم لأكثر الحيض والنفاس حل الوطء بلا غسل</span></p>. Если выделение крови
 завершится по прошествии максимального срока месячных и нифаса
 разрешается интимная близость без совершения гусля. Всевышний Аллах
@@ -71,7 +71,7 @@ videoRel: video/23-mesyachnye-nifas-istihada-2chast.mp4
 месячные, однако потом ей не приказывали возмещать пропущенные намазы и
 приказывалось возмещать пост (Бухари, 321; Муслим, 335). В этом вопросе
 имеется единогласное мнение ученых (консенсус). Харура – деревня возле
-Куфы. Там собирались хариджиты. <p><span class="arab">ويحرم بالجنابة خمسة أشياء</span></p>: 1 - <p><span class="arab">الصلاة. 2
+Куфы. Там собирались <a href="/glossary/kharidzhity-khavaridzhi" class="glossary-link" target="_blank" rel="noopener noreferrer">хариджиты</a>. <p><span class="arab">ويحرم بالجنابة خمسة أشياء</span></p>: 1 - <p><span class="arab">الصلاة. 2
 - وقراءة آية من القرآن</span></p>. Во время осквернения (джанабы) запрещено (<a href="/glossary/kharam" class="glossary-link" target="_blank" rel="noopener noreferrer">харам</a>)
 пять вещей: 1- намаз, 2- чтение аята из Корана. 1- Намаз. Об этом
 сказано в 43 аяте суры «Женщины»: <p><span class="arab">يَا أَيُّهَا الَّذِينَ آمَنُواْ لاَ تَقْرَبُواْ الصَّلاَةَ

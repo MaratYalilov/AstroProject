@@ -6,29 +6,30 @@ category: И
 tags: []
 aliases: []
 related:
-- adab
-- azan
-- fadzhr
-- fard
-- istikhara
-- kunut
-- makrukh
-- mandub
-- mazkhab
-- mechet
-- musulmanin
-- ramadan
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- sunna
-- takhadzhud
-- tashakhkhud
-- vitr
+  - "adab"
+  - "azan"
+  - "fadzhr"
+  - "fard"
+  - "istikhara"
+  - "kunut"
+  - "makrukh"
+  - "mandub"
+  - "mazkhab"
+  - "mechet"
+  - "musulmanin"
+  - "niyat-nijya"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shajtan"
+  - "sunna"
+  - "takhadzhud"
+  - "tashakhkhud"
+  - "vitr"
 used_in:
-- 46-kniga-namaza-20.md
-- 69-dopolnitelnye-namazy-43.md
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F46-kniga-namaza-20"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F69-dopolnitelnye-namazy-43"
 description: "Истифтах: начало и вступление. Пояснение вступительных мольб в намазе и просьбы поправить чтение Корана при затруднении."
 ---
 

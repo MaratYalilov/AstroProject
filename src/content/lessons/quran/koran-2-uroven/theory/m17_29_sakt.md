@@ -10,7 +10,7 @@ order: 1729
 
 1. **<span class="arab">عِوَجَا ۜ قَيِّمًا</span>** (аль-Кахф) — «<span class="arab">وَلَمۡ يَجۡعَل لَّهُۥ عِوَجَاۜ قَيِّمٗا لِّيُنذِرَ</span>»; {Quran}18:1-2{/Quran}
 2. **<span class="arab">مَرْقَدِنَا ۜ هَذَا</span>** (Йā-Сӣн) — «<span class="arab">مَنۢ بَعَثَنَا مِن مَّرۡقَدِنَاۜۗ هَٰذَا مَا وَعَدَ ٱلرَّحۡمَٰنُ</span>»; {Quran}36:52{/Quran}
-3. **<span class="arab">مَنْ ۜ رَاقٍ</span>** (аль-Кыяма) — «<span class="arab">وَقِيلَ مَنۡۜ رَاقٖ</span>»; {Quran}75:27{/Quran}
+3. **<span class="arab">مَنْ ۜ رَاقٍ</span>** (аль-<a href="/glossary/kiyama-kyyama" class="glossary-link" target="_blank" rel="noopener noreferrer">Кыяма</a>) — «<span class="arab">وَقِيلَ مَنۡۜ رَاقٖ</span>»; {Quran}75:27{/Quran}
 4. **<span class="arab">بَلْ ۜ رَانَ</span>** (аль-Мутаффифин) — «<span class="arab">كَلَّاۖ بَلۡۜ رَانَ عَلَىٰ قُلُوبِهِم</span>». {Quran}83:14{/Quran}
 
 Это **только** в чтении Хафса по аш-Шатыбийи; в остальных чтениях сакта на этих словах нет.

@@ -5,8 +5,27 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "akida"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "ikhlas"
+  - "iman"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "kharidzhity-khavaridzhi"
+  - "khukm"
+  - "kurban"
+  - "makhdi"
+  - "murdzhiity"
+  - "musulmanin"
+  - "sadaka"
+  - "salyam"
+  - "takfir"
+  - "takva"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F28-tri-osnovy-pokloneniya"
 description: "Зиндик: лицемер, внешне показывающий принадлежность к исламу и скрывающий неверие. Определение и пояснение термина."
 ---
 

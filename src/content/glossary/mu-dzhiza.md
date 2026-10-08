@@ -5,8 +5,45 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "aksa"
+  - "arafa-arafat"
+  - "bid-a"
+  - "dadzhal"
+  - "dalil"
+  - "dzhama-a"
+  - "fetva-fatva"
+  - "fitra"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "iman"
+  - "islam"
+  - "karamat"
+  - "kurban"
+  - "mechet"
+  - "mi-radzh"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "sikhr"
+  - "sunna"
+  - "tafsir"
+  - "tauba"
+  - "taukhid"
+  - "vakhj-vakhij"
+  - "vali"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F09-chuvstvo-ukazyvaet-na-suschestvovanie-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F61-chisla-v-korane"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F69-chudesa-prorokov"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F20-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F9-vajees"
 description: "Му'джиза: необычное явление, свидетельствующее о правдивости пророка и осуществляемое силой Аллаха. Определение пророческого чуда."
 ---
 

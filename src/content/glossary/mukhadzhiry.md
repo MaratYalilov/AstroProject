@@ -5,8 +5,30 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "ansary"
+  - "fitna"
+  - "id"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "kaaba"
+  - "khafiz"
+  - "khalifat"
+  - "khasan"
+  - "khidzhra"
+  - "makhdi"
+  - "mechet"
+  - "rukya"
+  - "sakhikh"
+  - "salyam"
+  - "tavaf"
+  - "ukhud"
+  - "umma"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F72-chudesa-poslannika-allaha"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F10-urok-sira-pervye-musulmane"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F66-al-bakara-korova-01-aiat"
 description: "Мухаджиры: мусульмане Мекки, переселившиеся в Медину ради Аллаха и Его Посланника. Пояснение их положения и упоминания в Коране."
 ---
 

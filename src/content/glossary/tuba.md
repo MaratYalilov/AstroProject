@@ -6,11 +6,12 @@ category: Т
 tags: []
 aliases: []
 related:
-- iman
-- salyam
-- tafsir
+  - "faraon-fir-aun"
+  - "iman"
+  - "salyam"
+  - "tafsir"
 used_in:
-- 90-al-bakara-korova-48-49-aiat.md
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F90-al-bakara-korova-48-49-aiat"
 description: "Туба: великое дерево в Раю с широко раскинутыми ветвями. Пояснение его описания и упоминания райских одежд в статье."
 ---
 

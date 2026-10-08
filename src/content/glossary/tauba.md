@@ -6,63 +6,133 @@ category: Т
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- aksa
-- azan
-- dzhama-a
-- fard
-- fitra
-- iblis
-- iman
-- islam
-- istigfar
-- khadzh
-- khalyal
-- kharam
-- khasan
-- khava
-- khukm
-- kibr
-- kufr
-- makhdi
-- makrukh
-- mechet
-- mikhrab
-- mursal
-- muskhaf
-- musulmanin
-- ramadan
-- rauda
-- riba
-- riya
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sunna
-- tafsir
-- takva
-- taufik
-- tavaf
-- umma
-- umra
-- vadzhib
-- vali
-- zakyat
-- zikr
+  - "a-raf"
+  - "adam"
+  - "aksa"
+  - "ansary"
+  - "arafa-arafat"
+  - "azan"
+  - "bid-a"
+  - "da-if-daif"
+  - "dabba"
+  - "dadzhal"
+  - "dalil"
+  - "du-a"
+  - "dukhan"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhinn"
+  - "fadzhr"
+  - "fard"
+  - "fetva-fatva"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "israfil"
+  - "istigfar"
+  - "istikhara"
+  - "istindzha"
+  - "kafan"
+  - "kalam"
+  - "khadzh"
+  - "khalifat"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khava"
+  - "khidzhra"
+  - "khira"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kibla"
+  - "kibr"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "kurban"
+  - "makam-makom"
+  - "makhdi"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mechet"
+  - "mikhrab"
+  - "mu-dzhiza"
+  - "mubakh"
+  - "mukhaddis"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "ramadan"
+  - "rauda"
+  - "riba"
+  - "riya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "shafa-a"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "tadzhvid"
+  - "tafsir"
+  - "takhadzhud"
+  - "takva"
+  - "taravikh"
+  - "taufik"
+  - "tavaf"
+  - "tavassul"
+  - "umma"
+  - "umra"
+  - "vadzhib"
+  - "vakf"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "yadzhudzh-i-madzhudzh"
+  - "zabkh"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 03-adab-tazkiya-urok-03.md
-- 08-adab-tazkiya-urok-08.md
-- 103-al-bakara-korova-91-93-aiat.md
-- 114-al-bakara-korova-114-aiat.md
-- 136-mecheti-urok-3.md
-- 157-opisanie-namaza-urok-1.md
-- 20-adab-tazkiya-urok-20.md
-- 24-adab-tazkiya-urok-24.md
-- 5-razrush-svoego-idola.md
-- 94-al-bakara-korova-62-66-aiat.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F5-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F03-adab-tazkiya-urok-03"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F08-adab-tazkiya-urok-08"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F20-adab-tazkiya-urok-20"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F24-adab-tazkiya-urok-24"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F30-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F50-sposobnosti-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F59-nauchnye-otkrytiya-v-korane"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F61-chisla-v-korane"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F70-prorocheskaya-missiya-muhammada"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F87-dym-i-voshod-solnca-na-zapade"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F88-dabba"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F97-zastupnichestvo"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F136-mecheti-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F157-opisanie-namaza-urok-1"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F23-spravlenie-nuzhdy-stoya"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F103-al-bakara-korova-91-93-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F114-al-bakara-korova-114-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F94-al-bakara-korova-62-66-aiat"
+  - "/quran/dzhazariyya/?lesson=gl-13-maktu-mausul"
+  - "/quran/dzhazariyya/?lesson=gl-14-otkrytaya-ta"
+  - "/quran/koran-2-uroven/?lesson=m03-01-istiaza-basmala"
+  - "/quran/koran-2-uroven/?lesson=m17-30-dva-sakta"
+  - "/quran/koran-2-uroven/?lesson=m17-31-anfal-tauba"
+  - "/quran/koran-2-uroven/?lesson=m20-01-vvedenie"
+  - "/quran/koran-2-uroven/?lesson=m20-02-an-la"
+  - "/quran/koran-2-uroven/?lesson=m20-06-amman"
+  - "/quran/koran-2-uroven/?lesson=m21-01-vvedenie"
+  - "/quran/muzakkara-tajvid/?lesson=l01-vvedenie"
+  - "/quran/muzakkara-tajvid/?lesson=l26-sakt"
 description: "Тауба: покаяние, включающее сожаление о грехе, его оставление и решимость не возвращаться к нему. Определение и пояснение термина."
 ---
 

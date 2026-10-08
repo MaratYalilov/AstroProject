@@ -5,8 +5,20 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "bid-a"
+  - "din"
+  - "dzhama-a"
+  - "ikhsan"
+  - "mubtadi"
+  - "sakhabij-sakhaba"
+  - "salyam"
+  - "shari-a"
+  - "sunna"
+  - "taufik"
+  - "taukhid"
+used_in:
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F35-vajees"
 description: "Кияс: сопоставление нового случая с основой в шариатском постановлении по общему признаку. Пояснение метода правовой аналогии."
 ---
 

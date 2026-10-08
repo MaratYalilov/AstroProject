@@ -6,42 +6,68 @@ category: И
 tags: []
 aliases: []
 related:
-- azan
-- dzhanaza
-- fadzhr
-- fard
-- id
-- ikamat
-- ilya
-- khadzh
-- kharam
-- khasan
-- khutba
-- makrukh
-- mechet
-- musulmanin
-- nazr
-- radzhab
-- rasul
-- ratiba
-- sakhikh
-- salyam
-- shajtan
-- sudzhud-at-tilyava
-- sunna
-- tadzhvid
-- taravikh
-- tashakhkhud
-- tavaf
-- ukhud
-- vadzhib
-- vitr
-- zina
-- zukhd
+  - "akhlyak"
+  - "arafa-arafat"
+  - "azan"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "fadzhr"
+  - "fard"
+  - "id"
+  - "ikamat"
+  - "ikhsan"
+  - "ilya"
+  - "iman"
+  - "islam"
+  - "khadzh"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khidr-khidir-khizr-khyzr"
+  - "khutba"
+  - "ma-ruf"
+  - "makhdi"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mechet"
+  - "mubtadi"
+  - "munkar"
+  - "musulmanin"
+  - "nasikha"
+  - "nazr"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "rasul"
+  - "ratiba"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sudzhud-at-tilyava"
+  - "sunna"
+  - "tadzhvid"
+  - "takva"
+  - "taravikh"
+  - "tashakhkhud"
+  - "taukhid"
+  - "tavaf"
+  - "ukhud"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zina"
+  - "zukhd"
 used_in:
-- 30-kniga-namaza-4.md
-- 31-kniga-namaza-5.md
-- 7-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F7-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F23-nekotorye-etikety-molby"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F30-vajees"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F30-kniga-namaza-4"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F31-kniga-namaza-5"
 description: "Истиска: мольба к Аллаху о ниспослании дождя во время засухи. Определение термина и пояснение просьбы о дожде."
 ---
 

@@ -6,17 +6,38 @@ category: И
 tags: []
 aliases: []
 related:
-- fadzhr
-- fard
-- musulmanin
-- nadzhasa
-- safar
-- sakhikh
-- sunna
-- vadzhib
-- vitr
+  - "du-a"
+  - "dzhama-a"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fitra"
+  - "iblis"
+  - "islam"
+  - "istigfar"
+  - "khalyal"
+  - "kharam"
+  - "khidzhab"
+  - "khukm"
+  - "kufr"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "muftij"
+  - "musulmanin"
+  - "nadzhasa"
+  - "safar"
+  - "sakhikh"
+  - "shirk"
+  - "sirat-syrat"
+  - "sunna"
+  - "takfir"
+  - "taklid"
+  - "vadzhib"
+  - "vitr"
 used_in:
-- 71-namaz-verkhom-45.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F71-namaz-verkhom-45"
 description: "Икрах: принуждение человека к словам или действиям вопреки его желанию и без возможности выбора. Определение термина в шариате."
 ---
 

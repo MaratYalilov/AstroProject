@@ -6,38 +6,80 @@ category: З
 tags: []
 aliases: []
 related:
-- du-a
-- dzhanaza
-- fitna
-- fitra
-- iblis
-- iman
-- istiska
-- khadzh
-- khalyal
-- kharam
-- kharut-i-marut
-- khasan
-- khidzhr
-- kufr
-- makrukh
-- mechet
-- mursal
-- musulmanin
-- nadzhasa
-- radzhab
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sikhr
-- ukhud
-- zukhd
+  - "adab"
+  - "aksa"
+  - "al-kakhtani"
+  - "ashura"
+  - "bid-a"
+  - "dadzhal"
+  - "dalil"
+  - "du-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "fitna"
+  - "fitra"
+  - "iblis"
+  - "id"
+  - "idda"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "iman"
+  - "islam"
+  - "istikhara"
+  - "istiska"
+  - "kaaba"
+  - "khadd-khudud"
+  - "khadzh"
+  - "khalyal"
+  - "khamr"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhr"
+  - "khukm"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "kysas-kisas"
+  - "makrukh"
+  - "mechet"
+  - "mikail-mikal"
+  - "mukhkam"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "nadzhasa"
+  - "naskh"
+  - "nikakh"
+  - "radzhab"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "ukhud"
+  - "umma"
+  - "vakhj-vakhij"
+  - "yadzhudzh-i-madzhudzh"
+  - "zukhd"
 used_in:
-- 07-adab-tazkiya-urok-07.md
-- 108-al-bakara-korova-102-103-aiat.md
-- 146-mecheti-urok-13.md
-- 7-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F7-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F07-adab-tazkiya-urok-07"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F79-voyna-musulman-s-rimlyanami"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F146-mecheti-urok-13"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F07-prichiny-nisposlaniia-aiatov"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F108-al-bakara-korova-102-103-aiat"
 description: "Зина: преднамеренная внебрачная половая связь мужчины и женщины, запрещённая исламом. Определение понятия в шариатской терминологии."
 ---
 

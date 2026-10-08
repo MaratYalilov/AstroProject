@@ -12,7 +12,7 @@ videoRel: video/31-zapreschennyy-tauassul.mp4
 
 <h1>Запрещённые виды приближения (<a href="/glossary/tavassul" class="glossary-link" target="_blank" rel="noopener noreferrer">тавассуль</a>) к Аллаху</h1>
 <p class="greeting">Алейкум <a href="/glossary/salyam" class="glossary-link" target="_blank" rel="noopener noreferrer">салям</a> ва рахматуЛлахи ва баракатуху.</p>
-<p>Мы ознакомились с приближением (тавассуль) к Аллаху Субханаху ва Та'аля. Как упоминалось ранее, приближение к Аллаху бывает двух видов: дозволенный, на что указывают Коран и <a href="/glossary/sunna" class="glossary-link" target="_blank" rel="noopener noreferrer">Сунна</a>, и запрещённый, который привнесли люди.</p>
+<p>Мы ознакомились с приближением (<a href="/glossary/tavassul" class="glossary-link" target="_blank" rel="noopener noreferrer">тавассуль</a>) к Аллаху Субханаху ва Та'аля. Как упоминалось ранее, приближение к Аллаху бывает двух видов: дозволенный, на что указывают Коран и <a href="/glossary/sunna" class="glossary-link" target="_blank" rel="noopener noreferrer">Сунна</a>, и запрещённый, который привнесли люди.</p>
 <p>На прошлом уроке были упомянуты пять форм дозволенного приближения:</p>
 <ol class="list">
 <li>Обращение к Аллаху Субханаху ва Та'аля с Его именами, атрибутами и упоминанием Его действий.</li>

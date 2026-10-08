@@ -5,8 +5,19 @@ letter: Б
 category: Б
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "dzhibril-dzhabrail"
+  - "imam"
+  - "islam"
+  - "khafiz"
+  - "khanif"
+  - "khira"
+  - "kuds-bejt-al-makdis"
+  - "mankhadzh-minkha-dzh"
+  - "mechet"
+  - "shavval-shauual"
+used_in:
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F23-urok-sira-taif-nochnoe-voznesenie"
 description: "Аль-Бурак: верховое животное, на котором Пророк Мухаммад совершил ночное путешествие из Мекки к мечети аль-Акса. Пояснение его описания."
 ---
 

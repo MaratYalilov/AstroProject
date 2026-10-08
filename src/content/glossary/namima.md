@@ -6,22 +6,33 @@ category: Н
 tags: []
 aliases: []
 related:
-- din
-- fitna
-- idzhma
-- karamat
-- kufr
-- musulmanin
-- riya
-- sakhikh
-- salyam
-- shirk
-- sikhr
-- sukhur
-- tafsir
-- zakyat
+  - "din"
+  - "fitna"
+  - "idzhma"
+  - "islam"
+  - "karamat"
+  - "kharam"
+  - "khasan"
+  - "kufr"
+  - "kunya"
+  - "kysas-kisas"
+  - "madzhaz"
+  - "makrukh"
+  - "musulmanin"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "sikhr"
+  - "sukhur"
+  - "tafsir"
+  - "zakyat"
 used_in:
-- 109-al-bakara-korova-102-103-aiat.md
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F18-obereganie-ot-mochi"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F30-2-hadis-smert-pervaya-stanciya-v-sudnyj-den"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F12-al-masad-palmovye-volokna"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F19-al-khumaza-khulitel"
 description: "Намима: передача чужих слов ради раздора, раскрытия тайны или изобличения. Пояснение сплетен и их словесных, письменных и иных форм."
 ---
 

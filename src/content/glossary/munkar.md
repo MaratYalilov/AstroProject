@@ -6,27 +6,99 @@ category: М
 tags: []
 aliases: []
 related:
-- bid-a
-- birr
-- fard
-- id-al-adkha
-- id-al-fitr
-- istikhara
-- kharam
-- makrukh
-- mazkhab
-- mechet
-- musulmanin
-- ramadan
-- sadaka
-- sakhikh
-- sha-ban
-- shajtan
-- sunna
-- takhadzhud
-- zul-khidzha
+  - "adab"
+  - "akhlyak"
+  - "akida"
+  - "ansary"
+  - "bid-a"
+  - "birr"
+  - "dalil"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhibril-dzhabrail"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fadzhr"
+  - "fard"
+  - "fikkh"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "ikhlas"
+  - "ikhsan"
+  - "imam"
+  - "islam"
+  - "isra"
+  - "israfil"
+  - "istikhara"
+  - "istindzha"
+  - "istiska"
+  - "kadarity-kadarijya"
+  - "khadzh"
+  - "khalifat"
+  - "khalyal"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "kharut-i-marut"
+  - "khasan"
+  - "kuds-bejt-al-makdis"
+  - "kurban"
+  - "ma-ruf"
+  - "makhdi"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mechet"
+  - "mi-radzh"
+  - "mikail-mikal"
+  - "mu-tazility-mu-tazilya"
+  - "mubtadi"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "nasikha"
+  - "ramadan"
+  - "rasul"
+  - "riba"
+  - "rukya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "sha-ban"
+  - "shajtan"
+  - "shirk"
+  - "sirat-syrat"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takfir"
+  - "takhadzhud"
+  - "taklid"
+  - "takva"
+  - "tauba"
+  - "taukhid"
+  - "tavassul"
+  - "zakyat"
+  - "zikr"
+  - "zul-khidzha"
 used_in:
-- 70-namaz-privetstviya-mecheti-44.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F49-imena-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F84-mahdi"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F2-3-imena"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F27-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F30-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F19-persten-s-imenem-allaha"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F23-spravlenie-nuzhdy-stoya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F49-nahozhdenie-oskvernennogo-v-mecheti"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F44-6-hadis-ostav-somnitelnoe-radi-yasnogo"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F81-34-hadis-kak-pravilno-izmenyat-poritsaemoe"
 description: "Мункар: порицаемое, скверное, постыдное или отрицаемое. Перевод арабского слова и пояснение его значений в исламском словаре."
 ---
 

@@ -18,8 +18,8 @@ related:
 - tavarruk
 - vadzhib
 used_in:
-- 159-opisanie-namaza-urok-3.md
-- 160-opisanie-namaza-urok-4.md
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F159-opisanie-namaza-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F160-opisanie-namaza-urok-4"
 description: "Ифтираш: положение сидя в намазе с опорой на левую ногу и поднятой правой стопой. Пояснение этой позы и случаев её применения."
 ---
 

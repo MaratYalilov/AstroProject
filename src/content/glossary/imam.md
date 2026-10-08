@@ -6,196 +6,190 @@ category: И
 tags: []
 aliases: []
 related:
-- adab
-- adam
-- akhlyul-fatra
-- akika
-- aksa
-- ansary
-- arsh
-- ashura
-- azan
-- baraka
-- burak
-- dabba
-- dadzhal
-- dalil
-- din
-- dzhakhilijya
-- dzhama-a
-- dzhanaza
-- dzhikhad
-- dzhinn
-- faraid
-- fard
-- fikkh
-- fitna
-- fitra
-- gusl
-- iblis
-- id
-- idda
-- idzhtikhad
-- ikhlas
-- iman
-- indzhil
-- islam
-- isra
-- israf
-- istikhada
-- istikhara
-- kaaba
-- kausar
-- khadzh
-- khafiz
-- khajd
-- khalyal
-- khanif
-- kharam
-- khasan
-- khidzhama
-- khidzhr
-- khidzhra
-- khira
-- khukm
-- kunut
-- kunya
-- ma-ruf
-- madzhaz
-- makhdi
-- makrukh
-- masikh
-- mazkhab
-- mechet
-- mikhrab
-- mukhadzhiry
-- mukharram
-- munkar
-- murdzhiity
-- mursal
-- muskhaf
-- musulmanin
-- nifas
-- radzhab
-- ramadan
-- rasul
-- riba
-- riya
-- rukn
-- sadaka
-- safar
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- shakhada
-- shakhid
-- shirk
-- sira
-- sunna
-- takfir
-- taklid
-- takva
-- talak
-- taufik
-- taukhid
-- tavaf
-- tayammum
-- tora
-- umma
-- vadzhib
-- vali
-- vasvasa
-- vitr
-- yadzhudzh-i-madzhudzh
-- zabkh
-- zakyat
-- zikr
+  - "adab"
+  - "adam"
+  - "akhlyul-fatra"
+  - "akida"
+  - "akika"
+  - "aksa"
+  - "ansary"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "baraka"
+  - "burak"
+  - "dadzhal"
+  - "dalil"
+  - "din"
+  - "dzhabarity-dzhabrity-dzhabrijya"
+  - "dzhakhilijya"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhibril-dzhabrail"
+  - "dzhinn"
+  - "fakikh-fakykh"
+  - "faraid"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "idda"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ilya"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "israf"
+  - "istikhada"
+  - "istikhara"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "kausar"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalyal"
+  - "khanif"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khidzhama"
+  - "khidzhr"
+  - "khidzhra"
+  - "khira"
+  - "khukm"
+  - "kuds-bejt-al-makdis"
+  - "kunut"
+  - "ma-ruf"
+  - "madzhaz"
+  - "makam-makom"
+  - "makhdi"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "masikh"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "mikhrab"
+  - "mukhadzhiry"
+  - "mukharram"
+  - "munkar"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "nifas"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riba"
+  - "riya"
+  - "rukn"
+  - "sadaka"
+  - "safar"
+  - "sakhikh"
+  - "salafiya-salyafiya"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "shajtan"
+  - "shakhada"
+  - "shakhid"
+  - "shavval-shauual"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sira"
+  - "sirat-syrat"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takdir-kadar"
+  - "takfir"
+  - "taklid"
+  - "takva"
+  - "talak"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "tayammum"
+  - "tora"
+  - "vadzhib"
+  - "vali"
+  - "vasvasa"
+  - "vitr"
+  - "zakyat"
+  - "zamzam-zemzem"
+  - "zikr"
 used_in:
-- 02-biografiia-avtora-i-kommentatora.md
-- 02-urok-sira-religii-arabov.md
-- 03-dostoinstva-sury-fatikha.md
-- 03-poniatie-termina-akhliussunna.md
-- 03-urok-sira-slonovyi-pohod-religiya-mekki.md
-- 04-edinobozhie-i-ego-vidy.md
-- 04-urok-sira-detstvo-proroka.md
-- 06-opravdanie-nevezhestvom.md
-- 06-urok-sira-vzroslaya-zhizn-proroka.md
-- 07-upodoblenie.md
-- 07-urok-sira-oblik-proroka.md
-- 08-otritcanie-nedostatkov-u-allaha.md
-- 09-urok-sira-formy-peredachi-otkroveniya.md
-- 1-11-poseshchenie-mogil.md
-- 1-12-2-imena-allakha.md
-- 1-6-nekotorye-vidy-pokloneniya.md
-- 1-7-osnovy-pokloneniya.md
-- 10-bozhestvennoe-proishozhdenie-imen-allaha.md
-- 10-urok-sira-pervye-musulmane.md
-- 10-vidy-omoveniya.md
-- 105-vremya-utrennego-i-poludennogo-namaza.md
-- 106-vremya-namaza-asr-magrib-i-isha.md
-- 11-voleiziavlenie-allaha.md
-- 111-otkladyvanie-namaza-pravitelem.md
-- 117-zapreschennye-vremena-dlya-soversheniya-namaza-chast-3.md
-- 12-urok-sira-etapy-prizyva.md
-- 125-azan-urok-3.md
-- 126-azan-urok-4.md
-- 13-imena-zhivoi-i-vsederzhitel.md
-- 13-son-i-omovenie.md
-- 13-urok-sira-etapy-prizyva-chast2.md
-- 14-prikosnovenie-k-polovomu-organu.md
-- 15-urok-sira-prodolzhenie-ispytanii.md
-- 16-urok-sira-prodolzhenie-peregovorov.md
-- 17-adaby-tualeta.md
-- 17-urok-sira-popytki-poseyat-somneniya.md
-- 18-urok-sira-pervoe-pereselenie.md
-- 19-vtoroe-pereselenie-v-efiopiyu.md
-- 2-sobiranie-hadisov-i-1-hadis-ihlas.md
-- 21-at-takasur-strast-k-priumnozheniyu.md
-- 21-urok-sira-polnaya-blokada.md
-- 22-mesyachnye-nifas-istihada.md
-- 22-nekotorye-vidy-pokloneniya-molba.md
-- 22-urok-sira-god-skorbi.md
-- 23-mesyachnye-nifas-istihada-2chast.md
-- 23-nekotorye-etikety-molby.md
-- 23-urok-sira-taif-nochnoe-voznesenie.md
-- 25-upovanie.md
-- 28-imam-bogoboyaznenih-gospodin-poslannikov.md
-- 28-tri-osnovy-pokloneniya.md
-- 30-ad-dukha-utro.md
-- 36-protiranie-ushei.md
-- 39-al-aglya-vsevyshniy-1.md
-- 4-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 41-poseschenie-mogil.md
-- 41-prichiny-dlya-soversheniya-guslya.md
-- 42-al-burudzh-sozvezdiia-zodiaka-1.md
-- 44-6-hadis-ostav-somnitelnoe-radi-yasnogo.md
-- 44-imena-allaha.md
-- 46-al-mutaffifin-obveshivaiushchie-1.md
-- 47-al-mutaffifin-obveshivaiushchie-2.md
-- 49-al-infitar-raskalyvanie-1.md
-- 49-kniga-namaza-23.md
-- 5-5-2-malye-priznaki-sudnogo-dnya.md
-- 5-5-3-1-al-masikhud-dadzhal.md
-- 5-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 50-kniga-namaza-24.md
-- 51-gusl-v-pyatnicu.md
-- 52-at-takvir-skruchivanie-2.md
-- 52-kniga-namaza-26.md
-- 53-esli-imam-oshibaetsya-27.md
-- 57-13-hadis-polyubi-dlya-brata-chto-lyubish-dlya-sebya.md
-- 6-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 63-18-hadis-bogoboyaznennost-osnova-spaseniya.md
-- 63-al-bakara-ayat-al-kursi.md
-- 65-al-bakara-vvedenie.md
-- 66-19-hadis-esli-prosish-prosi-u-allaha.md
-- 7-prichiny-raznoglasij-mezhdu-uchenymi.md
-- 71-usloviya-protiraniya-noskov.md
-- 73-protiranie-noskov.md
-- 75-malye-priznaki-sudnogo-dnya.md
-- 77-al-bakara-korova-21-22-aiat.md
-- 81-dadzhal.md
-- 87-al-bakara-korova-42-44-aiat.md
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F02-biografiia-avtora-i-kommentatora"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F03-poniatie-termina-akhliussunna"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F04-edinobozhie-i-ego-vidy"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F06-opravdanie-nevezhestvom"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F07-upodoblenie"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F08-otritcanie-nedostatkov-u-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F10-bozhestvennoe-proishozhdenie-imen-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F11-voleiziavlenie-allaha"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-11-poseshchenie-mogil"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-7-osnovy-pokloneniya"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-2-malye-priznaki-sudnogo-dnya"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-1-al-masikhud-dadzhal"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F105-vremya-utrennego-i-poludennogo-namaza"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F106-vremya-namaza-asr-magrib-i-isha"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F111-otkladyvanie-namaza-pravitelem"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F117-zapreschennye-vremena-dlya-soversheniya-namaza-chast-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F125-azan-urok-3"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F126-azan-urok-4"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F13-son-i-omovenie"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F14-prikosnovenie-k-polovomu-organu"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F17-adaby-tualeta"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F36-protiranie-ushei"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F41-prichiny-dlya-soversheniya-guslya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F51-gusl-v-pyatnicu"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F71-usloviya-protiraniya-noskov"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F73-protiranie-noskov"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F10-vidy-omoveniya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F22-mesyachnye-nifas-istihada"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F23-mesyachnye-nifas-istihada-2chast"
+  - "/lesson?subject=fiqh&course=prichiny-raznoglasiy&slug=fiqh%2Fprichiny-raznoglasiy%2F4-prichiny-raznoglasij-mezhdu-uchenymi"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F2-sobiranie-hadisov-i-1-hadis-ihlas"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F44-6-hadis-ostav-somnitelnoe-radi-yasnogo"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F63-18-hadis-bogoboyaznennost-osnova-spaseniya"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F02-urok-sira-religii-arabov"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F03-urok-sira-slonovyi-pohod-religiya-mekki"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F04-urok-sira-detstvo-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F06-urok-sira-vzroslaya-zhizn-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F07-urok-sira-oblik-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F09-urok-sira-formy-peredachi-otkroveniya"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F10-urok-sira-pervye-musulmane"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F12-urok-sira-etapy-prizyva"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F13-urok-sira-etapy-prizyva-chast2"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F15-urok-sira-prodolzhenie-ispytanii"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F16-urok-sira-prodolzhenie-peregovorov"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F17-urok-sira-popytki-poseyat-somneniya"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F18-urok-sira-pervoe-pereselenie"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F19-vtoroe-pereselenie-v-efiopiyu"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F21-urok-sira-polnaya-blokada"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F22-urok-sira-god-skorbi"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F23-urok-sira-taif-nochnoe-voznesenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F65-al-bakara-vvedenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F77-al-bakara-korova-21-22-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F87-al-bakara-korova-42-44-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F30-ad-dukha-utro"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F39-al-aglya-vsevyshniy-1"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F42-al-burudzh-sozvezdiia-zodiaka-1"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F46-al-mutaffifin-obveshivaiushchie-1"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F47-al-mutaffifin-obveshivaiushchie-2"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F49-al-infitar-raskalyvanie-1"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F52-at-takvir-skruchivanie-2"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-vstuplenie&slug=tafsir%2Ftafsir-ibn-kasir-vstuplenie%2F03-dostoinstva-sury-fatikha"
 description: "Имам: тот, за кем следуют и кому подчиняются. Пояснение общего значения слова, охватывающего следование как в добре, так и во зле."
 ---
 

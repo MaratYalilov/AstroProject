@@ -6,52 +6,202 @@ category: А
 tags: []
 aliases: []
 related:
-- a-raf
-- du-a
-- dzhizya
-- fikkh
-- iblis
-- ikhlas
-- iman
-- islam
-- istigfar
-- kaaba
-- khadzh
-- khalil
-- kharadzh
-- kharam
-- kharut-i-marut
-- khasan
-- khava
-- khukm
-- kibr
-- kufr
-- makrukh
-- mechet
-- miskin
-- musulmanin
-- radzhab
-- ramadan
-- riba
-- sakhikh
-- salyam
-- shajtan
-- shirk
-- sikhr
-- sunna
-- tafsir
-- tauba
-- tavaf
-- ukhud
+  - "a-raf"
+  - "akida"
+  - "aksa"
+  - "amanat"
+  - "ansary"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "baraka"
+  - "barzakh"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "din"
+  - "du-a"
+  - "dzhabarity-dzhabrity-dzhabrijya"
+  - "dzhakhilijya"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhannat"
+  - "dzhibril-dzhabrail"
+  - "dzhinn"
+  - "dzhizya"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fikkh"
+  - "firdaus"
+  - "fitra"
+  - "gusl"
+  - "ibada-ibadat"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ikhsan"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "israfil"
+  - "istigfar"
+  - "kaaba"
+  - "kabair"
+  - "kadarity-kadarijya"
+  - "karamat"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalifat"
+  - "khalil"
+  - "kharadzh"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khava"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhab"
+  - "khidzhama"
+  - "khidzhr"
+  - "khidzhra"
+  - "khira"
+  - "khukm"
+  - "khur-in-gurii"
+  - "kibr"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "kurban"
+  - "makam-makom"
+  - "makhdi"
+  - "makhram"
+  - "makrukh"
+  - "malyaika"
+  - "mankhadzh-minkha-dzh"
+  - "masikh"
+  - "mazkhab"
+  - "mechet"
+  - "mi-radzh"
+  - "mikail-mikal"
+  - "miskin"
+  - "mu-dzhiza"
+  - "mu-tazility-mu-tazilya"
+  - "mukhkam"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "nikakh"
+  - "radzhab"
+  - "ramadan"
+  - "rasul"
+  - "riba"
+  - "riya"
+  - "sa-a-saga"
+  - "sadaka"
+  - "sagair-sogair"
+  - "sakhikh"
+  - "salafiya-salyafiya"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "shafa-a"
+  - "shajtan"
+  - "shakhid"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sirat-syrat"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhadzhud"
+  - "takva"
+  - "tasbikh"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "tavassul"
+  - "tora"
+  - "ukhud"
+  - "umma"
+  - "umra"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "vali"
+  - "yadzhudzh-i-madzhudzh"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
+  - "zindik"
 used_in:
-- 06-adab-tazkiya-urok-06.md
-- 107-al-bakara-korova-102-103-aiat.md
-- 119-al-bakara-korova-125-aiat.md
-- 120-al-bakara-korova-126-aiat.md
-- 24-adab-tazkiya-urok-24.md
-- 4-razrush-svoego-idola.md
-- 6-razrush-svoego-idola.md
-- 93-al-bakara-korova-59-61-aiat.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F4-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F6-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F06-adab-tazkiya-urok-06"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F24-adab-tazkiya-urok-24"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F01-vstuplenie-shest-stepeney-imana"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F03-akyda-istinnaya-i-lozhnaya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F04-vtoroy-faktor-lozhnogo-veroucheniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F05-sut-very"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F28-tri-osnovy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F30-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F34-maloe-mnogobozhie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F45-atributy-suschnosti-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F48-vera-v-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F51-obyazatelstva-musulmanina-pered-angelami"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F54-chudo-korana"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F62-mesta-shodstva-mezhdu-shariatami"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F65-smysl-very-v-poslannikov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F66-raznica-mezhdu-poslannikom-i-prorokom"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F68-otlichitelnye-kachestva-prorokov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F74-vremya-sudnogo-dnya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F86-yadzhudzh-i-madzhudzh"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F92-voskresenie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F97-zastupnichestvo"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F98-hodataystvo"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F07-upodoblenie"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F21-vlast-allaha-i-ego-voleiziavlenie"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F28-imam-bogoboyaznenih-gospodin-poslannikov"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F31-quran-rech-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F35-somnenie-panteistov"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-12-3-atributy-allakha"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-9-sredstva-priblizheniya"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F2-1-2-svet"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F4-3-kto-yavlyaetsya-pervym-poslannikom"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-1-vera-v-posledniy-den"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-2-znanie-o-vremeni-nastupleniya-sudnogo-dnya"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-23-khodataystvo"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-3-yadzhudzh-i-madzhudzh"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F12-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F9-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F45-omovenie-posle-guslya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F51-gusl-v-pyatnicu"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F67-20-hadis-stydlivost-vetv-very"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F06-urok-sira-vzroslaya-zhizn-proroka"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F09-urok-sira-formy-peredachi-otkroveniya"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F107-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F119-al-bakara-korova-125-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F120-al-bakara-korova-126-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F71-al-bakara-korova-08-09-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F81-al-bakara-korova-29-30-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F83-al-bakara-korova-31-33-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F84-al-bakara-korova-34-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F85-al-bakara-korova-35-37-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F93-al-bakara-korova-59-61-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F33-al-balad-gorod"
+  - "/quran/dzhazariyya/?lesson=gl-07-lyam"
+  - "/quran/koran-2-uroven/?lesson=m08-01-pravilo-lyama"
 description: "Адам: первый человек и первый пророк, созданный Аллахом из земли. Рассказ о прародителе человечества и начале пророческой миссии."
 ---
 

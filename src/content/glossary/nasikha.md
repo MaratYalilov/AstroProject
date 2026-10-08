@@ -5,8 +5,29 @@ letter: Н
 category: Н
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "akhlyak"
+  - "akhlyul-khadis"
+  - "bid-a"
+  - "din"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "ikhsan"
+  - "islam"
+  - "istiska"
+  - "khadzh"
+  - "ma-ruf"
+  - "mankhadzh-minkha-dzh"
+  - "mubtadi"
+  - "munkar"
+  - "musulmanin"
+  - "salyam"
+  - "sunna"
+  - "takva"
+  - "umma"
+used_in:
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F1-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F30-vajees"
 description: "Насиха: искреннее намерение в отношениях, свободное от порочных целей и обмана. Определение и пояснение термина в исламском словаре."
 ---
 

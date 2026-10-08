@@ -5,8 +5,18 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "imam"
+  - "islam"
+  - "kaaba"
+  - "khidzhr"
+  - "khidzhra"
+  - "khira"
+  - "ramadan"
+  - "sakhikh"
+used_in:
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F06-urok-sira-vzroslaya-zhizn-proroka"
 description: "Джахилийя: взгляды, верования и нравы, противоречащие исламским устоям. Значение понятия в религиозной терминологии."
 ---
 

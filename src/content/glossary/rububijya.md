@@ -5,8 +5,35 @@ letter: Р
 category: Р
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "arsh"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "fikkh"
+  - "fitra"
+  - "ibada-ibadat"
+  - "ikhlas"
+  - "indzhil"
+  - "islam"
+  - "khadzh"
+  - "mizan"
+  - "musulmanin"
+  - "rasul"
+  - "salyat"
+  - "saum-siyam"
+  - "shar"
+  - "shari-a"
+  - "sunna"
+  - "tafsir"
+  - "takdir-kadar"
+  - "taukhid"
+  - "umma"
+  - "usul-al-fikkh"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F06-shariat-ukazyvaet-na-suschestvovanie-allaha"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F5-vajees"
 description: "Рубубийя: господство Аллаха, включающее создание, власть, управление и распоряжение. Пояснение качеств Творца и Господина."
 ---
 

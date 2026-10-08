@@ -5,8 +5,15 @@ letter: Б
 category: Б
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "khalyal"
+  - "kharam"
+  - "makhdi"
+  - "sadaka"
+  - "umma"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F31-al-lejl-noch"
 description: "Аль-Баки': кладбище жителей Медины к востоку от мечети Пророка Мухаммада. Пояснение названия и расположения этого места."
 ---
 

@@ -10,7 +10,7 @@ video: /media/fiqh/nurul-idah/video/18-tayammum-chast-3.mp4
 videoRel: video/18-tayammum-chast-3.mp4
 ---
 # 18, <a href="/glossary/tayammum" class="glossary-link" target="_blank" rel="noopener noreferrer">Таяммум</a> (часть 3)
-<p><span class="arab">بَابُ التَّيَمُّمِ</span></p> Глава: таяммум (продолжение) <p><span class="arab">وندب تأخير التيمم لمن يرجو
+<p><span class="arab">بَابُ التَّيَمُّمِ</span></p> Глава: <a href="/glossary/tayammum" class="glossary-link" target="_blank" rel="noopener noreferrer">таяммум</a> (продолжение) <p><span class="arab">وندب تأخير التيمم لمن يرجو
 الماء قبل خروج الوقت</span></p>. Является желательным откладывание таяммума тому,
 кто надеется найти воду до выхода времени намаза. Имеется ввиду если
 человек предполагает, что найдет воду и это предположение равно

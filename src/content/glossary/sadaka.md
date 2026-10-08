@@ -6,98 +6,240 @@ category: С
 tags: []
 aliases: []
 related:
-- a-raf
-- aksa
-- ansary
-- azan
-- bid-a
-- birr
-- din
-- du-a
-- dzhikhad
-- fadzhr
-- fard
-- fikkh
-- fitra
-- iblis
-- id
-- id-al-adkha
-- id-al-fitr
-- idda
-- ikhlas
-- iman
-- indzhil
-- islam
-- isra
-- israfil
-- istigfar
-- istikhara
-- khadzh
-- khalil
-- khalyal
-- kharam
-- khasan
-- khava
-- khidzhab
-- khikma
-- khukm
-- kurban
-- makhr
-- makhram
-- makrukh
-- mazkhab
-- mechet
-- miskin
-- mizan
-- munkar
-- muskhaf
-- musulmanin
-- naskh
-- ramadan
-- riya
-- safar
-- sakhikh
-- salyam
-- salyat
-- sha-ban
-- shajtan
-- shakhada
-- shirk
-- sunna
-- tafsir
-- takhadzhud
-- takva
-- tasbikh
-- tashakhkhud
-- tauba
-- taufik
-- tavaf
-- umma
-- vali
-- zakyat
-- zul-khidzha
+  - "a-raf"
+  - "adab"
+  - "adam"
+  - "akida"
+  - "aksa"
+  - "ansary"
+  - "arafa-arafat"
+  - "ashura"
+  - "azan"
+  - "baki-baky"
+  - "barzakh"
+  - "bid-a"
+  - "birr"
+  - "da-if-daif"
+  - "dadzhal"
+  - "dalil"
+  - "din"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fadzhr"
+  - "fakikh-fakykh"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "firdaus"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "idda"
+  - "idzhtikhad"
+  - "iftar"
+  - "ikhlas"
+  - "ikhsan"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "israf"
+  - "israfil"
+  - "istigfar"
+  - "istikhada"
+  - "istikhara"
+  - "kaaba"
+  - "kabair"
+  - "kadarity-kadarijya"
+  - "kafan"
+  - "kaffara"
+  - "karun-korun"
+  - "kausar"
+  - "kazf"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalil"
+  - "khalyal"
+  - "khamr"
+  - "khanif"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khava"
+  - "khidzhab"
+  - "khidzhama"
+  - "khidzhra"
+  - "khikma"
+  - "khukm"
+  - "khutba"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "kunut"
+  - "kurban"
+  - "kysas-kisas"
+  - "makam-makom"
+  - "makhdi"
+  - "makhr"
+  - "makhram"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "miskin"
+  - "mizan"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "mukhkam"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "mutavatir"
+  - "nadzhasa"
+  - "naskh"
+  - "nazr"
+  - "nifas"
+  - "nikakh"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riba"
+  - "ribat"
+  - "riya"
+  - "rukya"
+  - "safar"
+  - "sagair-sogair"
+  - "sakhabij-sakhaba"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "sha-ban"
+  - "shafa-a"
+  - "shajtan"
+  - "shakhada"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sirat-syrat"
+  - "sukhur"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhadzhud"
+  - "taklid"
+  - "takva"
+  - "talak"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "tauba"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "tavassul"
+  - "tayammum"
+  - "tora"
+  - "umma"
+  - "umra"
+  - "usul-al-fikkh"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "yadzhudzh-i-madzhudzh"
+  - "zabkh"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
+  - "zina"
+  - "zindik"
+  - "zul-khidzha"
 used_in:
-- 03-adab-tazkiya-urok-03.md
-- 05-adab-tazkiya-urok-05.md
-- 08-adab-tazkiya-urok-08.md
-- 100-al-bakara-korova-83-84-aiat.md
-- 102-al-bakara-korova-88-90-aiat.md
-- 11-adab-tazkiya-urok-11.md
-- 111-al-bakara-korova-106-107-aiat.md
-- 12-adab-tazkiya-urok-12.md
-- 145-mecheti-urok-12.md
-- 15-adab-tazkiya-urok-15.md
-- 15-razrush-svoego-idola.md
-- 17-razrush-svoego-idola.md
-- 175-chtenie-korana-v-namaze-urok-7.md
-- 18-adab-tazkiya-urok-18.md
-- 2-razrush-svoego-idola.md
-- 21-razrush-svoego-idola.md
-- 29-adab-tazkiya-urok-29.md
-- 30-adab-tazkiya-urok-30.md
-- 70-namaz-privetstviya-mecheti-44.md
-- 77-namaz-putnika-51.md
-- 9-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F15-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F17-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F2-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F21-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F9-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F03-adab-tazkiya-urok-03"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F05-adab-tazkiya-urok-05"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F08-adab-tazkiya-urok-08"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F09-adab-tazkiya-urok-09"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F11-adab-tazkiya-urok-11"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F12-adab-tazkiya-urok-12"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F15-adab-tazkiya-urok-15"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F18-adab-tazkiya-urok-18"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F29-adab-tazkiya-urok-29"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F30-adab-tazkiya-urok-30"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F102-sotvorenie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F20-dva-usloviya-prinyatiya-pokloneniya-iskrennost"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F27-zhertvoprinoshenie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F28-tri-osnovy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F30-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F32-shirk"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F37-maloe-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F60-nauchnye-otkrytiya-v-korane-primery"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F62-mesta-shodstva-mezhdu-shariatami"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F64-vera-v-poslannikov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F68-otlichitelnye-kachestva-prorokov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F90-mucheniya-i-naslazhdeniya-v-mogile"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F97-zastupnichestvo"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F10-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F26-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F8-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F83-blizost-vo-vremya-haida"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F85-kaffara-za-blizost-vo-vremya-haida"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F145-mecheti-urok-12"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F175-chtenie-korana-v-namaze-urok-7"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F02-dostoinstva-omoveniya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F09-chto-narushaet-omovenie"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F54-voda-posle-omoveniya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F10-vidy-omoveniya"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F22-mesyachnye-nifas-istihada"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F70-namaz-privetstviya-mecheti-44"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F77-namaz-putnika-51"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F60-15-hadis-dobrososedskie-otnosheniya"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F66-19-hadis-esli-prosish-prosi-u-allaha"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F75-25-hadis-shirota-milosti-allaha"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F09-naskh-annulirovanie"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F13-vidy-tafsira"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F100-al-bakara-korova-83-84-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F102-al-bakara-korova-88-90-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F111-al-bakara-korova-106-107-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F87-al-bakara-korova-42-44-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F16-al-maun-meloch"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F21-at-takasur-strast-k-priumnozheniyu"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F24-az-zalzala-sotryasenie"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F31-al-lejl-noch"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F33-al-balad-gorod"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F39-al-aglya-vsevyshniy-1"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F40-al-aglya-vsevyshniy-2"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F49-al-infitar-raskalyvanie-1"
 description: "Садака: безвозмездное пожертвование ради Аллаха, обязательное или добровольное. Пояснение широкого значения слова, охватывающего благие дела."
 ---
 

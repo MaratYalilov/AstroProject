@@ -5,8 +5,18 @@ letter: Г
 category: Г
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "avrat"
+  - "bid-a"
+  - "id"
+  - "islam"
+  - "khasan"
+  - "musulmanin"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F63-razlichiya-mezhdu-shariatami"
 description: "Ганима: имущество, захваченное исламским войском у противника в ходе сражения. Определение военной добычи в шариатской терминологии."
 ---
 

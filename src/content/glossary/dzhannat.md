@@ -6,13 +6,28 @@ category: Д
 tags: []
 aliases: []
 related:
-- khadzh
-- sakhikh
-- shajtan
-- shirk
-- zukhd
+  - "adam"
+  - "baraka"
+  - "dadzhal"
+  - "du-a"
+  - "firdaus"
+  - "iblis"
+  - "id"
+  - "islam"
+  - "khadzh"
+  - "kufr"
+  - "makhram"
+  - "munkar-i-nakir"
+  - "ramadan"
+  - "sakhikh"
+  - "shajtan"
+  - "shirk"
+  - "tora"
+  - "zakyat"
+  - "zukhd"
 used_in:
-- 1-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F1-razrush-svoego-idola"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F45-atributy-suschnosti-allaha"
 description: "Джаннат: Рай, вечная обитель блаженства, приготовленная Аллахом для верующих. Пояснение райских благ и значения термина."
 ---
 

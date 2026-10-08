@@ -5,8 +5,18 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "fakikh-fakykh"
+  - "fard"
+  - "mechet"
+  - "sakhikh"
+  - "sunna"
+  - "tadzhvid"
+  - "tauba"
+  - "vali"
+used_in:
+  - "/quran/koran-2-uroven/?lesson=m01-01-dzhazari-1"
+  - "/quran/muzakkara-tajvid/?lesson=l01-vvedenie"
 description: "Мухаддис: учёный, занимающийся передачей и изучением хадисов. Пояснение его работы с текстами, версиями сообщений и передатчиками."
 ---
 

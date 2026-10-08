@@ -5,8 +5,20 @@ letter: К
 category: К
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "barzakh"
+  - "id"
+  - "khukm"
+  - "kufr"
+  - "sadaka"
+  - "sagair-sogair"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "vakhj-vakhij"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F68-otlichitelnye-kachestva-prorokov"
 description: "Кабаир: большие грехи, за которые установлено наказание или передана угроза в Коране и Сунне. Пояснение признаков и количества таких грехов."
 ---
 

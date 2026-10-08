@@ -5,8 +5,39 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "akida"
+  - "din"
+  - "dzhama-a"
+  - "fikkh"
+  - "ibada-ibadat"
+  - "idzhma"
+  - "ikhlas"
+  - "ikhram"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "khadzh"
+  - "khalil"
+  - "kiyama-kyyama"
+  - "mechet"
+  - "musulmanin"
+  - "radzhab"
+  - "ramadan"
+  - "sa-a-saga"
+  - "salaf"
+  - "salyam"
+  - "shari-a"
+  - "shavval-shauual"
+  - "shirk"
+  - "sunna"
+  - "taukhid"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F01-vstuplenie-shest-stepeney-imana"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F2-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F4-vajees"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F18-urok-sira-pervoe-pereselenie"
 description: "Салафия: следование пути Пророка и его сподвижников в убеждениях, словах и делах. Пояснение значения термина и отношений между последователями."
 ---
 

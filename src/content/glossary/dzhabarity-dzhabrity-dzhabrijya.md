@@ -5,8 +5,46 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adab"
+  - "adam"
+  - "bid-a"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "fitra"
+  - "ibada-ibadat"
+  - "iblis"
+  - "id"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "kadarity-kadarijya"
+  - "karun-korun"
+  - "khadzh"
+  - "khasan"
+  - "kurban"
+  - "makhdi"
+  - "musulmanin"
+  - "ramadan"
+  - "sakhikh"
+  - "salyam"
+  - "shakhada"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sunna"
+  - "tafsir"
+  - "takdir-kadar"
+  - "taufik"
+  - "taukhid"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F101-zhelanie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F103-otvet-dzhabaritam"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F22-nekotorye-vidy-pokloneniya-molba"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F11-voleiziavlenie-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F19-vera-v-predopredelenie"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F21-vlast-allaha-i-ego-voleiziavlenie"
 description: "Джабариты: течение, считающее человека полностью принуждённым к своим поступкам. Пояснение их взгляда на предопределение и свободу выбора."
 ---
 

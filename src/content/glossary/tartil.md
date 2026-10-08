@@ -5,8 +5,10 @@ letter: Т
 category: Т
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "tadzhvid"
+used_in:
+  - "/quran/koran-2-uroven/?lesson=m02-13-vidy-chteniya"
 description: "Тартиль: размеренное чтение с правильным произношением букв и соблюдением остановок. Пояснение его связи с таджвидом."
 ---
 

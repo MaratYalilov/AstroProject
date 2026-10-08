@@ -10,7 +10,7 @@ video: /media/fiqh/nurul-idah/video/22-mesyachnye-nifas-istihada.mp4
 videoRel: video/22-mesyachnye-nifas-istihada.mp4
 ---
 # 22, Месячные, <a href="/glossary/nifas" class="glossary-link" target="_blank" rel="noopener noreferrer">нифас</a>, <a href="/glossary/istikhada" class="glossary-link" target="_blank" rel="noopener noreferrer">истихада</a>
-<p><span class="arab">باب الحيض والنفاس والاستحاضة</span></p> Глава: месячные, нифас и истихада <p><span class="arab">يخرج
+<p><span class="arab">باب الحيض والنفاس والاستحاضة</span></p> Глава: месячные, <a href="/glossary/nifas" class="glossary-link" target="_blank" rel="noopener noreferrer">нифас</a> и <a href="/glossary/istikhada" class="glossary-link" target="_blank" rel="noopener noreferrer">истихада</a> <p><span class="arab">يخرج
 من الفرج حيض ونفاس واستحاضة</span></p>. Из полового органа выходят: месячные, нифас
 и истихада. Месячные и нифас выходят из матки, а истихада это венозное
 кровотечение. Подробное изучение этих установлений необходимо ввиду
@@ -51,7 +51,7 @@ videoRel: video/22-mesyachnye-nifas-istihada.mp4
 болезни выделение крови не будет считаться месячными. Не беременная -
 так как у неё не бывает месячных. Менопауза – время, когда происходят
 последние месячные. Это 55 лет согласно мнению, по которому выносится
-фетва. (По мировым данным, средний возраст наступления климакса у
+<a href="/glossary/fetva-fatva" class="glossary-link" target="_blank" rel="noopener noreferrer">фетва</a>. (По мировым данным, средний возраст наступления климакса у
 женщины составляет 45-55 лет).<br />
 Это было шариатское определение менструации. В арабском языке слово
 «хайд» означает течение, вытекание. <p><span class="arab">وأقل الحيض ثلاثة أيام وأوسطه خمسة

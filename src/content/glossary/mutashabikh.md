@@ -6,24 +6,54 @@ category: М
 tags: []
 aliases: []
 related:
-- ahlul-kitab
-- din
-- du-a
-- fard
-- indzhil
-- islam
-- khalyal
-- kharam
-- kufr
-- mukhkam
-- musulmanin
-- sakhikh
-- salyam
-- sunna
-- tafsir
-- umma
+  - "adam"
+  - "ahlul-kitab"
+  - "ajn"
+  - "bid-a"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "faraon-fir-aun"
+  - "fard"
+  - "ikhlas"
+  - "indzhil"
+  - "islam"
+  - "kaaba"
+  - "khadzh"
+  - "khalifat"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khur-in-gurii"
+  - "kufr"
+  - "mechet"
+  - "mukhkam"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "rukya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "tora"
+  - "umma"
+  - "usul-al-fikkh"
+  - "zabur"
+  - "zakyat"
+  - "zikr"
+  - "zina"
 used_in:
-- 118-al-bakara-korova-120-123-aiat.md
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F53-yasno-izlozhennye-i-inoskazatelnye-ayaty"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F54-chudo-korana"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F3-2-yasno-izlozhennye-i-inoskazatelnye-ayaty"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F8-vajees"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F07-prichiny-nisposlaniia-aiatov"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F118-al-bakara-korova-120-123-aiat"
 description: "Муташабих: аяты, требующие сопоставления с другими аятами для понимания. Пояснение неоднозначного смысла и отсутствия ясного указания."
 ---
 

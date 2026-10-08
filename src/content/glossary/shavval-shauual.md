@@ -5,8 +5,33 @@ letter: Ш
 category: Ш
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "burak"
+  - "du-a"
+  - "dzhama-a"
+  - "dzhibril-dzhabrail"
+  - "imam"
+  - "islam"
+  - "khadzh"
+  - "khafiz"
+  - "khanif"
+  - "khira"
+  - "kuds-bejt-al-makdis"
+  - "makrukh"
+  - "mankhadzh-minkha-dzh"
+  - "mechet"
+  - "radzhab"
+  - "ramadan"
+  - "rukya"
+  - "sakhikh"
+  - "salafiya-salyafiya"
+  - "shafa-a"
+  - "tavakkul"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F25-upovanie"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F18-urok-sira-pervoe-pereselenie"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F22-urok-sira-god-skorbi"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F23-urok-sira-taif-nochnoe-voznesenie"
 description: "Шавваль: десятый месяц лунного календаря и первый из месяцев хаджа. Пояснение названия и положения этого месяца."
 ---
 

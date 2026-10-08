@@ -6,64 +6,152 @@ category: И
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- ajn
-- azan
-- bid-a
-- din
-- fard
-- fikkh
-- fitna
-- fitra
-- id
-- ikamat
-- iman
-- islam
-- khadzh
-- khalyal
-- kharam
-- kharut-i-marut
-- khasan
-- khava
-- khidzhr
-- khukm
-- kibla
-- kibr
-- kufr
-- ma-ruf
-- makrukh
-- mechet
-- mubtadi
-- mursal
-- musulmanin
-- nadzhasa
-- radzhab
-- riba
-- riya
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shart
-- shirk
-- sikhr
-- takhara
-- tauba
-- tavaf
-- vasvasa
-- zina
+  - "a-raf"
+  - "adam"
+  - "ajn"
+  - "akhlyul-khadis"
+  - "aksa"
+  - "amanat"
+  - "azan"
+  - "baraka"
+  - "bid-a"
+  - "dadzhal"
+  - "din"
+  - "du-a"
+  - "dzhabarity-dzhabrity-dzhabrijya"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhannat"
+  - "dzhibril-dzhabrail"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fadzhr"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fikkh"
+  - "firdaus"
+  - "fitna"
+  - "fitra"
+  - "ibada-ibadat"
+  - "id"
+  - "idzhtikhad"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhsan"
+  - "ikrakh"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "isra"
+  - "israfil"
+  - "istigfar"
+  - "kaaba"
+  - "kadarity-kadarijya"
+  - "karamat"
+  - "karun-korun"
+  - "khadzh"
+  - "khafiz"
+  - "khalyal"
+  - "kharam"
+  - "kharut-i-marut"
+  - "khasan"
+  - "khava"
+  - "khidr-khidir-khizr-khyzr"
+  - "khidzhab"
+  - "khidzhr"
+  - "khikma"
+  - "khira"
+  - "khukm"
+  - "kibla"
+  - "kibr"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "kurban"
+  - "ma-ruf"
+  - "makhdi"
+  - "makhram"
+  - "makrukh"
+  - "malyaika"
+  - "mankhadzh-minkha-dzh"
+  - "mazkhab"
+  - "mechet"
+  - "mi-radzh"
+  - "mikail-mikal"
+  - "mu-dzhiza"
+  - "mu-tazility-mu-tazilya"
+  - "muftij"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "mursal"
+  - "musulmanin"
+  - "nadzhasa"
+  - "nikakh"
+  - "radzhab"
+  - "ramadan"
+  - "riba"
+  - "riya"
+  - "rukya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shart"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sikhr"
+  - "sira"
+  - "sirat-syrat"
+  - "sunna"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhara"
+  - "taklid"
+  - "tasbikh"
+  - "tauba"
+  - "taukhid"
+  - "tavaf"
+  - "tora"
+  - "umra"
+  - "vasvasa"
+  - "zakyat"
+  - "zina"
 used_in:
-- 04-adab-tazkiya-urok-04.md
-- 06-adab-tazkiya-urok-06.md
-- 07-adab-tazkiya-urok-07.md
-- 108-al-bakara-korova-102-103-aiat.md
-- 131-azan-urok-9.md
-- 2-razrush-svoego-idola.md
-- 22-adab-tazkiya-urok-22.md
-- 4-razrush-svoego-idola.md
-- 5-razrush-svoego-idola.md
-- 52-kniga-namaza-26.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F2-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F4-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F5-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F04-adab-tazkiya-urok-04"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F06-adab-tazkiya-urok-06"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F07-adab-tazkiya-urok-07"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F22-adab-tazkiya-urok-22"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F05-sut-very"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F07-fitra-ukazyvaet-na-tvorca"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F09-chuvstvo-ukazyvaet-na-suschestvovanie-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F45-atributy-suschnosti-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F48-vera-v-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F49-imena-angelov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F74-vremya-sudnogo-dnya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F99-znanie-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F04-edinobozhie-i-ego-vidy"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F17-poniatie-moshchi-allaha"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F21-vlast-allaha-i-ego-voleiziavlenie"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F2-1-2-svet"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F13-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F127-azan-urok-5"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F131-azan-urok-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F52-kniga-namaza-26"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F9-1-hadis-otnoshenie-k-dunya"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F02-urok-sira-religii-arabov"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F17-urok-sira-popytki-poseyat-somneniya"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F108-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F81-al-bakara-korova-29-30-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F83-al-bakara-korova-31-33-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F84-al-bakara-korova-34-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F85-al-bakara-korova-35-37-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F10-al-falyak-rassvet"
 description: "Иблис: джинн, отказавшийся поклониться Адаму из гордыни. Пояснение его происхождения, проклятия и роли в совращении людей."
 ---
 

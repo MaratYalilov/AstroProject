@@ -5,8 +5,29 @@ letter: Д
 category: Д
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "da-if-daif"
+  - "dadzhal"
+  - "islam"
+  - "khalifat"
+  - "khasan"
+  - "kibla"
+  - "makhdi"
+  - "masikh"
+  - "mechet"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "sunna"
+  - "tauba"
+  - "ukhud"
+  - "yadzhudzh-i-madzhudzh"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F81-dadzhal"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F88-dabba"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-7-dabba-zhivotnoe-kotoroe-vyydet-iz-zemli"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F5-5-3-bolshie-priznaki-sudnogo-dnya"
+  - "/quran/koran-2-uroven/?lesson=m13-04-edinica-harakat"
 description: "Дабба: животное, которое выйдет из земли и будет говорить с людьми перед Концом света. Значение этого признака приближения Судного часа."
 ---
 

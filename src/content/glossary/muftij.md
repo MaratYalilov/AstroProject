@@ -5,8 +5,42 @@ letter: М
 category: М
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "amanat"
+  - "azan"
+  - "du-a"
+  - "dzhama-a"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fitra"
+  - "iblis"
+  - "ikrakh"
+  - "islam"
+  - "istigfar"
+  - "khalyal"
+  - "kharam"
+  - "khasan"
+  - "khidzhab"
+  - "khukm"
+  - "kufr"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "musulmanin"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sirat-syrat"
+  - "sunna"
+  - "takfir"
+  - "taklid"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F39-maloe-licemerie"
 description: "Муфтий: учёный, разъясняющий шариатские вопросы. Разбор двух определений термина и требований к знанию при вынесении фетвы."
 ---
 

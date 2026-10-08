@@ -5,8 +5,47 @@ letter: З
 category: З
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "bid-a"
+  - "dzhama-a"
+  - "fetva-fatva"
+  - "indzhil"
+  - "islam"
+  - "isra"
+  - "khadzh"
+  - "khafiz"
+  - "khasad"
+  - "khukm"
+  - "kibr"
+  - "mukhkam"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutashabikh"
+  - "ramadan"
+  - "rasul"
+  - "rukya"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "salyat"
+  - "sukhur"
+  - "sunna"
+  - "tafsir"
+  - "tasbikh"
+  - "taukhid"
+  - "tora"
+  - "usul-al-fikkh"
+  - "vakhj-vakhij"
+  - "zakyat"
+  - "zikr"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F52-vera-v-pisaniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F66-raznica-mezhdu-poslannikom-i-prorokom"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F3-1-vera-v-pisaniya"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F8-vajees"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F22-2-hadis-vera-v-angelov-i-pisaniya"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F03-nisposlanie-korana"
 description: "Забур: Писание Аллаха, ниспосланное пророку Дауду. Пояснение его описания как собрания мудростей и увещеваний."
 ---
 

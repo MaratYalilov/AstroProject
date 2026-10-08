@@ -5,8 +5,47 @@ letter: Ф
 category: Ф
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "adam"
+  - "baraka"
+  - "dadzhal"
+  - "du-a"
+  - "dzhannat"
+  - "faraon-fir-aun"
+  - "fitra"
+  - "iblis"
+  - "id"
+  - "id-al-adkha"
+  - "id-al-fitr"
+  - "iman"
+  - "islam"
+  - "khasan"
+  - "khidzhab"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "makhdi"
+  - "makhram"
+  - "masikh"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "munkar-i-nakir"
+  - "musulmanin"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shirk"
+  - "sunna"
+  - "tashakhkhud"
+  - "tora"
+  - "yadzhudzh-i-madzhudzh"
+  - "zakyat"
+used_in:
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F45-atributy-suschnosti-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F64-vera-v-poslannikov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F83-unichtozhenie-dadzhalya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F96-vera-v-ray-i-ad"
 description: "Фирдаус: высшая и лучшая часть Рая, из которой вытекают райские реки. Пояснение её положения и благ, приготовленных для праведных верующих."
 ---
 

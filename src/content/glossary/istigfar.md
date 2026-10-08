@@ -6,26 +6,66 @@ category: И
 tags: []
 aliases: []
 related:
-- adam
-- dzhikhad
-- id-al-adkha
-- islam
-- khadzh
-- kharam
-- makrukh
-- mechet
-- ramadan
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- shakhada
-- tasbikh
-- tauba
-- zakyat
+  - "adam"
+  - "amanat"
+  - "arafa-arafat"
+  - "azan"
+  - "bid-a"
+  - "du-a"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhikhad"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fitra"
+  - "iblis"
+  - "id-al-adkha"
+  - "ikrakh"
+  - "ilya"
+  - "islam"
+  - "khadzh"
+  - "khalyal"
+  - "khanif"
+  - "kharam"
+  - "khidzhab"
+  - "khidzhama"
+  - "khukm"
+  - "khutba"
+  - "kufr"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "muftij"
+  - "musulmanin"
+  - "nadzhasa"
+  - "ramadan"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shakhada"
+  - "shi-a-shiity"
+  - "shirk"
+  - "sirat-syrat"
+  - "sunna"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhadzhud"
+  - "taklid"
+  - "tasbikh"
+  - "tauba"
+  - "zakyat"
 used_in:
-- 24-adab-tazkiya-urok-24.md
-- 30-adab-tazkiya-urok-30.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F24-adab-tazkiya-urok-24"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F30-adab-tazkiya-urok-30"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F32-shirk"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F34-maloe-mnogobozhie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F13-an-nasr-pomoshch"
 description: "Истигфар: просьба к Аллаху о прощении грехов и защите от наказания. Пояснение значения термина и его связи с признанием своих грехов."
 ---
 

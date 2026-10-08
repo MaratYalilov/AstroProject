@@ -5,8 +5,51 @@ letter: С
 category: С
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "amanat"
+  - "ashura"
+  - "bid-a"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fitra"
+  - "gusl"
+  - "i-tikaf"
+  - "id"
+  - "iman"
+  - "islam"
+  - "istindzha"
+  - "kausar"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "khasan"
+  - "khaud"
+  - "khidzhab"
+  - "mechet"
+  - "mubtadi"
+  - "nikakh"
+  - "ramadan"
+  - "riba"
+  - "sakhikh"
+  - "salyam"
+  - "shart"
+  - "sirat-syrat"
+  - "sunna"
+  - "takhadzhud"
+  - "ukhud"
+  - "vadzhib"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
+used_in:
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F23-adab-tazkiya-urok-23"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F55-chudo-korana-nauki"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F94-vesy"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F25-vidy-omoveniya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F26-sivak"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F27-fitra"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F28-chistka-zubov"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F07-farzy-i-sunny-omoveniya"
 description: "Сивак, или мисвак: палочка или подобное средство для очищения зубов. Определение термина и пояснение удаления налёта и запаха."
 ---
 

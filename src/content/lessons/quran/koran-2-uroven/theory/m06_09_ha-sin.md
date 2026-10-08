@@ -19,7 +19,7 @@ order: 609
 ## Буква с — три примера
 
 - **<span class="arab">مُسْتَقِيم</span>** — «син» мягкая, не «<span class="arab">مُسْتَقِيم</span>» твёрдо;
-- **<span class="arab">يَسْطُونَ</span>** (<span class="arab">في</span> **<span class="arab">يَكَادُونَ يَسۡطُونَ</span>**, аль-Хадж) — «син» мягкая, не «<span class="arab">يَسْطُون</span>»; {Quran}22:72{/Quran}
+- **<span class="arab">يَسْطُونَ</span>** (<span class="arab">في</span> **<span class="arab">يَكَادُونَ يَسۡطُونَ</span>**, аль-<a href="/glossary/khadzh" class="glossary-link" target="_blank" rel="noopener noreferrer">Хадж</a>) — «син» мягкая, не «<span class="arab">يَسْطُون</span>»; {Quran}22:72{/Quran}
 - **<span class="arab">يَسْقُونَ</span>** (история Мусы: **<span class="arab">يَسْقُونَ</span>**) — «син» мягкая, не утолщать из-за соседней твёрдой «каф».
 
 ## Суть

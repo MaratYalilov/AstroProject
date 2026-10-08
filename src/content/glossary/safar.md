@@ -6,68 +6,86 @@ category: С
 tags: []
 aliases: []
 related:
-- adab
-- azan
-- azima
-- bid-a
-- dzhanaza
-- dzhikhad
-- dzhinn
-- fadzhr
-- fard
-- fitna
-- id
-- ikamat
-- ikrakh
-- iman
-- indzhil
-- islam
-- kaaba
-- kaffara
-- khadzh
-- khafiz
-- kharam
-- khasan
-- kibla
-- kufr
-- makhr
-- makhram
-- makrukh
-- mazkhab
-- mechet
-- mubakh
-- musulmanin
-- nadzhasa
-- ramadan
-- rukhsa
-- sadaka
-- sakhikh
-- salyam
-- salyat
-- shajtan
-- sudzhud-ash-shukr
-- sunna
-- takva
-- tashakhkhud
-- umma
-- vadzhib
-- vitr
-- vudu
-- zakyat
-- zikr
+  - "adab"
+  - "akika"
+  - "arafa-arafat"
+  - "azan"
+  - "azima"
+  - "bid-a"
+  - "da-if-daif"
+  - "dzhanaza"
+  - "dzhikhad"
+  - "dzhinn"
+  - "fadzhr"
+  - "fard"
+  - "fitna"
+  - "fitra"
+  - "gusl"
+  - "id"
+  - "ikamat"
+  - "ikrakh"
+  - "imam"
+  - "iman"
+  - "indzhil"
+  - "islam"
+  - "istikhada"
+  - "kaaba"
+  - "kaffara"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "kharam"
+  - "khasan"
+  - "kibla"
+  - "kufr"
+  - "makhdi"
+  - "makhr"
+  - "makhram"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "mubakh"
+  - "musulmanin"
+  - "mutavatir"
+  - "nadzhasa"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rukhsa"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "sira"
+  - "sudzhud-ash-shukr"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takva"
+  - "tashakhkhud"
+  - "umma"
+  - "vadzhib"
+  - "vali"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 102-al-bakara-korova-88-90-aiat.md
-- 115-al-bakara-korova-115-aiat.md
-- 138-mecheti-urok-5.md
-- 170-chtenie-korana-v-namaze-urok-2.md
-- 19-razrush-svoego-idola.md
-- 21-adab-tazkiya-urok-21.md
-- 29-kniga-namaza-3.md
-- 32-kniga-namaza-6.md
-- 51-kniga-namaza-25.md
-- 71-namaz-verkhom-45.md
-- 74-namaz-putnika-48.md
-- 77-namaz-putnika-51.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F19-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F21-adab-tazkiya-urok-21"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F10-bozhestvennoe-proishozhdenie-imen-allaha"
+  - "/lesson?subject=fiqh&course=mishkat-hayd&slug=fiqh%2Fmishkat-hayd%2F86-sroki-haida"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F138-mecheti-urok-5"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F170-chtenie-korana-v-namaze-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F70-protiranie-dyryavyh-noskov"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F29-kniga-namaza-3"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F32-kniga-namaza-6"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F51-kniga-namaza-25"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F71-namaz-verkhom-45"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F74-namaz-putnika-48"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F77-namaz-putnika-51"
+  - "/lesson?subject=sira&course=analiticheskaya-sira&slug=sira%2Fanaliticheskaya-sira%2F03-urok-sira-slonovyi-pohod-religiya-mekki"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F102-al-bakara-korova-88-90-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F115-al-bakara-korova-115-aiat"
 description: "Сафар: путешествие на расстояние, установленное шариатом для разрешения сокращать намаз. Определение понятия и его связи с молитвой."
 ---
 

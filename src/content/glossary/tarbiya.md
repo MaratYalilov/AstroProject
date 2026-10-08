@@ -8,7 +8,7 @@ aliases: []
 related:
 - du-a
 used_in:
-- 01-adab-tazkiya-urok-01.md
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F01-adab-tazkiya-urok-01"
 description: "Тарбия: система религиозного и мирского воспитания в свете исламских источников. Определение термина и хадис об ответственности за свою паству."
 ---
 

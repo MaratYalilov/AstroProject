@@ -48,7 +48,7 @@ videoRel: video/25-dokazatelstva-prorocheskoi-missii-muhammada-2.mp4
 <p><strong>Сообщения о будущем и сокровенном:</strong></p>
 <div class="hadith">
 <p>Хузейфа, радияЛлаху анху, сказал: «Посланник Аллаха ﷺ встал среди нас и произнёс речь, в которой он не оставил ничего из того, что произойдёт до наступления Часа (Судного дня), не упомянув об этом. Кто-то из нас запомнил это, а кто-то забыл. И было так, что некоторые из этих событий происходили, и я их узнавал (вспоминал), подобно тому, как человек узнаёт лицо своего знакомого, когда тот уходит и возвращается к нему» .</p>
-<div class="hadith-reference">«<a href="/glossary/sakhikh" class="glossary-link" target="_blank" rel="noopener noreferrer">Сахих</a>» Муслим (№ 2891) — в книге "Смуты и знамения Судного дня" (Китаб аль-Фитан ва ашрат ас-са'а)</div>
+<div class="hadith-reference">«<a href="/glossary/sakhikh" class="glossary-link" target="_blank" rel="noopener noreferrer">Сахих</a>» Муслим (№ 2891) — в книге "Смуты и знамения Судного дня" (Китаб аль-Фитан ва ашрат ас-<a href="/glossary/sa-a-saga" class="glossary-link" target="_blank" rel="noopener noreferrer">са'а</a>)</div>
 </div>
 <p>Многие из этих предсказаний сбылись, например:</p>
 <ul class="list">

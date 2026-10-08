@@ -5,8 +5,29 @@ letter: Х
 category: Категория 137
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "dzhinn"
+  - "indzhil"
+  - "isra"
+  - "karamat"
+  - "khafiz"
+  - "kharut-i-marut"
+  - "kibr"
+  - "ramadan"
+  - "riya"
+  - "rukya"
+  - "salyam"
+  - "shirk"
+  - "sikhr"
+  - "sukhur"
+  - "takdir-kadar"
+  - "tora"
+  - "zabur"
+  - "zikr"
+used_in:
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F21-vajees"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F22-2-hadis-vera-v-angelov-i-pisaniya"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F82-35-hadis-zavist-bolezn-serdca"
 description: "Хасад: зависть и желание лишить другого человека блага, дарованного Аллахом. Пояснение значения термина и видов такого отношения."
 ---
 

@@ -6,47 +6,58 @@ category: Ш
 tags: []
 aliases: []
 related:
-- ajn
-- azan
-- bid-a
-- fard
-- fikkh
-- gusl
-- iblis
-- ikamat
-- ikhlas
-- ikhram
-- kaaba
-- kaffara
-- khadzh
-- khalyal
-- khasan
-- kibla
-- kufr
-- makhram
-- makrukh
-- mechet
-- mubtadi
-- musulmanin
-- nadzhasa
-- rukn
-- sakhikh
-- salyam
-- shajtan
-- sunna
-- takhara
-- talak
-- taravikh
-- tayammum
-- vadzhib
-- vitr
-- vudu
+  - "ajn"
+  - "azan"
+  - "bid-a"
+  - "fard"
+  - "fikkh"
+  - "gusl"
+  - "iblis"
+  - "ikamat"
+  - "ikhlas"
+  - "ikhram"
+  - "islam"
+  - "kaaba"
+  - "kaffara"
+  - "khadzh"
+  - "khalyal"
+  - "khasan"
+  - "kibla"
+  - "kiyama-kyyama"
+  - "kufr"
+  - "makhram"
+  - "makrukh"
+  - "mechet"
+  - "mu-tazility-mu-tazilya"
+  - "musulmanin"
+  - "nadzhasa"
+  - "niyat-nijya"
+  - "rakaat-rak-a"
+  - "rukn"
+  - "sadaka"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "shi-a-shiity"
+  - "sivak-misvak"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "takhara"
+  - "talak"
+  - "taravikh"
+  - "tayammum"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
 used_in:
-- 34-kniga-namaza-8.md
-- 35-kniga-namaza-9.md
-- 36-kniga-namaza-10.md
-- 50-kniga-namaza-24.md
-- 52-kniga-namaza-26.md
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F09-chto-narushaet-omovenie"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F25-vidy-omoveniya"
+  - "/lesson?subject=fiqh&course=mishkat-taharat&slug=fiqh%2Fmishkat-taharat%2F62-raznoglasiya-po-povodu-mani-semeni"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F34-kniga-namaza-8"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F35-kniga-namaza-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F36-kniga-namaza-10"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F50-kniga-namaza-24"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F52-kniga-namaza-26"
 description: "Шарт: условие, без которого поклонение недействительно, но наличие которого само по себе не гарантирует его правильность. Определение термина."
 ---
 

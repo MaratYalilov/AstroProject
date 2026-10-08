@@ -6,81 +6,232 @@ category: Ш
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- aksa
-- ashura
-- azan
-- din
-- du-a
-- dzhannat
-- dzhizya
-- fard
-- fikkh
-- fitna
-- fitra
-- iblis
-- idzhma
-- ikhlas
-- ilya
-- iman
-- islam
-- kaaba
-- karamat
-- khadzh
-- khafiz
-- khalil
-- kharadzh
-- kharam
-- kharut-i-marut
-- khasan
-- khava
-- khidzhr
-- kufr
-- makrukh
-- mazkhab
-- mechet
-- miskin
-- mubakh
-- mukharram
-- mursal
-- musulmanin
-- namima
-- nisab
-- ramadan
-- riya
-- sadaka
-- sakhikh
-- salyam
-- shajtan
-- sikhr
-- sukhur
-- sunna
-- tafsir
-- tashakhkhud
-- tauba
-- taufik
-- taukhid
-- tavaf
-- zakyat
-- zina
-- zukhd
-- zulm
+  - "a-raf"
+  - "adab"
+  - "adam"
+  - "ajn"
+  - "akhlyul-fatra"
+  - "akida"
+  - "aksa"
+  - "amanat"
+  - "ashura"
+  - "azan"
+  - "azima"
+  - "barzakh"
+  - "bid-a"
+  - "da-if-daif"
+  - "dadzhal"
+  - "dalil"
+  - "din"
+  - "du-a"
+  - "dzhabarity-dzhabrity-dzhabrijya"
+  - "dzhakhmity-dzhakhmijya"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "dzhannat"
+  - "dzhikhad"
+  - "dzhinn"
+  - "dzhizya"
+  - "faraon-fir-aun"
+  - "fard"
+  - "fetva-fatva"
+  - "fidya-fidiya"
+  - "fikkh"
+  - "firdaus"
+  - "fitna"
+  - "fitra"
+  - "ibada-ibadat"
+  - "iblis"
+  - "id"
+  - "idzhma"
+  - "idzhtikhad"
+  - "ikhlas"
+  - "ikhsan"
+  - "ikrakh"
+  - "ilya"
+  - "imam"
+  - "iman"
+  - "islam"
+  - "israf"
+  - "istigfar"
+  - "istikhara"
+  - "istiska"
+  - "kaaba"
+  - "kabair"
+  - "kadarity-kadarijya"
+  - "kafan"
+  - "kaffara"
+  - "karamat"
+  - "karun-korun"
+  - "kausar"
+  - "kazf"
+  - "khadis-kudsi"
+  - "khadzh"
+  - "khafiz"
+  - "khajd"
+  - "khalil"
+  - "khalyal"
+  - "khamr"
+  - "khanif"
+  - "kharadzh"
+  - "kharam"
+  - "kharidzhity-khavaridzhi"
+  - "kharut-i-marut"
+  - "khasad"
+  - "khasan"
+  - "khaud"
+  - "khava"
+  - "khidzhab"
+  - "khidzhama"
+  - "khidzhr"
+  - "khidzhra"
+  - "khukm"
+  - "khutba"
+  - "kiyama-kyyama"
+  - "kuds-bejt-al-makdis"
+  - "kufr"
+  - "kunut"
+  - "kunya"
+  - "kurban"
+  - "kysas-kisas"
+  - "ma-ruf"
+  - "makam-makom"
+  - "makhdi"
+  - "makhram"
+  - "makrukh"
+  - "masikh"
+  - "mazkhab"
+  - "mechet"
+  - "mikail-mikal"
+  - "miskin"
+  - "mu-tazility-mu-tazilya"
+  - "mubakh"
+  - "mubtadi"
+  - "muftij"
+  - "mukharram"
+  - "munkar"
+  - "munkar-i-nakir"
+  - "murdzhiity"
+  - "mursal"
+  - "muskhaf"
+  - "musulmanin"
+  - "mutavatir"
+  - "nadzhasa"
+  - "namima"
+  - "naskh"
+  - "nazr"
+  - "nikab"
+  - "nikakh"
+  - "nisab"
+  - "niyat-nijya"
+  - "radzhab"
+  - "rakaat-rak-a"
+  - "ramadan"
+  - "rasul"
+  - "riba"
+  - "riya"
+  - "rukya"
+  - "sa-a-saga"
+  - "sadaka"
+  - "sagair-sogair"
+  - "sakhikh"
+  - "salafiya-salyafiya"
+  - "salyam"
+  - "salyat"
+  - "saum-siyam"
+  - "shafa-a"
+  - "shajtan"
+  - "shakhada"
+  - "shakhid"
+  - "shi-a-shiity"
+  - "sikhr"
+  - "sirat-syrat"
+  - "sukhur"
+  - "sunna"
+  - "tabi-ij-tabi-un"
+  - "tafsir"
+  - "tagut"
+  - "takdir-kadar"
+  - "takfir"
+  - "takhadzhud"
+  - "takhara"
+  - "taklid"
+  - "takva"
+  - "tashakhkhud"
+  - "tauba"
+  - "taufik"
+  - "taukhid"
+  - "tavaf"
+  - "tavassul"
+  - "tora"
+  - "umra"
+  - "vadzhib"
+  - "vakhj-vakhij"
+  - "vali"
+  - "vudu"
+  - "yadzhudzh-i-madzhudzh"
+  - "zakkum"
+  - "zakyat"
+  - "zikr"
+  - "zina"
+  - "zukhd"
+  - "zulm"
 used_in:
-- 03-adab-tazkiya-urok-03.md
-- 1-razrush-svoego-idola.md
-- 108-al-bakara-korova-102-103-aiat.md
-- 109-al-bakara-korova-102-103-aiat.md
-- 119-al-bakara-korova-125-aiat.md
-- 142-mecheti-urok-9.md
-- 148-mecheti-urok-15.md
-- 188-tashahhud-urok-4.md
-- 2-razrush-svoego-idola.md
-- 20-adab-tazkiya-urok-20.md
-- 5-razrush-svoego-idola.md
-- 91-al-bakara-korova-50-56-aiat.md
-- 93-al-bakara-korova-59-61-aiat.md
-- 99-al-bakara-korova-80-82-aiat.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F1-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F2-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F5-razrush-svoego-idola"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F03-adab-tazkiya-urok-03"
+  - "/lesson?subject=adab&course=tazkiya-vvodnyj&slug=adab%2Ftazkiya-vvodnyj%2F20-adab-tazkiya-urok-20"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F17-shestoe-uslovie-iskrennost"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F19-vosmoe-uslovie-otrechenie-ot-togo-chemu-poklonyayutsya-pomimo-allakha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F20-dva-usloviya-prinyatiya-pokloneniya-iskrennost"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F22-nekotorye-vidy-pokloneniya-molba"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F23-nekotorye-etikety-molby"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F24-prosba-o-pomoshi"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F26-vidy-pokloneniya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F29-tri-osnovy-pokloneniya-nadezhda-i-strah"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F31-zapreschennyy-tauassul"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F32-shirk"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F33-mnogobozhie-v-poklonenii"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F34-maloe-mnogobozhie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F35-maloe-mnogobozhie-v-namereniyah"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F36-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F37-maloe-neverie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F38-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F39-maloe-licemerie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F40-puti-k-mnogobozhiyu"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F41-poseschenie-mogil"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F42-edinobozhie-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F43-osnovy-edinobozhiya-v-imenah-i-atributah-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F44-imena-allaha"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F51-obyazatelstva-musulmanina-pered-angelami"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F56-chudo-korana-znamenie"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F67-poslanniki-obladateli-reshimosti"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F68-otlichitelnye-kachestva-prorokov"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F75-malye-priznaki-sudnogo-dnya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F83-unichtozhenie-dadzhalya"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F90-mucheniya-i-naslazhdeniya-v-mogile"
+  - "/lesson?subject=akida&course=akida-6-stolpov&slug=akida%2Fakida-6-stolpov%2F95-raschet-za-nespravedlivost"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F01-takhaviya-vstuplenie"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F06-opravdanie-nevezhestvom"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F29-liubimetc-gospoda-mirov"
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F31-quran-rech-allaha"
+  - "/lesson?subject=akida&course=uchebnik-6-stolpov&slug=akida%2Fuchebnik-6-stolpov%2F1-8-1-mnogobozhie-neverie-i-litsemerie"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F19-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F21-vajees"
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F4-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F142-mecheti-urok-9"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F148-mecheti-urok-15"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F188-tashahhud-urok-4"
+  - "/lesson?subject=hadith&course=40-hadisov-an-nawawi&slug=hadith%2F40-hadisov-an-nawawi%2F41-5-hadis-opasnosti-novovvedenij"
+  - "/lesson?subject=tafsir&course=nauki-korana&slug=tafsir%2Fnauki-korana%2F12-tolkovanie-korana"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F108-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F109-al-bakara-korova-102-103-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F119-al-bakara-korova-125-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F91-al-bakara-korova-50-56-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F93-al-bakara-korova-59-61-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F99-al-bakara-korova-80-82-aiat"
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-30-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-30-dzhuz%2F10-al-falyak-rassvet"
 description: "Ширк: приравнивание творений к Аллаху в правах и качествах, присущих только Ему. Определение многобожия в исламском вероучении."
 ---
 

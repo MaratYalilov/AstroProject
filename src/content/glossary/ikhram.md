@@ -6,60 +6,71 @@ category: И
 tags: []
 aliases: []
 related:
-- a-raf
-- bid-a
-- darura
-- du-a
-- dzhanaza
-- fadzhr
-- fard
-- fikkh
-- gusl
-- id
-- idda
-- ikamat
-- ikhlas
-- khadzh
-- khajd
-- khalyal
-- khasan
-- kibla
-- kunut
-- makrukh
-- mazkhab
-- mechet
-- musulmanin
-- nazr
-- rukn
-- sakhikh
-- salyam
-- salyat
-- shart
-- sunna
-- takhara
-- taklid
-- talak
-- tasbikh
-- tashakhkhud
-- taufik
-- tavarruk
-- tayammum
-- vadzhib
-- vitr
-- vudu
-- zakyat
-- zikr
+  - "a-raf"
+  - "akida"
+  - "bid-a"
+  - "da-if-daif"
+  - "darura"
+  - "din"
+  - "du-a"
+  - "dzhama-a"
+  - "dzhanaza"
+  - "fadzhr"
+  - "fard"
+  - "fikkh"
+  - "gusl"
+  - "id"
+  - "idda"
+  - "ikamat"
+  - "ikhlas"
+  - "iman"
+  - "islam"
+  - "khadzh"
+  - "khajd"
+  - "khalyal"
+  - "khasan"
+  - "kibla"
+  - "kunut"
+  - "makrukh"
+  - "mazkhab"
+  - "mechet"
+  - "musulmanin"
+  - "nazr"
+  - "rakaat-rak-a"
+  - "rukn"
+  - "sakhikh"
+  - "salaf"
+  - "salafiya-salyafiya"
+  - "salyam"
+  - "salyat"
+  - "shari-a"
+  - "shart"
+  - "sunna"
+  - "takhara"
+  - "taklid"
+  - "talak"
+  - "tasbikh"
+  - "tashakhkhud"
+  - "taufik"
+  - "tavarruk"
+  - "tayammum"
+  - "vadzhib"
+  - "vitr"
+  - "vudu"
+  - "zakyat"
+  - "zikr"
 used_in:
-- 158-opisanie-namaza-urok-2.md
-- 161-opisanie-namaza-urok-5.md
-- 162-opisanie-namaza-urok-6.md
-- 166-opisanie-namaza-urok-10.md
-- 176-chtenie-korana-v-namaze-urok-8.md
-- 189-salavat-urok-1.md
-- 35-kniga-namaza-9.md
-- 42-kniga-namaza-16.md
-- 43-kniga-namaza-17.md
-- 73-namaz-na-korable-47.md
+  - "/lesson?subject=akida&course=verouchenie-salaf&slug=akida%2Fverouchenie-salaf%2F2-vajees"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F158-opisanie-namaza-urok-2"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F161-opisanie-namaza-urok-5"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F162-opisanie-namaza-urok-6"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F166-opisanie-namaza-urok-10"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F176-chtenie-korana-v-namaze-urok-8"
+  - "/lesson?subject=fiqh&course=mishkat-namaz&slug=fiqh%2Fmishkat-namaz%2F189-salavat-urok-1"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F35-kniga-namaza-9"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F42-kniga-namaza-16"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F43-kniga-namaza-17"
+  - "/lesson?subject=fiqh&course=nurul-idah&slug=fiqh%2Fnurul-idah%2F73-namaz-na-korable-47"
 description: "Ихрам: намерение совершить хадж или умру, сопровождаемое тальбией. Пояснение понятия и облачения мужчин в паломническую одежду."
 ---
 

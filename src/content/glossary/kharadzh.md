@@ -6,19 +6,27 @@ category: Категория 137
 tags: []
 aliases: []
 related:
-- a-raf
-- adam
-- dzhizya
-- fikkh
-- islam
-- khasan
-- miskin
-- musulmanin
-- sakhikh
-- salyam
-- shirk
+  - "a-raf"
+  - "adam"
+  - "dzhizya"
+  - "fard"
+  - "fikkh"
+  - "id"
+  - "islam"
+  - "isra"
+  - "khasan"
+  - "miskin"
+  - "musulmanin"
+  - "riya"
+  - "sakhikh"
+  - "salyam"
+  - "shirk"
+  - "tadzhvid"
+  - "umma"
 used_in:
-- 93-al-bakara-korova-59-61-aiat.md
+  - "/lesson?subject=tafsir&course=tafsir-ibn-kasir-1-dzhuz&slug=tafsir%2Ftafsir-ibn-kasir-1-dzhuz%2F93-al-bakara-korova-59-61-aiat"
+  - "/quran/dzhazariyya/?lesson=gl-04-tadzhvid"
+  - "/quran/koran-2-uroven/?lesson=m02-01-chto-takoe-tadzhvid"
 description: "Харадж: государственный налог в общем значении и земельный налог в особом. Пояснение различий между этими употреблениями слова."
 ---
 

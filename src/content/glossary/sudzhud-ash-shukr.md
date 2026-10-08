@@ -6,19 +6,18 @@ category: С
 tags: []
 aliases: []
 related:
-- id
-- iman
-- khadzh
-- khasan
-- mazkhab
-- safar
-- sakhikh
-- salyam
-- shajtan
-- takva
-- zikr
+  - "id"
+  - "iman"
+  - "khadzh"
+  - "khasan"
+  - "safar"
+  - "sakhikh"
+  - "salyam"
+  - "shajtan"
+  - "takva"
+  - "zikr"
 used_in:
-- 19-razrush-svoego-idola.md
+  - "/lesson?subject=adab&course=razrush-svoego-idola&slug=adab%2Frazrush-svoego-idola%2F19-razrush-svoego-idola"
 description: "Суджуд аш-шукр: земной поклон благодарности Аллаху за полученное благо или избавление от беды. Определение и пояснение термина."
 ---
 

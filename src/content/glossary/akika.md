@@ -5,8 +5,17 @@ letter: А
 category: А
 tags: []
 aliases: []
-related: []
-used_in: []
+related:
+  - "imam"
+  - "islam"
+  - "kharam"
+  - "musulmanin"
+  - "safar"
+  - "salyam"
+  - "sunna"
+  - "vali"
+used_in:
+  - "/lesson?subject=akida&course=akida-at-tahawiya&slug=akida%2Fakida-at-tahawiya%2F10-bozhestvennoe-proishozhdenie-imen-allaha"
 description: "Акика: животное, приносимое в жертву за новорождённого ради поклонения Аллаху. Пояснение обряда и требований к жертвенному животному."
 ---
 
