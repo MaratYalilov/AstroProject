@@ -1,12 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
 import SocialLinks from "../components/SocialLinks";
+import { teachers, teacherPath } from "../lib/teachers";
 
 const sections = [
   { id: "purpose", title: "Для чего существует HUTBA" },
   { id: "audience", title: "Для кого этот проект" },
   { id: "history", title: "Как всё начиналось" },
   { id: "approach", title: "Наш подход к обучению" },
+  { id: "teachers", title: "Преподаватели" },
   { id: "today", title: "Что доступно на сайте" },
   { id: "books", title: "Учебники и рабочие тетради" },
   { id: "social", title: "HUTBA в соцсетях" },
@@ -22,7 +24,7 @@ const sections = [
 
 <Base
   title="О проекте | HUTBA.org"
-  description="HUTBA работает с 2010 года. Бесплатные самостоятельные курсы по исламу, арабскому языку и чтению Корана. История проекта, учебники и рабочие тетради."
+  description="HUTBA работает с 2010 года. Бесплатные самостоятельные курсы по исламу, арабскому языку и чтению Корана. История проекта, преподаватели и учебные материалы."
 >
   <article class="about-page mx-auto max-w-5xl">
     <header class="border-b pb-10 pt-5 sm:pb-12 sm:pt-9">
@@ -142,6 +144,26 @@ const sections = [
               <dd class="mt-2">Мы стараемся внимательно работать с источниками и общаться уважительно. Ещё в первоначальной концепции проекта говорилось о стремлении избегать тем, которые вызывают вражду между мусульманами.</dd>
             </div>
           </dl>
+        </section>
+
+        <section id="teachers" aria-labelledby="teachers-title">
+          <h2 id="teachers-title">Преподаватели</h2>
+          <p>
+            Знания передают люди. Здесь можно познакомиться с преподавателями,
+            чьи записи занятий и материалы доступны на HUTBA.
+            В профилях собраны сведения об обучении и ссылки на курсы.
+          </p>
+          <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+            {teachers.map(teacher => (
+              <li>
+                <a href={teacherPath(teacher)} class="flex h-full flex-col rounded-xl border p-5 transition-colors hover:bg-muted">
+                  <h3 class="font-semibold leading-6">{teacher.name}</h3>
+                  <span class="mt-2 text-sm leading-6 text-muted-foreground">{teacher.subjects.join(" · ")}</span>
+                  <span class="mt-4 text-sm font-medium">О преподавателе →</span>
+                </a>
+              </li>
+            ))}
+          </ul>
         </section>
 
         <section id="today" aria-labelledby="today-title">

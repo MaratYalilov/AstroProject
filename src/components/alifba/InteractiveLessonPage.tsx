@@ -3,6 +3,7 @@ import RenderBlock from "@/lib/interactive/renderBlock";
 import LessonComplete from "./LessonComplete";
 import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
 import { useGlossaryTermTarget } from '../hooks/useGlossaryTermTarget';
+import TeacherCredit from '../TeacherCredit';
 
 type TitleSegment = {
   text: string;
@@ -45,6 +46,7 @@ export default function InteractiveLessonPage({
 
   return (
     <ReducedMotionProvider>
+    <TeacherCredit subject={subject} course={course} />
     <div className="space-y-10 text-foreground">
       {/* Blocks */}
       {lesson.blocks.map((block, index) => (

@@ -1,0 +1,105 @@
+---
+import Base from "../../layouts/Base.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { getCollection } from "astro:content";
+import { teachers, getCourseTeachers, teacherPath, teacherPerson } from "../../lib/teachers";
+import type { Teacher } from "../../lib/teachers";
+
+export function getStaticPaths() {
+  return teachers.map(teacher => ({ params: { slug: teacher.slug }, props: { teacher } }));
+}
+
+const { teacher } = Astro.props as { teacher: Teacher };
+const courses = (await getCollection("courses"))
+  .filter(entry => getCourseTeachers(entry.data.subject, entry.data.slug).some(item => item.slug === teacher.slug))
+  .sort((a, b) => a.data.subject.localeCompare(b.data.subject) || (a.data.order ?? 999) - (b.data.order ?? 999));
+const canonical = new URL(teacherPath(teacher), Astro.site).href;
+const person = teacherPerson(teacher, Astro.site!);
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": `${canonical}#profile`,
+  url: canonical,
+  name: `${teacher.name} | Преподаватели HUTBA`,
+  description: teacher.summary,
+  mainEntity: person,
+};
+---
+
+<Base title={`${teacher.name} | Преподаватели HUTBA.org`} description={teacher.summary} ogTitle={teacher.name} ogSubtitle={teacher.subjects.join(" · ")}>
+  <Fragment slot="head">
+    <link rel="canonical" href={canonical} />
+    <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, "\\u003c")} />
+  </Fragment>
+  <Breadcrumbs items={[{ label: "HUTBA", href: "/" }, { label: "О проекте", href: "/about" }, { label: "Преподаватели", href: "/about#teachers" }, { label: teacher.name }]} />
+
+  <article class="teacher-profile mx-auto max-w-4xl pb-12">
+    <header class="border-b py-8 sm:py-10">
+      <p class="mb-3 text-sm font-medium text-muted-foreground">Преподаватель HUTBA</p>
+      <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl">{teacher.name}</h1>
+      {teacher.fullName && <p class="mt-3 text-muted-foreground">{teacher.fullName}</p>}
+      <p class="mt-5 text-lg leading-relaxed">{teacher.subjects.join(" · ")}</p>
+    </header>
+
+    <div class="space-y-10 pt-8 sm:pt-10">
+      {teacher.biography.length > 0 && <section aria-labelledby="biography-title">
+        <h2 id="biography-title" class="mb-4 text-xl font-semibold">О преподавателе</h2>
+        <div class="space-y-4 text-base leading-8 sm:text-lg">
+          {teacher.biography.map(paragraph => <p>{paragraph}</p>)}
+        </div>
+      </section>}
+
+      {teacher.education && (
+        <section aria-labelledby="education-title">
+          <h2 id="education-title" class="mb-4 text-xl font-semibold">Образование</h2>
+          <ul class="list-disc space-y-3 pl-5 text-base leading-8 sm:text-lg">
+            {teacher.education.map(item => <li>{item}</li>)}
+          </ul>
+        </section>
+      )}
+
+      {teacher.profileSections?.map((section, index) => (
+        <section aria-labelledby={`profile-section-${index}`}>
+          <h2 id={`profile-section-${index}`} class="mb-4 text-xl font-semibold">{section.title}</h2>
+          <div class="space-y-4 text-base leading-8 sm:text-lg">
+            {section.paragraphs.map(paragraph => <p>{paragraph}</p>)}
+          </div>
+        </section>
+      ))}
+
+      <section aria-labelledby="materials-title">
+        <h2 id="materials-title" class="mb-3 text-xl font-semibold">Материалы на HUTBA</h2>
+        <p class="mb-5 leading-7 text-muted-foreground">Курсы подготовленные преподавателем:</p>
+        <ul class="grid gap-3 sm:grid-cols-2">
+          {courses.map(entry => (
+            <li>
+              <a href={`/${entry.data.subject}/${entry.data.slug}`} class="flex h-full flex-col rounded-xl border p-5 transition-colors hover:bg-muted">
+                <span class="font-medium leading-6">{entry.data.title}</span>
+                <span class="mt-3 text-sm text-muted-foreground">Открыть курс →</span>
+              </a>
+            </li>
+          ))}
+          {teacher.slug === "abu-akhmad" && (
+            <li>
+              <a href="/glossary" class="flex h-full flex-col rounded-xl border p-5 transition-colors hover:bg-muted">
+                <span class="font-medium leading-6">Словарь исламских терминов</span>
+                <span class="mt-3 text-sm text-muted-foreground">Открыть словарь →</span>
+              </a>
+            </li>
+          )}
+        </ul>
+      </section>
+
+      <footer class="border-t pt-6 text-sm leading-6 text-muted-foreground">
+        <a href="/about#teachers" class="mt-3 inline-block underline underline-offset-4">Все преподаватели</a>
+      </footer>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .teacher-profile a:focus-visible {
+    outline: 2px solid var(--interaction-focus);
+    outline-offset: 4px;
+  }
+</style>

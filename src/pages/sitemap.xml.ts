@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
 import { loadAllInteractiveLessons } from "../lib/interactive/loadInteractiveLesson";
+import { teachers, teacherPath } from "../lib/teachers";
 
 export const prerender = true;
 
@@ -34,6 +35,7 @@ export const GET: APIRoute = async ({ site }) => {
   add("/");
   add("/about");
   add("/glossary");
+  for (const teacher of teachers) add(teacherPath(teacher));
 
   for (const subject of subjects) {
     add(`/${encodeURIComponent(subject.data.slug)}/`);

@@ -8,6 +8,7 @@ import { buildGlossaryEntryMetadata, glossaryIndexMetadata } from '@/utils/gloss
 import { updatePageMetadata } from '@/utils/updatePageMetadata'
 import type { GlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
 import { withGlossaryTarget } from '@/utils/glossaryTarget'
+import TeacherCredit from '../TeacherCredit'
 
 type GlossaryEntry = {
   id: string
@@ -359,6 +360,7 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug }: Prop
             <h1 className="text-2xl font-bold mb-4">
               {active.data.term}
             </h1>
+            <TeacherCredit glossary />
 
             <div
               className="prose max-w-none"
@@ -393,6 +395,7 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug }: Prop
               <h1 className="text-3xl font-bold mb-6">
                 {active.data.term}
               </h1>
+              <TeacherCredit glossary />
 
               <div
                 className="prose max-w-none"

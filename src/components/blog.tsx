@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import { useGlossaryTermTarget } from './hooks/useGlossaryTermTarget';
+import TeacherCredit from './TeacherCredit';
 import {
   ChevronLeft,
   ChevronRight,
@@ -553,6 +554,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
       <main className="flex flex-col lg:grid lg:grid-cols-12 gap-4">
         {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8 mb-16">
+          <TeacherCredit subject={subject} course={course} />
           <motion.article
             initial={{ opacity: 0, y: 8 }} 
             animate={{ opacity: 1, y: 0 }} 

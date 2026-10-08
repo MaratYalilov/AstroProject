@@ -22,6 +22,7 @@ import { LayoutList } from "lucide-react";
 import DictionaryFlashcard from './DictionaryFlashcard';
 import { useGlossaryTermTarget } from './hooks/useGlossaryTermTarget';
 import { getGlossaryTarget } from '../utils/glossaryTarget';
+import TeacherCredit from './TeacherCredit';
 
 export interface LessonSidebarItem {
   slug: string; // например "fiqh/mishkat-taharat/05-omovenie-i-namaz"
@@ -829,6 +830,7 @@ useEffect(() => {
 
 
         {/* ТЕКСТ УРОКА */}
+        <TeacherCredit subject={subject} course={course} />
         <motion.article
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
@@ -1166,6 +1168,7 @@ useEffect(() => {
             </Card>
 
             {/* ТЕКСТ УРОКА (ВСЕГДА ПОД ВИДЕО) */}
+            <TeacherCredit subject={subject} course={course} />
             <motion.article
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
