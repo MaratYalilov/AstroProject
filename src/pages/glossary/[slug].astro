@@ -2,6 +2,7 @@
 import Base from '@/layouts/Base.astro'
 import GlossaryPage from '@/components/glossary/GlossaryPage'
 import { getCollection } from 'astro:content'
+import { buildPageTitle, normalizeMetadataText } from '../../utils/pageMetadata'
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossary')
@@ -31,12 +32,13 @@ if (!entry) {
 
 const canonical = new URL(`/glossary/${slug}`, site).toString()
 
-const title = `${entry.data.term} — Глоссарий`
-const description =
+const title = buildPageTitle(entry.data.term, 'Словарь')
+const description = normalizeMetadataText(
   entry.data.description ??
-  `${entry.data.term} — термин и определение из глоссария`
+  `${entry.data.term}: определение и пояснение в словаре HUTBA.org.`
+)
 ---
-<Base title={title} description={description} ogImage={entry.data.ogImage}>
+<Base title={title} description={description} ogTitle={`${entry.data.term} - Глоссарий`} ogImage={entry.data.ogImage}>
   <Fragment slot="head">
     <link rel="canonical" href={canonical} />
 

@@ -13,6 +13,7 @@ import { loadInteractiveLesson, loadAllInteractiveLessons } from "../lib/interac
 import fs from "node:fs";
 import path from "node:path";
 import { getLessonPreviewImage } from "../utils/lessonPreviewImage";
+import { buildPageTitle, buildCourseDescription, buildLessonDescription } from "../utils/pageMetadata";
 export const prerender = false;
 
 // Читаем query-параметры
@@ -182,16 +183,30 @@ const lessonTitle = Array.isArray(currentLesson?.title)
 const previewTitle = [subjectEntry.data.title, courseTitle, lessonTitle]
   .filter(Boolean)
   .join(" - ");
+const pageTitle = buildPageTitle(lessonTitle, courseTitle);
+const description = lessonTitle
+  ? buildLessonDescription(lessonTitle, courseTitle, courseEntry.data.description)
+  : buildCourseDescription(courseTitle, courseEntry.data.description);
+const canonicalPath = isInteractive && interactiveLesson
+  ? `/${subject}/${course}/?lesson=${encodeURIComponent(interactiveLesson.slug)}`
+  : currentLesson
+    ? `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(currentLesson.slug)}`
+    : `/${subject}/${course}`;
+const canonical = new URL(canonicalPath, Astro.site).href;
 ---
 
 <Base
-  title={`${subjectEntry.data.title} — ${courseTitle}`}
+  title={pageTitle}
+  description={description}
   ogImage={ogImage}
   ogSubject={subject}
   ogTitle={previewTitle}
   ogSubtitle={courseTitle}
   readingPage
 >
+  <Fragment slot="head">
+    <link rel="canonical" href={canonical} />
+  </Fragment>
   <Breadcrumbs
     items={[
       { label: "HUTBA", href: "/" },

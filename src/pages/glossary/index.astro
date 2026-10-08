@@ -9,8 +9,16 @@ const glossary = rawGlossary.map(e => ({
   data: e.data,
   body: e.body ?? '',
 }))
+const canonical = new URL('/glossary', Astro.site).href
 ---
 
-<Base title="Словарь терминов">
+<Base
+  title="Словарь исламских терминов | HUTBA.org"
+  ogTitle="Словарь исламских терминов"
+  description="Словарь исламских терминов HUTBA.org: определения и пояснения для самостоятельного изучения ислама, арабского языка и чтения Корана."
+>
+  <Fragment slot="head">
+    <link rel="canonical" href={canonical} />
+  </Fragment>
   <GlossaryPage entries={glossary} client:load />
 </Base>

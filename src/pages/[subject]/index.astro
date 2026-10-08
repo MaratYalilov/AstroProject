@@ -5,6 +5,7 @@ import { getCollection } from "astro:content";
 import CourseGrid from "../../components/CourseGrid";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { studyCourseSummaries } from "../../lib/studyCourseSummaries";
+import { buildPageTitle, normalizeMetadataText } from "../../utils/pageMetadata";
 
 export async function getStaticPaths() {
   const subjects = await getCollection("subjects");
@@ -31,9 +32,18 @@ const courses = (await getCollection("courses"))
 // Получаем иконку предмета
 const icon = subjectEntry.data.icon;
 const studyCourses = await studyCourseSummaries(courses, await getCollection("lessons"));
+const title = buildPageTitle(subjectEntry.data.title, "Курсы и уроки");
+const description = normalizeMetadataText(
+  subjectEntry.data.description ||
+    `Курсы и уроки по предмету «${subjectEntry.data.title}» на HUTBA.org для самостоятельного изучения.`
+);
+const canonical = new URL(`/${subject}/`, Astro.site).href;
 ---
 
-<Base title={subjectEntry.data.title} ogImage={subjectEntry.data.ogImage} ogSubject={subject} ogSubtitle="Предмет">
+<Base title={title} description={description} ogTitle={subjectEntry.data.title} ogImage={subjectEntry.data.ogImage} ogSubject={subject} ogSubtitle="Предмет">
+  <Fragment slot="head">
+    <link rel="canonical" href={canonical} />
+  </Fragment>
   <Breadcrumbs
     items={[
       { label: "HUTBA", href: "/" },

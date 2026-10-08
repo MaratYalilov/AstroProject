@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import CourseLayout from "./CourseLayout";
 import { loadAllInteractiveLessons } from "../../lib/interactive/loadInteractiveLesson";
+import { buildPageTitle, buildCourseDescription, buildLessonDescription } from "../../utils/pageMetadata";
 
 interface Props {
   subject: string;
@@ -28,16 +29,30 @@ const courseTitle = courseEntry.data.title;
 const previewTitle = [subjectEntry.data.title, courseTitle, lessonTitle]
   .filter(Boolean)
   .join(" - ");
+const pageTitle = selectedLesson
+  ? buildPageTitle(lessonTitle, courseTitle)
+  : buildPageTitle(courseTitle, subjectEntry.data.title);
+const description = lessonTitle
+  ? buildLessonDescription(lessonTitle, courseTitle, courseEntry.data.description)
+  : buildCourseDescription(courseTitle, courseEntry.data.description);
+const canonicalPath = selectedLesson
+  ? `/${subject}/${course}/?lesson=${encodeURIComponent(selectedLesson.slug)}`
+  : `/${subject}/${course}`;
+const canonical = new URL(canonicalPath, Astro.site).href;
 ---
 
 <Base
-  title={`${subjectEntry.data.title} — ${courseTitle}`}
+  title={pageTitle}
+  description={description}
   ogTitle={previewTitle}
   ogSubtitle={selectedLesson ? courseTitle : `${subjectEntry.data.title} · Курс`}
   ogSubject={subject}
   ogImage={selectedLesson?.ogImage ?? courseEntry.data.ogImage ?? subjectEntry.data.ogImage}
   readingPage
 >
+  <Fragment slot="head">
+    <link rel="canonical" href={canonical} />
+  </Fragment>
   <CourseLayout
     client:load
     lessons={lessons}

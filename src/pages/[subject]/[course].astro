@@ -12,6 +12,7 @@ import { experimental_AstroContainer } from "astro/container";
 import { loadAllInteractiveLessons } from "../../lib/interactive/loadInteractiveLesson";
 import fs from "node:fs";
 import path from "node:path";
+import { buildPageTitle, buildCourseDescription } from "../../utils/pageMetadata";
 
 export async function getStaticPaths() {
   const courses = await getCollection("courses");
@@ -52,6 +53,9 @@ if (!courseEntry) {
 }
 
 const courseTitle = courseEntry.data.title;
+const pageTitle = buildPageTitle(courseTitle, subjectEntry.data.title);
+const description = buildCourseDescription(courseTitle, courseEntry.data.description);
+const canonical = new URL(`/${subject}/${course}`, Astro.site).href;
 const layoutMode = courseEntry.data.layout ?? "tabs";
 const isBlogLayout = layoutMode === "blog";
 
@@ -178,13 +182,17 @@ if (isInteractive) {
 ---
 
 <Base
-  title={`${subjectEntry.data.title} — ${courseTitle}`}
+  title={pageTitle}
+  description={description}
   ogImage={courseEntry.data.ogImage ?? subjectEntry.data.ogImage}
   ogSubject={subject}
   ogTitle={courseTitle}
   ogSubtitle={`${subjectEntry.data.title} · Курс`}
   readingPage
 >
+  <Fragment slot="head">
+    <link rel="canonical" href={canonical} />
+  </Fragment>
   {
     isInteractive && interactiveLessons.length > 0 ? (
       <CourseLayout
