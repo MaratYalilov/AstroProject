@@ -52,7 +52,7 @@ used_in:
 - 62-nezhelatelnye-dejstviya-v-namaze-36.md
 - 65-dejstviya-dozvolennye-v-namaze-38.md
 - 71-namaz-verkhom-45.md
-description: нечистота, скверна, осквернение
+description: "Наджаса: нечистота и осквернение. Разбор ритуального, вещественного и духовного видов нечистоты и их значения в шариате."
 ---
 
 
