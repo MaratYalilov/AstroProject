@@ -9,6 +9,7 @@ import type { InteractiveLesson } from "../../lib/interactive/loadInteractiveLes
 import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
 import { buildInteractiveLessonMetadata } from "../../utils/pageMetadata";
 import { updatePageMetadata } from "../../utils/updatePageMetadata";
+import { getGlossaryTarget } from '../../utils/glossaryTarget';
 
 const STORAGE_KEY_PREFIX = "course_progress_";
 
@@ -102,13 +103,16 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
       window.history.replaceState(
         null,
         "",
-        `?lesson=${encodeURIComponent(slug)}`,
+        `?lesson=${encodeURIComponent(slug)}${window.location.hash}`,
       );
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [subject, course, currentIndex]);
 
   const scrollToTop = useCallback(() => {
+    if (getGlossaryTarget(window.location.hash)) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
     requestAnimationFrame(() => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });

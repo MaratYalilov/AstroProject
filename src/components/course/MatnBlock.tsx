@@ -3,6 +3,7 @@ import { Howl } from "howler";
 import { marked } from "marked";
 import { BookOpen, ChevronDown, Pause, Play, Volume2 } from "lucide-react";
 import { replaceQuranTags } from "../../utils/replaceQuranTags";
+import { containsGlossaryTermLink, getGlossaryTarget } from '../../utils/glossaryTarget';
 import mukaddimaData from "@/content/lessons/quran/koran-2-uroven/mukaddima.json";
 import sharhData from "@/content/lessons/quran/koran-2-uroven/sharh.json";
 import groupsData from "@/content/lessons/quran/koran-2-uroven/matn_groups.json";
@@ -152,6 +153,27 @@ export default function MatnBlock({ group, from, to }: Props) {
   const [progress, setProgress] = useState(0);
   const [openSharh, setOpenSharh] = useState<Record<number, boolean>>({});
   const [sharhHtml, setSharhHtml] = useState<Record<number, string>>({});
+
+  useEffect(() => {
+    let cancelled = false;
+    const revealTermComment = async () => {
+      const slug = getGlossaryTarget(window.location.hash);
+      if (!slug) return;
+      const beit = beits.find(beit => beit.sharh && containsGlossaryTermLink(beit.sharh, slug));
+      if (!beit?.sharh) return;
+      setOpenSharh(previous => ({ ...previous, [beit.n]: true }));
+      const html = await toHtml(beit.sharh);
+      if (!cancelled && getGlossaryTarget(window.location.hash) === slug) {
+        setSharhHtml(previous => ({ ...previous, [beit.n]: html }));
+      }
+    };
+    void revealTermComment();
+    window.addEventListener('hashchange', revealTermComment);
+    return () => {
+      cancelled = true;
+      window.removeEventListener('hashchange', revealTermComment);
+    };
+  }, [beits]);
 
   const synced =
     !noSync &&

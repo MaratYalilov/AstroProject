@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
+import { useGlossaryTermTarget } from './hooks/useGlossaryTermTarget';
 import {
   ChevronLeft,
   ChevronRight,
@@ -62,6 +63,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   currentLesson,
   lessons,
 }) => {
+  useGlossaryTermTarget(currentLesson.slug);
   // Ключ для хранения последнего просмотренного урока
   const lastLessonKey = React.useMemo(
     () => `last-lesson:${subject}/${course}`,

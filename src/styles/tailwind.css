@@ -502,6 +502,13 @@ footer {
   outline-offset: 3px;
 }
 
+.glossary-term-target {
+  background-color: var(--term-highlight);
+  outline: 2px solid var(--term-color);
+  outline-offset: 3px;
+  scroll-margin-block: 8rem;
+}
+
 /* стили для подсказок */
 .glossary-popover {
   background: var(--color-bg, var(--term-popover-bg));

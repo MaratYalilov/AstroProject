@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import RenderBlock from "@/lib/interactive/renderBlock";
 import LessonComplete from "./LessonComplete";
 import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
+import { useGlossaryTermTarget } from '../hooks/useGlossaryTermTarget';
 
 type TitleSegment = {
   text: string;
@@ -11,6 +12,7 @@ type TitleSegment = {
 type Props = {
   lesson: {
     id?: number;
+    slug?: string;
     title: string | TitleSegment[];
     blocks: any[];
   };
@@ -23,6 +25,7 @@ export default function InteractiveLessonPage({
   subject,
   course,
 }: Props) {
+  useGlossaryTermTarget(lesson.slug);
   const arabname = useMemo(() => {
     const block = lesson.blocks.find(
       (item) =>

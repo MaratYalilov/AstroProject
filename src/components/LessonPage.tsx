@@ -20,6 +20,8 @@ import { Video} from "lucide-react";
 import { LayoutList } from "lucide-react";
 
 import DictionaryFlashcard from './DictionaryFlashcard';
+import { useGlossaryTermTarget } from './hooks/useGlossaryTermTarget';
+import { getGlossaryTarget } from '../utils/glossaryTarget';
 
 export interface LessonSidebarItem {
   slug: string; // например "fiqh/mishkat-taharat/05-omovenie-i-namaz"
@@ -56,6 +58,7 @@ const LessonPage: React.FC<LessonPageProps> = ({
   currentLesson,
   lessons,
 }) => {
+  useGlossaryTermTarget(currentLesson.slug);
   const lastLessonKey = React.useMemo(
     () => `last-lesson:${subject}/${course}`,
     [subject, course]
@@ -447,7 +450,9 @@ const LessonPage: React.FC<LessonPageProps> = ({
   React.useEffect(() => {
     if (!isClient || normalizedQuery) return;
 
-    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    if (!getGlossaryTarget(window.location.hash)) {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    }
 
     const scrollToActiveLesson = () => {
       const isDesktop = window.matchMedia("(min-width: 1024px)").matches;

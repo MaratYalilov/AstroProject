@@ -1,0 +1,290 @@
+[
+  {
+    "id": "70",
+    "name": "Фатих Хабибуллин",
+    "fields": [
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "Нижнекамск",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "Фатих Хабибуллин",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "158",
+    "name": "Райхан Назмутдинов",
+    "fields": [
+      {
+        "field": "Регион",
+        "code": "FIELD_STATE",
+        "value": "Татарстан",
+        "access": "0"
+      },
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "Нижнекамск",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      },
+      {
+        "field": "Учебное заведение",
+        "code": "FIELD_COLLEGE",
+        "value": "ЕГПУ",
+        "access": "0"
+      },
+      {
+        "field": "Год окончания",
+        "code": "FIELD_GRADUATION",
+        "value": "2010",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "Райхан",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "165",
+    "name": "Хамида Назмутдинова",
+    "fields": [
+      {
+        "field": "Регион",
+        "code": "FIELD_STATE",
+        "value": "Татарстан",
+        "access": "0"
+      },
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "Нижнекамск",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      },
+      {
+        "field": "Учебное заведение",
+        "code": "FIELD_COLLEGE",
+        "value": "ЕГПУ",
+        "access": "0"
+      },
+      {
+        "field": "Год окончания",
+        "code": "FIELD_GRADUATION",
+        "value": "2010",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "Хамида",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "530",
+    "name": "Исмаил Шайхутдинов",
+    "fields": [
+      {
+        "field": "Регион",
+        "code": "FIELD_STATE",
+        "value": "Удмуртская Республика",
+        "access": "0"
+      },
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "Ижевск",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      },
+      {
+        "field": "Учебное заведение",
+        "code": "FIELD_COLLEGE",
+        "value": "Мединский Исламский Университет",
+        "access": "0"
+      },
+      {
+        "field": "Год окончания",
+        "code": "FIELD_GRADUATION",
+        "value": "2004",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "Исмаил",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "569",
+    "name": "Гузалия Даутова",
+    "fields": [
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "Ижевск",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "Гузалия",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "641",
+    "name": "Ирек Мукиев",
+    "fields": [
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "Нижнекамск",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "Ирек Мукиев",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "1477",
+    "name": "Али Яушев",
+    "fields": [
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "альметьевск",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "али",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "2002",
+    "name": "Абу Ахмад",
+    "fields": [
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "РТ",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "Абу Ахмад",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  },
+  {
+    "id": "2971",
+    "name": "Марьям Кирасирова",
+    "fields": [
+      {
+        "field": "Город",
+        "code": "FIELD_CITY",
+        "value": "Средняя Елюзань",
+        "access": "0"
+      },
+      {
+        "field": "Страна",
+        "code": "FIELD_COUNTRY",
+        "value": "Российская Федерация",
+        "access": "0"
+      }
+    ],
+    "blog": [
+      {
+        "nickname": "Марьям",
+        "description": "",
+        "title": "",
+        "biography": "NULL"
+      }
+    ]
+  }
+]

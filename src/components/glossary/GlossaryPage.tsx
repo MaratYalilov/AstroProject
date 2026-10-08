@@ -7,6 +7,7 @@ import { replaceQuranTags } from '@/utils/replaceQuranTags'
 import { buildGlossaryEntryMetadata, glossaryIndexMetadata } from '@/utils/glossaryMetadata'
 import { updatePageMetadata } from '@/utils/updatePageMetadata'
 import type { GlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
+import { withGlossaryTarget } from '@/utils/glossaryTarget'
 
 type GlossaryEntry = {
   id: string
@@ -50,7 +51,7 @@ function useIsMobile() {
   return isMobile
 }
 
-function LessonBacklinks({ references, links }: { references: unknown[]; links: GlossaryLessonLinks }) {
+function LessonBacklinks({ references, links, termSlug }: { references: unknown[]; links: GlossaryLessonLinks; termSlug: string }) {
   const groups = new Map<string, { title: string; lessons: { href: string; title: string }[] }>()
   for (const href of new Set(references)) {
     if (typeof href !== 'string' || !Object.hasOwn(links, href)) continue
@@ -77,7 +78,7 @@ function LessonBacklinks({ references, links }: { references: unknown[]; links: 
               <ul className="mt-3 space-y-2">
                 {group.lessons.map(lesson => (
                   <li key={lesson.href}>
-                    <a href={lesson.href} className="text-primary underline underline-offset-4 hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary">
+                    <a href={withGlossaryTarget(lesson.href, termSlug)} className="text-primary underline underline-offset-4 hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary">
                       {lesson.title}
                     </a>
                   </li>
@@ -365,7 +366,7 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug }: Prop
                 __html: replaceQuranTags(active.body ?? ''),
               }}
             />
-            <LessonBacklinks references={active.data.used_in} links={lessonLinks} />
+            <LessonBacklinks references={active.data.used_in} links={lessonLinks} termSlug={getSlug(active)} />
           </div>
         )}
       </div>
@@ -399,7 +400,7 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug }: Prop
                   __html: replaceQuranTags(active.body ?? ''),
                 }}
               />
-              <LessonBacklinks references={active.data.used_in} links={lessonLinks} />
+              <LessonBacklinks references={active.data.used_in} links={lessonLinks} termSlug={getSlug(active)} />
             </motion.div>
           )}
         </AnimatePresence>
