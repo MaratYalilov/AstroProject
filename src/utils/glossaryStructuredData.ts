@@ -48,7 +48,7 @@ function definitionText(entry: GlossarySchemaEntry): string {
 }
 
 export function buildGlossaryStructuredData(
-  entries: GlossarySchemaEntry[],
+  entries: Pick<GlossarySchemaEntry, 'data'>[],
   site: URL | string,
   active: GlossarySchemaEntry | null = null,
 ) {
@@ -60,7 +60,7 @@ export function buildGlossaryStructuredData(
     url: glossaryUrl,
     inLanguage: 'ru',
   }
-  const termIdentity = (entry: GlossarySchemaEntry) => {
+  const termIdentity = (entry: Pick<GlossarySchemaEntry, 'data'>) => {
     const url = new URL(`/glossary/${encodeURIComponent(entry.data.url_slug)}`, site).href
     return {
       '@type': 'DefinedTerm',
@@ -101,7 +101,7 @@ export function serializeGlossaryStructuredData(
 }
 
 export function updateGlossaryStructuredData(
-  entries: GlossarySchemaEntry[],
+  entries: Pick<GlossarySchemaEntry, 'data'>[],
   site: URL | string,
   active: GlossarySchemaEntry | null,
 ): void {

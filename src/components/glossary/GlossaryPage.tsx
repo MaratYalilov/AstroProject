@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect, useRef } from 'react'
+import { useMemo, useState, useEffect, useRef, useCallback } from 'react'
 import type { MouseEvent } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
@@ -8,28 +8,15 @@ import { buildGlossaryEntryMetadata, glossaryIndexMetadata } from '@/utils/gloss
 import { updatePageMetadata } from '@/utils/updatePageMetadata'
 import { updateGlossaryStructuredData } from '@/utils/glossaryStructuredData'
 import type { GlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
+import type { GlossarySummary, GlossaryEntry } from '@/lib/glossary/glossaryPageData'
+import { createGlossaryEntryLoader } from '@/utils/loadGlossaryEntry'
 import { withGlossaryTarget } from '@/utils/glossaryTarget'
 import TeacherCredit from '../TeacherCredit'
 
-type GlossaryEntry = {
-  id: string
-  body: string
-  data: {
-    term: string
-    url_slug: string
-    letter: string
-    category: string
-    tags: string[]
-    aliases: string[]
-    related: string[]
-    used_in: any[]
-    description?: string
-  }
-}
-
 type Props = {
-  entries: GlossaryEntry[]
-  lessonLinks: GlossaryLessonLinks
+  entries: GlossarySummary[]
+  initialEntry?: GlossaryEntry
+  lessonLinks?: GlossaryLessonLinks
   initialSlug?: string
   siteUrl: string
 }
@@ -42,16 +29,18 @@ const LETTERS = [
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(false)
+  const [ready, setReady] = useState(false)
 
   useEffect(() => {
     const mq = window.matchMedia('(max-width: 768px)')
     setIsMobile(mq.matches)
+    setReady(true)
     const update = (e: MediaQueryListEvent) => setIsMobile(e.matches)
     mq.addEventListener('change', update)
     return () => mq.removeEventListener('change', update)
   }, [])
 
-  return isMobile
+  return { isMobile, ready }
 }
 
 function LessonBacklinks({ references, links, termSlug }: { references: unknown[]; links: GlossaryLessonLinks; termSlug: string }) {
@@ -94,12 +83,12 @@ function LessonBacklinks({ references, links, termSlug }: { references: unknown[
   )
 }
 
-export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUrl }: Props) {
-  const isMobile = useIsMobile()
+export default function GlossaryPage({ entries, initialEntry, lessonLinks: initialLessonLinks = {}, initialSlug, siteUrl }: Props) {
+  const { isMobile, ready } = useIsMobile()
 
   /* ---------------- helpers ---------------- */
 
-  const getSlug = (e: GlossaryEntry) => e.data.url_slug
+  const getSlug = (e: GlossarySummary) => e.data.url_slug
 
   /* ---------------- state ---------------- */
 
@@ -107,11 +96,45 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUr
   // а не эффектом — иначе эффект «desktop auto-select» в том же коммите ещё
   // видит active === null и перебивает выбор первой статьёй (плюс подменяет URL
   // через replaceState → любой переход открывал /glossary/a-raf).
-  const [active, setActive] = useState<GlossaryEntry | null>(() =>
-    initialSlug
-      ? entries.find(e => getSlug(e) === initialSlug) ?? null
-      : null
-  )
+  const [active, setActive] = useState<GlossaryEntry | null>(initialEntry ?? null)
+  const [lessonLinks, setLessonLinks] = useState(initialLessonLinks)
+  const [loadingTerm, setLoadingTerm] = useState<string | null>(null)
+  const requestId = useRef(0)
+  const loader = useRef<ReturnType<typeof createGlossaryEntryLoader> | null>(null)
+  if (!loader.current) {
+    loader.current = createGlossaryEntryLoader(initialEntry
+      ? { entry: initialEntry, lessonLinks: initialLessonLinks }
+      : undefined)
+  }
+
+  const selectEntry = useCallback(async (summary: GlossarySummary, historyMode: 'push' | 'replace' | 'none' = 'none') => {
+    const selection = ++requestId.current
+    setLoadingTerm(summary.data.term)
+    try {
+      const payload = await loader.current!(summary.data.url_slug)
+      if (selection !== requestId.current) return
+      const path = `/glossary/${summary.data.url_slug}`
+      if (historyMode === 'push') window.history.pushState(null, '', path)
+      if (historyMode === 'replace') window.history.replaceState(null, '', path)
+      setLessonLinks(payload.lessonLinks)
+      setActive(payload.entry)
+      setLoadingTerm(null)
+      window.scrollTo({ top: 0 })
+    } catch {
+      if (selection !== requestId.current) return
+      // The ordinary article URL still works if loading JSON is unavailable.
+      window.location.assign(`/glossary/${summary.data.url_slug}`)
+    }
+  }, [])
+
+  const clearEntry = useCallback(() => {
+    requestId.current++
+    setLoadingTerm(null)
+    setActive(null)
+    setLessonLinks({})
+  }, [])
+
+  useEffect(() => () => { requestId.current++ }, [])
 
   const [letter, setLetter] = useState<string | null>(null)
   const [query, setQuery] = useState('')
@@ -148,26 +171,11 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUr
       )
   }, [entries, letter, query])
 
-  /* ---------------- init from URL ---------------- */
-
-  useEffect(() => {
-    if (!initialSlug) return
-
-    const entry = entries.find(
-      e => getSlug(e) === initialSlug
-    )
-
-    if (entry) {
-      setActive(entry)
-      return
-    }
-  }, [initialSlug, entries])
-
   /* ---------------- desktop auto-select ---------------- */
 
   useEffect(() => {
     if (
-      !isMobile &&
+      ready && !isMobile &&
       !active &&
       // В URL уже указан конкретный термин (/glossary/<slug>) — авто-выбор
       // первой статьи здесь не нужен, иначе он перебьёт переход по ссылке.
@@ -176,32 +184,26 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUr
       filtered.length
     ) {
       hasInitializedDesktop.current = true
-      setActive(filtered[0])
-
-      window.history.replaceState(
-        null,
-        '',
-        `/glossary/${getSlug(filtered[0])}`
-      )
+      void selectEntry(filtered[0], 'replace')
     }
-  }, [filtered, active, isMobile])
+  }, [filtered, active, isMobile, ready, initialSlug, selectEntry])
 
   /* ---------------- keep active valid ---------------- */
 
   useEffect(() => {
     if (!isMobile && active) {
       if (!filtered.some(e => e.id === active.id)) {
-        setActive(filtered[0] ?? null)
+        if (filtered[0]) void selectEntry(filtered[0], 'replace')
+        else clearEntry()
       }
     }
-  }, [filtered, active, isMobile])
+  }, [filtered, active, isMobile, selectEntry, clearEntry])
 
   /* ---------------- Back / Forward ---------------- */
 
   useEffect(() => {
     const onPopState = () => {
-      const slug = window.location.pathname.split('/').pop()
-      if (!slug) return
+      const slug = decodeURIComponent(window.location.pathname.split('/').filter(Boolean).pop() ?? '')
 
       const entry = entries.find(
         e => getSlug(e) === slug
@@ -209,13 +211,14 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUr
 
       setQuery('')
       setLetter(null)
-      setActive(entry ?? null)
+      if (entry) void selectEntry(entry)
+      else clearEntry()
     }
 
     window.addEventListener('popstate', onPopState)
     return () =>
       window.removeEventListener('popstate', onPopState)
-  }, [entries])
+  }, [entries, selectEntry, clearEntry])
 
   useEffect(() => {
     const path = active ? `/glossary/${getSlug(active)}` : '/glossary'
@@ -241,34 +244,16 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUr
 
   /* ---------------- handlers ---------------- */
 
-  const handleSelectEntry = (entry: GlossaryEntry) => {
-    const slug = getSlug(entry)
-
-    window.history.pushState(
-      null,
-      '',
-      `/glossary/${slug}`
-    )
-
-    setActive(entry)
-
-    if (isMobile) {
-      setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-      }, 10)
-    } else {
-      window.scrollTo({ top: 0 })
-    }
-  }
+  const handleSelectEntry = (entry: GlossarySummary) => { void selectEntry(entry, 'push') }
 
   const handleBack = () => {
-    setActive(null)
+    clearEntry()
     window.history.pushState(null, '', '/glossary')
   }
 
   const handleTermClick = (
     event: MouseEvent<HTMLAnchorElement>,
-    entry: GlossaryEntry
+    entry: GlossarySummary
   ) => {
     if (
       event.defaultPrevented ||
@@ -310,6 +295,7 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUr
     return (
       <ReducedMotionProvider>
       <div className="space-y-4">
+        {loadingTerm && <p role="status" className="text-sm text-muted-foreground">Загрузка: {loadingTerm}…</p>}
         {!active && (
           <>
             <Input
@@ -386,6 +372,7 @@ export default function GlossaryPage({ entries, lessonLinks, initialSlug, siteUr
     <div className="grid grid-cols-[1fr_260px] gap-6 min-h-[600px]">
       {/* ARTICLE */}
       <div className="border-r pr-4">
+        {loadingTerm && <p role="status" className="mb-4 text-sm text-muted-foreground">Загрузка: {loadingTerm}…</p>}
         <AnimatePresence mode="wait">
           {active && (
             <motion.div

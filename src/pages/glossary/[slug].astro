@@ -4,6 +4,7 @@ import GlossaryPage from '@/components/glossary/GlossaryPage'
 import { getCollection } from 'astro:content'
 import { buildGlossaryEntryMetadata } from '@/utils/glossaryMetadata'
 import { loadGlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
+import { buildGlossarySummaries, buildGlossaryEntry } from '@/lib/glossary/glossaryPageData'
 import { buildGlossaryStructuredData, serializeGlossaryStructuredData, GLOSSARY_SCHEMA_ID } from '@/utils/glossaryStructuredData'
 
 export async function getStaticPaths() {
@@ -36,7 +37,7 @@ const canonical = new URL(`/glossary/${slug}`, site).toString()
 
 const metadata = buildGlossaryEntryMetadata(entry.data)
 const structuredData = buildGlossaryStructuredData(entries, site!, entry)
-const lessonLinks = await loadGlossaryLessonLinks(entries.flatMap(entry => entry.data.used_in))
+const lessonLinks = await loadGlossaryLessonLinks(entry.data.used_in)
 ---
 <Base title={metadata.title} description={metadata.description} ogTitle={metadata.ogTitle} ogImage={entry.data.ogImage}>
   <Fragment slot="head">
@@ -50,7 +51,8 @@ const lessonLinks = await loadGlossaryLessonLinks(entries.flatMap(entry => entry
   </Fragment>
 
   <GlossaryPage
-    entries={entries}
+    entries={buildGlossarySummaries(entries)}
+    initialEntry={buildGlossaryEntry(entry)}
     lessonLinks={lessonLinks}
     initialSlug={slug}
     siteUrl={site!.href}
