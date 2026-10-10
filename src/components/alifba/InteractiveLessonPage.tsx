@@ -19,12 +19,14 @@ type Props = {
   };
   subject: string;
   course: string;
+  hideTeacherCredit?: boolean;
 };
 
 export default function InteractiveLessonPage({
   lesson,
   subject,
   course,
+  hideTeacherCredit = false,
 }: Props) {
   useGlossaryTermTarget(lesson.slug);
   const arabname = useMemo(() => {
@@ -46,7 +48,7 @@ export default function InteractiveLessonPage({
 
   return (
     <ReducedMotionProvider>
-    <TeacherCredit subject={subject} course={course} />
+    {!hideTeacherCredit && <TeacherCredit subject={subject} course={course} />}
     <div className="space-y-10 text-foreground">
       {/* Blocks */}
       {lesson.blocks.map((block, index) => (

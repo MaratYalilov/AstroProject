@@ -4,7 +4,10 @@ import { Menu } from "lucide-react";
 import CourseSidebar from "./CourseSidebar";
 import LessonNavigation from "./LessonNavigation";
 import InteractiveLessonPage from "../alifba/InteractiveLessonPage";
-import type { LessonItem, CourseDownload } from "./CourseSidebar";
+import type { LessonItem } from "./CourseSidebar";
+import CourseDownloads, { type CourseDownload } from "./CourseDownloads";
+import CourseHeading from "./CourseHeading";
+import TeacherCredit from "../TeacherCredit";
 import type { InteractiveLesson } from "../../lib/interactive/loadInteractiveLesson";
 import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
 import { buildInteractiveLessonMetadata } from "../../utils/pageMetadata";
@@ -47,7 +50,7 @@ type Props = {
   courseTitle?: string;
   subjectTitle?: string;
   initialLessonSlug?: string;
-  /** Скачиваемые материалы курса (из YAML курса) — показываются в меню курса */
+  /** Скачиваемые материалы курса (из YAML курса) — в сайдбаре на компьютере и внизу урока на телефоне */
   downloads?: CourseDownload[];
 };
 
@@ -178,6 +181,9 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
 
         {/* Lesson content */}
         <main className="lesson-course-content flex-1 w-full mx-auto px-0 sm:px-6 lg:px-8 py-6 lg:py-10">
+          <div className="mb-6 hidden lg:block">
+            <CourseHeading title={courseTitle} />
+          </div>
           {/* ВАЖНО: без AnimatePresence/motion — анимация opacity/y всего урока
               промоутила в GPU-слой страницу целиком (в уроках части 2 это
               огромная текстура, старый+новый урок одновременно), что
@@ -186,6 +192,7 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
             {currentLesson ? (
               <InteractiveLessonPage
                 lesson={currentLesson}
+                hideTeacherCredit
                 subject={subject}
                 course={course}
               />
@@ -205,6 +212,27 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
               onNext={handleNext}
             />
           )}
+          <footer className="mt-8 space-y-6 px-4 sm:px-0">
+            {downloads?.some(item => item.pageUrl) && (
+              <section className="hidden rounded-xl border border-border p-6 lg:block" aria-labelledby="course-downloads-title">
+                <h2 id="course-downloads-title" className="text-xl font-semibold">Учебные материалы для скачивания</h2>
+                <ul className="mt-4 space-y-3">
+                  {downloads.filter(item => item.pageUrl).map(item => (
+                    <li key={item.url}>
+                      <a href={item.pageUrl} className="text-cyan-700 underline underline-offset-4 dark:text-cyan-300">{item.title}</a>
+                      <span className="ml-2 text-sm text-muted-foreground">{[item.type, item.size].filter(Boolean).join(" · ")}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+            {downloads?.length ? (
+              <div className="lg:hidden">
+                <CourseDownloads downloads={downloads} />
+              </div>
+            ) : null}
+            <TeacherCredit subject={subject} course={course} />
+          </footer>
         </main>
       </div>
     </div>

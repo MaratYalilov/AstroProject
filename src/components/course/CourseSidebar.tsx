@@ -5,13 +5,12 @@ import {
   Check,
   ChevronDown,
   ChevronRight,
-  Download,
-  FileText,
-  ListChecks,
   Lock,
   X,
 } from "lucide-react";
 import CourseProgress from "./CourseProgress";
+import CourseHeading from "./CourseHeading";
+import CourseDownloads, { type CourseDownload } from "./CourseDownloads";
 import { lessonCompleteKey, LESSON_COMPLETE_EVENT } from "../../lib/interactive/lessonProgress";
 
 export type TitleSegment = {
@@ -27,18 +26,6 @@ export type LessonItem = {
   module?: string;
 };
 
-/** Скачиваемый материал курса (из поля downloads в YAML курса) */
-export type CourseDownload = {
-  title: string;
-  url: string;
-  /** Страница с описанием материала и ссылкой на файл. */
-  pageUrl?: string;
-  /** Короткий бейдж формата, например "PDF" */
-  type?: string;
-  /** Человекочитаемый размер, например "1,4 МБ" */
-  size?: string;
-};
-
 type Props = {
   lessons: LessonItem[];
   currentIndex: number;
@@ -50,7 +37,6 @@ type Props = {
   /** subject/course — для пер-курсового ключа завершённости */
   subject?: string;
   course?: string;
-  /** Скачиваемые материалы курса над списком уроков */
   downloads?: CourseDownload[];
 };
 
@@ -314,55 +300,15 @@ function SidebarContent({
     <div className="relative flex h-full w-full flex-col">
       <div className="pointer-events-none absolute inset-x-8 top-0 h-28 rounded-full bg-cyan-400/10 blur-xl dark:bg-cyan-300/10" />
 
-      <header className={downloads?.length
-        ? "relative px-5 pt-5 pb-2"
-        : "relative border-b border-gray-200/70 p-5 dark:border-white/10"}>
-        <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-200/80 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 shadow-sm shadow-cyan-100/70 dark:border-cyan-300/20 dark:bg-white/10 dark:text-cyan-200 dark:shadow-none">
-          <ListChecks size={13} aria-hidden="true" />
-          Курс
-        </div>
-        <h2 className="text-lg font-bold tracking-tight text-gray-950 dark:text-white">
-          {title ?? "Курс"}
-        </h2>
+      <header className="relative border-b border-gray-200/70 p-5 dark:border-white/10 lg:hidden">
+        <CourseHeading title={title} />
       </header>
 
-      {/* Материалы курса: PDF-тетради и прочие файлы из поля downloads в YAML курса.
-          Стоят над списком уроков — и на десктопе, и в мобильном меню. */}
-      {downloads && downloads.length > 0 && (
-        <section aria-label="Материалы курса" className="relative border-b border-gray-200/70 px-4 pb-4 dark:border-white/10">
-          <div className="space-y-2">
-            {downloads.map((item) => (
-              <div key={item.url}>
-                <a
-                  href={item.url}
-                  download
-                  className="group flex items-center gap-3 rounded-xl border border-cyan-200/70 bg-cyan-50/50 px-3 py-3 text-gray-800 transition-colors hover:border-cyan-300/80 hover:bg-cyan-100/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-500 focus-visible:ring-offset-2 focus-visible:ring-offset-background dark:border-cyan-300/15 dark:bg-cyan-300/[0.04] dark:text-slate-200 dark:hover:border-cyan-300/30 dark:hover:bg-cyan-300/[0.08]"
-                >
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-cyan-100/70 text-cyan-700 dark:bg-cyan-300/10 dark:text-cyan-300">
-                    <FileText className="h-5 w-5" aria-hidden="true" />
-                  </span>
-
-                  <span className="min-w-0 flex-1">
-                    <span className="block text-sm font-semibold leading-snug">
-                      {item.title}
-                    </span>
-                    <span className="mt-1 block text-xs text-gray-500 dark:text-slate-400">
-                      {["Скачать", item.type, item.size].filter(Boolean).join(" · ")}
-                    </span>
-                  </span>
-
-                  <Download className="h-4 w-4 shrink-0 text-cyan-700 dark:text-cyan-300" aria-hidden="true" />
-                </a>
-                {item.pageUrl && (
-                  <a href={item.pageUrl} className="mt-2 block px-3 text-sm text-cyan-700 underline underline-offset-4 hover:no-underline dark:text-cyan-300">
-                    О тетради и примеры страниц
-                  </a>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
+      {downloads?.length ? (
+        <div className="relative hidden border-b border-gray-200/70 p-4 dark:border-white/10 lg:block">
+          <CourseDownloads downloads={downloads} />
+        </div>
+      ) : null}
 
       <nav ref={navRef} className="relative flex-1 space-y-2 overflow-y-auto px-3 pb-4 pt-3">
         {groups.map((group, gi) => {
