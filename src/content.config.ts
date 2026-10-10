@@ -37,6 +37,7 @@ const courses = defineCollection({
         z.object({
           title: z.string(),
           url: z.string(),
+          pageUrl: z.string().optional(),
           /** Короткий бейдж формата, например "PDF" */
           type: z.string().optional(),
           /** Человекочитаемый размер, например "1,4 МБ" */

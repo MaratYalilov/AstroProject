@@ -35,6 +35,11 @@ export const GET: APIRoute = async ({ site }) => {
   add("/");
   add("/about");
   add("/glossary");
+  for (const course of courses) {
+    for (const download of course.data.downloads) {
+      if (download.pageUrl) add(download.pageUrl);
+    }
+  }
   for (const teacher of teachers) add(teacherPath(teacher));
 
   for (const subject of subjects) {

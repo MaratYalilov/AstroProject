@@ -59,4 +59,17 @@ const canonical = new URL(canonicalPath, Astro.site).href;
     downloads={courseEntry.data.downloads}
     initialLessonSlug={selectedLesson?.slug}
   />
+  {!selectedLesson && courseEntry.data.downloads.some(item => item.pageUrl) && (
+    <section class="mx-auto mt-8 max-w-3xl rounded-xl border p-6" aria-labelledby="course-downloads-title">
+      <h2 id="course-downloads-title" class="text-xl font-semibold">Учебные материалы для скачивания</h2>
+      <ul class="mt-4 space-y-3">
+        {courseEntry.data.downloads.filter(item => item.pageUrl).map(item => (
+          <li>
+            <a href={item.pageUrl} class="text-cyan-700 underline underline-offset-4 dark:text-cyan-300">{item.title}</a>
+            <span class="ml-2 text-sm text-muted-foreground">{[item.type, item.size].filter(Boolean).join(" · ")}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 </Base>

@@ -1,0 +1,122 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../../layouts/Base.astro";
+import Breadcrumbs from "../../../components/Breadcrumbs.astro";
+import coverImage from "../../../assets/materials/muallim-sani-tetrad-cover.webp";
+import letterImage from "../../../assets/materials/muallim-sani-tetrad-letter.webp";
+import practiceImage from "../../../assets/materials/muallim-sani-tetrad-practice.webp";
+
+export const prerender = true;
+
+const course = (await getCollection("courses")).find(entry =>
+  entry.data.subject === "quran" && entry.data.slug === "muallim-sani",
+);
+const workbook = course?.data.downloads.find(item =>
+  item.pageUrl === "/quran/muallim-sani/rabochaya-tetrad",
+);
+if (!workbook) throw new Error("Рабочая тетрадь не указана в материалах курса «Муаллим сани».");
+const name = "Правила написания букв арабского алфавита";
+const description = "Рабочая тетрадь HUTBA.org «Правила написания букв арабского алфавита»: 60 страниц прописей и упражнений. Скачать PDF бесплатно, без регистрации.";
+const canonical = new URL(workbook.pageUrl!, Astro.site).href;
+const cover = coverImage.src;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": ["Book", "LearningResource"],
+  "@id": `${canonical}#workbook`,
+  name,
+  url: canonical,
+  description,
+  inLanguage: ["ru", "ar"],
+  numberOfPages: 60,
+  learningResourceType: "Рабочая тетрадь",
+  educationalUse: "Самостоятельная работа и практика письма",
+  isAccessibleForFree: true,
+  image: new URL(cover, Astro.site).href,
+  publisher: { "@type": "Organization", name: "HUTBA.org", url: "https://hutba.org/" },
+  encoding: {
+    "@type": "MediaObject",
+    contentUrl: new URL(workbook.url, Astro.site).href,
+    encodingFormat: "application/pdf",
+    inLanguage: ["ru", "ar"],
+  },
+};
+---
+
+<Base title="Рабочая тетрадь: правила написания букв арабского алфавита | HUTBA.org"
+  description={description} ogImage={cover} ogImageAlt={`Обложка рабочей тетради «${name}»`}>
+  <Fragment slot="head">
+    <link rel="canonical" href={canonical} />
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")} />
+  </Fragment>
+  <article class="mx-auto max-w-5xl pb-8">
+    <Breadcrumbs items={[
+      { label: "Главная", href: "/" },
+      { label: "Коран", href: "/quran/" },
+      { label: "Муаллим сани", href: "/quran/muallim-sani" },
+      { label: "Рабочая тетрадь" },
+    ]} />
+    <header class="grid items-start gap-8 border-b py-6 sm:grid-cols-[minmax(0,1fr)_220px] sm:gap-10 sm:py-10">
+      <div>
+        <p class="mb-3 text-sm font-medium text-muted-foreground">Материал курса «Муаллим сани»</p>
+        <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl">Рабочая тетрадь «Правила написания букв арабского алфавита»</h1>
+        <p class="mt-5 text-lg leading-8">
+          Тетрадь HUTBA.org для начинающих: объяснения написания арабских букв,
+          их соединения и положения на строке, огласовки и прописи для самостоятельной работы.
+          Используйте её вместе с уроками курса «Муаллим сани».
+        </p>
+        <p class="mt-4 text-sm text-muted-foreground">PDF · 60 страниц · {workbook.size}</p>
+        <div class="mt-6 flex flex-wrap items-center gap-4">
+          <a href={workbook.url} download class="inline-flex rounded-lg bg-cyan-700 px-5 py-3 font-semibold text-white hover:bg-cyan-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-700">
+            Скачать рабочую тетрадь PDF
+          </a>
+          <a href={workbook.url} class="text-cyan-700 underline underline-offset-4 dark:text-cyan-300">Открыть PDF</a>
+        </div>
+        <p class="mt-3 text-sm text-muted-foreground">Бесплатно. Регистрация и вход не требуются.</p>
+      </div>
+      <img src={cover} alt={`Рабочая тетрадь «${name}», обложка HUTBA.org`}
+        width="621" height="877" class="mx-auto w-48 rounded border shadow-sm sm:w-full" />
+    </header>
+
+    <section class="py-8 sm:py-10" aria-labelledby="contents-title">
+      <h2 id="contents-title" class="text-2xl font-semibold">Что внутри тетради</h2>
+      <ul class="mt-4 list-disc space-y-3 pl-6 leading-7">
+        <li>Огласовки: фатха, касра, дамма и сукун.</li>
+        <li>Формы букв отдельно, в начале, середине и конце слова.</li>
+        <li>Объяснения направления письма, положения букв на строке и соединения с соседними буквами.</li>
+        <li>Пояснения к произношению и примеры букв с огласовками.</li>
+        <li>Страницы «Напишите сами» с образцами и строками для практики.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="examples-title">
+      <h2 id="examples-title" class="text-2xl font-semibold">Примеры страниц</h2>
+      <div class="mt-5 grid gap-6 sm:grid-cols-2">
+        <figure>
+          <img src={letterImage.src} width="621" height="877" loading="lazy"
+            alt="Страница 5 тетради: буква әлиф, формы написания, положение на строке и примеры"
+            class="w-full rounded border bg-white" />
+          <figcaption class="mt-3 text-sm text-muted-foreground">Страница 5. Объяснение написания буквы әлиф.</figcaption>
+        </figure>
+        <figure>
+          <img src={practiceImage.src} width="621" height="877" loading="lazy"
+            alt="Страница 6 тетради: образцы буквы әлиф и строки для самостоятельного написания"
+            class="w-full rounded border bg-white" />
+          <figcaption class="mt-3 text-sm text-muted-foreground">Страница 6. Прописи для самостоятельной работы.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="mt-10 border-t pt-8" aria-labelledby="practice-title">
+      <h2 id="practice-title" class="text-2xl font-semibold">Как заниматься</h2>
+      <ol class="mt-4 list-decimal space-y-3 pl-6 leading-7">
+        <li>Скачайте тетрадь и распечатайте нужные страницы.</li>
+        <li>Откройте соответствующий урок в <a href="/quran/muallim-sani" class="text-cyan-700 underline underline-offset-4 dark:text-cyan-300">курсе «Муаллим сани»</a>.</li>
+        <li>Разберите написание буквы по образцу и выполните прописи на странице «Напишите сами».</li>
+      </ol>
+      <h3 class="mt-6 text-lg font-semibold">Нужна ли регистрация для скачивания?</h3>
+      <p class="mt-2 leading-7">Нет. PDF доступен бесплатно по прямой ссылке на этой странице.</p>
+      <h3 class="mt-6 text-lg font-semibold">К какому курсу относится тетрадь?</h3>
+      <p class="mt-2 leading-7">Тетрадь размещена в материалах курса «Муаллим сани» по начальному обучению чтению Корана. Она посвящена написанию букв арабского алфавита и практике письма.</p>
+    </section>
+  </article>
+</Base>
