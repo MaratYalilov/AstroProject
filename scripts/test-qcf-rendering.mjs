@@ -24,6 +24,12 @@ for (const [reference, entry] of Object.entries(data)) {
   assert.ok(html.includes(`class="qcf-fallback" aria-hidden="true">${escape(arabic)}</span>`), reference);
   assert.ok(html.includes(`class="sr-only">${escape(arabic)}</span>`), reference);
   assert.ok(html.includes(escape(translation)), reference);
+  const tajweed = renderer.renderAyahBlock(surah, ayah, { tajweed: true });
+  assert.ok(tajweed.includes(`data-qcf-page="${entry.page}" data-qcf-variant="tajweed"`), reference);
+  assert.ok(tajweed.includes(`class="qcf-glyphs qcf-tajweed-page-${entry.page}" aria-hidden="true">${escape(entry.code_v2)}</span>`), reference);
+  assert.ok(tajweed.includes(`class="qcf-fallback" aria-hidden="true">${escape(arabic)}</span>`), reference);
+  assert.ok(tajweed.includes(escape(translation)), reference);
+  assert.ok(!tajweed.includes(`class="qcf-glyphs qcf-page-`), reference);
 }
 // A range crossing a Mushaf page boundary must load both page fonts.
 const range = renderer.renderAyahRangeBlock(2, 1, 7);
@@ -33,11 +39,30 @@ for (let ayah = 1; ayah <= 7; ayah++) {
   assert.ok(range.includes(`/mp3/002/00200${ayah}.mp3`));
 }
 assert.equal(renderer.renderAyahRangeBlock(2, 7, 1), range);
+const tajweedRange = renderer.renderAyahRangeBlock(2, 1, 7, { tajweed: true });
+assert.deepEqual([...tajweedRange.matchAll(/data-qcf-page="(\d+)" data-qcf-variant="tajweed"/g)].map((match) => Number(match[1])), [2, 3]);
+assert.equal(renderer.renderAyahRangeBlock(2, 7, 1, { tajweed: true }), tajweedRange);
+for (let ayah = 1; ayah <= 7; ayah++) assert.ok(tajweedRange.includes(`/mp3/002/00200${ayah}.mp3`));
+
+const { replaceQuranTags } = await bundle('src/utils/replaceQuranTags.ts');
+assert.equal(replaceQuranTags('{Quran}2:255{/Quran}'), renderer.renderAyahBlock(2, 255));
+assert.equal(replaceQuranTags('{Quran}2:255-T{/Quran}'), renderer.renderAyahBlock(2, 255, { tajweed: true }));
+assert.equal(replaceQuranTags('{quran}2:255-t{/quran}'), renderer.renderAyahBlock(2, 255, { tajweed: true }));
+assert.equal(replaceQuranTags('{Quran}2:1-7-T{/Quran}'), tajweedRange);
+assert.equal(replaceQuranTags('{Quran}2:7-1-T{/Quran}'), tajweedRange);
+assert.equal(replaceQuranTags('{Quran}2:255-255-T{/Quran}'), renderer.renderAyahBlock(2, 255, { tajweed: true }));
+assert.equal(replaceQuranTags('{Quran}2:1-7{/Quran}'), range);
+assert.equal(replaceQuranTags('{Quran}2:255-X{/Quran}'), '{Quran}2:255-X{/Quran}');
+const mixed = '{Quran}2:255{/Quran}\n{Quran}2:255-T{/Quran}';
+const mixedHtml = replaceQuranTags(mixed);
+assert.equal([...mixedHtml.matchAll(/data-qcf-page="42"/g)].length, 2);
+const audioIds = [...mixedHtml.matchAll(/<audio\s+id="([^"]+)"/g)].map((match) => match[1]);
+assert.equal(new Set(audioIds).size, 2, 'ordinary and Tajweed audio controls must target different elements');
 
 // Controlled FontFace promises exercise pending, failure, retry and dynamically inserted verses.
 const { initQcfFonts } = await bundle('src/utils/qcfFonts.ts');
 class Element {
-  constructor(page, text = 'glyph codes') { this.dataset = { qcfPage: String(page) }; this.text = text; }
+  constructor(page, text = 'glyph codes', variant) { this.dataset = { qcfPage: String(page), qcfVariant: variant }; this.text = text; }
   matches() { return true; }
   querySelectorAll() { return []; }
   querySelector() { return { textContent: this.text }; }
@@ -52,8 +77,16 @@ const abandonedCssFaces = [{ family: 'QCF2001', status: 'loading' }];
 let cssFaces = abandonedCssFaces;
 let observe;
 let online;
+let dark = false;
+Object.defineProperty(globalThis, 'navigator', { value: { userAgent: 'Chrome/140' }, configurable: true });
 globalThis.HTMLElement = Element;
-globalThis.MutationObserver = class { constructor(callback) { observe = callback; } observe() {} };
+globalThis.MutationObserver = class {
+  constructor(callback) { this.callback = callback; }
+  observe(target) {
+    assert.equal(target, document.body, 'theme changes are handled by CSS, without an extra observer');
+    observe = this.callback;
+  }
+};
 globalThis.FontFace = class {
   constructor(family, source, descriptors) {
     this.family = family;
@@ -71,6 +104,7 @@ globalThis.FontFace = class {
   }
 };
 globalThis.document = {
+  documentElement: { classList: { contains: () => dark } },
   body: { querySelectorAll: () => elements },
   head: { append() {} },
   createElement: () => ({ dataset: {}, append: (text) => css.push(text) }),
@@ -131,5 +165,77 @@ elements.push(samePage);
 observe([{ addedNodes: [samePage] }]);
 assert.equal(requests.length, 5);
 assert.ok([...document.fonts].some((face) => face.family === 'QCF2001' && face.status === 'loaded'));
+
+// V2 and V4 on the same page must have independent readiness and retry state.
+elements.splice(0, elements.length, new Element(42), new Element(42, 'codes', 'tajweed'), new Element(42, 'codes', 'tajweed'));
+requests.length = 0;
+css.length = 0;
+registeredFaces.clear();
+initQcfFonts();
+assert.equal(requests.length, 2);
+assert.equal(requests[0].face.family, 'QCF2042');
+assert.equal(requests[1].face.family, 'QCFT42');
+assert.equal(requests[1].face.source, 'url("/fonts/mushaf-v4-woff2/colrv1/p42.woff2") format("woff2")');
+requests[0].resolve();
+requests[1].reject(new Error('Local Tajweed font unavailable'));
+await flush();
+assert.equal(css.length, 1);
+assert.ok(css[0].includes(':not([data-qcf-variant="tajweed"])'), 'V2 readiness must exclude Tajweed glyphs');
+online();
+assert.equal(requests.length, 3);
+requests[2].resolve();
+await flush();
+assert.ok(css[1].includes('[data-qcf-variant="tajweed"]'));
+assert.ok(css[1].includes('font-family:"QCFT42"'));
+assert.ok(css[1].includes('@font-palette-values --qcf-light-42'));
+assert.ok(css[1].includes('base-palette:0'));
+assert.ok(css[1].includes('base-palette:1'));
+assert.ok(css[1].includes(':root.dark .qcf-text'));
+dark = true;
+online();
+assert.equal(requests.length, 3, 'COLRv1 themes reuse one font file');
+const newTajweed = new Element(2, 'codes', 'tajweed');
+elements.push(newTajweed);
+observe([{ addedNodes: [newTajweed] }]);
+assert.equal(requests.length, 4, 'dynamic Tajweed verses load their own page');
+requests[3].resolve();
+await flush();
+
+// Firefox must use the same local COLRv1 file and both CSS palettes. Changing
+// theme during or after loading must not start another request or select OT-SVG.
+Object.defineProperty(globalThis, 'navigator', { value: { userAgent: 'Firefox/144' }, configurable: true });
+dark = false;
+elements.splice(0, elements.length, new Element(42, 'codes', 'tajweed'), new Element(42, 'codes', 'tajweed'));
+requests.length = 0;
+css.length = 0;
+registeredFaces.clear();
+initQcfFonts();
+assert.equal(requests.length, 1);
+assert.equal(requests[0].face.family, 'QCFT42');
+assert.equal(requests[0].face.source, 'url("/fonts/mushaf-v4-woff2/colrv1/p42.woff2") format("woff2")');
+dark = true;
+online();
+assert.equal(requests.length, 1, 'changing theme while loading reuses the pending COLRv1 request');
+requests[0].reject(new Error('COLRv1 font failed'));
+await flush();
+assert.equal(css.length, 0, 'a failed Firefox font retains Unicode');
+online();
+assert.equal(requests.length, 2);
+assert.equal(requests[1].face.source, requests[0].face.source, 'retry still requests the shared COLRv1 file');
+requests[1].resolve();
+await flush();
+assert.equal(registeredFaces.size, 1);
+assert.equal(css.length, 1);
+assert.ok(css[0].includes('font-family:"QCFT42"'));
+assert.ok(css[0].includes('@font-palette-values --qcf-light-42'));
+assert.ok(css[0].includes('base-palette:0'));
+assert.ok(css[0].includes('base-palette:1'));
+assert.ok(css[0].includes(':root.dark .qcf-text'));
+dark = false;
+online();
+dark = true;
+online();
+assert.equal(requests.length, 2, 'ready COLRv1 face is reused in both Firefox themes');
+assert.ok(requests.every(({face})=>!face.source.includes('ot-svg')));
 console.warn = warn;
-console.log(`Passed: ${Object.keys(data).length} ayahs, page-crossing ranges, pending/error Unicode fallback, exact-page readiness, CSS replacement during loading, deduplication, dynamic verses and reconnect retry.`);
+console.log(`Passed: ${Object.keys(data).length} ayahs in V2/V4, -T tags and ranges, independent font readiness, Unicode fallback, CSS replacement, retries, dynamic verses, shared local COLRv1 fonts and palettes for both themes including Firefox.`);

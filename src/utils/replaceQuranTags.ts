@@ -4,7 +4,8 @@ import { renderAyahBlock, renderAyahRangeBlock } from "./quranRenderer";
 // Поддерживаем:
 // {Quran}2:255{/Quran}
 // {Quran}2:1-5{/Quran}
-const QURAN_TAG_REGEX = /\{Quran\}(\d+):(\d+)(?:-(\d+))?\{\/Quran\}/gi;
+// {Quran}2:255-T{/Quran}, {Quran}2:1-5-T{/Quran} — таджвид QCF V4
+const QURAN_TAG_REGEX = /\{Quran\}(\d+):(\d+)(?:-(\d+))?(-T)?\{\/Quran\}/gi;
 
 export function replaceQuranTags(input: string): string {
   if (!input) return "";
@@ -16,12 +17,14 @@ export function replaceQuranTags(input: string): string {
       surahStr: string,
       fromAyahStr: string,
       toAyahStr?: string,
+      tajweedFlag?: string,
     ) => {
       try {
         const surah = Number(surahStr);
         const fromAyah = Number(fromAyahStr);
         const hasRange = typeof toAyahStr !== "undefined" && toAyahStr !== "";
         const toAyah = hasRange ? Number(toAyahStr) : fromAyah;
+        const options = { tajweed: Boolean(tajweedFlag) };
 
         if (
           !Number.isFinite(surah) ||
@@ -34,11 +37,11 @@ export function replaceQuranTags(input: string): string {
 
         if (!hasRange || fromAyah === toAyah) {
           // одиночный аят
-          return renderAyahBlock(surah, fromAyah);
+          return renderAyahBlock(surah, fromAyah, options);
         }
 
         // диапазон аятов: один общий блок
-        return renderAyahRangeBlock(surah, fromAyah, toAyah);
+        return renderAyahRangeBlock(surah, fromAyah, toAyah, options);
       } catch (e) {
         console.error("[QuranTags] Error rendering tag:", match, e);
         // fallback – оставляем исходный тег, чтобы было видно проблему

@@ -68,10 +68,14 @@
 | --- | --- | --- |
 | `media/` (видео + аудио уроков) | 111 933 МБ (в т.ч. `mp4` 82 844 МБ, `mp3` 28 910 МБ) | 4 425 |
 | `mp3/` (аудио Корана) | 828 МБ | — |
-| `fonts/` (Amiri, KFGQPC, QCF v2 WOFF2 в `mushaf-v2-woff2/p1…p604.woff2`) | QCF WOFF2 ≈93 МБ; остальные шрифты отдельно | — |
+| `fonts/` (Amiri, KFGQPC, QCF v2 в `mushaf-v2-woff2/`, QCF V4 в `mushaf-v4-woff2/`) | QCF v2 ≈93 МиБ + V4 ≈49 МиБ; остальные шрифты отдельно | QCF: 604 + 604 |
 | `ayat/` (PNG изображений аятов) | 30 МБ | — |
 | `subject-icons/`, `favicon.ico`, `s5_logo.png` | ~0,1 МБ | — |
 | **Итого `public/`** | **≈113 ГБ / 24 690 файлов** | |
+
+Для цветного таджвида (`{Quran}2:255-T{/Quran}`) QCF V4 также раздаётся локально. Перед сборкой выполнить `npm run fonts:download` и `npm run fonts:check`: они готовят и проверяют обычный v2 и один общий набор V4 COLRv1 для всех браузеров, включая Firefox. Перенести каталог `public/fonts/mushaf-v4-woff2/colrv1/` в `/srv/hutba/assets/fonts/mushaf-v4-woff2/colrv1/`, сохранив структуру. Прежние каталоги `ot-svg/light` и `ot-svg/dark` больше не нужны. Светлая и тёмная темы используют палитры одного файла. Браузер запрашивает только нужные страницы с домена сайта; внешний CDN используется лишь при подготовке файлов. При недоступном шрифте остаётся читаемый арабский текст без цветовой разметки.
+
+Обычный `{Quran}` сохраняет QCF V2, суффикс `-T` включает QCF V4. Короткая инструкция установки этого обновления на уже работающий сервер находится в §4.6 файла `README_Quran Renderer-QCF v2.md`. Временная страница сравнения шрифтов удалена; автоматические проверки выполняются отдельно и не добавляют маршрутов на сайт.
 
 Отдельно: **6 502 файла имеют не-ASCII имена** (кириллица, арабица). На Linux это работает,
 но требуется UTF-8-локаль сервера (`LANG=C.UTF-8` или `ru_RU.UTF-8`) — иначе возможны битые имена
@@ -457,6 +461,7 @@ curl -s  -o /dev/null -w 'индекс поиска:        %{http_code} %{size_
 curl -s  -o /dev/null -w 'глоссарий JSON:       %{http_code} %{size_download} байт\n' $BASE/api/glossary.json
 curl -s  -o /dev/null -w 'шрифт Amiri:          %{http_code}\n' $BASE/fonts/Amiri-Regular.ttf
 curl -s  -o /dev/null -w 'шрифт QCF (mushaf):   %{http_code}\n' $BASE/fonts/mushaf-v2-woff2/p1.woff2
+curl -s  -o /dev/null -w 'таджвид COLRv1:       %{http_code}\n' $BASE/fonts/mushaf-v4-woff2/colrv1/p42.woff2
 curl -s  -o /dev/null -w 'логотип:              %{http_code}\n' $BASE/s5_logo.png
 curl -sI $BASE/ | grep -i cache-control
 ```

@@ -59,9 +59,14 @@ function escapeHtml(str: string): string {
 
 // Unicode остаётся доступен без JavaScript и при ошибке загрузки шрифта.
 // QCF показывается только после загрузки шрифта конкретной страницы.
-function renderQcfText(page: number, codes: string, arabic: string): string {
+type QuranRenderOptions = { tajweed?: boolean };
+
+function renderQcfText(page: number, codes: string, arabic: string, tajweed = false): string {
   if (!arabic) throw new Error(`Missing Unicode fallback for QCF page ${page}`);
-  return `<span class="qcf-text" data-qcf-page="${page}" lang="ar" dir="rtl"><span class="qcf-fallback" aria-hidden="true">${escapeHtml(arabic)}</span><span class="qcf-glyphs qcf-page-${page}" aria-hidden="true">${escapeHtml(codes)}</span><span class="sr-only">${escapeHtml(arabic)}</span></span>`;
+  // V4 uses the same code_v2/page map, but must never inherit a V2 font or readiness rule.
+  const variant = tajweed ? ' data-qcf-variant="tajweed"' : '';
+  const pageClass = tajweed ? `qcf-tajweed-page-${page}` : `qcf-page-${page}`;
+  return `<span class="qcf-text" data-qcf-page="${page}"${variant} lang="ar" dir="rtl"><span class="qcf-fallback" aria-hidden="true">${escapeHtml(arabic)}</span><span class="qcf-glyphs ${pageClass}" aria-hidden="true">${escapeHtml(codes)}</span><span class="sr-only">${escapeHtml(arabic)}</span></span>`;
 }
 
 // Инициализация карт
@@ -116,6 +121,7 @@ export function getAyahText(
 export function renderAyahBlock(
   surahInput: number | string,
   ayahInput: number | string,
+  options: QuranRenderOptions = {},
 ): string {
   const surah = Number(surahInput);
   const ayah = Number(ayahInput);
@@ -148,7 +154,7 @@ export function renderAyahBlock(
 
   const audioSrc = `/mp3/${sss}/${sss}${aaa}.mp3`;
   const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${surah}:${ayah}`;
-  const audioId = `quran-audio-${surah}-${ayah}`;
+  const audioId = `quran-audio-${surah}-${ayah}${options.tajweed ? '-tajweed' : ''}`;
 
   return `
 <div class="
@@ -163,7 +169,7 @@ export function renderAyahBlock(
   >
 
   <p class="quran-ayah-block__arabic qcf-ayah" lang="ar" dir="rtl">
-    ${renderQcfText(page, codeV2, arabicMap[key])}
+    ${renderQcfText(page, codeV2, arabicMap[key], options.tajweed)}
   </p>
 
   <div class="quran-ayah-block__translation">
@@ -232,6 +238,7 @@ export function renderAyahRangeBlock(
   surahInput: number | string,
   fromAyahInput: number | string,
   toAyahInput: number | string,
+  options: QuranRenderOptions = {},
 ): string {
   const surah = Number(surahInput);
   const fromAyah = Number(fromAyahInput);
@@ -324,7 +331,7 @@ export function renderAyahRangeBlock(
     <p class="quran-ayah-block__arabic qcf-ayah" lang="ar" dir="rtl">
       ${groups
         .map(
-          (g) => renderQcfText(g.page, g.codes.join(" "), g.arabic.join(" ")),
+          (g) => renderQcfText(g.page, g.codes.join(" "), g.arabic.join(" "), options.tajweed),
         )
         .join(" ")}
     </p>
@@ -340,7 +347,7 @@ export function renderAyahRangeBlock(
   const rangeText = start === end ? `${surah}:${start}` : `${surah}:${start}-${end}`;
   const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${rangeText}`;
   const labelPrefix = start === end ? "Прослушать аят" : "Прослушать аяты";
-  const audioId = `quran-audio-range-${surah}-${start}-${end}`;
+  const audioId = `quran-audio-range-${surah}-${start}-${end}${options.tajweed ? '-tajweed' : ''}`;
 
   return `
 <div
