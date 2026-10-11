@@ -68,7 +68,7 @@
 | --- | --- | --- |
 | `media/` (видео + аудио уроков) | 111 933 МБ (в т.ч. `mp4` 82 844 МБ, `mp3` 28 910 МБ) | 4 425 |
 | `mp3/` (аудио Корана) | 828 МБ | — |
-| `fonts/` (Amiri, KFGQPC, `mushaf-v2/QCF2001…2604.ttf`) | 201 МБ | — |
+| `fonts/` (Amiri, KFGQPC, QCF v2 WOFF2 в `mushaf-v2-woff2/p1…p604.woff2`) | QCF WOFF2 ≈93 МБ; остальные шрифты отдельно | — |
 | `ayat/` (PNG изображений аятов) | 30 МБ | — |
 | `subject-icons/`, `favicon.ico`, `s5_logo.png` | ~0,1 МБ | — |
 | **Итого `public/`** | **≈113 ГБ / 24 690 файлов** | |
@@ -456,7 +456,7 @@ curl -s  -o /dev/null -w 'поиск:                %{http_code}\n' $BASE/searc
 curl -s  -o /dev/null -w 'индекс поиска:        %{http_code} %{size_download} байт\n' $BASE/api/search-index.json
 curl -s  -o /dev/null -w 'глоссарий JSON:       %{http_code} %{size_download} байт\n' $BASE/api/glossary.json
 curl -s  -o /dev/null -w 'шрифт Amiri:          %{http_code}\n' $BASE/fonts/Amiri-Regular.ttf
-curl -s  -o /dev/null -w 'шрифт QCF (mushaf):   %{http_code}\n' $BASE/fonts/mushaf-v2/QCF2001.ttf
+curl -s  -o /dev/null -w 'шрифт QCF (mushaf):   %{http_code}\n' $BASE/fonts/mushaf-v2-woff2/p1.woff2
 curl -s  -o /dev/null -w 'логотип:              %{http_code}\n' $BASE/s5_logo.png
 curl -sI $BASE/ | grep -i cache-control
 ```

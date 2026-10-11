@@ -1,9 +1,10 @@
+
 @font-face {
   font-family: "QCF2001";
-  src: url("/fonts/mushaf-v2/QCF2001.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p1.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-1 {
@@ -12,10 +13,10 @@
 
 @font-face {
   font-family: "QCF2002";
-  src: url("/fonts/mushaf-v2/QCF2002.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p2.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-2 {
@@ -24,10 +25,10 @@
 
 @font-face {
   font-family: "QCF2003";
-  src: url("/fonts/mushaf-v2/QCF2003.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p3.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-3 {
@@ -36,10 +37,10 @@
 
 @font-face {
   font-family: "QCF2004";
-  src: url("/fonts/mushaf-v2/QCF2004.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p4.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-4 {
@@ -48,10 +49,10 @@
 
 @font-face {
   font-family: "QCF2005";
-  src: url("/fonts/mushaf-v2/QCF2005.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p5.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-5 {
@@ -60,10 +61,10 @@
 
 @font-face {
   font-family: "QCF2006";
-  src: url("/fonts/mushaf-v2/QCF2006.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p6.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-6 {
@@ -72,10 +73,10 @@
 
 @font-face {
   font-family: "QCF2007";
-  src: url("/fonts/mushaf-v2/QCF2007.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p7.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-7 {
@@ -84,10 +85,10 @@
 
 @font-face {
   font-family: "QCF2008";
-  src: url("/fonts/mushaf-v2/QCF2008.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p8.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-8 {
@@ -96,10 +97,10 @@
 
 @font-face {
   font-family: "QCF2009";
-  src: url("/fonts/mushaf-v2/QCF2009.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p9.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-9 {
@@ -108,10 +109,10 @@
 
 @font-face {
   font-family: "QCF2010";
-  src: url("/fonts/mushaf-v2/QCF2010.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p10.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-10 {
@@ -120,10 +121,10 @@
 
 @font-face {
   font-family: "QCF2011";
-  src: url("/fonts/mushaf-v2/QCF2011.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p11.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-11 {
@@ -132,10 +133,10 @@
 
 @font-face {
   font-family: "QCF2012";
-  src: url("/fonts/mushaf-v2/QCF2012.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p12.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-12 {
@@ -144,10 +145,10 @@
 
 @font-face {
   font-family: "QCF2013";
-  src: url("/fonts/mushaf-v2/QCF2013.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p13.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-13 {
@@ -156,10 +157,10 @@
 
 @font-face {
   font-family: "QCF2014";
-  src: url("/fonts/mushaf-v2/QCF2014.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p14.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-14 {
@@ -168,10 +169,10 @@
 
 @font-face {
   font-family: "QCF2015";
-  src: url("/fonts/mushaf-v2/QCF2015.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p15.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-15 {
@@ -180,10 +181,10 @@
 
 @font-face {
   font-family: "QCF2016";
-  src: url("/fonts/mushaf-v2/QCF2016.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p16.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-16 {
@@ -192,10 +193,10 @@
 
 @font-face {
   font-family: "QCF2017";
-  src: url("/fonts/mushaf-v2/QCF2017.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p17.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-17 {
@@ -204,10 +205,10 @@
 
 @font-face {
   font-family: "QCF2018";
-  src: url("/fonts/mushaf-v2/QCF2018.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p18.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-18 {
@@ -216,10 +217,10 @@
 
 @font-face {
   font-family: "QCF2019";
-  src: url("/fonts/mushaf-v2/QCF2019.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p19.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-19 {
@@ -228,10 +229,10 @@
 
 @font-face {
   font-family: "QCF2020";
-  src: url("/fonts/mushaf-v2/QCF2020.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p20.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-20 {
@@ -240,10 +241,10 @@
 
 @font-face {
   font-family: "QCF2021";
-  src: url("/fonts/mushaf-v2/QCF2021.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p21.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-21 {
@@ -252,10 +253,10 @@
 
 @font-face {
   font-family: "QCF2022";
-  src: url("/fonts/mushaf-v2/QCF2022.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p22.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-22 {
@@ -264,10 +265,10 @@
 
 @font-face {
   font-family: "QCF2023";
-  src: url("/fonts/mushaf-v2/QCF2023.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p23.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-23 {
@@ -276,10 +277,10 @@
 
 @font-face {
   font-family: "QCF2024";
-  src: url("/fonts/mushaf-v2/QCF2024.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p24.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-24 {
@@ -288,10 +289,10 @@
 
 @font-face {
   font-family: "QCF2025";
-  src: url("/fonts/mushaf-v2/QCF2025.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p25.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-25 {
@@ -300,10 +301,10 @@
 
 @font-face {
   font-family: "QCF2026";
-  src: url("/fonts/mushaf-v2/QCF2026.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p26.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-26 {
@@ -312,10 +313,10 @@
 
 @font-face {
   font-family: "QCF2027";
-  src: url("/fonts/mushaf-v2/QCF2027.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p27.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-27 {
@@ -324,10 +325,10 @@
 
 @font-face {
   font-family: "QCF2028";
-  src: url("/fonts/mushaf-v2/QCF2028.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p28.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-28 {
@@ -336,10 +337,10 @@
 
 @font-face {
   font-family: "QCF2029";
-  src: url("/fonts/mushaf-v2/QCF2029.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p29.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-29 {
@@ -348,10 +349,10 @@
 
 @font-face {
   font-family: "QCF2030";
-  src: url("/fonts/mushaf-v2/QCF2030.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p30.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-30 {
@@ -360,10 +361,10 @@
 
 @font-face {
   font-family: "QCF2031";
-  src: url("/fonts/mushaf-v2/QCF2031.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p31.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-31 {
@@ -372,10 +373,10 @@
 
 @font-face {
   font-family: "QCF2032";
-  src: url("/fonts/mushaf-v2/QCF2032.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p32.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-32 {
@@ -384,10 +385,10 @@
 
 @font-face {
   font-family: "QCF2033";
-  src: url("/fonts/mushaf-v2/QCF2033.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p33.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-33 {
@@ -396,10 +397,10 @@
 
 @font-face {
   font-family: "QCF2034";
-  src: url("/fonts/mushaf-v2/QCF2034.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p34.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-34 {
@@ -408,10 +409,10 @@
 
 @font-face {
   font-family: "QCF2035";
-  src: url("/fonts/mushaf-v2/QCF2035.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p35.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-35 {
@@ -420,10 +421,10 @@
 
 @font-face {
   font-family: "QCF2036";
-  src: url("/fonts/mushaf-v2/QCF2036.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p36.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-36 {
@@ -432,10 +433,10 @@
 
 @font-face {
   font-family: "QCF2037";
-  src: url("/fonts/mushaf-v2/QCF2037.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p37.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-37 {
@@ -444,10 +445,10 @@
 
 @font-face {
   font-family: "QCF2038";
-  src: url("/fonts/mushaf-v2/QCF2038.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p38.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-38 {
@@ -456,10 +457,10 @@
 
 @font-face {
   font-family: "QCF2039";
-  src: url("/fonts/mushaf-v2/QCF2039.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p39.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-39 {
@@ -468,10 +469,10 @@
 
 @font-face {
   font-family: "QCF2040";
-  src: url("/fonts/mushaf-v2/QCF2040.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p40.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-40 {
@@ -480,10 +481,10 @@
 
 @font-face {
   font-family: "QCF2041";
-  src: url("/fonts/mushaf-v2/QCF2041.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p41.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-41 {
@@ -492,10 +493,10 @@
 
 @font-face {
   font-family: "QCF2042";
-  src: url("/fonts/mushaf-v2/QCF2042.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p42.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-42 {
@@ -504,10 +505,10 @@
 
 @font-face {
   font-family: "QCF2043";
-  src: url("/fonts/mushaf-v2/QCF2043.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p43.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-43 {
@@ -516,10 +517,10 @@
 
 @font-face {
   font-family: "QCF2044";
-  src: url("/fonts/mushaf-v2/QCF2044.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p44.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-44 {
@@ -528,10 +529,10 @@
 
 @font-face {
   font-family: "QCF2045";
-  src: url("/fonts/mushaf-v2/QCF2045.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p45.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-45 {
@@ -540,10 +541,10 @@
 
 @font-face {
   font-family: "QCF2046";
-  src: url("/fonts/mushaf-v2/QCF2046.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p46.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-46 {
@@ -552,10 +553,10 @@
 
 @font-face {
   font-family: "QCF2047";
-  src: url("/fonts/mushaf-v2/QCF2047.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p47.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-47 {
@@ -564,10 +565,10 @@
 
 @font-face {
   font-family: "QCF2048";
-  src: url("/fonts/mushaf-v2/QCF2048.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p48.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-48 {
@@ -576,10 +577,10 @@
 
 @font-face {
   font-family: "QCF2049";
-  src: url("/fonts/mushaf-v2/QCF2049.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p49.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-49 {
@@ -588,10 +589,10 @@
 
 @font-face {
   font-family: "QCF2050";
-  src: url("/fonts/mushaf-v2/QCF2050.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p50.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-50 {
@@ -600,10 +601,10 @@
 
 @font-face {
   font-family: "QCF2051";
-  src: url("/fonts/mushaf-v2/QCF2051.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p51.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-51 {
@@ -612,10 +613,10 @@
 
 @font-face {
   font-family: "QCF2052";
-  src: url("/fonts/mushaf-v2/QCF2052.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p52.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-52 {
@@ -624,10 +625,10 @@
 
 @font-face {
   font-family: "QCF2053";
-  src: url("/fonts/mushaf-v2/QCF2053.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p53.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-53 {
@@ -636,10 +637,10 @@
 
 @font-face {
   font-family: "QCF2054";
-  src: url("/fonts/mushaf-v2/QCF2054.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p54.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-54 {
@@ -648,10 +649,10 @@
 
 @font-face {
   font-family: "QCF2055";
-  src: url("/fonts/mushaf-v2/QCF2055.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p55.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-55 {
@@ -660,10 +661,10 @@
 
 @font-face {
   font-family: "QCF2056";
-  src: url("/fonts/mushaf-v2/QCF2056.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p56.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-56 {
@@ -672,10 +673,10 @@
 
 @font-face {
   font-family: "QCF2057";
-  src: url("/fonts/mushaf-v2/QCF2057.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p57.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-57 {
@@ -684,10 +685,10 @@
 
 @font-face {
   font-family: "QCF2058";
-  src: url("/fonts/mushaf-v2/QCF2058.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p58.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-58 {
@@ -696,10 +697,10 @@
 
 @font-face {
   font-family: "QCF2059";
-  src: url("/fonts/mushaf-v2/QCF2059.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p59.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-59 {
@@ -708,10 +709,10 @@
 
 @font-face {
   font-family: "QCF2060";
-  src: url("/fonts/mushaf-v2/QCF2060.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p60.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-60 {
@@ -720,10 +721,10 @@
 
 @font-face {
   font-family: "QCF2061";
-  src: url("/fonts/mushaf-v2/QCF2061.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p61.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-61 {
@@ -732,10 +733,10 @@
 
 @font-face {
   font-family: "QCF2062";
-  src: url("/fonts/mushaf-v2/QCF2062.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p62.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-62 {
@@ -744,10 +745,10 @@
 
 @font-face {
   font-family: "QCF2063";
-  src: url("/fonts/mushaf-v2/QCF2063.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p63.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-63 {
@@ -756,10 +757,10 @@
 
 @font-face {
   font-family: "QCF2064";
-  src: url("/fonts/mushaf-v2/QCF2064.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p64.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-64 {
@@ -768,10 +769,10 @@
 
 @font-face {
   font-family: "QCF2065";
-  src: url("/fonts/mushaf-v2/QCF2065.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p65.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-65 {
@@ -780,10 +781,10 @@
 
 @font-face {
   font-family: "QCF2066";
-  src: url("/fonts/mushaf-v2/QCF2066.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p66.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-66 {
@@ -792,10 +793,10 @@
 
 @font-face {
   font-family: "QCF2067";
-  src: url("/fonts/mushaf-v2/QCF2067.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p67.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-67 {
@@ -804,10 +805,10 @@
 
 @font-face {
   font-family: "QCF2068";
-  src: url("/fonts/mushaf-v2/QCF2068.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p68.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-68 {
@@ -816,10 +817,10 @@
 
 @font-face {
   font-family: "QCF2069";
-  src: url("/fonts/mushaf-v2/QCF2069.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p69.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-69 {
@@ -828,10 +829,10 @@
 
 @font-face {
   font-family: "QCF2070";
-  src: url("/fonts/mushaf-v2/QCF2070.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p70.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-70 {
@@ -840,10 +841,10 @@
 
 @font-face {
   font-family: "QCF2071";
-  src: url("/fonts/mushaf-v2/QCF2071.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p71.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-71 {
@@ -852,10 +853,10 @@
 
 @font-face {
   font-family: "QCF2072";
-  src: url("/fonts/mushaf-v2/QCF2072.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p72.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-72 {
@@ -864,10 +865,10 @@
 
 @font-face {
   font-family: "QCF2073";
-  src: url("/fonts/mushaf-v2/QCF2073.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p73.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-73 {
@@ -876,10 +877,10 @@
 
 @font-face {
   font-family: "QCF2074";
-  src: url("/fonts/mushaf-v2/QCF2074.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p74.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-74 {
@@ -888,10 +889,10 @@
 
 @font-face {
   font-family: "QCF2075";
-  src: url("/fonts/mushaf-v2/QCF2075.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p75.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-75 {
@@ -900,10 +901,10 @@
 
 @font-face {
   font-family: "QCF2076";
-  src: url("/fonts/mushaf-v2/QCF2076.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p76.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-76 {
@@ -912,10 +913,10 @@
 
 @font-face {
   font-family: "QCF2077";
-  src: url("/fonts/mushaf-v2/QCF2077.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p77.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-77 {
@@ -924,10 +925,10 @@
 
 @font-face {
   font-family: "QCF2078";
-  src: url("/fonts/mushaf-v2/QCF2078.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p78.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-78 {
@@ -936,10 +937,10 @@
 
 @font-face {
   font-family: "QCF2079";
-  src: url("/fonts/mushaf-v2/QCF2079.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p79.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-79 {
@@ -948,10 +949,10 @@
 
 @font-face {
   font-family: "QCF2080";
-  src: url("/fonts/mushaf-v2/QCF2080.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p80.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-80 {
@@ -960,10 +961,10 @@
 
 @font-face {
   font-family: "QCF2081";
-  src: url("/fonts/mushaf-v2/QCF2081.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p81.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-81 {
@@ -972,10 +973,10 @@
 
 @font-face {
   font-family: "QCF2082";
-  src: url("/fonts/mushaf-v2/QCF2082.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p82.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-82 {
@@ -984,10 +985,10 @@
 
 @font-face {
   font-family: "QCF2083";
-  src: url("/fonts/mushaf-v2/QCF2083.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p83.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-83 {
@@ -996,10 +997,10 @@
 
 @font-face {
   font-family: "QCF2084";
-  src: url("/fonts/mushaf-v2/QCF2084.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p84.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-84 {
@@ -1008,10 +1009,10 @@
 
 @font-face {
   font-family: "QCF2085";
-  src: url("/fonts/mushaf-v2/QCF2085.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p85.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-85 {
@@ -1020,10 +1021,10 @@
 
 @font-face {
   font-family: "QCF2086";
-  src: url("/fonts/mushaf-v2/QCF2086.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p86.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-86 {
@@ -1032,10 +1033,10 @@
 
 @font-face {
   font-family: "QCF2087";
-  src: url("/fonts/mushaf-v2/QCF2087.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p87.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-87 {
@@ -1044,10 +1045,10 @@
 
 @font-face {
   font-family: "QCF2088";
-  src: url("/fonts/mushaf-v2/QCF2088.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p88.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-88 {
@@ -1056,10 +1057,10 @@
 
 @font-face {
   font-family: "QCF2089";
-  src: url("/fonts/mushaf-v2/QCF2089.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p89.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-89 {
@@ -1068,10 +1069,10 @@
 
 @font-face {
   font-family: "QCF2090";
-  src: url("/fonts/mushaf-v2/QCF2090.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p90.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-90 {
@@ -1080,10 +1081,10 @@
 
 @font-face {
   font-family: "QCF2091";
-  src: url("/fonts/mushaf-v2/QCF2091.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p91.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-91 {
@@ -1092,10 +1093,10 @@
 
 @font-face {
   font-family: "QCF2092";
-  src: url("/fonts/mushaf-v2/QCF2092.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p92.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-92 {
@@ -1104,10 +1105,10 @@
 
 @font-face {
   font-family: "QCF2093";
-  src: url("/fonts/mushaf-v2/QCF2093.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p93.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-93 {
@@ -1116,10 +1117,10 @@
 
 @font-face {
   font-family: "QCF2094";
-  src: url("/fonts/mushaf-v2/QCF2094.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p94.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-94 {
@@ -1128,10 +1129,10 @@
 
 @font-face {
   font-family: "QCF2095";
-  src: url("/fonts/mushaf-v2/QCF2095.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p95.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-95 {
@@ -1140,10 +1141,10 @@
 
 @font-face {
   font-family: "QCF2096";
-  src: url("/fonts/mushaf-v2/QCF2096.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p96.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-96 {
@@ -1152,10 +1153,10 @@
 
 @font-face {
   font-family: "QCF2097";
-  src: url("/fonts/mushaf-v2/QCF2097.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p97.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-97 {
@@ -1164,10 +1165,10 @@
 
 @font-face {
   font-family: "QCF2098";
-  src: url("/fonts/mushaf-v2/QCF2098.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p98.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-98 {
@@ -1176,10 +1177,10 @@
 
 @font-face {
   font-family: "QCF2099";
-  src: url("/fonts/mushaf-v2/QCF2099.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p99.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-99 {
@@ -1188,10 +1189,10 @@
 
 @font-face {
   font-family: "QCF2100";
-  src: url("/fonts/mushaf-v2/QCF2100.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p100.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-100 {
@@ -1200,10 +1201,10 @@
 
 @font-face {
   font-family: "QCF2101";
-  src: url("/fonts/mushaf-v2/QCF2101.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p101.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-101 {
@@ -1212,10 +1213,10 @@
 
 @font-face {
   font-family: "QCF2102";
-  src: url("/fonts/mushaf-v2/QCF2102.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p102.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-102 {
@@ -1224,10 +1225,10 @@
 
 @font-face {
   font-family: "QCF2103";
-  src: url("/fonts/mushaf-v2/QCF2103.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p103.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-103 {
@@ -1236,10 +1237,10 @@
 
 @font-face {
   font-family: "QCF2104";
-  src: url("/fonts/mushaf-v2/QCF2104.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p104.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-104 {
@@ -1248,10 +1249,10 @@
 
 @font-face {
   font-family: "QCF2105";
-  src: url("/fonts/mushaf-v2/QCF2105.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p105.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-105 {
@@ -1260,10 +1261,10 @@
 
 @font-face {
   font-family: "QCF2106";
-  src: url("/fonts/mushaf-v2/QCF2106.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p106.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-106 {
@@ -1272,10 +1273,10 @@
 
 @font-face {
   font-family: "QCF2107";
-  src: url("/fonts/mushaf-v2/QCF2107.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p107.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-107 {
@@ -1284,10 +1285,10 @@
 
 @font-face {
   font-family: "QCF2108";
-  src: url("/fonts/mushaf-v2/QCF2108.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p108.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-108 {
@@ -1296,10 +1297,10 @@
 
 @font-face {
   font-family: "QCF2109";
-  src: url("/fonts/mushaf-v2/QCF2109.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p109.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-109 {
@@ -1308,10 +1309,10 @@
 
 @font-face {
   font-family: "QCF2110";
-  src: url("/fonts/mushaf-v2/QCF2110.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p110.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-110 {
@@ -1320,10 +1321,10 @@
 
 @font-face {
   font-family: "QCF2111";
-  src: url("/fonts/mushaf-v2/QCF2111.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p111.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-111 {
@@ -1332,10 +1333,10 @@
 
 @font-face {
   font-family: "QCF2112";
-  src: url("/fonts/mushaf-v2/QCF2112.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p112.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-112 {
@@ -1344,10 +1345,10 @@
 
 @font-face {
   font-family: "QCF2113";
-  src: url("/fonts/mushaf-v2/QCF2113.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p113.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-113 {
@@ -1356,10 +1357,10 @@
 
 @font-face {
   font-family: "QCF2114";
-  src: url("/fonts/mushaf-v2/QCF2114.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p114.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-114 {
@@ -1368,10 +1369,10 @@
 
 @font-face {
   font-family: "QCF2115";
-  src: url("/fonts/mushaf-v2/QCF2115.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p115.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-115 {
@@ -1380,10 +1381,10 @@
 
 @font-face {
   font-family: "QCF2116";
-  src: url("/fonts/mushaf-v2/QCF2116.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p116.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-116 {
@@ -1392,10 +1393,10 @@
 
 @font-face {
   font-family: "QCF2117";
-  src: url("/fonts/mushaf-v2/QCF2117.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p117.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-117 {
@@ -1404,10 +1405,10 @@
 
 @font-face {
   font-family: "QCF2118";
-  src: url("/fonts/mushaf-v2/QCF2118.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p118.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-118 {
@@ -1416,10 +1417,10 @@
 
 @font-face {
   font-family: "QCF2119";
-  src: url("/fonts/mushaf-v2/QCF2119.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p119.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-119 {
@@ -1428,10 +1429,10 @@
 
 @font-face {
   font-family: "QCF2120";
-  src: url("/fonts/mushaf-v2/QCF2120.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p120.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-120 {
@@ -1440,10 +1441,10 @@
 
 @font-face {
   font-family: "QCF2121";
-  src: url("/fonts/mushaf-v2/QCF2121.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p121.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-121 {
@@ -1452,10 +1453,10 @@
 
 @font-face {
   font-family: "QCF2122";
-  src: url("/fonts/mushaf-v2/QCF2122.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p122.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-122 {
@@ -1464,10 +1465,10 @@
 
 @font-face {
   font-family: "QCF2123";
-  src: url("/fonts/mushaf-v2/QCF2123.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p123.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-123 {
@@ -1476,10 +1477,10 @@
 
 @font-face {
   font-family: "QCF2124";
-  src: url("/fonts/mushaf-v2/QCF2124.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p124.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-124 {
@@ -1488,10 +1489,10 @@
 
 @font-face {
   font-family: "QCF2125";
-  src: url("/fonts/mushaf-v2/QCF2125.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p125.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-125 {
@@ -1500,10 +1501,10 @@
 
 @font-face {
   font-family: "QCF2126";
-  src: url("/fonts/mushaf-v2/QCF2126.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p126.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-126 {
@@ -1512,10 +1513,10 @@
 
 @font-face {
   font-family: "QCF2127";
-  src: url("/fonts/mushaf-v2/QCF2127.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p127.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-127 {
@@ -1524,10 +1525,10 @@
 
 @font-face {
   font-family: "QCF2128";
-  src: url("/fonts/mushaf-v2/QCF2128.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p128.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-128 {
@@ -1536,10 +1537,10 @@
 
 @font-face {
   font-family: "QCF2129";
-  src: url("/fonts/mushaf-v2/QCF2129.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p129.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-129 {
@@ -1548,10 +1549,10 @@
 
 @font-face {
   font-family: "QCF2130";
-  src: url("/fonts/mushaf-v2/QCF2130.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p130.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-130 {
@@ -1560,10 +1561,10 @@
 
 @font-face {
   font-family: "QCF2131";
-  src: url("/fonts/mushaf-v2/QCF2131.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p131.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-131 {
@@ -1572,10 +1573,10 @@
 
 @font-face {
   font-family: "QCF2132";
-  src: url("/fonts/mushaf-v2/QCF2132.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p132.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-132 {
@@ -1584,10 +1585,10 @@
 
 @font-face {
   font-family: "QCF2133";
-  src: url("/fonts/mushaf-v2/QCF2133.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p133.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-133 {
@@ -1596,10 +1597,10 @@
 
 @font-face {
   font-family: "QCF2134";
-  src: url("/fonts/mushaf-v2/QCF2134.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p134.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-134 {
@@ -1608,10 +1609,10 @@
 
 @font-face {
   font-family: "QCF2135";
-  src: url("/fonts/mushaf-v2/QCF2135.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p135.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-135 {
@@ -1620,10 +1621,10 @@
 
 @font-face {
   font-family: "QCF2136";
-  src: url("/fonts/mushaf-v2/QCF2136.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p136.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-136 {
@@ -1632,10 +1633,10 @@
 
 @font-face {
   font-family: "QCF2137";
-  src: url("/fonts/mushaf-v2/QCF2137.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p137.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-137 {
@@ -1644,10 +1645,10 @@
 
 @font-face {
   font-family: "QCF2138";
-  src: url("/fonts/mushaf-v2/QCF2138.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p138.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-138 {
@@ -1656,10 +1657,10 @@
 
 @font-face {
   font-family: "QCF2139";
-  src: url("/fonts/mushaf-v2/QCF2139.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p139.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-139 {
@@ -1668,10 +1669,10 @@
 
 @font-face {
   font-family: "QCF2140";
-  src: url("/fonts/mushaf-v2/QCF2140.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p140.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-140 {
@@ -1680,10 +1681,10 @@
 
 @font-face {
   font-family: "QCF2141";
-  src: url("/fonts/mushaf-v2/QCF2141.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p141.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-141 {
@@ -1692,10 +1693,10 @@
 
 @font-face {
   font-family: "QCF2142";
-  src: url("/fonts/mushaf-v2/QCF2142.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p142.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-142 {
@@ -1704,10 +1705,10 @@
 
 @font-face {
   font-family: "QCF2143";
-  src: url("/fonts/mushaf-v2/QCF2143.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p143.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-143 {
@@ -1716,10 +1717,10 @@
 
 @font-face {
   font-family: "QCF2144";
-  src: url("/fonts/mushaf-v2/QCF2144.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p144.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-144 {
@@ -1728,10 +1729,10 @@
 
 @font-face {
   font-family: "QCF2145";
-  src: url("/fonts/mushaf-v2/QCF2145.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p145.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-145 {
@@ -1740,10 +1741,10 @@
 
 @font-face {
   font-family: "QCF2146";
-  src: url("/fonts/mushaf-v2/QCF2146.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p146.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-146 {
@@ -1752,10 +1753,10 @@
 
 @font-face {
   font-family: "QCF2147";
-  src: url("/fonts/mushaf-v2/QCF2147.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p147.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-147 {
@@ -1764,10 +1765,10 @@
 
 @font-face {
   font-family: "QCF2148";
-  src: url("/fonts/mushaf-v2/QCF2148.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p148.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-148 {
@@ -1776,10 +1777,10 @@
 
 @font-face {
   font-family: "QCF2149";
-  src: url("/fonts/mushaf-v2/QCF2149.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p149.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-149 {
@@ -1788,10 +1789,10 @@
 
 @font-face {
   font-family: "QCF2150";
-  src: url("/fonts/mushaf-v2/QCF2150.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p150.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-150 {
@@ -1800,10 +1801,10 @@
 
 @font-face {
   font-family: "QCF2151";
-  src: url("/fonts/mushaf-v2/QCF2151.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p151.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-151 {
@@ -1812,10 +1813,10 @@
 
 @font-face {
   font-family: "QCF2152";
-  src: url("/fonts/mushaf-v2/QCF2152.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p152.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-152 {
@@ -1824,10 +1825,10 @@
 
 @font-face {
   font-family: "QCF2153";
-  src: url("/fonts/mushaf-v2/QCF2153.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p153.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-153 {
@@ -1836,10 +1837,10 @@
 
 @font-face {
   font-family: "QCF2154";
-  src: url("/fonts/mushaf-v2/QCF2154.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p154.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-154 {
@@ -1848,10 +1849,10 @@
 
 @font-face {
   font-family: "QCF2155";
-  src: url("/fonts/mushaf-v2/QCF2155.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p155.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-155 {
@@ -1860,10 +1861,10 @@
 
 @font-face {
   font-family: "QCF2156";
-  src: url("/fonts/mushaf-v2/QCF2156.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p156.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-156 {
@@ -1872,10 +1873,10 @@
 
 @font-face {
   font-family: "QCF2157";
-  src: url("/fonts/mushaf-v2/QCF2157.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p157.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-157 {
@@ -1884,10 +1885,10 @@
 
 @font-face {
   font-family: "QCF2158";
-  src: url("/fonts/mushaf-v2/QCF2158.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p158.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-158 {
@@ -1896,10 +1897,10 @@
 
 @font-face {
   font-family: "QCF2159";
-  src: url("/fonts/mushaf-v2/QCF2159.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p159.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-159 {
@@ -1908,10 +1909,10 @@
 
 @font-face {
   font-family: "QCF2160";
-  src: url("/fonts/mushaf-v2/QCF2160.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p160.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-160 {
@@ -1920,10 +1921,10 @@
 
 @font-face {
   font-family: "QCF2161";
-  src: url("/fonts/mushaf-v2/QCF2161.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p161.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-161 {
@@ -1932,10 +1933,10 @@
 
 @font-face {
   font-family: "QCF2162";
-  src: url("/fonts/mushaf-v2/QCF2162.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p162.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-162 {
@@ -1944,10 +1945,10 @@
 
 @font-face {
   font-family: "QCF2163";
-  src: url("/fonts/mushaf-v2/QCF2163.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p163.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-163 {
@@ -1956,10 +1957,10 @@
 
 @font-face {
   font-family: "QCF2164";
-  src: url("/fonts/mushaf-v2/QCF2164.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p164.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-164 {
@@ -1968,10 +1969,10 @@
 
 @font-face {
   font-family: "QCF2165";
-  src: url("/fonts/mushaf-v2/QCF2165.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p165.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-165 {
@@ -1980,10 +1981,10 @@
 
 @font-face {
   font-family: "QCF2166";
-  src: url("/fonts/mushaf-v2/QCF2166.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p166.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-166 {
@@ -1992,10 +1993,10 @@
 
 @font-face {
   font-family: "QCF2167";
-  src: url("/fonts/mushaf-v2/QCF2167.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p167.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-167 {
@@ -2004,10 +2005,10 @@
 
 @font-face {
   font-family: "QCF2168";
-  src: url("/fonts/mushaf-v2/QCF2168.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p168.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-168 {
@@ -2016,10 +2017,10 @@
 
 @font-face {
   font-family: "QCF2169";
-  src: url("/fonts/mushaf-v2/QCF2169.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p169.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-169 {
@@ -2028,10 +2029,10 @@
 
 @font-face {
   font-family: "QCF2170";
-  src: url("/fonts/mushaf-v2/QCF2170.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p170.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-170 {
@@ -2040,10 +2041,10 @@
 
 @font-face {
   font-family: "QCF2171";
-  src: url("/fonts/mushaf-v2/QCF2171.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p171.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-171 {
@@ -2052,10 +2053,10 @@
 
 @font-face {
   font-family: "QCF2172";
-  src: url("/fonts/mushaf-v2/QCF2172.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p172.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-172 {
@@ -2064,10 +2065,10 @@
 
 @font-face {
   font-family: "QCF2173";
-  src: url("/fonts/mushaf-v2/QCF2173.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p173.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-173 {
@@ -2076,10 +2077,10 @@
 
 @font-face {
   font-family: "QCF2174";
-  src: url("/fonts/mushaf-v2/QCF2174.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p174.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-174 {
@@ -2088,10 +2089,10 @@
 
 @font-face {
   font-family: "QCF2175";
-  src: url("/fonts/mushaf-v2/QCF2175.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p175.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-175 {
@@ -2100,10 +2101,10 @@
 
 @font-face {
   font-family: "QCF2176";
-  src: url("/fonts/mushaf-v2/QCF2176.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p176.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-176 {
@@ -2112,10 +2113,10 @@
 
 @font-face {
   font-family: "QCF2177";
-  src: url("/fonts/mushaf-v2/QCF2177.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p177.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-177 {
@@ -2124,10 +2125,10 @@
 
 @font-face {
   font-family: "QCF2178";
-  src: url("/fonts/mushaf-v2/QCF2178.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p178.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-178 {
@@ -2136,10 +2137,10 @@
 
 @font-face {
   font-family: "QCF2179";
-  src: url("/fonts/mushaf-v2/QCF2179.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p179.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-179 {
@@ -2148,10 +2149,10 @@
 
 @font-face {
   font-family: "QCF2180";
-  src: url("/fonts/mushaf-v2/QCF2180.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p180.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-180 {
@@ -2160,10 +2161,10 @@
 
 @font-face {
   font-family: "QCF2181";
-  src: url("/fonts/mushaf-v2/QCF2181.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p181.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-181 {
@@ -2172,10 +2173,10 @@
 
 @font-face {
   font-family: "QCF2182";
-  src: url("/fonts/mushaf-v2/QCF2182.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p182.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-182 {
@@ -2184,10 +2185,10 @@
 
 @font-face {
   font-family: "QCF2183";
-  src: url("/fonts/mushaf-v2/QCF2183.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p183.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-183 {
@@ -2196,10 +2197,10 @@
 
 @font-face {
   font-family: "QCF2184";
-  src: url("/fonts/mushaf-v2/QCF2184.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p184.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-184 {
@@ -2208,10 +2209,10 @@
 
 @font-face {
   font-family: "QCF2185";
-  src: url("/fonts/mushaf-v2/QCF2185.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p185.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-185 {
@@ -2220,10 +2221,10 @@
 
 @font-face {
   font-family: "QCF2186";
-  src: url("/fonts/mushaf-v2/QCF2186.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p186.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-186 {
@@ -2232,10 +2233,10 @@
 
 @font-face {
   font-family: "QCF2187";
-  src: url("/fonts/mushaf-v2/QCF2187.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p187.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-187 {
@@ -2244,10 +2245,10 @@
 
 @font-face {
   font-family: "QCF2188";
-  src: url("/fonts/mushaf-v2/QCF2188.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p188.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-188 {
@@ -2256,10 +2257,10 @@
 
 @font-face {
   font-family: "QCF2189";
-  src: url("/fonts/mushaf-v2/QCF2189.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p189.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-189 {
@@ -2268,10 +2269,10 @@
 
 @font-face {
   font-family: "QCF2190";
-  src: url("/fonts/mushaf-v2/QCF2190.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p190.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-190 {
@@ -2280,10 +2281,10 @@
 
 @font-face {
   font-family: "QCF2191";
-  src: url("/fonts/mushaf-v2/QCF2191.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p191.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-191 {
@@ -2292,10 +2293,10 @@
 
 @font-face {
   font-family: "QCF2192";
-  src: url("/fonts/mushaf-v2/QCF2192.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p192.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-192 {
@@ -2304,10 +2305,10 @@
 
 @font-face {
   font-family: "QCF2193";
-  src: url("/fonts/mushaf-v2/QCF2193.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p193.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-193 {
@@ -2316,10 +2317,10 @@
 
 @font-face {
   font-family: "QCF2194";
-  src: url("/fonts/mushaf-v2/QCF2194.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p194.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-194 {
@@ -2328,10 +2329,10 @@
 
 @font-face {
   font-family: "QCF2195";
-  src: url("/fonts/mushaf-v2/QCF2195.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p195.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-195 {
@@ -2340,10 +2341,10 @@
 
 @font-face {
   font-family: "QCF2196";
-  src: url("/fonts/mushaf-v2/QCF2196.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p196.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-196 {
@@ -2352,10 +2353,10 @@
 
 @font-face {
   font-family: "QCF2197";
-  src: url("/fonts/mushaf-v2/QCF2197.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p197.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-197 {
@@ -2364,10 +2365,10 @@
 
 @font-face {
   font-family: "QCF2198";
-  src: url("/fonts/mushaf-v2/QCF2198.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p198.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-198 {
@@ -2376,10 +2377,10 @@
 
 @font-face {
   font-family: "QCF2199";
-  src: url("/fonts/mushaf-v2/QCF2199.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p199.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-199 {
@@ -2388,10 +2389,10 @@
 
 @font-face {
   font-family: "QCF2200";
-  src: url("/fonts/mushaf-v2/QCF2200.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p200.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-200 {
@@ -2400,10 +2401,10 @@
 
 @font-face {
   font-family: "QCF2201";
-  src: url("/fonts/mushaf-v2/QCF2201.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p201.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-201 {
@@ -2412,10 +2413,10 @@
 
 @font-face {
   font-family: "QCF2202";
-  src: url("/fonts/mushaf-v2/QCF2202.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p202.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-202 {
@@ -2424,10 +2425,10 @@
 
 @font-face {
   font-family: "QCF2203";
-  src: url("/fonts/mushaf-v2/QCF2203.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p203.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-203 {
@@ -2436,10 +2437,10 @@
 
 @font-face {
   font-family: "QCF2204";
-  src: url("/fonts/mushaf-v2/QCF2204.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p204.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-204 {
@@ -2448,10 +2449,10 @@
 
 @font-face {
   font-family: "QCF2205";
-  src: url("/fonts/mushaf-v2/QCF2205.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p205.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-205 {
@@ -2460,10 +2461,10 @@
 
 @font-face {
   font-family: "QCF2206";
-  src: url("/fonts/mushaf-v2/QCF2206.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p206.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-206 {
@@ -2472,10 +2473,10 @@
 
 @font-face {
   font-family: "QCF2207";
-  src: url("/fonts/mushaf-v2/QCF2207.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p207.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-207 {
@@ -2484,10 +2485,10 @@
 
 @font-face {
   font-family: "QCF2208";
-  src: url("/fonts/mushaf-v2/QCF2208.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p208.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-208 {
@@ -2496,10 +2497,10 @@
 
 @font-face {
   font-family: "QCF2209";
-  src: url("/fonts/mushaf-v2/QCF2209.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p209.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-209 {
@@ -2508,10 +2509,10 @@
 
 @font-face {
   font-family: "QCF2210";
-  src: url("/fonts/mushaf-v2/QCF2210.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p210.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-210 {
@@ -2520,10 +2521,10 @@
 
 @font-face {
   font-family: "QCF2211";
-  src: url("/fonts/mushaf-v2/QCF2211.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p211.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-211 {
@@ -2532,10 +2533,10 @@
 
 @font-face {
   font-family: "QCF2212";
-  src: url("/fonts/mushaf-v2/QCF2212.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p212.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-212 {
@@ -2544,10 +2545,10 @@
 
 @font-face {
   font-family: "QCF2213";
-  src: url("/fonts/mushaf-v2/QCF2213.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p213.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-213 {
@@ -2556,10 +2557,10 @@
 
 @font-face {
   font-family: "QCF2214";
-  src: url("/fonts/mushaf-v2/QCF2214.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p214.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-214 {
@@ -2568,10 +2569,10 @@
 
 @font-face {
   font-family: "QCF2215";
-  src: url("/fonts/mushaf-v2/QCF2215.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p215.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-215 {
@@ -2580,10 +2581,10 @@
 
 @font-face {
   font-family: "QCF2216";
-  src: url("/fonts/mushaf-v2/QCF2216.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p216.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-216 {
@@ -2592,10 +2593,10 @@
 
 @font-face {
   font-family: "QCF2217";
-  src: url("/fonts/mushaf-v2/QCF2217.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p217.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-217 {
@@ -2604,10 +2605,10 @@
 
 @font-face {
   font-family: "QCF2218";
-  src: url("/fonts/mushaf-v2/QCF2218.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p218.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-218 {
@@ -2616,10 +2617,10 @@
 
 @font-face {
   font-family: "QCF2219";
-  src: url("/fonts/mushaf-v2/QCF2219.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p219.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-219 {
@@ -2628,10 +2629,10 @@
 
 @font-face {
   font-family: "QCF2220";
-  src: url("/fonts/mushaf-v2/QCF2220.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p220.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-220 {
@@ -2640,10 +2641,10 @@
 
 @font-face {
   font-family: "QCF2221";
-  src: url("/fonts/mushaf-v2/QCF2221.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p221.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-221 {
@@ -2652,10 +2653,10 @@
 
 @font-face {
   font-family: "QCF2222";
-  src: url("/fonts/mushaf-v2/QCF2222.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p222.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-222 {
@@ -2664,10 +2665,10 @@
 
 @font-face {
   font-family: "QCF2223";
-  src: url("/fonts/mushaf-v2/QCF2223.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p223.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-223 {
@@ -2676,10 +2677,10 @@
 
 @font-face {
   font-family: "QCF2224";
-  src: url("/fonts/mushaf-v2/QCF2224.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p224.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-224 {
@@ -2688,10 +2689,10 @@
 
 @font-face {
   font-family: "QCF2225";
-  src: url("/fonts/mushaf-v2/QCF2225.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p225.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-225 {
@@ -2700,10 +2701,10 @@
 
 @font-face {
   font-family: "QCF2226";
-  src: url("/fonts/mushaf-v2/QCF2226.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p226.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-226 {
@@ -2712,10 +2713,10 @@
 
 @font-face {
   font-family: "QCF2227";
-  src: url("/fonts/mushaf-v2/QCF2227.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p227.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-227 {
@@ -2724,10 +2725,10 @@
 
 @font-face {
   font-family: "QCF2228";
-  src: url("/fonts/mushaf-v2/QCF2228.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p228.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-228 {
@@ -2736,10 +2737,10 @@
 
 @font-face {
   font-family: "QCF2229";
-  src: url("/fonts/mushaf-v2/QCF2229.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p229.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-229 {
@@ -2748,10 +2749,10 @@
 
 @font-face {
   font-family: "QCF2230";
-  src: url("/fonts/mushaf-v2/QCF2230.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p230.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-230 {
@@ -2760,10 +2761,10 @@
 
 @font-face {
   font-family: "QCF2231";
-  src: url("/fonts/mushaf-v2/QCF2231.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p231.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-231 {
@@ -2772,10 +2773,10 @@
 
 @font-face {
   font-family: "QCF2232";
-  src: url("/fonts/mushaf-v2/QCF2232.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p232.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-232 {
@@ -2784,10 +2785,10 @@
 
 @font-face {
   font-family: "QCF2233";
-  src: url("/fonts/mushaf-v2/QCF2233.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p233.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-233 {
@@ -2796,10 +2797,10 @@
 
 @font-face {
   font-family: "QCF2234";
-  src: url("/fonts/mushaf-v2/QCF2234.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p234.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-234 {
@@ -2808,10 +2809,10 @@
 
 @font-face {
   font-family: "QCF2235";
-  src: url("/fonts/mushaf-v2/QCF2235.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p235.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-235 {
@@ -2820,10 +2821,10 @@
 
 @font-face {
   font-family: "QCF2236";
-  src: url("/fonts/mushaf-v2/QCF2236.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p236.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-236 {
@@ -2832,10 +2833,10 @@
 
 @font-face {
   font-family: "QCF2237";
-  src: url("/fonts/mushaf-v2/QCF2237.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p237.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-237 {
@@ -2844,10 +2845,10 @@
 
 @font-face {
   font-family: "QCF2238";
-  src: url("/fonts/mushaf-v2/QCF2238.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p238.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-238 {
@@ -2856,10 +2857,10 @@
 
 @font-face {
   font-family: "QCF2239";
-  src: url("/fonts/mushaf-v2/QCF2239.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p239.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-239 {
@@ -2868,10 +2869,10 @@
 
 @font-face {
   font-family: "QCF2240";
-  src: url("/fonts/mushaf-v2/QCF2240.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p240.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-240 {
@@ -2880,10 +2881,10 @@
 
 @font-face {
   font-family: "QCF2241";
-  src: url("/fonts/mushaf-v2/QCF2241.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p241.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-241 {
@@ -2892,10 +2893,10 @@
 
 @font-face {
   font-family: "QCF2242";
-  src: url("/fonts/mushaf-v2/QCF2242.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p242.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-242 {
@@ -2904,10 +2905,10 @@
 
 @font-face {
   font-family: "QCF2243";
-  src: url("/fonts/mushaf-v2/QCF2243.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p243.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-243 {
@@ -2916,10 +2917,10 @@
 
 @font-face {
   font-family: "QCF2244";
-  src: url("/fonts/mushaf-v2/QCF2244.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p244.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-244 {
@@ -2928,10 +2929,10 @@
 
 @font-face {
   font-family: "QCF2245";
-  src: url("/fonts/mushaf-v2/QCF2245.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p245.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-245 {
@@ -2940,10 +2941,10 @@
 
 @font-face {
   font-family: "QCF2246";
-  src: url("/fonts/mushaf-v2/QCF2246.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p246.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-246 {
@@ -2952,10 +2953,10 @@
 
 @font-face {
   font-family: "QCF2247";
-  src: url("/fonts/mushaf-v2/QCF2247.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p247.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-247 {
@@ -2964,10 +2965,10 @@
 
 @font-face {
   font-family: "QCF2248";
-  src: url("/fonts/mushaf-v2/QCF2248.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p248.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-248 {
@@ -2976,10 +2977,10 @@
 
 @font-face {
   font-family: "QCF2249";
-  src: url("/fonts/mushaf-v2/QCF2249.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p249.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-249 {
@@ -2988,10 +2989,10 @@
 
 @font-face {
   font-family: "QCF2250";
-  src: url("/fonts/mushaf-v2/QCF2250.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p250.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-250 {
@@ -3000,10 +3001,10 @@
 
 @font-face {
   font-family: "QCF2251";
-  src: url("/fonts/mushaf-v2/QCF2251.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p251.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-251 {
@@ -3012,10 +3013,10 @@
 
 @font-face {
   font-family: "QCF2252";
-  src: url("/fonts/mushaf-v2/QCF2252.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p252.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-252 {
@@ -3024,10 +3025,10 @@
 
 @font-face {
   font-family: "QCF2253";
-  src: url("/fonts/mushaf-v2/QCF2253.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p253.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-253 {
@@ -3036,10 +3037,10 @@
 
 @font-face {
   font-family: "QCF2254";
-  src: url("/fonts/mushaf-v2/QCF2254.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p254.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-254 {
@@ -3048,10 +3049,10 @@
 
 @font-face {
   font-family: "QCF2255";
-  src: url("/fonts/mushaf-v2/QCF2255.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p255.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-255 {
@@ -3060,10 +3061,10 @@
 
 @font-face {
   font-family: "QCF2256";
-  src: url("/fonts/mushaf-v2/QCF2256.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p256.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-256 {
@@ -3072,10 +3073,10 @@
 
 @font-face {
   font-family: "QCF2257";
-  src: url("/fonts/mushaf-v2/QCF2257.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p257.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-257 {
@@ -3084,10 +3085,10 @@
 
 @font-face {
   font-family: "QCF2258";
-  src: url("/fonts/mushaf-v2/QCF2258.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p258.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-258 {
@@ -3096,10 +3097,10 @@
 
 @font-face {
   font-family: "QCF2259";
-  src: url("/fonts/mushaf-v2/QCF2259.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p259.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-259 {
@@ -3108,10 +3109,10 @@
 
 @font-face {
   font-family: "QCF2260";
-  src: url("/fonts/mushaf-v2/QCF2260.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p260.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-260 {
@@ -3120,10 +3121,10 @@
 
 @font-face {
   font-family: "QCF2261";
-  src: url("/fonts/mushaf-v2/QCF2261.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p261.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-261 {
@@ -3132,10 +3133,10 @@
 
 @font-face {
   font-family: "QCF2262";
-  src: url("/fonts/mushaf-v2/QCF2262.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p262.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-262 {
@@ -3144,10 +3145,10 @@
 
 @font-face {
   font-family: "QCF2263";
-  src: url("/fonts/mushaf-v2/QCF2263.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p263.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-263 {
@@ -3156,10 +3157,10 @@
 
 @font-face {
   font-family: "QCF2264";
-  src: url("/fonts/mushaf-v2/QCF2264.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p264.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-264 {
@@ -3168,10 +3169,10 @@
 
 @font-face {
   font-family: "QCF2265";
-  src: url("/fonts/mushaf-v2/QCF2265.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p265.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-265 {
@@ -3180,10 +3181,10 @@
 
 @font-face {
   font-family: "QCF2266";
-  src: url("/fonts/mushaf-v2/QCF2266.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p266.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-266 {
@@ -3192,10 +3193,10 @@
 
 @font-face {
   font-family: "QCF2267";
-  src: url("/fonts/mushaf-v2/QCF2267.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p267.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-267 {
@@ -3204,10 +3205,10 @@
 
 @font-face {
   font-family: "QCF2268";
-  src: url("/fonts/mushaf-v2/QCF2268.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p268.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-268 {
@@ -3216,10 +3217,10 @@
 
 @font-face {
   font-family: "QCF2269";
-  src: url("/fonts/mushaf-v2/QCF2269.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p269.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-269 {
@@ -3228,10 +3229,10 @@
 
 @font-face {
   font-family: "QCF2270";
-  src: url("/fonts/mushaf-v2/QCF2270.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p270.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-270 {
@@ -3240,10 +3241,10 @@
 
 @font-face {
   font-family: "QCF2271";
-  src: url("/fonts/mushaf-v2/QCF2271.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p271.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-271 {
@@ -3252,10 +3253,10 @@
 
 @font-face {
   font-family: "QCF2272";
-  src: url("/fonts/mushaf-v2/QCF2272.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p272.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-272 {
@@ -3264,10 +3265,10 @@
 
 @font-face {
   font-family: "QCF2273";
-  src: url("/fonts/mushaf-v2/QCF2273.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p273.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-273 {
@@ -3276,10 +3277,10 @@
 
 @font-face {
   font-family: "QCF2274";
-  src: url("/fonts/mushaf-v2/QCF2274.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p274.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-274 {
@@ -3288,10 +3289,10 @@
 
 @font-face {
   font-family: "QCF2275";
-  src: url("/fonts/mushaf-v2/QCF2275.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p275.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-275 {
@@ -3300,10 +3301,10 @@
 
 @font-face {
   font-family: "QCF2276";
-  src: url("/fonts/mushaf-v2/QCF2276.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p276.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-276 {
@@ -3312,10 +3313,10 @@
 
 @font-face {
   font-family: "QCF2277";
-  src: url("/fonts/mushaf-v2/QCF2277.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p277.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-277 {
@@ -3324,10 +3325,10 @@
 
 @font-face {
   font-family: "QCF2278";
-  src: url("/fonts/mushaf-v2/QCF2278.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p278.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-278 {
@@ -3336,10 +3337,10 @@
 
 @font-face {
   font-family: "QCF2279";
-  src: url("/fonts/mushaf-v2/QCF2279.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p279.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-279 {
@@ -3348,10 +3349,10 @@
 
 @font-face {
   font-family: "QCF2280";
-  src: url("/fonts/mushaf-v2/QCF2280.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p280.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-280 {
@@ -3360,10 +3361,10 @@
 
 @font-face {
   font-family: "QCF2281";
-  src: url("/fonts/mushaf-v2/QCF2281.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p281.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-281 {
@@ -3372,10 +3373,10 @@
 
 @font-face {
   font-family: "QCF2282";
-  src: url("/fonts/mushaf-v2/QCF2282.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p282.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-282 {
@@ -3384,10 +3385,10 @@
 
 @font-face {
   font-family: "QCF2283";
-  src: url("/fonts/mushaf-v2/QCF2283.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p283.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-283 {
@@ -3396,10 +3397,10 @@
 
 @font-face {
   font-family: "QCF2284";
-  src: url("/fonts/mushaf-v2/QCF2284.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p284.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-284 {
@@ -3408,10 +3409,10 @@
 
 @font-face {
   font-family: "QCF2285";
-  src: url("/fonts/mushaf-v2/QCF2285.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p285.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-285 {
@@ -3420,10 +3421,10 @@
 
 @font-face {
   font-family: "QCF2286";
-  src: url("/fonts/mushaf-v2/QCF2286.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p286.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-286 {
@@ -3432,10 +3433,10 @@
 
 @font-face {
   font-family: "QCF2287";
-  src: url("/fonts/mushaf-v2/QCF2287.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p287.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-287 {
@@ -3444,10 +3445,10 @@
 
 @font-face {
   font-family: "QCF2288";
-  src: url("/fonts/mushaf-v2/QCF2288.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p288.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-288 {
@@ -3456,10 +3457,10 @@
 
 @font-face {
   font-family: "QCF2289";
-  src: url("/fonts/mushaf-v2/QCF2289.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p289.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-289 {
@@ -3468,10 +3469,10 @@
 
 @font-face {
   font-family: "QCF2290";
-  src: url("/fonts/mushaf-v2/QCF2290.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p290.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-290 {
@@ -3480,10 +3481,10 @@
 
 @font-face {
   font-family: "QCF2291";
-  src: url("/fonts/mushaf-v2/QCF2291.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p291.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-291 {
@@ -3492,10 +3493,10 @@
 
 @font-face {
   font-family: "QCF2292";
-  src: url("/fonts/mushaf-v2/QCF2292.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p292.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-292 {
@@ -3504,10 +3505,10 @@
 
 @font-face {
   font-family: "QCF2293";
-  src: url("/fonts/mushaf-v2/QCF2293.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p293.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-293 {
@@ -3516,10 +3517,10 @@
 
 @font-face {
   font-family: "QCF2294";
-  src: url("/fonts/mushaf-v2/QCF2294.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p294.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-294 {
@@ -3528,10 +3529,10 @@
 
 @font-face {
   font-family: "QCF2295";
-  src: url("/fonts/mushaf-v2/QCF2295.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p295.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-295 {
@@ -3540,10 +3541,10 @@
 
 @font-face {
   font-family: "QCF2296";
-  src: url("/fonts/mushaf-v2/QCF2296.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p296.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-296 {
@@ -3552,10 +3553,10 @@
 
 @font-face {
   font-family: "QCF2297";
-  src: url("/fonts/mushaf-v2/QCF2297.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p297.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-297 {
@@ -3564,10 +3565,10 @@
 
 @font-face {
   font-family: "QCF2298";
-  src: url("/fonts/mushaf-v2/QCF2298.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p298.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-298 {
@@ -3576,10 +3577,10 @@
 
 @font-face {
   font-family: "QCF2299";
-  src: url("/fonts/mushaf-v2/QCF2299.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p299.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-299 {
@@ -3588,10 +3589,10 @@
 
 @font-face {
   font-family: "QCF2300";
-  src: url("/fonts/mushaf-v2/QCF2300.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p300.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-300 {
@@ -3600,10 +3601,10 @@
 
 @font-face {
   font-family: "QCF2301";
-  src: url("/fonts/mushaf-v2/QCF2301.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p301.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-301 {
@@ -3612,10 +3613,10 @@
 
 @font-face {
   font-family: "QCF2302";
-  src: url("/fonts/mushaf-v2/QCF2302.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p302.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-302 {
@@ -3624,10 +3625,10 @@
 
 @font-face {
   font-family: "QCF2303";
-  src: url("/fonts/mushaf-v2/QCF2303.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p303.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-303 {
@@ -3636,10 +3637,10 @@
 
 @font-face {
   font-family: "QCF2304";
-  src: url("/fonts/mushaf-v2/QCF2304.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p304.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-304 {
@@ -3648,10 +3649,10 @@
 
 @font-face {
   font-family: "QCF2305";
-  src: url("/fonts/mushaf-v2/QCF2305.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p305.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-305 {
@@ -3660,10 +3661,10 @@
 
 @font-face {
   font-family: "QCF2306";
-  src: url("/fonts/mushaf-v2/QCF2306.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p306.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-306 {
@@ -3672,10 +3673,10 @@
 
 @font-face {
   font-family: "QCF2307";
-  src: url("/fonts/mushaf-v2/QCF2307.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p307.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-307 {
@@ -3684,10 +3685,10 @@
 
 @font-face {
   font-family: "QCF2308";
-  src: url("/fonts/mushaf-v2/QCF2308.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p308.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-308 {
@@ -3696,10 +3697,10 @@
 
 @font-face {
   font-family: "QCF2309";
-  src: url("/fonts/mushaf-v2/QCF2309.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p309.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-309 {
@@ -3708,10 +3709,10 @@
 
 @font-face {
   font-family: "QCF2310";
-  src: url("/fonts/mushaf-v2/QCF2310.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p310.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-310 {
@@ -3720,10 +3721,10 @@
 
 @font-face {
   font-family: "QCF2311";
-  src: url("/fonts/mushaf-v2/QCF2311.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p311.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-311 {
@@ -3732,10 +3733,10 @@
 
 @font-face {
   font-family: "QCF2312";
-  src: url("/fonts/mushaf-v2/QCF2312.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p312.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-312 {
@@ -3744,10 +3745,10 @@
 
 @font-face {
   font-family: "QCF2313";
-  src: url("/fonts/mushaf-v2/QCF2313.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p313.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-313 {
@@ -3756,10 +3757,10 @@
 
 @font-face {
   font-family: "QCF2314";
-  src: url("/fonts/mushaf-v2/QCF2314.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p314.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-314 {
@@ -3768,10 +3769,10 @@
 
 @font-face {
   font-family: "QCF2315";
-  src: url("/fonts/mushaf-v2/QCF2315.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p315.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-315 {
@@ -3780,10 +3781,10 @@
 
 @font-face {
   font-family: "QCF2316";
-  src: url("/fonts/mushaf-v2/QCF2316.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p316.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-316 {
@@ -3792,10 +3793,10 @@
 
 @font-face {
   font-family: "QCF2317";
-  src: url("/fonts/mushaf-v2/QCF2317.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p317.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-317 {
@@ -3804,10 +3805,10 @@
 
 @font-face {
   font-family: "QCF2318";
-  src: url("/fonts/mushaf-v2/QCF2318.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p318.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-318 {
@@ -3816,10 +3817,10 @@
 
 @font-face {
   font-family: "QCF2319";
-  src: url("/fonts/mushaf-v2/QCF2319.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p319.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-319 {
@@ -3828,10 +3829,10 @@
 
 @font-face {
   font-family: "QCF2320";
-  src: url("/fonts/mushaf-v2/QCF2320.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p320.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-320 {
@@ -3840,10 +3841,10 @@
 
 @font-face {
   font-family: "QCF2321";
-  src: url("/fonts/mushaf-v2/QCF2321.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p321.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-321 {
@@ -3852,10 +3853,10 @@
 
 @font-face {
   font-family: "QCF2322";
-  src: url("/fonts/mushaf-v2/QCF2322.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p322.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-322 {
@@ -3864,10 +3865,10 @@
 
 @font-face {
   font-family: "QCF2323";
-  src: url("/fonts/mushaf-v2/QCF2323.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p323.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-323 {
@@ -3876,10 +3877,10 @@
 
 @font-face {
   font-family: "QCF2324";
-  src: url("/fonts/mushaf-v2/QCF2324.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p324.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-324 {
@@ -3888,10 +3889,10 @@
 
 @font-face {
   font-family: "QCF2325";
-  src: url("/fonts/mushaf-v2/QCF2325.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p325.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-325 {
@@ -3900,10 +3901,10 @@
 
 @font-face {
   font-family: "QCF2326";
-  src: url("/fonts/mushaf-v2/QCF2326.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p326.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-326 {
@@ -3912,10 +3913,10 @@
 
 @font-face {
   font-family: "QCF2327";
-  src: url("/fonts/mushaf-v2/QCF2327.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p327.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-327 {
@@ -3924,10 +3925,10 @@
 
 @font-face {
   font-family: "QCF2328";
-  src: url("/fonts/mushaf-v2/QCF2328.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p328.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-328 {
@@ -3936,10 +3937,10 @@
 
 @font-face {
   font-family: "QCF2329";
-  src: url("/fonts/mushaf-v2/QCF2329.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p329.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-329 {
@@ -3948,10 +3949,10 @@
 
 @font-face {
   font-family: "QCF2330";
-  src: url("/fonts/mushaf-v2/QCF2330.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p330.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-330 {
@@ -3960,10 +3961,10 @@
 
 @font-face {
   font-family: "QCF2331";
-  src: url("/fonts/mushaf-v2/QCF2331.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p331.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-331 {
@@ -3972,10 +3973,10 @@
 
 @font-face {
   font-family: "QCF2332";
-  src: url("/fonts/mushaf-v2/QCF2332.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p332.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-332 {
@@ -3984,10 +3985,10 @@
 
 @font-face {
   font-family: "QCF2333";
-  src: url("/fonts/mushaf-v2/QCF2333.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p333.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-333 {
@@ -3996,10 +3997,10 @@
 
 @font-face {
   font-family: "QCF2334";
-  src: url("/fonts/mushaf-v2/QCF2334.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p334.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-334 {
@@ -4008,10 +4009,10 @@
 
 @font-face {
   font-family: "QCF2335";
-  src: url("/fonts/mushaf-v2/QCF2335.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p335.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-335 {
@@ -4020,10 +4021,10 @@
 
 @font-face {
   font-family: "QCF2336";
-  src: url("/fonts/mushaf-v2/QCF2336.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p336.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-336 {
@@ -4032,10 +4033,10 @@
 
 @font-face {
   font-family: "QCF2337";
-  src: url("/fonts/mushaf-v2/QCF2337.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p337.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-337 {
@@ -4044,10 +4045,10 @@
 
 @font-face {
   font-family: "QCF2338";
-  src: url("/fonts/mushaf-v2/QCF2338.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p338.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-338 {
@@ -4056,10 +4057,10 @@
 
 @font-face {
   font-family: "QCF2339";
-  src: url("/fonts/mushaf-v2/QCF2339.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p339.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-339 {
@@ -4068,10 +4069,10 @@
 
 @font-face {
   font-family: "QCF2340";
-  src: url("/fonts/mushaf-v2/QCF2340.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p340.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-340 {
@@ -4080,10 +4081,10 @@
 
 @font-face {
   font-family: "QCF2341";
-  src: url("/fonts/mushaf-v2/QCF2341.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p341.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-341 {
@@ -4092,10 +4093,10 @@
 
 @font-face {
   font-family: "QCF2342";
-  src: url("/fonts/mushaf-v2/QCF2342.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p342.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-342 {
@@ -4104,10 +4105,10 @@
 
 @font-face {
   font-family: "QCF2343";
-  src: url("/fonts/mushaf-v2/QCF2343.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p343.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-343 {
@@ -4116,10 +4117,10 @@
 
 @font-face {
   font-family: "QCF2344";
-  src: url("/fonts/mushaf-v2/QCF2344.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p344.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-344 {
@@ -4128,10 +4129,10 @@
 
 @font-face {
   font-family: "QCF2345";
-  src: url("/fonts/mushaf-v2/QCF2345.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p345.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-345 {
@@ -4140,10 +4141,10 @@
 
 @font-face {
   font-family: "QCF2346";
-  src: url("/fonts/mushaf-v2/QCF2346.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p346.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-346 {
@@ -4152,10 +4153,10 @@
 
 @font-face {
   font-family: "QCF2347";
-  src: url("/fonts/mushaf-v2/QCF2347.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p347.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-347 {
@@ -4164,10 +4165,10 @@
 
 @font-face {
   font-family: "QCF2348";
-  src: url("/fonts/mushaf-v2/QCF2348.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p348.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-348 {
@@ -4176,10 +4177,10 @@
 
 @font-face {
   font-family: "QCF2349";
-  src: url("/fonts/mushaf-v2/QCF2349.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p349.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-349 {
@@ -4188,10 +4189,10 @@
 
 @font-face {
   font-family: "QCF2350";
-  src: url("/fonts/mushaf-v2/QCF2350.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p350.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-350 {
@@ -4200,10 +4201,10 @@
 
 @font-face {
   font-family: "QCF2351";
-  src: url("/fonts/mushaf-v2/QCF2351.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p351.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-351 {
@@ -4212,10 +4213,10 @@
 
 @font-face {
   font-family: "QCF2352";
-  src: url("/fonts/mushaf-v2/QCF2352.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p352.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-352 {
@@ -4224,10 +4225,10 @@
 
 @font-face {
   font-family: "QCF2353";
-  src: url("/fonts/mushaf-v2/QCF2353.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p353.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-353 {
@@ -4236,10 +4237,10 @@
 
 @font-face {
   font-family: "QCF2354";
-  src: url("/fonts/mushaf-v2/QCF2354.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p354.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-354 {
@@ -4248,10 +4249,10 @@
 
 @font-face {
   font-family: "QCF2355";
-  src: url("/fonts/mushaf-v2/QCF2355.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p355.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-355 {
@@ -4260,10 +4261,10 @@
 
 @font-face {
   font-family: "QCF2356";
-  src: url("/fonts/mushaf-v2/QCF2356.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p356.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-356 {
@@ -4272,10 +4273,10 @@
 
 @font-face {
   font-family: "QCF2357";
-  src: url("/fonts/mushaf-v2/QCF2357.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p357.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-357 {
@@ -4284,10 +4285,10 @@
 
 @font-face {
   font-family: "QCF2358";
-  src: url("/fonts/mushaf-v2/QCF2358.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p358.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-358 {
@@ -4296,10 +4297,10 @@
 
 @font-face {
   font-family: "QCF2359";
-  src: url("/fonts/mushaf-v2/QCF2359.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p359.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-359 {
@@ -4308,10 +4309,10 @@
 
 @font-face {
   font-family: "QCF2360";
-  src: url("/fonts/mushaf-v2/QCF2360.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p360.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-360 {
@@ -4320,10 +4321,10 @@
 
 @font-face {
   font-family: "QCF2361";
-  src: url("/fonts/mushaf-v2/QCF2361.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p361.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-361 {
@@ -4332,10 +4333,10 @@
 
 @font-face {
   font-family: "QCF2362";
-  src: url("/fonts/mushaf-v2/QCF2362.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p362.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-362 {
@@ -4344,10 +4345,10 @@
 
 @font-face {
   font-family: "QCF2363";
-  src: url("/fonts/mushaf-v2/QCF2363.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p363.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-363 {
@@ -4356,10 +4357,10 @@
 
 @font-face {
   font-family: "QCF2364";
-  src: url("/fonts/mushaf-v2/QCF2364.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p364.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-364 {
@@ -4368,10 +4369,10 @@
 
 @font-face {
   font-family: "QCF2365";
-  src: url("/fonts/mushaf-v2/QCF2365.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p365.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-365 {
@@ -4380,10 +4381,10 @@
 
 @font-face {
   font-family: "QCF2366";
-  src: url("/fonts/mushaf-v2/QCF2366.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p366.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-366 {
@@ -4392,10 +4393,10 @@
 
 @font-face {
   font-family: "QCF2367";
-  src: url("/fonts/mushaf-v2/QCF2367.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p367.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-367 {
@@ -4404,10 +4405,10 @@
 
 @font-face {
   font-family: "QCF2368";
-  src: url("/fonts/mushaf-v2/QCF2368.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p368.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-368 {
@@ -4416,10 +4417,10 @@
 
 @font-face {
   font-family: "QCF2369";
-  src: url("/fonts/mushaf-v2/QCF2369.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p369.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-369 {
@@ -4428,10 +4429,10 @@
 
 @font-face {
   font-family: "QCF2370";
-  src: url("/fonts/mushaf-v2/QCF2370.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p370.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-370 {
@@ -4440,10 +4441,10 @@
 
 @font-face {
   font-family: "QCF2371";
-  src: url("/fonts/mushaf-v2/QCF2371.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p371.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-371 {
@@ -4452,10 +4453,10 @@
 
 @font-face {
   font-family: "QCF2372";
-  src: url("/fonts/mushaf-v2/QCF2372.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p372.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-372 {
@@ -4464,10 +4465,10 @@
 
 @font-face {
   font-family: "QCF2373";
-  src: url("/fonts/mushaf-v2/QCF2373.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p373.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-373 {
@@ -4476,10 +4477,10 @@
 
 @font-face {
   font-family: "QCF2374";
-  src: url("/fonts/mushaf-v2/QCF2374.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p374.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-374 {
@@ -4488,10 +4489,10 @@
 
 @font-face {
   font-family: "QCF2375";
-  src: url("/fonts/mushaf-v2/QCF2375.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p375.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-375 {
@@ -4500,10 +4501,10 @@
 
 @font-face {
   font-family: "QCF2376";
-  src: url("/fonts/mushaf-v2/QCF2376.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p376.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-376 {
@@ -4512,10 +4513,10 @@
 
 @font-face {
   font-family: "QCF2377";
-  src: url("/fonts/mushaf-v2/QCF2377.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p377.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-377 {
@@ -4524,10 +4525,10 @@
 
 @font-face {
   font-family: "QCF2378";
-  src: url("/fonts/mushaf-v2/QCF2378.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p378.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-378 {
@@ -4536,10 +4537,10 @@
 
 @font-face {
   font-family: "QCF2379";
-  src: url("/fonts/mushaf-v2/QCF2379.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p379.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-379 {
@@ -4548,10 +4549,10 @@
 
 @font-face {
   font-family: "QCF2380";
-  src: url("/fonts/mushaf-v2/QCF2380.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p380.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-380 {
@@ -4560,10 +4561,10 @@
 
 @font-face {
   font-family: "QCF2381";
-  src: url("/fonts/mushaf-v2/QCF2381.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p381.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-381 {
@@ -4572,10 +4573,10 @@
 
 @font-face {
   font-family: "QCF2382";
-  src: url("/fonts/mushaf-v2/QCF2382.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p382.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-382 {
@@ -4584,10 +4585,10 @@
 
 @font-face {
   font-family: "QCF2383";
-  src: url("/fonts/mushaf-v2/QCF2383.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p383.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-383 {
@@ -4596,10 +4597,10 @@
 
 @font-face {
   font-family: "QCF2384";
-  src: url("/fonts/mushaf-v2/QCF2384.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p384.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-384 {
@@ -4608,10 +4609,10 @@
 
 @font-face {
   font-family: "QCF2385";
-  src: url("/fonts/mushaf-v2/QCF2385.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p385.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-385 {
@@ -4620,10 +4621,10 @@
 
 @font-face {
   font-family: "QCF2386";
-  src: url("/fonts/mushaf-v2/QCF2386.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p386.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-386 {
@@ -4632,10 +4633,10 @@
 
 @font-face {
   font-family: "QCF2387";
-  src: url("/fonts/mushaf-v2/QCF2387.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p387.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-387 {
@@ -4644,10 +4645,10 @@
 
 @font-face {
   font-family: "QCF2388";
-  src: url("/fonts/mushaf-v2/QCF2388.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p388.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-388 {
@@ -4656,10 +4657,10 @@
 
 @font-face {
   font-family: "QCF2389";
-  src: url("/fonts/mushaf-v2/QCF2389.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p389.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-389 {
@@ -4668,10 +4669,10 @@
 
 @font-face {
   font-family: "QCF2390";
-  src: url("/fonts/mushaf-v2/QCF2390.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p390.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-390 {
@@ -4680,10 +4681,10 @@
 
 @font-face {
   font-family: "QCF2391";
-  src: url("/fonts/mushaf-v2/QCF2391.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p391.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-391 {
@@ -4692,10 +4693,10 @@
 
 @font-face {
   font-family: "QCF2392";
-  src: url("/fonts/mushaf-v2/QCF2392.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p392.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-392 {
@@ -4704,10 +4705,10 @@
 
 @font-face {
   font-family: "QCF2393";
-  src: url("/fonts/mushaf-v2/QCF2393.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p393.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-393 {
@@ -4716,10 +4717,10 @@
 
 @font-face {
   font-family: "QCF2394";
-  src: url("/fonts/mushaf-v2/QCF2394.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p394.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-394 {
@@ -4728,10 +4729,10 @@
 
 @font-face {
   font-family: "QCF2395";
-  src: url("/fonts/mushaf-v2/QCF2395.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p395.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-395 {
@@ -4740,10 +4741,10 @@
 
 @font-face {
   font-family: "QCF2396";
-  src: url("/fonts/mushaf-v2/QCF2396.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p396.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-396 {
@@ -4752,10 +4753,10 @@
 
 @font-face {
   font-family: "QCF2397";
-  src: url("/fonts/mushaf-v2/QCF2397.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p397.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-397 {
@@ -4764,10 +4765,10 @@
 
 @font-face {
   font-family: "QCF2398";
-  src: url("/fonts/mushaf-v2/QCF2398.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p398.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-398 {
@@ -4776,10 +4777,10 @@
 
 @font-face {
   font-family: "QCF2399";
-  src: url("/fonts/mushaf-v2/QCF2399.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p399.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-399 {
@@ -4788,10 +4789,10 @@
 
 @font-face {
   font-family: "QCF2400";
-  src: url("/fonts/mushaf-v2/QCF2400.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p400.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-400 {
@@ -4800,10 +4801,10 @@
 
 @font-face {
   font-family: "QCF2401";
-  src: url("/fonts/mushaf-v2/QCF2401.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p401.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-401 {
@@ -4812,10 +4813,10 @@
 
 @font-face {
   font-family: "QCF2402";
-  src: url("/fonts/mushaf-v2/QCF2402.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p402.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-402 {
@@ -4824,10 +4825,10 @@
 
 @font-face {
   font-family: "QCF2403";
-  src: url("/fonts/mushaf-v2/QCF2403.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p403.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-403 {
@@ -4836,10 +4837,10 @@
 
 @font-face {
   font-family: "QCF2404";
-  src: url("/fonts/mushaf-v2/QCF2404.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p404.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-404 {
@@ -4848,10 +4849,10 @@
 
 @font-face {
   font-family: "QCF2405";
-  src: url("/fonts/mushaf-v2/QCF2405.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p405.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-405 {
@@ -4860,10 +4861,10 @@
 
 @font-face {
   font-family: "QCF2406";
-  src: url("/fonts/mushaf-v2/QCF2406.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p406.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-406 {
@@ -4872,10 +4873,10 @@
 
 @font-face {
   font-family: "QCF2407";
-  src: url("/fonts/mushaf-v2/QCF2407.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p407.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-407 {
@@ -4884,10 +4885,10 @@
 
 @font-face {
   font-family: "QCF2408";
-  src: url("/fonts/mushaf-v2/QCF2408.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p408.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-408 {
@@ -4896,10 +4897,10 @@
 
 @font-face {
   font-family: "QCF2409";
-  src: url("/fonts/mushaf-v2/QCF2409.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p409.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-409 {
@@ -4908,10 +4909,10 @@
 
 @font-face {
   font-family: "QCF2410";
-  src: url("/fonts/mushaf-v2/QCF2410.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p410.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-410 {
@@ -4920,10 +4921,10 @@
 
 @font-face {
   font-family: "QCF2411";
-  src: url("/fonts/mushaf-v2/QCF2411.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p411.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-411 {
@@ -4932,10 +4933,10 @@
 
 @font-face {
   font-family: "QCF2412";
-  src: url("/fonts/mushaf-v2/QCF2412.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p412.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-412 {
@@ -4944,10 +4945,10 @@
 
 @font-face {
   font-family: "QCF2413";
-  src: url("/fonts/mushaf-v2/QCF2413.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p413.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-413 {
@@ -4956,10 +4957,10 @@
 
 @font-face {
   font-family: "QCF2414";
-  src: url("/fonts/mushaf-v2/QCF2414.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p414.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-414 {
@@ -4968,10 +4969,10 @@
 
 @font-face {
   font-family: "QCF2415";
-  src: url("/fonts/mushaf-v2/QCF2415.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p415.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-415 {
@@ -4980,10 +4981,10 @@
 
 @font-face {
   font-family: "QCF2416";
-  src: url("/fonts/mushaf-v2/QCF2416.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p416.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-416 {
@@ -4992,10 +4993,10 @@
 
 @font-face {
   font-family: "QCF2417";
-  src: url("/fonts/mushaf-v2/QCF2417.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p417.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-417 {
@@ -5004,10 +5005,10 @@
 
 @font-face {
   font-family: "QCF2418";
-  src: url("/fonts/mushaf-v2/QCF2418.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p418.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-418 {
@@ -5016,10 +5017,10 @@
 
 @font-face {
   font-family: "QCF2419";
-  src: url("/fonts/mushaf-v2/QCF2419.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p419.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-419 {
@@ -5028,10 +5029,10 @@
 
 @font-face {
   font-family: "QCF2420";
-  src: url("/fonts/mushaf-v2/QCF2420.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p420.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-420 {
@@ -5040,10 +5041,10 @@
 
 @font-face {
   font-family: "QCF2421";
-  src: url("/fonts/mushaf-v2/QCF2421.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p421.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-421 {
@@ -5052,10 +5053,10 @@
 
 @font-face {
   font-family: "QCF2422";
-  src: url("/fonts/mushaf-v2/QCF2422.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p422.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-422 {
@@ -5064,10 +5065,10 @@
 
 @font-face {
   font-family: "QCF2423";
-  src: url("/fonts/mushaf-v2/QCF2423.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p423.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-423 {
@@ -5076,10 +5077,10 @@
 
 @font-face {
   font-family: "QCF2424";
-  src: url("/fonts/mushaf-v2/QCF2424.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p424.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-424 {
@@ -5088,10 +5089,10 @@
 
 @font-face {
   font-family: "QCF2425";
-  src: url("/fonts/mushaf-v2/QCF2425.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p425.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-425 {
@@ -5100,10 +5101,10 @@
 
 @font-face {
   font-family: "QCF2426";
-  src: url("/fonts/mushaf-v2/QCF2426.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p426.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-426 {
@@ -5112,10 +5113,10 @@
 
 @font-face {
   font-family: "QCF2427";
-  src: url("/fonts/mushaf-v2/QCF2427.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p427.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-427 {
@@ -5124,10 +5125,10 @@
 
 @font-face {
   font-family: "QCF2428";
-  src: url("/fonts/mushaf-v2/QCF2428.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p428.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-428 {
@@ -5136,10 +5137,10 @@
 
 @font-face {
   font-family: "QCF2429";
-  src: url("/fonts/mushaf-v2/QCF2429.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p429.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-429 {
@@ -5148,10 +5149,10 @@
 
 @font-face {
   font-family: "QCF2430";
-  src: url("/fonts/mushaf-v2/QCF2430.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p430.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-430 {
@@ -5160,10 +5161,10 @@
 
 @font-face {
   font-family: "QCF2431";
-  src: url("/fonts/mushaf-v2/QCF2431.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p431.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-431 {
@@ -5172,10 +5173,10 @@
 
 @font-face {
   font-family: "QCF2432";
-  src: url("/fonts/mushaf-v2/QCF2432.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p432.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-432 {
@@ -5184,10 +5185,10 @@
 
 @font-face {
   font-family: "QCF2433";
-  src: url("/fonts/mushaf-v2/QCF2433.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p433.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-433 {
@@ -5196,10 +5197,10 @@
 
 @font-face {
   font-family: "QCF2434";
-  src: url("/fonts/mushaf-v2/QCF2434.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p434.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-434 {
@@ -5208,10 +5209,10 @@
 
 @font-face {
   font-family: "QCF2435";
-  src: url("/fonts/mushaf-v2/QCF2435.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p435.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-435 {
@@ -5220,10 +5221,10 @@
 
 @font-face {
   font-family: "QCF2436";
-  src: url("/fonts/mushaf-v2/QCF2436.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p436.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-436 {
@@ -5232,10 +5233,10 @@
 
 @font-face {
   font-family: "QCF2437";
-  src: url("/fonts/mushaf-v2/QCF2437.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p437.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-437 {
@@ -5244,10 +5245,10 @@
 
 @font-face {
   font-family: "QCF2438";
-  src: url("/fonts/mushaf-v2/QCF2438.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p438.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-438 {
@@ -5256,10 +5257,10 @@
 
 @font-face {
   font-family: "QCF2439";
-  src: url("/fonts/mushaf-v2/QCF2439.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p439.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-439 {
@@ -5268,10 +5269,10 @@
 
 @font-face {
   font-family: "QCF2440";
-  src: url("/fonts/mushaf-v2/QCF2440.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p440.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-440 {
@@ -5280,10 +5281,10 @@
 
 @font-face {
   font-family: "QCF2441";
-  src: url("/fonts/mushaf-v2/QCF2441.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p441.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-441 {
@@ -5292,10 +5293,10 @@
 
 @font-face {
   font-family: "QCF2442";
-  src: url("/fonts/mushaf-v2/QCF2442.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p442.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-442 {
@@ -5304,10 +5305,10 @@
 
 @font-face {
   font-family: "QCF2443";
-  src: url("/fonts/mushaf-v2/QCF2443.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p443.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-443 {
@@ -5316,10 +5317,10 @@
 
 @font-face {
   font-family: "QCF2444";
-  src: url("/fonts/mushaf-v2/QCF2444.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p444.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-444 {
@@ -5328,10 +5329,10 @@
 
 @font-face {
   font-family: "QCF2445";
-  src: url("/fonts/mushaf-v2/QCF2445.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p445.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-445 {
@@ -5340,10 +5341,10 @@
 
 @font-face {
   font-family: "QCF2446";
-  src: url("/fonts/mushaf-v2/QCF2446.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p446.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-446 {
@@ -5352,10 +5353,10 @@
 
 @font-face {
   font-family: "QCF2447";
-  src: url("/fonts/mushaf-v2/QCF2447.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p447.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-447 {
@@ -5364,10 +5365,10 @@
 
 @font-face {
   font-family: "QCF2448";
-  src: url("/fonts/mushaf-v2/QCF2448.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p448.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-448 {
@@ -5376,10 +5377,10 @@
 
 @font-face {
   font-family: "QCF2449";
-  src: url("/fonts/mushaf-v2/QCF2449.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p449.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-449 {
@@ -5388,10 +5389,10 @@
 
 @font-face {
   font-family: "QCF2450";
-  src: url("/fonts/mushaf-v2/QCF2450.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p450.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-450 {
@@ -5400,10 +5401,10 @@
 
 @font-face {
   font-family: "QCF2451";
-  src: url("/fonts/mushaf-v2/QCF2451.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p451.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-451 {
@@ -5412,10 +5413,10 @@
 
 @font-face {
   font-family: "QCF2452";
-  src: url("/fonts/mushaf-v2/QCF2452.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p452.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-452 {
@@ -5424,10 +5425,10 @@
 
 @font-face {
   font-family: "QCF2453";
-  src: url("/fonts/mushaf-v2/QCF2453.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p453.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-453 {
@@ -5436,10 +5437,10 @@
 
 @font-face {
   font-family: "QCF2454";
-  src: url("/fonts/mushaf-v2/QCF2454.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p454.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-454 {
@@ -5448,10 +5449,10 @@
 
 @font-face {
   font-family: "QCF2455";
-  src: url("/fonts/mushaf-v2/QCF2455.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p455.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-455 {
@@ -5460,10 +5461,10 @@
 
 @font-face {
   font-family: "QCF2456";
-  src: url("/fonts/mushaf-v2/QCF2456.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p456.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-456 {
@@ -5472,10 +5473,10 @@
 
 @font-face {
   font-family: "QCF2457";
-  src: url("/fonts/mushaf-v2/QCF2457.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p457.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-457 {
@@ -5484,10 +5485,10 @@
 
 @font-face {
   font-family: "QCF2458";
-  src: url("/fonts/mushaf-v2/QCF2458.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p458.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-458 {
@@ -5496,10 +5497,10 @@
 
 @font-face {
   font-family: "QCF2459";
-  src: url("/fonts/mushaf-v2/QCF2459.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p459.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-459 {
@@ -5508,10 +5509,10 @@
 
 @font-face {
   font-family: "QCF2460";
-  src: url("/fonts/mushaf-v2/QCF2460.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p460.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-460 {
@@ -5520,10 +5521,10 @@
 
 @font-face {
   font-family: "QCF2461";
-  src: url("/fonts/mushaf-v2/QCF2461.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p461.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-461 {
@@ -5532,10 +5533,10 @@
 
 @font-face {
   font-family: "QCF2462";
-  src: url("/fonts/mushaf-v2/QCF2462.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p462.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-462 {
@@ -5544,10 +5545,10 @@
 
 @font-face {
   font-family: "QCF2463";
-  src: url("/fonts/mushaf-v2/QCF2463.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p463.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-463 {
@@ -5556,10 +5557,10 @@
 
 @font-face {
   font-family: "QCF2464";
-  src: url("/fonts/mushaf-v2/QCF2464.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p464.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-464 {
@@ -5568,10 +5569,10 @@
 
 @font-face {
   font-family: "QCF2465";
-  src: url("/fonts/mushaf-v2/QCF2465.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p465.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-465 {
@@ -5580,10 +5581,10 @@
 
 @font-face {
   font-family: "QCF2466";
-  src: url("/fonts/mushaf-v2/QCF2466.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p466.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-466 {
@@ -5592,10 +5593,10 @@
 
 @font-face {
   font-family: "QCF2467";
-  src: url("/fonts/mushaf-v2/QCF2467.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p467.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-467 {
@@ -5604,10 +5605,10 @@
 
 @font-face {
   font-family: "QCF2468";
-  src: url("/fonts/mushaf-v2/QCF2468.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p468.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-468 {
@@ -5616,10 +5617,10 @@
 
 @font-face {
   font-family: "QCF2469";
-  src: url("/fonts/mushaf-v2/QCF2469.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p469.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-469 {
@@ -5628,10 +5629,10 @@
 
 @font-face {
   font-family: "QCF2470";
-  src: url("/fonts/mushaf-v2/QCF2470.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p470.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-470 {
@@ -5640,10 +5641,10 @@
 
 @font-face {
   font-family: "QCF2471";
-  src: url("/fonts/mushaf-v2/QCF2471.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p471.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-471 {
@@ -5652,10 +5653,10 @@
 
 @font-face {
   font-family: "QCF2472";
-  src: url("/fonts/mushaf-v2/QCF2472.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p472.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-472 {
@@ -5664,10 +5665,10 @@
 
 @font-face {
   font-family: "QCF2473";
-  src: url("/fonts/mushaf-v2/QCF2473.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p473.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-473 {
@@ -5676,10 +5677,10 @@
 
 @font-face {
   font-family: "QCF2474";
-  src: url("/fonts/mushaf-v2/QCF2474.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p474.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-474 {
@@ -5688,10 +5689,10 @@
 
 @font-face {
   font-family: "QCF2475";
-  src: url("/fonts/mushaf-v2/QCF2475.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p475.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-475 {
@@ -5700,10 +5701,10 @@
 
 @font-face {
   font-family: "QCF2476";
-  src: url("/fonts/mushaf-v2/QCF2476.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p476.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-476 {
@@ -5712,10 +5713,10 @@
 
 @font-face {
   font-family: "QCF2477";
-  src: url("/fonts/mushaf-v2/QCF2477.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p477.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-477 {
@@ -5724,10 +5725,10 @@
 
 @font-face {
   font-family: "QCF2478";
-  src: url("/fonts/mushaf-v2/QCF2478.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p478.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-478 {
@@ -5736,10 +5737,10 @@
 
 @font-face {
   font-family: "QCF2479";
-  src: url("/fonts/mushaf-v2/QCF2479.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p479.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-479 {
@@ -5748,10 +5749,10 @@
 
 @font-face {
   font-family: "QCF2480";
-  src: url("/fonts/mushaf-v2/QCF2480.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p480.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-480 {
@@ -5760,10 +5761,10 @@
 
 @font-face {
   font-family: "QCF2481";
-  src: url("/fonts/mushaf-v2/QCF2481.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p481.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-481 {
@@ -5772,10 +5773,10 @@
 
 @font-face {
   font-family: "QCF2482";
-  src: url("/fonts/mushaf-v2/QCF2482.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p482.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-482 {
@@ -5784,10 +5785,10 @@
 
 @font-face {
   font-family: "QCF2483";
-  src: url("/fonts/mushaf-v2/QCF2483.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p483.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-483 {
@@ -5796,10 +5797,10 @@
 
 @font-face {
   font-family: "QCF2484";
-  src: url("/fonts/mushaf-v2/QCF2484.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p484.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-484 {
@@ -5808,10 +5809,10 @@
 
 @font-face {
   font-family: "QCF2485";
-  src: url("/fonts/mushaf-v2/QCF2485.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p485.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-485 {
@@ -5820,10 +5821,10 @@
 
 @font-face {
   font-family: "QCF2486";
-  src: url("/fonts/mushaf-v2/QCF2486.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p486.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-486 {
@@ -5832,10 +5833,10 @@
 
 @font-face {
   font-family: "QCF2487";
-  src: url("/fonts/mushaf-v2/QCF2487.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p487.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-487 {
@@ -5844,10 +5845,10 @@
 
 @font-face {
   font-family: "QCF2488";
-  src: url("/fonts/mushaf-v2/QCF2488.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p488.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-488 {
@@ -5856,10 +5857,10 @@
 
 @font-face {
   font-family: "QCF2489";
-  src: url("/fonts/mushaf-v2/QCF2489.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p489.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-489 {
@@ -5868,10 +5869,10 @@
 
 @font-face {
   font-family: "QCF2490";
-  src: url("/fonts/mushaf-v2/QCF2490.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p490.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-490 {
@@ -5880,10 +5881,10 @@
 
 @font-face {
   font-family: "QCF2491";
-  src: url("/fonts/mushaf-v2/QCF2491.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p491.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-491 {
@@ -5892,10 +5893,10 @@
 
 @font-face {
   font-family: "QCF2492";
-  src: url("/fonts/mushaf-v2/QCF2492.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p492.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-492 {
@@ -5904,10 +5905,10 @@
 
 @font-face {
   font-family: "QCF2493";
-  src: url("/fonts/mushaf-v2/QCF2493.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p493.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-493 {
@@ -5916,10 +5917,10 @@
 
 @font-face {
   font-family: "QCF2494";
-  src: url("/fonts/mushaf-v2/QCF2494.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p494.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-494 {
@@ -5928,10 +5929,10 @@
 
 @font-face {
   font-family: "QCF2495";
-  src: url("/fonts/mushaf-v2/QCF2495.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p495.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-495 {
@@ -5940,10 +5941,10 @@
 
 @font-face {
   font-family: "QCF2496";
-  src: url("/fonts/mushaf-v2/QCF2496.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p496.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-496 {
@@ -5952,10 +5953,10 @@
 
 @font-face {
   font-family: "QCF2497";
-  src: url("/fonts/mushaf-v2/QCF2497.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p497.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-497 {
@@ -5964,10 +5965,10 @@
 
 @font-face {
   font-family: "QCF2498";
-  src: url("/fonts/mushaf-v2/QCF2498.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p498.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-498 {
@@ -5976,10 +5977,10 @@
 
 @font-face {
   font-family: "QCF2499";
-  src: url("/fonts/mushaf-v2/QCF2499.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p499.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-499 {
@@ -5988,10 +5989,10 @@
 
 @font-face {
   font-family: "QCF2500";
-  src: url("/fonts/mushaf-v2/QCF2500.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p500.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-500 {
@@ -6000,10 +6001,10 @@
 
 @font-face {
   font-family: "QCF2501";
-  src: url("/fonts/mushaf-v2/QCF2501.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p501.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-501 {
@@ -6012,10 +6013,10 @@
 
 @font-face {
   font-family: "QCF2502";
-  src: url("/fonts/mushaf-v2/QCF2502.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p502.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-502 {
@@ -6024,10 +6025,10 @@
 
 @font-face {
   font-family: "QCF2503";
-  src: url("/fonts/mushaf-v2/QCF2503.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p503.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-503 {
@@ -6036,10 +6037,10 @@
 
 @font-face {
   font-family: "QCF2504";
-  src: url("/fonts/mushaf-v2/QCF2504.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p504.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-504 {
@@ -6048,10 +6049,10 @@
 
 @font-face {
   font-family: "QCF2505";
-  src: url("/fonts/mushaf-v2/QCF2505.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p505.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-505 {
@@ -6060,10 +6061,10 @@
 
 @font-face {
   font-family: "QCF2506";
-  src: url("/fonts/mushaf-v2/QCF2506.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p506.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-506 {
@@ -6072,10 +6073,10 @@
 
 @font-face {
   font-family: "QCF2507";
-  src: url("/fonts/mushaf-v2/QCF2507.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p507.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-507 {
@@ -6084,10 +6085,10 @@
 
 @font-face {
   font-family: "QCF2508";
-  src: url("/fonts/mushaf-v2/QCF2508.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p508.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-508 {
@@ -6096,10 +6097,10 @@
 
 @font-face {
   font-family: "QCF2509";
-  src: url("/fonts/mushaf-v2/QCF2509.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p509.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-509 {
@@ -6108,10 +6109,10 @@
 
 @font-face {
   font-family: "QCF2510";
-  src: url("/fonts/mushaf-v2/QCF2510.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p510.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-510 {
@@ -6120,10 +6121,10 @@
 
 @font-face {
   font-family: "QCF2511";
-  src: url("/fonts/mushaf-v2/QCF2511.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p511.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-511 {
@@ -6132,10 +6133,10 @@
 
 @font-face {
   font-family: "QCF2512";
-  src: url("/fonts/mushaf-v2/QCF2512.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p512.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-512 {
@@ -6144,10 +6145,10 @@
 
 @font-face {
   font-family: "QCF2513";
-  src: url("/fonts/mushaf-v2/QCF2513.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p513.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-513 {
@@ -6156,10 +6157,10 @@
 
 @font-face {
   font-family: "QCF2514";
-  src: url("/fonts/mushaf-v2/QCF2514.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p514.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-514 {
@@ -6168,10 +6169,10 @@
 
 @font-face {
   font-family: "QCF2515";
-  src: url("/fonts/mushaf-v2/QCF2515.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p515.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-515 {
@@ -6180,10 +6181,10 @@
 
 @font-face {
   font-family: "QCF2516";
-  src: url("/fonts/mushaf-v2/QCF2516.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p516.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-516 {
@@ -6192,10 +6193,10 @@
 
 @font-face {
   font-family: "QCF2517";
-  src: url("/fonts/mushaf-v2/QCF2517.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p517.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-517 {
@@ -6204,10 +6205,10 @@
 
 @font-face {
   font-family: "QCF2518";
-  src: url("/fonts/mushaf-v2/QCF2518.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p518.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-518 {
@@ -6216,10 +6217,10 @@
 
 @font-face {
   font-family: "QCF2519";
-  src: url("/fonts/mushaf-v2/QCF2519.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p519.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-519 {
@@ -6228,10 +6229,10 @@
 
 @font-face {
   font-family: "QCF2520";
-  src: url("/fonts/mushaf-v2/QCF2520.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p520.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-520 {
@@ -6240,10 +6241,10 @@
 
 @font-face {
   font-family: "QCF2521";
-  src: url("/fonts/mushaf-v2/QCF2521.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p521.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-521 {
@@ -6252,10 +6253,10 @@
 
 @font-face {
   font-family: "QCF2522";
-  src: url("/fonts/mushaf-v2/QCF2522.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p522.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-522 {
@@ -6264,10 +6265,10 @@
 
 @font-face {
   font-family: "QCF2523";
-  src: url("/fonts/mushaf-v2/QCF2523.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p523.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-523 {
@@ -6276,10 +6277,10 @@
 
 @font-face {
   font-family: "QCF2524";
-  src: url("/fonts/mushaf-v2/QCF2524.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p524.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-524 {
@@ -6288,10 +6289,10 @@
 
 @font-face {
   font-family: "QCF2525";
-  src: url("/fonts/mushaf-v2/QCF2525.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p525.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-525 {
@@ -6300,10 +6301,10 @@
 
 @font-face {
   font-family: "QCF2526";
-  src: url("/fonts/mushaf-v2/QCF2526.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p526.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-526 {
@@ -6312,10 +6313,10 @@
 
 @font-face {
   font-family: "QCF2527";
-  src: url("/fonts/mushaf-v2/QCF2527.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p527.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-527 {
@@ -6324,10 +6325,10 @@
 
 @font-face {
   font-family: "QCF2528";
-  src: url("/fonts/mushaf-v2/QCF2528.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p528.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-528 {
@@ -6336,10 +6337,10 @@
 
 @font-face {
   font-family: "QCF2529";
-  src: url("/fonts/mushaf-v2/QCF2529.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p529.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-529 {
@@ -6348,10 +6349,10 @@
 
 @font-face {
   font-family: "QCF2530";
-  src: url("/fonts/mushaf-v2/QCF2530.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p530.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-530 {
@@ -6360,10 +6361,10 @@
 
 @font-face {
   font-family: "QCF2531";
-  src: url("/fonts/mushaf-v2/QCF2531.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p531.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-531 {
@@ -6372,10 +6373,10 @@
 
 @font-face {
   font-family: "QCF2532";
-  src: url("/fonts/mushaf-v2/QCF2532.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p532.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-532 {
@@ -6384,10 +6385,10 @@
 
 @font-face {
   font-family: "QCF2533";
-  src: url("/fonts/mushaf-v2/QCF2533.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p533.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-533 {
@@ -6396,10 +6397,10 @@
 
 @font-face {
   font-family: "QCF2534";
-  src: url("/fonts/mushaf-v2/QCF2534.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p534.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-534 {
@@ -6408,10 +6409,10 @@
 
 @font-face {
   font-family: "QCF2535";
-  src: url("/fonts/mushaf-v2/QCF2535.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p535.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-535 {
@@ -6420,10 +6421,10 @@
 
 @font-face {
   font-family: "QCF2536";
-  src: url("/fonts/mushaf-v2/QCF2536.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p536.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-536 {
@@ -6432,10 +6433,10 @@
 
 @font-face {
   font-family: "QCF2537";
-  src: url("/fonts/mushaf-v2/QCF2537.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p537.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-537 {
@@ -6444,10 +6445,10 @@
 
 @font-face {
   font-family: "QCF2538";
-  src: url("/fonts/mushaf-v2/QCF2538.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p538.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-538 {
@@ -6456,10 +6457,10 @@
 
 @font-face {
   font-family: "QCF2539";
-  src: url("/fonts/mushaf-v2/QCF2539.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p539.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-539 {
@@ -6468,10 +6469,10 @@
 
 @font-face {
   font-family: "QCF2540";
-  src: url("/fonts/mushaf-v2/QCF2540.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p540.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-540 {
@@ -6480,10 +6481,10 @@
 
 @font-face {
   font-family: "QCF2541";
-  src: url("/fonts/mushaf-v2/QCF2541.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p541.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-541 {
@@ -6492,10 +6493,10 @@
 
 @font-face {
   font-family: "QCF2542";
-  src: url("/fonts/mushaf-v2/QCF2542.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p542.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-542 {
@@ -6504,10 +6505,10 @@
 
 @font-face {
   font-family: "QCF2543";
-  src: url("/fonts/mushaf-v2/QCF2543.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p543.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-543 {
@@ -6516,10 +6517,10 @@
 
 @font-face {
   font-family: "QCF2544";
-  src: url("/fonts/mushaf-v2/QCF2544.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p544.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-544 {
@@ -6528,10 +6529,10 @@
 
 @font-face {
   font-family: "QCF2545";
-  src: url("/fonts/mushaf-v2/QCF2545.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p545.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-545 {
@@ -6540,10 +6541,10 @@
 
 @font-face {
   font-family: "QCF2546";
-  src: url("/fonts/mushaf-v2/QCF2546.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p546.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-546 {
@@ -6552,10 +6553,10 @@
 
 @font-face {
   font-family: "QCF2547";
-  src: url("/fonts/mushaf-v2/QCF2547.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p547.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-547 {
@@ -6564,10 +6565,10 @@
 
 @font-face {
   font-family: "QCF2548";
-  src: url("/fonts/mushaf-v2/QCF2548.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p548.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-548 {
@@ -6576,10 +6577,10 @@
 
 @font-face {
   font-family: "QCF2549";
-  src: url("/fonts/mushaf-v2/QCF2549.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p549.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-549 {
@@ -6588,10 +6589,10 @@
 
 @font-face {
   font-family: "QCF2550";
-  src: url("/fonts/mushaf-v2/QCF2550.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p550.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-550 {
@@ -6600,10 +6601,10 @@
 
 @font-face {
   font-family: "QCF2551";
-  src: url("/fonts/mushaf-v2/QCF2551.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p551.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-551 {
@@ -6612,10 +6613,10 @@
 
 @font-face {
   font-family: "QCF2552";
-  src: url("/fonts/mushaf-v2/QCF2552.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p552.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-552 {
@@ -6624,10 +6625,10 @@
 
 @font-face {
   font-family: "QCF2553";
-  src: url("/fonts/mushaf-v2/QCF2553.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p553.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-553 {
@@ -6636,10 +6637,10 @@
 
 @font-face {
   font-family: "QCF2554";
-  src: url("/fonts/mushaf-v2/QCF2554.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p554.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-554 {
@@ -6648,10 +6649,10 @@
 
 @font-face {
   font-family: "QCF2555";
-  src: url("/fonts/mushaf-v2/QCF2555.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p555.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-555 {
@@ -6660,10 +6661,10 @@
 
 @font-face {
   font-family: "QCF2556";
-  src: url("/fonts/mushaf-v2/QCF2556.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p556.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-556 {
@@ -6672,10 +6673,10 @@
 
 @font-face {
   font-family: "QCF2557";
-  src: url("/fonts/mushaf-v2/QCF2557.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p557.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-557 {
@@ -6684,10 +6685,10 @@
 
 @font-face {
   font-family: "QCF2558";
-  src: url("/fonts/mushaf-v2/QCF2558.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p558.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-558 {
@@ -6696,10 +6697,10 @@
 
 @font-face {
   font-family: "QCF2559";
-  src: url("/fonts/mushaf-v2/QCF2559.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p559.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-559 {
@@ -6708,10 +6709,10 @@
 
 @font-face {
   font-family: "QCF2560";
-  src: url("/fonts/mushaf-v2/QCF2560.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p560.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-560 {
@@ -6720,10 +6721,10 @@
 
 @font-face {
   font-family: "QCF2561";
-  src: url("/fonts/mushaf-v2/QCF2561.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p561.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-561 {
@@ -6732,10 +6733,10 @@
 
 @font-face {
   font-family: "QCF2562";
-  src: url("/fonts/mushaf-v2/QCF2562.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p562.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-562 {
@@ -6744,10 +6745,10 @@
 
 @font-face {
   font-family: "QCF2563";
-  src: url("/fonts/mushaf-v2/QCF2563.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p563.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-563 {
@@ -6756,10 +6757,10 @@
 
 @font-face {
   font-family: "QCF2564";
-  src: url("/fonts/mushaf-v2/QCF2564.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p564.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-564 {
@@ -6768,10 +6769,10 @@
 
 @font-face {
   font-family: "QCF2565";
-  src: url("/fonts/mushaf-v2/QCF2565.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p565.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-565 {
@@ -6780,10 +6781,10 @@
 
 @font-face {
   font-family: "QCF2566";
-  src: url("/fonts/mushaf-v2/QCF2566.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p566.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-566 {
@@ -6792,10 +6793,10 @@
 
 @font-face {
   font-family: "QCF2567";
-  src: url("/fonts/mushaf-v2/QCF2567.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p567.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-567 {
@@ -6804,10 +6805,10 @@
 
 @font-face {
   font-family: "QCF2568";
-  src: url("/fonts/mushaf-v2/QCF2568.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p568.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-568 {
@@ -6816,10 +6817,10 @@
 
 @font-face {
   font-family: "QCF2569";
-  src: url("/fonts/mushaf-v2/QCF2569.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p569.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-569 {
@@ -6828,10 +6829,10 @@
 
 @font-face {
   font-family: "QCF2570";
-  src: url("/fonts/mushaf-v2/QCF2570.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p570.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-570 {
@@ -6840,10 +6841,10 @@
 
 @font-face {
   font-family: "QCF2571";
-  src: url("/fonts/mushaf-v2/QCF2571.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p571.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-571 {
@@ -6852,10 +6853,10 @@
 
 @font-face {
   font-family: "QCF2572";
-  src: url("/fonts/mushaf-v2/QCF2572.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p572.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-572 {
@@ -6864,10 +6865,10 @@
 
 @font-face {
   font-family: "QCF2573";
-  src: url("/fonts/mushaf-v2/QCF2573.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p573.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-573 {
@@ -6876,10 +6877,10 @@
 
 @font-face {
   font-family: "QCF2574";
-  src: url("/fonts/mushaf-v2/QCF2574.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p574.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-574 {
@@ -6888,10 +6889,10 @@
 
 @font-face {
   font-family: "QCF2575";
-  src: url("/fonts/mushaf-v2/QCF2575.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p575.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-575 {
@@ -6900,10 +6901,10 @@
 
 @font-face {
   font-family: "QCF2576";
-  src: url("/fonts/mushaf-v2/QCF2576.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p576.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-576 {
@@ -6912,10 +6913,10 @@
 
 @font-face {
   font-family: "QCF2577";
-  src: url("/fonts/mushaf-v2/QCF2577.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p577.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-577 {
@@ -6924,10 +6925,10 @@
 
 @font-face {
   font-family: "QCF2578";
-  src: url("/fonts/mushaf-v2/QCF2578.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p578.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-578 {
@@ -6936,10 +6937,10 @@
 
 @font-face {
   font-family: "QCF2579";
-  src: url("/fonts/mushaf-v2/QCF2579.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p579.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-579 {
@@ -6948,10 +6949,10 @@
 
 @font-face {
   font-family: "QCF2580";
-  src: url("/fonts/mushaf-v2/QCF2580.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p580.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-580 {
@@ -6960,10 +6961,10 @@
 
 @font-face {
   font-family: "QCF2581";
-  src: url("/fonts/mushaf-v2/QCF2581.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p581.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-581 {
@@ -6972,10 +6973,10 @@
 
 @font-face {
   font-family: "QCF2582";
-  src: url("/fonts/mushaf-v2/QCF2582.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p582.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-582 {
@@ -6984,10 +6985,10 @@
 
 @font-face {
   font-family: "QCF2583";
-  src: url("/fonts/mushaf-v2/QCF2583.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p583.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-583 {
@@ -6996,10 +6997,10 @@
 
 @font-face {
   font-family: "QCF2584";
-  src: url("/fonts/mushaf-v2/QCF2584.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p584.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-584 {
@@ -7008,10 +7009,10 @@
 
 @font-face {
   font-family: "QCF2585";
-  src: url("/fonts/mushaf-v2/QCF2585.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p585.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-585 {
@@ -7020,10 +7021,10 @@
 
 @font-face {
   font-family: "QCF2586";
-  src: url("/fonts/mushaf-v2/QCF2586.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p586.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-586 {
@@ -7032,10 +7033,10 @@
 
 @font-face {
   font-family: "QCF2587";
-  src: url("/fonts/mushaf-v2/QCF2587.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p587.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-587 {
@@ -7044,10 +7045,10 @@
 
 @font-face {
   font-family: "QCF2588";
-  src: url("/fonts/mushaf-v2/QCF2588.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p588.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-588 {
@@ -7056,10 +7057,10 @@
 
 @font-face {
   font-family: "QCF2589";
-  src: url("/fonts/mushaf-v2/QCF2589.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p589.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-589 {
@@ -7068,10 +7069,10 @@
 
 @font-face {
   font-family: "QCF2590";
-  src: url("/fonts/mushaf-v2/QCF2590.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p590.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-590 {
@@ -7080,10 +7081,10 @@
 
 @font-face {
   font-family: "QCF2591";
-  src: url("/fonts/mushaf-v2/QCF2591.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p591.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-591 {
@@ -7092,10 +7093,10 @@
 
 @font-face {
   font-family: "QCF2592";
-  src: url("/fonts/mushaf-v2/QCF2592.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p592.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-592 {
@@ -7104,10 +7105,10 @@
 
 @font-face {
   font-family: "QCF2593";
-  src: url("/fonts/mushaf-v2/QCF2593.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p593.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-593 {
@@ -7116,10 +7117,10 @@
 
 @font-face {
   font-family: "QCF2594";
-  src: url("/fonts/mushaf-v2/QCF2594.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p594.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-594 {
@@ -7128,10 +7129,10 @@
 
 @font-face {
   font-family: "QCF2595";
-  src: url("/fonts/mushaf-v2/QCF2595.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p595.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-595 {
@@ -7140,10 +7141,10 @@
 
 @font-face {
   font-family: "QCF2596";
-  src: url("/fonts/mushaf-v2/QCF2596.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p596.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-596 {
@@ -7152,10 +7153,10 @@
 
 @font-face {
   font-family: "QCF2597";
-  src: url("/fonts/mushaf-v2/QCF2597.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p597.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-597 {
@@ -7164,10 +7165,10 @@
 
 @font-face {
   font-family: "QCF2598";
-  src: url("/fonts/mushaf-v2/QCF2598.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p598.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-598 {
@@ -7176,10 +7177,10 @@
 
 @font-face {
   font-family: "QCF2599";
-  src: url("/fonts/mushaf-v2/QCF2599.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p599.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-599 {
@@ -7188,10 +7189,10 @@
 
 @font-face {
   font-family: "QCF2600";
-  src: url("/fonts/mushaf-v2/QCF2600.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p600.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-600 {
@@ -7200,10 +7201,10 @@
 
 @font-face {
   font-family: "QCF2601";
-  src: url("/fonts/mushaf-v2/QCF2601.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p601.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-601 {
@@ -7212,10 +7213,10 @@
 
 @font-face {
   font-family: "QCF2602";
-  src: url("/fonts/mushaf-v2/QCF2602.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p602.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-602 {
@@ -7224,10 +7225,10 @@
 
 @font-face {
   font-family: "QCF2603";
-  src: url("/fonts/mushaf-v2/QCF2603.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p603.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-603 {
@@ -7236,31 +7237,32 @@
 
 @font-face {
   font-family: "QCF2604";
-  src: url("/fonts/mushaf-v2/QCF2604.ttf") format("truetype");
+  src: url("/fonts/mushaf-v2-woff2/p604.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-604 {
   font-family: "QCF2604" !important;
 }
 
-
-/*
 .qcf-ayah {
   direction: rtl;
   text-align: right;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 2.5;
   unicode-bidi: isolate;
 }
 
-*/
-.qcf-ayah {
-  direction: rtl;
-  text-align: right;
-  font-size: clamp(1.3rem, 3.5vw, 2rem);
-  line-height: clamp(1, 2, 2.5);
-  unicode-bidi: isolate;
+/* До готовности нужной страницы виден читаемый Unicode, а не коды QCF. */
+.qcf-fallback {
+  font-family: "AmiriLocal", "Scheherazade New", "Amiri", serif;
+}
+
+.qcf-glyphs {
+  display: none;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
 }

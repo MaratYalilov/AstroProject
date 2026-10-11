@@ -57,6 +57,13 @@ function escapeHtml(str: string): string {
     .replace(/'/g, "&#39;");
 }
 
+// Unicode остаётся доступен без JavaScript и при ошибке загрузки шрифта.
+// QCF показывается только после загрузки шрифта конкретной страницы.
+function renderQcfText(page: number, codes: string, arabic: string): string {
+  if (!arabic) throw new Error(`Missing Unicode fallback for QCF page ${page}`);
+  return `<span class="qcf-text" data-qcf-page="${page}" lang="ar" dir="rtl"><span class="qcf-fallback" aria-hidden="true">${escapeHtml(arabic)}</span><span class="qcf-glyphs qcf-page-${page}" aria-hidden="true">${escapeHtml(codes)}</span><span class="sr-only">${escapeHtml(arabic)}</span></span>`;
+}
+
 // Инициализация карт
 (function buildMaps() {
   const uthmaniRoot: any =
@@ -155,8 +162,8 @@ export function renderAyahBlock(
     data-page="${page}"
   >
 
-  <p class="quran-ayah-block__arabic qcf-ayah qcf-page-${page}">
-    ${codeV2}
+  <p class="quran-ayah-block__arabic qcf-ayah" lang="ar" dir="rtl">
+    ${renderQcfText(page, codeV2, arabicMap[key])}
   </p>
 
   <div class="quran-ayah-block__translation">
@@ -256,6 +263,7 @@ export function renderAyahRangeBlock(
     ayah: number;
     page: number;
     codeV2: string;
+    arabic: string;
     translationHtml: string;
     audioSrc: string;
   }[] = [];
@@ -280,6 +288,7 @@ export function renderAyahRangeBlock(
       ayah,
       page,
       codeV2,
+      arabic: arabicMap[key],
       translationHtml: `
       <p class="quran-ayah-block__translation-line">
         <span class="quran-ayah-block__translation-ayah">${surah}:${ayah}</span>
@@ -291,19 +300,20 @@ export function renderAyahRangeBlock(
   }
 
   // Группируем подряд идущие аяты по одной странице
-  type Group = { page: number; ayahs: number[]; codes: string[] };
+  type Group = { page: number; ayahs: number[]; codes: string[]; arabic: string[] };
   const groups: Group[] = [];
   let currentGroup: Group | null = null;
 
   for (const item of perAyah) {
     if (currentGroup === null) {
-      currentGroup = { page: item.page, ayahs: [item.ayah], codes: [item.codeV2] };
+      currentGroup = { page: item.page, ayahs: [item.ayah], codes: [item.codeV2], arabic: [item.arabic] };
     } else if (item.page === currentGroup.page) {
       currentGroup.ayahs.push(item.ayah);
       currentGroup.codes.push(item.codeV2);
+      currentGroup.arabic.push(item.arabic);
     } else {
       groups.push(currentGroup);
-      currentGroup = { page: item.page, ayahs: [item.ayah], codes: [item.codeV2] };
+      currentGroup = { page: item.page, ayahs: [item.ayah], codes: [item.codeV2], arabic: [item.arabic] };
     }
   }
   if (currentGroup !== null) groups.push(currentGroup);
@@ -311,12 +321,10 @@ export function renderAyahRangeBlock(
   // Построим единый непрерывный арабский блок: внутри - span'ы по страницам
   // между группами ставим пробел, чтобы они шли подряд; можно заменить на '' если нужен без пробелов.
   const arabicInlineHtml = `
-    <p class="quran-ayah-block__arabic qcf-ayah" aria-label="Арабский текст">
+    <p class="quran-ayah-block__arabic qcf-ayah" lang="ar" dir="rtl">
       ${groups
         .map(
-          (g) => `<span class="qcf-page-${g.page}" data-page="${g.page}">${g.codes.join(
-            " ",
-          )}</span>`,
+          (g) => renderQcfText(g.page, g.codes.join(" "), g.arabic.join(" ")),
         )
         .join(" ")}
     </p>

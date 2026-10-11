@@ -1,6 +1,5 @@
 // src/components/blog.tsx
 import React from "react";
-import { motion } from "framer-motion";
 import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import { useGlossaryTermTarget } from './hooks/useGlossaryTermTarget';
 import TeacherCredit from './TeacherCredit';
@@ -555,17 +554,15 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
         {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8 mb-16">
           <TeacherCredit subject={subject} course={course} />
-          <motion.article
-            initial={{ opacity: 0, y: 8 }} 
-            animate={{ opacity: 1, y: 0 }} 
-            transition={{ duration: 0.2 }}
+          <article
               className="
                 lesson-reading lesson-text max-w-none
 
                 p-0 lg:p-6
                 lg:border lg:border-input lg:shadow-sm lg:rounded-lg
               "
-              dangerouslySetInnerHTML={{ __html: currentLesson.html }}
+              // HTML parsing normalizes CRLF; use the same text during hydration.
+              dangerouslySetInnerHTML={{ __html: currentLesson.html.replace(/\r\n?/g, "\n") }}
             />
 
           <div className="mt-4 grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">

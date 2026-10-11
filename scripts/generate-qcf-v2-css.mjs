@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 const OUTPUT = path.join(__dirname, "../src/styles/qcf-v2.css");
 
 // Путь к шрифтам относительно public/
-const FONT_BASE_URL = "/fonts/mushaf-v2"; // <-- у тебя так и есть: public/fonts/mushaf-v2/QCF2001.ttf
+const FONT_BASE_URL = "/fonts/mushaf-v2-woff2";
 
 let css = "";
 
@@ -21,10 +21,10 @@ for (let page = 1; page <= 604; page++) {
   css += `
 @font-face {
   font-family: "QCF${fontId}";
-  src: url("${FONT_BASE_URL}/QCF${fontId}.ttf") format("truetype");
+  src: url("${FONT_BASE_URL}/p${page}.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 .qcf-page-${page} {
@@ -41,6 +41,18 @@ css += `
   font-size: 1.5rem;
   line-height: 2.5;
   unicode-bidi: isolate;
+}
+
+/* До готовности нужной страницы виден читаемый Unicode, а не коды QCF. */
+.qcf-fallback {
+  font-family: "AmiriLocal", "Scheherazade New", "Amiri", serif;
+}
+
+.qcf-glyphs {
+  display: none;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
 }
 `;
 
