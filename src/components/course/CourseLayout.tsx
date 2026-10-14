@@ -13,6 +13,7 @@ import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
 import { buildInteractiveLessonMetadata } from "../../utils/pageMetadata";
 import { updatePageMetadata } from "../../utils/updatePageMetadata";
 import { getGlossaryTarget } from '../../utils/glossaryTarget';
+import { resolveCourseProgress } from '../../lib/interactive/lessonProgress';
 
 const STORAGE_KEY_PREFIX = "course_progress_";
 
@@ -20,24 +21,21 @@ function getStorageKey(subject: string, course: string) {
   return `${STORAGE_KEY_PREFIX}${subject}_${course}`;
 }
 
-function loadProgress(subject: string, course: string): number {
+function loadProgress(subject: string, course: string, lessons: InteractiveLesson[]): number {
   try {
     const key = getStorageKey(subject, course);
-    const saved = localStorage.getItem(key);
-    if (saved !== null) {
-      const index = parseInt(saved, 10);
-      return isNaN(index) ? 0 : index;
-    }
+    return resolveCourseProgress(lessons, localStorage.getItem(key), localStorage.getItem(`${key}_slug`), subject, course);
   } catch (e) {
     // localStorage недоступен
   }
   return 0;
 }
 
-function saveProgress(subject: string, course: string, index: number) {
+function saveProgress(subject: string, course: string, index: number, slug?: string) {
   try {
     const key = getStorageKey(subject, course);
     localStorage.setItem(key, String(index));
+    if (slug) localStorage.setItem(`${key}_slug`, slug);
   } catch (e) {
     // localStorage недоступен
   }
@@ -70,7 +68,7 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
         return;
       }
     }
-    const saved = loadProgress(subject, course);
+    const saved = loadProgress(subject, course, lessons);
     if (saved > 0 && saved < lessons.length) setCurrentIndex(saved);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [subject, course]);
@@ -80,6 +78,7 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
     () =>
       lessons.map((l) => ({
         id: l.id,
+        order: l.order,
         slug: l.slug,
         title: l.title,
         module: l.module,
@@ -100,7 +99,7 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
   // Сохраняем прогресс и отражаем текущий урок в URL (?lesson=<slug>) —
   // ссылку на конкретный урок можно копировать/отправлять (deep-link).
   useEffect(() => {
-    saveProgress(subject, course, currentIndex);
+    saveProgress(subject, course, currentIndex, lessons[currentIndex]?.slug);
     const slug = lessons[currentIndex]?.slug;
     if (slug) {
       window.history.replaceState(

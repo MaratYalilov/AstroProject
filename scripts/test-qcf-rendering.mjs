@@ -1,17 +1,124 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { fileURLToPath } from 'node:url';
-import { build } from 'vite';
+import { registerHooks } from 'node:module';
+import { extname } from 'node:path';
 
-const root = fileURLToPath(new URL('../', import.meta.url));
-async function bundle(file) {
-  const result = await build({ configFile: false, root, logLevel: 'error', build: { ssr: `${root}${file}`, write: false } });
-  const chunk = result.output.find((item) => item.type === 'chunk' && item.isEntry);
-  return import(`data:text/javascript;base64,${Buffer.from(chunk.code).toString('base64')}`);
+// Node loads TypeScript directly: no Vite/Astro build, files or server needed.
+registerHooks({
+  resolve(specifier, context, nextResolve) {
+    if (specifier.startsWith('.') && !extname(specifier)) specifier += '.ts';
+    return nextResolve(specifier, context);
+  },
+});
+async function loadSource(file) {
+  return import(new URL(`../${file}`, import.meta.url).href);
 }
-const renderer = await bundle('src/utils/quranRenderer.ts');
+const renderer = await loadSource('src/utils/quranRenderer.ts');
 const data = JSON.parse(await readFile(new URL('../src/data/quran-qcf-v2.json', import.meta.url), 'utf8'));
 const escape = (text) => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+
+const waslEntries = JSON.parse(await readFile(new URL('../src/data/quran-hamza-wasl-starts.json', import.meta.url), 'utf8'));
+const waslAll = JSON.parse(await readFile(new URL('../src/data/quran-hamza-wasl-all.json', import.meta.url), 'utf8'));
+const waslQcf = JSON.parse(await readFile(new URL('../src/data/quran-hamza-wasl-qcf.json', import.meta.url), 'utf8'));
+const uthmani = JSON.parse(await readFile(new URL('../src/data/quran-uthmani-hafs.json', import.meta.url), 'utf8'));
+const waslByPosition = new Map(waslEntries.map((entry) => [`${entry.surah}:${entry.ayah}:${entry.word_number}`, entry]));
+const waslByRef = new Map();
+for (const entry of waslEntries) {
+  const reference = `${entry.surah}:${entry.ayah}`;
+  const hints = waslByRef.get(reference) ?? [];
+  hints.push(entry);
+  waslByRef.set(reference, hints);
+}
+const expectedPositions = new Map();
+const stopCounts = { 'ۘ': 0, 'ۚ': 0, 'ۖ': 0, 'ۗ': 0, 'ۛ': 0 };
+// Match lexical words: rub'/sajdah signs never increment the word number.
+for (const verse of Object.values(uthmani.quran['quran-uthmani-hafs'])) {
+  const words = verse.verse.match(/[\u0621-\u063a\u0641-\u064a\u0671][^\s]*/gu) ?? [];
+  for (let index = 0; index < words.length; index++) {
+    const word = words[index].replace(/[ۖۗۘۙۚۛۜ۞۩]/gu, '');
+    const stop = index > 0 ? words[index - 1].match(/[ۘۚۖۗۛ]/u)?.[0] : null;
+    if (!word.startsWith('ٱ') || (index > 0 && !stop)) continue;
+    const reference = `${verse.surah}:${verse.ayah}:${index + 1}`;
+    expectedPositions.set(reference, word);
+    if (stop) stopCounts[stop]++;
+  }
+}
+assert.equal(waslEntries.length, 265);
+assert.equal(waslEntries.filter((entry) => entry.word_number === 1).length, 231, 'original beginnings are retained');
+assert.equal(waslEntries.filter((entry) => entry.word_number > 1).length, 34);
+assert.equal(waslByRef.size, 258);
+assert.equal(waslByPosition.size, waslEntries.length, 'no duplicate surah:ayah:word positions');
+const allByPosition = new Map(waslAll.map(entry => [`${entry.surah}:${entry.ayah}:${entry.word_number}`, entry]));
+const allByRef = new Map();
+for (const entry of waslAll) {
+  const key = `${entry.surah}:${entry.ayah}`;
+  const entries = allByRef.get(key) ?? [];
+  entries.push(entry);
+  allByRef.set(key, entries);
+}
+assert.equal(waslAll.length, 10772);
+assert.equal(allByRef.size, 4458);
+assert.deepEqual(Object.keys(waslQcf).sort(), [...allByPosition.keys()].sort(), 'every full-mode hint has verified QCF/Unicode word boundaries');
+for (const [key, entry] of allByPosition) {
+  const boundary = waslQcf[key];
+  const text = renderer.getAyahText(entry.surah, entry.ayah).arabic;
+  assert.equal(text.slice(boundary.unicodeStart, boundary.unicodeEnd).replace(/[\sۖۗۘۙۚۛۜ۞۩]/gu, ''), entry.word, key);
+  assert.ok(entry.word.startsWith('ٱ'), key);
+  assert.equal(data[`${entry.surah}:${entry.ayah}`].code_v2.slice(boundary.start, boundary.end).replace(/\s/gu, ''), boundary.code, key);
+  assert.match(entry.reading, /^ا[َُِ]/u, key);
+}
+for (const [key, entry] of waslByPosition) assert.deepEqual(allByPosition.get(key), entry, `${key}: the basic list is unchanged`);
+for (const [key, reading] of Object.entries({
+  '2:21:3': 'اُعۡبُدُواْ', '2:283:16': 'اُوتُمِنَ', '18:21:19': 'اِبۡنُواْ',
+  '38:6:5': 'اِمۡشُواْ', '20:64:4': 'اِيتُواْ', '49:11:30': 'اَلِسۡمُ',
+  '5:107:11': 'اَلَّذِينَ', '5:107:12': 'اِسۡتَحَقَّ',
+})) assert.equal(allByPosition.get(key)?.reading, reading, key);
+assert.deepEqual([...waslByPosition.keys()].sort(), [...expectedPositions.keys()].sort(), 'complete selection from all five stop signs and ayah beginnings');
+assert.deepEqual(stopCounts, { 'ۘ': 3, 'ۚ': 15, 'ۖ': 10, 'ۗ': 6, 'ۛ': 0 });
+for (const [reference, entry] of waslByPosition) {
+  assert.deepEqual(Object.keys(entry).sort(), ['ayah', 'reading', 'surah', 'word', 'word_number']);
+  assert.ok(Number.isInteger(entry.word_number) && entry.word_number > 0, reference);
+  assert.equal(entry.word, expectedPositions.get(reference), reference);
+  const boundary = waslQcf[reference];
+  const codes = data[`${entry.surah}:${entry.ayah}`].code_v2;
+  assert.ok(Number.isInteger(boundary.start) && Number.isInteger(boundary.end));
+  assert.ok(boundary.start >= 0 && boundary.end > boundary.start && boundary.end <= codes.length);
+  assert.equal(codes.slice(boundary.start, boundary.end).replace(/\s/gu, ''), boundary.code, `${reference}: QCF data must still match the verified word`);
+  assert.match(entry.reading, /^ا[َُِ]/u);
+  if (reference === '46:4:18') {
+    assert.equal(entry.word, 'ٱئۡتُونِي');
+    assert.equal(entry.reading, 'اِيتُونِي', 'the second hamza becomes a madd ya when starting this word');
+  } else {
+    assert.equal(entry.reading.slice(2), entry.word.slice(1), 'other words retain all remaining letters and diacritics');
+  }
+}
+// Article, assimilated letters, imperative forms and a verbal noun.
+for (const [reference, reading] of Object.entries({
+  '1:2': 'اَلۡحَمۡدُ', '1:3': 'اَلرَّحۡمَٰنِ', '1:6': 'اِهۡدِنَا',
+  '2:3': 'اَلَّذِينَ', '2:255': 'اَللَّهُ', '4:50': 'اُنظُرۡ',
+  '5:98': 'اِعۡلَمُوٓاْ', '7:3': 'اِتَّبِعُواْ', '7:55': 'اُدۡعُواْ',
+  '9:9': 'اِشۡتَرَوۡاْ', '9:31': 'اِتَّخَذُوٓاْ', '12:9': 'اُقۡتُلُواْ',
+  '15:46': 'اُدۡخُلُوهَا', '20:31': 'اُشۡدُدۡ', '28:32': 'اُسۡلُكۡ',
+  '29:45': 'اُتۡلُ', '35:43': 'اِسۡتِكۡبَارٗا', '36:64': 'اِصۡلَوۡهَا',
+  '38:42': 'اُرۡكُضۡ', '77:29': 'اِنطَلِقُوٓاْ', '89:28': 'اِرۡجِعِيٓ',
+})) assert.equal(waslByPosition.get(`${reference}:1`)?.reading, reading, reference);
+for (const [reference, reading] of Object.entries({
+  '2:61:31': 'اِهۡبِطُواْ', '2:178:9': 'اَلۡحُرُّ', '4:171:32': 'اِنتَهُواْ',
+  '5:3:31': 'اَلۡيَوۡمَ', '5:3:40': 'اَلۡيَوۡمَ', '5:8:16': 'اِعۡدِلُواْ',
+  '5:75:17': 'اُنظُرۡ', '6:20:8': 'اَلَّذِينَ', '6:99:33': 'اُنظُرُوٓاْ',
+  '7:148:20': 'اِتَّخَذُوهُ', '16:121:3': 'اِجۡتَبَىٰهُ',
+  '24:35:10': 'اَلۡمِصۡبَاحُ', '24:35:13': 'اَلزُّجَاجَةُ',
+  '34:13:12': 'اِعۡمَلُوٓاْ', '41:40:20': 'اِعۡمَلُواْ', '46:4:18': 'اِيتُونِي',
+})) assert.equal(waslByPosition.get(reference)?.reading, reading, reference);
+for (const reference of ['1:1', '2:1', '2:2', '2:4', '12:50', '12:99', '18:96']) {
+  assert.ok(!waslByRef.has(reference), `${reference}: prefixed/internal hamza and muqatta'at are excluded`);
+}
+const hintReferences = (html, scope) => [...html.matchAll(/data-hamza-wasl="([^"]+)" data-word-number="(\d+)" data-wasl-scope="([^"]+)"/g)].filter(match => !scope || match[3] === scope).map(match => `${match[1]}:${match[2]}`);
+const basicAyahReferences = html => hintReferences(html, 'basic').map(key => key.split(':').slice(0, 2).join(':'));
+const waslToggleCount = (html) => [...html.matchAll(/\bdata-quran-wasl-toggle\b/g)].length;
+const glyphParts = (html) => [...html.matchAll(/<span class="qcf-glyphs [^"]+" aria-hidden="true">([^<]*)<\/span>/g)].map((match) => match[1]);
+const fallbackParts = (html) => [...html.matchAll(/<span class="qcf-fallback" aria-hidden="true">([^<]*)<\/span>/g)].map((match) => match[1]);
+const accessibleParts = (html) => [...html.matchAll(/<span class="sr-only">([^<]*)<\/span>/g)].map((match) => match[1]);
 
 // Every ayah must retain its original glyph codes, correct page and real Unicode fallback.
 for (const [reference, entry] of Object.entries(data)) {
@@ -24,12 +131,32 @@ for (const [reference, entry] of Object.entries(data)) {
   assert.ok(html.includes(`class="qcf-fallback" aria-hidden="true">${escape(arabic)}</span>`), reference);
   assert.ok(html.includes(`class="sr-only">${escape(arabic)}</span>`), reference);
   assert.ok(html.includes(escape(translation)), reference);
+  assert.ok(!html.includes('data-hamza-wasl'), `${reference}: ordinary V2 has no hint`);
+  assert.equal(waslToggleCount(html), 0, `${reference}: ordinary V2 has no hint toggle`);
   const tajweed = renderer.renderAyahBlock(surah, ayah, { tajweed: true });
   assert.ok(tajweed.includes(`data-qcf-page="${entry.page}" data-qcf-variant="tajweed"`), reference);
-  assert.ok(tajweed.includes(`class="qcf-glyphs qcf-tajweed-page-${entry.page}" aria-hidden="true">${escape(entry.code_v2)}</span>`), reference);
-  assert.ok(tajweed.includes(`class="qcf-fallback" aria-hidden="true">${escape(arabic)}</span>`), reference);
+  assert.ok(tajweed.includes(`class="qcf-glyphs qcf-tajweed-page-${entry.page}"`), reference);
+  assert.equal(glyphParts(tajweed).join(''), escape(entry.code_v2), `${reference}: all original QCF codes retain their order and spaces`);
+  assert.equal(fallbackParts(tajweed).join(''), escape(arabic), `${reference}: all original Unicode is retained`);
+  assert.equal(accessibleParts(tajweed).join(''), escape(arabic), `${reference}: screen readers retain the original verse`);
   assert.ok(tajweed.includes(escape(translation)), reference);
   assert.ok(!tajweed.includes(`class="qcf-glyphs qcf-page-`), reference);
+  const hints = allByRef.get(reference) ?? [];
+  assert.deepEqual(hintReferences(tajweed), hints.map((hint) => `${reference}:${hint.word_number}`), reference);
+  assert.deepEqual(hintReferences(tajweed, 'basic'), (waslByRef.get(reference) ?? []).map(hint => `${reference}:${hint.word_number}`), `${reference}: basic/full scope is correct`);
+  assert.equal(waslToggleCount(tajweed), hints.length ? 1 : 0, `${reference}: one toggle only when the ayah has hints`);
+  assert.ok(!tajweed.includes('При начале'), 'inline hints have no explanatory label');
+  for (const hint of hints) {
+    const position = `${reference}:${hint.word_number}`;
+    const hintIndex = tajweed.indexOf(`data-hamza-wasl="${reference}" data-word-number="${hint.word_number}"`);
+    const hintEnd = tajweed.indexOf('</span>', hintIndex) + '</span>'.length;
+    assert.ok(tajweed.slice(hintIndex, hintEnd).endsWith(`aria-hidden="true">${escape(hint.reading)}</span>`), position);
+    assert.ok(tajweed.slice(hintEnd).startsWith('<span class="qcf-text"'), `${position}: hint is immediately before the original word`);
+    const boundary = waslQcf[position];
+    const originalWord = arabic.slice(boundary.unicodeStart, boundary.unicodeEnd);
+    assert.equal(fallbackParts(tajweed.slice(hintEnd))[0], escape(originalWord), position);
+    assert.equal(glyphParts(tajweed.slice(hintEnd))[0].replace(/\s/gu, ''), waslQcf[position].code, position);
+  }
 }
 // A range crossing a Mushaf page boundary must load both page fonts.
 const range = renderer.renderAyahRangeBlock(2, 1, 7);
@@ -40,11 +167,29 @@ for (let ayah = 1; ayah <= 7; ayah++) {
 }
 assert.equal(renderer.renderAyahRangeBlock(2, 7, 1), range);
 const tajweedRange = renderer.renderAyahRangeBlock(2, 1, 7, { tajweed: true });
-assert.deepEqual([...tajweedRange.matchAll(/data-qcf-page="(\d+)" data-qcf-variant="tajweed"/g)].map((match) => Number(match[1])), [2, 3]);
+assert.deepEqual([...new Set([...tajweedRange.matchAll(/data-qcf-page="(\d+)" data-qcf-variant="tajweed"/g)].map((match) => Number(match[1])))], [2, 3]);
 assert.equal(renderer.renderAyahRangeBlock(2, 7, 1, { tajweed: true }), tajweedRange);
 for (let ayah = 1; ayah <= 7; ayah++) assert.ok(tajweedRange.includes(`/mp3/002/00200${ayah}.mp3`));
+assert.ok(!range.includes('data-hamza-wasl'), 'ordinary ranges have no hints');
+assert.equal(waslToggleCount(range), 0);
+assert.equal(waslToggleCount(tajweedRange), 1, 'a range has one toggle for the whole block');
+assert.deepEqual(basicAyahReferences(tajweedRange), ['2:3']);
+assert.ok(!tajweedRange.includes('При начале'));
+const fatihaRange = renderer.renderAyahRangeBlock(1, 1, 7, { tajweed: true });
+assert.deepEqual(basicAyahReferences(fatihaRange), ['1:2', '1:3', '1:6']);
+assert.equal(waslToggleCount(fatihaRange), 1, 'multiple ayahs with hints share one block toggle');
+assert.deepEqual(hintReferences(renderer.renderAyahRangeBlock(12, 50, 54, { tajweed: true }), 'basic'), [], 'internal hamza wasl belongs only to full mode');
+assert.equal(waslToggleCount(renderer.renderAyahRangeBlock(111, 1, 2, { tajweed: true })), 0, 'a range without any wasl words has no menu button');
+const multipleHints = renderer.renderAyahBlock(24, 35, { tajweed: true });
+assert.deepEqual(hintReferences(multipleHints, 'basic'), ['24:35:1', '24:35:10', '24:35:13'], 'one ayah retains its beginning and both post-stop hints');
+assert.deepEqual(hintReferences(renderer.renderAyahBlock(5, 3, { tajweed: true }), 'basic'), ['5:3:31', '5:3:40'], 'repeated words at different positions are retained');
+assert.deepEqual(hintReferences(renderer.renderAyahRangeBlock(24, 34, 36, { tajweed: true }), 'basic'), ['24:35:1', '24:35:10', '24:35:13']);
+const postStopRange = renderer.renderAyahRangeBlock(46, 3, 4, { tajweed: true });
+assert.deepEqual(hintReferences(postStopRange, 'basic'), ['46:4:18']);
+assert.ok(!postStopRange.includes('При начале'));
+assert.equal(glyphParts(postStopRange).join('').replace(/\s/gu, ''), [data['46:3'].code_v2, data['46:4'].code_v2].join('').replace(/\s/gu, ''), 'range retains every original glyph across inline hints');
 
-const { replaceQuranTags } = await bundle('src/utils/replaceQuranTags.ts');
+const { replaceQuranTags } = await loadSource('src/utils/replaceQuranTags.ts');
 assert.equal(replaceQuranTags('{Quran}2:255{/Quran}'), renderer.renderAyahBlock(2, 255));
 assert.equal(replaceQuranTags('{Quran}2:255-T{/Quran}'), renderer.renderAyahBlock(2, 255, { tajweed: true }));
 assert.equal(replaceQuranTags('{quran}2:255-t{/quran}'), renderer.renderAyahBlock(2, 255, { tajweed: true }));
@@ -53,14 +198,29 @@ assert.equal(replaceQuranTags('{Quran}2:7-1-T{/Quran}'), tajweedRange);
 assert.equal(replaceQuranTags('{Quran}2:255-255-T{/Quran}'), renderer.renderAyahBlock(2, 255, { tajweed: true }));
 assert.equal(replaceQuranTags('{Quran}2:1-7{/Quran}'), range);
 assert.equal(replaceQuranTags('{Quran}2:255-X{/Quran}'), '{Quran}2:255-X{/Quran}');
+assert.ok(replaceQuranTags('{Quran}1:6-T{/Quran}').includes('اِهۡدِنَا'));
+assert.ok(!replaceQuranTags('{Quran}1:6{/Quran}').includes('data-hamza-wasl'));
+assert.deepEqual(hintReferences(replaceQuranTags('{Quran}1:1-T{/Quran}'), 'basic'), []);
+assert.equal(hintReferences(replaceQuranTags('{Quran}1:1-T{/Quran}')).length, 3);
 const mixed = '{Quran}2:255{/Quran}\n{Quran}2:255-T{/Quran}';
 const mixedHtml = replaceQuranTags(mixed);
-assert.equal([...mixedHtml.matchAll(/data-qcf-page="42"/g)].length, 2);
+assert.equal([...mixedHtml.matchAll(/data-quran-ayah="one_verse"/g)].length, 2);
+assert.deepEqual([...new Set([...mixedHtml.matchAll(/data-qcf-page="(\d+)"/g)].map((match) => match[1]))], ['42']);
 const audioIds = [...mixedHtml.matchAll(/<audio\s+id="([^"]+)"/g)].map((match) => match[1]);
 assert.equal(new Set(audioIds).size, 2, 'ordinary and Tajweed audio controls must target different elements');
+for (const tags of [
+  '{Quran}1:6-T{/Quran}\n{Quran}1:6-T{/Quran}\n{Quran}1:6-6-T{/Quran}',
+  '{Quran}1:6-7-T{/Quran}\n{Quran}1:7-6-T{/Quran}',
+]) {
+  const repeatedHtml = replaceQuranTags(tags);
+  const repeatedAudioIds = [...repeatedHtml.matchAll(/<audio\s+id="([^"]+)"/g)].map((match) => match[1]);
+  const buttonTargets = [...repeatedHtml.matchAll(/data-audio-id="([^"]+)"/g)].map((match) => match[1]);
+  assert.equal(new Set(repeatedAudioIds).size, repeatedAudioIds.length, 'repeated examples need unique audio elements');
+  assert.deepEqual(buttonTargets, repeatedAudioIds, 'each repeated example controls its own audio');
+}
 
 // Controlled FontFace promises exercise pending, failure, retry and dynamically inserted verses.
-const { initQcfFonts } = await bundle('src/utils/qcfFonts.ts');
+const { initQcfFonts } = await loadSource('src/utils/qcfFonts.ts');
 class Element {
   constructor(page, text = 'glyph codes', variant) { this.dataset = { qcfPage: String(page), qcfVariant: variant }; this.text = text; }
   matches() { return true; }
@@ -238,4 +398,4 @@ online();
 assert.equal(requests.length, 2, 'ready COLRv1 face is reused in both Firefox themes');
 assert.ok(requests.every(({face})=>!face.source.includes('ot-svg')));
 console.warn = warn;
-console.log(`Passed: ${Object.keys(data).length} ayahs in V2/V4, -T tags and ranges, independent font readiness, Unicode fallback, CSS replacement, retries, dynamic verses, shared local COLRv1 fonts and palettes for both themes including Firefox.`);
+console.log(`Passed: ${Object.keys(data).length} ayahs in V2/V4, ${waslEntries.length} basic / ${waslAll.length} full-mode wasl hints only in -T tags/ranges, verified Unicode/QCF boundaries, preserved source text, independent font readiness, retries and dynamic verses. No build.`);

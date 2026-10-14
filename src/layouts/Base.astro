@@ -40,9 +40,11 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
     <script>
       import { initMermaidModal } from "../utils/mermaidModal";
       import { initQcfFonts } from "../utils/qcfFonts";
+      import { initQuranWaslHints } from "../utils/quranWaslHints";
 
       initMermaidModal();
       initQcfFonts();
+      initQuranWaslHints();
     </script>
 
     <!-- Quran audio: плейлисты + кастомная кнопка play/pause -->
@@ -81,10 +83,7 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
             audio.currentTime = 0;
             audio.load();
             if (autoplay) {
-              var playPromise = audio.play();
-              if (playPromise && typeof playPromise.catch === 'function') {
-                playPromise.catch(function () {});
-              }
+              requestQuranPlayback(audio);
             }
           }
 
@@ -114,25 +113,131 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
         var currentQuranAudio = null;
         var currentQuranButton = null;
         var quranAudioClickDelegated = false;
+        var quranAudioRequest = 0;
+        var quranAudioTitles = new WeakMap();
+        var pendingQuranButton = null;
+        var pendingQuranStyle = null;
+        var pendingQuranStatus = null;
+
+        function queueQuranAudioButton(button) {
+          pendingQuranButton = button;
+          // Keep feedback outside the React-owned HTML while it is still hydrating.
+          if (!pendingQuranStyle) {
+            pendingQuranStyle = document.createElement('style');
+            document.head.appendChild(pendingQuranStyle);
+            pendingQuranStatus = document.createElement('span');
+            pendingQuranStatus.className = 'sr-only';
+            pendingQuranStatus.setAttribute('role', 'status');
+            document.body.appendChild(pendingQuranStatus);
+          }
+          var id = CSS.escape(button.getAttribute('data-audio-id') || '');
+          pendingQuranStyle.textContent = '.quran-audio-button[data-audio-id="' + id + '"] .quran-audio-button__icon::after{display:block}';
+          pendingQuranStatus.textContent = 'Аудио загружается';
+        }
+
+        function clearPendingQuranButton() {
+          pendingQuranButton = null;
+          if (pendingQuranStyle) pendingQuranStyle.textContent = '';
+          if (pendingQuranStatus) pendingQuranStatus.textContent = '';
+        }
+
+        // Keep server-rendered lesson HTML intact until React has adopted it.
+        function canEnhanceQuranElement(element) {
+          return !element.closest('[data-quran-audio-ready="false"]');
+        }
 
         function resetQuranAudioState(audio) {
           if (currentQuranAudio !== audio) return;
 
+          quranAudioRequest++;
           currentQuranAudio = null;
           if (currentQuranButton) {
             currentQuranButton.removeAttribute('data-state');
+            currentQuranButton.removeAttribute('aria-busy');
+            var title = quranAudioTitles.get(currentQuranButton);
+            if (title != null) currentQuranButton.setAttribute('title', title);
             currentQuranButton = null;
           }
+        }
+
+        function setQuranAudioState(audio, state) {
+          if (currentQuranAudio !== audio || !currentQuranButton) return;
+          var button = currentQuranButton;
+          if (!quranAudioTitles.has(button)) {
+            quranAudioTitles.set(button, button.getAttribute('title') || 'слушать');
+          }
+          button.setAttribute('data-state', state);
+          if (state === 'loading') {
+            button.setAttribute('aria-busy', 'true');
+            button.setAttribute('title', 'Аудио загружается');
+          } else {
+            button.removeAttribute('aria-busy');
+            button.setAttribute('title', quranAudioTitles.get(button));
+          }
+        }
+
+        function requestQuranPlayback(audio) {
+          var request = ++quranAudioRequest;
+          var button = currentQuranButton;
+          setQuranAudioState(audio, 'loading');
+          function failed() {
+            if (request !== quranAudioRequest || currentQuranAudio !== audio) return;
+            resetQuranAudioState(audio);
+            if (button) button.setAttribute('title', 'Не удалось загрузить аудио. Нажмите, чтобы повторить.');
+          }
+          try {
+            var promise = audio.play();
+            if (promise && typeof promise.then === 'function') {
+              promise.then(function () {
+                if (request === quranAudioRequest) setQuranAudioState(audio, 'playing');
+              }, failed);
+            }
+          } catch (error) {
+            failed();
+          }
+        }
+
+        function setupQuranAudioEvents(audio) {
+          if (audio.getAttribute('data-quran-audio-events-initialized') === 'true') return;
+          audio.setAttribute('data-quran-audio-events-initialized', 'true');
+          audio.addEventListener('playing', function () {
+            setQuranAudioState(audio, 'playing');
+          });
+          audio.addEventListener('waiting', function () {
+            if (!audio.paused) setQuranAudioState(audio, 'loading');
+          });
+          audio.addEventListener('stalled', function () {
+            if (!audio.paused && audio.readyState < 3) setQuranAudioState(audio, 'loading');
+          });
+          audio.addEventListener('pause', function () {
+            // Changing a playlist source also queues pause; the next track may already be playing.
+            if (audio.paused && !audio.ended) resetQuranAudioState(audio);
+          });
+          audio.addEventListener('error', function () {
+            var button = currentQuranAudio === audio ? currentQuranButton : null;
+            resetQuranAudioState(audio);
+            if (button) button.setAttribute('title', 'Не удалось загрузить аудио. Нажмите, чтобы повторить.');
+          });
+          audio.addEventListener('ended', function () {
+            if (!audio.hasAttribute('data-playlist')) resetQuranAudioState(audio);
+          });
+          audio.addEventListener('quran-playlist-finished', function () {
+            resetQuranAudioState(audio);
+          });
         }
 
         function handleQuranAudioButtonClick(button) {
           var block = button.closest('[data-quran-ayah]');
           if (!block) return;
+          if (!canEnhanceQuranElement(block)) {
+            queueQuranAudioButton(button);
+            return;
+          }
+          clearPendingQuranButton();
 
           var audioId = button.getAttribute('data-audio-id');
-          var audio = audioId
-            ? document.getElementById(audioId)
-            : block.querySelector('audio.quran-audio-element');
+          var audio = block.querySelector('audio.quran-audio-element') ||
+            (audioId ? document.getElementById(audioId) : null);
 
           if (!audio || !audio.classList || !audio.classList.contains('quran-audio-element')) {
             return;
@@ -143,43 +248,26 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
             enhanceAudio(audio);
           }
 
-          if (audio.getAttribute('data-quran-audio-events-initialized') !== 'true') {
-            audio.setAttribute('data-quran-audio-events-initialized', 'true');
-            if (!audio.hasAttribute('data-playlist')) {
-              audio.addEventListener('ended', function () {
-                resetQuranAudioState(audio);
-              });
-            }
-            audio.addEventListener('quran-playlist-finished', function () {
-              resetQuranAudioState(audio);
-            });
-          }
+          setupQuranAudioEvents(audio);
+
+          // A repeated tap during loading must not start another play request.
+          if (currentQuranAudio === audio && button.getAttribute('data-state') === 'loading') return;
 
           if (currentQuranAudio && currentQuranAudio !== audio) {
-            currentQuranAudio.pause();
-            currentQuranAudio.currentTime = 0;
-            if (currentQuranButton) {
-              currentQuranButton.removeAttribute('data-state');
-            }
-            currentQuranAudio = null;
-            currentQuranButton = null;
+            var previous = currentQuranAudio;
+            resetQuranAudioState(previous);
+            previous.pause();
+            previous.currentTime = 0;
           }
 
           if (audio.paused) {
-            var playPromise = audio.play();
+            if (audio.error) audio.load();
             currentQuranAudio = audio;
             currentQuranButton = button;
-            button.setAttribute('data-state', 'playing');
-            if (playPromise && typeof playPromise.catch === 'function') {
-              playPromise.catch(function () {
-                resetQuranAudioState(audio);
-              });
-            }
+            requestQuranPlayback(audio);
           } else {
             audio.pause();
-            button.removeAttribute('data-state');
-            currentQuranAudio = null;
-            currentQuranButton = null;
+            resetQuranAudioState(audio);
           }
         }
 
@@ -202,6 +290,7 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
         function setupQuranAudioButtons() {
           var blocks = document.querySelectorAll('[data-quran-ayah]');
           blocks.forEach(function (block) {
+            if (!canEnhanceQuranElement(block)) return;
             var button = block.querySelector('.quran-audio-button');
             var audio = block.querySelector('audio.quran-audio-element');
             if (!button || !audio) return;
@@ -210,60 +299,7 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
               return;
             }
             button.setAttribute('data-quran-audio-initialized', 'true');
-            audio.setAttribute('data-quran-audio-events-initialized', 'true');
-
-            // Клик по плашке: play/pause
-            button.addEventListener('quran-audio-legacy-click-disabled', function () {
-              // если уже играет другой аят — останавливаем его
-              if (currentQuranAudio && currentQuranAudio !== audio) {
-                currentQuranAudio.pause();
-                currentQuranAudio.currentTime = 0;
-                if (currentQuranButton) {
-                  currentQuranButton.removeAttribute('data-state');
-                }
-                currentQuranAudio = null;
-                currentQuranButton = null;
-              }
-
-              if (audio.paused) {
-                var playPromise = audio.play();
-                currentQuranAudio = audio;
-                currentQuranButton = button;
-                button.setAttribute('data-state', 'playing');
-                if (playPromise && typeof playPromise.catch === 'function') {
-                  playPromise.catch(function () {});
-                }
-              } else {
-                audio.pause();
-                button.removeAttribute('data-state');
-                currentQuranAudio = null;
-                currentQuranButton = null;
-              }
-            });
-
-            // Для одиночных аятов (без плейлиста) — по окончании сбрасываем кнопку
-            if (!audio.hasAttribute('data-playlist')) {
-              audio.addEventListener('ended', function () {
-                if (currentQuranAudio === audio) {
-                  currentQuranAudio = null;
-                  if (currentQuranButton) {
-                    currentQuranButton.removeAttribute('data-state');
-                    currentQuranButton = null;
-                  }
-                }
-              });
-            }
-
-            // Для диапазонов: плейлист отработал до конца -> сбросить кнопку
-            audio.addEventListener('quran-playlist-finished', function () {
-              if (currentQuranAudio === audio) {
-                currentQuranAudio = null;
-                if (currentQuranButton) {
-                  currentQuranButton.removeAttribute('data-state');
-                  currentQuranButton = null;
-                }
-              }
-            });
+            setupQuranAudioEvents(audio);
           });
         }
 
@@ -273,6 +309,7 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
 
           // Подготовить плейлисты (audio[data-playlist])
           document.querySelectorAll('audio[data-playlist]').forEach(function (audio) {
+            if (!canEnhanceQuranElement(audio)) return;
             if (audio.getAttribute('data-playlist-initialized') === 'true') {
               return;
             }
@@ -282,12 +319,20 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
 
           // Настроить кастомные кнопки "play/pause"
           setupQuranAudioButtons();
+
+          if (pendingQuranButton && !pendingQuranButton.isConnected) clearPendingQuranButton();
+          if (pendingQuranButton && canEnhanceQuranElement(pendingQuranButton)) {
+            var button = pendingQuranButton;
+            clearPendingQuranButton();
+            handleQuranAudioButtonClick(button);
+          }
         }
 
         document.addEventListener('astro:page-load', initAll);
         document.addEventListener('quran:reinit', initAll);
 
-        var scheduleId = null;
+        // Delegation is ready before deferred lesson modules finish downloading.
+        setupDelegatedQuranAudioClick();
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', initAll);
         } else {

@@ -2,6 +2,8 @@ import type { LessonBlock } from "./types";
 
 export type InteractiveLesson = {
   id: number;
+  /** Порядок и номер в меню; id остаётся постоянным для прогресса и упражнений. */
+  order?: number;
   slug: string;
   subject: string;
   course: string;
@@ -40,7 +42,7 @@ export async function loadAllInteractiveLessons(
     try {
       const arr = (await bundleModules[bundleKey]()) as InteractiveLesson[];
       if (Array.isArray(arr)) {
-        return [...arr].sort((a, b) => a.id - b.id);
+        return [...arr].sort((a, b) => (a.order ?? a.id) - (b.order ?? b.id) || a.id - b.id);
       }
     } catch (err) {
       console.warn(`Failed to load lessons bundle: ${bundleKey}`, err);
@@ -60,7 +62,7 @@ export async function loadAllInteractiveLessons(
       console.warn(`Failed to load interactive lesson: ${path}`, err);
     }
   }
-  lessons.sort((a, b) => a.id - b.id);
+  lessons.sort((a, b) => (a.order ?? a.id) - (b.order ?? b.id) || a.id - b.id);
   return lessons;
 }
 

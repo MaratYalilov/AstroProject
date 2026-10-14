@@ -36,8 +36,11 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [studied, setStudied] = useState<Set<number>>(new Set());
+  const [loadedProgressLesson, setLoadedProgressLesson] = useState<number | null>(null);
   const [showStats, setShowStats] = useState(false);
-  const [currentDirection, setCurrentDirection] = useState<FlashcardDirection>(() => getStoredDirection());
+  // Keep the server and the first client render identical; restore preferences after hydration.
+  const [currentDirection, setCurrentDirection] = useState<FlashcardDirection>('ru-ar');
+  const [directionLoaded, setDirectionLoaded] = useState(false);
   const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(null);
   
   // Для свайпов
@@ -53,29 +56,42 @@ export default function DictionaryFlashcard({ words: initialWords, lessonNumber 
   const maxDragOffset = 140;
   const swipeAnimationDuration = 180;
 
+  useEffect(() => {
+    setCurrentDirection(getStoredDirection());
+    setDirectionLoaded(true);
+  }, []);
+
   // Загрузка прогресса и направления
   useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      const all = JSON.parse(saved);
-      setStudied(new Set(all[lessonNumber] || []));
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      const all = saved ? JSON.parse(saved) : {};
+      setStudied(new Set(Array.isArray(all?.[lessonNumber]) ? all[lessonNumber] : []));
+    } catch {
+      setStudied(new Set());
     }
+    setLoadedProgressLesson(lessonNumber);
   }, [lessonNumber]);
 
   // Сохранение прогресса
   useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    const all = saved ? JSON.parse(saved) : {};
-    all[lessonNumber] = [...studied];
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
-  }, [studied, lessonNumber]);
+    // Both responsive copies must read saved progress before either writes it.
+    if (loadedProgressLesson !== lessonNumber) return;
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      const all = saved ? JSON.parse(saved) : {};
+      all[lessonNumber] = [...studied];
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+    } catch {}
+  }, [studied, lessonNumber, loadedProgressLesson]);
 
   // Сохранение направления
   useEffect(() => {
+    if (!directionLoaded) return;
     try {
       window.localStorage.setItem(DIRECTION_STORAGE_KEY, currentDirection);
     } catch {}
-  }, [currentDirection]);
+  }, [currentDirection, directionLoaded]);
 
   useEffect(() => {
     return () => {

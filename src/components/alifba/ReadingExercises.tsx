@@ -184,7 +184,28 @@ function isComparisonExercise(exercise: Exercise) {
   );
 }
 
-function renderExerciseText(exercise: Exercise) {
+function renderExerciseText(exercise: FlatExercise) {
+  const renderText = (text: string) => {
+    if (exercise.lessonOrder !== 35) return renderMuqaddaraWaw(text);
+
+    return text.split(/(ٱ)/u).map((part, index) =>
+      part === "ٱ" ? (
+        <span
+          key={index}
+          className="arab tajweed-color-silent"
+          style={{
+            direction: "inherit",
+            fontSize: "inherit",
+            lineHeight: "inherit",
+            unicodeBidi: "normal",
+          }}
+        >
+          {part}
+        </span>
+      ) : part,
+    );
+  };
+
   const comparisonPair = exercise.segments.length === 1
     ? exercise.segments[0]?.text.split(/\s*[–—]\s*/)
     : null;
@@ -235,7 +256,7 @@ function renderExerciseText(exercise: Exercise) {
         >
           {exercise.segments.map((segment, index) => (
             <React.Fragment key={`${segment.text}-${index}`}>
-              {renderMuqaddaraWaw(segment.text)}
+              {renderText(segment.text)}
               {index < exercise.segments.length - 1 ? " " : ""}
             </React.Fragment>
           ))}
@@ -267,7 +288,7 @@ function renderExerciseText(exercise: Exercise) {
         }}
       >
         {joiner}
-        {renderMuqaddaraWaw(segment.text)}
+        {renderText(segment.text)}
       </span>
     );
   });

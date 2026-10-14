@@ -1,0 +1,70 @@
+/* QCF V4 palettes 0/1: shared by the legend swatches and color names in lesson notes. */
+:root {
+  --tajweed-normal: #000;
+  --tajweed-silent: #a5a5a5;
+  --tajweed-ghunna: #09b000;
+  --tajweed-pause: #ff7b00;
+  --tajweed-lazim-light: #b50000;
+  --tajweed-lazim-dark: #e30000;
+  --tajweed-madd-light: #f40000;
+  --tajweed-madd-dark: #ff5e8e;
+  --tajweed-short-light: #ce9e00;
+  --tajweed-short-dark: #ffc1e0;
+  --tajweed-tafkhim-light: #3f48e6;
+  --tajweed-tafkhim-dark: #3c84d5;
+  --tajweed-qalqalah-light: #2fadff;
+  --tajweed-qalqalah-dark: #00deff;
+  --tajweed-lazim: var(--tajweed-lazim-light);
+  --tajweed-madd: var(--tajweed-madd-light);
+  --tajweed-short: var(--tajweed-short-light);
+  --tajweed-tafkhim: var(--tajweed-tafkhim-light);
+  --tajweed-qalqalah: var(--tajweed-qalqalah-light);
+}
+
+:root.dark {
+  --tajweed-normal: #fff;
+  --tajweed-silent: #999;
+  --tajweed-ghunna: #26b55d;
+  --tajweed-pause: #ff8e3b;
+  --tajweed-lazim: var(--tajweed-lazim-dark);
+  --tajweed-madd: var(--tajweed-madd-dark);
+  --tajweed-short: var(--tajweed-short-dark);
+  --tajweed-tafkhim: var(--tajweed-tafkhim-dark);
+  --tajweed-qalqalah: var(--tajweed-qalqalah-dark);
+}
+
+.tajweed-color-normal { color: var(--tajweed-normal); }
+.tajweed-color-silent { color: var(--tajweed-silent); }
+.tajweed-color-ghunna { color: var(--tajweed-ghunna); }
+.tajweed-color-pause { color: var(--tajweed-pause); }
+.tajweed-color-lazim-light { color: var(--tajweed-lazim-light); }
+.tajweed-color-lazim-dark { color: var(--tajweed-lazim-dark); }
+.tajweed-color-madd-light { color: var(--tajweed-madd-light); }
+.tajweed-color-madd-dark { color: var(--tajweed-madd-dark); }
+.tajweed-color-short-light { color: var(--tajweed-short-light); }
+.tajweed-color-short-dark { color: var(--tajweed-short-dark); }
+.tajweed-color-tafkhim-light { color: var(--tajweed-tafkhim-light); }
+.tajweed-color-tafkhim-dark { color: var(--tajweed-tafkhim-dark); }
+.tajweed-color-qalqalah-light { color: var(--tajweed-qalqalah-light); }
+.tajweed-color-qalqalah-dark { color: var(--tajweed-qalqalah-dark); }
+
+.tajweed-note-title {
+  display: block;
+  position: relative;
+  padding-inline-start: 1.65em;
+  margin-block-end: 0.4rem;
+}
+
+/* Decorative Palette icon from Lucide (ISC); shares the course accent color. */
+.tajweed-note-title::before {
+  --tajweed-note-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%2022a1%201%200%200%201%200-20%2010%209%200%200%201%2010%209%205%205%200%200%201-5%205h-2.25a1.75%201.75%200%200%200-1.4%202.8l.3.4a1.75%201.75%200%200%201-1.4%202.8z%22%2F%3E%3Ccircle%20cx%3D%2213.5%22%20cy%3D%226.5%22%20r%3D%22.5%22%20fill%3D%22black%22%2F%3E%3Ccircle%20cx%3D%2217.5%22%20cy%3D%2210.5%22%20r%3D%22.5%22%20fill%3D%22black%22%2F%3E%3Ccircle%20cx%3D%226.5%22%20cy%3D%2212.5%22%20r%3D%22.5%22%20fill%3D%22black%22%2F%3E%3Ccircle%20cx%3D%228.5%22%20cy%3D%227.5%22%20r%3D%22.5%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E");
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-start: 0.25em;
+  inline-size: 1.15em;
+  block-size: 1.15em;
+  background-color: var(--color-fjord);
+  -webkit-mask: var(--tajweed-note-icon) center / contain no-repeat;
+  mask: var(--tajweed-note-icon) center / contain no-repeat;
+}

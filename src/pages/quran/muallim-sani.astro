@@ -1,6 +1,9 @@
 ---
 import InteractiveCourse from "../../components/course/InteractiveCourse.astro";
+import TajweedLegend from "../../components/quran/TajweedLegend.astro";
 export const prerender = false;
 ---
 
-<InteractiveCourse subject="quran" course="muallim-sani" />
+<InteractiveCourse subject="quran" course="muallim-sani">
+  <TajweedLegend />
+</InteractiveCourse>

@@ -1,6 +1,6 @@
 ---
 title: 'Правила «мим с сукуном»'
-order: 42
+order: 43
 ---
 <div class="theory-hero">
   <div class="theory-hero-inner">
@@ -62,11 +62,11 @@ order: 42
     наличие «ташдида» над второй буквой <span class="arab">مّ</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Хулитель 104:8</p>
-    {Quran}104:8{/Quran}
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> При идгаме гунна удвоенной <span class="arab">مّ</span> выделена <b><span class="tajweed-color-ghunna">зелёным</span></b> в обеих темах. Первая <span class="arab">م</span>, поглощённая второй, показана <b><span class="tajweed-color-silent">серым</span></b>.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}104:8-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Курайшиты 106:4</p>
     {Quran}106:4-T{/Quran}
   </div>
 </div>
@@ -88,12 +88,12 @@ order: 42
     и «ташдида» над буквой <span class="arab">ب</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Скачущие 100:11</p>
-    {Quran}100:11{/Quran}
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> При ихфа место утаивания <span class="arab">م</span> с гунной перед <span class="arab">ب</span> выделено <b><span class="tajweed-color-ghunna">зелёным</span></b> в обеих темах.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}100:11-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Слон 105:4</p>
-    {Quran}105:4{/Quran}
+    {Quran}105:4-T{/Quran}
   </div>
 </div>
 </section>
@@ -113,8 +113,9 @@ order: 42
     <b>Подсказка в Коране:</b> наличие «сукуна» над <span class="arab">مۡ</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Слон 105:1-3</p>
-    {Quran}105:1-3{/Quran}
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Для изхара отдельного цвета нет: ясно читаемая <span class="arab">مۡ</span> сохраняет обычный цвет текста — чёрный в светлой теме и белый в тёмной. Ищите над ней сукун.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}105:1-3-T{/Quran}
   </div>
 </div>
 </section>

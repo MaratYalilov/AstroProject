@@ -20,6 +20,7 @@ export type TitleSegment = {
 
 export type LessonItem = {
   id: number;
+  order?: number;
   slug: string;
   title: string | TitleSegment[];
   /** Модуль курса — уроки с этим полем группируются в аккордеон */
@@ -388,7 +389,7 @@ function SidebarContent({
                       : lesson.title}
                   </span>
                   <span className="mt-0.5 block text-sm text-gray-500 dark:text-slate-500">
-                    Урок {lesson.id}
+                    Урок {lesson.order ?? lesson.id}
                   </span>
                 </div>
                 {isCurrent && (

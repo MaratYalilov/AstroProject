@@ -34,6 +34,11 @@ order: 39
     то буква <span class="arab">ل</span> <b>не произносится</b>, а солнечная буква <b>удваивается</b>:
     <span class="arab">أَلتَّبَعُ</span>
   </p>
+  <div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Буква <span class="arab">ل</span>, которая сливается с солнечной буквой и отдельно не произносится, выделена <b><span class="tajweed-color-silent">серым</span></b> в обеих темах. Удвоенная солнечная буква может иметь свой цвет в зависимости от правила её произношения. В примере ниже найдите <span class="tajweed-color-silent">серую</span> «лям» в слове <span class="arab">ٱلنَّاسِ</span>: она сливается с <span class="arab">نّ</span>, а гунна этой «нун» выделена <span class="tajweed-color-ghunna">зелёным</span>.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}114:1-T{/Quran}
+  </div>
   <div class="mt-3 rounded-xl border border-amber-200 bg-amber-50/50 p-4 dark:border-amber-800/40 dark:bg-amber-900/10">
     <p class="!mb-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
       💡 <b>Подсказка в Коране:</b> отсутствие сукуна над буквой <span class="arab">ل</span>

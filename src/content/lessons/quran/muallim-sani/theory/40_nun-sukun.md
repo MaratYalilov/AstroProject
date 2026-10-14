@@ -65,7 +65,9 @@ order: 41
     танвин дамма изображён в виде <span class="arab">ــٌـ</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}106:4{/Quran}
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Для изхара отдельного цвета нет: ясно читаемая <span class="arab">نۡ</span> сохраняет обычный цвет текста — чёрный в светлой теме и белый в тёмной. Ориентируйтесь на сукун и следующую горловую букву.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}106:4-T{/Quran}
   </div>
 </div>
 </section>
@@ -89,12 +91,12 @@ order: 41
     маленькая буква <span class="arab">م</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Хадж 22:61</p>
-    {Quran}22:61{/Quran}
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> При иклабе место гунны, в том числе маленькая <span class="arab">م</span>, выделено <b><span class="tajweed-color-ghunna">зелёным</span></b> в обеих темах.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}22:61-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Ясное знамение 98:4</p>
-    {Quran}98:4{/Quran}
+    {Quran}98:4-T{/Quran}
   </div>
 </div>
 </section>
@@ -118,7 +120,9 @@ order: 41
     и <span class="arab">نّ</span> ставится «шадда».
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}99:7-8{/Quran}
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> При идгаме с гунной место носового звучания выделено <b><span class="tajweed-color-ghunna">зелёным</span></b> в обеих темах. Буква <span class="arab">ن</span>, поглощённая следующей буквой, показана <b><span class="tajweed-color-silent">серым</span></b>.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}99:7-8-T{/Quran}
   </div>
 </div>
 <div class="theory-card mt-4">
@@ -130,20 +134,16 @@ order: 41
     <span class="arab">و</span> <b>в одном слове</b>. Эти слова встречаются в 4 сурах Корана:
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Свет 24:14</p>
-    {Quran}24:14{/Quran}
+    {Quran}24:14-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Скот 6:99</p>
-    {Quran}6:99{/Quran}
+    {Quran}6:99-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Гром 13:4</p>
-    {Quran}13:4{/Quran}
+    {Quran}13:4-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Ряды 61:4</p>
-    {Quran}61:4{/Quran}
+    {Quran}61:4-T{/Quran}
   </div>
 </div>
 </section>
@@ -166,16 +166,15 @@ order: 41
     и <span class="arab">لّ</span> ставится «шадда».
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Корова 2:2</p>
-    {Quran}2:2{/Quran}
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> При идгаме без гунны поглощённая буква <span class="arab">ن</span> выделена <b><span class="tajweed-color-silent">серым</span></b> в обеих темах. <span class="tajweed-color-ghunna">Зелёной</span> подсветки гунны в месте этого слияния нет.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}2:2-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Корова 2:5</p>
-    {Quran}2:5{/Quran}
+    {Quran}2:5-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Испытуемая 60:7</p>
-    {Quran}60:7{/Quran}
+    {Quran}60:7-T{/Quran}
   </div>
 </div>
 </section>
@@ -197,8 +196,9 @@ order: 41
     чёрточки над танвинами смещены, танвин дамма написн в виде двух значков дамма<span class="arab">ُ ُ</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Рассвет 113:5</p>
-    {Quran}113:5{/Quran}
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Место ихфа с гунной выделено <b><span class="tajweed-color-ghunna">зелёным</span></b> в обеих темах.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}113:5-T{/Quran}
   </div>
 </div>
 </section>
@@ -217,8 +217,7 @@ order: 41
   </p>
   <p class="text-center"><span class="arab text-2xl">مَثَلاً الۡقَوۡمُ ← مَثَلَنِ لۡقَوۡمُ</span></p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">Преграды 7:177</p>
-    {Quran}7:177{/Quran}
+    {Quran}7:177-T{/Quran}
   </div>
 </div>
 </section>

@@ -5,6 +5,9 @@ import surahsData from "../data/surahs.json" with { type: "json" };
 import quranUthmaniData from "../data/quran-uthmani-hafs.json" with { type: "json" };
 import quranKulievData from "../data/quran-kuliev-ru.json" with { type: "json" };
 import qcfV2Data from "../data/quran-qcf-v2.json" with { type: "json" };
+import hamzaWaslStarts from "../data/quran-hamza-wasl-starts.json" with { type: "json" };
+import hamzaWaslAll from "../data/quran-hamza-wasl-all.json" with { type: "json" };
+import hamzaWaslQcfData from "../data/quran-hamza-wasl-qcf.json" with { type: "json" };
 
 // Типы
 type SurahMeta = {
@@ -38,6 +41,15 @@ interface QcfV2Entry {
 const arabicMap: Record<AyahKey, string> = {};
 const translationMap: Record<AyahKey, string> = {};
 const qcfMap: Record<AyahKey, QcfV2Entry> = qcfV2Data as any;
+const hamzaWaslMap = new Map<AyahKey, (typeof hamzaWaslStarts)[number][]>();
+const basicWaslPositions = new Set(hamzaWaslStarts.map(entry => `${entry.surah}:${entry.ayah}:${entry.word_number}`));
+const hamzaWaslQcfMap = hamzaWaslQcfData as Record<string, { start: number; end: number; code: string; unicodeStart: number; unicodeEnd: number }>;
+for (const entry of hamzaWaslAll) {
+  const key = makeKey(entry.surah, entry.ayah);
+  const entries = hamzaWaslMap.get(key) ?? [];
+  entries.push(entry);
+  hamzaWaslMap.set(key, entries);
+}
 
 // Утилиты
 function makeKey(surah: number, ayah: number): AyahKey {
@@ -61,12 +73,50 @@ function escapeHtml(str: string): string {
 // QCF показывается только после загрузки шрифта конкретной страницы.
 type QuranRenderOptions = { tajweed?: boolean };
 
-function renderQcfText(page: number, codes: string, arabic: string, tajweed = false): string {
-  if (!arabic) throw new Error(`Missing Unicode fallback for QCF page ${page}`);
+function renderWaslToggle(hasHints: boolean): string {
+  if (!hasHints) return "";
+  // The standalone wasla outline from AmiriLocal, without its alif stem.
+  const icon = `<svg viewBox="0 0 265 172" aria-hidden="true" focusable="false"><path d="M105 93Q122 68 135.5 51Q149 34 159 25Q187 0 213 0Q252 0 259 33Q265 62 244 95Q187 172 114 167Q98 165 81.5 159.5Q65 154 49 144Q37 137 27 147L18 154Q9 161 6 160Q0 155 4 146Q46 65 80 83Q85 86 91.5 88.5Q98 91 105 93ZM143 73Q133 85 125 97Q168 104 213 82Q217 62 209 53Q204 47 192 46Q169 46 143 73Z"/></svg>`;
+  return `<button type="button" class="quran-ayah-block__wasl-toggle" data-quran-wasl-toggle aria-haspopup="dialog" aria-expanded="false" aria-controls="quran-wasl-menu" aria-label="Подсказки хамзы васль: в начале и после остановок" title="Подсказки хамзы васль: в начале и после остановок">${icon}</button>`;
+}
+
+function renderQcfText(page: number, codes: string, arabic: string, tajweed = false, allowEmptyFallback = false): string {
+  // A split fragment may contain only the ayah-number glyph; its fallback is empty.
+  if (!arabic && !allowEmptyFallback) throw new Error(`Missing Unicode fallback for QCF page ${page}`);
   // V4 uses the same code_v2/page map, but must never inherit a V2 font or readiness rule.
   const variant = tajweed ? ' data-qcf-variant="tajweed"' : '';
   const pageClass = tajweed ? `qcf-tajweed-page-${page}` : `qcf-page-${page}`;
   return `<span class="qcf-text" data-qcf-page="${page}"${variant} lang="ar" dir="rtl"><span class="qcf-fallback" aria-hidden="true">${escapeHtml(arabic)}</span><span class="qcf-glyphs ${pageClass}" aria-hidden="true">${escapeHtml(codes)}</span><span class="sr-only">${escapeHtml(arabic)}</span></span>`;
+}
+
+// Insert each hint immediately before its original word, keeping both together on a line.
+// Word boundaries come from verified Quran.com word data, not counts of QCF glyphs.
+function renderQcfAyah(surah: number, ayah: number, page: number, codes: string, arabic: string, tajweed = false): string {
+  if (!arabic) throw new Error(`Missing Unicode fallback for ${surah}:${ayah}`);
+  const entries = tajweed ? hamzaWaslMap.get(makeKey(surah, ayah)) : undefined;
+  if (!entries?.length) return renderQcfText(page, codes, arabic, tajweed);
+  const parts: string[] = [];
+  let codeOffset = 0;
+  let arabicOffset = 0;
+  const append = (codePart: string, arabicPart: string) => {
+    if (codePart || arabicPart) parts.push(renderQcfText(page, codePart, arabicPart, true, true));
+  };
+  for (const { word_number, reading } of entries) {
+    const reference = `${surah}:${ayah}:${word_number}`;
+    const position = hamzaWaslQcfMap[reference];
+    if (!position || position.unicodeStart < arabicOffset || position.unicodeEnd > arabic.length || position.start < codeOffset || codes.slice(position.start, position.end).replace(/\s/gu, "") !== position.code) {
+      throw new Error(`Invalid QCF word position for ${reference}`);
+    }
+    append(codes.slice(codeOffset, position.start), arabic.slice(arabicOffset, position.unicodeStart));
+    const scope = basicWaslPositions.has(reference) ? "basic" : "all";
+    const hint = `<span class="quran-ayah-block__wasl-hint arab" data-hamza-wasl="${surah}:${ayah}" data-word-number="${word_number}" data-wasl-scope="${scope}" lang="ar" dir="rtl" aria-hidden="true">${escapeHtml(reading)}</span>`;
+    const original = renderQcfText(page, codes.slice(position.start, position.end), arabic.slice(position.unicodeStart, position.unicodeEnd), true);
+    parts.push(`<span class="qcf-wasl-pair">${hint}${original}</span>`);
+    codeOffset = position.end;
+    arabicOffset = position.unicodeEnd;
+  }
+  append(codes.slice(codeOffset), arabic.slice(arabicOffset));
+  return parts.join("");
 }
 
 // Инициализация карт
@@ -155,10 +205,12 @@ export function renderAyahBlock(
   const audioSrc = `/mp3/${sss}/${sss}${aaa}.mp3`;
   const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${surah}:${ayah}`;
   const audioId = `quran-audio-${surah}-${ayah}${options.tajweed ? '-tajweed' : ''}`;
+  const hasWaslHints = Boolean(options.tajweed && hamzaWaslMap.has(key));
 
   return `
 <div class="
     quran-ayah-block
+    ${hasWaslHints ? "quran-ayah-block--has-wasl-hints" : ""}
     bg-amber-50 dark:bg-gray-800
     border-2 border-emerald-200 dark:border-emerald-700
     "
@@ -169,7 +221,7 @@ export function renderAyahBlock(
   >
 
   <p class="quran-ayah-block__arabic qcf-ayah" lang="ar" dir="rtl">
-    ${renderQcfText(page, codeV2, arabicMap[key], options.tajweed)}
+    ${renderQcfAyah(surah, ayah, page, codeV2, arabicMap[key], options.tajweed)}
   </p>
 
   <div class="quran-ayah-block__translation">
@@ -185,7 +237,7 @@ export function renderAyahBlock(
       title="слушать"
     >
       <span
-        class="quran-audio-button__icon grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors"
+        class="quran-audio-button__icon shrink-0 bg-muted text-xs transition-colors"
       >
         <svg
           class="quran-audio-button__play"
@@ -229,6 +281,7 @@ export function renderAyahBlock(
       Ваш браузер не поддерживает аудио-плеер.
     </audio>
   </div>
+  ${renderWaslToggle(hasWaslHints)}
 </div>
 `.trim();
 }
@@ -329,7 +382,9 @@ export function renderAyahRangeBlock(
   // между группами ставим пробел, чтобы они шли подряд; можно заменить на '' если нужен без пробелов.
   const arabicInlineHtml = `
     <p class="quran-ayah-block__arabic qcf-ayah" lang="ar" dir="rtl">
-      ${groups
+      ${options.tajweed
+        ? perAyah.map((item) => renderQcfAyah(surah, item.ayah, item.page, item.codeV2, item.arabic, true)).join(" ")
+        : groups
         .map(
           (g) => renderQcfText(g.page, g.codes.join(" "), g.arabic.join(" "), options.tajweed),
         )
@@ -348,11 +403,13 @@ export function renderAyahRangeBlock(
   const sourceLine = `${surahNameRu}-${surahMeaningRu}, ${rangeText}`;
   const labelPrefix = start === end ? "Прослушать аят" : "Прослушать аяты";
   const audioId = `quran-audio-range-${surah}-${start}-${end}${options.tajweed ? '-tajweed' : ''}`;
+  const hasWaslHints = Boolean(options.tajweed && perAyah.some((item) => hamzaWaslMap.has(makeKey(surah, item.ayah))));
 
   return `
 <div
   class="
     quran-ayah-block
+    ${hasWaslHints ? "quran-ayah-block--has-wasl-hints" : ""}
     bg-amber-50 dark:bg-gray-800
     border-2 border-emerald-100 dark:border-emerald-700
   "
@@ -383,7 +440,7 @@ export function renderAyahRangeBlock(
       title="слушать"
     >
       <span
-        class="quran-audio-button__icon grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors"
+        class="quran-audio-button__icon shrink-0 bg-muted text-xs transition-colors"
       >
         <svg
           class="quran-audio-button__play"
@@ -428,6 +485,7 @@ export function renderAyahRangeBlock(
       Ваш браузер не поддерживает аудио-плеер.
     </audio>
   </div>
+  ${renderWaslToggle(hasWaslHints)}
 </div>
   `.trim();
 }

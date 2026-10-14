@@ -25,6 +25,11 @@ order: 37
 </h2>
 
 <div class="theory-card">
+  <div class="lesson-note mb-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Маленькие знаки, обозначающие обычное удлинение на 2 харакята, выделены <b><span class="tajweed-color-short-light">золотистым</span></b> в светлой теме и <b><span class="tajweed-color-short-dark">светло-розовым</span></b> в тёмной. Если есть причина более долгого мадда, цвет зависит от его вида. В примере ниже найдите маленький алиф в слове <span class="arab">إِلَٰهِ</span>: он обозначает удлинение на 2 харакята.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    {Quran}114:3-T{/Quran}
+  </div>
   <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
     <div class="flex items-center gap-4">
       <div class="arab-mark shrink-0 text-3xl" style="color: var(--color-fjord);">ا = ـٰ</div>

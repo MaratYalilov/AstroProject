@@ -18,6 +18,12 @@ order: 38
   </div>
 </div>
 
+<div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+  <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Непроизносимые буквы выделены <b><span class="tajweed-color-silent">серым</span></b> в обеих темах. Для букв, которые читаются только при остановке, <span class="tajweed-color-silent">серый</span> цвет указывает на их пропуск при продолжении чтения. В примере ниже найдите алиф после уау в слове <span class="arab">فَلْيَعْبُدُواْ</span>: этот алиф пишется, но не произносится.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+  {Quran}106:3-T{/Quran}
+</div>
+
 <section class="theory-section">
 <h2 class="theory-heading">
   1. Знак сукуна над <span class="arab">ا</span> и <span class="arab">و</span>
@@ -47,32 +53,25 @@ order: 38
   </p>
 
   <div class="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">1) Поэты 26:115</p>
-    {Quran}26:115{/Quran}
+    {Quran}26:115-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">2) Пещера 18:38</p>
-    {Quran}18:38{/Quran}
+    {Quran}18:38-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">3) Союзники 33:10</p>
-    {Quran}33:10{/Quran}
+    {Quran}33:10-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">4) Союзники 33:66</p>
-    {Quran}33:66{/Quran}
+    {Quran}33:66-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">5) Союзники 33:67</p>
-    {Quran}33:67{/Quran}
+    {Quran}33:67-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">6) Человек 76:4</p>
-    {Quran}76:4{/Quran}
+    {Quran}76:4-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">7) Человек 76:15</p>
-    {Quran}76:15{/Quran}
+    {Quran}76:15-T{/Quran}
   </div>
 </div>
 </section>

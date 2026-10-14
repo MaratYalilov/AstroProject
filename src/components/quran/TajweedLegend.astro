@@ -1,0 +1,217 @@
+---
+import { tajweedRules } from '../../data/tajweedLegend';
+import { getAyahText, getQcfV2ForAyah, renderAyahBlock } from '../../utils/quranRenderer';
+import { splitTajweedText } from '../../utils/tajweedText';
+
+const examples = [...new Set(tajweedRules.flatMap(rule => rule.examples ?? []).map(ref => ref.split(':').slice(0, 2).join(':')))];
+const markers = Object.fromEntries(['1:1', '110:1'].map(ref => {
+  const [surah, ayah] = ref.split(':').map(Number);
+  const { page, code_v2 } = getQcfV2ForAyah(surah, ayah);
+  return [ref, { page, glyph: [...code_v2.trim()].at(-1) }];
+}));
+
+function exampleWord(ref: string) {
+  const [surah, ayah, word] = ref.split(':').map(Number);
+  return word ? getAyahText(surah, ayah).arabic?.split(' ')[word - 1] ?? '' : '';
+}
+
+---
+
+<div id="tajweed-legend-root">
+  <dialog class="tajweed-legend" aria-labelledby="tajweed-legend-title" aria-describedby="tajweed-legend-intro">
+    <header class="legend-header">
+      <h2 id="tajweed-legend-title">Цвета таджвида</h2>
+      <button type="button" class="legend-close" data-legend-close aria-label="Закрыть справку" autofocus>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+      </button>
+    </header>
+    <div class="legend-scroll">
+      <p id="tajweed-legend-intro" class="legend-intro">Общая справка к цветным примерам в «Муаллим сани». Оттенки соответствуют текущей теме страницы.</p>
+      <p class="legend-help">Нажмите на пример, чтобы раскрыть аят с переводом и озвучкой. Запись <b>2:3:7</b> означает: сура 2, аят 3, слово 7.</p>
+      <div data-legend-content></div>
+      <footer class="legend-footer">Цветные примеры появляются после загрузки шрифта; до этого виден обычный арабский текст.</footer>
+    </div>
+  </dialog>
+
+  <!-- Inert templates keep example fonts and audio unloaded until the reader opens them. -->
+  <template data-legend-table>
+    <table class="legend-table">
+      <caption class="sr-only">Обозначения, правила таджвида и примеры из Корана</caption>
+      <thead><tr><th scope="col">Знак</th><th scope="col">Правило и пояснение</th></tr></thead>
+      <tbody>
+        {tajweedRules.map(rule => {
+          const marker = rule.symbol === 'ayah' ? markers['1:1'] : rule.symbol === 'continuation' ? markers['110:1'] : null;
+          return (
+            <tr class:list={{ 'legend-group': rule.group }}>
+              <td class="legend-symbol" aria-hidden="true">
+                <span class="legend-swatches">
+                  {rule.colors?.map(color => <span class={`legend-dot legend-color-${color}`}></span>)}
+                  {rule.symbol === 'mixed' && <span class="legend-dot legend-mixed"></span>}
+                  {rule.symbol === 'outline' && <svg width="38" height="38" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1.2"><ellipse cx="12" cy="9" rx="10" ry="3" transform="rotate(-15 12 9)"/><ellipse cx="29" cy="15" rx="9" ry="4" transform="rotate(-53 29 15)"/><path d="M3 20h13v15H3zM23 26h13v9H23z"/></svg>}
+                  {marker && <span class="legend-ayah qcf-text" data-qcf-page={marker.page} data-qcf-variant="tajweed" lang="ar" dir="rtl"><span class="qcf-fallback">۝</span><span class={`qcf-glyphs qcf-tajweed-page-${marker.page}`}>{marker.glyph}</span></span>}
+                </span>
+              </td>
+              <td>
+                <h3 class="legend-rule-title">{rule.title}{rule.arabic && <span class="arab" lang="ar" dir="rtl">{rule.arabic}</span>}</h3>
+                <p class="legend-description">{splitTajweedText(rule.description).map(part => part.arabic ? <span class="arab" lang="ar" dir="rtl">{part.text}</span> : part.color ? <span class={`tajweed-color-${part.color}`}>{part.text}</span> : part.text)}</p>
+                {rule.examples && <div class="legend-examples"><span>Примеры:</span>{rule.examples.map(ref => <button type="button" data-legend-example={ref.split(':').slice(0, 2).join(':')} data-example-ref={ref} data-example-word={exampleWord(ref)} aria-expanded="false" aria-controls={`legend-preview-${rule.id}`}>{ref}</button>)}</div>}
+                {rule.examples && <div id={`legend-preview-${rule.id}`} class="legend-preview" hidden></div>}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </template>
+  {examples.map(ref => {
+    const [surah, ayah] = ref.split(':').map(Number);
+    const audioId = `quran-audio-${surah}-${ayah}-tajweed`;
+    const html = renderAyahBlock(surah, ayah, { tajweed: true }).replaceAll(audioId, `legend-${audioId}`);
+    return <template data-legend-ayah={ref}><p data-example-word-label hidden><span data-example-word-number></span>{' '}<span class="arab" data-example-word-text lang="ar" dir="rtl"></span></p><Fragment set:html={html} /></template>;
+  })}
+</div>
+
+<script>
+  const root = document.querySelector('#tajweed-legend-root');
+  const dialog = root?.querySelector<HTMLDialogElement>('dialog');
+  const content = root?.querySelector<HTMLElement>('[data-legend-content]');
+  const table = root?.querySelector<HTMLTemplateElement>('[data-legend-table]');
+  if (root && dialog && content && table) {
+    let opener: HTMLElement | null = null;
+    let previousOverflow = '';
+    let activeButton: HTMLButtonElement | null = null;
+    let activePreview: HTMLElement | null = null;
+    const ayahs = new Map([...root.querySelectorAll<HTMLTemplateElement>('[data-legend-ayah]')].map(template => [template.dataset.legendAyah, template]));
+
+    const clearPreview = () => {
+      activePreview?.querySelectorAll('audio').forEach(audio => audio.pause());
+      activePreview?.replaceChildren();
+      if (activePreview) activePreview.hidden = true;
+      activeButton?.setAttribute('aria-expanded', 'false');
+      activeButton = null;
+      activePreview = null;
+    };
+
+    document.addEventListener('click', event => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+      const button = target.closest<HTMLElement>('[data-tajweed-legend-open]');
+      if (!button || dialog.open) return;
+      event.preventDefault();
+      if (!content.firstElementChild) content.append(table.content.cloneNode(true));
+      opener = button;
+      previousOverflow = document.body.style.overflow;
+      dialog.showModal();
+      document.body.style.overflow = 'hidden';
+    });
+
+    dialog.addEventListener('click', event => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+      if (target.closest('[data-legend-close]')) { dialog.close(); return; }
+      if (target === dialog) {
+        const rect = dialog.getBoundingClientRect();
+        if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
+        return;
+      }
+      const button = target.closest<HTMLButtonElement>('[data-legend-example]');
+      if (!button) return;
+      const wasActive = button === activeButton;
+      clearPreview();
+      if (wasActive) return;
+      const template = ayahs.get(button.dataset.legendExample);
+      const preview = button.closest('td')?.querySelector<HTMLElement>('.legend-preview');
+      if (!template || !preview) return;
+      preview.append(template.content.cloneNode(true));
+      const wordLabel = preview.querySelector<HTMLElement>('[data-example-word-label]');
+      const wordNumber = wordLabel?.querySelector<HTMLElement>('[data-example-word-number]');
+      const wordText = wordLabel?.querySelector<HTMLElement>('[data-example-word-text]');
+      if (wordLabel && wordNumber && wordText && button.dataset.exampleWord) {
+        wordNumber.textContent = `Слово ${button.dataset.exampleRef?.split(':')[2]}:`;
+        wordText.textContent = button.dataset.exampleWord;
+        wordLabel.hidden = false;
+      }
+      preview.hidden = false;
+      button.setAttribute('aria-expanded', 'true');
+      activeButton = button;
+      activePreview = preview;
+    });
+
+    dialog.addEventListener('close', () => {
+      clearPreview();
+      document.body.style.overflow = previousOverflow;
+      if (opener?.isConnected) opener.focus({ preventScroll: true });
+      opener = null;
+    });
+  }
+</script>
+
+<style>
+  .tajweed-legend {
+    width: min(740px, calc(100% - 24px));
+    max-width: none;
+    max-height: min(90dvh, 950px);
+    margin: auto;
+    padding: 0;
+    border: 1px solid hsl(var(--border));
+    border-radius: 18px;
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+    box-shadow: 0 24px 80px #0004;
+    overflow: hidden;
+  }
+  .tajweed-legend::backdrop { background: #0009; }
+  .legend-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 24px; border-bottom: 1px solid hsl(var(--border)); }
+  .legend-header h2 { margin: 0; padding: 0; border: 0; color: inherit; font-size: 22px; font-weight: 650; }
+  .legend-close { display: grid; place-items: center; width: 36px; height: 36px; flex-shrink: 0; border-radius: 50%; background: hsl(var(--muted)); color: inherit; cursor: pointer; }
+  .legend-scroll { max-height: calc(min(90dvh, 950px) - 74px); overflow-y: auto; overscroll-behavior: contain; padding: 20px 24px 24px; scrollbar-gutter: stable; }
+  .legend-intro, .legend-help { margin: 0 0 12px; font-size: 14px; line-height: 1.65; }
+  .legend-help { color: hsl(var(--muted-foreground)); margin-bottom: 20px; }
+  .legend-footer { margin-top: 20px; font-size: 12px; line-height: 1.65; color: hsl(var(--muted-foreground)); }
+  .legend-footer a { text-decoration: underline; text-underline-offset: 3px; }
+  /* The table is cloned from a template, so selectors must also match cloned HTML. */
+  :global(.legend-table) { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  :global(.legend-table th) { background: hsl(var(--muted)); text-align: left; font-size: 12px; font-weight: 600; padding: 12px 10px; }
+  :global(.legend-table th:first-child) { width: 68px; text-align: center; }
+  :global(.legend-table td) { padding: 18px 10px; border-bottom: 1px solid hsl(var(--border)); vertical-align: top; }
+  :global(.legend-table .legend-symbol) { padding-top: 22px; }
+  :global(.legend-group) { background: hsl(var(--muted) / .5); }
+  :global(.legend-swatches) { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 3px; min-height: 24px; }
+  :global(.legend-dot) { width: 18px; height: 18px; flex: 0 0 18px; border-radius: 50%; }
+  :global(.legend-group .legend-dot) { width: 14px; height: 14px; flex-basis: 14px; }
+  :global(.legend-color-normal) { background: var(--tajweed-normal); }
+  :global(.legend-color-silent) { background: var(--tajweed-silent); }
+  :global(.legend-color-lazim) { background: var(--tajweed-lazim); }
+  :global(.legend-color-madd) { background: var(--tajweed-madd); }
+  :global(.legend-color-pause) { background: var(--tajweed-pause); }
+  :global(.legend-color-short) { background: var(--tajweed-short); }
+  :global(.legend-color-ghunna) { background: var(--tajweed-ghunna); }
+  :global(.legend-color-tafkhim) { background: var(--tajweed-tafkhim); }
+  :global(.legend-color-qalqalah) { background: var(--tajweed-qalqalah); }
+  :global(.legend-mixed) { background: linear-gradient(90deg, var(--tajweed-ghunna) 50%, var(--tajweed-silent) 50%); }
+  :global(.legend-ayah) { font-size: 32px; line-height: 1.2; }
+  :global(.legend-rule-title) { margin: 0 0 7px; color: hsl(var(--foreground)); font-size: 14px; line-height: 1.5; font-weight: 650; overflow-wrap: anywhere; }
+  :global(.legend-rule-title > .arab) { display: block; margin-top: 3px; text-align: left; font-weight: 500; }
+  :global(.legend-description) { margin: 0; font-size: 14px; line-height: 1.65; color: hsl(var(--muted-foreground)); }
+  :global(.legend-examples) { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-top: 8px; font-size: 13px; color: hsl(var(--muted-foreground)); }
+  :global(.legend-examples button) { color: hsl(var(--foreground)); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; padding: 3px 0; }
+  :global(.legend-examples button[aria-expanded="true"]) { font-weight: 700; }
+  :global(.legend-preview) { margin-top: 12px; }
+  :global(.legend-preview .quran-ayah-block) { padding: 14px; border: 1px solid hsl(var(--border)); background: hsl(var(--muted) / .45); }
+  :global(.legend-preview .quran-ayah-block__arabic) { font-size: 34px !important; line-height: 2; }
+  :global(.legend-preview .quran-ayah-block__translation) { font-size: 13px; }
+  :global([data-tajweed-legend-open]) { display: inline-flex; align-items: center; margin-top: 10px; padding: 5px 0; font-size: 13px; font-weight: 500; color: inherit; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+  :global([data-tajweed-legend-open]:hover) { text-decoration-thickness: 2px; }
+  :global([data-tajweed-legend-open]:focus-visible), :global(.legend-examples button:focus-visible), .legend-close:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 4px; border-radius: 4px; }
+  @media (max-width: 480px) {
+    .legend-header { padding: 14px 16px; }
+    .legend-header h2 { font-size: 20px; }
+    .legend-scroll { padding: 16px 10px; max-height: calc(90dvh - 66px); }
+    :global(.legend-table th:first-child) { width: 50px; }
+    :global(.legend-table td), :global(.legend-table th) { padding-inline: 6px; }
+    :global(.legend-dot) { width: 15px; height: 15px; flex-basis: 15px; }
+    :global(.legend-group .legend-dot) { width: 10px; height: 10px; flex-basis: 10px; }
+    :global(.legend-preview .quran-ayah-block) { padding: 10px; }
+    :global(.legend-preview .quran-ayah-block__arabic) { font-size: 30px !important; }
+  }
+</style>

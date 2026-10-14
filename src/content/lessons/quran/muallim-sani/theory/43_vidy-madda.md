@@ -1,6 +1,6 @@
 ---
 title: 'Виды мадда (удлинения)'
-order: 44
+order: 45
 ---
 <div class="theory-hero">
   <div class="theory-hero-inner">
@@ -88,7 +88,7 @@ order: 44
           <td class="p-2">нет</td>
           <td class="p-2"><span class="arab">ــَـا ــِـى ــُـو</span></td>
           <td class="p-2">2</td>
-          <td class="p-2"><span class="arab">مَلِكِ ٱلنَّاسِ</span> (114:2)</td> {Quran}114:2{/Quran}
+          <td class="p-2"><span class="arab">مَلِكِ ٱلنَّاسِ</span></td> {Quran}114:2-T{/Quran}
         </tr>
         <tr>
           <td class="p-2">ʼивад</td>
@@ -109,7 +109,7 @@ order: 44
           <td class="p-2"><span class="arab">أ</span> в начале следующего слова</td>
           <td class="p-2"><span class="arab">ــَـا ــِـى ــُـو</span></td>
           <td class="p-2">4–5</td>
-          <td class="p-2"><span class="arab">مَالَهُۥٓ أَخۡلَدَهُۥ</span> (104:3)</td> {Quran}104:3{/Quran}
+          <td class="p-2"><span class="arab">مَالَهُۥٓ أَخۡلَدَهُۥ</span></td> {Quran}104:3-T{/Quran}
         </tr>
         <tr>
           <td class="p-2">лязим</td>
@@ -159,7 +159,11 @@ order: 44
   <span class="arab">قِيلَ</span>،
   <span class="arab">إِلَٰهِ</span>.
 </p>
-{Quran}114:3{/Quran}
+<div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+  <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Мадд таби‘ий выделен <b><span class="tajweed-color-short-light">золотистым</span></b> в светлой теме и <b><span class="tajweed-color-short-dark">светло-розовым</span></b> в тёмной. В примере ниже найдите маленький алиф в слове <span class="arab">إِلَٰهِ</span>.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+</div>
+{Quran}114:3-T{/Quran}
 
   </div>
   <!-- МАДД ИВАД -->
@@ -183,7 +187,11 @@ order: 44
       читается как
       <span class="arab">تَوَّابَا</span>.
     </p>
-    {Quran}110:3{/Quran}
+    <div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Для мадда ‘ивад в этом примере отдельной подсветки нет. Найдите танвин фатха в конце слова <span class="arab">تَوَّابًا</span> и при остановке замените его удлинением на 2 харакята.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    </div>
+    {Quran}110:3-T{/Quran}
   </div>
 
   <!-- МАДД МУТТАСЫЛ -->
@@ -204,7 +212,11 @@ order: 44
       Например:
       <span class="arab">جَآءَ</span>.
     </p>
-    {Quran}110:1{/Quran}
+    <div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Мадд муттасыль выделен <b><span class="tajweed-color-madd-light">ярко-красным</span></b> в светлой теме и <b><span class="tajweed-color-madd-dark">розовым</span></b> в тёмной. В примере ниже ищите подсветку удлинения в слове <span class="arab">جَآءَ</span>.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    </div>
+    {Quran}110:1-T{/Quran}
     <div class="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900/40 dark:bg-amber-950/20">
       <p class="!mt-0 leading-relaxed">
       <strong>Подсказка.</strong>
@@ -228,7 +240,11 @@ order: 44
     <p class="text-center">
       <span class="arab text-3xl">إِنَّا أَنزَلۡنَاهُ</span>
     </p>
-    {Quran}97:1{/Quran}
+    <div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Мадд мунфасыль выделен <b><span class="tajweed-color-madd-light">ярко-красным</span></b> в светлой теме и <b><span class="tajweed-color-madd-dark">розовым</span></b> в тёмной. В примере ниже это удлинение в конце <span class="arab">إِنَّآ</span> перед хамзой следующего слова.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    </div>
+    {Quran}97:1-T{/Quran}
   <div class="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900/40 dark:bg-amber-950/20">
     <p class="!mt-0 leading-relaxed">
       <strong>Подсказка.</strong>
@@ -264,7 +280,11 @@ order: 44
 <p class="text-center">
   <span class="arab text-3xl">الضَّآلِّينَ</span>
 </p>
-{Quran}1:7{/Quran}
+<div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+  <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Мадд лязим выделен <b><span class="tajweed-color-lazim-light">тёмно-красным</span></b> в светлой теме и <b><span class="tajweed-color-lazim-dark">красным</span></b> в тёмной. В примере ниже найдите удлинение перед ташдидом в слове <span class="arab">ٱلضَّآلِّينَ</span>.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+</div>
+{Quran}1:7-T{/Quran}
 
   </div>
   <!-- МАДД АРИД ЛИССУКУН -->
@@ -291,7 +311,11 @@ order: 44
   поэтому такое удлинение возникает только
   <b>при остановке</b>.
 </p>
-{Quran}1:4{/Quran}
+<div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+  <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Мадд ‘арид при остановке выделен <b><span class="tajweed-color-pause">оранжевым</span></b> в обеих темах. В примере ниже найдите удлинение в конце слова <span class="arab">ٱلدِّينِ</span>; при остановке его тянут на 2, 4 или 6 харакятов.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+</div>
+{Quran}1:4-T{/Quran}
 
   </div>
   <!-- МАДД ЛИН -->
@@ -315,7 +339,11 @@ order: 44
       <span class="arab">خَوۡفٍ٭</span>،
       <span class="arab">قُرَيۡشٍ٭</span>.
     </p>
-    {Quran}106:1{/Quran}
+    <div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+      <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> Мадд лин при остановке выделен <b><span class="tajweed-color-pause">оранжевым</span></b> в обеих темах. В примере ниже найдите мягкую букву в слове <span class="arab">قُرَيۡشٍ</span>; удлинение возникает при остановке на этом слове.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+    </div>
+    {Quran}106:1-T{/Quran}
   </div>
   <!-- ПРИМЕЧАНИЕ -->
   <div class="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">

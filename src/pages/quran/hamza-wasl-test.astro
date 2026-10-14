@@ -1,0 +1,203 @@
+---
+import Base from "../../layouts/Base.astro";
+import allWords from "../../data/quran-hamza-wasl-all.json";
+import surahs from "../../data/surahs.json";
+import { replaceQuranTags } from "../../utils/replaceQuranTags";
+
+export const prerender = false;
+const params = Astro.url.searchParams;
+const mode = params.get("mode") === "off" ? "off" : params.get("mode") === "all" ? "all" : "basic";
+const pool = allWords;
+const position = ["start", "text"].includes(params.get("position") ?? "") ? params.get("position")! : "";
+const surahFilter = surahs.some(surah => String(surah.num) === params.get("surah")) ? params.get("surah")! : "";
+const vowels = [
+  { value: "fatha", mark: "َ", label: "Фатха" },
+  { value: "kasra", mark: "ِ", label: "Кясра" },
+  { value: "damma", mark: "ُ", label: "Дамма" },
+];
+const vowel = vowels.find(vowel => vowel.value === params.get("vowel"));
+const filtered = pool.filter(entry => (!surahFilter || String(entry.surah) === surahFilter)
+  && (!vowel || entry.reading[1] === vowel.mark)
+  && (!position || (position === "start" ? entry.word_number === 1 : entry.word_number > 1)));
+const ayahGroups = new Map<string, (typeof allWords)[number][]>();
+for (const entry of filtered) {
+  const key = `${entry.surah}:${entry.ayah}`;
+  const entries = ayahGroups.get(key) ?? [];
+  entries.push(entry);
+  ayahGroups.set(key, entries);
+}
+const groups = [...ayahGroups.values()];
+const perPage = 40;
+const totalPages = Math.max(1, Math.ceil(groups.length / perPage));
+const requestedPage = Number(params.get("page") ?? 1);
+const page = Math.min(totalPages, Math.max(1, Number.isInteger(requestedPage) ? requestedPage : 1));
+const examples = groups.slice((page - 1) * perPage, page * perPage).map(entries => {
+  const { surah, ayah } = entries[0];
+  return { surah, ayah, entries,
+    surahName: surahs.find(meta => meta.num === surah)!.name_ru,
+    html: replaceQuranTags(`{Quran}${surah}:${ayah}-T{/Quran}`),
+  };
+});
+const totalAyahs = new Set(pool.map(entry => `${entry.surah}:${entry.ayah}`)).size;
+const wordGroups = new Map<string, { word: string; reading: string; count: number }>();
+for (const entry of filtered) {
+  const key = JSON.stringify([entry.word, entry.reading]);
+  const group = wordGroups.get(key);
+  if (group) group.count++;
+  else wordGroups.set(key, { word: entry.word, reading: entry.reading, count: 1 });
+}
+const wordRows = [...wordGroups.values()].sort((a, b) => b.count - a.count);
+function pageUrl(target: number) {
+  const query = new URLSearchParams({ mode, position, surah: surahFilter, vowel: vowel?.value ?? "", page: String(target) });
+  return `${Astro.url.pathname}?${query}#wasl-verses`;
+}
+---
+
+<Base title={`Хамза васль: проверка подсказок | HUTBA.org`}>
+  <meta slot="head" name="robots" content="noindex, nofollow" />
+  <div class="wasl-test mx-auto max-w-4xl" data-wasl-mode-initial={mode}>
+    <header class="mb-7 space-y-3">
+      <p class="text-sm text-muted-foreground">Тестовая страница · {allWords.length} слов в полном списке</p>
+      <h1 class="text-3xl font-semibold tracking-tight">Хамза васль: начало чтения</h1>
+      <p class="leading-7">
+        Кнопка со знаком васля внизу аята открывает выбор режима: выключить подсказки,
+        показать их в начале и после остановок или для всех слов с хамзой васль.
+        Выбор применяется ко всей странице. Огласованная запись нужна при начале чтения
+        с этого слова; она не обозначает разрешение остановиться или начать чтение в этом месте.
+      </p>
+      <p class="text-sm text-muted-foreground">
+        Таблица учитывает полный список из {allWords.length} слов с выбранными фильтрами.
+        Режим подсказок меняет только плашки в аятах. Аяты показаны по {perPage} на странице.
+      </p>
+    </header>
+    <nav class="wasl-test-nav" aria-label="Разделы тестовой страницы">
+      <a href="#wasl-test-filters">Фильтры</a>
+      <a href="#wasl-word-table">Таблица слов</a>
+      <a href="#wasl-verses">Аяты</a>
+    </nav>
+    <form id="wasl-test-filters" method="get" action={`${Astro.url.pathname}#wasl-verses`} class="mb-4 rounded-xl border bg-muted p-4">
+      <input type="hidden" name="mode" value={mode} />
+      <div class="wasl-test-filter-fields">
+        <label class="grid gap-2 text-sm" for="wasl-test-position">Положение слова
+          <select name="position" id="wasl-test-position" class="min-w-0 rounded-lg border bg-background p-2 text-foreground">
+            <option value="" selected={!position}>Все слова</option>
+            <option value="start" selected={position === "start"}>В начале</option>
+            <option value="text" selected={position === "text"}>В тексте</option>
+          </select>
+        </label>
+        <label class="grid gap-2 text-sm" for="wasl-test-surah">Сура
+          <select name="surah" id="wasl-test-surah" class="min-w-0 rounded-lg border bg-background p-2 text-foreground">
+            <option value="" selected={!surahFilter}>Все суры</option>
+            {surahs.filter(surah => pool.some(entry => entry.surah === surah.num)).map(surah => (
+              <option value={surah.num} selected={String(surah.num) === surahFilter}>{surah.num}. {surah.name_ru}</option>
+            ))}
+          </select>
+        </label>
+        <label class="grid gap-2 text-sm" for="wasl-test-vowel">Начальная огласовка
+          <select name="vowel" id="wasl-test-vowel" class="min-w-0 rounded-lg border bg-background p-2 text-foreground">
+            <option value="" selected={!vowel}>Все огласовки</option>
+            {vowels.map(item => <option value={item.value} selected={item.value === vowel?.value}>{item.label}</option>)}
+          </select>
+        </label>
+        <button type="reset" class="rounded-lg border bg-background px-4 py-2 text-sm hover:bg-accent">Сбросить</button>
+      </div>
+      <div class="wasl-test-pages">
+        <label for="wasl-test-page">Страница
+          <input id="wasl-test-page" name="page" type="number" min="1" max={totalPages} value={page} class="rounded-lg border bg-background p-2 text-foreground" />
+          из {totalPages}
+        </label>
+        <button type="submit" class="rounded-lg border bg-background px-4 py-2 text-sm hover:bg-accent">Показать</button>
+      </div>
+    </form>
+    <p id="wasl-test-count" class="mb-6 text-sm text-muted-foreground">
+      Слов: {filtered.length} из {pool.length}. Аятов: {groups.length} из {totalAyahs}.
+    </p>
+    {groups.length === 0 && <p id="wasl-test-empty" class="rounded-lg border p-5">Слов, подходящих под выбранные фильтры, нет.</p>}
+    <section id="wasl-word-table" class="wasl-word-summary" aria-labelledby="wasl-word-title">
+      <h2 id="wasl-word-title">Слова для начала чтения с хамзой васль</h2>
+      <p class="text-sm text-muted-foreground">{wordRows.length} вариантов написания, {filtered.length} вхождений в {groups.length} аятах.</p>
+      <details>
+        <summary>Таблица слов ({wordRows.length})</summary>
+        <div class="wasl-word-table-wrap">
+          <table class="wasl-word-table">
+            <caption>Вся выбранная выборка — от частых слов к редким</caption>
+            <thead><tr><th scope="col">Слово</th><th scope="col">Слово с огласовкой</th><th scope="col">Сколько раз в списке</th></tr></thead>
+            <tbody>{wordRows.map(row => <tr><td><span class="arab" lang="ar" dir="rtl">{row.word}</span></td><td><span class="arab" lang="ar" dir="rtl">{row.reading}</span></td><td>{row.count}</td></tr>)}</tbody>
+            <tfoot><tr><th scope="row" colspan="2">Всего мест в выборке</th><td id="wasl-word-total">{filtered.length}</td></tr></tfoot>
+          </table>
+        </div>
+      </details>
+    </section>
+    <h2 id="wasl-verses" class="wasl-verses-title">Аяты · страница {page} из {totalPages}</h2>
+    <nav class="wasl-test-nav" aria-label="Страницы аятов">
+      {page > 1 && <a data-wasl-page href={pageUrl(page - 1)}>← Предыдущая</a>}
+      <span class="text-sm text-muted-foreground">{groups.length ? `${(page - 1) * perPage + 1}–${Math.min(page * perPage, groups.length)} из ${groups.length}` : "Нет аятов"}</span>
+      {page < totalPages && <a data-wasl-page href={pageUrl(page + 1)}>Следующая →</a>}
+    </nav>
+    <div id="wasl-test-examples" class="space-y-8">
+      {examples.map((entry, index) => (
+        <section id={`ayah-${entry.surah}-${entry.ayah}`} class="wasl-test-example scroll-mt-24" aria-labelledby={`heading-${entry.surah}-${entry.ayah}`}>
+          <h2 id={`heading-${entry.surah}-${entry.ayah}`} class="text-lg font-semibold">
+            <span class="mr-2 text-sm font-normal text-muted-foreground">№ {(page - 1) * perPage + index + 1}</span>
+            <a href={`#ayah-${entry.surah}-${entry.ayah}`} class="underline underline-offset-4">{entry.surah}:{entry.ayah}</a>
+            <span class="ml-2">{entry.surahName}</span>
+          </h2>
+          <span hidden data-wasl-visible-words={entry.entries.map(word => word.word_number).join(",")} />
+          <Fragment set:html={entry.html} />
+        </section>
+      ))}
+    </div>
+    {page < totalPages && <nav class="wasl-test-nav" aria-label="Продолжение аятов"><a data-wasl-page href={pageUrl(page + 1)}>Следующая страница →</a></nav>}
+  </div>
+</Base>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>("#wasl-test-filters")!;
+  const page = form.querySelector<HTMLInputElement>("[name=page]")!;
+  const mode = form.querySelector<HTMLInputElement>("[name=mode]")!;
+  for (const example of document.querySelectorAll<HTMLElement>(".wasl-test-example")) {
+    const allowed = new Set(example.querySelector<HTMLElement>("[data-wasl-visible-words]")!.dataset.waslVisibleWords!.split(","));
+    for (const hint of example.querySelectorAll<HTMLElement>("[data-hamza-wasl]")) hint.hidden = !allowed.has(hint.dataset.wordNumber!);
+  }
+  for (const select of form.querySelectorAll("select")) select.addEventListener("change", () => { page.value = "1"; form.requestSubmit(); });
+  form.addEventListener("reset", event => {
+    event.preventDefault();
+    for (const select of form.querySelectorAll("select")) select.value = "";
+    page.value = "1";
+    form.requestSubmit();
+  });
+  document.addEventListener("quran-wasl-mode-change", event => {
+    const next = (event as CustomEvent<{ mode: string }>).detail.mode;
+    mode.value = next;
+    const current = new URL(window.location.href);
+    current.searchParams.set("mode", next);
+    current.searchParams.delete("scope");
+    window.history.replaceState(window.history.state, "", current);
+    for (const link of document.querySelectorAll<HTMLAnchorElement>("[data-wasl-page]")) {
+      const url = new URL(link.href);
+      url.searchParams.set("mode", next);
+      url.searchParams.delete("scope");
+      link.href = url.href;
+    }
+  });
+</script>
+
+<style>
+  .wasl-test-nav, .wasl-test-pages { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; margin: 1.25rem 0; }
+  .wasl-test-nav a { text-decoration: underline; text-underline-offset: .2em; }
+  .wasl-word-summary, .wasl-verses-title, #wasl-test-filters { scroll-margin-top: 6rem; }
+  .wasl-word-summary { margin-bottom: 2.5rem; }
+  .wasl-word-summary summary { cursor: pointer; margin-top: .75rem; }
+  .wasl-word-table-wrap { overflow-x: auto; margin-top: 1rem; border: 1px solid hsl(var(--border)); border-radius: .75rem; }
+  .wasl-word-table { width: 100%; border-collapse: collapse; text-align: center; font-variant-numeric: tabular-nums; }
+  .wasl-word-table caption { padding: .75rem; color: hsl(var(--muted-foreground)); font-size: .875rem; text-align: left; }
+  .wasl-word-table th, .wasl-word-table td { padding: .5rem .75rem; border-top: 1px solid hsl(var(--border)); }
+  .wasl-word-table thead, .wasl-word-table tfoot { background: hsl(var(--muted)); font-size: .875rem; }
+  .wasl-word-table .arab { white-space: nowrap; }
+  .wasl-test-filter-fields { display: grid; gap: 1rem; align-items: end; }
+  .wasl-test-pages label { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; font-size: .875rem; }
+  .wasl-test-pages input { width: 5rem; }
+  .wasl-test-example h2 { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem; }
+  .wasl-test-example :global(.quran-ayah-block) { margin-top: .5rem; }
+  @media (min-width: 640px) { .wasl-test-filter-fields { grid-template-columns: repeat(3, minmax(0, 1fr)) auto; } }
+</style>

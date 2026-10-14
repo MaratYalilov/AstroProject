@@ -1,6 +1,5 @@
 // src/components/LessonPage.tsx
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import React from "react";
 import {
   Play,
   ChevronLeft,
@@ -12,7 +11,6 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Input } from "@/components/ui/input";
@@ -21,7 +19,6 @@ import { LayoutList } from "lucide-react";
 
 import DictionaryFlashcard from './DictionaryFlashcard';
 import { useGlossaryTermTarget } from './hooks/useGlossaryTermTarget';
-import { getGlossaryTarget } from '../utils/glossaryTarget';
 import TeacherCredit from './TeacherCredit';
 
 export interface LessonSidebarItem {
@@ -367,9 +364,9 @@ const LessonPage: React.FC<LessonPageProps> = ({
     )}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(slug)}`;
 
   React.useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (!isClient) return;
     document.dispatchEvent(new CustomEvent("quran:reinit"));
-  }, [currentLesson.slug, currentLesson.html]);
+  }, [currentLesson.slug, currentLesson.html, isClient]);
 
   // =============================
   // поиск по урокам (сайдбар)
@@ -446,14 +443,10 @@ const LessonPage: React.FC<LessonPageProps> = ({
   };
 
   // =============================
-  // автопрокрутка к активному уроку + скролл страницы наверх
+  // Прокручиваем только список курса, сохраняя позицию чтения страницы.
   // =============================
   React.useEffect(() => {
     if (!isClient || normalizedQuery) return;
-
-    if (!getGlossaryTarget(window.location.hash)) {
-      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-    }
 
     const scrollToActiveLesson = () => {
       const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
@@ -572,19 +565,16 @@ const PrevNextOverlay = ({ mode }: { mode: "video" | "audio" }) => (
 );
 
 
-const [htmlWithCards, setHtmlWithCards] = useState<React.ReactNode[]>([]);
-
-useEffect(() => {
-  const html = currentLesson.html;
+// Render the same content on the server and on the first client pass.
+// HTML parsing normalizes line endings before React hydrates the page.
+const htmlWithCards = React.useMemo(() => {
+  const html = currentLesson.html.replace(/\r\n?/g, "\n");
   
   // Находим все маркеры с их позициями
   const markerRegex = /<div class="dic-flashcard-marker" data-lesson="(\d+)" data-words='([^']+)'><\/div>/g;
   const parts: React.ReactNode[] = [];
   let lastIndex = 0;
   let match;
-  
-  // Копируем html для поиска
-  let tempHtml = html;
   
   while ((match = markerRegex.exec(html)) !== null) {
     // Добавляем текст до маркера
@@ -627,26 +617,19 @@ useEffect(() => {
   
   // Если маркеров не найдено, показываем весь HTML как есть
   if (parts.length === 0) {
-    setHtmlWithCards([<div key="full-html" className="lesson-text" dangerouslySetInnerHTML={{ __html: html }} />]);
-  } else {
-    setHtmlWithCards(parts);
+    return [<div key="full-html" className="lesson-text" dangerouslySetInnerHTML={{ __html: html }} />];
   }
-  
+  return parts;
 }, [currentLesson.html]);
 
   return (
-    <ReducedMotionProvider>
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground" data-quran-audio-ready={isClient ? "true" : "false"}>
       {/* ========================= */}
       {/* FULL WIDTH MOBILE (YouTube) */}
       {/* ========================= */}
       <div className="w-full lg:hidden">
         {/* ВИДЕО / АУДИО */}
-        <motion.div
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2 }}
-        >
+        <div>
           <Card className="overflow-hidden rounded-none border-0">
 
             <CardContent className="space-y-4 p-0">
@@ -704,7 +687,7 @@ useEffect(() => {
               )}
             </CardContent>
           </Card>
-        </motion.div>
+        </div>
 
         {/* TOOLBAR УРОКА MOBILE*/}
         <Card className="rounded-none border-x-0 border-border/70 border-t-0">
@@ -831,14 +814,9 @@ useEffect(() => {
 
         {/* ТЕКСТ УРОКА */}
         <TeacherCredit subject={subject} course={course} />
-        <motion.article
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2 }}
-          className="lesson-reading max-w-none px-0 py-4"
-        >
+        <article className="lesson-reading max-w-none px-0 py-4">
           {htmlWithCards}
-        </motion.article>
+        </article>
 
         {/* ПРОГРАММА КУРСА (МОБИЛКА) */}
         <aside ref={courseProgramMobileRef} className="w-full">
@@ -998,11 +976,7 @@ useEffect(() => {
           {/* ЛЕВАЯ ЧАСТЬ */}
           <section className="lg:col-span-8">
             {/* ВИДЕО / АУДИО */}
-            <motion.div
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2 }}
-            >
+            <div>
               <Card className="border-0 rounded-none shadow-none">
 
                 {/* <CardHeader className="flex flex-col gap-2">
@@ -1052,7 +1026,7 @@ useEffect(() => {
                   )}
                 </CardContent>
               </Card>
-            </motion.div>
+            </div>
 
             {/* TOOLBAR УРОКА */}
             <Card className="border-0 shadow-none ">
@@ -1169,14 +1143,9 @@ useEffect(() => {
 
             {/* ТЕКСТ УРОКА (ВСЕГДА ПОД ВИДЕО) */}
             <TeacherCredit subject={subject} course={course} />
-            <motion.article
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2 }}
-              className="lesson-reading max-w-none p-6"
-            >
+            <article className="lesson-reading max-w-none p-6">
               {htmlWithCards}
-            </motion.article>
+            </article>
           </section>
 
           {/* ПРАВАЯ ПАНЕЛЬ: список уроков */}
@@ -1319,7 +1288,6 @@ useEffect(() => {
         </main>
       </div>
     </div>
-    </ReducedMotionProvider>
   );
 };
 

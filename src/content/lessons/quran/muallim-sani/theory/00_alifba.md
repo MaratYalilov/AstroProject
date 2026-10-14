@@ -207,7 +207,7 @@ order: 1
       </div>
     <p class="mb-4">Огласовки вернули в слово гласные звуки.Вот как устроено арабское письмо.</p>
     <div class="mt-10 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-          {Quran}12:2{/Quran}
+          {Quran}12:2-T{/Quran}
     </div>
 </div>
 </div>

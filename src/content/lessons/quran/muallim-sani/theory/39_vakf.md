@@ -137,24 +137,19 @@ order: 40
     Символ «сакт» встречается в 5 аятах Корана:
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">1) Пещера 18:1</p>
-    {Quran}18:1{/Quran}
+    {Quran}18:1-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">2) Ясин 36:52</p>
-    {Quran}36:52{/Quran}
+    {Quran}36:52-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">3) Неизбежное 69:28</p>
-    {Quran}69:28{/Quran}
+    {Quran}69:28-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">4) Воскресение 75:27</p>
-    {Quran}75:27{/Quran}
+    {Quran}75:27-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    <p class="!mt-0 mb-2 text-sm font-semibold text-gray-500 dark:text-gray-400">5) Обвешивающие 83:14</p>
-    {Quran}83:14{/Quran}
+    {Quran}83:14-T{/Quran}
   </div>
 </div>
 </section>

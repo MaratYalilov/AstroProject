@@ -60,7 +60,7 @@ order: 30
     </p>
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}27:16{/Quran}
+    {Quran}27:16-T{/Quran}
   </div>
 </div>
 </section>

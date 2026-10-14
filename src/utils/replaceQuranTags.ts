@@ -9,6 +9,7 @@ const QURAN_TAG_REGEX = /\{Quran\}(\d+):(\d+)(?:-(\d+))?(-T)?\{\/Quran\}/gi;
 
 export function replaceQuranTags(input: string): string {
   if (!input) return "";
+  const audioOccurrences = new Map<string, number>();
 
   return input.replace(
     QURAN_TAG_REGEX,
@@ -35,13 +36,15 @@ export function replaceQuranTags(input: string): string {
           return match;
         }
 
-        if (!hasRange || fromAyah === toAyah) {
-          // одиночный аят
-          return renderAyahBlock(surah, fromAyah, options);
-        }
-
-        // диапазон аятов: один общий блок
-        return renderAyahRangeBlock(surah, fromAyah, toAyah, options);
+        const html = !hasRange || fromAyah === toAyah
+          ? renderAyahBlock(surah, fromAyah, options)
+          : renderAyahRangeBlock(surah, fromAyah, toAyah, options);
+        // Повторный пример должен управлять своим аудио, а не первым в документе.
+        const audioId = html.match(/data-audio-id="([^"]+)"/)?.[1];
+        if (!audioId) return html;
+        const occurrence = (audioOccurrences.get(audioId) ?? 0) + 1;
+        audioOccurrences.set(audioId, occurrence);
+        return occurrence === 1 ? html : html.replaceAll(audioId, `${audioId}-${occurrence}`);
       } catch (e) {
         console.error("[QuranTags] Error rendering tag:", match, e);
         // fallback – оставляем исходный тег, чтобы было видно проблему

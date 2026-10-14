@@ -1,6 +1,6 @@
 ---
 title: 'Другие виды идгама'
-order: 43
+order: 44
 ---
 <div class="theory-hero">
   <div class="theory-hero-inner">
@@ -37,7 +37,7 @@ order: 43
       <tbody>
         <tr>
           <td class="p-2">все одинаковые буквы, кроме <span class="arab">م</span> и <span class="arab">ن</span></td>
-          <td class="p-2"><span class="arab">د ت ط</span><br/><span class="arab">ث ذ ظ</span><br/><span class="arab">ب م</span></td> {Quran}27:35{/Quran}
+          <td class="p-2"><span class="arab">د ت ط</span><br/><span class="arab">ث ذ ظ</span><br/><span class="arab">ب م</span></td> {Quran}27:35-T{/Quran}
           <td class="p-2"><span class="arab">ل ر</span><br/><span class="arab">ق ك</span></td>
         </tr>
       </tbody>
@@ -68,10 +68,10 @@ order: 43
     эти буквы произносятся с назализацией.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}2:16{/Quran}
+    {Quran}2:16-T{/Quran}
   </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}4:63{/Quran}
+    {Quran}4:63-T{/Quran}
   </div>
 </div>
 </section>
@@ -95,7 +95,7 @@ order: 43
   </p>
   <p class="text-center"><span class="arab text-2xl">فَرَّطتُمۡ ، وَقَالَت طَّآئِفَةٌ</span></p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}109:4{/Quran}
+    {Quran}109:4-T{/Quran}
   </div>
 <div class="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900/40 dark:bg-amber-950/20">
   <p class="!mt-0 leading-relaxed">
@@ -119,7 +119,7 @@ order: 43
     В остальных парах этой группы слияние является
     <strong>полным</strong>, поэтому шадда обязательна,
     например:
-    <span class="arab">وَقَالَت طَّآئِفَةٞ</span>. {Quran}3:72{/Quran}
+    <span class="arab">وَقَالَت طَّآئِفَةٞ</span>. {Quran}3:72-T{/Quran}
   </p>
 </div>
 
@@ -145,7 +145,7 @@ order: 43
     <span class="arab">م</span> после <span class="arab">ب</span>.
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}11:42{/Quran}
+    {Quran}11:42-T{/Quran}
   </div>
     <p class="leading-relaxed">
     <b>Подсказка в Коране:</b> отсутствие «сукуна» над первой и наличие «шадды»
@@ -169,13 +169,13 @@ order: 43
     <span class="arab">ل</span>:
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}20:114{/Quran}
+    {Quran}20:114-T{/Quran}
   </div>
   <p class="leading-relaxed">
     <b>Исключение</b> — здесь стоит «сакта», поэтому слияния нет:
   </p>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}83:14{/Quran}
+    {Quran}83:14-T{/Quran}
   </div>
   <p class="leading-relaxed">
     <b>Подсказка в Коране:</b> отсутствие «сукуна» над первой и наличие «шадды»
@@ -189,8 +189,12 @@ order: 43
     Пара <span class="arab">ق ك</span>: <span class="arab">ك</span> после
     <span class="arab">ق</span>. Единственный пример в Коране:
   </p>
+  <div class="lesson-note mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+    <p class="!my-0 text-sm leading-relaxed text-gray-700 dark:text-gray-300"><b class="tajweed-note-title">Цветовое обозначение правил таджвида.</b> При полном идгаме поглощённая буква выделена <b><span class="tajweed-color-silent">серым</span></b> в обеих темах. Если слияние сопровождается гунной, место носового звучания выделено <b><span class="tajweed-color-ghunna">зелёным</span></b>. Сохраняющийся тафхим обозначается <b><span class="tajweed-color-tafkhim-light">сине-фиолетовым</span></b> в светлой теме и <b><span class="tajweed-color-tafkhim-dark">синим</span></b> в тёмной. В примере ниже найдите <span class="tajweed-color-silent">серую</span> <span class="arab">ق</span> перед <span class="arab">كّ</span> в слове <span class="arab">نَخْلُقكُّم</span>. <span class="tajweed-color-ghunna">Зелёным</span> показаны места гунны у следующих <span class="arab">مّ</span>, а утолщённая <span class="arab">خ</span> имеет цвет тафхима.</p>
+    <button type="button" data-tajweed-legend-open aria-haspopup="dialog">Таблица цветов таджвида</button>
+  </div>
   <div class="mt-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900/40 dark:bg-emerald-950/20">
-    {Quran}77:20{/Quran}
+    {Quran}77:20-T{/Quran}
   </div>
     <p class="leading-relaxed">
     <b>Подсказка в Коране:</b> отсутствие «сукуна» над первой и наличие «шадды»
