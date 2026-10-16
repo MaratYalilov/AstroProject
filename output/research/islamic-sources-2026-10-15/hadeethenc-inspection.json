@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "hadeethenc-ar",
+    "records": 3582,
+    "metadata": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: العربية\n# Source: https://hadeethenc.com/ar\n# Last update: 2026-10-14 00:00:55 (v1.8.0)\n# Check for updates: https://hadeethenc.com/en/check/ar/v1.8.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+    "columns": [
+      "id",
+      "title",
+      "hadith_text",
+      "explanation",
+      "word_meanings",
+      "benefits",
+      "grade",
+      "takhrij",
+      "link"
+    ]
+  },
+  {
+    "source_id": "hadeethenc-en",
+    "records": 2328,
+    "metadata": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: English\n# Source: https://hadeethenc.com/en\n# Last update: 2026-05-10 17:43:35 (v1.25.0)\n# Check for updates: https://hadeethenc.com/en/check/en/v1.25.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+    "columns": [
+      "id",
+      "title_ar",
+      "title",
+      "hadith_text_ar",
+      "hadith_text",
+      "explanation_ar",
+      "explanation",
+      "benefits_ar",
+      "benefits",
+      "grade_ar",
+      "takhrij_ar",
+      "grade",
+      "takhrij",
+      "lang",
+      "link"
+    ]
+  },
+  {
+    "source_id": "hadeethenc-ru",
+    "records": 2249,
+    "metadata": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: Русский\n# Source: https://hadeethenc.com/ru\n# Last update: 2026-06-20 17:20:24 (v2.25.0)\n# Check for updates: https://hadeethenc.com/en/check/ru/v2.25.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+    "columns": [
+      "id",
+      "title_ar",
+      "title",
+      "hadith_text_ar",
+      "hadith_text",
+      "explanation_ar",
+      "explanation",
+      "benefits_ar",
+      "benefits",
+      "grade_ar",
+      "takhrij_ar",
+      "grade",
+      "takhrij",
+      "lang",
+      "link"
+    ]
+  }
+]

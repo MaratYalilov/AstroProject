@@ -8,12 +8,14 @@ order: 42
 
 <div class="theory-hero">
   <div class="theory-hero-inner">
-    <div class="theory-hero-letter"><span class="arab" lang="ar" dir="rtl">قۡ</span></div>
+    <div class="theory-hero-letter">
+      قۡ
+    </div>
     <div class="theory-hero-content">
-      <h1 class="theory-hero-title">Калькаля — короткий отзвук</h1>
+      <h1 class="theory-hero-title">Калькаля - короткий отзвук</h1>
       <div class="theory-hero-sub">
         Пять арабских букв при <b>сукуне</b> произносятся с коротким отзвуком.
-        Это свойство называется <b>калькаля</b> — <span class="arab" lang="ar" dir="rtl">القلقلة</span>.
+        Это свойство называется <b>калькаля</b> - القلقلة.
       </div>
     </div>
   </div>
@@ -148,18 +150,34 @@ order: 42
 <h2 class="theory-heading">Проверьте себя</h2>
 <div class="theory-card">
   <ol class="!mt-0">
-    <li>Назовите пять букв калькаля, затем найдите их в словах таблицы. Почему на каждой из них нужен отзвук?</li>
-    <li>Как закончить <span class="arab" lang="ar" dir="rtl">أَحَدٌ</span>, если останавливаетесь? А если продолжаете чтение?</li>
-    <li>Почему <span class="arab" lang="ar" dir="rtl">بّ</span> в <span class="arab" lang="ar" dir="rtl">تَبَّتۡ</span> и в конце <span class="arab" lang="ar" dir="rtl">وَتَبَّ</span> при остановке читается по-разному?</li>
-    <li>Прочитайте примеры вслед за записью. Проверьте, не добавляете ли после отзвука гласную и не повторяете ли букву.</li>
+    <li>
+      <p>Назовите пять букв калькаля, затем найдите их в словах таблицы. Почему на каждой из них нужен отзвук?</p>
+      <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+        <summary class="cursor-pointer font-semibold">Показать ответ</summary>
+        <p class="!mb-0"><span class="arab" lang="ar" dir="rtl">ق ط ب ج د</span>. Во всех пяти словах таблицы эти буквы имеют сукун.</p>
+      </details>
+    </li>
+    <li>
+      <p>Как закончить <span class="arab" lang="ar" dir="rtl">أَحَدٌ</span>, если останавливаетесь? А если продолжаете чтение?</p>
+      <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+        <summary class="cursor-pointer font-semibold">Показать ответ</summary>
+        <p class="!mb-0">При остановке — <span class="arab" lang="ar" dir="rtl">أَحَدۡ</span>, с калькаля на <span class="arab" lang="ar" dir="rtl">د</span>. При продолжении на ней есть огласовка, поэтому калькаля нет.</p>
+      </details>
+    </li>
+    <li>
+      <p>Почему <span class="arab" lang="ar" dir="rtl">بّ</span> в <span class="arab" lang="ar" dir="rtl">تَبَّتۡ</span> и в конце <span class="arab" lang="ar" dir="rtl">وَتَبَّ</span> при остановке читается по-разному?</p>
+      <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+        <summary class="cursor-pointer font-semibold">Показать ответ</summary>
+        <p class="!mb-0">В <span class="arab" lang="ar" dir="rtl">تَبَّتۡ</span> удвоенная <span class="arab" lang="ar" dir="rtl">بّ</span> читается с фатхой. При остановке на <span class="arab" lang="ar" dir="rtl">وَتَبَّ</span> фатха не произносится: сохраняем удвоение и завершаем <span class="arab" lang="ar" dir="rtl">بّ</span> одним отзвуком.</p>
+      </details>
+    </li>
+    <li>
+      <p>Прочитайте примеры вслед за записью. Проверьте, не добавляете ли после отзвука гласную и не повторяете ли букву.</p>
+      <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+        <summary class="cursor-pointer font-semibold">Показать ответ</summary>
+        <p class="!mb-0">Отзвук должен быть коротким, без добавочного «ә», «и» или «у» и без повторения буквы. Сравните своё чтение с записью; при остановке на букве с ташдидом сохраните удвоение и завершите её одним отзвуком.</p>
+      </details>
+    </li>
   </ol>
-  <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
-    <summary class="cursor-pointer font-semibold">Показать ответы</summary>
-    <ol>
-      <li><span class="arab" lang="ar" dir="rtl">ق ط ب ج د</span>. Во всех пяти словах таблицы эти буквы имеют сукун.</li>
-      <li>При остановке — <span class="arab" lang="ar" dir="rtl">أَحَدۡ</span>, с калькаля на <span class="arab" lang="ar" dir="rtl">د</span>. При продолжении на ней есть огласовка, поэтому калькаля нет.</li>
-      <li>В <span class="arab" lang="ar" dir="rtl">تَبَّتۡ</span> удвоенная <span class="arab" lang="ar" dir="rtl">بّ</span> читается с фатхой. При остановке на <span class="arab" lang="ar" dir="rtl">وَتَبَّ</span> фатха не произносится: сохраняем удвоение и завершаем <span class="arab" lang="ar" dir="rtl">بّ</span> одним отзвуком.</li>
-    </ol>
-  </details>
 </div>
 </section>

@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-15",
+  "purpose": "Происхождение локальных копий и проверенных кандидатов для будущей библиотеки тафсиров и хадисов.",
+  "stage": "research_copies_not_connected_to_site_or_rag",
+  "quran_text_source_id": "site-quran",
+  "quran_text_policy": "Арабский текст и перевод аятов берутся из локальных файлов сайта; тафсиры и хадисы служат отдельными основаниями толкования.",
+  "language_policy": "Арабские оригиналы и доступные переводы, включая русский и английский; полнота каждого языка проверяется отдельно.",
+  "discovery_catalogs": [
+    {
+      "source_url": "https://hadeethenc.com/api/v1/languages",
+      "entries": 72,
+      "artifact": {
+        "path": "output/research/islamic-sources-2026-10-15/hadeethenc-languages.json",
+        "format": "json",
+        "purpose": "official_language_catalog",
+        "bytes": 3436,
+        "sha256": "40cbc86cc9e702d31b23960146f485481afcd02f374feb58d6eee6b718244754"
+      }
+    },
+    {
+      "source_url": "https://hadeethenc.com/api/v1/categories/list/?language=ar",
+      "artifact": {
+        "path": "output/research/islamic-sources-2026-10-15/hadeethenc-categories.json",
+        "format": "json",
+        "purpose": "official_category_catalog",
+        "bytes": 73957,
+        "sha256": "0166736ff2edd2f24bb7e75713012badb371063980e6a969d140d9990feb9de1"
+      }
+    },
+    {
+      "source_url": "https://quranenc.com/api/v1/translations/list",
+      "artifact": {
+        "path": "output/research/islamic-sources-2026-10-15/quranenc-catalog.json",
+        "format": "json",
+        "purpose": "official_translation_catalog",
+        "bytes": 65890,
+        "sha256": "e4c40794e0436630db375142ed04fe9ecb53fa4ea4ab440ffc0a882671f3285c"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ksu-ayat-tafasir-package",
+      "provider": "Университет короля Сауда, проект «Аят»",
+      "kind": "official_offline_package",
+      "source_url": "https://quran.ksu.edu.sa/ayat/?l=ar&pg=patches",
+      "download_url": "https://quran.ksu.edu.sa/ayat/tafasir.ayt",
+      "status": "local_copy_structure_checked",
+      "version": null,
+      "version_note": "Номер версии самого пакета не найден; дата получения не является версией издания.",
+      "publication_terms_status": "web_republication_terms_not_established",
+      "publication_terms_note": "Официальная выгрузка для автономной программы. Отдельные условия публикации её текстов на другом сайте не установлены.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/ksu-tafasir.ayt",
+          "format": "zip",
+          "purpose": "original_download",
+          "bytes": 42379519,
+          "sha256": "1e96839de6ee8103ec19167f1e9668b9c44084cd0a4e7d7a33d1e05aa4e9b05d"
+        }
+      ],
+      "archive_members": [
+        {
+          "path": "tafasir/waseet.ayt",
+          "bytes": 23625728
+        },
+        {
+          "path": "tafasir/tabary.ayt",
+          "bytes": 42663936
+        },
+        {
+          "path": "tafasir/tanweer.ayt",
+          "bytes": 33292288
+        },
+        {
+          "path": "tafasir/tafheem.ayt",
+          "bytes": 8257536
+        },
+        {
+          "path": "tafasir/sa3dy.ayt",
+          "bytes": 7405568
+        },
+        {
+          "path": "tafasir/baghawy.ayt",
+          "bytes": 8749056
+        },
+        {
+          "path": "tafasir/qortoby.ayt",
+          "bytes": 25100288
+        },
+        {
+          "path": "tafasir/russian.ayt",
+          "bytes": 11337728
+        },
+        {
+          "path": "tafasir/indonesian.ayt",
+          "bytes": 3047424
+        },
+        {
+          "path": "tafasir/e3rab.ayt",
+          "bytes": 5799936
+        },
+        {
+          "path": "tafasir/katheer.ayt",
+          "bytes": 19595264
+        }
+      ]
+    },
+    {
+      "source_id": "ksu-ayat-katheer-ar",
+      "title": "Тафсир Ибн Касира",
+      "kind": "tafsir",
+      "language": "ar",
+      "author": "Ибн Касир",
+      "translator": null,
+      "edition": null,
+      "source_url": "https://quran.ksu.edu.sa/ayat/?l=ar&pg=patches",
+      "package_source_id": "ksu-ayat-tafasir-package",
+      "archive_member": "tafasir/katheer.ayt",
+      "status": "local_copy_structure_checked",
+      "metadata_note": "Точное печатное издание в SQLite не указано.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+          "format": "sqlite",
+          "purpose": "unmodified_archive_member",
+          "bytes": 19595264,
+          "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a"
+        }
+      ],
+      "validation": {
+        "sqlite_integrity_check": "ok",
+        "records": 6236,
+        "unique_verse_keys": 6236,
+        "all_verse_keys_match_site_quran": true,
+        "nonempty_commentaries": 6236,
+        "distinct_nonempty_commentaries": 5957,
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "text_field": "text"
+      },
+      "import_notes": [
+        "Сохранить исходный HTML и текст без редакторской перезаписи.",
+        "Один комментарий может относиться к группе аятов и повторяться в нескольких строках; сохранить все привязки.",
+        "Текст Корана в полях translation и внутри комментариев не заменяет site-quran."
+      ]
+    },
+    {
+      "source_id": "ksu-ayat-tabary-ar",
+      "title": "Тафсир ат-Табари",
+      "kind": "tafsir",
+      "language": "ar",
+      "author": "Ат-Табари",
+      "translator": null,
+      "edition": null,
+      "source_url": "https://quran.ksu.edu.sa/ayat/?l=ar&pg=patches",
+      "package_source_id": "ksu-ayat-tafasir-package",
+      "archive_member": "tafasir/tabary.ayt",
+      "status": "local_copy_structure_checked",
+      "metadata_note": "Точное печатное издание в SQLite не указано.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/ksu-databases/tabary.sqlite",
+          "format": "sqlite",
+          "purpose": "unmodified_archive_member",
+          "bytes": 42663936,
+          "sha256": "77d435ac60c3bfad94f8f60c3473394e6362ff3f6478fcffda706767330061ee"
+        }
+      ],
+      "validation": {
+        "sqlite_integrity_check": "ok",
+        "records": 6236,
+        "unique_verse_keys": 6236,
+        "all_verse_keys_match_site_quran": true,
+        "nonempty_commentaries": 6236,
+        "distinct_nonempty_commentaries": 6187,
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "text_field": "text"
+      },
+      "import_notes": [
+        "Сохранить исходный HTML и текст без редакторской перезаписи.",
+        "Один комментарий может относиться к группе аятов и повторяться в нескольких строках; сохранить все привязки.",
+        "Текст Корана в полях translation и внутри комментариев не заменяет site-quran."
+      ]
+    },
+    {
+      "source_id": "ksu-ayat-qortoby-ar",
+      "title": "Тафсир аль-Куртуби",
+      "kind": "tafsir",
+      "language": "ar",
+      "author": "Аль-Куртуби",
+      "translator": null,
+      "edition": null,
+      "source_url": "https://quran.ksu.edu.sa/ayat/?l=ar&pg=patches",
+      "package_source_id": "ksu-ayat-tafasir-package",
+      "archive_member": "tafasir/qortoby.ayt",
+      "status": "local_copy_structure_checked",
+      "metadata_note": "Точное печатное издание в SQLite не указано.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/ksu-databases/qortoby.sqlite",
+          "format": "sqlite",
+          "purpose": "unmodified_archive_member",
+          "bytes": 25100288,
+          "sha256": "0633353cf634fecd0850f785c405c4de92226ac26cf364319ef105c19e93cece"
+        }
+      ],
+      "validation": {
+        "sqlite_integrity_check": "ok",
+        "records": 6236,
+        "unique_verse_keys": 6236,
+        "all_verse_keys_match_site_quran": true,
+        "nonempty_commentaries": 6236,
+        "distinct_nonempty_commentaries": 6117,
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "text_field": "text"
+      },
+      "import_notes": [
+        "Сохранить исходный HTML и текст без редакторской перезаписи.",
+        "Один комментарий может относиться к группе аятов и повторяться в нескольких строках; сохранить все привязки.",
+        "Текст Корана в полях translation и внутри комментариев не заменяет site-quran."
+      ]
+    },
+    {
+      "source_id": "ksu-ayat-sa3dy-ar",
+      "title": "Тафсир ас-Саади",
+      "kind": "tafsir",
+      "language": "ar",
+      "author": "Абд ар-Рахман ас-Саади",
+      "translator": null,
+      "edition": null,
+      "source_url": "https://quran.ksu.edu.sa/ayat/?l=ar&pg=patches",
+      "package_source_id": "ksu-ayat-tafasir-package",
+      "archive_member": "tafasir/sa3dy.ayt",
+      "status": "local_copy_structure_checked",
+      "metadata_note": "Точное печатное издание в SQLite не указано.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+          "format": "sqlite",
+          "purpose": "unmodified_archive_member",
+          "bytes": 7405568,
+          "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e"
+        }
+      ],
+      "validation": {
+        "sqlite_integrity_check": "ok",
+        "records": 6236,
+        "unique_verse_keys": 6236,
+        "all_verse_keys_match_site_quran": true,
+        "nonempty_commentaries": 6236,
+        "distinct_nonempty_commentaries": 5861,
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "text_field": "text"
+      },
+      "import_notes": [
+        "Сохранить исходный HTML и текст без редакторской перезаписи.",
+        "Один комментарий может относиться к группе аятов и повторяться в нескольких строках; сохранить все привязки.",
+        "Текст Корана в полях translation и внутри комментариев не заменяет site-quran."
+      ]
+    },
+    {
+      "source_id": "ksu-ayat-baghawy-ar",
+      "title": "Тафсир аль-Багави",
+      "kind": "tafsir",
+      "language": "ar",
+      "author": "Аль-Багави",
+      "translator": null,
+      "edition": null,
+      "source_url": "https://quran.ksu.edu.sa/ayat/?l=ar&pg=patches",
+      "package_source_id": "ksu-ayat-tafasir-package",
+      "archive_member": "tafasir/baghawy.ayt",
+      "status": "local_copy_structure_checked",
+      "metadata_note": "Точное печатное издание в SQLite не указано.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/ksu-databases/baghawy.sqlite",
+          "format": "sqlite",
+          "purpose": "unmodified_archive_member",
+          "bytes": 8749056,
+          "sha256": "76bdf0f715f3cbd2a887d6e4c4de2216b3eba899871c90c36a5540f0f3f16fd5"
+        }
+      ],
+      "validation": {
+        "sqlite_integrity_check": "ok",
+        "records": 6236,
+        "unique_verse_keys": 6236,
+        "all_verse_keys_match_site_quran": true,
+        "nonempty_commentaries": 6236,
+        "distinct_nonempty_commentaries": 6171,
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "text_field": "text"
+      },
+      "import_notes": [
+        "Сохранить исходный HTML и текст без редакторской перезаписи.",
+        "Один комментарий может относиться к группе аятов и повторяться в нескольких строках; сохранить все привязки.",
+        "Текст Корана в полях translation и внутри комментариев не заменяет site-quran."
+      ]
+    },
+    {
+      "source_id": "ksu-ayat-russian-ru",
+      "title": "Русский тафсир ас-Саади в переводе Кулиева",
+      "kind": "tafsir",
+      "language": "ru",
+      "author": "Абд ар-Рахман ас-Саади",
+      "translator": "Эльмир Кулиев",
+      "edition": null,
+      "source_url": "https://quran.ksu.edu.sa/index.php?l=ru",
+      "package_source_id": "ksu-ayat-tafasir-package",
+      "archive_member": "tafasir/russian.ayt",
+      "status": "local_copy_structure_checked",
+      "metadata_note": "Точное печатное издание в SQLite не указано.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/ksu-databases/russian.sqlite",
+          "format": "sqlite",
+          "purpose": "unmodified_archive_member",
+          "bytes": 11337728,
+          "sha256": "f556cbc3cbfa6a948df2b5cd17d47f160b00a7d310d54e69e5cf6ebb9510dc14"
+        }
+      ],
+      "validation": {
+        "sqlite_integrity_check": "ok",
+        "records": 6236,
+        "unique_verse_keys": 6236,
+        "all_verse_keys_match_site_quran": true,
+        "nonempty_commentaries": 4742,
+        "distinct_nonempty_commentaries": 4742,
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "translation",
+          "tafsir"
+        ],
+        "text_field": "tafsir"
+      },
+      "import_notes": [
+        "Сохранить исходный HTML и текст без редакторской перезаписи.",
+        "Один комментарий может относиться к группе аятов и повторяться в нескольких строках; сохранить все привязки.",
+        "Текст Корана в полях translation и внутри комментариев не заменяет site-quran.",
+        "Отсутствие отдельного комментария у аята не заполнять сгенерированным текстом."
+      ]
+    },
+    {
+      "source_id": "ksu-ayat-tafheem-en",
+      "title": "Tafheem, английская база из пакета «Аят»",
+      "kind": "tafsir",
+      "language": "en",
+      "author": null,
+      "translator": null,
+      "edition": null,
+      "source_url": "https://quran.ksu.edu.sa/ayat/?l=ar&pg=patches",
+      "package_source_id": "ksu-ayat-tafasir-package",
+      "archive_member": "tafasir/tafheem.ayt",
+      "status": "local_copy_structure_checked",
+      "metadata_note": "Точное печатное издание в SQLite не указано. Авторство, переводчик и редакция этой конкретной английской базы пока не подтверждены; не включать в основную выдачу до уточнения.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/ksu-databases/tafheem.sqlite",
+          "format": "sqlite",
+          "purpose": "unmodified_archive_member",
+          "bytes": 8257536,
+          "sha256": "4022c2d124be3dac95dcc05ad120622cfc19831da6e54d39e000cf4786768136"
+        }
+      ],
+      "validation": {
+        "sqlite_integrity_check": "ok",
+        "records": 6236,
+        "unique_verse_keys": 6236,
+        "all_verse_keys_match_site_quran": true,
+        "nonempty_commentaries": 4056,
+        "distinct_nonempty_commentaries": 4055,
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "translation",
+          "tafsir"
+        ],
+        "text_field": "tafsir"
+      },
+      "import_notes": [
+        "Сохранить исходный HTML и текст без редакторской перезаписи.",
+        "Один комментарий может относиться к группе аятов и повторяться в нескольких строках; сохранить все привязки.",
+        "Текст Корана в полях translation и внутри комментариев не заменяет site-quran.",
+        "Отсутствие отдельного комментария у аята не заполнять сгенерированным текстом."
+      ]
+    },
+    {
+      "source_id": "hadeethenc-ar",
+      "provider": "HadeethEnc — Энциклопедия переведённых пророческих хадисов",
+      "kind": "curated_hadiths_with_explanations",
+      "language": "ar",
+      "source_url": "https://hadeethenc.com/ar/home",
+      "download_url": "https://hadeethenc.com/en/browse/download/ar",
+      "api_documentation_url": "https://github.com/islamhouse-dev/hadith-api",
+      "version": "v1.8.0",
+      "source_updated_at": "2026-10-14 00:00:55",
+      "original_metadata": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: العربية\n# Source: https://hadeethenc.com/ar\n# Last update: 2026-10-14 00:00:55 (v1.8.0)\n# Check for updates: https://hadeethenc.com/en/check/ar/v1.8.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+      "status": "local_copy_structure_checked",
+      "scope_note": "Подборка хадисов; не полный текст отдельных классических сборников.",
+      "publication_terms_url": "https://hadeethenc.com/en/home",
+      "publication_terms_status": "permitted_with_source_conditions",
+      "publication_terms_note": "Сохранять тексты, указание источника, номер версии и служебные сведения выгрузки; соблюдать опубликованные условия обновления и использования.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/hadeethenc-ar.xlsx",
+          "format": "xlsx",
+          "purpose": "original_download",
+          "bytes": 2767594,
+          "sha256": "b2aed9d72760cbc146375d9c03bbf1f13fb2e7b914dd0af14dcdcb5bdc2241bd"
+        },
+        {
+          "path": "output/research/islamic-sources-2026-10-15/hadeethenc-ar.json",
+          "format": "json",
+          "purpose": "lossless_row_extraction",
+          "bytes": 11170834,
+          "sha256": "ac5608acd5a4e1a6ee1c240a641f285b44c69eb58c59279e7fb30db07ecbbd0a"
+        }
+      ],
+      "validation": {
+        "records": 3582,
+        "unique_source_ids": 3582,
+        "required_fields_present": [
+          "hadith_text",
+          "grade",
+          "takhrij"
+        ],
+        "all_translation_ids_present_in_arabic_export": null
+      },
+      "import_notes": [
+        "Сохранять исходный ID, текст, пояснение, такхридж, оценку и ссылку.",
+        "Оценку хадиса хранить дословно; не присваивать всей подборке одну степень достоверности.",
+        "Версии языковых выгрузок различаются: не заменять вложенный арабский текст переводов текстом другой версии без сравнения.",
+        "ID HadeethEnc не является номером хадиса в аль-Бухари, Муслиме или другом сборнике."
+      ]
+    },
+    {
+      "source_id": "hadeethenc-en",
+      "provider": "HadeethEnc — Энциклопедия переведённых пророческих хадисов",
+      "kind": "curated_hadiths_with_explanations",
+      "language": "en",
+      "source_url": "https://hadeethenc.com/en/home",
+      "download_url": "https://hadeethenc.com/en/browse/download/en",
+      "api_documentation_url": "https://github.com/islamhouse-dev/hadith-api",
+      "version": "v1.25.0",
+      "source_updated_at": "2026-05-10 17:43:35",
+      "original_metadata": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: English\n# Source: https://hadeethenc.com/en\n# Last update: 2026-05-10 17:43:35 (v1.25.0)\n# Check for updates: https://hadeethenc.com/en/check/en/v1.25.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+      "status": "local_copy_structure_checked",
+      "scope_note": "Подборка хадисов; не полный текст отдельных классических сборников.",
+      "publication_terms_url": "https://hadeethenc.com/en/home",
+      "publication_terms_status": "permitted_with_source_conditions",
+      "publication_terms_note": "Сохранять тексты, указание источника, номер версии и служебные сведения выгрузки; соблюдать опубликованные условия обновления и использования.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/hadeethenc-en.xlsx",
+          "format": "xlsx",
+          "purpose": "original_download",
+          "bytes": 3232481,
+          "sha256": "339d148eb7425b7f2d48dd7521a969e4aa4a35b5d35a7c4a1c1b67043b5ee218"
+        },
+        {
+          "path": "output/research/islamic-sources-2026-10-15/hadeethenc-en.json",
+          "format": "json",
+          "purpose": "lossless_row_extraction",
+          "bytes": 11731099,
+          "sha256": "2848a4109245ea21f0862ea6d1e02cb02c63e3e22ad6210058b2a728eb1e7dd7"
+        }
+      ],
+      "validation": {
+        "records": 2328,
+        "unique_source_ids": 2328,
+        "required_fields_present": [
+          "hadith_text_ar",
+          "hadith_text",
+          "grade",
+          "takhrij"
+        ],
+        "all_translation_ids_present_in_arabic_export": true
+      },
+      "import_notes": [
+        "Сохранять исходный ID, текст, пояснение, такхридж, оценку и ссылку.",
+        "Оценку хадиса хранить дословно; не присваивать всей подборке одну степень достоверности.",
+        "Версии языковых выгрузок различаются: не заменять вложенный арабский текст переводов текстом другой версии без сравнения.",
+        "ID HadeethEnc не является номером хадиса в аль-Бухари, Муслиме или другом сборнике."
+      ]
+    },
+    {
+      "source_id": "hadeethenc-ru",
+      "provider": "HadeethEnc — Энциклопедия переведённых пророческих хадисов",
+      "kind": "curated_hadiths_with_explanations",
+      "language": "ru",
+      "source_url": "https://hadeethenc.com/ru/home",
+      "download_url": "https://hadeethenc.com/en/browse/download/ru",
+      "api_documentation_url": "https://github.com/islamhouse-dev/hadith-api",
+      "version": "v2.25.0",
+      "source_updated_at": "2026-06-20 17:20:24",
+      "original_metadata": "#---------------------------\n# Translated Prophetic Hadiths\n# Language: Русский\n# Source: https://hadeethenc.com/ru\n# Last update: 2026-06-20 17:20:24 (v2.25.0)\n# Check for updates: https://hadeethenc.com/en/check/ru/v2.25.0\n# PLEASE DON'T REMOVE THIS IMPORTANT INFORMATION!\n#---------------------------",
+      "status": "local_copy_structure_checked",
+      "scope_note": "Подборка хадисов; не полный текст отдельных классических сборников.",
+      "publication_terms_url": "https://hadeethenc.com/en/home",
+      "publication_terms_status": "permitted_with_source_conditions",
+      "publication_terms_note": "Сохранять тексты, указание источника, номер версии и служебные сведения выгрузки; соблюдать опубликованные условия обновления и использования.",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/hadeethenc-ru.xlsx",
+          "format": "xlsx",
+          "purpose": "original_download",
+          "bytes": 3513129,
+          "sha256": "f48cb54fe49b093b793182dc7fadbd9c7c551b27e99febab23fb3d6ca21b8b64"
+        },
+        {
+          "path": "output/research/islamic-sources-2026-10-15/hadeethenc-ru.json",
+          "format": "json",
+          "purpose": "lossless_row_extraction",
+          "bytes": 15011366,
+          "sha256": "96f3be38d5471e5d0e8b626407d7c5e6974b7df1cdfb648730afbe0598363dc9"
+        }
+      ],
+      "validation": {
+        "records": 2249,
+        "unique_source_ids": 2249,
+        "required_fields_present": [
+          "hadith_text_ar",
+          "hadith_text",
+          "grade",
+          "takhrij"
+        ],
+        "all_translation_ids_present_in_arabic_export": true
+      },
+      "import_notes": [
+        "Сохранять исходный ID, текст, пояснение, такхридж, оценку и ссылку.",
+        "Оценку хадиса хранить дословно; не присваивать всей подборке одну степень достоверности.",
+        "Версии языковых выгрузок различаются: не заменять вложенный арабский текст переводов текстом другой версии без сравнения.",
+        "ID HadeethEnc не является номером хадиса в аль-Бухари, Муслиме или другом сборнике."
+      ]
+    },
+    {
+      "source_id": "shamela-bukhari-1681",
+      "kind": "full_hadith_collection_candidate",
+      "language": "ar",
+      "title": "صحيح البخاري - ط السلطانية",
+      "author": "Мухаммад ибн Исмаил аль-Бухари",
+      "source_url": "https://shamela.ws/book/1681",
+      "download_information_url": "https://shamela.ws/page/download",
+      "edition": "Султанийское издание, Булак, 1311 г. х.; воспроизведение Dar Tawq al-Najah, 1422 г. х., 9 томов; нумерация Мухаммада Фуада Абд аль-Баки.",
+      "status": "book_metadata_verified_full_text_not_downloaded",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/shamela-bukhari.html",
+          "format": "html",
+          "purpose": "book_card_snapshot_not_full_text",
+          "bytes": 54062,
+          "sha256": "82d9d0e52b83cabff4e4965d698f4b6e2715fa3f02d556fe4e1d2e5cb6f24e8d"
+        }
+      ],
+      "import_notes": [
+        "Получить текст из официальной базы библиотеки; отдельно сохранить главы, иснады, матны, номер тома и страницу.",
+        "Сопоставление с другой нумерацией делать явно."
+      ]
+    },
+    {
+      "source_id": "shamela-muslim-1727",
+      "kind": "full_hadith_collection_candidate",
+      "language": "ar",
+      "title": "صحيح مسلم - ت عبد الباقي",
+      "author": "Муслим ибн аль-Хаджжадж",
+      "source_url": "https://shamela.ws/book/1727",
+      "download_information_url": "https://shamela.ws/page/download",
+      "edition": "Редактор Мухаммад Фуад Абд аль-Баки; Иса аль-Баби аль-Халяби, Каир, 1374 г. х. / 1955 г.; 5 томов, последний — указатели.",
+      "status": "book_metadata_verified_full_text_not_downloaded",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/shamela-muslim.html",
+          "format": "html",
+          "purpose": "book_card_snapshot_not_full_text",
+          "bytes": 39400,
+          "sha256": "0aafead5fbb8f0f8d65dfffddda988dc325439e11ce7304b657a0e730a51d1bb"
+        }
+      ],
+      "import_notes": [
+        "Сохранить вступление и варианты передач отдельно от основной нумерации хадисов."
+      ]
+    },
+    {
+      "source_id": "sunnah-com",
+      "kind": "hadith_api_candidate",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "source_url": "https://sunnah.com/developers",
+      "status": "official_access_requires_api_key",
+      "scope_note": "Официальная страница сообщает, что API охватывает часть проверенных данных; общедоступная полная автономная выгрузка не заявлена доступной.",
+      "import_notes": [
+        "Проверить доступ и покрытие коллекций по официальному API; ключ не запрашивался.",
+        "Сохранять редакцию перевода и исходные номера."
+      ]
+    },
+    {
+      "source_id": "dorar-net",
+      "kind": "external_hadith_grading_verification",
+      "languages": [
+        "ar"
+      ],
+      "source_url": "https://dorar.net/api-services/hadith",
+      "terms_url": "https://dorar.net/api-services/terms",
+      "status": "external_only_bulk_storage_prohibited",
+      "restriction": "Условия API запрещают массовое извлечение и хранение всей базы; временное кэширование ограничено 24–48 часами.",
+      "import_notes": [
+        "Не строить локальное зеркало Dorar. При разрешённом обращении сохранять точное имя оценившего учёного и формулировку оценки."
+      ]
+    },
+    {
+      "source_id": "quranenc-russian-mokhtasar",
+      "kind": "tafsir_translation_api_candidate",
+      "language": "ru",
+      "source_url": "https://quranenc.com/en/home/api",
+      "sample_url": "https://quranenc.com/api/v1/translation/sura/russian_mokhtasar/1",
+      "status": "sample_downloaded_full_text_not_downloaded",
+      "artifacts": [
+        {
+          "path": "output/research/islamic-sources-2026-10-15/quranenc-ru-mukhtasar-1.json",
+          "format": "json",
+          "purpose": "official_api_sample_surah_1",
+          "bytes": 13687,
+          "sha256": "a83311814d03044a6650c2013dafbaee3409b61179a651b206a4b1b35735f125"
+        }
+      ],
+      "import_notes": [
+        "Это отдельный перевод толкования, не замена перевода Кулиева.",
+        "Фиксировать версию, сноски и условия QuranEnc."
+      ]
+    },
+    {
+      "source_id": "quran-com-ibn-kathir-abridged-en",
+      "kind": "tafsir_translation_candidate",
+      "language": "en",
+      "title": "Tafsir Ibn Kathir (Abridged)",
+      "source_url": "https://quran.com/1:1/tafsirs/en-tafisr-ibn-kathir",
+      "status": "edition_scope_identified_not_downloaded",
+      "import_notes": [
+        "Английское сокращённое издание; хранить отдельно от арабского полного текста.",
+        "Уточнить официальный способ полной выгрузки и условия публикации."
+      ]
+    },
+    {
+      "source_id": "iiph-saadi-en",
+      "kind": "publisher_edition_candidate",
+      "language": "en",
+      "title": "Tafseer as-Sa’di, 10 volumes",
+      "translator": "Nasiruddin al-Khattab",
+      "source_url": "https://iiph.com/product/tafseer-as-sa-di-vol-1-10/",
+      "status": "publisher_identified_not_downloaded",
+      "import_notes": [
+        "Покупка книги или электронной версии сама по себе не разрешает публикацию всего текста на сайте."
+      ]
+    }
+  ]
+}

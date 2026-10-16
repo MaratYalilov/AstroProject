@@ -16029,6 +16029,312 @@
           ]
         }
       ]
+    },
+    {
+      "lessonOrder": 44,
+      "char": "ق ط ب ج د",
+      "name": "Калькаля",
+      "arabName": "القلقلة",
+      "exercises": [
+        {
+          "id": 1,
+          "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-14.mp3",
+          "segments": [
+            {
+              "text": "اِقۡتَرَبَ"
+            }
+          ],
+          "sectionTitle": "Калькаля внутри слова"
+        },
+        {
+          "id": 2,
+          "audio": "/media/quran/muallim-sani/audio/exercises/21_qaf-15.mp3",
+          "segments": [
+            {
+              "text": "يَقۡتَرِبُ"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "audio": "/media/quran/muallim-sani/audio/exercises/16_to-13.mp3",
+          "segments": [
+            {
+              "text": "مَطۡلَبُ"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "audio": "/media/quran/muallim-sani/audio/part2/29_madd-75-4.mp3",
+          "segments": [
+            {
+              "text": "مَطۡلُوبُونَ"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "audio": "/media/quran/muallim-sani/audio/exercises/02_ba-2.mp3",
+          "segments": [
+            {
+              "text": "اِبۡنُ"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "audio": "/media/quran/muallim-sani/audio/exercises/02_ba-10.mp3",
+          "segments": [
+            {
+              "text": "أَبۡرَمُ"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "audio": "/media/quran/muallim-sani/audio/exercises/05_jim-8.mp3",
+          "segments": [
+            {
+              "text": "أَجۡرُ"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "audio": "/media/quran/muallim-sani/audio/exercises/05_jim-9.mp3",
+          "segments": [
+            {
+              "text": "فَجۡرُ"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "audio": "/media/quran/muallim-sani/audio/exercises/08_dal-15.mp3",
+          "segments": [
+            {
+              "text": "هُدۡهُدُ"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "audio": "/media/quran/muallim-sani/audio/part2/29_madd-79-2.mp3",
+          "segments": [
+            {
+              "text": "تَدۡرِيسُ"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "audio": "/media/quran/muallim-sani/audio/part2/39_vakf-04.mp3",
+          "segments": [
+            {
+              "text": "كُفُوًا أَحَدٌ٭ = كُفُوًا أَحَدۡ"
+            }
+          ],
+          "sectionTitle": "Калькаля при остановке"
+        }
+      ]
+    },
+    {
+      "lessonOrder": 45,
+      "char": "الم",
+      "name": "Буквенные начала сур",
+      "arabName": "حُرُوف مُقَطَّعَة",
+      "description": "14 уникальных сочетаний букв. Нажмите на карточку и повторите за Саадом аль-Гамиди.",
+      "exercises": [
+        {
+          "id": 1,
+          "audio": "/mp3/002/002001.mp3",
+          "segments": [
+            {
+              "text": "الٓمٓ"
+            }
+          ],
+          "quran": {
+            "surah": 2,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 2,
+          "audio": "/mp3/007/007001.mp3",
+          "segments": [
+            {
+              "text": "الٓمٓصٓ"
+            }
+          ],
+          "quran": {
+            "surah": 7,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 3,
+          "audio": "/mp3/010/010001.mp3",
+          "audioDurationMs": 5350,
+          "segments": [
+            {
+              "text": "الٓر"
+            }
+          ],
+          "quran": {
+            "surah": 10,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 4,
+          "audio": "/mp3/013/013001.mp3",
+          "audioDurationMs": 10550,
+          "segments": [
+            {
+              "text": "الٓمٓر"
+            }
+          ],
+          "quran": {
+            "surah": 13,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 5,
+          "audio": "/mp3/019/019001.mp3",
+          "segments": [
+            {
+              "text": "كٓهيعٓصٓ"
+            }
+          ],
+          "quran": {
+            "surah": 19,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 6,
+          "audio": "/mp3/020/020001.mp3",
+          "segments": [
+            {
+              "text": "طه"
+            }
+          ],
+          "quran": {
+            "surah": 20,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 7,
+          "audio": "/mp3/026/026001.mp3",
+          "segments": [
+            {
+              "text": "طسٓمٓ"
+            }
+          ],
+          "quran": {
+            "surah": 26,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 8,
+          "audio": "/mp3/027/027001.mp3",
+          "audioDurationMs": 4550,
+          "segments": [
+            {
+              "text": "طسٓ"
+            }
+          ],
+          "quran": {
+            "surah": 27,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 9,
+          "audio": "/mp3/036/036001.mp3",
+          "segments": [
+            {
+              "text": "يسٓ"
+            }
+          ],
+          "quran": {
+            "surah": 36,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 10,
+          "audio": "/mp3/038/038001.mp3",
+          "audioDurationMs": 4650,
+          "segments": [
+            {
+              "text": "صٓ"
+            }
+          ],
+          "quran": {
+            "surah": 38,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 11,
+          "audio": "/mp3/040/040001.mp3",
+          "segments": [
+            {
+              "text": "حمٓ"
+            }
+          ],
+          "quran": {
+            "surah": 40,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 12,
+          "audio": "/mp3/042/042002.mp3",
+          "segments": [
+            {
+              "text": "عٓسٓقٓ"
+            }
+          ],
+          "quran": {
+            "surah": 42,
+            "ayah": 2
+          }
+        },
+        {
+          "id": 13,
+          "audio": "/mp3/050/050001.mp3",
+          "audioDurationMs": 5100,
+          "segments": [
+            {
+              "text": "قٓ"
+            }
+          ],
+          "quran": {
+            "surah": 50,
+            "ayah": 1
+          }
+        },
+        {
+          "id": 14,
+          "audio": "/mp3/068/068001.mp3",
+          "audioDurationMs": 3850,
+          "segments": [
+            {
+              "text": "نٓ"
+            }
+          ],
+          "quran": {
+            "surah": 68,
+            "ayah": 1
+          }
+        }
+      ]
     }
   ]
 }

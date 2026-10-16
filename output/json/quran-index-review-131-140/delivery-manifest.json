@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 127,
+    "retained_original_links": 112,
+    "removed_original_links": 15,
+    "added_links": 0,
+    "result_links": 112,
+    "result_unique_verses": 107,
+    "cumulative_topics": 140,
+    "cumulative_links": 6605
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 131-140.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-131-140\\Указатель аятов - темы 131-140.json",
+      "sha256": "eb657f6f9ecc925be31aec9f2971c28c024e2f41d4ba1c1e40ebf11039042176"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-140.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-131-140\\Указатель аятов - проверенные темы 1-140.json",
+      "sha256": "edbcbbfaf200eaf350631a7914f33021a31cac41cb57d451cb767718df2bb451"
+    },
+    {
+      "name": "Темы 131-140 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-131-140\\Темы 131-140 - журнал проверки.json",
+      "sha256": "1ad62e7356e67aafc82a70c0e1ce84a508246f4cc6cf4326bd131084ed1de7ce"
+    },
+    {
+      "name": "Темы 131-140 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-131-140\\Темы 131-140 - отчёт.md",
+      "sha256": "3c53ae6650eac70d60cda0dd363e2d1ea5f383cff87706ae039fbf2a2280d1a2"
+    }
+  ]
+}

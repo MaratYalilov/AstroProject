@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 530,
+    "retained_original_links": 465,
+    "removed_original_links": 65,
+    "added_links": 7,
+    "result_links": 472,
+    "result_unique_verses": 406,
+    "cumulative_topics": 170,
+    "cumulative_links": 7526
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 161-170.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-161-170\\Указатель аятов - темы 161-170.json",
+      "sha256": "9c686d06139ebda91282b6fdc61719465e0f0c6237b593120be1b82f7bb8848f"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-170.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-161-170\\Указатель аятов - проверенные темы 1-170.json",
+      "sha256": "79fb2ebfff7f427c8ac85fa56ab09dc89603b6039f4e00367608e7c232c4534e"
+    },
+    {
+      "name": "Темы 161-170 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-161-170\\Темы 161-170 - журнал проверки.json",
+      "sha256": "de5a34f8babfc8412ee4fad85f21fcf56c33c08e1721b6ca53e08bb3d04e616a"
+    },
+    {
+      "name": "Темы 161-170 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-161-170\\Темы 161-170 - отчёт.md",
+      "sha256": "60753e186f0ffd768334117d10be18495d9b08519232a5de7103e3c7af271a34"
+    }
+  ]
+}

@@ -1,0 +1,4485 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_source_id": "site-quran",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева.",
+    "tafsir_interpretation": "Толкование выражения по указанному тафсиру; альтернативные толкования отмечены.",
+    "context": "Связь установлена по конкретному указанному контексту; соседство само по себе не подтверждает связь.",
+    "tafsir_person_association": "Именная связь приведена в указанном тафсире; сама запись не является самостоятельным подтверждением достоверности иснада."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно."
+    },
+    "ksu-katheer-77-2": {
+      "title": "Ибн Касир, толкование 77:2",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura77-aya2.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 77,
+        "aya": 2,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-4-137": {
+      "title": "Ибн Касир, толкование 4:137",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura4-aya137.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 4,
+        "aya": 137,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-3-90": {
+      "title": "Ибн Касир, толкование 3:90",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura3-aya90.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 3,
+        "aya": 90,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-5-69": {
+      "title": "Ибн Касир, толкование 5:69",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura5-aya69.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 5,
+        "aya": 69,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-62": {
+      "title": "Ибн Касир, толкование 2:62",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya62.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 62,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-5-93": {
+      "title": "Ибн Касир, толкование 5:93",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura5-aya93.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 5,
+        "aya": 93,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-13-43": {
+      "title": "Ибн Касир, толкование 13:43",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura13-aya43.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 13,
+        "aya": 43,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-29-47": {
+      "title": "Ибн Касир, толкование 29:47",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura29-aya47.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 29,
+        "aya": 47,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-32-24": {
+      "title": "Ибн Касир, толкование 32:24",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura32-aya24.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 32,
+        "aya": 24,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-16-76": {
+      "title": "Ибн Касир, толкование 16:76",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura16-aya76.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 16,
+        "aya": 76,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-16-76": {
+      "title": "Ас-Саади, толкование 16:76",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura16-aya76.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 16,
+        "aya": 76,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-38-62": {
+      "title": "Ибн Касир, толкование 38:62",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura38-aya62.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 38,
+        "aya": 62,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-38-63": {
+      "title": "Ибн Касир, толкование 38:63",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura38-aya63.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 38,
+        "aya": 63,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-56-3": {
+      "title": "Ас-Саади, толкование 56:3",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura56-aya3.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 56,
+        "aya": 3,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-42-17": {
+      "title": "Ас-Саади, толкование 42:17",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura42-aya17.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 42,
+        "aya": 17,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-55-7": {
+      "title": "Ас-Саади, толкование 55:7",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura55-aya7.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 55,
+        "aya": 7,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-51-1": {
+      "title": "Ибн Касир, толкование 51:1",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura51-aya1.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 51,
+        "aya": 1,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-baghawi-77-1": {
+      "title": "Аль-Багави, толкование 77:1",
+      "url": "https://quran.ksu.edu.sa/tafseer/baghawi/sura77-aya1.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/baghawy.sqlite",
+        "sha256": "76bdf0f715f3cbd2a887d6e4c4de2216b3eba899871c90c36a5540f0f3f16fd5",
+        "table": "baghawy",
+        "sura": 77,
+        "aya": 1,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-77-1": {
+      "title": "Ас-Саади, толкование 77:1",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura77-aya1.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 77,
+        "aya": 1,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-77-2": {
+      "title": "Ас-Саади, толкование 77:2",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura77-aya2.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 77,
+        "aya": 2,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-27-36": {
+      "title": "Ибн Касир, толкование 27:36",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura27-aya36.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 27,
+        "aya": 36,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-143": {
+      "title": "Ас-Саади, толкование 7:143",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya143.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 143,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-8-43": {
+      "title": "Ибн Касир, толкование 8:43",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya43.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 43,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-48-27": {
+      "title": "Ибн Касир, толкование 48:27",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura48-aya27.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 48,
+        "aya": 27,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0067",
+      "title": "верблюд",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0067-item-001",
+          "description": "верблюдица Салиха",
+          "relation_type": "topic",
+          "verse_keys": [
+            "7:73",
+            "11:64",
+            "11:65",
+            "26:155",
+            "26:156",
+            "54:27",
+            "54:28",
+            "91:11",
+            "91:12",
+            "91:13",
+            "91:14",
+            "91:15"
+          ],
+          "verse_notes": {
+            "7:73": {
+              "explanation": "Салих прямо представляет своему народу верблюдицу как знамение и запрещает вредить ей.",
+              "key_phrase": {
+                "text": "Эта верблюдица Аллаха является знамением",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "11:64": {
+              "explanation": "В речи Салиха верблюдица названа знамением и неприкосновенной под угрозой наказания.",
+              "key_phrase": {
+                "text": "эта верблюдица Аллаха - знамение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "11:65": {
+              "explanation": "После подрезания поджилок верблюдицы Салих объявляет три дня до наказания.",
+              "key_phrase": {
+                "text": "они подрезали ей поджилки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "11:64"
+              ]
+            },
+            "26:155": {
+              "explanation": "Салих определяет чередование дней питья верблюдицы и народа.",
+              "key_phrase": {
+                "text": "Вот верблюдица",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:142"
+              ]
+            },
+            "26:156": {
+              "explanation": "В продолжении речи прямо запрещено причинять верблюдице зло.",
+              "key_phrase": {
+                "text": "Не прикасайтесь к ней со злом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:155"
+              ]
+            },
+            "54:27": {
+              "explanation": "Посылание верблюдицы прямо названо испытанием народа пророка.",
+              "key_phrase": {
+                "text": "Мы посылаем верблюдицу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "54:23"
+              ]
+            },
+            "54:28": {
+              "explanation": "Питьевая вода поделена между народом и верблюдицей по очереди.",
+              "key_phrase": {
+                "text": "вода поделена между ними и верблюдицей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:11": {
+              "explanation": "Неверие самудян вводит рассказ о гибели верблюдицы; имя Салиха дано в локальном переводе.",
+              "key_phrase": {
+                "text": "Самудяне сочли лжецом пророка Салиха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "91:12",
+                "91:13",
+                "91:14"
+              ]
+            },
+            "91:12": {
+              "explanation": "Зачинщик вызывается убить верблюдицу; действие конкретизировано в переводе и следующем контексте.",
+              "key_phrase": {
+                "text": "вызвался убить верблюдицу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "91:13",
+                "91:14"
+              ]
+            },
+            "91:13": {
+              "explanation": "Посланник прямо велит беречь верблюдицу и её питьё.",
+              "key_phrase": {
+                "text": "Берегите верблюдицу и питье ее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:14": {
+              "explanation": "Убийство верблюдицы связано с наказанием отвергнувшего пророка народа.",
+              "key_phrase": {
+                "text": "подрезали ей поджилки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:15": {
+              "explanation": "Заключение рассказа указывает отсутствие опасения последствий наказания; связь только с итогом истории, не новым описанием животного.",
+              "key_phrase": {
+                "text": "не опасался Он последствий этого",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "91:14"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0067-item-002",
+          "description": "жертвоприношение верблюда",
+          "relation_type": "topic",
+          "verse_keys": [
+            "22:36"
+          ],
+          "verse_notes": {
+            "22:36": {
+              "explanation": "Прямо описаны жертвенные верблюды, произнесение имени Аллаха и распределение мяса.",
+              "key_phrase": {
+                "text": "Жертвенных верблюдов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0067-item-003",
+          "description": "сопоставление обитателей Ада с жаждущими верблюдами",
+          "relation_type": "topic",
+          "verse_keys": [
+            "56:55"
+          ],
+          "verse_notes": {
+            "56:55": {
+              "explanation": "Питьё кипятка заблудшими сравнивается с питьём больных неутолимо жаждущих верблюдов.",
+              "key_phrase": {
+                "text": "как пьют больные верблюды",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "56:51",
+                "56:54"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0067-item-004",
+          "description": "пример с верблюдом и игольным ушком",
+          "relation_type": "topic",
+          "verse_keys": [
+            "7:40"
+          ],
+          "verse_notes": {
+            "7:40": {
+              "explanation": "Верблюд в игольном ушке выражает невозможность войти в Рай отвергшим знамения и превозносившимся.",
+              "key_phrase": {
+                "text": "пока верблюд не пройдет сквозь игольное ушко",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0067-item-005",
+          "description": "о верблюдах",
+          "relation_type": "topic",
+          "verse_keys": [
+            "22:36",
+            "88:17"
+          ],
+          "verse_notes": {
+            "22:36": {
+              "explanation": "Жертвенные верблюды названы полезными людям и подчинёнными им ради благодарности.",
+              "key_phrase": {
+                "text": "Так Мы подчинили их (верблюдов) вам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "88:17": {
+              "explanation": "Создание верблюдов прямо предложено как предмет размышления.",
+              "key_phrase": {
+                "text": "как созданы верблюды",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0068",
+      "title": "вероотступники",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0068-item-001",
+          "description": "Отступление после веры и предостережение о нём",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:86",
+            "3:90",
+            "5:12",
+            "5:54",
+            "16:106",
+            "47:25"
+          ],
+          "verse_notes": {
+            "3:86": {
+              "explanation": "Описано неверие после принятия веры, свидетельства правдивости Посланника и ясных знамений.",
+              "key_phrase": {
+                "text": "стали неверующими после того, как уверовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:90": {
+              "explanation": "Порицается увеличение неверия; Ибн Касир поясняет непринятие позднего покаяния при сохранении неверия до смерти.",
+              "key_phrase": {
+                "text": "а потом приумножили свое неверие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-3-90"
+              ],
+              "qualification": "Оговорка по Ибн Касиру: речь о сохранении неверия до смертного часа; искреннее покаяние в 3:89 различено."
+            },
+            "5:12": {
+              "explanation": "В завете сынам Исраила угроза схода с пути прямо относится к неверию после перечисленных обязательств.",
+              "key_phrase": {
+                "text": "если кто-либо из вас после этого станет неверующим",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:54": {
+              "explanation": "Верующим прямо сообщено, что отступившие будут заменены любящими Аллаха и верными Ему людьми.",
+              "key_phrase": {
+                "text": "Если кто-нибудь из вас отступит от своей религии",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:106": {
+              "explanation": "Добровольное раскрытие груди неверию противопоставлено принуждённому с твёрдой верой в сердце.",
+              "key_phrase": {
+                "text": "кто был принужден к этому",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "47:25": {
+              "explanation": "Возвращение вспять после ясного руководства связано с обольщением дьявола.",
+              "key_phrase": {
+                "text": "обратились вспять после того, как им стал ясен прямой путь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0068-item-002",
+          "description": "покаяние вероотступников",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:86",
+            "3:89"
+          ],
+          "verse_notes": {
+            "3:86": {
+              "explanation": "Отступившие описаны в начале единого предупреждения, из которого далее исключены раскаявшиеся и исправившиеся.",
+              "key_phrase": {
+                "text": "стали неверующими после того, как уверовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "3:87",
+                "3:88",
+                "3:89"
+              ]
+            },
+            "3:89": {
+              "explanation": "Исключены раскаявшиеся и исправившиеся, прямо подтверждая возможность искреннего возвращения.",
+              "key_phrase": {
+                "text": "которые раскаялись после этого и исправили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0068-item-003",
+          "description": "Наставление верующим не делать тщетными свои деяния",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "47:33"
+          ],
+          "verse_notes": {
+            "47:33": {
+              "explanation": "Верующим прямо предписано послушание Аллаху и Посланнику с предостережением не обесценить дела; отступничество адресатов не утверждается.",
+              "key_phrase": {
+                "text": "не делайте тщетными ваши деяния",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0069",
+      "title": "вероотступничество",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0069-item-003",
+          "description": "Продажа завета и обмен веры на неверие",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:77",
+            "3:177"
+          ],
+          "verse_notes": {
+            "3:77": {
+              "explanation": "За продажу завета с Аллахом и клятв за ничтожную цену обещаны лишение доли и наказание.",
+              "key_phrase": {
+                "text": "продают завет с Аллахом и свои клятвы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:177": {
+              "explanation": "Обмен веры на неверие прямо сравнивается с покупкой и связан с мучительным наказанием.",
+              "key_phrase": {
+                "text": "купили неверие за веру",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0069-item-002",
+          "description": "Отступление, возможность покаяния и исключение принуждённого",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:108",
+            "2:217",
+            "3:86",
+            "3:87",
+            "3:88",
+            "3:89",
+            "3:90",
+            "4:137",
+            "16:106",
+            "16:107",
+            "16:108",
+            "16:109",
+            "47:25"
+          ],
+          "verse_notes": {
+            "2:108": {
+              "explanation": "Обмен веры на неверие прямо назван отходом от прямого пути.",
+              "key_phrase": {
+                "text": "Кто сменил веру на неверие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:217": {
+              "explanation": "Тщетность деяний и Огонь связаны с отступлением и смертью в неверии.",
+              "key_phrase": {
+                "text": "отступит от своей религии и умрет неверующим",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:86": {
+              "explanation": "Описано неверие после принятия веры, свидетельства правдивости Посланника и ясных знамений.",
+              "key_phrase": {
+                "text": "стали неверующими после того, как уверовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:87": {
+              "explanation": "Проклятие названо воздаянием описанным ранее отступившим.",
+              "key_phrase": {
+                "text": "Их воздаянием является проклятие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "3:86"
+              ]
+            },
+            "3:88": {
+              "explanation": "Продолжение предостерегает о длительности наказания описанных отступивших; последующий аят даёт исключение покаяния.",
+              "key_phrase": {
+                "text": "Их мучения не будут облегчены",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "3:86",
+                "3:87",
+                "3:89"
+              ]
+            },
+            "3:89": {
+              "explanation": "Исключены раскаявшиеся и исправившиеся, прямо подтверждая возможность искреннего возвращения.",
+              "key_phrase": {
+                "text": "которые раскаялись после этого и исправили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:90": {
+              "explanation": "Порицается увеличение неверия; Ибн Касир поясняет непринятие позднего покаяния при сохранении неверия до смерти.",
+              "key_phrase": {
+                "text": "а потом приумножили свое неверие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-3-90"
+              ],
+              "qualification": "Оговорка по Ибн Касиру: речь о сохранении неверия до смертного часа; искреннее покаяние в 3:89 различено."
+            },
+            "4:137": {
+              "explanation": "Ибн Касир относит угрозу непрощения к упорству в отступлении вплоть до смерти, не к любому последующему покаянию.",
+              "key_phrase": {
+                "text": "а затем приумножили свое неверие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-4-137"
+              ]
+            },
+            "16:106": {
+              "explanation": "Добровольное раскрытие груди неверию противопоставлено принуждённому с твёрдой верой в сердце.",
+              "key_phrase": {
+                "text": "кто был принужден к этому",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:107": {
+              "explanation": "Причиной осуждённого отступления названа предпочитаемая мирская жизнь; исключение принуждённого остаётся действующим.",
+              "key_phrase": {
+                "text": "они предпочли мирскую жизнь Последней жизни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "16:106"
+              ]
+            },
+            "16:108": {
+              "explanation": "Запечатывание чувств относится к осуждённым добровольным отступникам предыдущего контекста.",
+              "key_phrase": {
+                "text": "Аллах запечатал их сердца, слух и зрение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "16:106",
+                "16:107"
+              ]
+            },
+            "16:109": {
+              "explanation": "Ущерб в Последней жизни обещан описанным отступникам, а не исключённому принуждённому верующему.",
+              "key_phrase": {
+                "text": "окажутся потерпевшими убыток",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "16:106",
+                "16:107"
+              ]
+            },
+            "47:25": {
+              "explanation": "Возвращение вспять после ясного руководства связано с обольщением дьявола.",
+              "key_phrase": {
+                "text": "обратились вспять после того, как им стал ясен прямой путь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0070",
+      "title": "верующие",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0070-item-001",
+          "description": "запрет на обвинение в неверии верующего человека без убедительных доказательств",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:94"
+          ],
+          "verse_notes": {
+            "4:94": {
+              "explanation": "В походе велено удостоверяться и не отрицать веру приветствующего ради добычи.",
+              "key_phrase": {
+                "text": "не говорите тому, кто приветствует вас миром",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0070-item-005",
+          "description": "Вера среди людей Писания и в рассказах о прежних пророках",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:62",
+            "4:162",
+            "5:44",
+            "5:66",
+            "5:69",
+            "7:120",
+            "7:121",
+            "7:122",
+            "7:123",
+            "7:124",
+            "7:125",
+            "7:126",
+            "7:157",
+            "7:159",
+            "7:164",
+            "7:168",
+            "7:170",
+            "10:83",
+            "10:84",
+            "10:85",
+            "10:86",
+            "11:17",
+            "13:36",
+            "13:43",
+            "17:107",
+            "20:70",
+            "20:72",
+            "20:73",
+            "26:46",
+            "26:47",
+            "26:48",
+            "26:50",
+            "26:51",
+            "28:52",
+            "28:53",
+            "28:54",
+            "28:55",
+            "29:47",
+            "32:24"
+          ],
+          "verse_notes": {
+            "2:62": {
+              "explanation": "Верующие, иудеи, христиане и сабии названы при условии веры в Аллаха, Последний день и праведных дел, с обещанием награды.",
+              "key_phrase": {
+                "text": "которые уверовали в Аллаха и в Последний день",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-62"
+              ],
+              "qualification": "По Ибн Касиру верность посланнику своего времени и следование Мухаммаду после его отправления. Название группы не обеспечивает безусловного спасения."
+            },
+            "4:162": {
+              "explanation": "Обладателям знания и веры, молитвы и закята обещано великое вознаграждение.",
+              "key_phrase": {
+                "text": "Мы одарим великим вознаграждением",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:44": {
+              "explanation": "Тора названа руководством, по которому покорившиеся пророки и хранители Писания решали дела иудеев.",
+              "key_phrase": {
+                "text": "Покорившиеся пророки выносили по нему решения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:66": {
+              "explanation": "Следование Писаниям поставлено условием благ; среди людей Писания прямо различены умеренные и поступающие плохо.",
+              "key_phrase": {
+                "text": "Среди них есть умеренные люди",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:69": {
+              "explanation": "Отсутствие страха и печали связано с верой в Аллаха, Последний день и праведными делами, а не только названием религии.",
+              "key_phrase": {
+                "text": "не познают страха и не будут опечалены",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-69"
+              ],
+              "qualification": "Не безусловное спасение по названию группы: названы вера и праведность. Ибн Касир поясняет соответствие посланию Мухаммада после его отправления."
+            },
+            "7:120": {
+              "explanation": "Колдуны в рассказе о Мусе совершают земной поклон, за которым следует исповедание веры.",
+              "key_phrase": {
+                "text": "Колдуны пали ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:121",
+                "7:122"
+              ]
+            },
+            "7:121": {
+              "explanation": "Павшие ниц колдуны прямо исповедуют веру в Господа миров.",
+              "key_phrase": {
+                "text": "Мы уверовали в Господа миров",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:120"
+              ]
+            },
+            "7:122": {
+              "explanation": "Господь Мусы и Харуна уточняет содержание исповедания колдунов.",
+              "key_phrase": {
+                "text": "Господа Мусы (Моисея) и Харуна",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:121"
+              ]
+            },
+            "7:123": {
+              "explanation": "Фараон осуждает принятие колдунами веры без разрешения; это угроза гонителя, а не их проступок.",
+              "key_phrase": {
+                "text": "Вы уверовали в него без моего дозволения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:120",
+                "7:121",
+                "7:122"
+              ]
+            },
+            "7:124": {
+              "explanation": "Наказанием колдунам угрожает Фараон за их веру; угроза не представлена как справедливое воздаяние Аллаха.",
+              "key_phrase": {
+                "text": "Я отрублю вам руки и ноги накрест",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:123"
+              ]
+            },
+            "7:125": {
+              "explanation": "В ответ на угрозу верующие колдуны признают возвращение к Господу.",
+              "key_phrase": {
+                "text": "мы возвращаемся к нашему Господу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:123",
+                "7:124"
+              ]
+            },
+            "7:126": {
+              "explanation": "Колдуны объясняют преследование верой в знамения и просят терпения и смерти мусульманами.",
+              "key_phrase": {
+                "text": "умертви нас мусульманами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:157": {
+              "explanation": "Успех обещан уверовавшим в Посланника, поддержавшим его и следующим ниспосланному свету.",
+              "key_phrase": {
+                "text": "окажут ему поддержку и последуют",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:159": {
+              "explanation": "Среди народа Мусы прямо выделены верно руководящие и устанавливающие справедливость.",
+              "key_phrase": {
+                "text": "есть люди, которые истинно указывают путь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:164": {
+              "explanation": "Увещевающие в рассказе о сынах Исраила объясняют свою обязанность перед Господом и надежду на исправление других.",
+              "key_phrase": {
+                "text": "Чтобы оправдаться перед вашим Господом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:159",
+                "7:163"
+              ]
+            },
+            "7:168": {
+              "explanation": "Среди рассеянных общин народа Мусы различены праведные и неправедные, испытываемые добром и злом.",
+              "key_phrase": {
+                "text": "Среди них есть и праведные",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:159",
+                "7:167"
+              ]
+            },
+            "7:170": {
+              "explanation": "Держащимся Писания и молящимся обещано сохранение награды в продолжении рассказа о народе Мусы.",
+              "key_phrase": {
+                "text": "Мы не теряем вознаграждения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:159",
+                "7:169"
+              ]
+            },
+            "10:83": {
+              "explanation": "Мусе верят под страхом преследования Фараона; нет утверждения всеобщей веры народа.",
+              "key_phrase": {
+                "text": "Мусе (Моисею) поверили лишь немногие потомки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:84": {
+              "explanation": "Муса связывает веру в Аллаха и ислам с упованием на Него.",
+              "key_phrase": {
+                "text": "то уповайте на Него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:85": {
+              "explanation": "Последователи Мусы исповедуют упование и просят не становиться испытанием для неправедных.",
+              "key_phrase": {
+                "text": "Мы уповаем на одного Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "10:84"
+              ]
+            },
+            "10:86": {
+              "explanation": "Они продолжают мольбу о милостивом спасении от неверующих.",
+              "key_phrase": {
+                "text": "спаси нас от людей неверующих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "10:84",
+                "10:85"
+              ]
+            },
+            "11:17": {
+              "explanation": "Истинность принятого Корана связана с ясным доводом и предшествующим Писанием Мусы как руководством и милостью.",
+              "key_phrase": {
+                "text": "Писание Мусы (Моисея)",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:36": {
+              "explanation": "Признание ниспосланного среди получивших Писание различено с отрицанием части Откровения другими.",
+              "key_phrase": {
+                "text": "радуются тому, что ниспослано тебе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:43": {
+              "explanation": "Знающие Писание названы свидетелями посланничества; Ибн Касир предпочитает общее объяснение учёными людей Писания.",
+              "key_phrase": {
+                "text": "обладающие знанием о Писании",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-13-43"
+              ],
+              "qualification": "В тафсире есть другие варианты и спорные именные привязки; свидетель не объявлен однозначно только Абдуллахом ибн Саламом."
+            },
+            "17:107": {
+              "explanation": "Ранее получившие знание смиренно падают ниц при чтении Корана.",
+              "key_phrase": {
+                "text": "они падают ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:70": {
+              "explanation": "Колдуны прямо исповедуют веру в Господа Мусы и Харуна после земного поклона.",
+              "key_phrase": {
+                "text": "Мы уверовали в Господа Харуна",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:72": {
+              "explanation": "Уверовавшие колдуны предпочитают знамения и Творца угрозам Фараона, ограниченным мирской жизнью.",
+              "key_phrase": {
+                "text": "Мы не отдадим тебе предпочтения перед ясными знамениями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:73": {
+              "explanation": "Они связывают веру с надеждой прощения прежнего греха и колдовства.",
+              "key_phrase": {
+                "text": "мы уверовали в нашего Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:46": {
+              "explanation": "Земной поклон колдунов вводит прямое признание Господа миров.",
+              "key_phrase": {
+                "text": "колдуны пали ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:47",
+                "26:48"
+              ]
+            },
+            "26:47": {
+              "explanation": "Колдуны исповедуют веру в Господа миров.",
+              "key_phrase": {
+                "text": "Мы уверовали в Господа миров",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:46"
+              ]
+            },
+            "26:48": {
+              "explanation": "Уточнение Господом Мусы и Харуна определяет их исповедание.",
+              "key_phrase": {
+                "text": "Господа Мусы (Моисея) и Харуна",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:47"
+              ]
+            },
+            "26:50": {
+              "explanation": "Верующие колдуны отвечают на угрозу Фараона уверенностью возвращения к Господу.",
+              "key_phrase": {
+                "text": "мы возвратимся к нашему Господу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:49"
+              ]
+            },
+            "26:51": {
+              "explanation": "Они надеются на прощение грехов за первенство в принятии веры в данном эпизоде.",
+              "key_phrase": {
+                "text": "стали первыми верующими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:46",
+                "26:47",
+                "26:48"
+              ]
+            },
+            "28:52": {
+              "explanation": "Получившие Писание прежде прямо описаны как уверовавшие в Коран.",
+              "key_phrase": {
+                "text": "уверовали в него (Коран)",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "28:53": {
+              "explanation": "Описанные слушатели признают Коран истиной Господа и свою прежнюю покорность.",
+              "key_phrase": {
+                "text": "Мы и прежде были мусульманами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:52"
+              ]
+            },
+            "28:54": {
+              "explanation": "Их терпение, ответ добром и расходование связаны с двойной наградой.",
+              "key_phrase": {
+                "text": "награду в двойном размере",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:52",
+                "28:53"
+              ]
+            },
+            "28:55": {
+              "explanation": "В продолжении описаны отказ от праздных речей, мирный ответ и дистанцирование от невежества.",
+              "key_phrase": {
+                "text": "Мы не желаем следовать путем невежд",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:52"
+              ]
+            },
+            "29:47": {
+              "explanation": "Получившие Писание признают Коран; Ибн Касир поясняет первую группу знающими людьми Писания.",
+              "key_phrase": {
+                "text": "Те, кому Мы даровали Писание, веруют в него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-29-47"
+              ],
+              "qualification": "Связь опирается на первую часть. Вторая группа в скобках локального перевода обозначена иначе, чем у Ибн Касира, поясняющего её арабами; это различие не скрыто."
+            },
+            "32:24": {
+              "explanation": "В продолжении истории дарования Писания Мусе названы предводители, получившие руководство за терпение и убеждённую веру.",
+              "key_phrase": {
+                "text": "терпеливы и убежденно верили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-32-24"
+              ],
+              "context_verse_keys": [
+                "32:23"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0070-item-006",
+          "description": "Различие веры и нечестия и окончательного воздаяния",
+          "relation_type": "topic",
+          "verse_keys": [
+            "11:105",
+            "16:76",
+            "22:17",
+            "36:59",
+            "38:28",
+            "38:62",
+            "38:63",
+            "39:60",
+            "40:58",
+            "42:7",
+            "45:21",
+            "56:3",
+            "56:8",
+            "56:9",
+            "56:27",
+            "56:41",
+            "66:8",
+            "68:35",
+            "68:36",
+            "79:37",
+            "79:38",
+            "79:39",
+            "79:40",
+            "79:41",
+            "80:38",
+            "80:39",
+            "80:40",
+            "80:41",
+            "80:42",
+            "82:13",
+            "82:14",
+            "82:15",
+            "82:16",
+            "83:18",
+            "83:19",
+            "83:22",
+            "83:23",
+            "84:7",
+            "84:10",
+            "84:11",
+            "84:12",
+            "84:13"
+          ],
+          "verse_notes": {
+            "11:105": {
+              "explanation": "В день окончательного расчёта люди разделены на несчастных и счастливых; дальнейшие аяты показывают их разные обители.",
+              "key_phrase": {
+                "text": "будут несчастные и счастливые",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "11:106",
+                "11:108"
+              ]
+            },
+            "16:76": {
+              "explanation": "Ибн Касир приводит объяснение притчи верующим и неверующим наряду с предпочитаемым объяснением об идоле и Аллахе.",
+              "key_phrase": {
+                "text": "Разве он равен тому, кто отдает справедливые приказы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-16-76",
+                "ksu-saadi-16-76"
+              ],
+              "qualification": "Связь с верующими - один приведённый вариант; основное объяснение у этих толкователей - бессилие идола перед Аллахом. Не представлено однозначным буквальным описанием верующих."
+            },
+            "22:17": {
+              "explanation": "Суд Аллаха различает перечисленные религиозные группы; разное воздаяние раскрыто последующим контекстом.",
+              "key_phrase": {
+                "text": "Аллах рассудит между верующими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "22:19",
+                "22:23"
+              ]
+            },
+            "36:59": {
+              "explanation": "В сцене расчёта грешникам велено отделиться после описания благ райских обитателей.",
+              "key_phrase": {
+                "text": "Отделитесь сегодня, грешники",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "36:55",
+                "36:56",
+                "36:57",
+                "36:58"
+              ]
+            },
+            "38:28": {
+              "explanation": "Прямо отвергнуто уравнивание праведных верующих с нечестивыми и богобоязненных с грешниками.",
+              "key_phrase": {
+                "text": "Мы уравняем богобоязненных с грешниками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:62": {
+              "explanation": "Находящиеся в Огне ищут презиравшихся ими верующих; Ибн Касир объясняет их отсутствие спасением.",
+              "key_phrase": {
+                "text": "которых мы считали плохими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-38-62"
+              ],
+              "context_verse_keys": [
+                "38:55",
+                "38:59"
+              ]
+            },
+            "38:63": {
+              "explanation": "В продолжении грешники сомневаются, не были ли их насмешки ошибкой, что выявляет переворот прежней оценки верующих.",
+              "key_phrase": {
+                "text": "мы несправедливо глумились над ними",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-38-63"
+              ],
+              "context_verse_keys": [
+                "38:62"
+              ]
+            },
+            "39:60": {
+              "explanation": "Лжецы об Аллахе и возгордившиеся показаны с почерневшими лицами и адской обителью в отличие от спасённых богобоязненных.",
+              "key_phrase": {
+                "text": "с почерневшими лицами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "39:61"
+              ]
+            },
+            "40:58": {
+              "explanation": "Неравенство праведных верующих и творящих зло прямо сопоставлено с различием зрячего и слепого.",
+              "key_phrase": {
+                "text": "Не равны слепой и зрячий",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "42:7": {
+              "explanation": "Последний сбор разделяет людей на райскую и огненную группы.",
+              "key_phrase": {
+                "text": "Одна часть людей окажется в Раю",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "45:21": {
+              "explanation": "Отвергнуто предположение злодеев о полном равенстве с праведными верующими при жизни и после смерти.",
+              "key_phrase": {
+                "text": "как при жизни, так и после смерти",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "56:3": {
+              "explanation": "По одному объяснению ас-Саади событие воскресения унижает одних и возвышает других; не описывает современную социальную иерархию.",
+              "key_phrase": {
+                "text": "Оно унижает и возвышает",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-56-3"
+              ],
+              "context_verse_keys": [
+                "56:1",
+                "56:7"
+              ],
+              "qualification": "Ас-Саади приводит также объяснение силой и дальностью звука события; вариант не скрыт."
+            },
+            "56:8": {
+              "explanation": "Правая сторона вводится как отдельная группа воскресения с последующим описанием её благ.",
+              "key_phrase": {
+                "text": "Одни будут по правую сторону",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "56:7",
+                "56:27",
+                "56:28"
+              ]
+            },
+            "56:9": {
+              "explanation": "Левая сторона вводится как другая группа с последующим описанием наказания.",
+              "key_phrase": {
+                "text": "Другие же будут по левую сторону",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "56:7",
+                "56:41",
+                "56:42"
+              ]
+            },
+            "56:27": {
+              "explanation": "Повторно вводится правая сторона, которой далее описаны тени, плоды и блага.",
+              "key_phrase": {
+                "text": "те, кто по правую сторону",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "56:28",
+                "56:29",
+                "56:30",
+                "56:31"
+              ]
+            },
+            "56:41": {
+              "explanation": "Левая сторона введена в противопоставлении правой с дальнейшими жаром и кипятком.",
+              "key_phrase": {
+                "text": "те, кто по левую сторону",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "56:27",
+                "56:42"
+              ]
+            },
+            "66:8": {
+              "explanation": "Призыв к искреннему покаянию соединён с надеждой прощения, Рая и света для верующих.",
+              "key_phrase": {
+                "text": "Раскаивайтесь перед Аллахом искренне",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "68:35": {
+              "explanation": "Прямо отвергнуто уравнивание мусульман и грешников в данном рассуждении о воздаянии.",
+              "key_phrase": {
+                "text": "мусульман уравняем с грешниками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "68:36": {
+              "explanation": "Вопрос обличает ошибочное суждение об одинаковом воздаянии мусульман и грешников.",
+              "key_phrase": {
+                "text": "Как вы судите",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "68:35"
+              ]
+            },
+            "79:37": {
+              "explanation": "Преступление границ вводит характеристику получающего Ад, в отличие от богобоязненного.",
+              "key_phrase": {
+                "text": "кто преступил границы дозволенного",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:38",
+                "79:39",
+                "79:40",
+                "79:41"
+              ]
+            },
+            "79:38": {
+              "explanation": "Предпочтение мира продолжает характеристику осуждённого, а не каждого владеющего мирскими благами.",
+              "key_phrase": {
+                "text": "отдал предпочтение мирской жизни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:37",
+                "79:39"
+              ]
+            },
+            "79:39": {
+              "explanation": "Ад объявлен исходом преступившего границы и предпочитавшего мирское.",
+              "key_phrase": {
+                "text": "пристанищем будет Ад",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:37",
+                "79:38"
+              ]
+            },
+            "79:40": {
+              "explanation": "Страх предстать перед Господом и сдерживание страстей определяют получающего обещанный Рай.",
+              "key_phrase": {
+                "text": "удерживал себя от страстей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:41"
+              ]
+            },
+            "79:41": {
+              "explanation": "Рай прямо обещан боящемуся Господа и сдерживающему страсти из предыдущего аята.",
+              "key_phrase": {
+                "text": "пристанищем будет Рай",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:40"
+              ]
+            },
+            "80:38": {
+              "explanation": "В картине воскресения сияющие лица противопоставлены лицам неверующих и грешников.",
+              "key_phrase": {
+                "text": "одни лица будут сиять",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "80:39",
+                "80:40",
+                "80:41",
+                "80:42"
+              ]
+            },
+            "80:39": {
+              "explanation": "Смех и ликование продолжают описание благополучной группы в День воскресения.",
+              "key_phrase": {
+                "text": "смеяться и ликовать",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "80:38",
+                "80:42"
+              ]
+            },
+            "80:40": {
+              "explanation": "Покрытые прахом лица противопоставлены сияющим в День суда; принадлежность группы пояснена далее.",
+              "key_phrase": {
+                "text": "На других же лицах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "80:38",
+                "80:39",
+                "80:42"
+              ]
+            },
+            "80:41": {
+              "explanation": "Мрак на лицах продолжает описание неблагополучной группы расчёта.",
+              "key_phrase": {
+                "text": "покрывающий их мраком",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "80:40",
+                "80:42"
+              ]
+            },
+            "80:42": {
+              "explanation": "Неблагополучная группа прямо определена как неверующие грешники.",
+              "key_phrase": {
+                "text": "неверующие грешники",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "80:40",
+                "80:41"
+              ]
+            },
+            "82:13": {
+              "explanation": "Благочестивым прямо обещано блаженство.",
+              "key_phrase": {
+                "text": "благочестивые окажутся в блаженстве",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "82:14": {
+              "explanation": "Грешники прямо противопоставлены благочестивым и помещены в Ад; это предупреждение, а не награда верующим.",
+              "key_phrase": {
+                "text": "грешники окажутся в Аду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "82:15": {
+              "explanation": "Вход в Ад в День воздаяния относится к грешникам предыдущего аята.",
+              "key_phrase": {
+                "text": "в День воздаяния",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "82:14"
+              ]
+            },
+            "82:16": {
+              "explanation": "Невозможность избежать Ада относится к описанным грешникам.",
+              "key_phrase": {
+                "text": "Они не смогут избежать этого",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "82:14",
+                "82:15"
+              ]
+            },
+            "83:18": {
+              "explanation": "Книга благочестивых противопоставлена книге нечестивых; достойное положение выражено Иллийюном.",
+              "key_phrase": {
+                "text": "Книга благочестивых окажется в Иллийюне",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "83:19": {
+              "explanation": "Вопрос подчёркивает значимость Иллийюна, с которым связана книга благочестивых.",
+              "key_phrase": {
+                "text": "что такое Иллийюн",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "83:18",
+                "83:20"
+              ]
+            },
+            "83:22": {
+              "explanation": "Благочестивым прямо обещано блаженство.",
+              "key_phrase": {
+                "text": "благочестивые окажутся в блаженстве",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "83:23": {
+              "explanation": "Созерцание райских благ с лож продолжает описание блаженства благочестивых.",
+              "key_phrase": {
+                "text": "созерцать райские блага",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "83:22"
+              ]
+            },
+            "84:7": {
+              "explanation": "Получение книги справа вводит лёгкий расчёт и радостное возвращение, отличные от получения сзади.",
+              "key_phrase": {
+                "text": "книга будет вручена в правую руку",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "84:8",
+                "84:9",
+                "84:10"
+              ]
+            },
+            "84:10": {
+              "explanation": "Получение книги сзади вводит противоположный, мучительный исход.",
+              "key_phrase": {
+                "text": "книга будет вручена из-за спины",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "84:11",
+                "84:12"
+              ]
+            },
+            "84:11": {
+              "explanation": "Получивший книгу сзади призывает погибель в противопоставлении радостному возвращению спасённого.",
+              "key_phrase": {
+                "text": "станет призывать погибель",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "84:10",
+                "84:9"
+              ]
+            },
+            "84:12": {
+              "explanation": "Огонь прямо назван исходом получившего книгу сзади.",
+              "key_phrase": {
+                "text": "войдет в Пламень",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "84:10"
+              ]
+            },
+            "84:13": {
+              "explanation": "Прежняя семейная радость осуждённого связана с отрицанием возвращения к Аллаху в следующем аяте, не с греховностью любой радости.",
+              "key_phrase": {
+                "text": "радовался, находясь в кругу своей семьи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "84:10",
+                "84:14"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0070-item-003",
+          "description": "Вера, праведные дела и связанное с ними воздаяние",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:3",
+            "2:25",
+            "2:62",
+            "2:82",
+            "2:143",
+            "2:177",
+            "2:199",
+            "2:277",
+            "3:17",
+            "3:57",
+            "3:114",
+            "3:142",
+            "4:36",
+            "4:122",
+            "4:173",
+            "5:9",
+            "5:55",
+            "5:69",
+            "5:93",
+            "6:48",
+            "8:72",
+            "8:74",
+            "8:75",
+            "9:20",
+            "10:4",
+            "10:9",
+            "11:11",
+            "11:23",
+            "13:29",
+            "14:23",
+            "14:31",
+            "17:9",
+            "18:30",
+            "18:88",
+            "18:107",
+            "19:60",
+            "19:61",
+            "19:96",
+            "20:75",
+            "20:82",
+            "21:94",
+            "22:14",
+            "22:23",
+            "22:50",
+            "22:56",
+            "22:77",
+            "22:78",
+            "23:2",
+            "23:3",
+            "23:4",
+            "23:5",
+            "23:8",
+            "23:9",
+            "24:62",
+            "25:63",
+            "25:64",
+            "25:67",
+            "25:68",
+            "25:70",
+            "26:227",
+            "27:2",
+            "27:3",
+            "28:67",
+            "28:80",
+            "29:7",
+            "29:9",
+            "29:58",
+            "30:15",
+            "30:45",
+            "31:8",
+            "31:9",
+            "32:19",
+            "34:4",
+            "34:37",
+            "35:7",
+            "38:24",
+            "38:28",
+            "41:8",
+            "41:33",
+            "42:22",
+            "42:23",
+            "42:26",
+            "45:30",
+            "47:2",
+            "47:12",
+            "47:36",
+            "48:29",
+            "64:9",
+            "65:11",
+            "84:25",
+            "90:17",
+            "90:18",
+            "98:7",
+            "103:1",
+            "103:2",
+            "103:3"
+          ],
+          "verse_notes": {
+            "2:3": {
+              "explanation": "Вера в сокровенное, намаз и расходование дарованного перечислены как качества богобоязненных.",
+              "key_phrase": {
+                "text": "веруют в сокровенное",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:2"
+              ]
+            },
+            "2:25": {
+              "explanation": "Благая весть о вечных садах, плодах и чистых супругах адресована верующим с праведными делами.",
+              "key_phrase": {
+                "text": "Обрадуй тех, которые уверовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:62": {
+              "explanation": "Награда и отсутствие страха связаны с верой в Аллаха, Последний день и праведностью, не с одним названием группы.",
+              "key_phrase": {
+                "text": "поступали праведно, уготована награда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-62"
+              ],
+              "qualification": "По Ибн Касиру - верность посланнику своего времени и следование Мухаммаду после его отправления. Не безусловное спасение по названию группы."
+            },
+            "2:82": {
+              "explanation": "Праведным верующим прямо обещано вечное пребывание в Раю.",
+              "key_phrase": {
+                "text": "окажутся обитателями Рая",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:143": {
+              "explanation": "Общине даны обязанности свидетельства, а перемена киблы испытывает следование Посланнику; вера не пропадает у Аллаха.",
+              "key_phrase": {
+                "text": "Аллах никогда не даст пропасть вашей вере",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:177": {
+              "explanation": "В определении благочестия соединены вера, имущественная помощь, молитва, договоры и терпение.",
+              "key_phrase": {
+                "text": "Но благочестив тот, кто уверовал в Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:199": {
+              "explanation": "Паломникам велено следовать общему порядку и просить прощения; это наставление о деле верующих, не о принадлежности к людям Писания.",
+              "key_phrase": {
+                "text": "молите Аллаха о прощении",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:277": {
+              "explanation": "Награда, отсутствие страха и печали связаны с верой, праведностью, намазом и закятом.",
+              "key_phrase": {
+                "text": "совершали намаз и выплачивали закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:17": {
+              "explanation": "Терпение, правдивость, смирение, пожертвования и предрассветное покаяние описывают исповедующих веру.",
+              "key_phrase": {
+                "text": "терпеливы, правдивы, смиренны",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "3:16"
+              ]
+            },
+            "3:57": {
+              "explanation": "Верующим с праведными делами обещано полное вознаграждение.",
+              "key_phrase": {
+                "text": "Он одарит вознаграждением сполна",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:114": {
+              "explanation": "Праведные верующие среди людей Писания описаны призывом к добру и поспешностью к благим делам.",
+              "key_phrase": {
+                "text": "торопятся совершать добрые дела",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "3:113"
+              ]
+            },
+            "3:142": {
+              "explanation": "Ожидание Рая поставлено в связь с испытанием усилий и терпения верующих.",
+              "key_phrase": {
+                "text": "кто сражался и кто был терпелив",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:36": {
+              "explanation": "Единобожие соединено с добром родным, нуждающимся, соседям и другим указанным людям.",
+              "key_phrase": {
+                "text": "Делайте добро родителям",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:122": {
+              "explanation": "Вечные сады обещаны верующим с праведными делами как истинное обещание Аллаха.",
+              "key_phrase": {
+                "text": "по истинному обещанию Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:173": {
+              "explanation": "Верующим с праведными делами обещаны полная награда и её увеличение по милости.",
+              "key_phrase": {
+                "text": "приумножит его по Своей милости",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:9": {
+              "explanation": "Вере и праведным делам прямо обещаны прощение и великая награда.",
+              "key_phrase": {
+                "text": "прощение и великую награду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:55": {
+              "explanation": "Верующие помощники характеризуются молитвой, закятом и поклонением.",
+              "key_phrase": {
+                "text": "совершают намаз, выплачивают закят и преклоняются",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:69": {
+              "explanation": "Отсутствие страха и печали связано с верой в Аллаха, Последний день и праведными делами, а не только названием религии.",
+              "key_phrase": {
+                "text": "не познают страха и не будут опечалены",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-69"
+              ],
+              "qualification": "Не безусловное спасение по названию группы: названы вера и праведность. Ибн Касир поясняет соответствие посланию Мухаммада после его отправления."
+            },
+            "5:93": {
+              "explanation": "Вера, богобоязненность и добрые дела связаны с отсутствием греха за прежнее употребление до запрета по объяснению тафсира.",
+              "key_phrase": {
+                "text": "Ведь Аллах любит творящих добро",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-93"
+              ],
+              "qualification": "Не разрешение употреблять опьяняющее после запрета."
+            },
+            "6:48": {
+              "explanation": "Вера и исправление дел в ответ на миссию посланников связаны с отсутствием страха и печали.",
+              "key_phrase": {
+                "text": "Те, которые уверовали и совершали праведные деяния",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:72": {
+              "explanation": "Вера, переселение и поддержка создают взаимную помощь с прямо названными пределами и соблюдением договора.",
+              "key_phrase": {
+                "text": "являются помощниками и друзьями друг другу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:74": {
+              "explanation": "Верующие переселенцы и помогавшие им названы истинными верующими с прощением и уделом.",
+              "key_phrase": {
+                "text": "Им уготованы прощение и щедрый удел",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:75": {
+              "explanation": "Позднее переселившиеся и участвовавшие верующие признаются членами общей общины; родственные права выделены отдельно.",
+              "key_phrase": {
+                "text": "являются одними из вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:20": {
+              "explanation": "Вере, переселению и усилиям на пути Аллаха приписаны высокая степень и успех.",
+              "key_phrase": {
+                "text": "выше пред Ним",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:4": {
+              "explanation": "Воскресение связано со справедливой наградой верующим с праведными делами и различием их исхода с неверующими.",
+              "key_phrase": {
+                "text": "по справедливости вознаградить",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:9": {
+              "explanation": "Вера и праведность связаны с руководством Господа и райскими реками.",
+              "key_phrase": {
+                "text": "Господь поведет верным путем за их веру",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "11:11": {
+              "explanation": "Терпение и праведные дела связаны с прощением и великой наградой.",
+              "key_phrase": {
+                "text": "уготованы прощение и великая награда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "11:23": {
+              "explanation": "Верующим с праведными делами и смирением обещан вечный Рай.",
+              "key_phrase": {
+                "text": "будут обитателями Рая",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:29": {
+              "explanation": "Вера и праведные дела связаны с блаженством и прекрасным возвращением.",
+              "key_phrase": {
+                "text": "уготованы блаженство",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "14:23": {
+              "explanation": "Вечное введение верующих в сады сопровождается приветствием мира.",
+              "key_phrase": {
+                "text": "Их приветствием там будет слово",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "14:31": {
+              "explanation": "Верующим прямо предписаны намаз и явное и тайное расходование до последнего расчёта.",
+              "key_phrase": {
+                "text": "совершали намаз и расходовали явно и тайно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:9": {
+              "explanation": "Коран даёт верующим праведным благую весть о великой награде.",
+              "key_phrase": {
+                "text": "уготована великая награда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "18:30": {
+              "explanation": "Награда верующих с добрыми делами прямо обещана сохранённой.",
+              "key_phrase": {
+                "text": "Мы не теряем награды тех, кто совершал добро",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "18:88": {
+              "explanation": "В речи Зуль-Карнайна верующему с праведными делами обещано наилучшее воздаяние и лёгкое обращение.",
+              "key_phrase": {
+                "text": "Тому же, кто уверовал и поступает праведно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "18:83",
+                "18:87"
+              ]
+            },
+            "18:107": {
+              "explanation": "Сады Фирдауса прямо названы обителью верующих с праведными делами.",
+              "key_phrase": {
+                "text": "будут сады Фирдауса",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:60": {
+              "explanation": "Раскаяние, вера и праведность исключают человека из предшествующей угрозы и связаны с Раем без несправедливости.",
+              "key_phrase": {
+                "text": "раскаялись, уверовали и поступали праведно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:61": {
+              "explanation": "Сады Эдема раскрывают обещание Рая раскаявшимся праведным верующим.",
+              "key_phrase": {
+                "text": "сады Эдема, обещанные Милостивым",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "19:60"
+              ]
+            },
+            "19:96": {
+              "explanation": "Вера и праведные дела связаны с даруемой Милостивым любовью.",
+              "key_phrase": {
+                "text": "Милостивый одарит любовью",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:75": {
+              "explanation": "Явившимся верующими с праведными делами обещаны высшие ступени.",
+              "key_phrase": {
+                "text": "уготованы высшие ступени",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:82": {
+              "explanation": "Прощение связано с покаянием, верой, праведностью и дальнейшим следованием руководству.",
+              "key_phrase": {
+                "text": "Я прощаю тех, кто раскаялся",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "21:94": {
+              "explanation": "Усилие праведного верующего не отвергается и записывается.",
+              "key_phrase": {
+                "text": "не будут отвергнуты",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:14": {
+              "explanation": "Праведным верующим обещано введение в сады по воле Аллаха.",
+              "key_phrase": {
+                "text": "Аллах введет в Райские сады",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:23": {
+              "explanation": "Верующим с праведными делами обещаны сады, украшения и шёлковые одеяния.",
+              "key_phrase": {
+                "text": "Аллах введет в Райские сады",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:50": {
+              "explanation": "Верующим с праведными делами обещаны прощение и щедрый удел.",
+              "key_phrase": {
+                "text": "уготованы прощение и щедрый удел",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:56": {
+              "explanation": "При окончательном суде верующие с праведными делами окажутся в садах.",
+              "key_phrase": {
+                "text": "окажутся в Садах блаженства",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:77": {
+              "explanation": "Верующим предписаны поклоны, поклонение Господу и добро ради преуспеяния.",
+              "key_phrase": {
+                "text": "поклоняйтесь вашему Господу и творите добро",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:78": {
+              "explanation": "Усердие, намаз, закят и крепкое держание Аллаха соединены с обязанностью свидетельствовать о людях.",
+              "key_phrase": {
+                "text": "Совершайте намаз, выплачивайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "23:2": {
+              "explanation": "Смирение при намазе названо качеством преуспевших верующих.",
+              "key_phrase": {
+                "text": "смиренны во время своих намазов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:1"
+              ]
+            },
+            "23:3": {
+              "explanation": "Отказ от праздного назван качеством преуспевших верующих.",
+              "key_phrase": {
+                "text": "отворачиваются от всего праздного",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:1"
+              ]
+            },
+            "23:4": {
+              "explanation": "Выплата закята названа качеством преуспевших верующих.",
+              "key_phrase": {
+                "text": "выплачивают закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:1"
+              ]
+            },
+            "23:5": {
+              "explanation": "Целомудрие названо качеством верующих; исключения дозволенных отношений изложены следующим аятом.",
+              "key_phrase": {
+                "text": "оберегают свои половые органы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:1",
+                "23:6"
+              ]
+            },
+            "23:8": {
+              "explanation": "Верность доверенному и договорам названа качеством преуспевших верующих.",
+              "key_phrase": {
+                "text": "соблюдают договоры",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:1"
+              ]
+            },
+            "23:9": {
+              "explanation": "Регулярный намаз завершает описание преуспевших верующих.",
+              "key_phrase": {
+                "text": "регулярно совершают намаз",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:1"
+              ]
+            },
+            "24:62": {
+              "explanation": "Вера связана с дисциплиной общего дела у Посланника и просьбой разрешения уйти.",
+              "key_phrase": {
+                "text": "не уходят, пока не попросят у него разрешения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "25:63": {
+              "explanation": "Рабы Милостивого описаны смиренным поведением и мирным ответом невеждам.",
+              "key_phrase": {
+                "text": "ступают по земле смиренно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "25:64": {
+              "explanation": "Их ночное поклонение выражено земными поклонами и стоянием перед Господом.",
+              "key_phrase": {
+                "text": "проводят ночи, падая ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "25:63"
+              ]
+            },
+            "25:67": {
+              "explanation": "В пожертвованиях рабов Милостивого похвалена середина между излишеством и скупостью.",
+              "key_phrase": {
+                "text": "не излишествуют и не скупятся",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "25:63"
+              ]
+            },
+            "25:68": {
+              "explanation": "Они избегают многобожия, запрещённого убийства и прелюбодеяния; осуждение нарушений различено.",
+              "key_phrase": {
+                "text": "не взывают помимо Аллаха к другим богам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "25:63"
+              ]
+            },
+            "25:70": {
+              "explanation": "Покаяние, вера и праведность исключают из угрозы и связаны с заменой злых дел добрыми.",
+              "key_phrase": {
+                "text": "Их злые деяния Аллах заменит добрыми",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:227": {
+              "explanation": "Верующие праведные поэты, поминающие Аллаха и защищающиеся от несправедливости, исключены из осуждения поэтов.",
+              "key_phrase": {
+                "text": "Это не относится к тем, которые уверовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:224",
+                "26:225",
+                "26:226"
+              ]
+            },
+            "27:2": {
+              "explanation": "Коран назван руководством и благой вестью для верующих.",
+              "key_phrase": {
+                "text": "благая весть для верующих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "27:1"
+              ]
+            },
+            "27:3": {
+              "explanation": "Получающие руководство верующие характеризуются намазом, закятом и убеждённостью в Последней жизни.",
+              "key_phrase": {
+                "text": "убеждены в Последней жизни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "27:2"
+              ]
+            },
+            "28:67": {
+              "explanation": "Покаяние, вера и праведные дела связаны с надеждой преуспеяния.",
+              "key_phrase": {
+                "text": "раскаялся, уверовал и поступал праведно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "28:80": {
+              "explanation": "В рассказе о Каруне обладатели знания предпочитают награду Аллаха верующим его богатству и отмечают терпение.",
+              "key_phrase": {
+                "text": "Вознаграждение Аллаха будет лучше",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:79"
+              ]
+            },
+            "29:7": {
+              "explanation": "Верующим с праведными делами обещаны прощение злодеяний и наилучшее воздаяние.",
+              "key_phrase": {
+                "text": "Мы простим их злодеяния",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "29:9": {
+              "explanation": "Верующим с праведными делами обещано введение в Рай с праведниками.",
+              "key_phrase": {
+                "text": "Мы введем в Рай вместе с праведниками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "29:58": {
+              "explanation": "Верующим с праведными делами обещаны вечные горницы в Раю.",
+              "key_phrase": {
+                "text": "поселим в горницах в Раю",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:15": {
+              "explanation": "Верующим с праведными делами обещана радость в Райском саду, с сохранением варианта перевода о пении.",
+              "key_phrase": {
+                "text": "будут радоваться",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:45": {
+              "explanation": "Верующим с праведными делами обещано воздаяние из щедрот Аллаха.",
+              "key_phrase": {
+                "text": "Он воздал Своими щедротами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "31:8": {
+              "explanation": "Верующим с праведными делами прямо обещаны Сады блаженства.",
+              "key_phrase": {
+                "text": "уготованы Сады блаженства",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "31:9": {
+              "explanation": "Вечность пребывания относится к верующим с праведными делами предыдущего аята и истинному обещанию.",
+              "key_phrase": {
+                "text": "Они пребудут в них вечно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "31:8"
+              ]
+            },
+            "32:19": {
+              "explanation": "Вера и праведные дела связаны с Садами пристанища как воздаянием.",
+              "key_phrase": {
+                "text": "Сады пристанища",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "34:4": {
+              "explanation": "Окончательный суд служит воздаянию верующим с праведными делами, которым обещаны прощение и удел.",
+              "key_phrase": {
+                "text": "им уготовано прощение и щедрый удел",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "34:3"
+              ]
+            },
+            "34:37": {
+              "explanation": "Богатство и дети не дают близости сами по себе; вера и праведность связаны с увеличенной наградой.",
+              "key_phrase": {
+                "text": "Для таких людей будет приумножено воздаяние",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:7": {
+              "explanation": "Награда верующим с праведными делами противопоставлена наказанию неверующих.",
+              "key_phrase": {
+                "text": "прощение и великая награда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:24": {
+              "explanation": "В речи Давуда верующие с праведными делами исключены из обычной несправедливости партнёров, при указании редкости таких.",
+              "key_phrase": {
+                "text": "кроме тех, которые уверовали и совершают праведные деяния",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:28": {
+              "explanation": "Прямо отвергнуто уравнивание праведных верующих с распространяющими нечестие.",
+              "key_phrase": {
+                "text": "Мы уравняем тех, кто уверовал",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:8": {
+              "explanation": "Верующим с праведными делами обещана неиссякаемая награда.",
+              "key_phrase": {
+                "text": "неиссякаемая награда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:33": {
+              "explanation": "Прекрасная речь соединяет призыв к Аллаху, праведность и признание себя мусульманином.",
+              "key_phrase": {
+                "text": "поступает праведно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "42:22": {
+              "explanation": "Верующим с праведными делами обещаны сады и желаемое у Господа в отличие от страха беззаконников.",
+              "key_phrase": {
+                "text": "Им уготовано у их Господа все, что они пожелают",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "42:23": {
+              "explanation": "Райская милость предыдущего аята названа благой вестью праведным верующим, а приобретённое добро умножается.",
+              "key_phrase": {
+                "text": "Тому, кто приобретет добро, Мы увеличим его",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "42:22"
+              ]
+            },
+            "42:26": {
+              "explanation": "Аллах отвечает верующим с праведными делами и умножает милость, в отличие от мучений неверующих.",
+              "key_phrase": {
+                "text": "приумножает им из Своей милости",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "45:30": {
+              "explanation": "Верующим с праведными делами обещано введение в милость Господа как явный успех.",
+              "key_phrase": {
+                "text": "введет их в Свою милость",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "47:2": {
+              "explanation": "Вера, праведные дела и признание истины, ниспосланной Мухаммаду, связаны с прощением и исправлением положения.",
+              "key_phrase": {
+                "text": "Он простил грехи и исправил положение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "47:12": {
+              "explanation": "Верующим с праведными делами обещаны сады, противопоставленные конечной обители неверующих.",
+              "key_phrase": {
+                "text": "Аллах введет тех, которые уверовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "47:36": {
+              "explanation": "При вере и богобоязненности обещана награда в противопоставлении игре мирской жизни.",
+              "key_phrase": {
+                "text": "Он дарует вам вашу награду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "48:29": {
+              "explanation": "Описав Посланника и его спутников, аят прямо обещает верующим с праведными делами прощение и великую награду.",
+              "key_phrase": {
+                "text": "прощение и великую награду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "64:9": {
+              "explanation": "Верующим с праведными делами обещаны прощение и вечные сады в День сбора.",
+              "key_phrase": {
+                "text": "Он простит злодеяния",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "65:11": {
+              "explanation": "Миссия чтения аятов выводит верующих из мрака к свету; им же обещаны вечные сады.",
+              "key_phrase": {
+                "text": "из мраков к свету",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "84:25": {
+              "explanation": "Верующие с праведными делами исключены из угрозы и получают неиссякаемую награду.",
+              "key_phrase": {
+                "text": "Им уготована награда неиссякаемая",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "90:17": {
+              "explanation": "Верность вере связана с взаимным наставлением терпению и милосердию.",
+              "key_phrase": {
+                "text": "заповедали друг другу милосердие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "90:18": {
+              "explanation": "Людьми правой стороны названы описанные взаимно наставляющими к терпению и милосердию верующие.",
+              "key_phrase": {
+                "text": "Таковы люди правой стороны",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "90:17"
+              ]
+            },
+            "98:7": {
+              "explanation": "Праведные верующие прямо названы наилучшими из тварей.",
+              "key_phrase": {
+                "text": "наилучшими из тварей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "103:1": {
+              "explanation": "Клятва временем вводит предупреждение об ущербе и исключение верующих с делами и взаимным наставлением.",
+              "key_phrase": {
+                "text": "Клянусь предвечерним временем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "103:2",
+                "103:3"
+              ]
+            },
+            "103:2": {
+              "explanation": "Всеобщий ущерб человека ограничен следующим исключением веры и праведных дел.",
+              "key_phrase": {
+                "text": "каждый человек в убытке",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "103:3"
+              ]
+            },
+            "103:3": {
+              "explanation": "Спасительное исключение составляют вера, праведность и взаимное наставление истине и терпению.",
+              "key_phrase": {
+                "text": "заповедали друг другу истину",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0070-item-004",
+          "description": "награда, ожидающая верующих",
+          "relation_type": "topic",
+          "verse_keys": [
+            "18:88"
+          ],
+          "verse_notes": {
+            "18:88": {
+              "explanation": "В речи Зуль-Карнайна верующему с праведными делами обещано наилучшее воздаяние и лёгкое обращение.",
+              "key_phrase": {
+                "text": "Тому же, кто уверовал и поступает праведно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "18:83",
+                "18:87"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0070-item-007",
+          "description": "Отступление с утратой деяний при смерти в неверии",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "2:217"
+          ],
+          "verse_notes": {
+            "2:217": {
+              "explanation": "Тщетность деяний и Огонь связаны с отступлением и смертью в неверии.",
+              "key_phrase": {
+                "text": "отступит от своей религии и умрет неверующим",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0071",
+      "title": "весы",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0071-item-001",
+          "description": "Весы как справедливость и честное взвешивание",
+          "relation_type": "topic",
+          "verse_keys": [
+            "42:17",
+            "55:7",
+            "55:8",
+            "55:9"
+          ],
+          "verse_notes": {
+            "42:17": {
+              "explanation": "Писание и Весы названы даром Аллаха; ас-Саади поясняет Весы справедливостью и мерой истины, не одним торговым прибором.",
+              "key_phrase": {
+                "text": "ниспослал Писание с истиной и Весы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-42-17"
+              ]
+            },
+            "55:7": {
+              "explanation": "Установление весов ас-Саади поясняет общим порядком справедливости, включая измерения.",
+              "key_phrase": {
+                "text": "установил весы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-55-7"
+              ]
+            },
+            "55:8": {
+              "explanation": "Прямо запрещено преступать меру на весах.",
+              "key_phrase": {
+                "text": "не преступали границы дозволенного на весах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "55:9": {
+              "explanation": "Прямо велено беспристрастное взвешивание без занижения.",
+              "key_phrase": {
+                "text": "Взвешивайте беспристрастно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0071-item-002",
+          "description": "Тяжесть и лёгкость Весов последнего расчёта",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "101:6",
+            "101:7",
+            "101:8",
+            "101:9"
+          ],
+          "verse_notes": {
+            "101:6": {
+              "explanation": "Тяжёлая чаша Весов вводит обещание приятной жизни при расчёте.",
+              "key_phrase": {
+                "text": "чаша Весов окажется тяжелой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "101:7"
+              ]
+            },
+            "101:7": {
+              "explanation": "Приятная жизнь обещана тому, у кого тяжела чаша Весов.",
+              "key_phrase": {
+                "text": "обретет приятную жизнь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "101:6"
+              ]
+            },
+            "101:8": {
+              "explanation": "Лёгкая чаша Весов вводит предупреждение о Пропасти.",
+              "key_phrase": {
+                "text": "чаша Весов окажется легкой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "101:9"
+              ]
+            },
+            "101:9": {
+              "explanation": "Пропасть названа исходом получившего лёгкую чашу; варианты перевода образа сохранены.",
+              "key_phrase": {
+                "text": "матерью станет Пропасть",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "101:8"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0072",
+      "title": "ветер",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0072-item-001",
+          "description": "Ветер, облака, дождь и оживление земли",
+          "relation_type": "topic",
+          "verse_keys": [
+            "15:22",
+            "30:46",
+            "30:48",
+            "30:50"
+          ],
+          "verse_notes": {
+            "15:22": {
+              "explanation": "Ветры связаны с оплодотворением облаков водой и ниспосланием питьевой воды.",
+              "key_phrase": {
+                "text": "ветры, оплодотворяющие облака водой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:46": {
+              "explanation": "Ветры названы добрыми вестниками милости и средством движения кораблей.",
+              "key_phrase": {
+                "text": "посылает ветры добрыми вестниками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:48": {
+              "explanation": "Ветры поднимают облака, из которых дождь приносит людям радость.",
+              "key_phrase": {
+                "text": "посылает ветры, которые поднимают облака",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:50": {
+              "explanation": "После описания ветров и дождя оживление земли прямо названо следом милости и доводом воскресения.",
+              "key_phrase": {
+                "text": "Он оживляет землю после ее смерти",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "30:48",
+                "30:49"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0072-item-002",
+          "description": "о ветре",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:164",
+            "15:22",
+            "45:5",
+            "51:1",
+            "51:41",
+            "51:42",
+            "77:1",
+            "77:2"
+          ],
+          "verse_notes": {
+            "2:164": {
+              "explanation": "Смена ветров прямо входит в перечень знамений для размышляющих.",
+              "key_phrase": {
+                "text": "в смене ветров",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:22": {
+              "explanation": "Ветры прямо названы в связи с водой облаков и питьём людей.",
+              "key_phrase": {
+                "text": "Мы послали ветры",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "45:5": {
+              "explanation": "Смена ветров прямо названа знамением для разумеющих.",
+              "key_phrase": {
+                "text": "в смене ветров есть знамения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:1": {
+              "explanation": "Рассеивание праха поясняется ветром в переданном Ибн Касиром толковании.",
+              "key_phrase": {
+                "text": "рассеивающими прах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-51-1"
+              ]
+            },
+            "51:41": {
+              "explanation": "В рассказе об адитах прямо назван недобрый ветер наказания.",
+              "key_phrase": {
+                "text": "наслали на них недобрый ветер",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:42": {
+              "explanation": "Предыдущий губительный ветер превращал поражённое в подобие праха.",
+              "key_phrase": {
+                "text": "Он обращал в подобие праха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "51:41"
+              ]
+            },
+            "77:1": {
+              "explanation": "Аль-Багави приводит толкование последовательными ветрами; другие толкования относят клятву к ангелам.",
+              "key_phrase": {
+                "text": "посылаемыми с добром",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-baghawi-77-1",
+                "ksu-saadi-77-1"
+              ],
+              "qualification": "Связь с ветром является одним из засвидетельствованных толкований, не единственным буквальным значением."
+            },
+            "77:2": {
+              "explanation": "Ибн Касир поясняет стремительно несущихся ветрами; ас-Саади приводит также ангельское толкование.",
+              "key_phrase": {
+                "text": "несущимися быстро",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-77-2",
+                "ksu-saadi-77-2"
+              ],
+              "qualification": "Сохранено различие толкований; не объявлено, что все клятвы начала суры относятся только к ветру."
+            }
+          }
+        },
+        {
+          "id": "topic-0072-item-003",
+          "description": "о пользе ветров для человека",
+          "relation_type": "topic",
+          "verse_keys": [
+            "7:57",
+            "30:46",
+            "30:48"
+          ],
+          "verse_notes": {
+            "7:57": {
+              "explanation": "Ветры приносят облака, воду и плоды к мёртвой земле как милость людям.",
+              "key_phrase": {
+                "text": "взращиваем всевозможные плоды",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:46": {
+              "explanation": "Ветры помогают движению кораблей и поиску милости Аллаха.",
+              "key_phrase": {
+                "text": "чтобы корабли плыли по Его воле",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:48": {
+              "explanation": "Поднятые ветром облака приносят дождь и радость получающим воду.",
+              "key_phrase": {
+                "text": "как они радуются",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0072-item-004",
+          "description": "Губительный ветер и реакция людей",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "30:51"
+          ],
+          "verse_notes": {
+            "30:51": {
+              "explanation": "Пожелтение нивы после ветра вызывает неблагодарность; это противоположный благому дождю случай.",
+              "key_phrase": {
+                "text": "нива) пожелтела",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0073",
+      "title": "взятка",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0073-item-001",
+          "description": "избегание взяток",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:188"
+          ],
+          "verse_notes": {
+            "2:188": {
+              "explanation": "Прямо запрещены подкуп судей и незаконное присвоение имущества людей.",
+              "key_phrase": {
+                "text": "не подкупайте судей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0073-item-002",
+          "description": "Отказ Сулеймана от дара, которым пытались повлиять на его решение",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "27:36"
+          ],
+          "verse_notes": {
+            "27:36": {
+              "explanation": "Ибн Касир поясняет отказ от богатства как отказ оставить отправителей в прежнем положении ради подарка.",
+              "key_phrase": {
+                "text": "Нет, это вы радуетесь преподнесенным вам дарам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-27-36"
+              ],
+              "context_verse_keys": [
+                "27:35"
+              ],
+              "qualification": "Это конкретный отказ в рассказе; аят не объявляет любой дар или дипломатический подарок юридически взяткой. Детали посольства из исраилият не добавлены."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0074",
+      "title": "видения",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0074-item-001",
+          "description": "Просьба Мусы увидеть Аллаха и ответ ему",
+          "relation_type": "topic",
+          "verse_keys": [
+            "7:143"
+          ],
+          "verse_notes": {
+            "7:143": {
+              "explanation": "Муса просит увидеть Господа, получает ответ «Ты не увидишь Меня» в этом эпизоде и падает без сознания при разрушении горы.",
+              "key_phrase": {
+                "text": "Ты не увидишь Меня",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-7-143"
+              ],
+              "qualification": "Не описывает сон Мусы и не доказывает, что он увидел Аллаха в данном эпизоде."
+            }
+          }
+        },
+        {
+          "id": "topic-0074-item-002",
+          "description": "видение Пророка о Бадре",
+          "relation_type": "topic",
+          "verse_keys": [
+            "8:43"
+          ],
+          "verse_notes": {
+            "8:43": {
+              "explanation": "Аллах показывает противников Посланнику во сне малочисленными; связь с Бадром установлена по тафсиру.",
+              "key_phrase": {
+                "text": "Аллах показал их тебе во сне малочисленными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-43"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0074-item-003",
+          "description": "Сон Посланника о безопасном входе в Заповедную мечеть",
+          "relation_type": "topic",
+          "verse_keys": [
+            "48:27"
+          ],
+          "verse_notes": {
+            "48:27": {
+              "explanation": "Правдивый сон обещает безопасный вход в Заповедную мечеть и завершение обряда; Ибн Касир указывает умру возмещения в седьмом году.",
+              "key_phrase": {
+                "text": "Вы непременно войдете в Заповедную мечеть",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-48-27"
+              ],
+              "qualification": "Не отождествлено с завоеванием Мекки; близкая победа до входа рассматривается отдельно в тафсире."
+            }
+          }
+        },
+        {
+          "id": "topic-0074-item-004",
+          "description": "видения и сны пророков",
+          "relation_type": "topic",
+          "verse_keys": [
+            "37:102"
+          ],
+          "verse_notes": {
+            "37:102": {
+              "explanation": "Ибрахим рассказывает сыну о сне с жертвоприношением, а сын отвечает готовностью исполнить веленное.",
+              "key_phrase": {
+                "text": "Я вижу во сне, что зарезаю тебя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:100",
+                "37:101"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0075",
+      "title": "византийцы",
+      "see_also": [
+        "румы"
+      ],
+      "items": [],
+      "see_also_topic_ids": [
+        "topic-0391"
+      ]
+    },
+    {
+      "id": "topic-0076",
+      "title": "вино",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0076-item-003",
+          "description": "Райский напиток с камфарой для благочестивых",
+          "relation_type": "topic",
+          "verse_keys": [
+            "76:5"
+          ],
+          "verse_notes": {
+            "76:5": {
+              "explanation": "Благочестивым обещан райский напиток с камфарой; это не разрешение земных опьяняющих напитков.",
+              "key_phrase": {
+                "text": "смешанное с камфарой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "76:6",
+                "76:11",
+                "76:12"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0076-item-002",
+          "description": "Опьяняющие напитки: грех, запрет и употребление до запрета",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:219",
+            "4:43",
+            "5:90",
+            "5:91",
+            "5:93"
+          ],
+          "verse_notes": {
+            "2:219": {
+              "explanation": "Опьяняющие напитки прямо названы большим грехом, превышающим пользу.",
+              "key_phrase": {
+                "text": "греха в них больше, чем пользы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:43": {
+              "explanation": "Запрещено приближаться к молитве в состоянии опьянения; это не отдельное разрешение пить вне молитвы.",
+              "key_phrase": {
+                "text": "Не приближайтесь к намазу, будучи пьяными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:90": {
+              "explanation": "Прямо велено сторониться опьяняющих напитков как скверны из дел дьявола.",
+              "key_phrase": {
+                "text": "Сторонитесь же ее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:91": {
+              "explanation": "Названы вреды опьяняющих напитков: вражда, ненависть и отвлечение от поминания и намаза.",
+              "key_phrase": {
+                "text": "от поминания Аллаха и намаза",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:93": {
+              "explanation": "Ибн Касир связывает отсутствие греха с прежним употреблением умершими до запрета, а не с разрешением пить после него.",
+              "key_phrase": {
+                "text": "нет греха за то, чем они питались",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-93"
+              ],
+              "context_verse_keys": [
+                "5:90",
+                "5:91"
+              ],
+              "qualification": "Не служит разрешением употреблять после установления запрета. Отдельные рассказы в тафсире не объявлены все проверенными хадисами."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+[
+  {
+    "name": "katheer",
+    "tables": [
+      {
+        "table": "katheer",
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "rows": 6236
+      },
+      {
+        "table": "sqlite_stat1",
+        "columns": [
+          "tbl",
+          "idx",
+          "stat"
+        ],
+        "rows": 1
+      }
+    ]
+  },
+  {
+    "name": "tabary",
+    "tables": [
+      {
+        "table": "tabary",
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "rows": 6236
+      },
+      {
+        "table": "sqlite_stat1",
+        "columns": [
+          "tbl",
+          "idx",
+          "stat"
+        ],
+        "rows": 0
+      }
+    ]
+  },
+  {
+    "name": "qortoby",
+    "tables": [
+      {
+        "table": "qortoby",
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "rows": 6236
+      }
+    ]
+  },
+  {
+    "name": "sa3dy",
+    "tables": [
+      {
+        "table": "sa3dy",
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "rows": 6236
+      }
+    ]
+  },
+  {
+    "name": "baghawy",
+    "tables": [
+      {
+        "table": "baghawy",
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "text"
+        ],
+        "rows": 6236
+      },
+      {
+        "table": "sqlite_stat1",
+        "columns": [
+          "tbl",
+          "idx",
+          "stat"
+        ],
+        "rows": 1
+      }
+    ]
+  },
+  {
+    "name": "russian",
+    "tables": [
+      {
+        "table": "russian",
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "translation",
+          "tafsir"
+        ],
+        "rows": 6236
+      }
+    ]
+  },
+  {
+    "name": "tafheem",
+    "tables": [
+      {
+        "table": "tafheem",
+        "columns": [
+          "id",
+          "sura",
+          "aya",
+          "translation",
+          "tafsir"
+        ],
+        "rows": 6236
+      }
+    ]
+  }
+]

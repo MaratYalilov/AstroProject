@@ -1,0 +1,5 @@
+before_title=topic_at(193)['title'];topic_at(193)['title']='Сыны Исраила и иудеи в коранических повествованиях';topic_at(193).setdefault('aliases',[]).append(before_title)
+topic_at(193)['scope_note']='Различаются древние сыны Исраила, конкретные группы иудеев эпохи послания, люди Писания в целом и отдельные участники рассказов. Чужие реплики и действия Фараона с египтянами не приписываются иудеям. Похвала и критика относятся к обозначенным людям и поступкам, а не к неизменным свойствам каждого человека по происхождению; см. также3:75,3:113-115,5:66.'
+topic_changes.extend([{'topic_id':topic_at(193)['id'],'field':'title','before':before_title,'after':topic_at(193)['title'],'reason':'Древние потомки Исраила не объявлены тождественными всем последующим иудеям.'},{'topic_id':topic_at(193)['id'],'field':'scope_note','before':None,'after':topic_at(193)['scope_note'],'reason':'Ограничены участники, эпохи и обобщения; различены праведные и нарушители.'}])
+for name in ('topic_193_belief.py','topic_193_deeds.py','topic_193_prophets.py','topic_193_christians.py','topic_193_muslims.py'):
+    if (W/name).exists():exec((W/name).read_text(encoding='utf-8'),globals())

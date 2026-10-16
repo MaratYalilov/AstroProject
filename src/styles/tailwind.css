@@ -95,6 +95,13 @@
       serif !important;
   }
 
+/* В буквенных началах Amiri накладывает широкие знаки мадда друг на друга. */
+.arab.huruf-opening {
+  font-family: "kfc_naskh-webfont", "AmiriLocal", serif !important;
+  font-weight: 400;
+  font-synthesis: none;
+}
+
 /* арабский для SVG -огласовки в теории муаллим сани */
 .arab-mark {
   font-family:

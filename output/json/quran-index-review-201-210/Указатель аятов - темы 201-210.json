@@ -1,0 +1,4229 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_source_id": "site-quran",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева.",
+    "tafsir_interpretation": "Толкование выражения по указанному тафсиру; альтернативные толкования отмечены.",
+    "context": "Связь установлена по конкретному указанному контексту; соседство само по себе не подтверждает связь.",
+    "tafsir_person_association": "Именная связь приведена в указанном тафсире; сама запись не является самостоятельным подтверждением достоверности иснада."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно."
+    },
+    "bukhari-4750": {
+      "title": "Сахих аль-Бухари, 4750",
+      "url": "https://sunnah.com/bukhari:4750",
+      "type": "hadith",
+      "locator": "4750",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ksu-saadi-17-75": {
+      "title": "Ас-Саади, толкование 17:75",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura17-aya75.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 17,
+        "aya": 75,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "tirmidhi-3036": {
+      "title": "Джами ат-Тирмизи, 3036",
+      "url": "https://sunnah.com/tirmidhi:3036",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "3036",
+      "hadith_grade": "хасан по оценке Darussalam, приведённой Sunnah.com",
+      "isnad_note": "Ат-Тирмизи называет передачу гариб и сообщает о других, мурсаль, путях без отца и деда Асыма."
+    },
+    "muslim-400a": {
+      "title": "Сахих Муслим, 400a",
+      "url": "https://sunnah.com/muslim:400a",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "400a",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "bukhari-4966": {
+      "title": "Сахих аль-Бухари, 4966",
+      "url": "https://sunnah.com/bukhari:4966",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4966",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-saadi-108-1": {
+      "title": "Ас-Саади, толкование 108:1",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura108-aya1.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 108,
+        "aya": 1,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-20": {
+      "title": "Ас-Саади, толкование 4:20",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya20.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 20,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-68-16": {
+      "title": "Ас-Саади, толкование 68:16",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura68-aya16.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 68,
+        "aya": 16,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-51-9": {
+      "title": "Ас-Саади, толкование 51:9",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura51-aya9.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 51,
+        "aya": 9,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-38-84": {
+      "title": "Ибн Касир, толкование 38:84",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura38-aya84.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 38,
+        "aya": 84,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-100-6": {
+      "title": "Ас-Саади, толкование 100:6",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura100-aya6.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 100,
+        "aya": 6,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-100-7": {
+      "title": "Ас-Саади, толкование 100:7",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura100-aya7.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 100,
+        "aya": 7,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-100-8": {
+      "title": "Ас-Саади, толкование 100:8",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura100-aya8.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 100,
+        "aya": 8,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-85-4": {
+      "title": "Ас-Саади, толкование 85:4",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura85-aya4.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 85,
+        "aya": 4,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-qortobi-85-4": {
+      "title": "Аль-Куртуби, толкование 85:4",
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura85-aya4.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/qortoby.sqlite",
+        "sha256": "0633353cf634fecd0850f785c405c4de92226ac26cf364319ef105c19e93cece",
+        "table": "qortoby",
+        "sura": 85,
+        "aya": 4,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-13-38": {
+      "title": "Ас-Саади, толкование 13:38",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura13-aya38.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 13,
+        "aya": 38,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-13-39": {
+      "title": "Ас-Саади, толкование 13:39",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura13-aya39.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 13,
+        "aya": 39,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-20-52": {
+      "title": "Ас-Саади, толкование 20:52",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura20-aya52.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 20,
+        "aya": 52,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0193",
+      "title": "календарь",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0193-item-001",
+          "description": "год состоит из 12 месяцев",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:36"
+          ],
+          "verse_notes": {
+            "9:36": {
+              "explanation": "Прямо установлено двенадцать месяцев, из которых четыре запретные.",
+              "key_phrase": {
+                "text": "число месяцев у Аллаха - двенадцать",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0193-item-005",
+          "description": "Лунные фазы, исчисление времени и запретные месяцы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:189",
+            "2:194",
+            "2:217",
+            "5:2",
+            "5:97",
+            "6:96",
+            "9:5",
+            "9:36",
+            "10:5",
+            "17:12"
+          ],
+          "verse_notes": {
+            "2:189": {
+              "explanation": "Новолуния прямо служат определению времени для людей и хаджа.",
+              "key_phrase": {
+                "text": "промежутки времени для людей и хаджа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:194": {
+              "explanation": "Запретный месяц выступает календарным сроком с особым правовым статусом.",
+              "key_phrase": {
+                "text": "Запретный месяц - за запретный месяц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:217": {
+              "explanation": "Сражение рассматривается применительно к особому запретному месяцу.",
+              "key_phrase": {
+                "text": "о сражении в запретный месяц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:2": {
+              "explanation": "Предписано уважать святость запретного месяца.",
+              "key_phrase": {
+                "text": "Не нарушайте святость обрядовых знамений Аллаха и запретного месяца",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:97": {
+              "explanation": "Запретный месяц назван одной из установленных опор для людей.",
+              "key_phrase": {
+                "text": "а также запретный месяц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:96": {
+              "explanation": "Солнце и луна прямо предназначены для исчисления.",
+              "key_phrase": {
+                "text": "солнце и луну - для исчисления",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:5": {
+              "explanation": "Истечение названных месяцев определяет срок в конкретном договорном и военном контексте.",
+              "key_phrase": {
+                "text": "Когда же завершатся запретные месяцы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "9:4",
+                "9:6"
+              ],
+              "qualification": "Указание срока не превращает весь аят в календарное правило; контекст включает сохранение договоров и предоставление убежища."
+            },
+            "9:36": {
+              "explanation": "Прямо названо общее число месяцев и число запретных месяцев.",
+              "key_phrase": {
+                "text": "Четыре месяца из них - запретные",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:5": {
+              "explanation": "Фазы луны прямо связаны с летосчислением и счётом.",
+              "key_phrase": {
+                "text": "вести летосчисление и знали счет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:12": {
+              "explanation": "Чередование ночи и дня позволяет вести летосчисление и счёт.",
+              "key_phrase": {
+                "text": "могли вести летоисчисление и знали счет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0193-item-006",
+          "description": "Число месяцев и запрет на перенос святости запретного месяца",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:36",
+            "9:37"
+          ],
+          "verse_notes": {
+            "9:36": {
+              "explanation": "Аят прямо устанавливает двенадцать месяцев и четыре запретных.",
+              "key_phrase": {
+                "text": "число месяцев у Аллаха - двенадцать",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:37": {
+              "explanation": "Осуждается произвольное объявление месяца то дозволенным, то запретным ради сохранения внешнего количества.",
+              "key_phrase": {
+                "text": "Откладывание запретного месяца только увеличивает неверие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0193-item-004",
+          "description": "месяцы года и летосчисление",
+          "relation_type": "topic",
+          "verse_keys": [
+            "10:5",
+            "17:12"
+          ],
+          "verse_notes": {
+            "10:5": {
+              "explanation": "Фазы луны позволяют считать время и годы.",
+              "key_phrase": {
+                "text": "вести летосчисление и знали счет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:12": {
+              "explanation": "Дневное и ночное знамения прямо связаны с летоисчислением.",
+              "key_phrase": {
+                "text": "могли вести летоисчисление и знали счет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0194",
+      "title": "кара",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0194-item-001",
+          "description": "кара как результат дурных поступков",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:194",
+            "3:180",
+            "4:10",
+            "4:155",
+            "5:13",
+            "5:38",
+            "5:95",
+            "6:120",
+            "6:125",
+            "6:129",
+            "6:146",
+            "7:51",
+            "7:146",
+            "8:53",
+            "9:35",
+            "9:67",
+            "9:79",
+            "9:127",
+            "13:11",
+            "14:13",
+            "16:104",
+            "17:7",
+            "17:8",
+            "17:72",
+            "20:124",
+            "20:125",
+            "20:126",
+            "27:50",
+            "32:14",
+            "37:39",
+            "40:40",
+            "42:40",
+            "45:15",
+            "45:34",
+            "47:9",
+            "52:42",
+            "53:31",
+            "59:19",
+            "61:5",
+            "83:36",
+            "85:10"
+          ],
+          "verse_notes": {
+            "2:194": {
+              "explanation": "За нарушение святости разрешено соразмерное ответное действие, ограниченное величиной посягательства.",
+              "key_phrase": {
+                "text": "подобно тому, как он посягнул на вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Соразмерный ответ на посягательство, а не разрешение на неограниченное насилие."
+            },
+            "3:180": {
+              "explanation": "Скупость оборачивается наказанием тем самым имуществом в День воскресения.",
+              "key_phrase": {
+                "text": "их шеи будут обернуты тем, что они жалели",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:10": {
+              "explanation": "Присвоение имущества сирот прямо связано с Огнём.",
+              "key_phrase": {
+                "text": "несправедливо пожирают имущество сирот",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:155": {
+              "explanation": "Запечатывание сердец прямо объяснено неверием и нарушениями завета.",
+              "key_phrase": {
+                "text": "запечатал их сердца за их неверие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:13": {
+              "explanation": "Нарушение завета названо причиной проклятия и ожесточения сердец.",
+              "key_phrase": {
+                "text": "За то, что они нарушили завет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:38": {
+              "explanation": "Наказание за кражу прямо названо воздаянием за совершённое.",
+              "key_phrase": {
+                "text": "в воздаяние за то, что они совершили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:95": {
+              "explanation": "Нарушение запрета охоты в ихраме требует установленного возмещения и искупления.",
+              "key_phrase": {
+                "text": "дабы он вкусил пагубность своего поступка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:120": {
+              "explanation": "Грешникам прямо обещано воздаяние за содеянное.",
+              "key_phrase": {
+                "text": "получат воздаяние за то, что они совершали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:125": {
+              "explanation": "Скверна или наказание связывается с неверием.",
+              "key_phrase": {
+                "text": "на тех, кто не верует",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:129": {
+              "explanation": "Власть одних беззаконников над другими связывается с их приобретёнными деяниями.",
+              "key_phrase": {
+                "text": "за то, что они приобретают",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:146": {
+              "explanation": "Особые пищевые запреты названы наказанием за бесчинства.",
+              "key_phrase": {
+                "text": "Так Мы наказали их за их бесчинства",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:51": {
+              "explanation": "Оставление отвергших знамения связано с их пренебрежением встречей Последнего дня.",
+              "key_phrase": {
+                "text": "подобно тому, как они предали забвению встречу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:146": {
+              "explanation": "Отвращение от знамений объяснено гордыней, отрицанием и пренебрежением.",
+              "key_phrase": {
+                "text": "сочли ложью Наши знамения и пренебрегли ими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:53": {
+              "explanation": "Утрата оказанной милости связана с изменением самих людей.",
+              "key_phrase": {
+                "text": "не отменяет милость, которую Он оказал людям",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:35": {
+              "explanation": "Накопленные сокровища становятся орудием кары накопителям.",
+              "key_phrase": {
+                "text": "Вкусите же то, что вы копили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:67": {
+              "explanation": "Оставление лицемеров представлено ответом на их забвение Бога.",
+              "key_phrase": {
+                "text": "Они предали забвению Аллаха, и Он предал их забвению",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:79": {
+              "explanation": "Насмешки над жертвующими приводят к мучительным страданиям насмешников.",
+              "key_phrase": {
+                "text": "Им уготованы мучительные страдания",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:127": {
+              "explanation": "Отвращение сердец следует за намеренным отворотом от ниспосланной суры.",
+              "key_phrase": {
+                "text": "Аллах отвратил их сердца",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:11": {
+              "explanation": "Изменение положения людей связано с их внутренним изменением; Божье решение о бедствии нельзя отвратить.",
+              "key_phrase": {
+                "text": "Аллах не меняет положения людей, пока они не изменят самих себя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Не утверждается, что любое отдельное бедствие каждого человека является наказанием за его грех."
+            },
+            "14:13": {
+              "explanation": "Угроза изгнать посланников завершается обещанием погубить беззаконников.",
+              "key_phrase": {
+                "text": "Мы непременно погубим беззаконников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:104": {
+              "explanation": "Отрицание знамений связано с отсутствием руководства и мучительными страданиями.",
+              "key_phrase": {
+                "text": "им уготованы мучительные страдания",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:7": {
+              "explanation": "Зло причиняет вред самим творящим его и в конкретном рассказе завершается вторжением врагов.",
+              "key_phrase": {
+                "text": "то поступаете во вред себе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:8": {
+              "explanation": "Возвращение к бесчинству связано с возобновлением наказания.",
+              "key_phrase": {
+                "text": "Мы также вернемся к наказанию",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:72": {
+              "explanation": "Духовная слепота здесь имеет последствие в Последней жизни.",
+              "key_phrase": {
+                "text": "слеп в Последней жизни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Описание духовной слепоты не применяется к людям только по признаку отсутствия физического зрения."
+            },
+            "20:124": {
+              "explanation": "Отворот от Напоминания прямо влечёт тяжкую жизнь и слепоту при воскресении.",
+              "key_phrase": {
+                "text": "того ожидает тяжкая жизнь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:125": {
+              "explanation": "Вопрос воскресшего слепым описывает последствие отворота от Напоминания, причина названа по обе стороны аята.",
+              "key_phrase": {
+                "text": "Почему Ты воскресил меня слепым",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "20:124",
+                "20:126"
+              ]
+            },
+            "20:126": {
+              "explanation": "Оставление человека прямо сопоставлено с его забвением пришедших знамений.",
+              "key_phrase": {
+                "text": "сегодня ты сам будешь предан забвению",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "27:50": {
+              "explanation": "Ответ на заговор раскрыт следующим аятом как уничтожение заговорщиков и их народа.",
+              "key_phrase": {
+                "text": "Мы замыслили хитрость",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "27:49",
+                "27:51"
+              ]
+            },
+            "32:14": {
+              "explanation": "Вечные мучения прямо объяснены забвением встречи Последнего дня и совершённым.",
+              "key_phrase": {
+                "text": "вечные мучения за то, что вы совершали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "37:39": {
+              "explanation": "Мучительное наказание предыдущего аята ограничено воздаянием за совершённое.",
+              "key_phrase": {
+                "text": "только за то, что вы совершали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:38"
+              ]
+            },
+            "40:40": {
+              "explanation": "Воздаяние за зло прямо ограничено соответствием самому злу.",
+              "key_phrase": {
+                "text": "получит только соответствующее воздаяние",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "42:40": {
+              "explanation": "Ответное воздаяние ограничено равноценностью, а прощение и мир отдельно похвалены.",
+              "key_phrase": {
+                "text": "Воздаянием за зло является равноценное зло",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Аят различает допустимое равноценное возмездие и вознаграждаемое прощение."
+            },
+            "45:15": {
+              "explanation": "Злодеяние вредит самому деятелю, после чего следует возвращение к Господу.",
+              "key_phrase": {
+                "text": "тот поступает во вред себе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "45:34": {
+              "explanation": "Огонь и оставление связаны с забвением встречи Последнего дня.",
+              "key_phrase": {
+                "text": "подобно тому, как вы предали забвению встречу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "47:9": {
+              "explanation": "Ненависть к ниспосланному названа причиной тщетности деяний.",
+              "key_phrase": {
+                "text": "возненавидели ниспосланное Аллахом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "52:42": {
+              "explanation": "Замышляющие козни сами становятся их жертвой.",
+              "key_phrase": {
+                "text": "сами станут жертвой козней",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "53:31": {
+              "explanation": "Божье воздаяние злодеям прямо связано с тем, что они совершали.",
+              "key_phrase": {
+                "text": "воздал злодеям за то, что они совершили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "59:19": {
+              "explanation": "Забвение Бога приводит к забвению людьми самих себя.",
+              "key_phrase": {
+                "text": "Он заставил забыть самих себя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "61:5": {
+              "explanation": "Совращение сердец следует за собственным уклонением людей.",
+              "key_phrase": {
+                "text": "Когда же они уклонились, Аллах совратил их сердца",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "83:36": {
+              "explanation": "Вопрос прямо утверждает воздаяние неверующим за их деяния.",
+              "key_phrase": {
+                "text": "воздаяние за то, что они совершали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "85:10": {
+              "explanation": "Кара обещана преследовавшим верующих и не раскаявшимся.",
+              "key_phrase": {
+                "text": "и не раскаялись",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0194-item-002",
+          "description": "Усиленное наказание при особой ответственности",
+          "relation_type": "topic",
+          "verse_keys": [
+            "17:75",
+            "33:30"
+          ],
+          "verse_notes": {
+            "17:75": {
+              "explanation": "Двойное наказание названо условным последствием уступки противникам; ас-Саади объясняет усиление полнотой оказанной милости и знания.",
+              "key_phrase": {
+                "text": "наказание вдвойне",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-17-75"
+              ],
+              "context_verse_keys": [
+                "17:73",
+                "17:74"
+              ],
+              "qualification": "Условное предупреждение не означает, что посланник действительно уступил; ас-Саади прямо говорит о Божьей защите."
+            },
+            "33:30": {
+              "explanation": "Жёнам Пророка условно обещано двойное наказание за явную мерзость, что соответствует их особой ответственности.",
+              "key_phrase": {
+                "text": "ее мучения будут удвоены",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "33:31"
+              ],
+              "qualification": "Предупреждение условное; следующий аят также обещает двойную награду за покорность."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0195",
+      "title": "Карун (Корей)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0195-item-001",
+          "description": "аяты о Каруне (Корее), соплеменнике пророка Мусы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "28:76",
+            "28:77",
+            "28:78",
+            "28:79",
+            "28:80",
+            "28:81",
+            "28:82",
+            "29:39",
+            "40:24"
+          ],
+          "verse_notes": {
+            "28:76": {
+              "explanation": "Карун назван соплеменником Мусы, притеснявшим народ и обладавшим огромными сокровищами.",
+              "key_phrase": {
+                "text": "Карун (Корей) был соплеменником Мусы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "28:77": {
+              "explanation": "Соплеменники наставляют Каруна использовать дарованное для Последней жизни и не распространять нечестие.",
+              "key_phrase": {
+                "text": "не стремись распространять нечестие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:76"
+              ]
+            },
+            "28:78": {
+              "explanation": "Карун приписывает богатство собственному знанию и получает напоминание о погибших более могущественных поколениях.",
+              "key_phrase": {
+                "text": "благодаря знанию, которым я обладаю",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:76"
+              ]
+            },
+            "28:79": {
+              "explanation": "Выход Каруна в украшениях вызывает зависть желающих мирской жизни.",
+              "key_phrase": {
+                "text": "Он вышел к своему народу в своих украшениях",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "28:80": {
+              "explanation": "Знающие отвечают завидующим Каруну превосходством Божьей награды и терпением.",
+              "key_phrase": {
+                "text": "Вознаграждение Аллаха будет лучше",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:79"
+              ]
+            },
+            "28:81": {
+              "explanation": "Земля поглощает Каруна с домом, и богатство не обеспечивает ему защиты.",
+              "key_phrase": {
+                "text": "землю поглотить его вместе с его домом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:76",
+                "28:79"
+              ]
+            },
+            "28:82": {
+              "explanation": "Прежние завистники после гибели Каруна признают зависимость удела от Божьей воли.",
+              "key_phrase": {
+                "text": "накануне желали оказаться на его месте",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:81"
+              ]
+            },
+            "29:39": {
+              "explanation": "Карун назван вместе с Фараоном и Хаманом среди превозносившихся перед знамениями Мусы.",
+              "key_phrase": {
+                "text": "Карун (Корей), Фараон и Хаман",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "40:24": {
+              "explanation": "Карун прямо назван среди адресатов Мусы, объявивших его лживым колдуном.",
+              "key_phrase": {
+                "text": "к Фараону, Хаману и Каруну",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "40:23"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0196",
+      "title": "Катада ибн Ну'ман",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0196-item-001",
+          "description": "Катада ибн Ну'ман в рассказе о краже у Рифаа и обвинении невиновного",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "4:105",
+            "4:106",
+            "4:110",
+            "4:111",
+            "4:112"
+          ],
+          "verse_notes": {
+            "4:105": {
+              "explanation": "Рассказ Катады прямо приводит этот аят о справедливом разбирательстве и отказе защищать изменников после жалобы о краже.",
+              "key_phrase": {
+                "text": "Посему не препирайся за изменников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_hasan_or_sahih",
+              "source_ids": [
+                "site-quran",
+                "tirmidhi-3036"
+              ],
+              "qualification": "Именная связь по сообщению, оценённому хасан в Darussalam; ат-Тирмизи отмечает необычность полной цепочки и мурсаль-варианты. Имени Катады в арабском тексте аята нет; абсолютное отсутствие разногласий об иснаде не заявляется."
+            },
+            "4:106": {
+              "explanation": "В той же передаче просьба о прощении связана со словами, сказанными посланником Катаде до разъяснения дела.",
+              "key_phrase": {
+                "text": "Проси прощения у Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_hasan_or_sahih",
+              "source_ids": [
+                "site-quran",
+                "tirmidhi-3036"
+              ],
+              "qualification": "Именная связь по сообщению, оценённому хасан в Darussalam; ат-Тирмизи отмечает необычность полной цепочки и мурсаль-варианты. Имени Катады в арабском тексте аята нет; абсолютное отсутствие разногласий об иснаде не заявляется."
+            },
+            "4:110": {
+              "explanation": "В рассказе Катады о краже у его дяди Рифаа этот аят даёт виновным возможность испросить прощение; речь не об обвинении самого Катады в краже.",
+              "key_phrase": {
+                "text": "попросит у Аллаха прощения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_hasan_or_sahih",
+              "source_ids": [
+                "site-quran",
+                "tirmidhi-3036"
+              ],
+              "qualification": "Именная связь по сообщению, оценённому хасан в Darussalam; ат-Тирмизи отмечает необычность полной цепочки и мурсаль-варианты. Имени Катады в арабском тексте аята нет; абсолютное отсутствие разногласий об иснаде не заявляется."
+            },
+            "4:111": {
+              "explanation": "Переданный Катадой рассказ включает этот принцип личной ответственности, противопоставленный попытке переложить вину за кражу.",
+              "key_phrase": {
+                "text": "тот совершил его во вред себе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_hasan_or_sahih",
+              "source_ids": [
+                "site-quran",
+                "tirmidhi-3036"
+              ],
+              "qualification": "Именная связь по сообщению, оценённому хасан в Darussalam; ат-Тирмизи отмечает необычность полной цепочки и мурсаль-варианты. Имени Катады в арабском тексте аята нет; абсолютное отсутствие разногласий об иснаде не заявляется."
+            },
+            "4:112": {
+              "explanation": "Рассказ Катады связывает аят с обвинением невиновного Лабида семьёй Бану Убайрик; Катада выступает заявителем и передатчиком.",
+              "key_phrase": {
+                "text": "обвинил в этом невиновного",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_hasan_or_sahih",
+              "source_ids": [
+                "site-quran",
+                "tirmidhi-3036"
+              ],
+              "qualification": "Именная связь по сообщению, оценённому хасан в Darussalam; ат-Тирмизи отмечает необычность полной цепочки и мурсаль-варианты. Имени Катады в арабском тексте аята нет; абсолютное отсутствие разногласий об иснаде не заявляется."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0197",
+      "title": "Каусар",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0197-item-001",
+          "description": "Аль-Каусар: обильные блага, в том числе река в Раю; благодарение за дар",
+          "relation_type": "topic",
+          "verse_keys": [
+            "108:1",
+            "108:2"
+          ],
+          "verse_notes": {
+            "108:1": {
+              "explanation": "Дар аль-Каусара прямо назван; Муслим передаёт объяснение Пророка о реке, а у аль-Бухари Ибн Аббас объясняет название благами, частью которых является река.",
+              "key_phrase": {
+                "text": "Мы даровали тебе аль-Каусар",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "muslim-400a",
+                "bukhari-4966",
+                "ksu-saadi-108-1"
+              ],
+              "qualification": "Объяснение Ибн Аббаса и Саида ибн Джубайра у аль-Бухари различено с прямой речью Пророка у Муслима. Название не сведено исключительно к реке."
+            },
+            "108:2": {
+              "explanation": "Молитва Господу и жертвоприношение предписаны как ответ на дар аль-Каусара предыдущего аята.",
+              "key_phrase": {
+                "text": "совершай намаз ради своего Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "108:1"
+              ],
+              "qualification": "Этот аят не описывает устройство или свойства райской реки."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0198",
+      "title": "кибла (сторона, куда обращает свой лик молящийся)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0198-item-001",
+          "description": "изменение киблы в сторону Каабы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:142",
+            "2:143",
+            "2:144"
+          ],
+          "verse_notes": {
+            "2:142": {
+              "explanation": "Вопрос противников прямо фиксирует отворот общины от прежней киблы; новое направление указано далее.",
+              "key_phrase": {
+                "text": "от киблы, к которой они поворачивались лицом прежде",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:144"
+              ]
+            },
+            "2:143": {
+              "explanation": "Назначение прежней киблы противопоставлено испытанию последования посланнику при перемене направления.",
+              "key_phrase": {
+                "text": "Мы назначили киблу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:144"
+              ]
+            },
+            "2:144": {
+              "explanation": "Прямо предписано повернуть лицо к Заповедной мечети и общине следовать тому же направлению.",
+              "key_phrase": {
+                "text": "Обрати же свое лицо в сторону Заповедной мечети",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0198-item-002",
+          "description": "объяснение причины перемены киблы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:142",
+            "2:143",
+            "2:144",
+            "2:150"
+          ],
+          "verse_notes": {
+            "2:142": {
+              "explanation": "Ответ на возражение о перемене направления указывает, что восток и запад принадлежат Богу и Он направляет.",
+              "key_phrase": {
+                "text": "Восток и запад принадлежат Аллаху",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:143": {
+              "explanation": "Перемена направления раскрывает, кто следует посланнику и кто поворачивает вспять.",
+              "key_phrase": {
+                "text": "чтобы отличить тех, кто последует за Посланником",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:144": {
+              "explanation": "Назначение новой киблы связано с обращением посланника к небу и направлением, которым он будет доволен.",
+              "key_phrase": {
+                "text": "к кибле, которой ты останешься доволен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:150": {
+              "explanation": "Одной из прямо названных целей нового направления является устранение довода против общины и завершение милости.",
+              "key_phrase": {
+                "text": "чтобы у людей, если только они не беззаконники, не было довода против вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0198-item-003",
+          "description": "обязательность обращения к кибле",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:144",
+            "2:149",
+            "2:150"
+          ],
+          "verse_notes": {
+            "2:144": {
+              "explanation": "Повеление обращаться к Заповедной мечети распространяется на верующих, где бы они ни находились.",
+              "key_phrase": {
+                "text": "Где бы вы ни были, обращайте ваши лица в ее сторону",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:149": {
+              "explanation": "Повторено прямое повеление обращаться лицом к Заповедной мечети.",
+              "key_phrase": {
+                "text": "обращай лицо в сторону Заповедной мечети",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:150": {
+              "explanation": "Повторено требование нового направления и для посланника, и для всей общины.",
+              "key_phrase": {
+                "text": "Где бы вы ни оказались, обращайте ваши лица в ее сторону",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0199",
+      "title": "клевета",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0199-item-001",
+          "description": "грех возложения своей вины на невиновного",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:112"
+          ],
+          "verse_notes": {
+            "4:112": {
+              "explanation": "Совершение греха с последующим обвинением невиновного прямо названо клеветой и очевидным грехом.",
+              "key_phrase": {
+                "text": "обвинил в этом невиновного",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0199-item-002",
+          "description": "грех клеветы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:20",
+            "4:112",
+            "4:156",
+            "24:16",
+            "33:58"
+          ],
+          "verse_notes": {
+            "4:20": {
+              "explanation": "Отбирать дарованное супруге при замене её другой запрещено как ложное и явно греховное действие; ас-Саади разъясняет выражение «бухтан» в этом имущественном контексте.",
+              "key_phrase": {
+                "text": "поступая лживо и совершая очевидный грех",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-4-20"
+              ],
+              "qualification": "Тема применяется к ложному предлогу отъёма брачного дара; конкретное обвинение в прелюбодеянии аят не формулирует."
+            },
+            "4:112": {
+              "explanation": "Переложение собственной вины на невиновного прямо влечёт бремя клеветы.",
+              "key_phrase": {
+                "text": "бремя клеветы и очевидного греха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:156": {
+              "explanation": "На Марьям прямо возведён великий навет, названный среди преступлений адресатов.",
+              "key_phrase": {
+                "text": "возвели на Марьям (Марию) великий навет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:16": {
+              "explanation": "Слушателям запрещено поддерживать названную великой клевету.",
+              "key_phrase": {
+                "text": "Нам не подобает говорить такое",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "33:58": {
+              "explanation": "Незаслуженное поношение верующих обоих полов прямо названо клеветой и явным грехом.",
+              "key_phrase": {
+                "text": "незаслуженно поносят верующих мужчин и верующих женщин",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0199-item-003",
+          "description": "о клевещущих на невиновных",
+          "relation_type": "topic",
+          "verse_keys": [
+            "24:4",
+            "24:11",
+            "24:23",
+            "24:24",
+            "33:58"
+          ],
+          "verse_notes": {
+            "24:4": {
+              "explanation": "Не подкреплённое четырьмя свидетелями обвинение целомудренной женщины влечёт установленное наказание и последствия для свидетельства.",
+              "key_phrase": {
+                "text": "не приведут четырех свидетелей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:11": {
+              "explanation": "Группа распространителей навета несёт приобретённый грех, а главный участник получает особо тяжёлую угрозу; связь с Аишей подтверждена её рассказом у аль-Бухари.",
+              "key_phrase": {
+                "text": "Каждому мужу из них достанется заработанный им грех",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4750"
+              ],
+              "qualification": "Имя Аиши в местном переводе является пояснением: в арабском тексте самого аята оно не названо."
+            },
+            "24:23": {
+              "explanation": "Клеветникам на целомудренных верующих женщин обещаны проклятие и мучения.",
+              "key_phrase": {
+                "text": "будут прокляты в этом мире и в Последней жизни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:24": {
+              "explanation": "Конечный суд над указанными клеветниками сопровождается свидетельством их собственных органов.",
+              "key_phrase": {
+                "text": "их языки, руки и ноги будут свидетельствовать против них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "24:23"
+              ]
+            },
+            "33:58": {
+              "explanation": "Причиняющие незаслуженное оскорбление верующим несут бремя клеветы.",
+              "key_phrase": {
+                "text": "взваливают на себя бремя клеветы и явного греха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0199-item-004",
+          "description": "о раскаянии оклеветавших невиновного",
+          "relation_type": "topic",
+          "verse_keys": [
+            "24:5"
+          ],
+          "verse_notes": {
+            "24:5": {
+              "explanation": "После нормы о клеветниках прямо исключены раскаявшиеся и исправившие дела с упоминанием Божьего прощения.",
+              "key_phrase": {
+                "text": "раскаялись и стали поступать праведно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "24:4"
+              ],
+              "qualification": "Прощение за покаяние не представлено автоматической отменой всех земных правовых последствий обвинения."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0200",
+      "title": "клеветники",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0200-item-001",
+          "description": "наказание клеветников и сплетников",
+          "relation_type": "topic",
+          "verse_keys": [
+            "68:11",
+            "68:16"
+          ],
+          "verse_notes": {
+            "68:11": {
+              "explanation": "Хулитель и распространитель сплетен входит в перечень качеств осуждаемого человека, которому далее обещано клеймо.",
+              "key_phrase": {
+                "text": "хулителю, разносящему сплетни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "68:10",
+                "68:16"
+              ],
+              "qualification": "68:16 относится к человеку с совокупностью перечисленных дурных качеств; аят не устанавливает такое земное наказание за каждую отдельную сплетню."
+            },
+            "68:16": {
+              "explanation": "Клеймо на лице является угрозой человеку с перечисленными качествами, включая злословие и сплетни; ас-Саади объясняет его как явное наказание.",
+              "key_phrase": {
+                "text": "Мы заклеймим его хобот",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-68-16"
+              ],
+              "context_verse_keys": [
+                "68:10",
+                "68:11",
+                "68:12",
+                "68:13"
+              ],
+              "qualification": "Угроза не превращается в предписание людям самостоятельно клеймить клеветников."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0201",
+      "title": "клятва",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0201-item-001",
+          "description": "неуместные клятвы именем Аллаха",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:224",
+            "24:22"
+          ],
+          "verse_notes": {
+            "2:224": {
+              "explanation": "Клятва именем Бога не должна препятствовать добру, богобоязненности и примирению.",
+              "key_phrase": {
+                "text": "не мешает вам творить добро",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:22": {
+              "explanation": "Прямо запрещено клясться прекратить помощь родственникам, бедным и переселенцам; велено простить.",
+              "key_phrase": {
+                "text": "не клянутся, что не будут помогать",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-002",
+          "description": "о верности клятве и исполнении данного Аллаху обета",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:89",
+            "16:91",
+            "16:92",
+            "16:94",
+            "16:95"
+          ],
+          "verse_notes": {
+            "5:89": {
+              "explanation": "Прямо велено оберегать клятвы и указано искупление за нарушение скреплённой клятвы.",
+              "key_phrase": {
+                "text": "Оберегайте же свои клятвы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:91": {
+              "explanation": "Прямо запрещено нарушать скреплённые клятвы и велено хранить завет.",
+              "key_phrase": {
+                "text": "не нарушайте клятв после того, как вы их скрепите",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:92": {
+              "explanation": "Клятва не должна становиться средством обмана при изменении соотношения сил.",
+              "key_phrase": {
+                "text": "Вы обращаете свои клятвы в средство обмана",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:94": {
+              "explanation": "За превращение клятв в обман обещаны зло и мучения.",
+              "key_phrase": {
+                "text": "Не обращайте свои клятвы в средство обмана",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:95": {
+              "explanation": "Запрещено продавать данные Богу обеты за ничтожную выгоду.",
+              "key_phrase": {
+                "text": "Не продавайте данные Аллаху обеты за ничтожную цену",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-003",
+          "description": "Божьи клятвы, их объекты и подкрепляемые утверждения",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:65",
+            "15:72",
+            "15:92",
+            "15:93",
+            "16:63",
+            "19:68",
+            "36:2",
+            "37:1",
+            "37:2",
+            "37:3",
+            "37:4",
+            "38:1",
+            "38:84",
+            "38:85",
+            "44:2",
+            "44:3",
+            "50:1",
+            "51:1",
+            "51:2",
+            "51:3",
+            "51:4",
+            "51:5",
+            "51:6",
+            "51:7",
+            "51:8",
+            "51:9",
+            "51:23",
+            "52:1",
+            "52:2",
+            "52:3",
+            "52:4",
+            "52:5",
+            "52:6",
+            "52:7",
+            "52:8",
+            "56:75",
+            "56:76",
+            "68:1",
+            "69:38",
+            "69:39",
+            "70:40",
+            "70:41",
+            "74:32",
+            "74:33",
+            "74:34",
+            "75:1",
+            "75:2",
+            "77:1",
+            "77:2",
+            "77:3",
+            "77:4",
+            "77:5",
+            "77:6",
+            "79:1",
+            "79:2",
+            "79:3",
+            "79:4",
+            "79:5",
+            "81:15",
+            "81:16",
+            "81:17",
+            "81:18",
+            "84:16",
+            "84:17",
+            "84:18",
+            "84:19",
+            "85:1",
+            "85:2",
+            "85:3",
+            "85:4",
+            "85:5",
+            "85:6",
+            "85:7",
+            "86:1",
+            "86:11",
+            "86:12",
+            "86:13",
+            "86:14",
+            "89:1",
+            "89:2",
+            "89:3",
+            "89:4",
+            "89:5",
+            "90:1",
+            "90:2",
+            "90:3",
+            "90:4",
+            "91:1",
+            "91:2",
+            "91:3",
+            "91:4",
+            "91:5",
+            "91:6",
+            "91:7",
+            "91:8",
+            "91:9",
+            "91:10",
+            "92:1",
+            "92:2",
+            "92:3",
+            "93:1",
+            "93:2",
+            "95:1",
+            "95:2",
+            "95:3",
+            "95:4",
+            "95:5",
+            "100:1",
+            "100:2",
+            "100:3",
+            "100:4",
+            "100:5",
+            "100:6",
+            "100:7",
+            "100:8",
+            "103:1"
+          ],
+          "verse_notes": {
+            "4:65": {
+              "explanation": "Клятва Господом подкрепляет необходимость принять суд посланника и подчиниться ему.",
+              "key_phrase": {
+                "text": "клянусь твоим Господом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:72": {
+              "explanation": "Прямо произносится клятва жизнью посланника.",
+              "key_phrase": {
+                "text": "Клянусь твоей жизнью",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:92": {
+              "explanation": "Клятва Господом подкрепляет обещание допросить всех.",
+              "key_phrase": {
+                "text": "Клянусь твоим Господом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:93": {
+              "explanation": "Уточнён предмет обещанного в клятве вопроса: совершённые дела.",
+              "key_phrase": {
+                "text": "о том, что они совершали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:92"
+              ]
+            },
+            "16:63": {
+              "explanation": "Прямая клятва Аллахом вводит рассказ о прежних посланниках и народах.",
+              "key_phrase": {
+                "text": "Клянусь Аллахом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:68": {
+              "explanation": "Клятва Господом подкрепляет обещание собрать противников и дьяволов у Геенны.",
+              "key_phrase": {
+                "text": "Клянусь твоим Господом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "36:2": {
+              "explanation": "Коран, названный мудрым, является прямо указанным объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь мудрым Кораном",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "37:1": {
+              "explanation": "Клятва начинается с выстроившихся в ряды.",
+              "key_phrase": {
+                "text": "Клянусь выстроившимися в ряды",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "37:2": {
+              "explanation": "Следующее описание продолжает объекты клятвы предыдущего аята.",
+              "key_phrase": {
+                "text": "гонящими упорно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:1"
+              ]
+            },
+            "37:3": {
+              "explanation": "Читающие напоминание завершают ряд объектов начальной клятвы.",
+              "key_phrase": {
+                "text": "читающими напоминание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:1"
+              ]
+            },
+            "37:4": {
+              "explanation": "Единственность Бога составляет утверждение, подкреплённое начальной клятвой.",
+              "key_phrase": {
+                "text": "ваш Бог - Единственный",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:1",
+                "37:2",
+                "37:3"
+              ]
+            },
+            "38:1": {
+              "explanation": "Коран, содержащий напоминание, прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь Кораном, содержащим напоминание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:84": {
+              "explanation": "Ибн Касир приводит понимание ас-Судди как клятвы истиной, наряду с чтением Муджахида «Я - Истина» или «Истина от Меня».",
+              "key_phrase": {
+                "text": "Вот истина! Я говорю только истину",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-38-84"
+              ],
+              "qualification": "Клятвенное понимание является указанным вариантом толкования и чтения, а не единственным смыслом русского перевода."
+            },
+            "38:85": {
+              "explanation": "Обещание наполнить Геенну Иблисом и его последователями составляет подкреплённое утверждение при клятвенном понимании предыдущего аята.",
+              "key_phrase": {
+                "text": "Я непременно заполню Геенну",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-38-84"
+              ],
+              "context_verse_keys": [
+                "38:84"
+              ],
+              "qualification": "Связь с клятвой зависит от отмеченного Ибн Касиром варианта понимания38:84; само обещание в аяте прямо выражено."
+            },
+            "44:2": {
+              "explanation": "Ясное Писание прямо названо объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь ясным Писанием",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "44:3": {
+              "explanation": "Ниспослание Писания в благословенную ночь является утверждением вслед за клятвой этим Писанием.",
+              "key_phrase": {
+                "text": "Мы ниспослали его в благословенную ночь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "44:2"
+              ]
+            },
+            "50:1": {
+              "explanation": "Славный Коран прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь славным Кораном",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:1": {
+              "explanation": "Прямо названа клятва рассеивающими прах.",
+              "key_phrase": {
+                "text": "Клянусь рассеивающими прах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:2": {
+              "explanation": "Несущие бремя названы следующим объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь несущими бремя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:3": {
+              "explanation": "Плывущие легко названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь плывущими легко",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:4": {
+              "explanation": "Распределяющие дела завершают ряд объектов клятвы.",
+              "key_phrase": {
+                "text": "Клянусь распределяющими дела",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:5": {
+              "explanation": "Истинность обещанного подкрепляется предшествующей клятвой.",
+              "key_phrase": {
+                "text": "Обещанное вам есть истина",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "51:1",
+                "51:2",
+                "51:3",
+                "51:4"
+              ]
+            },
+            "51:6": {
+              "explanation": "Неизбежность суда продолжает утверждение, подкреплённое клятвой.",
+              "key_phrase": {
+                "text": "суд непременно наступит",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "51:1",
+                "51:5"
+              ]
+            },
+            "51:7": {
+              "explanation": "Прямо произносится клятва небом с описанным прекрасным обликом.",
+              "key_phrase": {
+                "text": "Клянусь небом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:8": {
+              "explanation": "Противоречивость слов неверующих является утверждением вслед за клятвой небом.",
+              "key_phrase": {
+                "text": "слова противоречивы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "51:7"
+              ]
+            },
+            "51:9": {
+              "explanation": "Отвращение от истины поясняет состояние противников, чьи противоречивые слова названы после клятвы.",
+              "key_phrase": {
+                "text": "Отвращен от него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-51-9"
+              ],
+              "context_verse_keys": [
+                "51:7",
+                "51:8"
+              ],
+              "qualification": "Сохранено как разъяснение подкреплённого клятвой состояния противников, а не как отдельная клятвенная формула."
+            },
+            "51:23": {
+              "explanation": "Прямая клятва Господом неба и земли удостоверяет истинность сказанного.",
+              "key_phrase": {
+                "text": "Клянусь Господом неба и земли",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "52:1": {
+              "explanation": "Гора прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь горой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "52:2": {
+              "explanation": "Начертанное Писание прямо названо объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь Писанием",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "52:3": {
+              "explanation": "Уточняется носитель начертанного Писания, которым произнесена клятва.",
+              "key_phrase": {
+                "text": "на развернутой нежной коже",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "52:2"
+              ]
+            },
+            "52:4": {
+              "explanation": "Наполненный дом прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь домом наполненным",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "52:5": {
+              "explanation": "Возведённая кровля прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь кровлей возведенной",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "52:6": {
+              "explanation": "Море с указанными в переводе вариантами значения прямо названо объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь морем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "52:7": {
+              "explanation": "Неизбежность наказания составляет утверждение, подкреплённое рядом клятв.",
+              "key_phrase": {
+                "text": "Наказание твоего Господа непременно наступит",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "52:1",
+                "52:2",
+                "52:4",
+                "52:5",
+                "52:6"
+              ]
+            },
+            "52:8": {
+              "explanation": "Неотвратимость наказания продолжает утверждение, подкреплённое начальной клятвой.",
+              "key_phrase": {
+                "text": "ничто не отвратит его",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "52:1",
+                "52:7"
+              ]
+            },
+            "56:75": {
+              "explanation": "Прямо произносится клятва местами заката звёзд; перевод отмечает иное возможное понимание объекта.",
+              "key_phrase": {
+                "text": "Клянусь местами заката звезд",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "56:76": {
+              "explanation": "Сам аят прямо оценивает предшествующую клятву как великую.",
+              "key_phrase": {
+                "text": "это - клятва великая",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "56:75"
+              ]
+            },
+            "68:1": {
+              "explanation": "Письменная трость и написанное прямо названы объектами клятвы.",
+              "key_phrase": {
+                "text": "Клянусь письменной тростью и тем, что они пишут",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "69:38": {
+              "explanation": "Видимый мир прямо назван частью всеохватного объекта клятвы.",
+              "key_phrase": {
+                "text": "Клянусь тем, что вы видите",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "69:39": {
+              "explanation": "Невидимое продолжает объект той же клятвы.",
+              "key_phrase": {
+                "text": "тем, чего вы не видите",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "69:38"
+              ]
+            },
+            "70:40": {
+              "explanation": "Клятва Господом востоков и западов вводит утверждение Божьего могущества.",
+              "key_phrase": {
+                "text": "Клянусь Господом востоков и западов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "70:41": {
+              "explanation": "Способность заменить противников лучшими продолжает утверждение клятвы предыдущего аята.",
+              "key_phrase": {
+                "text": "заменить их теми, кто лучше них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "70:40"
+              ]
+            },
+            "74:32": {
+              "explanation": "Луна прямо названа объектом клятвы, непосредственно перед клятвами ночью и зарёй.",
+              "key_phrase": {
+                "text": "Клянусь луной",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "74:33": {
+              "explanation": "Уходящая ночь прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь ночью, когда она отступает",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "74:34": {
+              "explanation": "Занимающаяся заря прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь зарей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "75:1": {
+              "explanation": "День воскресения прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "клянусь Днем воскресения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "75:2": {
+              "explanation": "Попрекающая душа прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь душой попрекающей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "77:1": {
+              "explanation": "Посылаемые с добром названы начальным объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь посылаемыми с добром",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "77:2": {
+              "explanation": "Несущиеся быстро продолжают ряд объектов клятвы.",
+              "key_phrase": {
+                "text": "несущимися быстро",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "77:1"
+              ]
+            },
+            "77:3": {
+              "explanation": "Распространяющие бурно продолжают ряд объектов клятвы.",
+              "key_phrase": {
+                "text": "распространяющими бурно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "77:1"
+              ]
+            },
+            "77:4": {
+              "explanation": "Различающие твёрдо продолжают ряд объектов клятвы.",
+              "key_phrase": {
+                "text": "различающими твердо",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "77:1"
+              ]
+            },
+            "77:5": {
+              "explanation": "Передающие Напоминание завершают описания в ряду клятвы.",
+              "key_phrase": {
+                "text": "передающими Напоминание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "77:1"
+              ]
+            },
+            "77:6": {
+              "explanation": "Для оправдания или предостережения уточняет предназначение передачи Напоминания в описании объекта клятвы.",
+              "key_phrase": {
+                "text": "для оправдания или предостережения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "77:1",
+                "77:5"
+              ]
+            },
+            "79:1": {
+              "explanation": "Исторгающие души прямо названы объектом начальной клятвы.",
+              "key_phrase": {
+                "text": "Клянусь исторгающими души",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Уточнение «души неверующих» дано местным переводом в рамках толкования; вопрос других возможных объектов этим индексом не закрывается."
+            },
+            "79:2": {
+              "explanation": "Нежно извлекающие души продолжают ряд объектов начальной клятвы.",
+              "key_phrase": {
+                "text": "Клянусь извлекающими души",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "79:3": {
+              "explanation": "Плывущие стремительно прямо названы следующим объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь плывущими стремительно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "79:4": {
+              "explanation": "Опережающие уверенно продолжают ряд объектов клятвы.",
+              "key_phrase": {
+                "text": "опережающими уверенно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:3"
+              ]
+            },
+            "79:5": {
+              "explanation": "Исполняющие повеления завершают ряд описаний объектов клятвы.",
+              "key_phrase": {
+                "text": "исполняющими повеления",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:3",
+                "79:4"
+              ]
+            },
+            "81:15": {
+              "explanation": "Небесные тела прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь телами небесными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "81:16": {
+              "explanation": "Передвижение и исчезновение продолжает описание небесных тел, которыми дана клятва.",
+              "key_phrase": {
+                "text": "передвигающимися и исчезающими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "81:15"
+              ]
+            },
+            "81:17": {
+              "explanation": "Ночь с отмеченными в переводе вариантами её состояния прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь ночью",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "81:18": {
+              "explanation": "Рассвет прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь рассветом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "84:16": {
+              "explanation": "Вечерняя заря прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь вечерней зарею",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "84:17": {
+              "explanation": "Ночь и собираемое ею прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь ночью и тем, что она собирает",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "84:18": {
+              "explanation": "Луна в полнолуние прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь луной в полнолуние",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "84:19": {
+              "explanation": "Переход из одного состояния в другое является утверждением после ряда клятв.",
+              "key_phrase": {
+                "text": "Вы переходите из одного состояния в другое",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "84:16",
+                "84:17",
+                "84:18"
+              ]
+            },
+            "85:1": {
+              "explanation": "Небо с созвездиями прямо названо объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь небом с созвездиями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "85:2": {
+              "explanation": "Обещанный день прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь днем обещанным",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "85:3": {
+              "explanation": "Свидетельствующий и засвидетельствованное прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь свидетельствующим и засвидетельствованным",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "85:4": {
+              "explanation": "По одному из приведённых толкований проклятие гонителей у рва является ответом начальной клятвы.",
+              "key_phrase": {
+                "text": "Да сгинут собравшиеся у рва",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-85-4",
+                "ksu-qortobi-85-4"
+              ],
+              "context_verse_keys": [
+                "85:1",
+                "85:2",
+                "85:3"
+              ],
+              "qualification": "Ас-Саади приводит это как один вариант. Аль-Куртуби перечисляет также другие места ответа и вариант опущенного ответа клятвы; не заявлено единогласие. Аяты85:5-7 сами не являются новыми клятвами."
+            },
+            "85:5": {
+              "explanation": "Огненный ров уточняет описание гонителей, чьё проклятие по одному толкованию составляет ответ клятвы.",
+              "key_phrase": {
+                "text": "огненного, поддерживаемого растопкой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-85-4",
+                "ksu-qortobi-85-4"
+              ],
+              "context_verse_keys": [
+                "85:1",
+                "85:4"
+              ],
+              "qualification": "Ас-Саади приводит это как один вариант. Аль-Куртуби перечисляет также другие места ответа и вариант опущенного ответа клятвы; не заявлено единогласие. Аяты85:5-7 сами не являются новыми клятвами."
+            },
+            "85:6": {
+              "explanation": "Положение гонителей возле рва раскрывает осуждаемую группу в условно выделяемом ответе клятвы.",
+              "key_phrase": {
+                "text": "они уселись возле него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-85-4",
+                "ksu-qortobi-85-4"
+              ],
+              "context_verse_keys": [
+                "85:1",
+                "85:4"
+              ],
+              "qualification": "Ас-Саади приводит это как один вариант. Аль-Куртуби перечисляет также другие места ответа и вариант опущенного ответа клятвы; не заявлено единогласие. Аяты85:5-7 сами не являются новыми клятвами."
+            },
+            "85:7": {
+              "explanation": "Свидетельство гонителей о собственном преследовании завершает описание тех, кого осуждает возможный ответ клятвы.",
+              "key_phrase": {
+                "text": "что творят с верующими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-85-4",
+                "ksu-qortobi-85-4"
+              ],
+              "context_verse_keys": [
+                "85:1",
+                "85:4"
+              ],
+              "qualification": "Ас-Саади приводит это как один вариант. Аль-Куртуби перечисляет также другие места ответа и вариант опущенного ответа клятвы; не заявлено единогласие. Аяты85:5-7 сами не являются новыми клятвами."
+            },
+            "86:1": {
+              "explanation": "Небо и ночной путник прямо названы объектами клятвы.",
+              "key_phrase": {
+                "text": "Клянусь небом и ночным путником",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "86:11": {
+              "explanation": "Возвращающее небо прямо названо объектом клятвы; варианты значения приведены в переводе.",
+              "key_phrase": {
+                "text": "Клянусь небом возвращающим",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "86:12": {
+              "explanation": "Раскалываемая земля прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь землей раскалываемой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "86:13": {
+              "explanation": "Различающий характер откровения составляет утверждение после клятв небом и землёй.",
+              "key_phrase": {
+                "text": "это - Слово различающее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "86:11",
+                "86:12"
+              ]
+            },
+            "86:14": {
+              "explanation": "Отрицание шутливости продолжает утверждение о серьёзности Слова, подкреплённое клятвой.",
+              "key_phrase": {
+                "text": "а не шутка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "86:11",
+                "86:12",
+                "86:13"
+              ]
+            },
+            "89:1": {
+              "explanation": "Заря прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь зарею",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "89:2": {
+              "explanation": "Десять ночей прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь десятью ночами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "89:3": {
+              "explanation": "Чёт и нечёт прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь четом и нечетом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "89:4": {
+              "explanation": "Проходящая ночь прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь ночью, когда она проходит",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "89:5": {
+              "explanation": "Аят прямо обращает разумного слушателя к достаточности предшествующих клятв.",
+              "key_phrase": {
+                "text": "Неужели этих клятв не достаточно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "89:1",
+                "89:2",
+                "89:3",
+                "89:4"
+              ]
+            },
+            "90:1": {
+              "explanation": "Город, пояснённый как Мекка, прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "клянусь этим городом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "90:2": {
+              "explanation": "Обращение к посланнику уточняет связь клятвы городом с его пребыванием или будущим дозволением.",
+              "key_phrase": {
+                "text": "Ты обитаешь в этом городе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "90:1"
+              ]
+            },
+            "90:3": {
+              "explanation": "Родитель и потомство прямо названы объектами клятвы; перевод приводит варианты их отнесения.",
+              "key_phrase": {
+                "text": "Клянусь родителем и тем, кого он породил",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "90:4": {
+              "explanation": "Тяготы человеческого существования являются утверждением, подкреплённым клятвой городом и родителем.",
+              "key_phrase": {
+                "text": "Мы создали человека в тяготах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "90:1",
+                "90:3"
+              ]
+            },
+            "91:1": {
+              "explanation": "Солнце и его утреннее сияние прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь солнцем и его утренним сиянием",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:2": {
+              "explanation": "Луна, следующая за солнцем, прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь луной",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:3": {
+              "explanation": "День, делающий солнце ясным, прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь днем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:4": {
+              "explanation": "Ночь, скрывающая солнце, прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь ночью",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:5": {
+              "explanation": "Небо и Воздвигший его либо способ воздвижения названы в клятве.",
+              "key_phrase": {
+                "text": "Клянусь небом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:6": {
+              "explanation": "Земля и Распростерший её либо её распространение названы в клятве.",
+              "key_phrase": {
+                "text": "Клянусь землей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:7": {
+              "explanation": "Душа и придавший ей облик Творец либо её формирование названы в клятве.",
+              "key_phrase": {
+                "text": "Клянусь душой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "91:8": {
+              "explanation": "Внушение порочности и богобоязненности продолжает описание формирования души, которой дана клятва.",
+              "key_phrase": {
+                "text": "внушил ей порочность ее и богобоязненность",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "91:7"
+              ]
+            },
+            "91:9": {
+              "explanation": "Успех очистившего душу является утверждением после клятв, включая клятву душой.",
+              "key_phrase": {
+                "text": "Преуспел тот, кто очистил ее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "91:1",
+                "91:7",
+                "91:8"
+              ]
+            },
+            "91:10": {
+              "explanation": "Урон опорочившего душу противопоставлен успеху очистившего в утверждении, подкреплённом клятвой.",
+              "key_phrase": {
+                "text": "понес урон тот, кто скрыл ее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "91:7",
+                "91:9"
+              ]
+            },
+            "92:1": {
+              "explanation": "Покрывающая землю ночь прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь ночью",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "92:2": {
+              "explanation": "Проясняющийся день прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь днем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "92:3": {
+              "explanation": "Создавший мужчину и женщину прямо назван в формуле клятвы.",
+              "key_phrase": {
+                "text": "Клянусь Тем, Кто создал мужчину и женщину",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "93:1": {
+              "explanation": "Утро прямо названо объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь утром",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "93:2": {
+              "explanation": "Успокаивающаяся или покрывающаяся мраком ночь прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь ночью",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "95:1": {
+              "explanation": "Смоковница и олива прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь смоковницей и оливой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "95:2": {
+              "explanation": "Гора Синин прямо названа объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь горой Синин",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "95:3": {
+              "explanation": "Безопасный город прямо назван объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь этим безопасным городом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "95:4": {
+              "explanation": "Прекрасный облик человека составляет утверждение после ряда клятв.",
+              "key_phrase": {
+                "text": "Мы сотворили человека в прекраснейшем облике",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "95:1",
+                "95:2",
+                "95:3"
+              ]
+            },
+            "95:5": {
+              "explanation": "Возвращение к нижайшему положению продолжает подкреплённое клятвой описание участи человека, с исключением для верующих далее.",
+              "key_phrase": {
+                "text": "Потом Мы вернем его в нижайшее из низких",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "95:1",
+                "95:4",
+                "95:6"
+              ]
+            },
+            "100:1": {
+              "explanation": "Скачущие с одышкой прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь скачущими, запыхаясь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "100:2": {
+              "explanation": "Высекающие искры копытами прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь высекающими искры копытами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "100:3": {
+              "explanation": "Нападающие на заре прямо названы объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь нападающими на заре",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "100:4": {
+              "explanation": "Поднятая пыль продолжает описание скачущих, которыми дана клятва.",
+              "key_phrase": {
+                "text": "они поднимают столб пыли",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "100:1",
+                "100:3"
+              ]
+            },
+            "100:5": {
+              "explanation": "Вторжение в гущу продолжает описание движения объекта клятвы.",
+              "key_phrase": {
+                "text": "врываются с ним",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "100:1",
+                "100:4"
+              ]
+            },
+            "100:6": {
+              "explanation": "Неблагодарность человека Господу является утверждением, подкреплённым клятвой скачущими.",
+              "key_phrase": {
+                "text": "человек неблагодарен своему Господу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-100-6"
+              ],
+              "context_verse_keys": [
+                "100:1",
+                "100:2",
+                "100:3"
+              ]
+            },
+            "100:7": {
+              "explanation": "Свидетельство о неблагодарности развивает утверждение, подкреплённое начальной клятвой.",
+              "key_phrase": {
+                "text": "он сам является тому свидетелем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-100-7"
+              ],
+              "context_verse_keys": [
+                "100:1",
+                "100:6"
+              ],
+              "qualification": "Ас-Саади также допускает отнесение местоимения к Богу как свидетелю; сохранённый местный перевод понимает его как самого человека."
+            },
+            "100:8": {
+              "explanation": "Любовь к благам поясняет человеческую неблагодарность в утверждении после клятвы; ас-Саади связывает её с пренебрежением обязательными правами.",
+              "key_phrase": {
+                "text": "он страстно любит блага",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-100-8"
+              ],
+              "context_verse_keys": [
+                "100:1",
+                "100:6"
+              ]
+            },
+            "103:1": {
+              "explanation": "Время или предвечернее время прямо названо объектом клятвы.",
+              "key_phrase": {
+                "text": "Клянусь предвечерним временем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-004",
+          "description": "Клятвенные свидетельства супругов при обвинении в прелюбодеянии",
+          "relation_type": "topic",
+          "verse_keys": [
+            "24:6",
+            "24:7",
+            "24:8",
+            "24:9"
+          ],
+          "verse_notes": {
+            "24:6": {
+              "explanation": "Муж без иных свидетелей должен дать четыре клятвенных свидетельства о правдивости обвинения.",
+              "key_phrase": {
+                "text": "четыре свидетельства Аллахом о том, что он говорит правду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:7": {
+              "explanation": "Пятое свидетельство мужа призывает на него проклятие, если он лжёт.",
+              "key_phrase": {
+                "text": "проклятие Аллаха ляжет на него, если он лжет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "24:6"
+              ]
+            },
+            "24:8": {
+              "explanation": "Четыре ответных клятвенных свидетельства жены отвращают от неё наказание.",
+              "key_phrase": {
+                "text": "четыре свидетельства Аллахом о том, что он лжет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:9": {
+              "explanation": "Пятое свидетельство жены призывает Божий гнев на неё, если обвинитель правдив.",
+              "key_phrase": {
+                "text": "гнев Аллаха падет на нее, если он говорит правду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "24:8"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-013",
+          "description": "о нарушивших клятву или приносящих лживую клятву",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:77",
+            "6:109",
+            "8:57",
+            "9:42",
+            "9:107",
+            "58:14"
+          ],
+          "verse_notes": {
+            "3:77": {
+              "explanation": "Продающие завет и клятвы за малую цену лишены доли в Последней жизни и подвергаются мучениям.",
+              "key_phrase": {
+                "text": "свои клятвы за ничтожную цену",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:109": {
+              "explanation": "Торжественное обещание уверовать при знамении поставлено под вопрос, а следующий аят раскрывает устойчивое неверие.",
+              "key_phrase": {
+                "text": "они принесли величайшие клятвы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "6:110"
+              ],
+              "qualification": "Аят передаёт недобросовестное обещание; не утверждается, что само по себе любое желание увидеть знамение является ложной клятвой."
+            },
+            "8:57": {
+              "explanation": "Мера против противника в бою дана в непосредственном контексте систематического нарушения им заключённого договора.",
+              "key_phrase": {
+                "text": "Если ты встретишься с ними в битве",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "8:56"
+              ],
+              "qualification": "Контекст нарушения военного договора, а не универсальное наказание за любую бытовую клятву."
+            },
+            "9:42": {
+              "explanation": "Не выступившие в поход дают оправдательную клятву, которую Бог прямо называет ложной.",
+              "key_phrase": {
+                "text": "Аллах знает, что они являются лжецами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:107": {
+              "explanation": "Строители вредоносной мечети клянутся добрым намерением, но прямо названы лжецами.",
+              "key_phrase": {
+                "text": "Мы не хотели ничего, кроме добра",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "58:14": {
+              "explanation": "Прямо названы заведомо ложные клятвы лицемеров.",
+              "key_phrase": {
+                "text": "Они дают заведомо ложные клятвы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-014",
+          "description": "о непреднамеренной клятве",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:225"
+          ],
+          "verse_notes": {
+            "2:225": {
+              "explanation": "Непреднамеренные клятвы прямо исключены из ответственности, в отличие от приобретённого сердцами.",
+              "key_phrase": {
+                "text": "не призовет вас к ответу за непреднамеренные клятвы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-015",
+          "description": "Клятва свидетелей завещания после молитвы при возникшем сомнении",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:106"
+          ],
+          "verse_notes": {
+            "5:106": {
+              "explanation": "При сомнении в свидетелях завещания во время путешествия велено задержать их после молитвы для клятвы.",
+              "key_phrase": {
+                "text": "Задержите их обоих после намаза",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-016",
+          "description": "Непреднамеренные клятвы и ответственность за намерение сердца",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:225"
+          ],
+          "verse_notes": {
+            "2:225": {
+              "explanation": "Различены непреднамеренная клятва и то, что приобрело сердце; способ нарушения клятвы аят не классифицирует.",
+              "key_phrase": {
+                "text": "за то, что приобрели ваши сердца",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-008",
+          "description": "о соблюдении данной клятвы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:89"
+          ],
+          "verse_notes": {
+            "5:89": {
+              "explanation": "Прямое повеление оберегать клятвы сопровождается нормой искупления нарушения.",
+              "key_phrase": {
+                "text": "Оберегайте же свои клятвы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:224"
+              ],
+              "qualification": "Хранение клятвы не должно препятствовать добру: соответствующее ограничение дано в2:224."
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-017",
+          "description": "Отсутствие взыскания за празднословную клятву и искупление нарушенной скреплённой клятвы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:89"
+          ],
+          "verse_notes": {
+            "5:89": {
+              "explanation": "За празднословные клятвы нет взыскания; за нарушенные скреплённые клятвы указаны кормление, одежда или освобождение раба, при невозможности - трёхдневный пост.",
+              "key_phrase": {
+                "text": "но взыщет за то, что вы скрепили клятвами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Пост указан при невозможности перечисленных перед ним вариантов; непреднамеренная клятва не представлена автоматически требующей искупления."
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-010",
+          "description": "Клятва свидетелей завещания и замена недобросовестных свидетелей",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:106",
+            "5:107"
+          ],
+          "verse_notes": {
+            "5:106": {
+              "explanation": "Сомнение в честности свидетелей завещания разрешается требованием клятвенного подтверждения.",
+              "key_phrase": {
+                "text": "если вы усомнитесь, то они должны поклясться Аллахом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:107": {
+              "explanation": "После обнаружения неправды первоначальных свидетелей их заменяют правомочные родственники с ответной клятвой.",
+              "key_phrase": {
+                "text": "Наше свидетельство вернее их свидетельства",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-011",
+          "description": "пример нарушения клятвы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "16:92"
+          ],
+          "verse_notes": {
+            "16:92": {
+              "explanation": "Распускание уже свитой пряжи служит притчей о превращении скреплённых клятв в обман.",
+              "key_phrase": {
+                "text": "распустила свою пряжу после того, как скрепила нити",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Это образ разрушенного обязательства, а не установленное данным аятом имя конкретной женщины."
+            }
+          }
+        },
+        {
+          "id": "topic-0201-item-012",
+          "description": "Порядок взаимных клятв супругов при обвинении без свидетелей",
+          "relation_type": "topic",
+          "verse_keys": [
+            "24:6",
+            "24:7",
+            "24:8",
+            "24:9"
+          ],
+          "verse_notes": {
+            "24:6": {
+              "explanation": "Без других свидетелей муж четырежды клянётся в правдивости своего обвинения.",
+              "key_phrase": {
+                "text": "не имея свидетелей, кроме самих себя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:7": {
+              "explanation": "Пятое заявление мужа содержит условное самоосуждение проклятием при лжи.",
+              "key_phrase": {
+                "text": "и пятое о том, что проклятие Аллаха ляжет на него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "24:6"
+              ]
+            },
+            "24:8": {
+              "explanation": "Ответные четыре свидетельства жены отвращают наказание.",
+              "key_phrase": {
+                "text": "Наказание будет отвращено от нее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:9": {
+              "explanation": "Пятое заявление жены содержит условное самоосуждение Божьим гневом, если муж правдив.",
+              "key_phrase": {
+                "text": "и пятое о том, что гнев Аллаха падет на нее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "24:8"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0202",
+      "title": "книга",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0202-item-001",
+          "description": "Для каждого срока есть предписание",
+          "relation_type": "topic",
+          "verse_keys": [
+            "13:38"
+          ],
+          "verse_notes": {
+            "13:38": {
+              "explanation": "Сроки Божьих решений имеют записанное предписание; ас-Саади поясняет, что требование знамения или наказания не передвигает установленный срок.",
+              "key_phrase": {
+                "text": "Для каждого срока есть предписание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-13-38"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0202-item-002",
+          "description": "Свитки Ибрахима",
+          "relation_type": "topic",
+          "verse_keys": [
+            "53:37",
+            "87:19"
+          ],
+          "verse_notes": {
+            "53:37": {
+              "explanation": "Ибрахим продолжает упоминание его свитков после свитков Мусы в предыдущем аяте.",
+              "key_phrase": {
+                "text": "и Ибрахима (Авраама)",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "53:36"
+              ]
+            },
+            "87:19": {
+              "explanation": "Прямо названы свитки Ибрахима вместе со свитками Мусы.",
+              "key_phrase": {
+                "text": "свитках Ибрахима (Авраама) и Мусы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0202-item-003",
+          "description": "о Хранимой скрижали",
+          "relation_type": "topic",
+          "verse_keys": [
+            "13:39",
+            "20:52",
+            "85:21",
+            "85:22"
+          ],
+          "verse_notes": {
+            "13:39": {
+              "explanation": "Мать Писания прямо находится у Бога; ас-Саади отождествляет её с Хранимой скрижалью, отличая от изменяемых производных записей.",
+              "key_phrase": {
+                "text": "у Него - Мать Писания",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-13-39"
+              ],
+              "qualification": "Не делается вывод об изменении или неполноте Божьего знания."
+            },
+            "20:52": {
+              "explanation": "Знание о прежних поколениях записано у Господа; ас-Саади толкует названное Писание как Хранимую скрижаль.",
+              "key_phrase": {
+                "text": "у моего Господа в Писании",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-20-52"
+              ]
+            },
+            "85:21": {
+              "explanation": "Славный Коран является тем, что следующий аят помещает в Хранимую скрижаль.",
+              "key_phrase": {
+                "text": "славный Коран",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "85:22"
+              ]
+            },
+            "85:22": {
+              "explanation": "Прямо названа Хранимая скрижаль, в которой находится Коран.",
+              "key_phrase": {
+                "text": "в Хранимой скрижали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "85:21"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

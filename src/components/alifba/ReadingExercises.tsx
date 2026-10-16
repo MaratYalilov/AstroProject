@@ -27,8 +27,11 @@ type ExerciseSegment = {
 type Exercise = {
   id: number;
   audio: string;
+  /** Конец фрагмента от начала записи, в миллисекундах. */
+  audioDurationMs?: number;
   segments: ExerciseSegment[];
   sectionTitle?: string;
+  quran?: { surah: number; ayah: number };
 };
 
 type ExerciseLesson = {
@@ -37,6 +40,7 @@ type ExerciseLesson = {
   name: string;
   arabName: string;
   audioChar?: string;
+  description?: string;
   exercises: Exercise[];
 };
 
@@ -185,6 +189,10 @@ function isComparisonExercise(exercise: Exercise) {
 }
 
 function renderExerciseText(exercise: FlatExercise) {
+  if (exercise.quran) {
+    return exercise.segments.map(segment => segment.text).join(" ");
+  }
+
   const renderText = (text: string) => {
     if (exercise.lessonOrder !== 35) return renderMuqaddaraWaw(text);
 
@@ -335,6 +343,9 @@ export default function ReadingExercises({ lessonOrder }: Props) {
           src: [exercise.audio],
           preload: false,
           html5: true,
+          ...(exercise.audioDurationMs
+            ? { sprite: { exercise: [0, exercise.audioDurationMs] as [number, number] } }
+            : {}),
         });
       }
     });
@@ -343,6 +354,22 @@ export default function ReadingExercises({ lessonOrder }: Props) {
       Object.values(howlsRef.current).forEach((howl) => howl.unload());
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
+  }, [exercises]);
+
+  useEffect(() => {
+    if (!exercises.some(exercise => exercise.quran)) return;
+
+    // Аяты теории и названия букв используют обычные audio-элементы.
+    const handleOtherAudio = () => {
+      playlistTokenRef.current += 1;
+      Object.values(howlsRef.current).forEach(howl => howl.stop());
+      currentHowlIdRef.current = null;
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      setActiveIndex(null);
+      setStatus("idle");
+    };
+    document.addEventListener("play", handleOtherAudio, true);
+    return () => document.removeEventListener("play", handleOtherAudio, true);
   }, [exercises]);
 
   useEffect(() => {
@@ -381,13 +408,17 @@ export default function ReadingExercises({ lessonOrder }: Props) {
     setStatus(markCompleted ? "completed" : "idle");
   };
 
-  const getHowl = (audio: string) => {
+  const getHowl = (exercise: Exercise) => {
+    const { audio } = exercise;
     if (!howlsRef.current[audio]) {
       howlsRef.current[audio] = new Howl({
         src: [audio],
         preload: true,
         html5: true,
         rate: slowMode ? SLOW_RATE : NORMAL_RATE,
+        ...(exercise.audioDurationMs
+          ? { sprite: { exercise: [0, exercise.audioDurationMs] as [number, number] } }
+          : {}),
       });
     }
     return howlsRef.current[audio];
@@ -404,14 +435,17 @@ export default function ReadingExercises({ lessonOrder }: Props) {
     Object.values(howlsRef.current).forEach((howl) => howl.stop());
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
 
-    const howl = getHowl(exercise.audio);
+    const howl = getHowl(exercise);
+    if (exercise.quran) {
+      document.querySelectorAll("audio").forEach(audio => audio.pause());
+    }
     howl.off("end");
     howl.rate(slowMode ? SLOW_RATE : NORMAL_RATE);
 
     setActiveIndex(index);
     setStatus("playing");
 
-    const id = howl.play();
+    const id = howl.play(exercise.audioDurationMs ? "exercise" : undefined);
     currentHowlIdRef.current = id;
 
     howl.once("end", () => {
@@ -492,6 +526,11 @@ export default function ReadingExercises({ lessonOrder }: Props) {
               < AudioLines size={13} aria-hidden="true" />
               Упражнения
             </div>
+            {selectedLesson?.description && (
+              <p className="m-0 max-w-3xl text-sm leading-6 text-gray-600 dark:text-slate-300 sm:text-base">
+                {selectedLesson.description}
+              </p>
+            )}
             {/* <h2 className="m-0 border-0 p-0 text-3xl font-bold text-gray-950 dark:text-white sm:text-4xl">
               {selectedLesson
                 ? `Упражнения чтения: ${selectedLesson.char}`
@@ -797,10 +836,14 @@ export default function ReadingExercises({ lessonOrder }: Props) {
                   )}
 
                   <span
-                    className="arab relative block text-center tracking-normal"
+                    lang="ar"
+                    dir="rtl"
+                    className={`arab relative block text-center tracking-normal${exercise.lessonOrder === 45 ? " huruf-opening" : ""}`}
                     style={{
-                      fontSize: "clamp(2.8rem, 5.4vw, 3.0rem)",
-                      lineHeight: 1.25,
+                      fontSize: exercise.lessonOrder === 45
+                        ? "clamp(3rem, 5.4vw, 3.3rem)"
+                        : "clamp(2.8rem, 5.4vw, 3.0rem)",
+                      lineHeight: exercise.lessonOrder === 45 ? 1.6 : 1.25,
                     }}
                   >
                     {renderExerciseText(exercise)}

@@ -1,0 +1,940 @@
+{
+  "batch_id": "topics-0001-0010",
+  "reviewed_at": "2026-10-15",
+  "scope": {
+    "topic_ids": [
+      "topic-0001",
+      "topic-0002",
+      "topic-0003",
+      "topic-0004",
+      "topic-0005",
+      "topic-0006",
+      "topic-0007",
+      "topic-0008",
+      "topic-0009",
+      "topic-0010"
+    ],
+    "entire_index_reviewed": false
+  },
+  "policy": "Различаются прямое содержание аята, именное отнесение в тафсире, хадисное подтверждение и связь по контексту. Наличие рассказа в тафсире не приравнивается к достоверному иснаду или единственному поводу ниспослания.",
+  "input_sha256": "fc5294401fc542f00fba3a2dbb47f3dce0669f46b0b58761729dbeb59ac9a45b",
+  "text_sha256": {
+    "quran-kuliev-ru.json": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797",
+    "quran-uthmani-hafs.json": "534bf923b8d9a7a8e30c7827acb4ae78cdd2727418a3b2ea74fa720aa3672ec5"
+  },
+  "counts": {
+    "topics_reviewed": 10,
+    "original_items": 14,
+    "result_items": 15,
+    "original_links_reviewed": 54,
+    "retained_original_links": 52,
+    "removed_original_links": 2,
+    "added_links": 7,
+    "result_links": 59,
+    "result_unique_verses": 55,
+    "sources_used": 35
+  },
+  "decisions": [
+    {
+      "topic_id": "topic-0001",
+      "item_id": "topic-0001-item-001",
+      "verse_key": "2:217",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0002",
+      "item_id": "topic-0002-item-001",
+      "verse_key": "6:52",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0002",
+      "item_id": "topic-0002-item-001",
+      "verse_key": "18:28",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0003",
+      "item_id": "topic-0003-item-001",
+      "verse_key": "2:221",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0004",
+      "item_id": "topic-0004-item-001",
+      "verse_key": "6:93",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0005",
+      "item_id": "topic-0005-item-001",
+      "verse_key": "2:146",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0005",
+      "item_id": "topic-0005-item-001",
+      "verse_key": "2:208",
+      "decision": "remove",
+      "reason_kind": "challenged_personal_attribution",
+      "reason": "Аят требует полного следования исламу и не называет Ибн Салама. Ибн Касир прямо ставит под сомнение включение Ибн Салама в рассказ о желании сохранить соблюдение субботы. Поэтому связь не сохранена как установленная именная отсылка.",
+      "source_ids": [
+        "site-quran",
+        "ik-2-208"
+      ]
+    },
+    {
+      "topic_id": "topic-0005",
+      "item_id": "topic-0005-item-001",
+      "verse_key": "3:113",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0005",
+      "item_id": "topic-0005-item-001",
+      "verse_key": "4:162",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0005",
+      "item_id": "topic-0005-item-001",
+      "verse_key": "5:55",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0005",
+      "item_id": "topic-0005-item-001",
+      "verse_key": "46:10",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "5:51",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "5:52",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "5:53",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "9:74",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "9:80",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "9:84",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "24:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "24:33",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "63:1",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "63:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "63:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "63:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "63:5",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "63:6",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "63:7",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0006",
+      "item_id": "topic-0006-item-001",
+      "verse_key": "63:8",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0007",
+      "item_id": "topic-0007-item-001",
+      "verse_key": "17:91",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0007",
+      "item_id": "topic-0007-item-001",
+      "verse_key": "17:92",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0007",
+      "item_id": "topic-0007-item-001",
+      "verse_key": "17:93",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0007",
+      "item_id": "topic-0007-item-001",
+      "verse_key": "17:94",
+      "decision": "remove",
+      "reason_kind": "insufficient_specific_connection",
+      "reason": "Это общее объяснение отказа людей верить посланнику-человеку. Проверенное толкование выделяет 17:94–95 отдельно и не устанавливает личную связь с Ибн Умаййей. Для именного раздела оставлен связный перечень требований 17:90–93.",
+      "source_ids": [
+        "site-quran",
+        "ik-17-94",
+        "ik-17-90"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:1",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:5",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:6",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:7",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:8",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:9",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "80:10",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0009",
+      "item_id": "topic-0009-item-001",
+      "verse_key": "4:59",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-001",
+      "verse_key": "9:40",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-001",
+      "verse_key": "24:22",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-001",
+      "verse_key": "46:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-001",
+      "verse_key": "49:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-001",
+      "verse_key": "58:22",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-002",
+      "verse_key": "92:19",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-002",
+      "verse_key": "92:20",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-002",
+      "verse_key": "92:21",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-003",
+      "verse_key": "9:40",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-004",
+      "verse_key": "49:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-005",
+      "verse_key": "92:17",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-005",
+      "verse_key": "92:18",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    }
+  ],
+  "additions": [
+    {
+      "topic_id": "topic-0001",
+      "item_id": "topic-0001-item-002",
+      "verse_key": "2:218",
+      "reason": "В сообщении Ибн Исхака, приведённом Ибн Касиром, участники похода спрашивают о награде; с их надеждой связывается этот аят.",
+      "source_ids": [
+        "site-quran",
+        "ik-2-218"
+      ]
+    },
+    {
+      "topic_id": "topic-0005",
+      "item_id": "topic-0005-item-001",
+      "verse_key": "3:114",
+      "reason": "Продолжается характеристика праведных людей Писания из 3:113; по указанному толкованию к ним относится и Ибн Салам.",
+      "source_ids": [
+        "site-quran",
+        "ik-3-113"
+      ]
+    },
+    {
+      "topic_id": "topic-0005",
+      "item_id": "topic-0005-item-001",
+      "verse_key": "3:115",
+      "reason": "Обещание не отвергать добрые дела относится к той же похваленной группе; именная связь следует из толкования 3:113.",
+      "source_ids": [
+        "site-quran",
+        "ik-3-113"
+      ]
+    },
+    {
+      "topic_id": "topic-0007",
+      "item_id": "topic-0007-item-001",
+      "verse_key": "17:90",
+      "reason": "Начинает перечень требований курайшитов. В рассказе Ибн Исхака, приведённом Ибн Касиром, среди участников собрания назван Ибн Аби Умаййа.",
+      "source_ids": [
+        "site-quran",
+        "ik-17-90"
+      ]
+    },
+    {
+      "topic_id": "topic-0008",
+      "item_id": "topic-0008-item-001",
+      "verse_key": "4:95",
+      "reason": "Аль-Бухари передаёт, что после жалобы Ибн Умм Мактума на слепоту было ниспослано уточнение об имеющих физическое препятствие.",
+      "source_ids": [
+        "site-quran",
+        "bukhari-4593"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-002",
+      "verse_key": "92:17",
+      "reason": "Обещает удаление от Огня богобоязненному; Ибн Касир включает Абу Бакра в описанный здесь образ.",
+      "source_ids": [
+        "site-quran",
+        "ik-92-21"
+      ]
+    },
+    {
+      "topic_id": "topic-0010",
+      "item_id": "topic-0010-item-002",
+      "verse_key": "92:18",
+      "reason": "Уточняет, кому дано обещание: расходующему имущество ради очищения. В толковании эта черта относится и к Абу Бакру.",
+      "source_ids": [
+        "site-quran",
+        "ik-92-21"
+      ]
+    }
+  ],
+  "description_changes": [
+    {
+      "item_id": "topic-0001-item-001",
+      "field": "description",
+      "before": "ситуация с 'Абдуллахом ибн Джахшем как причина ниспослания аята",
+      "after": "поход отряда 'Абдуллаха ибн Джахша как повод ниспослания 2:217 в изложении Ибн Касира",
+      "reason": "Уточнены событие и источник атрибуции; тафсирный рассказ не обозначается как отдельно проверенный хадис.",
+      "relation_type_before": "occasion_of_revelation_as_indexed",
+      "relation_type_after": "tafsir_association"
+    },
+    {
+      "item_id": "topic-0003-item-001",
+      "field": "description",
+      "before": "ситуация с 'Абдуллахом ибн Раваха как причина ниспослания аята",
+      "after": "рассказ о браке 'Абдуллаха ибн Равахи с верующей невольницей, приведённый в толковании 2:221",
+      "reason": "Исходное утверждение о причине ниспослания заменено точно установленной атрибуцией рассказа в тафсире.",
+      "relation_type_before": "occasion_of_revelation_as_indexed",
+      "relation_type_after": "tafsir_association"
+    },
+    {
+      "item_id": "topic-0004-item-001",
+      "field": "description",
+      "before": "аят, связанный с 'Абдуллахом ибн Са'д ибн Аби Сархом",
+      "after": "отнесение слов 6:93 к 'Абдуллаху ибн Саду ибн Аби Сарху в толковании ат-Табари",
+      "reason": "Указан автор толкования; не воспроизводятся как доказанные спорные подробности отдельных исторических рассказов.",
+      "relation_type_before": "person_or_event_association_as_indexed",
+      "relation_type_after": "tafsir_association"
+    },
+    {
+      "item_id": "topic-0010-item-002",
+      "field": "description",
+      "before": "несомненность грядущего райского блаженства для 'Абу Бакра",
+      "after": "обещание спасения от Огня и довольства наградой в 92:17–21; Абу Бакр в толковании Ибн Касира",
+      "reason": "Добавлен необходимый контекст 92:17–18; связь с Абу Бакром обозначена как толкование.",
+      "relation_type_before": "topic",
+      "relation_type_after": "tafsir_association"
+    },
+    {
+      "item_id": "topic-0010-item-005",
+      "field": "description",
+      "before": "щедрость Абу Бакра как причина ниспослания аятов",
+      "after": "щедрость и бескорыстие Абу Бакра в толковании 92:17–18",
+      "reason": "Именное отнесение указано как толкование; не заявляется отдельная проверка иснада повода ниспослания.",
+      "relation_type_before": "occasion_of_revelation_as_indexed",
+      "relation_type_after": "tafsir_association"
+    }
+  ],
+  "alias_additions": [
+    {
+      "topic_id": "topic-0007",
+      "alias": "'Абдуллах ибн Аби Умаййа",
+      "source_ids": [
+        "ik-17-90"
+      ],
+      "reason": "Полная форма имени в использованном толковании."
+    }
+  ],
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно."
+    },
+    "ik-2-217": {
+      "title": "Ибн Касир, толкование 2:217 (сокращённый английский перевод)",
+      "url": "https://quran.com/2:217/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Рассказ о походе отряда Ибн Джахша к Нахле",
+      "role": "interpretation_evidence"
+    },
+    "ik-2-218": {
+      "title": "Ибн Касир, толкование 2:218",
+      "url": "https://quran.com/2:218/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Сообщение Ибн Исхака о надежде участников похода на награду",
+      "role": "interpretation_evidence"
+    },
+    "muslim-2413a": {
+      "title": "Сахих Муслим, 2413a",
+      "url": "https://sunnah.com/muslim:2413a",
+      "type": "hadith",
+      "locator": "2413a",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ik-18-28": {
+      "title": "Ибн Касир, толкование 18:28",
+      "url": "https://quran.com/18:28/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Начало толкования; среди спутников назван Ибн Масуд",
+      "role": "interpretation_evidence"
+    },
+    "ik-2-221": {
+      "title": "Ибн Касир, толкование 2:221",
+      "url": "https://quran.com/2:221/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Сообщение ас-Судди после слов «ولأمة مؤمنة خير من مشركة»",
+      "role": "interpretation_evidence"
+    },
+    "tabari-6-93": {
+      "title": "Ат-Табари, толкование 6:93",
+      "url": "https://quran.com/6:93/tafsirs/ar-tafsir-al-tabari",
+      "type": "tafsir",
+      "locator": "Авторское объяснение перед сообщением 13555 и разные мнения в сообщениях 13555–13558",
+      "role": "interpretation_evidence"
+    },
+    "ik-2-146": {
+      "title": "Ибн Касир, толкование 2:146 (сокращённый английский перевод)",
+      "url": "https://quran.com/2:146/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Рассказ, приведённый со ссылкой на аль-Куртуби, об узнавании Пророка Ибн Саламом",
+      "role": "interpretation_evidence"
+    },
+    "ik-2-208": {
+      "title": "Ибн Касир, толкование 2:208",
+      "url": "https://quran.com/2:208/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Ибн Касир оспаривает включение Ибн Салама в рассказ о соблюдении субботы",
+      "role": "interpretation_evidence"
+    },
+    "ik-3-113": {
+      "title": "Ибн Касир, толкование 3:113 (сокращённый английский перевод)",
+      "url": "https://quran.com/3:113/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Толкование блока 3:113–117; Ибн Салам назван среди уверовавших людей Писания",
+      "role": "interpretation_evidence"
+    },
+    "ik-3-113-ar": {
+      "title": "Ибн Касир, толкование 3:113",
+      "url": "https://quran.com/3:113/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Приводятся разные объяснения: сообщение Ибн Масуда и толкование об уверовавших людях Писания",
+      "role": "interpretation_evidence"
+    },
+    "ik-4-162": {
+      "title": "Ибн Касир, толкование 4:162",
+      "url": "https://quran.com/4:162/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Сообщение, приписанное Ибн Аббасу, об Ибн Саламе и других уверовавших",
+      "role": "interpretation_evidence"
+    },
+    "qurtubi-5-55": {
+      "title": "Аль-Куртуби, толкование 5:55",
+      "url": "https://quran.com/5:55/tafsirs/ar-tafseer-al-qurtubi",
+      "type": "tafsir",
+      "locator": "Начало: рассказ об обращении Ибн Салама; далее общий смысл и разные именные отнесения",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-3812": {
+      "title": "Сахих аль-Бухари, 3812",
+      "url": "https://sunnah.com/bukhari:3812",
+      "type": "hadith",
+      "locator": "3812",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ik-46-10": {
+      "title": "Ибн Касир, толкование 46:10",
+      "url": "https://quran.com/46:10/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Разногласие об имени свидетеля и времени ниспослания; сообщение из аль-Бухари и Муслима",
+      "role": "interpretation_evidence"
+    },
+    "ik-5-53": {
+      "title": "Ибн Касир, толкование 5:53",
+      "url": "https://quran.com/5:53/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Разные рассказы о 5:51–53, включая Ибн Убайя и Убаду ибн ас-Самита",
+      "role": "interpretation_evidence"
+    },
+    "ik-9-74": {
+      "title": "Ибн Касир, толкование 9:74",
+      "url": "https://quran.com/9:74/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Мнение Катады об Ибн Убайе, сообщения об аль-Джуласe и замечание о возможном смешении рассказов",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4670": {
+      "title": "Сахих аль-Бухари, 4670",
+      "url": "https://sunnah.com/bukhari:4670",
+      "type": "hadith",
+      "locator": "4670",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4750": {
+      "title": "Сахих аль-Бухари, 4750",
+      "url": "https://sunnah.com/bukhari:4750",
+      "type": "hadith",
+      "locator": "4750",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "muslim-3029a": {
+      "title": "Сахих Муслим, 3029a",
+      "url": "https://sunnah.com/muslim:3029a",
+      "type": "hadith",
+      "locator": "3029a",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4900": {
+      "title": "Сахих аль-Бухари, 4900",
+      "url": "https://sunnah.com/bukhari:4900",
+      "type": "hadith",
+      "locator": "4900",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4903": {
+      "title": "Сахих аль-Бухари, 4903",
+      "url": "https://sunnah.com/bukhari:4903",
+      "type": "hadith",
+      "locator": "4903",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ik-63-6": {
+      "title": "Ибн Касир, толкование 63:6",
+      "url": "https://quran.com/63:6/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Толкование контекста суры об Ибн Убайе; разногласие о датировке похода",
+      "role": "interpretation_evidence"
+    },
+    "ik-17-90": {
+      "title": "Ибн Касир, толкование 17:90",
+      "url": "https://quran.com/17:90/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Рассказ Ибн Исхака: собрание курайшитов и отдельное требование Ибн Аби Умаййи о восхождении",
+      "role": "interpretation_evidence"
+    },
+    "ik-17-94": {
+      "title": "Ибн Касир, толкование 17:94 (сокращённый английский перевод)",
+      "url": "https://quran.com/17:94/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Отдельный блок 17:94–95 об общем возражении против посланника-человека",
+      "role": "interpretation_evidence"
+    },
+    "tirmidhi-3331": {
+      "title": "Джами ат-Тирмизи, 3331",
+      "url": "https://sunnah.com/tirmidhi:3331",
+      "type": "hadith",
+      "locator": "3331",
+      "hadith_grade": "ат-Тирмизи: хасан гариб; на Sunnah.com: сахих (Darussalam)",
+      "role": "interpretation_evidence"
+    },
+    "ik-80-1": {
+      "title": "Ибн Касир, толкование 80:1 (сокращённый английский перевод)",
+      "url": "https://quran.com/80:1/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Толкование 80:1–16, в том числе противопоставление слепого искателя наставления и знатного собеседника",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4593": {
+      "title": "Сахих аль-Бухари, 4593",
+      "url": "https://sunnah.com/bukhari:4593",
+      "type": "hadith",
+      "locator": "4593",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4584": {
+      "title": "Сахих аль-Бухари, 4584",
+      "url": "https://sunnah.com/bukhari:4584",
+      "type": "hadith",
+      "locator": "4584",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-3653": {
+      "title": "Сахих аль-Бухари, 3653",
+      "url": "https://sunnah.com/bukhari:3653",
+      "type": "hadith",
+      "locator": "3653",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ik-9-40": {
+      "title": "Ибн Касир, толкование 9:40",
+      "url": "https://quran.com/9:40/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Абу Бакр как спутник Пророка в пещере при переселении",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4845": {
+      "title": "Сахих аль-Бухари, 4845",
+      "url": "https://sunnah.com/bukhari:4845",
+      "type": "hadith",
+      "locator": "4845",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "qurtubi-46-15": {
+      "title": "Аль-Куртуби, толкование 46:15",
+      "url": "https://quran.com/46:15/tafsirs/ar-tafseer-al-qurtubi",
+      "type": "tafsir",
+      "locator": "Четвёртый–шестой вопросы: отнесение к Абу Бакру, другие мнения и общий смысл",
+      "role": "interpretation_evidence"
+    },
+    "ik-58-22": {
+      "title": "Ибн Касир, толкование 58:22",
+      "url": "https://quran.com/58:22/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Объяснение «или их сыновьями»: ас-Сиддик и Абдуррахман; приведено со словами «говорилось»",
+      "role": "interpretation_evidence"
+    },
+    "ik-92-21": {
+      "title": "Ибн Касир, толкование 92:21",
+      "url": "https://quran.com/92:21/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Заключение толкования суры: Абу Бакр, распространённость этого отнесения и общий смысл аятов",
+      "role": "interpretation_evidence"
+    }
+  },
+  "text_source_id": "site-quran"
+}

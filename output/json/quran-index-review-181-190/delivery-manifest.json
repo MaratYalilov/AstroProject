@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 476,
+    "retained_original_links": 429,
+    "removed_original_links": 47,
+    "added_links": 18,
+    "result_links": 447,
+    "result_unique_verses": 404,
+    "cumulative_topics": 190,
+    "cumulative_links": 8084
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 181-190.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-181-190\\Указатель аятов - темы 181-190.json",
+      "sha256": "74f351da4476d10a168aa11bc1ade5aade555e4e92d1f7b09625e80043cf73d6"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-190.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-181-190\\Указатель аятов - проверенные темы 1-190.json",
+      "sha256": "40b67b8c80c3c3edbf4fae86fcae2769eefd2b0ee6a9c58c60bf4a73dfd0b542"
+    },
+    {
+      "name": "Темы 181-190 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-181-190\\Темы 181-190 - журнал проверки.json",
+      "sha256": "0aa7629eb40180a2939c7cd38fe111411b186006901ea19d728638ac644ed610"
+    },
+    {
+      "name": "Темы 181-190 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-181-190\\Темы 181-190 - отчёт.md",
+      "sha256": "ee5326bc6f1e3458e2c24afe9853b41e86b58c621ff5ff41174c64232d49f3c9"
+    }
+  ]
+}

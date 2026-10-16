@@ -1,0 +1,3376 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_source_id": "site-quran",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева.",
+    "tafsir_interpretation": "Толкование выражения по указанному тафсиру; альтернативные толкования отмечены.",
+    "context": "Связь установлена по конкретному указанному контексту; соседство само по себе не подтверждает связь.",
+    "tafsir_person_association": "Именная связь приведена в указанном тафсире; сама запись не является самостоятельным подтверждением достоверности иснада."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно."
+    },
+    "bukhari-4530": {
+      "title": "Сахих аль-Бухари, 4530",
+      "url": "https://sunnah.com/bukhari:4530",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4530",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-saadi-9-60": {
+      "title": "Ас-Саади, толкование 9:60",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura9-aya60.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 9,
+        "aya": 60,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-26-221": {
+      "title": "Ибн Касир, толкование 26:221",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura26-aya221.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 26,
+        "aya": 221,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-26-222": {
+      "title": "Ибн Касир, толкование 26:222",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura26-aya222.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 26,
+        "aya": 222,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-26-223": {
+      "title": "Ибн Касир, толкование 26:223",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura26-aya223.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 26,
+        "aya": 223,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-5762": {
+      "title": "Сахих аль-Бухари, 5762",
+      "url": "https://sunnah.com/bukhari:5762",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "5762",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-saadi-33-72": {
+      "title": "Ас-Саади, толкование 33:72",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura33-aya72.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 33,
+        "aya": 72,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-240": {
+      "title": "Ас-Саади, толкование 2:240",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya240.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 240,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-4531": {
+      "title": "Сахих аль-Бухари, 4531",
+      "url": "https://sunnah.com/bukhari:4531",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4531",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-saadi-2-180": {
+      "title": "Ас-Саади, толкование 2:180",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya180.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 180,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-40-46": {
+      "title": "Ибн Касир, толкование 40:46",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura40-aya46.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 40,
+        "aya": 46,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-4782": {
+      "title": "Сахих аль-Бухари, 4782",
+      "url": "https://sunnah.com/bukhari:4782",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4782",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "bukhari-4787": {
+      "title": "Сахих аль-Бухари, 4787",
+      "url": "https://sunnah.com/bukhari:4787",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4787",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "bukhari-7420": {
+      "title": "Сахих аль-Бухари, 7420",
+      "url": "https://sunnah.com/bukhari:7420",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "7420",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-saadi-33-37": {
+      "title": "Ас-Саади, толкование 33:37",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura33-aya37.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 33,
+        "aya": 37,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-141": {
+      "title": "Ас-Саади, толкование 4:141",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya141.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 141,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-9-103": {
+      "title": "Ас-Саади, толкование 9:103",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura9-aya103.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 9,
+        "aya": 103,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-23-4": {
+      "title": "Ибн Касир, толкование 23:4",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura23-aya4.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 23,
+        "aya": 4,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-30-39": {
+      "title": "Ас-Саади, толкование 30:39",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura30-aya39.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 30,
+        "aya": 39,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-51-19": {
+      "title": "Ас-Саади, толкование 51:19",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura51-aya19.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 51,
+        "aya": 19,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-70-24": {
+      "title": "Ибн Касир, толкование 70:24",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura70-aya24.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 70,
+        "aya": 24,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-6-141": {
+      "title": "Ас-Саади, толкование 6:141",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura6-aya141.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 6,
+        "aya": 141,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-41-7": {
+      "title": "Ибн Касир, толкование 41:7",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura41-aya7.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 41,
+        "aya": 7,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-107-7": {
+      "title": "Ибн Касир, толкование 107:7",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura107-aya7.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 107,
+        "aya": 7,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-1403": {
+      "title": "Сахих аль-Бухари, 1403",
+      "url": "https://sunnah.com/bukhari:1403",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "1403",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-saadi-9-34": {
+      "title": "Ас-Саади, толкование 9:34",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura9-aya34.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 9,
+        "aya": 34,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0144",
+      "title": "жизнь",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0144-item-001",
+          "description": "жизнь как арена испытаний",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:153",
+            "11:7",
+            "47:31"
+          ],
+          "verse_notes": {
+            "3:153": {
+              "explanation": "Печаль после бегства при Ухуде описана как урок против неверной скорби, с полным знанием действий Богом.",
+              "key_phrase": {
+                "text": "печалью за печаль",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "3:152"
+              ]
+            },
+            "11:7": {
+              "explanation": "Создание мира прямо связано с испытанием качества человеческих дел.",
+              "key_phrase": {
+                "text": "дабы испытать, чьи деяния будут лучше",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "47:31": {
+              "explanation": "Испытание прямо выявляет борьбу, терпение и истинность заявленного.",
+              "key_phrase": {
+                "text": "подвергнем вас испытанию",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0144-item-002",
+          "description": "краткость жизни",
+          "relation_type": "topic",
+          "verse_keys": [
+            "10:45"
+          ],
+          "verse_notes": {
+            "10:45": {
+              "explanation": "При будущем собрании прежнее пребывание на земле или в могилах покажется одним дневным часом, по вариантам перевода.",
+              "key_phrase": {
+                "text": "всего лишь один дневной час",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0144-item-003",
+          "description": "Справедливость и доброжелательность в семейной и общественной жизни",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:129",
+            "7:199",
+            "16:90"
+          ],
+          "verse_notes": {
+            "4:129": {
+              "explanation": "В многобрачной семье запрещено полное предпочтение одной жены с оставлением другой в подвешенном положении.",
+              "key_phrase": {
+                "text": "Не наклоняйтесь же полностью к одной",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:199": {
+              "explanation": "Предписаны снисходительность, веление добра и отстранение от невежд.",
+              "key_phrase": {
+                "text": "вели творить добро",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:90": {
+              "explanation": "Прямо велены справедливость, добро и помощь родственникам, с запретом бесчинства.",
+              "key_phrase": {
+                "text": "блюсти справедливость",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0145",
+      "title": "прорицатели",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0145-item-001",
+          "description": "Лживость прорицателей и сообщения дьяволов",
+          "relation_type": "topic",
+          "verse_keys": [
+            "26:221",
+            "26:222",
+            "26:223"
+          ],
+          "verse_notes": {
+            "26:221": {
+              "explanation": "Вопрос о получателях нисхождения дьяволов Ибн Касир относит к лживым прорицателям в отличие от откровения Пророку.",
+              "key_phrase": {
+                "text": "на кого нисходят дьяволы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-26-221"
+              ],
+              "context_verse_keys": [
+                "26:222"
+              ]
+            },
+            "26:222": {
+              "explanation": "Лжец и грешник назван получателем внушения; Ибн Касир прямо приводит прорицателей как пример.",
+              "key_phrase": {
+                "text": "на каждого лжеца и грешника",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-26-222"
+              ]
+            },
+            "26:223": {
+              "explanation": "Услышанное сопровождается ложью; в аль-Бухари5762 Пророк объясняет редкое совпадение у прорицателя примесью множества выдумок к услышанному джинном.",
+              "key_phrase": {
+                "text": "большинство из них являются лжецами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-26-223",
+                "bukhari-5762"
+              ]
+            }
+          }
+        }
+      ],
+      "aliases": [
+        "жрецы"
+      ]
+    },
+    {
+      "id": "topic-0146",
+      "title": "завет",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0146-item-002",
+          "description": "Завет о единобожии, принятая ответственность и верность обещаниям",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:27",
+            "7:172",
+            "7:173",
+            "13:25",
+            "16:91",
+            "16:92",
+            "16:94",
+            "16:95",
+            "17:34",
+            "17:38",
+            "20:115",
+            "33:72",
+            "36:60"
+          ],
+          "verse_notes": {
+            "2:27": {
+              "explanation": "Нарушение Божьего завета вместе с разрывом связей и нечестием прямо осуждено.",
+              "key_phrase": {
+                "text": "нарушают завет с Аллахом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:172": {
+              "explanation": "Потомки Адама свидетельствуют о господстве Бога, чтобы отсутствие знания не стало оправданием.",
+              "key_phrase": {
+                "text": "Разве Я - не ваш Господь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:173": {
+              "explanation": "Следование многобожию отцов исключено как достаточное оправдание потомков после свидетельства.",
+              "key_phrase": {
+                "text": "Наши отцы были многобожниками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:172"
+              ]
+            },
+            "13:25": {
+              "explanation": "Нарушение завета после заключения связано с проклятием и скверным исходом.",
+              "key_phrase": {
+                "text": "после того, как они заключили его",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:91": {
+              "explanation": "Прямо велено хранить Божий завет и скреплённые клятвы.",
+              "key_phrase": {
+                "text": "Будьте верны завету",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:92": {
+              "explanation": "Распущенная пряжа - образ разрушения обязательства и обмана посредством клятв.",
+              "key_phrase": {
+                "text": "клятвы в средство обмана",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:94": {
+              "explanation": "Обман клятвами связан с потерей твёрдости и наказанием.",
+              "key_phrase": {
+                "text": "Не обращайте свои клятвы в средство обмана",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:95": {
+              "explanation": "Прямо запрещена продажа Божьих обетов за малую выгоду.",
+              "key_phrase": {
+                "text": "данные Аллаху обеты",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:34": {
+              "explanation": "Верность обещанию обязательна, за него спросят.",
+              "key_phrase": {
+                "text": "за обещания вас призовут к ответу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:38": {
+              "explanation": "Общее осуждение предыдущих зол включает нарушение обещания17:34.",
+              "key_phrase": {
+                "text": "Все это зло ненавистно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "17:34"
+              ]
+            },
+            "20:115": {
+              "explanation": "Непосредственный завет заключён с Адамом, который забыл, а не со всеми потомками одновременно.",
+              "key_phrase": {
+                "text": "заключили завет с Адамом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "33:72": {
+              "explanation": "Человек принимает аманат; ас-Саади объясняет его исполнением повелений и избеганием запретного, различая затем исполнивших и нарушивших.",
+              "key_phrase": {
+                "text": "человек взялся нести ее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-33-72"
+              ],
+              "context_verse_keys": [
+                "33:73"
+              ],
+              "qualification": "Не утверждается, что каждый человек без исключения одинаково нарушил принятую ответственность; толкование различает верующих, лицемеров и многобожников."
+            },
+            "36:60": {
+              "explanation": "Сынам Адама прямо напомнен завет не поклоняться дьяволу.",
+              "key_phrase": {
+                "text": "не поклоняться дьяволу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0147",
+      "title": "завещание",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0147-item-001",
+          "description": "долг и завещание умирающего",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:11",
+            "4:12",
+            "5:106"
+          ],
+          "verse_notes": {
+            "4:11": {
+              "explanation": "Наследственные доли рассчитываются после учёта завещания и долгов умершего.",
+              "key_phrase": {
+                "text": "после вычета по завещанию",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:12": {
+              "explanation": "Супружеские и названные боковые доли также связаны с исполнением завещания и долга без причинения вреда.",
+              "key_phrase": {
+                "text": "или выплаты долга, если это не причиняет вреда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:106": {
+              "explanation": "При смерти завещание сопровождается свидетельством двух лиц и клятвенной проверкой сомнительного.",
+              "key_phrase": {
+                "text": "он оставит завещание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0147-item-002",
+          "description": "завещание умирающего, касающееся судьбы его жены",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:240"
+          ],
+          "verse_notes": {
+            "2:240": {
+              "explanation": "Предписано завещательное годовое обеспечение вдовы без изгнания с возможностью её добровольного ухода.",
+              "key_phrase": {
+                "text": "в течение одного года и не прогоняли",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-2-240",
+                "bukhari-4530",
+                "bukhari-4531"
+              ],
+              "qualification": "Аль-Бухари4530 передаёт разговор Ибн аз-Зубайра с Усманом об отмене нормы, без удаления текста.4531 содержит объяснения Муджахида, Аты и Ибн Аббаса о проживании и сроке ожидания, не прямую пророческую реплику. Ас-Саади отмечает большинство за насх и мнение о добровольном дополнении после обязательных четырёх месяцев и десяти дней; единогласие не заявляется."
+            }
+          }
+        },
+        {
+          "id": "topic-0147-item-003",
+          "description": "Исправление несправедливого завещания и замена уличённых свидетелей",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:182",
+            "5:107"
+          ],
+          "verse_notes": {
+            "2:182": {
+              "explanation": "Опасение греха или несправедливости завещателя позволяет установить мир без вины исправляющего.",
+              "key_phrase": {
+                "text": "установит мир между сторонами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:107": {
+              "explanation": "После обнаружения греха первоначальных свидетелей на их место становятся другие близкие законные правопритязатели с клятвой.",
+              "key_phrase": {
+                "text": "займут их место",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "5:106"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0147-item-004",
+          "description": "Добросовестное свидетельство и ответственность за искажение завещания",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:181",
+            "5:106"
+          ],
+          "verse_notes": {
+            "2:181": {
+              "explanation": "Грех изменения услышанного завещания возлагается на изменившего его.",
+              "key_phrase": {
+                "text": "на тех, кто его изменил",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:106": {
+              "explanation": "Два свидетеля завещания должны отвергать корысть и сокрытие свидетельства.",
+              "key_phrase": {
+                "text": "не скрываем свидетельства Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0147-item-005",
+          "description": "соответствие завещания шариату",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:180",
+            "4:11",
+            "4:12",
+            "5:106"
+          ],
+          "verse_notes": {
+            "2:180": {
+              "explanation": "При приближении смерти завещание родителям и близким предписано на разумных условиях.",
+              "key_phrase": {
+                "text": "на разумных условиях",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-2-180"
+              ],
+              "qualification": "Ас-Саади приводит мнение большинства об отмене наследственными аятами и предпочитает согласование: доли наследников определены отдельно, наставление ненаследующим близким сохраняется. Безусловная современная выплата любого завещанного наследнику сверх доли здесь не устанавливается."
+            },
+            "4:11": {
+              "explanation": "Названные доли и исполнение завещания и долга образуют предписание Бога при наследовании.",
+              "key_phrase": {
+                "text": "Таково предписание Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:12": {
+              "explanation": "Расчёт после завещания и долга ограничен отсутствием вреда другим правопритязателям.",
+              "key_phrase": {
+                "text": "если это не причиняет вреда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:106": {
+              "explanation": "Справедливые свидетели и отказ от корысти обеспечивают добросовестность завещания.",
+              "key_phrase": {
+                "text": "двое справедливых мужей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0148",
+      "title": "зависть",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0148-item-001",
+          "description": "Зависть как причина отвращения от веры и просьба о защите от завистника",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:109",
+            "4:54",
+            "113:5"
+          ],
+          "verse_notes": {
+            "2:109": {
+              "explanation": "Зависть части людей Писания прямо связана с желанием отвратить верующих, которым велено простить.",
+              "key_phrase": {
+                "text": "из зависти своей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:54": {
+              "explanation": "Осуждена зависть к дарованной людям Божьей милости.",
+              "key_phrase": {
+                "text": "они завидуют",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "113:5": {
+              "explanation": "В завершении молитвы прямо просят защиты от завистника при действующей зависти.",
+              "key_phrase": {
+                "text": "от зла завистника",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0148-item-002",
+          "description": "избегание зависти и зла",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:32"
+          ],
+          "verse_notes": {
+            "4:32": {
+              "explanation": "Запрещено желать преимущества другого с обращением вместо этого к Божьей милости.",
+              "key_phrase": {
+                "text": "Не желайте того",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0148-item-003",
+          "description": "Молитва о защите от внешнего зла, включая завистника",
+          "relation_type": "topic",
+          "verse_keys": [
+            "113:1",
+            "113:2",
+            "113:3",
+            "113:4",
+            "113:5"
+          ],
+          "verse_notes": {
+            "113:1": {
+              "explanation": "Обращение к Господу рассвета вводит просьбу о защите, завершённую упоминанием завистника.",
+              "key_phrase": {
+                "text": "Прибегаю к защите Господа рассвета",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "113:5"
+              ]
+            },
+            "113:2": {
+              "explanation": "Общая просьба о защите от зла созданного включает далее названные виды.",
+              "key_phrase": {
+                "text": "от зла того, что Он сотворил",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "113:5"
+              ]
+            },
+            "113:3": {
+              "explanation": "Ночной мрак назван отдельной опасностью в этой молитве, не самой завистью.",
+              "key_phrase": {
+                "text": "от зла мрака",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "113:1",
+                "113:5"
+              ]
+            },
+            "113:4": {
+              "explanation": "Колдовское зло названо отдельно от завистника, в единой молитве защиты.",
+              "key_phrase": {
+                "text": "поплевывающих на узлы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "113:1",
+                "113:5"
+              ]
+            },
+            "113:5": {
+              "explanation": "Завистник прямо назван отдельным источником зла, от которого просят защиту.",
+              "key_phrase": {
+                "text": "когда он завидует",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0148-item-004",
+          "description": "Не желать чужого преимущества и просить милости Аллаха",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:32"
+          ],
+          "verse_notes": {
+            "4:32": {
+              "explanation": "Вместо желания чужого преимущества велено просить у Бога милости; каждому названа доля приобретённого.",
+              "key_phrase": {
+                "text": "Просите у Аллаха из Его милости",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0148-item-005",
+          "description": "о зависти",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:109",
+            "4:54"
+          ],
+          "verse_notes": {
+            "2:109": {
+              "explanation": "Прямо названа зависть как мотив попытки отвратить уверовавших.",
+              "key_phrase": {
+                "text": "из зависти своей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:54": {
+              "explanation": "Зависть противопоставлена свободному дарованию Богом милости, Писания, мудрости и власти.",
+              "key_phrase": {
+                "text": "Или же они завидуют",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0149",
+      "title": "загробная жизнь",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0149-item-001",
+          "description": "Отсутствие новой смерти у обитателей Рая",
+          "relation_type": "topic",
+          "verse_keys": [
+            "44:56"
+          ],
+          "verse_notes": {
+            "44:56": {
+              "explanation": "В описанном Раю люди не испытают смерти после первой и защищены от Ада.",
+              "key_phrase": {
+                "text": "не вкусят смерти после первой смерти",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "44:51",
+                "44:52"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0149-item-002",
+          "description": "Наказание до и после наступления Часа и предостережение о будущем расчёте",
+          "relation_type": "topic",
+          "verse_keys": [
+            "40:46",
+            "102:3",
+            "102:4"
+          ],
+          "verse_notes": {
+            "40:46": {
+              "explanation": "Показ Огня утром и вечером отделён от самого жестокого наказания при наступлении Часа; Ибн Касир прямо связывает первое с барзахом.",
+              "key_phrase": {
+                "text": "А в День наступления Часа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-40-46"
+              ],
+              "qualification": "Тафсир различает доказательство наказания душ этим аятом и дополнительные подробности участия тела из Сунны; рассказы о необычных птицах здесь не используются как установленные факты."
+            },
+            "102:3": {
+              "explanation": "Предупреждение о скором знании следует за упоминанием могил и предваряет видение Геенны и расчёт.",
+              "key_phrase": {
+                "text": "Скоро вы узнаете",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "102:2",
+                "102:6",
+                "102:8"
+              ]
+            },
+            "102:4": {
+              "explanation": "Повторение усиливает предостережение, не называет само по себе отдельный момент наказания в могиле.",
+              "key_phrase": {
+                "text": "Еще раз нет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "102:3",
+                "102:6",
+                "102:8"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0149-item-003",
+          "description": "Воскрешение и воздаяние: сомнения отрицателей и ответы им",
+          "relation_type": "topic",
+          "verse_keys": [
+            "17:49",
+            "37:16",
+            "37:52",
+            "37:53",
+            "50:44",
+            "56:47",
+            "75:3",
+            "79:10",
+            "79:11"
+          ],
+          "verse_notes": {
+            "17:49": {
+              "explanation": "Отрицатели задают сомневающийся вопрос о воссоздании костей; ответ о могуществе Творца следует далее.",
+              "key_phrase": {
+                "text": "мы будем воскрешены",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "17:50",
+                "17:51"
+              ]
+            },
+            "37:16": {
+              "explanation": "Неверующие выражают сомнение в воскресении праха и костей, которое опровергается далее.",
+              "key_phrase": {
+                "text": "после того, как умрем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:18"
+              ]
+            },
+            "37:52": {
+              "explanation": "Райский собеседник вспоминает вопрос земного товарища о вере в воздаяние, раскрытый следующим аятом.",
+              "key_phrase": {
+                "text": "принадлежишь к числу верующих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:51",
+                "37:53"
+              ]
+            },
+            "37:53": {
+              "explanation": "Слова прежнего товарища выражают сомнение в воздаянии после смерти, а не утверждают его невозможность от Бога.",
+              "key_phrase": {
+                "text": "мы получим воздаяние",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:51",
+                "37:52"
+              ]
+            },
+            "50:44": {
+              "explanation": "Разверзающаяся земля и поспешное собрание прямо изображают воскрешение.",
+              "key_phrase": {
+                "text": "земля разверзнется",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "56:47": {
+              "explanation": "Вопрос о воскрешении передаёт неверие осуждённых прежней жизни.",
+              "key_phrase": {
+                "text": "мы будем воскрешены",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "56:45",
+                "56:46"
+              ]
+            },
+            "75:3": {
+              "explanation": "Риторический вопрос отрицает предположение, будто Бог не соберёт кости умершего.",
+              "key_phrase": {
+                "text": "Мы не соберем его костей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "75:4"
+              ]
+            },
+            "79:10": {
+              "explanation": "Отрицатели удивляются возвращению в прежнее состояние.",
+              "key_phrase": {
+                "text": "мы вернемся",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:11",
+                "79:13",
+                "79:14"
+              ]
+            },
+            "79:11": {
+              "explanation": "Продолжение отрицательного вопроса касается истлевших костей, с ответом о лёгкости воскрешения далее.",
+              "key_phrase": {
+                "text": "истлевшими костями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "79:10",
+                "79:13",
+                "79:14"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0150",
+      "title": "Зайд ибн Хариса",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0150-item-001",
+          "description": "Упоминание Зайда и отмена приравнивания приёмных сыновей к родным",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "33:4",
+            "33:37"
+          ],
+          "verse_notes": {
+            "33:4": {
+              "explanation": "Отвергнуто приравнивание приёмных сыновей к родным. Аль-Бухари4782 сообщает, что Зайда прежде называли сыном Мухаммада до предписания33:5.",
+              "key_phrase": {
+                "text": "не сделал ваших приемных сыновей вашими сыновьями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4782"
+              ],
+              "context_verse_keys": [
+                "33:5"
+              ],
+              "qualification": "Сам33:4 имени Зайда не содержит; именная связь основана на сообщении Ибн Умара, не отдельном прямом названии в этом аяте."
+            },
+            "33:37": {
+              "explanation": "Зайд прямо назван в истории его брака и последующего брака Посланника с Зайнаб; аль-Бухари4787 подтверждает отнесение к ним.",
+              "key_phrase": {
+                "text": "Когда же Зейд",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4787"
+              ],
+              "qualification": "Ас-Саади поясняет завершение отношений как расставание и развод; не утверждается дозволенность брака Посланника с ещё состоявшей в браке супругой Зайда."
+            }
+          }
+        },
+        {
+          "id": "topic-0150-item-002",
+          "description": "Обращение Зайда к Пророку с жалобой на супругу",
+          "relation_type": "topic",
+          "verse_keys": [
+            "33:37"
+          ],
+          "verse_notes": {
+            "33:37": {
+              "explanation": "Анас в аль-Бухари7420 прямо сообщает приход Зайда с жалобой; Пророк велел ему сохранить жену и бояться Бога.",
+              "key_phrase": {
+                "text": "Удержи свою жену при себе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-7420"
+              ],
+              "qualification": "Жалоба жены на мужа этим аятом и указанным сообщением не подтверждается."
+            }
+          }
+        },
+        {
+          "id": "topic-0150-item-003",
+          "description": "Прежнее усыновление Зайда и отличие от кровного отцовства",
+          "relation_type": "topic",
+          "verse_keys": [
+            "33:37",
+            "33:40"
+          ],
+          "verse_notes": {
+            "33:37": {
+              "explanation": "Брак с бывшей женой приёмного сына устраняет запрет, ошибочно перенесённый с кровного родства; ас-Саади прямо связывает историю с прежним усыновлением Зайда.",
+              "key_phrase": {
+                "text": "жен своих приемных сыновей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-33-37",
+                "bukhari-4782"
+              ],
+              "qualification": "Связь не означает дозволения отношений до завершения брака и срока ожидания бывшей супруги, что отдельно оговаривает тафсир."
+            },
+            "33:40": {
+              "explanation": "Отцовство Мухаммада над мужами общины отвергнуто; в контексте33:37 и сообщения о Зайде это отделяет приёмное именование от происхождения.",
+              "key_phrase": {
+                "text": "не отец кого-либо из ваших мужей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4782"
+              ],
+              "context_verse_keys": [
+                "33:37"
+              ],
+              "qualification": "Не отрицается, что у Пророка были собственные дети, и не запрещается сама забота о неродном ребёнке."
+            }
+          }
+        },
+        {
+          "id": "topic-0150-item-004",
+          "description": "Именование приёмного сына по его действительному отцу",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "33:5"
+          ],
+          "verse_notes": {
+            "33:5": {
+              "explanation": "Приёмных детей велено именовать по отцам; Ибн Умар прямо связывает это с прекращением имени Зайд ибн Мухаммад.",
+              "key_phrase": {
+                "text": "по именам их отцов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4782"
+              ]
+            }
+          }
+        }
+      ],
+      "aliases": [
+        "Зайд ибн Харис"
+      ]
+    },
+    {
+      "id": "topic-0151",
+      "title": "Закарийа",
+      "see_also": [
+        "пророк Закарийа"
+      ],
+      "items": []
+    },
+    {
+      "id": "topic-0152",
+      "title": "закон",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0152-item-001",
+          "description": "Божьи установления: ответственность, предупреждение, испытание и исход народов",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:141",
+            "6:131",
+            "7:94",
+            "7:95",
+            "8:38",
+            "8:52",
+            "13:11",
+            "17:15",
+            "17:16",
+            "17:58",
+            "17:77",
+            "26:208",
+            "26:209",
+            "33:38",
+            "33:62",
+            "35:24",
+            "37:171",
+            "37:172",
+            "37:173",
+            "40:85",
+            "48:23",
+            "58:21"
+          ],
+          "verse_notes": {
+            "4:141": {
+              "explanation": "Бог рассудит лицемеров и верующих и не даст неверующим окончательного пути против верующих; ас-Саади связывает это с сохранением поддержанной общины истины.",
+              "key_phrase": {
+                "text": "не откроет неверующим пути",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-4-141"
+              ],
+              "qualification": "Не выводится отсутствие любых временных военных неудач или подчинения отдельных мусульман: тафсир различает временную долю противника и устойчивое окончательное торжество."
+            },
+            "6:131": {
+              "explanation": "Гибель поселений не происходит несправедливо, пока жители не предупреждены и пребывают в неведении.",
+              "key_phrase": {
+                "text": "пока их жители пребывают в неведении",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:94": {
+              "explanation": "Приход пророка к поселению сопровождается испытанием невзгодами ради смирения.",
+              "key_phrase": {
+                "text": "дабы они проявили смирение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:95": {
+              "explanation": "Замена бедствия благополучием и последующая беспечность завершаются внезапным наказанием.",
+              "key_phrase": {
+                "text": "Мы хватали их внезапно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:38": {
+              "explanation": "Прекращение неверия связано с прощением прошлого, возвращение - с примером прежних народов.",
+              "key_phrase": {
+                "text": "примеры первых поколений",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:52": {
+              "explanation": "Неверие рода Фараона и предшественников повторяет закономерность наказания за грехи.",
+              "key_phrase": {
+                "text": "Аллах схватил их за грехи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:11": {
+              "explanation": "Изменение положения народа связано с изменением им самого себя, при неотвратимости Божьего решения.",
+              "key_phrase": {
+                "text": "пока они не изменят самих себя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:15": {
+              "explanation": "Личная ответственность соединена с правилом не наказывать без посланника.",
+              "key_phrase": {
+                "text": "не отправив к ним посланника",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:16": {
+              "explanation": "Повеление изнеженным жителям и их последующее нечестие завершаются исполнением решения о гибели города.",
+              "key_phrase": {
+                "text": "предавались нечестию",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:58": {
+              "explanation": "Гибель либо тяжёлое наказание поселений до Суда названы записанным предопределением.",
+              "key_phrase": {
+                "text": "предначертано в Писании",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:77": {
+              "explanation": "Прежняя практика в отношении посланников названа неизменным установлением.",
+              "key_phrase": {
+                "text": "не найдешь изменений",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:208": {
+              "explanation": "До гибели в поселение приходят предостерегающие.",
+              "key_phrase": {
+                "text": "предостерегающие увещеватели",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:209": {
+              "explanation": "Предшествующие назидания соединены с отрицанием несправедливости наказания.",
+              "key_phrase": {
+                "text": "Мы не были несправедливы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:208"
+              ]
+            },
+            "33:38": {
+              "explanation": "Дозволенное Пророку связано с прежним Божьим установлением и предопределённым решением.",
+              "key_phrase": {
+                "text": "решением предопределенным",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "33:62": {
+              "explanation": "В описанном прежде контексте противодействующих лицемеров и тревожащих общину повторяется прежнее установление.",
+              "key_phrase": {
+                "text": "не найдешь изменения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "33:60",
+                "33:61"
+              ]
+            },
+            "35:24": {
+              "explanation": "Нет народа, к которому не приходило бы предупреждение, что подтверждает правило предшествующего увещевания.",
+              "key_phrase": {
+                "text": "нет ни одного народа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "37:171": {
+              "explanation": "Божье Слово посланникам вводит обещание помощи и победы далее.",
+              "key_phrase": {
+                "text": "Наше Слово",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:172",
+                "37:173"
+              ]
+            },
+            "37:172": {
+              "explanation": "Помощь посланникам прямо обещана как содержание предыдущего Слова.",
+              "key_phrase": {
+                "text": "им будет оказана помощь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:171"
+              ]
+            },
+            "37:173": {
+              "explanation": "Победа Божьего войска завершает обещание помощи посланникам.",
+              "key_phrase": {
+                "text": "Наше войско одержит победу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "37:171",
+                "37:172"
+              ]
+            },
+            "40:85": {
+              "explanation": "Вера лишь при виде уже пришедшего наказания не приносит пользы, что названо прежним установлением.",
+              "key_phrase": {
+                "text": "не помогла им вера",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "48:23": {
+              "explanation": "Обещанный исход боя предыдущего аята назван неизменяемым установлением.",
+              "key_phrase": {
+                "text": "не найдешь замены",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "48:22"
+              ]
+            },
+            "58:21": {
+              "explanation": "Бог прямо предписал победу Себе и посланникам.",
+              "key_phrase": {
+                "text": "Победу непременно одержим",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0153",
+      "title": "закят (обязательная милостыня)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0153-item-001",
+          "description": "Закят, его очищающее действие и награда при вере и праведности",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:277",
+            "7:156",
+            "9:5",
+            "9:11",
+            "9:18",
+            "9:71",
+            "9:103",
+            "23:4",
+            "23:10",
+            "23:11",
+            "24:37",
+            "24:38",
+            "24:56",
+            "27:2",
+            "27:3",
+            "30:39",
+            "31:4",
+            "31:5",
+            "73:20"
+          ],
+          "verse_notes": {
+            "2:277": {
+              "explanation": "Вера, праведные дела, молитва и выплата закята вместе связаны с наградой и отсутствием страха.",
+              "key_phrase": {
+                "text": "выплачивали закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:156": {
+              "explanation": "Милость обещана богобоязненным, дающим закят и верующим в знамения.",
+              "key_phrase": {
+                "text": "станут выплачивать закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:5": {
+              "explanation": "Покаяние, молитва и закят указаны как основание отпустить описанных противников, при договорных исключениях соседних аятов.",
+              "key_phrase": {
+                "text": "выплачивать закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "9:4",
+                "9:6"
+              ]
+            },
+            "9:11": {
+              "explanation": "Покаяние, молитва и закят вводят братство по вере.",
+              "key_phrase": {
+                "text": "братьями по вере",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:18": {
+              "explanation": "Выплата закята входит в качества достойного заботиться о мечетях.",
+              "key_phrase": {
+                "text": "выплачивает закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:71": {
+              "explanation": "Милость обещана верующим мужчинам и женщинам, среди чьих дел прямо названа выплата закята.",
+              "key_phrase": {
+                "text": "Аллах смилостивится над ними",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:103": {
+              "explanation": "Пожертвование очищает и возвышает дающих; ас-Саади прямо понимает его как обязательный закят, принимаемый Посланником или его преемником.",
+              "key_phrase": {
+                "text": "очистить и возвысить их",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-9-103"
+              ]
+            },
+            "23:4": {
+              "explanation": "Ибн Касир приводит основное понимание как имущественного закята и допускает очищение души, либо оба смысла.",
+              "key_phrase": {
+                "text": "выплачивают закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-23-4"
+              ],
+              "qualification": "Мекканское употребление не отождествлено без пояснения со всеми позднее уточнёнными суммами и порогами; мнение об очищении души сохраняется."
+            },
+            "23:10": {
+              "explanation": "Наследниками названы верующие с перечисленными качествами, включая закят23:4, не только один вид подаяния.",
+              "key_phrase": {
+                "text": "являются наследниками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:4",
+                "23:11"
+              ]
+            },
+            "23:11": {
+              "explanation": "Вечный Фирдаус обещан той группе верующих, в описании которой присутствует закят.",
+              "key_phrase": {
+                "text": "унаследуют Фирдаус",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:4",
+                "23:10"
+              ]
+            },
+            "24:37": {
+              "explanation": "Торговля не отвлекает праведных от молитвы и прямой выплаты закята.",
+              "key_phrase": {
+                "text": "выплаты закята",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:38": {
+              "explanation": "Награда с прибавлением милости обещана людям предыдущего аята, включая дающих закят.",
+              "key_phrase": {
+                "text": "приумножил это по Своей милости",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "24:37"
+              ]
+            },
+            "24:56": {
+              "explanation": "Прямое повеление закята вместе с молитвой и послушанием связано с надеждой на милость.",
+              "key_phrase": {
+                "text": "быть может, вы будете помилованы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "27:2": {
+              "explanation": "Руководство и благая весть адресованы верующим, чьи качества далее включают закят.",
+              "key_phrase": {
+                "text": "благая весть для верующих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "27:3"
+              ]
+            },
+            "27:3": {
+              "explanation": "Выплата закята названа качеством получающих руководство и благую весть.",
+              "key_phrase": {
+                "text": "выплачивают закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "27:2"
+              ]
+            },
+            "30:39": {
+              "explanation": "Очищающее подаяние ради Бога противопоставлено дару ради большего ответного дара; ас-Саади поясняет широкое значение очищающих расходов.",
+              "key_phrase": {
+                "text": "стремясь к Лику Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-30-39"
+              ],
+              "qualification": "Арабское слово закят здесь есть, но его значение в приведённом толковании шире одной установленной ставки обязательного взноса."
+            },
+            "31:4": {
+              "explanation": "Закят соединён с молитвой и убеждённостью в Последней жизни.",
+              "key_phrase": {
+                "text": "выплачивают закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "31:5": {
+              "explanation": "Успех обещан людям с перечисленными качествами, включая закят.",
+              "key_phrase": {
+                "text": "являются преуспевшими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "31:4"
+              ]
+            },
+            "73:20": {
+              "explanation": "Прямо велено отдавать закят; подготовленное добро обещано найти у Бога большим вознаграждением.",
+              "key_phrase": {
+                "text": "раздавайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-002",
+          "description": "Получатели обязательного закята и общей имущественной помощи",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:60",
+            "30:38",
+            "70:24",
+            "70:25"
+          ],
+          "verse_notes": {
+            "9:60": {
+              "explanation": "Бедные, просящие и другие названные категории прямо являются получателями закята.",
+              "key_phrase": {
+                "text": "для неимущих и бедных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-9-60"
+              ]
+            },
+            "30:38": {
+              "explanation": "Должное родственнику, бедному и путнику предписано как помощь ради Бога.",
+              "key_phrase": {
+                "text": "бедняку и путнику",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Здесь не утверждается, что вся выплата любому родственнику автоматически считается обязательным закятом."
+            },
+            "70:24": {
+              "explanation": "Прямо выделена известная имущественная доля, получатели которой названы далее.",
+              "key_phrase": {
+                "text": "известную долю своего имущества",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-70-24"
+              ],
+              "context_verse_keys": [
+                "70:25"
+              ],
+              "qualification": "Аят прямо не перечисляет ставки и условия одного вида обязательного закята; Ибн Касир говорит о назначенной доле нуждающимся."
+            },
+            "70:25": {
+              "explanation": "Просящие и обездоленные прямо названы получателями доли из предыдущего аята.",
+              "key_phrase": {
+                "text": "для просящих и обездоленных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "70:24"
+              ],
+              "qualification": "Связь с имущественной помощью не ограничена утверждением, что речь исключительно об одном установленном сборе."
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-014",
+          "description": "дальнейшая передача закята освобождаемым рабам",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:60"
+          ],
+          "verse_notes": {
+            "9:60": {
+              "explanation": "Освобождение рабов прямо названо одним из направлений закята; ас-Саади включает помощь выкупающим себя.",
+              "key_phrase": {
+                "text": "для выкупа рабов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-9-60"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-004",
+          "description": "Закят как религиозное предписание и очищающее имущественное действие",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:277",
+            "6:141",
+            "9:5",
+            "9:11",
+            "9:60",
+            "41:7",
+            "51:19",
+            "70:24",
+            "70:25",
+            "73:20",
+            "98:5"
+          ],
+          "verse_notes": {
+            "2:277": {
+              "explanation": "Вера, праведные дела, молитва и выплата закята вместе связаны с наградой и отсутствием страха.",
+              "key_phrase": {
+                "text": "выплачивали закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:141": {
+              "explanation": "Должное урожая велено отдавать в день сбора; ас-Саади прямо объясняет его установленным закятом плодов.",
+              "key_phrase": {
+                "text": "отдавайте должное в день уборки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-6-141"
+              ]
+            },
+            "9:5": {
+              "explanation": "Покаяние, молитва и закят указаны как основание отпустить описанных противников, при договорных исключениях соседних аятов.",
+              "key_phrase": {
+                "text": "выплачивать закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "9:4",
+                "9:6"
+              ]
+            },
+            "9:11": {
+              "explanation": "Покаяние, молитва и закят вводят братство по вере.",
+              "key_phrase": {
+                "text": "братьями по вере",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:60": {
+              "explanation": "Перечень получателей закята прямо назван Божьим предписанием.",
+              "key_phrase": {
+                "text": "Таково предписание Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-9-60"
+              ]
+            },
+            "41:7": {
+              "explanation": "Местный перевод осуждает невыплату закята. Ибн Касир приводит и имущественное толкование, и очищение от многобожия, различая историю терминологии.",
+              "key_phrase": {
+                "text": "не выплачивают закята",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-41-7"
+              ],
+              "qualification": "Ибн Аббас и Икрима в приведённых объяснениях связывают это с единобожием; Катада - с удержанием имущественного закята. Ни одно не объявлено единогласным единственным смыслом."
+            },
+            "51:19": {
+              "explanation": "Имущественное право нуждающихся ас-Саади понимает как обязательное и добровольное, включая более широкий круг помощи.",
+              "key_phrase": {
+                "text": "известную долю",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-51-19"
+              ],
+              "qualification": "Прямое слово закят в этом аяте отсутствует; обязательный и добровольный аспекты не смешаны."
+            },
+            "70:24": {
+              "explanation": "Прямо выделена известная имущественная доля, получатели которой названы далее.",
+              "key_phrase": {
+                "text": "известную долю своего имущества",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-70-24"
+              ],
+              "context_verse_keys": [
+                "70:25"
+              ],
+              "qualification": "Аят прямо не перечисляет ставки и условия одного вида обязательного закята; Ибн Касир говорит о назначенной доле нуждающимся."
+            },
+            "70:25": {
+              "explanation": "Просящие и обездоленные прямо названы получателями доли из предыдущего аята.",
+              "key_phrase": {
+                "text": "для просящих и обездоленных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "70:24"
+              ],
+              "qualification": "Связь с имущественной помощью не ограничена утверждением, что речь исключительно об одном установленном сборе."
+            },
+            "73:20": {
+              "explanation": "Прямо велено отдавать закят; подготовленное добро обещано найти у Бога большим вознаграждением.",
+              "key_phrase": {
+                "text": "раздавайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "98:5": {
+              "explanation": "Прямое повеление закята и молитвы соединено с искренним поклонением и названо правой верой.",
+              "key_phrase": {
+                "text": "выплачивать закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-005",
+          "description": "о закяте",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:43",
+            "2:110",
+            "2:277",
+            "4:162",
+            "5:55"
+          ],
+          "verse_notes": {
+            "2:43": {
+              "explanation": "Прямо велено выплачивать закят наряду с молитвой.",
+              "key_phrase": {
+                "text": "выплачивайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:110": {
+              "explanation": "Предписаны молитва и закят с обещанием найти приготовленное добро у Бога.",
+              "key_phrase": {
+                "text": "выплачивайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:277": {
+              "explanation": "Закят входит в дела верующих, получающих обещанную награду.",
+              "key_phrase": {
+                "text": "выплачивали закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:162": {
+              "explanation": "Закят входит в качества знающих верующих, которым обещано вознаграждение.",
+              "key_phrase": {
+                "text": "выплачивают закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:55": {
+              "explanation": "Выплата закята прямо характеризует верующих, названных покровителями вместе с Богом и Посланником.",
+              "key_phrase": {
+                "text": "выплачивают закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-015",
+          "description": "о тех, кто не хочет помогать бедным и выплачивать закят",
+          "relation_type": "topic",
+          "verse_keys": [
+            "107:7"
+          ],
+          "verse_notes": {
+            "107:7": {
+              "explanation": "Отказ в мауне Ибн Касир связывает и с удержанием закята, и с отказом в малой бытовой помощи, обобщая оба смысла.",
+              "key_phrase": {
+                "text": "отказывают даже в мелочи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-107-7"
+              ],
+              "qualification": "Местный перевод передаёт малую помощь; это не единогласное исключительное название обязательного закята. Приведённый в конце тафсира слабый рассказ не используется как достоверный хадис."
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-016",
+          "description": "Бедные как получатели закята и общих пожертвований",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:60",
+            "30:38"
+          ],
+          "verse_notes": {
+            "9:60": {
+              "explanation": "Неимущие и бедные прямо открывают перечень получателей закята.",
+              "key_phrase": {
+                "text": "для неимущих и бедных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-9-60"
+              ],
+              "qualification": "Перечень включает также другие категории, не сводится только к бедным."
+            },
+            "30:38": {
+              "explanation": "Бедный и путник прямо получают должное наряду с родственником в общем предписании помощи.",
+              "key_phrase": {
+                "text": "а также бедняку и путнику",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Общая помощь не названа здесь исключительно обязательным закятом."
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-009",
+          "description": "расходование закята на пути Аллаха",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:60"
+          ],
+          "verse_notes": {
+            "9:60": {
+              "explanation": "Прямо названа доля для пути Аллаха; ас-Саади включает снабжение добровольных участников борьбы без постоянного содержания.",
+              "key_phrase": {
+                "text": "для расходов на пути Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-9-60"
+              ],
+              "qualification": "Тафсир также обсуждает учёбу и иные применения; одна категория не объявлена назначением всех остальных долей закята."
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-010",
+          "description": "сбор закята специальными работниками",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:60"
+          ],
+          "verse_notes": {
+            "9:60": {
+              "explanation": "Лица, собирающие и распределяющие закят, прямо названы одной из категорий его получателей.",
+              "key_phrase": {
+                "text": "для тех, кто занимается их сбором и распределением",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-011",
+          "description": "Скупость, неверие и нарушение обещания о пожертвовании",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:77",
+            "92:8",
+            "92:9",
+            "92:10",
+            "92:11"
+          ],
+          "verse_notes": {
+            "9:77": {
+              "explanation": "Наказание лицемерием связано с нарушением обещанного пожертвования и ложью после получения достатка.",
+              "key_phrase": {
+                "text": "нарушили данное Аллаху обещание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "9:75",
+                "9:76"
+              ]
+            },
+            "92:8": {
+              "explanation": "Скупость и самодостаточность образуют порицаемый портрет, продолженный отрицанием.",
+              "key_phrase": {
+                "text": "кто был скуп",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "92:9": {
+              "explanation": "Отрицание наилучшего дополняет порицаемую скупость, а не просто отсутствие отдельного платежа.",
+              "key_phrase": {
+                "text": "кто счел ложью наилучшее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "92:8"
+              ]
+            },
+            "92:10": {
+              "explanation": "Тягчайший путь уготован описанному скупому отрицателю.",
+              "key_phrase": {
+                "text": "путь к тягчайшему",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "92:8",
+                "92:9"
+              ]
+            },
+            "92:11": {
+              "explanation": "Богатство не спасёт этого человека при гибели или падении в Геенну.",
+              "key_phrase": {
+                "text": "Не спасет его достояние",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "92:8",
+                "92:9"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-012",
+          "description": "Повеления закята, установленной помощи и предупреждения о её удержании",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:110",
+            "2:177",
+            "3:180",
+            "5:12",
+            "5:55",
+            "6:141",
+            "9:5",
+            "9:11",
+            "9:18",
+            "9:34",
+            "9:71",
+            "22:78",
+            "33:33",
+            "41:7",
+            "58:13",
+            "70:24",
+            "70:25"
+          ],
+          "verse_notes": {
+            "2:110": {
+              "explanation": "Прямо предписана выплата закята рядом с молитвой.",
+              "key_phrase": {
+                "text": "выплачивайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:177": {
+              "explanation": "Закят прямо назван частью благочестия наряду с добровольной помощью и иными делами.",
+              "key_phrase": {
+                "text": "выплачивал закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:180": {
+              "explanation": "Предупреждение о судьбе удержанного богатства Пророк связал с невыплатой закята в аль-Бухари1403.",
+              "key_phrase": {
+                "text": "их шеи будут обернуты",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-1403"
+              ]
+            },
+            "5:12": {
+              "explanation": "В завете сынам Исраила выплата закята прямо названа среди условий обещанного прощения.",
+              "key_phrase": {
+                "text": "выплачивать закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:55": {
+              "explanation": "Закят прямо характеризует верующих покровителей, вместе с молитвой и поклонением.",
+              "key_phrase": {
+                "text": "выплачивают закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:141": {
+              "explanation": "Должное урожая велено отдавать в день сбора; ас-Саади прямо объясняет его установленным закятом плодов.",
+              "key_phrase": {
+                "text": "отдавайте должное в день уборки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-6-141"
+              ]
+            },
+            "9:5": {
+              "explanation": "Покаяние и молитва вместе с закятом названы условием освобождения описанных противников.",
+              "key_phrase": {
+                "text": "выплачивать закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "9:4",
+                "9:6"
+              ]
+            },
+            "9:11": {
+              "explanation": "Закят вместе с покаянием и молитвой связан с признанием братства по вере.",
+              "key_phrase": {
+                "text": "выплачивать закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:18": {
+              "explanation": "Закят прямо назван качеством достойно оживляющих мечети.",
+              "key_phrase": {
+                "text": "выплачивает закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:34": {
+              "explanation": "Предупреждение удерживающим золото и серебро ас-Саади объясняет отказом от обязательных расходов, включая закят.",
+              "key_phrase": {
+                "text": "не расходуют их на пути Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-9-34"
+              ],
+              "qualification": "Тафсир включает также обязательное содержание семьи и иные обязательные расходы; запрет не отнесён автоматически ко всякому хранению сбережений."
+            },
+            "9:71": {
+              "explanation": "Выплата закята входит в дела верующих мужчин и женщин, получающих милость.",
+              "key_phrase": {
+                "text": "выплачивают закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:78": {
+              "explanation": "Прямо велено отдавать закят и держаться Бога.",
+              "key_phrase": {
+                "text": "выплачивайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "33:33": {
+              "explanation": "Жёнам Пророка прямо велено раздавать закят вместе с молитвой и послушанием.",
+              "key_phrase": {
+                "text": "раздавайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:7": {
+              "explanation": "Местный перевод осуждает невыплату закята. Ибн Касир приводит и имущественное толкование, и очищение от многобожия, различая историю терминологии.",
+              "key_phrase": {
+                "text": "не выплачивают закята",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-41-7"
+              ],
+              "qualification": "Ибн Аббас и Икрима в приведённых объяснениях связывают это с единобожием; Катада - с удержанием имущественного закята. Ни одно не объявлено единогласным единственным смыслом."
+            },
+            "58:13": {
+              "explanation": "После облегчения милостыни перед беседой прямо сохранено повеление закята, молитвы и послушания.",
+              "key_phrase": {
+                "text": "выплачивайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "70:24": {
+              "explanation": "Прямо выделена известная имущественная доля, получатели которой названы далее.",
+              "key_phrase": {
+                "text": "известную долю своего имущества",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-70-24"
+              ],
+              "context_verse_keys": [
+                "70:25"
+              ],
+              "qualification": "Аят прямо не перечисляет ставки и условия одного вида обязательного закята; Ибн Касир говорит о назначенной доле нуждающимся."
+            },
+            "70:25": {
+              "explanation": "Просящие и обездоленные прямо названы получателями доли из предыдущего аята.",
+              "key_phrase": {
+                "text": "для просящих и обездоленных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "70:24"
+              ],
+              "qualification": "Связь с имущественной помощью не ограничена утверждением, что речь исключительно об одном установленном сборе."
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-013",
+          "description": "установление закята Аллахом",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:60"
+          ],
+          "verse_notes": {
+            "9:60": {
+              "explanation": "Категории распределения закята прямо определены как Божье предписание.",
+              "key_phrase": {
+                "text": "Таково предписание Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-9-60"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-017",
+          "description": "Общие расходы, помощь нуждающимся и предостережение от скупости",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "2:3",
+            "2:5",
+            "4:37",
+            "8:3",
+            "8:4",
+            "13:22",
+            "13:23",
+            "13:24",
+            "30:38",
+            "33:35",
+            "34:39",
+            "35:29",
+            "42:38",
+            "51:19",
+            "57:7",
+            "57:18",
+            "70:35",
+            "92:5",
+            "92:6",
+            "92:7",
+            "92:17",
+            "92:18"
+          ],
+          "verse_notes": {
+            "2:3": {
+              "explanation": "Верующие расходуют из полученного удела; сам аят не ограничивает расходы только обязательным закятом.",
+              "key_phrase": {
+                "text": "расходуют из того",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:5": {
+              "explanation": "Преуспеяние связано с верой и расходами предыдущего описания, не исключительно с названным словом закят.",
+              "key_phrase": {
+                "text": "являются преуспевшими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:3",
+                "2:4"
+              ]
+            },
+            "4:37": {
+              "explanation": "Скупость и побуждение к ней других осуждены без ограничения только налогом закята.",
+              "key_phrase": {
+                "text": "велят людям быть скупыми",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:3": {
+              "explanation": "Прямо названы молитва и общие расходы из удела, без ограничения только закятом.",
+              "key_phrase": {
+                "text": "расходуют из того",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:4": {
+              "explanation": "Степень, прощение и удел обещаны верующим из предыдущего описания, включая общие расходы.",
+              "key_phrase": {
+                "text": "прощение и щедрый удел",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "8:3"
+              ]
+            },
+            "13:22": {
+              "explanation": "Терпение, молитва, общие тайные и открытые расходы и ответ добром образуют портрет праведных.",
+              "key_phrase": {
+                "text": "расходуют тайно и открыто",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:23": {
+              "explanation": "Райские сады обещаны людям предыдущего аята с несколькими благими качествами, включая расходы.",
+              "key_phrase": {
+                "text": "сады Эдема",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "13:22"
+              ]
+            },
+            "13:24": {
+              "explanation": "Мирное приветствие прямо связано с терпением той же группы, не исключительно с обязательным взносом.",
+              "key_phrase": {
+                "text": "за то, что вы проявили терпение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "13:22",
+                "13:23"
+              ]
+            },
+            "30:38": {
+              "explanation": "Помощь родственнику, бедному и путнику ради Бога не ограничена одним видом закята.",
+              "key_phrase": {
+                "text": "бедняку и путнику",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "33:35": {
+              "explanation": "Милостыня мужчин и женщин названа среди качеств получающих прощение и награду.",
+              "key_phrase": {
+                "text": "подающих милостыню",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "34:39": {
+              "explanation": "Возмещение обещано за расходы в общем выражении, без отдельной ставки закята.",
+              "key_phrase": {
+                "text": "Он возместит все",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:29": {
+              "explanation": "Чтение, молитва и общие тайные и открытые расходы связаны с надеждой на прибыльный исход.",
+              "key_phrase": {
+                "text": "тайно и открыто",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "42:38": {
+              "explanation": "Ответ Богу, молитва и совещание соединены с общими расходами из удела.",
+              "key_phrase": {
+                "text": "расходуют из того",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:19": {
+              "explanation": "Доля имущества выделяется нуждающимся; ас-Саади включает и обязательное, и добровольное право.",
+              "key_phrase": {
+                "text": "для просящих и обездоленных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-51-19"
+              ],
+              "qualification": "Не всякая известная доля объявлена здесь только установленным закятом."
+            },
+            "57:7": {
+              "explanation": "Вера и расходы из доверенного имущества связаны с великой наградой.",
+              "key_phrase": {
+                "text": "которые уверовали и расходовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "57:18": {
+              "explanation": "Милостыня обоих полов названа прекрасным займом с умноженной наградой, без ограничения одним обязательным сбором.",
+              "key_phrase": {
+                "text": "раздавали милостыню",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "70:35": {
+              "explanation": "Райское почтение обещано людям с несколькими качествами, включая выделение имущественной доли нуждающимся.",
+              "key_phrase": {
+                "text": "почтение в Райских садах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "70:24",
+                "70:25"
+              ]
+            },
+            "92:5": {
+              "explanation": "Дающий и богобоязненный назван без уточнения только установленного закята.",
+              "key_phrase": {
+                "text": "кто отдавал должное",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "92:6": {
+              "explanation": "Признание наилучшего дополняет портрет дающего, но само по себе не является выплатой.",
+              "key_phrase": {
+                "text": "кто признавал наилучшее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "92:5"
+              ]
+            },
+            "92:7": {
+              "explanation": "Облегчение пути добра обещано дающему и верующему в наилучшее, не одному внешнему взносу.",
+              "key_phrase": {
+                "text": "путь к легчайшему",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "92:5",
+                "92:6"
+              ]
+            },
+            "92:17": {
+              "explanation": "Удаление от Огня связано с описанным далее богобоязненным дающим.",
+              "key_phrase": {
+                "text": "самый богобоязненный",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "92:18"
+              ]
+            },
+            "92:18": {
+              "explanation": "Расход имущества очищает дающего, но слово не задаёт в этом аяте отдельной ставки закята.",
+              "key_phrase": {
+                "text": "раздает свое имущество, очищаясь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0153-item-018",
+          "description": "Предупреждение удерживающему обязательный закят",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "3:180"
+          ],
+          "verse_notes": {
+            "3:180": {
+              "explanation": "Удержанное имущество станет тяжестью на Суде; в аль-Бухари1403 Пророк прямо связывает этот аят с невыплатой закята.",
+              "key_phrase": {
+                "text": "что они жалели",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-1403"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

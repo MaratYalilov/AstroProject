@@ -7266,3 +7266,11 @@
   font-style: normal;
   font-synthesis: none;
 }
+
+.qcf-text.qcf-sajdah-symbol {
+  display: inline-block;
+  min-width: 0.6em;
+  font-size: 2em;
+  line-height: 1;
+  vertical-align: middle;
+}

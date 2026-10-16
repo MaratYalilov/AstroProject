@@ -1,0 +1,4766 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_source_id": "site-quran",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева.",
+    "tafsir_interpretation": "Толкование выражения по указанному тафсиру; альтернативные толкования отмечены.",
+    "context": "Связь установлена по конкретному указанному контексту; соседство само по себе не подтверждает связь.",
+    "tafsir_person_association": "Именная связь приведена в указанном тафсире; сама запись не является самостоятельным подтверждением достоверности иснада."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно."
+    },
+    "ksu-katheer-8-72": {
+      "title": "Ибн Касир, толкование 8:72",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya72.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 72,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-8-9": {
+      "title": "Ибн Касир, толкование 8:9",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya9.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 9,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-4": {
+      "title": "Ибн Касир, толкование 9:4",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya4.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 4,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-6": {
+      "title": "Ибн Касир, толкование 9:6",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya6.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 6,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-204": {
+      "title": "Ибн Касир, толкование 2:204",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya204.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 204,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-68-13": {
+      "title": "Ибн Касир, толкование 68:13",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura68-aya13.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 68,
+        "aya": 13,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-104-1": {
+      "title": "Ибн Касир, толкование 104:1",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura104-aya1.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 104,
+        "aya": 1,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-180": {
+      "title": "Ибн Касир, толкование 2:180",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya180.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 180,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-240": {
+      "title": "Ибн Касир, толкование 2:240",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya240.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 240,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-4530": {
+      "title": "Сахих аль-Бухари, 4530",
+      "url": "https://sunnah.com/bukhari:4530",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4530",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "bukhari-4576": {
+      "title": "Сахих аль-Бухари, 4576",
+      "url": "https://sunnah.com/bukhari:4576",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4576",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-4-8": {
+      "title": "Ибн Касир, толкование 4:8",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura4-aya8.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 4,
+        "aya": 8,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-4-15": {
+      "title": "Ибн Касир, толкование 4:15",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura4-aya15.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 4,
+        "aya": 15,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "muslim-1690a": {
+      "title": "Сахих Муслим, 1690a",
+      "url": "https://sunnah.com/muslim:1690a",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "1690a",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-4-16": {
+      "title": "Ибн Касир, толкование 4:16",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura4-aya16.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 4,
+        "aya": 16,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-4-33": {
+      "title": "Ибн Касир, толкование 4:33",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura4-aya33.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 4,
+        "aya": 33,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-5-13": {
+      "title": "Ибн Касир, толкование 5:13",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura5-aya13.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 5,
+        "aya": 13,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-4653": {
+      "title": "Сахих аль-Бухари, 4653",
+      "url": "https://sunnah.com/bukhari:4653",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4653",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-8-66": {
+      "title": "Ибн Касир, толкование 8:66",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya66.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 66,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-8-75": {
+      "title": "Ибн Касир, толкование 8:75",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya75.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 75,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-33-52": {
+      "title": "Ибн Касир, толкование 33:52",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura33-aya52.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 33,
+        "aya": 52,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-58-13": {
+      "title": "Ибн Касир, толкование 58:13",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura58-aya13.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 58,
+        "aya": 13,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-187": {
+      "title": "Ибн Касир, толкование 2:187",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya187.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 187,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-286": {
+      "title": "Ибн Касир, толкование 2:286",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya286.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 286,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-5-90": {
+      "title": "Ибн Касир, толкование 5:90",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura5-aya90.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 5,
+        "aya": 90,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-4-43": {
+      "title": "Ибн Касир, толкование 4:43",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura4-aya43.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 4,
+        "aya": 43,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-5": {
+      "title": "Ибн Касир, толкование 9:5",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya5.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 5,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-22-39": {
+      "title": "Ибн Касир, толкование 22:39",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura22-aya39.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 22,
+        "aya": 39,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-106": {
+      "title": "Ибн Касир, толкование 2:106",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya106.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 106,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-16-101": {
+      "title": "Ибн Касир, толкование 16:101",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura16-aya101.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 16,
+        "aya": 101,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-68-15": {
+      "title": "Ибн Касир, толкование 68:15",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura68-aya15.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 68,
+        "aya": 15,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-15-90": {
+      "title": "Ибн Касир, толкование 15:90",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura15-aya90.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 15,
+        "aya": 90,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-21-44": {
+      "title": "Ибн Касир, толкование 21:44",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura21-aya44.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 21,
+        "aya": 44,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-8-1": {
+      "title": "Ибн Касир, толкование 8:1",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya1.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 1,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-3953": {
+      "title": "Сахих аль-Бухари, 3953",
+      "url": "https://sunnah.com/bukhari:3953",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "3953",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-8-41": {
+      "title": "Ибн Касир, толкование 8:41",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya41.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 41,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-3-13": {
+      "title": "Ибн Касир, толкование 3:13",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura3-aya13.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 3,
+        "aya": 13,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-3-165": {
+      "title": "Ибн Касир, толкование 3:165",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura3-aya165.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 3,
+        "aya": 165,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-8-17": {
+      "title": "Ибн Касир, толкование 8:17",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya17.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 17,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-4875": {
+      "title": "Сахих аль-Бухари, 4875",
+      "url": "https://sunnah.com/bukhari:4875",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4875",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-52-4": {
+      "title": "Ибн Касир, толкование 52:4",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura52-aya4.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 52,
+        "aya": 4,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-3207": {
+      "title": "Сахих аль-Бухари, 3207",
+      "url": "https://sunnah.com/bukhari:3207",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "3207",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-6-137": {
+      "title": "Ибн Касир, толкование 6:137",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura6-aya137.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 6,
+        "aya": 137,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-7-94": {
+      "title": "Ибн Касир, толкование 7:94",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura7-aya94.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 7,
+        "aya": 94,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-48-15": {
+      "title": "Ибн Касир, толкование 48:15",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura48-aya15.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 48,
+        "aya": 15,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-48-11": {
+      "title": "Ибн Касир, толкование 48:11",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura48-aya11.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 48,
+        "aya": 11,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-12-63": {
+      "title": "Ибн Касир, толкование 12:63",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura12-aya63.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 12,
+        "aya": 63,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0041",
+      "title": "Ахнас ибн Шарик ас-Сакафи",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0041-item-001",
+          "description": "Ахнас ибн Шарик в версиях толкований аятов",
+          "relation_type": "tafsir_person_association",
+          "verse_keys": [
+            "2:204",
+            "68:10",
+            "68:11",
+            "68:12",
+            "68:13",
+            "68:14",
+            "68:15",
+            "68:16",
+            "104:1",
+            "104:2",
+            "104:3",
+            "104:4",
+            "104:5",
+            "104:6",
+            "104:7",
+            "104:8",
+            "104:9"
+          ],
+          "verse_notes": {
+            "2:204": {
+              "explanation": "Ас-Судди, которого цитирует Ибн Касир, связывает описание красноречивого непримиримого спорщика с Ахнасом; толкователь приводит и другие объяснения.",
+              "key_phrase": {
+                "text": "чьи речи восхищают тебя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-204"
+              ],
+              "qualification": "Сохранена версия толкования; независимая оценка иснада личного отнесения здесь не установлена. Общий смысл осуждения не ограничивается одним человеком."
+            },
+            "68:10": {
+              "explanation": "Запрет повиноваться расточителю клятв начинает характеристику человека, которого одна версия толкования 68:13 отождествляет с Ахнасом.",
+              "key_phrase": {
+                "text": "Не повинуйся всякому расточителю клятв, презренному,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-13"
+              ],
+              "context_verse_keys": [
+                "68:13"
+              ]
+            },
+            "68:11": {
+              "explanation": "Хулительство и распространение сплетен продолжают ту же характеристику; личная связь зависит от версии толкования 68:13.",
+              "key_phrase": {
+                "text": "хулителю, разносящему сплетни,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-13"
+              ],
+              "context_verse_keys": [
+                "68:13"
+              ]
+            },
+            "68:12": {
+              "explanation": "Скупость, преступность и греховность продолжают описание из 68:10-13, условно связанное в тафсире с Ахнасом.",
+              "key_phrase": {
+                "text": "скупящемуся на добро, преступнику, грешнику,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-13"
+              ],
+              "context_verse_keys": [
+                "68:13"
+              ]
+            },
+            "68:13": {
+              "explanation": "Ибн Касир приводит Ахнаса среди отождествлений описанного человека; имя отсутствует в самом аяте.",
+              "key_phrase": {
+                "text": "жестокому, к тому же самозванцу,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-13"
+              ],
+              "qualification": "Сохранена версия толкования; независимая оценка иснада личного отнесения здесь не установлена. Общий смысл осуждения не ограничивается одним человеком."
+            },
+            "68:14": {
+              "explanation": "Богатство и сыновья не оправдывают повиновение человеку из 68:10-13; личная привязка остаётся той же версией тафсира.",
+              "key_phrase": {
+                "text": "даже если он будет богат и будет иметь сыновей.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-13"
+              ],
+              "context_verse_keys": [
+                "68:13"
+              ]
+            },
+            "68:15": {
+              "explanation": "Пренебрежительное называние аятов легендами характеризует того же противника; связь с Ахнасом условна и основана на толковании 68:13.",
+              "key_phrase": {
+                "text": "Когда ему читают Наши аяты, он говорит: «Это - легенды древних народов!».",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-13"
+              ],
+              "context_verse_keys": [
+                "68:13"
+              ]
+            },
+            "68:16": {
+              "explanation": "Угроза заклеймить нос завершает описание из 68:10-15; она не содержит самостоятельного упоминания имени Ахнаса.",
+              "key_phrase": {
+                "text": "Мы заклеймим его хобот (нос).",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-13"
+              ],
+              "context_verse_keys": [
+                "68:13"
+              ]
+            },
+            "104:1": {
+              "explanation": "Ибн Касир приводит мнение, относящее начало суры к Ахнасу, одновременно отмечая иное отнесение и общий смысл осуждения хулителей.",
+              "key_phrase": {
+                "text": "Горе всякому хулителю и обидчику,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "qualification": "Сохранена версия толкования; независимая оценка иснада личного отнесения здесь не установлена. Общий смысл осуждения не ограничивается одним человеком."
+            },
+            "104:2": {
+              "explanation": "Накопление и пересчёт богатства продолжают описание хулителя из 104:1; личное отнесение следует только из указанной версии тафсира.",
+              "key_phrase": {
+                "text": "который копит состояние и пересчитывает его,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "context_verse_keys": [
+                "104:1"
+              ]
+            },
+            "104:3": {
+              "explanation": "Ошибочное упование на бессмертие благодаря богатству относится к тому же описанному человеку; имя не названо.",
+              "key_phrase": {
+                "text": "думая, что богатство увековечит его.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "context_verse_keys": [
+                "104:1"
+              ]
+            },
+            "104:4": {
+              "explanation": "Угроза Огнём продолжает осуждение из 104:1-3; связь с Ахнасом сохранена как контекст версии, не как отдельная причина ниспослания.",
+              "key_phrase": {
+                "text": "Но нет!",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "context_verse_keys": [
+                "104:1"
+              ]
+            },
+            "104:5": {
+              "explanation": "Риторический вопрос раскрывает наказание из 104:4; именная связь остаётся зависимой от версии о начале суры.",
+              "key_phrase": {
+                "text": "Откуда ты мог знать, что такое Огонь сокрушающий?",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "context_verse_keys": [
+                "104:1"
+              ]
+            },
+            "104:6": {
+              "explanation": "Огонь назван разожжённым Огнём Аллаха; это продолжение угрозы хулителю, а не прямое упоминание Ахнаса.",
+              "key_phrase": {
+                "text": "Это - разожженный Огонь Аллаха,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "context_verse_keys": [
+                "104:1"
+              ]
+            },
+            "104:7": {
+              "explanation": "Описана сила Огня, достигающего сердец; связь с именем следует только из принятого для этой записи контекста 104:1.",
+              "key_phrase": {
+                "text": "который вздымается над сердцами.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "context_verse_keys": [
+                "104:1"
+              ]
+            },
+            "104:8": {
+              "explanation": "Замкнутость Огня над наказуемыми завершает угрозу суры; имя Ахнаса в аяте отсутствует.",
+              "key_phrase": {
+                "text": "Воистину, он сомкнется над ними",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "context_verse_keys": [
+                "104:1"
+              ]
+            },
+            "104:9": {
+              "explanation": "Образ высоких столбов завершает описание наказания; личная привязка условна, как и у всего отрывка 104:1-9.",
+              "key_phrase": {
+                "text": "высокими столбами (мученики будут прикованы к этим столбам или врата Ада будут заперты и закреплены этими столбами).",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-104-1"
+              ],
+              "context_verse_keys": [
+                "104:1"
+              ]
+            }
+          }
+        }
+      ],
+      "scope_note": "Именные отнесения ниже сохранены как версии, приведённые Ибн Касиром, а не как прямые имена в Коране или независимо установленные достоверные причины ниспослания. Толкователь также приводит другие отнесения и общий смысл аятов."
+    },
+    {
+      "id": "topic-0042",
+      "title": "аяты",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0042-item-001",
+          "description": "Аяты с предписаниями, изменение которых разъясняется в источниках",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:180",
+            "2:240",
+            "4:15",
+            "4:16",
+            "4:33",
+            "8:65",
+            "8:72",
+            "58:12"
+          ],
+          "verse_notes": {
+            "2:180": {
+              "explanation": "Ибн Касир объясняет изменение обязанности завещания наследующим родителям и родственникам после установления наследственных долей.",
+              "key_phrase": {
+                "text": "предписано оставить завещание родителям и ближайшим родственникам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-180"
+              ],
+              "context_verse_keys": [
+                "4:11",
+                "4:12"
+              ],
+              "qualification": "Не объявляется отменённым всякое завещание любым родственникам: толкователь различает наследников и ненаследующих родственников, отмену и ограничение общего правила."
+            },
+            "2:240": {
+              "explanation": "Ибн Касир приводит мнение большинства об изменении годичного обеспечения и пребывания вдовы после 2:234 и установления наследственных долей.",
+              "key_phrase": {
+                "text": "чтобы их обеспечивали в течение одного года и не прогоняли",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-240",
+                "bukhari-4530"
+              ],
+              "context_verse_keys": [
+                "2:234",
+                "4:12"
+              ],
+              "qualification": "Толкователь также приводит иные объяснения годичного проживания. В сообщении Ибн аз-Зубайра и Усмана у аль-Бухари отмена нормы не служит основанием удалять текст из мусхафа."
+            },
+            "4:15": {
+              "explanation": "Временное удержание в домах до установления иного пути заменено последующим предписанием; Ибн Касир связывает это с сурой «Свет» и хадисом Убады.",
+              "key_phrase": {
+                "text": "или пока Аллах не установит для них иной путь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-4-15",
+                "muslim-1690a"
+              ],
+              "context_verse_keys": [
+                "24:2"
+              ]
+            },
+            "4:16": {
+              "explanation": "Ибн Касир объясняет первоначальное наказание порицанием и подобными мерами как заменённое позднейшими установленными наказаниями.",
+              "key_phrase": {
+                "text": "подвергните обоих наказанию",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-4-16"
+              ],
+              "context_verse_keys": [
+                "4:15",
+                "24:2"
+              ],
+              "qualification": "Разные толкования адресатов аята не смешиваются с утверждением, будто его текст перестал быть Кораном."
+            },
+            "4:33": {
+              "explanation": "Тафсир различает прекращённое наследование по договорному братству и сохраняющиеся помощь, поддержка и доброе отношение к связанным договором.",
+              "key_phrase": {
+                "text": "Отдавайте тем, с кем вы связаны клятвами, их долю",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-4-33"
+              ],
+              "context_verse_keys": [
+                "8:75"
+              ],
+              "qualification": "Не отменяется весь аят или всякое обязательство перед союзником; обсуждаемое изменение касается наследования по прежнему договору."
+            },
+            "8:65": {
+              "explanation": "Передача Ибн Аббаса у аль-Бухари подтверждает облегчение требования не отступать перед десятикратным превосходством противника посредством 8:66.",
+              "key_phrase": {
+                "text": "Если будет среди вас двадцать терпеливых, то они одолеют две сотни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4653",
+                "ksu-katheer-8-66"
+              ],
+              "context_verse_keys": [
+                "8:66"
+              ]
+            },
+            "8:72": {
+              "explanation": "Ибн Касир связывает союз переселенцев и ансаров с первоначальным наследованием по братству, впоследствии заменённым приоритетом родства.",
+              "key_phrase": {
+                "text": "являются помощниками и друзьями друг другу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-72",
+                "ksu-katheer-8-75"
+              ],
+              "context_verse_keys": [
+                "8:75"
+              ],
+              "qualification": "Изменение наследования не означает отмены помощи, братства или всего содержания 8:72."
+            },
+            "58:12": {
+              "explanation": "Требование предварять тайную беседу с Посланником милостыней было снято в следующем аяте, как разъясняет Ибн Касир.",
+              "key_phrase": {
+                "text": "предварите вашу тайную беседу милостыней",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-58-13"
+              ],
+              "context_verse_keys": [
+                "58:13"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0042-item-005",
+          "description": "Противник, называющий аяты легендами древних народов, и его характеристика",
+          "relation_type": "topic",
+          "verse_keys": [
+            "68:8",
+            "68:9",
+            "68:10",
+            "68:11",
+            "68:12",
+            "68:13",
+            "68:14",
+            "68:15",
+            "68:16"
+          ],
+          "verse_notes": {
+            "68:8": {
+              "explanation": "Запрет повиноваться отвергающим истину открывает контекст; конкретное называние аятов легендами приведено ниже в 68:15.",
+              "key_phrase": {
+                "text": "Посему не повинуйся тем, кто считает истину ложью!",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-15"
+              ],
+              "context_verse_keys": [
+                "68:15"
+              ]
+            },
+            "68:9": {
+              "explanation": "Желание взаимных уступок характеризует противников из этого отрывка, продолженного обвинением в 68:15.",
+              "key_phrase": {
+                "text": "Они хотели бы, чтобы ты был уступчив, и тогда они тоже стали бы уступчивы.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-15"
+              ],
+              "context_verse_keys": [
+                "68:15"
+              ]
+            },
+            "68:10": {
+              "explanation": "Расточительство клятв начинает перечень качеств человека, называющего аяты легендами в 68:15.",
+              "key_phrase": {
+                "text": "Не повинуйся всякому расточителю клятв, презренному,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-15"
+              ],
+              "context_verse_keys": [
+                "68:15"
+              ]
+            },
+            "68:11": {
+              "explanation": "Хулительство и распространение сплетен продолжают характеристику того же противника.",
+              "key_phrase": {
+                "text": "хулителю, разносящему сплетни,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-15"
+              ],
+              "context_verse_keys": [
+                "68:15"
+              ]
+            },
+            "68:12": {
+              "explanation": "Скупость и греховность входят в описание противника, речь которого приведена в 68:15.",
+              "key_phrase": {
+                "text": "скупящемуся на добро, преступнику, грешнику,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-15"
+              ],
+              "context_verse_keys": [
+                "68:15"
+              ]
+            },
+            "68:13": {
+              "explanation": "Жестокость и порицаемое происхождение в переводе завершают характеристику перед его словами об аятах.",
+              "key_phrase": {
+                "text": "жестокому, к тому же самозванцу,",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-15"
+              ],
+              "context_verse_keys": [
+                "68:15"
+              ]
+            },
+            "68:14": {
+              "explanation": "Богатство и сыновья не дают основания повиноваться человеку, описанному в 68:10-15.",
+              "key_phrase": {
+                "text": "даже если он будет богат и будет иметь сыновей.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-15"
+              ],
+              "context_verse_keys": [
+                "68:15"
+              ]
+            },
+            "68:15": {
+              "explanation": "Непосредственно приведено называние читаемых аятов легендами древних народов.",
+              "key_phrase": {
+                "text": "Когда ему читают Наши аяты, он говорит: «Это - легенды древних народов!».",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "68:16": {
+              "explanation": "Угроза наказания завершает предостережение описанному противнику, отрицавшему аяты.",
+              "key_phrase": {
+                "text": "Мы заклеймим его хобот (нос).",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-68-15"
+              ],
+              "context_verse_keys": [
+                "68:15"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0042-item-006",
+          "description": "Аяты об облегчении и изменении прежних предписаний",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:187",
+            "2:234",
+            "2:286",
+            "5:90",
+            "8:66",
+            "8:75",
+            "58:13"
+          ],
+          "verse_notes": {
+            "2:187": {
+              "explanation": "Дозволение близости в ночь поста и еды до рассвета облегчило прежние ограничения после сна; это объясняется в тафсире.",
+              "key_phrase": {
+                "text": "Вам дозволено вступать в близость с вашими женами в ночь поста",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-187"
+              ]
+            },
+            "2:234": {
+              "explanation": "Четыре месяца и десять дней ожидания вдовы сопоставляются в тафсире с прежним годичным обеспечением из 2:240.",
+              "key_phrase": {
+                "text": "они должны выжидать четыре месяца и десять дней",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-240",
+                "bukhari-4530"
+              ],
+              "context_verse_keys": [
+                "2:240"
+              ],
+              "qualification": "Тафсир обсуждает разные объяснения годичного проживания; здесь не объявляется отменённой любая жилищная обязанность. Для беременной женщины отдельно действует 65:4."
+            },
+            "2:286": {
+              "explanation": "Ибн Касир объясняет начало аята как облегчение опасения сподвижников перед расчётом за то, что человек не способен устранить из мыслей, после 2:284.",
+              "key_phrase": {
+                "text": "Аллах не возлагает на человека сверх его возможностей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-286"
+              ],
+              "context_verse_keys": [
+                "2:284"
+              ],
+              "qualification": "Связь описана в терминах приведённого толкования; она не означает исчезновение текста 2:284 из Корана."
+            },
+            "5:90": {
+              "explanation": "Окончательное требование сторониться опьяняющих напитков завершает постепенное установление запрета, обсуждаемое в тафсире.",
+              "key_phrase": {
+                "text": "Сторонитесь же ее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-90",
+                "ksu-katheer-4-43"
+              ],
+              "context_verse_keys": [
+                "2:219",
+                "4:43"
+              ]
+            },
+            "8:66": {
+              "explanation": "Сам аят прямо объявляет облегчение; Ибн Аббас у аль-Бухари поясняет уменьшение обязательного соотношения противников с десяти к одному до двух к одному.",
+              "key_phrase": {
+                "text": "Теперь Аллах облегчил ваше бремя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4653",
+                "ksu-katheer-8-66"
+              ],
+              "context_verse_keys": [
+                "8:65"
+              ]
+            },
+            "8:75": {
+              "explanation": "Тафсир объясняет приоритет родственников как замену наследования по договору и установленному братству.",
+              "key_phrase": {
+                "text": "Однако родственники ближе друг к другу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-75"
+              ],
+              "context_verse_keys": [
+                "4:33",
+                "8:72"
+              ]
+            },
+            "58:13": {
+              "explanation": "Снятие требования предварять беседу милостыней разъясняется Ибн Касиром непосредственно по отношению к 58:12.",
+              "key_phrase": {
+                "text": "Если вы не сделали этого и Аллах принял ваше покаяние",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-58-13"
+              ],
+              "context_verse_keys": [
+                "58:12"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0042-item-004",
+          "description": "Назидательные истории и напоминания о событиях прошлого",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:65",
+            "2:66",
+            "2:252",
+            "2:258",
+            "3:11",
+            "3:112",
+            "3:137",
+            "3:146",
+            "5:27",
+            "5:102",
+            "6:6",
+            "6:10",
+            "6:11",
+            "6:34",
+            "6:42",
+            "6:148",
+            "7:4",
+            "7:5",
+            "7:64",
+            "7:72",
+            "7:78",
+            "7:79",
+            "7:84",
+            "7:86",
+            "7:92",
+            "7:93",
+            "7:94",
+            "7:95",
+            "7:101",
+            "7:103",
+            "7:175",
+            "7:176",
+            "7:177",
+            "8:52",
+            "8:54",
+            "9:69",
+            "9:70",
+            "10:13",
+            "10:39",
+            "10:73",
+            "10:92",
+            "10:102",
+            "11:89",
+            "11:100",
+            "11:101",
+            "11:102",
+            "11:103",
+            "11:120",
+            "12:7",
+            "12:109",
+            "12:111",
+            "13:6",
+            "13:30",
+            "14:5",
+            "14:9",
+            "14:45",
+            "15:13",
+            "15:75",
+            "15:76",
+            "15:77",
+            "15:79",
+            "15:90",
+            "16:26",
+            "16:33",
+            "16:36",
+            "16:63",
+            "17:17",
+            "17:77",
+            "18:55",
+            "18:59",
+            "19:74",
+            "19:98",
+            "20:99",
+            "20:128",
+            "21:11",
+            "21:44",
+            "22:45",
+            "22:46",
+            "22:48",
+            "23:30",
+            "23:31",
+            "23:42",
+            "23:44",
+            "24:34",
+            "25:36",
+            "25:37",
+            "25:38",
+            "25:39",
+            "25:40",
+            "26:69",
+            "26:103",
+            "26:105",
+            "26:121",
+            "26:123",
+            "26:139",
+            "26:158",
+            "26:160",
+            "26:171",
+            "26:172",
+            "26:173",
+            "26:174",
+            "26:176",
+            "26:189",
+            "26:190",
+            "26:208",
+            "26:209"
+          ],
+          "verse_notes": {
+            "2:65": {
+              "explanation": "Прямо назван случай нарушения субботы, к которому относится назидательный вывод в уже включённом 2:66.",
+              "key_phrase": {
+                "text": "тех из вас, которые нарушили субботу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:66": {
+              "explanation": "Наказание нарушителей субботы названо примером для поколений и увещеванием; событие указано в 2:65.",
+              "key_phrase": {
+                "text": "увещеванием для богобоязненных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:65"
+              ]
+            },
+            "2:252": {
+              "explanation": "Заключение рассказа о Талуте и победе над Джалутом подтверждает истинность рассказанных знамений.",
+              "key_phrase": {
+                "text": "Таковы аяты Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:249",
+                "2:250",
+                "2:251"
+              ]
+            },
+            "2:258": {
+              "explanation": "Рассказ о споре Ибрахима с обладателем царства содержит довод о восходе солнца и посрамлении неверующего.",
+              "key_phrase": {
+                "text": "Заставь же его взойти на западе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:11": {
+              "explanation": "Судьба сородичей Фараона и более ранних народов приведена как предостережение за отрицание знамений.",
+              "key_phrase": {
+                "text": "сородичи Фараона и те, которые жили до них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:112": {
+              "explanation": "Напоминается о прежнем неверии в знамения и несправедливом убийстве пророков как причине наказания.",
+              "key_phrase": {
+                "text": "несправедливо убивали пророков",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:137": {
+              "explanation": "Прямо предложено изучать судьбы прежних отвергавших посланников народов.",
+              "key_phrase": {
+                "text": "посмотрите, каким был конец тех, кто считал лжецами посланников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:146": {
+              "explanation": "Стойкость последователей прежних пророков приведена как пример терпения.",
+              "key_phrase": {
+                "text": "Сколько было пророков",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:27": {
+              "explanation": "Прямо начинается истинный рассказ о жертвоприношении двух сыновей Адама.",
+              "key_phrase": {
+                "text": "истинный рассказ о двух сыновьях Адама",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:102": {
+              "explanation": "Пример прежних людей предостерегает от вопросов, после которых они стали неверующими.",
+              "key_phrase": {
+                "text": "Люди до вас спрашивали о них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:6": {
+              "explanation": "Погибель прежних могущественных поколений за грехи служит историческим предостережением.",
+              "key_phrase": {
+                "text": "сколько поколений Мы погубили до них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:10": {
+              "explanation": "Напоминается об осмеянии прежних посланников и наказании насмешников.",
+              "key_phrase": {
+                "text": "До тебя посланников также подвергали осмеянию",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:11": {
+              "explanation": "Путешествие и наблюдение конца отрицавших истину прямо предлагаются как назидание.",
+              "key_phrase": {
+                "text": "Постранствуйте по земле и посмотрите",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:34": {
+              "explanation": "Терпение прежних посланников и пришедшая к ним помощь приводятся для укрепления Пророка.",
+              "key_phrase": {
+                "text": "но они терпели то, что их так называли и обижали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:42": {
+              "explanation": "Испытания прежних общин нищетой и недугами объясняются целью привести их к смирению.",
+              "key_phrase": {
+                "text": "Мы уже отправляли посланников к народам до тебя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:148": {
+              "explanation": "Отговорка многобожников сопоставлена с поведением предшественников, вкусивших наказание.",
+              "key_phrase": {
+                "text": "те, кто были до них, пока они не вкусили Наше наказание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:4": {
+              "explanation": "Напоминается о погубленных селениях и внезапности наказания.",
+              "key_phrase": {
+                "text": "Сколько же селений Мы погубили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:5": {
+              "explanation": "Признание несправедливости при наказании продолжает рассказ о гибели селений из 7:4.",
+              "key_phrase": {
+                "text": "Воистину, мы были несправедливы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:4"
+              ]
+            },
+            "7:64": {
+              "explanation": "В рассказе о Нухе описаны спасение в ковчеге и потоп отрицавших знамения.",
+              "key_phrase": {
+                "text": "в ковчеге, и потопили тех",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:59"
+              ]
+            },
+            "7:72": {
+              "explanation": "В рассказе о Худе спасение верующих противопоставлено искоренению отвергавших знамения.",
+              "key_phrase": {
+                "text": "Мы спасли его и тех, кто был с ним",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:65"
+              ]
+            },
+            "7:78": {
+              "explanation": "Землетрясение завершает рассказ о самудянах, отвергших Салиха.",
+              "key_phrase": {
+                "text": "Их поразило землетрясение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:73",
+                "7:77"
+              ]
+            },
+            "7:79": {
+              "explanation": "Салих напоминает наказанному народу о переданном послании и отвергнутом добром совете.",
+              "key_phrase": {
+                "text": "Я донес до вас послание моего Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:73",
+                "7:78"
+              ]
+            },
+            "7:84": {
+              "explanation": "Пагубный дождь завершает рассказ о народе Лута и прямо предложен для назидания.",
+              "key_phrase": {
+                "text": "Посмотри же, каким был конец грешников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:80"
+              ]
+            },
+            "7:86": {
+              "explanation": "В наставлении Шуейба предложено помнить умножение народа и смотреть на конец злодеев.",
+              "key_phrase": {
+                "text": "Помните, что вас было мало, а Он приумножил ваше число",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:85"
+              ]
+            },
+            "7:92": {
+              "explanation": "Прямо названа гибель отвергавших Шуейба и бесплодность их прежнего положения.",
+              "key_phrase": {
+                "text": "Те, которые сочли Шуейба лжецом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:93": {
+              "explanation": "После наказания Шуейб напоминает о переданных посланиях и объясняет своё отношение к погибшим.",
+              "key_phrase": {
+                "text": "Я донес до вас послания моего Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:85",
+                "7:92"
+              ]
+            },
+            "7:94": {
+              "explanation": "Обобщена история испытаний жителей селений, к которым приходили пророки.",
+              "key_phrase": {
+                "text": "В какое бы селение Мы не отправляли пророка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:95": {
+              "explanation": "Невзгоды, благоденствие и внезапное наказание продолжены как повторяющийся опыт прежних общин.",
+              "key_phrase": {
+                "text": "Мы хватали их внезапно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:94"
+              ]
+            },
+            "7:101": {
+              "explanation": "Повествования о селениях прямо названы рассказами о приходе посланников и отказе верить.",
+              "key_phrase": {
+                "text": "Мы рассказываем тебе повествования об этих селениях",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:103": {
+              "explanation": "Начинается рассказ о посланничестве Мусы к Фараону и исходе противодействия.",
+              "key_phrase": {
+                "text": "Мы отправили Мусу (Моисея) с Нашими знамениями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:175": {
+              "explanation": "Прямо предложено прочесть историю человека, отбросившего дарованные знамения.",
+              "key_phrase": {
+                "text": "Прочти им историю о том, кому Мы даровали Наши знамения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:176": {
+              "explanation": "Притча о человеке из 7:175 завершается призывом рассказывать истории ради размышления.",
+              "key_phrase": {
+                "text": "Рассказывай эти истории",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:175"
+              ]
+            },
+            "7:177": {
+              "explanation": "Порицающее заключение относится к предшествующей назидательной притче.",
+              "key_phrase": {
+                "text": "Скверна притча",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:175",
+                "7:176"
+              ]
+            },
+            "8:52": {
+              "explanation": "Поведение противников сопоставлено с родом Фараона и наказанными предшественниками.",
+              "key_phrase": {
+                "text": "род Фараона и те, которые жили до них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:54": {
+              "explanation": "Гибель и потопление рода Фараона приведены как исторический пример наказания.",
+              "key_phrase": {
+                "text": "потопили род Фараона",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:69": {
+              "explanation": "Современным адресатам напомнены более сильные предшественники, тщетность их деяний и повторение их ошибок.",
+              "key_phrase": {
+                "text": "подобно вашим предшественникам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:70": {
+              "explanation": "Перечислены рассказы о Нухе, адитах, самудянах и других прежних народах.",
+              "key_phrase": {
+                "text": "Разве до них не дошли рассказы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:13": {
+              "explanation": "Указана погибель прежних поколений за несправедливость и отрицание посланников.",
+              "key_phrase": {
+                "text": "Мы погубили поколения, жившие до вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:39": {
+              "explanation": "Отрицание откровения сопоставляется с отрицанием предшественников и их участью.",
+              "key_phrase": {
+                "text": "Таким же образом его отвергали их предшественники",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:73": {
+              "explanation": "Рассказ о Нухе завершается спасением в ковчеге и потоплением отвергавших знамения.",
+              "key_phrase": {
+                "text": "Мы спасли его и тех, кто был с ним, в ковчеге",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "10:71"
+              ]
+            },
+            "10:92": {
+              "explanation": "Сохранение тела Фараона объявлено знамением для следующих поколений.",
+              "key_phrase": {
+                "text": "чтобы ты стал знамением для тех, кто будет после тебя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "10:90"
+              ]
+            },
+            "10:102": {
+              "explanation": "Прежние дни наказания приводятся как предостережение нынешним противникам.",
+              "key_phrase": {
+                "text": "подобных тем, которые наступили для их предшественников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "11:89": {
+              "explanation": "Шуейб напоминает об участи народов Нуха, Худа, Салиха и Лута.",
+              "key_phrase": {
+                "text": "то, что постигло народ Нуха (Ноя), или народ Худа, или народ Салиха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "11:100": {
+              "explanation": "Прямо обозначены повествования о прежних селениях и разная сохранность их следов.",
+              "key_phrase": {
+                "text": "некоторые из повествований о селениях",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "11:101": {
+              "explanation": "Объяснена гибель ранее названных селений: несправедливость жителей и бесполезность ложных божеств.",
+              "key_phrase": {
+                "text": "они сами поступили несправедливо по отношению к себе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "11:100"
+              ]
+            },
+            "11:102": {
+              "explanation": "Хватка несправедливых селений обобщает урок предыдущих рассказов.",
+              "key_phrase": {
+                "text": "когда Он схватил селения, жители которых были несправедливы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "11:103": {
+              "explanation": "События наказания предыдущих селений названы знамением для боящихся Последнего дня.",
+              "key_phrase": {
+                "text": "в этом - знамение для тех",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "11:100",
+                "11:101",
+                "11:102"
+              ]
+            },
+            "11:120": {
+              "explanation": "Прямо объяснена назидательная цель рассказов о посланниках: укрепление сердца и напоминание.",
+              "key_phrase": {
+                "text": "повествования о посланниках для того, чтобы укрепить ими твое сердце",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "12:7": {
+              "explanation": "Йусуф и его братья названы знамениями для спрашивающих.",
+              "key_phrase": {
+                "text": "Йусуф (Иосиф) и его братья стали знамениями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "12:109": {
+              "explanation": "Прежние посланники и конец предшествующих народов предложены для осмысления.",
+              "key_phrase": {
+                "text": "каким был конец тех, которые жили до них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "12:111": {
+              "explanation": "Прямо утверждается назидательный и истинный характер рассказов о прежних посланниках.",
+              "key_phrase": {
+                "text": "В повествовании о них содержится назидание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:6": {
+              "explanation": "Прежние примеры наказания приводятся в ответ торопящим зло.",
+              "key_phrase": {
+                "text": "до них уже были примеры поучительного наказания",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:30": {
+              "explanation": "Миссия Пророка помещена в последовательность прежних народов и откровений.",
+              "key_phrase": {
+                "text": "до которого жили другие народы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "14:5": {
+              "explanation": "Мусе велено напомнить народу дни Аллаха; это прямо названо знамениями для терпеливых и благодарных.",
+              "key_phrase": {
+                "text": "напомни им дни Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "14:9": {
+              "explanation": "Перечислены вести о народе Нуха, адитах, самудянах и последующих отвергавших посланников.",
+              "key_phrase": {
+                "text": "Разве до вас не дошли вести",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "14:45": {
+              "explanation": "Следы прежних несправедливых жителей и произошедшее с ними названы уже известным назиданием.",
+              "key_phrase": {
+                "text": "Вам было ясно, как Мы поступили с ними",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:13": {
+              "explanation": "Неверие нынешних противников сопоставлено с уже имевшимися примерами первых поколений.",
+              "key_phrase": {
+                "text": "уже были примеры первых поколений",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:75": {
+              "explanation": "Гибель селения народа Лута в предыдущих аятах прямо названа знамениями для наблюдательных.",
+              "key_phrase": {
+                "text": "знамения для зрячих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:61",
+                "15:73",
+                "15:74"
+              ]
+            },
+            "15:76": {
+              "explanation": "Местоположение погибшего поселения продолжает рассказ о наказании народа Лута.",
+              "key_phrase": {
+                "text": "они жили прямо на дороге",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:61",
+                "15:73",
+                "15:74"
+              ]
+            },
+            "15:77": {
+              "explanation": "Событие наказания народа Лута названо знамением для верующих.",
+              "key_phrase": {
+                "text": "знамение для верующих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:61",
+                "15:73",
+                "15:74"
+              ]
+            },
+            "15:79": {
+              "explanation": "Возмездие жителям Айки и расположение поселений на ясной дороге продолжают историческое напоминание.",
+              "key_phrase": {
+                "text": "Мы отомстили им",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:78"
+              ]
+            },
+            "15:90": {
+              "explanation": "Ибн Касир объясняет слово о разделяющих также как клятвенный сговор против пророков, включая рассказ о противниках Салиха.",
+              "key_phrase": {
+                "text": "разделяющим",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-15-90"
+              ],
+              "qualification": "Сохранено по приведённому толкованию выражения; другие объяснения этого выражения не объявлены ошибочными."
+            },
+            "16:26": {
+              "explanation": "Описаны неудача козней предшественников, разрушение их строения и неожиданное наказание.",
+              "key_phrase": {
+                "text": "Козни строили еще те, которые жили до них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:33": {
+              "explanation": "Поведение современных противников сопоставлено с несправедливостью прежних народов.",
+              "key_phrase": {
+                "text": "Так же поступали те, которые жили прежде",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:36": {
+              "explanation": "Прежние посланники к каждой общине и судьбы отвергавших предложены как назидание.",
+              "key_phrase": {
+                "text": "посмотрите, каким был конец неверующих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:63": {
+              "explanation": "Напоминается о прежних народах, которым дьявол приукрасил деяния и которые отвергали посланников.",
+              "key_phrase": {
+                "text": "Мы до тебя направляли посланников к народам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:17": {
+              "explanation": "Прямо говорится о гибели многочисленных поколений после Нуха.",
+              "key_phrase": {
+                "text": "Сколько же поколений мы погубили после Нуха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:77": {
+              "explanation": "Установление в отношении прежних посланников сопоставлено с угрозой нынешних противников изгнать Пророка.",
+              "key_phrase": {
+                "text": "Так поступали с Нашими посланниками, отправленными до тебя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "17:76"
+              ]
+            },
+            "18:55": {
+              "explanation": "Участь первых поколений приведена как предостережение от отказа верить и просить прощения.",
+              "key_phrase": {
+                "text": "участи первых поколений",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "18:59": {
+              "explanation": "Описана гибель прежних несправедливых городов в установленный срок.",
+              "key_phrase": {
+                "text": "Мы погубили эти города",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:74": {
+              "explanation": "Уничтоженные прежние поколения напомнены вопреки их богатству и внешнему благополучию.",
+              "key_phrase": {
+                "text": "Сколько же поколений до них Мы погубили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:98": {
+              "explanation": "Отсутствие следов погубленных поколений предложено для размышления.",
+              "key_phrase": {
+                "text": "Сколько поколений до них Мы подвергли гибели",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:99": {
+              "explanation": "Прямо названы рассказываемые вести о прошлом и дарованное Напоминание.",
+              "key_phrase": {
+                "text": "вести о том, что было в прошлом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:128": {
+              "explanation": "Жилища погубленных поколений названы знамениями для обладающих разумом.",
+              "key_phrase": {
+                "text": "по жилищам которых они ходят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "21:11": {
+              "explanation": "Напоминается о разрушенных несправедливых селениях и сменивших их народах.",
+              "key_phrase": {
+                "text": "Сколько Мы разрушили селений",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "21:44": {
+              "explanation": "Ибн Касир связывает уменьшение земли по краям с победой верующих и гибелью отвергавших общин, делая это напоминанием об их участи.",
+              "key_phrase": {
+                "text": "Мы уменьшаем землю по краям",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-21-44"
+              ],
+              "qualification": "Сохранено по приведённому толкованию выражения; другие объяснения этого выражения не объявлены ошибочными."
+            },
+            "22:45": {
+              "explanation": "Разрушенные селения, заброшенные колодцы и дворцы приведены как следы наказания.",
+              "key_phrase": {
+                "text": "Сколько селений, которые были несправедливы, Мы погубили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:46": {
+              "explanation": "Вслед за упоминанием разрушенных селений предложено путешествовать и осмыслять увиденное сердцем.",
+              "key_phrase": {
+                "text": "Разве они не странствовали по земле",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "22:45"
+              ]
+            },
+            "22:48": {
+              "explanation": "Прежняя отсрочка несправедливым селениям и последующее наказание служат предостережением.",
+              "key_phrase": {
+                "text": "Впоследствии Я схватил их",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "23:30": {
+              "explanation": "Спасение Нуха и наказание его народа в предыдущем рассказе прямо названо знамением и испытанием.",
+              "key_phrase": {
+                "text": "в этом есть знамения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:23",
+                "23:27",
+                "23:29"
+              ]
+            },
+            "23:31": {
+              "explanation": "После истории Нуха начинается рассказ о следующем поколении.",
+              "key_phrase": {
+                "text": "Вслед за ними Мы сотворили другое поколение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:23",
+                "23:30"
+              ]
+            },
+            "23:42": {
+              "explanation": "Последовательность сменяющихся поколений продолжает рассказ о прежних общинах.",
+              "key_phrase": {
+                "text": "Вслед за ними Мы сотворили другие поколения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:31",
+                "23:41"
+              ]
+            },
+            "23:44": {
+              "explanation": "Повторяющееся отрицание посланников и гибель прежних народов прямо описаны как череда событий.",
+              "key_phrase": {
+                "text": "отправляли одного за другим Наших посланников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:34": {
+              "explanation": "Прямо упомянуты притча о прежних людях и увещевание для богобоязненных.",
+              "key_phrase": {
+                "text": "притчу о тех, которые миновали до вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "25:36": {
+              "explanation": "Поручение Мусе и Харуну и гибель отвергшего знамения народа продолжены из предыдущего аята.",
+              "key_phrase": {
+                "text": "А потом Мы уничтожили его до основания",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "25:35"
+              ]
+            },
+            "25:37": {
+              "explanation": "Потопление народа Нуха прямо названо знамением для людей.",
+              "key_phrase": {
+                "text": "сделали их знамением для людей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "25:38": {
+              "explanation": "Адиты, самудяне, жители Расса и другие поколения перечислены в продолжении рассказа о погибших народах.",
+              "key_phrase": {
+                "text": "адитов, самудян, жителей Расса",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "25:37",
+                "25:39"
+              ]
+            },
+            "25:39": {
+              "explanation": "Обобщены наставления притчами и наказания ранее перечисленных народов.",
+              "key_phrase": {
+                "text": "Каждому из них Мы приводили притчи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "25:37",
+                "25:38"
+              ]
+            },
+            "25:40": {
+              "explanation": "Поселение, на которое пролился губительный дождь, предложено как наблюдаемый исторический пример.",
+              "key_phrase": {
+                "text": "мимо селения, на которое выпал недобрый дождь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:69": {
+              "explanation": "Прямо дано повеление прочесть историю Ибрахима.",
+              "key_phrase": {
+                "text": "Прочти им историю Ибрахима",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:103": {
+              "explanation": "Заключение истории Ибрахима называет рассказанное знамением.",
+              "key_phrase": {
+                "text": "в этом - знамение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:69"
+              ]
+            },
+            "26:105": {
+              "explanation": "Прямо назван отказ народа Нуха признавать посланников.",
+              "key_phrase": {
+                "text": "Народ Нуха (Ноя) счел лжецами посланников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:121": {
+              "explanation": "Заключение истории Нуха называет её знамением и отмечает неверие большинства.",
+              "key_phrase": {
+                "text": "в этом - знамение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:105",
+                "26:119",
+                "26:120"
+              ]
+            },
+            "26:123": {
+              "explanation": "Начинается рассказ об адитах, отвергавших посланников.",
+              "key_phrase": {
+                "text": "Адиты сочли лжецами посланников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:139": {
+              "explanation": "Гибель отвергавших Худа адитов прямо названа знамением.",
+              "key_phrase": {
+                "text": "Мы погубили их",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:123",
+                "26:124"
+              ]
+            },
+            "26:158": {
+              "explanation": "Наказание самудян за отвержение Салиха завершает рассказ знамением.",
+              "key_phrase": {
+                "text": "Их постигло наказание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:141",
+                "26:142",
+                "26:157"
+              ]
+            },
+            "26:160": {
+              "explanation": "Прямо назван отказ народа Лута признавать посланников.",
+              "key_phrase": {
+                "text": "Народ Лута (Лота) счел лжецами посланников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:171": {
+              "explanation": "Исключение старухи из числа спасённых продолжает рассказ о семье Лута.",
+              "key_phrase": {
+                "text": "которая оказалась среди оставшихся позади",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:160",
+                "26:170"
+              ]
+            },
+            "26:172": {
+              "explanation": "Гибель остальных завершает противопоставление спасения семьи Лута и наказания его народа.",
+              "key_phrase": {
+                "text": "Мы уничтожили остальных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:160",
+                "26:170",
+                "26:171"
+              ]
+            },
+            "26:173": {
+              "explanation": "Пагубный дождь описан как наказание предостережённому народу Лута.",
+              "key_phrase": {
+                "text": "Как же пагубен дождь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:160",
+                "26:172"
+              ]
+            },
+            "26:174": {
+              "explanation": "Итог рассказа о Луте называет произошедшее знамением.",
+              "key_phrase": {
+                "text": "в этом - знамение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:160",
+                "26:170",
+                "26:173"
+              ]
+            },
+            "26:176": {
+              "explanation": "Начинается рассказ о жителях Айки, отвергших посланников.",
+              "key_phrase": {
+                "text": "Жители Айки сочли лжецами посланников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:189": {
+              "explanation": "День тени описан как наказание жителям Айки, отвергшим Шуейба.",
+              "key_phrase": {
+                "text": "мучения в день тени",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:176",
+                "26:177"
+              ]
+            },
+            "26:190": {
+              "explanation": "Заключение истории жителей Айки называет наказание знамением.",
+              "key_phrase": {
+                "text": "в этом - знамение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:176",
+                "26:189"
+              ]
+            },
+            "26:208": {
+              "explanation": "Обобщена закономерность прежних историй: уничтожению селений предшествовало предупреждение.",
+              "key_phrase": {
+                "text": "Мы не губили ни одного селения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:209": {
+              "explanation": "Указаны назидания прежних увещевателей и отсутствие несправедливости в наказании; это продолжение 26:208.",
+              "key_phrase": {
+                "text": "Мы не были несправедливы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:208"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0042-item-007",
+          "description": "Разногласия толкователей об отмене отдельных предписаний",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:13",
+            "9:5",
+            "33:52"
+          ],
+          "verse_notes": {
+            "5:13": {
+              "explanation": "Ибн Касир приводит мнение Катады об отмене повеления простить предписание сражения в 9:29, одновременно объясняя великодушие как благодеяние.",
+              "key_phrase": {
+                "text": "Прости же их и будь великодушен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-13"
+              ],
+              "context_verse_keys": [
+                "9:29"
+              ],
+              "qualification": "Сохранено как конкретное мнение об отмене части нормы, а не как единогласная отмена всего аята или любого прощения."
+            },
+            "9:5": {
+              "explanation": "Ибн Касир приводит различные мнения о «аяте меча», договорах и соотношении с 47:4; это пример разногласий о пределах насха.",
+              "key_phrase": {
+                "text": "Когда же завершатся запретные месяцы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-5",
+                "ksu-katheer-9-4",
+                "ksu-katheer-9-6"
+              ],
+              "context_verse_keys": [
+                "9:4",
+                "9:6",
+                "47:4"
+              ],
+              "qualification": "Не утверждается, что аят безусловно отменил все мирные договоры, защиту или всякое прощение. Прямые исключения в соседних аятах сохраняются."
+            },
+            "33:52": {
+              "explanation": "Ибн Касир приводит снятие запрета на новые браки Пророка, а также толкование аята как ограничения допустимых категорий женщин.",
+              "key_phrase": {
+                "text": "Отныне тебе не дозволено жениться на других женщинах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-33-52"
+              ],
+              "context_verse_keys": [
+                "33:50",
+                "33:51"
+              ],
+              "qualification": "Сохраняется обсуждение разных объяснений; порядок аятов в мусхафе сам по себе не устанавливает хронологию изменения нормы."
+            }
+          }
+        },
+        {
+          "id": "topic-0042-item-008",
+          "description": "Действительность предписания 4:8 по сообщению Ибн Аббаса",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:8"
+          ],
+          "verse_notes": {
+            "4:8": {
+              "explanation": "Ибн Аббас в передаче аль-Бухари прямо называет действующим, не отменённым, предписание одарить присутствующих при разделе наследства родственников, сирот и бедных.",
+              "key_phrase": {
+                "text": "одарите их из него и скажите им слово доброе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4576",
+                "ksu-katheer-4-8"
+              ],
+              "qualification": "Это слова Ибн Аббаса, а не прямая речь Пророка; в тафсире обсуждаются и другие мнения, поэтому категорическое включение в список отменённых норм устранено."
+            }
+          }
+        },
+        {
+          "id": "topic-0042-item-009",
+          "description": "Первоначальное дозволение сражаться притесняемым",
+          "relation_type": "topic",
+          "verse_keys": [
+            "22:39"
+          ],
+          "verse_notes": {
+            "22:39": {
+              "explanation": "Прямо дозволена борьба тем, против кого воюют и с кем поступили несправедливо; Ибн Касир приводит объяснение как первого дозволения после прежнего воздержания.",
+              "key_phrase": {
+                "text": "Дозволено тем, против кого сражаются, сражаться",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-22-39"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0042-item-010",
+          "description": "О замене и отмене предписаний в Откровении",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:106",
+            "16:101"
+          ],
+          "verse_notes": {
+            "2:106": {
+              "explanation": "Прямо говорится об отмене или предании забвению аята и предоставлении лучшего или подобного; это общее основание обсуждения насха.",
+              "key_phrase": {
+                "text": "Когда Мы отменяем или заставляем забыть один аят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-106"
+              ]
+            },
+            "16:101": {
+              "explanation": "Прямо названа замена одного аята другим и ответ на обвинение в измышлении; это общий текст о замене в Откровении.",
+              "key_phrase": {
+                "text": "Когда Мы заменяем один аят другим",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-16-101"
+              ]
+            }
+          }
+        }
+      ],
+      "scope_note": "Насх отдельных предписаний не означает утрату канонического статуса записанных аятов или их изъятие из Корана. Вопросы о пределах отмены и разногласия толкователей отмечены отдельно; спорные случаи не представлены как единогласные."
+    },
+    {
+      "id": "topic-0043",
+      "title": "Бадр",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0043-item-001",
+          "description": "величие Бадрской победы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "8:8",
+            "8:9"
+          ],
+          "verse_notes": {
+            "8:8": {
+              "explanation": "Победа представлена как торжество истины над ложью в продолжении рассказа о двух отрядах.",
+              "key_phrase": {
+                "text": "чтобы восторжествовала истина и исчезла ложь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:7",
+                "8:41"
+              ]
+            },
+            "8:9": {
+              "explanation": "Ответ на просьбу о помощи обещает поддержку ангелами; связь с Бадром подтверждается тафсиром и хадисом.",
+              "key_phrase": {
+                "text": "Я помогу вам тысячью ангелов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-9",
+                "bukhari-3953"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0043-item-002",
+          "description": "день Бадра",
+          "relation_type": "topic",
+          "verse_keys": [
+            "8:11",
+            "8:41",
+            "8:42",
+            "8:43",
+            "8:44",
+            "8:48",
+            "8:49"
+          ],
+          "verse_notes": {
+            "8:11": {
+              "explanation": "Дремота, дождь и укрепление сердец описывают поддержку верующих перед столкновением при Бадре.",
+              "key_phrase": {
+                "text": "чтобы сделать ваши сердца стойкими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            },
+            "8:41": {
+              "explanation": "День встречи двух армий назван днём различения; Ибн Касир относит его к Бадру.",
+              "key_phrase": {
+                "text": "в день различения, в день, когда встретились две армии",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-41"
+              ]
+            },
+            "8:42": {
+              "explanation": "Расположение войск и каравана описывает обстановку встречи при Бадре.",
+              "key_phrase": {
+                "text": "на ближней стороне долины",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            },
+            "8:43": {
+              "explanation": "Сон о малочисленности противника объясняет укрепление решимости перед битвой.",
+              "key_phrase": {
+                "text": "Аллах показал их тебе во сне малочисленными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            },
+            "8:44": {
+              "explanation": "Восприятие малочисленности друг друга при встрече относится к описываемым двум войскам.",
+              "key_phrase": {
+                "text": "когда вы встретились",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            },
+            "8:48": {
+              "explanation": "Отступление дьявола при встрече двух отрядов относится к рассказу о дне Бадра.",
+              "key_phrase": {
+                "text": "когда два отряда увидели друг друга",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            },
+            "8:49": {
+              "explanation": "Высказывание лицемеров о верующих приведено в описании столкновения и противопоставлено упованию на Аллаха.",
+              "key_phrase": {
+                "text": "Эти люди обмануты своей религией",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0043-item-003",
+          "description": "итоги Бадрской битвы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:13",
+            "3:123",
+            "3:165",
+            "8:8",
+            "8:17",
+            "54:45"
+          ],
+          "verse_notes": {
+            "3:13": {
+              "explanation": "Столкновение двух армий при Бадре приведено как знамение поддержки Аллаха и назидание.",
+              "key_phrase": {
+                "text": "Аллах оказывает поддержку тому, кому пожелает",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-3-13"
+              ]
+            },
+            "3:123": {
+              "explanation": "Бадр прямо назван примером помощи Аллаха верующим в их слабости.",
+              "key_phrase": {
+                "text": "Аллах уже оказал вам поддержку при Бадре",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:165": {
+              "explanation": "Потери при Ухуде сопоставлены с вдвое большим поражением, ранее нанесённым при Бадре; связь разъяснена Ибн Касиром.",
+              "key_phrase": {
+                "text": "после того, как вы причинили вдвое большее несчастье",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-3-165"
+              ],
+              "qualification": "Главное несчастье в этом аяте относится к Ухуду; к Бадру относится предшествующее вдвое большее поражение противника."
+            },
+            "8:8": {
+              "explanation": "В продолжении рассказа победа служит утверждению истины и устранению лжи.",
+              "key_phrase": {
+                "text": "чтобы восторжествовала истина и исчезла ложь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:7",
+                "8:41"
+              ]
+            },
+            "8:17": {
+              "explanation": "Победа и результат броска Пророка отнесены к помощи Аллаха; Ибн Касир поясняет событие при Бадре.",
+              "key_phrase": {
+                "text": "Не ты бросил горсть песку, когда бросал, а Аллах бросил",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-17"
+              ]
+            },
+            "54:45": {
+              "explanation": "В хадисе аль-Бухари Пророк произносит предсказание разгрома противников в день Бадра.",
+              "key_phrase": {
+                "text": "Эта группа будет разбита",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4875"
+              ],
+              "qualification": "Это предсказание, произнесённое в день битвы, а не сообщение, впервые ниспосланное после её окончания."
+            }
+          }
+        },
+        {
+          "id": "topic-0043-item-004",
+          "description": "обращение Пророка к Аллаху во время Бадрской битвы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "8:9"
+          ],
+          "verse_notes": {
+            "8:9": {
+              "explanation": "Обращение верующих за помощью связано с мольбой Пророка при Бадре, описанной в тафсире и передаче аль-Бухари.",
+              "key_phrase": {
+                "text": "Вот вы попросили своего Господа о помощи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-9",
+                "bukhari-3953"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0043-item-005",
+          "description": "Выступление к Бадру и ожидание столкновения",
+          "relation_type": "topic",
+          "verse_keys": [
+            "8:5",
+            "8:6",
+            "8:7"
+          ],
+          "verse_notes": {
+            "8:5": {
+              "explanation": "Выход Пророка из дома ради истины относится к выступлению к Бадру; часть верующих не желала этого.",
+              "key_phrase": {
+                "text": "побудил тебя выйти из дома",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            },
+            "8:6": {
+              "explanation": "Препирательство и страх части верующих продолжают описание выхода и ожидаемого столкновения.",
+              "key_phrase": {
+                "text": "Они препирались с тобой относительно истины",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            },
+            "8:7": {
+              "explanation": "Обещание одного из двух отрядов и желание получить невооружённый караван поясняют обстановку перед Бадром.",
+              "key_phrase": {
+                "text": "вам достанется один из двух отрядов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ],
+              "context_verse_keys": [
+                "8:41"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0043-item-006",
+          "description": "трофеи битвы Бадр",
+          "relation_type": "topic",
+          "verse_keys": [
+            "8:1",
+            "8:41"
+          ],
+          "verse_notes": {
+            "8:1": {
+              "explanation": "Начало суры регулирует спор о трофеях; Ибн Касир приводит связь суры с Бадром.",
+              "key_phrase": {
+                "text": "Они спрашивают тебя о трофеях",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-1"
+              ]
+            },
+            "8:41": {
+              "explanation": "Установлена пятая доля трофеев и указана встреча двух армий; связь с Бадром разъяснена в тафсире.",
+              "key_phrase": {
+                "text": "если вы захватили трофеи, то пятая часть их принадлежит",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-41"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0044",
+      "title": "Ал-Байт ал-ма'мур",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0044-item-001",
+          "description": "Аль-Байт аль-Ма'мур: небесный Дом",
+          "relation_type": "topic",
+          "verse_keys": [
+            "52:4"
+          ],
+          "verse_notes": {
+            "52:4": {
+              "explanation": "В аяте назван наполненный Дом; Ибн Касир и хадис аль-Бухари о вознесении поясняют аль-Байт аль-Ма'мур на седьмом небе, посещаемый ангелами.",
+              "key_phrase": {
+                "text": "Клянусь домом наполненным (храмом на седьмом небе)!",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-52-4",
+                "bukhari-3207"
+              ],
+              "qualification": "В пояснение не включён упомянутый в тафсире и отвергнутый хадис о создании ангелов из капель реки; используется достоверный рассказ о вознесении."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0045",
+      "title": "Барзах",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0045-item-001",
+          "description": "Барзах: преграда между смертью и воскресением",
+          "relation_type": "topic",
+          "verse_keys": [
+            "23:100"
+          ],
+          "verse_notes": {
+            "23:100": {
+              "explanation": "После отказа умирающему в возвращении к земным делам прямо названа преграда до дня воскресения.",
+              "key_phrase": {
+                "text": "Позади них будет преграда вплоть до того дня, когда они будут воскрешены",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:99"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0046",
+      "title": "бедные",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0046-item-001",
+          "description": "Вера и правдивость неимущих мухаджиров",
+          "relation_type": "topic",
+          "verse_keys": [
+            "59:8"
+          ],
+          "verse_notes": {
+            "59:8": {
+              "explanation": "Неимущие изгнанные переселенцы прямо названы стремящимися к довольству Аллаха, помогающими Его Посланнику и правдивыми.",
+              "key_phrase": {
+                "text": "неимущим мухаджирам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0046-item-002",
+          "description": "Кормление бедняков, искренность помощи и порицание отказа",
+          "relation_type": "topic",
+          "verse_keys": [
+            "74:44",
+            "76:8",
+            "76:9",
+            "89:18",
+            "90:14",
+            "90:16",
+            "90:17",
+            "90:18",
+            "107:3"
+          ],
+          "verse_notes": {
+            "74:44": {
+              "explanation": "Отказ кормить бедняков назван самими наказуемыми одной из причин своего положения.",
+              "key_phrase": {
+                "text": "Мы не кормили бедняков",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "74:42"
+              ]
+            },
+            "76:8": {
+              "explanation": "Прямо похвалено добровольное кормление бедняков наряду с сиротами и пленниками.",
+              "key_phrase": {
+                "text": "Они дают пищу беднякам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "76:9": {
+              "explanation": "Кормящие нуждающихся из 76:8 объясняют, что делают это ради Аллаха, без ожидания благодарности.",
+              "key_phrase": {
+                "text": "Мы кормим вас лишь ради Лика Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "76:8"
+              ]
+            },
+            "89:18": {
+              "explanation": "Прямо порицается отсутствие взаимного побуждения кормить бедняка.",
+              "key_phrase": {
+                "text": "не побуждаете друг друга кормить бедняка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "90:14": {
+              "explanation": "Кормление в голодный день включено в преодоление трудного пути, затем прямо назван бедняк.",
+              "key_phrase": {
+                "text": "кормление в голодный день",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "90:12",
+                "90:16"
+              ]
+            },
+            "90:16": {
+              "explanation": "Прямо указан крайне нуждающийся бедняк как получатель пищи в голодный день.",
+              "key_phrase": {
+                "text": "приникшего к земле бедняка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "90:14"
+              ]
+            },
+            "90:17": {
+              "explanation": "Вера, терпение и милосердие дополняют описанное перед этим кормление голодающих и бедняка.",
+              "key_phrase": {
+                "text": "заповедали друг другу милосердие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "90:14",
+                "90:16"
+              ]
+            },
+            "90:18": {
+              "explanation": "Людьми правой стороны названы выполняющие предшествующие дела милосердия и веры, включая кормление бедняка.",
+              "key_phrase": {
+                "text": "Таковы люди правой стороны",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "90:14",
+                "90:16",
+                "90:17"
+              ]
+            },
+            "107:3": {
+              "explanation": "Отсутствие побуждения накормить бедняка прямо отнесено к порицаемому поведению.",
+              "key_phrase": {
+                "text": "не побуждает накормить бедняка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0046-item-003",
+          "description": "Запрет убивать детей из-за бедности и страха перед ней",
+          "relation_type": "topic",
+          "verse_keys": [
+            "6:137",
+            "6:140",
+            "6:151",
+            "17:31",
+            "17:38"
+          ],
+          "verse_notes": {
+            "6:137": {
+              "explanation": "Ибн Касир прямо объясняет украшенное многобожникам убийство детей в том числе бедностью и страхом обнищания.",
+              "key_phrase": {
+                "text": "представили прекрасным убийство детей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-6-137"
+              ],
+              "qualification": "Тафсир также называет страх позора; бедность не представлена единственным мотивом всех случаев."
+            },
+            "6:140": {
+              "explanation": "Осуждение убийства детей завершает блок, где 6:137 в толковании Ибн Касира включает убийство из-за бедности.",
+              "key_phrase": {
+                "text": "убивали своих детей по глупости",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-6-137"
+              ],
+              "context_verse_keys": [
+                "6:137"
+              ],
+              "qualification": "Сам 6:140 не повторяет мотив бедности; связь следует из указанного контекста."
+            },
+            "6:151": {
+              "explanation": "Прямо запрещено убивать детей по причине нужды и напоминается об обеспечении родителей и детей пропитанием.",
+              "key_phrase": {
+                "text": "не убивайте своих детей, опасаясь нищеты",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:31": {
+              "explanation": "Прямо запрещено убийство детей из страха перед нищетой и названо тяжким грехом.",
+              "key_phrase": {
+                "text": "Не убивайте своих детей, опасаясь нищеты",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:38": {
+              "explanation": "Заключение перечня осуждает всё перечисленное зло, включая убийство детей из страха бедности в 17:31.",
+              "key_phrase": {
+                "text": "Все это зло ненавистно твоему Господу.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "17:31"
+              ],
+              "qualification": "Это общий итог перечня, а не отдельное повторение причины запрета."
+            }
+          }
+        },
+        {
+          "id": "topic-0046-item-004",
+          "description": "не следует чураться браков с бедными",
+          "relation_type": "topic",
+          "verse_keys": [
+            "24:32"
+          ],
+          "verse_notes": {
+            "24:32": {
+              "explanation": "Прямо предписано содействовать браку не состоящих в нём и названо обещание обогащения бедных по милости Аллаха.",
+              "key_phrase": {
+                "text": "Если они бедны, то Аллах обогатит их из Своей милости",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0046-item-005",
+          "description": "Отказ кормить бедняков среди причин наказания",
+          "relation_type": "topic",
+          "verse_keys": [
+            "74:42",
+            "74:44"
+          ],
+          "verse_notes": {
+            "74:42": {
+              "explanation": "Вопрос о причинах попадания в Преисподнюю вводит ответ, включающий отказ кормить бедняка.",
+              "key_phrase": {
+                "text": "Что привело вас в Преисподнюю?",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "74:44"
+              ]
+            },
+            "74:44": {
+              "explanation": "В ответ на вопрос о попадании в Преисподнюю прямо назван отказ кормить бедняков.",
+              "key_phrase": {
+                "text": "Мы не кормили бедняков.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "74:42",
+                "74:43",
+                "74:45",
+                "74:46"
+              ],
+              "qualification": "В отрывке названы и другие причины; наказание не сведено только к этой одной."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0047",
+      "title": "бедствие",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0047-item-001",
+          "description": "Мольбы при бедствии и примеры ответа на них",
+          "relation_type": "topic",
+          "verse_keys": [
+            "6:40",
+            "6:41",
+            "6:63",
+            "7:94",
+            "7:126",
+            "10:22",
+            "10:85",
+            "10:86",
+            "17:67",
+            "18:10",
+            "21:87",
+            "21:88",
+            "23:26",
+            "23:39",
+            "26:117",
+            "26:118",
+            "26:119",
+            "26:169",
+            "27:62",
+            "28:21",
+            "28:24",
+            "29:65",
+            "30:33",
+            "31:32",
+            "39:8",
+            "39:49",
+            "41:51",
+            "44:22",
+            "68:48"
+          ],
+          "verse_notes": {
+            "6:40": {
+              "explanation": "Поставлен вопрос о том, кого люди призывают при наказании и наступлении Часа.",
+              "key_phrase": {
+                "text": "если вас поразит наказание Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:41": {
+              "explanation": "Ответ уточняет обращение только к Аллаху и избавление от того, о чём человек взывает.",
+              "key_phrase": {
+                "text": "Вы будете призывать только Его",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "6:40"
+              ]
+            },
+            "6:63": {
+              "explanation": "Обращение при опасностях суши и моря прямо описано как смиренное и тайное взывание.",
+              "key_phrase": {
+                "text": "когда вы взываете к Нему смиренно и тайно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:94": {
+              "explanation": "Ибн Касир объясняет смирение при невзгодах как мольбу, покорность и просьбу устранить постигшее.",
+              "key_phrase": {
+                "text": "дабы они проявили смирение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-7-94"
+              ]
+            },
+            "7:126": {
+              "explanation": "Перед угрозой расправы уверовавшие просят терпения и смерти в покорности Аллаху.",
+              "key_phrase": {
+                "text": "Ниспошли нам терпение и умертви нас мусульманами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:124"
+              ]
+            },
+            "10:22": {
+              "explanation": "При морской буре люди искренне просят спасения и обещают благодарность.",
+              "key_phrase": {
+                "text": "Если Ты спасешь нас отсюда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:85": {
+              "explanation": "Верующие из народа Мусы просят не делать их искушением для несправедливых; это начало мольбы, продолженной в 10:86.",
+              "key_phrase": {
+                "text": "не делай нас искушением для людей несправедливых",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "10:84"
+              ]
+            },
+            "10:86": {
+              "explanation": "Прямо испрашивается спасение от неверующих по милости Аллаха.",
+              "key_phrase": {
+                "text": "По Своей милости спаси нас от людей неверующих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "10:85"
+              ]
+            },
+            "17:67": {
+              "explanation": "Беда на море приводит к обращению только к Аллаху, хотя после спасения человек отворачивается.",
+              "key_phrase": {
+                "text": "Когда беда постигает вас в море",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "18:10": {
+              "explanation": "Укрывшиеся в пещере юноши просят милости и благого устройства своего дела.",
+              "key_phrase": {
+                "text": "Даруй нам от Себя милость",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "21:87": {
+              "explanation": "Человек в рыбе взывает из мрака, исповедуя единобожие и признавая свой проступок.",
+              "key_phrase": {
+                "text": "Он воззвал из мрака",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "21:88": {
+              "explanation": "Прямо описан ответ на мольбу человека в рыбе: избавление от печали и спасение верующих.",
+              "key_phrase": {
+                "text": "спасли его от печали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "21:87"
+              ]
+            },
+            "23:26": {
+              "explanation": "Нух просит помощи после отвержения его народом.",
+              "key_phrase": {
+                "text": "Помоги мне, ведь они сочли меня лжецом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:23"
+              ]
+            },
+            "23:39": {
+              "explanation": "Посланник следующего поколения просит помощи после отвержения; имя в этом аяте не названо.",
+              "key_phrase": {
+                "text": "Помоги мне, ведь они сочли меня лжецом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:31",
+                "23:32"
+              ]
+            },
+            "26:117": {
+              "explanation": "Обращение Нуха сообщает Господу об отвержении народом и вводит последующую просьбу о спасении.",
+              "key_phrase": {
+                "text": "Господи! Мой народ счел меня лжецом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:105",
+                "26:118"
+              ]
+            },
+            "26:118": {
+              "explanation": "Нух прямо просит рассудить спор и спасти его с верующими.",
+              "key_phrase": {
+                "text": "спаси меня и тех верующих, которые со мной",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:105",
+                "26:117"
+              ]
+            },
+            "26:119": {
+              "explanation": "Спасение в ковчеге описано как ответ после мольбы Нуха о спасении.",
+              "key_phrase": {
+                "text": "Мы спасли его и тех, кто был с ним",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:118"
+              ]
+            },
+            "26:169": {
+              "explanation": "Лут просит спасти его семью от деяний своего народа.",
+              "key_phrase": {
+                "text": "Спаси меня и мою семью",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:160",
+                "26:161"
+              ]
+            },
+            "27:62": {
+              "explanation": "Прямо названы ответ Аллаха на мольбу нуждающегося и устранение зла.",
+              "key_phrase": {
+                "text": "Кто отвечает на мольбу нуждающегося",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "28:21": {
+              "explanation": "Покидающий город в страхе Муса просит спасения от несправедливых людей.",
+              "key_phrase": {
+                "text": "Спаси меня от несправедливых людей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "28:24": {
+              "explanation": "После бегства Муса выражает перед Господом нужду в любом ниспосланном благе.",
+              "key_phrase": {
+                "text": "я нуждаюсь в любом благе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "28:21"
+              ]
+            },
+            "29:65": {
+              "explanation": "На корабле люди обращаются к Аллаху с очищенной верой, но после спасения вновь приобщают сотоварищей.",
+              "key_phrase": {
+                "text": "взывают к Аллаху, очищая перед Ним свою веру",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:33": {
+              "explanation": "При зле люди взывают к Господу с раскаянием, что противопоставлено поведению части из них после облегчения.",
+              "key_phrase": {
+                "text": "Когда людей касается зло",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "31:32": {
+              "explanation": "Опасная волна приводит к искренней мольбе; затем различается поведение спасённых.",
+              "key_phrase": {
+                "text": "Когда волна накрывает их",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "39:8": {
+              "explanation": "Постигший вред побуждает человека обратиться только к Господу; после блага он может забыть это обращение.",
+              "key_phrase": {
+                "text": "Когда человека коснется вред",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "39:49": {
+              "explanation": "Человек взывает при вреде, но после получения блага приписывает его знанию, забывая об испытании.",
+              "key_phrase": {
+                "text": "Когда человека касается вред, он взывает к Нам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:51": {
+              "explanation": "Прямо описаны пространные молитвы человека при постигшем его зле.",
+              "key_phrase": {
+                "text": "он начинает произносить пространные молитвы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "44:22": {
+              "explanation": "В рассказе о Мусе обращение к Господу о грешном народе предшествует повелению вывести рабов ночью.",
+              "key_phrase": {
+                "text": "он воззвал к своему Господу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "44:17",
+                "44:23"
+              ]
+            },
+            "68:48": {
+              "explanation": "Пример человека в рыбе прямо включает обращение с мольбой в печали.",
+              "key_phrase": {
+                "text": "который обратился с мольбой вслух",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0048",
+      "title": "бедуины",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0048-item-003",
+          "description": "о поведении бедуинов по отношению к Исламу",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:97",
+            "9:98",
+            "9:99",
+            "9:101",
+            "48:11",
+            "48:12",
+            "48:15",
+            "48:16",
+            "49:14",
+            "49:17"
+          ],
+          "verse_notes": {
+            "9:97": {
+              "explanation": "Описаны упорство в неверии и незнание ограничений у порицаемых бедуинов; следующий отрывок различает группы.",
+              "key_phrase": {
+                "text": "Бедуины оказываются самыми упорными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "9:99 прямо называет и верующих бедуинов; отрицательные характеристики не приписываются каждому бедуину."
+            },
+            "9:98": {
+              "explanation": "Прямо выделена часть бедуинов, считающая пожертвования убытком и ожидающая несчастья верующим.",
+              "key_phrase": {
+                "text": "Среди бедуинов есть и такие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:99": {
+              "explanation": "Прямо выделена верующая часть бедуинов, искренне рассматривающая пожертвования как приближение к Аллаху.",
+              "key_phrase": {
+                "text": "которые веруют в Аллаха и Последний день",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:101": {
+              "explanation": "Названы лицемеры среди окрестных бедуинов и мединцев, а не все жители этих групп.",
+              "key_phrase": {
+                "text": "Среди бедуинов, которые живут вокруг вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "48:11": {
+              "explanation": "Бедуины, оставшиеся позади, приводят оправдания имуществом и семьями; аят раскрывает несоответствие слов сердцам.",
+              "key_phrase": {
+                "text": "Бедуины, оставшиеся позади",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "48:12": {
+              "explanation": "Объяснены дурные предположения оставшихся о невозвращении Посланника и верующих.",
+              "key_phrase": {
+                "text": "Посланник и верующие никогда не вернутся",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "48:11"
+              ]
+            },
+            "48:15": {
+              "explanation": "Оставшиеся от Худайбийи хотят присоединиться ради последующих трофеев; Ибн Касир связывает это с Хайбаром.",
+              "key_phrase": {
+                "text": "Дайте нам последовать за вами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-48-15",
+                "ksu-katheer-48-11"
+              ]
+            },
+            "48:16": {
+              "explanation": "Тем же оставшимся бедуинам сообщается о будущем призыве и последствиях повиновения либо нового отказа.",
+              "key_phrase": {
+                "text": "Скажи бедуинам, оставшимся позади",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Конкретный будущий народ в 48:16 не назван; спорные отождествления здесь не добавляются."
+            },
+            "49:14": {
+              "explanation": "Заявление бедуинов о вере исправлено: внешняя покорность ещё не означает вошедшую в сердце веру.",
+              "key_phrase": {
+                "text": "Вера еще не вошла в ваши сердца",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "49:17": {
+              "explanation": "В продолжении обращения к бедуинам запрещено попрекать обращением в ислам; вера названа милостью Аллаха.",
+              "key_phrase": {
+                "text": "Не попрекайте меня вашим обращением в ислам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "49:14"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0048-item-004",
+          "description": "Оставшиеся от похода к Худайбийе: оправдания и дальнейшие обращения",
+          "relation_type": "topic",
+          "verse_keys": [
+            "48:11",
+            "48:12",
+            "48:15",
+            "48:16"
+          ],
+          "verse_notes": {
+            "48:11": {
+              "explanation": "Бедуины, оставшиеся позади, приводят оправдания имуществом и семьями; аят раскрывает несоответствие слов сердцам.",
+              "key_phrase": {
+                "text": "Бедуины, оставшиеся позади",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-48-15",
+                "ksu-katheer-48-11"
+              ]
+            },
+            "48:12": {
+              "explanation": "Объяснены дурные предположения оставшихся о невозвращении Посланника и верующих.",
+              "key_phrase": {
+                "text": "Посланник и верующие никогда не вернутся",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-48-15",
+                "ksu-katheer-48-11"
+              ],
+              "context_verse_keys": [
+                "48:11"
+              ]
+            },
+            "48:15": {
+              "explanation": "Оставшиеся от Худайбийи хотят присоединиться ради последующих трофеев; Ибн Касир связывает это с Хайбаром.",
+              "key_phrase": {
+                "text": "Дайте нам последовать за вами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-48-15",
+                "ksu-katheer-48-11"
+              ]
+            },
+            "48:16": {
+              "explanation": "Тем же оставшимся бедуинам сообщается о будущем призыве и последствиях повиновения либо нового отказа.",
+              "key_phrase": {
+                "text": "Скажи бедуинам, оставшимся позади",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-48-15",
+                "ksu-katheer-48-11"
+              ],
+              "qualification": "Конкретный будущий народ в 48:16 не назван; спорные отождествления здесь не добавляются."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0049",
+      "title": "Бенйамин",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0049-item-001",
+          "description": "Просьба сыновей Якуба отпустить с ними брата, называемого Бенйамином в тафсире",
+          "relation_type": "tafsir_person_association",
+          "verse_keys": [
+            "12:63",
+            "12:64",
+            "12:65",
+            "12:66"
+          ],
+          "verse_notes": {
+            "12:63": {
+              "explanation": "Братья просят отца отпустить младшего брата ради получения зерна; Ибн Касир называет его Бенйамином.",
+              "key_phrase": {
+                "text": "Отпусти с нами нашего брата",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-12-63"
+              ],
+              "qualification": "Имя Бенйамин приведено толкователем; в арабском тексте этих аятов оно не написано."
+            },
+            "12:64": {
+              "explanation": "Ответ отца о прежнем доверии и защите Аллаха продолжает просьбу отпустить названного в 12:63 брата.",
+              "key_phrase": {
+                "text": "Неужели я доверю его вам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-12-63"
+              ],
+              "context_verse_keys": [
+                "12:63"
+              ]
+            },
+            "12:65": {
+              "explanation": "Возвращённые деньги и обещание сберечь брата приведены как новые доводы сыновей перед отцом.",
+              "key_phrase": {
+                "text": "сбережем нашего брата",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-12-63"
+              ],
+              "context_verse_keys": [
+                "12:63"
+              ]
+            },
+            "12:66": {
+              "explanation": "Отец требует клятвы вернуть брата; это условие согласия на поездку.",
+              "key_phrase": {
+                "text": "Я не отпущу его с вами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-12-63"
+              ],
+              "context_verse_keys": [
+                "12:63"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0050",
+      "title": "беременность",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0050-item-001",
+          "description": "'идда (срок ожидания) беременной женщины в случае развода",
+          "relation_type": "topic",
+          "verse_keys": [
+            "65:4"
+          ],
+          "verse_notes": {
+            "65:4": {
+              "explanation": "Для беременной женщины прямо установлен срок ожидания до разрешения от бремени.",
+              "key_phrase": {
+                "text": "Для беременных срок установлен до тех пор, пока они не разрешатся от бремени",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0050-item-002",
+          "description": "осведомленность Аллаха о ребенке, носимом в утробе беременной",
+          "relation_type": "topic",
+          "verse_keys": [
+            "13:8",
+            "31:34",
+            "35:11",
+            "41:47"
+          ],
+          "verse_notes": {
+            "13:8": {
+              "explanation": "Прямо утверждается знание Аллаха о носимом каждой самкой и происходящем в каждой утробе.",
+              "key_phrase": {
+                "text": "Аллаху известно, что носит каждая самка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "31:34": {
+              "explanation": "Прямо названо знание Аллаха о том, что находится в утробах.",
+              "key_phrase": {
+                "text": "знает о том, что в утробах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:11": {
+              "explanation": "Прямо сказано, что зачатие и роды каждой самки происходят только с ведома Аллаха.",
+              "key_phrase": {
+                "text": "Самка может зачать или родить только с Его ведома",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:47": {
+              "explanation": "Прямо утверждается знание Аллаха о каждой беременности и родах.",
+              "key_phrase": {
+                "text": "не понесет и не родит ни одна самка без Его ведома",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0050-item-003",
+          "description": "Тяготы беременности и благодарность родителям",
+          "relation_type": "topic",
+          "verse_keys": [
+            "46:15"
+          ],
+          "verse_notes": {
+            "46:15": {
+              "explanation": "Прямо названы тяжесть вынашивания и родов, срок беременности с кормлением и обязанность доброты к родителям.",
+              "key_phrase": {
+                "text": "Матери тяжело носить его и рожать его",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

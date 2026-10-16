@@ -153,6 +153,15 @@ export function getQcfV2ForAyah(
   return entry;
 }
 
+/** Отдельный знак суджуда из тех же данных и шрифта, что и аят 84:21. */
+export function renderSajdahSymbol(): string {
+  const { page, code_v2 } = getQcfV2ForAyah(84, 21);
+  // В этой записи перед номером аята расположен самостоятельный знак суджуда.
+  const glyph = Array.from(code_v2.replace(/\s/gu, "")).at(-2);
+  if (!glyph) throw new Error("Missing QCF sajdah symbol in 84:21");
+  return `<span class="arab qcf-text qcf-sajdah-symbol" data-qcf-page="${page}" role="img" aria-label="Знак суджуда"><span class="qcf-glyphs qcf-page-${page}" aria-hidden="true">${escapeHtml(glyph)}</span></span>`;
+}
+
 export function getAyahText(
   surah: number,
   ayah: number,

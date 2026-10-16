@@ -1,0 +1,18 @@
+[
+  {
+    "name": "hadeethenc-ar.xlsx",
+    "url": "https://hadeethenc.com/en/browse/download/ar",
+    "bytes": 2767594,
+    "sha256": "b2aed9d72760cbc146375d9c03bbf1f13fb2e7b914dd0af14dcdcb5bdc2241bd",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "saved": true
+  },
+  {
+    "name": "hadeethenc-ru.xlsx",
+    "url": "https://hadeethenc.com/en/browse/download/ru",
+    "bytes": 3513129,
+    "sha256": "f48cb54fe49b093b793182dc7fadbd9c7c551b27e99febab23fb3d6ca21b8b64",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "saved": true
+  }
+]

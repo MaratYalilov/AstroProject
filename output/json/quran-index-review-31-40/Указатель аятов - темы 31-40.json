@@ -1,0 +1,1574 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_source_id": "site-quran",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева.",
+    "tafsir_interpretation": "Толкование выражения по указанному тафсиру; альтернативные толкования отмечены.",
+    "context": "Связь установлена по конкретному указанному контексту; соседство само по себе не подтверждает связь.",
+    "tafsir_person_association": "Именная связь приведена в указанном тафсире; сама запись не является самостоятельным подтверждением достоверности иснада."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно."
+    },
+    "ksu-katheer-5-112": {
+      "title": "Ибн Касир, толкование 5:112",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura5-aya112.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 5,
+        "aya": 112,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-3-52": {
+      "title": "Ибн Касир, толкование 3:52",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura3-aya52.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 3,
+        "aya": 52,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-4": {
+      "title": "Ибн Касир, толкование 9:4",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya4.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 4,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-6": {
+      "title": "Ибн Касир, толкование 9:6",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya6.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 6,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-7": {
+      "title": "Ибн Касир, толкование 9:7",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya7.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 7,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-32": {
+      "title": "Ибн Касир, толкование 9:32",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya32.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 32,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-59-2": {
+      "title": "Ибн Касир, толкование 59:2",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura59-aya2.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 59,
+        "aya": 2,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-3-113": {
+      "title": "Ибн Касир, толкование 3:113",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura3-aya113.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 3,
+        "aya": 113,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-7-46": {
+      "title": "Ибн Касир, толкование 7:46",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura7-aya46.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 7,
+        "aya": 46,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-7-49": {
+      "title": "Ибн Касир, толкование 7:49",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura7-aya49.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 7,
+        "aya": 49,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-198": {
+      "title": "Ибн Касир, толкование 2:198",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya198.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 198,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-199": {
+      "title": "Ибн Касир, толкование 2:199",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya199.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 199,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-27-20": {
+      "title": "Ибн Касир, толкование 27:20",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura27-aya20.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 27,
+        "aya": 20,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-27-22": {
+      "title": "Ибн Касир, толкование 27:22",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura27-aya22.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 27,
+        "aya": 22,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-27-27": {
+      "title": "Ибн Касир, толкование 27:27",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura27-aya27.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 27,
+        "aya": 27,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-3411": {
+      "title": "Сахих аль-Бухари, 3411",
+      "url": "https://sunnah.com/bukhari:3411",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "3411",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-66-11": {
+      "title": "Ибн Касир, толкование 66:11",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura66-aya11.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 66,
+        "aya": 11,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-5978": {
+      "title": "Сахих аль-Бухари, 5978",
+      "url": "https://sunnah.com/bukhari:5978",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "5978",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-60-8": {
+      "title": "Ибн Касир, толкование 60:8",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura60-aya8.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 60,
+        "aya": 8,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-38": {
+      "title": "Ибн Касир, толкование 9:38",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya38.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 38,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-102": {
+      "title": "Ибн Касир, толкование 9:102",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya102.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 102,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-106": {
+      "title": "Ибн Касир, толкование 9:106",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya106.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 106,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "bukhari-4418": {
+      "title": "Сахих аль-Бухари, 4418",
+      "url": "https://sunnah.com/bukhari:4418",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "4418",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-katheer-9-108": {
+      "title": "Ибн Касир, толкование 9:108",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya108.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 108,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-59-10": {
+      "title": "Ибн Касир, толкование 59:10",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura59-aya10.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 59,
+        "aya": 10,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-9-117": {
+      "title": "Ибн Касир, толкование 9:117",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura9-aya117.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 9,
+        "aya": 117,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "abudawud-2214": {
+      "title": "Сунан Абу Дауда, 2214",
+      "url": "https://sunnah.com/abudawud:2214",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "2214",
+      "hadith_grade": "хасан по оценке аль-Албани, за исключением добавления о мере корзины фиников",
+      "hadith_grade_ar": "حسن دون قوله والعرق",
+      "hadith_grader": "аль-Албани",
+      "evidence_scope": "Идентификация мужа как Ауса ибн ас-Самита, жалоба жены, связь с ниспосланием 58:1 и искуплением зихара. Исключённая оценкой добавка о мере корзины не используется."
+    },
+    "ksu-katheer-58-1": {
+      "title": "Ибн Касир, толкование 58:1",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura58-aya1.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 58,
+        "aya": 1,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0031",
+      "title": "апостолы",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0031-item-001",
+          "description": "Просьба апостолов о небесной трапезе и ответ Аллаха",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:112",
+            "5:113",
+            "5:114",
+            "5:115"
+          ],
+          "verse_notes": {
+            "5:112": {
+              "explanation": "Апостолы спрашивают Ису о ниспослании трапезы с неба; это начало рассказа об их просьбе.",
+              "key_phrase": {
+                "text": "ниспослать нам трапезу с неба",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:113": {
+              "explanation": "Апостолы объясняют просьбу желанием вкусить трапезу, успокоить сердца и стать свидетелями знамения.",
+              "key_phrase": {
+                "text": "чтобы наши сердца успокоились",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-112"
+              ],
+              "context_verse_keys": [
+                "5:112"
+              ]
+            },
+            "5:114": {
+              "explanation": "Иса обращается к Аллаху с мольбой о небесной трапезе как празднике и знамении.",
+              "key_phrase": {
+                "text": "Ниспошли нам трапезу с неба",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:115": {
+              "explanation": "Аллах отвечает обещанием ниспослать трапезу и предостерегает от неверия после этого знамения.",
+              "key_phrase": {
+                "text": "Я ниспошлю ее вам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-112"
+              ],
+              "context_verse_keys": [
+                "5:112"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0031-item-003",
+          "description": "об апостолах",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:52",
+            "3:53",
+            "5:111",
+            "5:112",
+            "5:113",
+            "61:14"
+          ],
+          "verse_notes": {
+            "3:52": {
+              "explanation": "Апостолы отвечают на призыв Исы и объявляют себя помощниками Аллаха и верующими.",
+              "key_phrase": {
+                "text": "Мы - помощники Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:53": {
+              "explanation": "Мольба апостолов продолжает их ответ в 3:52: они подтверждают веру и следование посланнику.",
+              "key_phrase": {
+                "text": "Мы уверовали в то, что Ты ниспослал",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-3-52"
+              ],
+              "context_verse_keys": [
+                "3:52"
+              ]
+            },
+            "5:111": {
+              "explanation": "Прямо названы апостолы, которым внушено уверовать в Аллаха и Его посланника; приведён их ответ.",
+              "key_phrase": {
+                "text": "Я внушил апостолам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:112": {
+              "explanation": "Апостолы спрашивают Ису о ниспослании трапезы с неба; это начало рассказа об их просьбе.",
+              "key_phrase": {
+                "text": "ниспослать нам трапезу с неба",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:113": {
+              "explanation": "Апостолы объясняют просьбу желанием вкусить трапезу, успокоить сердца и стать свидетелями знамения.",
+              "key_phrase": {
+                "text": "чтобы наши сердца успокоились",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-5-112"
+              ],
+              "context_verse_keys": [
+                "5:112"
+              ]
+            },
+            "61:14": {
+              "explanation": "Апостолы Исы приведены как пример помощников Аллаха; они прямо названы в аяте.",
+              "key_phrase": {
+                "text": "Иса (Иисус), сын Марьям (Марии), сказал апостолам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0032",
+      "title": "арабы",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0032-item-003",
+          "description": "Отношения с многобожниками: религиозное разграничение, договоры и защита",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:1",
+            "9:2",
+            "9:3",
+            "9:4",
+            "9:5",
+            "9:6",
+            "9:7",
+            "9:8",
+            "9:11",
+            "9:12",
+            "9:28"
+          ],
+          "verse_notes": {
+            "9:1": {
+              "explanation": "Объявлено освобождение Аллаха и Его посланника от определённых договоров с многобожниками; исключение для верных договору указано в 9:4.",
+              "key_phrase": {
+                "text": "освобождены от договоров, которые вы заключили с многобожниками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-4"
+              ],
+              "context_verse_keys": [
+                "9:4"
+              ]
+            },
+            "9:2": {
+              "explanation": "Многобожникам, о которых объявлено в 9:1, предоставляется четырёхмесячный срок; аят продолжает сообщение о договорах.",
+              "key_phrase": {
+                "text": "странствуйте по земле в течение четырех месяцев",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-4"
+              ],
+              "context_verse_keys": [
+                "9:1",
+                "9:4"
+              ]
+            },
+            "9:3": {
+              "explanation": "В день паломничества объявляется отречение от многобожия и предлагается покаяние; это религиозное разграничение в указанном отрывке.",
+              "key_phrase": {
+                "text": "отрекаются от многобожников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "9:1",
+                "9:4"
+              ]
+            },
+            "9:4": {
+              "explanation": "Верные договору многобожники прямо исключены из объявления: договор с ними необходимо соблюдать до конца срока.",
+              "key_phrase": {
+                "text": "Соблюдайте же договор с ними до истечения его срока",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-4"
+              ]
+            },
+            "9:5": {
+              "explanation": "Описано завершение установленного срока и действия в военном противостоянии; покаяние и принятие религиозных обязанностей названы условием освобождения.",
+              "key_phrase": {
+                "text": "Если же они раскаются и станут совершать намаз и выплачивать закят, то отпустите их",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-4",
+                "ksu-katheer-9-6"
+              ],
+              "context_verse_keys": [
+                "9:1",
+                "9:4",
+                "9:6"
+              ],
+              "qualification": "Военное положение читается вместе с исключением для соблюдающих договор в 9:4 и правилом защиты в 9:6."
+            },
+            "9:6": {
+              "explanation": "Многобожнику, просящему защиты, велено предоставить убежище, возможность услышать Коран и безопасное сопровождение.",
+              "key_phrase": {
+                "text": "Затем доставь его в безопасное место",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-6"
+              ]
+            },
+            "9:7": {
+              "explanation": "Вновь подтверждена обязанность сохранять договор с теми многобожниками, которые остаются ему верны.",
+              "key_phrase": {
+                "text": "Пока они верны вам, вы также будьте верны им",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:8": {
+              "explanation": "Объясняется ненадёжность противников, не соблюдающих обязательств; это часть обсуждения договоров после исключения в 9:7.",
+              "key_phrase": {
+                "text": "не станут соблюдать перед вами ни родственных, ни договорных обязательств",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-7"
+              ],
+              "context_verse_keys": [
+                "9:7",
+                "9:12"
+              ]
+            },
+            "9:11": {
+              "explanation": "Покаяние, намаз и закят названы основанием братства по вере с прежними противниками.",
+              "key_phrase": {
+                "text": "они станут вашими братьями по вере",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:12": {
+              "explanation": "Нарушение клятв после договора и посягательство на религию прямо названы причиной сражения с предводителями неверия.",
+              "key_phrase": {
+                "text": "нарушат свои клятвы после заключения договора",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:28": {
+              "explanation": "Устанавливается запрет приближения многобожников к Заповедной мечети после указанного года; это конкретное религиозное разграничение.",
+              "key_phrase": {
+                "text": "не приближаются к Заповедной мечети",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0032-item-002",
+          "description": "Отношения с людьми Писания: вера, дозволенное общение и военные события",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:113",
+            "3:114",
+            "3:115",
+            "5:5",
+            "9:29",
+            "9:30",
+            "9:31",
+            "9:32",
+            "59:2",
+            "59:3",
+            "59:4"
+          ],
+          "verse_notes": {
+            "3:113": {
+              "explanation": "Прямо отвергнуто одинаковое отношение ко всем людям Писания: среди них названы праведные, читающие аяты и поклоняющиеся.",
+              "key_phrase": {
+                "text": "Не все они одинаковы. Среди людей Писания есть праведные люди",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-3-113"
+              ],
+              "qualification": "Ибн Касир объясняет эту праведную группу как уверовавших из людей Писания; речь не о признании праведными всех представителей группы."
+            },
+            "3:114": {
+              "explanation": "Продолжено описание праведной группы из людей Писания: вера, призыв к одобряемому и добрые дела.",
+              "key_phrase": {
+                "text": "Они веруют в Аллаха и в Последний день",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-3-113"
+              ],
+              "context_verse_keys": [
+                "3:113"
+              ]
+            },
+            "3:115": {
+              "explanation": "О праведной группе из 3:113-114 сказано, что её добрые поступки не будут отвергнуты.",
+              "key_phrase": {
+                "text": "Какой бы добрый поступок они ни совершили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-3-113"
+              ],
+              "context_verse_keys": [
+                "3:113"
+              ]
+            },
+            "5:5": {
+              "explanation": "Дозволенность пищи людей Писания и брака при указанных условиях показывает ещё одну сторону отношений, помимо полемики и военных событий.",
+              "key_phrase": {
+                "text": "Еда людей Писания также дозволена вам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:29": {
+              "explanation": "Аят содержит положение о сражении с указанными в нём людьми Писания и выплате дани; это военная часть отношений в данном отрывке.",
+              "key_phrase": {
+                "text": "с теми из людей Писания",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Сохранено как положение данного отрывка о военных отношениях; оно не подменяет остальные аяты об отношениях с людьми Писания."
+            },
+            "9:30": {
+              "explanation": "Приведены и отвергнуты утверждения о сыновстве Узейра и Мессии; это вероучительная полемика, относящаяся к теме людей Писания.",
+              "key_phrase": {
+                "text": "Мессия - сын Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:31": {
+              "explanation": "Осуждается признание господ помимо Аллаха и напоминается о повелении поклоняться одному Богу.",
+              "key_phrase": {
+                "text": "им было велено поклоняться только одному Богу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:32": {
+              "explanation": "Описана попытка противников погасить свет Аллаха; связь с людьми Писания следует из продолжения полемики 9:30-31.",
+              "key_phrase": {
+                "text": "Они хотят потушить свет Аллаха своими устами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-32"
+              ],
+              "context_verse_keys": [
+                "9:30",
+                "9:31"
+              ]
+            },
+            "59:2": {
+              "explanation": "Изгнание конкретной группы людей Писания Ибн Касир связывает с бану ан-Надир; это отдельное историческое событие.",
+              "key_phrase": {
+                "text": "изгнал неверующих людей Писания из их жилищ",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-59-2"
+              ],
+              "qualification": "Речь о конкретной изгнанной группе, а не обо всех людях Писания."
+            },
+            "59:3": {
+              "explanation": "Предписанный исход и наказание относятся к той же группе, названной в 59:2.",
+              "key_phrase": {
+                "text": "Если бы Аллах не предписал им исход",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-59-2"
+              ],
+              "context_verse_keys": [
+                "59:2"
+              ],
+              "qualification": "Речь о конкретной изгнанной группе, а не обо всех людях Писания."
+            },
+            "59:4": {
+              "explanation": "Причиной наказания группы из 59:2 названо её противодействие Аллаху и Его посланнику.",
+              "key_phrase": {
+                "text": "они воспротивились Аллаху и Его Посланнику",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-59-2"
+              ],
+              "context_verse_keys": [
+                "59:2"
+              ],
+              "qualification": "Речь о конкретной изгнанной группе, а не обо всех людях Писания."
+            }
+          }
+        }
+      ],
+      "scope_note": "Сохранён заголовок исходного указателя. Подпункты описывают отношения мусульманской общины с указанными в аятах группами, а не свойства всех этнических арабов; этноним «арабы» в этих аятах не назван."
+    },
+    {
+      "id": "topic-0033",
+      "title": "А'раф",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0033-item-001",
+          "description": "Люди на А'рафе",
+          "relation_type": "topic",
+          "verse_keys": [
+            "7:46",
+            "7:47",
+            "7:48",
+            "7:49"
+          ],
+          "verse_notes": {
+            "7:46": {
+              "explanation": "Названы люди на оградах между обитателями Рая и Огня; они распознают обе стороны и желают войти в Рай.",
+              "key_phrase": {
+                "text": "а на оградах будут люди",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-7-46"
+              ],
+              "qualification": "Толкователи передают разные объяснения того, кто эти люди; единый бесспорный состав группы здесь не утверждается."
+            },
+            "7:47": {
+              "explanation": "Люди из предыдущего аята просят не помещать их вместе с несправедливыми обитателями Огня.",
+              "key_phrase": {
+                "text": "Не помещай нас с людьми несправедливыми",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-7-46"
+              ],
+              "context_verse_keys": [
+                "7:46"
+              ]
+            },
+            "7:48": {
+              "explanation": "Люди на оградах прямо названы и обращаются к тем, кому не помогли накопленное и высокомерие.",
+              "key_phrase": {
+                "text": "Люди на оградах обратятся к мужчинам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-7-46"
+              ]
+            },
+            "7:49": {
+              "explanation": "Продолжается разговор у оград и звучит разрешение войти в Рай; Ибн Касир приводит отнесение этого разрешения к людям А'рафа.",
+              "key_phrase": {
+                "text": "Войдите в Рай! Вы не познаете страха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-7-49"
+              ],
+              "context_verse_keys": [
+                "7:46",
+                "7:48"
+              ],
+              "qualification": "Отнесение разрешения войти в Рай к людям А'рафа приведено как толкование Ибн Касира; сам аят не повторяет их название."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0034",
+      "title": "Арафат",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0034-item-001",
+          "description": "Поминание Аллаха после ухода с Арафата и просьба о прощении",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:198",
+            "2:199"
+          ],
+          "verse_notes": {
+            "2:198": {
+              "explanation": "После ухода с Арафата предписано поминать Аллаха у аль-Машар аль-Харам; Ибн Касир поясняет связь этого места с Муздалифой.",
+              "key_phrase": {
+                "text": "А когда вы вернетесь с Арафата, поминайте Аллаха в Заповедном месте",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-198"
+              ],
+              "qualification": "Аль-Машар аль-Харам в этом наставлении связан с Муздалифой; слова «в Заповедном месте» не следует автоматически понимать как Каабу."
+            },
+            "2:199": {
+              "explanation": "Продолжая наставление о выходе с Арафата, аят велит двигаться с остальными людьми и просить Аллаха о прощении.",
+              "key_phrase": {
+                "text": "молите Аллаха о прощении",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-199"
+              ],
+              "context_verse_keys": [
+                "2:198"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0035",
+      "title": "армия",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0035-item-001",
+          "description": "Войско Сулеймана: построение, смотр и проверка отсутствия",
+          "relation_type": "topic",
+          "verse_keys": [
+            "27:17",
+            "27:20",
+            "27:21",
+            "27:22",
+            "27:27"
+          ],
+          "verse_notes": {
+            "27:17": {
+              "explanation": "Войско Сулеймана из джиннов, людей и птиц собрано и разделено на боевые порядки.",
+              "key_phrase": {
+                "text": "Они были разделены на боевые порядки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "27:20": {
+              "explanation": "Сулейман проводит смотр птиц и замечает отсутствие удода.",
+              "key_phrase": {
+                "text": "оказался в числе отсутствующих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "27:21": {
+              "explanation": "От отсутствующего удода требуется ясное обоснование; это продолжение рассказа о смотре войска.",
+              "key_phrase": {
+                "text": "если он не приведет ясного довода",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-27-20"
+              ],
+              "context_verse_keys": [
+                "27:20"
+              ]
+            },
+            "27:22": {
+              "explanation": "Вернувшийся удод сообщает причину отсутствия: он принёс известие из Сабы; это ответ на проверку Сулеймана.",
+              "key_phrase": {
+                "text": "Я прибыл к тебе из Сабы (Савы) с достоверным известием",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-27-22"
+              ],
+              "context_verse_keys": [
+                "27:20",
+                "27:21"
+              ]
+            },
+            "27:27": {
+              "explanation": "Сулейман объявляет, что проверит правдивость доклада удода; рассказ прямо касается проверки объяснения отсутствия.",
+              "key_phrase": {
+                "text": "Посмотрим, сказал ли ты правду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-27-27"
+              ],
+              "context_verse_keys": [
+                "27:20",
+                "27:21"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0036",
+      "title": "Асийа бинт Мазахим",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0036-item-001",
+          "description": "Асийа, жена Фараона: пример для верующих",
+          "relation_type": "person_or_event_association",
+          "verse_keys": [
+            "66:11"
+          ],
+          "verse_notes": {
+            "66:11": {
+              "explanation": "Жена Фараона приведена как пример верующим; хадис аль-Бухари называет её Асией, а Ибн Касир приводит имя с отчеством.",
+              "key_phrase": {
+                "text": "А в качестве примера о верующих Аллах привел жену Фараона",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "bukhari-3411",
+                "ksu-katheer-66-11"
+              ],
+              "qualification": "Сам аят не называет жену Фараона по имени. Асией её называет хадис аль-Бухари 3411; «бинт Мазахим» приведено у Ибн Касира. Отчество не приписывается этому хадису."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0037",
+      "title": "Асма бинт Аби Бакр",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0037-item-001",
+          "description": "Асма и её мать: доброта к невоюющим иноверцам",
+          "relation_type": "person_or_event_association",
+          "verse_keys": [
+            "60:8"
+          ],
+          "verse_notes": {
+            "60:8": {
+              "explanation": "Разрешены доброта и справедливость к невоюющим; хадис об Асме и её матери поясняет личную связь с этим наставлением.",
+              "key_phrase": {
+                "text": "быть добрыми и справедливыми",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "bukhari-5978",
+                "ksu-katheer-60-8"
+              ],
+              "qualification": "В хадисе Асма спрашивает о поддержании связи с матерью и получает разрешение. Связь с ниспосланием 60:8 добавляет Ибн Уяйна; это не прямая речь Пророка о причине ниспослания."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0038",
+      "title": "асхабы (сподвижники Пророка)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0038-item-001",
+          "description": "Неучастие в походе на Табук и положение оставшихся верующих",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:38",
+            "9:39",
+            "9:102",
+            "9:106",
+            "9:118"
+          ],
+          "verse_notes": {
+            "9:38": {
+              "explanation": "Верующих укоряют за нежелание выступать в поход; Ибн Касир относит призыв к походу на Табук.",
+              "key_phrase": {
+                "text": "вы тяжело припадаете к земле",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-38"
+              ]
+            },
+            "9:39": {
+              "explanation": "Предупреждение за отказ выступить продолжает укор из 9:38, связанный тафсиром с Табуком.",
+              "key_phrase": {
+                "text": "Если вы не выступите в поход",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-38"
+              ],
+              "context_verse_keys": [
+                "9:38"
+              ]
+            },
+            "9:102": {
+              "explanation": "Описаны признавшие свой грех верующие; Ибн Касир приводит связь с оставшимися от похода на Табук и отмечает другие сообщения.",
+              "key_phrase": {
+                "text": "которые признались в своих грехах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-102"
+              ],
+              "qualification": "Ибн Касир приводит разные сообщения об обстоятельствах и составе группы, включая другое событие. Связь с Табуком сохранена как приведённое толкование; единственная бесспорная причина ниспослания и точное число людей не заявляются."
+            },
+            "9:106": {
+              "explanation": "Решение о некоторых людях отложено; Ибн Касир относит аят к троим верующим, оставшимся от Табукского похода.",
+              "key_phrase": {
+                "text": "Он либо накажет их, либо примет их покаяния",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-106",
+                "bukhari-4418"
+              ],
+              "context_verse_keys": [
+                "9:118"
+              ],
+              "qualification": "Отсрочка решения о троих отличается от положения лицемеров. Связь 9:106 с ними следует из тафсира; хадис подтверждает ожидание решения и последующее прощение."
+            },
+            "9:118": {
+              "explanation": "Описано прощение троих после тяжёлого ожидания; рассказ Ка'ба у аль-Бухари подтверждает их связь с неучастием в походе на Табук.",
+              "key_phrase": {
+                "text": "Аллах простил и тех троих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4418"
+              ],
+              "qualification": "Ка'б ибн Малик, Мурара ибн ар-Раби и Хиляль ибн Умайя названы в рассказе Ка'ба. Он поясняет, что выражение о троих относится к отсрочке решения по их делу."
+            }
+          }
+        },
+        {
+          "id": "topic-0038-item-002",
+          "description": "Вера, поклонение и достоинства сподвижников",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:100",
+            "9:108",
+            "48:18",
+            "48:29"
+          ],
+          "verse_notes": {
+            "9:100": {
+              "explanation": "Мухаджиры и ансары прямо названы среди первых верующих, которыми доволен Аллах.",
+              "key_phrase": {
+                "text": "Аллах доволен первыми из мухаджиров и ансаров",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:108": {
+              "explanation": "Похвалены любящие очищение мужи в мечети, основанной на богобоязненности; тафсир связывает описание с общиной сподвижников.",
+              "key_phrase": {
+                "text": "В ней есть мужи, которые любят очищаться",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-108"
+              ],
+              "qualification": "Ибн Касир обсуждает мечеть Куба и также приводит хадис о мечети Пророка. Здесь сохранена похвала любящим очищение, без утверждения единственной идентификации мечети или достоверности всех частных сообщений."
+            },
+            "48:18": {
+              "explanation": "Верующие, присягавшие Пророку под деревом, прямо удостоены довольства Аллаха; это конкретная группа его сподвижников.",
+              "key_phrase": {
+                "text": "Аллах остался доволен верующими, когда они присягали тебе под деревом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "48:29": {
+              "explanation": "Описаны находящиеся вместе с Посланником: взаимное милосердие, поклонение и стремление к довольству Аллаха.",
+              "key_phrase": {
+                "text": "Ты видишь, как они кланяются и падают ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0038-item-003",
+          "description": "о принятии Аллахом раскаяния группы сподвижников Пророка",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:117",
+            "9:118"
+          ],
+          "verse_notes": {
+            "9:117": {
+              "explanation": "Прямо сказано о принятии покаяния Пророка, мухаджиров и ансаров, последовавших за ним в трудный час; тафсир относит это к Табуку.",
+              "key_phrase": {
+                "text": "мухаджиров и ансаров, которые последовали за ним в трудный час",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-9-117",
+                "bukhari-4418"
+              ],
+              "qualification": "Здесь речь о последовавших за Пророком в трудный час; оставшиеся трое описаны отдельно в 9:118."
+            },
+            "9:118": {
+              "explanation": "Описано прощение троих после тяжёлого ожидания; рассказ Ка'ба у аль-Бухари подтверждает их связь с неучастием в походе на Табук.",
+              "key_phrase": {
+                "text": "Аллах простил и тех троих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4418"
+              ],
+              "context_verse_keys": [
+                "9:117"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0038-item-004",
+          "description": "Мольба за сподвижников и верующих предшественников",
+          "relation_type": "topic",
+          "verse_keys": [
+            "59:10"
+          ],
+          "verse_notes": {
+            "59:10": {
+              "explanation": "Пришедшие после переселенцев и ансаров молятся за уверовавших раньше; Ибн Касир поясняет отношение последующих верующих к сподвижникам.",
+              "key_phrase": {
+                "text": "Прости нас и наших братьев, которые уверовали раньше нас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-59-10"
+              ],
+              "context_verse_keys": [
+                "59:8",
+                "59:9"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0039",
+      "title": "Аус ибн ас-Самит",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0039-item-002",
+          "description": "Зихар Ауса ибн ас-Самита и положения об искуплении",
+          "relation_type": "person_or_event_association",
+          "verse_keys": [
+            "58:1",
+            "58:2",
+            "58:3",
+            "58:4"
+          ],
+          "verse_notes": {
+            "58:1": {
+              "explanation": "Аллах услышал жалобу женщины о муже; хадис Абу Дауда называет этим мужем Ауса ибн ас-Самита и связывает событие с ниспосланием аятов о зихаре.",
+              "key_phrase": {
+                "text": "относительно своего мужа и пожаловалась Аллаху",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "abudawud-2214",
+                "ksu-katheer-58-1"
+              ],
+              "qualification": "Имя мужа устанавливается по Абу Дауду 2214; аль-Албани оценил сообщение как хасан с исключением добавки о мере корзины, которая здесь не используется. Аяты об искуплении не ограничены только Аусом."
+            },
+            "58:2": {
+              "explanation": "Отвергается уподобление жены матери при зихаре; это начало положений, связанных в хадисе с поступком Ауса.",
+              "key_phrase": {
+                "text": "Их жены - не матери им",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "abudawud-2214",
+                "ksu-katheer-58-1"
+              ],
+              "context_verse_keys": [
+                "58:1"
+              ]
+            },
+            "58:3": {
+              "explanation": "За отказ от сказанного при зихаре предписано освободить раба до супружеской близости; это первое искупление в связанном с Аусом отрывке.",
+              "key_phrase": {
+                "text": "должны освободить одного раба прежде, чем они прикоснутся друг к другу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "abudawud-2214",
+                "ksu-katheer-58-1"
+              ],
+              "context_verse_keys": [
+                "58:1"
+              ]
+            },
+            "58:4": {
+              "explanation": "При невозможности освобождения раба предписан непрерывный двухмесячный пост, а при неспособности к нему - кормление шестидесяти бедняков.",
+              "key_phrase": {
+                "text": "он должен поститься в течение двух месяцев без перерыва",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "abudawud-2214",
+                "ksu-katheer-58-1"
+              ],
+              "context_verse_keys": [
+                "58:1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0040",
+      "title": "ахл ал-Китаб",
+      "see_also": [
+        "люди Писания"
+      ],
+      "items": [],
+      "see_also_topic_ids": [
+        "topic-0223"
+      ]
+    }
+  ]
+}

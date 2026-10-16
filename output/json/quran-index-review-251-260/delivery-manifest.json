@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 232,
+    "retained_original_links": 209,
+    "removed_original_links": 23,
+    "added_links": 4,
+    "result_links": 213,
+    "result_unique_verses": 192,
+    "cumulative_topics": 260,
+    "cumulative_links": 11045
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 251-260.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-251-260\\Указатель аятов - темы 251-260.json",
+      "sha256": "b87d771667123c9da3ec68bcc6735133acc5094d22cfb63541f97d69c1b02259"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-260.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-251-260\\Указатель аятов - проверенные темы 1-260.json",
+      "sha256": "71363f795130c83bb61f0e02a6396b284bf387cbe6e8cf942775c93d62352a4c"
+    },
+    {
+      "name": "Темы 251-260 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-251-260\\Темы 251-260 - журнал проверки.json",
+      "sha256": "16303320536e9f8b58d63b00174b7fa1676a10811f6e30276e7cc38ae438f82b"
+    },
+    {
+      "name": "Темы 251-260 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-251-260\\Темы 251-260 - отчёт.md",
+      "sha256": "5ef38493d40dea984a8ee22c5caedf0ca8adfda5c190fc6f864f047fe3b2c759"
+    }
+  ]
+}

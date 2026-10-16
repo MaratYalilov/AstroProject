@@ -1,0 +1,1491 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно."
+    },
+    "ik-2-217": {
+      "title": "Ибн Касир, толкование 2:217 (сокращённый английский перевод)",
+      "url": "https://quran.com/2:217/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Рассказ о походе отряда Ибн Джахша к Нахле",
+      "role": "interpretation_evidence"
+    },
+    "ik-2-218": {
+      "title": "Ибн Касир, толкование 2:218",
+      "url": "https://quran.com/2:218/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Сообщение Ибн Исхака о надежде участников похода на награду",
+      "role": "interpretation_evidence"
+    },
+    "muslim-2413a": {
+      "title": "Сахих Муслим, 2413a",
+      "url": "https://sunnah.com/muslim:2413a",
+      "type": "hadith",
+      "locator": "2413a",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ik-18-28": {
+      "title": "Ибн Касир, толкование 18:28",
+      "url": "https://quran.com/18:28/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Начало толкования; среди спутников назван Ибн Масуд",
+      "role": "interpretation_evidence"
+    },
+    "ik-2-221": {
+      "title": "Ибн Касир, толкование 2:221",
+      "url": "https://quran.com/2:221/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Сообщение ас-Судди после слов «ولأمة مؤمنة خير من مشركة»",
+      "role": "interpretation_evidence"
+    },
+    "tabari-6-93": {
+      "title": "Ат-Табари, толкование 6:93",
+      "url": "https://quran.com/6:93/tafsirs/ar-tafsir-al-tabari",
+      "type": "tafsir",
+      "locator": "Авторское объяснение перед сообщением 13555 и разные мнения в сообщениях 13555–13558",
+      "role": "interpretation_evidence"
+    },
+    "ik-2-146": {
+      "title": "Ибн Касир, толкование 2:146 (сокращённый английский перевод)",
+      "url": "https://quran.com/2:146/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Рассказ, приведённый со ссылкой на аль-Куртуби, об узнавании Пророка Ибн Саламом",
+      "role": "interpretation_evidence"
+    },
+    "ik-2-208": {
+      "title": "Ибн Касир, толкование 2:208",
+      "url": "https://quran.com/2:208/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Ибн Касир оспаривает включение Ибн Салама в рассказ о соблюдении субботы",
+      "role": "interpretation_evidence"
+    },
+    "ik-3-113": {
+      "title": "Ибн Касир, толкование 3:113 (сокращённый английский перевод)",
+      "url": "https://quran.com/3:113/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Толкование блока 3:113–117; Ибн Салам назван среди уверовавших людей Писания",
+      "role": "interpretation_evidence"
+    },
+    "ik-3-113-ar": {
+      "title": "Ибн Касир, толкование 3:113",
+      "url": "https://quran.com/3:113/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Приводятся разные объяснения: сообщение Ибн Масуда и толкование об уверовавших людях Писания",
+      "role": "interpretation_evidence"
+    },
+    "ik-4-162": {
+      "title": "Ибн Касир, толкование 4:162",
+      "url": "https://quran.com/4:162/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Сообщение, приписанное Ибн Аббасу, об Ибн Саламе и других уверовавших",
+      "role": "interpretation_evidence"
+    },
+    "qurtubi-5-55": {
+      "title": "Аль-Куртуби, толкование 5:55",
+      "url": "https://quran.com/5:55/tafsirs/ar-tafseer-al-qurtubi",
+      "type": "tafsir",
+      "locator": "Начало: рассказ об обращении Ибн Салама; далее общий смысл и разные именные отнесения",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-3812": {
+      "title": "Сахих аль-Бухари, 3812",
+      "url": "https://sunnah.com/bukhari:3812",
+      "type": "hadith",
+      "locator": "3812",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ik-46-10": {
+      "title": "Ибн Касир, толкование 46:10",
+      "url": "https://quran.com/46:10/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Разногласие об имени свидетеля и времени ниспослания; сообщение из аль-Бухари и Муслима",
+      "role": "interpretation_evidence"
+    },
+    "ik-5-53": {
+      "title": "Ибн Касир, толкование 5:53",
+      "url": "https://quran.com/5:53/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Разные рассказы о 5:51–53, включая Ибн Убайя и Убаду ибн ас-Самита",
+      "role": "interpretation_evidence"
+    },
+    "ik-9-74": {
+      "title": "Ибн Касир, толкование 9:74",
+      "url": "https://quran.com/9:74/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Мнение Катады об Ибн Убайе, сообщения об аль-Джуласe и замечание о возможном смешении рассказов",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4670": {
+      "title": "Сахих аль-Бухари, 4670",
+      "url": "https://sunnah.com/bukhari:4670",
+      "type": "hadith",
+      "locator": "4670",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4750": {
+      "title": "Сахих аль-Бухари, 4750",
+      "url": "https://sunnah.com/bukhari:4750",
+      "type": "hadith",
+      "locator": "4750",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "muslim-3029a": {
+      "title": "Сахих Муслим, 3029a",
+      "url": "https://sunnah.com/muslim:3029a",
+      "type": "hadith",
+      "locator": "3029a",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4900": {
+      "title": "Сахих аль-Бухари, 4900",
+      "url": "https://sunnah.com/bukhari:4900",
+      "type": "hadith",
+      "locator": "4900",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4903": {
+      "title": "Сахих аль-Бухари, 4903",
+      "url": "https://sunnah.com/bukhari:4903",
+      "type": "hadith",
+      "locator": "4903",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ik-63-6": {
+      "title": "Ибн Касир, толкование 63:6",
+      "url": "https://quran.com/63:6/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Толкование контекста суры об Ибн Убайе; разногласие о датировке похода",
+      "role": "interpretation_evidence"
+    },
+    "ik-17-90": {
+      "title": "Ибн Касир, толкование 17:90",
+      "url": "https://quran.com/17:90/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Рассказ Ибн Исхака: собрание курайшитов и отдельное требование Ибн Аби Умаййи о восхождении",
+      "role": "interpretation_evidence"
+    },
+    "ik-17-94": {
+      "title": "Ибн Касир, толкование 17:94 (сокращённый английский перевод)",
+      "url": "https://quran.com/17:94/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Отдельный блок 17:94–95 об общем возражении против посланника-человека",
+      "role": "interpretation_evidence"
+    },
+    "tirmidhi-3331": {
+      "title": "Джами ат-Тирмизи, 3331",
+      "url": "https://sunnah.com/tirmidhi:3331",
+      "type": "hadith",
+      "locator": "3331",
+      "hadith_grade": "ат-Тирмизи: хасан гариб; на Sunnah.com: сахих (Darussalam)",
+      "role": "interpretation_evidence"
+    },
+    "ik-80-1": {
+      "title": "Ибн Касир, толкование 80:1 (сокращённый английский перевод)",
+      "url": "https://quran.com/80:1/tafsirs/en-tafisr-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Толкование 80:1–16, в том числе противопоставление слепого искателя наставления и знатного собеседника",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4593": {
+      "title": "Сахих аль-Бухари, 4593",
+      "url": "https://sunnah.com/bukhari:4593",
+      "type": "hadith",
+      "locator": "4593",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4584": {
+      "title": "Сахих аль-Бухари, 4584",
+      "url": "https://sunnah.com/bukhari:4584",
+      "type": "hadith",
+      "locator": "4584",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-3653": {
+      "title": "Сахих аль-Бухари, 3653",
+      "url": "https://sunnah.com/bukhari:3653",
+      "type": "hadith",
+      "locator": "3653",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ik-9-40": {
+      "title": "Ибн Касир, толкование 9:40",
+      "url": "https://quran.com/9:40/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Абу Бакр как спутник Пророка в пещере при переселении",
+      "role": "interpretation_evidence"
+    },
+    "bukhari-4845": {
+      "title": "Сахих аль-Бухари, 4845",
+      "url": "https://sunnah.com/bukhari:4845",
+      "type": "hadith",
+      "locator": "4845",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "qurtubi-46-15": {
+      "title": "Аль-Куртуби, толкование 46:15",
+      "url": "https://quran.com/46:15/tafsirs/ar-tafseer-al-qurtubi",
+      "type": "tafsir",
+      "locator": "Четвёртый–шестой вопросы: отнесение к Абу Бакру, другие мнения и общий смысл",
+      "role": "interpretation_evidence"
+    },
+    "ik-58-22": {
+      "title": "Ибн Касир, толкование 58:22",
+      "url": "https://quran.com/58:22/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Объяснение «или их сыновьями»: ас-Сиддик и Абдуррахман; приведено со словами «говорилось»",
+      "role": "interpretation_evidence"
+    },
+    "ik-92-21": {
+      "title": "Ибн Касир, толкование 92:21",
+      "url": "https://quran.com/92:21/tafsirs/ar-tafsir-ibn-kathir",
+      "type": "tafsir",
+      "locator": "Заключение толкования суры: Абу Бакр, распространённость этого отнесения и общий смысл аятов",
+      "role": "interpretation_evidence"
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0001",
+      "title": "'Абдуллах ибн Джахш",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0001-item-001",
+          "description": "поход отряда 'Абдуллаха ибн Джахша как повод ниспослания 2:217 в изложении Ибн Касира",
+          "relation_type": "tafsir_association",
+          "verse_keys": [
+            "2:217"
+          ],
+          "verse_notes": {
+            "2:217": {
+              "explanation": "Ибн Касир связывает вопрос о бое в запретный месяц с походом отряда под командованием Ибн Джахша к Нахле.",
+              "key_phrase": {
+                "text": "Они спрашивают тебя о сражении в запретный месяц.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-2-217"
+              ],
+              "qualification": "Имя командира устанавливается из тафсира; в тексте аята оно не названо. Здесь не присваивается отдельная оценка иснаду рассказа."
+            }
+          }
+        },
+        {
+          "id": "topic-0001-item-002",
+          "description": "надежда участников похода Ибн Джахша на награду — в толковании 2:218",
+          "relation_type": "tafsir_association",
+          "verse_keys": [
+            "2:218"
+          ],
+          "verse_notes": {
+            "2:218": {
+              "explanation": "В сообщении Ибн Исхака, приведённом Ибн Касиром, участники похода спрашивают о награде; с их надеждой связывается этот аят.",
+              "key_phrase": {
+                "text": "надеются на милость Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-2-218"
+              ],
+              "context_verse_keys": [
+                "2:217"
+              ],
+              "qualification": "Сохранена связь, сообщаемая в тафсире; общий смысл аята шире одного отряда."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0002",
+      "title": "'Абдуллах ибн Мас'уд",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0002-item-001",
+          "description": "аяты, связанные с 'Абдуллахом ибн Мас'удом",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "6:52",
+            "18:28"
+          ],
+          "verse_notes": {
+            "6:52": {
+              "explanation": "Сад ибн Аби Ваккас прямо называет Ибн Масуда среди шести спутников, которых язычники требовали отдалить; вслед за этим был ниспослан аят.",
+              "key_phrase": {
+                "text": "Не прогоняй тех, которые взывают к своему Господу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "muslim-2413a"
+              ]
+            },
+            "18:28": {
+              "explanation": "Ибн Касир называет Ибн Масуда среди спутников, общество которых знатные курайшиты не желали разделять, и сопоставляет предписание с 6:52.",
+              "key_phrase": {
+                "text": "Будь же терпелив вместе с теми, которые взывают к своему Господу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-18-28"
+              ],
+              "context_verse_keys": [
+                "6:52"
+              ],
+              "qualification": "Хадис Муслима непосредственно удостоверяет повод 6:52; именная связь 18:28 здесь опирается именно на объяснение Ибн Касира."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0003",
+      "title": "'Абдуллах ибн Раваха",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0003-item-001",
+          "description": "рассказ о браке 'Абдуллаха ибн Равахи с верующей невольницей, приведённый в толковании 2:221",
+          "relation_type": "tafsir_association",
+          "verse_keys": [
+            "2:221"
+          ],
+          "verse_notes": {
+            "2:221": {
+              "explanation": "Ибн Касир приводит от ас-Судди рассказ о верующей невольнице Ибн Равахи, её освобождении и браке с ней, поясняя преимущество веры перед происхождением.",
+              "key_phrase": {
+                "text": "верующая невольница лучше язычницы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-2-221"
+              ],
+              "qualification": "Проверено наличие и содержание именной связи в тафсире. Этот рассказ не включён как достоверно установленная причина ниспослания; оценка «сахих» ему не присваивается."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0004",
+      "title": "'Абдуллах ибн Са'д ибн Аби Сарх ал-Амир",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0004-item-001",
+          "description": "отнесение слов 6:93 к 'Абдуллаху ибн Саду ибн Аби Сарху в толковании ат-Табари",
+          "relation_type": "tafsir_association",
+          "verse_keys": [
+            "6:93"
+          ],
+          "verse_notes": {
+            "6:93": {
+              "explanation": "Ат-Табари в собственном объяснении относит притязание на создание подобия откровению к Ибн Аби Сарху и приводит разные сообщения об адресатах аята.",
+              "key_phrase": {
+                "text": "Я ниспошлю подобное тому, что ниспослал Аллах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "tabari-6-93"
+              ],
+              "qualification": "Это отнесение в конкретном тафсире, а не прямое называние человека в аяте. Подробности рассказов о записи откровения здесь не утверждаются как достоверный исторический факт."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0005",
+      "title": "'Абдуллах ибн Салама",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0005-item-001",
+          "description": "аяты, связанные с 'Абдуллахом ибн Саламой",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "2:146",
+            "3:113",
+            "3:114",
+            "3:115",
+            "4:162",
+            "5:55",
+            "46:10"
+          ],
+          "verse_notes": {
+            "2:146": {
+              "explanation": "В толковании приводится рассказ об Ибн Саламе как знатоке Писания, узнавшем Пророка; этим иллюстрируется сравнение с узнаванием собственных сыновей.",
+              "key_phrase": {
+                "text": "как знают своих сыновей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-2-146"
+              ],
+              "qualification": "Именная связь — поясняющий рассказ в тафсире. Слова о сознательном сокрытии истины не следует относить к уверовавшему Ибн Саламу."
+            },
+            "3:113": {
+              "explanation": "Ибн Касир называет Ибн Салама среди уверовавших людей Писания, к которым многие толкователи относят похвалу в этом отрывке.",
+              "key_phrase": {
+                "text": "Среди людей Писания есть праведные люди",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-3-113",
+                "ik-3-113-ar"
+              ],
+              "qualification": "Приводится также другое объяснение повода; отнесение к Ибн Саламу не объявляется единственным."
+            },
+            "3:114": {
+              "explanation": "Продолжается характеристика праведных людей Писания из 3:113; по указанному толкованию к ним относится и Ибн Салам.",
+              "key_phrase": {
+                "text": "торопятся совершать добрые дела",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-3-113"
+              ],
+              "context_verse_keys": [
+                "3:113"
+              ],
+              "qualification": "Контекстная связь с группой, а не отдельное сообщение о ниспослании этого аята лично об Ибн Саламе."
+            },
+            "3:115": {
+              "explanation": "Обещание не отвергать добрые дела относится к той же похваленной группе; именная связь следует из толкования 3:113.",
+              "key_phrase": {
+                "text": "Какой бы добрый поступок они ни совершили, ничто не будет отвергнуто от них.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-3-113"
+              ],
+              "context_verse_keys": [
+                "3:113",
+                "3:114"
+              ]
+            },
+            "4:162": {
+              "explanation": "Ибн Касир приводит отнесённое к Ибн Аббасу объяснение, называющее Ибн Салама и других людей Писания, принявших ислам.",
+              "key_phrase": {
+                "text": "которые обладают основательными знаниями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-4-162"
+              ],
+              "qualification": "Имя приведено в толковании; аят хвалит целую группу верующих, а не исключительно одного человека."
+            },
+            "5:55": {
+              "explanation": "Аль-Куртуби приводит рассказ об обращении Ибн Салама после разрыва прежних связей и связывает ответ с покровительством Аллаха, Посланника и верующих.",
+              "key_phrase": {
+                "text": "Вашим Покровителем является только Аллах, Его Посланник и верующие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "qurtubi-5-55"
+              ],
+              "qualification": "Сохранено именно сообщаемое аль-Куртуби именное отнесение, без оценки рассказа как сахих. Сам толкователь подчёркивает общий смысл слов о верующих."
+            },
+            "46:10": {
+              "explanation": "В сообщении, переданном аль-Бухари, свидетелем из сынов Исраила назван Ибн Салам; это отнесение приведено также у Ибн Касира.",
+              "key_phrase": {
+                "text": "Свидетель из числа сынов Исраила",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "bukhari-3812",
+                "ik-46-10"
+              ],
+              "qualification": "В арабском тексте аль-Бухари отмечено сомнение передатчика, входят ли слова об аяте в сам рассказ. Есть разногласие о мекканской датировке и личности свидетеля; нельзя утверждать, что аят был ниспослан только об Ибн Саламе."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0006",
+      "title": "'Абдуллах ибн Убайй ибн Салул",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0006-item-001",
+          "description": "аяты, связанные с 'Абдуллахом ибн Убайй ибн Салулем",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "5:51",
+            "5:52",
+            "5:53",
+            "9:74",
+            "9:80",
+            "9:84",
+            "24:11",
+            "24:33",
+            "63:1",
+            "63:2",
+            "63:3",
+            "63:4",
+            "63:5",
+            "63:6",
+            "63:7",
+            "63:8"
+          ],
+          "verse_notes": {
+            "5:51": {
+              "explanation": "Ибн Касир среди объяснений 5:51–53 приводит историю сохранения Ибн Убайем прежних союзов в противоположность Убаде ибн ас-Самиту.",
+              "key_phrase": {
+                "text": "Если же кто-либо из вас считает их своими помощниками и друзьями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-5-53"
+              ],
+              "context_verse_keys": [
+                "5:52",
+                "5:53"
+              ],
+              "qualification": "Это одно из приведённых объяснений исторического контекста; аят содержит общее обращение."
+            },
+            "5:52": {
+              "explanation": "В рассказе, приведённом Ибн Касиром, Ибн Убайй оправдывает сохранение союзов страхом перемены обстоятельств, соответствующим приведённым словам.",
+              "key_phrase": {
+                "text": "Мы боимся, что нас постигнет беда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-5-53"
+              ],
+              "context_verse_keys": [
+                "5:51"
+              ],
+              "qualification": "Именное отнесение из тафсира; исключительность этого повода не утверждается."
+            },
+            "5:53": {
+              "explanation": "Разоблачение клятв завершает блок 5:51–53, для которого Ибн Касир приводит, среди других объяснений, историю Ибн Убайя.",
+              "key_phrase": {
+                "text": "приносили величайшие клятвы именем Аллаха о том, что они были с вами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-5-53"
+              ],
+              "context_verse_keys": [
+                "5:51",
+                "5:52"
+              ],
+              "qualification": "Обобщение о лицемерах в этом контексте, а не отдельное называние Ибн Убайя."
+            },
+            "9:74": {
+              "explanation": "Ибн Касир приводит мнение Катады, связывающее отрицание сказанных слов с Ибн Убайем; поэтому именная отсылка имеет тафсирное основание.",
+              "key_phrase": {
+                "text": "Они клянутся Аллахом, что ничего не говорили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-9-74"
+              ],
+              "qualification": "В том же толковании приводятся сообщения об аль-Джуласе и других лицемерах и отмечается возможное смешение рассказов. Это спорное отнесение, а не удостоверение единственного повода ниспослания."
+            },
+            "9:80": {
+              "explanation": "Аль-Бухари передаёт, что Пророк сослался на эти слова при обсуждении просьбы совершить погребальную молитву по Ибн Убайю.",
+              "key_phrase": {
+                "text": "даже если ты попросишь для них прощения семьдесят раз",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4670"
+              ],
+              "context_verse_keys": [
+                "9:84"
+              ]
+            },
+            "9:84": {
+              "explanation": "В том же достоверном сообщении запрет погребальной молитвы по лицемерам связывается с событием после смерти Ибн Убайя.",
+              "key_phrase": {
+                "text": "Никогда не совершай намаз по кому-либо из них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4670"
+              ],
+              "context_verse_keys": [
+                "9:80"
+              ]
+            },
+            "24:11": {
+              "explanation": "В рассказе Аиши у аль-Бухари Ибн Убайй назван главным распространителем навета; это поясняет слова о взявшем на себя наибольшую часть греха.",
+              "key_phrase": {
+                "text": "А тому из них, кто взял на себя большую часть этого",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4750"
+              ]
+            },
+            "24:33": {
+              "explanation": "Джабир в достоверном сообщении Муслима прямо связывает запрет с Ибн Убайем, принуждавшим свою невольницу к проституции.",
+              "key_phrase": {
+                "text": "Не принуждайте своих невольниц к блуду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "muslim-3029a"
+              ]
+            },
+            "63:1": {
+              "explanation": "Зайд ибн Аркам сообщает, что начало суры было ниспослано после отрицания Ибн Убайем собственных высказываний.",
+              "key_phrase": {
+                "text": "лицемеры являются лжецами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4900"
+              ]
+            },
+            "63:2": {
+              "explanation": "Описание клятв как щита соответствует поведению Ибн Убайя и его товарищей в подтверждённом рассказе о начале суры.",
+              "key_phrase": {
+                "text": "Они сделали свои клятвы щитом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4900"
+              ],
+              "context_verse_keys": [
+                "63:1"
+              ],
+              "qualification": "Аят характеризует группу лицемеров; личная связь следует из контекста."
+            },
+            "63:3": {
+              "explanation": "Объясняется состояние той же группы лицемеров; связь с Ибн Убайем сохраняется как часть удостоверенного контекста суры.",
+              "key_phrase": {
+                "text": "они уверовали, а затем стали неверующими",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4900"
+              ],
+              "context_verse_keys": [
+                "63:1",
+                "63:2"
+              ],
+              "qualification": "Это характеристика группы, а не самостоятельное биографическое сообщение об Ибн Убайе."
+            },
+            "63:4": {
+              "explanation": "Аль-Бухари передаёт комментарий Зайда ибн Аркама о внешней привлекательности лицемеров в рассказе об Ибн Убайе.",
+              "key_phrase": {
+                "text": "Они подобны прислоненным бревнам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4903"
+              ],
+              "context_verse_keys": [
+                "63:1"
+              ]
+            },
+            "63:5": {
+              "explanation": "В сообщении Зайда ибн Аркама описан отказ этой группы прийти за просьбой о прощении после разоблачения слов Ибн Убайя.",
+              "key_phrase": {
+                "text": "они качают головой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4903"
+              ]
+            },
+            "63:6": {
+              "explanation": "Продолжает ответ на отказ в 63:5; Ибн Касир прямо относит этот контекст к Ибн Убайю.",
+              "key_phrase": {
+                "text": "Аллах не простит их",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-63-6"
+              ],
+              "context_verse_keys": [
+                "63:5"
+              ]
+            },
+            "63:7": {
+              "explanation": "Зайд ибн Аркам в хадисе аль-Бухари прямо приписывает Ибн Убайю призыв прекратить расходы на спутников Пророка.",
+              "key_phrase": {
+                "text": "Ничего не тратьте на тех, кто возле Посланника Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4900"
+              ]
+            },
+            "63:8": {
+              "explanation": "В достоверном рассказе Зайда ибн Аркама Ибн Убайй произносит угрозу изгнать из Медины тех, кого считает униженными.",
+              "key_phrase": {
+                "text": "могущественные среди нас непременно изгонят оттуда презренных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4900"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0007",
+      "title": "'Абдуллах ибн Умаййа",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0007-item-001",
+          "description": "аяты, связанные с 'Абдуллахом ибн Умаййей",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "17:90",
+            "17:91",
+            "17:92",
+            "17:93"
+          ],
+          "verse_notes": {
+            "17:90": {
+              "explanation": "Начинает перечень требований курайшитов. В рассказе Ибн Исхака, приведённом Ибн Касиром, среди участников собрания назван Ибн Аби Умаййа.",
+              "key_phrase": {
+                "text": "пока ты не исторгнешь для нас из земли источник",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-17-90"
+              ],
+              "context_verse_keys": [
+                "17:91",
+                "17:92",
+                "17:93"
+              ],
+              "qualification": "Связь из исторического рассказа в тафсире, без присвоения его цепочке оценки сахих."
+            },
+            "17:91": {
+              "explanation": "Требование сада и рек входит в тот же перечень условий собравшихся курайшитов; Ибн Умаййа назван среди участников в тафсире.",
+              "key_phrase": {
+                "text": "пальмовой рощи и виноградника",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-17-90"
+              ],
+              "context_verse_keys": [
+                "17:90"
+              ],
+              "qualification": "Это требование группы; отдельно приписывать именно эти слова Ибн Умаййе нельзя."
+            },
+            "17:92": {
+              "explanation": "Требования обрушить небо или привести ангелов продолжают тот же разговор курайшитов, в котором тафсир называет Ибн Умаййю.",
+              "key_phrase": {
+                "text": "пока не обрушишь на нас небо кусками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-17-90"
+              ],
+              "context_verse_keys": [
+                "17:90",
+                "17:91"
+              ],
+              "qualification": "Контекст собрания, а не удостоверенная личная реплика Ибн Умаййи."
+            },
+            "17:93": {
+              "explanation": "В приведённом Ибн Касиром рассказе Ибн Аби Умаййа отдельно требует восхождения на небо и принесения книги.",
+              "key_phrase": {
+                "text": "пока ты не спустишься с Писанием, которое мы станем читать",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-17-90"
+              ],
+              "context_verse_keys": [
+                "17:90",
+                "17:91",
+                "17:92"
+              ],
+              "qualification": "В источнике он назван Абдуллахом ибн Аби Умаййей; эта форма добавлена как поисковый вариант имени. Личная реплика известна из тафсирного рассказа; имя в аяте не названо."
+            }
+          }
+        }
+      ],
+      "aliases": [
+        "'Абдуллах ибн Аби Умаййа"
+      ]
+    },
+    {
+      "id": "topic-0008",
+      "title": "'Абдуллах ибн Умм Мактум",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0008-item-001",
+          "description": "аяты, связанные с 'Абдуллахом ибн Умм Мактумом",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "80:1",
+            "80:2",
+            "80:3",
+            "80:4",
+            "80:5",
+            "80:6",
+            "80:7",
+            "80:8",
+            "80:9",
+            "80:10",
+            "4:95"
+          ],
+          "verse_notes": {
+            "80:1": {
+              "explanation": "Аиша связывает начало суры с приходом слепого Ибн Умм Мактума к Пророку за наставлением.",
+              "key_phrase": {
+                "text": "Он нахмурился и отвернулся",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_hasan_or_sahih",
+              "source_ids": [
+                "site-quran",
+                "tirmidhi-3331"
+              ]
+            },
+            "80:2": {
+              "explanation": "Упомянутый слепой установлен как Ибн Умм Мактум в сообщении Аиши, приведённом ат-Тирмизи.",
+              "key_phrase": {
+                "text": "к нему подошел слепой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_hasan_or_sahih",
+              "source_ids": [
+                "site-quran",
+                "tirmidhi-3331"
+              ]
+            },
+            "80:3": {
+              "explanation": "Возможность очищения относится к пришедшему за наставлением слепому, то есть Ибн Умм Мактуму.",
+              "key_phrase": {
+                "text": "Возможно, он бы очистился",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-80-1"
+              ],
+              "context_verse_keys": [
+                "80:1",
+                "80:2"
+              ]
+            },
+            "80:4": {
+              "explanation": "Продолжает объяснение пользы наставления для пришедшего слепого.",
+              "key_phrase": {
+                "text": "поминание принесло бы ему пользу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-80-1"
+              ],
+              "context_verse_keys": [
+                "80:2",
+                "80:3"
+              ]
+            },
+            "80:5": {
+              "explanation": "Начинается противопоставление: внимание было уделено считавшему себя независимым собеседнику вместо слепого искателя наставления.",
+              "key_phrase": {
+                "text": "Тому, кто решил, что он ни в чем не нуждается",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-80-1"
+              ],
+              "context_verse_keys": [
+                "80:2",
+                "80:8"
+              ],
+              "qualification": "Эти слова относятся к другому собеседнику, не к Ибн Умм Мактуму."
+            },
+            "80:6": {
+              "explanation": "Продолжает противопоставление внимания знатному собеседнику и оставления без внимания Ибн Умм Мактума.",
+              "key_phrase": {
+                "text": "ты уделяешь внимание",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-80-1"
+              ],
+              "context_verse_keys": [
+                "80:5",
+                "80:8",
+                "80:10"
+              ],
+              "qualification": "Аят оставлен ради контекста события, а не как характеристика слепого."
+            },
+            "80:7": {
+              "explanation": "Поясняется, что ответственность за нежелание другого собеседника очиститься не должна отвлекать от ищущего наставления.",
+              "key_phrase": {
+                "text": "если он не очистится",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-80-1"
+              ],
+              "context_verse_keys": [
+                "80:5",
+                "80:8"
+              ],
+              "qualification": "Местоимение относится к другому собеседнику, не к Ибн Умм Мактуму."
+            },
+            "80:8": {
+              "explanation": "Отрывок возвращается к пришедшему со рвением слепому искателю наставления.",
+              "key_phrase": {
+                "text": "кто приходит к тебе со рвением",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-80-1"
+              ],
+              "context_verse_keys": [
+                "80:2"
+              ]
+            },
+            "80:9": {
+              "explanation": "Богобоязненность характеризует того же пришедшего за наставлением человека.",
+              "key_phrase": {
+                "text": "страшится Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-80-1"
+              ],
+              "context_verse_keys": [
+                "80:8"
+              ]
+            },
+            "80:10": {
+              "explanation": "Завершает укор за оставление пришедшего Ибн Умм Мактума без должного внимания.",
+              "key_phrase": {
+                "text": "ты оставляешь без внимания",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-80-1"
+              ],
+              "context_verse_keys": [
+                "80:8",
+                "80:9"
+              ]
+            },
+            "4:95": {
+              "explanation": "Аль-Бухари передаёт, что после жалобы Ибн Умм Мактума на слепоту было ниспослано уточнение об имеющих физическое препятствие.",
+              "key_phrase": {
+                "text": "кроме тех, кто испытывает тяготы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4593"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0009",
+      "title": "'Абдуллах ибн Хузафа",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0009-item-001",
+          "description": "аят, связанный с 'Абдуллахом ибн Хузафой",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "4:59"
+          ],
+          "verse_notes": {
+            "4:59": {
+              "explanation": "Ибн Аббас в сообщении аль-Бухари прямо связывает аят с назначением Ибн Хузафы командиром военного отряда.",
+              "key_phrase": {
+                "text": "Повинуйтесь Аллаху, повинуйтесь Посланнику и обладающим влиянием среди вас.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4584"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0010",
+      "title": "Абу Бакр",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0010-item-001",
+          "description": "аяты, связанные с Абу Бакром",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "9:40",
+            "24:22",
+            "46:15",
+            "49:2",
+            "58:22"
+          ],
+          "verse_notes": {
+            "9:40": {
+              "explanation": "Спутник Пророка в пещере установлен как Абу Бакр его собственным достоверным рассказом и объяснением Ибн Касира.",
+              "key_phrase": {
+                "text": "сказал своему спутнику (Абу Бакру)",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "bukhari-3653",
+                "ik-9-40"
+              ]
+            },
+            "24:22": {
+              "explanation": "Аиша у аль-Бухари связывает аят с клятвой Абу Бакра прекратить помощь Мистаху после навета и последующим возобновлением помощи.",
+              "key_phrase": {
+                "text": "Пусть они простят и будут великодушны.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4750"
+              ],
+              "context_verse_keys": [
+                "24:11"
+              ]
+            },
+            "46:15": {
+              "explanation": "Аль-Куртуби приводит отнесение мольбы о благодарности и праведном потомстве к Абу Бакру.",
+              "key_phrase": {
+                "text": "Внуши мне благодарность за милость",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "qurtubi-46-15"
+              ],
+              "qualification": "В том же тафсире есть другие мнения и объяснение общего смысла. Это именная традиция толкования, а не доказательство исключительного адресата или достоверности всех деталей рассказа."
+            },
+            "49:2": {
+              "explanation": "Достоверное сообщение аль-Бухари прямо связывает аят с повышением голосов Абу Бакром и Умаром при споре о делегации Бану Тамим.",
+              "key_phrase": {
+                "text": "Не поднимайте ваши голоса над голосом Пророка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4845"
+              ]
+            },
+            "58:22": {
+              "explanation": "Ибн Касир приводит отнесение слов о сыновьях к готовности ас-Сиддика противостоять сыну Абдуррахману; так обосновывается именная отсылка.",
+              "key_phrase": {
+                "text": "даже если это будут их отцы, сыновья, братья или родственники",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-58-22"
+              ],
+              "qualification": "Толкователь вводит это отнесение словами «говорилось». Оно не обозначается здесь как достоверно установленная причина ниспослания; аят имеет общий смысл."
+            }
+          }
+        },
+        {
+          "id": "topic-0010-item-002",
+          "description": "обещание спасения от Огня и довольства наградой в 92:17–21; Абу Бакр в толковании Ибн Касира",
+          "relation_type": "tafsir_association",
+          "verse_keys": [
+            "92:17",
+            "92:18",
+            "92:19",
+            "92:20",
+            "92:21"
+          ],
+          "verse_notes": {
+            "92:17": {
+              "explanation": "Обещает удаление от Огня богобоязненному; Ибн Касир включает Абу Бакра в описанный здесь образ.",
+              "key_phrase": {
+                "text": "Отдален от него будет самый богобоязненный",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-92-21"
+              ],
+              "context_verse_keys": [
+                "92:14",
+                "92:18",
+                "92:21"
+              ],
+              "usage_note": "Ибн Касир отмечает, что многие толкователи связывали этот отрывок с Абу Бакром, и одновременно подчёркивает общий смысл его слов."
+            },
+            "92:18": {
+              "explanation": "Уточняет, кому дано обещание: расходующему имущество ради очищения. В толковании эта черта относится и к Абу Бакру.",
+              "key_phrase": {
+                "text": "который раздает свое имущество, очищаясь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-92-21"
+              ],
+              "context_verse_keys": [
+                "92:17",
+                "92:21"
+              ]
+            },
+            "92:19": {
+              "explanation": "Продолжает описание бескорыстия того же благотворителя; у Ибн Касира это пояснение щедрости Абу Бакра.",
+              "key_phrase": {
+                "text": "и всякую милость возмещает сполна",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-92-21"
+              ],
+              "context_verse_keys": [
+                "92:18",
+                "92:20",
+                "92:21"
+              ],
+              "qualification": "Читать вместе с 92:20: Ибн Касир объясняет, что пожертвование совершается ради Аллаха, а не ради ответного вознаграждения людей."
+            },
+            "92:20": {
+              "explanation": "Называет мотив благотворителя — стремление к Лику Господа; именная связь следует из толкования всего отрывка.",
+              "key_phrase": {
+                "text": "только из стремления к Лику своего Всевышнего Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ik-92-21"
+              ],
+              "context_verse_keys": [
+                "92:17",
+                "92:18",
+                "92:21"
+              ]
+            },
+            "92:21": {
+              "explanation": "Завершает обещание удовлетворения наградой тому, чьи качества описаны выше; Ибн Касир относит к этому образу Абу Бакра.",
+              "key_phrase": {
+                "text": "И он непременно будет удовлетворен.",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-92-21"
+              ],
+              "context_verse_keys": [
+                "92:17",
+                "92:18",
+                "92:20"
+              ],
+              "qualification": "Имя Абу Бакра устанавливается по толкованию; смысл обещания не ограничивается одним человеком."
+            }
+          }
+        },
+        {
+          "id": "topic-0010-item-003",
+          "description": "совместная хиджра Абу Бакра и Пророка",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:40"
+          ],
+          "verse_notes": {
+            "9:40": {
+              "explanation": "Аят описывает двух находившихся в пещере при изгнании Пророка; достоверный рассказ Абу Бакра подтверждает его присутствие, а тафсир поясняет переселение.",
+              "key_phrase": {
+                "text": "Он был одним из тех двоих, которые находились в пещере",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "bukhari-3653",
+                "ik-9-40"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0010-item-004",
+          "description": "спор Абу Бакра с 'Умаром как причина ниспослания аята",
+          "relation_type": "occasion_of_revelation_as_indexed",
+          "verse_keys": [
+            "49:2"
+          ],
+          "verse_notes": {
+            "49:2": {
+              "explanation": "Ибн Аби Муляйка у аль-Бухари сообщает о споре Абу Бакра с Умаром, повышении голосов и ниспослании запрета.",
+              "key_phrase": {
+                "text": "Не поднимайте ваши голоса над голосом Пророка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "bukhari-4845"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0010-item-005",
+          "description": "щедрость и бескорыстие Абу Бакра в толковании 92:17–18",
+          "relation_type": "tafsir_association",
+          "verse_keys": [
+            "92:17",
+            "92:18"
+          ],
+          "verse_notes": {
+            "92:17": {
+              "explanation": "Обещание удаления от Огня относится к богобоязненному благотворителю; Ибн Касир называет Абу Бакра среди носителей этих качеств.",
+              "key_phrase": {
+                "text": "Отдален от него будет самый богобоязненный",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-92-21"
+              ],
+              "context_verse_keys": [
+                "92:18",
+                "92:20"
+              ]
+            },
+            "92:18": {
+              "explanation": "Дает ключевую характеристику щедрости: расходование имущества ради очищения, относимое Ибн Касиром к Абу Бакру.",
+              "key_phrase": {
+                "text": "который раздает свое имущество, очищаясь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_attribution",
+              "source_ids": [
+                "site-quran",
+                "ik-92-21"
+              ],
+              "context_verse_keys": [
+                "92:17",
+                "92:20"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "text_source_id": "site-quran"
+}

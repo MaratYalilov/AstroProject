@@ -77,3 +77,98 @@ order: 37
   </div>
 </div>
 </section>
+
+<!-- Редкие маленькие буквы: «Муаллим сани», Ай Медиа, 2010, с. 56.
+Чтение س / ص у Хафса по аш-Шатыбийи сверено с ответом Раида аль-Кахляна:
+https://consquran.com/q/15085. Написание примеров сверено с локальным мусхафом QCF. -->
+<section class="theory-section">
+<h2 class="theory-heading">Редкие маленькие буквы <span class="arab" lang="ar" dir="rtl">ن</span> и <span class="arab" lang="ar" dir="rtl">س</span></h2>
+<div class="theory-card">
+  <p class="!mt-0 leading-relaxed">
+    Не все маленькие буквы обозначают долгий гласный.
+    Маленькая <span class="arab" lang="ar" dir="rtl">ن</span> добавляет читаемую букву,
+    а маленькая <span class="arab" lang="ar" dir="rtl">س</span> рядом с
+    <span class="arab" lang="ar" dir="rtl">ص</span> подсказывает, какую из этих двух букв произнести.
+    Ниже — чтение Хафса по аш-Шатыбийи, которому соответствует используемый в курсе мусхаф.
+  </p>
+
+  <div class="rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+    <h3 class="!mt-0">Маленькая нун <span class="arab" lang="ar" dir="rtl">ن</span></h3>
+    <p class="leading-relaxed">
+      В слове <span class="arab" lang="ar" dir="rtl">نُ‍ۨجِي</span> из аята 21:88 (слово 7)
+      вторая нун записана маленькой буквой над строкой.
+      Её нужно учитывать при чтении: <span class="arab" lang="ar" dir="rtl">نُنْجِي</span>.
+      Первая нун — с даммой, вторая — с сукуном; джим читается без удвоения.
+      Маленькая нун не обозначает удлинение гласного.
+    </p>
+    <p class="leading-relaxed">Найдите маленькую нун ближе к концу аята и прослушайте слово:</p>
+    {Quran}21:88-T{/Quran}
+  </div>
+
+  <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+    <h3 class="!mt-0">Маленькая син над сад <span class="arab" lang="ar" dir="rtl">صۜ</span></h3>
+    <p class="leading-relaxed">
+      Если маленькая <span class="arab" lang="ar" dir="rtl">س</span> стоит <b>над</b>
+      <span class="arab" lang="ar" dir="rtl">ص</span>, в этих двух словах читаем
+      <b>син вместо сад</b>. Это один звук, а не две буквы подряд:
+    </p>
+    <ul>
+      <li><span class="arab" lang="ar" dir="rtl">وَيَبۡصُۜطُ</span> читаем как <span class="arab" lang="ar" dir="rtl">وَيَبْسُطُ</span> — аят 2:245, слово 14;</li>
+      <li><span class="arab" lang="ar" dir="rtl">بَصۜۡطَةٗ</span> читаем как <span class="arab" lang="ar" dir="rtl">بَسْطَةً</span> — аят 7:69, слово 22.</li>
+    </ul>
+    <p class="leading-relaxed">Найдите эти слова в аятах и сравните запись с произношением:</p>
+    {Quran}2:245-T{/Quran}
+    {Quran}7:69-T{/Quran}
+  </div>
+
+  <div class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+    <h3 class="!mt-0">Маленькая син под сад <span class="arab" lang="ar" dir="rtl">صۣ</span></h3>
+    <p class="leading-relaxed">
+      В слове <span class="arab" lang="ar" dir="rtl">ٱلۡمُصَۣيۡطِرُونَ</span> из аята 52:37 (слово 7)
+      маленькая <span class="arab" lang="ar" dir="rtl">س</span> стоит <b>под</b>
+      <span class="arab" lang="ar" dir="rtl">ص</span>.
+      Здесь у Хафса переданы оба варианта: с сад и с син.
+      <b>Чтение с сад предпочтительно</b>; начинающему можно придерживаться его.
+      Маленькую син не произносим как добавочную букву.
+    </p>
+    {Quran}52:37-T{/Quran}
+  </div>
+</div>
+</section>
+
+<section class="theory-section">
+<h2 class="theory-heading">Проверьте себя</h2>
+<div class="theory-card">
+  <p class="!mt-0 leading-relaxed">Сначала ответьте самостоятельно, затем раскройте ответ под вопросом.</p>
+  <ol>
+    <li>
+      <p>Как прочитать <span class="arab" lang="ar" dir="rtl">نُ‍ۨجِي</span> в аяте 21:88, слово 7? Можно ли пропустить маленькую нун?</p>
+      <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+        <summary class="cursor-pointer font-semibold">Показать ответ</summary>
+        <p class="!mb-0">Читаем <span class="arab" lang="ar" dir="rtl">نُنْجِي</span>. Маленькая нун обозначает вторую нун с сукуном: её не пропускаем. Первая нун — с даммой, джим — без удвоения.</p>
+      </details>
+    </li>
+    <li>
+      <p>Какую букву произносим вместо сад в слове <span class="arab" lang="ar" dir="rtl">وَيَبۡصُۜطُ</span> — аят 2:245, слово 14? Какой знак это подсказывает?</p>
+      <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+        <summary class="cursor-pointer font-semibold">Показать ответ</summary>
+        <p class="!mb-0">Произносим син: <span class="arab" lang="ar" dir="rtl">وَيَبْسُطُ</span>. На это указывает маленькая син над сад.</p>
+      </details>
+    </li>
+    <li>
+      <p>Как прочитать <span class="arab" lang="ar" dir="rtl">بَصۜۡطَةٗ</span> — аят 7:69, слово 22? Нужно ли произносить сад и син подряд?</p>
+      <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+        <summary class="cursor-pointer font-semibold">Показать ответ</summary>
+        <p class="!mb-0">Читаем <span class="arab" lang="ar" dir="rtl">بَسْطَةً</span>, с син вместо сад. Здесь один звук: маленькая син не добавляется к сад как вторая буква.</p>
+      </details>
+    </li>
+    <li>
+      <p>В слове <span class="arab" lang="ar" dir="rtl">ٱلۡمُصَۣيۡطِرُونَ</span> — аят 52:37, слово 7 — син стоит под сад. Какие варианты чтения допустимы и какой предпочтителен?</p>
+      <details class="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-4 dark:border-white/[0.06] dark:bg-white/[0.02]">
+        <summary class="cursor-pointer font-semibold">Показать ответ</summary>
+        <p class="!mb-0">У Хафса по аш-Шатыбийи допустимо чтение с сад и с син. Чтение с сад предпочтительно; начинающему можно придерживаться его. Произносим одну из этих букв, а не обе подряд.</p>
+      </details>
+    </li>
+  </ol>
+</div>
+</section>

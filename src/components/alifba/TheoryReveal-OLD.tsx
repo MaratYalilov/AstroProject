@@ -4,6 +4,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import { marked } from "marked";
 import { replaceQuranTags } from "../../utils/replaceQuranTags";
 import { prepareMermaidBlocks, useMermaidRender } from "../../utils/mermaid";
+import { enhanceAlphabetAudio } from "../../utils/alphabetAudio";
 
 type TitleSegment = {
   text: string;
@@ -125,6 +126,38 @@ export default function TheoryReveal({
       isCancelled = true;
     };
   }, [source]);
+
+  useEffect(() => {
+    if (!html || !sectionRef.current) return;
+    return enhanceAlphabetAudio(sectionRef.current);
+  }, [html]);
+
+  useEffect(() => {
+    if (!html) return;
+
+    // Якорь становится доступен после подгрузки Markdown, уже после первого
+    // перехода браузера по ссылке вида ?lesson=artikl#lam-allah.
+    const scrollToSection = () => {
+      let id: string;
+      try {
+        id = decodeURIComponent(window.location.hash.slice(1));
+      } catch {
+        return;
+      }
+      if (!id) return;
+      const target = document.getElementById(id);
+      if (target && sectionRef.current?.contains(target)) {
+        target.scrollIntoView({ block: "start" });
+      }
+    };
+
+    const frame = requestAnimationFrame(scrollToSection);
+    window.addEventListener("hashchange", scrollToSection);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("hashchange", scrollToSection);
+    };
+  }, [html]);
 
   return (
     // ВАЖНО: обычный section без layout-анимации и backdrop-blur.

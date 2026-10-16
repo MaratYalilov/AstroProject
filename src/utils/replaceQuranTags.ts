@@ -1,17 +1,19 @@
 // src/utils/replaceQuranTags.ts
-import { renderAyahBlock, renderAyahRangeBlock } from "./quranRenderer";
+import { renderAyahBlock, renderAyahRangeBlock, renderSajdahSymbol } from "./quranRenderer";
 
 // Поддерживаем:
 // {Quran}2:255{/Quran}
 // {Quran}2:1-5{/Quran}
 // {Quran}2:255-T{/Quran}, {Quran}2:1-5-T{/Quran} — таджвид QCF V4
 const QURAN_TAG_REGEX = /\{Quran\}(\d+):(\d+)(?:-(\d+))?(-T)?\{\/Quran\}/gi;
+// {QuranSymbol}sajdah{/QuranSymbol} - отдельный знак суджуда из QCF v2.
+const SAJDAH_TAG_REGEX = /\{QuranSymbol\}sajdah\{\/QuranSymbol\}/gi;
 
 export function replaceQuranTags(input: string): string {
   if (!input) return "";
   const audioOccurrences = new Map<string, number>();
 
-  return input.replace(
+  return input.replace(SAJDAH_TAG_REGEX, () => renderSajdahSymbol()).replace(
     QURAN_TAG_REGEX,
     (
       match: string,
