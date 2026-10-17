@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
-import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 
 type GlossaryEntry = {
   term: string
@@ -145,14 +143,7 @@ export default function GlossaryOverlay() {
   // ---------- DESKTOP POPOVER ----------
   if (!active.isMobile) {
     return (
-      <ReducedMotionProvider>
-      <AnimatePresence>
-        <motion.div
-        key="popover"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.15 }}
+      <div
         style={{
           position: 'fixed',
           left: active.x,
@@ -167,68 +158,46 @@ export default function GlossaryOverlay() {
           maxWidth: 320,
           pointerEvents: 'none',
         }}
-        className="glossary-popover"
+        className="glossary-popover glossary-popover--enter"
       >
-
-          <strong>{entry.term}</strong>
-          <div>{entry.description}</div>
-        </motion.div>
-      </AnimatePresence>
-      </ReducedMotionProvider>
+        <strong>{entry.term}</strong>
+        <div>{entry.description}</div>
+      </div>
     )
   }
 
   // ---------- MOBILE BOTTOM-SHEET ----------
   return (
-    <ReducedMotionProvider>
-    <AnimatePresence>
-      <motion.div
-        key="sheet-backdrop"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        onClick={() => setActive(null)}
-        className="fixed inset-0 z-50 overflow-x-hidden"
-        style={{ background: 'var(--overlay-dim)' }}
+    <div
+      onClick={() => setActive(null)}
+      className="fixed inset-0 z-50 overflow-x-hidden"
+      style={{ background: 'var(--overlay-dim)' }}
+    >
+      <div
+        onClick={e => e.stopPropagation()}
+        className="glossary-sheet absolute bottom-0 inset-x-0 rounded-t-2xl bg-white p-4 pb-6 dark:bg-gray-900"
       >
-        <motion.div
-          key="sheet"
-          initial={{ y: '100%' }}
-          animate={{ y: 0 }}
-          exit={{ y: '100%' }}
-          transition={{ type: 'spring', stiffness: 260, damping: 28 }}
-          onClick={e => e.stopPropagation()}
-          className="absolute bottom-0 inset-x-0 rounded-t-2xl bg-white dark:bg-gray-900 p-4 pb-6"
-
-          // параметры перетаскивания (свайпа)
-          drag="y" // можно тянуть по вертикали
-          dragConstraints={{ top: 0, bottom: 0 }} // не тянуть вверх за начальную позицию
-          dragElastic={0.2} // чуть «резины»
-          onDragEnd={(_, info) => {
-            // info.offset.y — сколько проскролили
-            // info.velocity.y — скорость движения
-            if (info.offset.y > 100 || info.velocity.y > 500) {
-              setActive(null) // свайп вниз — закрываем лист
-            }
-            
-          }}
+        <button
+          type="button"
+          onClick={() => setActive(null)}
+          aria-label="Закрыть"
+          className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full text-lg text-muted-foreground hover:bg-muted"
         >
-          <div className="text-center mb-2 opacity-40">─────</div>
-          <strong className="block mb-1">{entry.term}</strong>
-          <div className="mb-3">{entry.description}</div>
+          ×
+        </button>
+        <div className="text-center mb-2 opacity-40">─────</div>
+        <strong className="block mb-1">{entry.term}</strong>
+        <div className="mb-3">{entry.description}</div>
 
-          {/* Ссылка на полную статью */}
-          <a
-            href={`/glossary/${active.slug}`}
-            className="block text-center text-emerald-600 dark:text-emerald-400 font-medium mt-2"
-            onClick={() => setActive(null)} // закрываем лист при переходе
-          >
-            Читать полностью →
-          </a>
-        </motion.div>
-
-      </motion.div>
-    </AnimatePresence>
-    </ReducedMotionProvider>
+        {/* Ссылка на полную статью */}
+        <a
+          href={`/glossary/${active.slug}`}
+          className="block text-center text-emerald-600 dark:text-emerald-400 font-medium mt-2"
+          onClick={() => setActive(null)}
+        >
+          Читать полностью →
+        </a>
+      </div>
+    </div>
   )
 }

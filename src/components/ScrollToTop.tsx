@@ -1,7 +1,5 @@
 import React from "react";
 import { ArrowUp } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
-import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 
 const MAX_WIDTH = 1280;
 
@@ -14,21 +12,16 @@ const ScrollToTop: React.FC = () => {
       const screenWidth = window.innerWidth;
       const buttonSize = 48;
 
-      // Если экран маленький — просто центр экрана
       if (screenWidth <= MAX_WIDTH) {
         setLeftPos(screenWidth / 2 - buttonSize / 2);
         return;
       }
 
-      // Если экран большой — центр левой колонки (8/12 контейнера)
       const containerWidth = MAX_WIDTH;
       const containerLeft = (screenWidth - containerWidth) / 2;
       const leftColWidth = containerWidth * (8 / 12);
 
-      const centerLeftCol =
-        containerLeft + leftColWidth / 2 - buttonSize / 2;
-
-      setLeftPos(centerLeftCol);
+      setLeftPos(containerLeft + leftColWidth / 2 - buttonSize / 2);
     };
 
     updatePosition();
@@ -47,43 +40,25 @@ const ScrollToTop: React.FC = () => {
   }, []);
 
   return (
-    <ReducedMotionProvider>
-    <AnimatePresence>
-      {visible && (
-        <motion.button
-          type="button"
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          initial={{ opacity: 0, scale: 0.85, y: 20 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.85, y: 20 }}
-          transition={{ duration: 0.2 }}
-          style={{ left: leftPos }}
-          className="
-            fixed
-            bottom-6
-            z-50
-            flex
-            h-12
-            w-12
-            items-center
-            justify-center
-            rounded-full
-            border
-            border-border/60
-            bg-background/10
-            backdrop-blur
-            shadow-lg
-            transition
-            hover:text-emerald-700
-            dark:hover:text-emerald-500
-          "
-          aria-label="Наверх"
-        >
-          <ArrowUp className="h-5 w-5" />
-        </motion.button>
-      )}
-    </AnimatePresence>
-    </ReducedMotionProvider>
+    <button
+      type="button"
+      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      style={{ left: leftPos }}
+      tabIndex={visible ? 0 : -1}
+      aria-hidden={!visible}
+      aria-label="Наверх"
+      className={[
+        "fixed bottom-6 z-50 flex h-12 w-12 items-center justify-center rounded-full",
+        "border border-border/60 bg-background/10 shadow-lg backdrop-blur",
+        "transition-all duration-200 motion-reduce:transition-none",
+        "hover:text-emerald-700 dark:hover:text-emerald-500",
+        visible
+          ? "translate-y-0 scale-100 opacity-100"
+          : "pointer-events-none translate-y-5 scale-90 opacity-0",
+      ].join(" ")}
+    >
+      <ArrowUp className="h-5 w-5" />
+    </button>
   );
 };
 

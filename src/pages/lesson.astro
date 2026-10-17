@@ -23,7 +23,10 @@ const course = url.searchParams.get("course") ?? "";
 const slugParam = url.searchParams.get("slug") ?? "";
 
 if (!subject || !course) {
-  throw new Error("Не переданы обязательные параметры: subject и course");
+  // Без обязательных параметров страница нечего показать. Раньше здесь
+  // было исключение: /lesson отдавал пустую 500, и внешние проверки
+  // получали NO_LCP. Ведём такого посетителя в каталог.
+  return Astro.redirect("/", 302);
 }
 
 // ---------- 1) Предмет ----------

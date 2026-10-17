@@ -19,7 +19,7 @@ interface Props {
 const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt, ogTitle = title, ogSubtitle, ogSubject } = Astro.props;
 ---
 
-<html lang="ru" class="bg-background text-foreground">
+<html lang="ru" class="bg-background text-foreground" data-quran-wasl-mode="basic">
   <head>
     <link rel="icon" type="image/x-icon" href="/favicon.ico?v=3" />
     <!-- Тема из localStorage -->
@@ -43,8 +43,24 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
       import { initQuranWaslHints } from "../utils/quranWaslHints";
 
       initMermaidModal();
-      initQcfFonts();
       initQuranWaslHints();
+
+      // QCF-шрифты грузим после load: до этого виден Unicode-фолбэк,
+      // а главный поток свободен для отрисовки первого экрана.
+      const startQcfFonts = () => initQcfFonts();
+      const scheduleQcfFonts = () => {
+        if (typeof window.requestIdleCallback === "function") {
+          window.requestIdleCallback(startQcfFonts, { timeout: 2500 });
+        } else {
+          window.setTimeout(startQcfFonts, 300);
+        }
+      };
+
+      if (document.readyState === "complete") {
+        scheduleQcfFonts();
+      } else {
+        window.addEventListener("load", scheduleQcfFonts, { once: true });
+      }
     </script>
 
     <!-- Quran audio: плейлисты + кастомная кнопка play/pause -->

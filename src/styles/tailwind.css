@@ -699,6 +699,29 @@ footer {
   border-color: var(--glossary-bg) transparent transparent;
 }
 
+.glossary-popover--enter {
+  animation: glossary-popover-in 150ms ease-out;
+}
+
+@keyframes glossary-popover-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.glossary-sheet {
+  animation: glossary-sheet-in 220ms ease-out;
+}
+
+@keyframes glossary-sheet-in {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glossary-popover--enter,
+  .glossary-sheet { animation: none; }
+}
+
 
 /* скрыть scrollbar, но оставить прокрутку */
 .scrollbar-hide {
