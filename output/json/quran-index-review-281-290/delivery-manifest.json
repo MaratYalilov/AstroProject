@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 355,
+    "retained_original_links": 335,
+    "removed_original_links": 20,
+    "added_links": 4,
+    "result_links": 339,
+    "result_unique_verses": 309,
+    "cumulative_topics": 290,
+    "cumulative_links": 12726
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 281-290.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-281-290\\Указатель аятов - темы 281-290.json",
+      "sha256": "a12380d62acf25876d81af7f33279d4975f772980e063585362d1971c957a423"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-290.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-281-290\\Указатель аятов - проверенные темы 1-290.json",
+      "sha256": "005527145f745b25d9c93b3d388e45db7baffaae26011e474cea5d53f762fe67"
+    },
+    {
+      "name": "Темы 281-290 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-281-290\\Темы 281-290 - журнал проверки.json",
+      "sha256": "e1d76decbda3a14dd0cf97b380f568167a2cf16265532fa9706c118215defdb4"
+    },
+    {
+      "name": "Темы 281-290 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-281-290\\Темы 281-290 - отчёт.md",
+      "sha256": "912bfa1655cdac44579691e0a5655d147a194e8537f7aa6b2a53d8f442cdc0a7"
+    }
+  ]
+}

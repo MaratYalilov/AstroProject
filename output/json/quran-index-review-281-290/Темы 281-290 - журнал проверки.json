@@ -1,0 +1,3772 @@
+{
+  "batch_id": "positions-0281-0290",
+  "reviewed_at": "2026-10-17",
+  "scope": {
+    "first_topic_ordinal": 281,
+    "last_topic_ordinal": 290,
+    "topic_ids": [
+      "topic-0270",
+      "topic-0271",
+      "topic-0272",
+      "topic-0273",
+      "topic-0274",
+      "topic-0275",
+      "topic-0276",
+      "topic-0277",
+      "topic-0278",
+      "topic-0279"
+    ],
+    "entire_index_reviewed": false
+  },
+  "input_sha256": "fc5294401fc542f00fba3a2dbb47f3dce0669f46b0b58761729dbeb59ac9a45b",
+  "text_source_id": "site-quran",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 355,
+    "retained_original_links": 335,
+    "removed_original_links": 20,
+    "added_links": 4,
+    "result_links": 339,
+    "result_unique_verses": 309,
+    "cumulative_topics": 290,
+    "cumulative_links": 12726
+  },
+  "decisions": [
+    {
+      "item_id": "topic-0270-item-001",
+      "verse_key": "4:8",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-8"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-002",
+      "verse_key": "4:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-003",
+      "verse_key": "4:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-11"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-004",
+      "verse_key": "4:176",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-176"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-005",
+      "verse_key": "5:107",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-5-107"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "2:180",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-2-180"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "2:240",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-2-240"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:7",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:8",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-8"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:9",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-9"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-11"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:19",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:31",
+      "decision": "remove",
+      "reason": "Обещание прощения при избегании великих грехов не устанавливает наследственные права.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:32",
+      "decision": "remove",
+      "reason": "Речь о зависти, приобретённых делах и просьбе о милости; ас-Саади не толкует названные приобретения как конкретное распределение наследства.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:33",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-33"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:34",
+      "decision": "remove",
+      "reason": "Попечение мужа и семейные отношения не являются нормой о разделе оставшегося имущества.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "4:76",
+      "decision": "remove",
+      "reason": "Различены стороны религиозной борьбы, без вопроса о наследстве.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "5:109",
+      "decision": "remove",
+      "reason": "Сбор посланников и их ответ о знании не относятся к наследованию.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "5:110",
+      "decision": "remove",
+      "reason": "Божьи милости и чудеса Исы не устанавливают наследственные доли.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "verse_key": "5:111",
+      "decision": "remove",
+      "reason": "Вера апостолов не связана с завещанием или наследованием.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-008",
+      "verse_key": "4:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-11"
+      ]
+    },
+    {
+      "item_id": "topic-0270-item-008",
+      "verse_key": "4:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "2:14",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "5:58",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "6:10",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "9:79",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "11:38",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "13:32",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "15:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "16:90",
+      "decision": "remove",
+      "reason": "Общие нравственные предписания не выделяют насмешку или иронизирование.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "21:36",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "21:41",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "23:110",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "25:41",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "26:6",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "26:25",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-katheer-26-25"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "27:56",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-27-56"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "31:6",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "36:30",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "37:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "37:14",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "39:56",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "43:7",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "43:32",
+      "decision": "remove",
+      "reason": "Однокоренное выражение означает взаимное услужение и разделение земных возможностей, а не насмешку; смешение значений корня исправлено.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "45:9",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "45:33",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "45:35",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "verse_key": "49:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0272-item-001",
+      "verse_key": "2:235",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-2-235"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-001",
+      "verse_key": "9:122",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-9-122"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "2:151",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "2:269",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "3:137",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "5:63",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "7:175",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-7-175"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "7:176",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-7-175"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "7:199",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-7-199"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "17:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "18:66",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "20:114",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "verse_key": "62:5",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-003",
+      "verse_key": "9:122",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-9-122"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-008",
+      "verse_key": "18:109",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-18-109"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-008",
+      "verse_key": "31:16",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-008",
+      "verse_key": "31:27",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-31-27"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-009",
+      "verse_key": "20:114",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-010",
+      "verse_key": "58:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "3:7",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-3-7"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "3:18",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "4:162",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "17:107",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "22:54",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "26:197",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-26-197"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "29:43",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "35:28",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "39:9",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "verse_key": "58:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "16:43",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-16-43"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "20:114",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "28:80",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "39:9",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "58:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "96:1",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "96:2",
+      "decision": "remove",
+      "reason": "Указан образ сотворения человека, а не самостоятельное предписание учёбы или исследования; прямые чтение, письмо и обучение96:1,3-5 сохранены.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "96:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "96:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "verse_key": "96:5",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-001",
+      "verse_key": "91:9",
+      "decision": "remove",
+      "reason": "Этот аят сообщает о преуспеянии очистившего душу, а вред от её опорочивания назван в91:10; ссылки между подпунктами исправлены.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-003",
+      "verse_key": "91:10",
+      "decision": "remove",
+      "reason": "Аят говорит об ущербе опорочившему душу, а не о награде очистившему; соответствующее преуспеяние названо в91:9.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "2:120",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "2:145",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "4:135",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "5:48",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "5:49",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "5:77",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "6:56",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "6:119",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "6:150",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "7:176",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "18:28",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "19:59",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "20:16",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "22:71",
+      "decision": "remove",
+      "reason": "Поклонение без доказательства порицается, но сам аят не выделяет нафс или следование прихотям; явные соответствующие формулировки в других ссылках сохранены.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "25:43",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "28:50",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "30:29",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "38:26",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "42:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "45:18",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "45:23",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "47:14",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "47:16",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "53:23",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "verse_key": "54:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "7:54",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "10:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "11:7",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "20:5",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "23:86",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "23:116",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "25:59",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "32:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "39:75",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "40:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "57:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "69:17",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "verse_key": "85:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-001",
+      "verse_key": "2:75",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-001",
+      "verse_key": "2:79",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-001",
+      "verse_key": "2:174",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-001",
+      "verse_key": "2:175",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-001",
+      "verse_key": "3:93",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-3-93"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-001",
+      "verse_key": "6:91",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-001",
+      "verse_key": "30:32",
+      "decision": "remove",
+      "reason": "Порицается религиозное разделение на группы, но отдельное искажение содержания Писания здесь не установлено.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:75",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:78",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:79",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:85",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:86",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:87",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:89",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:91",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:101",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:102",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:174",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:176",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "2:211",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-2-211"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "3:23",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "3:78",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "3:98",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "4:46",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "5:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "5:64",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "5:68",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "6:20",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-6-20"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "6:91",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "7:169",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "7:170",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "7:171",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "11:110",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "13:36",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "15:90",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-15-90"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "15:91",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-15-91"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "41:45",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "verse_key": "62:5",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "2:97",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "2:129",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "2:185",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "2:213",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "2:231",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "2:242",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "3:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "3:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "3:101",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "3:103",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "3:108",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "3:138",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "3:164",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "4:105",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "4:174",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-174"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "5:16",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "5:46",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "6:19",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "6:51",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "6:55",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "6:70",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-6-70"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "6:90",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "6:154",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-6-154"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "6:157",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "7:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "7:35",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "7:52",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "7:145",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-7-145"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "7:154",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "7:174",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "7:176",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "7:203",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "9:33",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "10:57",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "11:17",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "12:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "12:104",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "12:111",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-12-111"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "14:1",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "16:44",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "16:64",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "16:89",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-16-89"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "16:102",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "18:1",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "18:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "18:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "18:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "19:97",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "20:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "20:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "20:113",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "21:10",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "21:48",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "21:106",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-21-106"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "22:16",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "23:49",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "24:1",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "24:34",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "25:1",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "25:2",
+      "decision": "remove",
+      "reason": "Описаны исключительная власть и творение Бога, а не назначение или мудрость Писания; соответствующее прямое25:1 сохранено.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "25:50",
+      "decision": "remove",
+      "reason": "В местном переводе и прочитанном контексте речь о распределении дождевой воды и благодарности за неё, а не о ниспосланном Писании.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "26:208",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "26:209",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "28:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "28:43",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "28:86",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "29:51",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "31:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "32:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "32:23",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "34:50",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "36:6",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "36:70",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "38:1",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "38:2",
+      "decision": "remove",
+      "reason": "Описаны гордыня и разлад неверующих, а не самостоятельная задача или качество Писания; прямые38:1 и38:29 сохранены.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "38:29",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "38:87",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "39:28",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "39:71",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "40:53",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "40:54",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "43:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "43:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "43:44",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "44:58",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "45:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "46:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "50:28",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-50-28"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "50:45",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "54:17",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "54:22",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "54:32",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "54:40",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "65:10",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "65:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "68:52",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "69:48",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-69-48"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "73:19",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "74:31",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-74-31"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "74:54",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "76:29",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "80:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "80:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "80:13",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "80:14",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "80:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-80-15"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "80:16",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-80-16"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "81:27",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "verse_key": "81:28",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "6:64",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "10:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "16:90",
+      "decision": "remove",
+      "reason": "Общая заповедь справедливости и добра не выделяет непризнание Божьих благ; в этой конкретной подборке связь с неблагодарностью не подтверждена.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "22:38",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "22:66",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "27:40",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "29:65",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "29:66",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "29:67",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "30:33",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "31:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "31:32",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "39:8",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "39:49",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "41:51",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "42:48",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "verse_key": "80:17",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-001",
+      "verse_key": "13:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-001",
+      "verse_key": "20:5",
+      "decision": "remove",
+      "reason": "Прямо назван Престол, но не небеса; не следует автоматически отождествлять аль-Арш с небом. Аят сохранён в соответствующей теме286.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-001",
+      "verse_key": "25:59",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-001",
+      "verse_key": "32:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-001",
+      "verse_key": "57:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-002",
+      "verse_key": "13:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-002",
+      "verse_key": "21:33",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-002",
+      "verse_key": "25:61",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-002",
+      "verse_key": "31:29",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-002",
+      "verse_key": "35:13",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-002",
+      "verse_key": "35:41",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-002",
+      "verse_key": "36:40",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-003",
+      "verse_key": "7:54",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-003",
+      "verse_key": "10:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-003",
+      "verse_key": "13:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-003",
+      "verse_key": "25:59",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-003",
+      "verse_key": "32:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-003",
+      "verse_key": "57:4",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-004",
+      "verse_key": "2:164",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0278-item-004",
+      "verse_key": "3:190",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-001",
+      "verse_key": "21:16",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-001",
+      "verse_key": "21:17",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "3:5",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "3:179",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "5:109",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "6:50",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "6:59",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "6:73",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "7:187",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "7:188",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "9:78",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "9:94",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "9:105",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "11:31",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "11:123",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "13:8",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "13:9",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "16:77",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "18:26",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "23:92",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "25:6",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "27:65",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "27:74",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "27:75",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-27-75"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "31:34",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "33:63",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "34:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "34:14",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "34:48",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "34:38",
+      "decision": "remove",
+      "reason": "Аят сообщает о наказании старающихся ослабить знамения; ни знание сокровенного, ни изменение небес и земли здесь не названы.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "39:46",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "41:47",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "49:18",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "52:41",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "62:8",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "64:18",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "68:47",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "72:26",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "72:27",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-72-27"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "verse_key": "79:44",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-003",
+      "verse_key": "39:63",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-39-63"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-003",
+      "verse_key": "42:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0279-item-004",
+      "verse_key": "41:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    }
+  ],
+  "additions": [
+    {
+      "topic_id": "topic-0274",
+      "item_id": "topic-0274-item-001",
+      "verse_key": "91:10",
+      "reason": "Убыток прямо связан с опороченной душой; ас-Саади поясняет ущерб совершением грехов и оставлением её совершенствования.",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-91-10"
+      ]
+    },
+    {
+      "topic_id": "topic-0274",
+      "item_id": "topic-0274-item-003",
+      "verse_key": "91:9",
+      "reason": "Преуспеяние прямо отнесено к очищению души; ас-Саади поясняет очищение от грехов, полезное знание и праведные дела.",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-91-9"
+      ]
+    },
+    {
+      "topic_id": "topic-0276",
+      "item_id": "topic-0276-item-001",
+      "verse_key": "3:78",
+      "reason": "Искажающие языком выдают не относящееся к Писанию за само Писание и Божью речь.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0276",
+      "item_id": "topic-0276-item-001",
+      "verse_key": "4:46",
+      "reason": "Среди иудеев выделены искажающие положение слов и кривящие речь в неповиновении.",
+      "source_ids": [
+        "site-quran"
+      ]
+    }
+  ],
+  "description_changes": [
+    {
+      "item_id": "topic-0270-item-005",
+      "before": "несправедливость при разделе наследства",
+      "after": "Проверка нечестного свидетельства о завещании",
+      "reason": "Аят посвящён замене уличённых свидетелей и встречной клятве близких, а не непосредственно вычислению долей."
+    },
+    {
+      "item_id": "topic-0270-item-006",
+      "before": "о наследстве",
+      "after": "Наследственные права, завещание и защита оставшихся после смерти",
+      "reason": "Отделены имущество наследства и смежные обязанности; общие грехи и рассказы об Исе не выданы за наследственные правила."
+    },
+    {
+      "item_id": "topic-0271-item-001",
+      "before": "насмешка, иронизирование",
+      "after": "Насмешки над посланниками, знамениями и верующими; запрет унижать людей",
+      "reason": "Порицаемое издевательство отличено от всякого юмора и от употребления однокоренного слова о взаимном услужении в43:32."
+    },
+    {
+      "item_id": "topic-0272-item-001",
+      "before": "наставление обрученным",
+      "after": "Сватовство во время установленного срока ожидания",
+      "reason": "Исходное «наставление обрученным» заменено точным адресатом: намерение сватовства к женщине в период ожидания, а не уже заключённая помолвка."
+    },
+    {
+      "item_id": "topic-0273-item-001",
+      "before": "внимание к обучающим наукам",
+      "after": "Обеспечение религиозного обучения в общине",
+      "reason": "Аят говорит о знании религии и распределении обязанностей, а не обо всех современных научных профессиях."
+    },
+    {
+      "item_id": "topic-0273-item-002",
+      "before": "любовь к науке",
+      "after": "Приобретение знания, его применение и ответственность знающих",
+      "reason": "Речь о пользе знания и обязанностях его носителей, а не о буквальном чувстве любви к любой научной деятельности."
+    },
+    {
+      "item_id": "topic-0273-item-003",
+      "before": "обучение наукам тех, кто хочет учиться",
+      "after": "Изучение религии и передача приобретённого знания",
+      "reason": "Убрано представление об общем наборе наук и произвольно выбранных желающих; сохранены учёба и последующее наставление своего народа."
+    },
+    {
+      "item_id": "topic-0273-item-008",
+      "before": "представление науки Аллаха",
+      "after": "Неисчерпаемость Божьих слов и всеведение",
+      "reason": "Термин «наука Аллаха» заменён точными предметами аятов: Божьими словами и знанием сокрытого."
+    },
+    {
+      "item_id": "topic-0273-item-009",
+      "before": "совет Аллаха Пророку о развитии Его учения",
+      "after": "Мольба Пророка о приумножении знания",
+      "reason": "Аят не поручает изменять или развивать Божье откровение; он велит просить большего знания."
+    },
+    {
+      "item_id": "topic-0273-item-010",
+      "before": "уважение к покровителям науки",
+      "after": "Возвышение верующих, которым даровано знание",
+      "reason": "Получившие знание не заменены покровителями или спонсорами научной деятельности."
+    },
+    {
+      "item_id": "topic-0273-item-006",
+      "before": "ценность людей науки",
+      "after": "Достоинство обладающих знанием и их отношение к истине",
+      "reason": "Аяты о знании откровения не превращены в безусловную похвалу любому специалисту независимо от истины и дел."
+    },
+    {
+      "item_id": "topic-0273-item-007",
+      "before": "ценность науки и научное исследование",
+      "after": "Обращение к знающим, чтение и приобретение знания",
+      "reason": "Убран вывод о конкретном современном научном методе; прямо выделены учёба, вопрос знающему, чтение и письмо."
+    },
+    {
+      "item_id": "topic-0274-item-003",
+      "before": "награда того, кто очистил свой нафс",
+      "after": "Преуспеяние очистившего душу",
+      "reason": "Точная формула успеха91:9 сохранена вместо приписывания награды противоположному91:10."
+    },
+    {
+      "item_id": "topic-0274-item-002",
+      "before": "о том, чтобы не потакать своему нафсу",
+      "after": "Не следовать своим и чужим прихотям вопреки истине",
+      "reason": "Наряду с личными желаниями ряд аятов запрещает следовать желаниям других; эта разница сохранена."
+    },
+    {
+      "item_id": "topic-0275-item-002",
+      "before": "о небесном Царстве",
+      "after": "Престол, владычество и управление Бога",
+      "reason": "Точное содержание всех тринадцати ссылок раскрыто без добавления неназванной модели устройства небесного мира."
+    },
+    {
+      "item_id": "topic-0276-item-001",
+      "before": "искажение содержания Небесных Писаний",
+      "after": "Искажение, сокрытие и ложное приписывание Писанию",
+      "reason": "Текстовое подделывание, сокрытие и спор о прежних нормах не сведены к одному доказательству тотального изменения всех книг."
+    },
+    {
+      "item_id": "topic-0276-item-003",
+      "before": "мнения мунафиков о Небесных Писаниях",
+      "after": "Различное отношение к Писаниям и посланникам: принятие, исполнение и отвержение",
+      "reason": "Изначальный заголовок о мнениях мунафиков неверен для людей Писания, прежних народов, положительных примеров и разных видов отвержения."
+    },
+    {
+      "item_id": "topic-0276-item-002",
+      "before": "мудрость Небесных Писаний",
+      "after": "Назначение и качества Писаний: руководство, разъяснение и предупреждение",
+      "reason": "Подборка раскрывает задачи и качества откровения, а не одинаковое буквальное слово «мудрость» в каждом аяте; местоимения и ссылки по контексту отмечены."
+    },
+    {
+      "item_id": "topic-0277-item-001",
+      "before": "о неблагодарных (забывших о добре и справедливости)",
+      "after": "Непризнание Божьих благ и забвение после избавления от беды",
+      "reason": "Точная направленность подборки - благодарность Богу, а не отдельный перечень нарушений человеческой справедливости."
+    },
+    {
+      "item_id": "topic-0278-item-002",
+      "before": "равновесное расположение небесных тел",
+      "after": "Порядок и движение светил и удержание небес",
+      "reason": "Убрано непредъявленное в аятах точное понятие равновесного расположения всех тел; сохранены их реальные формулировки."
+    },
+    {
+      "item_id": "topic-0278-item-003",
+      "before": "сотворение неба",
+      "after": "Сотворение и поднятие небес",
+      "reason": "Для13:2 сохранено точное поднятие небес, а не приписанное ему отдельное число дней творения."
+    },
+    {
+      "item_id": "topic-0279-item-001",
+      "before": "все, что есть на Земле и Небе и между ними, - воплощение могущества Аллаха",
+      "after": "Осмысленность сотворения неба и земли",
+      "reason": "Вместо общего и неточного слова «воплощение» сохранён прямо выраженный смысл: творение не является забавой."
+    },
+    {
+      "item_id": "topic-0279-item-002",
+      "before": "заставить измениться Небеса и Землю может только Аллах",
+      "after": "Божье знание сокровенного небес и земли и пределы знания творений",
+      "reason": "Исходный заголовок об изменении небес не соответствует этой подборке; сохранены действительные утверждения о знании сокровенного, его отдельных примерах и сообщении откровения."
+    },
+    {
+      "item_id": "topic-0279-item-003",
+      "before": "ключи от Небес и Земли (власть) принадлежат Аллаху",
+      "after": "Ключи небес и земли: Божье владение и распоряжение уделом",
+      "reason": "Сохранено выражение аятов, а власть пояснена по реально названному распределению удела и тафсиру."
+    },
+    {
+      "item_id": "topic-0279-item-004",
+      "before": "первичное состояние Небес в виде тумана (туманности)",
+      "after": "Небо как дым в сообщении о сотворении",
+      "reason": "Слово «туманность» отсутствует в местном переводе и не должно подменять коранический дым конкретной современной моделью."
+    }
+  ],
+  "topic_changes": [
+    {
+      "topic_id": "topic-0270",
+      "reason": "Сняты посторонние ссылки, различены завещание и наследственные доли и сохранены существенные условия и варианты тафсира."
+    },
+    {
+      "topic_id": "topic-0273",
+      "reason": "Уточнён смысл знания; устранены ошибочные покровители науки и требование «развивать» Божье учение вместо просьбы приумножить знание."
+    },
+    {
+      "topic_id": "topic-0274",
+      "reason": "Исправлена перестановка91:9 и91:10 между очищением и ущербом; различены душа и следование своим или чужим прихотям."
+    },
+    {
+      "topic_id": "topic-0275",
+      "reason": "Уточнено, что подборка посвящена прежде всего аль-Аршу и Божьей власти; исходный общий заголовок не выдан за отдельный буквальный коранический термин."
+    },
+    {
+      "topic_id": "topic-0276",
+      "reason": "Исправлено ошибочное отнесение всей разнородной подборки к мунафикам; различены виды отношения к Писанию и сохранены положительные примеры."
+    },
+    {
+      "topic_id": "topic-0278",
+      "reason": "Трон без упоминания небес исключён; формулировка о равновесном расположении заменена реально названными порядком, движением и удержанием небес."
+    },
+    {
+      "topic_id": "topic-0279",
+      "reason": "Подпункт об изменении небес исправлен: почти все его ссылки говорят о сокровенном и Божьем знании, а не об изменении физических объектов. Слово «туманность» заменено словом «дым» из местного перевода41:11."
+    }
+  ],
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно."
+    },
+    "ksu-saadi-2-240": {
+      "title": "Ас-Саади, толкование 2:240",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya240.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 240,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-180": {
+      "title": "Ас-Саади, толкование 2:180",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya180.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 180,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-9-122": {
+      "title": "Ас-Саади, толкование 9:122",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura9-aya122.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 9,
+        "aya": 122,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-18-109": {
+      "title": "Ас-Саади, толкование 18:109",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura18-aya109.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 18,
+        "aya": 109,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-31-27": {
+      "title": "Ас-Саади, толкование 31:27",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura31-aya27.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 31,
+        "aya": 27,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-3-7": {
+      "title": "Ас-Саади, толкование 3:7",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura3-aya7.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 3,
+        "aya": 7,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-12-111": {
+      "title": "Ас-Саади, толкование 12:111",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura12-aya111.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 12,
+        "aya": 111,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-16-89": {
+      "title": "Ас-Саади, толкование 16:89",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura16-aya89.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 16,
+        "aya": 89,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-176": {
+      "title": "Ас-Саади, толкование 4:176",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya176.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 176,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-8": {
+      "title": "Ас-Саади, толкование 4:8",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya8.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 8,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-11": {
+      "title": "Ас-Саади, толкование 4:11",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya11.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 11,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-5-107": {
+      "title": "Ас-Саади, толкование 5:107",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura5-aya107.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 5,
+        "aya": 107,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-9": {
+      "title": "Ас-Саади, толкование 4:9",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya9.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 9,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-33": {
+      "title": "Ас-Саади, толкование 4:33",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya33.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 33,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-27-56": {
+      "title": "Ас-Саади, толкование 27:56",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura27-aya56.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 27,
+        "aya": 56,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-26-25": {
+      "title": "Ибн Касир, толкование 26:25",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura26-aya25.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 26,
+        "aya": 25,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-235": {
+      "title": "Ас-Саади, толкование 2:235",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya235.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 235,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-175": {
+      "title": "Ас-Саади, толкование 7:175",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya175.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 175,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-199": {
+      "title": "Ас-Саади, толкование 7:199",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya199.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 199,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-26-197": {
+      "title": "Ас-Саади, толкование 26:197",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura26-aya197.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 26,
+        "aya": 197,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-16-43": {
+      "title": "Ас-Саади, толкование 16:43",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura16-aya43.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 16,
+        "aya": 43,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-91-10": {
+      "title": "Ас-Саади, толкование 91:10",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura91-aya10.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 91,
+        "aya": 10,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-91-9": {
+      "title": "Ас-Саади, толкование 91:9",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura91-aya9.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 91,
+        "aya": 9,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-3-93": {
+      "title": "Ас-Саади, толкование 3:93",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura3-aya93.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 3,
+        "aya": 93,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-211": {
+      "title": "Ас-Саади, толкование 2:211",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya211.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 211,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-6-20": {
+      "title": "Ас-Саади, толкование 6:20",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura6-aya20.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 6,
+        "aya": 20,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-15-90": {
+      "title": "Ас-Саади, толкование 15:90",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura15-aya90.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 15,
+        "aya": 90,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-15-91": {
+      "title": "Ас-Саади, толкование 15:91",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura15-aya91.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 15,
+        "aya": 91,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-174": {
+      "title": "Ас-Саади, толкование 4:174",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya174.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 174,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-6-70": {
+      "title": "Ас-Саади, толкование 6:70",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura6-aya70.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 6,
+        "aya": 70,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-6-154": {
+      "title": "Ас-Саади, толкование 6:154",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura6-aya154.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 6,
+        "aya": 154,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-145": {
+      "title": "Ас-Саади, толкование 7:145",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya145.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 145,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-21-106": {
+      "title": "Ас-Саади, толкование 21:106",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura21-aya106.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 21,
+        "aya": 106,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-50-28": {
+      "title": "Ас-Саади, толкование 50:28",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura50-aya28.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 50,
+        "aya": 28,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-69-48": {
+      "title": "Ас-Саади, толкование 69:48",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura69-aya48.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 69,
+        "aya": 48,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-74-31": {
+      "title": "Ас-Саади, толкование 74:31",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura74-aya31.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 74,
+        "aya": 31,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-80-15": {
+      "title": "Ас-Саади, толкование 80:15",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura80-aya15.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 80,
+        "aya": 15,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-80-16": {
+      "title": "Ас-Саади, толкование 80:16",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura80-aya16.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 80,
+        "aya": 16,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-27-75": {
+      "title": "Ас-Саади, толкование 27:75",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura27-aya75.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 27,
+        "aya": 75,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-72-27": {
+      "title": "Ас-Саади, толкование 72:27",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura72-aya27.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 72,
+        "aya": 27,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-39-63": {
+      "title": "Ас-Саади, толкование 39:63",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura39-aya63.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 39,
+        "aya": 63,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "validation": {
+    "all_retained_verses_have_explanation_and_exact_local_quote": true,
+    "all_original_links_have_explicit_decision": true,
+    "first_280_topics_unchanged": true,
+    "original_full_clean_index_unchanged": true,
+    "new_external_quran_corpus_used": false,
+    "tafsir_source_records_exist_in_local_official_snapshots": true
+  }
+}

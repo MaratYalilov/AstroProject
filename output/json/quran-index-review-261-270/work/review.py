@@ -207,7 +207,7 @@ counts = {'topics_reviewed': 10, 'original_links_reviewed': len(rows), 'retained
 assert counts['original_links_reviewed'] == 871
 assert counts['result_links'] == counts['retained_original_links'] + counts['added_links']
 assert cumulative['topics'][:260] == previous['topics']
-log = {'batch_id': 'positions-0261-0270', 'reviewed_at': '2026-10-16',
+log = {'batch_id': 'positions-0261-0270', 'reviewed_at': '2026-10-17',
        'scope': {'first_topic_ordinal': 261, 'last_topic_ordinal': 270, 'topic_ids': [t['id'] for t in topics], 'entire_index_reviewed': False},
        'input_sha256': hashlib.sha256(original_bytes).hexdigest(), 'text_source_id': 'site-quran',
        'counts': counts, 'decisions': rows, 'additions': additions, 'description_changes': changes, 'topic_changes': topic_changes,
@@ -225,13 +225,13 @@ def source_links(refs):
     return '; '.join(f"[{sources[s]['title']}]({sources[s]['url']})" for s in refs if s != 'site-quran')
 
 
-md = ['# Проверка тем 261-270', '', 'Дата: 16 октября 2026 года.', '',
+md = ['# Проверка тем 261-270', '', 'Завершено: 17 октября 2026 года.', '',
       f"Проверено {counts['original_links_reviewed']} исходных связей: сохранено {counts['retained_original_links']}, исключено {counts['removed_original_links']}; добавлено {counts['added_links']}. Итоговое количество связей: {counts['result_links']}; различных аятов: {counts['result_unique_verses']}. Сводный JSON содержит первые 270 тем.", '',
       'Источник арабского текста и цитат - локальный site-quran. Все ключевые фразы дословно взяты из перевода Кулиева сайта. Тафсиры и хадисы служат отдельными основаниями именных связей и толкований. Новый внешний корпус текста Корана не получался.', '',
       'Для каждого сохранённого аята записаны объяснение, ключевая фраза и основание. Для каждого исключённого - конкретная причина в журнале. Связи по контексту отмечены отдельно. Отнесение к человеку в тафсире не обозначает самостоятельной проверки иснада рассказа. Частота цитирования без подтверждения не заявлялась.', '',
       '## Сводка', '', '| № | Тема | Было | Сохранено | Удалено | Добавлено | Стало |', '| --- | --- | ---: | ---: | ---: | ---: | ---: |']
 for index, topic in enumerate(topics, 261):
-    identities = {i['id'] for i in topic['items']}
+    identities = {i['id'] for i in original['topics'][index-1]['items']} | {i['id'] for i in topic['items']}
     d = [r for r in rows if r['item_id'] in identities]
     a = [r for r in additions if r['item_id'] in identities]
     md.append(f"| {index} | {topic['title']} | {len(d)} | {sum(r['decision'] == 'retain' for r in d)} | {sum(r['decision'] == 'remove' for r in d)} | {len(a)} | {sum(len(i['verse_keys']) for i in topic['items'])} |")
@@ -259,6 +259,13 @@ for index, topic in enumerate(topics, 261):
         removed = [r for r in rows if r['item_id'] == item['id'] and r['decision'] == 'remove']
         if removed:
             md += ['Исключено:', ''] + [f"- **{r['verse_key']}**: {r['reason']}" for r in removed] + ['']
+removed_items = {c['item_id'] for c in changes if c['after'] == 'Подпункт исключён'}
+if removed_items:
+    md += ['## Исключённые подпункты', '']
+    for identity in sorted(removed_items):
+        md += [f"### {identity}", '']
+        md += [f"- **{r['verse_key']}**: {r['reason']}" for r in rows if r['item_id'] == identity and r['decision'] == 'remove']
+        md += ['']
 md += ['## Изменения формулировок', '']
 md += [f"- **{c['item_id']}**: «{c['before']}» → «{c['after']}». {c['reason']}" for c in changes]
 md += ['', 'Исходный полный индекс и первые 260 проверенных тем не менялись. PDF и сборка сайта не запускались. Темы после 270-й не входят в сводный проверенный файл.', '']
