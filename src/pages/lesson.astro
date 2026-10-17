@@ -214,6 +214,15 @@ const canonicalPath = lessonNotFound
       ? `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(currentLesson.slug)}`
       : `/${subject}/${course}`;
 const canonical = new URL(canonicalPath, Astro.site).href;
+
+// Постер видео - элемент LCP на странице урока. Отдаём его preload с высоким
+// приоритетом: <video poster> сам по себе грузится слишком поздно.
+const posterUrl =
+  !lessonNotFound && currentLesson?.video
+    ? currentLesson.video
+        .replace("/video/", "/thumbs/")
+        .replace(/\.(mp4|webm|mov)$/i, ".jpg")
+    : null;
 ---
 
 <Base
@@ -227,6 +236,9 @@ const canonical = new URL(canonicalPath, Astro.site).href;
 >
   <Fragment slot="head">
     <link rel="canonical" href={canonical} />
+    {posterUrl && (
+      <link rel="preload" as="image" href={posterUrl} fetchpriority="high" />
+    )}
   </Fragment>
   <Breadcrumbs
     items={[

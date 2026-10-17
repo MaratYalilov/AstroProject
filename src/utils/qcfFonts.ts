@@ -48,14 +48,45 @@ export function initQcfFonts() {
     fonts.set(key, loading);
   }
 
+  function loadForElement(element: HTMLElement) {
+    const page = Number(element.dataset.qcfPage);
+    const text = element.querySelector('.qcf-glyphs')?.textContent;
+    if (Number.isInteger(page) && page >= 1 && page <= 604 && text) {
+      loadPage(page, element.dataset.qcfVariant === 'tajweed');
+    }
+  }
+
+  // Аяты ниже первого экрана не должны тянуть свои страничные шрифты сразу:
+  // на мобильном это сотни килобайт в критическом пути. Грузим, когда блок
+  // подходит к экрану; Unicode-фолбэк виден всё это время.
+  const observed = new WeakSet<Element>();
+  const viewportObserver =
+    typeof IntersectionObserver === 'undefined'
+      ? null
+      : new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (!entry.isIntersecting) continue;
+              const element = entry.target as HTMLElement;
+              viewportObserver!.unobserve(element);
+              loadForElement(element);
+            }
+          },
+          { rootMargin: '100% 0px' },
+        );
+
   function scan(root: ParentNode) {
     const elements = Array.from(root.querySelectorAll<HTMLElement>('[data-qcf-page]'));
     if (root instanceof HTMLElement && root.matches('[data-qcf-page]')) elements.unshift(root);
+
     for (const element of elements) {
-      const page = Number(element.dataset.qcfPage);
-      const text = element.querySelector('.qcf-glyphs')?.textContent;
-      if (Number.isInteger(page) && page >= 1 && page <= 604 && text) {
-        loadPage(page, element.dataset.qcfVariant === 'tajweed');
+      if (observed.has(element)) continue;
+      observed.add(element);
+
+      if (viewportObserver) {
+        viewportObserver.observe(element);
+      } else {
+        loadForElement(element);
       }
     }
   }
@@ -70,5 +101,11 @@ export function initQcfFonts() {
   });
   observer.observe(document.body, { childList: true, subtree: true });
   scan(document.body);
-  window.addEventListener('online', () => scan(document.body));
+  // После обрыва соединения пробуем ещё раз все страницы: неудачные шрифты
+  // остались в очереди, а успешные loadPage отбросит по кэшу.
+  window.addEventListener('online', () => {
+    for (const element of document.querySelectorAll<HTMLElement>('[data-qcf-page]')) {
+      loadForElement(element);
+    }
+  });
 }

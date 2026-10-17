@@ -358,7 +358,7 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
     <main class:list={["mx-auto w-full max-w-7xl py-6", readingPage ? "mobile-reading px-2 md:px-4" : "px-4"]}>
       <slot />
     </main>
-    <GlossaryOverlay client:load />
+    <GlossaryOverlay client:idle />
     <ScrollToTop client:load />
   </body>
 </html>

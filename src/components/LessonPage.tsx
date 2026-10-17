@@ -567,6 +567,8 @@ const PrevNextOverlay = ({ mode }: { mode: "video" | "audio" }) => (
 
 // Render the same content on the server and on the first client pass.
 // HTML parsing normalizes line endings before React hydrates the page.
+// В части старых уроков h1 пришёл из Markdown: второй такой же не добавляем.
+const hasContentH1 = /<h1[\s>]/i.test(currentLesson.html);
 const htmlWithCards = React.useMemo(() => {
   const html = currentLesson.html.replace(/\r\n?/g, "\n");
   
@@ -626,7 +628,9 @@ const htmlWithCards = React.useMemo(() => {
     <div className="min-h-screen bg-background text-foreground" data-quran-audio-ready={isClient ? "true" : "false"}>
       {/* Заголовок страницы: визуально его заменяют хлебные крошки и медиа,
           но h1 нужен для поиска и скринридеров. */}
-      <h1 className="sr-only">{currentLesson.title}</h1>
+      {!hasContentH1 && (
+        <h1 className="sr-only">{currentLesson.title}</h1>
+      )}
       {/* ========================= */}
       {/* FULL WIDTH MOBILE (YouTube) */}
       {/* ========================= */}
