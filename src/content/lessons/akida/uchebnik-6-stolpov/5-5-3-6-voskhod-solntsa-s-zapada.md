@@ -9,7 +9,7 @@ groupOrder: 13
 groupTitle: Вера в Последний день
 ---
 
-<h1>Восход солнца с запада</h1>
+
 <p>На это указывают Коран и <a href="/glossary/sunna" class="glossary-link" target="_blank" rel="noopener noreferrer">сунна</a> пророка, да благословит его Аллах и приветствует.<br />Всевышний Аллах сказал:</p>
 <p>{Quran}6:158{/Quran}</p>
 <div class="hadith">

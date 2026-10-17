@@ -1,10 +1,10 @@
 import React from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { BookOpen, ChevronDown, Sparkles } from "lucide-react";
+import { BookOpen, Sparkles } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
 import { marked } from "marked";
 import { replaceQuranTags } from "../../utils/replaceQuranTags";
 import { prepareMermaidBlocks, useMermaidRender } from "../../utils/mermaid";
+import { enhanceAlphabetAudio } from "../../utils/alphabetAudio";
 
 type TitleSegment = {
   text: string;
@@ -54,23 +54,23 @@ function TheoryContent({
 }) {
   return (
     <div
-      className="max-w-none
-        [&_h1]:mb-5 [&_h1]:mt-2 [&_h1]:text-3xl [&_h1]:font-semibold [&_h1]:leading-tight [&_h1]:text-slate-950 dark:[&_h1]:text-white
-        [&_h2]:mb-4 [&_h2]:mt-9 [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:leading-tight [&_h2]:text-slate-950 dark:[&_h2]:text-white
-        [&_h3]:mb-3 [&_h3]:mt-7 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:leading-snug [&_h3]:text-slate-900 dark:[&_h3]:text-slate-50
-        [&_p]:my-5 [&_p]:text-lg [&_p]:leading-8 [&_p]:text-slate-700 dark:[&_p]:text-slate-200
-        [&_strong]:font-semibold [&_strong]:text-slate-950 dark:[&_strong]:text-white
-        [&_ul]:my-6 [&_ul]:list-disc [&_ul]:space-y-3 [&_ul]:pl-6 [&_ul]:text-lg [&_ul]:leading-8 [&_ul]:text-slate-700 dark:[&_ul]:text-slate-200
-        [&_ol]:my-6 [&_ol]:list-decimal [&_ol]:space-y-3 [&_ol]:pl-6 [&_ol]:text-lg [&_ol]:leading-8 [&_ol]:text-slate-700 dark:[&_ol]:text-slate-200
+      className="lesson-text max-w-none
+        [&_h1]:text-lesson-heading
+        [&_h2]:text-lesson-heading
+        [&_h3]:text-lesson-subheading
+        [&_p]:text-lesson-text
+        [&_strong]:font-semibold [&_strong]:text-lesson-heading
+        [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:text-lesson-text
+        [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:text-lesson-text
         [&_li]:pl-1 [&_li]:marker:text-cyan-600 dark:[&_li]:marker:text-cyan-300
-        [&_blockquote]:my-7 [&_blockquote]:rounded-2xl [&_blockquote]:border [&_blockquote]:border-cyan-200/70 [&_blockquote]:bg-cyan-50/70 [&_blockquote]:px-5 [&_blockquote]:py-4 [&_blockquote]:text-lg [&_blockquote]:leading-8 [&_blockquote]:text-slate-800 [&_blockquote]:shadow-sm [&_blockquote]:shadow-cyan-100/60 dark:[&_blockquote]:border-cyan-300/15 dark:[&_blockquote]:bg-cyan-300/10 dark:[&_blockquote]:text-slate-100 dark:[&_blockquote]:shadow-none
+        [&_blockquote]:rounded-2xl [&_blockquote]:border [&_blockquote]:border-cyan-200/70 [&_blockquote]:bg-cyan-50/70 [&_blockquote]:px-5 [&_blockquote]:py-4 [&_blockquote]:text-slate-800 [&_blockquote]:shadow-sm [&_blockquote]:shadow-cyan-100/60 dark:[&_blockquote]:border-cyan-300/15 dark:[&_blockquote]:bg-cyan-300/10 dark:[&_blockquote]:text-slate-100 dark:[&_blockquote]:shadow-none
         [&_code]:rounded-md [&_code]:bg-slate-100 [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:text-base [&_code]:text-slate-900 dark:[&_code]:bg-white/10 dark:[&_code]:text-slate-100
-        [&_table]:my-6 [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_table]:text-base [&_table]:text-slate-700 dark:[&_table]:text-slate-200 [&_table]:border [&_table]:border-slate-200/80 dark:[&_table]:border-white/10 [&_table]:rounded-xl [&_table]:overflow-hidden
+        [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_table]:text-lesson-text [&_table]:border [&_table]:border-slate-200/80 dark:[&_table]:border-white/10 [&_table]:rounded-xl [&_table]:overflow-hidden
         [&_thead]:border-b [&_thead]:border-slate-200/80 [&_thead]:bg-slate-50/80 dark:[&_thead]:border-white/10 dark:[&_thead]:bg-white/[0.04]
         [&_tbody]:divide-y [&_tbody]:divide-slate-200/80 dark:[&_tbody]:divide-white/10
         [&_tr]:transition-colors [&_tr]:hover:bg-slate-50/50 dark:[&_tr]:hover:bg-white/[0.02]
         [&_th]:px-4 [&_th]:py-3 [&_th]:text-sm [&_th]:font-semibold [&_th]:uppercase [&_th]:tracking-wider [&_th]:text-slate-600 dark:[&_th]:text-slate-400 sm:[&_th]:px-5
-        [&_td]:px-4 [&_td]:py-3 [&_td]:text-lg sm:[&_td]:px-5 [&_td:first-child]:font-arabic [&_td:first-child]:text-2xl"
+        [&_td]:px-4 [&_td]:py-3 sm:[&_td]:px-5 [&_td:first-child]:font-arabic [&_td:first-child]:text-2xl"
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );
@@ -80,20 +80,18 @@ export default function TheoryReveal({
   title,
   source,
 }: Props) {
-  const [isOpen, setIsOpen] = useState(false);
   const [html, setHtml] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const contentId = useId();
   const sectionRef = useRef<HTMLDivElement>(null);
 
-  // Диаграммы Mermaid появляются в DOM после открытия теории — просим
-  // astro-mermaid отрисовать их (см. src/utils/mermaid.ts). Зависим от isOpen,
-  // потому что при закрытии/открытии контент пересоздаётся React'ом заново.
-  useMermaidRender(isOpen ? html : null);
+  // Диаграммы Mermaid появляются в DOM после подгрузки теории — просим
+  // astro-mermaid отрисовать их (см. src/utils/mermaid.ts).
+  useMermaidRender(html);
 
   useEffect(() => {
-    if (!isOpen || html !== null || isLoading) return;
+    if (html !== null || isLoading) return;
 
     let isCancelled = false;
     setIsLoading(true);
@@ -127,135 +125,93 @@ export default function TheoryReveal({
     return () => {
       isCancelled = true;
     };
-  }, [isOpen, source]);
+  }, [source]);
 
-  const handleOpen = () => {
-    setIsOpen((value) => !value);
-  };
+  useEffect(() => {
+    if (!html || !sectionRef.current) return;
+    return enhanceAlphabetAudio(sectionRef.current);
+  }, [html]);
 
-  const handleAnimationComplete = () => {
-    if (isOpen && sectionRef.current) {
-      sectionRef.current.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-  };
+  useEffect(() => {
+    if (!html) return;
+
+    // Якорь становится доступен после подгрузки Markdown, уже после первого
+    // перехода браузера по ссылке вида ?lesson=artikl#lam-allah.
+    const scrollToSection = () => {
+      let id: string;
+      try {
+        id = decodeURIComponent(window.location.hash.slice(1));
+      } catch {
+        return;
+      }
+      if (!id) return;
+      const target = document.getElementById(id);
+      if (target && sectionRef.current?.contains(target)) {
+        target.scrollIntoView({ block: "start" });
+      }
+    };
+
+    const frame = requestAnimationFrame(scrollToSection);
+    window.addEventListener("hashchange", scrollToSection);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("hashchange", scrollToSection);
+    };
+  }, [html]);
 
   return (
-    <motion.section
+    // ВАЖНО: обычный section без layout-анимации и backdrop-blur.
+    // motion.section layout анимировал трансформом всю секцию при подгрузке
+    // теории (текст появлялся растянутым/размытым), а backdrop-blur-2xl на
+    // полотне высотой в тысячи пикселей переполнял VRAM и ронял драйвер GPU.
+    <section
       ref={sectionRef}
-      layout
-      className="scroll-mt-28 overflow-hidden rounded-3xl border border-white/70 bg-white/75 p-4 shadow-xl shadow-slate-200/70 backdrop-blur-2xl transition-colors duration-300 dark:border-white/10 dark:bg-white/[0.06] dark:shadow-black/20 sm:p-5"
+      className="lesson-block scroll-mt-28 overflow-hidden rounded-3xl border border-white/70 bg-white p-0 sm:p-4 shadow-xl shadow-slate-200/70 transition-colors duration-300 dark:border-white/10 dark:bg-white/[0.06] dark:shadow-black/20"
     >
-
-      <div className="relative overflow-hidden rounded-2xl border border-slate-200/80 bg-gradient-to-br from-white via-cyan-50/55 to-emerald-50/70 p-5 dark:border-white/10 dark:from-white/[0.08] dark:via-cyan-300/[0.08] dark:to-emerald-300/[0.06] sm:p-6">
-        <div className="pointer-events-none absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-cyan-300/70 to-transparent" />
-
-        <div className="relative flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
-          <div className="max-w-2xl">
             <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-200/80 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 shadow-sm shadow-cyan-100/70 dark:border-cyan-300/20 dark:bg-white/10 dark:text-cyan-200 dark:shadow-none">
               <Sparkles size={13} aria-hidden="true" />
               Теория
             </div>
 
-            <h2 className="text-2xl font-semibold leading-tight text-slate-950 dark:text-white sm:text-3xl">
-              Теперь давайте разберём подробнее
-            </h2>
-
-          </div>
-
-          <motion.button
-            type="button"
-            whileHover={{ y: -1 }}
-            whileTap={{ scale: 0.98 }}
-            onClick={handleOpen}
-            aria-expanded={isOpen}
-            aria-controls={contentId}
-            className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-950 px-5 py-3.5 text-sm font-semibold text-white shadow-lg shadow-slate-900/20 transition hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-white dark:bg-white dark:text-slate-950 dark:shadow-cyan-400/10 dark:hover:bg-cyan-50 dark:focus:ring-offset-slate-950 sm:w-auto"
-          >
-            {isOpen ? "Скрыть теорию" : "Открыть теорию"}
-            <ChevronDown
-              size={18}
-              className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
-              aria-hidden="true"
-            />
-          </motion.button>
+      <div className="lesson-theory-content w-full px-0 pb-4 pt-6 sm:mx-auto sm:px-4 sm:pb-6">
+        <div className="sticky top-4 z-10 mb-6 flex items-center gap-2 rounded-2xl border border-white/80 bg-white/85 px-3 py-3 text-sm font-semibold text-slate-700 shadow-lg shadow-slate-200/70 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/75 dark:text-slate-200 dark:shadow-black/20 sm:px-4">
+          <BookOpen size={17} className="text-cyan-600 dark:text-cyan-300" aria-hidden="true" />
+          {Array.isArray(title)
+            ? title.map((seg, i) =>
+                seg.arab ? (
+                  <span key={i} className="arab">{seg.text}</span>
+                ) : (
+                  <React.Fragment key={i}>{seg.text}</React.Fragment>
+                ),
+              )
+            : title || "Теория урока"}
         </div>
+
+        {/* без backdrop-blur: статья — вся высота теории, размытие подложки
+            такой площади слишком дорого для GPU */}
+        <article className="lesson-theory-body rounded-2xl border border-slate-200/80 bg-white px-4 py-6 shadow-sm shadow-slate-200/60 dark:border-white/10 dark:bg-slate-950/35 dark:shadow-none sm:px-8 sm:py-8">
+          {isLoading && (
+            <div className="space-y-4">
+              <p className="sr-only" role="status">Загрузка теории</p>
+              {/* В тёмной теме полосы на white/10 почти не видны: держим контраст. */}
+              <div aria-hidden="true" className="space-y-4">
+                <div className="h-5 w-2/3 animate-pulse rounded-full bg-slate-200 dark:bg-white/20" />
+                <div className="h-4 w-full animate-pulse rounded-full bg-slate-200 dark:bg-white/20" />
+                <div className="h-4 w-5/6 animate-pulse rounded-full bg-slate-200 dark:bg-white/20" />
+              </div>
+            </div>
+          )}
+
+          {error && (
+            <p className="m-0 text-lg leading-8 text-rose-700 dark:text-rose-200">
+              {error}
+            </p>
+          )}
+
+          {html && <TheoryContent html={html} />}
+        </article>
       </div>
 
-      <AnimatePresence initial={false}>
-        {isOpen && (
-          <motion.div
-            id={contentId}
-            key="theory-content"
-            initial={{ height: 0, opacity: 0, filter: "blur(8px)" }}
-            animate={{ height: "auto", opacity: 1, filter: "blur(0px)" }}
-            exit={{ height: 0, opacity: 0, filter: "blur(8px)" }}
-            transition={{
-              height: { duration: 0.42, ease: [0.22, 1, 0.36, 1] },
-              opacity: { duration: 0.24 },
-              filter: { duration: 0.24 },
-            }}
-            onAnimationComplete={handleAnimationComplete}
-            className="overflow-hidden"
-
-          >
-            <div className="mx-auto px-0 pb-4 pt-6 sm:px-4 sm:pb-6">
-              <div className="sticky top-4 z-10 mb-6 flex items-center gap-2 rounded-2xl border border-white/80 bg-white/85 px-3 py-3 text-sm font-semibold text-slate-700 shadow-lg shadow-slate-200/70 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/75 dark:text-slate-200 dark:shadow-black/20 sm:px-4">
-                <BookOpen size={17} className="text-cyan-600 dark:text-cyan-300" aria-hidden="true" />
-                {Array.isArray(title)
-                  ? title.map((seg, i) =>
-                      seg.arab ? (
-                        <span key={i} className="font-arabic">{seg.text}</span>
-                      ) : (
-                        <React.Fragment key={i}>{seg.text}</React.Fragment>
-                      ),
-                    )
-                  : title || "Теория урока"}
-              </div>
-
-              <article className="rounded-2xl border border-slate-200/80 bg-white/80 px-0 py-6 shadow-sm shadow-slate-200/60 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/35 dark:shadow-none sm:px-8 sm:py-8">
-                {isLoading && (
-                  <div className="space-y-4" aria-live="polite">
-                    <div className="h-5 w-2/3 animate-pulse rounded-full bg-slate-200 dark:bg-white/10" />
-                    <div className="h-4 w-full animate-pulse rounded-full bg-slate-200 dark:bg-white/10" />
-                    <div className="h-4 w-5/6 animate-pulse rounded-full bg-slate-200 dark:bg-white/10" />
-                  </div>
-                )}
-
-                {error && (
-                  <p className="m-0 text-lg leading-8 text-rose-700 dark:text-rose-200">
-                    {error}
-                  </p>
-                )}
-
-                {html && <TheoryContent html={html} />}
-
-                {html && (
-                  <div className="mt-8 flex justify-center border-t border-slate-200/60 pt-6 dark:border-white/10">
-                    <motion.button
-                      type="button"
-                      whileHover={{ y: -1 }}
-                      whileTap={{ scale: 0.98 }}
-                      onClick={() => setIsOpen(false)}
-                      className="inline-flex items-center gap-2 rounded-2xl border border-slate-200/80 bg-white/80 px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm shadow-slate-200/60 backdrop-blur-sm transition hover:bg-slate-50 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-white dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-300 dark:shadow-none dark:hover:bg-white/[0.1] dark:hover:text-white dark:focus:ring-offset-slate-950"
-                    >
-                      <ChevronDown
-                        size={16}
-                        className="rotate-180"
-                        aria-hidden="true"
-                      />
-                      Скрыть теорию
-                    </motion.button>
-                  </div>
-                )}
-              </article>
-            </div>
-
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </motion.section>
+    </section>
   );
 }

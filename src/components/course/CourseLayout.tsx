@@ -180,8 +180,8 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
 
         {/* Lesson content */}
         <main className="lesson-course-content flex-1 w-full mx-auto px-0 sm:px-6 lg:px-8 py-6 lg:py-10">
-          <div className="mb-6 hidden lg:block">
-            <CourseHeading title={courseTitle} />
+          <div className="mb-6">
+            <CourseHeading title={courseTitle} as="h1" />
           </div>
           {/* ВАЖНО: без AnimatePresence/motion — анимация opacity/y всего урока
               промоутила в GPU-слой страницу целиком (в уроках части 2 это

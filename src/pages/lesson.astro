@@ -71,6 +71,7 @@ const emptyStateMessage = "Для выбранного курса уроки е�
 
 let currentLesson: any = null;
 let lessons: any[] = [];
+let lessonNotFound = false;
 let ogImage = courseEntry.data.ogImage ?? subjectEntry.data.ogImage;
 
 // ---------- INTERACTIVE: загружаем JSON уроки ----------
@@ -83,8 +84,11 @@ if (isInteractive) {
   // Загружаем все JSON уроки курса
   interactiveLessons = await loadAllInteractiveLessons(subject, course);
 
-  // Ищем конкретный урок по slug
-  interactiveLesson = interactiveLessons.find((l) => l.slug === lessonSlug) ?? interactiveLessons[0] ?? null;
+  // Ищем конкретный урок по slug. Явно указанный, но неизвестный slug
+  // не подменяем первым уроком: отдаём 404 со ссылкой на курс.
+  const matchedLesson = interactiveLessons.find((l) => l.slug === lessonSlug);
+  lessonNotFound = Boolean(slugParam) && !matchedLesson;
+  interactiveLesson = matchedLesson ?? interactiveLessons[0] ?? null;
   ogImage = interactiveLesson?.ogImage ?? ogImage;
 
   // Формируем список уроков для сайдбара (как в markdown версии)
@@ -113,14 +117,17 @@ if (isInteractive) {
   // slugParam может быть "157_predislovie" или полный slug "akida/uchebnik-6-stolpov/157_predislovie"
   const normalize = (s: string) => s.replace(/^\//, "");
 
-  const target =
-    sortedLessons.find((l) => {
-      const full = normalize(l.id);
-      const tail = full.split("/").pop();
-      const wanted = normalize(slugParam);
-      if (!wanted) return false;
-      return full === wanted || tail === wanted;
-    }) ?? sortedLessons[0];
+  const normalizedSlug = normalize(slugParam);
+  const matchedLesson = normalizedSlug
+    ? sortedLessons.find((l) => {
+        const full = normalize(l.id);
+        const tail = full.split("/").pop();
+        return full === normalizedSlug || tail === normalizedSlug;
+      })
+    : undefined;
+
+  lessonNotFound = Boolean(normalizedSlug) && !matchedLesson;
+  const target = matchedLesson ?? sortedLessons[0];
 
   // Рендерим MD → HTML
   const { Content } = await render(target);
@@ -179,21 +186,33 @@ if (isInteractive) {
   }));
 }
 
+if (lessonNotFound) {
+  Astro.response.status = 404;
+}
+
 const lessonTitle = Array.isArray(currentLesson?.title)
   ? currentLesson.title.map((part: { text: string }) => part.text).join("")
   : currentLesson?.title;
-const previewTitle = [subjectEntry.data.title, courseTitle, lessonTitle]
-  .filter(Boolean)
-  .join(" - ");
-const pageTitle = buildPageTitle(lessonTitle, courseTitle);
-const description = lessonTitle
-  ? buildLessonDescription(lessonTitle, courseTitle, currentLesson.description)
-  : buildCourseDescription(courseTitle, courseEntry.data.description);
-const canonicalPath = isInteractive && interactiveLesson
-  ? `/${subject}/${course}/?lesson=${encodeURIComponent(interactiveLesson.slug)}`
-  : currentLesson
-    ? `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(currentLesson.slug)}`
-    : `/${subject}/${course}`;
+const previewTitle = lessonNotFound
+  ? [subjectEntry.data.title, courseTitle].filter(Boolean).join(" - ")
+  : [subjectEntry.data.title, courseTitle, lessonTitle]
+      .filter(Boolean)
+      .join(" - ");
+const pageTitle = lessonNotFound
+  ? buildPageTitle("Урок не найден", courseTitle)
+  : buildPageTitle(lessonTitle, courseTitle);
+const description = lessonNotFound
+  ? buildCourseDescription(courseTitle, courseEntry.data.description)
+  : lessonTitle
+    ? buildLessonDescription(lessonTitle, courseTitle, currentLesson.description)
+    : buildCourseDescription(courseTitle, courseEntry.data.description);
+const canonicalPath = lessonNotFound
+  ? `/${subject}/${course}`
+  : isInteractive && interactiveLesson
+    ? `/${subject}/${course}/?lesson=${encodeURIComponent(interactiveLesson.slug)}`
+    : currentLesson
+      ? `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(currentLesson.slug)}`
+      : `/${subject}/${course}`;
 const canonical = new URL(canonicalPath, Astro.site).href;
 ---
 
@@ -215,8 +234,9 @@ const canonical = new URL(canonicalPath, Astro.site).href;
       { label: subjectEntry.data.title, href: `/${subjectEntry.data.slug}/` },
       { label: courseTitle, href: `/${subject}/${course}` },
       {
-        label:
-          hasLessons && currentLesson
+        label: lessonNotFound
+          ? "Урок не найден"
+          : hasLessons && currentLesson
             ? currentLesson.title
             : "Урок не найден",
       },
@@ -224,13 +244,46 @@ const canonical = new URL(canonicalPath, Astro.site).href;
   />
 
   {
-    isInteractive && interactiveLesson ? (
-      <InteractiveLessonPage
-        client:load
-        lesson={interactiveLesson}
-        subject={subject}
-        course={course}
-      />
+    lessonNotFound ? (
+      <section class="no-lessons-message mx-auto max-w-2xl py-10">
+        <h1 class="mb-4 text-2xl font-semibold">Урок не найден</h1>
+        <p class="mb-6 text-muted-foreground">
+          Возможно, ссылка устарела или в адресе опечатка.
+        </p>
+        <a
+          class="text-primary underline underline-offset-4 hover:opacity-80"
+          href={`/${subject}/${course}`}
+        >
+          Открыть курс «{courseTitle}»
+        </a>
+        <script is:inline define:vars={{ subject, course, slugParam }}>
+          // Если браузер помнит этот урок как последний, ссылка на курс
+          // снова приведёт на тот же несуществующий slug. Чистим память.
+          (function () {
+            try {
+              var key = 'last-lesson:' + subject + '/' + course;
+              var stored = localStorage.getItem(key);
+              if (!stored) return;
+              var tail = stored.split('/').pop();
+              if (stored === slugParam || tail === slugParam) {
+                localStorage.removeItem(key);
+              }
+            } catch (e) {
+              // Хранилище может быть недоступно.
+            }
+          })();
+        </script>
+      </section>
+    ) : isInteractive && interactiveLesson ? (
+      <>
+        <h1 class="sr-only">{lessonTitle}</h1>
+        <InteractiveLessonPage
+          client:load
+          lesson={interactiveLesson}
+          subject={subject}
+          course={course}
+        />
+      </>
     ) : hasLessons && currentLesson ? (
       isBlogLayout ? (
         <BlogLessonPage

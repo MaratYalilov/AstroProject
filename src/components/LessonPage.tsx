@@ -624,6 +624,9 @@ const htmlWithCards = React.useMemo(() => {
 
   return (
     <div className="min-h-screen bg-background text-foreground" data-quran-audio-ready={isClient ? "true" : "false"}>
+      {/* Заголовок страницы: визуально его заменяют хлебные крошки и медиа,
+          но h1 нужен для поиска и скринридеров. */}
+      <h1 className="sr-only">{currentLesson.title}</h1>
       {/* ========================= */}
       {/* FULL WIDTH MOBILE (YouTube) */}
       {/* ========================= */}
@@ -835,7 +838,7 @@ const htmlWithCards = React.useMemo(() => {
                 <div className="mt-3">
                   <Progress value={progress} />
                   <div className="mt-1 text-xs text-muted-foreground">
-                    {progress}% просмотрено (условно)
+                    {progress}% пройдено
                   </div>
                 </div>
 
@@ -1165,7 +1168,7 @@ const htmlWithCards = React.useMemo(() => {
                   <div className="mt-3">
                     <Progress value={progress} />
                     <div className="mt-1 text-xs text-muted-foreground">
-                      {progress}% просмотрено (условно)
+                      {progress}% пройдено
                     </div>
                   </div>
 

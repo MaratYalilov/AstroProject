@@ -9,7 +9,7 @@ groupOrder: 6
 groupTitle: Вера в Аллаха
 ---
 
-<h1>Некоторые виды поклонения.</h1>
+
 <p class="arab">بعض أنواع العبادة</p>
 <p><strong>Мольба.</strong></p>
 

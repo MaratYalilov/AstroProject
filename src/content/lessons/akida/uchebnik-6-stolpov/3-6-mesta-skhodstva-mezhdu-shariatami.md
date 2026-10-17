@@ -9,7 +9,7 @@ groupOrder: 10
 groupTitle: Вера в Писания
 ---
 
-<h1>Места сходства между шариатами</h1>
+
 <ul>
 <li>Религия, с которой приходили все посланники от Аллаха, - это <a href="/glossary/islam" class="glossary-link" target="_blank" rel="noopener noreferrer">Ислам</a>, то есть подчинение Аллаху.</li>
 </ul>

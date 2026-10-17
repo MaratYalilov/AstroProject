@@ -10,12 +10,22 @@ import {
   Download,
   ChevronDown,
   ChevronUp,
+  Menu,
+  X,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Input } from "@/components/ui/input";
+
+/** Заголовок урока вставляется в HTML статьи, поэтому экранируем разметку. */
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
 
 export interface LessonSidebarItem {
   slug: string;
@@ -200,6 +210,27 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
   const [openGroup, setOpenGroup] = React.useState<string | number | null>(null);
   const activeLessonRef = React.useRef<HTMLAnchorElement | null>(null);
   const sidebarScrollRef = React.useRef<HTMLDivElement | null>(null);
+
+  // Мобильное оглавление: та же карточка, что справа на компьютере,
+  // открывается по гамбургеру и закрывается по крестику, фону или Escape.
+  const [tocOpen, setTocOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    if (!tocOpen) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setTocOpen(false);
+    };
+    document.addEventListener("keydown", onKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [tocOpen]);
 
   const filteredLessons = React.useMemo(() => {
     if (!normalizedQuery) return lessons;
@@ -548,9 +579,43 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
 //   </div>
 // );
 
+  // Единственный h1 на странице - название урока. Заголовки внутри текста
+  // уже понижены до h2 при нормализации контента.
+  const lessonTitle = currentLesson.title.replace(/\.+$/, "").trim();
+  const articleHtml =
+    `<h1 class="lesson-title">${escapeHtml(lessonTitle)}</h1>` +
+    currentLesson.html.replace(/\r\n?/g, "\n");
+
   return (
     <ReducedMotionProvider>
       <main className="flex flex-col lg:grid lg:grid-cols-12 gap-4">
+        {/* Мобильная шапка: гамбургер открывает оглавление курса */}
+        <div className="sticky top-16 z-30 border-b border-border bg-background/90 py-2.5 backdrop-blur-xl lg:hidden">
+          <div className="flex items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setTocOpen(true)}
+              aria-label="Открыть оглавление курса"
+              aria-expanded={tocOpen}
+              aria-controls="course-toc"
+              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-border bg-background/80 transition-colors hover:bg-muted"
+            >
+              <Menu className="h-5 w-5" />
+            </button>
+
+            <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-muted">
+              <div
+                className="h-full rounded-full bg-emerald-500 transition-all"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
+
+            <span className="shrink-0 text-xs tabular-nums text-muted-foreground">
+              {progress}%
+            </span>
+          </div>
+        </div>
+
         {/* ЛЕВО: основная статья */}
         <section className="space-y-4 lg:col-span-8 mb-16">
           <TeacherCredit subject={subject} course={course} />
@@ -562,7 +627,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
                 lg:border lg:border-input lg:shadow-sm lg:rounded-lg
               "
               // HTML parsing normalizes CRLF; use the same text during hydration.
-              dangerouslySetInnerHTML={{ __html: currentLesson.html.replace(/\r\n?/g, "\n") }}
+              dangerouslySetInnerHTML={{ __html: articleHtml }}
             />
 
           <div className="mt-4 grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
@@ -598,9 +663,43 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
 
 
 
-        {/* ПРАВО: групповое оглавление */}
-        <aside className="lg:col-span-4">
-          <div className="sticky top-[80px]">
+        {/* ПРАВО: оглавление. На телефоне открывается панелью по гамбургеру. */}
+        <aside
+          id="course-toc"
+          className={[
+            "lg:col-span-4",
+            tocOpen ? "fixed inset-0 z-50 lg:static lg:z-auto" : "hidden lg:block",
+          ].join(" ")}
+        >
+          {tocOpen && (
+            <div
+              className="fixed inset-0 bg-black/50 backdrop-blur-sm lg:hidden"
+              onClick={() => setTocOpen(false)}
+              aria-hidden="true"
+            />
+          )}
+
+          <div
+            className={[
+              tocOpen
+                ? "fixed inset-y-0 right-0 z-50 w-[85vw] max-w-sm overflow-y-auto border-l border-border bg-background p-4 shadow-2xl lg:static lg:z-auto lg:w-auto lg:max-w-none lg:overflow-visible lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none"
+                : "sticky top-[80px]",
+            ].join(" ")}
+          >
+            {tocOpen && (
+              <div className="mb-3 flex justify-end lg:hidden">
+                <button
+                  type="button"
+                  onClick={() => setTocOpen(false)}
+                  autoFocus
+                  aria-label="Закрыть оглавление"
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-background transition-colors hover:bg-muted"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              </div>
+            )}
+
             <Card>
               <CardHeader>
                 <div className="flex items-center justify-between gap-2">

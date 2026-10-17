@@ -68,5 +68,6 @@ const items = subjects.map((s) => ({
     <meta property="og:type" content="website" />
     <script type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")} />
   </Fragment>
+  <h1 class="sr-only">{title}</h1>
   <SubjectGrid client:load items={items} />
 </Base>

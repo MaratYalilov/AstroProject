@@ -414,6 +414,16 @@ p {
     margin: 32px 0 16px;
 }
 
+/* Басмала в начале урока: не заголовок, а эпиграф. */
+.lesson-text .basmala {
+    margin: 0 0 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--primary-color);
+}
+
 .lesson-text :where(h2) {
     font-size: 1.375rem;
     margin: 32px 0 16px;

@@ -9,7 +9,7 @@ groupOrder: 10
 groupTitle: Вера в Аллаха
 ---
 
-<h1>Виды лицемерия</h1>
+
 <p><span class="arab">أنواع النفاق</span></p>
 <h2>Большое лицемерие</h2>
 

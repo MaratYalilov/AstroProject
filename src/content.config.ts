@@ -26,7 +26,6 @@ const courses = defineCollection({
     title: z.string(),
     author: z.string().optional(),
     description: z.string().optional(),
-    lessonsCount: z.number().optional(),
     ogImage: z.string().optional(),
     layout: z.enum(["tabs", "blog"]).optional().default("tabs"),
     type: z.string().optional().default("standard"),

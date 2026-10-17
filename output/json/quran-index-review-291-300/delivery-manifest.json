@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 2394,
+    "retained_original_links": 2176,
+    "removed_original_links": 218,
+    "added_links": 6,
+    "result_links": 2182,
+    "result_unique_verses": 1719,
+    "cumulative_topics": 300,
+    "cumulative_links": 14908
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 291-300.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-291-300\\Указатель аятов - темы 291-300.json",
+      "sha256": "f80f68744241270f10a2b67e641985a3300a05b88d7d8c3981426fa57ae07d3f"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-300.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-291-300\\Указатель аятов - проверенные темы 1-300.json",
+      "sha256": "31ad30e168a93bc6fb9883344ff457d5360df6a6d2ee0485e206f3dee85ae187"
+    },
+    {
+      "name": "Темы 291-300 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-291-300\\Темы 291-300 - журнал проверки.json",
+      "sha256": "a638bcec1b2a710f2ff91ce599bfcff0ba5b21a85770c59772b2ae6577cf35a3"
+    },
+    {
+      "name": "Темы 291-300 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-291-300\\Темы 291-300 - отчёт.md",
+      "sha256": "a3b1f6ed881db9410e5aae6722e4b35fd0e2179cb7c832ea2ef8e9b72c0a2969"
+    }
+  ]
+}

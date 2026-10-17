@@ -298,6 +298,9 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
         {loadingTerm && <p role="status" className="text-sm text-muted-foreground">Загрузка: {loadingTerm}…</p>}
         {!active && (
           <>
+            {/* Заголовок страницы для поиска и скринридеров: статья
+                подставляется только после загрузки JSON и получает свой h1. */}
+            <h1 className="sr-only">Словарь исламских терминов</h1>
             <Input
               className="h-auto bg-secondary py-2 shadow-none md:text-base"
               placeholder="Поиск…"
@@ -370,8 +373,20 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
   return (
     <ReducedMotionProvider>
     <div className="grid grid-cols-[1fr_260px] gap-6 min-h-[600px]">
+      {!active && <h1 className="sr-only">Словарь исламских терминов</h1>}
       {/* ARTICLE */}
       <div className="border-r pr-4">
+        {!active && (
+          <div>
+            <p role="status" className="sr-only">Загрузка статьи</p>
+            <div aria-hidden="true" className="space-y-4">
+              <div className="h-8 w-1/2 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+              <div className="h-4 w-full animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+              <div className="h-4 w-11/12 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+              <div className="h-4 w-4/5 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+            </div>
+          </div>
+        )}
         {loadingTerm && <p role="status" className="mb-4 text-sm text-muted-foreground">Загрузка: {loadingTerm}…</p>}
         <AnimatePresence mode="wait">
           {active && (

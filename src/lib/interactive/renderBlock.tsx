@@ -2,7 +2,7 @@ import LetterIntroCombined from "@/components/alifba/LetterIntroCombined";
 import PronunciationBlock from "@/components/alifba/PronunciationBlock";
 import SifatBlock from "@/components/alifba/SifatBlock";
 import MatnBlock from "@/components/course/MatnBlock";
-import TheoryReveal from "@/components/alifba/TheoryReveal-OLD";
+import TheoryReveal from "@/components/alifba/TheoryReveal";
 import WritingAndFormsBlock from "@/components/alifba/WritingAndFormsBlock";
 import AlphabetGrid from "@/components/alifba/AlphabetGrid";
 import ReadingExercises from "@/components/alifba/ReadingExercises";

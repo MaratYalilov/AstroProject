@@ -1,0 +1,162 @@
+[
+  {
+    "source_id": "ksu-saadi-10-19",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 10,
+    "aya": 19,
+    "record_sha256": "ba85f51dc074ea9c171ef8ac4735d18dd3fd21686e4f02203c936d62b5507b82"
+  },
+  {
+    "source_id": "ksu-saadi-2-178",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 2,
+    "aya": 178,
+    "record_sha256": "7acfd41ac25b4b7f64c2fe31fe146b928002172fb2cd4db7585669e64896469e"
+  },
+  {
+    "source_id": "ksu-saadi-2-189",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 2,
+    "aya": 189,
+    "record_sha256": "21d819e373247226c69880dd2faf96ca41794a1e7121a190d759ce971ea3d76b"
+  },
+  {
+    "source_id": "ksu-saadi-2-48",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 2,
+    "aya": 48,
+    "record_sha256": "ada760cdb7d315968ae3fd8d615576e123b064288a5336ac4ea21c2052806815"
+  },
+  {
+    "source_id": "ksu-saadi-27-81",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 27,
+    "aya": 81,
+    "record_sha256": "c9468453e2d50ef9309a6e1d453a410ff7d65ae70b704138e09b00a18c284f8b"
+  },
+  {
+    "source_id": "ksu-saadi-3-103",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 3,
+    "aya": 103,
+    "record_sha256": "6b772a0f0c66f19153ceaad9ce4dc879b756d076fa782caf4674aa5e2158a9d1"
+  },
+  {
+    "source_id": "ksu-saadi-3-90",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 3,
+    "aya": 90,
+    "record_sha256": "1af22cf319646afe09624ec5cc917d04be5c423bb13864c220b134c3a30ec610"
+  },
+  {
+    "source_id": "ksu-saadi-33-6",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 33,
+    "aya": 6,
+    "record_sha256": "926410182092726f6a4637f7767482a4122158dc7fa0e8a865c111b0c8b1f2b4"
+  },
+  {
+    "source_id": "ksu-saadi-35-25",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 35,
+    "aya": 25,
+    "record_sha256": "e007a30eda1e2587e544adc7793292fbb6a983500c97caf95b15052403db92fb"
+  },
+  {
+    "source_id": "ksu-saadi-4-137",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 4,
+    "aya": 137,
+    "record_sha256": "ddcd6d8817458e8b105f8f8f5f4ab2a72d7814a4d65738fe15abbf0b22aad0ab"
+  },
+  {
+    "source_id": "ksu-saadi-4-19",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 4,
+    "aya": 19,
+    "record_sha256": "aaa7eee2f3a843ef9649282d38593194c96a98027f101c9df0f7e7edadf05ccb"
+  },
+  {
+    "source_id": "ksu-saadi-4-22",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 4,
+    "aya": 22,
+    "record_sha256": "15ad56e441608726c464e9a23f764fead991dba15fe7f3cebf18e27500990d91"
+  },
+  {
+    "source_id": "ksu-saadi-44-3",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 44,
+    "aya": 3,
+    "record_sha256": "965dde7b50393f43540c0016ff6fa5f10ca11ca1a769a79370e237e5b2422304"
+  },
+  {
+    "source_id": "ksu-saadi-44-4",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 44,
+    "aya": 4,
+    "record_sha256": "6e86650729e473db0ad2b11b937510cb37ab433f38dce7c89d3f68b5a2a834f2"
+  },
+  {
+    "source_id": "ksu-saadi-5-103",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 5,
+    "aya": 103,
+    "record_sha256": "c5d487214728a54ad003a9b277dbf97c7d3ff6d6872c1f4f1a5d3a8ef914debb"
+  },
+  {
+    "source_id": "ksu-saadi-6-57",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 6,
+    "aya": 57,
+    "record_sha256": "a4d8a913bd7f5cb8a695d5824bdccfd26621618eb86c239561953ad936f6d553"
+  },
+  {
+    "source_id": "ksu-saadi-7-198",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 7,
+    "aya": 198,
+    "record_sha256": "27d7f66cde3f9b41e375376fb70a23a1f58f022009642bc4cb1eba29b944e5c1"
+  },
+  {
+    "source_id": "ksu-saadi-7-28",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 7,
+    "aya": 28,
+    "record_sha256": "7594e66aa0cb8e4dd0d6dbac2417827b6f84d7cd9f65a08c0f72fba4a2f82233"
+  },
+  {
+    "source_id": "ksu-saadi-8-22",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 8,
+    "aya": 22,
+    "record_sha256": "6ff53e530af14ccc48032d507446347567bb7a46ecc55397fc8d858f39d1c149"
+  },
+  {
+    "source_id": "ksu-saadi-8-38",
+    "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+    "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+    "sura": 8,
+    "aya": 38,
+    "record_sha256": "d04c570b2a8b7c644fb4e5c05975440bb0d4916e9ce200bffd1614d24c3b1811"
+  }
+]
