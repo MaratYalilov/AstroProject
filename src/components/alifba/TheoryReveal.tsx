@@ -14,6 +14,7 @@ type TitleSegment = {
 type Props = {
   title: string | TitleSegment[];
   source: string;
+  initialHtml?: string;
   subject?: string;
   course?: string;
 };
@@ -79,8 +80,10 @@ function TheoryContent({
 export default function TheoryReveal({
   title,
   source,
+  initialHtml,
 }: Props) {
-  const [html, setHtml] = useState<string | null>(null);
+  const [html, setHtml] = useState<string | null>(() => initialHtml ?? null);
+  const [isHydrated, setIsHydrated] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const contentId = useId();
@@ -89,6 +92,12 @@ export default function TheoryReveal({
   // Диаграммы Mermaid появляются в DOM после подгрузки теории — просим
   // astro-mermaid отрисовать их (см. src/utils/mermaid.ts).
   useMermaidRender(html);
+
+  useEffect(() => setIsHydrated(true), []);
+
+  useEffect(() => {
+    if (isHydrated && html) document.dispatchEvent(new CustomEvent("quran:reinit"));
+  }, [isHydrated, html]);
 
   useEffect(() => {
     if (html !== null || isLoading) return;
@@ -166,6 +175,7 @@ export default function TheoryReveal({
     // полотне высотой в тысячи пикселей переполнял VRAM и ронял драйвер GPU.
     <section
       ref={sectionRef}
+      data-quran-audio-ready={isHydrated ? "true" : "false"}
       className="lesson-block scroll-mt-28 overflow-hidden rounded-3xl border border-white/70 bg-white p-0 sm:p-4 shadow-xl shadow-slate-200/70 transition-colors duration-300 dark:border-white/10 dark:bg-white/[0.06] dark:shadow-black/20"
     >
             <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-200/80 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 shadow-sm shadow-cyan-100/70 dark:border-cyan-300/20 dark:bg-white/10 dark:text-cyan-200 dark:shadow-none">

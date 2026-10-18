@@ -10,6 +10,7 @@ import { getCollection, render } from "astro:content";
 import { experimental_AstroContainer } from "astro/container";
 import { replaceDicTags } from "../utils/replaceDicTags";
 import { loadInteractiveLesson, loadAllInteractiveLessons } from "../lib/interactive/loadInteractiveLesson";
+import { prepareInteractiveLesson } from "../lib/interactive/prepareInteractiveLesson";
 import fs from "node:fs";
 import path from "node:path";
 import { getLessonPreviewImage } from "../utils/lessonPreviewImage";
@@ -92,6 +93,9 @@ if (isInteractive) {
   const matchedLesson = interactiveLessons.find((l) => l.slug === lessonSlug);
   lessonNotFound = Boolean(slugParam) && !matchedLesson;
   interactiveLesson = matchedLesson ?? interactiveLessons[0] ?? null;
+  if (interactiveLesson && !lessonNotFound) {
+    interactiveLesson = await prepareInteractiveLesson(interactiveLesson);
+  }
   ogImage = interactiveLesson?.ogImage ?? ogImage;
 
   // Формируем список уроков для сайдбара (как в markdown версии)

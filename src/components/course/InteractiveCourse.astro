@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import CourseLayout from "./CourseLayout";
 import { loadAllInteractiveLessons } from "../../lib/interactive/loadInteractiveLesson";
+import { prepareInteractiveLesson } from "../../lib/interactive/prepareInteractiveLesson";
 import { buildPageTitle, buildCourseDescription, buildInteractiveLessonMetadata } from "../../utils/pageMetadata";
 
 interface Props {
@@ -19,8 +20,12 @@ if (!subjectEntry || !courseEntry || courseEntry.data.type !== "interactive") {
   throw new Error(`Интерактивный курс не найден: ${subject}/${course}`);
 }
 
-const lessons = await loadAllInteractiveLessons(subject, course);
+const sourceLessons = await loadAllInteractiveLessons(subject, course);
 const lessonSlug = Astro.url.searchParams.get("lesson");
+const initialIndex = Math.max(0, sourceLessons.findIndex(lesson => lesson.slug === lessonSlug));
+const lessons = await Promise.all(sourceLessons.map((lesson, index) =>
+  index === initialIndex ? prepareInteractiveLesson(lesson) : lesson,
+));
 const selectedLesson = lessons.find(lesson => lesson.slug === lessonSlug);
 const courseTitle = courseEntry.data.title;
 const lessonMetadata = selectedLesson

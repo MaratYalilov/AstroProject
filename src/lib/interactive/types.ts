@@ -52,6 +52,8 @@ export type TheoryBlock = {
   type: "theory";
   title: string | TitleSegment[];
   source: string;
+  /** HTML prepared on the server for the initially selected lesson. */
+  initialHtml?: string;
 };
 
 export type PronunciationNote = {
