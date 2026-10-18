@@ -17,8 +17,8 @@ const renderer = await loadSource('src/utils/quranRenderer.ts');
 const data = JSON.parse(await readFile(new URL('../src/data/quran-qcf-v2.json', import.meta.url), 'utf8'));
 const escape = (text) => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 
-const waslEntries = JSON.parse(await readFile(new URL('../src/data/quran-hamza-wasl-starts.json', import.meta.url), 'utf8'));
 const waslAll = JSON.parse(await readFile(new URL('../src/data/quran-hamza-wasl-all.json', import.meta.url), 'utf8'));
+const waslEntries = waslAll.filter(entry => entry.is_start);
 const waslQcf = JSON.parse(await readFile(new URL('../src/data/quran-hamza-wasl-qcf.json', import.meta.url), 'utf8'));
 const uthmani = JSON.parse(await readFile(new URL('../src/data/quran-uthmani-hafs.json', import.meta.url), 'utf8'));
 const waslByPosition = new Map(waslEntries.map((entry) => [`${entry.surah}:${entry.ayah}:${entry.word_number}`, entry]));
@@ -60,6 +60,8 @@ assert.equal(waslAll.length, 10772);
 assert.equal(allByRef.size, 4458);
 assert.deepEqual(Object.keys(waslQcf).sort(), [...allByPosition.keys()].sort(), 'every full-mode hint has verified QCF/Unicode word boundaries');
 for (const [key, entry] of allByPosition) {
+  assert.equal(typeof entry.is_start, 'boolean', `${key}: explicit boolean scope`);
+  assert.equal(entry.is_start, expectedPositions.has(key), `${key}: independently checked beginning or stop`);
   const boundary = waslQcf[key];
   const text = renderer.getAyahText(entry.surah, entry.ayah).arabic;
   assert.equal(text.slice(boundary.unicodeStart, boundary.unicodeEnd).replace(/[\sۖۗۘۙۚۛۜ۞۩]/gu, ''), entry.word, key);
@@ -76,7 +78,7 @@ for (const [key, reading] of Object.entries({
 assert.deepEqual([...waslByPosition.keys()].sort(), [...expectedPositions.keys()].sort(), 'complete selection from all five stop signs and ayah beginnings');
 assert.deepEqual(stopCounts, { 'ۘ': 3, 'ۚ': 15, 'ۖ': 10, 'ۗ': 6, 'ۛ': 0 });
 for (const [reference, entry] of waslByPosition) {
-  assert.deepEqual(Object.keys(entry).sort(), ['ayah', 'reading', 'surah', 'word', 'word_number']);
+  assert.deepEqual(Object.keys(entry).sort(), ['ayah', 'is_start', 'reading', 'surah', 'word', 'word_number']);
   assert.ok(Number.isInteger(entry.word_number) && entry.word_number > 0, reference);
   assert.equal(entry.word, expectedPositions.get(reference), reference);
   const boundary = waslQcf[reference];
@@ -265,6 +267,7 @@ globalThis.FontFace = class {
 };
 globalThis.document = {
   documentElement: { classList: { contains: () => dark } },
+  querySelectorAll: () => elements,
   body: { querySelectorAll: () => elements },
   head: { append() {} },
   createElement: () => ({ dataset: {}, append: (text) => css.push(text) }),

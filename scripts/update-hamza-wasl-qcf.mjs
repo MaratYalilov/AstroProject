@@ -3,7 +3,9 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
 // Preparation only. Rendering never requests the API.
-const basic = JSON.parse(await readFile(new URL('../src/data/quran-hamza-wasl-starts.json', import.meta.url), 'utf8'));
+const all = JSON.parse(await readFile(new URL('../src/data/quran-hamza-wasl-all.json', import.meta.url), 'utf8'));
+assert.ok(all.length && all.every(entry => typeof entry.is_start === 'boolean'), 'Expected the unified list with explicit is_start flags');
+const basic = all.filter(entry => entry.is_start);
 const qcf = JSON.parse(await readFile(new URL('../src/data/quran-qcf-v2.json', import.meta.url), 'utf8'));
 const source = JSON.parse(await readFile(new URL('../src/data/quran-uthmani-hafs.json', import.meta.url), 'utf8'));
 const unicode = new Map(Object.values(source.quran['quran-uthmani-hafs']).map(verse => [`${verse.surah}:${verse.ayah}`, verse.verse]));

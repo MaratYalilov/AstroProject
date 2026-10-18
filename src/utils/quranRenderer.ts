@@ -5,7 +5,6 @@ import surahsData from "../data/surahs.json" with { type: "json" };
 import quranUthmaniData from "../data/quran-uthmani-hafs.json" with { type: "json" };
 import quranKulievData from "../data/quran-kuliev-ru.json" with { type: "json" };
 import qcfV2Data from "../data/quran-qcf-v2.json" with { type: "json" };
-import hamzaWaslStarts from "../data/quran-hamza-wasl-starts.json" with { type: "json" };
 import hamzaWaslAll from "../data/quran-hamza-wasl-all.json" with { type: "json" };
 import hamzaWaslQcfData from "../data/quran-hamza-wasl-qcf.json" with { type: "json" };
 
@@ -41,8 +40,7 @@ interface QcfV2Entry {
 const arabicMap: Record<AyahKey, string> = {};
 const translationMap: Record<AyahKey, string> = {};
 const qcfMap: Record<AyahKey, QcfV2Entry> = qcfV2Data as any;
-const hamzaWaslMap = new Map<AyahKey, (typeof hamzaWaslStarts)[number][]>();
-const basicWaslPositions = new Set(hamzaWaslStarts.map(entry => `${entry.surah}:${entry.ayah}:${entry.word_number}`));
+const hamzaWaslMap = new Map<AyahKey, (typeof hamzaWaslAll)[number][]>();
 const hamzaWaslQcfMap = hamzaWaslQcfData as Record<string, { start: number; end: number; code: string; unicodeStart: number; unicodeEnd: number }>;
 for (const entry of hamzaWaslAll) {
   const key = makeKey(entry.surah, entry.ayah);
@@ -101,14 +99,14 @@ function renderQcfAyah(surah: number, ayah: number, page: number, codes: string,
   const append = (codePart: string, arabicPart: string) => {
     if (codePart || arabicPart) parts.push(renderQcfText(page, codePart, arabicPart, true, true));
   };
-  for (const { word_number, reading } of entries) {
+  for (const { word_number, reading, is_start } of entries) {
     const reference = `${surah}:${ayah}:${word_number}`;
     const position = hamzaWaslQcfMap[reference];
     if (!position || position.unicodeStart < arabicOffset || position.unicodeEnd > arabic.length || position.start < codeOffset || codes.slice(position.start, position.end).replace(/\s/gu, "") !== position.code) {
       throw new Error(`Invalid QCF word position for ${reference}`);
     }
     append(codes.slice(codeOffset, position.start), arabic.slice(arabicOffset, position.unicodeStart));
-    const scope = basicWaslPositions.has(reference) ? "basic" : "all";
+    const scope = is_start ? "basic" : "all";
     const hint = `<span class="quran-ayah-block__wasl-hint arab" data-hamza-wasl="${surah}:${ayah}" data-word-number="${word_number}" data-wasl-scope="${scope}" lang="ar" dir="rtl" aria-hidden="true">${escapeHtml(reading)}</span>`;
     const original = renderQcfText(page, codes.slice(position.start, position.end), arabic.slice(position.unicodeStart, position.unicodeEnd), true);
     parts.push(`<span class="qcf-wasl-pair">${hint}${original}</span>`);
