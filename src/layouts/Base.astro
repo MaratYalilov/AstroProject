@@ -21,6 +21,8 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
 
 <html lang="ru" class="bg-background text-foreground">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico?v=3" />
     <!-- Тема из localStorage -->
     <script is:inline>
@@ -341,8 +343,6 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
       })();
     </script>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <meta property="og:title" content={ogTitle} />

@@ -7257,7 +7257,18 @@
 
 /* До готовности нужной страницы виден читаемый Unicode, а не коды QCF. */
 .qcf-fallback {
-  font-family: "AmiriLocal", "Scheherazade New", "Amiri", serif;
+  font-family: "AmiriLocal", "Scheherazade New", "Amiri",
+    "Noto Naskh Arabic", "Noto Naskh Arabic UI", "Noto Sans Arabic",
+    "Arabic Typesetting", "Traditional Arabic", "Geeza Pro", serif;
+}
+
+/* На мобильном системный Noto не ждёт web-шрифт и не меняется при загрузке Amiri. */
+@media (max-width: 767.98px) {
+  .qcf-fallback {
+    font-family: "Noto Naskh Arabic", "Noto Naskh Arabic UI", "Noto Sans Arabic",
+      "AmiriLocal", "Scheherazade New", "Amiri",
+      "Arabic Typesetting", "Traditional Arabic", "Geeza Pro", serif;
+  }
 }
 
 .qcf-glyphs {
