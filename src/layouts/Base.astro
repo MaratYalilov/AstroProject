@@ -26,9 +26,9 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
     <script is:inline>
       (function () {
         try {
-          var ls = localStorage.getItem('theme');
-          var m = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-          var dark = ls ? ls === 'dark' : m;
+          var ls = null;
+          try { ls = localStorage.getItem('theme'); } catch (e) {}
+          var dark = ls !== 'light';
           if (dark) document.documentElement.classList.add('dark');
           document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
           document.documentElement.style.colorScheme = dark ? 'dark' : 'light';

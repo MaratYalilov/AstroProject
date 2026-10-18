@@ -2,40 +2,49 @@ import * as React from "react";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export default function ThemeToggle() {
-  // По умолчанию темная тема, если не сохранена другая в localStorage
-  const [theme, setTheme] = React.useState(() => {
-    if (typeof window !== "undefined") {
-      const savedTheme = localStorage.getItem("theme");
-      // Если есть сохраненная тема - используем ее
-      if (savedTheme) {
-        return savedTheme;
-      }
-      // Иначе используем темную тему по умолчанию
-      return "dark";
-    }
-    return "dark"; // fallback для SSR
-  });
+type Theme = "dark" | "light";
 
-  React.useEffect(() => {
-    const root = document.documentElement;
-    if (theme === "dark") {
-      root.classList.add("dark");
-      root.setAttribute("data-theme", "dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      root.classList.remove("dark");
-      root.setAttribute("data-theme", "light");
-      localStorage.setItem("theme", "light");
-    }
-  }, [theme]);
+const THEME_CHANGE_EVENT = "hutba:theme-change";
+
+function subscribeTheme(onChange: () => void) {
+  window.addEventListener(THEME_CHANGE_EVENT, onChange);
+  return () => window.removeEventListener(THEME_CHANGE_EVENT, onChange);
+}
+
+function readTheme(): Theme {
+  // Base already applies the saved or system theme before the first paint.
+  return document.documentElement.classList.contains("dark") ? "dark" : "light";
+}
+
+function serverTheme(): Theme {
+  // Keep the first React render identical to the server-rendered button.
+  return "dark";
+}
+
+function toggleTheme() {
+  const theme: Theme = readTheme() === "dark" ? "light" : "dark";
+  const root = document.documentElement;
+  root.classList.toggle("dark", theme === "dark");
+  root.dataset.theme = theme;
+  root.style.colorScheme = theme;
+  try {
+    localStorage.setItem("theme", theme);
+  } catch {
+    // Switching still works when the browser blocks storage.
+  }
+  window.dispatchEvent(new Event(THEME_CHANGE_EVENT));
+}
+
+export default function ThemeToggle() {
+  const theme = React.useSyncExternalStore(subscribeTheme, readTheme, serverTheme);
 
   return (
     <Button
       variant="ghost"
       size="icon"
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      onClick={toggleTheme}
       title="Переключить тему"
+      aria-label="Переключить тему"
     >
       {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
     </Button>

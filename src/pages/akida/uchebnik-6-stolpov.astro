@@ -14,16 +14,13 @@ const fallbackUrl = `/lesson?subject=${encodeURIComponent(subject)}&course=${enc
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Учебник 6 столпов — открытие урока</title>
+    <title>Учебник 6 столпов - открытие урока</title>
     <meta property="og:title" content="Учебник 6 столпов" />
     <meta property="og:site_name" content="HUTBA" />
     <OpenGraphImage title="Учебник 6 столпов" subject={subject} subtitle="Курс" image={ogImage} />
     <style is:inline>
-      html { background: #fff; color: #09090b; color-scheme: light; }
-      html[data-theme="dark"] { background: hsl(200 3% 17%); color: #fafafa; color-scheme: dark; }
-      @media (prefers-color-scheme: dark) {
-        html:not([data-theme]) { background: hsl(200 3% 17%); color: #fafafa; color-scheme: dark; }
-      }
+      html { background: hsl(200 3% 17%); color: #fafafa; color-scheme: dark; }
+      html[data-theme="light"] { background: #fff; color: #09090b; color-scheme: light; }
       body { margin: 0; font-family: sans-serif; }
       a { color: inherit; }
     </style>
@@ -38,9 +35,7 @@ const fallbackUrl = `/lesson?subject=${encodeURIComponent(subject)}&course=${enc
         } catch (error) {
           // Хранилище может быть недоступно; остаётся первый урок.
         }
-        var dark = theme
-          ? theme === 'dark'
-          : window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var dark = theme !== 'light';
         document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
         window.location.replace(`/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(course)}&slug=${encodeURIComponent(slug)}`);
       })();
