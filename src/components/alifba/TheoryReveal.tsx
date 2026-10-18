@@ -1,8 +1,6 @@
 import React from "react";
 import { BookOpen, Sparkles } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
-import { marked } from "marked";
-import { replaceQuranTags } from "../../utils/replaceQuranTags";
 import { prepareMermaidBlocks, useMermaidRender } from "../../utils/mermaid";
 import { enhanceAlphabetAudio } from "../../utils/alphabetAudio";
 
@@ -89,7 +87,7 @@ export default function TheoryReveal({
   const contentId = useId();
   const sectionRef = useRef<HTMLDivElement>(null);
 
-  // Диаграммы Mermaid появляются в DOM после подгрузки теории — просим
+  // Диаграммы Mermaid появляются в DOM после подгрузки теории - просим
   // astro-mermaid отрисовать их (см. src/utils/mermaid.ts).
   useMermaidRender(html);
 
@@ -110,14 +108,18 @@ export default function TheoryReveal({
       .then(async (content) => {
         if (!isCancelled) {
           try {
-            // marked.parse возвращает строку HTML (синхронно или асинхронно)
+            // The initial server HTML needs neither Markdown parsing nor Quran data.
+            const { marked } = await import("marked");
             const parsedHtml = await marked.parse(content);
-            // Заменяем теги {Quran}...{/Quran} на HTML-блоки с аятами
-            const htmlWithQuran = replaceQuranTags(parsedHtml);
-            setHtml(prepareMermaidBlocks(htmlWithQuran));
+            let htmlWithQuran = parsedHtml;
+            if (/\{Quran(?:Symbol)?\}/i.test(parsedHtml)) {
+              const { replaceQuranTags } = await import("../../utils/replaceQuranTags");
+              htmlWithQuran = replaceQuranTags(parsedHtml);
+            }
+            if (!isCancelled) setHtml(prepareMermaidBlocks(htmlWithQuran));
           } catch (err) {
             console.error(err);
-            setError("Не удалось загрузить теорию урока.");
+            if (!isCancelled) setError("Не удалось загрузить теорию урока.");
           }
         }
       })

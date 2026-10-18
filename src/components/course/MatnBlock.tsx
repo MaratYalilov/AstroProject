@@ -1,8 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Howl } from "howler";
-import { marked } from "marked";
 import { BookOpen, ChevronDown, Pause, Play, Volume2 } from "lucide-react";
-import { replaceQuranTags } from "../../utils/replaceQuranTags";
 import { containsGlossaryTermLink, getGlossaryTarget } from '../../utils/glossaryTarget';
 import mukaddimaData from "@/content/lessons/quran/koran-2-uroven/mukaddima.json";
 import sharhData from "@/content/lessons/quran/koran-2-uroven/sharh.json";
@@ -76,6 +74,8 @@ const GROUPS: Record<string, MatnGroup> = Object.fromEntries(
 );
 
 async function toHtml(md: string): Promise<string> {
+  // Parse commentary only when it is opened; the lesson itself uses plain text.
+  const { marked } = await import("marked");
   const parsed = await marked.parse(md);
   // «Арабский оригинал» идёт в blockquote. Класс arab (проектный арабский
   // шрифт + RTL) вешаем и на сам blockquote, и на текстовые <p> внутри —
@@ -85,6 +85,8 @@ async function toHtml(md: string): Promise<string> {
     (_m, inner) =>
       `<blockquote class="arab">${inner.replace(/<p>/g, '<p class="arab">')}</blockquote>`,
   );
+  if (!/\{Quran(?:Symbol)?\}/i.test(withArab)) return withArab;
+  const { replaceQuranTags } = await import("../../utils/replaceQuranTags");
   return replaceQuranTags(withArab);
 }
 
