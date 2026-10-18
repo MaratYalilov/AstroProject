@@ -1145,3 +1145,8 @@ pre.mermaid[data-processed]:hover::after {
     border-radius: 0;
   }
 }
+
+/* Атрибут hidden должен побеждать утилиты display (flex, inline-flex). */
+[hidden] {
+  display: none !important;
+}

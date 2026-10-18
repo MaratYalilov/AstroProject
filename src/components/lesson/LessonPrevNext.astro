@@ -1,0 +1,39 @@
+---
+interface Props {
+  subject: string;
+  course: string;
+  prev: { slug: string; order?: number } | null;
+  next: { slug: string; order?: number } | null;
+  mode: "video" | "audio";
+}
+
+const { subject, course, prev, next, mode } = Astro.props;
+
+const lessonUrl = (slug: string) =>
+  `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(
+    course,
+  )}&slug=${encodeURIComponent(slug)}`;
+
+const vertical = mode === "audio" ? "top-3" : "top-1/2 -translate-y-1/2";
+const common =
+  "absolute z-20 flex items-center gap-1 rounded-full bg-black/40 px-3 py-2 text-sm font-semibold text-white backdrop-blur transition hover:bg-black/60 active:scale-95";
+---
+
+<div class="lesson-prevnext contents">
+  {
+    prev && (
+      <a href={lessonUrl(prev.slug)} class={`${common} left-3 ${vertical}`}>
+        <span aria-hidden="true">‹</span>
+        {prev.order != null && <span>{prev.order} урок</span>}
+      </a>
+    )
+  }
+  {
+    next && (
+      <a href={lessonUrl(next.slug)} class={`${common} right-3 ${vertical}`}>
+        {next.order != null && <span>{next.order} урок</span>}
+        <span aria-hidden="true">›</span>
+      </a>
+    )
+  }
+</div>

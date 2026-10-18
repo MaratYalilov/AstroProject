@@ -2,9 +2,12 @@
 // src/pages/lesson.astro
 import { replaceQuranTags } from "../utils/replaceQuranTags";
 import Base from "../layouts/Base.astro";
-import LessonPage from "../components/LessonPage";
 import BlogLessonPage from "../components/blog";
 import InteractiveLessonPage from "../components/alifba/InteractiveLessonPage";
+import LessonArticle from "../components/lesson/LessonArticle.astro";
+import CourseProgram from "../components/lesson/CourseProgram";
+import LessonCompleteButton from "../components/lesson/LessonCompleteButton";
+import LessonPrevNext from "../components/lesson/LessonPrevNext.astro";
 import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { getCollection, render } from "astro:content";
 import { experimental_AstroContainer } from "astro/container";
@@ -189,6 +192,27 @@ if (isInteractive) {
   }));
 }
 
+const currentSlug = currentLesson?.slug ?? "";
+const lessonIndex = lessons.findIndex((l) => l.slug === currentSlug);
+const prevLesson = lessonIndex > 0 ? lessons[lessonIndex - 1] : null;
+const nextLesson =
+  lessonIndex >= 0 && lessonIndex < lessons.length - 1
+    ? lessons[lessonIndex + 1]
+    : null;
+const buildLessonUrl = (slug: string) =>
+  `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(
+    course,
+  )}&slug=${encodeURIComponent(slug)}`;
+const hasAnyMedia = Boolean(currentLesson?.video || currentLesson?.audio);
+const hasBothMedia = Boolean(currentLesson?.video && currentLesson?.audio);
+const programLessons = lessons.map(({ slug, title, order }) => ({
+  slug,
+  title,
+  order,
+}));
+const pill =
+  "inline-flex h-9 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full border border-primary/30 bg-primary/10 px-3 text-sm font-medium text-primary transition hover:bg-primary/20";
+
 if (lessonNotFound) {
   Astro.response.status = 404;
 }
@@ -310,14 +334,374 @@ const posterUrl =
           lessons={lessons}
         />
       ) : (
-        <LessonPage
-          client:load
-          subject={subject}
-          course={course}
-          courseTitle={courseTitle}
-          currentLesson={currentLesson}
-          lessons={lessons}
-        />
+        <div
+          class="min-h-screen bg-background text-foreground"
+          data-lesson-page="true"
+          data-quran-audio-ready="true"
+        >
+          <main class="mx-auto w-full max-w-7xl px-0 py-0 lg:grid lg:grid-cols-12 lg:gap-6 lg:px-8 lg:py-6">
+            <section class="lg:col-span-8">
+              {currentLesson.video && (
+                <div
+                  id="lesson-video-wrap"
+                  class="relative aspect-video w-full overflow-hidden bg-black lg:rounded-xl"
+                >
+                  <video
+                    id="lesson-video"
+                    class="h-full w-full"
+                    controls
+                    preload="none"
+                    playsinline
+                    poster={posterUrl ?? undefined}
+                  >
+                    <source src={currentLesson.video} />
+                    {currentLesson.vtt && (
+                      <track
+                        kind="subtitles"
+                        src={currentLesson.vtt}
+                        srclang="ru"
+                        label="Русский"
+                        default
+                      />
+                    )}
+                  </video>
+                  <div class="lg:hidden">
+                    <LessonPrevNext
+                      subject={subject}
+                      course={course}
+                      prev={prevLesson}
+                      next={nextLesson}
+                      mode="video"
+                    />
+                  </div>
+                </div>
+              )}
+
+              {currentLesson.audio && (
+                <div
+                  id="lesson-audio-wrap"
+                  class="relative flex min-h-[140px] w-full flex-col rounded-xl border border-border/70 bg-muted/30 p-4 lg:min-h-0"
+                  hidden={Boolean(currentLesson.video)}
+                >
+                  <div class="flex-grow"></div>
+                  <audio
+                    id="lesson-audio"
+                    class="w-full"
+                    controls
+                    preload="none"
+                    src={currentLesson.audio}
+                  ></audio>
+                  <div class="lg:hidden">
+                    <LessonPrevNext
+                      subject={subject}
+                      course={course}
+                      prev={prevLesson}
+                      next={nextLesson}
+                      mode="audio"
+                    />
+                  </div>
+                </div>
+              )}
+
+              {!hasAnyMedia && (
+                <div class="rounded-xl border border-border/70 bg-muted/30 p-6 text-sm text-muted-foreground">
+                  Для этого урока видео и аудио отсутствует.
+                </div>
+              )}
+
+              {/* Мобильный тулбар */}
+              <div class="lg:hidden">
+                <div class="border-x-0 border-t-0 border-border/70">
+                  <div class="p-2">
+                    <div class="relative w-full">
+                      <div class="pointer-events-none absolute left-0 top-0 z-10 h-full w-6 bg-gradient-to-r from-background to-transparent"></div>
+                      <div class="pointer-events-none absolute right-0 top-0 z-10 h-full w-6 bg-gradient-to-l from-background to-transparent"></div>
+                      <div class="scrollbar-hide flex w-full gap-2 overflow-x-auto whitespace-nowrap px-1 pb-1">
+                        {!hasAnyMedia && prevLesson && (
+                          <a
+                            href={buildLessonUrl(prevLesson.slug)}
+                            class={pill}
+                            aria-label={`Урок ${prevLesson.order ?? ""}`}
+                          >
+                            <span aria-hidden="true">‹</span>
+                            {prevLesson.order != null && (
+                              <span>{prevLesson.order} урок</span>
+                            )}
+                          </a>
+                        )}
+                        {hasBothMedia && (
+                          <button
+                            type="button"
+                            class={`media-toggle ${pill}`}
+                            data-label-audio="Аудио"
+                            data-label-video="Видео"
+                          >
+                            {currentLesson.video ? "Аудио" : "Видео"}
+                          </button>
+                        )}
+                        <a href="#course-program" class={pill}>
+                          Программа
+                        </a>
+                        <LessonCompleteButton
+                          client:idle
+                          subject={subject}
+                          course={course}
+                          slug={currentLesson.slug}
+                        />
+                        {!hasAnyMedia && nextLesson && (
+                          <a
+                            href={buildLessonUrl(nextLesson.slug)}
+                            class={pill}
+                            aria-label={`Урок ${nextLesson.order ?? ""}`}
+                          >
+                            {nextLesson.order != null && (
+                              <span>{nextLesson.order} урок</span>
+                            )}
+                            <span aria-hidden="true">›</span>
+                          </a>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Десктопный тулбар */}
+              <div class="hidden lg:block">
+                <div class="border-0 shadow-none">
+                  <div class="p-2 sm:p-4">
+                    <div class="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
+                      <div class="flex justify-start"></div>
+                      <div class="flex items-center justify-center gap-2">
+                        {hasBothMedia && (
+                          <button
+                            type="button"
+                            class={`media-toggle ${pill}`}
+                            data-label-audio="Аудио-версия"
+                            data-label-video="Видео-версия"
+                          >
+                            {currentLesson.video ? "Аудио-версия" : "Видео-версия"}
+                          </button>
+                        )}
+                        {currentLesson.video && (
+                          <a
+                            href={currentLesson.video}
+                            download
+                            data-download="video"
+                            class={pill}
+                          >
+                            Скачать
+                          </a>
+                        )}
+                        {currentLesson.audio && (
+                          <a
+                            href={currentLesson.audio}
+                            download
+                            data-download="audio"
+                            class={pill}
+                            hidden={Boolean(currentLesson.video)}
+                          >
+                            Скачать
+                          </a>
+                        )}
+                      </div>
+                      <div class="flex justify-end gap-2">
+                        <LessonCompleteButton
+                          client:idle
+                          subject={subject}
+                          course={course}
+                          slug={currentLesson.slug}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <LessonArticle
+                html={currentLesson.html}
+                title={String(lessonTitle ?? "")}
+                subject={subject}
+                course={course}
+              />
+            </section>
+
+            <aside id="course-program" class="w-full lg:col-span-4">
+              <div class="lg:sticky lg:top-[80px]">
+                <CourseProgram
+                  client:idle
+                  subject={subject}
+                  course={course}
+                  currentSlug={currentLesson.slug}
+                  lessons={programLessons}
+                />
+              </div>
+            </aside>
+          </main>
+
+          <script is:inline>
+            (function () {
+              var toggles = document.querySelectorAll(".media-toggle");
+              if (!toggles.length) return;
+              var videoWrap = document.getElementById("lesson-video-wrap");
+              var audioWrap = document.getElementById("lesson-audio-wrap");
+              var mode = videoWrap ? "video" : "audio";
+
+              function apply() {
+                if (videoWrap) videoWrap.hidden = mode !== "video";
+                if (audioWrap) audioWrap.hidden = mode !== "audio";
+                toggles.forEach(function (button) {
+                  button.textContent =
+                    mode === "video"
+                      ? button.getAttribute("data-label-audio")
+                      : button.getAttribute("data-label-video");
+                });
+                document.querySelectorAll("[data-download]").forEach(function (link) {
+                  link.hidden = link.getAttribute("data-download") !== mode;
+                });
+              }
+
+              toggles.forEach(function (button) {
+                button.addEventListener("click", function () {
+                  mode = mode === "video" ? "audio" : "video";
+                  apply();
+                });
+              });
+
+              apply();
+
+              document
+                .querySelectorAll("#lesson-video, #lesson-audio")
+                .forEach(function (media) {
+                  var overlay = media.parentElement
+                    ? media.parentElement.querySelector(".lesson-prevnext")
+                    : null;
+                  if (!overlay) return;
+                  var hide = function () {
+                    overlay.classList.add("opacity-0", "pointer-events-none");
+                  };
+                  var show = function () {
+                    overlay.classList.remove("opacity-0", "pointer-events-none");
+                  };
+                  media.addEventListener("play", hide);
+                  media.addEventListener("pause", show);
+                  media.addEventListener("ended", show);
+                });
+            })();
+          </script>
+
+          <script is:inline define:vars={{ subject, course, slug: currentLesson.slug }}>
+            (function () {
+              try {
+                var key = "last-lesson:" + subject + "/" + course;
+                var params = new URLSearchParams(window.location.search);
+                var last = window.localStorage.getItem(key);
+                if (last && !params.get("slug")) {
+                  window.location.replace(
+                    "/lesson?subject=" +
+                      encodeURIComponent(subject) +
+                      "&course=" +
+                      encodeURIComponent(course) +
+                      "&slug=" +
+                      encodeURIComponent(last),
+                  );
+                  return;
+                }
+                window.localStorage.setItem(key, slug);
+                var recent = JSON.parse(
+                  window.localStorage.getItem("recent-lessons") || "{}",
+                );
+                recent[key] = {
+                  slug: slug,
+                  subject: subject,
+                  course: course,
+                  title: document.title,
+                  timestamp: Date.now(),
+                };
+                window.localStorage.setItem("recent-lessons", JSON.stringify(recent));
+              } catch (error) {
+                // Хранилище может быть недоступно.
+              }
+            })();
+          </script>
+
+          <script>
+            import {
+              getGlossaryLinkSlug,
+              getGlossaryTarget,
+            } from "../utils/glossaryTarget";
+
+            function locateGlossaryTarget() {
+              const slug = getGlossaryTarget(window.location.hash);
+              const root = document.querySelector("main");
+              if (!slug || !root) return;
+
+              let observer: MutationObserver | undefined;
+              let timer: number | undefined;
+              let frame: number | undefined;
+              let highlighted: HTMLAnchorElement | undefined;
+
+              const stop = () => {
+                observer?.disconnect();
+                window.clearTimeout(timer);
+                if (frame !== undefined) window.cancelAnimationFrame(frame);
+                highlighted?.classList.remove("glossary-term-target");
+              };
+
+              const reveal = () => {
+                const target = [
+                  ...root.querySelectorAll<HTMLAnchorElement>("a[href]"),
+                ].find((link) => {
+                  if (
+                    getGlossaryLinkSlug(
+                      link.getAttribute("href")!,
+                      window.location.origin,
+                    ) !== slug
+                  ) {
+                    return false;
+                  }
+                  for (
+                    let parent = link.parentElement;
+                    parent;
+                    parent = parent.parentElement
+                  ) {
+                    if (parent instanceof HTMLDetailsElement) parent.open = true;
+                  }
+                  return link.getClientRects().length > 0;
+                });
+                if (!target) return;
+                if (
+                  target === highlighted &&
+                  target.classList.contains("glossary-term-target")
+                ) {
+                  return;
+                }
+                highlighted?.classList.remove("glossary-term-target");
+                if (frame !== undefined) window.cancelAnimationFrame(frame);
+                highlighted = target;
+                target.classList.add("glossary-term-target");
+                frame = window.requestAnimationFrame(() => {
+                  target.scrollIntoView({ block: "center", behavior: "instant" });
+                  target.focus({ preventScroll: true });
+                });
+              };
+
+              observer = new MutationObserver(reveal);
+              observer.observe(root, { childList: true, subtree: true });
+              timer = window.setTimeout(() => observer?.disconnect(), 20_000);
+              reveal();
+            }
+
+            locateGlossaryTarget();
+            window.addEventListener("hashchange", locateGlossaryTarget);
+          </script>
+
+          <script is:inline>
+            document.addEventListener("DOMContentLoaded", function () {
+              document.dispatchEvent(new CustomEvent("quran:reinit"));
+            });
+          </script>
+        </div>
       )
     ) : (
       <section class="no-lessons-message">

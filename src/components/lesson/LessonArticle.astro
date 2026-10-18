@@ -1,0 +1,34 @@
+---
+import TeacherCredit from "../TeacherCredit";
+import DictionaryFlashcard from "../DictionaryFlashcard";
+import { hasContentH1, splitLessonHtml } from "../../lib/lessonContent";
+
+interface Props {
+  html: string;
+  title: string;
+  subject: string;
+  course: string;
+}
+
+const { html, title, subject, course } = Astro.props;
+const segments = splitLessonHtml(html);
+const contentHasH1 = hasContentH1(html);
+---
+
+{!contentHasH1 && <h1 class="sr-only">{title}</h1>}
+<TeacherCredit subject={subject} course={course} />
+<article class="lesson-reading max-w-none px-0 py-4 lg:p-6">
+  {
+    segments.map((segment) =>
+      segment.kind === "html" ? (
+        <div class="lesson-text" set:html={segment.html} />
+      ) : (
+        <DictionaryFlashcard
+          client:visible
+          words={segment.words}
+          lessonNumber={segment.lessonNumber}
+        />
+      ),
+    )
+  }
+</article>
