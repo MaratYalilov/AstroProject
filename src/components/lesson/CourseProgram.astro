@@ -1,0 +1,329 @@
+---
+interface LessonItem {
+  slug: string;
+  title: string;
+  order?: number;
+}
+
+interface Props {
+  subject: string;
+  course: string;
+  currentSlug: string;
+  lessons: LessonItem[];
+}
+
+const { subject, course, currentSlug, lessons } = Astro.props;
+
+const buildLessonUrl = (slug: string) =>
+  `/lesson?subject=${encodeURIComponent(subject)}&course=${encodeURIComponent(
+    course,
+  )}&slug=${encodeURIComponent(slug)}`;
+
+const sortedLessons = lessons
+  .slice()
+  .sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
+
+const linkBase =
+  "group block w-full max-w-full rounded-xl border border-border/70 p-3 text-sm transition";
+const badgeBase =
+  "grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-transparent bg-muted text-xs transition-colors";
+---
+
+<div
+  class="rounded-none border bg-card text-card-foreground shadow-sm sm:rounded-xl"
+  data-course-program
+  data-storage-key={`completed-lessons:${subject}/${course}`}
+>
+  <div class="flex flex-col space-y-1.5 p-6">
+    <div class="flex items-center justify-between">
+      <div class="text-base font-semibold tracking-tight sm:text-lg">
+        Программа курса
+      </div>
+      <div class="hidden text-xs text-muted-foreground sm:block">
+        Прогресс
+      </div>
+    </div>
+
+    <div class="mt-3">
+      <div class="relative h-4 w-full overflow-hidden rounded-full bg-secondary">
+        <div
+          class="h-full w-full flex-1 bg-primary transition-all"
+          data-program-bar
+          style="width: 0%"
+        >
+        </div>
+      </div>
+      <div class="mt-1 text-xs text-muted-foreground" data-program-text>
+        0% пройдено
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <div class="relative w-full">
+        <input
+          type="search"
+          data-program-search
+          placeholder="Поиск по урокам…"
+          class="flex h-9 w-full rounded-md border border-input bg-secondary px-3 py-1 pr-8 text-sm shadow-sm transition-colors placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring lg:bg-transparent"
+        />
+        <button
+          type="button"
+          data-program-clear
+          hidden
+          aria-label="Очистить поиск"
+          class="absolute right-2 top-1/2 -translate-y-1/2 rounded-full p-1 text-muted-foreground transition hover:bg-muted hover:text-foreground"
+        >
+          ×
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-0">
+    <div data-program-scroll class="h-[60vh] overflow-y-auto px-2 pb-2">
+      <div
+        data-program-empty
+        hidden
+        class="px-3 py-2 text-xs text-muted-foreground"
+      >
+        Ничего не найдено. Попробуйте изменить запрос.
+      </div>
+
+      <ul class="space-y-1">
+        {
+          sortedLessons.map((lesson) => {
+            const isCurrent = lesson.slug === currentSlug;
+            return (
+              <li
+                class="program-item w-full"
+                data-program-item
+                data-slug={lesson.slug}
+                data-title={lesson.title.toLowerCase()}
+                data-order={lesson.order ?? ""}
+              >
+                <a
+                  href={buildLessonUrl(lesson.slug)}
+                  data-program-link
+                  aria-current={isCurrent ? "page" : undefined}
+                  class:list={[
+                    linkBase,
+                    isCurrent
+                      ? "border-primary/60 bg-primary/5"
+                      : "hover:border-emerald-200 hover:bg-lime-50 dark:hover:border-border/60 dark:hover:bg-muted/50",
+                  ]}
+                >
+                  <div class="flex min-w-0 items-center gap-3">
+                    <div
+                      data-program-badge
+                      class:list={[
+                        badgeBase,
+                        isCurrent && "border-primary/20 bg-primary/10",
+                      ]}
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <polygon points="6 3 20 12 6 21 6 3" />
+                      </svg>
+                    </div>
+
+                    <div class="min-w-0">
+                      <div class="truncate font-medium transition-colors group-hover:text-lime-700 dark:group-hover:text-lime-50">
+                        <span data-program-title>{lesson.title}</span>
+                      </div>
+
+                      {lesson.order != null && (
+                        <div class="text-[10px] uppercase text-muted-foreground transition-colors group-hover:text-lime-700 dark:group-hover:text-lime-50">
+                          Урок {lesson.order}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </a>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var root = document.querySelector("[data-course-program]");
+    if (!root) return;
+
+    var storageKey = root.getAttribute("data-storage-key") || "";
+    var items = Array.prototype.slice.call(
+      root.querySelectorAll("[data-program-item]"),
+    );
+    var rows = items.map(function (item) {
+      var element = item.querySelector("[data-program-title]");
+      return {
+        element: element,
+        text: element ? element.textContent : "",
+      };
+    });
+    var input = root.querySelector("[data-program-search]");
+    var clear = root.querySelector("[data-program-clear]");
+    var text = root.querySelector("[data-program-text]");
+    var bar = root.querySelector("[data-program-bar]");
+    var empty = root.querySelector("[data-program-empty]");
+    var scroll = root.querySelector("[data-program-scroll]");
+    var current = root.querySelector(
+      '[data-program-link][aria-current="page"]',
+    );
+
+    var completed = new Set();
+
+    function read() {
+      try {
+        var raw = window.localStorage.getItem(storageKey);
+        var parsed = raw ? JSON.parse(raw) : [];
+        completed = new Set(Array.isArray(parsed) ? parsed : []);
+      } catch (error) {
+        completed = new Set();
+      }
+    }
+
+    function render() {
+      var count = 0;
+
+      items.forEach(function (item) {
+        var done = completed.has(item.getAttribute("data-slug"));
+        if (done) count += 1;
+        item.classList.toggle("is-completed", done);
+      });
+
+      var percent = items.length
+        ? Math.round((count / items.length) * 100)
+        : 0;
+
+      if (text) text.textContent = percent + "% пройдено";
+      if (bar) bar.style.width = percent + "%";
+    }
+
+    function renderTitle(row, query) {
+      if (!row.element) return;
+
+      if (!query) {
+        row.element.textContent = row.text;
+        return;
+      }
+
+      row.element.textContent = "";
+
+      var lower = row.text.toLowerCase();
+      var index = 0;
+
+      while (index < row.text.length) {
+        var match = lower.indexOf(query, index);
+        if (match === -1) {
+          row.element.appendChild(
+            document.createTextNode(row.text.slice(index)),
+          );
+          break;
+        }
+
+        if (match > index) {
+          row.element.appendChild(
+            document.createTextNode(row.text.slice(index, match)),
+          );
+        }
+
+        var mark = document.createElement("span");
+        mark.className =
+          "rounded bg-yellow-200/70 px-0.5 dark:bg-yellow-500/30";
+        mark.textContent = row.text.slice(match, match + query.length);
+        row.element.appendChild(mark);
+
+        index = match + query.length;
+      }
+    }
+
+    function applySearch() {
+      var query = (input && input.value ? input.value : "").trim().toLowerCase();
+      var visible = 0;
+
+      items.forEach(function (item, index) {
+        var match =
+          !query ||
+          (item.getAttribute("data-title") || "").indexOf(query) !== -1 ||
+          (item.getAttribute("data-order") || "").indexOf(query) !== -1;
+        item.hidden = !match;
+        if (match) visible += 1;
+        renderTitle(rows[index], match ? query : "");
+      });
+
+      if (query && current) {
+        var currentItem = current.closest("[data-program-item]");
+        if (currentItem) {
+          currentItem.hidden = false;
+          visible = 1;
+        }
+      }
+
+      if (empty) empty.hidden = !query || visible !== 0;
+      if (clear) clear.hidden = !query;
+    }
+
+    function scrollToCurrent() {
+      if (!scroll || !current) return;
+
+      var containerRect = scroll.getBoundingClientRect();
+      var targetRect = current.getBoundingClientRect();
+      var relativeTop = targetRect.top - containerRect.top;
+      var top = scroll.scrollTop + relativeTop - containerRect.height / 3;
+
+      scroll.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+    }
+
+    read();
+    render();
+    applySearch();
+
+    window.setTimeout(scrollToCurrent, 300);
+    window.requestAnimationFrame(function () {
+      window.requestAnimationFrame(scrollToCurrent);
+    });
+
+    if (input) input.addEventListener("input", applySearch);
+
+    if (clear) {
+      clear.addEventListener("click", function () {
+        if (!input) return;
+        input.value = "";
+        input.focus();
+        applySearch();
+      });
+    }
+
+    window.addEventListener("lesson-completion-change", function (event) {
+      var detail = event.detail;
+      if (detail && detail.slug) {
+        if (detail.completed) completed.add(detail.slug);
+        else completed.delete(detail.slug);
+        render();
+      } else {
+        read();
+        render();
+      }
+    });
+
+    window.addEventListener("storage", function (event) {
+      if (event.key !== storageKey) return;
+      read();
+      render();
+    });
+  })();
+</script>

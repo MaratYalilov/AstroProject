@@ -4,7 +4,7 @@ import { replaceQuranTags } from "../../utils/replaceQuranTags";
 import Base from "../../layouts/Base.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { getCollection, render } from "astro:content";
-import LessonPage from "../../components/LessonPage";
+import LessonView from "../../components/lesson/LessonView.astro";
 import BlogLessonPage from "../../components/blog";
 import InteractiveLessonPage from "../../components/alifba/InteractiveLessonPage";
 import CourseLayout from "../../components/course/CourseLayout";
@@ -179,6 +179,27 @@ if (isInteractive) {
     hasVideo: Boolean(l.data.hasVideo ?? l.data.video ?? l.data.videoRel),
   }));
 }
+
+const currentSlug = currentLesson?.slug ?? "";
+const lessonIndex = lessons.findIndex((l) => l.slug === currentSlug);
+const prevLesson = lessonIndex > 0 ? lessons[lessonIndex - 1] : null;
+const nextLesson =
+  lessonIndex >= 0 && lessonIndex < lessons.length - 1
+    ? lessons[lessonIndex + 1]
+    : null;
+const programLessons = lessons.map(({ slug, title, order }) => ({
+  slug,
+  title,
+  order,
+}));
+const hasAnyMedia = Boolean(currentLesson?.video || currentLesson?.audio);
+const hasBothMedia = Boolean(currentLesson?.video && currentLesson?.audio);
+const posterUrl = currentLesson?.video
+  ? currentLesson.video
+      .replace("/video/", "/thumbs/")
+      .replace(/\.(mp4|webm|mov)$/i, ".jpg")
+  : null;
+const courseLessonTitle = currentLesson?.title ?? "";
 ---
 
 <Base
@@ -229,13 +250,17 @@ if (isInteractive) {
               lessons={lessons}
             />
           ) : (
-            <LessonPage
-              client:load
+            <LessonView
               subject={subject}
               course={course}
-              courseTitle={courseTitle}
               currentLesson={currentLesson}
-              lessons={lessons}
+              prevLesson={prevLesson}
+              nextLesson={nextLesson}
+              programLessons={programLessons}
+              posterUrl={posterUrl}
+              lessonTitle={String(courseLessonTitle)}
+              hasAnyMedia={hasAnyMedia}
+              hasBothMedia={hasBothMedia}
             />
           )
         ) : (

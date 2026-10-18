@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 360,
+    "retained_original_links": 258,
+    "removed_original_links": 102,
+    "added_links": 8,
+    "result_links": 266,
+    "result_unique_verses": 256,
+    "cumulative_topics": 350,
+    "cumulative_links": 16404
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 341-350.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-341-350\\Указатель аятов - темы 341-350.json",
+      "sha256": "e9a5cd80a76973dac9f4f3aa35ab7c225ec9e9825e408cd3fd38f7077521b20f"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-350.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-341-350\\Указатель аятов - проверенные темы 1-350.json",
+      "sha256": "d67c4919e04fa5b3e769769d5c1b684251aa2567dd0c1f0c3741d812fcc881b0"
+    },
+    {
+      "name": "Темы 341-350 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-341-350\\Темы 341-350 - журнал проверки.json",
+      "sha256": "2400efaf01970d4881d2aa35db47931ea1d3dee1f35e714ddf829007153cef2c"
+    },
+    {
+      "name": "Темы 341-350 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-341-350\\Темы 341-350 - отчёт.md",
+      "sha256": "a5f2e21881d666cfb64c541035d2ba820e33763781c0d53dcb04890bdd930ba9"
+    }
+  ]
+}
