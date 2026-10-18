@@ -1,7 +1,4 @@
-import type { CollectionEntry } from 'astro:content'
-import { replaceQuranTags } from '@/utils/replaceQuranTags'
-
-type GlossaryEntry = CollectionEntry<'glossary'>
+import type { GlossaryEntry } from '@/lib/glossary/glossaryPageData'
 
 type Props = {
   entry: GlossaryEntry | null
@@ -28,7 +25,7 @@ export default function GlossaryDetail({ entry }: Props) {
 
       <div
         dangerouslySetInnerHTML={{
-          __html: replaceQuranTags(entry.body ?? ''),
+          __html: entry.body,
         }}
       />
     </article>

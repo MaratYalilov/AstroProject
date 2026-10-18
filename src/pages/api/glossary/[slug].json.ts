@@ -1,6 +1,7 @@
 import type { APIRoute, GetStaticPaths } from 'astro'
 import { getCollection } from 'astro:content'
 import { buildGlossaryEntry, type GlossaryEntry } from '@/lib/glossary/glossaryPageData'
+import { prepareGlossaryEntry } from '@/lib/glossary/prepareGlossaryEntry'
 import { loadGlossaryLessonLinks, type GlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
 
 export const prerender = true
@@ -19,7 +20,7 @@ export const GET: APIRoute = ({ props }) => {
   const links = Object.fromEntries(entry.data.used_in
     .filter((href): href is string => typeof href === 'string' && Object.hasOwn(lessonLinks, href))
     .map(href => [href, lessonLinks[href]]))
-  return new Response(JSON.stringify({ entry, lessonLinks: links }), {
+  return new Response(JSON.stringify({ entry: prepareGlossaryEntry(entry), lessonLinks: links }), {
     headers: { 'Content-Type': 'application/json; charset=utf-8' },
   })
 }

@@ -7,14 +7,17 @@ import { Card, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Check } from "lucide-react";
 import { readCourseProgress, type StudyCourse } from "@/lib/studyProgress";
 import { useStudyProgress } from "./hooks/useStudyProgress";
+import { resolveCourseProgress } from "@/lib/interactive/lessonProgress";
 
 type CourseEntry = CollectionEntry<"courses">;
+const EMPTY_RESUME_LESSONS: Record<string, { id: number; slug: string }[]> = {};
 
 interface CourseGridProps {
   subjectSlug: string;
   subjectTitle?: string;
   courses: CourseEntry[];
   studyCourses: StudyCourse[];
+  resumeLessons?: Record<string, { id: number; slug: string }[]>;
   subjectIcon?: string;
 }
 
@@ -22,6 +25,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
   subjectSlug, 
   courses, 
   studyCourses,
+  resumeLessons = EMPTY_RESUME_LESSONS,
   subjectIcon 
 }) => {
   const progressCourses = React.useMemo(() => studyCourses.map(course => ({
@@ -29,6 +33,33 @@ const CourseGrid: React.FC<CourseGridProps> = ({
   })), [studyCourses, subjectSlug]);
   const savedProgress = useStudyProgress(progressCourses);
   const [lastTextbookLessonSlug, setLastTextbookLessonSlug] = React.useState<string | null>(null);
+  const [resumeHrefs, setResumeHrefs] = React.useState<Record<string, string>>({});
+
+  const interactiveHref = React.useCallback((course: string) => {
+    const base = `/${subjectSlug}/${course}`;
+    const lessons = resumeLessons[course];
+    if (!lessons?.length) return base;
+    try {
+      const key = `course_progress_${subjectSlug}_${course}`;
+      const index = resolveCourseProgress(lessons, localStorage.getItem(key), localStorage.getItem(`${key}_slug`), subjectSlug, course);
+      return `${base}?lesson=${encodeURIComponent(lessons[index].slug)}`;
+    } catch {
+      return base;
+    }
+  }, [subjectSlug, resumeLessons]);
+
+  React.useEffect(() => {
+    const refresh = () => setResumeHrefs(Object.fromEntries(
+      Object.keys(resumeLessons).map(course => [course, interactiveHref(course)]),
+    ));
+    refresh();
+    window.addEventListener("focus", refresh);
+    window.addEventListener("storage", refresh);
+    return () => {
+      window.removeEventListener("focus", refresh);
+      window.removeEventListener("storage", refresh);
+    };
+  }, [interactiveHref, resumeLessons]);
 
   React.useEffect(() => {
     let lastSlug: string | null = null;
@@ -81,12 +112,19 @@ const CourseGrid: React.FC<CourseGridProps> = ({
               course: c.data.slug,
               slug: lastTextbookLessonSlug || "akida/uchebnik-6-stolpov/0-predislovie",
             })}`
-          : `/${subjectSlug}/${c.data.slug}`;
+          : resumeHrefs[c.data.slug] ?? `/${subjectSlug}/${c.data.slug}`;
         
         return (
           <motion.a
             key={c.id}
             href={href}
+            onClick={c.data.type === "interactive" ? event => {
+              // Read again in case the course was continued in another tab.
+              event.currentTarget.href = interactiveHref(c.data.slug);
+            } : undefined}
+            onAuxClick={c.data.type === "interactive" ? event => {
+              event.currentTarget.href = interactiveHref(c.data.slug);
+            } : undefined}
             whileHover={{ y: -6, scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="interaction-card block h-full no-underline"

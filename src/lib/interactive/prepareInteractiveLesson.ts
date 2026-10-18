@@ -1,13 +1,5 @@
-import { marked } from "marked";
-import { replaceQuranTags } from "../../utils/replaceQuranTags";
-import { prepareMermaidBlocks } from "../../utils/mermaid";
+import { renderTheoryHtml } from "./serverHtml";
 import type { InteractiveLesson } from "./loadInteractiveLesson";
-
-// Server-only preparation. Keep the browser fallback for later course navigation.
-const theoryModules = import.meta.glob<string>(
-  "/src/content/lessons/**/theory/*.md",
-  { query: "?raw", import: "default" },
-);
 
 /** Include the selected lesson's theory in its first server render. */
 export async function prepareInteractiveLesson(
@@ -15,14 +7,8 @@ export async function prepareInteractiveLesson(
 ): Promise<InteractiveLesson> {
   const blocks = await Promise.all(lesson.blocks.map(async (block) => {
     if (block.type !== "theory") return block;
-    const source = block.source.replace(/^\/+/, "");
-    const prefix = `/src/content/lessons/${lesson.subject}/${lesson.course}/`;
-    const loader = theoryModules[`${prefix}theory/${source}`]
-      ?? theoryModules[`${prefix}${source}`];
-    if (!loader) return block;
-
-    const markdown = (await loader()).replace(/^---[\s\S]*?---\s*/, "").trim();
-    const html = prepareMermaidBlocks(replaceQuranTags(await marked.parse(markdown)));
+    const html = await renderTheoryHtml(lesson.subject, lesson.course, block.source);
+    if (html === null) return block;
     return { ...block, initialHtml: html };
   }));
 

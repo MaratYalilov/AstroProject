@@ -4,7 +4,8 @@ import GlossaryPage from '@/components/glossary/GlossaryPage'
 import { getCollection } from 'astro:content'
 import { buildGlossaryEntryMetadata } from '@/utils/glossaryMetadata'
 import { loadGlossaryLessonLinks } from '@/lib/glossary/loadGlossaryLessonLinks'
-import { buildGlossarySummaries, buildGlossaryEntry } from '@/lib/glossary/glossaryPageData'
+import { buildGlossarySummaries } from '@/lib/glossary/glossaryPageData'
+import { prepareGlossaryEntry } from '@/lib/glossary/prepareGlossaryEntry'
 import { buildGlossaryStructuredData, serializeGlossaryStructuredData, GLOSSARY_SCHEMA_ID } from '@/utils/glossaryStructuredData'
 
 export async function getStaticPaths() {
@@ -52,7 +53,7 @@ const lessonLinks = await loadGlossaryLessonLinks(entry.data.used_in)
 
   <GlossaryPage
     entries={buildGlossarySummaries(entries)}
-    initialEntry={buildGlossaryEntry(entry)}
+    initialEntry={prepareGlossaryEntry(entry)}
     lessonLinks={lessonLinks}
     initialSlug={slug}
     siteUrl={site!.href}

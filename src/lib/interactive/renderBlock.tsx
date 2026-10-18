@@ -55,10 +55,12 @@ export default function RenderBlock({
     case "theory":
       return (
         <TheoryReveal
-          key={block.source}
+          key={`${subject}/${course}/${block.source}`}
           title={block.title}
           source={block.source}
           initialHtml={block.initialHtml}
+          subject={subject}
+          course={course}
         />
       );
 

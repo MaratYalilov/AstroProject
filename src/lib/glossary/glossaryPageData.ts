@@ -6,6 +6,7 @@ export type GlossarySummary = {
 }
 
 export type GlossaryEntry = GlossarySummary & {
+  /** Article HTML; prepareGlossaryEntry resolves Quran tags before delivery to the browser. */
   body: string
   data: GlossarySummary['data'] & { used_in: unknown[]; description?: string }
 }

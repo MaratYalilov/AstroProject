@@ -3,7 +3,6 @@ import type { MouseEvent } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 import { Input } from '@/components/ui/input'
-import { replaceQuranTags } from '@/utils/replaceQuranTags'
 import { buildGlossaryEntryMetadata, glossaryIndexMetadata } from '@/utils/glossaryMetadata'
 import { updatePageMetadata } from '@/utils/updatePageMetadata'
 import { updateGlossaryStructuredData } from '@/utils/glossaryStructuredData'
@@ -287,14 +286,14 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
       window.cancelAnimationFrame(frameId)
       window.clearTimeout(timeoutId)
     }
-  }, [active?.id, active?.body])
+  }, [active?.id, active?.body, ready])
 
   /* ================= MOBILE ================= */
 
   if (isMobile) {
     return (
       <ReducedMotionProvider>
-      <div className="space-y-4">
+      <div data-quran-audio-ready={ready ? "true" : "false"} className="space-y-4">
         {loadingTerm && <p role="status" className="text-sm text-muted-foreground">Загрузка: {loadingTerm}…</p>}
         {!active && (
           <>
@@ -357,7 +356,7 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
             <div
               className="prose max-w-none"
               dangerouslySetInnerHTML={{
-                __html: replaceQuranTags(active.body ?? ''),
+                __html: active.body ?? '',
               }}
             />
             <LessonBacklinks references={active.data.used_in} links={lessonLinks} termSlug={getSlug(active)} />
@@ -372,7 +371,7 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
 
   return (
     <ReducedMotionProvider>
-    <div className="grid grid-cols-[1fr_260px] gap-6 min-h-[600px]">
+    <div data-quran-audio-ready={ready ? "true" : "false"} className="grid grid-cols-[1fr_260px] gap-6 min-h-[600px]">
       {!active && <h1 className="sr-only">Словарь исламских терминов</h1>}
       {/* ARTICLE */}
       <div className="border-r pr-4">
@@ -405,7 +404,7 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
               <div
                 className="prose max-w-none"
                 dangerouslySetInnerHTML={{
-                  __html: replaceQuranTags(active.body ?? ''),
+                  __html: active.body ?? '',
                 }}
               />
               <LessonBacklinks references={active.data.used_in} links={lessonLinks} termSlug={getSlug(active)} />

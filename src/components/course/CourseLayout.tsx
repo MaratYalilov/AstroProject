@@ -137,7 +137,7 @@ export default function CourseLayout({ lessons, subject, course, courseTitle, su
 
   return (
     <ReducedMotionProvider>
-    <div className="flex min-h-screen bg-gradient-to-br from-background via-background to-cyan-950/10">
+    <div data-interactive-course className="flex min-h-screen bg-gradient-to-br from-background via-background to-cyan-950/10">
       {/* Sidebar */}
       <CourseSidebar
         lessons={lessonItems}

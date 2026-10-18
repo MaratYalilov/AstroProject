@@ -1,8 +1,5 @@
-import type { CollectionEntry } from 'astro:content'
+import type { GlossaryEntry } from '@/lib/glossary/glossaryPageData'
 import { motion, AnimatePresence } from 'framer-motion'
-import { replaceQuranTags } from '../../utils/replaceQuranTags'
-
-type GlossaryEntry = CollectionEntry<'glossary'>
 
 type Props = {
   entry: GlossaryEntry
@@ -33,7 +30,7 @@ export default function GlossaryCard({
           >
             <div
               dangerouslySetInnerHTML={{
-                __html: replaceQuranTags(entry.body ?? ''),
+                __html: entry.body,
               }}
             />
           </motion.div>

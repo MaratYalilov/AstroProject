@@ -1,7 +1,9 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Howl } from "howler";
 import { BookOpen, ChevronDown, Pause, Play, Volume2 } from "lucide-react";
 import { containsGlossaryTermLink, getGlossaryTarget } from '../../utils/glossaryTarget';
+import { fetchInteractiveHtml } from "../../utils/fetchInteractiveHtml";
+import { useMermaidRender } from "../../utils/mermaid";
 import mukaddimaData from "@/content/lessons/quran/koran-2-uroven/mukaddima.json";
 import sharhData from "@/content/lessons/quran/koran-2-uroven/sharh.json";
 import groupsData from "@/content/lessons/quran/koran-2-uroven/matn_groups.json";
@@ -12,7 +14,7 @@ export type MatnBeit = {
   ar: string;
   /** Краткий перевод бейта */
   ru: string;
-  /** Шарх Муллы Али аль-Кари (raw markdown; конвертируется в HTML при раскрытии) */
+  /** Markdown нужен для поиска термина; готовый HTML при раскрытии запрашивается у сервера. */
   sharh?: string;
   /** Границы бейта в аудио группы (секунды). Есть только у синхронизированных групп. */
   start?: number;
@@ -72,23 +74,6 @@ const GROUPS: Record<string, MatnGroup> = Object.fromEntries(
     } satisfies MatnGroup,
   ]),
 );
-
-async function toHtml(md: string): Promise<string> {
-  // Parse commentary only when it is opened; the lesson itself uses plain text.
-  const { marked } = await import("marked");
-  const parsed = await marked.parse(md);
-  // «Арабский оригинал» идёт в blockquote. Класс arab (проектный арабский
-  // шрифт + RTL) вешаем и на сам blockquote, и на текстовые <p> внутри —
-  // на <p> обязательно, иначе шрифт не доходит до текста по наследованию.
-  const withArab = parsed.replace(
-    /<blockquote>([\s\S]*?)<\/blockquote>/g,
-    (_m, inner) =>
-      `<blockquote class="arab">${inner.replace(/<p>/g, '<p class="arab">')}</blockquote>`,
-  );
-  if (!/\{Quran(?:Symbol)?\}/i.test(withArab)) return withArab;
-  const { replaceQuranTags } = await import("../../utils/replaceQuranTags");
-  return replaceQuranTags(withArab);
-}
 
 function MatnArabicText({ text }: { text: string }) {
   const misras = text.split(/\s*(\.{3}|…)\s*/);
@@ -155,27 +140,59 @@ export default function MatnBlock({ group, from, to }: Props) {
   const [progress, setProgress] = useState(0);
   const [openSharh, setOpenSharh] = useState<Record<number, boolean>>({});
   const [sharhHtml, setSharhHtml] = useState<Record<number, string>>({});
+  const [sharhErrors, setSharhErrors] = useState<Record<number, string>>({});
+  const sharhController = useRef<AbortController | null>(null);
+  const sharhRequests = useRef(new Map<number, Promise<string>>());
 
   useEffect(() => {
-    let cancelled = false;
-    const revealTermComment = async () => {
+    const controller = new AbortController();
+    sharhController.current = controller;
+    return () => { controller.abort(); };
+  }, []);
+
+  const loadSharhHtml = useCallback(async (n: number) => {
+    const signal = sharhController.current?.signal;
+    setSharhErrors(previous => {
+      const next = { ...previous };
+      delete next[n];
+      return next;
+    });
+    try {
+      let pending = sharhRequests.current.get(n);
+      if (!pending) {
+        pending = fetchInteractiveHtml({ kind: "sharh", beit: n }, signal);
+        sharhRequests.current.set(n, pending);
+      }
+      const html = await pending;
+      if (!signal?.aborted) setSharhHtml(previous => ({ ...previous, [n]: html }));
+    } catch {
+      sharhRequests.current.delete(n);
+      if (!signal?.aborted) {
+        setSharhErrors(previous => ({ ...previous, [n]: "Не удалось загрузить комментарий." }));
+      }
+    }
+  }, []);
+
+  useMermaidRender(Object.values(sharhHtml).join("\n"));
+  useEffect(() => {
+    if (Object.keys(sharhHtml).length) document.dispatchEvent(new CustomEvent("quran:reinit"));
+  }, [sharhHtml]);
+
+  useEffect(() => {
+    const revealTermComment = () => {
       const slug = getGlossaryTarget(window.location.hash);
       if (!slug) return;
       const beit = beits.find(beit => beit.sharh && containsGlossaryTermLink(beit.sharh, slug));
       if (!beit?.sharh) return;
       setOpenSharh(previous => ({ ...previous, [beit.n]: true }));
-      const html = await toHtml(beit.sharh);
-      if (!cancelled && getGlossaryTarget(window.location.hash) === slug) {
-        setSharhHtml(previous => ({ ...previous, [beit.n]: html }));
-      }
+      void loadSharhHtml(beit.n);
     };
     void revealTermComment();
     window.addEventListener('hashchange', revealTermComment);
     return () => {
-      cancelled = true;
       window.removeEventListener('hashchange', revealTermComment);
     };
-  }, [beits]);
+  }, [beits, loadSharhHtml]);
 
   const synced =
     !noSync &&
@@ -290,12 +307,11 @@ export default function MatnBlock({ group, from, to }: Props) {
     playRange(b.start, b.end);
   }
 
-  async function toggleSharh(b: MatnBeit) {
+  function toggleSharh(b: MatnBeit) {
     const isOpen = !!openSharh[b.n];
     setOpenSharh((p) => ({ ...p, [b.n]: !isOpen }));
     if (!isOpen && b.sharh && sharhHtml[b.n] == null) {
-      const html = await toHtml(b.sharh);
-      setSharhHtml((p) => ({ ...p, [b.n]: html }));
+      void loadSharhHtml(b.n);
     }
   }
 
@@ -441,7 +457,14 @@ export default function MatnBlock({ group, from, to }: Props) {
                 </div>
                 {b.sharh && openSharh[b.n] && (
                   <div className="lesson-sharh mt-3 w-full min-w-0 rounded-2xl border border-gray-200 bg-gray-50/70 px-4 py-3 dark:border-white/10 dark:bg-white/[0.03] sm:ml-10 sm:w-[calc(100%-2.5rem)]">
-                    {sharhHtml[b.n] == null ? (
+                    {sharhErrors[b.n] ? (
+                      <div role="alert" className="space-y-2 text-rose-700 dark:text-rose-200">
+                        <p>{sharhErrors[b.n]}</p>
+                        <button type="button" onClick={() => void loadSharhHtml(b.n)} className="underline underline-offset-4">
+                          Повторить загрузку
+                        </button>
+                      </div>
+                    ) : sharhHtml[b.n] == null ? (
                       <p className="m-0 text-base text-slate-500 dark:text-slate-400">
                         Загрузка…
                       </p>

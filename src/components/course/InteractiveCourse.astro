@@ -22,6 +22,7 @@ if (!subjectEntry || !courseEntry || courseEntry.data.type !== "interactive") {
 
 const sourceLessons = await loadAllInteractiveLessons(subject, course);
 const lessonSlug = Astro.url.searchParams.get("lesson");
+const resumeLessons = sourceLessons.map(({ id, slug }) => ({ id, slug }));
 const initialIndex = Math.max(0, sourceLessons.findIndex(lesson => lesson.slug === lessonSlug));
 const lessons = await Promise.all(sourceLessons.map((lesson, index) =>
   index === initialIndex ? prepareInteractiveLesson(lesson) : lesson,
@@ -52,6 +53,31 @@ const canonical = new URL(canonicalPath, Astro.site).href;
   readingPage
 >
   <Fragment slot="head">
+    {!lessonSlug && (
+      <script define:vars={{ subject, course, resumeLessons }}>
+        // Bare course URLs may be opened before the card's JavaScript is ready.
+        // Resolve local progress before showing the default lesson.
+        try {
+          var key = 'course_progress_' + subject + '_' + course;
+          var savedSlug = localStorage.getItem(key + '_slug');
+          var index = resumeLessons.findIndex(function (lesson) { return lesson.slug === savedSlug; });
+          if (index < 0) {
+            index = parseInt(localStorage.getItem(key) || '', 10);
+            if (Number.isInteger(index) && !savedSlug && subject === 'quran' && course === 'muallim-sani') {
+              index = resumeLessons.findIndex(function (lesson) { return lesson.id === index; });
+            }
+          }
+          if (Number.isInteger(index) && index > 0 && index < resumeLessons.length) {
+            document.documentElement.setAttribute('data-course-resuming', '');
+            var nextUrl = new URL(window.location.href);
+            nextUrl.searchParams.set('lesson', resumeLessons[index].slug);
+            window.location.replace(nextUrl.href);
+          }
+        } catch (e) {
+          // With unavailable storage, keep the first server-rendered lesson.
+        }
+      </script>
+    )}
     <link rel="canonical" href={canonical} />
   </Fragment>
   <CourseLayout
@@ -66,3 +92,9 @@ const canonical = new URL(canonicalPath, Astro.site).href;
   />
   <slot />
 </Base>
+
+<style is:global>
+  html[data-course-resuming] [data-interactive-course] {
+    visibility: hidden;
+  }
+</style>

@@ -1,8 +1,9 @@
 import React from "react";
 import { BookOpen, Sparkles } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
-import { prepareMermaidBlocks, useMermaidRender } from "../../utils/mermaid";
+import { useMermaidRender } from "../../utils/mermaid";
 import { enhanceAlphabetAudio } from "../../utils/alphabetAudio";
+import { fetchInteractiveHtml } from "../../utils/fetchInteractiveHtml";
 
 type TitleSegment = {
   text: string;
@@ -16,35 +17,6 @@ type Props = {
   subject?: string;
   course?: string;
 };
-
-// Общий glob для всех theory-файлов во всех курсах
-const theoryModules = import.meta.glob<string>(
-  "/src/content/lessons/**/theory/*.md",
-  {
-    query: "?raw",
-    import: "default",
-  },
-);
-
-function normalizeMarkdown(markdown: string): string {
-  // Просто удаляем Frontmatter (служебную информацию в начале файла)
-  return markdown.replace(/^---[\s\S]*?---\s*/, "").trim();
-}
-
-async function loadTheoryMarkdown(source: string): Promise<string> {
-  const normalizedSource = source.replace(/^\/+/, "");
-  const moduleKey = Object.keys(theoryModules).find(
-    (key) =>
-      key.endsWith(`/theory/${normalizedSource}`) ||
-      key.endsWith(`/${normalizedSource}`),
-  );
-
-  if (!moduleKey) {
-    throw new Error(`Theory markdown not found: ${source}`);
-  }
-
-  return normalizeMarkdown(await theoryModules[moduleKey]());
-}
 
 function TheoryContent({
   html,
@@ -79,11 +51,14 @@ export default function TheoryReveal({
   title,
   source,
   initialHtml,
+  subject,
+  course,
 }: Props) {
   const [html, setHtml] = useState<string | null>(() => initialHtml ?? null);
   const [isHydrated, setIsHydrated] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [attempt, setAttempt] = useState(0);
   const contentId = useId();
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -100,43 +75,26 @@ export default function TheoryReveal({
   useEffect(() => {
     if (html !== null || isLoading) return;
 
-    let isCancelled = false;
+    const controller = new AbortController();
     setIsLoading(true);
     setError(null);
 
-    loadTheoryMarkdown(source)
-      .then(async (content) => {
-        if (!isCancelled) {
-          try {
-            // The initial server HTML needs neither Markdown parsing nor Quran data.
-            const { marked } = await import("marked");
-            const parsedHtml = await marked.parse(content);
-            let htmlWithQuran = parsedHtml;
-            if (/\{Quran(?:Symbol)?\}/i.test(parsedHtml)) {
-              const { replaceQuranTags } = await import("../../utils/replaceQuranTags");
-              htmlWithQuran = replaceQuranTags(parsedHtml);
-            }
-            if (!isCancelled) setHtml(prepareMermaidBlocks(htmlWithQuran));
-          } catch (err) {
-            console.error(err);
-            if (!isCancelled) setError("Не удалось загрузить теорию урока.");
-          }
-        }
-      })
+    fetchInteractiveHtml({ kind: "theory", subject: subject ?? "", course: course ?? "", source }, controller.signal)
+      .then(content => { if (!controller.signal.aborted) setHtml(content); })
       .catch((err) => {
-        console.error(err);
-        if (!isCancelled) {
+        if (!controller.signal.aborted) {
+          console.error(err);
           setError("Не удалось загрузить теорию урока.");
         }
       })
       .finally(() => {
-        if (!isCancelled) setIsLoading(false);
+        if (!controller.signal.aborted) setIsLoading(false);
       });
 
     return () => {
-      isCancelled = true;
+      controller.abort();
     };
-  }, [source]);
+  }, [source, subject, course, attempt]);
 
   useEffect(() => {
     if (!html || !sectionRef.current) return;
@@ -215,9 +173,12 @@ export default function TheoryReveal({
           )}
 
           {error && (
-            <p className="m-0 text-lg leading-8 text-rose-700 dark:text-rose-200">
-              {error}
-            </p>
+            <div role="alert" className="space-y-2 text-rose-700 dark:text-rose-200">
+              <p className="m-0 text-lg leading-8">{error}</p>
+              <button type="button" onClick={() => setAttempt(value => value + 1)} className="underline underline-offset-4">
+                Повторить загрузку
+              </button>
+            </div>
           )}
 
           {html && <TheoryContent html={html} />}
