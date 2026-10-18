@@ -24,7 +24,8 @@ export default defineConfig({
         flowchart: { useMaxWidth: false },
       },
     }),
-    tailwind(),
+    // Base.astro уже подключает tailwind.css со всеми тремя слоями.
+    tailwind({ applyBaseStyles: false }),
     // mdx(),
     react(),
   ],

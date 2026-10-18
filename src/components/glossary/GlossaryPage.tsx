@@ -1,6 +1,5 @@
 import { useMemo, useState, useEffect, useRef, useCallback } from 'react'
 import type { MouseEvent } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
 import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 import { Input } from '@/components/ui/input'
 import { buildGlossaryEntryMetadata, glossaryIndexMetadata } from '@/utils/glossaryMetadata'
@@ -31,10 +30,10 @@ function useIsMobile() {
   const [ready, setReady] = useState(false)
 
   useEffect(() => {
-    const mq = window.matchMedia('(max-width: 768px)')
-    setIsMobile(mq.matches)
+    const mq = window.matchMedia('(min-width: 768px)')
+    setIsMobile(!mq.matches)
     setReady(true)
-    const update = (e: MediaQueryListEvent) => setIsMobile(e.matches)
+    const update = (e: MediaQueryListEvent) => setIsMobile(!e.matches)
     mq.addEventListener('change', update)
     return () => mq.removeEventListener('change', update)
   }, [])
@@ -92,7 +91,7 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
   /* ---------------- state ---------------- */
 
   // ВАЖНО: термин из URL (/glossary/<slug>) выбираем сразу при инициализации,
-  // а не эффектом — иначе эффект «desktop auto-select» в том же коммите ещё
+  // а не эффектом - иначе эффект «desktop auto-select» в том же коммите ещё
   // видит active === null и перебивает выбор первой статьёй (плюс подменяет URL
   // через replaceState → любой переход открывал /glossary/a-raf).
   const [active, setActive] = useState<GlossaryEntry | null>(initialEntry ?? null)
@@ -288,115 +287,33 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
     }
   }, [active?.id, active?.body, ready])
 
-  /* ================= MOBILE ================= */
-
-  if (isMobile) {
-    return (
-      <ReducedMotionProvider>
-      <div data-quran-audio-ready={ready ? "true" : "false"} className="space-y-4">
-        {loadingTerm && <p role="status" className="text-sm text-muted-foreground">Загрузка: {loadingTerm}…</p>}
-        {!active && (
-          <>
-            {/* Заголовок страницы для поиска и скринридеров: статья
-                подставляется только после загрузки JSON и получает свой h1. */}
-            <h1 className="sr-only">Словарь исламских терминов</h1>
-            <Input
-              className="h-auto bg-secondary py-2 shadow-none md:text-base"
-              placeholder="Поиск…"
-              value={query}
-              onChange={e => setQuery(e.target.value)}
-            />
-
-            <div className="flex flex-wrap gap-2">
-              {availableLetters.map(l => (
-                <button
-                  key={l}
-                  onClick={() => handleLetterClick(l)}
-                  className={`px-2 py-1 rounded-md text-sm ${
-                    letter === l
-                      ? 'bg-primary text-primary-foreground'
-                      : 'bg-secondary'
-                  }`}
-                >
-                  {l}
-                </button>
-              ))}
-            </div>
-
-            <ul className="divide-y border rounded-md">
-              {filtered.map(e => (
-                <li key={e.id}>
-                  <a
-                    href={`/glossary/${getSlug(e)}`}
-                    onClick={event => handleTermClick(event, e)}
-                    className="block px-4 py-3 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary"
-                  >
-                    <strong>{e.data.term}</strong>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
-
-        {active && (
-          <div>
-            <button
-              onClick={handleBack}
-              className="text-sm text-muted-foreground mb-4"
-            >
-              ← Назад
-            </button>
-
-            <h1 className="text-2xl font-bold mb-4">
-              {active.data.term}
-            </h1>
-            <TeacherCredit glossary />
-
-            <div
-              className="prose max-w-none"
-              dangerouslySetInnerHTML={{
-                __html: active.body ?? '',
-              }}
-            />
-            <LessonBacklinks references={active.data.used_in} links={lessonLinks} termSlug={getSlug(active)} />
-          </div>
-        )}
-      </div>
-      </ReducedMotionProvider>
-    )
-  }
-
-  /* ================= DESKTOP ================= */
+  /* One responsive tree: the article is readable before hydration. */
 
   return (
     <ReducedMotionProvider>
-    <div data-quran-audio-ready={ready ? "true" : "false"} className="grid grid-cols-[1fr_260px] gap-6 min-h-[600px]">
-      {!active && <h1 className="sr-only">Словарь исламских терминов</h1>}
-      {/* ARTICLE */}
-      <div className="border-r pr-4">
-        {!active && (
-          <div>
-            <p role="status" className="sr-only">Загрузка статьи</p>
-            <div aria-hidden="true" className="space-y-4">
-              <div className="h-8 w-1/2 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
-              <div className="h-4 w-full animate-pulse rounded bg-slate-200 dark:bg-white/20" />
-              <div className="h-4 w-11/12 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
-              <div className="h-4 w-4/5 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+      {loadingTerm && <p role="status" className="mb-4 text-sm text-muted-foreground">Загрузка: {loadingTerm}…</p>}
+      <div data-quran-audio-ready={ready ? "true" : "false"} className="grid min-w-0 grid-cols-1 gap-6 md:min-h-[600px] md:grid-cols-[1fr_260px]">
+        {!active && <h1 className="sr-only">Словарь исламских терминов</h1>}
+        {/* ARTICLE */}
+        <div className={`min-w-0 md:border-r md:pr-4 ${active ? "" : "hidden md:block"}`}>
+          {!active && (
+            <div>
+              <p role="status" className="sr-only">Загрузка статьи</p>
+              <div aria-hidden="true" className="space-y-4">
+                <div className="h-8 w-1/2 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+                <div className="h-4 w-full animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+                <div className="h-4 w-11/12 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+                <div className="h-4 w-4/5 animate-pulse rounded bg-slate-200 dark:bg-white/20" />
+              </div>
             </div>
-          </div>
-        )}
-        {loadingTerm && <p role="status" className="mb-4 text-sm text-muted-foreground">Загрузка: {loadingTerm}…</p>}
-        <AnimatePresence mode="wait">
+          )}
+
           {active && (
-            <motion.div
-              key={active.id}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.2 }}
-            >
-              <h1 className="text-3xl font-bold mb-6">
+            <article key={active.id}>
+              <button onClick={handleBack} className="mb-4 text-sm text-muted-foreground md:hidden">
+                ← Назад
+              </button>
+              <h1 className="mb-4 text-2xl font-bold md:mb-6 md:text-3xl">
                 {active.data.term}
               </h1>
               <TeacherCredit glossary />
@@ -408,56 +325,55 @@ export default function GlossaryPage({ entries, initialEntry, lessonLinks: initi
                 }}
               />
               <LessonBacklinks references={active.data.used_in} links={lessonLinks} termSlug={getSlug(active)} />
-            </motion.div>
+            </article>
           )}
-        </AnimatePresence>
-      </div>
-
-      {/* LIST */}
-      <div className="sticky top-24 h-[calc(100vh-6rem)] flex flex-col">
-        <Input
-          className="mb-4 h-auto bg-secondary py-2 shadow-none md:text-base"
-          placeholder="Поиск…"
-          value={query}
-          onChange={e => setQuery(e.target.value)}
-        />
-
-        <div className="flex flex-wrap gap-2 mb-2">
-          {availableLetters.map(l => (
-            <button
-              key={l}
-              onClick={() => handleLetterClick(l)}
-              className={`px-2 py-1 rounded-md text-sm ${
-                letter === l
-                  ? 'bg-primary text-primary-foreground'
-                  : 'bg-secondary'
-              }`}
-            >
-              {l}
-            </button>
-          ))}
         </div>
 
-        <ul className="overflow-auto divide-y flex-1">
-          {filtered.map(e => (
-            <li key={e.id}>
-              <a
-                href={`/glossary/${getSlug(e)}`}
-                onClick={event => handleTermClick(event, e)}
-                aria-current={active?.id === e.id ? 'page' : undefined}
-                className={`block px-2 py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary ${
-                  active?.id === e.id
-                    ? 'bg-primary/10 font-semibold'
-                    : 'hover:bg-accent'
+        {/* LIST */}
+        <div className={`flex-col md:sticky md:top-24 md:flex md:h-[calc(100vh-6rem)] ${active ? "hidden" : "flex"}`}>
+          <Input
+            className="mb-4 h-auto bg-secondary py-2 shadow-none md:text-base"
+            placeholder="Поиск…"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+          />
+
+          <div className="flex flex-wrap gap-2 mb-2">
+            {availableLetters.map(l => (
+              <button
+                key={l}
+                onClick={() => handleLetterClick(l)}
+                className={`px-2 py-1 rounded-md text-sm ${
+                  letter === l
+                    ? 'bg-primary text-primary-foreground'
+                    : 'bg-secondary'
                 }`}
               >
-                {e.data.term}
-              </a>
-            </li>
-          ))}
-        </ul>
+                {l}
+              </button>
+            ))}
+          </div>
+
+          <ul className="flex-1 divide-y overflow-auto rounded-md border md:rounded-none md:border-0">
+            {filtered.map(e => (
+              <li key={e.id}>
+                <a
+                  href={`/glossary/${getSlug(e)}`}
+                  onClick={event => handleTermClick(event, e)}
+                  aria-current={active?.id === e.id ? 'page' : undefined}
+                  className={`block px-4 py-3 font-bold md:px-2 md:py-2 md:font-normal focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary ${
+                    active?.id === e.id
+                      ? 'bg-primary/10 md:font-semibold'
+                      : 'hover:bg-accent'
+                  }`}
+                >
+                  {e.data.term}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
-    </div>
     </ReducedMotionProvider>
   )
 }
