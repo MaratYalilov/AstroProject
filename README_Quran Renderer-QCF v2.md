@@ -434,6 +434,8 @@ node scripts/generate-qcf-v2-css.mjs
 
 Загрузчик проверяет уже имеющиеся копии и скачивает недостающие или не совпадающие с манифестом. Проверяются сигнатура WOFF2 (`wOF2`), длина, размер и SHA-256.
 
+Проверка нарезки сначала ищет `manifest.json` в `public/fonts/qcf-ayah-v2` приложения, затем в соседнем `../assets/fonts/qcf-ayah-v2`. Для `/srv/hutba/app` второй путь - `/srv/hutba/assets/fonts/qcf-ayah-v2`. Поэтому на рабочем сервере достаточно одной копии в каталоге раздачи nginx. Проверяются все файлы именно из выбранного каталога; повреждение манифеста или несовпадение хешей не скрывается переходом к другой копии. Для другого расположения задать `QCF_AYAH_FONT_DIR` - это точный путь к каталогу с `manifest.json`, и он имеет приоритет над автоматическим поиском.
+
 В `package.json` настроен `prebuild`: обычный `npm run build` перед сборкой проверяет 1208 исходных файлов (604 V2 + 604 V4) и 6236 фрагментов V2 с манифестом. Если шрифты отсутствуют или повреждены, проверка останавливает сборку с подсказкой. Прямой запуск `astro build` обходит этот npm-хук; тогда проверку нужно выполнить отдельно.
 
 ### 4.2. Обновить официальные файлы шрифтов
@@ -505,7 +507,9 @@ const sourceLine = `${surahNameRu} (${surahMeaningRu}), ${surah}:${ayah}`;
 
 Команды ниже соответствуют схеме из `DEPLOY.md`: код в `/srv/hutba/app`, публичные файлы в `/srv/hutba/assets`, служба systemd называется `hutba`. Если рабочий сервер настроен иначе, подставить его пути и способ перезапуска.
 
-Сначала передать обновлённый код на сервер обычным способом (Git или SFTP), включая `scripts/download-qcf-woff2.mjs`, оба манифеста шрифтов, `package.json` и изменённые файлы `src/`. При передаче через SFTP удалить старую `src/pages/quran/font-comparison.astro`, если она ранее была загружена. Папку `node_modules` с Windows не переносить.
+Сначала передать обновлённый код на сервер обычным способом (Git или SFTP), включая `scripts/download-qcf-woff2.mjs`, `scripts/check-qcf-ayah-fonts.mjs`, оба манифеста исходных шрифтов, `package.json` и изменённые файлы `src/`. При передаче через SFTP удалить старую `src/pages/quran/font-comparison.astro`, если она ранее была загружена. Папку `node_modules` с Windows не переносить.
+
+Готовую локальную папку `public/fonts/qcf-ayah-v2` целиком (6236 WOFF2 и `manifest.json`) загрузить сразу в `/srv/hutba/assets/fonts/qcf-ayah-v2`. Вторую копию внутри `/srv/hutba/app/public` создавать не требуется. Проверка перед сборкой автоматически найдёт внешний каталог.
 
 Выполнять от пользователя приложения; следующую команду запускать только после успешного завершения предыдущей:
 
@@ -513,19 +517,17 @@ const sourceLine = `${surahNameRu} (${surahMeaningRu}), ${surah}:${ayah}`;
 cd /srv/hutba/app
 npm ci
 npm run fonts:download
-# Перед проверкой скопировать готовый public/fonts/qcf-ayah-v2 с manifest.json
+# Нарезка с manifest.json уже находится в /srv/hutba/assets/fonts/qcf-ayah-v2
 npm run fonts:check
 npm run build
 ```
 
-Загрузчик подготовит исходные 604 WOFF2 QCF V2 и 604 WOFF2 QCF V4 COLRv1. Он не создаёт фрагменты аятов. Каталог `public/fonts/qcf-ayah-v2` (6236 WOFF2 и `manifest.json`, около 105,30 МиБ без манифеста) нужно передать отдельно либо нарезать на сервере. Уже имеющиеся исправные исходные файлы повторно не скачиваются. На сервере код собирается без большого каталога `public/media`, как описано в `DEPLOY.md`.
+Загрузчик подготовит исходные 604 WOFF2 QCF V2 и 604 WOFF2 QCF V4 COLRv1. Он не создаёт фрагменты аятов. Нарезку нужно передать отдельно в каталог ассетов либо нарезать на сервере. Объём 6236 WOFF2 - около 105,30 МиБ без манифеста. Уже имеющиеся исправные исходные файлы повторно не скачиваются. На сервере код собирается без большого каталога `public/media`, как описано в `DEPLOY.md`.
 
-После успешной сборки скопировать именно новые каталоги шрифтов в каталог, из которого nginx раздаёт `/fonts/`, и перезапустить сайт:
+После успешной сборки скопировать подготовленные исходные цветные шрифты V4 в каталог раздачи и перезапустить сайт. Нарезка V2 уже находится в нужном каталоге:
 
 ```bash
-mkdir -p /srv/hutba/assets/fonts/qcf-ayah-v2
 mkdir -p /srv/hutba/assets/fonts/mushaf-v4-woff2/colrv1
-rsync -a --chmod=D755,F644 public/fonts/qcf-ayah-v2/ /srv/hutba/assets/fonts/qcf-ayah-v2/
 rsync -a --chmod=D755,F644 public/fonts/mushaf-v4-woff2/colrv1/ /srv/hutba/assets/fonts/mushaf-v4-woff2/colrv1/
 sudo systemctl restart hutba
 sudo systemctl is-active hutba
