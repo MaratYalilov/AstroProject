@@ -62,8 +62,8 @@ export function withoutFontFaces(css: string): string {
   return root.toString()
 }
 
-/** Callers limit the trial to individually verified articles. */
-export function inlineGlossaryCriticalCss(html: string, css: string, deferredHref: string, dev = false, scope = 'glossary-azan'): string {
+/** Inline the current glossary page's styles; keep full CSS for later interactions. */
+export function inlineGlossaryCriticalCss(html: string, css: string, deferredHref: string, dev = false, scope = 'glossary'): string {
   if (!/^[a-z0-9-]+$/.test(scope)) return html
   const devStyle = dev
     ? html.match(/<style\b[^>]*data-vite-dev-id="[^"]*[/\\]styles[/\\]tailwind\.css"[^>]*>[\s\S]*?<\/style>/i)
