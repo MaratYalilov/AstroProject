@@ -15,6 +15,7 @@ export function initQcfFonts() {
     const url = tajweed
       ? `${tajweedSource}/colrv1/p${page}.woff2`
       : `/fonts/mushaf-v2-woff2/p${page}.woff2`;
+    // This is the only source of page FontFaces; qcf-v2.css has no font URLs.
     // Own the FontFace instead of loading a CSS-connected face: Astro/Vite
     // replaces the initial stylesheet while it hydrates in dev mode. Firefox
     // can leave the old CSS face's load promise pending after that replacement.
@@ -27,8 +28,8 @@ export function initQcfFonts() {
       if (loadedFace.status !== 'loaded') {
         throw new Error(`QCF page ${page} is unavailable`);
       }
-      // Script-created faces survive stylesheet replacement and take precedence
-      // over CSS-connected faces with the same family and descriptors.
+      // Script-created faces survive stylesheet replacement. No competing
+      // CSS-connected face may request the same file when glyphs are revealed.
       document.fonts.add(loadedFace);
       // Keep React-rendered HTML intact: readiness applies equally to existing
       // and later-inserted verses without mutating hydrated descendants.

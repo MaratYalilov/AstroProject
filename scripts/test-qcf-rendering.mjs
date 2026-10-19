@@ -222,6 +222,9 @@ for (const tags of [
 }
 
 // Controlled FontFace promises exercise pending, failure, retry and dynamically inserted verses.
+const qcfCss = await readFile(new URL('../src/styles/qcf-v2.css', import.meta.url), 'utf8');
+assert.ok(!/@font-face\s*\{/u.test(qcfCss), 'static QCF CSS must not start a second font load');
+assert.match(qcfCss, /\.qcf-glyphs\s*\{\s*display:\s*none/u, 'unready QCF codes stay hidden');
 const { initQcfFonts } = await loadSource('src/utils/qcfFonts.ts');
 class Element {
   constructor(page, text = 'glyph codes', variant) { this.dataset = { qcfPage: String(page), qcfVariant: variant }; this.text = text; }
