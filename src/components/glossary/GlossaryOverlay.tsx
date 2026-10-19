@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ReducedMotionProvider } from '../motion/ReducedMotionProvider'
 
@@ -22,29 +22,51 @@ type ActiveState = {
 export default function GlossaryOverlay() {
   const [glossary, setGlossary] = useState<GlossaryMap | null>(null)
   const [active, setActive] = useState<ActiveState | null>(null)
+  const [activeLabel, setActiveLabel] = useState('')
+  const [loadError, setLoadError] = useState(false)
+  const glossaryRequest = useRef<Promise<GlossaryMap> | null>(null)
+  const hoverTarget = useRef<HTMLAnchorElement | null>(null)
 
-  // ---------- загрузка глоссария ----------
-  useEffect(() => {
-    fetch('/api/glossary.json')
-      .then(r => r.json())
-      .then(setGlossary)
-      .catch(() => setGlossary(null))
+  // Definitions are needed only when a reader opens a term, not on page load.
+  const loadGlossary = useCallback(() => {
+    if (!glossaryRequest.current) {
+      glossaryRequest.current = fetch('/api/glossary.json')
+        .then(r => {
+          if (!r.ok) throw new Error('Glossary request failed')
+          return r.json() as Promise<GlossaryMap>
+        })
+        .then(data => {
+          setGlossary(data)
+          return data
+        })
+        .catch(error => {
+          glossaryRequest.current = null // A later tap can retry.
+          throw error
+        })
+    }
+    return glossaryRequest.current
   }, [])
 
   // ---------- обработка hover / tap ----------
   useEffect(() => {
-    if (!glossary) return
-
     const isMobile = () => window.matchMedia('(max-width: 768px)').matches
 
-    const onEnter = (e: MouseEvent) => {
+    const onEnter = async (e: MouseEvent | FocusEvent) => {
       if (isMobile()) return
 
       const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('a.glossary-link')
       if (!link) return
 
       const slug = link.getAttribute('href')?.split('/').pop()
-      if (!slug || !(slug in glossary)) return
+      if (!slug) return
+      hoverTarget.current = link
+      let data: GlossaryMap
+      try {
+        data = await loadGlossary()
+      } catch {
+        return // The ordinary article link remains available.
+      }
+      if (hoverTarget.current !== link || !link.isConnected || !(slug in data)) return
 
       const rect = link.getBoundingClientRect()
 
@@ -63,8 +85,8 @@ export default function GlossaryOverlay() {
       // Заполняем контент тултипа
       tempTooltip.innerHTML = `
         <div class="tooltip-content">
-          <h3>${glossary[slug].term}</h3>
-          <p>${glossary[slug].description}</p>
+          <h3>${data[slug].term}</h3>
+          <p>${data[slug].description}</p>
         </div>
       `
       
@@ -105,18 +127,25 @@ export default function GlossaryOverlay() {
       })
     }
 
-    const onLeave = () => setActive(null)
+    const onLeave = (e: MouseEvent | FocusEvent) => {
+      const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('a.glossary-link')
+      if (!link || (e.relatedTarget instanceof Node && link.contains(e.relatedTarget))) return
+      hoverTarget.current = null
+      setActive(current => current?.isMobile ? current : null)
+    }
 
     const onClick = (e: MouseEvent) => {
-      if (!isMobile()) return
+      if (!isMobile() || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return
 
       const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('a.glossary-link')
       if (!link) return
 
       const slug = link.getAttribute('href')?.split('/').pop()
-      if (!slug || !(slug in glossary)) return
+      if (!slug) return
 
       e.preventDefault()
+      setActiveLabel(link.textContent?.trim() || slug)
+      setLoadError(false)
 
       setActive({
         slug,
@@ -124,23 +153,41 @@ export default function GlossaryOverlay() {
         y: 0,
         isMobile: true,
       })
+      void loadGlossary().catch(() => setLoadError(true))
     }
 
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        hoverTarget.current = null
+        setActive(null)
+      }
+    }
     document.addEventListener('mouseover', onEnter)
     document.addEventListener('mouseout', onLeave)
+    document.addEventListener('focusin', onEnter)
+    document.addEventListener('focusout', onLeave)
     document.addEventListener('click', onClick)
+    document.addEventListener('keydown', onKeyDown)
 
     return () => {
       document.removeEventListener('mouseover', onEnter)
       document.removeEventListener('mouseout', onLeave)
+      document.removeEventListener('focusin', onEnter)
+      document.removeEventListener('focusout', onLeave)
       document.removeEventListener('click', onClick)
+      document.removeEventListener('keydown', onKeyDown)
     }
-  }, [glossary])
+  }, [loadGlossary])
 
   // ---------- если нет активного элемента ----------
-  if (!active || !glossary) return null
+  if (!active) return null
 
-  const entry = glossary[active.slug]
+  const entry = glossary?.[active.slug] ?? {
+    term: activeLabel,
+    description: loadError
+      ? 'Не удалось загрузить определение. Откройте полную статью или попробуйте ещё раз.'
+      : glossary ? 'Определение доступно в полной статье.' : 'Загрузка определения...',
+  }
 
   // ---------- DESKTOP POPOVER ----------
   if (!active.isMobile) {
@@ -193,6 +240,9 @@ export default function GlossaryOverlay() {
       >
         <motion.div
           key="sheet"
+          role="dialog"
+          aria-label={entry.term}
+          aria-busy={!glossary && !loadError}
           initial={{ y: '100%' }}
           animate={{ y: 0 }}
           exit={{ y: '100%' }}
@@ -205,10 +255,10 @@ export default function GlossaryOverlay() {
           dragConstraints={{ top: 0, bottom: 0 }} // не тянуть вверх за начальную позицию
           dragElastic={0.2} // чуть «резины»
           onDragEnd={(_, info) => {
-            // info.offset.y — сколько проскролили
-            // info.velocity.y — скорость движения
+            // info.offset.y - сколько проскролили
+            // info.velocity.y - скорость движения
             if (info.offset.y > 100 || info.velocity.y > 500) {
-              setActive(null) // свайп вниз — закрываем лист
+              setActive(null) // свайп вниз - закрываем лист
             }
             
           }}
