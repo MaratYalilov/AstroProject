@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { extractCriticalCss, inlineAzanCriticalCss, withoutFontFaces } from '../src/lib/criticalCss.ts'
+import { extractCriticalCss, inlineGlossaryCriticalCss, withoutFontFaces } from '../src/lib/criticalCss.ts'
 
 const css = `
 @font-face{font-family:AmiriLocal;src:url(/fonts/Amiri-Regular.woff2);font-display:swap}
@@ -23,11 +23,15 @@ assert.ok(!critical.includes('.unused'))
 const deferred = withoutFontFaces(css)
 assert.ok(!deferred.includes('@font-face'))
 assert.ok(deferred.includes('.unused'))
-const transformed = inlineAzanCriticalCss(html, css, '/styles/azan/content-hash.css')
+const transformed = inlineGlossaryCriticalCss(html, css, '/styles/azan/content-hash.css')
 assert.ok(transformed.includes('data-critical-css="glossary-azan"'))
 assert.ok(transformed.includes('media="print"'))
 assert.ok(transformed.includes('<noscript><link rel="stylesheet" href="/styles/azan/content-hash.css"></noscript>'))
 assert.ok(!transformed.includes('/_astro/Base.hash.css'))
-assert.equal(inlineAzanCriticalCss(html.replace('</head>', '<link rel="stylesheet" href="/other.css"></head>'), css, '/styles/azan/rest.css'), html.replace('</head>', '<link rel="stylesheet" href="/other.css"></head>'))
-assert.equal(inlineAzanCriticalCss(html, '.card{color:red}', '/styles/azan/rest.css'), html, 'no subset benefit retains normal stylesheet')
+assert.equal(inlineGlossaryCriticalCss(html.replace('</head>', '<link rel="stylesheet" href="/other.css"></head>'), css, '/styles/azan/rest.css'), html.replace('</head>', '<link rel="stylesheet" href="/other.css"></head>'))
+assert.equal(inlineGlossaryCriticalCss(html, '.card{color:red}', '/styles/azan/rest.css'), html, 'no subset benefit retains normal stylesheet')
+const azab = inlineGlossaryCriticalCss(html, css, '/styles/azan/content-hash.css', false, 'glossary-azab-al-kabr')
+assert.ok(azab.includes('data-critical-css="glossary-azab-al-kabr"'))
+assert.ok(azab.includes('data-deferred-css="glossary-azab-al-kabr"'))
+assert.equal(inlineGlossaryCriticalCss(html, css, '/styles/azan/rest.css', false, 'bad"scope'), html)
 console.log('PASS: selector alternatives/negation, escaped SVG classes, media, font owner, noscript, safe fallback')

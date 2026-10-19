@@ -62,8 +62,9 @@ export function withoutFontFaces(css: string): string {
   return root.toString()
 }
 
-/** Trial is deliberately limited to one article; other pages keep their stylesheet. */
-export function inlineAzanCriticalCss(html: string, css: string, deferredHref: string, dev = false): string {
+/** Callers limit the trial to individually verified articles. */
+export function inlineGlossaryCriticalCss(html: string, css: string, deferredHref: string, dev = false, scope = 'glossary-azan'): string {
+  if (!/^[a-z0-9-]+$/.test(scope)) return html
   const devStyle = dev
     ? html.match(/<style\b[^>]*data-vite-dev-id="[^"]*[/\\]styles[/\\]tailwind\.css"[^>]*>[\s\S]*?<\/style>/i)
     : null
@@ -81,7 +82,7 @@ export function inlineAzanCriticalCss(html: string, css: string, deferredHref: s
   if (!critical || critical.length > css.length * 0.8) return html
   const escaped = critical.replace(/<\/style/gi, '<\\/style')
   const link = `<link rel="stylesheet" href="${href}">`
-  const deferred = link.replace(/>$/, ' media="print" onload="this.media=\'all\';this.onload=null" data-deferred-css="glossary-azan">')
+  const deferred = link.replace(/>$/, ` media="print" onload="this.media='all';this.onload=null" data-deferred-css="${scope}">`)
   return html.replace(original,
-    `<style data-critical-css="glossary-azan">${escaped}</style>${deferred}<noscript>${link}</noscript>`)
+    `<style data-critical-css="${scope}">${escaped}</style>${deferred}<noscript>${link}</noscript>`)
 }
