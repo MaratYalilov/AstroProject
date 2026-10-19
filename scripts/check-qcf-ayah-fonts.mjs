@@ -33,18 +33,20 @@ try {
   const mappingBytes = await readFile(new URL('../src/data/quran-qcf-v2.json', import.meta.url));
   const mapping = JSON.parse(mappingBytes);
   assert.equal(manifest.format, 'hutba-qcf-v2-ayah-subsets-v1');
-  assert.equal(manifest.mappingSha256, hash(mappingBytes), 'Regenerate subsets after changing the QCF map');
+  // Git converts CRLF on Windows to LF on Linux. Validate every meaningful map
+  // field below instead of hashing its JSON formatting. Keep font bytes strict.
   assert.equal(Object.keys(mapping).length, 6236);
+  assert.deepEqual(Object.keys(manifest.files).sort(), Object.keys(mapping).sort(), 'Ayah references changed; regenerate subsets');
   let bytes = 0;
   for (const [reference, entry] of Object.entries(mapping)) {
     const file = `${reference.replace(':', '-')}.woff2`;
     const record = manifest.files[reference];
     assert.ok(record, `${reference}: missing manifest entry`);
     assert.equal(record.file, file, reference);
-    assert.equal(record.page, entry.page, reference);
+    assert.equal(record.page, entry.page, `${reference}: QCF page changed; regenerate subsets`);
     assert.equal(record.validated, true, reference);
     assert.equal(record.sourceSha256, manifest.sources[String(entry.page)]?.sha256, reference);
-    assert.equal(record.codesSha256, hash(Buffer.from(entry.code_v2)), reference);
+    assert.equal(record.codesSha256, hash(Buffer.from(entry.code_v2)), `${reference}: QCF codes changed; regenerate subsets`);
     const payload = await readFile(join(root, file));
     assert.equal(payload.toString('ascii', 0, 4), 'wOF2', file);
     assert.equal(payload.readUInt32BE(8), payload.length, file);
