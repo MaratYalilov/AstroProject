@@ -1,9 +1,14 @@
 ---
-import "../styles/tailwind.css"; 
+import "../styles/tailwind.css";
+import qcfFontLoaderSource from "../utils/qcfFontLoader.js?raw";
 import NavBar from "@/components/NavBar";
 import GlossaryOverlay from "@/components/glossary/GlossaryOverlay";
 import ScrollToTop from "../components/ScrollToTop";
 import OpenGraphImage from "../components/OpenGraphImage.astro";
+
+// One self-contained implementation for both early HTML and module callers.
+const qcfFontBootstrap = `(() => {${qcfFontLoaderSource.replace('export function initQcfFonts', 'function initQcfFonts')}
+initQcfFonts();})();`;
 
 interface Props {
   title?: string;
@@ -38,14 +43,14 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
       })();
     </script>
 
+    <script is:inline data-qcf-bootstrap set:html={qcfFontBootstrap} />
+
     <!-- Диаграммы Mermaid: клик по схеме открывает попап с зумом -->
     <script>
       import { initMermaidModal } from "../utils/mermaidModal";
-      import { initQcfFonts } from "../utils/qcfFonts";
       import { initQuranWaslHints } from "../utils/quranWaslHints";
 
       initMermaidModal();
-      initQcfFonts();
       initQuranWaslHints();
     </script>
 

@@ -4,14 +4,15 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/download-qcf-woff2.mjs --check",
+    "prebuild": "node scripts/download-qcf-woff2.mjs --check && node scripts/check-qcf-ayah-fonts.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "test:lesson-preview": "node scripts/test-lesson-preview.mjs",
     "test:study-progress": "node scripts/test-study-progress.mjs",
     "fonts:download": "node scripts/download-qcf-woff2.mjs",
-    "fonts:check": "node scripts/download-qcf-woff2.mjs --check",
+    "fonts:check": "node scripts/download-qcf-woff2.mjs --check && node scripts/check-qcf-ayah-fonts.mjs",
+    "fonts:check-ayahs": "node scripts/check-qcf-ayah-fonts.mjs",
     "test:qcf": "node scripts/test-qcf-rendering.mjs"
   },
   "dependencies": {

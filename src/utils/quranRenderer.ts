@@ -68,7 +68,7 @@ function escapeHtml(str: string): string {
 }
 
 // Unicode остаётся доступен без JavaScript и при ошибке загрузки шрифта.
-// QCF показывается только после загрузки шрифта конкретной страницы.
+// QCF показывается только после загрузки шрифта аята (V2) или страницы (V4).
 type QuranRenderOptions = { tajweed?: boolean };
 
 function renderWaslToggle(hasHints: boolean): string {
@@ -78,11 +78,11 @@ function renderWaslToggle(hasHints: boolean): string {
   return `<button type="button" class="quran-ayah-block__wasl-toggle" data-quran-wasl-toggle aria-haspopup="dialog" aria-expanded="false" aria-controls="quran-wasl-menu" aria-label="Подсказки хамзы васль: в начале и после остановок" title="Подсказки хамзы васль: в начале и после остановок">${icon}</button>`;
 }
 
-function renderQcfText(page: number, codes: string, arabic: string, tajweed = false, allowEmptyFallback = false): string {
+function renderQcfText(page: number, codes: string, arabic: string, surah: number, ayah: number, tajweed = false, allowEmptyFallback = false): string {
   // A split fragment may contain only the ayah-number glyph; its fallback is empty.
   if (!arabic && !allowEmptyFallback) throw new Error(`Missing Unicode fallback for QCF page ${page}`);
   // V4 uses the same code_v2/page map, but must never inherit a V2 font or readiness rule.
-  const variant = tajweed ? ' data-qcf-variant="tajweed"' : '';
+  const variant = tajweed ? ' data-qcf-variant="tajweed"' : ` data-qcf-ayah="${surah}-${ayah}"`;
   const pageClass = tajweed ? `qcf-tajweed-page-${page}` : `qcf-page-${page}`;
   return `<span class="qcf-text" data-qcf-page="${page}"${variant} lang="ar" dir="rtl"><span class="qcf-fallback" aria-hidden="true">${escapeHtml(arabic)}</span><span class="qcf-glyphs ${pageClass}" aria-hidden="true">${escapeHtml(codes)}</span><span class="sr-only">${escapeHtml(arabic)}</span></span>`;
 }
@@ -92,12 +92,12 @@ function renderQcfText(page: number, codes: string, arabic: string, tajweed = fa
 function renderQcfAyah(surah: number, ayah: number, page: number, codes: string, arabic: string, tajweed = false): string {
   if (!arabic) throw new Error(`Missing Unicode fallback for ${surah}:${ayah}`);
   const entries = tajweed ? hamzaWaslMap.get(makeKey(surah, ayah)) : undefined;
-  if (!entries?.length) return renderQcfText(page, codes, arabic, tajweed);
+  if (!entries?.length) return renderQcfText(page, codes, arabic, surah, ayah, tajweed);
   const parts: string[] = [];
   let codeOffset = 0;
   let arabicOffset = 0;
   const append = (codePart: string, arabicPart: string) => {
-    if (codePart || arabicPart) parts.push(renderQcfText(page, codePart, arabicPart, true, true));
+    if (codePart || arabicPart) parts.push(renderQcfText(page, codePart, arabicPart, surah, ayah, true, true));
   };
   for (const { word_number, reading, is_start } of entries) {
     const reference = `${surah}:${ayah}:${word_number}`;
@@ -108,7 +108,7 @@ function renderQcfAyah(surah: number, ayah: number, page: number, codes: string,
     append(codes.slice(codeOffset, position.start), arabic.slice(arabicOffset, position.unicodeStart));
     const scope = is_start ? "basic" : "all";
     const hint = `<span class="quran-ayah-block__wasl-hint arab" data-hamza-wasl="${surah}:${ayah}" data-word-number="${word_number}" data-wasl-scope="${scope}" lang="ar" dir="rtl" aria-hidden="true">${escapeHtml(reading)}</span>`;
-    const original = renderQcfText(page, codes.slice(position.start, position.end), arabic.slice(position.unicodeStart, position.unicodeEnd), true);
+    const original = renderQcfText(page, codes.slice(position.start, position.end), arabic.slice(position.unicodeStart, position.unicodeEnd), surah, ayah, true);
     parts.push(`<span class="qcf-wasl-pair">${hint}${original}</span>`);
     codeOffset = position.end;
     arabicOffset = position.unicodeEnd;
@@ -157,7 +157,7 @@ export function renderSajdahSymbol(): string {
   // В этой записи перед номером аята расположен самостоятельный знак суджуда.
   const glyph = Array.from(code_v2.replace(/\s/gu, "")).at(-2);
   if (!glyph) throw new Error("Missing QCF sajdah symbol in 84:21");
-  return `<span class="arab qcf-text qcf-sajdah-symbol" data-qcf-page="${page}" role="img" aria-label="Знак суджуда"><span class="qcf-glyphs qcf-page-${page}" aria-hidden="true">${escapeHtml(glyph)}</span></span>`;
+  return `<span class="arab qcf-text qcf-sajdah-symbol" data-qcf-page="${page}" data-qcf-ayah="84-21" role="img" aria-label="Знак суджуда"><span class="qcf-glyphs qcf-page-${page}" aria-hidden="true">${escapeHtml(glyph)}</span></span>`;
 }
 
 export function getAyahText(
@@ -366,43 +366,18 @@ export function renderAyahRangeBlock(
     });
   }
 
-  // Группируем подряд идущие аяты по одной странице
-  type Group = { page: number; ayahs: number[]; codes: string[]; arabic: string[] };
-  const groups: Group[] = [];
-  let currentGroup: Group | null = null;
-
-  for (const item of perAyah) {
-    if (currentGroup === null) {
-      currentGroup = { page: item.page, ayahs: [item.ayah], codes: [item.codeV2], arabic: [item.arabic] };
-    } else if (item.page === currentGroup.page) {
-      currentGroup.ayahs.push(item.ayah);
-      currentGroup.codes.push(item.codeV2);
-      currentGroup.arabic.push(item.arabic);
-    } else {
-      groups.push(currentGroup);
-      currentGroup = { page: item.page, ayahs: [item.ayah], codes: [item.codeV2], arabic: [item.arabic] };
-    }
-  }
-  if (currentGroup !== null) groups.push(currentGroup);
-
-  // Построим единый непрерывный арабский блок: внутри - span'ы по страницам
-  // между группами ставим пробел, чтобы они шли подряд; можно заменить на '' если нужен без пробелов.
+  // Каждый аят сохраняет свой шрифт; страницы нужны только для метаданных блока.
+  const pages = [...new Set(perAyah.map((item) => item.page))];
   const arabicInlineHtml = `
     <p class="quran-ayah-block__arabic qcf-ayah" lang="ar" dir="rtl">
-      ${options.tajweed
-        ? perAyah.map((item) => renderQcfAyah(surah, item.ayah, item.page, item.codeV2, item.arabic, true)).join(" ")
-        : groups
-        .map(
-          (g) => renderQcfText(g.page, g.codes.join(" "), g.arabic.join(" "), options.tajweed),
-        )
-        .join(" ")}
+      ${perAyah.map((item) => renderQcfAyah(surah, item.ayah, item.page, item.codeV2, item.arabic, options.tajweed)).join(" ")}
     </p>
   `.trim();
 
-  // Переводы — все подряд (как раньше)
+  // Переводы - все подряд (как раньше)
   const translationsHtml = perAyah.map((p) => p.translationHtml).join("\n");
 
-  // Аудио — плейлист всех треков по порядку
+  // Аудио - плейлист всех треков по порядку
   const audioTracks = perAyah.map((p) => p.audioSrc);
   const playlistAttr = JSON.stringify(audioTracks);
 
@@ -424,7 +399,7 @@ export function renderAyahRangeBlock(
   data-surah="${surah}"
   data-from="${start}"
   data-to="${end}"
-  data-pages="${groups.map((g) => g.page).join(",")}"
+  data-pages="${pages.join(",")}"
 >
   ${arabicInlineHtml}
 

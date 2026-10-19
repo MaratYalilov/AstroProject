@@ -128,7 +128,7 @@ for (const [reference, entry] of Object.entries(data)) {
   const html = renderer.renderAyahBlock(surah, ayah);
   const { arabic, translation } = renderer.getAyahText(surah, ayah);
   assert.ok(arabic, reference);
-  assert.ok(html.includes(`data-qcf-page="${entry.page}"`), reference);
+  assert.ok(html.includes(`data-qcf-page="${entry.page}" data-qcf-ayah="${surah}-${ayah}"`), reference);
   assert.ok(html.includes(`class="qcf-glyphs qcf-page-${entry.page}" aria-hidden="true">${escape(entry.code_v2)}</span>`), reference);
   assert.ok(html.includes(`class="qcf-fallback" aria-hidden="true">${escape(arabic)}</span>`), reference);
   assert.ok(html.includes(`class="sr-only">${escape(arabic)}</span>`), reference);
@@ -160,10 +160,11 @@ for (const [reference, entry] of Object.entries(data)) {
     assert.equal(glyphParts(tajweed.slice(hintEnd))[0].replace(/\s/gu, ''), waslQcf[position].code, position);
   }
 }
-// A range crossing a Mushaf page boundary must load both page fonts.
+// Every V2 ayah has its own identity, including ranges crossing page boundaries.
 const range = renderer.renderAyahRangeBlock(2, 1, 7);
-assert.deepEqual([...range.matchAll(/data-qcf-page="(\d+)"/g)].map((match) => Number(match[1])), [2, 3]);
+assert.deepEqual([...range.matchAll(/data-qcf-page="(\d+)"/g)].map((match) => Number(match[1])), [2, 2, 2, 2, 2, 3, 3]);
 for (let ayah = 1; ayah <= 7; ayah++) {
+  assert.ok(range.includes(`data-qcf-ayah="2-${ayah}"`));
   assert.ok(range.includes(escape(renderer.getAyahText(2, ayah).arabic)));
   assert.ok(range.includes(`/mp3/002/00200${ayah}.mp3`));
 }
@@ -227,7 +228,7 @@ assert.ok(!/@font-face\s*\{/u.test(qcfCss), 'static QCF CSS must not start a sec
 assert.match(qcfCss, /\.qcf-glyphs\s*\{\s*display:\s*none/u, 'unready QCF codes stay hidden');
 const { initQcfFonts } = await loadSource('src/utils/qcfFonts.ts');
 class Element {
-  constructor(page, text = 'glyph codes', variant) { this.dataset = { qcfPage: String(page), qcfVariant: variant }; this.text = text; }
+  constructor(page, text = 'glyph codes', variant, ayah = ({1: '1-1', 35: '2-222', 42: '2-255', 604: '114-1'})[page]) { this.dataset = { qcfPage: String(page), qcfVariant: variant, qcfAyah: ayah }; this.text = text; }
   matches() { return true; }
   querySelectorAll() { return []; }
   querySelector() { return { textContent: this.text }; }
@@ -238,7 +239,7 @@ const requests = [];
 const registeredFaces = new Set();
 // CSS-connected faces can disappear when Vite replaces the initial stylesheet.
 // Their abandoned load promises must not control the QCF reveal.
-const abandonedCssFaces = [{ family: 'QCF2001', status: 'loading' }];
+const abandonedCssFaces = [{ family: 'QCFA1-1', status: 'loading' }];
 let cssFaces = abandonedCssFaces;
 let observe;
 let online;
@@ -248,7 +249,7 @@ globalThis.HTMLElement = Element;
 globalThis.MutationObserver = class {
   constructor(callback) { this.callback = callback; }
   observe(target) {
-    assert.equal(target, document.body, 'theme changes are handled by CSS, without an extra observer');
+    assert.equal(target, document.documentElement, 'head startup observes parser-added body and later content');
     observe = this.callback;
   }
 };
@@ -284,13 +285,15 @@ globalThis.document = {
 globalThis.window = { addEventListener: (name, callback) => { if (name === 'online') online = callback; } };
 const flush = () => new Promise((resolve) => setImmediate(resolve));
 initQcfFonts();
-assert.equal(requests.length, 2, 'same-page ayahs share one font request');
+assert.equal(requests.length, 2, 'repeated instances of one ayah share one font request');
+initQcfFonts();
+assert.equal(requests.length, 2, 'later module initialization reuses the inline owner');
 assert.equal(css.length, 0, 'glyphs must not be revealed while fonts are pending');
 assert.equal(registeredFaces.size, 0, 'pending fonts must not be registered for rendering');
-assert.equal(requests[0].face.family, 'QCF2001');
-assert.equal(requests[0].face.source, 'url("/fonts/mushaf-v2-woff2/p1.woff2") format("woff2")');
-assert.equal(requests[1].face.family, 'QCF2035');
-assert.equal(requests[1].face.source, 'url("/fonts/mushaf-v2-woff2/p35.woff2") format("woff2")');
+assert.equal(requests[0].face.family, 'QCFA1-1');
+assert.equal(requests[0].face.source, 'url("/fonts/qcf-ayah-v2/1-1.woff2") format("woff2")');
+assert.equal(requests[1].face.family, 'QCFA2-222');
+assert.equal(requests[1].face.source, 'url("/fonts/qcf-ayah-v2/2-222.woff2") format("woff2")');
 // Reproduce the relevant ordering: fonts start, then the CSS faces are replaced
 // before downloads finish. The independent faces must still complete and reveal.
 cssFaces = [];
@@ -303,8 +306,8 @@ await flush();
 assert.equal(css.length, 1);
 assert.equal(registeredFaces.size, 1);
 assert.equal(abandonedCssFaces[0].status, 'loading', 'an abandoned CSS face does not block QCF');
-assert.ok(css[0].includes('data-qcf-page="1"'));
-assert.ok(!css.join('').includes('data-qcf-page="35"'), 'a failed page keeps Unicode visible');
+assert.ok(css[0].includes('data-qcf-ayah="1-1"'));
+assert.ok(!css.join('').includes('data-qcf-ayah="2-222"'), 'a failed page keeps Unicode visible');
 online();
 assert.equal(requests.length, 3, 'reconnect retries failures without reloading ready fonts');
 requests[2].resolve('unloaded');
@@ -317,29 +320,52 @@ observe([{ addedNodes: [dynamic] }]);
 assert.equal(requests.length, 4, 'client-rendered verses trigger their own font load');
 requests[3].resolve();
 await flush();
-assert.ok(css[1].includes('data-qcf-page="604"'));
+assert.ok(css[1].includes('data-qcf-ayah="114-1"'));
 online();
 requests[4].resolve();
 await flush();
-assert.ok(css[2].includes('data-qcf-page="35"'));
+assert.ok(css[2].includes('data-qcf-ayah="2-222"'));
 assert.equal(registeredFaces.size, 3);
 // Another stylesheet update must not remove already loaded, script-owned faces
-// or cause duplicate downloads for new verses on a ready page.
-cssFaces = [{ family: 'QCF2001', status: 'unloaded' }];
+// or cause duplicate downloads for new copies of a ready ayah.
+cssFaces = [{ family: 'QCFA1-1', status: 'unloaded' }];
 const samePage = new Element(1);
 elements.push(samePage);
 observe([{ addedNodes: [samePage] }]);
 assert.equal(requests.length, 5);
-assert.ok([...document.fonts].some((face) => face.family === 'QCF2001' && face.status === 'loaded'));
+assert.ok([...document.fonts].some((face) => face.family === 'QCFA1-1' && face.status === 'loaded'));
+
+// Another ayah on the SAME Mushaf page must not inherit the ready subset.
+const neighbor = new Element(1, 'other codes', undefined, '1-2');
+elements.push(neighbor);
+observe([{ addedNodes: [neighbor] }]);
+assert.equal(requests.length, 6);
+assert.equal(requests[5].face.family, 'QCFA1-2');
+assert.equal(requests[5].face.source, 'url("/fonts/qcf-ayah-v2/1-2.woff2") format("woff2")');
+assert.ok(!css.join('').includes('data-qcf-ayah="1-2"'));
+requests[5].resolve();
+await flush();
+assert.ok(css[3].includes('data-qcf-ayah="1-2"'));
+assert.ok(!css[3].includes('data-qcf-ayah="1-1"'));
+for (const reference of [undefined, '', '../p1', '1-1"]', '115-1', '1-287']) {
+  const invalid = new Element(1);
+  invalid.dataset.qcfAyah = reference;
+  observe([{ addedNodes: [invalid] }]);
+}
+assert.equal(requests.length, 6, 'missing or unsafe ayah identities cannot request/reveal a font');
+const sajdah = renderer.renderSajdahSymbol();
+assert.ok(sajdah.includes('data-qcf-ayah="84-21"'));
+assert.ok(sajdah.includes(escape(Array.from(data['84:21'].code_v2.replace(/\s/gu, '')).at(-2))));
 
 // V2 and V4 on the same page must have independent readiness and retry state.
 elements.splice(0, elements.length, new Element(42), new Element(42, 'codes', 'tajweed'), new Element(42, 'codes', 'tajweed'));
 requests.length = 0;
 css.length = 0;
 registeredFaces.clear();
+delete window.__hutbaQcfFontsInitialized;
 initQcfFonts();
 assert.equal(requests.length, 2);
-assert.equal(requests[0].face.family, 'QCF2042');
+assert.equal(requests[0].face.family, 'QCFA2-255');
 assert.equal(requests[1].face.family, 'QCFT42');
 assert.equal(requests[1].face.source, 'url("/fonts/mushaf-v4-woff2/colrv1/p42.woff2") format("woff2")');
 requests[0].resolve();
@@ -375,6 +401,7 @@ elements.splice(0, elements.length, new Element(42, 'codes', 'tajweed'), new Ele
 requests.length = 0;
 css.length = 0;
 registeredFaces.clear();
+delete window.__hutbaQcfFontsInitialized;
 initQcfFonts();
 assert.equal(requests.length, 1);
 assert.equal(requests[0].face.family, 'QCFT42');
@@ -403,5 +430,48 @@ dark = true;
 online();
 assert.equal(requests.length, 2, 'ready COLRv1 face is reused in both Firefox themes');
 assert.ok(requests.every(({face})=>!face.source.includes('ot-svg')));
+
+// The inline head script runs before <body> exists and before all HTML arrives.
+elements.length = 0;
+requests.length = 0;
+css.length = 0;
+registeredFaces.clear();
+delete window.__hutbaQcfFontsInitialized;
+const previousBody = document.body;
+document.body = null;
+const nearViewport = new Set();
+let intersect;
+let intersectionOwner;
+globalThis.IntersectionObserver = class {
+  constructor(callback, options) {
+    assert.equal(options.rootMargin, '100% 0px');
+    intersect = callback;
+    intersectionOwner = this;
+  }
+  observe(element) { nearViewport.add(element); }
+  unobserve(element) { nearViewport.delete(element); }
+};
+initQcfFonts();
+assert.equal(requests.length, 0);
+const partial = new Element(1, '', undefined, '1-3');
+elements.push(partial);
+observe([{ addedNodes: [partial] }]);
+assert.equal(nearViewport.size, 0, 'an empty streamed wrapper is not marked complete');
+partial.text = data['1:3'].code_v2;
+observe([{ addedNodes: [{ parentElement: { closest: () => partial } }] }]);
+assert.ok(nearViewport.has(partial), 'late glyph text completes the streamed wrapper');
+assert.equal(requests.length, 0, 'offscreen fonts wait for intersection');
+intersect([{ target: partial, isIntersecting: false }], intersectionOwner);
+assert.equal(requests.length, 0);
+intersect([{ target: partial, isIntersecting: true }], intersectionOwner);
+assert.equal(requests.length, 1);
+assert.equal(requests[0].face.family, 'QCFA1-3');
+requests[0].resolve();
+await flush();
+assert.ok(css[0].includes('data-qcf-ayah="1-3"'));
+initQcfFonts();
+assert.equal(requests.length, 1, 'a module call after head initialization adds no second owner');
+document.body = previousBody;
+delete globalThis.IntersectionObserver;
 console.warn = warn;
 console.log(`Passed: ${Object.keys(data).length} ayahs in V2/V4, ${waslEntries.length} basic / ${waslAll.length} full-mode wasl hints only in -T tags/ranges, verified Unicode/QCF boundaries, preserved source text, independent font readiness, retries and dynamic verses. No build.`);
