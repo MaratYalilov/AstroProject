@@ -473,7 +473,7 @@ export default function MatnBlock({ group, from, to, comments }: Props) {
                                   [&_h2]:text-lesson-heading
                                   [&_h3]:text-lesson-subheading
                                   [&_p]:text-lesson-text
-                                  [&_strong]:font-semibold [&_strong]:text-lesson-heading
+                                  [&_strong]:font-normal [&_b]:font-normal [&_strong]:text-lesson-heading
                                   [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:text-lesson-text
                                   [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:text-lesson-text
                                   [&_li]:pl-1 [&_li]:marker:text-cyan-600 dark:[&_li]:marker:text-cyan-300

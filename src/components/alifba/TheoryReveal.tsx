@@ -30,7 +30,7 @@ function TheoryContent({
         [&_h2]:text-lesson-heading
         [&_h3]:text-lesson-subheading
         [&_p]:text-lesson-text
-        [&_strong]:font-semibold [&_strong]:text-lesson-heading
+        [&_strong]:font-normal [&_b]:font-normal [&_strong]:text-lesson-heading
         [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:text-lesson-text
         [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:text-lesson-text
         [&_li]:pl-1 [&_li]:marker:text-cyan-600 dark:[&_li]:marker:text-cyan-300
@@ -157,7 +157,7 @@ export default function TheoryReveal({
             : title || "Теория урока"}
         </div>
 
-        {/* без backdrop-blur: статья — вся высота теории, размытие подложки
+        {/* без backdrop-blur: статья - вся высота теории, размытие подложки
             такой площади слишком дорого для GPU */}
         <article className="lesson-theory-body rounded-2xl border border-slate-200/80 bg-white px-4 py-6 shadow-sm shadow-slate-200/60 dark:border-white/10 dark:bg-slate-950/35 dark:shadow-none sm:px-8 sm:py-8">
           {isLoading && (

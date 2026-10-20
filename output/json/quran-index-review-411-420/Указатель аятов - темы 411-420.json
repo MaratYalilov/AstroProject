@@ -1,0 +1,1621 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_source_id": "site-quran",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева.",
+    "tafsir_interpretation": "Толкование выражения по указанному тафсиру; альтернативные толкования отмечены.",
+    "context": "Связь установлена по конкретному указанному контексту; соседство само по себе не подтверждает связь.",
+    "tafsir_person_association": "Именная связь приведена в указанном тафсире; сама запись не является самостоятельным подтверждением достоверности иснада.",
+    "sahih_hadith_thematic": "Тематическая связь подтверждена конкретным достоверным хадисом; отличается от прямого содержания аята."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "c127c5bca1df7239fc541d44dd6339362c0336bfd08fe2404004e0e697f5ec78",
+          "previous_sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно.",
+      "approved_local_corrections": [
+        {
+          "verse_key": "35:25",
+          "date": "2026-10-17",
+          "original_start": "Если они не сочли тебя лжецом",
+          "corrected_start": "Если они сочли тебя лжецом",
+          "note": "По поручению владельца удалена лишняя частица «не». В арабском начале وَإِن يُكَذِّبُوكَ отрицания нет; тот же оборот начинает 35:4. Тафсир ас-Саади подтверждает смысл «если сочтут тебя лжецом». Ошибочная формулировка встречается также в опубликованных копиях перевода Кулиева; это локальная редакционная правка, а не заявленное авторское исправление.",
+          "sources": [
+            "https://quran.ksu.edu.sa/tafseer/saadi/sura35-aya25.html",
+            "https://quran.ksu.edu.sa/tafseer/saadi/sura35-aya4.html",
+            "https://ru.quranacademy.org/feedback/detail/517/"
+          ],
+          "previous_file_sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        }
+      ]
+    },
+    "muslim-2413a": {
+      "title": "Сахих Муслим, 2413a",
+      "url": "https://sunnah.com/muslim:2413a",
+      "type": "hadith",
+      "locator": "2413a",
+      "hadith_grade": "сахих; сборник «Сахих»",
+      "role": "interpretation_evidence"
+    },
+    "ksu-katheer-18-28": {
+      "title": "Ибн Касир, толкование 18:28",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura18-aya28.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 18,
+        "aya": 28,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-62": {
+      "title": "Ибн Касир, толкование 2:62",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya62.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 62,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-280": {
+      "title": "Ас-Саади, толкование 2:280",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya280.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 280,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-58-13": {
+      "title": "Ас-Саади, толкование 58:13",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura58-aya13.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 58,
+        "aya": 13,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "muslim-1748b": {
+      "title": "Сахих Муслим, 1748b",
+      "url": "https://sunnah.com/muslim:1748b",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "1748b",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "muslim-1748c": {
+      "title": "Сахих Муслим, 1748c",
+      "url": "https://sunnah.com/muslim:1748c",
+      "type": "hadith",
+      "role": "interpretation_evidence",
+      "locator": "1748c",
+      "hadith_grade": "сахих; сборник «Сахих»"
+    },
+    "ksu-tabary-31-14": {
+      "title": "Ат-Табари, толкование 31:14",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura31-aya14.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/tabary.sqlite",
+        "sha256": "77d435ac60c3bfad94f8f60c3473394e6362ff3f6478fcffda706767330061ee",
+        "table": "tabary",
+        "sura": 31,
+        "aya": 14,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-273": {
+      "title": "Ас-Саади, толкование 2:273",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya273.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 273,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-92-19": {
+      "title": "Ас-Саади, толкование 92:19",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura92-aya19.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 92,
+        "aya": 19,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-34-39": {
+      "title": "Ас-Саади, толкование 34:39",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura34-aya39.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 34,
+        "aya": 39,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-94": {
+      "title": "Ас-Саади, толкование 4:94",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya94.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 94,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-17-33": {
+      "title": "Ас-Саади, толкование 17:33",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura17-aya33.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 17,
+        "aya": 33,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-29": {
+      "title": "Ас-Саади, толкование 4:29",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya29.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 29,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0392",
+      "title": "рухсат (испрошение и дача разрешения)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0392-item-002",
+          "description": "Взаимное согласие при торговле",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:29"
+          ],
+          "verse_notes": {
+            "4:29": {
+              "explanation": "Дозволенная торговля противопоставлена незаконному присвоению имущества и обусловлена обоюдным согласием сторон.",
+              "key_phrase": {
+                "text": "по обоюдному вашему согласию",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Это согласие на сделку, а не правило разрешения входить в дом."
+            }
+          }
+        },
+        {
+          "id": "topic-0392-item-003",
+          "description": "Испрашивание разрешения перед входом",
+          "relation_type": "thematic",
+          "verse_keys": [
+            "24:27",
+            "24:58"
+          ],
+          "verse_notes": {
+            "24:27": {
+              "explanation": "Прямо запрещён вход в чужой дом без испрашивания позволения и приветствия хозяев.",
+              "key_phrase": {
+                "text": "пока не спросите позволения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:58": {
+              "explanation": "Детям до половой зрелости и невольникам предписано просить разрешения на вход в покои в три указанных времени.",
+              "key_phrase": {
+                "text": "спрашивают у вас разрешения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0393",
+      "title": "рыба",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0393-item-003",
+          "description": "о рыбе, взятой Мусой в дорогу",
+          "relation_type": "topic",
+          "verse_keys": [
+            "18:61",
+            "18:63"
+          ],
+          "verse_notes": {
+            "18:61": {
+              "explanation": "На пути Мусы и спутника забытая рыба уходит в море.",
+              "key_phrase": {
+                "text": "забыли свою рыбу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "18:60"
+              ]
+            },
+            "18:63": {
+              "explanation": "Спутник Мусы сообщает о забытой у скалы рыбе и её необычном уходе в море.",
+              "key_phrase": {
+                "text": "Я забыл о рыбе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "18:60"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0393-item-004",
+          "description": "употребление в пищу рыбы",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:96",
+            "16:14",
+            "35:12"
+          ],
+          "verse_notes": {
+            "5:96": {
+              "explanation": "Морская добыча и пища прямо разрешены даже в условиях, когда при ихраме запрещена охота на суше.",
+              "key_phrase": {
+                "text": "дозволены морская добыча и еда",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Формулировка о морской добыче шире одного вида рыбы; аят не перечисляет здесь каждый вид морского животного."
+            },
+            "16:14": {
+              "explanation": "Свежее мясо из подчинённого людям моря названо благом для питания.",
+              "key_phrase": {
+                "text": "вкушали из него свежее мясо",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:12": {
+              "explanation": "Пища в виде свежего мяса добывается и из пресной, и из солёной воды.",
+              "key_phrase": {
+                "text": "Из каждого из них вы едите свежее мясо",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0394",
+      "title": "сабии (сабеяне)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0394-item-001",
+          "description": "Прямые упоминания сабиев",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:62",
+            "5:69",
+            "22:17"
+          ],
+          "verse_notes": {
+            "2:62": {
+              "explanation": "Сабии прямо перечислены среди сообществ, а обещанная награда связана с названными условиями веры и праведности.",
+              "key_phrase": {
+                "text": "и сабиям",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-62"
+              ],
+              "qualification": "Ибн Касир перечисляет разные объяснения того, кто такие сабии; одно современное отождествление и полный набор верований не объявляются прямым содержанием аята."
+            },
+            "5:69": {
+              "explanation": "Сабии вновь названы при перечислении условий веры в Аллаха, Последний день и праведного действия.",
+              "key_phrase": {
+                "text": "сабии и христиане",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:17": {
+              "explanation": "Сабии прямо названы среди групп, между которыми Аллах рассудит в День воскресения.",
+              "key_phrase": {
+                "text": "сабиями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0395",
+      "title": "Са'д ибн Аби Ваккас",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0395-item-001",
+          "description": "Подтверждённые именные связи и контекст Саада ибн Аби Ваккаса",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "5:90",
+            "6:52",
+            "8:1",
+            "18:28",
+            "29:8",
+            "31:14",
+            "31:15"
+          ],
+          "verse_notes": {
+            "5:90": {
+              "explanation": "Саад сообщает о ссоре при употреблении вина до запрета и прямо связывает последующее ниспослание с аятом об опьяняющих напитках.",
+              "key_phrase": {
+                "text": "опьяняющие напитки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "muslim-1748c"
+              ]
+            },
+            "6:52": {
+              "explanation": "Саад прямо сообщает в Сахих Муслим, что был среди шести верующих, которых многобожники требовали отдалить и о которых ниспослан аят.",
+              "key_phrase": {
+                "text": "Не прогоняй тех",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "muslim-2413a"
+              ],
+              "qualification": "Имя Саада установлено достоверным сообщением, а не названо в самом аяте."
+            },
+            "8:1": {
+              "explanation": "Саад связывает ниспослание аята со своей просьбой о мече из добычи; эпизод прямо приведён у Муслима.",
+              "key_phrase": {
+                "text": "Они спрашивают тебя о трофеях",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "muslim-1748b"
+              ]
+            },
+            "18:28": {
+              "explanation": "Ибн Касир при объяснении этого аята приводит достоверный рассказ Саада о 6:52 как смысловую параллель: не отдалять искренних верующих ради знати.",
+              "key_phrase": {
+                "text": "Будь же терпелив вместе с теми",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-18-28",
+                "muslim-2413a"
+              ],
+              "context_verse_keys": [
+                "6:52"
+              ],
+              "qualification": "Достоверный хадис прямо называет 6:52, а не отдельный повод ниспослания 18:28; здесь сохранена именно связь через объяснение тафсира."
+            },
+            "29:8": {
+              "explanation": "В сообщении Саада у Муслима рассказано давление матери с целью отказа от веры и процитирована заповедь добра без послушания в многобожии.",
+              "key_phrase": {
+                "text": "не повинуйся им",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "muslim-1748c"
+              ]
+            },
+            "31:14": {
+              "explanation": "Заповедь добра и благодарности родителям предваряет 31:15. Ат-Табари приводит под 31:14 рассказ Саада и матери, а Муслим прямо цитирует запрет послушания в многобожии и доброе общение.",
+              "key_phrase": {
+                "text": "делать добро его родителям",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "hadith_and_tafsir",
+              "source_ids": [
+                "site-quran",
+                "ksu-tabary-31-14",
+                "muslim-1748c"
+              ],
+              "context_verse_keys": [
+                "31:15"
+              ],
+              "qualification": "Связь 31:14 учитывает контекст и размещение сообщения в тафсире; это не отдельное утверждение, будто в хадисе дословно процитированы все предложения 31:14."
+            },
+            "31:15": {
+              "explanation": "То же достоверное сообщение цитирует повеление сохранять доброе земное общение с матерью, несмотря на её давление против веры.",
+              "key_phrase": {
+                "text": "сопровождай их в этом мире по-доброму",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "sahih_hadith",
+              "source_ids": [
+                "site-quran",
+                "muslim-1748c"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0396",
+      "title": "садака (милостыня)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0396-item-001",
+          "description": "Скромность и сдержанность нуждающихся",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:273"
+          ],
+          "verse_notes": {
+            "2:273": {
+              "explanation": "Нуждающиеся из-за скромности кажутся обеспеченными и не выпрашивают помощь настойчиво; именно их велено замечать при раздаче.",
+              "key_phrase": {
+                "text": "не выпрашивают у людей милостыню настойчиво",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-2-273"
+              ],
+              "qualification": "Ас-Саади допускает возникшую по нужде просьбу, различая её с назойливостью; из аята не выводится запрет всякого обращения за помощью."
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-002",
+          "description": "Награда за искреннюю милостыню и условия её сохранения",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:261",
+            "2:262",
+            "2:264",
+            "2:265",
+            "2:272",
+            "4:114",
+            "9:98",
+            "9:99",
+            "76:9",
+            "92:18",
+            "92:19",
+            "92:20",
+            "92:21"
+          ],
+          "verse_notes": {
+            "2:261": {
+              "explanation": "Расходы на пути Аллаха умножаются как урожай из зерна.",
+              "key_phrase": {
+                "text": "Аллах увеличивает награду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:262": {
+              "explanation": "Награда обещана расходующим без последующих попрёков и оскорблений.",
+              "key_phrase": {
+                "text": "уготована награда у их Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:264": {
+              "explanation": "Попрёки, обиды и показуха делают подаяние тщетным, раскрывая условия сохранения награды.",
+              "key_phrase": {
+                "text": "Не делайте ваши подаяния тщетными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:265": {
+              "explanation": "Искренние расходы ради довольства Аллаха уподоблены плодородному саду.",
+              "key_phrase": {
+                "text": "снискать довольство Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:272": {
+              "explanation": "Благо расходующего ради Лика Аллаха будет воздано ему сполна.",
+              "key_phrase": {
+                "text": "воздастся сполна",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:114": {
+              "explanation": "За побуждение к милостыне и другому добру ради довольства Аллаха обещана великая награда.",
+              "key_phrase": {
+                "text": "Мы даруем великую награду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "9:98": {
+              "explanation": "В противоположность искренним жертвующим описаны считающие пожертвование убытком и желающие другим бедствия; это осуждённый пример, а не обещание им награды.",
+              "key_phrase": {
+                "text": "считают свои пожертвования убытком",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "9:99"
+              ]
+            },
+            "9:99": {
+              "explanation": "Расходы верующих бедуинов признаны действительным средством приближения к Аллаху.",
+              "key_phrase": {
+                "text": "действительно являются средством приближения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "76:9": {
+              "explanation": "Бескорыстные кормящие ищут лишь довольства Аллаха; обещанная им награда раскрывается в 76:11-12.",
+              "key_phrase": {
+                "text": "не хотим от вас ни награды",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "76:11",
+                "76:12"
+              ]
+            },
+            "92:18": {
+              "explanation": "Расходование имущества ради очищения вводит описание богобоязненного получателя награды.",
+              "key_phrase": {
+                "text": "раздает свое имущество",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "92:19": {
+              "explanation": "Возмещение прежних милостей людей связано в отрывке с дальнейшим чистым намерением дающего и его будущим довольством.",
+              "key_phrase": {
+                "text": "всякую милость возмещает сполна",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-92-19"
+              ],
+              "context_verse_keys": [
+                "92:18",
+                "92:20",
+                "92:21"
+              ]
+            },
+            "92:20": {
+              "explanation": "Искренность жертвующего выражена стремлением только к Лику Господа.",
+              "key_phrase": {
+                "text": "из стремления к Лику",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "92:21": {
+              "explanation": "Завершением описания искреннего дающего служит обещание его довольства.",
+              "key_phrase": {
+                "text": "непременно будет удовлетворен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "92:18",
+                "92:20"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-003",
+          "description": "Похвала ненастойчивому обращению за помощью",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:273"
+          ],
+          "verse_notes": {
+            "2:273": {
+              "explanation": "Нуждающиеся из-за скромности кажутся обеспеченными и не выпрашивают помощь настойчиво; именно их велено замечать при раздаче.",
+              "key_phrase": {
+                "text": "не выпрашивают у людей милостыню настойчиво",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-2-273"
+              ],
+              "qualification": "Ас-Саади допускает возникшую по нужде просьбу, различая её с назойливостью; из аята не выводится запрет всякого обращения за помощью."
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-004",
+          "description": "недостойное поведение при раздаче садаки",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:262",
+            "2:263",
+            "2:264"
+          ],
+          "verse_notes": {
+            "2:262": {
+              "explanation": "Награда обещана расходующим без последующих попрёков и оскорблений.",
+              "key_phrase": {
+                "text": "уготована награда у их Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:263": {
+              "explanation": "Доброе слово и прощение предпочтительнее подаяния с обидным попрёком.",
+              "key_phrase": {
+                "text": "лучше милостыни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:264": {
+              "explanation": "Попрёки, обиды и показуха делают подаяние тщетным, раскрывая условия сохранения награды.",
+              "key_phrase": {
+                "text": "Не делайте ваши подаяния тщетными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-005",
+          "description": "Претензии лицемеров при раздаче и насмешки над жертвующими",
+          "relation_type": "topic",
+          "verse_keys": [
+            "9:58",
+            "9:79"
+          ],
+          "verse_notes": {
+            "9:58": {
+              "explanation": "Люди из описанной группы лицемеров судят о раздаче по собственной выгоде: довольны полученным и гневаются без него.",
+              "key_phrase": {
+                "text": "обвиняют тебя из-за милостыни",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "9:56"
+              ]
+            },
+            "9:79": {
+              "explanation": "Осуждены насмешки как над добровольными жертвователями, так и над теми, кому трудно найти даже малое.",
+              "key_phrase": {
+                "text": "с трудом находит средства",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-006",
+          "description": "Милостыня перед тайной беседой с Посланником",
+          "relation_type": "topic",
+          "verse_keys": [
+            "58:12",
+            "58:13"
+          ],
+          "verse_notes": {
+            "58:12": {
+              "explanation": "Желающему тайно беседовать с Посланником предписано прежде дать милостыню, с оговоркой о неимеющем средств.",
+              "key_phrase": {
+                "text": "предварите вашу тайную беседу милостыней",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "58:13": {
+              "explanation": "После тяготы предваряющей милостыни объявлено принятие покаяния и предписаны молитва, закят и послушание.",
+              "key_phrase": {
+                "text": "совершайте намаз, выплачивайте закят",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-58-13"
+              ],
+              "context_verse_keys": [
+                "58:12"
+              ],
+              "qualification": "Ас-Саади объясняет облегчение обязанности предваряющей милостыни при сохранении уважения к Посланнику. Этот порядок не выдаётся за постоянную плату за любую беседу."
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-007",
+          "description": "Тайная и явная милостыня, преимущество сокрытия в 2:271",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:271",
+            "2:274",
+            "13:22",
+            "13:24",
+            "14:31",
+            "35:29"
+          ],
+          "verse_notes": {
+            "2:271": {
+              "explanation": "Открытое подаяние названо благим, но сокрытое вручение нуждающимся - ещё лучшим.",
+              "key_phrase": {
+                "text": "это еще лучше для вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:274": {
+              "explanation": "Расходующим ночью и днём, тайно и явно, обещаны награда и отсутствие страха.",
+              "key_phrase": {
+                "text": "тайно и явно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:22": {
+              "explanation": "Тайные и открытые расходы входят в качества праведников наряду с терпением, молитвой и ответом добром.",
+              "key_phrase": {
+                "text": "расходуют тайно и открыто",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:24": {
+              "explanation": "Приветствие миром и награда следуют всему описанию праведников, включая оба вида расходов, а не только тайную милостыню.",
+              "key_phrase": {
+                "text": "Как же прекрасна Последняя обитель",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "13:22",
+                "13:23"
+              ]
+            },
+            "14:31": {
+              "explanation": "Верующим велено расходовать явно и тайно до Дня, когда не будет торга и дружеской помощи.",
+              "key_phrase": {
+                "text": "явно и тайно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:29": {
+              "explanation": "Тайные и явные расходы вместе с молитвой и чтением Писания связаны с беспроигрышной сделкой.",
+              "key_phrase": {
+                "text": "не окажется безуспешной",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-008",
+          "description": "Прощение долга нуждающемуся как милостыня",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:280"
+          ],
+          "verse_notes": {
+            "2:280": {
+              "explanation": "Нуждающемуся должнику велено дать отсрочку; ас-Саади объясняет лучшую милостыню как прощение всего долга либо части.",
+              "key_phrase": {
+                "text": "дать милостыню будет лучше",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-2-280"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-009",
+          "description": "Давать благое, не выбирая дурное для подаяния",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:267"
+          ],
+          "verse_notes": {
+            "2:267": {
+              "explanation": "Велено жертвовать из благ и не выбирать дурное, которое сам принял бы лишь с неудовольствием.",
+              "key_phrase": {
+                "text": "не стремитесь раздать в качестве пожертвования дурное",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-010",
+          "description": "Умножение пожертвований и возмещение расходов",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:268",
+            "2:276",
+            "34:39"
+          ],
+          "verse_notes": {
+            "2:268": {
+              "explanation": "Страх бедности, внушаемый дьяволом, противопоставлен обещанию прощения и милости Аллаха.",
+              "key_phrase": {
+                "text": "обещает вам прощение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:276": {
+              "explanation": "Прямо утверждено приумножение пожертвований, противопоставленное уничтожению лихвы.",
+              "key_phrase": {
+                "text": "приумножает пожертвования",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "34:39": {
+              "explanation": "Аллах обещает возмещение расходов, сохраняя Свою власть увеличивать или ограничивать удел.",
+              "key_phrase": {
+                "text": "Он возместит все",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-34-39"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0396-item-011",
+          "description": "стимулирование раздачи садаки",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:195",
+            "2:254",
+            "2:261",
+            "2:267",
+            "4:39",
+            "8:3",
+            "13:22",
+            "16:75",
+            "16:90",
+            "35:29",
+            "57:7",
+            "57:10",
+            "63:10"
+          ],
+          "verse_notes": {
+            "2:195": {
+              "explanation": "Прямо предписаны расходы на пути Аллаха и творение добра.",
+              "key_phrase": {
+                "text": "Делайте пожертвования",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:254": {
+              "explanation": "Призыв жертвовать предупреждает о наступлении Дня, когда не помогут мирские сделки.",
+              "key_phrase": {
+                "text": "Делайте пожертвования",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:261": {
+              "explanation": "Расходы на пути Аллаха умножаются как урожай из зерна.",
+              "key_phrase": {
+                "text": "Аллах увеличивает награду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:267": {
+              "explanation": "Велено жертвовать из благ и не выбирать дурное, которое сам принял бы лишь с неудовольствием.",
+              "key_phrase": {
+                "text": "не стремитесь раздать в качестве пожертвования дурное",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:39": {
+              "explanation": "Верующим предлагается расходовать из дарованного Аллахом.",
+              "key_phrase": {
+                "text": "станут расходовать",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:3": {
+              "explanation": "Расходование из дарованного названо качеством верующих рядом с молитвой.",
+              "key_phrase": {
+                "text": "расходуют из того",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:22": {
+              "explanation": "Тайные и открытые расходы входят в качества праведников наряду с терпением, молитвой и ответом добром.",
+              "key_phrase": {
+                "text": "расходуют тайно и открыто",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:75": {
+              "explanation": "Способность расходовать тайно и открыто показана положительным образом получателя прекрасного удела в притче.",
+              "key_phrase": {
+                "text": "расходует его тайно и открыто",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:90": {
+              "explanation": "Прямое повеление добра отдельно включает материальную помощь родственникам.",
+              "key_phrase": {
+                "text": "одаривать родственников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:29": {
+              "explanation": "Тайные и явные расходы вместе с молитвой и чтением Писания связаны с беспроигрышной сделкой.",
+              "key_phrase": {
+                "text": "не окажется безуспешной",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "57:7": {
+              "explanation": "Вера и расходы из дарованного в распоряжение связаны с великой наградой.",
+              "key_phrase": {
+                "text": "расходуйте из того",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "57:10": {
+              "explanation": "Укоряется отказ расходовать на пути Аллаха и различаются степени ранних и поздних расходов.",
+              "key_phrase": {
+                "text": "Почему вы не расходуете",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "63:10": {
+              "explanation": "Велено расходовать на добро до смерти, чтобы не просить запоздалую отсрочку.",
+              "key_phrase": {
+                "text": "Расходуйте из того",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0397",
+      "title": "салям",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0397-item-001",
+          "description": "Не объявлять неверующим приветствующего миром",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:94"
+          ],
+          "verse_notes": {
+            "4:94": {
+              "explanation": "В походе предписано удостоверяться и не отвергать приветствующего миром как неверующего ради мирской выгоды.",
+              "key_phrase": {
+                "text": "кто приветствует вас миром",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-4-94"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0397-item-002",
+          "description": "как отвечать на приветствие",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:86",
+            "51:25"
+          ],
+          "verse_notes": {
+            "4:86": {
+              "explanation": "Ответ на приветствие должен быть таким же либо лучшим.",
+              "key_phrase": {
+                "text": "отвечайте еще лучшим приветствием",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:25": {
+              "explanation": "В истории гостей Ибрахима приветствие миром встречено ответным мирным приветствием.",
+              "key_phrase": {
+                "text": "И вам мир",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "51:24"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0397-item-003",
+          "description": "Приветствие в истории Ибрахима и приветствие ангелов праведникам",
+          "relation_type": "topic",
+          "verse_keys": [
+            "15:52",
+            "16:32",
+            "51:25"
+          ],
+          "verse_notes": {
+            "15:52": {
+              "explanation": "Гости Ибрахима начинают встречу мирным приветствием, хотя хозяин ещё опасается их.",
+              "key_phrase": {
+                "text": "сказали: «Мир!»",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:51"
+              ]
+            },
+            "16:32": {
+              "explanation": "Ангелы приветствуют умерщвляемых праведников миром и возвещают Рай.",
+              "key_phrase": {
+                "text": "Мир вам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "51:25": {
+              "explanation": "Встреча незнакомых гостей Ибрахима сопровождается взаимным мирным приветствием.",
+              "key_phrase": {
+                "text": "Мир тебе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "51:24"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0398",
+      "title": "салат",
+      "see_also": [
+        "намаз"
+      ],
+      "items": [],
+      "scope_note": "Отсылочная статья: «салат» отсылает к теме «намаз». Собственных аятов нет; новые связи не создавались."
+    },
+    {
+      "id": "topic-0399",
+      "title": "Салман ал-Фариси",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0399-item-001",
+          "description": "Сообщение о Салмане и его прежних единоверцах в тафсире",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "2:62"
+          ],
+          "verse_notes": {
+            "2:62": {
+              "explanation": "Ибн Касир приводит от Муджахида и ас-Судди рассказы о вопросе Салмана относительно прежних единоверцев, их молитв и поклонения. Это проверяемое присутствие Салмана в толковании данного аята.",
+              "key_phrase": {
+                "text": "уготована награда у их Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_person_association",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-62"
+              ],
+              "qualification": "Сохранена документированная связь с сообщениями тафсира. Она не обозначена как прямое упоминание Салмана в аяте или отдельно удостоверенный здесь достоверный повод ниспослания."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0400",
+      "title": "Самири (в переводе - самаритянин)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0400-item-001",
+          "description": "Самири и поклонение тельцу",
+          "relation_type": "topic",
+          "verse_keys": [
+            "20:85",
+            "20:95",
+            "20:97"
+          ],
+          "verse_notes": {
+            "20:85": {
+              "explanation": "Господь сообщает Мусе, что Самири ввёл оставленный народ в заблуждение.",
+              "key_phrase": {
+                "text": "самаритянин ввел их в заблуждение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:95": {
+              "explanation": "Муса прямо спрашивает Самири о его поступке.",
+              "key_phrase": {
+                "text": "А что ты скажешь, самаритянин",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:97": {
+              "explanation": "Муса объявляет Самири последствия и уничтожение его ложного объекта поклонения.",
+              "key_phrase": {
+                "text": "Смотри же на своего бога",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0401",
+      "title": "самоубийство",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0401-item-001",
+          "description": "Общий запрет неправомерного лишения жизни",
+          "relation_type": "topic",
+          "verse_keys": [
+            "17:33"
+          ],
+          "verse_notes": {
+            "17:33": {
+              "explanation": "Всеохватную охрану жизни ас-Саади объясняет как запрет лишать её любого защищённого человека. Применение к собственной жизни уточняет прямое объяснение 4:29.",
+              "key_phrase": {
+                "text": "Не убивайте душу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-17-33",
+                "ksu-saadi-4-29"
+              ],
+              "context_verse_keys": [
+                "4:29"
+              ],
+              "qualification": "Это общее основание охраны жизни; сам 17:33 не описывает отдельный состав покушения на самоубийство."
+            }
+          }
+        },
+        {
+          "id": "topic-0401-item-002",
+          "description": "о самоубийстве",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:29",
+            "4:30"
+          ],
+          "verse_notes": {
+            "4:29": {
+              "explanation": "Ас-Саади прямо включает в «не убивайте самих себя» как убийство друг друга, так и лишение человеком собственной жизни.",
+              "key_phrase": {
+                "text": "Не убивайте самих себя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-4-29"
+              ]
+            },
+            "4:30": {
+              "explanation": "Предостережение о наказании относится к предшествующим запретам неправомерного имущества и лишения жизни, включая установленный в 4:29 запрет самоубийства.",
+              "key_phrase": {
+                "text": "преступив границы дозволенного",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "4:29"
+              ],
+              "qualification": "Предупреждение не используется для вынесения окончательного приговора конкретному умершему человеку; длительность наказания в этом аяте не названа."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

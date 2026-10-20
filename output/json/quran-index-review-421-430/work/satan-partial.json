@@ -1,0 +1,1950 @@
+{
+  "last_part": "satan_01_story.py",
+  "notes": {
+    "topic-0403-item-007": {
+      "2:34": {
+        "explanation": "Иблис прямо назван отказавшимся поклониться Адаму из гордыни и ставшим неверующим.",
+        "key_phrase": {
+          "text": "Иблис отказался, возгордился",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:11": {
+        "explanation": "Отказ Иблиса противопоставлен исполненному ангелами повелению пасть ниц.",
+        "key_phrase": {
+          "text": "Иблис не был в числе поклонившихся",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:12": {
+        "explanation": "Иблис оправдывает отказ притязанием на превосходство огня над глиной.",
+        "key_phrase": {
+          "text": "Я лучше него",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:13": {
+        "explanation": "За превозношение Иблису велено уйти униженным.",
+        "key_phrase": {
+          "text": "Негоже тебе превозноситься здесь",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:31": {
+        "explanation": "Иблис выделен как отказавшийся исполнить повеление о земном поклоне.",
+        "key_phrase": {
+          "text": "за исключением Иблиса",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:32": {
+        "explanation": "Господь спрашивает Иблиса о его отказе поклониться.",
+        "key_phrase": {
+          "text": "Почему ты не в числе павших ниц",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:33": {
+        "explanation": "Иблис объясняет отказ представлением о недостоинстве человека из глины.",
+        "key_phrase": {
+          "text": "Не подобает мне падать ниц перед человеком",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "17:61": {
+        "explanation": "Иблис отвергает поклон перед созданным из глины Адамом.",
+        "key_phrase": {
+          "text": "только Иблис сказал",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "17:62": {
+        "explanation": "Иблис оспаривает предпочтение Адама и обещает подчинить его потомство, если получит отсрочку.",
+        "key_phrase": {
+          "text": "я покорю его потомство",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "18:50": {
+        "explanation": "Прямо названы неповиновение Иблиса, его принадлежность к джиннам и ошибочность выбора его покровителем.",
+        "key_phrase": {
+          "text": "Он был одним из джиннов",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "20:116": {
+        "explanation": "Повторён рассказ об отказе Иблиса пасть ниц перед Адамом.",
+        "key_phrase": {
+          "text": "только Иблис отказался",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:74": {
+        "explanation": "Иблис назван исключением из поклонившихся, возгордившимся неверующим.",
+        "key_phrase": {
+          "text": "кроме Иблиса, который возгордился",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:75": {
+        "explanation": "Господь прямо спрашивает Иблиса о гордыне и причине неповиновения.",
+        "key_phrase": {
+          "text": "Ты возгордился",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:76": {
+        "explanation": "Иблис утверждает своё превосходство, ссылаясь на огонь и глину.",
+        "key_phrase": {
+          "text": "Я лучше него",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      }
+    },
+    "topic-0403-item-008": {
+      "2:38": {
+        "explanation": "Ибн Касир включает Адама, его супругу и Иблиса в адресатов повеления о низведении. Связь с изгнанием Иблиса сохранена именно по этому толкованию.",
+        "key_phrase": {
+          "text": "Низвергнитесь отсюда все",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "tafsir_interpretation",
+        "source_ids": [
+          "site-quran",
+          "ksu-katheer-2-38"
+        ],
+        "qualification": "Аят сам не называет Иблиса и не повторяет проклятие; его главное продолжение касается будущего руководства людям."
+      },
+      "4:118": {
+        "explanation": "Прямо сказано о проклятии дьявола, упомянутого перед этим, и приведена его угроза увлечь часть рабов.",
+        "key_phrase": {
+          "text": "Аллах проклял его",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "4:117"
+        ]
+      },
+      "7:13": {
+        "explanation": "За превозношение Иблису велено уйти униженным.",
+        "key_phrase": {
+          "text": "Негоже тебе превозноситься здесь",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:14": {
+        "explanation": "Иблис просит отсрочки до воскресения людей; аят прямо передаёт его просьбу.",
+        "key_phrase": {
+          "text": "Предоставь мне отсрочку",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:15": {
+        "explanation": "Ответ об отсрочке обращён к Иблису, чья просьба приведена перед ним.",
+        "key_phrase": {
+          "text": "кому предоставлена отсрочка",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "7:14"
+        ]
+      },
+      "7:18": {
+        "explanation": "Изгнание Иблиса сопровождается предупреждением о Геенне для него и его последователей.",
+        "key_phrase": {
+          "text": "Изыди презренным и отверженным",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:34": {
+        "explanation": "Иблису велено уйти изгнанным; адресат установлен вопросом и ответом в 15:32-33.",
+        "key_phrase": {
+          "text": "Изыди, и отныне ты будешь изгнан",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:32",
+          "15:33"
+        ]
+      },
+      "15:35": {
+        "explanation": "Иблису объявлено проклятие до Дня воздаяния.",
+        "key_phrase": {
+          "text": "проклятие пребудет над тобой",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:34"
+        ]
+      },
+      "15:36": {
+        "explanation": "Иблис просит продлить ему срок до воскресения.",
+        "key_phrase": {
+          "text": "Предоставь мне отсрочку",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:37": {
+        "explanation": "В ответ на просьбу Иблису предоставлена отсрочка.",
+        "key_phrase": {
+          "text": "ты - один из тех, кому предоставлена отсрочка",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:36"
+        ]
+      },
+      "15:38": {
+        "explanation": "Ответ об отсрочке ограничен днём с определённым сроком, а не обещанием бессмертия.",
+        "key_phrase": {
+          "text": "до дня, срок которого определен",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:36",
+          "15:37"
+        ]
+      },
+      "17:63": {
+        "explanation": "Ответ Иблису предупреждает его и последователей о полном воздаянии Геенной.",
+        "key_phrase": {
+          "text": "если кто последует за тобой",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "17:62"
+        ]
+      },
+      "38:77": {
+        "explanation": "В ответ на отказ Иблису объявлено изгнание.",
+        "key_phrase": {
+          "text": "Изыди, и отныне ты будешь изгнан",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:75",
+          "38:76"
+        ]
+      },
+      "38:78": {
+        "explanation": "Объявлено пребывание Иблиса под проклятием до Дня воздаяния.",
+        "key_phrase": {
+          "text": "проклятие Мое пребудет над тобой",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:77"
+        ]
+      },
+      "38:79": {
+        "explanation": "Иблис обращается с просьбой об отсрочке до воскресения людей.",
+        "key_phrase": {
+          "text": "Предоставь мне отсрочку",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:80": {
+        "explanation": "Иблису дан ответ о предоставлении отсрочки.",
+        "key_phrase": {
+          "text": "ты - один из тех, кому предоставлена отсрочка",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:79"
+        ]
+      },
+      "38:81": {
+        "explanation": "Конец отсрочки ограничен определённым Господом сроком.",
+        "key_phrase": {
+          "text": "до дня, срок которого определен",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:79",
+          "38:80"
+        ]
+      }
+    },
+    "topic-0403-item-002": {
+      "19:83": {
+        "explanation": "Дьяволы прямо посылаются к неверующим, чтобы подстрекать их.",
+        "key_phrase": {
+          "text": "послали к неверующим дьяволов",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "43:36": {
+        "explanation": "Отвращение от поминания Милостивого связано с приставлением дьявола-товарища.",
+        "key_phrase": {
+          "text": "он станет его товарищем",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      }
+    },
+    "topic-0403-item-003": {
+      "2:34": {
+        "explanation": "Иблис прямо назван отказавшимся поклониться Адаму из гордыни и ставшим неверующим.",
+        "key_phrase": {
+          "text": "Иблис отказался, возгордился",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:11": {
+        "explanation": "Отказ Иблиса противопоставлен исполненному ангелами повелению пасть ниц.",
+        "key_phrase": {
+          "text": "Иблис не был в числе поклонившихся",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:12": {
+        "explanation": "Иблис оправдывает отказ притязанием на превосходство огня над глиной.",
+        "key_phrase": {
+          "text": "Я лучше него",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:13": {
+        "explanation": "За превозношение Иблису велено уйти униженным.",
+        "key_phrase": {
+          "text": "Негоже тебе превозноситься здесь",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:14": {
+        "explanation": "Иблис просит отсрочки до воскресения людей; аят прямо передаёт его просьбу.",
+        "key_phrase": {
+          "text": "Предоставь мне отсрочку",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:15": {
+        "explanation": "Ответ об отсрочке обращён к Иблису, чья просьба приведена перед ним.",
+        "key_phrase": {
+          "text": "кому предоставлена отсрочка",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "7:14"
+        ]
+      },
+      "7:16": {
+        "explanation": "Иблис объявляет намерение преграждать людям прямой путь.",
+        "key_phrase": {
+          "text": "я непременно засяду против них",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "7:17": {
+        "explanation": "Продолжение обещания Иблиса описывает всесторонние попытки совращения потомков Адама.",
+        "key_phrase": {
+          "text": "буду подходить к ним спереди и сзади",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "7:16"
+        ]
+      },
+      "7:18": {
+        "explanation": "Изгнание Иблиса сопровождается предупреждением о Геенне для него и его последователей.",
+        "key_phrase": {
+          "text": "Изыди презренным и отверженным",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:31": {
+        "explanation": "Иблис выделен как отказавшийся исполнить повеление о земном поклоне.",
+        "key_phrase": {
+          "text": "за исключением Иблиса",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:32": {
+        "explanation": "Господь спрашивает Иблиса о его отказе поклониться.",
+        "key_phrase": {
+          "text": "Почему ты не в числе павших ниц",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:33": {
+        "explanation": "Иблис объясняет отказ представлением о недостоинстве человека из глины.",
+        "key_phrase": {
+          "text": "Не подобает мне падать ниц перед человеком",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:34": {
+        "explanation": "Иблису велено уйти изгнанным; адресат установлен вопросом и ответом в 15:32-33.",
+        "key_phrase": {
+          "text": "Изыди, и отныне ты будешь изгнан",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:32",
+          "15:33"
+        ]
+      },
+      "15:35": {
+        "explanation": "Иблису объявлено проклятие до Дня воздаяния.",
+        "key_phrase": {
+          "text": "проклятие пребудет над тобой",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:34"
+        ]
+      },
+      "15:36": {
+        "explanation": "Иблис просит продлить ему срок до воскресения.",
+        "key_phrase": {
+          "text": "Предоставь мне отсрочку",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:37": {
+        "explanation": "В ответ на просьбу Иблису предоставлена отсрочка.",
+        "key_phrase": {
+          "text": "ты - один из тех, кому предоставлена отсрочка",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:36"
+        ]
+      },
+      "15:38": {
+        "explanation": "Ответ об отсрочке ограничен днём с определённым сроком, а не обещанием бессмертия.",
+        "key_phrase": {
+          "text": "до дня, срок которого определен",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:36",
+          "15:37"
+        ]
+      },
+      "15:39": {
+        "explanation": "Иблис заявляет о намерении приукрашивать людям земное и совращать их.",
+        "key_phrase": {
+          "text": "я приукрашу для них земное",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:40": {
+        "explanation": "Из угрозы совращения Иблис исключает избранных или искренних рабов Аллаха.",
+        "key_phrase": {
+          "text": "кроме Твоих избранных",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:39"
+        ]
+      },
+      "15:41": {
+        "explanation": "Ответ Господа вводит предел власти Иблиса, раскрытый следующим аятом; это не самостоятельное описание его природы.",
+        "key_phrase": {
+          "text": "Это - путь, ведущий прямо ко Мне",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:39",
+          "15:42"
+        ]
+      },
+      "15:42": {
+        "explanation": "Утверждено отсутствие у Иблиса власти над рабами Господа, кроме добровольно следующих ему заблудших.",
+        "key_phrase": {
+          "text": "ты не властен над Моими рабами",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "15:43": {
+        "explanation": "Геенна названа обещанным местом для заблудших последователей Иблиса из 15:42.",
+        "key_phrase": {
+          "text": "место, обещанное всем им",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:42"
+        ]
+      },
+      "15:44": {
+        "explanation": "Устройство Геенны продолжает описание участи последователей Иблиса; местоимение связано с 15:42-43.",
+        "key_phrase": {
+          "text": "для каждых врат предназначена определенная их часть",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "15:42",
+          "15:43"
+        ]
+      },
+      "17:61": {
+        "explanation": "Иблис отвергает поклон перед созданным из глины Адамом.",
+        "key_phrase": {
+          "text": "только Иблис сказал",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "17:62": {
+        "explanation": "Иблис оспаривает предпочтение Адама и обещает подчинить его потомство, если получит отсрочку.",
+        "key_phrase": {
+          "text": "я покорю его потомство",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "17:63": {
+        "explanation": "Ответ Иблису предупреждает его и последователей о полном воздаянии Геенной.",
+        "key_phrase": {
+          "text": "если кто последует за тобой",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "17:62"
+        ]
+      },
+      "17:64": {
+        "explanation": "Перечислены способы совращения, а обещания дьявола названы обольщением.",
+        "key_phrase": {
+          "text": "обещания дьявола - всего лишь обольщение",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "17:65": {
+        "explanation": "Объявлен предел власти Иблиса над рабами Господа, которым достаточно Его попечения.",
+        "key_phrase": {
+          "text": "ты не властен над Моими рабами",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "17:64"
+        ]
+      },
+      "18:50": {
+        "explanation": "Прямо названы неповиновение Иблиса, его принадлежность к джиннам и ошибочность выбора его покровителем.",
+        "key_phrase": {
+          "text": "Он был одним из джиннов",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "20:116": {
+        "explanation": "Повторён рассказ об отказе Иблиса пасть ниц перед Адамом.",
+        "key_phrase": {
+          "text": "только Иблис отказался",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "20:117": {
+        "explanation": "Адам предупреждён о вражде Иблиса к нему и супруге и об опасности утраты Рая.",
+        "key_phrase": {
+          "text": "Это - враг тебе и твоей жене",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "20:116"
+        ]
+      },
+      "20:118": {
+        "explanation": "Отсутствие голода и наготы раскрывает райские блага, которых Адам рискует лишиться, поддавшись врагу; связь с Иблисом здесь контекстная.",
+        "key_phrase": {
+          "text": "ты не будешь голодным и нагим",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "20:117"
+        ]
+      },
+      "20:119": {
+        "explanation": "Отсутствие жажды и зноя продолжает описание благ Рая, об утрате которых из-за врага предупреждает 20:117.",
+        "key_phrase": {
+          "text": "не будешь страдать от жажды и зноя",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "20:117"
+        ]
+      },
+      "20:120": {
+        "explanation": "Дьявол искушает Адама обещанием дерева вечности и непреходящей власти.",
+        "key_phrase": {
+          "text": "дьявол стал нашептывать ему",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "20:121": {
+        "explanation": "Вкушение запретного и обнаружение наготы показывают результат только что описанного наущения дьявола.",
+        "key_phrase": {
+          "text": "Они оба поели с него",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "20:120"
+        ]
+      },
+      "20:122": {
+        "explanation": "Принятие покаяния Адама завершает его проступок после наущения; это восстановление соблазнённого человека, не покаяние самого Иблиса.",
+        "key_phrase": {
+          "text": "принял его покаяние",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "20:120",
+          "20:121"
+        ]
+      },
+      "20:123": {
+        "explanation": "Низведение с взаимной враждой следует за искушением, а следование руководству противопоставлено заблуждению.",
+        "key_phrase": {
+          "text": "одни из вас будут врагами других",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "20:117",
+          "20:120"
+        ]
+      },
+      "38:71": {
+        "explanation": "Создание человека из глины вводит эпизод: именно этим происхождением Иблис позже оправдывает отказ.",
+        "key_phrase": {
+          "text": "Я создам человека из глины",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:76"
+        ]
+      },
+      "38:72": {
+        "explanation": "Повеление поклониться созданному человеку задаёт предмет последующего неповиновения Иблиса.",
+        "key_phrase": {
+          "text": "падите перед ним ниц",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:74"
+        ]
+      },
+      "38:73": {
+        "explanation": "Послушание всех ангелов составляет прямое противопоставление исключению Иблиса в следующем аяте.",
+        "key_phrase": {
+          "text": "Все ангелы без исключения пали ниц",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:74"
+        ]
+      },
+      "38:74": {
+        "explanation": "Иблис назван исключением из поклонившихся, возгордившимся неверующим.",
+        "key_phrase": {
+          "text": "кроме Иблиса, который возгордился",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:75": {
+        "explanation": "Господь прямо спрашивает Иблиса о гордыне и причине неповиновения.",
+        "key_phrase": {
+          "text": "Ты возгордился",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:76": {
+        "explanation": "Иблис утверждает своё превосходство, ссылаясь на огонь и глину.",
+        "key_phrase": {
+          "text": "Я лучше него",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:77": {
+        "explanation": "В ответ на отказ Иблису объявлено изгнание.",
+        "key_phrase": {
+          "text": "Изыди, и отныне ты будешь изгнан",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:75",
+          "38:76"
+        ]
+      },
+      "38:78": {
+        "explanation": "Объявлено пребывание Иблиса под проклятием до Дня воздаяния.",
+        "key_phrase": {
+          "text": "проклятие Мое пребудет над тобой",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:77"
+        ]
+      },
+      "38:79": {
+        "explanation": "Иблис обращается с просьбой об отсрочке до воскресения людей.",
+        "key_phrase": {
+          "text": "Предоставь мне отсрочку",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:80": {
+        "explanation": "Иблису дан ответ о предоставлении отсрочки.",
+        "key_phrase": {
+          "text": "ты - один из тех, кому предоставлена отсрочка",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:79"
+        ]
+      },
+      "38:81": {
+        "explanation": "Конец отсрочки ограничен определённым Господом сроком.",
+        "key_phrase": {
+          "text": "до дня, срок которого определен",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:79",
+          "38:80"
+        ]
+      },
+      "38:82": {
+        "explanation": "Иблис клянётся могуществом Господа и объявляет намерение совратить людей.",
+        "key_phrase": {
+          "text": "Я совращу их всех",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      },
+      "38:83": {
+        "explanation": "Искренние или избранные рабы исключены из угрозы Иблиса.",
+        "key_phrase": {
+          "text": "кроме Твоих избранных",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:82"
+        ]
+      },
+      "38:84": {
+        "explanation": "Утверждение истинности слова Господа вводит неизбежное наказание Иблиса и его последователей в 38:85.",
+        "key_phrase": {
+          "text": "Я говорю только истину",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "passage_context",
+        "source_ids": [
+          "site-quran"
+        ],
+        "context_verse_keys": [
+          "38:85"
+        ]
+      },
+      "38:85": {
+        "explanation": "Иблису и всем следующим за ним прямо обещана Геенна.",
+        "key_phrase": {
+          "text": "Я непременно заполню Геенну тобою",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ]
+      }
+    },
+    "topic-0403-item-004": {},
+    "topic-0403-item-005": {},
+    "topic-0403-item-006": {
+      "18:50": {
+        "explanation": "Принадлежность Иблиса к джиннам прямо утверждена наряду с его неповиновением.",
+        "key_phrase": {
+          "text": "Он был одним из джиннов",
+          "language": "ru",
+          "translation_id": "ru.kuliev"
+        },
+        "basis": "quran_text",
+        "source_ids": [
+          "site-quran"
+        ],
+        "qualification": "Это высказывание об Иблисе, а не утверждение, что все джинны являются дьяволами."
+      }
+    },
+    "topic-0404-item-001": {},
+    "topic-0406-item-001": {},
+    "topic-0406-item-002": {},
+    "topic-0406-item-003": {},
+    "topic-0407-item-001": {},
+    "topic-0408-item-001": {},
+    "topic-0408-item-002": {},
+    "topic-0408-item-010": {},
+    "topic-0408-item-004": {},
+    "topic-0408-item-005": {},
+    "topic-0408-item-006": {},
+    "topic-0408-item-007": {},
+    "topic-0408-item-008": {},
+    "topic-0408-item-009": {},
+    "topic-0409-item-001": {},
+    "topic-0410-item-001": {},
+    "topic-0410-item-004": {},
+    "topic-0410-item-003": {},
+    "topic-0411-item-001": {},
+    "topic-0411-item-002": {}
+  },
+  "decisions": [
+    {
+      "item_id": "topic-0402-item-001",
+      "verse_key": "4:100",
+      "decision": "remove",
+      "reason": "Именная связь с Самурой ибн Джундабом не подтверждена. Ибн Касир и аль-Куртуби приводят разные имена умершего переселенца, в том числе Дамру ибн Джундаба и Джундаба ибн Дамру; их нельзя молча отождествлять с Самурой.",
+      "source_ids": [
+        "site-quran",
+        "ksu-katheer-4-100",
+        "ksu-qortobi-4-100"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "2:34",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "7:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "7:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "7:13",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "7:14",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "7:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "7:16",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "7:17",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "7:18",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:31",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:32",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:33",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:34",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:35",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:36",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:37",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:38",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:39",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:40",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:41",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:42",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:43",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "15:44",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "17:61",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "17:62",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "17:63",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "17:64",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "17:65",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "18:50",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "20:116",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "20:117",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "20:118",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "20:119",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "20:120",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "20:121",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "20:122",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "20:123",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:71",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:72",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:73",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:74",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:75",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:76",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:77",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:78",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:79",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:80",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:81",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:82",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:83",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:84",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-003",
+      "verse_key": "38:85",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "2:34",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "7:11",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "7:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "7:13",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "15:31",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "15:32",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "15:33",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "17:61",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "17:62",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "18:50",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "20:116",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "38:74",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "38:75",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "38:76",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "7:14",
+      "decision": "remove",
+      "reason": "Просьба об отсрочке и ответ на неё не описывают гордыню или отказ поклониться; они сохранены в отдельных подпунктах рассказа и отсрочки.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "verse_key": "7:15",
+      "decision": "remove",
+      "reason": "Просьба об отсрочке и ответ на неё не описывают гордыню или отказ поклониться; они сохранены в отдельных подпунктах рассказа и отсрочки.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "2:38",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-katheer-2-38"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "4:118",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "7:13",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "7:14",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "7:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "7:18",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "15:34",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "15:35",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "15:36",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "15:37",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "15:38",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "17:63",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "38:77",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "38:78",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "38:79",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "38:80",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "verse_key": "38:81",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-002",
+      "verse_key": "19:83",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-002",
+      "verse_key": "43:36",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0403-item-006",
+      "verse_key": "18:50",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "item_id": "topic-0402-item-001",
+      "before": "аяты, связанные с Самурой ибн Джундабом",
+      "after": "Подпункт исключён",
+      "reason": "Единственная именная связь не подтверждена; вместо догадки о похожих именах подпункт исключён."
+    },
+    {
+      "item_id": "topic-0403-item-007",
+      "before": "гордыня Сатаны",
+      "after": "Гордыня и отказ Иблиса поклониться Адаму",
+      "reason": "Отказ и притязание на превосходство отделены от последующей просьбы об отсрочке."
+    },
+    {
+      "item_id": "topic-0403-item-008",
+      "before": "изгнание Сатаны и предание его проклятью до Судного дня",
+      "after": "Изгнание, проклятие и отсрочка Иблиса",
+      "reason": "В исходном списке вместе с проклятием приведены просьба об отсрочке и ответ; их различие отражено в заголовке и примечаниях."
+    },
+    {
+      "item_id": "topic-0403-item-002",
+      "before": "о послании последователей Сатаны на неверных",
+      "after": "Послание дьяволов к отвергающим истину",
+      "reason": "Аяты говорят о дьяволах и приставленном товарище, а не просто о неопределённых последователях Сатаны."
+    },
+    {
+      "item_id": "topic-0403-item-006",
+      "before": "Сатана - один из членов племени джиннов",
+      "after": "Иблис принадлежит к джиннам",
+      "reason": "Аят называет род существ, а не отдельное племя с установленным названием."
+    }
+  ]
+}

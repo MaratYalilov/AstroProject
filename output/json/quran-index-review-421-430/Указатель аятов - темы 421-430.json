@@ -1,0 +1,4153 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_source_id": "site-quran",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева.",
+    "tafsir_interpretation": "Толкование выражения по указанному тафсиру; альтернативные толкования отмечены.",
+    "context": "Связь установлена по конкретному указанному контексту; соседство само по себе не подтверждает связь.",
+    "tafsir_person_association": "Именная связь приведена в указанном тафсире; сама запись не является самостоятельным подтверждением достоверности иснада.",
+    "sahih_hadith_thematic": "Тематическая связь подтверждена конкретным достоверным хадисом; отличается от прямого содержания аята."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "c127c5bca1df7239fc541d44dd6339362c0336bfd08fe2404004e0e697f5ec78",
+          "previous_sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно.",
+      "approved_local_corrections": [
+        {
+          "verse_key": "35:25",
+          "date": "2026-10-17",
+          "original_start": "Если они не сочли тебя лжецом",
+          "corrected_start": "Если они сочли тебя лжецом",
+          "note": "По поручению владельца удалена лишняя частица «не». В арабском начале وَإِن يُكَذِّبُوكَ отрицания нет; тот же оборот начинает 35:4. Тафсир ас-Саади подтверждает смысл «если сочтут тебя лжецом». Ошибочная формулировка встречается также в опубликованных копиях перевода Кулиева; это локальная редакционная правка, а не заявленное авторское исправление.",
+          "sources": [
+            "https://quran.ksu.edu.sa/tafseer/saadi/sura35-aya25.html",
+            "https://quran.ksu.edu.sa/tafseer/saadi/sura35-aya4.html",
+            "https://ru.quranacademy.org/feedback/detail/517/"
+          ],
+          "previous_file_sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        }
+      ]
+    },
+    "ksu-katheer-72-4": {
+      "title": "Ибн Касир, толкование 72:4",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura72-aya4.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 72,
+        "aya": 4,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-8-36": {
+      "title": "Ибн Касир, толкование 8:36",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura8-aya36.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 8,
+        "aya": 36,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-22-52": {
+      "title": "Ас-Саади, толкование 22:52",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura22-aya52.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 22,
+        "aya": 52,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-174": {
+      "title": "Ас-Саади, толкование 4:174",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya174.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 174,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-katheer-2-38": {
+      "title": "Ибн Касир, толкование 2:38",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya38.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/katheer.sqlite",
+        "sha256": "fd09d487d324423c1d4f9c3b1d9b511502b75a70b61c1568ad6941dc3244d93a",
+        "table": "katheer",
+        "sura": 2,
+        "aya": 38,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-257": {
+      "title": "Ас-Саади, толкование 2:257",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya257.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 257,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-28-63": {
+      "title": "Ас-Саади, толкование 28:63",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura28-aya63.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 28,
+        "aya": 63,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-41-25": {
+      "title": "Ас-Саади, толкование 41:25",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura41-aya25.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 41,
+        "aya": 25,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-50-27": {
+      "title": "Ас-Саади, толкование 50:27",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura50-aya27.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 50,
+        "aya": 27,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-113-2": {
+      "title": "Ас-Саади, толкование 113:2",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura113-aya2.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 113,
+        "aya": 2,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-113-3": {
+      "title": "Ас-Саади, толкование 113:3",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura113-aya3.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 113,
+        "aya": 3,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-tabary-8-36": {
+      "title": "Ат-Табари, толкование 8:36",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura8-aya36.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/tabary.sqlite",
+        "sha256": "77d435ac60c3bfad94f8f60c3473394e6362ff3f6478fcffda706767330061ee",
+        "table": "tabary",
+        "sura": 8,
+        "aya": 36,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-5-106": {
+      "title": "Ас-Саади, толкование 5:106",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura5-aya106.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 5,
+        "aya": 106,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0402",
+      "title": "Самура ибн Джундаб",
+      "see_also": [],
+      "items": [],
+      "scope_note": "В этой партии подтверждённых именных связей с Самурой ибн Джундабом не установлено. Исходная ссылка 4:100 исключена; тема сохранена для прозрачности результата."
+    },
+    {
+      "id": "topic-0403",
+      "title": "Сатана",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0403-item-007",
+          "description": "Гордыня и отказ Иблиса поклониться Адаму",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:34",
+            "7:11",
+            "7:12",
+            "7:13",
+            "15:31",
+            "15:32",
+            "15:33",
+            "17:61",
+            "17:62",
+            "18:50",
+            "20:116",
+            "38:74",
+            "38:75",
+            "38:76"
+          ],
+          "verse_notes": {
+            "2:34": {
+              "explanation": "Иблис прямо назван отказавшимся поклониться Адаму из гордыни и ставшим неверующим.",
+              "key_phrase": {
+                "text": "Иблис отказался, возгордился",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:11": {
+              "explanation": "Отказ Иблиса противопоставлен исполненному ангелами повелению пасть ниц.",
+              "key_phrase": {
+                "text": "Иблис не был в числе поклонившихся",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:12": {
+              "explanation": "Иблис оправдывает отказ притязанием на превосходство огня над глиной.",
+              "key_phrase": {
+                "text": "Я лучше него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:13": {
+              "explanation": "За превозношение Иблису велено уйти униженным.",
+              "key_phrase": {
+                "text": "Негоже тебе превозноситься здесь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:31": {
+              "explanation": "Иблис выделен как отказавшийся исполнить повеление о земном поклоне.",
+              "key_phrase": {
+                "text": "за исключением Иблиса",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:32": {
+              "explanation": "Господь спрашивает Иблиса о его отказе поклониться.",
+              "key_phrase": {
+                "text": "Почему ты не в числе павших ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:33": {
+              "explanation": "Иблис объясняет отказ представлением о недостоинстве человека из глины.",
+              "key_phrase": {
+                "text": "Не подобает мне падать ниц перед человеком",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:61": {
+              "explanation": "Иблис отвергает поклон перед созданным из глины Адамом.",
+              "key_phrase": {
+                "text": "только Иблис сказал",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:62": {
+              "explanation": "Иблис оспаривает предпочтение Адама и обещает подчинить его потомство, если получит отсрочку.",
+              "key_phrase": {
+                "text": "я покорю его потомство",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "18:50": {
+              "explanation": "Прямо названы неповиновение Иблиса, его принадлежность к джиннам и ошибочность выбора его покровителем.",
+              "key_phrase": {
+                "text": "Он был одним из джиннов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:116": {
+              "explanation": "Повторён рассказ об отказе Иблиса пасть ниц перед Адамом.",
+              "key_phrase": {
+                "text": "только Иблис отказался",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:74": {
+              "explanation": "Иблис назван исключением из поклонившихся, возгордившимся неверующим.",
+              "key_phrase": {
+                "text": "кроме Иблиса, который возгордился",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:75": {
+              "explanation": "Господь прямо спрашивает Иблиса о гордыне и причине неповиновения.",
+              "key_phrase": {
+                "text": "Ты возгордился",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:76": {
+              "explanation": "Иблис утверждает своё превосходство, ссылаясь на огонь и глину.",
+              "key_phrase": {
+                "text": "Я лучше него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0403-item-008",
+          "description": "Изгнание, проклятие и отсрочка Иблиса",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:38",
+            "4:118",
+            "7:13",
+            "7:14",
+            "7:15",
+            "7:18",
+            "15:34",
+            "15:35",
+            "15:36",
+            "15:37",
+            "15:38",
+            "17:63",
+            "38:77",
+            "38:78",
+            "38:79",
+            "38:80",
+            "38:81"
+          ],
+          "verse_notes": {
+            "2:38": {
+              "explanation": "Ибн Касир включает Адама, его супругу и Иблиса в адресатов повеления о низведении. Связь с изгнанием Иблиса сохранена именно по этому толкованию.",
+              "key_phrase": {
+                "text": "Низвергнитесь отсюда все",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-2-38"
+              ],
+              "qualification": "Аят сам не называет Иблиса и не повторяет проклятие; его главное продолжение касается будущего руководства людям."
+            },
+            "4:118": {
+              "explanation": "Прямо сказано о проклятии дьявола, упомянутого перед этим, и приведена его угроза увлечь часть рабов.",
+              "key_phrase": {
+                "text": "Аллах проклял его",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "4:117"
+              ]
+            },
+            "7:13": {
+              "explanation": "За превозношение Иблису велено уйти униженным.",
+              "key_phrase": {
+                "text": "Негоже тебе превозноситься здесь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:14": {
+              "explanation": "Иблис просит отсрочки до воскресения людей; аят прямо передаёт его просьбу.",
+              "key_phrase": {
+                "text": "Предоставь мне отсрочку",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:15": {
+              "explanation": "Ответ об отсрочке обращён к Иблису, чья просьба приведена перед ним.",
+              "key_phrase": {
+                "text": "кому предоставлена отсрочка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:14"
+              ]
+            },
+            "7:18": {
+              "explanation": "Изгнание Иблиса сопровождается предупреждением о Геенне для него и его последователей.",
+              "key_phrase": {
+                "text": "Изыди презренным и отверженным",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:34": {
+              "explanation": "Иблису велено уйти изгнанным; адресат установлен вопросом и ответом в 15:32-33.",
+              "key_phrase": {
+                "text": "Изыди, и отныне ты будешь изгнан",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:32",
+                "15:33"
+              ]
+            },
+            "15:35": {
+              "explanation": "Иблису объявлено проклятие до Дня воздаяния.",
+              "key_phrase": {
+                "text": "проклятие пребудет над тобой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:34"
+              ]
+            },
+            "15:36": {
+              "explanation": "Иблис просит продлить ему срок до воскресения.",
+              "key_phrase": {
+                "text": "Предоставь мне отсрочку",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:37": {
+              "explanation": "В ответ на просьбу Иблису предоставлена отсрочка.",
+              "key_phrase": {
+                "text": "ты - один из тех, кому предоставлена отсрочка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:36"
+              ]
+            },
+            "15:38": {
+              "explanation": "Ответ об отсрочке ограничен днём с определённым сроком, а не обещанием бессмертия.",
+              "key_phrase": {
+                "text": "до дня, срок которого определен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:36",
+                "15:37"
+              ]
+            },
+            "17:63": {
+              "explanation": "Ответ Иблису предупреждает его и последователей о полном воздаянии Геенной.",
+              "key_phrase": {
+                "text": "если кто последует за тобой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "17:62"
+              ]
+            },
+            "38:77": {
+              "explanation": "В ответ на отказ Иблису объявлено изгнание.",
+              "key_phrase": {
+                "text": "Изыди, и отныне ты будешь изгнан",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:75",
+                "38:76"
+              ]
+            },
+            "38:78": {
+              "explanation": "Объявлено пребывание Иблиса под проклятием до Дня воздаяния.",
+              "key_phrase": {
+                "text": "проклятие Мое пребудет над тобой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:77"
+              ]
+            },
+            "38:79": {
+              "explanation": "Иблис обращается с просьбой об отсрочке до воскресения людей.",
+              "key_phrase": {
+                "text": "Предоставь мне отсрочку",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:80": {
+              "explanation": "Иблису дан ответ о предоставлении отсрочки.",
+              "key_phrase": {
+                "text": "ты - один из тех, кому предоставлена отсрочка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:79"
+              ]
+            },
+            "38:81": {
+              "explanation": "Конец отсрочки ограничен определённым Господом сроком.",
+              "key_phrase": {
+                "text": "до дня, срок которого определен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:79",
+                "38:80"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0403-item-002",
+          "description": "Послание дьяволов к отвергающим истину",
+          "relation_type": "topic",
+          "verse_keys": [
+            "19:83",
+            "43:36"
+          ],
+          "verse_notes": {
+            "19:83": {
+              "explanation": "Дьяволы прямо посылаются к неверующим, чтобы подстрекать их.",
+              "key_phrase": {
+                "text": "послали к неверующим дьяволов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "43:36": {
+              "explanation": "Отвращение от поминания Милостивого связано с приставлением дьявола-товарища.",
+              "key_phrase": {
+                "text": "он станет его товарищем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0403-item-003",
+          "description": "о сатане",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:34",
+            "7:11",
+            "7:12",
+            "7:13",
+            "7:14",
+            "7:15",
+            "7:16",
+            "7:17",
+            "7:18",
+            "15:31",
+            "15:32",
+            "15:33",
+            "15:34",
+            "15:35",
+            "15:36",
+            "15:37",
+            "15:38",
+            "15:39",
+            "15:40",
+            "15:41",
+            "15:42",
+            "15:43",
+            "15:44",
+            "17:61",
+            "17:62",
+            "17:63",
+            "17:64",
+            "17:65",
+            "18:50",
+            "20:116",
+            "20:117",
+            "20:118",
+            "20:119",
+            "20:120",
+            "20:121",
+            "20:122",
+            "20:123",
+            "38:71",
+            "38:72",
+            "38:73",
+            "38:74",
+            "38:75",
+            "38:76",
+            "38:77",
+            "38:78",
+            "38:79",
+            "38:80",
+            "38:81",
+            "38:82",
+            "38:83",
+            "38:84",
+            "38:85"
+          ],
+          "verse_notes": {
+            "2:34": {
+              "explanation": "Иблис прямо назван отказавшимся поклониться Адаму из гордыни и ставшим неверующим.",
+              "key_phrase": {
+                "text": "Иблис отказался, возгордился",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:11": {
+              "explanation": "Отказ Иблиса противопоставлен исполненному ангелами повелению пасть ниц.",
+              "key_phrase": {
+                "text": "Иблис не был в числе поклонившихся",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:12": {
+              "explanation": "Иблис оправдывает отказ притязанием на превосходство огня над глиной.",
+              "key_phrase": {
+                "text": "Я лучше него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:13": {
+              "explanation": "За превозношение Иблису велено уйти униженным.",
+              "key_phrase": {
+                "text": "Негоже тебе превозноситься здесь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:14": {
+              "explanation": "Иблис просит отсрочки до воскресения людей; аят прямо передаёт его просьбу.",
+              "key_phrase": {
+                "text": "Предоставь мне отсрочку",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:15": {
+              "explanation": "Ответ об отсрочке обращён к Иблису, чья просьба приведена перед ним.",
+              "key_phrase": {
+                "text": "кому предоставлена отсрочка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:14"
+              ]
+            },
+            "7:16": {
+              "explanation": "Иблис объявляет намерение преграждать людям прямой путь.",
+              "key_phrase": {
+                "text": "я непременно засяду против них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:17": {
+              "explanation": "Продолжение обещания Иблиса описывает всесторонние попытки совращения потомков Адама.",
+              "key_phrase": {
+                "text": "буду подходить к ним спереди и сзади",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:16"
+              ]
+            },
+            "7:18": {
+              "explanation": "Изгнание Иблиса сопровождается предупреждением о Геенне для него и его последователей.",
+              "key_phrase": {
+                "text": "Изыди презренным и отверженным",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:31": {
+              "explanation": "Иблис выделен как отказавшийся исполнить повеление о земном поклоне.",
+              "key_phrase": {
+                "text": "за исключением Иблиса",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:32": {
+              "explanation": "Господь спрашивает Иблиса о его отказе поклониться.",
+              "key_phrase": {
+                "text": "Почему ты не в числе павших ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:33": {
+              "explanation": "Иблис объясняет отказ представлением о недостоинстве человека из глины.",
+              "key_phrase": {
+                "text": "Не подобает мне падать ниц перед человеком",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:34": {
+              "explanation": "Иблису велено уйти изгнанным; адресат установлен вопросом и ответом в 15:32-33.",
+              "key_phrase": {
+                "text": "Изыди, и отныне ты будешь изгнан",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:32",
+                "15:33"
+              ]
+            },
+            "15:35": {
+              "explanation": "Иблису объявлено проклятие до Дня воздаяния.",
+              "key_phrase": {
+                "text": "проклятие пребудет над тобой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:34"
+              ]
+            },
+            "15:36": {
+              "explanation": "Иблис просит продлить ему срок до воскресения.",
+              "key_phrase": {
+                "text": "Предоставь мне отсрочку",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:37": {
+              "explanation": "В ответ на просьбу Иблису предоставлена отсрочка.",
+              "key_phrase": {
+                "text": "ты - один из тех, кому предоставлена отсрочка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:36"
+              ]
+            },
+            "15:38": {
+              "explanation": "Ответ об отсрочке ограничен днём с определённым сроком, а не обещанием бессмертия.",
+              "key_phrase": {
+                "text": "до дня, срок которого определен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:36",
+                "15:37"
+              ]
+            },
+            "15:39": {
+              "explanation": "Иблис заявляет о намерении приукрашивать людям земное и совращать их.",
+              "key_phrase": {
+                "text": "я приукрашу для них земное",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:40": {
+              "explanation": "Из угрозы совращения Иблис исключает избранных или искренних рабов Аллаха.",
+              "key_phrase": {
+                "text": "кроме Твоих избранных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:39"
+              ]
+            },
+            "15:41": {
+              "explanation": "Ответ Господа вводит предел власти Иблиса, раскрытый следующим аятом; это не самостоятельное описание его природы.",
+              "key_phrase": {
+                "text": "Это - путь, ведущий прямо ко Мне",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:39",
+                "15:42"
+              ]
+            },
+            "15:42": {
+              "explanation": "Утверждено отсутствие у Иблиса власти над рабами Господа, кроме добровольно следующих ему заблудших.",
+              "key_phrase": {
+                "text": "ты не властен над Моими рабами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:43": {
+              "explanation": "Геенна названа обещанным местом для заблудших последователей Иблиса из 15:42.",
+              "key_phrase": {
+                "text": "место, обещанное всем им",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:42"
+              ]
+            },
+            "15:44": {
+              "explanation": "Устройство Геенны продолжает описание участи последователей Иблиса; местоимение связано с 15:42-43.",
+              "key_phrase": {
+                "text": "для каждых врат предназначена определенная их часть",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:42",
+                "15:43"
+              ]
+            },
+            "17:61": {
+              "explanation": "Иблис отвергает поклон перед созданным из глины Адамом.",
+              "key_phrase": {
+                "text": "только Иблис сказал",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:62": {
+              "explanation": "Иблис оспаривает предпочтение Адама и обещает подчинить его потомство, если получит отсрочку.",
+              "key_phrase": {
+                "text": "я покорю его потомство",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:63": {
+              "explanation": "Ответ Иблису предупреждает его и последователей о полном воздаянии Геенной.",
+              "key_phrase": {
+                "text": "если кто последует за тобой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "17:62"
+              ]
+            },
+            "17:64": {
+              "explanation": "Перечислены способы совращения, а обещания дьявола названы обольщением.",
+              "key_phrase": {
+                "text": "обещания дьявола - всего лишь обольщение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:65": {
+              "explanation": "Объявлен предел власти Иблиса над рабами Господа, которым достаточно Его попечения.",
+              "key_phrase": {
+                "text": "ты не властен над Моими рабами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "17:64"
+              ]
+            },
+            "18:50": {
+              "explanation": "Прямо названы неповиновение Иблиса, его принадлежность к джиннам и ошибочность выбора его покровителем.",
+              "key_phrase": {
+                "text": "Он был одним из джиннов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:116": {
+              "explanation": "Повторён рассказ об отказе Иблиса пасть ниц перед Адамом.",
+              "key_phrase": {
+                "text": "только Иблис отказался",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:117": {
+              "explanation": "Адам предупреждён о вражде Иблиса к нему и супруге и об опасности утраты Рая.",
+              "key_phrase": {
+                "text": "Это - враг тебе и твоей жене",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "20:116"
+              ]
+            },
+            "20:118": {
+              "explanation": "Отсутствие голода и наготы раскрывает райские блага, которых Адам рискует лишиться, поддавшись врагу; связь с Иблисом здесь контекстная.",
+              "key_phrase": {
+                "text": "ты не будешь голодным и нагим",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "20:117"
+              ]
+            },
+            "20:119": {
+              "explanation": "Отсутствие жажды и зноя продолжает описание благ Рая, об утрате которых из-за врага предупреждает 20:117.",
+              "key_phrase": {
+                "text": "не будешь страдать от жажды и зноя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "20:117"
+              ]
+            },
+            "20:120": {
+              "explanation": "Дьявол искушает Адама обещанием дерева вечности и непреходящей власти.",
+              "key_phrase": {
+                "text": "дьявол стал нашептывать ему",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:121": {
+              "explanation": "Вкушение запретного и обнаружение наготы показывают результат только что описанного наущения дьявола.",
+              "key_phrase": {
+                "text": "Они оба поели с него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "20:120"
+              ]
+            },
+            "20:122": {
+              "explanation": "Принятие покаяния Адама завершает его проступок после наущения; это восстановление соблазнённого человека, не покаяние самого Иблиса.",
+              "key_phrase": {
+                "text": "принял его покаяние",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "20:120",
+                "20:121"
+              ]
+            },
+            "20:123": {
+              "explanation": "Низведение с взаимной враждой следует за искушением, а следование руководству противопоставлено заблуждению.",
+              "key_phrase": {
+                "text": "одни из вас будут врагами других",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "20:117",
+                "20:120"
+              ]
+            },
+            "38:71": {
+              "explanation": "Создание человека из глины вводит эпизод: именно этим происхождением Иблис позже оправдывает отказ.",
+              "key_phrase": {
+                "text": "Я создам человека из глины",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:76"
+              ]
+            },
+            "38:72": {
+              "explanation": "Повеление поклониться созданному человеку задаёт предмет последующего неповиновения Иблиса.",
+              "key_phrase": {
+                "text": "падите перед ним ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:74"
+              ]
+            },
+            "38:73": {
+              "explanation": "Послушание всех ангелов составляет прямое противопоставление исключению Иблиса в следующем аяте.",
+              "key_phrase": {
+                "text": "Все ангелы без исключения пали ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:74"
+              ]
+            },
+            "38:74": {
+              "explanation": "Иблис назван исключением из поклонившихся, возгордившимся неверующим.",
+              "key_phrase": {
+                "text": "кроме Иблиса, который возгордился",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:75": {
+              "explanation": "Господь прямо спрашивает Иблиса о гордыне и причине неповиновения.",
+              "key_phrase": {
+                "text": "Ты возгордился",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:76": {
+              "explanation": "Иблис утверждает своё превосходство, ссылаясь на огонь и глину.",
+              "key_phrase": {
+                "text": "Я лучше него",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:77": {
+              "explanation": "В ответ на отказ Иблису объявлено изгнание.",
+              "key_phrase": {
+                "text": "Изыди, и отныне ты будешь изгнан",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:75",
+                "38:76"
+              ]
+            },
+            "38:78": {
+              "explanation": "Объявлено пребывание Иблиса под проклятием до Дня воздаяния.",
+              "key_phrase": {
+                "text": "проклятие Мое пребудет над тобой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:77"
+              ]
+            },
+            "38:79": {
+              "explanation": "Иблис обращается с просьбой об отсрочке до воскресения людей.",
+              "key_phrase": {
+                "text": "Предоставь мне отсрочку",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:80": {
+              "explanation": "Иблису дан ответ о предоставлении отсрочки.",
+              "key_phrase": {
+                "text": "ты - один из тех, кому предоставлена отсрочка",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:79"
+              ]
+            },
+            "38:81": {
+              "explanation": "Конец отсрочки ограничен определённым Господом сроком.",
+              "key_phrase": {
+                "text": "до дня, срок которого определен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:79",
+                "38:80"
+              ]
+            },
+            "38:82": {
+              "explanation": "Иблис клянётся могуществом Господа и объявляет намерение совратить людей.",
+              "key_phrase": {
+                "text": "Я совращу их всех",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "38:83": {
+              "explanation": "Искренние или избранные рабы исключены из угрозы Иблиса.",
+              "key_phrase": {
+                "text": "кроме Твоих избранных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:82"
+              ]
+            },
+            "38:84": {
+              "explanation": "Утверждение истинности слова Господа вводит неизбежное наказание Иблиса и его последователей в 38:85.",
+              "key_phrase": {
+                "text": "Я говорю только истину",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "38:85"
+              ]
+            },
+            "38:85": {
+              "explanation": "Иблису и всем следующим за ним прямо обещана Геенна.",
+              "key_phrase": {
+                "text": "Я непременно заполню Геенну тобою",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0403-item-004",
+          "description": "о Сатане и тех, кто с ним дружит",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:36",
+            "2:102",
+            "2:168",
+            "2:169",
+            "2:208",
+            "2:257",
+            "2:268",
+            "3:155",
+            "3:175",
+            "4:38",
+            "4:60",
+            "4:76",
+            "4:117",
+            "4:119",
+            "4:120",
+            "5:90",
+            "5:91",
+            "6:43",
+            "6:68",
+            "6:71",
+            "6:112",
+            "6:121",
+            "6:142",
+            "7:16",
+            "7:17",
+            "7:20",
+            "7:21",
+            "7:22",
+            "7:27",
+            "7:30",
+            "7:175",
+            "7:200",
+            "7:201",
+            "7:202",
+            "8:11",
+            "8:48",
+            "12:5",
+            "12:42",
+            "12:100",
+            "14:22",
+            "15:31",
+            "15:32",
+            "15:33",
+            "15:39",
+            "15:40",
+            "16:63",
+            "16:99",
+            "16:100",
+            "17:27",
+            "17:53",
+            "17:64",
+            "18:50",
+            "18:63",
+            "19:44",
+            "19:45",
+            "19:83",
+            "20:117",
+            "20:120",
+            "22:3",
+            "22:4",
+            "22:52",
+            "22:53",
+            "24:21",
+            "25:29",
+            "26:222",
+            "26:223",
+            "27:24",
+            "28:15",
+            "28:63",
+            "29:38",
+            "31:21",
+            "34:20",
+            "35:5",
+            "35:6",
+            "36:62",
+            "41:25",
+            "43:36",
+            "43:37",
+            "43:62",
+            "47:25",
+            "50:27",
+            "57:14",
+            "58:10",
+            "58:19",
+            "59:16",
+            "72:4",
+            "72:6"
+          ],
+          "verse_notes": {
+            "2:36": {
+              "explanation": "Дьявол соблазнил первых людей, что привело к утрате их прежнего положения.",
+              "key_phrase": {
+                "text": "Дьявол же побудил их споткнуться",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:102": {
+              "explanation": "Дьяволы обвиняются в неверии и обучении людей колдовству; от Сулеймана обвинение в неверии отведено.",
+              "key_phrase": {
+                "text": "Неверующими были дьяволы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:168": {
+              "explanation": "Людям запрещено следовать стопам дьявола, названного явным врагом.",
+              "key_phrase": {
+                "text": "не следуйте по стопам дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:169": {
+              "explanation": "Дьявол из предыдущего аята описан как повелевающий зло, мерзость и ложь об Аллахе.",
+              "key_phrase": {
+                "text": "он велит вам творить зло и мерзость",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:168"
+              ]
+            },
+            "2:208": {
+              "explanation": "Требование полного принятия ислама соединено с запретом следовать явному врагу - дьяволу.",
+              "key_phrase": {
+                "text": "не следуйте по стопам дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:257": {
+              "explanation": "Ас-Саади раскрывает покровительство тагутов как выбор дьявола и его партии вместо покровительства Господа.",
+              "key_phrase": {
+                "text": "покровителями и помощниками неверующих являются тагуты",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-2-257"
+              ],
+              "qualification": "Тагут не сводится здесь к одному собственному имени; связь с дьяволом установлена конкретным толкованием."
+            },
+            "2:268": {
+              "explanation": "Дьявол противодействует благотворительности угрозой бедности и побуждением к мерзости.",
+              "key_phrase": {
+                "text": "Дьявол угрожает вам бедностью",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:155": {
+              "explanation": "Отступление части участников Ухуда связано с тем, что дьявол заставил их поскользнуться; тут же сказано об их прощении.",
+              "key_phrase": {
+                "text": "дьявол заставил поскользнуться",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:175": {
+              "explanation": "Устрашение помощниками дьявола противопоставлено страху перед Аллахом.",
+              "key_phrase": {
+                "text": "дьявол пугает вас своими помощниками",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:38": {
+              "explanation": "Дьявол назван дурным товарищем расходующих напоказ и не верующих в Последний день.",
+              "key_phrase": {
+                "text": "плох такой товарищ",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:60": {
+              "explanation": "Обращение за судом к тагуту связано с желанием дьявола увести людей в глубокое заблуждение.",
+              "key_phrase": {
+                "text": "Дьявол желает ввести их в глубокое заблуждение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:76": {
+              "explanation": "Названы помощники дьявола и слабость его козней в противопоставлении сторон веры и тагута.",
+              "key_phrase": {
+                "text": "козни дьявола слабы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:117": {
+              "explanation": "Поклонение мнимым существам разоблачается как взывание к мятежному дьяволу.",
+              "key_phrase": {
+                "text": "к мятежному дьяволу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:119": {
+              "explanation": "В угрозах дьявола названы совращение и ложные надежды, а выбор его покровителем - очевидный убыток.",
+              "key_phrase": {
+                "text": "Кто сделал дьявола своим покровителем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:120": {
+              "explanation": "Обещания и возбуждённые дьяволом надежды названы только обольщением.",
+              "key_phrase": {
+                "text": "кроме обольщения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:90": {
+              "explanation": "Опьяняющее, азартные игры и идольские практики отнесены к деяниям дьявола, от которых велено сторониться.",
+              "key_phrase": {
+                "text": "из деяний дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:91": {
+              "explanation": "Объяснены цели дьявола через опьяняющее и азартные игры: вражда и отвращение от поминания и молитвы.",
+              "key_phrase": {
+                "text": "хочет посеять между вами вражду и ненависть",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:43": {
+              "explanation": "Приукрашивание дьяволом злых дел связано с ожесточением сердец вместо смирения.",
+              "key_phrase": {
+                "text": "дьявол приукрашивал для них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:68": {
+              "explanation": "Предусмотрен случай, когда дьявол заставляет забыть запрет участия в поругании знамений.",
+              "key_phrase": {
+                "text": "дьявол заставит тебя забыть",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:71": {
+              "explanation": "Обольщённый дьяволами и растерянный человек служит сравнением для возвращения к заблуждению.",
+              "key_phrase": {
+                "text": "дьяволы на земле обольстили",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:112": {
+              "explanation": "Дьяволы из людей и джиннов названы врагами пророков, взаимно внушающими обманчивые слова.",
+              "key_phrase": {
+                "text": "дьяволов из числа людей и джиннов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:121": {
+              "explanation": "Дьяволы внушают своим помощникам препираться с верующими по поводу пищи.",
+              "key_phrase": {
+                "text": "дьяволы внушают своим помощникам",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:142": {
+              "explanation": "При разрешённом питании вновь запрещено следовать стопам дьявола - явного врага.",
+              "key_phrase": {
+                "text": "не следуйте по стопам дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:16": {
+              "explanation": "Иблис объявляет намерение преграждать людям прямой путь.",
+              "key_phrase": {
+                "text": "я непременно засяду против них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:17": {
+              "explanation": "Продолжение обещания Иблиса описывает всесторонние попытки совращения потомков Адама.",
+              "key_phrase": {
+                "text": "буду подходить к ним спереди и сзади",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:16"
+              ]
+            },
+            "7:20": {
+              "explanation": "Дьявол вводит Адама и супругу в искушение ложным объяснением запрета дерева.",
+              "key_phrase": {
+                "text": "Дьявол стал наущать их",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:21": {
+              "explanation": "Ложная клятва в доброжелательности служит орудием соблазнения со стороны дьявола из 7:20.",
+              "key_phrase": {
+                "text": "искренний доброжелатель",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "7:20"
+              ]
+            },
+            "7:22": {
+              "explanation": "Обман дьявола приводит к вкушению плода и обнажению, после чего напоминается о его вражде.",
+              "key_phrase": {
+                "text": "дьявол для вас - явный враг",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:27": {
+              "explanation": "Потомков Адама предостерегают от повторения соблазнения их родителей и от покровительства дьяволов.",
+              "key_phrase": {
+                "text": "Не позволяйте дьяволу совратить вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:30": {
+              "explanation": "Заблуждение объяснено выбором дьяволов покровителями при ложной уверенности в правоте.",
+              "key_phrase": {
+                "text": "сочли дьяволов своими покровителями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:175": {
+              "explanation": "Отбросивший знамения оказывается преследуемым дьяволом и заблудшим; имя персонажа здесь не устанавливается.",
+              "key_phrase": {
+                "text": "Дьявол последовал за ним",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:200": {
+              "explanation": "При наущении дьявола велено прибегать к защите Аллаха.",
+              "key_phrase": {
+                "text": "прибеги к защите Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:201": {
+              "explanation": "Богобоязненные преодолевают дьявольское наваждение поминанием и обретением ясности.",
+              "key_phrase": {
+                "text": "поминают назидание и прозревают",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:202": {
+              "explanation": "Описано усиление дьяволами заблуждения своих братьев.",
+              "key_phrase": {
+                "text": "усиливают заблуждение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:11": {
+              "explanation": "Дарованная вода и укрепление сердец связаны с удалением скверны дьявола.",
+              "key_phrase": {
+                "text": "удалить c вас скверну дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:48": {
+              "explanation": "Дьявол приукрашивает дела и обещает поддержку, но отрекается при встрече отрядов.",
+              "key_phrase": {
+                "text": "он повернул вспять",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "12:5": {
+              "explanation": "Предупреждение Йакуба о возможном заговоре братьев сопровождается указанием на вражду дьявола к человеку.",
+              "key_phrase": {
+                "text": "дьявол - явный враг человеку",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "12:42": {
+              "explanation": "Дьявольское воздействие связано с забытым напоминанием о Йусуфе. Локальный перевод отмечает также другое отнесение местоимения; однозначная вина пророка не утверждается.",
+              "key_phrase": {
+                "text": "дьявол побудил его позабыть",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "12:100": {
+              "explanation": "Йусуф прямо связывает прежнюю вражду между ним и братьями с действием дьявола.",
+              "key_phrase": {
+                "text": "дьявол посеял вражду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "14:22": {
+              "explanation": "В Последней жизни дьявол признаёт обман и говорит, что люди сами откликнулись на его призыв.",
+              "key_phrase": {
+                "text": "Я звал вас, и вы послушались меня",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:31": {
+              "explanation": "Иблис выделен как отказавшийся исполнить повеление о земном поклоне.",
+              "key_phrase": {
+                "text": "за исключением Иблиса",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:32": {
+              "explanation": "Господь спрашивает Иблиса о его отказе поклониться.",
+              "key_phrase": {
+                "text": "Почему ты не в числе павших ниц",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:33": {
+              "explanation": "Иблис объясняет отказ представлением о недостоинстве человека из глины.",
+              "key_phrase": {
+                "text": "Не подобает мне падать ниц перед человеком",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:39": {
+              "explanation": "Иблис заявляет о намерении приукрашивать людям земное и совращать их.",
+              "key_phrase": {
+                "text": "я приукрашу для них земное",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "15:40": {
+              "explanation": "Из угрозы совращения Иблис исключает избранных или искренних рабов Аллаха.",
+              "key_phrase": {
+                "text": "кроме Твоих избранных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "15:39"
+              ]
+            },
+            "16:63": {
+              "explanation": "Приукрашивание дьяволом дел прежних народов связано с выбором его помощником и предстоящим наказанием.",
+              "key_phrase": {
+                "text": "он является их покровителем и помощником",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:99": {
+              "explanation": "Отрицание власти дьявола над верующими раскрывает обещанную защиту уповающим; местоимение определено в 16:98.",
+              "key_phrase": {
+                "text": "он не властен над теми, которые уверовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "16:98"
+              ]
+            },
+            "16:100": {
+              "explanation": "Дьявол имеет власть над избирающими его покровителем и приобщающими сотоварищей.",
+              "key_phrase": {
+                "text": "считают его (дьявола) своим помощником и покровителем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:27": {
+              "explanation": "Расточительство уподобляет людей братьям дьяволов, а дьявол назван неблагодарным.",
+              "key_phrase": {
+                "text": "расточители - братья дьяволов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:53": {
+              "explanation": "Речь наилучшими словами противопоставлена дьявольскому разжиганию раздора.",
+              "key_phrase": {
+                "text": "дьявол вносит между ними раздор",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "17:64": {
+              "explanation": "Перечислены способы совращения, а обещания дьявола названы обольщением.",
+              "key_phrase": {
+                "text": "обещания дьявола - всего лишь обольщение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "18:50": {
+              "explanation": "Прямо названы неповиновение Иблиса, его принадлежность к джиннам и ошибочность выбора его покровителем.",
+              "key_phrase": {
+                "text": "Он был одним из джиннов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "18:63": {
+              "explanation": "Спутник Мусы прямо приписывает дьяволу забывчивость относительно рыбы.",
+              "key_phrase": {
+                "text": "только дьявол заставил меня не вспомнить",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:44": {
+              "explanation": "Ибрахим запрещает отцу поклоняться дьяволу, ослушавшемуся Милостивого.",
+              "key_phrase": {
+                "text": "Не поклоняйся дьяволу",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:45": {
+              "explanation": "Ибрахим опасается, что отец подвергнется наказанию и станет помощником дьявола.",
+              "key_phrase": {
+                "text": "станешь помощником дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:83": {
+              "explanation": "Дьяволы прямо посылаются к неверующим, чтобы подстрекать их.",
+              "key_phrase": {
+                "text": "послали к неверующим дьяволов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "20:117": {
+              "explanation": "Адам предупреждён о вражде Иблиса к нему и супруге и об опасности утраты Рая.",
+              "key_phrase": {
+                "text": "Это - враг тебе и твоей жене",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "20:116"
+              ]
+            },
+            "20:120": {
+              "explanation": "Дьявол искушает Адама обещанием дерева вечности и непреходящей власти.",
+              "key_phrase": {
+                "text": "дьявол стал нашептывать ему",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:3": {
+              "explanation": "Спор об Аллахе без знания сочетается со следованием мятежному дьяволу.",
+              "key_phrase": {
+                "text": "следуют за всяким мятежным дьяволом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "22:4": {
+              "explanation": "Дьяволу из 22:3 приписано введение в заблуждение всякого, кто изберёт его покровителем.",
+              "key_phrase": {
+                "text": "он введет в заблуждение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "22:3"
+              ]
+            },
+            "22:52": {
+              "explanation": "Дьявольское вмешательство названо тем, что Аллах уничтожает, утверждая Свои знамения. Ас-Саади подчёркивает сохранность передаваемого посланниками откровения.",
+              "key_phrase": {
+                "text": "Аллах уничтожает то, что подбрасывает дьявол",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-22-52"
+              ],
+              "qualification": "Аят не используется для утверждения искажения сохранённого Корана. Отдельные спорные исторические рассказы здесь не подтверждаются."
+            },
+            "22:53": {
+              "explanation": "Подбрасываемое дьяволом становится испытанием для больных и ожесточённых сердец.",
+              "key_phrase": {
+                "text": "искушением для тех, чьи сердца поражены недугом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:21": {
+              "explanation": "Запрещены стопы дьявола, который зовёт к мерзости и предосудительному.",
+              "key_phrase": {
+                "text": "он призывает к мерзости и предосудительному",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "25:29": {
+              "explanation": "После жалобы на друга, отвратившего от Напоминания, утверждено, что дьявол оставляет человека.",
+              "key_phrase": {
+                "text": "дьявол оставляет человека без поддержки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "26:222": {
+              "explanation": "Лжец и грешник назван получателем нисхождения дьяволов; местоимение раскрыто вопросом в 26:221.",
+              "key_phrase": {
+                "text": "на каждого лжеца и грешника",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:221"
+              ]
+            },
+            "26:223": {
+              "explanation": "В продолжении о нисходящих дьяволах говорится о передаче услышанного и преобладании лжи.",
+              "key_phrase": {
+                "text": "большинство из них являются лжецами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "26:221",
+                "26:222"
+              ]
+            },
+            "27:24": {
+              "explanation": "Солнечное поклонение народа царицы связано с приукрашиванием дьяволом их дел и отвращением от пути.",
+              "key_phrase": {
+                "text": "Дьявол представил им их деяния прекрасными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "28:15": {
+              "explanation": "После смертельного удара Муса характеризует случившееся как деяние дьявола и называет его вводящим в заблуждение врагом.",
+              "key_phrase": {
+                "text": "одно из деяний дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "28:63": {
+              "explanation": "Ас-Саади объясняет отречение предводителей заблуждения и их слова «Не нам они поклонялись» указанием на поклонение дьяволам; связь именно толковательная.",
+              "key_phrase": {
+                "text": "Не нам они поклонялись",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-28-63"
+              ]
+            },
+            "29:38": {
+              "explanation": "При описании адитов и самудян говорится, что дьявол приукрасил их дела и сбил их с пути.",
+              "key_phrase": {
+                "text": "Дьявол представил им их деяния прекрасными",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "31:21": {
+              "explanation": "Слепое следование предкам разоблачается вопросом о дьяволе, зовущем к Пламени.",
+              "key_phrase": {
+                "text": "дьявол позовет их к мучениям",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "34:20": {
+              "explanation": "Следование большинства Иблису противопоставлено сохранившей веру группе.",
+              "key_phrase": {
+                "text": "они последовали за ним",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:5": {
+              "explanation": "Дьявольское обольщение относительно Аллаха запрещено наряду с обольщением мирской жизнью.",
+              "key_phrase": {
+                "text": "соблазнитель (дьявол) не обольщает вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:6": {
+              "explanation": "Дьявол назван врагом, зовущим свою партию к участи обитателей Пламени.",
+              "key_phrase": {
+                "text": "дьявол является вашим врагом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "36:62": {
+              "explanation": "Упрёк в следовании заблуждению дьявола продолжает прямой запрет поклоняться ему.",
+              "key_phrase": {
+                "text": "Он уже ввел в заблуждение многих из вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "36:60"
+              ]
+            },
+            "41:25": {
+              "explanation": "Приставленные товарищи приукрашивают ложь; ас-Саади прямо разъясняет их как дьяволов и сопоставляет с 19:83 и 43:36.",
+              "key_phrase": {
+                "text": "Мы приставили к ним товарищей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-41-25"
+              ]
+            },
+            "43:36": {
+              "explanation": "Отвращение от поминания Милостивого связано с приставлением дьявола-товарища.",
+              "key_phrase": {
+                "text": "он станет его товарищем",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "43:37": {
+              "explanation": "Дьяволы-товарищи из 43:36 препятствуют верному пути, оставляя соблазнённых в ложной уверенности.",
+              "key_phrase": {
+                "text": "Они не будут пускать их на путь Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "43:36"
+              ]
+            },
+            "43:62": {
+              "explanation": "Людей предостерегают от отвращения дьяволом, названным явным врагом.",
+              "key_phrase": {
+                "text": "пусть дьявол не отвратит вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "47:25": {
+              "explanation": "Обольщение дьяволом связано с отступлением после ясности прямого пути.",
+              "key_phrase": {
+                "text": "дьявол обольстил и обещал им долгую жизнь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "50:27": {
+              "explanation": "Товарищ отрекается от введения человека в заблуждение. В переводе и у ас-Саади этот товарищ объяснён как дьявол.",
+              "key_phrase": {
+                "text": "Его товарищ (дьявол)",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-50-27"
+              ]
+            },
+            "57:14": {
+              "explanation": "Верующие объясняют лицемерам, что их обманул соблазнитель, прямо пояснённый в переводе как дьявол.",
+              "key_phrase": {
+                "text": "Соблазнитель (дьявол) обманул вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "58:10": {
+              "explanation": "Дьявольской названа тайная беседа, нацеленная опечалить верующих; соседний аят различает греховный и благочестивый разговор.",
+              "key_phrase": {
+                "text": "от дьявола, стремящегося опечалить",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "58:9"
+              ]
+            },
+            "58:19": {
+              "explanation": "Одержимость влиянием дьявола, забвение поминания и принадлежность его партии прямо соединены.",
+              "key_phrase": {
+                "text": "Они являются партией дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "59:16": {
+              "explanation": "Приведено сравнение с дьяволом, который призывает к неверию, а затем отрекается от поддавшегося.",
+              "key_phrase": {
+                "text": "Я не причастен к тебе",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "72:4": {
+              "explanation": "Глупец, возводивший ложь на Аллаха, пояснён в переводе как Иблис. Ибн Касир приводит такое толкование от ранних толкователей, сохраняя и более общее понимание.",
+              "key_phrase": {
+                "text": "Глупец среди нас (Иблис)",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-72-4"
+              ],
+              "qualification": "Не исключено общее обозначение всякого говорившего такую ложь; имя Иблиса здесь является толкованием, а не собственным именем в арабской строке аята."
+            },
+            "72:6": {
+              "explanation": "Люди ищут покровительства джиннов, что увеличивает страх или беззаконие. Это осуждённая зависимость от джиннов, не описание всех джиннов как дьяволов.",
+              "key_phrase": {
+                "text": "искали покровительства мужей из числа джиннов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0403-item-005",
+          "description": "обращение человека к защите Аллаха от Сатаны и джиннов",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:36",
+            "7:200",
+            "16:98",
+            "23:97",
+            "23:98",
+            "41:36",
+            "113:1",
+            "113:2",
+            "113:3",
+            "114:1",
+            "114:2",
+            "114:3",
+            "114:4",
+            "114:5",
+            "114:6"
+          ],
+          "verse_notes": {
+            "3:36": {
+              "explanation": "Мать Марьям просит защиты для дочери и её потомства непосредственно от изгнанного дьявола.",
+              "key_phrase": {
+                "text": "защитить ее и потомство ее от дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:200": {
+              "explanation": "При наущении дьявола прямо предписано прибегнуть к защите Аллаха.",
+              "key_phrase": {
+                "text": "прибеги к защите Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:98": {
+              "explanation": "Перед чтением Корана велено искать защиты у Аллаха от дьявола.",
+              "key_phrase": {
+                "text": "ищи у Аллаха защиты от дьявола",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "23:97": {
+              "explanation": "Дана молитва о защите от наваждений дьяволов.",
+              "key_phrase": {
+                "text": "Я прибегаю к Тебе от наваждений дьяволов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "23:98": {
+              "explanation": "Продолжение молитвы просит оградить от приближения дьяволов, названных в предыдущем аяте.",
+              "key_phrase": {
+                "text": "дабы они не приближались ко мне",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "23:97"
+              ]
+            },
+            "41:36": {
+              "explanation": "При дьявольском наваждении снова велено обращаться за защитой к Слышащему и Знающему.",
+              "key_phrase": {
+                "text": "прибегай к защите Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "113:1": {
+              "explanation": "Обращение к Господу рассвета открывает просьбу защиты от зла творений. Ас-Саади включает в эту общую категорию зло людей, джиннов и животных.",
+              "key_phrase": {
+                "text": "Прибегаю к защите Господа рассвета",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-113-2"
+              ],
+              "context_verse_keys": [
+                "113:2"
+              ],
+              "qualification": "Просьба шире защиты только от дьявола; она не объявляет все творения дьяволами."
+            },
+            "113:2": {
+              "explanation": "Ас-Саади прямо включает джиннов в творения, от зла которых просят защиты у Творца.",
+              "key_phrase": {
+                "text": "от зла того, что Он сотворил",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-113-2"
+              ],
+              "context_verse_keys": [
+                "113:1"
+              ],
+              "qualification": "Общий смысл охватывает также людей и животных; речь о зле, а не о том, что всякое творение является злом."
+            },
+            "113:3": {
+              "explanation": "Ас-Саади поясняет ночное зло в том числе распространением злых духов; этим установлена частная связь с защитой от духовного зла.",
+              "key_phrase": {
+                "text": "от зла мрака, когда он наступает",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-113-3"
+              ],
+              "context_verse_keys": [
+                "113:1"
+              ],
+              "qualification": "Это часть толкования, не утверждение, что любой ночной вред исходит исключительно от джиннов."
+            },
+            "114:1": {
+              "explanation": "Обращение к Господу людей открывает единую молитву о защите от искусителя, названного в 114:4-6.",
+              "key_phrase": {
+                "text": "Прибегаю к защите Господа людей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "114:4",
+                "114:5",
+                "114:6"
+              ]
+            },
+            "114:2": {
+              "explanation": "Слова «Царя людей» продолжают обращение за защитой к Аллаху в молитве от зла искусителя.",
+              "key_phrase": {
+                "text": "Царя людей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "114:1",
+                "114:4"
+              ]
+            },
+            "114:3": {
+              "explanation": "Слова «Бога людей» завершают называние Того, у Кого просят защиты от наущений; связь устанавливается целой молитвой.",
+              "key_phrase": {
+                "text": "Бога людей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "114:1",
+                "114:4"
+              ]
+            },
+            "114:4": {
+              "explanation": "Предмет защиты прямо назван злом отступающего при поминании искусителя.",
+              "key_phrase": {
+                "text": "от зла искусителя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "114:5": {
+              "explanation": "Указано, что искуситель, от которого просят защиты, наущает в груди людей.",
+              "key_phrase": {
+                "text": "наущает в груди людей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "114:1",
+                "114:4"
+              ]
+            },
+            "114:6": {
+              "explanation": "Завершение молитвы уточняет, что наущающие бывают из джиннов и людей.",
+              "key_phrase": {
+                "text": "из джиннов и людей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "114:1",
+                "114:4",
+                "114:5"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0403-item-006",
+          "description": "Иблис принадлежит к джиннам",
+          "relation_type": "topic",
+          "verse_keys": [
+            "18:50"
+          ],
+          "verse_notes": {
+            "18:50": {
+              "explanation": "Принадлежность Иблиса к джиннам прямо утверждена наряду с его неповиновением.",
+              "key_phrase": {
+                "text": "Он был одним из джиннов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ],
+              "qualification": "Это высказывание об Иблисе, а не утверждение, что все джинны являются дьяволами."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0404",
+      "title": "Сафван ибн Умаййа",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0404-item-001",
+          "description": "Сафван ибн Умаййа в сообщении о расходах курайшитов против мусульман",
+          "relation_type": "person_or_event_association_as_indexed",
+          "verse_keys": [
+            "8:36"
+          ],
+          "verse_notes": {
+            "8:36": {
+              "explanation": "Ибн Касир передаёт сообщение Ибн Исхака, в котором Сафван назван среди просивших направить средства каравана на войну после Бадра. Это объясняет историческую связь с осуждением расходов против пути Аллаха.",
+              "key_phrase": {
+                "text": "расходуют свое имущество для того, чтобы сбить других с пути Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_person_association",
+              "source_ids": [
+                "site-quran",
+                "ksu-katheer-8-36",
+                "ksu-tabary-8-36"
+              ],
+              "qualification": "Это зафиксированное сообщение сиры в тафсире, без самостоятельной оценки иснада как сахих. Аят имеет общий смысл и не называет Сафвана; он не является приговором о его состоянии после принятия ислама."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0405",
+      "title": "сахабы",
+      "see_also": [
+        "асхабы (сподвижники Пророка)"
+      ],
+      "items": [],
+      "scope_note": "Отсылка к теме «асхабы» сохранена; целевая тема присутствует в исходном указателе, повторно здесь не проверяется."
+    },
+    {
+      "id": "topic-0406",
+      "title": "свет",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0406-item-001",
+          "description": "Ниспослание суры «ан-Нур» и обязательность её установлений",
+          "relation_type": "topic",
+          "verse_keys": [
+            "24:1"
+          ],
+          "verse_notes": {
+            "24:1": {
+              "explanation": "Начало суры сообщает, что она ниспослана, сделана законом и содержит ясные знамения для назидания.",
+              "key_phrase": {
+                "text": "сделали законом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0406-item-002",
+          "description": "о Коране как ясном свете",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:174"
+          ],
+          "verse_notes": {
+            "4:174": {
+              "explanation": "Ас-Саади прямо разъясняет ниспосланный ясный свет как Коран, которым люди выходят из заблуждения.",
+              "key_phrase": {
+                "text": "Мы ниспослали вам ясный свет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-4-174"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0406-item-003",
+          "description": "сияние, которым в Судный день будут встречены верующие",
+          "relation_type": "topic",
+          "verse_keys": [
+            "57:12",
+            "57:13",
+            "66:8"
+          ],
+          "verse_notes": {
+            "57:12": {
+              "explanation": "Прямо описан свет верующих мужчин и женщин перед ними и справа в День суда.",
+              "key_phrase": {
+                "text": "будет распространяться их свет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "57:13": {
+              "explanation": "Лицемеры просят у верующих часть света, но оказываются отделены преградой: это контраст к свету верующих.",
+              "key_phrase": {
+                "text": "мы позаимствуем у вас немного света",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "57:12"
+              ]
+            },
+            "66:8": {
+              "explanation": "Верующие просят дать света сполна в тот день, когда он сияет перед ними и справа.",
+              "key_phrase": {
+                "text": "Их свет будет сиять перед ними и справа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0407",
+      "title": "свет и тьма",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0407-item-001",
+          "description": "о свете и тьме",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:257",
+            "5:16",
+            "6:1",
+            "13:16",
+            "14:1",
+            "35:20",
+            "65:11"
+          ],
+          "verse_notes": {
+            "2:257": {
+              "explanation": "Противопоставлены выход верующих из мраков к свету и обратный путь следующих тагутам.",
+              "key_phrase": {
+                "text": "выводит их из мраков к свету",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:16": {
+              "explanation": "Писание ведёт стремящихся к довольству Аллаха из мраков к свету; это образ руководства.",
+              "key_phrase": {
+                "text": "выводит их из мраков к свету",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:1": {
+              "explanation": "Свет и мраки названы среди установленных Аллахом явлений творения.",
+              "key_phrase": {
+                "text": "установил мраки и свет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "13:16": {
+              "explanation": "Вопрос о неравенстве мраков и света служит доводом против приравнивания иных покровителей Аллаху.",
+              "key_phrase": {
+                "text": "Или же равны мраки и свет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "14:1": {
+              "explanation": "Цель ниспослания Писания описана как выведение людей из мраков к свету.",
+              "key_phrase": {
+                "text": "из мраков к свету",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "35:20": {
+              "explanation": "Неравенство мраков и света включено в ряд сравнений веры и неверия, начатый словами «Не равны».",
+              "key_phrase": {
+                "text": "мраки и свет",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "35:19"
+              ]
+            },
+            "65:11": {
+              "explanation": "Чтение ясных аятов Посланником связано с выведением верующих из мраков к свету.",
+              "key_phrase": {
+                "text": "из мраков к свету",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0408",
+      "title": "свидетели",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0408-item-001",
+          "description": "важность свидетельства",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:135",
+            "5:8"
+          ],
+          "verse_notes": {
+            "4:135": {
+              "explanation": "Правдивое свидетельство поставлено выше собственной выгоды и интересов родителей и родни.",
+              "key_phrase": {
+                "text": "Свидетельствуя перед Аллахом, отстаивайте справедливость",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:8": {
+              "explanation": "Верующим велено беспристрастно свидетельствовать даже при ненависти к другой стороне.",
+              "key_phrase": {
+                "text": "свидетельствуя беспристрастно",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0408-item-002",
+          "description": "выбор свидетелей",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:282"
+          ],
+          "verse_notes": {
+            "2:282": {
+              "explanation": "При документировании долга указаны состав свидетелей и требование выбирать тех, кого стороны согласны признать.",
+              "key_phrase": {
+                "text": "которых вы согласны признать свидетелями",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0408-item-010",
+          "description": "Запрет скрывать свидетельство и требование верности ему",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:140",
+            "2:283",
+            "4:135",
+            "5:106",
+            "70:33"
+          ],
+          "verse_notes": {
+            "2:140": {
+              "explanation": "Осуждается сокрытие полученного от Аллаха свидетельства; речь о религиозной истине, а не только о судебном процессе.",
+              "key_phrase": {
+                "text": "Кто может быть несправедливее того, кто скрыл имеющееся у него от Аллаха свидетельство",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:283": {
+              "explanation": "Сокрытие свидетельства прямо запрещено и названо грехом сердца.",
+              "key_phrase": {
+                "text": "А у тех, кто скрывает его, сердце поражено грехом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:135": {
+              "explanation": "Предупреждение о кривом свидетельстве и уклонении от него завершает требование справедливости.",
+              "key_phrase": {
+                "text": "Если же вы скривите или уклонитесь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:106": {
+              "explanation": "В клятве свидетелей завещания сокрытие свидетельства признаётся грехом.",
+              "key_phrase": {
+                "text": "не скрываем свидетельства Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "70:33": {
+              "explanation": "Стойкость в свидетельствах названа достоинством верующих: это положительное требование, не отдельная формулировка наказания.",
+              "key_phrase": {
+                "text": "стойки в своих свидетельствах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0408-item-004",
+          "description": "количество свидетелей",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:282",
+            "4:15",
+            "5:106",
+            "24:4",
+            "24:13",
+            "65:2"
+          ],
+          "verse_notes": {
+            "2:282": {
+              "explanation": "Для записи долга названы два мужчины либо мужчина и две женщины; это число в конкретной договорной ситуации.",
+              "key_phrase": {
+                "text": "одного мужчину и двух женщин",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "4:15": {
+              "explanation": "При обвинении в указанной мерзости требуется четыре свидетеля; ссылка сохранена ради числа, не для изложения всей истории наказаний.",
+              "key_phrase": {
+                "text": "призовите в свидетели четырех из вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:106": {
+              "explanation": "При завещании в описанной дорожной ситуации названы два справедливых свидетеля.",
+              "key_phrase": {
+                "text": "двое справедливых мужей из вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:4": {
+              "explanation": "Ответственность за обвинение целомудренных женщин связана с отсутствием четырёх свидетелей.",
+              "key_phrase": {
+                "text": "не приведут четырех свидетелей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:13": {
+              "explanation": "Для подтверждения распространяемого обвинения требуются четыре свидетеля.",
+              "key_phrase": {
+                "text": "четырех свидетелей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "65:2": {
+              "explanation": "В предписаниях о разводе или сохранении брака названы два справедливых свидетеля.",
+              "key_phrase": {
+                "text": "двух справедливых мужей из вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0408-item-005",
+          "description": "Замена свидетельств при обнаружении обмана в деле завещания",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:106",
+            "5:107",
+            "5:108"
+          ],
+          "verse_notes": {
+            "5:106": {
+              "explanation": "Аят задаёт исходную процедуру свидетелей завещания и их клятв при сомнении; замена изложена в следующем аяте.",
+              "key_phrase": {
+                "text": "если вы усомнитесь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "5:107"
+              ]
+            },
+            "5:107": {
+              "explanation": "Если обнаружена виновность первых двух, их место занимают двое из близких правообладателей и приносят клятву.",
+              "key_phrase": {
+                "text": "пусть двое других самых близких родственников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:108": {
+              "explanation": "Возможность последующих клятв названа средством добиться правдивых свидетельств в той же процедуре.",
+              "key_phrase": {
+                "text": "другие клятвы будут принесены после их клятв",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "5:107"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0408-item-006",
+          "description": "Оспаривание ложного свидетельства в деле завещания",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:107",
+            "5:108"
+          ],
+          "verse_notes": {
+            "5:107": {
+              "explanation": "Новые клянущиеся утверждают преимущество своего свидетельства после обнаружения греха первых свидетелей.",
+              "key_phrase": {
+                "text": "Наше свидетельство вернее их свидетельства",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:108": {
+              "explanation": "Объяснено, почему возможность оспаривания последующими клятвами побуждает первых свидетелей говорить правду.",
+              "key_phrase": {
+                "text": "принесли истинное свидетельство",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "5:107"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0408-item-007",
+          "description": "свидетельствуя, следовать правде, невзирая ни на что",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:135",
+            "5:106",
+            "65:2"
+          ],
+          "verse_notes": {
+            "4:135": {
+              "explanation": "Правда должна быть сохранена даже против себя и близких; богатство или бедность стороны не оправдывают пристрастность.",
+              "key_phrase": {
+                "text": "если даже свидетельство будет против вас самих",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:106": {
+              "explanation": "Свидетели обещают не продавать клятву за выгоду и не предпочитать родственника истине.",
+              "key_phrase": {
+                "text": "даже если он является нашим близким родственником",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "65:2": {
+              "explanation": "Прямое требование свидетельствовать ради Аллаха сопровождает выбор справедливых свидетелей.",
+              "key_phrase": {
+                "text": "будьте свидетелями ради Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0408-item-008",
+          "description": "указание о присутствии свидетелей сделки",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:282"
+          ],
+          "verse_notes": {
+            "2:282": {
+              "explanation": "При заключении торгового договора предписано призывать свидетелей даже после оговорки о возможности не записывать наличную сделку.",
+              "key_phrase": {
+                "text": "призывайте свидетелей, если вы заключаете торговый договор",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0408-item-009",
+          "description": "уклонение от свидетельствования",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:282"
+          ],
+          "verse_notes": {
+            "2:282": {
+              "explanation": "Приглашённым свидетелям прямо велено не отказываться от свидетельствования.",
+              "key_phrase": {
+                "text": "Свидетели не должны отказываться, если их приглашают",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0409",
+      "title": "свидетельства",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0409-item-001",
+          "description": "Знамения в творении, указывающие на могущество Аллаха",
+          "relation_type": "topic",
+          "verse_keys": [
+            "10:5",
+            "10:6",
+            "30:20",
+            "30:21",
+            "30:22",
+            "30:23",
+            "30:24",
+            "30:25",
+            "30:26",
+            "30:27",
+            "45:3",
+            "45:4",
+            "45:5",
+            "45:6"
+          ],
+          "verse_notes": {
+            "10:5": {
+              "explanation": "Устроение солнца, лунного света и фаз луны приведено как осмысленное творение и знамения для знающих.",
+              "key_phrase": {
+                "text": "Он установил для нее фазы",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "10:6": {
+              "explanation": "Смена дня и ночи и сотворённое на небесах и земле прямо названы знамениями.",
+              "key_phrase": {
+                "text": "в смене ночи и дня",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:20": {
+              "explanation": "Происхождение людей из земли и их расселение прямо включены в знамения Господа.",
+              "key_phrase": {
+                "text": "Он сотворил вас из земли",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:21": {
+              "explanation": "Супружество, любовь и милосердие названы знамениями для размышляющих.",
+              "key_phrase": {
+                "text": "установил между вами любовь и милосердие",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:22": {
+              "explanation": "Сотворение небес и земли, разнообразие языков и цветов людей названы знамениями.",
+              "key_phrase": {
+                "text": "различие ваших языков и цветов",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:23": {
+              "explanation": "Сон и поиски милости Аллаха отнесены к Его знамениям в человеческой жизни.",
+              "key_phrase": {
+                "text": "ваш ночной и дневной сон",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:24": {
+              "explanation": "Молния, дождь и оживление земли составляют прямо названные знамения.",
+              "key_phrase": {
+                "text": "ниспосылает с неба воду и оживляет ею землю",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:25": {
+              "explanation": "Устойчивость неба и земли по воле Господа соединена с обещанием воскресения по Его зову.",
+              "key_phrase": {
+                "text": "небо и земля держатся по Его воле",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "30:26": {
+              "explanation": "Вслед за знамениями утверждается всеобщая принадлежность творений Аллаху и их покорность; это вывод о Его власти.",
+              "key_phrase": {
+                "text": "Все они покорны Ему",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "30:25"
+              ]
+            },
+            "30:27": {
+              "explanation": "Первое творение приведено как довод способности воссоздать его при воскресении.",
+              "key_phrase": {
+                "text": "создает творения в первый раз, а затем воссоздает их",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "45:3": {
+              "explanation": "Небеса и земля прямо названы местом знамений для верующих.",
+              "key_phrase": {
+                "text": "на небесах и на земле есть знамения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "45:4": {
+              "explanation": "Сотворение людей и распространённых живых существ названо знамением для убеждённых.",
+              "key_phrase": {
+                "text": "В сотворении вас и живых тварей",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "45:5": {
+              "explanation": "Смена дня и ночи, оживление земли ниспосланным уделом и ветры названы знамениями для разумеющих.",
+              "key_phrase": {
+                "text": "в смене ветров есть знамения",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "45:6": {
+              "explanation": "Прочитанные знамения творения завершаются вопросом о вере в знамения Аллаха; конкретная связь задаётся 45:3-5.",
+              "key_phrase": {
+                "text": "Вот аяты Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "45:3",
+                "45:4",
+                "45:5"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0410",
+      "title": "свидетельство",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0410-item-001",
+          "description": "Свидетели завещания из немусульман при смерти в путешествии",
+          "relation_type": "topic",
+          "verse_keys": [
+            "5:106"
+          ],
+          "verse_notes": {
+            "5:106": {
+              "explanation": "Ас-Саади объясняет «двое других не из вас» как людей иной религии, привлекаемых по нужде при отсутствии мусульманских свидетелей завещания в дороге.",
+              "key_phrase": {
+                "text": "или двое других не из вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-5-106"
+              ],
+              "qualification": "Сохранено конкретное толкование ас-Саади и его условия необходимости; это не универсальное разрешение немусульманского свидетельства во всех делах."
+            }
+          }
+        },
+        {
+          "id": "topic-0410-item-004",
+          "description": "о будущем свидетельстве глаз, ушей и кожи",
+          "relation_type": "topic",
+          "verse_keys": [
+            "41:20",
+            "41:21",
+            "41:22"
+          ],
+          "verse_notes": {
+            "41:20": {
+              "explanation": "Слух, взоры и кожа человека прямо названы будущими свидетелями совершённых им дел.",
+              "key_phrase": {
+                "text": "их слух, их взоры и их кожа станут свидетельствовать против них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:21": {
+              "explanation": "Кожа отвечает на упрёк, что способность говорить и свидетельствовать дал ей Аллах.",
+              "key_phrase": {
+                "text": "Нас заставил говорить Аллах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:22": {
+              "explanation": "Людям напоминают, что они не укрывались от свидетельства собственных слуха, зрения и кожи.",
+              "key_phrase": {
+                "text": "от свидетельств вашего слуха, ваших взоров и вашей кожи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0410-item-003",
+          "description": "Свидетельство человека и его органов против него самого",
+          "relation_type": "topic",
+          "verse_keys": [
+            "6:130",
+            "24:24",
+            "36:65",
+            "41:20",
+            "41:21",
+            "41:22",
+            "75:14",
+            "75:15"
+          ],
+          "verse_notes": {
+            "6:130": {
+              "explanation": "Джинны и люди сами признают получение предупреждений и собственное неверие; речь не о ложном самообвинении.",
+              "key_phrase": {
+                "text": "Мы свидетельствуем против самих себя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:24": {
+              "explanation": "Языки, руки и ноги обвинителей целомудренных будут свидетельствовать об их делах.",
+              "key_phrase": {
+                "text": "их языки, руки и ноги будут свидетельствовать",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "36:65": {
+              "explanation": "При запечатанных устах руки говорят, а ноги свидетельствуют: это показание органов, не добровольное признание.",
+              "key_phrase": {
+                "text": "Их руки будут говорить с Нами",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:20": {
+              "explanation": "Против человека свидетельствуют его слух, взоры и кожа.",
+              "key_phrase": {
+                "text": "станут свидетельствовать против них",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:21": {
+              "explanation": "Ответ кожи показывает, что её свидетельство совершается по воле Аллаха, а не по желанию обвиняемого.",
+              "key_phrase": {
+                "text": "Почему вы стали свидетельствовать против нас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "41:22": {
+              "explanation": "Напоминается о будущем свидетельстве собственных органов, которого люди не принимали в расчёт.",
+              "key_phrase": {
+                "text": "от свидетельств вашего слуха, ваших взоров и вашей кожи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "75:14": {
+              "explanation": "Человек назван свидетелем против самого себя.",
+              "key_phrase": {
+                "text": "человек будет свидетельствовать против самого себя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "75:15": {
+              "explanation": "Попытки оправдаться не устраняют свидетельство человека против себя, названное в предыдущем аяте.",
+              "key_phrase": {
+                "text": "даже если он будет оправдываться",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "75:14"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0411",
+      "title": "свинина",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0411-item-001",
+          "description": "о свинине",
+          "relation_type": "topic",
+          "verse_keys": [
+            "6:145",
+            "16:115"
+          ],
+          "verse_notes": {
+            "6:145": {
+              "explanation": "Мясо свиньи прямо включено в запрещённую пищу и названо скверной; исключение при вынужденности сохраняется в том же аяте.",
+              "key_phrase": {
+                "text": "мясо свиньи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:115": {
+              "explanation": "Среди запретной пищи прямо указано мясо свиньи и оговорён случай вынужденности.",
+              "key_phrase": {
+                "text": "мясо свиньи",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0411-item-002",
+          "description": "Запрет употребления свинины и исключение при вынужденности",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:173",
+            "5:3",
+            "6:145",
+            "16:115"
+          ],
+          "verse_notes": {
+            "2:173": {
+              "explanation": "Мясо свиньи запрещено, но при вынужденности без стремления к запретному и превышения необходимости грех снимается.",
+              "key_phrase": {
+                "text": "не преступая пределы необходимого",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "5:3": {
+              "explanation": "Запрет свинины сопровождается исключением для вынужденного голодом без склонности к греху.",
+              "key_phrase": {
+                "text": "от голода, а не из склонности к греху",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:145": {
+              "explanation": "Свинина названа запретной пищей, после чего оговорено вынужденное употребление без преступания необходимого.",
+              "key_phrase": {
+                "text": "не домогаясь запретного и не преступая пределы необходимого",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "16:115": {
+              "explanation": "Повторены запрет свинины и исключение для вынужденного, не ищущего запретного и не превышающего необходимое.",
+              "key_phrase": {
+                "text": "не преступая пределы необходимого",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

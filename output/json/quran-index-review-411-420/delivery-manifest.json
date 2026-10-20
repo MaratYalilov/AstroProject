@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 85,
+    "retained_original_links": 73,
+    "removed_original_links": 12,
+    "added_links": 4,
+    "result_links": 77,
+    "result_unique_verses": 67,
+    "cumulative_topics": 420,
+    "cumulative_links": 21670
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 411-420.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-411-420\\Указатель аятов - темы 411-420.json",
+      "sha256": "bb47c0968f58be4f14bf655242440079ae1a4119ca854240e354aebe24d721f5"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-420.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-411-420\\Указатель аятов - проверенные темы 1-420.json",
+      "sha256": "9598fe58a800b7ddc1f586e6053dcbcf6d251bc4cd128c9de3e926bbd6ac2090"
+    },
+    {
+      "name": "Темы 411-420 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-411-420\\Темы 411-420 - журнал проверки.json",
+      "sha256": "2de38c0eb0b3970337a93d8270805a8d8549916d0bcfb3dd38a26519b3c5aaee"
+    },
+    {
+      "name": "Темы 411-420 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-411-420\\Темы 411-420 - отчёт.md",
+      "sha256": "c570daa3b873a0d8e755a8c0ccb1a7de742823de49f16a423ec59dede1c43b61"
+    }
+  ]
+}
