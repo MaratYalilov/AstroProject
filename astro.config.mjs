@@ -7,6 +7,11 @@ import mermaid from 'astro-mermaid';
 
 export default defineConfig({
   site: 'https://hutba.org',
+    security: {
+    allowedDomains: [
+      { hostname: 'hutba.org', protocol: 'https' }
+    ]
+  },
   integrations: [
     // Диаграммы Mermaid: ```mermaid в .md-уроках обрабатывает сама интеграция,
     // а в теории уроков (raw Markdown → marked) — src/utils/mermaid.ts.
