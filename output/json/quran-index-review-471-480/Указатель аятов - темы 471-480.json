@@ -1,0 +1,1017 @@
+{
+  "schema_version": 2,
+  "source_id": "quran-ayat-index-dilya-2011",
+  "language": "ru",
+  "text_source_id": "site-quran",
+  "text_editions": {
+    "translation_id": "ru.kuliev",
+    "arabic_id": "quran-uthmani-hafs"
+  },
+  "basis_definitions": {
+    "sahih_hadith": "Именная связь в достоверном хадисе",
+    "hadith_hasan_or_sahih": "Именная связь в хадисе: хасан у ат-Тирмизи, сахих по оценке Darussalam",
+    "hadith_and_tafsir": "Сообщение в хадисном сборнике и объяснение тафсира; оговорки указаны отдельно",
+    "tafsir_attribution": "Именное отнесение в названном тафсире; это не самостоятельная оценка достоверности исторического сообщения",
+    "passage_context": "Связь по контексту подтверждённого отрывка; не отдельный повод ниспослания",
+    "quran_text": "Связь следует из содержания аята в локальном арабском тексте и его переводе Кулиева.",
+    "tafsir_interpretation": "Толкование выражения по указанному тафсиру; альтернативные толкования отмечены.",
+    "context": "Связь установлена по конкретному указанному контексту; соседство само по себе не подтверждает связь.",
+    "tafsir_person_association": "Именная связь приведена в указанном тафсире; сама запись не является самостоятельным подтверждением достоверности иснада.",
+    "sahih_hadith_thematic": "Тематическая связь подтверждена конкретным достоверным хадисом; отличается от прямого содержания аята.",
+    "tafsir_historical_context": "Отнесение к историческому событию или его контексту по указанному тафсиру; отличается от прямого называния события в аяте."
+  },
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "c127c5bca1df7239fc541d44dd6339362c0336bfd08fe2404004e0e697f5ec78",
+          "previous_sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно.",
+      "approved_local_corrections": [
+        {
+          "verse_key": "35:25",
+          "date": "2026-10-17",
+          "original_start": "Если они не сочли тебя лжецом",
+          "corrected_start": "Если они сочли тебя лжецом",
+          "note": "По поручению владельца удалена лишняя частица «не». В арабском начале وَإِن يُكَذِّبُوكَ отрицания нет; тот же оборот начинает 35:4. Тафсир ас-Саади подтверждает смысл «если сочтут тебя лжецом». Ошибочная формулировка встречается также в опубликованных копиях перевода Кулиева; это локальная редакционная правка, а не заявленное авторское исправление.",
+          "sources": [
+            "https://quran.ksu.edu.sa/tafseer/saadi/sura35-aya25.html",
+            "https://quran.ksu.edu.sa/tafseer/saadi/sura35-aya4.html",
+            "https://ru.quranacademy.org/feedback/detail/517/"
+          ],
+          "previous_file_sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        }
+      ]
+    },
+    "ksu-saadi-58-7": {
+      "title": "Ас-Саади, толкование 58:7",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura58-aya7.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 58,
+        "aya": 7,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-31": {
+      "title": "Ас-Саади, толкование 7:31",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya31.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 31,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-43": {
+      "title": "Ас-Саади, толкование 4:43",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya43.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 43,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-32": {
+      "title": "Ас-Саади, толкование 7:32",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya32.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 32,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-196": {
+      "title": "Ас-Саади, толкование 2:196",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya196.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 196,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-59-18": {
+      "title": "Ас-Саади, толкование 59:18",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura59-aya18.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 59,
+        "aya": 18,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-49-12": {
+      "title": "Ас-Саади, толкование 49:12",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura49-aya12.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 49,
+        "aya": 12,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-40-19": {
+      "title": "Ас-Саади, толкование 40:19",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura40-aya19.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 40,
+        "aya": 19,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-58-10": {
+      "title": "Ас-Саади, толкование 58:10",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura58-aya10.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 58,
+        "aya": 10,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-66-3": {
+      "title": "Ас-Саади, толкование 66:3",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura66-aya3.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 66,
+        "aya": 3,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-3-120": {
+      "title": "Ас-Саади, толкование 3:120",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura3-aya120.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 3,
+        "aya": 120,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-59-19": {
+      "title": "Ас-Саади, толкование 59:19",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura59-aya19.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 59,
+        "aya": 19,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-26": {
+      "title": "Ас-Саади, толкование 7:26",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya26.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 26,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "topic-0536",
+      "title": "таваф",
+      "see_also": [
+        "Кааба"
+      ],
+      "items": [],
+      "scope_note": "Перекрёстная ссылка на тему Кааба. Самостоятельных ссылок на аяты в этом пункте исходника нет; существование целевой темы проверено, её ранее завершённое содержимое не менялось."
+    },
+    {
+      "id": "topic-0451",
+      "title": "таджассус (шпионство)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0451-item-001",
+          "description": "Запрет выслеживания скрытых недостатков друг друга",
+          "relation_type": "topic",
+          "verse_keys": [
+            "49:12"
+          ],
+          "verse_notes": {
+            "49:12": {
+              "explanation": "Прямой запрет следить друг за другом дан рядом с запретами необоснованных подозрений и злословия. Ас-Саади поясняет таджассус как поиск скрытых недостатков мусульман.",
+              "key_phrase": {
+                "text": "Не следите друг за другом",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-49-12"
+              ],
+              "qualification": "Смысл конкретного запрета не расширяется здесь до утверждения о любых разведывательных действиях в любых обстоятельствах."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0452",
+      "title": "тайаммум (омовение тем, что на поверхности земли)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0452-item-001",
+          "description": "Тайаммум при отсутствии воды: обращение к чистой земле и протирание лица и рук",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:43",
+            "5:6"
+          ],
+          "verse_notes": {
+            "4:43": {
+              "explanation": "В предписаниях об очищении перед молитвой названы болезнь, путешествие и нарушения очищения; при отсутствии воды велено обратиться к чистой земле и обтереть лицо и руки.",
+              "key_phrase": {
+                "text": "направьтесь к чистой земле и оботрите ваши лица и руки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-4-43"
+              ],
+              "qualification": "Ссылка подтверждает само предписание тайаммума; число прикосновений, границы протирания и разногласия о видах земли здесь отдельно не устанавливаются."
+            },
+            "5:6": {
+              "explanation": "После предписаний водного очищения при отсутствии воды названо протирание лица и рук чистой землёй; цель облегчения связана с очищением и полнотой милости Аллаха.",
+              "key_phrase": {
+                "text": "направьтесь к чистой земле и оботрите ею ваши лица и руки",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0453",
+      "title": "тайна",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0453-item-001",
+          "description": "Аллах ведает и о предательстве глаз, и о тайнах сердец",
+          "relation_type": "topic",
+          "verse_keys": [
+            "40:19"
+          ],
+          "verse_notes": {
+            "40:19": {
+              "explanation": "Аллах знает как скрытный предательский взгляд, так и содержимое сердец, не раскрытое другим людям.",
+              "key_phrase": {
+                "text": "Он знает о предательском взгляде и том, что скрывают груди",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-40-19"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0453-item-002",
+          "description": "Тайные беседы: содержание, ответственность и злонамеренные переговоры",
+          "relation_type": "topic",
+          "verse_keys": [
+            "4:114",
+            "21:2",
+            "21:3",
+            "58:7",
+            "58:8",
+            "58:9",
+            "58:10"
+          ],
+          "verse_notes": {
+            "4:114": {
+              "explanation": "Тайные беседы различаются по содержанию: добро отмечено в милостыне, одобряемом и примирении; искренним участникам обещана награда.",
+              "key_phrase": {
+                "text": "если только они не призывают раздавать милостыню",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "21:2": {
+              "explanation": "Описано беспечное слушание откровения теми адресатами, чьи скрытые обвинения Посланника приведены в следующем аяте.",
+              "key_phrase": {
+                "text": "они выслушивали его, забавляясь",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "21:3"
+              ]
+            },
+            "21:3": {
+              "explanation": "Беззаконники тайно обсуждают человеческую природу Посланника и обвиняют его призыв в колдовстве.",
+              "key_phrase": {
+                "text": "говорили между собой тайком",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "58:7": {
+              "explanation": "Ни одна тайная беседа, независимо от числа участников и места, не скрыта от знания Аллаха; в День воскресения Он объявит совершённое.",
+              "key_phrase": {
+                "text": "Не бывает тайной беседы между тремя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-58-7"
+              ],
+              "qualification": "По ас-Саади, упоминание присутствия Аллаха с беседующими означает знание и полный охват их разговора."
+            },
+            "58:8": {
+              "explanation": "Нарушители возвращаются к запрещённым разговорам о грехах, посягательстве и неповиновении Посланнику.",
+              "key_phrase": {
+                "text": "тайно переговариваются о грехах",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "58:9": {
+              "explanation": "Верующим запрещены греховные тайные переговоры, но разрешены и предписаны беседы о благочестии и богобоязненности.",
+              "key_phrase": {
+                "text": "говорите о благочестии и богобоязненности",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "58:10": {
+              "explanation": "Злонамеренные тайные переговоры направлены на огорчение верующих; их вред ограничен дозволением Аллаха, поэтому велено уповать на Него.",
+              "key_phrase": {
+                "text": "стремящегося опечалить тех, которые уверовали",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-58-10"
+              ],
+              "context_verse_keys": [
+                "58:8",
+                "58:9"
+              ],
+              "qualification": "По ас-Саади здесь имеются в виду враждебные переговоры с кознями. Это не запрет всех конфиденциальных бесед; доброе содержание прямо названо в 58:9."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0454",
+      "title": "тайны",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0454-item-001",
+          "description": "Разглашение доверенной тайны в семье Пророка",
+          "relation_type": "topic",
+          "verse_keys": [
+            "66:3"
+          ],
+          "verse_notes": {
+            "66:3": {
+              "explanation": "Пророк доверил сообщение одной из жён; она передала его дальше, и Аллах сообщил ему об этом. Ас-Саади поясняет, что поручение не разглашать было нарушено.",
+              "key_phrase": {
+                "text": "Когда же она рассказала ее",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-66-3"
+              ],
+              "qualification": "Содержание тайны и имя жены здесь не устанавливаются: сам аят их не называет, а варианты исторических сообщений требуют отдельной проверки."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0455",
+      "title": "таква (богобоязненность)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0455-item-001",
+          "description": "Обещанные блага, защита и награда богобоязненным",
+          "relation_type": "topic",
+          "verse_keys": [
+            "3:15",
+            "3:120",
+            "3:133",
+            "3:172",
+            "3:179",
+            "3:198",
+            "6:32",
+            "8:29",
+            "12:57",
+            "12:109",
+            "19:63",
+            "24:52",
+            "39:73",
+            "68:34",
+            "77:41",
+            "77:42"
+          ],
+          "verse_notes": {
+            "3:15": {
+              "explanation": "Богобоязненным обещаны вечные Райские сады, очищенные супруги и довольство Аллаха, превосходящие земные блага.",
+              "key_phrase": {
+                "text": "Для тех, кто богобоязнен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:120": {
+              "explanation": "Терпение и богобоязненность связаны с обещанием защиты от вреда враждебных козней.",
+              "key_phrase": {
+                "text": "если вы будете терпеливы и богобоязненны",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-3-120"
+              ]
+            },
+            "3:133": {
+              "explanation": "Призыв стремиться к прощению и Раю завершается указанием, что Рай приготовлен богобоязненным.",
+              "key_phrase": {
+                "text": "уготованному для богобоязненных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:172": {
+              "explanation": "Великая награда обещана ответившим на призыв после ранений, которые совершали добро и сохраняли богобоязненность.",
+              "key_phrase": {
+                "text": "вершили добро и были богобоязненны",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:179": {
+              "explanation": "Вера в Аллаха и посланников вместе с богобоязненностью связана с великой наградой.",
+              "key_phrase": {
+                "text": "будете богобоязненны, то получите великую награду",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "3:198": {
+              "explanation": "Боящимся Господа обещаны вечные Райские сады как угощение от Аллаха.",
+              "key_phrase": {
+                "text": "для тех, которые боятся своего Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "6:32": {
+              "explanation": "Последняя обитель объявлена лучшей для богобоязненных по сравнению с мирской игрой и развлечением.",
+              "key_phrase": {
+                "text": "последняя обитель лучше для тех, кто богобоязнен",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "8:29": {
+              "explanation": "Богобоязненность связана с различением истины и лжи, искуплением прегрешений и прощением.",
+              "key_phrase": {
+                "text": "отпустит вам ваши прегрешения и простит вас",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "12:57": {
+              "explanation": "Награда Последней жизни названа лучшей для верующих и богобоязненных.",
+              "key_phrase": {
+                "text": "были богобоязненны",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "12:109": {
+              "explanation": "После назидания исходом прежних народов Последняя обитель названа лучшей для богобоязненных.",
+              "key_phrase": {
+                "text": "обитель в Последней жизни лучше для богобоязненных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "19:63": {
+              "explanation": "Наследование Рая обещано тем рабам Аллаха, которые были богобоязненны.",
+              "key_phrase": {
+                "text": "которые были богобоязненны",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "24:52": {
+              "explanation": "Повинующиеся Аллаху и Посланнику, боящиеся Аллаха и сохраняющие богобоязненность названы достигшими успеха.",
+              "key_phrase": {
+                "text": "исповедуют богобоязненность, обрели успех",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "39:73": {
+              "explanation": "Боящихся Господа группами проводят в Рай с приветствием мира и приглашением войти навечно.",
+              "key_phrase": {
+                "text": "тех, которые боялись своего Господа",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "68:34": {
+              "explanation": "Для богобоязненных прямо обещаны Сады блаженства у Господа.",
+              "key_phrase": {
+                "text": "для богобоязненных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "77:41": {
+              "explanation": "Богобоязненным обещано пребывание среди теней и источников.",
+              "key_phrase": {
+                "text": "богобоязненные, воистину, пребудут среди сеней и источников",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "77:42": {
+              "explanation": "Желаемые плоды дополняют блага богобоязненных, прямо названных в предыдущем аяте.",
+              "key_phrase": {
+                "text": "плодов, каких только пожелают",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "77:41"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0455-item-002",
+          "description": "о богобоязненности",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:2",
+            "59:18",
+            "59:19"
+          ],
+          "verse_notes": {
+            "2:2": {
+              "explanation": "Безусловная истинность Писания соединена с его назначением быть руководством для богобоязненных.",
+              "key_phrase": {
+                "text": "верным руководством для богобоязненных",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "59:18": {
+              "explanation": "Верующим дважды велено бояться Аллаха и оценить приготовленное для будущего расчёта; ас-Саади разъясняет это как проверку собственных дел перед Последним днём.",
+              "key_phrase": {
+                "text": "Бойтесь Аллаха, и пусть душа посмотрит",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-59-18"
+              ]
+            },
+            "59:19": {
+              "explanation": "Наставление верующим из 59:18 продолжено запретом уподобляться забывшим Аллаха и потому забывшим благо собственной души.",
+              "key_phrase": {
+                "text": "Не будьте подобны тем, которые забыли Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-59-19"
+              ],
+              "context_verse_keys": [
+                "59:18"
+              ]
+            }
+          }
+        },
+        {
+          "id": "topic-0455-item-003",
+          "description": "одеяние таква",
+          "relation_type": "topic",
+          "verse_keys": [
+            "7:26"
+          ],
+          "verse_notes": {
+            "7:26": {
+              "explanation": "После упоминания одежды для тела одеяние богобоязненности названо лучшим. Ас-Саади объясняет его как красоту сердца и души, отличную от внешнего прикрытия и украшения.",
+              "key_phrase": {
+                "text": "одеяние из богобоязненности - лучше",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-7-26"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0456",
+      "title": "талак",
+      "see_also": [
+        "развод"
+      ],
+      "items": [],
+      "scope_note": "Перекрёстная ссылка на ранее проверенную тему развод. Собственных ссылок на аяты в этом пункте исходника нет; целевая тема существует, её завершённое содержимое не менялось."
+    },
+    {
+      "id": "topic-0457",
+      "title": "Талут (Саул)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0457-item-001",
+          "description": "Назначение Талута, испытание войска и победа над Джалутом",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:246",
+            "2:247",
+            "2:248",
+            "2:249",
+            "2:250",
+            "2:251"
+          ],
+          "verse_notes": {
+            "2:246": {
+              "explanation": "Знать сынов Исраила после Мусы просит своего пророка назначить царя для сражения; это вводит историю Талута, названного далее.",
+              "key_phrase": {
+                "text": "Назначь для нас царя",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:247"
+              ],
+              "qualification": "Аят прямо относит просьбу ко времени после Мусы. Имя другого пророка не добавляется, поскольку здесь оно не названо."
+            },
+            "2:247": {
+              "explanation": "Пророк объявляет избрание Талута царём и объясняет его превосходство знаниями и статью вопреки возражениям о недостатке имущества.",
+              "key_phrase": {
+                "text": "Аллах назначил вам царем Талута",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:248": {
+              "explanation": "Знамением царствия Талута станет доставленный ангелами сундук с умиротворением и наследием семей Мусы и Харуна.",
+              "key_phrase": {
+                "text": "Знамением его царствия",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:247"
+              ]
+            },
+            "2:249": {
+              "explanation": "Талут испытывает войско рекой; после перехода обнаруживаются колебания одних и вера стойких в помощь Аллаха малочисленному отряду.",
+              "key_phrase": {
+                "text": "Аллах подвергнет вас испытанию рекой",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "2:250": {
+              "explanation": "Перед войском Джалута оставшиеся верующие просят терпения, стойкости и победы; это продолжение похода Талута.",
+              "key_phrase": {
+                "text": "Пролей на нас терпение",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:249"
+              ]
+            },
+            "2:251": {
+              "explanation": "Войско побеждает по дозволению Аллаха, Давуд убивает Джалута и получает царство и мудрость; этим завершается рассказ о походе Талута.",
+              "key_phrase": {
+                "text": "Давуд (Давид) убил Джалута",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "passage_context",
+              "source_ids": [
+                "site-quran"
+              ],
+              "context_verse_keys": [
+                "2:249",
+                "2:250"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0458",
+      "title": "таматту (умра и хадж с выходом из ихрама между ними)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0458-item-001",
+          "description": "Таматту: жертвоприношение, а при невозможности - десять дней поста",
+          "relation_type": "topic",
+          "verse_keys": [
+            "2:196"
+          ],
+          "verse_notes": {
+            "2:196": {
+              "explanation": "В аяте установлен дар-жертва совершающему умру перед хаджем; при невозможности предписаны три дня поста во время хаджа и семь после него. Ас-Саади объясняет таматту как два обряда в одной поездке с пользованием разрешённым после умры до начала хаджа.",
+              "key_phrase": {
+                "text": "всякий, кто совершает малое паломничество и прерываемый хадж",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-2-196"
+              ],
+              "qualification": "Предписание снабжено условием о семье, не живущей у Заповедной мечети. Перерыв между обрядами разъясняет тафсир; это не описание любой умры, совершённой во время хаджа."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "topic-0459",
+      "title": "тасаттур (укрытие срамных мест, облачение в чистые одежды)",
+      "see_also": [],
+      "items": [
+        {
+          "id": "topic-0459-item-001",
+          "description": "Прикрытие наготы, подобающая одежда при молитве и дозволенное украшение",
+          "relation_type": "topic",
+          "verse_keys": [
+            "7:26",
+            "7:31",
+            "7:32"
+          ],
+          "verse_notes": {
+            "7:26": {
+              "explanation": "Одежда дана людям для прикрытия срамных мест и украшения; внешняя одежда отличена от превосходящего её одеяния богобоязненности.",
+              "key_phrase": {
+                "text": "одеяние для прикрытия ваших срамных мест",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "quran_text",
+              "source_ids": [
+                "site-quran"
+              ]
+            },
+            "7:31": {
+              "explanation": "Повеление облачаться при каждой мечети ас-Саади объясняет как прикрытие наготы при молитве, а также допускает смысл чистой, хорошей одежды и опрятности.",
+              "key_phrase": {
+                "text": "Облекайтесь в свои украшения при каждой мечети",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-7-31"
+              ]
+            },
+            "7:32": {
+              "explanation": "Опровергается самовольный запрет дарованных Аллахом украшений. Ас-Саади включает в них различные виды одежды; это дополняет тему облачения дозволенностью украшения.",
+              "key_phrase": {
+                "text": "Кто запретил украшения Аллаха",
+                "language": "ru",
+                "translation_id": "ru.kuliev"
+              },
+              "basis": "tafsir_interpretation",
+              "source_ids": [
+                "site-quran",
+                "ksu-saadi-7-32"
+              ],
+              "qualification": "Аят о дозволенных украшениях не устанавливает сам по себе конкретные границы прикрываемых частей тела."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

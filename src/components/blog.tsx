@@ -3,6 +3,7 @@ import React from "react";
 import { ReducedMotionProvider } from "./motion/ReducedMotionProvider";
 import { useGlossaryTermTarget } from './hooks/useGlossaryTermTarget';
 import TeacherCredit from './TeacherCredit';
+import LessonFeedback from './feedback/LessonFeedback';
 import {
   ChevronLeft,
   ChevronRight,
@@ -629,6 +630,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
               // HTML parsing normalizes CRLF; use the same text during hydration.
               dangerouslySetInnerHTML={{ __html: articleHtml }}
             />
+          <LessonFeedback title={lessonTitle} url={buildLessonUrl(currentLesson.slug)} />
 
           <div className="mt-4 grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
             <div className="flex justify-start">
@@ -741,7 +743,7 @@ const BlogLessonPage: React.FC<BlogLessonPageProps> = ({
 
               <CardContent className="p-0">
                 <div ref={sidebarScrollRef} className="h-[65vh] overflow-y-auto px-2 pb-3">
-                  {/* 1) Предисловие — просто ссылка */}
+                  {/* 1) Предисловие - просто ссылка */}
                   {predLesson && (
                     <div className="mb-3">
                       <a

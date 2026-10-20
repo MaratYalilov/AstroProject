@@ -4,6 +4,7 @@ import LessonComplete from "./LessonComplete";
 import { ReducedMotionProvider } from "../motion/ReducedMotionProvider";
 import { useGlossaryTermTarget } from '../hooks/useGlossaryTermTarget';
 import TeacherCredit from '../TeacherCredit';
+import LessonFeedback from '../feedback/LessonFeedback';
 
 type TitleSegment = {
   text: string;
@@ -39,7 +40,7 @@ export default function InteractiveLessonPage({
   }, [lesson.blocks]);
 
   // Если у урока нет собственного блока «Итог урока» (lesson-complete),
-  // добавляем стандартную кнопку «Отметить завершённым» в конце —
+  // добавляем стандартную кнопку «Отметить завершённым» в конце -
   // так прогресс работает и в курсах на MatnBlock (koran-2-uroven, dzhazariyya).
   const hasCompleteBlock = useMemo(
     () => lesson.blocks.some((b) => b.type === "lesson-complete"),
@@ -70,6 +71,10 @@ export default function InteractiveLessonPage({
           text="Отметьте урок пройденным, чтобы он учитывался в прогрессе курса."
         />
       )}
+      <LessonFeedback
+        title={lesson.title}
+        url={`/${subject}/${course}?${new URLSearchParams({lesson: lesson.slug ?? ''})}`}
+      />
     </div>
     </ReducedMotionProvider>
   );

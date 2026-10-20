@@ -1,5 +1,6 @@
 ---
 import LessonArticle from "./LessonArticle.astro";
+import LessonFeedback from "../feedback/LessonFeedback";
 import CourseProgram from "./CourseProgram.astro";
 import LessonCompleteButton from "./LessonCompleteButton";
 import LessonPrevNext from "./LessonPrevNext.astro";
@@ -235,6 +236,7 @@ const buildLessonUrl = (slug: string) =>
                 subject={subject}
                 course={course}
               />
+              <LessonFeedback title={lessonTitle} url={Astro.url.href} />
             </section>
 
             <aside id="course-program" class="w-full lg:col-span-4">

@@ -99,6 +99,10 @@
       serif !important;
   }
 
+  .dic-card-word.arab {
+    font-size: clamp(3.2rem, 7vw, 3.6rem);
+  }
+
 /* В буквенных началах Amiri накладывает широкие знаки мадда друг на друга. */
 .arab.huruf-opening {
   font-family: "kfc_naskh-webfont", "AmiriLocal", serif !important;
@@ -726,7 +730,7 @@ footer {
 @media (max-width: 640px) {
 
   .dic-card-word.arab {
-    font-size: 2em;
+    font-size: 4em;
     line-height: 1.25;
   }
 }

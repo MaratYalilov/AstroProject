@@ -101,7 +101,7 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
               // продолжаем следующий аят
               setTrack(index + 1, true);
             } else {
-              // плейлист закончился — сбрасываемся в начало и шлём кастомное событие
+              // плейлист закончился - сбрасываемся в начало и шлём кастомное событие
               setTrack(0, false);
 
               var ev;
@@ -354,6 +354,53 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
     {description && <meta property="og:description" content={description} />}
     <meta property="og:site_name" content="HUTBA" />
     <OpenGraphImage title={ogTitle} subtitle={ogSubtitle} subject={ogSubject} image={ogImage} alt={ogImageAlt} />
+    {readingPage && <script is:inline>
+      (function () {
+        if (window.__hutbaLessonFeedbackLink) return;
+        window.__hutbaLessonFeedbackLink = true;
+        // Restore only after an explicit return from the feedback form.
+        try {
+          var saved = JSON.parse(sessionStorage.getItem('hutba.feedbackReturn') || 'null');
+          if (saved && saved.restore && saved.url === window.location.href) {
+            sessionStorage.removeItem('hutba.feedbackReturn');
+            var age = Date.now() - saved.time;
+            if (age >= 0 && age < 30 * 60 * 1000 && Number.isFinite(saved.y) && saved.y >= 0 && Number.isFinite(saved.x) && saved.x >= 0) {
+              var controller = new AbortController();
+              var cancelled = false;
+              function cancelRestore() { cancelled = true; controller.abort(); }
+              function restorePosition() {
+                if (!cancelled) window.scrollTo({left: saved.x, top: saved.y, behavior: 'instant'});
+              }
+              ['wheel', 'touchstart', 'pointerdown', 'keydown'].forEach(function (type) {
+                window.addEventListener(type, cancelRestore, {once: true, passive: true, signal: controller.signal});
+              });
+              document.addEventListener('DOMContentLoaded', function () {
+                requestAnimationFrame(restorePosition);
+              }, {once: true, signal: controller.signal});
+              window.addEventListener('load', function () {
+                restorePosition();
+                controller.abort();
+              }, {once: true, signal: controller.signal});
+            }
+          }
+        } catch (e) {}
+        document.addEventListener('click', function (event) {
+          var link = event.target instanceof Element ? event.target.closest('a[data-lesson-feedback]') : null;
+          if (!link) return;
+          var url = new URL('/feedback/bug', window.location.origin);
+          url.searchParams.set('url', window.location.href);
+          url.searchParams.set('title', link.getAttribute('data-lesson-title') || document.title);
+          link.href = url.href;
+          if (event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
+            try {
+              sessionStorage.setItem('hutba.feedbackReturn', JSON.stringify({
+                url: window.location.href, x: window.scrollX, y: window.scrollY, time: Date.now(), restore: false
+              }));
+            } catch (e) {}
+          }
+        });
+      })();
+    </script>}
     <slot name="head" />
   </head>
   <body class:list={["min-h-screen bg-background text-foreground", { "reading-page": readingPage }]}>

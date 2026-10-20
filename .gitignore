@@ -29,3 +29,6 @@ pnpm-debug.log*
 public/*
 !public/robots.txt
 !public/yandex_de2d35d38832f550.html
+
+# private feedback reports and administrator password hash
+.data/

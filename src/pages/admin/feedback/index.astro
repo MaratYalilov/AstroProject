@@ -1,0 +1,64 @@
+---
+import AdminLayout from '../../../components/feedback/AdminLayout.astro';
+import { adminSession, adminCookieName } from '../../../lib/feedback/auth';
+import { listFeedback } from '../../../lib/feedback/store';
+import { feedbackStatuses, isFeedbackStatus } from '../../../lib/feedback/validation';
+import { privateFeedbackHeaders, feedbackRedirect, adminDate } from '../../../lib/feedback/http';
+export const prerender = false;
+privateFeedbackHeaders(Astro.response.headers);
+const session = await adminSession(Astro.cookies.get(adminCookieName)?.value);
+if (!session) return feedbackRedirect('/admin/login');
+const reports = await listFeedback();
+const selected = Astro.url.searchParams.get('status');
+const status = isFeedbackStatus(selected) ? selected : 'all';
+const query = (Astro.url.searchParams.get('q') ?? '').trim().slice(0, 100);
+const search = query.toLocaleLowerCase('ru');
+const counts = {all: reports.length, new: 0, in_progress: 0, resolved: 0};
+for (const report of reports) counts[report.status]++;
+const filtered = reports.filter(report => (status === 'all' || report.status === status)
+  && (!search || [report.pageTitle, report.pageUrl, report.message].some(value => value.toLocaleLowerCase('ru').includes(search))));
+const pageSize = 25;
+const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+const page = Math.max(1, Math.min(totalPages, Number.parseInt(Astro.url.searchParams.get('page') ?? '1', 10) || 1));
+const visible = filtered.slice((page - 1) * pageSize, page * pageSize);
+function listUrl(nextStatus = status, nextPage = 1) {
+  const params = new URLSearchParams();
+  if (nextStatus !== 'all') params.set('status', nextStatus);
+  if (query) params.set('q', query);
+  if (nextPage > 1) params.set('page', String(nextPage));
+  return '/admin/feedback' + (params.size ? '?' + params : '');
+}
+const tabs = [['all', 'Все'], ['new', 'Новые'], ['in_progress', 'В работе'], ['resolved', 'Исправлено']];
+---
+<AdminLayout title="Сообщения об ошибках" csrf={session.csrf}>
+  <div class="flex flex-wrap items-end justify-between gap-3">
+    <div><h1 class="m-0 text-3xl font-semibold">Сообщения об ошибках</h1><p class="mt-3 text-muted-foreground">Обращения из уроков. Новые сообщения остаются здесь до проверки.</p></div>
+    <p class="text-xs text-muted-foreground">Время: GMT+4</p>
+  </div>
+  <nav aria-label="Статус сообщений" class="my-7 grid grid-cols-2 gap-3 lg:grid-cols-4">
+    {tabs.map(([key, label]) => <a href={listUrl(key)} aria-current={status === key ? 'page' : undefined} class:list={['rounded-xl border p-4 transition-colors', status === key ? 'border-primary bg-primary/10' : 'border-border hover:bg-muted']}>
+      <span class="block text-sm text-muted-foreground">{label}</span><strong class="mt-2 block text-3xl font-semibold">{counts[key as keyof typeof counts]}</strong>
+    </a>)}
+  </nav>
+  <form method="get" class="mb-6 flex flex-col gap-3 sm:flex-row">
+    {status !== 'all' && <input type="hidden" name="status" value={status} />}
+    <label class="min-w-0 flex-1"><span class="sr-only">Поиск сообщений</span><input type="search" name="q" value={query} maxlength="100" placeholder="Название урока, ссылка или текст ошибки" class="min-h-12 w-full rounded-lg border border-border bg-background px-4" /></label>
+    <button class="min-h-12 rounded-lg border border-border px-5 font-medium hover:bg-muted">Найти</button>
+    {query && <a href={'/admin/feedback' + (status === 'all' ? '' : '?status=' + status)} class="self-center px-2 py-3 text-sm text-muted-foreground underline">Сбросить</a>}
+  </form>
+  {visible.length ? <div class="space-y-3">
+    {visible.map(report => <article class="rounded-xl border border-border bg-muted/10 p-5">
+      <div class="mb-3 flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground">
+        <span class:list={['rounded-full border px-3 py-1', report.status === 'new' ? 'border-primary/40 text-primary' : 'border-border']}>{feedbackStatuses[report.status]}</span>
+        <time datetime={report.createdAt}>{adminDate(report.createdAt)}</time>
+      </div>
+      <h2 class="m-0 text-lg font-medium"><a href={'/admin/feedback/' + report.id} class="text-foreground hover:underline">{report.pageTitle}</a></h2>
+      <p class="my-3 break-words leading-7">{report.message.replace(/\s+/g, ' ').slice(0, 180)}{report.message.length > 180 ? '...' : ''}</p>
+      <a href={'/admin/feedback/' + report.id} class="inline-flex min-h-10 items-center text-sm font-medium text-primary underline underline-offset-4">Открыть сообщение</a>
+    </article>)}
+  </div> : <div class="rounded-xl border border-dashed border-border p-8 text-center"><h2 class="m-0 text-xl font-medium">{reports.length ? 'Ничего не найдено' : 'Сообщений пока нет'}</h2><p class="mt-3 text-muted-foreground">{reports.length ? 'Измените поисковый запрос или статус.' : 'Отправленные из уроков сообщения появятся здесь.'}</p></div>}
+  <div class="mt-6 flex flex-wrap items-center justify-between gap-4 text-sm">
+    <p class="text-muted-foreground">Найдено: {filtered.length}. Страница {page} из {totalPages}.</p>
+    <nav aria-label="Страницы сообщений" class="flex gap-4">{page > 1 && <a href={listUrl(status, page - 1)} class="py-3 text-primary underline">Назад</a>}{page < totalPages && <a href={listUrl(status, page + 1)} class="py-3 text-primary underline">Далее</a>}</nav>
+  </div>
+</AdminLayout>

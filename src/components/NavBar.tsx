@@ -10,7 +10,7 @@ import hutbaLogo from "@/assets/hutba-logo.svg?url";
 type NavItem = { label: string; href: string; match: (path: string) => boolean };
 
 const NAV: NavItem[] = [
-  { label: "Предметы", href: "/", match: (p) => p === "/" || (/^\/[a-z]/i.test(p) && !/^\/(about|glossary|search)(\/|$)/.test(p)) },
+  { label: "Предметы", href: "/", match: (p) => p === "/" || (/^\/[a-z]/i.test(p) && !/^\/(about|glossary|search|feedback|admin)(\/|$)/.test(p)) },
   { label: "Словарь", href: "/glossary", match: (p) => p === "/glossary" || p.startsWith("/glossary/") },
   { label: "О проекте", href: "/about", match: (p) => p === "/about" || p.startsWith("/about/") },
 ];

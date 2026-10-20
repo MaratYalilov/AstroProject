@@ -1,0 +1,55 @@
+---
+import AdminLayout from '../../../components/feedback/AdminLayout.astro';
+import { adminSession, adminCookieName, validCsrf } from '../../../lib/feedback/auth';
+import { getFeedback, updateFeedback } from '../../../lib/feedback/store';
+import { feedbackStatuses, isFeedbackStatus, FeedbackError, normalizeFeedbackUrl } from '../../../lib/feedback/validation';
+import { privateFeedbackHeaders, feedbackRedirect, adminDate, requireSameOrigin, readFeedbackForm } from '../../../lib/feedback/http';
+export const prerender = false;
+privateFeedbackHeaders(Astro.response.headers);
+const session = await adminSession(Astro.cookies.get(adminCookieName)?.value);
+if (!session) return feedbackRedirect('/admin/login');
+const id = Astro.params.id ?? '';
+let report = await getFeedback(id);
+let error = '';
+let note = '';
+if (!report) Astro.response.status = 404;
+if (Astro.request.method === 'POST' && report) {
+  try {
+    requireSameOrigin(Astro.request);
+    const form = await readFeedbackForm(Astro.request);
+    note = (form.get('note') ?? '').slice(0, 4000);
+    if (!validCsrf(form.get('csrf') ?? '', session)) throw new FeedbackError('Обновите страницу и попробуйте снова.', 403);
+    const status = form.get('status');
+    if (!isFeedbackStatus(status) || (form.get('note') ?? '').length > 4000) throw new FeedbackError('Проверьте статус и длину заметки.');
+    await updateFeedback(id, status, note, Number(form.get('version')));
+    return feedbackRedirect('/admin/feedback/' + id + '?saved=1');
+  } catch (cause) {
+    if (cause instanceof FeedbackError) { error = cause.message; Astro.response.status = cause.status; }
+    else { console.error('Feedback update failed', cause); error = 'Не удалось сохранить изменения. Попробуйте позже.'; Astro.response.status = 503; }
+    report = await getFeedback(id);
+  }
+}
+const lessonUrl = report ? normalizeFeedbackUrl(report.pageUrl, Astro.url.origin) : null;
+---
+<AdminLayout title="Сообщение об ошибке" csrf={session.csrf}>
+  <a href="/admin/feedback" class="inline-flex min-h-11 items-center text-sm text-primary underline underline-offset-4">Назад к сообщениям</a>
+  {report ? <>
+    <h1 class="mt-4 text-2xl font-semibold sm:text-3xl">{report.pageTitle}</h1>
+    <p class="mt-3 text-sm text-muted-foreground">Получено {adminDate(report.createdAt)} (GMT+4)</p>
+    {lessonUrl && <a href={lessonUrl} target="_blank" rel="noopener noreferrer" class="mt-3 inline-block break-all text-sm text-primary underline underline-offset-4">Открыть урок: {lessonUrl}</a>}
+    {error && <p role="alert" class="my-5 rounded-lg border border-red-500/40 p-4">{error}</p>}
+    {!error && Astro.url.searchParams.get('saved') === '1' && <p role="status" class="my-5 rounded-lg border border-emerald-500/40 p-4">Изменения сохранены.</p>}
+    <div class="mt-7 grid gap-6 lg:grid-cols-3">
+      <div class="space-y-6 lg:col-span-2">
+        <section class="rounded-xl border border-border p-5 sm:p-6"><h2 class="m-0 text-lg font-semibold">Описание ошибки</h2><p class="mt-4 whitespace-pre-wrap break-words leading-7">{report.message}</p></section>
+        {report.notes.length > 0 && <section class="rounded-xl border border-border p-5 sm:p-6"><h2 class="m-0 text-lg font-semibold">Внутренние заметки</h2><ol class="mt-4 space-y-5">{report.notes.map(item => <li class="border-t border-border pt-4"><time class="text-xs text-muted-foreground" datetime={item.at}>{adminDate(item.at)}</time><p class="mt-2 whitespace-pre-wrap break-words leading-7">{item.text}</p></li>)}</ol></section>}
+      </div>
+      <form method="post" class="h-fit space-y-5 rounded-xl border border-border bg-muted/10 p-5 sm:p-6">
+        <input type="hidden" name="csrf" value={session.csrf} /><input type="hidden" name="version" value={report.version} />
+        <div><label for="report-status" class="block font-medium">Статус</label><select id="report-status" name="status" class="mt-2 min-h-12 w-full rounded-lg border border-border bg-background px-3">{Object.entries(feedbackStatuses).map(([value, label]) => <option value={value} selected={report.status === value}>{label}</option>)}</select></div>
+        <div><label for="admin-note" class="block font-medium">Заметка для администратора</label><textarea id="admin-note" name="note" rows="5" maxlength="4000" class="mt-2 w-full rounded-lg border border-border bg-background p-3 leading-7">{note}</textarea><p class="mt-2 text-xs leading-5 text-muted-foreground">Необязательно. Заметку видит только администратор.</p></div>
+        <button type="submit" class="min-h-11 w-full rounded-lg bg-primary px-4 py-3 font-medium text-primary-foreground">Сохранить</button>
+      </form>
+    </div>
+  </> : <section class="py-12"><h1 class="text-2xl font-semibold">Сообщение не найдено</h1><p class="mt-4 text-muted-foreground">Проверьте адрес или вернитесь к списку.</p></section>}
+</AdminLayout>

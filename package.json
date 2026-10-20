@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "admin:setup": "node scripts/setup-feedback-admin.mjs",
+    "test:feedback": "node scripts/test-feedback.mjs",
     "prebuild": "node scripts/download-qcf-woff2.mjs --check && node scripts/check-qcf-ayah-fonts.mjs",
     "build": "astro build",
     "preview": "astro preview",

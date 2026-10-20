@@ -1,0 +1,40 @@
+---
+import AdminLayout from '../../components/feedback/AdminLayout.astro';
+import { readAdminCredentials } from '../../lib/feedback/store';
+import { verifyPassword } from '../../lib/feedback/credentials.mjs';
+import { adminSession, createAdminSession, adminCookieName, adminSessionSeconds } from '../../lib/feedback/auth';
+import { privateFeedbackHeaders, feedbackRedirect, requireSameOrigin, readFeedbackForm, allowFeedbackRequest, feedbackClientKey } from '../../lib/feedback/http';
+import { FeedbackError } from '../../lib/feedback/validation';
+export const prerender = false;
+privateFeedbackHeaders(Astro.response.headers);
+if (await adminSession(Astro.cookies.get(adminCookieName)?.value)) return feedbackRedirect('/admin/feedback');
+const credentials = await readAdminCredentials();
+let error = '';
+if (!credentials) Astro.response.status = 503;
+if (Astro.request.method === 'POST' && credentials) {
+  try {
+    requireSameOrigin(Astro.request);
+    const form = await readFeedbackForm(Astro.request);
+    if (!allowFeedbackRequest('login:' + feedbackClientKey(Astro.request, Astro.clientAddress), 8, 15 * 60 * 1000)) throw new FeedbackError('Слишком много попыток входа. Попробуйте через 15 минут.', 429);
+    if (!await verifyPassword(form.get('password') ?? '', credentials)) throw new FeedbackError('Неверный пароль.', 401);
+    Astro.cookies.set(adminCookieName, await createAdminSession(credentials), {
+      httpOnly: true, secure: Astro.url.protocol === 'https:' || process.env.NODE_ENV === 'production',
+      sameSite: 'strict', path: '/admin', maxAge: adminSessionSeconds,
+    });
+    return feedbackRedirect('/admin/feedback', 303);
+  } catch (cause) {
+    if (cause instanceof FeedbackError) { error = cause.message; Astro.response.status = cause.status; }
+    else { console.error('Administrator login failed', cause); error = 'Не удалось выполнить вход. Попробуйте позже.'; Astro.response.status = 503; }
+  }
+}
+---
+<AdminLayout title="Вход">
+  <section class="mx-auto max-w-md rounded-2xl border border-border bg-muted/10 p-6 sm:p-8">
+    <h1 class="m-0 text-2xl font-semibold">Вход администратора</h1>
+    {credentials ? <form method="post" class="mt-6 space-y-5">
+      {error && <p role="alert" class="rounded-lg border border-red-500/40 p-3">{error}</p>}
+      <div><label for="admin-password" class="block font-medium">Пароль</label><input id="admin-password" type="password" name="password" required maxlength="256" autocomplete="current-password" class="mt-2 min-h-12 w-full rounded-lg border border-border bg-background px-3" /></div>
+      <button type="submit" class="min-h-11 w-full rounded-lg bg-primary px-4 py-3 font-medium text-primary-foreground">Войти</button>
+    </form> : <div class="mt-5 space-y-3 leading-7"><p>Панель ещё не настроена. Задайте пароль командой в терминале сервера:</p><code class="block break-all rounded-lg bg-muted p-3 text-sm">npm run admin:setup</code><p class="text-sm text-muted-foreground">Пароль задаётся на сервере, а не через общедоступную страницу.</p></div>}
+  </section>
+</AdminLayout>

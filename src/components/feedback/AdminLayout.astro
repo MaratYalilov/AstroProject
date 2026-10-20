@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+interface Props {title: string; csrf?: string;}
+const {title, csrf} = Astro.props;
+---
+<Base title={`${title} | Администратор | HUTBA.org`}>
+  <meta slot="head" name="robots" content="noindex, nofollow" />
+  <div class="mx-auto max-w-6xl py-3 sm:py-7">
+    <header class="mb-8 flex flex-wrap items-center justify-between gap-4 border-b border-border pb-5">
+      <div><p class="m-0 text-xs uppercase tracking-widest text-muted-foreground">Администратор HUTBA</p><a href="/admin/feedback" class="mt-2 block text-lg font-semibold">Обратная связь</a></div>
+      {csrf && <form method="post" action="/admin/logout"><input type="hidden" name="csrf" value={csrf} /><button type="submit" class="min-h-11 rounded-lg border border-border px-4 text-sm hover:bg-muted">Выйти</button></form>}
+    </header>
+    <slot />
+  </div>
+</Base>

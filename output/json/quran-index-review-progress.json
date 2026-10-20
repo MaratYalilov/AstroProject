@@ -1,83 +1,45 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T08:28:46.594813+00:00",
-  "status": "awaiting_confirmation",
+  "updated_at": "2026-10-20T14:58:09.613248+00:00",
+  "status": "in_progress",
   "total_topics": 537,
   "batch_size": 10,
-  "last_completed_topic": 440,
-  "next_topic": 441,
-  "last_completed_batch": "431-440",
-  "cumulative_file": "output/json/quran-index-review-431-440/Указатель аятов - проверенные темы 1-440.json",
-  "cumulative_sha256": "6f772969a583ff2928e563d1f156b6fb91395728805d07d174808f4f5462a14e",
-  "cumulative_links": 22027,
+  "last_completed_topic": 480,
+  "next_topic": 481,
+  "last_completed_batch": "471-480",
+  "cumulative_file": "output/json/quran-index-review-471-480/Указатель аятов - проверенные темы 1-480.json",
+  "cumulative_sha256": "36971c9412fa41dfb4a1605811079bcf4e197bdbdcca3224fe8be7726233eb9d",
+  "cumulative_links": 24000,
   "current_batch": {
-    "first_topic": 431,
-    "last_topic": 440,
-    "status": "complete",
-    "working_directory": "output/json/quran-index-review-431-440/work",
-    "reviewed_original_links": 124,
-    "remaining_original_links": 0,
+    "first_topic": 481,
+    "last_topic": 490,
+    "status": "research_in_progress",
+    "working_directory": "output/json/quran-index-review-481-490/work",
+    "reviewed_original_links": 61,
+    "remaining_original_links": 294,
     "usage_check": "Штатный инструмент проверки лимитов не предоставлен в текущем наборе инструментов; сбросы и платные API не использовались.",
     "completed_item_ids": [
-      "topic-0412-item-002",
-      "topic-0413-item-001",
-      "topic-0413-item-002",
-      "topic-0414-item-001",
-      "topic-0414-item-002",
-      "topic-0414-item-004",
-      "topic-0414-item-005",
-      "topic-0414-item-003",
-      "topic-0414-item-006",
-      "topic-0414-item-007",
-      "topic-0415-item-010",
-      "topic-0535-item-001",
-      "topic-0535-item-002",
-      "topic-0535-item-003",
-      "topic-0535-item-004",
-      "topic-0535-item-005",
-      "topic-0535-item-006",
-      "topic-0535-item-007",
-      "topic-0535-item-008",
-      "topic-0416-item-001",
-      "topic-0417-item-001",
-      "topic-0418-item-001",
-      "topic-0419-item-001",
-      "topic-0419-item-002",
-      "topic-0420-item-002"
+      "topic-0461-item-001",
+      "topic-0464-item-001",
+      "topic-0464-item-002",
+      "topic-0464-item-003",
+      "topic-0464-item-004",
+      "topic-0465-item-001",
+      "topic-0466-item-001",
+      "topic-0467-item-001",
+      "topic-0467-item-002",
+      "topic-0467-item-009",
+      "topic-0467-item-004",
+      "topic-0467-item-010",
+      "topic-0467-item-011",
+      "topic-0467-item-007",
+      "topic-0467-item-012",
+      "topic-0468-item-001",
+      "topic-0468-item-002"
     ],
-    "last_saved_module": "topic_440.py",
-    "completed_at": "2026-10-20T08:28:46.594813+00:00",
-    "validation": "passed",
-    "counts": {
-      "topics_reviewed": 10,
-      "original_links_reviewed": 124,
-      "retained_original_links": 98,
-      "removed_original_links": 26,
-      "added_links": 2,
-      "result_links": 100,
-      "result_unique_verses": 81,
-      "cumulative_topics": 440,
-      "cumulative_links": 22027
-    },
-    "delivery": "verified",
-    "files": [
-      {
-        "path": "output/json/quran-index-review-431-440/Указатель аятов - темы 431-440.json",
-        "sha256": "87fc9deb8d524fb931b4575911dad229400696fb84c658517dd208eae6e63a1f"
-      },
-      {
-        "path": "output/json/quran-index-review-431-440/Указатель аятов - проверенные темы 1-440.json",
-        "sha256": "6f772969a583ff2928e563d1f156b6fb91395728805d07d174808f4f5462a14e"
-      },
-      {
-        "path": "output/json/quran-index-review-431-440/Темы 431-440 - журнал проверки.json",
-        "sha256": "52e37884b5dbc27bfd0cf38206ef26cf32da9bf1eb89b3799a44c938d51f56fe"
-      },
-      {
-        "path": "output/json/quran-index-review-431-440/Темы 431-440 - отчёт.md",
-        "sha256": "4fda5e9335b22dcf1eef454dc6d0d0bb9d15acb5e3653f78a073e2c918931e38"
-      }
-    ]
+    "next_item_id": "topic-0462-item-001",
+    "next_verse_key": "2:155",
+    "last_saved_module": "topic_489.py"
   },
   "pending_delivery": [],
   "automation": {
@@ -90,13 +52,13 @@
     "verified_at": "2026-10-17T07:23:15.452745+00:00"
   },
   "instructions_file": "docs/QURAN-index-review-run.md",
-  "next_topic_id": "topic-0421",
+  "next_topic_id": "topic-0460",
   "batch_confirmation": {
     "required_after_each_batch": true,
-    "approved_batch": "431-440",
-    "waiting_for_confirmation": true,
+    "approved_batch": "481-490",
+    "waiting_for_confirmation": false,
     "changed_by_user_on": "2026-10-17",
     "confirmed_on": "2026-10-20",
-    "requested_next_batch": "441-450"
+    "requested_next_batch": "481-490"
   }
 }

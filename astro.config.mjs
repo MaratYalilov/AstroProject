@@ -34,6 +34,9 @@ export default defineConfig({
     port: 4321
   },
   vite: {
+    server: {
+      fs: { deny: ['.env', '.env.*', '*.{crt,pem,key,p12,pfx,cer,der}', '.npmrc', '.yarnrc.yml', '**/.git/**', '**/.data/**', '**/admin.json'] },
+    },
     // Сборка и локальный сервер не должны перезаписывать кэш друг друга:
     // иначе страницы запрашивают устаревшие зависимости и получают 504.
     cacheDir: process.argv.includes('build')

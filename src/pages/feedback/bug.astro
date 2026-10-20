@@ -1,0 +1,113 @@
+---
+import Base from '../../layouts/Base.astro';
+import { createFeedback } from '../../lib/feedback/store';
+import { FeedbackError, normalizeFeedbackUrl, feedbackTitle, validateFeedback } from '../../lib/feedback/validation';
+import { privateFeedbackHeaders, feedbackRedirect, requireSameOrigin, readFeedbackForm, allowFeedbackRequest, feedbackClientKey } from '../../lib/feedback/http';
+export const prerender = false;
+privateFeedbackHeaders(Astro.response.headers);
+let pageUrl = normalizeFeedbackUrl(Astro.url.searchParams.get('url') ?? '', Astro.url.origin) ?? '';
+let pageTitle = feedbackTitle(Astro.url.searchParams.get('title') ?? '');
+let message = '';
+let error = '';
+const sent = Astro.request.method === 'GET' && Astro.url.searchParams.get('sent') === '1' && Boolean(pageUrl);
+function thankYouUrl(url: string, title: string) {
+  return '/feedback/bug?' + new URLSearchParams({sent: '1', url, title});
+}
+if (Astro.request.method === 'POST') {
+  try {
+    requireSameOrigin(Astro.request);
+    const form = await readFeedbackForm(Astro.request);
+    pageUrl = normalizeFeedbackUrl(form.get('pageUrl') ?? '', Astro.url.origin) ?? '';
+    pageTitle = feedbackTitle(form.get('pageTitle') ?? '');
+    message = (form.get('message') ?? '').slice(0, 4000);
+    if (form.get('website')) return feedbackRedirect(thankYouUrl(pageUrl, pageTitle), 303);
+    const input = validateFeedback(form, Astro.url.origin);
+    if (!allowFeedbackRequest('report:' + feedbackClientKey(Astro.request, Astro.clientAddress), 5, 10 * 60 * 1000)) {
+      throw new FeedbackError('Вы уже отправили несколько сообщений. Попробуйте снова через 10 минут.', 429);
+    }
+    await createFeedback(input);
+    return feedbackRedirect(thankYouUrl(input.pageUrl, input.pageTitle), 303);
+  } catch (cause) {
+    if (cause instanceof FeedbackError) { error = cause.message; Astro.response.status = cause.status; }
+    else { console.error('Feedback storage failed', cause); error = 'Не удалось сохранить сообщение. Попробуйте позже.'; Astro.response.status = 503; }
+  }
+}
+---
+<Base title="Сообщить об ошибке | HUTBA.org">
+  <meta slot="head" name="robots" content="noindex, nofollow" />
+  <section class="mx-auto max-w-2xl py-4 sm:py-10">
+    {sent ? <div role="status" class="relative overflow-hidden rounded-3xl border border-gray-200 bg-white/80 p-6 text-center shadow-lg shadow-gray-200/60 backdrop-blur-xl dark:border-white/10 dark:bg-white/[0.04] dark:shadow-2xl dark:shadow-black/20 sm:p-8">
+      <div class="pointer-events-none absolute inset-x-8 top-0 h-28 rounded-full bg-cyan-400/10 blur-3xl dark:bg-cyan-300/10" aria-hidden="true"></div>
+      <div class="relative mx-auto flex max-w-xl flex-col items-center gap-5">
+        <div class="space-y-3">
+          <p lang="ar" dir="rtl" class="arab m-0 text-center text-4xl leading-tight text-gray-950 dark:text-arabic-foreground sm:text-5xl">جزاك اللهُ خيرًا</p>
+          <p class="m-0 text-center text-base leading-7 text-gray-600 dark:text-slate-300">Да воздаст вам Аллах благом!</p>
+        </div>
+        <hr class="m-0 w-full border-0 border-t border-gray-200 dark:border-white/10" />
+        <div class="space-y-3">
+          <h1 class="m-0 text-center text-2xl font-bold text-gray-950 dark:text-white sm:text-3xl">Спасибо за помощь!</h1>
+          <p class="m-0 text-center leading-7 text-gray-600 dark:text-slate-300">Ваше сообщение сохранено. Мы проверим указанную ошибку.</p>
+        </div>
+        <a href={pageUrl} data-feedback-return class="inline-flex min-h-11 items-center gap-2 rounded-full border border-white/10 bg-cyan-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-cyan-500/20 transition-colors hover:bg-cyan-500 dark:bg-cyan-400 dark:text-slate-950">
+          <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7M5 12h14" /></svg>
+          Вернуться к уроку
+        </a>
+      </div>
+    </div> : <>
+      <p class="text-sm text-muted-foreground">Обратная связь</p>
+      <h1 class="mt-2 text-3xl font-semibold">На странице есть ошибка</h1>
+      <p class="mt-4 leading-7 text-muted-foreground">Расскажите, что нужно исправить: неточность в тексте, проблему с аудио, видео или упражнением.</p>
+      {error && <p role="alert" class="my-5 rounded-lg border border-red-500/40 bg-red-500/5 p-4">{error}</p>}
+      {pageUrl && pageTitle ? <form method="post" class="mt-6 space-y-5">
+        <div class="rounded-xl border border-border bg-muted/20 p-4">
+          <p class="m-0 text-xs uppercase tracking-wide text-muted-foreground">Урок</p>
+          <p class="mt-2 font-medium">{pageTitle}</p>
+          <a href={pageUrl} data-feedback-return class="break-all text-sm text-primary underline underline-offset-4">{pageUrl}</a>
+        </div>
+        <input type="hidden" name="pageUrl" value={pageUrl} />
+        <input type="hidden" name="pageTitle" value={pageTitle} />
+        <div class="sr-only" aria-hidden="true"><label>Оставьте поле пустым<input name="website" type="text" tabindex="-1" autocomplete="off" /></label></div>
+        <div>
+          <label for="feedback-message" class="block font-medium">Опишите проблему или ошибку.</label>
+          <textarea id="feedback-message" name="message" rows="7" required minlength="10" maxlength="4000" aria-describedby="message-hint" class="mt-2 block w-full rounded-xl border border-border bg-background p-4 leading-7 dark:border-[#858d91] dark:bg-[#3b4144] focus:outline focus:outline-2 focus:outline-primary">{message}</textarea>
+          <p id="message-hint" class="mt-2 text-sm text-muted-foreground">Укажите место ошибки. От 10 до 4000 символов.</p>
+        </div>
+        <div class="flex flex-wrap items-center gap-4">
+          <button type="submit" class="min-h-11 rounded-lg bg-primary px-5 py-3 font-medium text-primary-foreground hover:opacity-90">Отправить сообщение</button>
+          <a href={pageUrl} data-feedback-return class="min-h-11 py-3 text-sm text-muted-foreground underline underline-offset-4">Вернуться к уроку</a>
+        </div>
+      </form> : <p class="mt-6 rounded-xl border border-border p-5 leading-7">Откройте нужный урок и нажмите «Сообщить о неточности». Тогда адрес и название подставятся автоматически. <a href="/" class="text-primary underline">Открыть курсы</a></p>}
+    </>}
+  </section>
+</Base>
+
+<script is:inline>
+  (function () {
+    var field = document.getElementById('feedback-message');
+    var form = field && field.form;
+    var submit = form && form.querySelector('button[type="submit"]');
+    if (form) form.addEventListener('submit', function () {
+      if (!submit) return;
+      submit.disabled = true;
+      submit.textContent = 'Отправляем...';
+      form.setAttribute('aria-busy', 'true');
+    });
+    window.addEventListener('pageshow', function () {
+      if (!submit) return;
+      submit.disabled = false;
+      submit.textContent = 'Отправить сообщение';
+      form.removeAttribute('aria-busy');
+    });
+    document.addEventListener('click', function (event) {
+      var link = event.target instanceof Element ? event.target.closest('a[data-feedback-return]') : null;
+      if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      try {
+        var saved = JSON.parse(sessionStorage.getItem('hutba.feedbackReturn') || 'null');
+        if (saved && saved.url === link.href) {
+          saved.restore = true;
+          sessionStorage.setItem('hutba.feedbackReturn', JSON.stringify(saved));
+        }
+      } catch (e) {}
+    });
+  })();
+</script>

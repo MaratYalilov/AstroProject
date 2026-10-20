@@ -248,7 +248,7 @@ export default function GlossaryOverlay() {
           exit={{ y: '100%' }}
           transition={{ type: 'spring', stiffness: 260, damping: 28 }}
           onClick={e => e.stopPropagation()}
-          className="absolute bottom-0 inset-x-0 rounded-t-2xl bg-white dark:bg-gray-900 p-4 pb-6"
+          className="absolute bottom-0 inset-x-0 rounded-t-2xl bg-white dark:bg-gray-900 p-4 pb-24"
 
           // параметры перетаскивания (свайпа)
           drag="y" // можно тянуть по вертикали

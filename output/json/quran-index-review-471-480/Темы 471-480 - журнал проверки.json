@@ -1,0 +1,718 @@
+{
+  "batch_id": "positions-0461-0470",
+  "reviewed_at": "2026-10-20",
+  "scope": {
+    "first_topic_ordinal": 471,
+    "last_topic_ordinal": 480,
+    "topic_ids": [
+      "topic-0536",
+      "topic-0451",
+      "topic-0452",
+      "topic-0453",
+      "topic-0454",
+      "topic-0455",
+      "topic-0456",
+      "topic-0457",
+      "topic-0458",
+      "topic-0459"
+    ],
+    "entire_index_reviewed": false
+  },
+  "input_sha256": "fc5294401fc542f00fba3a2dbb47f3dce0669f46b0b58761729dbeb59ac9a45b",
+  "text_source_id": "site-quran",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 43,
+    "retained_original_links": 39,
+    "removed_original_links": 4,
+    "added_links": 3,
+    "result_links": 42,
+    "result_unique_verses": 41,
+    "cumulative_topics": 480,
+    "cumulative_links": 24000
+  },
+  "decisions": [
+    {
+      "item_id": "topic-0451-item-001",
+      "verse_key": "49:12",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-49-12"
+      ]
+    },
+    {
+      "item_id": "topic-0452-item-001",
+      "verse_key": "4:43",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-4-43"
+      ]
+    },
+    {
+      "item_id": "topic-0452-item-001",
+      "verse_key": "5:6",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0453-item-001",
+      "verse_key": "40:19",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-40-19"
+      ]
+    },
+    {
+      "item_id": "topic-0453-item-002",
+      "verse_key": "4:114",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0453-item-002",
+      "verse_key": "21:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0453-item-002",
+      "verse_key": "21:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0453-item-002",
+      "verse_key": "58:7",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-58-7"
+      ]
+    },
+    {
+      "item_id": "topic-0453-item-002",
+      "verse_key": "58:8",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0453-item-002",
+      "verse_key": "58:9",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0453-item-002",
+      "verse_key": "58:10",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-58-10"
+      ]
+    },
+    {
+      "item_id": "topic-0454-item-001",
+      "verse_key": "7:199",
+      "decision": "remove",
+      "reason": "Снисхождение, повеление доброго и удаление от невежд не устанавливают отдельного правила о сохранении доверенной тайны.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0454-item-001",
+      "verse_key": "16:90",
+      "decision": "remove",
+      "reason": "Общие требования справедливости и благодеяния не содержат конкретного положения о доверенной тайне.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0454-item-001",
+      "verse_key": "66:3",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-66-3"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "3:15",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "3:120",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-3-120"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "3:133",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "3:172",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "3:179",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "3:198",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "3:65",
+      "decision": "remove",
+      "reason": "Речь о споре людей Писания об Ибрахиме и о времени ниспослания Торы и Евангелия, а не о награде за богобоязненность.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "6:32",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "8:29",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "12:57",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "12:109",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "19:63",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "24:52",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "39:73",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "68:34",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "77:41",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "verse_key": "77:42",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-002",
+      "verse_key": "2:2",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-002",
+      "verse_key": "59:17",
+      "decision": "remove",
+      "reason": "В 59:16-17 описан исход дьявола и подчинившегося ему человека. Сам аят не содержит наставления о таква; соседство с прямым призывом 59:18 недостаточно для отдельной связи.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-002",
+      "verse_key": "59:18",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-59-18"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-002",
+      "verse_key": "59:19",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-59-19"
+      ]
+    },
+    {
+      "item_id": "topic-0455-item-003",
+      "verse_key": "7:26",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-7-26"
+      ]
+    },
+    {
+      "item_id": "topic-0457-item-001",
+      "verse_key": "2:249",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0457-item-001",
+      "verse_key": "2:250",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0457-item-001",
+      "verse_key": "2:251",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0458-item-001",
+      "verse_key": "2:196",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-2-196"
+      ]
+    },
+    {
+      "item_id": "topic-0459-item-001",
+      "verse_key": "7:26",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "item_id": "topic-0459-item-001",
+      "verse_key": "7:31",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-7-31"
+      ]
+    },
+    {
+      "item_id": "topic-0459-item-001",
+      "verse_key": "7:32",
+      "decision": "retain",
+      "source_ids": [
+        "site-quran",
+        "ksu-saadi-7-32"
+      ]
+    }
+  ],
+  "additions": [
+    {
+      "topic_id": "topic-0457",
+      "item_id": "topic-0457-item-001",
+      "verse_key": "2:246",
+      "reason": "Знать сынов Исраила после Мусы просит своего пророка назначить царя для сражения; это вводит историю Талута, названного далее.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0457",
+      "item_id": "topic-0457-item-001",
+      "verse_key": "2:247",
+      "reason": "Пророк объявляет избрание Талута царём и объясняет его превосходство знаниями и статью вопреки возражениям о недостатке имущества.",
+      "source_ids": [
+        "site-quran"
+      ]
+    },
+    {
+      "topic_id": "topic-0457",
+      "item_id": "topic-0457-item-001",
+      "verse_key": "2:248",
+      "reason": "Знамением царствия Талута станет доставленный ангелами сундук с умиротворением и наследием семей Мусы и Харуна.",
+      "source_ids": [
+        "site-quran"
+      ]
+    }
+  ],
+  "description_changes": [
+    {
+      "item_id": "topic-0451-item-001",
+      "before": "о таджассусе",
+      "after": "Запрет выслеживания скрытых недостатков друг друга",
+      "reason": "Таджассус в данном аяте относится к поиску скрытых недостатков людей; не делается вывод обо всех возможных видах разведки и расследования."
+    },
+    {
+      "item_id": "topic-0452-item-001",
+      "before": "о тайаммуме",
+      "after": "Тайаммум при отсутствии воды: обращение к чистой земле и протирание лица и рук",
+      "reason": "Уточнены непосредственно названные в аятах действия без добавления спорных подробностей фикха."
+    },
+    {
+      "item_id": "topic-0453-item-002",
+      "before": "о тайном перешептывании",
+      "after": "Тайные беседы: содержание, ответственность и злонамеренные переговоры",
+      "reason": "Не всякая тайная беседа запрещена или происходит от дьявола: 4:114 и 58:9 прямо различают доброе и дурное содержание."
+    },
+    {
+      "item_id": "topic-0454-item-001",
+      "before": "хранение тайн",
+      "after": "Разглашение доверенной тайны в семье Пророка",
+      "reason": "Оставшийся аят содержит конкретный рассказ; не приписывается буквальное общее повеление хранить любые сведения в тайне."
+    },
+    {
+      "item_id": "topic-0455-item-001",
+      "before": "вознаграждение богобоязненных",
+      "after": "Обещанные блага, защита и награда богобоязненным",
+      "reason": "3:120 касается защиты от козней, а не только посмертного вознаграждения; другие ссылки прямо называют награду и Рай."
+    },
+    {
+      "item_id": "topic-0457-item-001",
+      "before": "история Талута (Саула)",
+      "after": "Назначение Талута, испытание войска и победа над Джалутом",
+      "reason": "К заключительной части рассказа добавлены непосредственно соответствующие начало и назначение царя в 2:246-248."
+    },
+    {
+      "item_id": "topic-0458-item-001",
+      "before": "о пользе тем, кто совершает на пути’ Аллаха хаджж и умру",
+      "after": "Таматту: жертвоприношение, а при невозможности - десять дней поста",
+      "reason": "Вместо общего утверждения о пользе хаджа и умры выделен конкретный предмет 2:196."
+    },
+    {
+      "item_id": "topic-0459-item-001",
+      "before": "о тасаттуре",
+      "after": "Прикрытие наготы, подобающая одежда при молитве и дозволенное украшение",
+      "reason": "Уточнены три разных предмета: назначение одежды, облачение при поклонении и недопустимость выдуманного запрета дозволенных украшений."
+    }
+  ],
+  "topic_changes": [
+    {
+      "topic_id": "topic-0458",
+      "before": "таматту* (совершение малого паломничества во время большого)",
+      "after": "таматту (умра и хадж с выходом из ихрама между ними)",
+      "reason": "Исправлено описание таматту: умра предшествует хаджу, между обрядами предусмотрен выход из ихрама. Убрана служебная звёздочка."
+    }
+  ],
+  "sources": {
+    "site-quran": {
+      "title": "Локальные данные Корана сайта",
+      "type": "local_quran_data",
+      "role": "canonical_quran_text",
+      "files": {
+        "arabic": {
+          "path": "src/data/quran-uthmani-hafs.json",
+          "edition_id": "quran-uthmani-hafs",
+          "purpose": "Арабский Unicode аятов — источник текста и поиска.",
+          "sha256": "2898ca8f5642d11529c91e7bc1d1bccc32d381163ac29f9d855ee8acb6701be3"
+        },
+        "translation": {
+          "path": "src/data/quran-kuliev-ru.json",
+          "edition_id": "ru.kuliev",
+          "purpose": "Перевод Кулиева — источник русских цитат.",
+          "sha256": "c127c5bca1df7239fc541d44dd6339362c0336bfd08fe2404004e0e697f5ec78",
+          "previous_sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        },
+        "qcf": {
+          "path": "src/data/quran-qcf-v2.json",
+          "edition_id": "qcf-v2",
+          "purpose": "Номера страниц и коды глифов для отображения; не текст для смыслового поиска.",
+          "sha256": "3c67b2533a0b4f6b8f90477784d51a968cc5ba46ffb020a24cf484934a539c32"
+        }
+      },
+      "locator": "Текст и цитаты берутся только из локальных файлов сайта. Смысловые основания из тафсиров и хадисов указываются отдельно.",
+      "approved_local_corrections": [
+        {
+          "verse_key": "35:25",
+          "date": "2026-10-17",
+          "original_start": "Если они не сочли тебя лжецом",
+          "corrected_start": "Если они сочли тебя лжецом",
+          "note": "По поручению владельца удалена лишняя частица «не». В арабском начале وَإِن يُكَذِّبُوكَ отрицания нет; тот же оборот начинает 35:4. Тафсир ас-Саади подтверждает смысл «если сочтут тебя лжецом». Ошибочная формулировка встречается также в опубликованных копиях перевода Кулиева; это локальная редакционная правка, а не заявленное авторское исправление.",
+          "sources": [
+            "https://quran.ksu.edu.sa/tafseer/saadi/sura35-aya25.html",
+            "https://quran.ksu.edu.sa/tafseer/saadi/sura35-aya4.html",
+            "https://ru.quranacademy.org/feedback/detail/517/"
+          ],
+          "previous_file_sha256": "24db3ffa5f9affea7f7555646fdb34b1f9a9bd65f3c4bcdaf9fa7be3cb1f0797"
+        }
+      ]
+    },
+    "ksu-saadi-58-7": {
+      "title": "Ас-Саади, толкование 58:7",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura58-aya7.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 58,
+        "aya": 7,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-31": {
+      "title": "Ас-Саади, толкование 7:31",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya31.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 31,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-4-43": {
+      "title": "Ас-Саади, толкование 4:43",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura4-aya43.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 4,
+        "aya": 43,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-32": {
+      "title": "Ас-Саади, толкование 7:32",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya32.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 32,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-2-196": {
+      "title": "Ас-Саади, толкование 2:196",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura2-aya196.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 2,
+        "aya": 196,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-59-18": {
+      "title": "Ас-Саади, толкование 59:18",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura59-aya18.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 59,
+        "aya": 18,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-49-12": {
+      "title": "Ас-Саади, толкование 49:12",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura49-aya12.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 49,
+        "aya": 12,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-40-19": {
+      "title": "Ас-Саади, толкование 40:19",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura40-aya19.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 40,
+        "aya": 19,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-58-10": {
+      "title": "Ас-Саади, толкование 58:10",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura58-aya10.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 58,
+        "aya": 10,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-66-3": {
+      "title": "Ас-Саади, толкование 66:3",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura66-aya3.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 66,
+        "aya": 3,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-3-120": {
+      "title": "Ас-Саади, толкование 3:120",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura3-aya120.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 3,
+        "aya": 120,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-59-19": {
+      "title": "Ас-Саади, толкование 59:19",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura59-aya19.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 59,
+        "aya": 19,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    },
+    "ksu-saadi-7-26": {
+      "title": "Ас-Саади, толкование 7:26",
+      "url": "https://quran.ksu.edu.sa/tafseer/saadi/sura7-aya26.html",
+      "type": "tafsir",
+      "role": "interpretation_evidence",
+      "local_snapshot": {
+        "path": "output/research/islamic-sources-2026-10-15/ksu-databases/sa3dy.sqlite",
+        "sha256": "17ebbd74af7b044fd1077f3ac618b2ce8ac9e6f1c95f27f732e40e30001e142e",
+        "table": "sa3dy",
+        "sura": 7,
+        "aya": 26,
+        "edition_note": "Официальный пакет проекта «Аят»; конкретное печатное издание электронной базы не установлено."
+      }
+    }
+  },
+  "validation": {
+    "all_retained_verses_have_explanation_and_exact_local_quote": true,
+    "all_original_links_have_explicit_decision": true,
+    "first_460_topics_unchanged": true,
+    "original_full_clean_index_unchanged": true,
+    "new_external_quran_corpus_used": false,
+    "tafsir_source_records_exist_in_local_official_snapshots": true
+  }
+}
