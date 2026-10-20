@@ -5,11 +5,14 @@ import { inlineGlossaryCriticalCss } from './lib/criticalCss'
 export const onRequest = defineMiddleware(async ({ url }, next) => {
   const response = await next()
   const path = url.pathname.replace(/\/$/, '')
-  if (path !== '/glossary' && !path.startsWith('/glossary/')) return response
+  const scope = path === '/glossary' || path.startsWith('/glossary/')
+    ? 'glossary'
+    : path === '/quran/koran-2-uroven' ? 'interactive-course' : null
+  if (!scope) return response
   if (response.status !== 200 || !response.headers.get('content-type')?.includes('text/html')) return response
 
   const html = await response.text()
-  const output = inlineGlossaryCriticalCss(html, fullCss, deferredCssUrl, import.meta.env.DEV)
+  const output = inlineGlossaryCriticalCss(html, fullCss, deferredCssUrl, import.meta.env.DEV, scope)
   const headers = new Headers(response.headers)
   headers.delete('content-length')
   headers.delete('etag')

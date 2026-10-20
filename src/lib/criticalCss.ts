@@ -62,7 +62,7 @@ export function withoutFontFaces(css: string): string {
   return root.toString()
 }
 
-/** Inline the current glossary page's styles; keep full CSS for later interactions. */
+/** Inline the current SSR page's styles; keep full CSS for later interactions. */
 export function inlineGlossaryCriticalCss(html: string, css: string, deferredHref: string, dev = false, scope = 'glossary'): string {
   if (!/^[a-z0-9-]+$/.test(scope)) return html
   const devStyle = dev

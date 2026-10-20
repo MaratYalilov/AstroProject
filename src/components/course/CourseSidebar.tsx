@@ -23,7 +23,7 @@ export type LessonItem = {
   order?: number;
   slug: string;
   title: string | TitleSegment[];
-  /** Модуль курса — уроки с этим полем группируются в аккордеон */
+  /** Модуль курса - уроки с этим полем группируются в аккордеон */
   module?: string;
 };
 
@@ -35,7 +35,7 @@ type Props = {
   onClose: () => void;
   /** Заголовок курса в шапке сайдбара */
   title?: string;
-  /** subject/course — для пер-курсового ключа завершённости */
+  /** subject/course - для пер-курсового ключа завершённости */
   subject?: string;
   course?: string;
   downloads?: CourseDownload[];
@@ -170,7 +170,7 @@ export default function CourseSidebar({
   );
 }
 
-/** Группа последовательных уроков одного модуля (module=undefined — вне модулей) */
+/** Группа последовательных уроков одного модуля (module=undefined - вне модулей) */
 type ModuleGroup = {
   module?: string;
   items: { lesson: LessonItem; index: number }[];
@@ -210,7 +210,7 @@ function SidebarContent({
   const buttonRefs = useRef<Map<number, HTMLButtonElement>>(new Map());
   const moduleHeaderRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
   // Модуль, к заголовку которого нужно проскроллить после ручного открытия;
-  // "" — ручное сворачивание, скроллить никуда не нужно
+  // "" - ручное сворачивание, скроллить никуда не нужно
   const manualScrollModuleRef = useRef<string | null>(null);
   const [completedLessonIds, setCompletedLessonIds] = useState<Set<number>>(
     () => new Set<number>()
@@ -220,8 +220,10 @@ function SidebarContent({
   const groups = useMemo(() => groupByModule(lessons), [lessons]);
 
   // Раскрытые модули; модуль текущего урока раскрывается автоматически
-  const [openModules, setOpenModules] = useState<Set<string>>(() => new Set());
   const currentModule = lessons[currentIndex]?.module;
+  const [openModules, setOpenModules] = useState<Set<string>>(
+    () => new Set(currentModule ? [currentModule] : []),
+  );
   useEffect(() => {
     if (!currentModule) return;
     setOpenModules((prev) => {
@@ -258,7 +260,7 @@ function SidebarContent({
     const nav = navRef.current;
     if (!nav) return;
 
-    // Эффект выполняется после обновления DOM — скроллим синхронно,
+    // Эффект выполняется после обновления DOM - скроллим синхронно,
     // без requestAnimationFrame (его cleanup отменял отложенный скролл)
 
     // Ручной клик по заголовку модуля: при открытии скроллим к началу
@@ -324,7 +326,7 @@ function SidebarContent({
 
             return (
               // Обычный button + CSS-hover (НЕ motion.button): в больших курсах
-              // сотни кнопок — framer вешает will-change и плодит GPU-слои.
+              // сотни кнопок - framer вешает will-change и плодит GPU-слои.
               <button
                 ref={(el) => {
                   if (el) {
@@ -399,7 +401,7 @@ function SidebarContent({
             );
           };
 
-          // Уроки вне модулей — плоским списком
+          // Уроки вне модулей - плоским списком
           if (!group.module) {
             return (
               <div key={`flat-${gi}`} className="space-y-2">
