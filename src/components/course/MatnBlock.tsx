@@ -1,11 +1,11 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Howl } from "howler";
 import { BookOpen, ChevronDown, Pause, Play, Volume2 } from "lucide-react";
-import { containsGlossaryTermLink, getGlossaryTarget } from '../../utils/glossaryTarget';
+import { getGlossaryTarget } from '../../utils/glossaryTarget';
+import type { MatnBlock as MatnBlockData } from '../../lib/interactive/types';
 import { fetchInteractiveHtml } from "../../utils/fetchInteractiveHtml";
 import { useMermaidRender } from "../../utils/mermaid";
 import mukaddimaData from "@/content/lessons/quran/koran-2-uroven/mukaddima.json";
-import sharhData from "@/content/lessons/quran/koran-2-uroven/sharh.json";
 import groupsData from "@/content/lessons/quran/koran-2-uroven/matn_groups.json";
 
 export type MatnBeit = {
@@ -14,8 +14,8 @@ export type MatnBeit = {
   ar: string;
   /** Краткий перевод бейта */
   ru: string;
-  /** Markdown нужен для поиска термина; готовый HTML при раскрытии запрашивается у сервера. */
-  sharh?: string;
+  /** Ссылки на термины; HTML комментария запрашивается у сервера при раскрытии. */
+  sharhTerms?: string[];
   /** Границы бейта в аудио группы (секунды). Есть только у синхронизированных групп. */
   start?: number;
   end?: number;
@@ -39,11 +39,12 @@ type MatnGroupJson = {
 };
 
 type Props = {
-  /** Заголовок блока, напр. «Мукаддима аль-Джазари: бейты 9–19» */
+  comments?: MatnBlockData["comments"];
+  /** Заголовок блока, напр. «Мукаддима аль-Джазари: бейты 9-19» */
   title?: string;
   /** Ключ группы бейтов (аудио + тайминги) из matn_groups.json, напр. "01-9-19" */
   group: string;
-  /** Диапазон бейтов — ссылки на ID в mukaddima.json / sharh.json */
+  /** Диапазон бейтов - ссылки на ID в mukaddima.json / sharh.json */
   from: number;
   to: number;
 };
@@ -53,7 +54,6 @@ const MUKADDIMA = mukaddimaData as { n: number; ar: string; ru: string }[];
 const MUK_MAP: Record<number, { ar: string; ru: string }> = Object.fromEntries(
   MUKADDIMA.map((b) => [b.n, { ar: b.ar, ru: b.ru }]),
 );
-const SHARH = sharhData as Record<string, string>;
 // JSON выводит тайминги как number[], поэтому приводим их к кортежу [start, end]
 // один раз здесь: дальше в коде t[0]/t[1] гарантированно числа.
 const GROUPS: Record<string, MatnGroup> = Object.fromEntries(
@@ -104,13 +104,12 @@ function AudioWave() {
   );
 }
 
-export default function MatnBlock({ group, from, to }: Props) {
+export default function MatnBlock({ group, from, to, comments }: Props) {
   const g = GROUPS[group];
   const audio = g?.audio;
   const noSync = g?.noSync ?? true;
 
-  // Собираем бейты диапазона из общих JSON: матн — из mukaddima.json,
-  // шарх — из sharh.json, тайминги — из matn_groups.json.
+  // Матн и тайминги - из общих JSON; наличие шарха и термины - из серверных props.
   const beits = useMemo<MatnBeit[]>(() => {
     const times = g?.times ?? {};
     const list: MatnBeit[] = [];
@@ -118,7 +117,7 @@ export default function MatnBlock({ group, from, to }: Props) {
       const m = MUK_MAP[n];
       if (!m) continue;
       const be: MatnBeit = { n, ar: m.ar, ru: m.ru };
-      if (SHARH[String(n)]) be.sharh = SHARH[String(n)];
+      if (comments?.[n]) be.sharhTerms = comments[n];
       const t = times[String(n)];
       if (t) {
         be.start = t[0];
@@ -128,7 +127,7 @@ export default function MatnBlock({ group, from, to }: Props) {
     }
     return list;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [group, from, to]);
+  }, [group, from, to, comments]);
 
   const howlRef = useRef<Howl | null>(null);
   const rafRef = useRef<number | null>(null);
@@ -182,8 +181,8 @@ export default function MatnBlock({ group, from, to }: Props) {
     const revealTermComment = () => {
       const slug = getGlossaryTarget(window.location.hash);
       if (!slug) return;
-      const beit = beits.find(beit => beit.sharh && containsGlossaryTermLink(beit.sharh, slug));
-      if (!beit?.sharh) return;
+      const beit = beits.find(beit => beit.sharhTerms?.includes(slug));
+      if (!beit) return;
       setOpenSharh(previous => ({ ...previous, [beit.n]: true }));
       void loadSharhHtml(beit.n);
     };
@@ -262,7 +261,7 @@ export default function MatnBlock({ group, from, to }: Props) {
     rafRef.current = requestAnimationFrame(tick);
   }
 
-  /** Проиграть фрагмент [start, end]; если не заданы — весь файл. */
+  /** Проиграть фрагмент [start, end]; если не заданы - весь файл. */
   function playRange(start?: number, end?: number) {
     const h = getHowl();
     if (!h) return;
@@ -290,7 +289,7 @@ export default function MatnBlock({ group, from, to }: Props) {
     // при запуске чтения списка сворачиваем раскрытые шархи
     setOpenSharh({});
     if (synced) {
-      // если у первых бейтов диапазона нет тайминга (Whisper их не поймал) —
+      // если у первых бейтов диапазона нет тайминга (Whisper их не поймал) -
       // стартуем с начала аудио, чтобы не пропустить их звучание.
       const s = beits[0]?.start ?? 0;
       const e = Math.max(
@@ -310,7 +309,7 @@ export default function MatnBlock({ group, from, to }: Props) {
   function toggleSharh(b: MatnBeit) {
     const isOpen = !!openSharh[b.n];
     setOpenSharh((p) => ({ ...p, [b.n]: !isOpen }));
-    if (!isOpen && b.sharh && sharhHtml[b.n] == null) {
+    if (!isOpen && b.sharhTerms && sharhHtml[b.n] == null) {
       void loadSharhHtml(b.n);
     }
   }
@@ -319,7 +318,7 @@ export default function MatnBlock({ group, from, to }: Props) {
     from != null && to != null
       ? from === to
         ? `Бейт ${from}`
-        : `Бейты ${from}–${to}`
+        : `Бейты ${from}-${to}`
       : "Матн";
 
   return (
@@ -435,7 +434,7 @@ export default function MatnBlock({ group, from, to }: Props) {
                       {b.ru}
                     </p>
 
-                    {b.sharh && (
+                    {b.sharhTerms && (
                       <div className="mt-3">
                         <button
                           type="button"
@@ -455,7 +454,7 @@ export default function MatnBlock({ group, from, to }: Props) {
                     )}
                   </div>
                 </div>
-                {b.sharh && openSharh[b.n] && (
+                {b.sharhTerms && openSharh[b.n] && (
                   <div className="lesson-sharh mt-3 w-full min-w-0 rounded-2xl border border-gray-200 bg-gray-50/70 px-4 py-3 dark:border-white/10 dark:bg-white/[0.03] sm:ml-10 sm:w-[calc(100%-2.5rem)]">
                     {sharhErrors[b.n] ? (
                       <div role="alert" className="space-y-2 text-rose-700 dark:text-rose-200">

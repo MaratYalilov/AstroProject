@@ -1,4 +1,5 @@
 import type { LessonBlock } from "./types";
+import { prepareMatnComments } from "./prepareMatnComments";
 
 export type InteractiveLesson = {
   id: number;
@@ -10,7 +11,7 @@ export type InteractiveLesson = {
   title: string | { text: string; arab?: boolean }[];
   description?: string;
   ogImage?: string;
-  /** Название модуля курса — для группировки уроков в сайдбаре (курсы с большим числом уроков) */
+  /** Название модуля курса - для группировки уроков в сайдбаре (курсы с большим числом уроков) */
   module?: string;
   blocks: LessonBlock[];
 };
@@ -20,7 +21,7 @@ export type InteractiveLesson = {
  * Возвращает массив InteractiveLesson.
  */
 // Бандлы курсов: один файл со всеми уроками курса (массив InteractiveLesson).
-// Если у курса есть lessons.bundle.json — грузим его; иначе — по отдельным файлам.
+// Если у курса есть lessons.bundle.json - грузим его; иначе - по отдельным файлам.
 const bundleModules = import.meta.glob<InteractiveLesson[]>(
   `/src/content/lessons/**/lessons.bundle.json`,
   { import: "default", eager: false }
@@ -42,14 +43,16 @@ export async function loadAllInteractiveLessons(
     try {
       const arr = (await bundleModules[bundleKey]()) as InteractiveLesson[];
       if (Array.isArray(arr)) {
-        return [...arr].sort((a, b) => (a.order ?? a.id) - (b.order ?? b.id) || a.id - b.id);
+        return [...arr]
+          .sort((a, b) => (a.order ?? a.id) - (b.order ?? b.id) || a.id - b.id)
+          .map(prepareMatnComments);
       }
     } catch (err) {
       console.warn(`Failed to load lessons bundle: ${bundleKey}`, err);
     }
   }
 
-  // 2) Иначе — по отдельным JSON-файлам курса (как в muallim-sani)
+  // 2) Иначе - по отдельным JSON-файлам курса (как в muallim-sani)
   const lessons: InteractiveLesson[] = [];
   for (const [path, loader] of Object.entries(singleModules)) {
     if (!path.includes(marker)) continue;
@@ -63,7 +66,7 @@ export async function loadAllInteractiveLessons(
     }
   }
   lessons.sort((a, b) => (a.order ?? a.id) - (b.order ?? b.id) || a.id - b.id);
-  return lessons;
+  return lessons.map(prepareMatnComments);
 }
 
 /**

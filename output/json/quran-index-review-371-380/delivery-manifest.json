@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 1546,
+    "retained_original_links": 1291,
+    "removed_original_links": 255,
+    "added_links": 16,
+    "result_links": 1307,
+    "result_unique_verses": 987,
+    "cumulative_topics": 380,
+    "cumulative_links": 19149
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 371-380.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-371-380\\Указатель аятов - темы 371-380.json",
+      "sha256": "50d3445cfae08211e5cc729cd9a1273b040e6a90ff6d446f749d5a4fb184c499"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-380.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-371-380\\Указатель аятов - проверенные темы 1-380.json",
+      "sha256": "0ef080189f47a0a90625b761340fca472c4035f65f6c5d07ee8cc5210163fae1"
+    },
+    {
+      "name": "Темы 371-380 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-371-380\\Темы 371-380 - журнал проверки.json",
+      "sha256": "5dd89a2b2aeff3234247f02beaa969f928a22f5dc3dcbeda0a23a0686e6550e4"
+    },
+    {
+      "name": "Темы 371-380 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-371-380\\Темы 371-380 - отчёт.md",
+      "sha256": "d4eca7ac78c68904e5e290037ead680dc6d59e4713faa86ca6b05f5f44c0c8c2"
+    }
+  ]
+}

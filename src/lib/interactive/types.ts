@@ -57,7 +57,7 @@ export type TheoryBlock = {
 };
 
 export type PronunciationNote = {
-  /** info — серая карточка, warning — янтарная, error — красная (частые ошибки) */
+  /** info - серая карточка, warning - янтарная, error - красная (частые ошибки) */
   tone?: "info" | "warning" | "error";
   title?: string;
   /** Простой HTML разрешён (<b>, <strong>) */
@@ -107,10 +107,12 @@ export type ReadingExercisesBlock = {
 
 export type MatnBlock = {
   type: "matn";
+  /** Server-prepared availability and glossary slugs, without commentary text. */
+  comments?: Record<string, string[]>;
   title?: string;
   /** Ключ группы (аудио + тайминги) из matn_groups.json, напр. "01-9-19" */
   group: string;
-  /** Диапазон бейтов — ссылки на ID в mukaddima.json / sharh.json */
+  /** Диапазон бейтов - ссылки на ID в mukaddima.json / sharh.json */
   from: number;
   to: number;
 };

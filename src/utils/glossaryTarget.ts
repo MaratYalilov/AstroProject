@@ -24,11 +24,17 @@ export function getGlossaryLinkSlug(href: string, origin = 'https://hutba.org'):
 }
 
 /** Comments can contain HTML anchors or Markdown links before rendering. */
-export function containsGlossaryTermLink(text: string, slug: string): boolean {
+export function getGlossaryLinkSlugs(text: string): string[] {
+  const slugs = new Set<string>();
   const links = text.matchAll(/<a\b[^>]*\bhref\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>]+))|\[[^\]]*\]\(<?([^\s)>]+)/gi);
   for (const match of links) {
     const href = match[1] ?? match[2] ?? match[3] ?? match[4];
-    if (getGlossaryLinkSlug(href) === slug) return true;
+    const slug = getGlossaryLinkSlug(href);
+    if (slug) slugs.add(slug);
   }
-  return false;
+  return [...slugs];
+}
+
+export function containsGlossaryTermLink(text: string, slug: string): boolean {
+  return getGlossaryLinkSlugs(text).includes(slug);
 }

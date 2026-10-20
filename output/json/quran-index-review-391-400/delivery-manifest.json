@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "destination": "D:\\Собираем файлы Hutba\\Курсы\\Коран\\Индекс\\Указатель аятов",
+  "counts": {
+    "topics_reviewed": 10,
+    "original_links_reviewed": 700,
+    "retained_original_links": 639,
+    "removed_original_links": 61,
+    "added_links": 8,
+    "result_links": 647,
+    "result_unique_verses": 456,
+    "cumulative_topics": 400,
+    "cumulative_links": 21440
+  },
+  "files": [
+    {
+      "name": "Указатель аятов - темы 391-400.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-391-400\\Указатель аятов - темы 391-400.json",
+      "sha256": "6d7d0a4f8d48c5831729a825cfbd10daa0626a6469b70c686280454c26c4ca28"
+    },
+    {
+      "name": "Указатель аятов - проверенные темы 1-400.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-391-400\\Указатель аятов - проверенные темы 1-400.json",
+      "sha256": "3942e7de6a972a43dc6b2a40a4b7135b1e050d116d849a8f90e74558e1b19568"
+    },
+    {
+      "name": "Темы 391-400 - журнал проверки.json",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-391-400\\Темы 391-400 - журнал проверки.json",
+      "sha256": "6db349336593023931e9ca68906df5842ece8fd8c7a830ca6fce0464cb3db3cb"
+    },
+    {
+      "name": "Темы 391-400 - отчёт.md",
+      "source": "D:\\Yandex.Disk\\AstroProject\\output\\json\\quran-index-review-391-400\\Темы 391-400 - отчёт.md",
+      "sha256": "f8665afccedbe88ffc8d2d5e10652d81b27247d5454c94a113b21bfb238c0f3d"
+    }
+  ]
+}

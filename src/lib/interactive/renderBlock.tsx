@@ -92,6 +92,7 @@ export default function RenderBlock({
         <MatnBlock
           title={block.title}
           group={block.group}
+          comments={block.comments}
           from={block.from}
           to={block.to}
         />
