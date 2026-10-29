@@ -1,0 +1,278 @@
+{
+  "counts": {
+    "topics": 539,
+    "original": 28578,
+    "retained": 24871,
+    "removed": 3707,
+    "added": 840,
+    "result": 25711,
+    "items": 2429,
+    "unique_verses": 6196,
+    "journals": 55,
+    "registered_sources": 1375,
+    "used_sources": 1371,
+    "local_tafsir_records_checked": 1188,
+    "crossreferences": 36,
+    "explicit_crossreference_resolutions": 6,
+    "topics_without_verse_links": 24,
+    "merge_added_associations": 127,
+    "merge_added_items": 50,
+    "merge_added_topics": 2,
+    "merge_new_verse_addresses": 62,
+    "merge_rejected_candidate_links": 6
+  },
+  "crossreference_resolution": [
+    {
+      "from_topic_id": "topic-0023",
+      "label": "пророк Аййуб",
+      "target_topic_id": "topic-0343",
+      "target_title": "пророк Аййуб",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0040",
+      "label": "люди Писания",
+      "target_topic_id": "topic-0223",
+      "target_title": "люди Писания (ахл ал-китаб)",
+      "method": "explicit_title_resolution"
+    },
+    {
+      "from_topic_id": "topic-0519",
+      "label": "идда",
+      "target_topic_id": "topic-0166",
+      "target_title": "идда (срок, по истечении которого вдова или разведенная женщина может вступить в новый брак)",
+      "method": "explicit_title_resolution"
+    },
+    {
+      "from_topic_id": "topic-0075",
+      "label": "румы",
+      "target_topic_id": "topic-0391",
+      "target_title": "румы",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0092",
+      "label": "война",
+      "target_topic_id": "topic-0082",
+      "target_title": "война",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0092",
+      "label": "Джихад",
+      "target_topic_id": "topic-0520",
+      "target_title": "Джихад, борьба с неверием в себе и обществе",
+      "method": "explicit_title_resolution"
+    },
+    {
+      "from_topic_id": "topic-0099",
+      "label": "Аллах",
+      "target_topic_id": "topic-0026",
+      "target_title": "Аллах",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0106",
+      "label": "пророк Дауд",
+      "target_topic_id": "topic-0344",
+      "target_title": "пророк Дауд",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0139",
+      "label": "брак",
+      "target_topic_id": "topic-0062",
+      "target_title": "брак",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0151",
+      "label": "пророк Закарийа",
+      "target_topic_id": "topic-0345",
+      "target_title": "пророк Закарийа",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0523",
+      "label": "пророк Ибрахим",
+      "target_topic_id": "topic-0346",
+      "target_title": "пророк Ибрахим",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0187",
+      "label": "пророк Йа'куб",
+      "target_topic_id": "topic-0352",
+      "target_title": "пророк Йакуб",
+      "method": "explicit_title_resolution"
+    },
+    {
+      "from_topic_id": "topic-0213",
+      "label": "исцеление",
+      "target_topic_id": "topic-0183",
+      "target_title": "исцеление",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0216",
+      "label": "мунафики",
+      "target_topic_id": "topic-0255",
+      "target_title": "мунафики",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0525",
+      "label": "'иффат (скромность, непорочность)",
+      "target_topic_id": "topic-0186",
+      "target_title": "'иффат (скромность, непорочность)",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0249",
+      "label": "гомосексуализм",
+      "target_topic_id": "topic-0095",
+      "target_title": "народ Лута: порицаемые деяния и наказание",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0255",
+      "label": "лицемеры",
+      "target_topic_id": "topic-0216",
+      "target_title": "лицемеры",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0255",
+      "label": "двуличие",
+      "target_topic_id": "topic-0107",
+      "target_title": "двуличие или лицемерие",
+      "method": "explicit_title_resolution"
+    },
+    {
+      "from_topic_id": "topic-0267",
+      "label": "молитва",
+      "target_topic_id": "topic-0239",
+      "target_title": "молитва",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0288",
+      "label": "нафс",
+      "target_topic_id": "topic-0274",
+      "target_title": "нафс (плотская душа, эго)",
+      "method": "explicit_title_resolution"
+    },
+    {
+      "from_topic_id": "topic-0301",
+      "label": "Ухуд",
+      "target_topic_id": "topic-0480",
+      "target_title": "Ухуд",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0321",
+      "label": "ураза (пост)",
+      "target_topic_id": "topic-0478",
+      "target_title": "ураза (пост)",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0354",
+      "label": "Зу-н-Нун",
+      "target_topic_id": "topic-0165",
+      "target_title": "Зу-н-Нун",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0389",
+      "label": "блага",
+      "target_topic_id": "topic-0055",
+      "target_title": "блага",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0398",
+      "label": "намаз",
+      "target_topic_id": "topic-0267",
+      "target_title": "намаз",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0405",
+      "label": "асхабы (сподвижники Пророка)",
+      "target_topic_id": "topic-0038",
+      "target_title": "асхабы (сподвижники Пророка)",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0448",
+      "label": "иудеи",
+      "target_topic_id": "topic-0185",
+      "target_title": "Сыны Исраила и иудеи в коранических повествованиях",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0450",
+      "label": "Аллах",
+      "target_topic_id": "topic-0026",
+      "target_title": "Аллах",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0536",
+      "label": "Кааба",
+      "target_topic_id": "topic-0188",
+      "target_title": "Кааба",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0456",
+      "label": "развод",
+      "target_topic_id": "topic-0373",
+      "target_title": "развод",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0460",
+      "label": "поминание",
+      "target_topic_id": "topic-0531",
+      "target_title": "поминание",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0463",
+      "label": "Прежние Небесные Писания",
+      "target_topic_id": "topic-0052",
+      "target_title": "Прежние Небесные Писания",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0477",
+      "label": "таваккул",
+      "target_topic_id": "topic-0450",
+      "target_title": "таваккул",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0492",
+      "label": "пророк Харун (Аарон)",
+      "target_topic_id": "topic-0361",
+      "target_title": "пророк Харун (Аарон)",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0499",
+      "label": "пророк Худ",
+      "target_topic_id": "topic-0362",
+      "target_title": "пророк Худ",
+      "method": "exact_title_or_alias"
+    },
+    {
+      "from_topic_id": "topic-0512",
+      "label": "пророк Шуайб",
+      "target_topic_id": "topic-0363",
+      "target_title": "пророк Шуайб",
+      "method": "exact_title_or_alias"
+    }
+  ]
+}

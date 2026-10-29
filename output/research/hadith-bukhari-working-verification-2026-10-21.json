@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-21T16:32:03.937762+00:00",
+  "output_manifest_sha256": "5ce0f1ae3e671b16a66c4187848110b6f6b2c3a621f157b312ff54c0cdb1652e",
+  "source_fragments_independently_reconstructed": 12531,
+  "footnote_blocks": 8503,
+  "nested_footnote_blocks": 2,
+  "json_records_preserved": 7277,
+  "english_records_preserved_unverified": 7277,
+  "automatic_links_rechecked": 4364,
+  "review_records_accounted_for": 2913,
+  "unlinked_numbered_source_fragments_retained": 2689,
+  "sections": 97,
+  "navigation_entries": 3985,
+  "all_input_and_output_hashes_match": true,
+  "all_checks_passed": true,
+  "scope": "Data conservation and correspondence invariants. No complete print collation or English translation verification."
+}

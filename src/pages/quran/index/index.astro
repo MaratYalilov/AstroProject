@@ -1,0 +1,236 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { replaceQuranTags } from '../../../utils/replaceQuranTags';
+import surahs from '../../../data/surahs.json';
+import {
+  reviewedIndex, finalAudit, journalForTopic, normalizeSearch, noteMatches, sourceUrl, basisLabels,
+} from '../../../utils/quranIndexReview';
+import '../../../styles/quran-index.css';
+import { localTafsir } from '../../../utils/quranIndexTafsirs';
+
+export const prerender = false;
+const params = Astro.url.searchParams;
+const queryText = (params.get('q') ?? '').trim().slice(0, 200);
+const query = normalizeSearch(queryText);
+const views = [
+  { id: 'retained', label: 'Итоговый список' }, { id: 'added', label: 'Добавленные' },
+  { id: 'removed', label: 'Исключённые' }, { id: 'changes', label: 'Формулировки' },
+];
+let view = views.some(v => v.id === params.get('view')) ? params.get('view')! : 'retained';
+const allTopics = reviewedIndex.topics;
+const excludedTopicIds = new Set<string>();
+if (/^\d+:\d+$/.test(query)) {
+  // Removed and even invalid addresses remain discoverable in the review results.
+  const journals = await Promise.all(Array.from({ length: 54 }, (_, i) => journalForTopic(i * 10 + 1)));
+  for (const log of journals) for (const decision of log.decisions) {
+    if (decision.decision === 'remove' && decision.verse_key === query) {
+      excludedTopicIds.add(decision.item_id.split('-item-')[0]);
+    }
+  }
+}
+const matchingTopics = allTopics.map((topic, index) => ({ topic, position: index + 1 })).filter(({ topic }) => {
+  if (!query) return true;
+  const title = normalizeSearch([topic.title, ...(topic.aliases ?? []), topic.scope_note ?? '', ...topic.see_also].join(' '));
+  return excludedTopicIds.has(topic.id) || (!/^\d+:\d+$/.test(query) && query.split(' ').every(word => title.includes(word))) || topic.items.some(item =>
+    Object.entries(item.verse_notes).some(([key, note]) => noteMatches(query, topic, item, key, note)));
+});
+// An explicit topic remains accessible even if the current search only matches a removed reference.
+const requestedTafsirId = (params.get('tafsir') ?? '').slice(0, 160);
+const requestedTafsir = localTafsir(requestedTafsirId);
+const selected = allTopics.find(t => t.id === params.get('topic'))
+  ?? (requestedTafsir ? allTopics.find(t => t.items.some(i => Object.values(i.verse_notes).some(n => n.source_ids.includes(requestedTafsirId)))) : undefined)
+  ?? matchingTopics[0]?.topic;
+const position = selected ? allTopics.indexOf(selected) + 1 : 0;
+const journal = selected ? await journalForTopic(position) : undefined;
+const prefix = selected ? `${selected.id}-item-` : '';
+const removed = journal?.decisions.filter(d => d.item_id.startsWith(prefix) && d.decision === 'remove') ?? [];
+const additions = journal?.additions.filter(d => d.item_id.startsWith(prefix)) ?? [];
+const addedKeys = new Set(additions.map(d => `${d.item_id}/${d.verse_key}`));
+const changes = journal?.description_changes?.filter(d => d.item_id.startsWith(prefix)) ?? [];
+const topicChanges = journal?.topic_changes?.filter(d => d.topic_id === selected?.id) ?? [];
+const itemLabel = (id: string) => selected?.items.find(i => i.id === id)?.description
+  ?? changes.find(c => c.item_id === id)?.before ?? id;
+const rows = selected?.items.flatMap(item => Object.entries(item.verse_notes)
+  .filter(([key, note]) => noteMatches(query, selected, item, key, note))
+  .map(([key, note]) => ({ item, key, note, added: addedKeys.has(`${item.id}/${key}`) }))) ?? [];
+const visibleRows = view === 'added' ? rows.filter(r => r.added) : rows;
+const removedRows = removed.filter(r => !query || (/^\d+:\d+$/.test(query) ? r.verse_key === query
+  : query.split(' ').every(word => normalizeSearch([selected?.title, itemLabel(r.item_id), r.verse_key, r.reason].join(' ')).includes(word))));
+if (!params.has('view') && query && !rows.length && removedRows.length) view = 'removed';
+const total = view === 'removed' ? removedRows.length : visibleRows.length;
+const pageCount = Math.max(1, Math.ceil(total / 20));
+const requestedPage = Number(params.get('page') ?? 1);
+const page = Math.min(pageCount, Math.max(1, Number.isSafeInteger(requestedPage) ? requestedPage : 1));
+const pageRows = visibleRows.slice((page - 1) * 20, page * 20);
+const pageRemoved = removedRows.slice((page - 1) * 20, page * 20);
+const path = '/quran/index';
+function url(values: Record<string, string | number | undefined> = {}, anchor = 'index-results') {
+  const next = new URLSearchParams({ ...(queryText ? { q: queryText } : {}), ...(selected ? { topic: selected.id } : {}), view });
+  if (page > 1) next.set('page', String(page));
+  for (const [key, value] of Object.entries(values)) {
+    if (value === undefined || value === '') next.delete(key); else next.set(key, String(value));
+  }
+  return `${path}?${next}#${anchor}`;
+}
+const requestedVerse = params.get('ayah') ?? '';
+const [sura, ayah] = requestedVerse.split(':').map(Number);
+const validVerse = /^\d{1,3}:\d{1,3}$/.test(requestedVerse) && surahs.some(s => s.num === sura && ayah >= 1 && ayah <= s.ayahs);
+const verseHtml = validVerse ? replaceQuranTags(`{Quran}${sura}:${ayah}{/Quran}`) : '';
+const numbers = new Intl.NumberFormat('ru');
+const counts = finalAudit.counts;
+const source = (id: string) => reviewedIndex.sources[id] ?? journal?.sources[id];
+function sourceLink(id: string) {
+  const ref = source(id);
+  if (!ref) return undefined;
+  const local = localTafsir(id);
+  return local ? { title: `${local.title} (арабский текст)`, href: url({ tafsir: id }, 'selected-tafsir'), external: false }
+    : { title: ref.title, href: sourceUrl(ref.url), external: true };
+}
+const related = selected ? finalAudit.crossreference_resolution.filter(r => r.from_topic_id === selected.id) : [];
+---
+
+<Base title="Проверенный тематический указатель Корана | HUTBA" description="Объединённый тематический указатель: аяты, объяснения тематических связей, источники и журнал исправлений.">
+  <meta slot="head" name="robots" content="noindex, follow" />
+  <div class="quran-index">
+    <header class="qi-header">
+      <p class="qi-eyebrow">Коран / Тематический указатель</p>
+      <h1>Темы и аяты Корана</h1>
+      <p class="qi-intro">Результаты проверки указателя: почему аят относится к теме, на чём основана связь и что было исправлено.</p>
+      <div class="qi-stats" aria-label="Итоги проверки">
+        <span><strong>{counts.topics}</strong> тем</span>
+        <span><strong>{numbers.format(counts.result)}</strong> связей</span>
+        <span><strong>{numbers.format(counts.unique_verses)}</strong> разных аятов</span>
+      </div>
+      <details class="qi-about">
+        <summary>О проверке и источниках</summary>
+        <p>Арабский текст, перевод Кулиева и QCF взяты из локальных файлов сайта. Тафсиры и хадисы используются отдельно как основания толкования. Исторические версии и спорные отнесения отмечены в пояснениях.</p>
+        <p>Арабские тафсиры открываются здесь по локальным базам проекта «Аят»: Ибн Касир, ат-Табари, аль-Куртуби, ас-Саади и аль-Багави.</p>
+        <p>Основа - 537 проверенных тем первого указателя. После проверки дополнений из указателя Абдуллы Юсуфа Али добавлены {counts.merge_added_topics} темы, {counts.merge_added_items} подтем и {counts.merge_added_associations} связей. Объединение завершено 21 октября 2026 года.</p>
+        <p>В первоначальной проверке рассмотрены {numbers.format(counts.original)} связей и исключены {numbers.format(counts.removed)}. Прежние записи сохранены. Повторная проверка всех ссылок второй книги не проводилась; проверены отобранные новые рубрики и отсутствовавшие адреса. Указатель не исчерпывает все возможные тематические связи.</p>
+        <a href="/quran/index/download.json" download>Скачать объединённый JSON</a>
+      </details>
+    </header>
+
+    <form class="qi-search" method="get" action={path} role="search">
+      <label for="index-query">Найти тему, слово или аят</label>
+      <div class="qi-search-row">
+        <input id="index-query" name="q" value={queryText} placeholder="Например: милость, Ибрахим или 2:255" maxlength="200" type="search" />
+        <button type="submit">Найти</button>
+        {queryText && <a class="qi-clear" href={path}>Сбросить</a>}
+      </div>
+      <p>Поиск по названиям, описаниям, пояснениям и ключевым цитатам. Адрес аята ищется точно.</p>
+    </form>
+
+    <div class="qi-workspace">
+      <aside class="qi-sidebar">
+        <details open>
+          <summary>Темы <span>{matchingTopics.length} из {counts.topics}</span></summary>
+          <nav aria-label="Темы указателя">
+            {matchingTopics.map(({ topic, position: ordinal }) => <a
+              href={url({ topic: topic.id, page: undefined, ayah: undefined })}
+              aria-current={topic.id === selected?.id ? 'page' : undefined}>
+              <span class="qi-ordinal">{ordinal}</span><span>{topic.title}</span>
+            </a>)}
+            {!matchingTopics.length && <p class="qi-muted">Тем не найдено. Попробуйте другое слово или сбросьте поиск.</p>}
+          </nav>
+        </details>
+      </aside>
+      <script is:inline>
+        if (window.matchMedia('(max-width: 800px)').matches) {
+          document.querySelector('.qi-sidebar details')?.removeAttribute('open');
+        }
+      </script>
+
+      <section class="qi-content" id="index-results" aria-labelledby="qi-topic-title">
+        {!selected ? <div class="qi-empty"><h2 id="qi-topic-title">Ничего не найдено</h2><p>Попробуйте более короткий запрос или адрес аята в формате 2:255.</p></div> : <>
+          <header class="qi-topic-header">
+            <p class="qi-eyebrow">Тема {position} из {counts.topics} <span class="qi-muted">/ {selected.id}</span></p>
+            <h2 id="qi-topic-title">{selected.title}</h2>
+            {!!selected.aliases?.length && <p class="qi-muted">Также: {selected.aliases.join(', ')}</p>}
+            {selected.scope_note && <p class="qi-scope">{selected.scope_note}</p>}
+            {!!related.length && <div class="qi-related">Смотрите также: {related.map(r => <a href={url({ topic: r.target_topic_id, q: undefined, page: undefined })}>{r.label}</a>)}</div>}
+            {queryText && <p class="qi-muted">Показаны совпадения с «{queryText}». <a href={url({ q: undefined, page: undefined })}>Вся тема</a></p>}
+          </header>
+
+          <nav class="qi-tabs" aria-label="Результаты проверки темы">
+            {views.map(v => <a href={url({ view: v.id, page: undefined, ayah: undefined })} aria-current={view === v.id ? 'page' : undefined}>
+              {v.label}<span>{v.id === 'retained' ? selected.items.reduce((n, i) => n + i.verse_keys.length, 0) : v.id === 'added' ? additions.length : v.id === 'removed' ? removed.length : changes.length + topicChanges.length}</span>
+            </a>)}
+          </nav>
+
+          {requestedVerse && <section class="qi-verse" id="selected-ayah" aria-label="Полный текст аята">
+            <div class="qi-verse-heading"><h3>Аят {requestedVerse}</h3><a href={url({ ayah: undefined, tafsir: requestedTafsir ? requestedTafsirId : undefined }, requestedTafsir ? 'selected-tafsir' : 'index-results')}>Закрыть</a></div>
+            {validVerse ? <div set:html={verseHtml} /> : <p>Такого адреса нет в локальном Коране. Проверьте номер суры и аята.</p>}
+          </section>}
+
+          {requestedTafsirId && <section class="qi-verse qi-tafsir" id="selected-tafsir" aria-label="Арабский текст тафсира">
+            <div class="qi-verse-heading"><h3>{requestedTafsir?.title ?? 'Тафсир не найден'}</h3><a href={url({ ayah: requestedVerse || undefined }, requestedVerse ? 'selected-ayah' : 'index-results')}>Закрыть</a></div>
+            {requestedTafsir ? <>
+              <p class="qi-muted">Арабский текст из локальной базы проекта «Аят».</p>
+              {requestedTafsir.binding.was_english_abridgement && <p class="qi-muted">Исходная ссылка индекса вела на сокращённый английский перевод. Здесь открыт арабский текст того же тафсира.</p>}
+              <a class="qi-tafsir-ayah" href={url({ ayah: `${requestedTafsir.sura}:${requestedTafsir.aya}`, tafsir: requestedTafsirId }, 'selected-ayah')}>Открыть аят {requestedTafsir.sura}:{requestedTafsir.aya}</a>
+              <div class="qi-tafsir-columns">
+                <section class="qi-tafsir-russian" lang="ru" aria-label="Тафсир ас-Саади на русском">
+                  <h4>Ас-Саади · на русском</h4>
+                  {requestedTafsir.russian?.paragraphs.length ? requestedTafsir.russian.paragraphs.map(text => <p>{text}</p>)
+                    : <p class="qi-muted">Для этого аята в локальной базе нет русского толкования ас-Саади.</p>}
+                </section>
+                <section class="qi-tafsir-text" lang="ar" dir="rtl" aria-label="Тафсир на арабском">
+                  <h4 lang="ru" dir="ltr">{requestedTafsir.database.title} · на арабском</h4>
+                  {requestedTafsir.paragraphs.map(text => <p class="arab">{text}</p>)}
+                </section>
+              </div>
+            </> : <p>Для этой ссылки нет локальной записи тафсира.</p>}
+          </section>}
+
+          {view === 'changes' ? <>
+            {!changes.length && !topicChanges.length && <p class="qi-empty">Формулировки этой темы не менялись.</p>}
+            {[...topicChanges, ...changes].map(change => <article class="qi-card qi-change">
+              <p class="qi-eyebrow">Изменение формулировки</p>
+              {change.before && <p><span class="qi-muted">Было:</span> {change.before}</p>}
+              {change.after && <p><strong>Стало:</strong> {change.after}</p>}
+              <p>{change.reason}</p>
+            </article>)}
+          </> : <>
+            <p class="qi-result-count" aria-live="polite">{view === 'removed' ? 'Исключённых связей' : 'Связей'}: {numbers.format(total)}{total > 20 && ` · Страница ${page} из ${pageCount}`}</p>
+            {view === 'removed' ? pageRemoved.map(row => <article class="qi-card qi-removed">
+              <div class="qi-card-heading"><h3>{itemLabel(row.item_id)}</h3><span class="qi-badge">Исключено</span></div>
+              <p class="qi-reference">{row.verse_key}</p>
+              <p>{row.reason}</p>
+              {/^\d+:\d+$/.test(row.verse_key) && (() => { const [s, a] = row.verse_key.split(':').map(Number); return surahs.some(meta => meta.num === s && a <= meta.ayahs && a > 0); })() &&
+                <a href={url({ ayah: row.verse_key }, 'selected-ayah')}>Посмотреть аят</a>}
+              <ul class="qi-sources">{row.source_ids.filter(id => id !== 'site-quran').map(id => {
+                const link = sourceLink(id); return link && <li>{link.href ? <a href={link.href} target={link.external ? '_blank' : undefined} rel={link.external ? 'noopener noreferrer' : undefined}>{link.title}{link.external && ' ↗'}</a> : link.title}</li>;
+              })}</ul>
+            </article>) : pageRows.map(row => <article class="qi-card">
+              <div class="qi-card-heading"><h3>{row.item.description}</h3>{row.added && <span class="qi-badge qi-added">Добавлено</span>}</div>
+              <div class="qi-note-heading"><a class="qi-reference" href={url({ ayah: row.key }, 'selected-ayah')}>{row.key} <span>Открыть аят</span></a>
+                <span class="qi-basis" title={reviewedIndex.basis_definitions[row.note.basis]}>{basisLabels[row.note.basis] ?? 'Основание указано ниже'}</span></div>
+              <blockquote>«{row.note.key_phrase.text}»</blockquote>
+              <p>{row.note.explanation}</p>
+              {row.note.qualification && <p class="qi-qualification"><strong>Уточнение.</strong> {row.note.qualification}</p>}
+              {row.note.usage_note && <p>{row.note.usage_note}</p>}
+              {!!row.note.context_verse_keys?.length && <p class="qi-context">Контекст: {row.note.context_verse_keys.map(key => <a href={url({ ayah: key }, 'selected-ayah')}>{key}</a>)}</p>}
+              <details class="qi-evidence"><summary>Основание и источники</summary>
+                <p>{reviewedIndex.basis_definitions[row.note.basis]}</p>
+                <p class="qi-muted">Цитата: перевод Кулиева, локальный текст сайта.</p>
+                <ul class="qi-sources">{row.note.source_ids.filter(id => id !== 'site-quran').map(id => {
+                  const ref = reviewedIndex.sources[id]; const link = sourceLink(id); return ref && link && <li>
+                    {link.href ? <a href={link.href} target={link.external ? '_blank' : undefined} rel={link.external ? 'noopener noreferrer' : undefined}>{link.title}{link.external && ' ↗'}</a> : link.title}
+                    {ref.hadith_grade && <span class="qi-muted"> · {ref.hadith_grade}</span>}
+                  </li>;
+                })}</ul>
+              </details>
+            </article>)}
+            {!total && <p class="qi-empty">{selected.items.length ? 'В этом разделе нет связей с выбранными условиями.' : related.length ? 'Эта тема ведёт к другой теме указателя. Используйте ссылку выше.' : 'Подтверждённые связи с аятами не установлены. Пояснения находятся в разделе «Исключённые».'}</p>}
+            {pageCount > 1 && <nav class="qi-pagination" aria-label="Страницы связей">
+              {page > 1 ? <a href={url({ page: page - 1 })}>← Назад</a> : <span />}
+              <span>{page} / {pageCount}</span>
+              {page < pageCount ? <a href={url({ page: page + 1 })}>Далее →</a> : <span />}
+            </nav>}
+          </>}
+        </>}
+      </section>
+    </div>
+  </div>
+</Base>
