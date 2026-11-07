@@ -19,6 +19,7 @@ interface CourseGridProps {
   studyCourses: StudyCourse[];
   resumeLessons?: Record<string, { id: number; slug: string }[]>;
   subjectIcon?: string;
+  children?: React.ReactNode;
 }
 
 const CourseGrid: React.FC<CourseGridProps> = ({ 
@@ -26,7 +27,8 @@ const CourseGrid: React.FC<CourseGridProps> = ({
   courses, 
   studyCourses,
   resumeLessons = EMPTY_RESUME_LESSONS,
-  subjectIcon 
+  subjectIcon,
+  children
 }) => {
   const progressCourses = React.useMemo(() => studyCourses.map(course => ({
     ...course, subject: subjectSlug,
@@ -215,6 +217,7 @@ const CourseGrid: React.FC<CourseGridProps> = ({
           </motion.a>
         );
       })}
+      {children}
     </div>
     </ReducedMotionProvider>
   );

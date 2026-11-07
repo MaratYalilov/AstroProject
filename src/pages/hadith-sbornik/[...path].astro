@@ -1,0 +1,12 @@
+---
+import HadithBrowser from '../../components/hadith/HadithBrowser.astro';
+import { collections, indexes, collectionPath } from '../../lib/hadith/collections';
+
+export const prerender = false;
+const collection = collections.find(item => item.collection === Astro.params.path?.split('/')[0]);
+const number = Astro.url.searchParams.get('number');
+if (collection && number && indexes.get(collection.collection)?.numbers.has(number.trim())) {
+  return Astro.redirect(`${collectionPath(collection)}/${encodeURIComponent(number.trim())}`, 302);
+}
+---
+<HadithBrowser />

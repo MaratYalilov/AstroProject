@@ -126,6 +126,19 @@ const SubjectGrid: React.FC<SubjectGridProps> = ({ items }) => {
                         ))}
                       </ul>
                     )}
+                    {s.slug === "hadith" && (
+                      <div className="mt-4">
+                        <p className="text-xs font-medium text-lime-600 dark:text-lime-400">3 книги</p>
+                        <ul className="mt-3 list-none space-y-2 p-0 text-sm leading-snug text-muted-foreground">
+                          {["Сахих аль-Бухари", "Сахих Муслим", "Сунан Абу Дауда"].map(title => (
+                            <li key={title} className="flex items-start gap-2">
+                              <span aria-hidden="true" className="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-gray-400 dark:bg-gray-500" />
+                              <span className="min-w-0 break-words">{title}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 </div>
                 

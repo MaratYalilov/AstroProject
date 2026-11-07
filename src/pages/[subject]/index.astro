@@ -3,6 +3,8 @@
 import Base from "../../layouts/Base.astro";
 import { getCollection } from "astro:content";
 import CourseGrid from "../../components/CourseGrid";
+import CollectionCard from "../../components/hadith/CollectionCard.astro";
+import { collections, plannedCollections, collectionPath } from "../../lib/hadith/collections";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { studyCourseSummaries } from "../../lib/studyCourseSummaries";
 import { loadAllInteractiveLessons } from "../../lib/interactive/loadInteractiveLesson";
@@ -83,5 +85,21 @@ const canonical = new URL(`/${subject}/`, Astro.site).href;
     studyCourses={studyCourses}
     resumeLessons={resumeLessons}
     subjectIcon={icon} 
-  />
+  >
+    {subject === "hadith" && <>
+      {collections.map((collection, index) => <CollectionCard
+        href={collectionPath(collection)}
+        title={collection.title_ru}
+        arabic={collection.title_ar}
+        number={index + 1}
+        description={`${collection.books.length} книг · ${collection.records.length} записей`}
+      />)}
+      {plannedCollections.map((collection, index) => <CollectionCard
+        title={collection.title}
+        arabic={collection.arabic}
+        number={collections.length + index + 1}
+        description="Данные пока не добавлены"
+      />)}
+    </>}
+  </CourseGrid>
 </Base>

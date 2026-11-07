@@ -1,0 +1,36 @@
+---
+import { type Collection, type HadithRecord, recordPath, text } from '../../lib/hadith/collections';
+interface Props { collection: Collection; record: HadithRecord; full?: boolean }
+const { collection, record, full = false } = Astro.props;
+---
+<article class="rounded-xl border bg-card p-5 md:p-8">
+  <a class="font-semibold text-primary underline-offset-4 hover:underline" href={recordPath(collection, record)}>
+    {collection.title_ru} · № {record.hadith_numbers.join(', ')}
+  </a>
+  {full ? <>
+    <div lang="ar" dir="rtl" class="arab mt-6 whitespace-pre-line text-right text-2xl leading-loose md:text-3xl md:leading-loose">
+      {record.arabic.parts.map(part => <span class:list={[part.kind === 'isnad' && 'text-muted-foreground']}>{text(part.text)}{' '}</span>)}
+    </div>
+    <h2 class="mt-8 text-lg font-semibold">Перевод</h2>
+    <p class="mt-3 whitespace-pre-line text-lg leading-relaxed">{text(record.russian.full_text)}</p>
+    {record.russian.source_id && <p class="mt-5 text-sm text-muted-foreground">Источник перевода: {collection.translation_sources[record.russian.source_id]?.title ?? record.russian.source_id}</p>}
+    {record.russian.explanations?.length && <section class="mt-6 border-t pt-5" aria-label="Примечания">
+      <h2 class="text-lg font-semibold">Примечания</h2>
+      {record.russian.explanations.map(note => <div class="mt-4">
+        <h3 class="font-medium">{text(note.title ?? 'Пояснение')}</h3>
+        <p class="mt-2 whitespace-pre-line leading-relaxed">{text(note.text)}</p>
+        {note.references?.map(ref => typeof ref === 'string' ? ref : ref.url).filter(url => /^https?:\/\//.test(url)).map((url, i) => <a class="mr-4 mt-2 inline-block text-sm underline" href={url} target="_blank" rel="noopener noreferrer">Источник {i + 1}</a>)}
+      </div>)}
+    </section>}
+  </> : <>
+    <p class="mt-3 whitespace-pre-line leading-relaxed">{text(record.russian.full_text.slice(0, 360))}{record.russian.full_text.length > 360 ? '…' : ''}</p>
+    <a class="mt-4 inline-block text-sm underline" href={recordPath(collection, record)}>Арабский текст, перевод и примечания →</a>
+  </>}
+</article>
+
+<style>
+  .arab > span {
+    font-family: inherit;
+    line-height: inherit;
+  }
+</style>

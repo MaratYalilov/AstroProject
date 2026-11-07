@@ -2,6 +2,7 @@ import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
 import { loadAllInteractiveLessons } from "../lib/interactive/loadInteractiveLesson";
 import { teachers, teacherPath } from "../lib/teachers";
+import { collections, collectionPath, recordPath } from "../lib/hadith/collections";
 
 export const prerender = true;
 
@@ -35,6 +36,14 @@ export const GET: APIRoute = async ({ site }) => {
   add("/");
   add("/about");
   add("/glossary");
+  add("/hadith-sbornik");
+  for (const collection of collections) {
+    const path = collectionPath(collection);
+    add(path);
+    for (const book of collection.books) add(`${path}/book/${book.id}`);
+    for (const chapter of collection.chapters) add(`${path}/chapter/${chapter.id}`);
+    for (const record of collection.records) add(recordPath(collection, record));
+  }
   for (const course of courses) {
     for (const download of course.data.downloads) {
       if (download.pageUrl) add(download.pageUrl);
