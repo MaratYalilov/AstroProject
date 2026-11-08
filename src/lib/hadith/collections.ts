@@ -8,6 +8,7 @@ export interface HadithRecord {
   chapter_id: string | null;
   hadith_numbers: (number | string)[];
   arabic: { parts: { kind: string; text: string }[] };
+  grading?: { ar?: string[]; ru?: string[] };
   russian: {
     full_text: string;
     source_id: string;

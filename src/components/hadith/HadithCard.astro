@@ -2,6 +2,8 @@
 import { type Collection, type HadithRecord, recordPath, text } from '../../lib/hadith/collections';
 interface Props { collection: Collection; record: HadithRecord; full?: boolean }
 const { collection, record, full = false } = Astro.props;
+const gradingRu = [...new Set((record.grading?.ru ?? []).map(value => text(value).trim()).filter(Boolean))];
+const gradingAr = [...new Set((record.grading?.ar ?? []).map(value => text(value).trim()).filter(Boolean))];
 ---
 <article class="rounded-xl border bg-card p-5 md:p-8">
   <a class="font-semibold text-primary underline-offset-4 hover:underline" href={recordPath(collection, record)}>
@@ -26,9 +28,16 @@ const { collection, record, full = false } = Astro.props;
     <p class="mt-3 whitespace-pre-line leading-relaxed">{text(record.russian.full_text.slice(0, 360))}{record.russian.full_text.length > 360 ? '…' : ''}</p>
     <a class="mt-4 inline-block text-sm underline" href={recordPath(collection, record)}>Арабский текст, перевод и примечания →</a>
   </>}
+  {(gradingRu.length > 0 || gradingAr.length > 0) && <section class="grading mt-5 border-t border-border pt-4" aria-label="Оценка достоверности">
+    <h2 class="grading-title text-sm font-semibold">Оценка достоверности</h2>
+    {gradingAr.map(value => <p lang="ar" dir="rtl" class="arab grading-arabic mt-2">{value}</p>)}
+    {gradingRu.map(value => <p class:list={['grading-text mt-2 whitespace-pre-line text-sm leading-relaxed text-muted-foreground', !full && 'line-clamp-3']}>{full ? value : value.split(/\n\s*\n/)[0]}</p>)}
+  </section>}
 </article>
 
 <style>
+  .grading-title { margin: 0; padding: 0; border: 0; color: inherit; }
+  .grading-arabic, .grading-text { margin-bottom: 0; }
   .arab > span {
     font-family: inherit;
     line-height: inherit;
