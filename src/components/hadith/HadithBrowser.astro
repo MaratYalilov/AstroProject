@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import HadithCard from './HadithCard.astro';
 import CollectionCard from './CollectionCard.astro';
+import { chapterPath, chapterSlug } from '../../lib/hadith/paths';
 import { collections, plannedCollections, indexes, normalize, collectionPath, recordPath, text } from '../../lib/hadith/collections';
 
 
@@ -13,7 +14,7 @@ const collection = collections.find(c => c.collection === parts[0]);
 const root = parts.length === 0;
 const index = collection && indexes.get(collection.collection)!;
 const book = collection && parts[1] === 'book' && collection.books.find(b => String(b.id) === parts[2]);
-const chapter = collection && parts[1] === 'chapter' && collection.chapters.find(c => c.id === parts[2]);
+const chapter = collection && parts[1] === 'chapter' && collection.chapters.find(c => chapterSlug(c) === parts[2]);
 const numberMatch = parts.length === 2 ? /^(.+?)(?:-([2-9]\d*|1\d+))?$/.exec(parts[1]) : null;
 const variants = collection && numberMatch ? collection.records.filter(r => r.hadith_numbers.some(n => String(n) === numberMatch[1])) : [];
 const record = variants[Number(numberMatch?.[2] ?? 1) - 1];
@@ -95,7 +96,7 @@ collection?.records.forEach(r => chapterCounts.set(r.chapter_id, (chapterCounts.
       </section>
       <nav aria-label="Меню сборника" class="flex flex-wrap gap-4 text-sm underline"><a href="/hadith-sbornik">Все сборники</a><a href={collectionPath(collection)}>Все книги</a>{chapter && <a href={`${collectionPath(collection)}/book/${chapter.book_id}`}>К книге</a>}</nav>
       {record ? <>
-        {chapterForRecord && <a class="block rounded-lg border p-4 hover:bg-muted" href={`${collectionPath(collection)}/chapter/${chapterForRecord.id}`}>{text(chapterForRecord.title_ru)} →</a>}
+        {chapterForRecord && <a class="block rounded-lg border p-4 hover:bg-muted" href={chapterPath(collection.collection, chapterForRecord)}>{text(chapterForRecord.title_ru)} →</a>}
         <HadithCard collection={collection} record={record} full />
         {variants.length > 1 && <nav aria-label="Варианты передачи" class="flex flex-wrap gap-4 rounded-lg border p-4"><span class="text-sm text-muted-foreground">В этом корпусе несколько записей с номером {numberMatch![1]}:</span>{variants.map((variant, i) => <a class="text-sm underline" aria-current={variant === record ? 'page' : undefined} href={recordPath(collection, variant)}>Передача {i + 1}</a>)}</nav>}
         <nav aria-label="Соседние хадисы" class="flex justify-between gap-4">
@@ -103,7 +104,7 @@ collection?.records.forEach(r => chapterCounts.set(r.chapter_id, (chapterCounts.
           {position + 1 < collection.records.length && <a class="rounded-lg border p-3" rel="next" href={recordPath(collection, collection.records[position + 1])}>№ {collection.records[position + 1].hadith_numbers.join(', ')} →</a>}
         </nav>
       </> : <>
-        {book && !q && <details class="rounded-xl border p-4" open><summary class="cursor-pointer font-semibold">Главы книги</summary><div class="mt-4 divide-y">{collection.chapters.filter(c => c.book_id === book.id).map(c => <a class="block py-3 hover:text-primary" href={`${collectionPath(collection)}/chapter/${c.id}`}>{text(c.title_ru) || text(c.title_ar)} <span class="text-sm text-muted-foreground">({chapterCounts.get(c.id) ?? 0})</span></a>)}</div></details>}
+        {book && !q && <details class="rounded-xl border p-4" open><summary class="cursor-pointer font-semibold">Главы книги</summary><div class="mt-4 divide-y">{collection.chapters.filter(c => c.book_id === book.id).map(c => <a class="block py-3 hover:text-primary" href={chapterPath(collection.collection, c)}>{text(c.title_ru) || text(c.title_ar)} <span class="text-sm text-muted-foreground">({chapterCounts.get(c.id) ?? 0})</span></a>)}</div></details>}
         {showList ? <>
           <p class="text-sm text-muted-foreground" role="status">{q ? `По запросу «${text(q)}» найдено записей` : 'Записей в разделе'}: {filtered.length}{filtered.length > 0 && ` · Страница ${page} из ${pageCount}`}</p>
           {filtered.length === 0 && <p>Ничего не найдено. Попробуйте другое слово или перейдите по номеру.</p>}

@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import HadithReader from './HadithReader';
+import './reader.css';
+import { readerCatalog, readView } from '../../lib/hadith/reader';
+
+const initialView = readView(Astro.url.pathname);
+if (!initialView) Astro.response.status = 404;
+const noindex = !initialView || initialView.noindex || Astro.url.searchParams.has('q');
+if (noindex) Astro.response.headers.set('X-Robots-Tag', 'noindex, follow');
+---
+<Base title={`${initialView?.title ?? 'Раздел не найден'} | Библиотека | HUTBA`} description="Коран с переводом Кулиева, аудио и тафсиром Саади. Сборники хадисов с поиском по арабскому тексту и русскому переводу." appPage>
+  <Fragment slot="head">
+    <link rel="canonical" href={new URL(initialView?.canonicalPath ?? Astro.url.pathname, Astro.site).href} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+  </Fragment>
+  {initialView ? <HadithReader catalog={readerCatalog} initialView={initialView} client:load /> : <div class="p-6"><h1>Раздел не найден</h1><a href="/hadith-sbornik">Открыть библиотеку</a></div>}
+</Base>

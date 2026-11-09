@@ -1,6 +1,9 @@
 import bukhari from '../../data/hadis/bukhari_hutba.json';
 import muslim from '../../data/hadis/muslim_hutba.json';
 import abudawud from '../../data/hadis/abudawud_hutba.json';
+import { normalizeSearch as normalize } from './searchText';
+import type { HadithReference } from './references';
+export { normalize };
 
 export interface HadithRecord {
   id: string;
@@ -12,7 +15,7 @@ export interface HadithRecord {
   russian: {
     full_text: string;
     source_id: string;
-    explanations?: { kind: string; title?: string; text: string; references?: (string | { collection?: string; number?: number; title?: string; url: string })[] }[];
+    explanations?: { kind: string; title?: string; text: string; references?: HadithReference[] }[];
   };
 }
 export interface Collection {
@@ -28,9 +31,6 @@ export interface Collection {
 export const collections: Collection[] = [bukhari, muslim, abudawud];
 export const plannedCollections: { id: string; title: string; arabic: string }[] = [];
 export const text = (value: string) => value.replace(/[\u2013\u2014]/g, '-');
-export const normalize = (value: string) => value.toLocaleLowerCase('ru').normalize('NFKD')
-  .replace(/[\u0300-\u036f\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06ed\u0640]/g, '')
-  .replace(/[أإآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/ё/g, 'е');
 export const collectionPath = (collection: Collection) => `/hadith-sbornik/${collection.collection}`;
 export const recordPath = (collection: Collection, record: HadithRecord) => {
   const number = record.hadith_numbers[0];

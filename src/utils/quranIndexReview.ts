@@ -1,7 +1,7 @@
 import indexRaw from '../data/quran-index/index.json?raw';
 import auditRaw from '../data/quran-index/audit.json?raw';
-import reviewHistoryRaw from '../data/quran-index/review-history.json?raw';
 import { localizeTafsirSource } from './quranIndexTafsirs';
+import { localizeHadithSource } from './quranIndexHadith';
 
 export interface VerseNote {
   explanation: string;
@@ -26,14 +26,6 @@ export interface ReviewTopic {
   see_also: string[];
   items: ReviewItem[];
 }
-interface Journal {
-  decisions: { item_id: string; verse_key: string; decision: string; reason?: string; source_ids: string[] }[];
-  additions: { item_id: string; verse_key: string; reason: string; source_ids: string[] }[];
-  description_changes?: { item_id: string; before: string; after: string; reason: string }[];
-  topic_changes?: { topic_id: string; before?: string; after?: string; reason: string }[];
-  sources: Record<string, { title: string; url?: string }>;
-}
-
 // Only the retained site data is imported; research files live in the external archive.
 export const reviewedIndex = JSON.parse(indexRaw) as {
   topics: ReviewTopic[];
@@ -41,37 +33,13 @@ export const reviewedIndex = JSON.parse(indexRaw) as {
   basis_definitions: Record<string, string>;
 };
 for (const [id, source] of Object.entries(reviewedIndex.sources)) {
-  reviewedIndex.sources[id] = localizeTafsirSource(id, source);
+  reviewedIndex.sources[id] = localizeHadithSource(id, localizeTafsirSource(id, source));
 }
 export const finalAudit = JSON.parse(auditRaw) as {
   counts: { topics: number; result: number; unique_verses: number; original: number; removed: number; added: number;
     merge_added_associations: number; merge_added_items: number; merge_added_topics: number };
   crossreference_resolution: { from_topic_id: string; label: string; target_topic_id: string }[];
 };
-
-const reviewHistory = JSON.parse(reviewHistoryRaw) as { batches: Record<string, Journal>; merge: Journal };
-const mergeJournal = reviewHistory.merge;
-async function baselineJournalForTopic(position: number): Promise<Journal> {
-  const first = Math.floor((position - 1) / 10) * 10 + 1;
-  const key = `batch-${String(first).padStart(3, '0')}-${String(Math.min(first + 9, 537)).padStart(3, '0')}`;
-  const journal = reviewHistory.batches[key];
-  if (!journal) throw new Error(`Missing review history: ${key}`);
-  return journal;
-}
-
-export async function journalForTopic(position: number): Promise<Journal> {
-  const baseline: Journal = position <= 537 ? await baselineJournalForTopic(position)
-    : { decisions: [], additions: [], sources: {} };
-  return {
-    ...baseline,
-    // Rejected book candidates are catalogued separately; they were never saved index links.
-    decisions: baseline.decisions,
-    additions: [...baseline.additions, ...mergeJournal.additions],
-    description_changes: baseline.description_changes ?? [],
-    topic_changes: [...(baseline.topic_changes ?? []), ...(mergeJournal.topic_changes ?? [])],
-    sources: { ...baseline.sources, ...mergeJournal.sources },
-  };
-}
 
 export function normalizeSearch(text: string) {
   return text.toLocaleLowerCase('ru').replace(/ё/g, 'е').replace(/[’‘']/g, '').replace(/\s+/g, ' ').trim();
@@ -101,5 +69,5 @@ export const basisLabels: Record<string, string> = {
   hadith_hasan_or_sahih: 'Хадис с указанной оценкой', hadith_and_tafsir: 'Хадис и тафсир',
 };
 
-// Preserve original citation URLs as provenance; the reader/download uses local tafsir links.
+// Original citation URLs stay as provenance; active tafsir/hadith links are local.
 export const indexDownload = JSON.stringify(reviewedIndex, null, 2) + '\n';

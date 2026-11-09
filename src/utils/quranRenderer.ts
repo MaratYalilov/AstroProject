@@ -173,6 +173,14 @@ export function getAyahText(
   return { arabic, translation };
 }
 
+/** Arabic-only QCF V2 fragment for readers with their own translation/audio layout. */
+export function renderAyahArabic(surah: number, ayah: number): string {
+  const { arabic } = getAyahText(surah, ayah);
+  if (!arabic) throw new Error(`Missing Arabic text for ${surah}:${ayah}`);
+  const { page, code_v2 } = getQcfV2ForAyah(surah, ayah);
+  return renderQcfAyah(surah, ayah, page, code_v2, arabic);
+}
+
 // ---- ОДИНОЧНЫЙ АЯТ {Quran}2:255{/Quran} ----
 
 export function renderAyahBlock(

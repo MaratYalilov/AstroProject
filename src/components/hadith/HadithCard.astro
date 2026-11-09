@@ -1,5 +1,6 @@
 ---
 import { type Collection, type HadithRecord, recordPath, text } from '../../lib/hadith/collections';
+import { referenceUrl } from '../../lib/hadith/references';
 interface Props { collection: Collection; record: HadithRecord; full?: boolean }
 const { collection, record, full = false } = Astro.props;
 const gradingRu = [...new Set((record.grading?.ru ?? []).map(value => text(value).trim()).filter(Boolean))];
@@ -21,7 +22,7 @@ const gradingAr = [...new Set((record.grading?.ar ?? []).map(value => text(value
       {record.russian.explanations.map(note => <div class="mt-4">
         <h3 class="font-medium">{text(note.title ?? 'Пояснение')}</h3>
         <p class="mt-2 whitespace-pre-line leading-relaxed">{text(note.text)}</p>
-        {note.references?.map(ref => typeof ref === 'string' ? ref : ref.url).filter(url => /^https?:\/\//.test(url)).map((url, i) => <a class="mr-4 mt-2 inline-block text-sm underline" href={url} target="_blank" rel="noopener noreferrer">Источник {i + 1}</a>)}
+        {note.references?.map(referenceUrl).filter(Boolean).map((url, i) => <a class="mr-4 mt-2 inline-block text-sm underline" href={url} target={url.startsWith('/') ? undefined : '_blank'} rel="noopener noreferrer">Источник {i + 1}</a>)}
       </div>)}
     </section>}
   </> : <>

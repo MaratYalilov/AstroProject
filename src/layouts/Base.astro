@@ -14,6 +14,7 @@ interface Props {
   title?: string;
   description?: string;
   readingPage?: boolean;
+  appPage?: boolean;
   ogImage?: string;
   ogImageAlt?: string;
   ogTitle?: string;
@@ -21,7 +22,7 @@ interface Props {
   ogSubject?: string;
 }
 
-const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt, ogTitle = title, ogSubtitle, ogSubject } = Astro.props;
+const { title = "Lesson", description, readingPage = false, appPage = false, ogImage, ogImageAlt, ogTitle = title, ogSubtitle, ogSubject } = Astro.props;
 ---
 
 <html lang="ru" class="bg-background text-foreground">
@@ -403,7 +404,7 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
     </script>}
     <slot name="head" />
   </head>
-  <body class:list={["min-h-screen bg-background text-foreground", { "reading-page": readingPage }]}>
+  <body class:list={["min-h-screen bg-background text-foreground", { "reading-page": readingPage, "hadith-app-page": appPage }]}>
     <header class="sticky top-0 z-40 border-b bg-background/80 dark:bg-[#181818] backdrop-blur supports-[backdrop-filter]:bg-background/60 supports-[backdrop-filter]:dark:bg-[#181818]/95">
       <NavBar client:load currentPath={Astro.url.pathname} />
     </header>
@@ -411,6 +412,13 @@ const { title = "Lesson", description, readingPage = false, ogImage, ogImageAlt,
       <slot />
     </main>
     <GlossaryOverlay client:idle />
-    <ScrollToTop client:load />
+    {!appPage && <ScrollToTop client:load />}
   </body>
 </html>
+
+<style is:global>
+  body.hadith-app-page { height: 100dvh; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
+  body.hadith-app-page > header { flex-shrink: 0; }
+  body.hadith-app-page > main { flex: 1; min-height: 0; max-width: none; padding: 0; display: flex; }
+  body.hadith-app-page > main > astro-island { width: 100%; height: 100%; }
+</style>

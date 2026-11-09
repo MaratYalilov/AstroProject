@@ -3,6 +3,9 @@ import { getCollection } from "astro:content";
 import { loadAllInteractiveLessons } from "../lib/interactive/loadInteractiveLesson";
 import { teachers, teacherPath } from "../lib/teachers";
 import { collections, collectionPath, recordPath } from "../lib/hadith/collections";
+import { chapterPath } from "../lib/hadith/paths";
+import { isBookNoindex } from "../lib/hadith/indexing";
+import { quranCatalog } from "../lib/hadith/quranReader";
 
 export const prerender = true;
 
@@ -37,12 +40,14 @@ export const GET: APIRoute = async ({ site }) => {
   add("/about");
   add("/glossary");
   add("/hadith-sbornik");
+  add("/hadith-sbornik/quran");
+  for (const surah of quranCatalog.books) add(surah.href);
   for (const collection of collections) {
     const path = collectionPath(collection);
     add(path);
-    for (const book of collection.books) add(`${path}/book/${book.id}`);
-    for (const chapter of collection.chapters) add(`${path}/chapter/${chapter.id}`);
-    for (const record of collection.records) add(recordPath(collection, record));
+    for (const book of collection.books) if (!isBookNoindex(collection.collection, book.id)) add(`${path}/book/${book.id}`);
+    for (const chapter of collection.chapters) if (!isBookNoindex(collection.collection, chapter.book_id)) add(chapterPath(collection.collection, chapter));
+    for (const record of collection.records) if (!isBookNoindex(collection.collection, record.book_id)) add(recordPath(collection, record));
   }
   for (const course of courses) {
     for (const download of course.data.downloads) {

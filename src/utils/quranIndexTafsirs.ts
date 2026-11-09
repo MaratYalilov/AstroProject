@@ -1,4 +1,4 @@
-import catalogRaw from '../data/quran-index-tafsirs.json?raw';
+import catalogRaw from '../data/quran-index/quran-index-tafsirs.json?raw';
 
 interface TafsirEntry {
   book: string;
@@ -25,8 +25,12 @@ export function localTafsir(sourceId: string) {
   const binding = Object.hasOwn(catalog.sources, sourceId) ? catalog.sources[sourceId] : undefined;
   if (!binding) return undefined;
   const entry = catalog.entries[binding.entry_id];
+  const russian = catalog.russian_entries[`${entry.sura}:${entry.aya}`];
+  const language = russian?.paragraphs.length ? 'ru' : 'ar';
+  const readerTitle = language === 'ru' ? `Ас-Саади, толкование ${entry.sura}:${entry.aya} (русский перевод)` : `${entry.title} (арабский текст)`;
+  const linkTitle = language === 'ar' || entry.book === 'sa3dy' ? readerTitle : `${entry.title} · читать ас-Саади по-русски`;
   return { ...entry, binding, database: catalog.databases[entry.book], sourceId,
-    russian: catalog.russian_entries[`${entry.sura}:${entry.aya}`] };
+    russian, language, readerTitle, linkTitle, russianDatabase: catalog.databases.russian };
 }
 
 export function localizeTafsirSource<T extends { title: string; url?: string }>(sourceId: string, source: T) {
@@ -34,10 +38,16 @@ export function localizeTafsirSource<T extends { title: string; url?: string }>(
   if (!local) return source;
   return {
     ...source,
-    title: `${local.title} (арабский текст)`,
+    title: local.linkTitle,
     url: `/quran/index?tafsir=${encodeURIComponent(sourceId)}#selected-tafsir`,
     original_url: local.binding.original_url,
     original_title: local.binding.original_title,
     local_snapshot: { ...local.database, table: local.book, sura: local.sura, aya: local.aya },
+    local_reader: {
+      language: local.language,
+      title: local.readerTitle,
+      snapshot: { ...(local.language === 'ru' ? local.russianDatabase : local.database),
+        table: local.language === 'ru' ? 'russian' : local.book, sura: local.sura, aya: local.aya },
+    },
   };
 }

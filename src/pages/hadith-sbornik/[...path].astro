@@ -1,5 +1,5 @@
 ---
-import HadithBrowser from '../../components/hadith/HadithBrowser.astro';
+import ReaderPage from '../../components/hadith/ReaderPage.astro';
 import { collections, indexes, collectionPath } from '../../lib/hadith/collections';
 
 export const prerender = false;
@@ -9,4 +9,4 @@ if (collection && number && indexes.get(collection.collection)?.numbers.has(numb
   return Astro.redirect(`${collectionPath(collection)}/${encodeURIComponent(number.trim())}`, 302);
 }
 ---
-<HadithBrowser />
+<ReaderPage />
