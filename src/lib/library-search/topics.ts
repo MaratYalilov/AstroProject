@@ -3,12 +3,13 @@ import type { ReviewTopic, ReviewItem, VerseNote } from '../../utils/quranIndexR
 import { normalizeSearch } from '../hadith/searchText';
 import { nameVariants, descriptionAliases } from './synonyms';
 
-const data = JSON.parse(indexRaw) as {
+export const thematicData = JSON.parse(indexRaw) as {
   topics: ReviewTopic[];
   basis_definitions: Record<string, string>;
-  sources: Record<string, { title: string }>;
+  sources: Record<string, { title: string; url?: string }>;
   audit: { crossreference_resolution: { from_topic_id: string; target_topic_id: string }[] };
 };
+const data = thematicData;
 const clean = (value: string) => value.replace(/[\u2013\u2014]/g, '-');
 const fold = (value: string) => normalizeSearch(value).replace(/[’‘']/g, '').replace(/[^\p{L}\p{N}:]+/gu, ' ').trim().replace(/\s+/g, ' ');
 const variants = new Map<string, string>(nameVariants.flatMap(group => group.map(name => [fold(name), fold(group[0])])));

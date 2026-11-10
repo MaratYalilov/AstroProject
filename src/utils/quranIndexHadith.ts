@@ -3,7 +3,6 @@ import catalogRaw from '../data/quran-index/hadith-sources.json?raw';
 interface HadithBinding {
   collection: string;
   cited_number: string;
-  original_url: string;
   status: 'available' | 'pending_collection';
   record_id?: string;
   canonical_number?: string;
@@ -23,8 +22,6 @@ export function localizeHadithSource<T extends { title: string; url?: string }>(
   if (!binding) return source;
   return {
     ...source,
-    // Keep the original citation as provenance, never as a fallback clickable URL.
-    original_url: binding.original_url,
     url: binding.status === 'available' ? binding.url : undefined,
     availability: binding.status,
     local_hadith: {

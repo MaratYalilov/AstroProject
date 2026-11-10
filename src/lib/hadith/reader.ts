@@ -5,10 +5,11 @@ import { chapterPath, chapterSlug, unassignedChapter } from './paths';
 import { isBookNoindex } from './indexing';
 import { quranCatalog, readQuranView, searchQuran, type ReaderAyah } from './quranReader';
 import { searchTopics, type TopicHit, type TopicReason } from '../library-search/topics';
+import { quranTopicsCatalog, topicChapters, readQuranTopicsView, type ThematicAyah } from './quranTopicsReader';
 
 const chapterRoutes = new Map(collections.map(c => [c.collection, new Map(c.chapters.map(ch => [chapterSlug(ch), ch]))]));
 
-export const readerCatalog = [quranCatalog, ...collections.map(c => ({
+export const readerCatalog = [quranCatalog, quranTopicsCatalog, ...collections.map(c => ({
   id: c.collection, title: c.title_ru, arabic: c.title_ar, href: collectionPath(c),
   books: c.books.map(b => ({ ...b, count: c.records.filter(r => r.book_id === b.id).length, href: `/hadith-sbornik/${c.collection}/book/${b.id}` })),
 }))];
@@ -24,10 +25,14 @@ export interface ReaderView {
   target?: string;
   canonicalPath?: string;
   noindex?: boolean;
-  ayahs?: ReaderAyah[];
+  ayahs?: (ReaderAyah | ThematicAyah)[];
   basmalaHtml?: string;
+  topicTitle?: string;
+  topicNote?: string;
+  topicLinks?: { title: string; href: string }[];
 }
 export function chaptersFor(collection: string, book: number) {
+  if (collection === 'quran-topics') return topicChapters(book);
   const c = collections.find(c => c.collection === collection);
   if (!c || !c.books.some(b => b.id === book)) return null;
   const chapters = c.chapters.filter(ch => ch.book_id === book).map(ch => ({ ...ch, href: chapterPath(collection, ch),
@@ -38,6 +43,7 @@ export function chaptersFor(collection: string, book: number) {
   return chapters;
 }
 export function readView(pathname: string): ReaderView | null {
+  if (/^\/quran\/topics(?:\/|$)/.test(pathname)) return readQuranTopicsView(pathname);
   if (/^\/quran\/read(?:\/|$)/.test(pathname)) return readQuranView(pathname);
   let parts: string[];
   try { parts = pathname.replace(/^\/hadith-sbornik\/?/, '').split('/').filter(Boolean).map(decodeURIComponent); }
@@ -84,14 +90,14 @@ export function searchLibrary(query: string, scope = '', page = 1, grade = '', g
   const terms = normalize(q).split(/\s+/).filter(Boolean);
   const language = /\p{Script=Arabic}/u.test(q) ? 'ar' : 'ru';
   const hits: SearchHit[] = [];
-  const thematic = !scope || scope === 'quran' ? searchTopics(q) : { topics: [], verses: new Map<string, TopicReason[]>() };
+  const thematic = !scope || scope === 'quran' || scope === 'quran-topics' ? searchTopics(q) : { topics: [], verses: new Map<string, TopicReason[]>() };
   const counts = { topic: thematic.topics.length, ayah: 0, hadith: 0 };
   let total = 0;
   let unfilteredTotal = 0;
   const gradeCounts: Partial<Record<GradeFilterId, number>> = {};
   const start = (page - 1) * 30;
   if (!terms.length) return { hits, topics: [], counts, group, total, page, query: q, unfilteredTotal, gradeCounts };
-  if (!scope || scope === 'quran') {
+  if (!scope || scope === 'quran' || scope === 'quran-topics') {
     const ayahs = searchQuran(q, thematic);
     counts.ayah = ayahs.length;
     unfilteredTotal += ayahs.length;

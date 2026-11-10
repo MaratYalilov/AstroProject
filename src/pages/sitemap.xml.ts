@@ -6,6 +6,7 @@ import { collections, collectionPath, recordPath } from "../lib/hadith/collectio
 import { chapterPath } from "../lib/hadith/paths";
 import { isBookNoindex } from "../lib/hadith/indexing";
 import { quranCatalog } from "../lib/hadith/quranReader";
+import { quranTopicsCatalog, topicChapters } from "../lib/hadith/quranTopicsReader";
 
 export const prerender = true;
 
@@ -42,6 +43,11 @@ export const GET: APIRoute = async ({ site }) => {
   add("/hadith-sbornik");
   add(quranCatalog.href);
   for (const surah of quranCatalog.books) add(surah.href);
+  add(quranTopicsCatalog.href);
+  for (const topic of quranTopicsCatalog.books) {
+    add(topic.href);
+    for (const chapter of topicChapters(topic.id) ?? []) add(chapter.href);
+  }
   for (const collection of collections) {
     const path = collectionPath(collection);
     add(path);

@@ -1,0 +1,21 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { originalLocalTafsir } from '../../../utils/quranIndexTafsirs';
+import { quranAyahPath } from '../../../lib/hadith/paths';
+
+export const prerender = false;
+const tafsir = originalLocalTafsir(Astro.params.source ?? '');
+if (!tafsir) Astro.response.status = 404;
+const clean = (value: string) => value.replace(/[\u2013\u2014]/g, '-');
+---
+<Base title={`${tafsir ? clean(tafsir.title) : 'Толкование не найдено'} | HUTBA`}>
+  <main class="mx-auto max-w-4xl px-5 py-8">
+    <h1 class="mb-5 text-xl font-semibold">{tafsir ? clean(tafsir.title) : 'Толкование не найдено'}</h1>
+    {tafsir ? <>
+      <a class="text-sm text-muted-foreground" href={quranAyahPath(tafsir.sura, tafsir.aya)}>К аяту {tafsir.sura}:{tafsir.aya}</a>
+      <section lang="ar" dir="rtl" class="mt-6 space-y-5 text-right text-2xl leading-loose" aria-label="Текст тафсира">
+        {tafsir.paragraphs.map(text => <p class="arab">{clean(text)}</p>)}
+      </section>
+    </> : <a href="/quran/topics">Открыть указатель Корана</a>}
+  </main>
+</Base>

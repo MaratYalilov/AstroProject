@@ -44,6 +44,21 @@
 .reader-tafsir { margin-top: 8px; padding: 12px; border-radius: 10px; background: var(--reader-panel); }
 .reader-tafsir p { white-space: pre-line; font-size: var(--reader-translation-size, 16px); line-height: 1.65; }
 .reader-tafsir p + p { margin-top: 8px; }
+.reader-thematic-note { margin-top: 10px; padding: 12px; border: 1px solid var(--reader-line); border-radius: 8px; background: var(--reader-panel); font-size: var(--reader-translation-size, 16px); line-height: 1.65; }
+.reader-thematic-note blockquote { margin: 0 0 8px; padding: 0 12px; border-left: 2px solid var(--reader-line); color: var(--reader-muted); }
+.reader-thematic-note p + p { margin-top: 6px; }
+.reader-thematic-context { margin-top: 8px; }
+.reader-thematic-context summary { cursor: pointer; color: var(--reader-muted); font-size: .875em; }
+.reader-thematic-context p { margin-top: 6px; }
+.reader-thematic-sources { margin-top: 8px; font-size: .8125em; color: var(--reader-muted); }
+.reader-thematic-note a:hover { text-decoration: underline; }
+.reader-tafsir-source { padding: 0; text-align: left; }
+.reader-tafsir-source:hover, .reader-tafsir-source[aria-expanded=true] { text-decoration: underline; }
+.reader-inline-tafsir { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--reader-line); }
+.reader-inline-tafsir-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 13px; color: var(--reader-muted); }
+.reader-inline-tafsir-heading button { flex-shrink: 0; }
+.reader-inline-tafsir-text { margin-top: 8px; font-size: var(--reader-arabic-size, 24px); line-height: 1.9; }
+.reader-inline-tafsir-text p + p { margin-top: 8px; }
 .reader-audio-error { font-size: 12px; color: var(--reader-muted) !important; margin-bottom: 12px !important; }
 .reader-chapters { margin: 2px 0 8px 17px; border-left: 1px solid var(--reader-line); padding-left: 5px; }
 .reader-chapter-row { display: flex; gap: 8px; justify-content: space-between; padding: 7px 9px; font-size: 12px; line-height: 1.45; border-radius: 6px; }

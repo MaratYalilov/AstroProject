@@ -16,6 +16,12 @@ export interface ReaderAyah {
   id: string; surah: number; ayah: number; arabic: string; arabicHtml: string; translation: string; audioSrc: string; tafsir: string; href: string;
   relatedTopics: ReturnType<typeof relatedTopics>;
 }
+export function readerAyah(surah: number, ayah: number): ReaderAyah {
+  const { arabic, translation } = getAyahText(surah, ayah);
+  const s = String(surah).padStart(3, '0'), a = String(ayah).padStart(3, '0');
+  return { id: `${surah}-${ayah}`, surah, ayah, arabic: arabic ?? '', arabicHtml: renderAyahArabic(surah, ayah), translation,
+    audioSrc: `/mp3/${s}/${s}${a}.mp3`, tafsir: saadi[`${surah}:${ayah}`] ?? '', href: quranAyahPath(surah, ayah), relatedTopics: relatedTopics(`${surah}:${ayah}`) };
+}
 export function readQuranView(pathname: string) {
   if (pathname.replace(/\/$/, '') === quranReaderPath) return { collection: 'quran', title: 'Коран', records: [] };
   const match = /^\/quran\/read\/ayah\/(\d+)-(\d+)\/?$/.exec(pathname);
@@ -23,10 +29,7 @@ export function readQuranView(pathname: string) {
   if (!surah || match && (Number(match[2]) < 1 || Number(match[2]) > surah.ayahs)) return null;
   const ayahs: ReaderAyah[] = Array.from({ length: surah.ayahs }, (_, index) => {
     const ayah = index + 1;
-    const { arabic, translation } = getAyahText(surah.num, ayah);
-    const s = String(surah.num).padStart(3, '0'), a = String(ayah).padStart(3, '0');
-    return { id: `${surah.num}-${ayah}`, surah: surah.num, ayah, arabic: arabic ?? '', arabicHtml: renderAyahArabic(surah.num, ayah), translation,
-      audioSrc: `/mp3/${s}/${s}${a}.mp3`, tafsir: saadi[`${surah.num}:${ayah}`] ?? '', href: quranAyahPath(surah.num, ayah), relatedTopics: relatedTopics(`${surah.num}:${ayah}`) };
+    return readerAyah(surah.num, ayah);
   });
   return { collection: 'quran', book: surah.num, chapter: `surah-${surah.num}`, title: `${surah.num}. ${surah.name_ru} - ${surah.meaning_ru}`,
     arabic: surah.arabic_name, ayahs, records: [], target: match ? `${surah.num}-${Number(match[2])}` : undefined,

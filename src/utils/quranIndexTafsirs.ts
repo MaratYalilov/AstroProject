@@ -9,7 +9,6 @@ interface TafsirEntry {
 }
 interface TafsirBinding {
   entry_id: string;
-  original_url: string;
   original_title: string;
   was_english_abridgement: boolean;
 }
@@ -33,14 +32,19 @@ export function localTafsir(sourceId: string) {
     russian, language, readerTitle, linkTitle, russianDatabase: catalog.databases.russian };
 }
 
+export function originalLocalTafsir(sourceId: string) {
+  const binding = Object.hasOwn(catalog.sources, sourceId) ? catalog.sources[sourceId] : undefined;
+  return binding ? catalog.entries[binding.entry_id] : undefined;
+}
+export const localTafsirPath = (sourceId: string) => `/quran/tafsir/${encodeURIComponent(sourceId)}`;
+
 export function localizeTafsirSource<T extends { title: string; url?: string }>(sourceId: string, source: T) {
   const local = localTafsir(sourceId);
   if (!local) return source;
   return {
     ...source,
-    title: local.linkTitle,
-    url: `/quran/index?tafsir=${encodeURIComponent(sourceId)}#selected-tafsir`,
-    original_url: local.binding.original_url,
+    title: local.title,
+    url: localTafsirPath(sourceId),
     original_title: local.binding.original_title,
     local_snapshot: { ...local.database, table: local.book, sura: local.sura, aya: local.aya },
     local_reader: {

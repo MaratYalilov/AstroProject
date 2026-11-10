@@ -94,7 +94,7 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
   const selectedCollection = catalog.find(c => c.id === view.collection);
   const hasChapter = !!view.chapter;
   const showRight = hasChapter && !!submitted && resultsOpen;
-  const isQuran = view.collection === 'quran';
+  const isQuran = view.collection === 'quran' || view.collection === 'quran-topics';
   const quranAudio = useQuranAudio();
   useEffect(() => { quranAudio.stop(); }, [view, quranAudio.stop]);
 
@@ -117,7 +117,7 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
     setLoading(true); setError('');
     try {
       const next = await api<ReaderView>({ action: 'read', path }, controller.signal);
-      if (next.collection === 'quran') setGradeFilter('');
+      if (next.collection === 'quran' || next.collection === 'quran-topics') setGradeFilter('');
       setTemporaryArabicTarget(revealArabic ? next.target ?? '' : '');
       setView(next); setExpanded(next.collection ?? ''); setOpenBook(next.book);
       if (push) window.history.pushState({}, '', path);
@@ -195,7 +195,7 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
     const el = scroller.current;
     if (!el) return;
     el.scrollTop = 0;
-    if (view.target) document.getElementById(`${view.collection === 'quran' ? 'quran-ayah' : 'hadith'}-${view.target}`)?.scrollIntoView({ block: 'start' });
+    if (view.target) document.getElementById(`${isQuran ? 'quran-ayah' : 'hadith'}-${view.target}`)?.scrollIntoView({ block: 'start' });
     checkDown();
   }, [view]);
   useEffect(() => {
@@ -298,7 +298,7 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
           <button className="reader-tree-row reader-collection-row" aria-expanded={expanded === c.id} onClick={() => {
             if (expanded === c.id) { setExpanded(''); setOpenBook(undefined); }
             else { void navigate(c.href); }
-          }}>{expanded === c.id ? <ChevronDown size={16} /> : <ChevronRight size={16} />}{c.id === 'quran' && <BookOpen className="reader-quran-icon" size={21} aria-hidden="true" />}{collectionSymbols[c.id] && <span className="reader-collection-symbol" aria-hidden="true" title={`Обозначение сборника: ${collectionSymbols[c.id]}`}><CollectionBookIcon symbol={collectionSymbols[c.id]} /></span>}<span>{c.title}</span></button>
+          }}>{expanded === c.id ? <ChevronDown size={16} /> : <ChevronRight size={16} />}{(c.id === 'quran' || c.id === 'quran-topics') && <BookOpen className="reader-quran-icon" size={21} aria-hidden="true" />}{collectionSymbols[c.id] && <span className="reader-collection-symbol" aria-hidden="true" title={`Обозначение сборника: ${collectionSymbols[c.id]}`}><CollectionBookIcon symbol={collectionSymbols[c.id]} /></span>}<span>{c.title}</span></button>
           {expanded === c.id && <div className="reader-books">{c.books.map(book => {
             const key = `${c.id}/${book.id}`;
             const isOpen = openBook === book.id;
@@ -345,8 +345,9 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
         <div className={`reader-content${isQuran ? ' reader-content-quran' : ''}`} ref={content}>
           {loading && <p className="reader-status" role="status"><LoaderCircle className="reader-spin" size={16} /> Загрузка…</p>}
           {error && <p className="reader-status" role="alert">{error}</p>}
+          {!hasChapter && view.collection === 'quran-topics' && view.book && !submitted && <header className="reader-chapter-heading"><h1>{view.title}</h1>{view.topicNote && <p className="reader-source">{clean(view.topicNote)}</p>}{view.topicLinks?.map(link => <p key={link.href}><a href={link.href} onClick={event => follow(event, link.href)}>См. {link.title}</a></p>)}</header>}
           {hasChapter && isQuran ? <>
-            <header className="reader-chapter-heading"><h1 ref={chapterHeading}>{view.title}</h1>{showArabic && view.arabic && <p className="arab" lang="ar" dir="rtl">{view.arabic}</p>}<p className="reader-source">Аятов: {view.ayahs?.length ?? 0}</p></header>
+            <header className="reader-chapter-heading">{view.topicTitle && <p className="reader-source">{view.topicTitle}</p>}<h1 ref={chapterHeading}>{view.title}</h1>{showArabic && view.arabic && <p className="arab" lang="ar" dir="rtl">{view.arabic}</p>}<p className="reader-source">Аятов: {view.ayahs?.length ?? 0}</p></header>
             {showArabic && view.basmalaHtml && <div className="qcf-ayah reader-quran-arabic reader-basmala" lang="ar" dir="rtl" dangerouslySetInnerHTML={{ __html: view.basmalaHtml }} />}
             {view.ayahs?.map(ayah => <QuranAyah key={ayah.id} ayah={ayah} showArabic={showArabic || temporaryArabicTarget === ayah.id} alwaysTafsir={alwaysTafsir} audio={quranAudio.state} />)}
           </> : hasChapter ? <>
