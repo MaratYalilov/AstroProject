@@ -13,7 +13,9 @@ export const GET: APIRoute = ({ url }) => {
     const page = Number.isFinite(rawPage) ? Math.max(1, Math.min(10000, Math.floor(rawPage))) : 1;
     const grade = params.get('grade') ?? '';
     if (grade && !searchGradeOptions.some(option => option.id === grade)) return new Response(JSON.stringify({ error: 'Неизвестная оценка достоверности' }), { status: 400, headers: { 'Content-Type': 'application/json; charset=utf-8' } });
-    data = searchLibrary(params.get('q') ?? '', params.get('scope') ?? '', page, grade);
+    const group = params.get('group') ?? 'all';
+    if (!['all', 'topic', 'ayah', 'hadith'].includes(group)) return new Response(JSON.stringify({ error: 'Неизвестная группа поиска' }), { status: 400, headers: { 'Content-Type': 'application/json; charset=utf-8' } });
+    data = searchLibrary(params.get('q') ?? '', params.get('scope') ?? '', page, grade, group as import('../../lib/hadith/reader').SearchGroup);
   }
   return new Response(JSON.stringify(data ?? { error: 'Раздел не найден' }), {
     status: data === null ? 404 : 200,

@@ -27,7 +27,8 @@ const selected = allTopics.find(t => t.id === params.get('topic'))
   ?? (requestedTafsir ? allTopics.find(t => t.items.some(i => Object.values(i.verse_notes).some(n => n.source_ids.includes(requestedTafsirId)))) : undefined)
   ?? matchingTopics[0]?.topic;
 const position = selected ? allTopics.indexOf(selected) + 1 : 0;
-const rows = selected?.items.flatMap(item => Object.entries(item.verse_notes)
+const selectedItem = selected?.items.find(item => item.id === params.get('item'));
+const rows = selected?.items.filter(item => !selectedItem || item.id === selectedItem.id).flatMap(item => Object.entries(item.verse_notes)
   .filter(([key, note]) => noteMatches(query, selected, item, key, note))
   .map(([key, note]) => ({ item, key, note }))) ?? [];
 const total = rows.length;
@@ -38,6 +39,7 @@ const pageRows = rows.slice((page - 1) * 20, page * 20);
 const path = '/quran/index';
 function url(values: Record<string, string | number | undefined> = {}, anchor = 'index-results') {
   const next = new URLSearchParams({ ...(queryText ? { q: queryText } : {}), ...(selected ? { topic: selected.id } : {}) });
+  if (selectedItem && (!values.topic || values.topic === selected?.id)) next.set('item', selectedItem.id);
   if (page > 1) next.set('page', String(page));
   for (const [key, value] of Object.entries(values)) {
     if (value === undefined || value === '') next.delete(key); else next.set(key, String(value));
@@ -158,6 +160,7 @@ const related = selected ? finalAudit.crossreference_resolution.filter(r => r.fr
             </> : <p>Для этой ссылки нет локальной записи тафсира.</p>}
           </section>}
 
+          {selectedItem && <p class="qi-result-count">Выбрано описание: {selectedItem.description}. <a href={url({ item: undefined, page: undefined })}>Все описания темы</a></p>}
           <p class="qi-result-count" aria-live="polite">Связей: {numbers.format(total)}{total > 20 && ` · Страница ${page} из ${pageCount}`}</p>
             {pageRows.map(row => <article class="qi-card">
               <div class="qi-card-heading"><h3>{row.item.description}</h3></div>

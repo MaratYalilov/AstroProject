@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Library, BookOpen, PanelLeftClose, PanelLeftOpen, ChevronDown, ChevronRight, Search, ArrowUp, ArrowDown, X, LoaderCircle, Settings } from 'lucide-react';
-import type { ReaderCatalog, ReaderView, ReaderRecord, SearchResults } from '../../lib/hadith/reader';
+import type { ReaderCatalog, ReaderView, ReaderRecord, SearchResults, SearchGroup } from '../../lib/hadith/reader';
 import { arabicGrade, gradingInfo, searchGradeOptions, gradeLabel, collectionMembership } from '../../lib/hadith/grading';
 import { searchRanges } from '../../lib/hadith/searchText';
 import { referenceUrl } from '../../lib/hadith/references';
@@ -76,6 +76,7 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
   const [page, setPage] = useState(1);
   const [searchAttempt, setSearchAttempt] = useState(0);
   const [gradeFilter, setGradeFilter] = useState('');
+  const [searchGroup, setSearchGroup] = useState<SearchGroup>('all');
   const [showDown, setShowDown] = useState(false);
   const [headingAbove, setHeadingAbove] = useState(false);
   const [translationSize, setTranslationSize] = useState(16);
@@ -176,16 +177,16 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
     if (!submitted) return;
     const controller = new AbortController();
     setSearching(true); setSearchError('');
-    api<SearchResults>({ action: 'search', q: submitted, scope: currentOnly ? view.collection ?? '' : '', page: String(page), grade: gradeFilter }, controller.signal)
+    api<SearchResults>({ action: 'search', q: submitted, scope: currentOnly ? view.collection ?? '' : '', page: String(page), grade: gradeFilter, group: searchGroup }, controller.signal)
       .then(setResults)
       .catch(err => { if (!controller.signal.aborted) setSearchError(err.message); })
       .finally(() => { if (!controller.signal.aborted) setSearching(false); });
     return () => controller.abort();
-  }, [submitted, currentOnly, view.collection, page, searchAttempt, gradeFilter]);
+  }, [submitted, currentOnly, view.collection, page, searchAttempt, gradeFilter, searchGroup]);
   useEffect(() => {
     if (resultsScroller.current) resultsScroller.current.scrollTop = 0;
     if (!hasChapter && scroller.current) scroller.current.scrollTop = 0;
-  }, [submitted, currentOnly, page, searchAttempt, gradeFilter]);
+  }, [submitted, currentOnly, page, searchAttempt, gradeFilter, searchGroup]);
   function checkDown() {
     const el = scroller.current;
     setShowDown(!!el && el.scrollHeight - el.clientHeight - el.scrollTop > 80);
@@ -228,7 +229,7 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
   function search(event: React.FormEvent) {
     event.preventDefault();
     if (!query.trim()) return;
-    setPage(1); setSubmitted(query.trim()); setResultsOpen(true); setGradeFilter('');
+    setPage(1); setSubmitted(query.trim()); setResultsOpen(true); setGradeFilter(''); setSearchGroup('all');
     setSearchAttempt(value => value + 1);
   }
   function renderResults() {
@@ -238,22 +239,49 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
         {hasChapter && <button className="reader-icon" aria-label="Закрыть результаты поиска" onClick={() => setResultsOpen(false)}><X size={18} /></button>}
       </div>
       {!(currentOnly && isQuran) && <label className="reader-grade-filter">
-        <span>Достоверность</span>
+        <span>Достоверность хадисов</span>
         <select value={gradeFilter} onChange={event => { setGradeFilter(event.target.value); setPage(1); }}>
-          <option value="">Все{results && !searching ? ` (${results.unfilteredTotal})` : ''}</option>
+          <option value="">Все оценки</option>
           {searchGradeOptions.map(option => <option key={option.id} value={option.id}>{option.label}{results && !searching ? ` (${results.gradeCounts[option.id] ?? 0})` : ''}</option>)}
         </select>
         <small>Фильтр применяется к хадисам. «Из двух Сахихов» - по принадлежности к сборнику; оговорки сохранены в тексте.</small>
       </label>}
       {searching ? <p className="reader-status" role="status"><LoaderCircle className="reader-spin" size={16} /> Поиск…</p> : searchError ? <p role="alert" className="reader-status">{searchError}</p> : results && <>
-        <p className="reader-status" role="status">Найдено: {results.total}</p>
+        <div className="reader-search-groups" role="group" aria-label="Группы результатов">
+          {([['all', 'Аяты и хадисы'], ['topic', 'Темы'], ['ayah', 'Аяты'], ['hadith', 'Хадисы']] as const).map(([id, title]) => <button key={id} aria-pressed={searchGroup === id} onClick={() => { setSearchGroup(id); setPage(1); }}>{title}{id !== 'all' ? ` (${results.counts[id]})` : ''}</button>)}
+        </div>
+        <p className="reader-status" role="status">Найдено в выбранной группе: {results.total}</p>
+        {(searchGroup === 'all' || searchGroup === 'topic') && results.topics.length > 0 && <section className="reader-topic-results" aria-label="Найденные темы">
+          <h3>Темы и описания указателя</h3>
+          {results.topics.map(topic => <a className="reader-hit" href={topic.href} key={topic.id}>
+            <span className="reader-hit-reference">{topic.title} · аятов: {topic.verseCount}</span>
+            <p><Highlight value={topic.description} query={submitted} /></p>
+            {topic.matched_field === 'alias' && <small>По поисковому варианту формулировки</small>}
+            {!!topic.via_topic_ids.length && <small>По перекрёстной ссылке указателя</small>}
+          </a>)}
+          {searchGroup === 'all' && results.counts.topic > results.topics.length && <button onClick={() => { setSearchGroup('topic'); setPage(1); }}>Все темы ({results.counts.topic})</button>}
+        </section>}
         {!results.total && <p className="reader-status">Попробуйте другое слово или номер аята либо хадиса.</p>}
-        <div className="reader-hits">{results.hits.map(hit => <a className="reader-hit" key={hit.id} href={hit.href} onClick={event => follow(event, hit.href, hit.language === 'ar')}>
+        <div className="reader-hits">{results.hits.map(hit => <article className="reader-hit" key={`${hit.collection}:${hit.id}`}>
+          <a href={hit.href} onClick={event => follow(event, hit.href, hit.language === 'ar')}>
           <span className="reader-hit-reference">{hit.collectionTitle} · {hit.kind === 'ayah' ? '' : '№ '}{hit.numbers}</span>
           {hit.membership && <span className="reader-membership">{hit.membership}</span>}
           {hit.grade && hit.grade !== 'ungraded' && <span className="reader-hit-grade" data-grade={hit.grade}>{gradeLabel(hit.grade)}</span>}
           <p className={hit.language === 'ar' ? 'arab reader-hit-arabic' : undefined} lang={hit.language} dir={hit.language === 'ar' ? 'rtl' : undefined}><Highlight value={hit.snippet} query={submitted} /></p>
-        </a>)}</div>
+          </a>
+          {hit.kind === 'ayah' && <small className="reader-match-label">{hit.matched_field === 'address' ? 'Точный адрес аята' : hit.matched_field === 'translation' ? 'Совпадение в переводе' : hit.matched_field === 'arabic' ? 'Совпадение в арабском тексте' : 'По тематическому указателю'}</small>}
+          {hit.reasons?.map(reason => <div className="reader-topic-reason" key={reason.item_id}>
+            <a href={reason.href}><strong>{reason.title}: {reason.description}</strong></a>
+            <p>{reason.explanation}</p>
+            <small>{reason.basis_label}</small>
+            {reason.key_phrase.text && <p>Ключевая цитата: «{clean(reason.key_phrase.text)}»</p>}
+            {reason.qualification && <p>Оговорка: {reason.qualification}</p>}
+            {reason.usage_note && <p>{reason.usage_note}</p>}
+            {!!reason.context_verse_keys?.length && <p>Контекст: {reason.context_verse_keys.join(', ')}</p>}
+            <small>Основание: {reason.sources.map(source => source.title).join('; ')}</small>
+          </div>)}
+          {!!hit.reasonCount && hit.reasonCount > (hit.reasons?.length ?? 0) && <small>Связей в указателе: {hit.reasonCount}. Остальные доступны при чтении аята.</small>}
+        </article>)}</div>
         {results.total > 30 && <nav className="reader-pagination" aria-label="Страницы поиска">
           <button disabled={page === 1} onClick={() => setPage(p => p - 1)}>Назад</button>
           <span>{page} / {Math.ceil(results.total / 30)}</span>
@@ -269,7 +297,7 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
         {catalog.map(c => <div key={c.id} className="reader-collection">
           <button className="reader-tree-row reader-collection-row" aria-expanded={expanded === c.id} onClick={() => {
             if (expanded === c.id) { setExpanded(''); setOpenBook(undefined); }
-            else { void navigate(`${base}/${c.id}`); }
+            else { void navigate(c.href); }
           }}>{expanded === c.id ? <ChevronDown size={16} /> : <ChevronRight size={16} />}{c.id === 'quran' && <BookOpen className="reader-quran-icon" size={21} aria-hidden="true" />}{collectionSymbols[c.id] && <span className="reader-collection-symbol" aria-hidden="true" title={`Обозначение сборника: ${collectionSymbols[c.id]}`}><CollectionBookIcon symbol={collectionSymbols[c.id]} /></span>}<span>{c.title}</span></button>
           {expanded === c.id && <div className="reader-books">{c.books.map(book => {
             const key = `${c.id}/${book.id}`;
@@ -314,7 +342,7 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
         {hasChapter && submitted && !resultsOpen && <button className="reader-toolbar-search" onClick={() => setResultsOpen(true)}><Search size={16} /> Результаты</button>}
       </div>
       <div className="reader-scroll" ref={scroller} onScroll={checkDown} tabIndex={0} aria-label={hasChapter ? view.title : 'Результаты поиска'}>
-        <div className="reader-content" ref={content}>
+        <div className={`reader-content${isQuran ? ' reader-content-quran' : ''}`} ref={content}>
           {loading && <p className="reader-status" role="status"><LoaderCircle className="reader-spin" size={16} /> Загрузка…</p>}
           {error && <p className="reader-status" role="alert">{error}</p>}
           {hasChapter && isQuran ? <>

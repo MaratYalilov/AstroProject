@@ -38,6 +38,11 @@ export default function QuranAyah({ ayah, showArabic, alwaysTafsir, audio }: { a
       <span className="sr-only" role="status">{copyState === 'copied' ? 'Аят скопирован' : copyState === 'error' ? 'Не удалось скопировать аят' : ''}</span>
     </div>
     {active && audio.error && <p className="reader-audio-error" role="alert">{audio.error}</p>}
+    {!!ayah.relatedTopics?.total && <details className="reader-related-topics">
+      <summary>Связанные темы ({ayah.relatedTopics.total})</summary>
+      {ayah.relatedTopics.items.map(topic => <p key={topic.item_id}><a href={topic.href}>{topic.title}: {topic.description}</a></p>)}
+      <a href={`/quran/index?q=${ayah.surah}:${ayah.ayah}`}>Все связи аята в указателе</a>
+    </details>}
     {open && <section id={tafsirId} className="reader-tafsir" aria-label={`Тафсир Саади к аяту ${ayah.surah}:${ayah.ayah}`}>
       {ayah.tafsir ? clean(ayah.tafsir).split(/\n\s*\n/).filter(Boolean).map((paragraph, i) => <p key={i}>{paragraph}</p>) : <p className="reader-source">В локальной базе нет отдельного русского толкования этого аята.</p>}
     </section>}

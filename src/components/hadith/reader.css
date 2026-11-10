@@ -33,17 +33,17 @@
 .reader-book-row.is-selected { background: var(--reader-active); }
 .reader-surah-count { margin-left: auto; flex-shrink: 0; color: var(--reader-muted); font-size: 11px; }
 .reader-quran-icon { color: var(--reader-muted); flex-shrink: 0; }
-.reader-ayah-actions { display: flex; align-items: center; gap: 4px; margin-top: 8px; }
+.reader-ayah-actions { display: flex; align-items: center; gap: 4px; margin-top: 4px; }
 .reader-ayah-number { color: var(--reader-muted); font-size: .875em; font-variant-numeric: tabular-nums; }
 .hadith-reader .reader-ayah-action { width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center; border-radius: 6px; color: var(--reader-muted); flex-shrink: 0; }
 .reader-ayah-action:hover, .reader-ayah-action[aria-expanded=true] { background: var(--reader-hover); color: hsl(var(--foreground)); }
 .reader-ayah-action:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
-.hadith-reader .reader-quran-arabic { margin: 20px 0 24px; font-size: var(--reader-arabic-size, 24px); line-height: 2.5; text-align: right; }
+.hadith-reader .reader-quran-arabic { margin: 0 0 8px; font-size: var(--reader-arabic-size, 24px); line-height: 2; text-align: right; }
 .reader-quran-arabic .qcf-text, .reader-quran-arabic .qcf-fallback, .reader-quran-arabic .qcf-glyphs { font-size: inherit; line-height: inherit; }
 .hadith-reader .reader-basmala { text-align: center; }
-.reader-tafsir { margin-top: 14px; padding: 16px; border-radius: 10px; background: var(--reader-panel); }
-.reader-tafsir p { white-space: pre-line; font-size: var(--reader-translation-size, 16px); line-height: 1.85; }
-.reader-tafsir p + p { margin-top: 12px; }
+.reader-tafsir { margin-top: 8px; padding: 12px; border-radius: 10px; background: var(--reader-panel); }
+.reader-tafsir p { white-space: pre-line; font-size: var(--reader-translation-size, 16px); line-height: 1.65; }
+.reader-tafsir p + p { margin-top: 8px; }
 .reader-audio-error { font-size: 12px; color: var(--reader-muted) !important; margin-bottom: 12px !important; }
 .reader-chapters { margin: 2px 0 8px 17px; border-left: 1px solid var(--reader-line); padding-left: 5px; }
 .reader-chapter-row { display: flex; gap: 8px; justify-content: space-between; padding: 7px 9px; font-size: 12px; line-height: 1.45; border-radius: 6px; }
@@ -65,6 +65,12 @@
 .reader-chapter-heading h1 { font-size: 21px; font-weight: 600; line-height: 1.4; }
 .reader-chapter-heading > .arab { margin: 16px 0; text-align: right; line-height: 1.7; }
 .reader-hadith { padding: 30px 0; border-bottom: 1px solid var(--reader-line); scroll-margin-top: 24px; }
+.reader-content-quran { padding-top: 12px; }
+.reader-content-quran .reader-chapter-heading { padding-bottom: 12px; }
+.hadith-reader .reader-content-quran .reader-chapter-heading > .arab { margin: 8px 0; }
+.reader-content-quran .reader-ayah { padding: 12px 0; }
+.reader-content-quran .reader-translation { line-height: 1.65; }
+.hadith-reader .reader-content-quran .reader-basmala { margin: 12px 0 0; }
 .reader-reference { font-size: 13px; font-weight: 600; }
 .hadith-reader .reader-membership { display: block; width: fit-content; margin-top: 7px; padding: 3px 7px; border: 1px solid var(--reader-line); border-radius: 6px; color: var(--reader-muted); font-size: 11px; line-height: 1.5; }
 .reader-reference:hover { text-decoration: underline !important; text-underline-offset: 3px; }
@@ -165,6 +171,17 @@
 .reader-hit { display: block; border: 1px solid var(--reader-line); border-radius: 12px; padding: 13px; }
 .reader-hit:hover { background: var(--reader-hover); }
 .reader-hit-reference { font-size: 12px; font-weight: 600; }
+.reader-search-groups { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.reader-search-groups button, .reader-topic-results > button { border: 1px solid var(--reader-line); border-radius: 8px; padding: 6px 9px; font-size: 12px; }
+.reader-search-groups button[aria-pressed=true] { background: var(--reader-active); }
+.reader-topic-results { display: grid; gap: 8px; margin-bottom: 16px; }
+.reader-topic-results h3 { font-size: 13px; font-weight: 600; }
+.reader-topic-reason { border-top: 1px solid var(--reader-line); margin-top: 10px; padding-top: 10px; font-size: 12px; }
+.reader-topic-reason strong { font-weight: 600; }
+.reader-match-label, .reader-topic-reason small, .reader-topic-results small { display: block; color: var(--reader-muted); margin-top: 6px; }
+.reader-related-topics { margin-top: 12px; font-size: 12px; line-height: 1.7; }
+.reader-related-topics summary { cursor: pointer; color: var(--reader-muted); }
+.reader-related-topics a { text-decoration: underline; text-underline-offset: 3px; }
 .reader-hit p { margin-top: 8px; font-size: 13px; line-height: 1.65; overflow-wrap: anywhere; }
 .reader-hit p.reader-hit-arabic { font-size: 21px; line-height: 1.9; text-align: right; }
 .reader-hit mark { background: #e6d7ab; color: #292929; border-radius: 2px; }

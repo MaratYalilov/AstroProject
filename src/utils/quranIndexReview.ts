@@ -1,5 +1,4 @@
 import indexRaw from '../data/quran-index/index.json?raw';
-import auditRaw from '../data/quran-index/audit.json?raw';
 import { localizeTafsirSource } from './quranIndexTafsirs';
 import { localizeHadithSource } from './quranIndexHadith';
 
@@ -27,7 +26,8 @@ export interface ReviewTopic {
   items: ReviewItem[];
 }
 // Only the retained site data is imported; research files live in the external archive.
-export const reviewedIndex = JSON.parse(indexRaw) as {
+const indexData = JSON.parse(indexRaw);
+export const reviewedIndex = indexData as {
   topics: ReviewTopic[];
   sources: Record<string, { title: string; url?: string; hadith_grade?: string }>;
   basis_definitions: Record<string, string>;
@@ -35,7 +35,7 @@ export const reviewedIndex = JSON.parse(indexRaw) as {
 for (const [id, source] of Object.entries(reviewedIndex.sources)) {
   reviewedIndex.sources[id] = localizeHadithSource(id, localizeTafsirSource(id, source));
 }
-export const finalAudit = JSON.parse(auditRaw) as {
+export const finalAudit = indexData.audit as {
   counts: { topics: number; result: number; unique_verses: number; original: number; removed: number; added: number;
     merge_added_associations: number; merge_added_items: number; merge_added_topics: number };
   crossreference_resolution: { from_topic_id: string; label: string; target_topic_id: string }[];

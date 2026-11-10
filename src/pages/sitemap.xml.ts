@@ -40,7 +40,7 @@ export const GET: APIRoute = async ({ site }) => {
   add("/about");
   add("/glossary");
   add("/hadith-sbornik");
-  add("/hadith-sbornik/quran");
+  add(quranCatalog.href);
   for (const surah of quranCatalog.books) add(surah.href);
   for (const collection of collections) {
     const path = collectionPath(collection);

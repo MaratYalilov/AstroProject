@@ -1,14 +1,15 @@
-import { collections, indexes, normalize, recordPath, text, type HadithRecord } from './collections';
+import { collections, indexes, normalize, collectionPath, recordPath, text, type HadithRecord } from './collections';
 import { gradingInfo, isFromTwoSahihs, collectionMembership, type GradeId, type GradeFilterId } from './grading';
 import { searchSnippet } from './searchText';
 import { chapterPath, chapterSlug, unassignedChapter } from './paths';
 import { isBookNoindex } from './indexing';
 import { quranCatalog, readQuranView, searchQuran, type ReaderAyah } from './quranReader';
+import { searchTopics, type TopicHit, type TopicReason } from '../library-search/topics';
 
 const chapterRoutes = new Map(collections.map(c => [c.collection, new Map(c.chapters.map(ch => [chapterSlug(ch), ch]))]));
 
 export const readerCatalog = [quranCatalog, ...collections.map(c => ({
-  id: c.collection, title: c.title_ru, arabic: c.title_ar,
+  id: c.collection, title: c.title_ru, arabic: c.title_ar, href: collectionPath(c),
   books: c.books.map(b => ({ ...b, count: c.records.filter(r => r.book_id === b.id).length, href: `/hadith-sbornik/${c.collection}/book/${b.id}` })),
 }))];
 export type ReaderCatalog = typeof readerCatalog;
@@ -37,7 +38,7 @@ export function chaptersFor(collection: string, book: number) {
   return chapters;
 }
 export function readView(pathname: string): ReaderView | null {
-  if (/^\/hadith-sbornik\/quran(?:\/|$)/.test(pathname)) return readQuranView(pathname);
+  if (/^\/quran\/read(?:\/|$)/.test(pathname)) return readQuranView(pathname);
   let parts: string[];
   try { parts = pathname.replace(/^\/hadith-sbornik\/?/, '').split('/').filter(Boolean).map(decodeURIComponent); }
   catch { return null; }
@@ -75,22 +76,26 @@ export function readView(pathname: string): ReaderView | null {
   }
   return null;
 }
-export interface SearchHit { id: string; collection: string; collectionTitle: string; numbers: string; snippet: string; language: 'ar' | 'ru'; href: string; grade?: GradeId; membership?: string; kind?: 'ayah' | 'hadith' }
-export interface SearchResults { hits: SearchHit[]; total: number; page: number; query: string; unfilteredTotal: number; gradeCounts: Partial<Record<GradeFilterId, number>> }
-export function searchLibrary(query: string, scope = '', page = 1, grade = ''): SearchResults {
+export type SearchGroup = 'all' | 'topic' | 'ayah' | 'hadith';
+export interface SearchHit { id: string; collection: string; collectionTitle: string; numbers: string; snippet: string; language: 'ar' | 'ru'; href: string; grade?: GradeId; membership?: string; kind?: 'ayah' | 'hadith'; matched_field?: 'address' | 'arabic' | 'translation' | 'topic'; reasons?: TopicReason[]; reasonCount?: number }
+export interface SearchResults { hits: SearchHit[]; topics: TopicHit[]; counts: Record<Exclude<SearchGroup, 'all'>, number>; group: SearchGroup; total: number; page: number; query: string; unfilteredTotal: number; gradeCounts: Partial<Record<GradeFilterId, number>> }
+export function searchLibrary(query: string, scope = '', page = 1, grade = '', group: SearchGroup = 'all'): SearchResults {
   const q = query.trim().slice(0, 200);
   const terms = normalize(q).split(/\s+/).filter(Boolean);
   const language = /\p{Script=Arabic}/u.test(q) ? 'ar' : 'ru';
   const hits: SearchHit[] = [];
+  const thematic = !scope || scope === 'quran' ? searchTopics(q) : { topics: [], verses: new Map<string, TopicReason[]>() };
+  const counts = { topic: thematic.topics.length, ayah: 0, hadith: 0 };
   let total = 0;
   let unfilteredTotal = 0;
   const gradeCounts: Partial<Record<GradeFilterId, number>> = {};
   const start = (page - 1) * 30;
-  if (!terms.length) return { hits, total, page, query: q, unfilteredTotal, gradeCounts };
+  if (!terms.length) return { hits, topics: [], counts, group, total, page, query: q, unfilteredTotal, gradeCounts };
   if (!scope || scope === 'quran') {
-    const ayahs = searchQuran(q);
+    const ayahs = searchQuran(q, thematic);
+    counts.ayah = ayahs.length;
     unfilteredTotal += ayahs.length;
-    if (!grade) for (const ayah of ayahs) {
+    if (group === 'all' || group === 'ayah') for (const ayah of ayahs) {
       if (total >= start && hits.length < 30) hits.push(ayah);
       total++;
     }
@@ -104,6 +109,8 @@ export function searchLibrary(query: string, scope = '', page = 1, grade = ''): 
       const fromTwoSahihs = isFromTwoSahihs(c.collection, item.record.book_id);
       if (fromTwoSahihs) gradeCounts['two-sahihs'] = (gradeCounts['two-sahihs'] ?? 0) + 1;
       if (grade === 'two-sahihs' ? !fromTwoSahihs : grade && category !== grade) continue;
+      counts.hadith++;
+      if (group !== 'all' && group !== 'hadith') continue;
       if (total >= start && hits.length < 30) {
         const body = text(language === 'ar' ? item.record.arabic.parts.map(part => part.text).join(' ') : item.record.russian.full_text);
         hits.push({ id: item.record.id, collection: c.collection, collectionTitle: c.title_ru,
@@ -113,5 +120,6 @@ export function searchLibrary(query: string, scope = '', page = 1, grade = ''): 
       total++;
     }
   }
-  return { hits, total, page, query: q, unfilteredTotal, gradeCounts };
+  if (group === 'topic') total = counts.topic;
+  return { hits, topics: thematic.topics.slice(group === 'topic' ? start : 0, group === 'topic' ? start + 30 : 5), counts, group, total, page, query: q, unfilteredTotal, gradeCounts };
 }
