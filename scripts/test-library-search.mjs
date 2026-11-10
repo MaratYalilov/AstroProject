@@ -28,7 +28,7 @@ const started = performance.now();
 const { searchTopics, relatedTopics, resolveTopicIds } = load('src/lib/library-search/topics.ts');
 const { searchQuran } = load('src/lib/hadith/quranReader.ts');
 const { searchLibrary, readView } = load('src/lib/hadith/reader.ts');
-const { normalizeSearch, searchRanges } = load('src/lib/hadith/searchText.ts');
+const { normalizeSearch, searchRanges, matchesHadithNumber } = load('src/lib/hadith/searchText.ts');
 const { GET } = load('src/pages/api/hadith-reader.json.ts');
 const source = JSON.parse(fs.readFileSync('src/data/quran-index/index.json', 'utf8'));
 const cases = JSON.parse(fs.readFileSync('docs/library-search-queries.json', 'utf8')).cases;
@@ -72,6 +72,11 @@ for (const topic of source.topics) {
   assert.equal(new Set(resolved).size, resolved.length, 'Cycle-safe cross references');
 }
 const family = searchLibrary('сохранение семьи', 'quran');
+assert.deepEqual(searchLibrary('2788', 'muslim').hits.slice(0, 3).map(hit => hit.numbers), ['2788a', '2788b', '2788c'], 'Bare number finds all lettered variants first');
+assert.deepEqual(searchLibrary('2788a', 'muslim').hits.map(hit => hit.numbers), ['2788a'], 'Lettered number stays exact');
+for (const number of [2788, '2788a', '2788b', '2788c']) assert.ok(matchesHadithNumber(number, '2788'));
+assert.ok(matchesHadithNumber('2788a', '2788A'));
+for (const [number, query] of [['27880a', '2788'], ['2788a', '278'], ['2788b', '2788a']]) assert.ok(!matchesHadithNumber(number, query), 'No prefix or sibling-number match');
 assert.equal(family.counts.topic, 1);
 assert.equal(family.total, 2);
 assert.equal(new Set(family.hits.map(hit => hit.id)).size, family.hits.length);
@@ -100,7 +105,18 @@ const { renderToStaticMarkup } = require('react-dom/server');
 const { createElement } = require('react');
 const QuranAyah = load('src/components/hadith/QuranAyah.tsx').default;
 const markup = renderToStaticMarkup(createElement(QuranAyah, { ayah, showArabic: false, alwaysTafsir: false, audio: { active: '', playing: false, loading: false, error: '', toggle() {} } }));
-assert.ok(markup.includes('Связанные темы') && markup.includes('/quran/index?topic='), 'Related topics render as local links');
+assert.ok(markup.includes('Связанные темы') && markup.includes('/quran/topics/chapter/'), 'Related topics render as local links');
+assert.ok(markup.includes('/quran/topics?q=4:35'), 'All verse associations open in the topics reader');
+const exactTopics = searchTopics('4:35');
+const expectedItems = source.topics.flatMap(topic => topic.items.filter(item => item.verse_keys.includes('4:35')).map(item => item.id));
+assert.deepEqual(exactTopics.topics.map(topic => topic.item_id).sort(), expectedItems.sort(), 'Exact verse finds every retained association');
+assert.deepEqual([...exactTopics.verses.keys()], ['4:35'], 'Exact verse does not include neighbouring addresses');
+assert.equal(searchTopics('13:94').topics.length, 0, 'Invalid verse has no thematic associations');
+for (const topic of searchTopics('сохранение семьи').topics) {
+  const view = readView(topic.href);
+  assert.equal(view?.collection, 'quran-topics');
+  assert.equal(view?.chapter, topic.item_id, 'Search opens the matching description in the topics reader');
+}
 const HadithReader = load('src/components/hadith/HadithReader.tsx').default;
 assert.ok(renderToStaticMarkup(createElement(HadithReader, { catalog: [], initialView: { title: 'Библиотека', records: [] } })).includes('library-search'));
 console.log(`PASS: ${cases.length} queries, ${associations} checked note projections, scopes, grade, pagination, reverse links, API validation. ${Math.round(performance.now() - started)} ms overall; queries max ${Math.max(...timings).toFixed(1)} ms. No site build.`);

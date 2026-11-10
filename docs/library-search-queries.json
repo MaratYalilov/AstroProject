@@ -51,6 +51,8 @@
     { "query": "بِسْمِ اللَّهِ", "equivalentVerses": "بسم الله" },
     { "query": "4a", "scope": "muslim", "hadith": "muslim:4a", "href": "/hadith-sbornik/muslim/4a" },
     { "query": "8a", "scope": "muslim", "hadith": "muslim:8a", "href": "/hadith-sbornik/muslim/8a" },
+    { "query": "2788", "scope": "muslim", "hadith": "muslim:2788a", "href": "/hadith-sbornik/muslim/2788a" },
+    { "query": "2788a", "scope": "muslim", "hadith": "muslim:2788a", "href": "/hadith-sbornik/muslim/2788a" },
     { "query": "несуществующаярубрикаабвгд", "emptyTopics": true, "emptyVerses": true }
   ]
 }

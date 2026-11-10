@@ -2,6 +2,14 @@ export const normalizeSearch = (value: string) => value.toLocaleLowerCase('ru').
   .replace(/[\u0300-\u036f\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06ed\u0640]/g, '')
   .replace(/[أإآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/ё/g, 'е');
 
+export function matchesHadithNumber(number: number | string, query: string) {
+  const value = normalizeSearch(String(number));
+  const q = normalizeSearch(query.trim());
+  if (value === q) return true;
+  // A bare number includes its lettered variants, never longer numeric prefixes.
+  return /^\d+$/.test(q) && /^(\d+)[a-z]+$/.exec(value)?.[1] === q;
+}
+
 // Keep original UTF-16 positions so matching without vowel marks preserves the displayed text.
 export function searchRanges(value: string, query: string): [number, number][] {
   let normalized = '';

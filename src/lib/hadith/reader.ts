@@ -1,6 +1,6 @@
 import { collections, indexes, normalize, collectionPath, recordPath, text, type HadithRecord } from './collections';
 import { gradingInfo, isFromTwoSahihs, collectionMembership, type GradeId, type GradeFilterId } from './grading';
-import { searchSnippet } from './searchText';
+import { matchesHadithNumber, searchSnippet } from './searchText';
 import { chapterPath, chapterSlug, unassignedChapter } from './paths';
 import { isBookNoindex } from './indexing';
 import { quranCatalog, readQuranView, searchQuran, type ReaderAyah } from './quranReader';
@@ -107,8 +107,11 @@ export function searchLibrary(query: string, scope = '', page = 1, grade = '', g
     }
   }
   for (const c of collections.filter(c => !scope || c.collection === scope)) {
-    for (const item of indexes.get(c.collection)!.search) {
-      if (!terms.every(term => item.value.includes(term)) && !item.record.hadith_numbers.some(n => normalize(String(n)) === normalize(q))) continue;
+    const numberMatch = (item: { record: HadithRecord }) =>
+      item.record.hadith_numbers.some(n => matchesHadithNumber(n, q));
+    const candidates = indexes.get(c.collection)!.search.filter(item => numberMatch(item) || terms.every(term => item.value.includes(term)));
+    if (/^\d+[a-z]*$/i.test(q)) candidates.sort((a, b) => Number(numberMatch(b)) - Number(numberMatch(a)));
+    for (const item of candidates) {
       const category = gradingInfo(item.record.grading).category;
       unfilteredTotal++;
       gradeCounts[category] = (gradeCounts[category] ?? 0) + 1;

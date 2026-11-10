@@ -38,13 +38,14 @@ export default function QuranAyah({ ayah, showArabic, alwaysTafsir, audio }: { a
         {active && audio.loading ? <LoaderCircle className="reader-spin" size={17} aria-hidden="true" /> : active && audio.playing ? <Pause size={17} aria-hidden="true" /> : <Play size={17} aria-hidden="true" />}
       </button>
       <button type="button" className="reader-ayah-action" title={copyLabel} aria-label={copyLabel} onClick={copyAyah}>{copyState === 'copied' ? <Check size={17} aria-hidden="true" /> : <Copy size={17} aria-hidden="true" />}</button>
+      {thematic && <span className="reader-ayah-caption">{thematic.referenceLabel}</span>}
       <span className="sr-only" role="status">{copyState === 'copied' ? 'Аят скопирован' : copyState === 'error' ? 'Не удалось скопировать аят' : ''}</span>
     </div>
     {active && audio.error && <p className="reader-audio-error" role="alert">{audio.error}</p>}
     {!thematic && !!ayah.relatedTopics?.total && <details className="reader-related-topics">
       <summary>Связанные темы ({ayah.relatedTopics.total})</summary>
       {ayah.relatedTopics.items.map(topic => <p key={topic.item_id}><a href={topic.href}>{topic.title}: {topic.description}</a></p>)}
-      <a href={`/quran/index?q=${ayah.surah}:${ayah.ayah}`}>Все связи аята в указателе</a>
+      <a href={`/quran/topics?q=${ayah.surah}:${ayah.ayah}`}>Все связи аята в указателе</a>
     </details>}
     {open && <section id={tafsirId} className="reader-tafsir" aria-label={`Тафсир Саади к аяту ${ayah.surah}:${ayah.ayah}`}>
       {ayah.tafsir ? clean(ayah.tafsir).split(/\n\s*\n/).filter(Boolean).map((paragraph, i) => <p key={i}>{paragraph}</p>) : <p className="reader-source">В локальной базе нет отдельного русского толкования этого аята.</p>}

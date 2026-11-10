@@ -1,5 +1,6 @@
 import indexRaw from '../../data/quran-index/index.json?raw';
-import type { ReviewTopic, ReviewItem, VerseNote } from '../../utils/quranIndexReview';
+import type { ReviewTopic, ReviewItem, VerseNote } from './types';
+import { topicChapterPath } from './paths';
 import { normalizeSearch } from '../hadith/searchText';
 import { nameVariants, descriptionAliases } from './synonyms';
 
@@ -14,14 +15,13 @@ const clean = (value: string) => value.replace(/[\u2013\u2014]/g, '-');
 const fold = (value: string) => normalizeSearch(value).replace(/[’‘']/g, '').replace(/[^\p{L}\p{N}:]+/gu, ' ').trim().replace(/\s+/g, ' ');
 const variants = new Map<string, string>(nameVariants.flatMap(group => group.map(name => [fold(name), fold(group[0])])));
 const canonical = (value: string) => fold(value).split(' ').map(word => variants.get(word) ?? word).join(' ');
-const topicHref = (id: string, itemId: string) => `/quran/index?topic=${encodeURIComponent(id)}&item=${encodeURIComponent(itemId)}`;
 export interface TopicReason extends VerseNote {
   topic_id: string; item_id: string; title: string; description: string; href: string;
   basis_label: string; sources: { id: string; title: string }[];
 }
 export interface TopicHit {
   id: string; topic_id: string; item_id: string; title: string; description: string;
-  href: string; verseCount: number; matched_field: 'title' | 'description' | 'explanation' | 'alias';
+  href: string; verseCount: number; matched_field: 'title' | 'description' | 'explanation' | 'alias' | 'address';
   via_topic_ids: string[];
 }
 type Entry = { topic: ReviewTopic; item: ReviewItem; title: string; description: string; notes: Map<string, string> };
@@ -54,7 +54,7 @@ function reason(entry: Entry, key: string): TopicReason {
   return { ...note, explanation: clean(note.explanation),
     qualification: note.qualification && clean(note.qualification), usage_note: note.usage_note && clean(note.usage_note),
     topic_id: entry.topic.id, item_id: entry.item.id, title: clean(entry.topic.title), description: clean(entry.item.description),
-    href: topicHref(entry.topic.id, entry.item.id), basis_label: clean(data.basis_definitions[note.basis] ?? note.basis),
+    href: topicChapterPath(entry.item), basis_label: clean(data.basis_definitions[note.basis] ?? note.basis),
     sources: note.source_ids.map(id => ({ id, title: clean(data.sources[id]?.title ?? id) })),
   };
 }
@@ -68,14 +68,26 @@ export function relatedTopics(key: string) {
   const rows = reverse.get(key) ?? [];
   return { total: rows.length, items: rows.slice(0, 3).map(entry => ({
     topic_id: entry.topic.id, item_id: entry.item.id, title: clean(entry.topic.title),
-    description: clean(entry.item.description), href: topicHref(entry.topic.id, entry.item.id),
+    description: clean(entry.item.description), href: topicChapterPath(entry.item),
   })) };
 }
 export function searchTopics(query: string) {
   const q = canonical(query);
   const topics: TopicHit[] = [];
   const verses = new Map<string, TopicReason[]>();
-  if (!q || /^\d+\s*:\s*\d+$/.test(q)) return { topics, verses };
+  if (!q) return { topics, verses };
+  const address = /^(\d+)\s*:\s*(\d+)$/.exec(q);
+  if (address) {
+    const key = `${Number(address[1])}:${Number(address[2])}`;
+    const linked = reverse.get(key) ?? [];
+    for (const entry of linked) topics.push({
+      id: entry.item.id, topic_id: entry.topic.id, item_id: entry.item.id,
+      title: clean(entry.topic.title), description: clean(entry.item.description), href: topicChapterPath(entry.item),
+      verseCount: 1, matched_field: 'address', via_topic_ids: [],
+    });
+    if (linked.length) verses.set(key, linked.map(entry => reason(entry, key)));
+    return { topics, verses };
+  }
   const terms = q.split(' ');
   const matches = (value: string) => terms.every(term => value.includes(term));
   const routed = new Set<string>(descriptionAliases.filter(alias => alias.queries.some(value => canonical(value) === q)).map(alias => alias.itemId));
@@ -97,7 +109,7 @@ export function searchTopics(query: string) {
   scored.sort((a, b) => b.score - a.score || a.entry.item.id.localeCompare(b.entry.item.id));
   for (const { entry, field, keys } of scored) {
     topics.push({ id: entry.item.id, topic_id: entry.topic.id, item_id: entry.item.id,
-      title: clean(entry.topic.title), description: clean(entry.item.description), href: topicHref(entry.topic.id, entry.item.id),
+      title: clean(entry.topic.title), description: clean(entry.item.description), href: topicChapterPath(entry.item),
       verseCount: keys.length, matched_field: field, via_topic_ids: redirects.get(entry.topic.id) ?? [] });
     for (const key of keys) {
       if (!entry.item.verse_notes[key]) continue;

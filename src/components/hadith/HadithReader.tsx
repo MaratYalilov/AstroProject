@@ -7,6 +7,7 @@ import { referenceUrl } from '../../lib/hadith/references';
 import { collectionSymbols } from '../../lib/hadith/symbols';
 import CollectionBookIcon from './CollectionBookIcon';
 import QuranAyah from './QuranAyah';
+import QuranTopicsIntro from './QuranTopicsIntro';
 import { useQuranAudio } from './useQuranAudio';
 
 type Chapter = { id: string; book_id: number; title_ru: string; title_ar: string; count: number; href: string };
@@ -128,6 +129,19 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
   function follow(event: React.MouseEvent<HTMLAnchorElement>, path: string, revealArabic = false) {
     if (!ordinaryClick(event)) return;
     event.preventDefault(); void navigate(path, true, revealArabic);
+  }
+  function jumpToAyah(event: React.MouseEvent<HTMLAnchorElement>, id: string) {
+    if (!ordinaryClick(event)) return;
+    const container = scroller.current;
+    const target = document.getElementById(`quran-ayah-${id}`);
+    if (!container || !target || !container.contains(target)) return;
+    event.preventDefault();
+    // Native fragment navigation fires popstate and reloads the chapter through our router.
+    // Scroll this pane directly and update the fragment without another navigation.
+    window.history.replaceState(window.history.state, '', `#quran-ayah-${id}`);
+    const inset = parseFloat(window.getComputedStyle(container).scrollPaddingTop) || 0;
+    container.scrollTo({ top: container.scrollTop + target.getBoundingClientRect().top - container.getBoundingClientRect().top - inset, behavior: 'instant' });
+    checkDown();
   }
   useEffect(() => {
     const pop = () => { void navigate(window.location.pathname, false); };
@@ -345,9 +359,10 @@ export default function HadithReader({ catalog, initialView }: { catalog: Reader
         <div className={`reader-content${isQuran ? ' reader-content-quran' : ''}`} ref={content}>
           {loading && <p className="reader-status" role="status"><LoaderCircle className="reader-spin" size={16} /> Загрузка…</p>}
           {error && <p className="reader-status" role="alert">{error}</p>}
+          {view.collection === 'quran-topics' && !view.book && !submitted && <QuranTopicsIntro />}
           {!hasChapter && view.collection === 'quran-topics' && view.book && !submitted && <header className="reader-chapter-heading"><h1>{view.title}</h1>{view.topicNote && <p className="reader-source">{clean(view.topicNote)}</p>}{view.topicLinks?.map(link => <p key={link.href}><a href={link.href} onClick={event => follow(event, link.href)}>См. {link.title}</a></p>)}</header>}
           {hasChapter && isQuran ? <>
-            <header className="reader-chapter-heading">{view.topicTitle && <p className="reader-source">{view.topicTitle}</p>}<h1 ref={chapterHeading}>{view.title}</h1>{showArabic && view.arabic && <p className="arab" lang="ar" dir="rtl">{view.arabic}</p>}<p className="reader-source">Аятов: {view.ayahs?.length ?? 0}</p></header>
+            <header className="reader-chapter-heading">{view.topicTitle && <p className="reader-source">{view.topicTitle}</p>}<h1 ref={chapterHeading}>{view.title}</h1>{showArabic && view.arabic && <p className="arab" lang="ar" dir="rtl">{view.arabic}</p>}<p className="reader-source">Аятов: {view.ayahs?.length ?? 0}</p>{view.collection === 'quran-topics' && <div className="reader-topic-ayah-links">{view.ayahs?.map(ayah => 'thematic' in ayah && <a key={ayah.id} href={`#quran-ayah-${ayah.id}`} onClick={event => jumpToAyah(event, ayah.id)}>{ayah.thematic.referenceLabel}</a>)}</div>}</header>
             {showArabic && view.basmalaHtml && <div className="qcf-ayah reader-quran-arabic reader-basmala" lang="ar" dir="rtl" dangerouslySetInnerHTML={{ __html: view.basmalaHtml }} />}
             {view.ayahs?.map(ayah => <QuranAyah key={ayah.id} ayah={ayah} showArabic={showArabic || temporaryArabicTarget === ayah.id} alwaysTafsir={alwaysTafsir} audio={quranAudio.state} />)}
           </> : hasChapter ? <>
